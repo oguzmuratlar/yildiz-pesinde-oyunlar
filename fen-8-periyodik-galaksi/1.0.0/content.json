@@ -1,0 +1,526 @@
+{
+ "gameId": "fen-8-periyodik-galaksi",
+ "unit": "8. Sınıf 4. Ünite",
+ "topic": "Periyodik Tablo",
+ "sourceRef": "Kaynakta doğrulanmadı: genel periyodik tablo bilgisi (8. sınıf ders kitabı yüklenmedi)",
+ "outcomes": {
+  "K1": "Elementleri metal, ametal, yarı metal ve soygaz olarak sınıflandırır (kitapta doğrulanmadı).",
+  "K2": "İlk 20 elementin periyodik tablodaki yerini (periyot ve grup) belirler (kitapta doğrulanmadı)."
+ },
+ "elements": [
+  {
+   "z": 1,
+   "sym": "H",
+   "name": "Hidrojen",
+   "p": 1,
+   "g": 1,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-h"
+  },
+  {
+   "z": 2,
+   "sym": "He",
+   "name": "Helyum",
+   "p": 1,
+   "g": 8,
+   "cls": "soygaz",
+   "questionId": "periyodik-v1-s2-he"
+  },
+  {
+   "z": 3,
+   "sym": "Li",
+   "name": "Lityum",
+   "p": 2,
+   "g": 1,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-li"
+  },
+  {
+   "z": 4,
+   "sym": "Be",
+   "name": "Berilyum",
+   "p": 2,
+   "g": 2,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-be"
+  },
+  {
+   "z": 5,
+   "sym": "B",
+   "name": "Bor",
+   "p": 2,
+   "g": 3,
+   "cls": "yarı metal",
+   "questionId": "periyodik-v1-s2-b"
+  },
+  {
+   "z": 6,
+   "sym": "C",
+   "name": "Karbon",
+   "p": 2,
+   "g": 4,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-c"
+  },
+  {
+   "z": 7,
+   "sym": "N",
+   "name": "Azot",
+   "p": 2,
+   "g": 5,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-n"
+  },
+  {
+   "z": 8,
+   "sym": "O",
+   "name": "Oksijen",
+   "p": 2,
+   "g": 6,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-o"
+  },
+  {
+   "z": 9,
+   "sym": "F",
+   "name": "Flor",
+   "p": 2,
+   "g": 7,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-f"
+  },
+  {
+   "z": 10,
+   "sym": "Ne",
+   "name": "Neon",
+   "p": 2,
+   "g": 8,
+   "cls": "soygaz",
+   "questionId": "periyodik-v1-s2-ne"
+  },
+  {
+   "z": 11,
+   "sym": "Na",
+   "name": "Sodyum",
+   "p": 3,
+   "g": 1,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-na"
+  },
+  {
+   "z": 12,
+   "sym": "Mg",
+   "name": "Magnezyum",
+   "p": 3,
+   "g": 2,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-mg"
+  },
+  {
+   "z": 13,
+   "sym": "Al",
+   "name": "Alüminyum",
+   "p": 3,
+   "g": 3,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-al"
+  },
+  {
+   "z": 14,
+   "sym": "Si",
+   "name": "Silisyum",
+   "p": 3,
+   "g": 4,
+   "cls": "yarı metal",
+   "questionId": "periyodik-v1-s2-si"
+  },
+  {
+   "z": 15,
+   "sym": "P",
+   "name": "Fosfor",
+   "p": 3,
+   "g": 5,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-p"
+  },
+  {
+   "z": 16,
+   "sym": "S",
+   "name": "Kükürt",
+   "p": 3,
+   "g": 6,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-s"
+  },
+  {
+   "z": 17,
+   "sym": "Cl",
+   "name": "Klor",
+   "p": 3,
+   "g": 7,
+   "cls": "ametal",
+   "questionId": "periyodik-v1-s2-cl"
+  },
+  {
+   "z": 18,
+   "sym": "Ar",
+   "name": "Argon",
+   "p": 3,
+   "g": 8,
+   "cls": "soygaz",
+   "questionId": "periyodik-v1-s2-ar"
+  },
+  {
+   "z": 19,
+   "sym": "K",
+   "name": "Potasyum",
+   "p": 4,
+   "g": 1,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-k"
+  },
+  {
+   "z": 20,
+   "sym": "Ca",
+   "name": "Kalsiyum",
+   "p": 4,
+   "g": 2,
+   "cls": "metal",
+   "questionId": "periyodik-v1-s2-ca"
+  }
+ ],
+ "blocks": [
+  {
+   "id": "b1",
+   "questionId": "periyodik-v1-s1-b1",
+   "name": "Metal",
+   "cls": "metal",
+   "label": "Metal bloğu",
+   "syms": [
+    "Li",
+    "Be",
+    "Na",
+    "Mg",
+    "K",
+    "Ca",
+    "Al"
+   ],
+   "place": "Tablonun sol tarafı: 1A–2A gruplarının tamamı (Li, Be, Na, Mg, K, Ca) ve 3. periyot 3A'daki Al.",
+   "explanation": "Bu elementler metaldir: parlak, ısı ve elektriği iyi iletir, tel ve levha hâline getirilebilir. Tablonun sol tarafında yer alırlar.",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "drag_block"
+  },
+  {
+   "id": "b2",
+   "questionId": "periyodik-v1-s1-b2",
+   "name": "Yarı metal",
+   "cls": "yarı metal",
+   "label": "Yarı metal bloğu",
+   "syms": [
+    "B",
+    "Si"
+   ],
+   "place": "B (2. periyot, 3A) ve Si (3. periyot, 4A): metallerle ametaller arasındaki basamak çizgisi.",
+   "explanation": "Bor ve silisyum yarı metaldir. Hem metallerin hem ametallerin bazı özelliklerini taşırlar ve tabloda ikisinin arasında yer alırlar.",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "drag_block"
+  },
+  {
+   "id": "b3",
+   "questionId": "periyodik-v1-s1-b3",
+   "name": "Ametal",
+   "cls": "ametal",
+   "label": "Ametal bloğu",
+   "syms": [
+    "C",
+    "N",
+    "O",
+    "F",
+    "P",
+    "S",
+    "Cl"
+   ],
+   "place": "C, N, O, F (2. periyot, 4A–7A) ve P, S, Cl (3. periyot, 5A–7A).",
+   "explanation": "Karbon, azot, oksijen, flor, fosfor, kükürt ve klor ametaldir. Ametaller genellikle mat görünümlüdür ve ısı ile elektriği iyi iletmez.",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "drag_block"
+  },
+  {
+   "id": "b4",
+   "questionId": "periyodik-v1-s1-b4",
+   "name": "Soygaz",
+   "cls": "soygaz",
+   "label": "Soygaz bloğu",
+   "syms": [
+    "He",
+    "Ne",
+    "Ar"
+   ],
+   "place": "8A grubu: He (1. periyot), Ne (2. periyot), Ar (3. periyot).",
+   "explanation": "Helyum, neon ve argon soygazdır. Tablonun en sağ sütunu olan 8A grubunda yer alırlar ve kararlı yapıdadırlar.",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "drag_block"
+  },
+  {
+   "id": "b5",
+   "questionId": "periyodik-v1-s1-b5",
+   "name": "Hidrojen",
+   "cls": "ametal",
+   "label": "Hidrojen bloğu",
+   "syms": [
+    "H"
+   ],
+   "place": "Hidrojen (H): 1. periyot, 1A grubu. Hidrojen 1A'da yer alsa da ametaldir.",
+   "explanation": "Hidrojen 1A grubunda yer alır ama metal değil, ametaldir. Bu yüzden ametal olarak sınıflandırılır.",
+   "outcomeKey": "K1",
+   "difficulty": "hard",
+   "questionType": "drag_block"
+  }
+ ],
+ "tests": [
+  {
+   "id": "t01",
+   "questionId": "periyodik-v1-s3-t01",
+   "outcomeKey": "K2",
+   "difficulty": "easy",
+   "questionType": "multiple_choice",
+   "text": "Modern periyodik tabloda elementler hangi ölçüte göre sıralanır?",
+   "options": [
+    "Atom numaralarının artışına göre",
+    "Atom kütlelerinin azalışına göre",
+    "Keşfedilme tarihlerine göre",
+    "Oda sıcaklığındaki hâllerine göre"
+   ],
+   "correct": 0,
+   "explanation": "Elementler atom numaralarının artışına göre sıralanır. Tablo soldan sağa ve yukarıdan aşağıya doğru atom numarası artacak şekilde dizilir."
+  },
+  {
+   "id": "t02",
+   "questionId": "periyodik-v1-s3-t02",
+   "outcomeKey": "K2",
+   "difficulty": "easy",
+   "questionType": "multiple_choice",
+   "text": "Periyodik tablodaki yatay sıralara ne ad verilir?",
+   "options": [
+    "Periyot",
+    "Grup",
+    "Katman",
+    "Sınıf"
+   ],
+   "correct": 0,
+   "explanation": "Yatay sıralara periyot, dikey sütunlara grup denir."
+  },
+  {
+   "id": "t03",
+   "questionId": "periyodik-v1-s3-t03",
+   "outcomeKey": "K2",
+   "difficulty": "easy",
+   "questionType": "multiple_choice",
+   "text": "Periyodik tablodaki dikey sütunlara ne ad verilir?",
+   "options": [
+    "Grup",
+    "Periyot",
+    "Satır",
+    "Blok"
+   ],
+   "correct": 0,
+   "explanation": "Dikey sütunlara grup, yatay sıralara periyot denir."
+  },
+  {
+   "id": "t04",
+   "questionId": "periyodik-v1-s3-t04",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Aşağıdakilerden hangisi bir soygazdır?",
+   "options": [
+    "Neon (Ne)",
+    "Azot (N)",
+    "Sodyum (Na)",
+    "Oksijen (O)"
+   ],
+   "correct": 0,
+   "explanation": "Neon 8A grubunda yer alan bir soygazdır. Azot ve oksijen ametal, sodyum metaldir."
+  },
+  {
+   "id": "t05",
+   "questionId": "periyodik-v1-s3-t05",
+   "outcomeKey": "K1",
+   "difficulty": "easy",
+   "questionType": "multiple_choice",
+   "text": "Parlak olan, tel ve levha hâline getirilebilen, ısıyı ve elektriği iyi ileten elementlere ne ad verilir?",
+   "options": [
+    "Metal",
+    "Ametal",
+    "Yarı metal",
+    "Soygaz"
+   ],
+   "correct": 0,
+   "explanation": "Bu özellikler metallere aittir."
+  },
+  {
+   "id": "t06",
+   "questionId": "periyodik-v1-s3-t06",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Silisyum (Si) elementi için aşağıdakilerden hangisi doğrudur?",
+   "options": [
+    "Yarı metaldir.",
+    "Soygazdır.",
+    "Ametaldir ve gaz hâlindedir.",
+    "Metaldir ve sıvı hâlindedir."
+   ],
+   "correct": 0,
+   "explanation": "Silisyum bir yarı metaldir. Hem metallerin hem ametallerin bazı özelliklerini gösterir."
+  },
+  {
+   "id": "t07",
+   "questionId": "periyodik-v1-s3-t07",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Aşağıdaki elementlerden hangisi metal değildir?",
+   "options": [
+    "Kükürt (S)",
+    "Sodyum (Na)",
+    "Magnezyum (Mg)",
+    "Alüminyum (Al)"
+   ],
+   "correct": 0,
+   "explanation": "Kükürt ametaldir. Sodyum, magnezyum ve alüminyum metaldir."
+  },
+  {
+   "id": "t08",
+   "questionId": "periyodik-v1-s3-t08",
+   "outcomeKey": "K2",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Periyodik tabloda aynı grupta bulunan elementler için aşağıdakilerden hangisi söylenebilir?",
+   "options": [
+    "Kimyasal özellikleri birbirine benzer.",
+    "Atom numaraları birbirine eşittir.",
+    "Hepsi aynı periyotta bulunur.",
+    "Hepsi oda sıcaklığında gaz hâlindedir."
+   ],
+   "correct": 0,
+   "explanation": "Aynı gruptaki elementlerin kimyasal özellikleri birbirine benzer."
+  },
+  {
+   "id": "t09",
+   "questionId": "periyodik-v1-s3-t09",
+   "outcomeKey": "K1",
+   "difficulty": "easy",
+   "questionType": "multiple_choice",
+   "text": "Klor (Cl) elementi aşağıdaki sınıflardan hangisine girer?",
+   "options": [
+    "Ametal",
+    "Metal",
+    "Yarı metal",
+    "Soygaz"
+   ],
+   "correct": 0,
+   "explanation": "Klor, 7A grubunda yer alan bir ametaldir."
+  },
+  {
+   "id": "t10",
+   "questionId": "periyodik-v1-s3-t10",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "8A grubundaki elementlerin ortak özelliği aşağıdakilerden hangisidir?",
+   "options": [
+    "Kararlıdırlar ve kolay bileşik oluşturmazlar.",
+    "Çok aktif metallerdir ve kolay bileşik oluştururlar.",
+    "Hepsi oda sıcaklığında sıvıdır.",
+    "Hepsi yarı metaldir."
+   ],
+   "correct": 0,
+   "explanation": "8A grubundaki elementler soygazdır. Kararlı yapıdadırlar ve kolay bileşik oluşturmazlar."
+  },
+  {
+   "id": "t11",
+   "questionId": "periyodik-v1-s3-t11",
+   "outcomeKey": "K1",
+   "difficulty": "hard",
+   "questionType": "multiple_choice",
+   "text": "Hidrojen (H) periyodik tabloda 1A grubunda yer alır. Hidrojen hangi sınıfa girer?",
+   "options": [
+    "Ametal",
+    "Metal",
+    "Yarı metal",
+    "Soygaz"
+   ],
+   "correct": 0,
+   "explanation": "Hidrojen 1A grubunda yer alsa da ametaldir."
+  },
+  {
+   "id": "t12",
+   "questionId": "periyodik-v1-s3-t12",
+   "outcomeKey": "K2",
+   "difficulty": "hard",
+   "questionType": "multiple_choice",
+   "text": "Periyodik tabloda 3. periyotta ve 8A grubunda yer alan element hangisidir?",
+   "options": [
+    "Argon (Ar)",
+    "Neon (Ne)",
+    "Helyum (He)",
+    "Klor (Cl)"
+   ],
+   "correct": 0,
+   "explanation": "Argon 3. periyotta, 8A grubunda yer alır. Neon 2. periyotta, helyum 1. periyotta bulunur; klor 7A grubundadır."
+  },
+  {
+   "id": "t13",
+   "questionId": "periyodik-v1-s3-t13",
+   "outcomeKey": "K2",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Magnezyum (Mg) periyodik tablonun hangi grubunda yer alır?",
+   "options": [
+    "2A",
+    "1A",
+    "3A",
+    "7A"
+   ],
+   "correct": 0,
+   "explanation": "Magnezyum (atom numarası 12) 3. periyotta, 2A grubunda yer alır."
+  },
+  {
+   "id": "t14",
+   "questionId": "periyodik-v1-s3-t14",
+   "outcomeKey": "K2",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Aşağıdaki elementlerden hangisi 2. periyotta yer alır?",
+   "options": [
+    "Oksijen (O)",
+    "Sodyum (Na)",
+    "Kalsiyum (Ca)",
+    "Argon (Ar)"
+   ],
+   "correct": 0,
+   "explanation": "Oksijen 2. periyotta yer alır. Sodyum ve argon 3., kalsiyum 4. periyottadır."
+  },
+  {
+   "id": "t15",
+   "questionId": "periyodik-v1-s3-t15",
+   "outcomeKey": "K1",
+   "difficulty": "medium",
+   "questionType": "multiple_choice",
+   "text": "Mat görünümlü, kırılgan ve ısıyı ya da elektriği genellikle iyi iletmeyen elementler hangi sınıfa girer?",
+   "options": [
+    "Ametal",
+    "Metal",
+    "Yarı metal",
+    "Soygaz"
+   ],
+   "correct": 0,
+   "explanation": "Bu özellikler genellikle ametallere aittir."
+  }
+ ]
+}

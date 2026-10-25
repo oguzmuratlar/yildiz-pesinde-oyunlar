@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; media-src data:; font-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="dark">
+<title>Periyodik Galaksi</title>
+<style>
+:root{
+  --bg1:#0a0e2a; --bg2:#1a1458; --bg3:#2b1a78; --ink:#f4f6ff; --mute:#aab3e8; --cyan:#4fe3ff; --yel:#ffd84d; --pink:#ff6ea8;
+  --good:#46e6a0; --bad:#ff6b6b; --panel:rgba(18,22,70,.72); --line:rgba(160,175,255,.28);
+  --metal:#ffb020; --ametal:#3ddc97; --yarim:#b388ff; --soygaz:#ff6ea8;
+  --cs:56px; --ts:36px; --g:3px;
+  --font:"Trebuchet MS","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;overflow:hidden;background:var(--bg1);color:var(--ink);font-family:var(--font);
+  -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+button{font-family:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* ================= ARKA PLAN ================= */
+#bg{position:fixed;top:0;right:0;bottom:0;left:0;overflow:hidden;z-index:0;
+  background:radial-gradient(ellipse at 20% 10%,#3b2a9a 0,transparent 55%),radial-gradient(ellipse at 85% 90%,#0e5a7a 0,transparent 50%),linear-gradient(160deg,var(--bg1),var(--bg2) 55%,var(--bg3))}
+#bg .st{position:absolute;border-radius:50%;background:#fff;animation:twk 3s ease-in-out infinite}
+#bg .atom{position:absolute;opacity:.5;animation:drift linear infinite}
+#bg .atom svg{width:100%;height:100%;animation:spin linear infinite}
+#bg .bub{position:absolute;bottom:-60px;display:grid;place-items:center;border-radius:50%;border:2px solid rgba(160,200,255,.35);
+  background:radial-gradient(circle at 30% 25%,rgba(255,255,255,.3),rgba(120,160,255,.08));color:rgba(220,235,255,.85);font-weight:800;animation:rise linear infinite}
+#bg .comet{position:absolute;top:-10%;width:160px;height:3px;border-radius:3px;background:linear-gradient(90deg,transparent,#fff);transform:rotate(35deg);opacity:0;animation:comet 9s ease-in infinite}
+#bg .planet{position:absolute;right:-30px;bottom:-30px;width:150px;height:150px;border-radius:50%;
+  background:radial-gradient(circle at 30% 30%,#ffb36b,#c4476b 60%,#5a1b5e);box-shadow:0 0 60px rgba(255,120,160,.35);opacity:.8}
+#bg .planet::after{content:"";position:absolute;left:-30px;right:-30px;top:48%;height:26px;border-radius:50%;border:4px solid rgba(255,230,180,.6);transform:rotate(-18deg)}
+#bg .rocket{position:absolute;left:-80px;top:62%;width:60px;height:30px;animation:fly 26s linear infinite;opacity:.9}
+@keyframes twk{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.3)}}
+@keyframes drift{0%{transform:translate(0,0)}50%{transform:translate(40px,-30px)}100%{transform:translate(0,0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes rise{0%{transform:translateY(0) translateX(0);opacity:0}10%{opacity:1}90%{opacity:.9}100%{transform:translateY(-115vh) translateX(30px);opacity:0}}
+@keyframes comet{0%{transform:translate(0,0) rotate(35deg);opacity:0}6%{opacity:1}22%{transform:translate(70vw,50vh) rotate(35deg);opacity:0}100%{opacity:0}}
+@keyframes fly{0%{transform:translateX(0) translateY(0) rotate(-8deg)}50%{transform:translateX(60vw) translateY(-40px) rotate(-8deg)}100%{transform:translateX(120vw) translateY(10px) rotate(-8deg)}}
+
+/* ================= DÜZEN ================= */
+#app{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1;display:grid;grid-template-rows:auto minmax(0,1fr);gap:6px;
+  padding:max(6px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
+#top{position:relative;display:flex;align-items:center;gap:8px;min-height:52px;padding:4px 8px;border-radius:16px;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(4px)}
+#mascotBox{position:relative;flex:none;width:46px;height:46px}
+#mascot{width:46px;height:46px;overflow:visible}
+#bubble{position:absolute;left:52px;top:8px;z-index:12;background:#fff;color:#23296b;border-radius:12px;padding:4px 10px;font:800 13px/1.2 var(--font);white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.35);opacity:0;transform:translateX(-8px);pointer-events:none;transition:opacity .2s,transform .2s}
+#bubble.on{opacity:1;transform:none}
+#steps{display:flex;gap:6px;list-style:none;margin:0;padding:0;flex:1;justify-content:center;min-width:0}
+.step{display:flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.08);border:2px solid transparent;font:800 13px/1.1 var(--font);color:var(--mute);white-space:nowrap}
+.step b{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.15);font-size:13px}
+.step.cur{color:#fff;border-color:var(--cyan);background:rgba(79,227,255,.16);box-shadow:0 0 16px rgba(79,227,255,.5);animation:glow 1.6s ease-in-out infinite}
+.step.done{color:#fff} .step.done b{background:var(--good);color:#06402a}
+#hud{display:flex;align-items:center;gap:8px;flex:none}
+#energy{position:relative;width:96px;height:24px;border-radius:999px;background:rgba(0,0,0,.4);border:2px solid var(--line);overflow:hidden}
+#energyFill{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,#4fe3ff,#ffd84d,#ff6ea8);transition:width .5s cubic-bezier(.3,1.3,.5,1)}
+#energyTxt{position:absolute;inset:0;display:grid;place-items:center;font:900 12px/1 var(--font);text-shadow:0 1px 2px rgba(0,0,0,.6)}
+#combo{min-width:46px;text-align:center;font:900 14px/1 var(--font);color:var(--yel);opacity:0;transform:scale(.6);transition:opacity .2s,transform .2s}
+#combo.on{opacity:1;transform:scale(1)}
+.ibtn{width:44px;height:44px;border-radius:14px;border:2px solid var(--line);background:rgba(255,255,255,.1);display:grid;place-items:center;flex:none;font-size:20px}
+.ibtn[aria-pressed="true"]{opacity:.55;border-style:dashed}
+@keyframes glow{0%,100%{box-shadow:0 0 10px rgba(79,227,255,.4)}50%{box-shadow:0 0 22px rgba(79,227,255,.8)}}
+
+#stage{min-height:0;min-width:0;position:relative}
+#play{position:absolute;top:0;right:0;bottom:0;left:0;display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:minmax(0,1fr);gap:10px;min-height:0}
+#tableBox{position:relative;align-self:start;border-radius:16px;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(3px)}
+#side{position:relative;min-width:0;min-height:0;display:flex;flex-direction:column;gap:6px;padding:8px 10px;border-radius:16px;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(3px);overflow:hidden}
+#stTag{align-self:flex-start;padding:2px 10px;border-radius:999px;background:var(--yel);color:#3a2b00;font:900 12px/1.3 var(--font)}
+#stTitle{margin:0;font:900 clamp(14px,2.6vh,19px)/1.15 var(--font)}
+#stDesc{margin:0;color:var(--mute);font:700 clamp(11px,2vh,14px)/1.3 var(--font)}
+#hint{margin:0;min-height:18px;font:800 clamp(11px,2vh,14px)/1.3 var(--font);color:var(--cyan)}
+#hint.bad{color:var(--bad)} #hint.good{color:var(--good)}
+#tray{position:relative;flex:1;min-height:0;display:flex;flex-wrap:wrap;gap:10px;align-content:flex-start;justify-content:center;padding:6px 0}
+#qCard{display:flex;flex-direction:column;gap:6px;align-items:center;text-align:center}
+#qText{margin:0;font:900 clamp(14px,3vh,20px)/1.25 var(--font)}
+#tileSlot{display:flex;justify-content:center;min-height:calc(var(--cs) + 10px);padding:4px}
+#hearts{display:flex;gap:6px;justify-content:center;font-size:20px}
+#hearts i{font-style:normal;transition:transform .3s,opacity .3s} #hearts i.off{opacity:.25;transform:scale(.7)}
+
+/* ================= TABLO ================= */
+.hd{position:absolute;display:grid;place-items:center;font:900 calc(var(--cs)*.26)/1 var(--font);color:var(--mute)}
+.hd.col{top:2px;height:calc(var(--cs)*.4)} .hd.row{left:2px}
+.cap{position:absolute;left:2px;top:2px;font:800 9px/1 var(--font);color:var(--mute);opacity:.8}
+.cell,.pc{--u:var(--cs);position:absolute;width:var(--u);height:var(--u);border-radius:calc(var(--u)*.18);display:grid;place-items:center;overflow:hidden;
+  border:2px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:#fff;font-family:var(--font)}
+.cell.slot{border-style:dashed;border-color:rgba(160,180,255,.45);background:rgba(90,110,255,.12)}
+.cell .z,.pc .z{position:absolute;left:calc(var(--u)*.08);top:calc(var(--u)*.04);font:800 calc(var(--u)*.2)/1 var(--font);opacity:.85}
+.cell .sy,.pc .sy{font:900 calc(var(--u)*.42)/1 var(--font);text-shadow:0 2px 0 rgba(0,0,0,.25)}
+.cell .nm,.pc .nm{position:absolute;left:0;right:0;bottom:calc(var(--u)*.05);text-align:center;font:700 calc(var(--u)*.16)/1 var(--font);opacity:.9}
+.cell.sm .nm{display:none}
+.cell .ex{display:none}
+.filled{border-style:solid}
+.c-metal{--k:var(--metal)} .c-ametal{--k:var(--ametal)} .c-yarim{--k:var(--yarim)} .c-soygaz{--k:var(--soygaz)}
+.filled.cls,.pc.cls{background:radial-gradient(circle at 28% 20%,rgba(255,255,255,.45),transparent 55%),var(--k);color:#1b1640;border-color:rgba(255,255,255,.75);text-shadow:none}
+.filled.cls .sy{text-shadow:none}
+.cell.hole{border-style:dashed;border-color:var(--yel);background:rgba(255,216,77,.12);animation:holeP 1.2s ease-in-out infinite}
+.cell.hole .sy{color:var(--yel);animation:q 1.2s ease-in-out infinite}
+.cell.hl{background:rgba(79,227,255,.28);border-color:var(--cyan);box-shadow:0 0 14px rgba(79,227,255,.7)}
+.cell.tip{animation:tip 1s ease-in-out 3}
+.cell.pop{animation:pop .5s cubic-bezier(.3,1.6,.5,1) both}
+.cell.flip{animation:flip .7s ease-out both}
+.cell.nope{animation:nope .45s}
+.cell.laser::after{content:"";position:absolute;top:0;bottom:0;left:-30%;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.9),transparent);animation:laser .7s ease-out}
+@keyframes holeP{0%,100%{box-shadow:0 0 0 rgba(255,216,77,0)}50%{box-shadow:0 0 16px rgba(255,216,77,.7)}}
+@keyframes q{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+@keyframes tip{0%,100%{box-shadow:0 0 0 rgba(79,227,255,0)}50%{box-shadow:0 0 18px 4px rgba(79,227,255,.95);background:rgba(79,227,255,.3)}}
+@keyframes pop{0%{transform:scale(.2);opacity:0}70%{transform:scale(1.18);opacity:1}100%{transform:scale(1)}}
+@keyframes flip{0%{transform:rotateY(90deg) scale(.7)}100%{transform:rotateY(0) scale(1)}}
+@keyframes nope{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+@keyframes laser{from{left:-30%}to{left:130%}}
+#kbCur{position:absolute;display:none;border:3px solid var(--yel);border-radius:10px;pointer-events:none;box-shadow:0 0 12px var(--yel)}
+#tableBox:focus-visible #kbCur{display:block}
+
+/* ================= PARÇALAR ================= */
+.piece{--gp:2px;position:relative;flex:none;width:calc(var(--cols)*var(--ts) + (var(--cols) - 1)*var(--gp));height:calc(var(--rows)*var(--ts) + (var(--rows) - 1)*var(--gp));
+  cursor:grab;touch-action:none;animation:bob 3s ease-in-out infinite;animation-delay:var(--dl,0s);border-radius:8px}
+.piece::before{content:"";position:absolute;top:-6px;right:-6px;bottom:-6px;left:-6px}
+.piece .pc{--u:var(--ts);left:calc(var(--c)*(var(--u) + var(--gp)));top:calc(var(--r)*(var(--u) + var(--gp)));
+  background:linear-gradient(145deg,#6f7bd0,#3a428f);border-color:rgba(200,210,255,.7);box-shadow:inset 0 0 8px rgba(255,255,255,.25)}
+.piece.sel{filter:drop-shadow(0 0 10px var(--yel));animation:none;transform:scale(1.06)}
+.piece.gone{animation:vanish .35s forwards}
+.piece.back{animation:back .4s}
+.piece.ghosted{opacity:.25;animation:none}
+.piece:active{cursor:grabbing}
+.ghost{--gp:var(--g);position:fixed;left:0;top:0;pointer-events:none;z-index:70;filter:drop-shadow(0 10px 14px rgba(0,0,0,.55));
+  width:calc(var(--cols)*var(--cs) + (var(--cols) - 1)*var(--g));height:calc(var(--rows)*var(--cs) + (var(--rows) - 1)*var(--g))}
+.ghost .pc{--u:var(--cs);left:calc(var(--c)*(var(--u) + var(--gp)));top:calc(var(--r)*(var(--u) + var(--gp)));background:linear-gradient(145deg,#8995ee,#4a53b5);border-color:#fff}
+.ghost.snap{transition:transform .16s ease-out}
+.tile{--u:var(--cs);position:relative;width:var(--cs);height:var(--cs);flex:none;touch-action:none;cursor:grab;border-radius:calc(var(--cs)*.18);
+  display:grid;place-items:center;background:linear-gradient(145deg,#8995ee,#4a53b5);border:3px solid #fff;box-shadow:0 0 18px rgba(130,150,255,.8);animation:bob 2.2s ease-in-out infinite}
+.tile::before{content:"";position:absolute;top:-6px;right:-6px;bottom:-6px;left:-6px}
+.tile .sy{font:900 calc(var(--cs)*.45)/1 var(--font)}
+.tile.sel{box-shadow:0 0 24px var(--yel);border-color:var(--yel)}
+.tile.ghosted{opacity:.25;animation:none}
+.tile.ghost{position:fixed;left:0;top:0;z-index:70;pointer-events:none;animation:none}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes vanish{to{opacity:0;transform:scale(.4)}}
+@keyframes back{0%{transform:translateX(0)}25%{transform:translateX(-8px)}75%{transform:translateX(8px)}100%{transform:none}}
+
+/* ================= TEST AŞAMASI ================= */
+#quiz{display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:8px;min-height:0;grid-column:1/-1}
+#qDots{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+#qDots i{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font:900 11px/1 var(--font);font-style:normal;background:rgba(255,255,255,.12);border:2px solid var(--line)}
+#qDots i.cur{border-color:var(--cyan);box-shadow:0 0 12px var(--cyan)} #qDots i.ok{background:var(--good);color:#06402a} #qDots i.no{background:var(--bad);color:#4a0a0a}
+#quizMain{display:grid;grid-template-rows:auto minmax(0,1fr);gap:8px;min-height:0}
+#quizQ{padding:10px 14px;border-radius:16px;background:var(--panel);border:1px solid var(--line);font:900 clamp(14px,3.1vh,22px)/1.28 var(--font);animation:slideIn .4s ease-out}
+#opts{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:minmax(48px,1fr);gap:8px;min-height:0}
+.opt{position:relative;display:flex;align-items:center;gap:10px;text-align:left;padding:6px 12px;border-radius:14px;border:2px solid var(--line);background:linear-gradient(145deg,rgba(90,110,255,.35),rgba(40,50,150,.5));
+  font:800 clamp(12px,2.6vh,18px)/1.2 var(--font);transition:transform .12s,box-shadow .2s;animation:slideIn .4s ease-out both}
+.opt:active:not(:disabled){transform:scale(.97)}
+.opt:hover:not(:disabled){box-shadow:0 0 16px rgba(79,227,255,.6)}
+.opt b{display:grid;place-items:center;flex:none;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.18);font-size:14px}
+.opt.ok{background:linear-gradient(145deg,#2fd68c,#0f8a5a);border-color:#caffe6;animation:okp .5s}
+.opt.no{background:linear-gradient(145deg,#ff7b7b,#b52b2b);border-color:#ffd0d0;animation:nope .45s}
+.opt.ok::after,.opt.no::after{position:absolute;right:10px;top:50%;transform:translateY(-50%);font:900 20px/1 var(--font)}
+.opt.ok::after{content:"✓"} .opt.no::after{content:"✗"}
+.opt:disabled{cursor:default}
+#qFb{display:flex;align-items:center;gap:10px;padding:6px 10px;border-radius:14px;background:var(--panel);border:1px solid var(--line);min-height:52px}
+#qFb p{flex:1;margin:0;font:700 clamp(11px,2.2vh,15px)/1.3 var(--font)}
+@keyframes slideIn{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+@keyframes okp{0%{transform:scale(1)}40%{transform:scale(1.05)}100%{transform:scale(1)}}
+
+/* ================= EKRANLAR ================= */
+.btn{min-height:48px;min-width:48px;padding:8px 24px;border:0;border-radius:16px;background:linear-gradient(#ffe36e,#ffb400);color:#3a2b00;font:900 18px/1.1 var(--font);box-shadow:0 5px 0 #b57d00,0 0 18px rgba(255,200,0,.5)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #b57d00}
+.btn.alt{background:linear-gradient(#fff,#cfd6ff);box-shadow:0 5px 0 #8a93cc;color:#1d2260}
+.screen{position:fixed;top:0;right:0;bottom:0;left:0;z-index:30;display:grid;place-items:center;overflow:hidden;
+  padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));background:rgba(8,10,40,.86)}
+.card{position:relative;width:min(640px,96vw);max-height:96vh;overflow:auto;text-align:center;padding:14px 22px;border-radius:24px;background:linear-gradient(160deg,rgba(40,44,130,.95),rgba(20,22,80,.97));border:2px solid var(--cyan);box-shadow:0 0 40px rgba(79,227,255,.35)}
+.card h1{margin:4px 0;font:900 clamp(24px,6vh,38px)/1.1 var(--font);background:linear-gradient(90deg,var(--cyan),var(--yel),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.card h2{margin:4px 0;font:900 clamp(20px,4.6vh,30px)/1.15 var(--font)}
+.card p,.card li{font:700 clamp(12px,2.5vh,16px)/1.4 var(--font);color:#dfe4ff}
+.card ul{list-style:none;padding:0;margin:8px 0;display:grid;gap:4px;text-align:left}
+.card .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+.demoTag{display:inline-block;margin:4px 0;padding:4px 12px;border-radius:999px;background:var(--pink);color:#3a0a1e;font:900 13px/1.2 var(--font)}
+.spin{width:38px;height:38px;margin:8px auto;border-radius:50%;border:5px solid rgba(255,255,255,.2);border-top-color:var(--cyan);animation:spin 1s linear infinite}
+.bigNum{display:inline-grid;place-items:center;width:clamp(54px,12vh,84px);height:clamp(54px,12vh,84px);border-radius:50%;background:radial-gradient(circle at 30% 25%,#8be9ff,#2a6bff);font:900 clamp(30px,7vh,48px)/1 var(--font);box-shadow:0 0 30px rgba(79,227,255,.8);animation:bigIn .7s cubic-bezier(.3,1.6,.5,1) both}
+@keyframes bigIn{0%{transform:scale(0) rotate(-180deg)}100%{transform:scale(1) rotate(0)}}
+.medals{display:flex;gap:6px;justify-content:center;margin:8px 0}
+.medals svg{width:clamp(34px,8vh,52px);height:auto}
+.medals svg.on{animation:pop .6s cubic-bezier(.3,1.6,.5,1) both}
+.stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:6px 0}
+.stat{background:rgba(0,0,0,.3);border-radius:12px;padding:6px 12px;font:800 15px/1.2 var(--font)}
+#review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
+#review li{background:rgba(0,0,0,.3);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:13px}
+#review b{color:var(--yel)}
+#rotate{z-index:50;background:rgba(8,10,40,.96)}
+.phone{width:56px;height:92px;margin:6px auto;border:5px solid #fff;border-radius:12px;animation:rot 2.4s ease-in-out infinite}
+@keyframes rot{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
+@media (orientation:landscape){#rotate{display:none}}
+
+/* ================= EFEKTLER ================= */
+#fx{position:fixed;top:0;right:0;bottom:0;left:0;pointer-events:none;z-index:65;overflow:hidden}
+.pt{position:absolute;width:8px;height:8px;border-radius:50%;animation:pt .8s ease-out forwards}
+.ft{position:absolute;font:900 18px/1 var(--font);color:var(--yel);text-shadow:0 2px 6px rgba(0,0,0,.7);animation:ft 1s ease-out forwards;white-space:nowrap}
+.ft.bad{color:var(--bad)} .ft.good{color:var(--good)}
+.xmark{position:absolute;width:56px;height:56px;margin:-28px 0 0 -28px;animation:xm .8s ease-out forwards}
+.conf{position:absolute;top:-14px;width:9px;height:14px;animation:fall 1.8s ease-in forwards}
+@keyframes pt{0%{transform:translate(0,0) scale(1);opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(.2);opacity:0}}
+@keyframes ft{0%{transform:translateY(0) scale(.7);opacity:0}15%{opacity:1;transform:translateY(-8px) scale(1.15)}100%{transform:translateY(-50px) scale(1);opacity:0}}
+@keyframes xm{0%{transform:scale(.3);opacity:0}25%{transform:scale(1.15);opacity:1}70%{transform:scale(1);opacity:1}100%{transform:scale(1);opacity:0}}
+@keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:.9}}
+.mascot-happy #mascotNuc{animation:jump .6s}
+.mascot-sad #mascotNuc{animation:sadw .6s}
+.mascot-cheer #mascotNuc{animation:jump .5s 3}
+#mascot .o1,#mascot .o2,#mascot .o3{transform-box:fill-box;transform-origin:center}
+#mascot .o1{animation:spin 3.2s linear infinite}
+#mascot .o2{animation:spin 4.6s linear infinite reverse}
+#mascot .o3{animation:spin 6s linear infinite}
+@keyframes jump{0%,100%{transform:translateY(0)}40%{transform:translateY(-8px) scale(1.08)}}
+@keyframes sadw{0%,100%{transform:rotate(0)}25%{transform:rotate(-10deg)}75%{transform:rotate(10deg)}}
+#app.shake{animation:shake .4s}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(5px)}60%{transform:translateX(-3px)}80%{transform:translateX(2px)}}
+
+html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition:none!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+@media (max-width:700px),(max-height:380px){
+  #top{min-height:50px;gap:6px;padding:3px 6px}
+  .step span{display:none} .step{padding:3px 6px}
+  #energy{width:70px;height:22px}
+  #side{padding:6px 8px;gap:4px}
+  .card{padding:10px 16px}
+}
+@media (max-height:440px){ #stDesc{display:none} #stTag{display:none} }
+@media (max-height:340px){ #stDesc{display:none} #quizQ{padding:6px 10px} #opts{gap:6px} }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="atomSym" viewBox="0 0 100 100"><g fill="none" stroke="#9fb4ff" stroke-width="2.5"><ellipse cx="50" cy="50" rx="44" ry="16"/><ellipse cx="50" cy="50" rx="44" ry="16" transform="rotate(60 50 50)"/><ellipse cx="50" cy="50" rx="44" ry="16" transform="rotate(120 50 50)"/></g><circle cx="50" cy="50" r="9" fill="#ffd84d"/><circle cx="92" cy="50" r="5" fill="#4fe3ff"/><circle cx="29" cy="14" r="5" fill="#ff6ea8"/><circle cx="29" cy="86" r="5" fill="#46e6a0"/></symbol>
+    <symbol id="medalSym" viewBox="0 0 64 64"><path d="M32 4l8.4 17.6 19.2 2.6-14 13.4 3.6 19L32 47.6 14.8 56.6l3.6-19-14-13.4 19.2-2.6Z" stroke-linejoin="round" stroke-width="4"/></symbol>
+    <symbol id="rocketSym" viewBox="0 0 60 30"><path d="M4 15 14 6h30c8 0 14 6 14 9s-6 9-14 9H14Z" fill="#e9edff"/><circle cx="38" cy="15" r="5" fill="#4fe3ff" stroke="#23296b" stroke-width="2"/><path d="M14 6 4 0v10ZM14 24 4 30V20Z" fill="#ff6ea8"/><path d="M-6 15 4 11v8Z" fill="#ffd84d"/></symbol>
+  </defs>
+</svg>
+
+<div id="bg" aria-hidden="true"></div>
+
+<div id="app">
+  <header id="top">
+    <div id="mascotBox" class="mascot-idle">
+      <svg id="mascot" viewBox="0 0 60 60" role="img" aria-label="Atomi">
+        <g class="o1"><ellipse cx="30" cy="30" rx="28" ry="10" fill="none" stroke="#9fb4ff" stroke-width="1.6"/><circle cx="58" cy="30" r="3.4" fill="#ffd84d"/><circle cx="2" cy="30" r="3.4" fill="none"/></g>
+        <g transform="rotate(60 30 30)"><g class="o2"><ellipse cx="30" cy="30" rx="28" ry="10" fill="none" stroke="#9fb4ff" stroke-width="1.6"/><circle cx="58" cy="30" r="3.4" fill="#ff6ea8"/><circle cx="2" cy="30" r="3.4" fill="none"/></g></g>
+        <g transform="rotate(120 30 30)"><g class="o3"><ellipse cx="30" cy="30" rx="28" ry="10" fill="none" stroke="#9fb4ff" stroke-width="1.6"/><circle cx="58" cy="30" r="3.4" fill="#46e6a0"/><circle cx="2" cy="30" r="3.4" fill="none"/></g></g>
+        <g id="mascotNuc" style="transform-origin:30px 30px"><circle cx="30" cy="30" r="13" fill="url(#nucG)" stroke="#fff" stroke-width="1.6"/>
+          <defs><radialGradient id="nucG" cx=".3" cy=".25"><stop offset="0" stop-color="#8be9ff"/><stop offset="1" stop-color="#2a6bff"/></radialGradient></defs>
+          <circle cx="25.5" cy="28" r="2.6" fill="#fff"/><circle cx="34.5" cy="28" r="2.6" fill="#fff"/><circle cx="26" cy="28.4" r="1.2" fill="#12163f"/><circle cx="35" cy="28.4" r="1.2" fill="#12163f"/>
+          <path id="mouth" d="M25 34Q30 38.5 35 34" fill="none" stroke="#12163f" stroke-width="1.8" stroke-linecap="round"/></g>
+      </svg>
+      <div id="bubble" role="status" aria-live="polite"></div>
+    </div>
+    <ol id="steps" aria-label="Aşamalar">
+      <li class="step" data-s="1"><b>1</b><span>Blok Dizilimi</span></li>
+      <li class="step" data-s="2"><b>2</b><span>Gizli Elementler</span></li>
+      <li class="step" data-s="3"><b>3</b><span>Bilgi Testi</span></li>
+    </ol>
+    <div id="hud">
+      <div id="energy" role="img" aria-label="Enerji"><div id="energyFill"></div><div id="energyTxt">⚡ 0</div></div>
+      <span id="combo" aria-hidden="true"></span>
+      <button class="ibtn" id="btnSfx" type="button" aria-pressed="false" aria-label="Efekt seslerini kapat">🔊</button>
+      <button class="ibtn" id="btnMus" type="button" aria-pressed="false" aria-label="Müziği kapat">🎵</button>
+    </div>
+  </header>
+
+  <main id="stage">
+    <div id="play">
+      <div id="tableBox" role="application" aria-label="Periyodik tablo" tabindex="0"><div id="kbCur"></div></div>
+      <aside id="side">
+        <span id="stTag">1. Aşama</span>
+        <h2 id="stTitle"></h2>
+        <p id="stDesc"></p>
+        <div id="tray" aria-label="Parçalar"></div>
+        <div id="qCard" hidden><p id="qText"></p><div id="tileSlot"></div><div id="hearts" aria-label="Kalan hak"></div></div>
+        <p id="hint" role="status" aria-live="polite"></p>
+      </aside>
+      <section id="quiz" hidden>
+        <div id="qDots" aria-hidden="true"></div>
+        <div id="quizMain"><div id="quizQ" role="heading" aria-level="2"></div><div id="opts" role="group" aria-label="Seçenekler"></div></div>
+        <div id="qFb" hidden><p id="qFbTxt" role="status" aria-live="polite"></p><button class="btn" id="btnQNext" type="button">Devam</button></div>
+      </section>
+    </div>
+  </main>
+</div>
+<div id="fx" aria-hidden="true"></div>
+
+<section class="screen" id="scLoad" role="dialog" aria-modal="true" aria-labelledby="loadT">
+  <div class="card"><div class="spin" aria-hidden="true"></div><h2 id="loadT">Uygulamaya bağlanılıyor…</h2><p>Lütfen bekle.</p></div>
+</section>
+
+<section class="screen" id="scStart" role="dialog" aria-modal="true" aria-labelledby="startT" hidden>
+  <div class="card">
+    <svg viewBox="0 0 100 100" width="70" height="70" aria-hidden="true"><use href="#atomSym"/></svg>
+    <h1 id="startT">Periyodik Galaksi</h1>
+    <p>Atomi ile elementler galaksisinde 3 görev tamamla!</p>
+    <ul>
+      <li>🧱 <b>1. Aşama:</b> 5 bloğu periyodik tabloda yerine sürükle.</li>
+      <li>❓ <b>2. Aşama:</b> Gizli kutulara 5 elementi yerleştir.</li>
+      <li>🧪 <b>3. Aşama:</b> 10 soruluk bilgi testini çöz.</li>
+    </ul>
+    <span class="demoTag" id="demoTag" hidden>Deneme modu — kayıt yapılmaz</span>
+    <div class="row"><button class="btn" id="btnStart" type="button">Başla</button></div>
+  </div>
+</section>
+
+<section class="screen" id="scStage" role="dialog" aria-modal="true" aria-labelledby="stgT" hidden>
+  <div class="card"><div class="bigNum" id="stgNum">1</div><h2 id="stgT"></h2><p id="stgP"></p><div class="row"><button class="btn" id="btnStage" type="button">Hazırım!</button></div></div>
+</section>
+
+<section class="screen" id="scDone" role="dialog" aria-modal="true" aria-labelledby="doneT" hidden>
+  <div class="card"><h2 id="doneT">Aşama tamam!</h2><div class="medals" id="medals" role="img"></div><p id="doneP"></p><div class="row"><button class="btn" id="btnDone" type="button">Devam</button></div></div>
+</section>
+
+<section class="screen" id="scErr" role="alertdialog" aria-modal="true" aria-labelledby="errT" hidden>
+  <div class="card"><h2 id="errT">Bir sorun oluştu</h2><p id="errMsg"></p>
+    <div class="row"><button class="btn" id="btnRetry" type="button">Tekrar Dene</button><button class="btn alt" id="btnExit" type="button">Çıkış</button></div></div>
+</section>
+
+<section class="screen" id="scSent" role="dialog" aria-modal="true" aria-labelledby="sentT" hidden>
+  <div class="card"><div class="spin" id="sentSpin" aria-hidden="true"></div><h2 id="sentT">Sonuç gönderildi</h2><p id="sentMsg" role="status" aria-live="polite">Kaydediliyor…</p>
+    <div class="row"><button class="btn" id="btnResend" type="button" hidden>Tekrar Gönder</button></div></div>
+</section>
+
+<section class="screen" id="scRes" role="dialog" aria-modal="true" aria-labelledby="resT" hidden>
+  <div class="card">
+    <span class="demoTag">Deneme modu — kayıt yapılmaz</span>
+    <h2 id="resT">Görev tamam!</h2>
+    <div class="medals" id="stars" role="img" aria-label="Yıldız"></div>
+    <div class="stats"><span class="stat" id="rC"></span><span class="stat" id="rW"></span><span class="stat" id="rT"></span></div>
+    <div id="reviewBox" hidden><p><b>Tekrar bak:</b></p><ul id="review"></ul></div>
+    <div class="row"><button class="btn" id="btnAgain" type="button">Tekrar Oyna</button></div>
+  </div>
+</section>
+
+<section class="screen" id="rotate" role="alert"><div class="card"><div class="phone" aria-hidden="true"></div><h2>Cihazını yan çevir</h2><p>Bu oyun yatay ekranda oynanır.</p></div></section>
+
+<script>
+(function(){
+'use strict';
+const TS = 1;   // zaman ölçeği (yalnızca otomasyon testlerinde küçültülür)
+const C = {"gameId":"fen-8-periyodik-galaksi","unit":"8. Sınıf 4. Ünite","topic":"Periyodik Tablo","sourceRef":"Kaynakta doğrulanmadı: genel periyodik tablo bilgisi (8. sınıf ders kitabı yüklenmedi)","outcomes":{"K1":"Elementleri metal, ametal, yarı metal ve soygaz olarak sınıflandırır (kitapta doğrulanmadı).","K2":"İlk 20 elementin periyodik tablodaki yerini (periyot ve grup) belirler (kitapta doğrulanmadı)."},"elements":[{"z":1,"sym":"H","name":"Hidrojen","p":1,"g":1,"cls":"ametal","questionId":"periyodik-v1-s2-h"},{"z":2,"sym":"He","name":"Helyum","p":1,"g":8,"cls":"soygaz","questionId":"periyodik-v1-s2-he"},{"z":3,"sym":"Li","name":"Lityum","p":2,"g":1,"cls":"metal","questionId":"periyodik-v1-s2-li"},{"z":4,"sym":"Be","name":"Berilyum","p":2,"g":2,"cls":"metal","questionId":"periyodik-v1-s2-be"},{"z":5,"sym":"B","name":"Bor","p":2,"g":3,"cls":"yarı metal","questionId":"periyodik-v1-s2-b"},{"z":6,"sym":"C","name":"Karbon","p":2,"g":4,"cls":"ametal","questionId":"periyodik-v1-s2-c"},{"z":7,"sym":"N","name":"Azot","p":2,"g":5,"cls":"ametal","questionId":"periyodik-v1-s2-n"},{"z":8,"sym":"O","name":"Oksijen","p":2,"g":6,"cls":"ametal","questionId":"periyodik-v1-s2-o"},{"z":9,"sym":"F","name":"Flor","p":2,"g":7,"cls":"ametal","questionId":"periyodik-v1-s2-f"},{"z":10,"sym":"Ne","name":"Neon","p":2,"g":8,"cls":"soygaz","questionId":"periyodik-v1-s2-ne"},{"z":11,"sym":"Na","name":"Sodyum","p":3,"g":1,"cls":"metal","questionId":"periyodik-v1-s2-na"},{"z":12,"sym":"Mg","name":"Magnezyum","p":3,"g":2,"cls":"metal","questionId":"periyodik-v1-s2-mg"},{"z":13,"sym":"Al","name":"Alüminyum","p":3,"g":3,"cls":"metal","questionId":"periyodik-v1-s2-al"},{"z":14,"sym":"Si","name":"Silisyum","p":3,"g":4,"cls":"yarı metal","questionId":"periyodik-v1-s2-si"},{"z":15,"sym":"P","name":"Fosfor","p":3,"g":5,"cls":"ametal","questionId":"periyodik-v1-s2-p"},{"z":16,"sym":"S","name":"Kükürt","p":3,"g":6,"cls":"ametal","questionId":"periyodik-v1-s2-s"},{"z":17,"sym":"Cl","name":"Klor","p":3,"g":7,"cls":"ametal","questionId":"periyodik-v1-s2-cl"},{"z":18,"sym":"Ar","name":"Argon","p":3,"g":8,"cls":"soygaz","questionId":"periyodik-v1-s2-ar"},{"z":19,"sym":"K","name":"Potasyum","p":4,"g":1,"cls":"metal","questionId":"periyodik-v1-s2-k"},{"z":20,"sym":"Ca","name":"Kalsiyum","p":4,"g":2,"cls":"metal","questionId":"periyodik-v1-s2-ca"}],"blocks":[{"id":"b1","questionId":"periyodik-v1-s1-b1","name":"Metal","cls":"metal","label":"Metal bloğu","syms":["Li","Be","Na","Mg","K","Ca","Al"],"place":"Tablonun sol tarafı: 1A–2A gruplarının tamamı (Li, Be, Na, Mg, K, Ca) ve 3. periyot 3A'daki Al.","explanation":"Bu elementler metaldir: parlak, ısı ve elektriği iyi iletir, tel ve levha hâline getirilebilir. Tablonun sol tarafında yer alırlar.","outcomeKey":"K1","difficulty":"medium","questionType":"drag_block"},{"id":"b2","questionId":"periyodik-v1-s1-b2","name":"Yarı metal","cls":"yarı metal","label":"Yarı metal bloğu","syms":["B","Si"],"place":"B (2. periyot, 3A) ve Si (3. periyot, 4A): metallerle ametaller arasındaki basamak çizgisi.","explanation":"Bor ve silisyum yarı metaldir. Hem metallerin hem ametallerin bazı özelliklerini taşırlar ve tabloda ikisinin arasında yer alırlar.","outcomeKey":"K1","difficulty":"medium","questionType":"drag_block"},{"id":"b3","questionId":"periyodik-v1-s1-b3","name":"Ametal","cls":"ametal","label":"Ametal bloğu","syms":["C","N","O","F","P","S","Cl"],"place":"C, N, O, F (2. periyot, 4A–7A) ve P, S, Cl (3. periyot, 5A–7A).","explanation":"Karbon, azot, oksijen, flor, fosfor, kükürt ve klor ametaldir. Ametaller genellikle mat görünümlüdür ve ısı ile elektriği iyi iletmez.","outcomeKey":"K1","difficulty":"medium","questionType":"drag_block"},{"id":"b4","questionId":"periyodik-v1-s1-b4","name":"Soygaz","cls":"soygaz","label":"Soygaz bloğu","syms":["He","Ne","Ar"],"place":"8A grubu: He (1. periyot), Ne (2. periyot), Ar (3. periyot).","explanation":"Helyum, neon ve argon soygazdır. Tablonun en sağ sütunu olan 8A grubunda yer alırlar ve kararlı yapıdadırlar.","outcomeKey":"K1","difficulty":"medium","questionType":"drag_block"},{"id":"b5","questionId":"periyodik-v1-s1-b5","name":"Hidrojen","cls":"ametal","label":"Hidrojen bloğu","syms":["H"],"place":"Hidrojen (H): 1. periyot, 1A grubu. Hidrojen 1A'da yer alsa da ametaldir.","explanation":"Hidrojen 1A grubunda yer alır ama metal değil, ametaldir. Bu yüzden ametal olarak sınıflandırılır.","outcomeKey":"K1","difficulty":"hard","questionType":"drag_block"}],"tests":[{"id":"t01","questionId":"periyodik-v1-s3-t01","outcomeKey":"K2","difficulty":"easy","questionType":"multiple_choice","text":"Modern periyodik tabloda elementler hangi ölçüte göre sıralanır?","options":["Atom numaralarının artışına göre","Atom kütlelerinin azalışına göre","Keşfedilme tarihlerine göre","Oda sıcaklığındaki hâllerine göre"],"correct":0,"explanation":"Elementler atom numaralarının artışına göre sıralanır. Tablo soldan sağa ve yukarıdan aşağıya doğru atom numarası artacak şekilde dizilir."},{"id":"t02","questionId":"periyodik-v1-s3-t02","outcomeKey":"K2","difficulty":"easy","questionType":"multiple_choice","text":"Periyodik tablodaki yatay sıralara ne ad verilir?","options":["Periyot","Grup","Katman","Sınıf"],"correct":0,"explanation":"Yatay sıralara periyot, dikey sütunlara grup denir."},{"id":"t03","questionId":"periyodik-v1-s3-t03","outcomeKey":"K2","difficulty":"easy","questionType":"multiple_choice","text":"Periyodik tablodaki dikey sütunlara ne ad verilir?","options":["Grup","Periyot","Satır","Blok"],"correct":0,"explanation":"Dikey sütunlara grup, yatay sıralara periyot denir."},{"id":"t04","questionId":"periyodik-v1-s3-t04","outcomeKey":"K1","difficulty":"medium","questionType":"multiple_choice","text":"Aşağıdakilerden hangisi bir soygazdır?","options":["Neon (Ne)","Azot (N)","Sodyum (Na)","Oksijen (O)"],"correct":0,"explanation":"Neon 8A grubunda yer alan bir soygazdır. Azot ve oksijen ametal, sodyum metaldir."},{"id":"t05","questionId":"periyodik-v1-s3-t05","outcomeKey":"K1","difficulty":"easy","questionType":"multiple_choice","text":"Parlak olan, tel ve levha hâline getirilebilen, ısıyı ve elektriği iyi ileten elementlere ne ad verilir?","options":["Metal","Ametal","Yarı metal","Soygaz"],"correct":0,"explanation":"Bu özellikler metallere aittir."},{"id":"t06","questionId":"periyodik-v1-s3-t06","outcomeKey":"K1","difficulty":"medium","questionType":"multiple_choice","text":"Silisyum (Si) elementi için aşağıdakilerden hangisi doğrudur?","options":["Yarı metaldir.","Soygazdır.","Ametaldir ve gaz hâlindedir.","Metaldir ve sıvı hâlindedir."],"correct":0,"explanation":"Silisyum bir yarı metaldir. Hem metallerin hem ametallerin bazı özelliklerini gösterir."},{"id":"t07","questionId":"periyodik-v1-s3-t07","outcomeKey":"K1","difficulty":"medium","questionType":"multiple_choice","text":"Aşağıdaki elementlerden hangisi metal değildir?","options":["Kükürt (S)","Sodyum (Na)","Magnezyum (Mg)","Alüminyum (Al)"],"correct":0,"explanation":"Kükürt ametaldir. Sodyum, magnezyum ve alüminyum metaldir."},{"id":"t08","questionId":"periyodik-v1-s3-t08","outcomeKey":"K2","difficulty":"medium","questionType":"multiple_choice","text":"Periyodik tabloda aynı grupta bulunan elementler için aşağıdakilerden hangisi söylenebilir?","options":["Kimyasal özellikleri birbirine benzer.","Atom numaraları birbirine eşittir.","Hepsi aynı periyotta bulunur.","Hepsi oda sıcaklığında gaz hâlindedir."],"correct":0,"explanation":"Aynı gruptaki elementlerin kimyasal özellikleri birbirine benzer."},{"id":"t09","questionId":"periyodik-v1-s3-t09","outcomeKey":"K1","difficulty":"easy","questionType":"multiple_choice","text":"Klor (Cl) elementi aşağıdaki sınıflardan hangisine girer?","options":["Ametal","Metal","Yarı metal","Soygaz"],"correct":0,"explanation":"Klor, 7A grubunda yer alan bir ametaldir."},{"id":"t10","questionId":"periyodik-v1-s3-t10","outcomeKey":"K1","difficulty":"medium","questionType":"multiple_choice","text":"8A grubundaki elementlerin ortak özelliği aşağıdakilerden hangisidir?","options":["Kararlıdırlar ve kolay bileşik oluşturmazlar.","Çok aktif metallerdir ve kolay bileşik oluştururlar.","Hepsi oda sıcaklığında sıvıdır.","Hepsi yarı metaldir."],"correct":0,"explanation":"8A grubundaki elementler soygazdır. Kararlı yapıdadırlar ve kolay bileşik oluşturmazlar."},{"id":"t11","questionId":"periyodik-v1-s3-t11","outcomeKey":"K1","difficulty":"hard","questionType":"multiple_choice","text":"Hidrojen (H) periyodik tabloda 1A grubunda yer alır. Hidrojen hangi sınıfa girer?","options":["Ametal","Metal","Yarı metal","Soygaz"],"correct":0,"explanation":"Hidrojen 1A grubunda yer alsa da ametaldir."},{"id":"t12","questionId":"periyodik-v1-s3-t12","outcomeKey":"K2","difficulty":"hard","questionType":"multiple_choice","text":"Periyodik tabloda 3. periyotta ve 8A grubunda yer alan element hangisidir?","options":["Argon (Ar)","Neon (Ne)","Helyum (He)","Klor (Cl)"],"correct":0,"explanation":"Argon 3. periyotta, 8A grubunda yer alır. Neon 2. periyotta, helyum 1. periyotta bulunur; klor 7A grubundadır."},{"id":"t13","questionId":"periyodik-v1-s3-t13","outcomeKey":"K2","difficulty":"medium","questionType":"multiple_choice","text":"Magnezyum (Mg) periyodik tablonun hangi grubunda yer alır?","options":["2A","1A","3A","7A"],"correct":0,"explanation":"Magnezyum (atom numarası 12) 3. periyotta, 2A grubunda yer alır."},{"id":"t14","questionId":"periyodik-v1-s3-t14","outcomeKey":"K2","difficulty":"medium","questionType":"multiple_choice","text":"Aşağıdaki elementlerden hangisi 2. periyotta yer alır?","options":["Oksijen (O)","Sodyum (Na)","Kalsiyum (Ca)","Argon (Ar)"],"correct":0,"explanation":"Oksijen 2. periyotta yer alır. Sodyum ve argon 3., kalsiyum 4. periyottadır."},{"id":"t15","questionId":"periyodik-v1-s3-t15","outcomeKey":"K1","difficulty":"medium","questionType":"multiple_choice","text":"Mat görünümlü, kırılgan ve ısıyı ya da elektriği genellikle iyi iletmeyen elementler hangi sınıfa girer?","options":["Ametal","Metal","Yarı metal","Soygaz"],"correct":0,"explanation":"Bu özellikler genellikle ametallere aittir."}]};
+const CFG = {"gameId":"fen-8-periyodik-galaksi","gameVersion":"1.0.0","gameName":"Periyodik Galaksi","subjectId":"science","subjectName":"Fen Bilimleri","grade":8,"totalQuestions":20,"energyMax":220,"stars":{"s1":50,"s2":70,"s3":90},"sendGameStarted":false};
+
+/* ====== Yardımcılar ====== */
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if(cls) e.className = cls; if(txt != null) e.textContent = txt; return e; };
+let counter = 0;
+const newId = p => { counter++; return 'ypg-' + p + '-' + Date.now().toString(36) + '-' + counter + '-' + Math.floor(Math.random()*1e6).toString(36); };
+function rnd(){ try{ const a = new Uint32Array(1); (window.crypto||window.msCrypto).getRandomValues(a); return a[0]/4294967296; }catch(e){ return Math.random(); } }
+const shuffle = a => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(rnd()*(i+1)); const t=a[i]; a[i]=a[j]; a[j]=t; } return a; };
+const now = () => (window.performance && performance.now) ? performance.now() : Date.now();
+const CLS = { 'metal':'c-metal', 'ametal':'c-ametal', 'yarı metal':'c-yarim', 'soygaz':'c-soygaz' };
+const CLSNAME = { 'metal':'Metal', 'ametal':'Ametal', 'yarı metal':'Yarı metal', 'soygaz':'Soygaz' };
+const EL = {}; C.elements.forEach(e => { EL[e.sym] = e; });
+const SLOT = {}; C.elements.forEach(e => { SLOT[e.p + ',' + e.g] = e; });
+const pos = e => e.p + '. periyot, ' + e.g + 'A grubu';
+
+/* ====== Durum ====== */
+const S = { phase:'boot', mode:null, ctx:null, readyIds:{}, seen:{}, timers:{}, rm:false, bridgeTry:0, resultMsg:null, resultSent:false, sel:null, busy:false, portrait:false };
+let R = null;        // oturum
+let G = null;        // geometri
+let D = null;        // sürükleme
+let kb = {r:1, c:1};
+const cellEls = {};
+let CURSTAGE = 0;
+
+const mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+function applyRM(){ S.rm = !!((mq && mq.matches) || (S.ctx && S.ctx.reducedMotion === true)); document.documentElement.classList.toggle('rm', S.rm); }
+if(mq){ if(mq.addEventListener) mq.addEventListener('change', applyRM); else if(mq.addListener) mq.addListener(applyRM); }
+applyRM();
+
+function setT(n, fn, ms){ clearT(n); S.timers[n] = setTimeout(function(){ S.timers[n] = null; fn(); }, ms * TS); }
+function clearT(n){ if(S.timers[n]){ clearTimeout(S.timers[n]); S.timers[n] = null; } }
+function clearAllT(){ Object.keys(S.timers).forEach(clearT); }
+
+/* ====== SES: Web Audio sentezi (dosya yok) ====== */
+const Snd = {
+  ctx:null, sfx:true, mus:true, step:0, iv:null,
+  init(){ if(this.ctx) return; const AC = window.AudioContext || window.webkitAudioContext; if(!AC) return; try{ this.ctx = new AC(); }catch(e){ this.ctx = null; } },
+  resume(){ this.init(); if(this.ctx && this.ctx.state === 'suspended' && (this.sfx || this.mus)){ try{ this.ctx.resume(); }catch(e){} } this.startMusic(); },
+  suspend(){ if(this.ctx && this.ctx.state === 'running'){ try{ this.ctx.suspend(); }catch(e){} } this.stopMusic(); },
+  tone(f, d, type, vol, delay, slide, force){
+    if(!this.ctx || (!this.sfx && !force)) return; const c = this.ctx, t = c.currentTime + (delay||0);
+    const o = c.createOscillator(), g = c.createGain(); o.type = type || 'sine'; o.frequency.setValueAtTime(f, t);
+    if(slide) o.frequency.exponentialRampToValueAtTime(slide, t + d);
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol || 0.2, t + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, t + d);
+    o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + d + 0.05);
+  },
+  noise(d, vol, freq){
+    if(!this.ctx || !this.sfx) return; const c = this.ctx, t = c.currentTime, n = Math.max(1, Math.floor(c.sampleRate * d));
+    const buf = c.createBuffer(1, n, c.sampleRate), data = buf.getChannelData(0); for(let i=0;i<n;i++) data[i] = (Math.random()*2-1)*(1-i/n);
+    const s = c.createBufferSource(); s.buffer = buf; const f = c.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = freq || 2000; f.Q.value = 1;
+    const g = c.createGain(); g.gain.value = vol || 0.12; s.connect(f); f.connect(g); g.connect(c.destination); s.start(t);
+  },
+  pick(){ this.tone(520, .09, 'triangle', .15); },
+  drop(){ this.tone(180, .12, 'sine', .2, 0, 90); },
+  good(){ this.tone(660, .14, 'sine', .22); this.tone(990, .22, 'sine', .22, .09); },
+  bad(){ this.tone(220, .32, 'sawtooth', .16, 0, 110); this.tone(160, .28, 'square', .08, .05, 90); },
+  row(){ [523,659,784,1047,1319].forEach((f,i) => this.tone(f, .16, 'triangle', .18, i*.06)); },
+  win(){ [523,659,784,1047].forEach((f,i) => this.tone(f, .24, 'triangle', .22, i*.1)); },
+  fan(){ [523,659,784,659,784,1047,1319].forEach((f,i) => this.tone(f, .22, 'triangle', .24, i*.11)); },
+  whoosh(){ this.noise(.35, .1, 900); },
+  startMusic(){
+    if(!this.mus || !this.ctx || this.iv || document.visibilityState === 'hidden') return;
+    const notes = [262,330,392,330, 294,370,440,370, 262,330,392,523, 392,330,294,247];
+    this.iv = setInterval(() => { if(!this.mus || document.visibilityState === 'hidden' || S.portrait){ return; } const n = notes[this.step++ % notes.length]; this.tone(n, .5, 'triangle', .05, 0, 0, true); if(this.step % 4 === 1) this.tone(n/2, .9, 'sine', .06, 0, 0, true); }, 420);
+  },
+  stopMusic(){ if(this.iv){ clearInterval(this.iv); this.iv = null; } }
+};
+function renderSnd(){
+  const a = $('btnSfx'), b = $('btnMus');
+  a.textContent = Snd.sfx ? '🔊' : '🔇'; a.setAttribute('aria-pressed', String(!Snd.sfx)); a.setAttribute('aria-label', Snd.sfx ? 'Efekt seslerini kapat' : 'Efekt seslerini aç');
+  b.textContent = Snd.mus ? '🎵' : '🚫'; b.setAttribute('aria-pressed', String(!Snd.mus)); b.setAttribute('aria-label', Snd.mus ? 'Müziği kapat' : 'Müziği aç');
+}
+$('btnSfx').addEventListener('click', () => { Snd.sfx = !Snd.sfx; if(Snd.sfx){ Snd.resume(); Snd.good(); } renderSnd(); });
+$('btnMus').addEventListener('click', () => { Snd.mus = !Snd.mus; if(Snd.mus){ Snd.resume(); } else Snd.stopMusic(); renderSnd(); });
+renderSnd();
+
+/* ====== Süre sayacı ====== */
+const Clock = { acc:0, since:null, active:false,
+  start(){ this.acc = 0; this.since = now(); this.active = true; },
+  pause(){ if(this.since != null){ this.acc += now() - this.since; this.since = null; } },
+  resume(){ if(this.active && this.since == null && !S.portrait && document.visibilityState !== 'hidden') this.since = now(); },
+  stop(){ this.pause(); this.active = false; },
+  value(){ return Math.max(0, Math.round(this.acc + (this.since != null ? now() - this.since : 0))); } };
+document.addEventListener('visibilitychange', () => {
+  if(document.visibilityState === 'hidden'){ cancelDrag(); Clock.pause(); Snd.suspend(); }
+  else { Clock.resume(); if(Snd.ctx && (Snd.sfx || Snd.mus)){ try{ Snd.ctx.resume(); }catch(e){} } Snd.startMusic(); }
+});
+window.addEventListener('blur', () => cancelDrag());
+const pmq = window.matchMedia ? window.matchMedia('(orientation: portrait)') : null;
+function onOrient(){ S.portrait = !!(pmq && pmq.matches); if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
+if(pmq){ if(pmq.addEventListener) pmq.addEventListener('change', onOrient); else if(pmq.addListener) pmq.addListener(onOrient); }
+onOrient();
+
+/* ====== KÖPRÜ (bridgeVersion 1.0) ====== */
+function sendToApp(message){
+  const s = JSON.stringify(message);
+  try{
+    if(window.YildizPesindeBridge && window.YildizPesindeBridge.postMessage){ window.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.YildizPesindeBridge){ window.webkit.messageHandlers.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.AndroidYildizPesinde && window.AndroidYildizPesinde.postMessage){ window.AndroidYildizPesinde.postMessage(s); return true; }
+  }catch(e){ return false; }
+  return false;
+}
+function envelope(type, payload){
+  const m = { bridgeVersion:'1.0', type:type, messageId:newId(type.replace('.','-')) };
+  if(S.ctx && type !== 'game.ready'){ m.runId = S.ctx.runId; m.nonce = S.ctx.nonce; }
+  m.payload = payload || {};
+  return m;
+}
+function sendReady(){ const m = envelope('game.ready', { supportedVersions:['1.0'] }); const ok = sendToApp(m); if(ok) S.readyIds[m.messageId] = true; return ok; }
+const isStr = v => typeof v === 'string' && v.length > 0 && v.length <= 200;
+function onIncoming(raw){
+  let m;
+  try{ if(typeof raw === 'string'){ if(raw.length > 20000) return; m = JSON.parse(raw); } else m = raw; }catch(e){ return; }
+  if(!m || typeof m !== 'object' || Array.isArray(m)) return;
+  if(S.mode !== 'native') return;
+  if(!isStr(m.messageId) || !isStr(m.type)) return;
+  if(S.seen[m.messageId]) return;
+  if(m.bridgeVersion !== '1.0'){ if(m.type === 'app.init' && S.phase === 'waitInit'){ S.seen[m.messageId] = true; showError('Bu oyun uygulamanın bu sürümüyle çalışmıyor.', false); } return; }
+  if(m.type === 'app.init') return handleInit(m);
+  if(m.type === 'app.ack') return handleAck(m);
+  if(m.type === 'app.error') return handleErr(m);
+}
+function handleInit(m){
+  const p = m.payload;
+  if(S.phase !== 'waitInit' && S.phase !== 'error' && S.phase !== 'sent' && S.phase !== 'finished') return;
+  const bad = !p || typeof p !== 'object' || !isStr(m.runId) || !isStr(m.nonce) || !isStr(m.replyTo) || !S.readyIds[m.replyTo] ||
+    p.gameId !== CFG.gameId || p.gameVersion !== CFG.gameVersion || p.grade !== CFG.grade || p.subjectId !== CFG.subjectId;
+  if(bad){ if(S.phase === 'waitInit'){ S.seen[m.messageId] = true; showError('Oyun uygulamayla uyumlu açılmadı. Lütfen tekrar dene.', true); } return; }
+  S.seen[m.messageId] = true; clearT('hs');
+  S.ctx = { runId:m.runId, nonce:m.nonce, grade:p.grade, subjectId:p.subjectId, subjectName:(typeof p.subjectName === 'string' ? p.subjectName : CFG.subjectName), locale:p.locale, orientation:p.orientation, reducedMotion:p.reducedMotion === true };
+  S.resultMsg = null; S.resultSent = false; R = null; applyRM(); $('demoTag').hidden = true; showStart();
+}
+function handleAck(m){
+  const p = m.payload; if(!S.ctx || !S.resultMsg) return;
+  if(m.runId !== S.ctx.runId || m.nonce !== S.ctx.nonce || m.replyTo !== S.resultMsg.messageId) return;
+  S.seen[m.messageId] = true;
+  if(p && p.status === 'saved'){ $('sentSpin').hidden = true; $('btnResend').hidden = true; $('sentT').textContent = 'Sonuç kaydedildi'; $('sentMsg').textContent = 'Harika iş! Sonuç ekranı uygulamada gösterilecek.'; }
+}
+function handleErr(m){
+  let p = m.payload; if(!S.ctx || !S.resultMsg) return;
+  if(m.runId !== S.ctx.runId || m.nonce !== S.ctx.nonce || m.replyTo !== S.resultMsg.messageId) return;
+  S.seen[m.messageId] = true; p = p || {};
+  const msg = (typeof p.message === 'string' && p.message.length <= 140) ? p.message : 'Sonuç kaydedilemedi.';
+  $('sentSpin').hidden = true; $('sentT').textContent = 'Sonuç kaydedilemedi'; $('btnResend').hidden = true;
+  $('sentMsg').textContent = (p.retryable === true || p.code === 'SAVE_FAILED') ? 'Sonuç kaydedilemedi. Uygulamadaki “Kaydetmeyi Tekrar Dene” seçeneğini kullan.' : msg;
+}
+window.addEventListener('message', e => { if(e.source !== window && e.source !== window.parent) return; onIncoming(e.data); });
+window.YildizPesindeReceive = onIncoming;
+window.YildizPesindeGame = Object.freeze({ receiveMessage: onIncoming }); // platform standart giriş kanalı
+
+/* ====== Ekranlar ====== */
+const SCREENS = ['scLoad','scStart','scStage','scDone','scErr','scSent','scRes'];
+function showScreen(id){
+  SCREENS.forEach(s => { $(s).hidden = (s !== id); });
+  const app = $('app'); if('inert' in app) app.inert = !!id; if(id) app.setAttribute('aria-hidden','true'); else app.removeAttribute('aria-hidden');
+  if(id){ const b = $(id).querySelector('button:not([hidden])'); if(b) try{ b.focus({preventScroll:true}); }catch(e){} }
+}
+function showError(msg, retry){ S.phase = 'error'; clearAllT(); cancelDrag(); $('errMsg').textContent = msg; $('btnRetry').hidden = !retry; showScreen('scErr'); }
+function showStart(){ S.phase = 'intro'; showScreen('scStart'); }
+
+/* ====== Arka plan (hareketli nesneler) ====== */
+function buildBg(){
+  const bg = $('bg'); bg.innerHTML = '';
+  for(let i=0;i<46;i++){ const s = el('i','st'); const z = 1 + Math.random()*2.4; s.style.cssText = 'left:'+(Math.random()*100)+'%;top:'+(Math.random()*100)+'%;width:'+z+'px;height:'+z+'px;animation-delay:'+(Math.random()*3)+'s;animation-duration:'+(2+Math.random()*3)+'s'; bg.appendChild(s); }
+  for(let i=0;i<7;i++){ const a = el('div','atom'); const z = 40 + Math.random()*70; a.style.cssText = 'left:'+(Math.random()*92)+'%;top:'+(Math.random()*85)+'%;width:'+z+'px;height:'+z+'px;animation-duration:'+(14+Math.random()*14)+'s;animation-delay:-'+(Math.random()*14)+'s';
+    a.innerHTML = '<svg viewBox="0 0 100 100" style="animation-duration:'+(10+Math.random()*18)+'s"><use href="#atomSym"/></svg>'; bg.appendChild(a); }
+  const syms = C.elements.map(e => e.sym);
+  for(let i=0;i<12;i++){ const b = el('div','bub', syms[i % syms.length]); const z = 30 + Math.random()*26; b.style.cssText = 'left:'+(Math.random()*96)+'%;width:'+z+'px;height:'+z+'px;font-size:'+(z*.4)+'px;animation-duration:'+(14+Math.random()*14)+'s;animation-delay:-'+(Math.random()*20)+'s'; bg.appendChild(b); }
+  for(let i=0;i<2;i++){ const c = el('div','comet'); c.style.cssText = 'left:'+(10+Math.random()*40)+'%;animation-delay:'+(i*4.5)+'s'; bg.appendChild(c); }
+  bg.appendChild(el('div','planet'));
+  const r = el('div','rocket'); r.innerHTML = '<svg viewBox="0 0 60 30" width="60" height="30"><use href="#rocketSym"/></svg>'; bg.appendChild(r);
+}
+
+/* ====== Maskot ve efektler ====== */
+function mood(m, text){
+  const b = $('mascotBox'); b.className = 'mascot-' + m; if(!S.rm) { void b.offsetWidth; }
+  $('mouth').setAttribute('d', m === 'sad' ? 'M25 37Q30 33 35 37' : 'M25 34Q30 38.5 35 34');
+  if(text){ const bu = $('bubble'); bu.textContent = text; bu.classList.add('on'); setT('bub', () => bu.classList.remove('on'), 1900); }
+  setT('mood', () => { $('mascotBox').className = 'mascot-idle'; $('mouth').setAttribute('d', 'M25 34Q30 38.5 35 34'); }, 1500);
+}
+function fx(){ return $('fx'); }
+function burst(x, y, color, n){
+  if(S.rm) return; const h = fx(); n = n || 12; const cols = color ? [color] : ['#ffd84d','#4fe3ff','#ff6ea8','#46e6a0'];
+  for(let i=0;i<n;i++){ const p = el('i','pt'); const a = (Math.PI*2/n)*i + Math.random()*.4, d = 24 + Math.random()*38;
+    p.style.cssText = 'left:'+x+'px;top:'+y+'px;background:'+cols[i % cols.length]+';--dx:'+(Math.cos(a)*d)+'px;--dy:'+(Math.sin(a)*d)+'px'; h.appendChild(p); setTimeout(() => { if(p.parentNode) p.parentNode.removeChild(p); }, 850); }
+  trimFx();
+}
+function floatText(x, y, text, cls){
+  const t = el('span', 'ft' + (cls ? ' ' + cls : ''), text); t.style.left = x + 'px'; t.style.top = y + 'px'; if(S.rm) t.style.animation = 'none'; fx().appendChild(t);
+  setTimeout(() => { if(t.parentNode) t.parentNode.removeChild(t); }, S.rm ? 1100 : 1050); trimFx();
+}
+function xMark(x, y){
+  const m = el('div','xmark'); m.style.left = x + 'px'; m.style.top = y + 'px'; if(S.rm) m.style.animation = 'none';
+  m.innerHTML = '<svg viewBox="0 0 100 100" width="56" height="56"><path d="M16 16L84 84M84 16L16 84" stroke="#ff4b4b" stroke-width="16" stroke-linecap="round" fill="none"/></svg>';
+  fx().appendChild(m); setTimeout(() => { if(m.parentNode) m.parentNode.removeChild(m); }, S.rm ? 900 : 850);
+}
+function confetti(n){
+  if(S.rm) return; const cols = ['#ffd84d','#ff6ea8','#4fe3ff','#46e6a0','#b388ff'];
+  for(let i=0;i<n;i++){ const c = el('i','conf'); c.style.left = (Math.random()*100) + '%'; c.style.background = cols[i % cols.length]; c.style.animationDelay = (Math.random()*.6) + 's'; c.style.animationDuration = (1.4+Math.random()*1) + 's'; fx().appendChild(c); setTimeout(() => { if(c.parentNode) c.parentNode.removeChild(c); }, 2700); }
+  trimFx();
+}
+function trimFx(){ const h = fx(); while(h.children.length > 90) h.removeChild(h.firstChild); }
+function shakeApp(){ if(S.rm) return; const a = $('app'); a.classList.remove('shake'); void a.offsetWidth; a.classList.add('shake'); setT('shk', () => a.classList.remove('shake'), 420); }
+function cellCenter(r, c){ const b = $('tableBox').getBoundingClientRect(); return { x:b.left + G.lw + (c-1)*G.p + G.cs/2, y:b.top + G.hh + (r-1)*G.p + G.cs/2 }; }
+
+/* ====== Enerji ve seri (yalnızca oyun içi süs; uygulamaya gönderilmez) ====== */
+function addEnergy(first, x, y){
+  if(first){ R.combo++; R.energy += 10 + Math.min(R.combo-1, 4)*2; } else { R.combo = 0; R.energy += 4; }
+  const pct = Math.min(100, Math.round(R.energy / CFG.energyMax * 100));
+  $('energyFill').style.width = pct + '%'; $('energyTxt').textContent = '⚡ ' + R.energy;
+  const cb = $('combo'); if(R.combo >= 2){ cb.textContent = '🔥×' + R.combo; cb.classList.add('on'); } else cb.classList.remove('on');
+  if(x != null) floatText(x, y, '+' + (first ? 10 + Math.min(R.combo-1, 4)*2 : 4) + ' ⚡', 'good');
+}
+function breakCombo(){ R.combo = 0; $('combo').classList.remove('on'); }
+function updateSteps(){ document.querySelectorAll('.step').forEach(s => { const n = +s.dataset.s; s.classList.toggle('cur', n === CURSTAGE); s.classList.toggle('done', n < CURSTAGE); s.setAttribute('aria-current', n === CURSTAGE ? 'step' : 'false'); }); }
+
+/* ====== Tablo ve yerleşim ====== */
+function layout(){
+  const st = $('stage'), W = st.clientWidth, H = st.clientHeight; if(!W || !H) return;
+  const g = 3, Pmin = Math.max(240, Math.round(W * .34));
+  const cs = Math.max(30, Math.floor(Math.min((W - Pmin - 10 - 7*g) / 8.55, (H - 3*g) / 4.45, 80)));
+  G = { cs:cs, g:g, p:cs+g, lw:Math.round(cs*.55), hh:Math.round(cs*.45) };
+  G.tw = G.lw + 8*cs + 7*g; G.th = G.hh + 4*cs + 3*g;
+  const rs = document.documentElement.style; rs.setProperty('--cs', cs + 'px'); rs.setProperty('--g', g + 'px');
+  const tb = $('tableBox'); tb.style.width = G.tw + 'px'; tb.style.height = G.th + 'px';
+  Object.keys(cellEls).forEach(k => { const e = cellEls[k]; const r = +e.dataset.r, c = +e.dataset.c; e.style.left = (G.lw + (c-1)*G.p) + 'px'; e.style.top = (G.hh + (r-1)*G.p) + 'px'; e.classList.toggle('sm', cs < 52); });
+  tb.querySelectorAll('.hd.col').forEach(h => { const c = +h.dataset.c; h.style.left = (G.lw + (c-1)*G.p) + 'px'; h.style.width = cs + 'px'; });
+  tb.querySelectorAll('.hd.row').forEach(h => { const r = +h.dataset.r; h.style.top = (G.hh + (r-1)*G.p) + 'px'; h.style.width = G.lw + 'px'; h.style.height = cs + 'px'; });
+  placeKb();
+  if(CURSTAGE === 1) fitTray();
+}
+function buildTable(){
+  const tb = $('tableBox'); Array.prototype.slice.call(tb.children).forEach(ch => { if(ch.id !== 'kbCur') tb.removeChild(ch); });
+  Object.keys(cellEls).forEach(k => delete cellEls[k]);
+  tb.appendChild(el('span','cap','Periyot ↓ Grup →'));
+  for(let c=1;c<=8;c++){ const h = el('div','hd col', c + 'A'); h.dataset.c = c; tb.appendChild(h); }
+  for(let r=1;r<=4;r++){ const h = el('div','hd row', String(r)); h.dataset.r = r; tb.appendChild(h); }
+  C.elements.forEach(e => { const d = el('div','cell slot'); d.dataset.r = e.p; d.dataset.c = e.g; d.dataset.sym = e.sym; d.setAttribute('aria-label', 'Boş kutu, ' + pos(e)); cellEls[e.p + ',' + e.g] = d; tb.appendChild(d);
+    d.addEventListener('click', () => onCellTap(e.p, e.g)); });
+}
+function fillCell(e, anim){
+  const d = cellEls[e.p + ',' + e.g]; if(!d) return;
+  d.className = 'cell filled cls ' + CLS[e.cls] + (G && G.cs < 52 ? ' sm' : ''); d.innerHTML = '';
+  d.appendChild(el('b','z',String(e.z))); d.appendChild(el('span','sy',e.sym)); d.appendChild(el('i','nm',e.name));
+  d.setAttribute('aria-label', e.name + ' (' + e.sym + '), atom numarası ' + e.z + ', ' + pos(e) + ', ' + CLSNAME[e.cls]);
+  if(anim && !S.rm){ d.classList.add(anim); setTimeout(() => d.classList.remove(anim), 800); }
+}
+function makeHole(e){ const d = cellEls[e.p + ',' + e.g]; d.className = 'cell hole' + (G && G.cs < 52 ? ' sm' : ''); d.innerHTML = ''; d.appendChild(el('span','sy','?')); d.setAttribute('aria-label', 'Gizli kutu, ' + pos(e)); }
+function clearHl(){ Object.keys(cellEls).forEach(k => cellEls[k].classList.remove('hl','tip')); }
+function placeKb(){ const k = $('kbCur'); if(!G) return; k.style.left = (G.lw + (kb.c-1)*G.p - 3) + 'px'; k.style.top = (G.hh + (kb.r-1)*G.p - 3) + 'px'; k.style.width = (G.cs + 6) + 'px'; k.style.height = (G.cs + 6) + 'px'; }
+$('tableBox').addEventListener('keydown', e => {
+  if(CURSTAGE !== 1 && CURSTAGE !== 2) return;
+  const k = e.key; let used = true;
+  if(k === 'ArrowLeft') kb.c = Math.max(1, kb.c - 1); else if(k === 'ArrowRight') kb.c = Math.min(8, kb.c + 1);
+  else if(k === 'ArrowUp') kb.r = Math.max(1, kb.r - 1); else if(k === 'ArrowDown') kb.r = Math.min(4, kb.r + 1);
+  else if(k === 'Enter' || k === ' ') onCellTap(kb.r, kb.c); else used = false;
+  if(used){ e.preventDefault(); placeKb(); }
+});
+function rowsDone(filled){ const out = []; for(let r=1;r<=4;r++){ const row = C.elements.filter(e => e.p === r); if(row.length > 1 && row.every(e => filled[e.sym])) out.push(r); } return out; }
+function laserRows(before, after){
+  after.filter(r => before.indexOf(r) < 0).forEach(r => {
+    C.elements.filter(e => e.p === r).forEach(e => { const d = cellEls[e.p + ',' + e.g]; if(d && !S.rm){ d.classList.add('laser'); setTimeout(() => d.classList.remove('laser'), 800); } });
+    Snd.row(); const c = cellCenter(r, 4); floatText(c.x, c.y, r + '. PERİYOT TAMAM!', ''); mood('cheer', r + '. periyot tamam!');
+  });
+}
+
+/* ====== Sürükle-bırak ====== */
+function bindDrag(node, kind, id){
+  node.addEventListener('dragstart', e => e.preventDefault());
+  node.addEventListener('pointerdown', e => onDown(e, node, kind, id));
+  node.addEventListener('pointermove', onMove);
+  node.addEventListener('pointerup', onUp);
+  node.addEventListener('pointercancel', () => cancelDrag());
+  node.addEventListener('lostpointercapture', () => { if(D && D.moved && !D.dropped) cancelDrag(); });
+  node.setAttribute('tabindex', '0'); node.setAttribute('role', 'button');
+  node.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggleSel(kind, id, node); if(S.sel){ $('tableBox').focus(); } } });
+}
+function canDrag(kind){ return !S.busy && !S.portrait && ((kind === 'piece' && S.phase === 's1') || (kind === 'tile' && S.phase === 's2')); }
+function onDown(e, node, kind, id){
+  if(D || !canDrag(kind)) return; if(e.pointerType === 'mouse' && e.button !== 0) return;
+  Snd.resume(); const r = node.getBoundingClientRect();
+  D = { node:node, kind:kind, id:id, sx:e.clientX, sy:e.clientY, offX:e.clientX - r.left, offY:e.clientY - r.top, w:r.width, h:r.height, moved:false, ghost:null, pid:e.pointerId, dropped:false };
+  try{ node.setPointerCapture(e.pointerId); }catch(err){}
+  e.preventDefault();
+}
+function startGhost(){
+  const n = D.node; let gh;
+  if(D.kind === 'piece'){
+    gh = n.cloneNode(true); gh.className = 'piece ghost'; gh.removeAttribute('tabindex'); gh.removeAttribute('role'); gh.style.animation = 'none';
+    D.scale = G.cs / (parseFloat(getComputedStyle(n).getPropertyValue('--ts')) || n.getBoundingClientRect().width / (+n.style.getPropertyValue('--cols')));
+  } else { gh = n.cloneNode(true); gh.className = 'tile ghost'; gh.removeAttribute('tabindex'); gh.removeAttribute('role'); D.scale = 1; }
+  D.offX *= D.scale; D.offY *= D.scale; document.body.appendChild(gh); D.ghost = gh; n.classList.add('ghosted'); Snd.pick();
+}
+function onMove(e){
+  if(!D || e.pointerId !== D.pid) return;
+  if(!D.moved){ if(Math.hypot(e.clientX - D.sx, e.clientY - D.sy) < 7) return; D.moved = true; clearSel(); startGhost(); }
+  D.ghost.style.transform = 'translate(' + (e.clientX - D.offX) + 'px,' + (e.clientY - D.offY) + 'px)';
+  D.lx = e.clientX; D.ly = e.clientY; preview(e.clientX, e.clientY);
+}
+function targetFor(px, py){
+  const b = $('tableBox').getBoundingClientRect(); if(!G) return null;
+  const inside = px >= b.left - G.cs*.3 && px <= b.right + G.cs*.3 && py >= b.top - G.cs*.3 && py <= b.bottom + G.cs*.3; if(!inside) return null;
+  if(D.kind === 'piece'){
+    const gl = px - D.offX, gt = py - D.offY;
+    return { r:Math.round((gt - (b.top + G.hh)) / G.p) + 1, c:Math.round((gl - (b.left + G.lw)) / G.p) + 1 };
+  }
+  const c = Math.floor((px - (b.left + G.lw)) / G.p) + 1, r = Math.floor((py - (b.top + G.hh)) / G.p) + 1;
+  if(c < 1 || c > 8 || r < 1 || r > 4) return null;
+  const ox = (px - (b.left + G.lw)) - (c-1)*G.p, oy = (py - (b.top + G.hh)) - (r-1)*G.p; if(ox > G.cs + 2 || oy > G.cs + 2) return null;
+  return { r:r, c:c };
+}
+function preview(px, py){
+  clearHl(); const t = targetFor(px, py); if(!t) return;
+  if(D.kind === 'piece'){ const pc = R.s1.byId[D.id]; pc.cells.forEach(o => { const d = cellEls[(t.r + o.r) + ',' + (t.c + o.c)]; if(d) d.classList.add('hl'); }); }
+  else { const d = cellEls[t.r + ',' + t.c]; if(d) d.classList.add('hl'); }
+}
+function onUp(e){
+  if(!D || e.pointerId !== D.pid) return;
+  const d = D; try{ d.node.releasePointerCapture(d.pid); }catch(err){}
+  if(!d.moved){ D = null; toggleSel(d.kind, d.id, d.node); return; }
+  d.dropped = true; const t = targetFor(e.clientX, e.clientY); clearHl();
+  if(!t){ endDrag(d, false); return; }                 // tablo dışına bırakma = iptal, hata sayılmaz
+  endDrag(d, true, t);
+}
+function endDrag(d, attempt, t){
+  D = null;
+  if(d.ghost && d.ghost.parentNode) d.ghost.parentNode.removeChild(d.ghost);
+  d.node.classList.remove('ghosted');
+  if(!attempt) return;
+  Snd.drop(); attemptAt(d.kind, d.id, t.r, t.c);
+}
+function cancelDrag(){
+  if(!D) return; const d = D; D = null;
+  if(d.ghost && d.ghost.parentNode) d.ghost.parentNode.removeChild(d.ghost);
+  if(d.node) d.node.classList.remove('ghosted'); clearHl();
+  try{ d.node.releasePointerCapture(d.pid); }catch(e){}
+}
+document.addEventListener('keydown', e => { if(e.key === 'Escape'){ cancelDrag(); clearSel(); } });
+function clearSel(){ if(S.sel){ if(S.sel.node) S.sel.node.classList.remove('sel'); S.sel = null; } }
+function toggleSel(kind, id, node){
+  if(!canDrag(kind)) return; Snd.resume();
+  if(S.sel && S.sel.id === id){ clearSel(); return; }
+  clearSel(); S.sel = { kind:kind, id:id, node:node }; node.classList.add('sel'); Snd.pick();
+  setHint(kind === 'piece' ? 'Şimdi tablodan bir kutuya dokun: parçanın sol-üst karesi oraya gelir.' : 'Şimdi tablodan bir kutuya dokun.', '');
+}
+function onCellTap(r, c){ if(!S.sel || S.busy) return; const s = S.sel; clearSel(); Snd.drop(); attemptAt(s.kind, s.id, r, c); }
+function attemptAt(kind, id, r, c){ if(S.busy) return; if(kind === 'piece' && S.phase === 's1') attempt1(id, r, c); else if(kind === 'tile' && S.phase === 's2') attempt2(r, c); }
+function setHint(t, cls){ const h = $('hint'); h.textContent = t; h.className = cls || ''; }
+
+/* ====== Aşama akışı ====== */
+function meta(k){ return { unit:C.unit, topic:C.topic, outcome:C.outcomes[k], sourceRef:C.sourceRef }; }
+function beginGame(){
+  if(S.phase !== 'intro') return; Snd.resume();
+  R = { answers:[], energy:0, combo:0, s1:null, s2:null, s3:null, stageFirst:{1:0,2:0,3:0} };
+  Clock.start(); $('energyFill').style.width = '0'; $('energyTxt').textContent = '⚡ 0'; $('combo').classList.remove('on');
+  buildTable(); buildBg(); showStageIntro(1);
+}
+const STAGES = {
+  1:{ t:'Blok Dizilimi', d:'5 bloğu tut, periyodik tablodaki doğru yere bırak. Atom numaraları soldan sağa ve yukarıdan aşağıya artar.' },
+  2:{ t:'Gizli Elementler', d:'Tabloda 5 kutu gizlendi. Sırayla sorulan elementi tut ve doğru kutuya bırak.' },
+  3:{ t:'Bilgi Testi', d:'10 soruyu cevapla. Her soruda tek doğru cevap var.' }
+};
+function showStageIntro(n){
+  S.phase = 'stageIntro'; CURSTAGE = n; updateSteps(); clearSel(); cancelDrag();
+  $('stgNum').textContent = n; $('stgT').textContent = n + '. Aşama: ' + STAGES[n].t; $('stgP').textContent = STAGES[n].d; showScreen('scStage'); Snd.whoosh();
+}
+$('btnStage').addEventListener('click', () => { if(S.phase === 'stageIntro') startStage(CURSTAGE); });
+function startStage(n){
+  showScreen(null); S.busy = false; clearSel(); Snd.resume(); mood('happy', n + '. aşama başlıyor!');
+  $('stTag').textContent = n + '. Aşama'; $('stTitle').textContent = STAGES[n].t; $('stDesc').textContent = STAGES[n].d; setHint('', '');
+  const play = $('play'); play.classList.toggle('quizMode', n === 3);
+  $('tableBox').hidden = (n === 3); $('side').hidden = (n === 3); $('quiz').hidden = (n !== 3);
+  play.style.gridTemplateColumns = n === 3 ? 'minmax(0,1fr)' : 'auto minmax(0,1fr)';
+  if(n === 1) startStage1(); else if(n === 2) startStage2(); else startStage3();
+  layout();
+}
+
+/* ----- Aşama 1: Blok dizilimi ----- */
+function startStage1(){
+  S.phase = 's1'; buildTable();
+  const pcs = shuffle(C.blocks).map(b => {
+    const els = b.syms.map(s => EL[s]); const r0 = Math.min.apply(null, els.map(e => e.p)), c0 = Math.min.apply(null, els.map(e => e.g));
+    return { b:b, id:b.id, ar:r0, ac:c0, cells:els.map(e => ({ r:e.p - r0, c:e.g - c0, e:e })), att:0, done:false, firstWrong:null, node:null };
+  });
+  R.s1 = { pcs:pcs, byId:{}, filled:{}, done:0 }; pcs.forEach(p => { R.s1.byId[p.id] = p; });
+  const tray = $('tray'); tray.hidden = false; $('qCard').hidden = true; tray.innerHTML = '';
+  pcs.forEach((p, i) => {
+    const w = Math.max.apply(null, p.cells.map(o => o.c)) + 1, h = Math.max.apply(null, p.cells.map(o => o.r)) + 1;
+    const n = el('div','piece'); n.style.setProperty('--cols', w); n.style.setProperty('--rows', h); n.style.setProperty('--dl', (i*.4) + 's'); n.dataset.bid = p.id;
+    n.setAttribute('aria-label', p.b.label + ': ' + p.b.syms.join(', ') + ' elementlerini içerir. Tabloya yerleştir.');
+    p.cells.forEach(o => { const c = el('div','pc'); c.style.setProperty('--r', o.r); c.style.setProperty('--c', o.c); c.appendChild(el('b','z',String(o.e.z))); c.appendChild(el('span','sy',o.e.sym)); n.appendChild(c); });
+    p.node = n; p.w = w; p.h = h; bindDrag(n, 'piece', p.id); tray.appendChild(n);
+  });
+  setHint('Parçayı tut ve tabloya sürükle!', ''); updateProgress1();
+}
+function updateProgress1(){ $('stDesc').textContent = 'Blok ' + R.s1.done + '/5 yerleşti. ' + STAGES[1].d; }
+function fitTray(){
+  const tray = $('tray'); if(!R || !R.s1 || tray.hidden) return; const W = tray.clientWidth, H = tray.clientHeight; if(!W || !H) return;
+  const list = R.s1.pcs.filter(p => !p.done);
+  let best = 22;
+  for(let ts = 44; ts >= 22; ts -= 2){
+    const gp = 2, gap = 10; let rowW = 0, rowH = 0, tot = 0, ok = true;
+    list.forEach(p => { const w = p.w*ts + (p.w-1)*gp, h = p.h*ts + (p.h-1)*gp; if(w > W){ ok = false; }
+      if(rowW > 0 && rowW + gap + w > W){ tot += rowH + gap; rowW = 0; rowH = 0; } rowW += (rowW ? gap : 0) + w; rowH = Math.max(rowH, h); });
+    tot += rowH; if(ok && tot <= H - 8){ best = ts; break; }
+  }
+  document.documentElement.style.setProperty('--ts', best + 'px');
+}
+function attempt1(id, r, c){
+  const p = R.s1.byId[id]; if(!p || p.done || S.busy) return;
+  p.att++; const ok = (r === p.ar && c === p.ac);
+  const pt = cellCenter(Math.min(4, Math.max(1, r)), Math.min(8, Math.max(1, c)));
+  if(ok){ S.busy = true; revealBlock(p, p.att === 1, true); return; }
+  if(!p.firstWrong) p.firstWrong = { r:r, c:c };
+  Snd.bad(); xMark(pt.x, pt.y); shakeApp(); breakCombo(); mood('sad', 'Olmadı, tekrar dene!');
+  p.node.classList.remove('back'); void p.node.offsetWidth; p.node.classList.add('back');
+  if(p.att >= 3){ S.busy = true; setHint('Üç hata oldu. Doğru yeri gösteriyorum!', 'bad'); setT('rev1', () => revealBlock(p, false, false), 900); return; }
+  setHint(p.att === 1 ? 'İpucu: Tablo soldan sağa ve yukarıdan aşağıya atom numarasına göre dizilir.' : 'Parlayan kutulara bak!', 'bad');
+  if(p.att === 2){ p.cells.forEach(o => { const d = cellEls[(p.ar + o.r) + ',' + (p.ac + o.c)]; if(d) d.classList.add('tip'); }); setT('tip', clearHl, 3200); }
+}
+function revealBlock(p, first, byPlayer){
+  clearHl(); p.done = true; R.s1.done++;
+  const before = rowsDone(R.s1.filled); p.cells.forEach(o => { R.s1.filled[o.e.sym] = true; });
+  p.cells.forEach((o, i) => { setTimeout(() => { fillCell(o.e, 'pop'); }, S.rm ? 0 : i * 70 * TS); });
+  p.node.classList.add('gone'); setTimeout(() => { if(p.node.parentNode) p.node.parentNode.removeChild(p.node); fitTray(); }, 380 * TS);
+  const mid = cellCenter(p.ar + p.cells[0].r, p.ac + p.cells[0].c);
+  if(byPlayer){ Snd.good(); } else Snd.drop();
+  burst(mid.x, mid.y, 'var(--k)' && null, 16); floatText(mid.x, mid.y - 16, CLSNAME[p.b.cls].toUpperCase() + (p.id === 'b5' ? ' (H)' : '') + '!', first ? 'good' : '');
+  R.answers.push({ id:p.b.questionId, ok:first, qText:p.b.label + ' (' + p.b.syms.join(', ') + ') periyodik tabloda doğru yere yerleştirilir.',
+    student:p.firstWrong ? ('İlk yanlış bırakılan konum: ' + p.firstWrong.r + '. periyot, ' + p.firstWrong.c + 'A sütunu (' + p.att + ' deneme)') : 'Doğru yere bırakıldı', correct:p.b.place, meta:meta('K1'), explanation:p.b.explanation });
+  if(first) R.stageFirst[1]++;
+  addEnergy(first, mid.x, mid.y + 10); mood(first ? 'happy' : 'sad', first ? 'Harika blok!' : 'Şimdi doğru yerde!');
+  setHint(p.b.explanation, first ? 'good' : ''); updateProgress1();
+  setT('chk1', () => laserRows(before, rowsDone(R.s1.filled)), 500);
+  if(R.s1.done >= R.s1.pcs.length){ setT('end1', () => stageDone(1), 2400); }
+  else setT('free1', () => { S.busy = false; }, 800);
+}
+
+/* ----- Aşama 2: Gizli elementler ----- */
+function startStage2(){
+  S.phase = 's2'; buildTable();
+  const picks = shuffle(C.elements).slice(0, 5); const holes = {}; picks.forEach(e => { holes[e.sym] = true; });
+  const filled = {}; C.elements.forEach(e => { if(holes[e.sym]) makeHole(e); else { fillCell(e); filled[e.sym] = true; } });
+  R = Object.assign(R, { s2:{ items:picks, i:0, filled:filled, att:0, firstWrong:null } });
+  $('tray').hidden = true; $('qCard').hidden = false; nextItem2(true);
+}
+function nextItem2(first){
+  const s = R.s2; const e = s.items[s.i]; s.att = 0; s.firstWrong = null; S.busy = false; clearSel(); clearHl();
+  $('qText').textContent = 'Soru ' + (s.i+1) + '/5: ' + e.name + ' (' + e.sym + ') hangi kutuya ait?';
+  $('stDesc').textContent = 'Elementi tut ve tablodaki gizli kutuya bırak.'; renderHearts();
+  const slot = $('tileSlot'); slot.innerHTML = ''; const t = el('div','tile'); t.appendChild(el('span','sy',e.sym)); t.dataset.sym = e.sym; t.setAttribute('aria-label', e.name + ' elementi. Tabloya yerleştir.');
+  bindDrag(t, 'tile', e.sym); slot.appendChild(t); setHint('', ''); if(!first) Snd.whoosh();
+}
+function renderHearts(){ const h = $('hearts'); h.innerHTML = ''; for(let i=0;i<3;i++){ const x = el('i', i < 3 - R.s2.att ? '' : 'off', '❤️'); h.appendChild(x); } h.setAttribute('aria-label', 'Kalan hak: ' + (3 - R.s2.att)); }
+function attempt2(r, c){
+  const s = R.s2; const e = s.items[s.i]; if(!e || S.busy) return;
+  s.att++; renderHearts(); const ok = (r === e.p && c === e.g); const pt = cellCenter(r, c);
+  if(ok){ S.busy = true; reveal2(e, s.att === 1, true); return; }
+  if(!s.firstWrong) s.firstWrong = { r:r, c:c };
+  Snd.bad(); xMark(pt.x, pt.y); shakeApp(); breakCombo(); mood('sad', 'Bu kutu değil!');
+  const d = cellEls[r + ',' + c]; if(d && !S.rm){ d.classList.add('nope'); setTimeout(() => d.classList.remove('nope'), 500); }
+  if(s.att >= 3){ S.busy = true; setHint('Üç hata oldu. Doğru kutuyu gösteriyorum!', 'bad'); setT('rev2', () => reveal2(e, false, false), 900); return; }
+  setHint(s.att === 1 ? 'İpucu: ' + e.name + ' elementinin atom numarası ' + e.z + '.' : 'İpucu: ' + pos(e) + '.', 'bad');
+}
+function reveal2(e, first, byPlayer){
+  clearHl(); const s = R.s2; const before = rowsDone(s.filled); s.filled[e.sym] = true; fillCell(e, 'flip'); const pc = cellCenter(e.p, e.g);
+  if(byPlayer) Snd.good(); else Snd.drop(); burst(pc.x, pc.y, null, 18); if(first && !S.rm) confetti(14);
+  R.answers.push({ id:e.questionId, ok:first, qText:e.name + ' (' + e.sym + ') elementini periyodik tabloda doğru kutuya yerleştir.',
+    student:s.firstWrong ? ('İlk yanlış bırakılan konum: ' + s.firstWrong.r + '. periyot, ' + s.firstWrong.c + 'A grubu (' + s.att + ' deneme)') : 'Doğru kutuya bırakıldı',
+    correct:pos(e), meta:meta('K2'), explanation:e.name + ' (' + e.sym + '): atom numarası ' + e.z + ', ' + pos(e) + '; ' + CLSNAME[e.cls].toLowerCase() + '.' });
+  if(first) R.stageFirst[2]++;
+  addEnergy(first, pc.x, pc.y - 10); mood(first ? 'cheer' : 'sad', first ? 'Süpersin!' : 'Bu sefer göstereyim!');
+  setHint(e.name + ' (' + e.sym + '): Z=' + e.z + ', ' + pos(e) + '.', first ? 'good' : '');
+  $('tileSlot').innerHTML = ''; setT('chk2', () => laserRows(before, rowsDone(s.filled)), 500);
+  s.i++;
+  if(s.i >= 5) setT('end2', () => stageDone(2), 2200); else setT('nxt2', () => nextItem2(false), 1700);
+}
+
+/* ----- Aşama 3: Test ----- */
+function startStage3(){
+  S.phase = 's3'; const qs = shuffle(C.tests).slice(0, 10).map(t => { const opts = shuffle(t.options.map((o, i) => ({ o:o, ok:i === t.correct }))); return { t:t, opts:opts }; });
+  R.s3 = { qs:qs, i:0, locked:false }; renderQ();
+}
+function renderQ(){
+  const s = R.s3, q = s.qs[s.i]; s.locked = false; S.busy = false;
+  const dots = $('qDots'); dots.innerHTML = ''; for(let i=0;i<10;i++){ const d = el('i', i === s.i ? 'cur' : '', String(i+1)); const a = R.answers[10 + i]; if(a) d.className = a.ok ? 'ok' : 'no'; dots.appendChild(d); }
+  $('quizQ').textContent = (s.i+1) + '. ' + q.t.text; const qq = $('quizQ'); qq.style.animation = 'none'; void qq.offsetWidth; qq.style.animation = '';
+  const box = $('opts'); box.innerHTML = '';
+  q.opts.forEach((o, i) => { const b = el('button','opt'); b.type = 'button'; b.dataset.i = i; b.style.animationDelay = (i*70) + 'ms'; b.appendChild(el('b',null,'ABCD'[i])); b.appendChild(el('span',null,o.o));
+    b.setAttribute('aria-label', 'Seçenek ' + 'ABCD'[i] + ': ' + o.o); b.addEventListener('click', () => chooseOpt(i)); box.appendChild(b); });
+  $('qFb').hidden = true; $('stDesc').textContent = '';
+}
+function chooseOpt(i){
+  const s = R.s3; if(S.phase !== 's3' || s.locked || S.portrait) return; s.locked = true; Snd.resume();
+  const q = s.qs[s.i], chosen = q.opts[i], ok = chosen.ok; const btns = $('opts').querySelectorAll('.opt');
+  btns.forEach((b, k) => { b.disabled = true; if(q.opts[k].ok) b.classList.add('ok'); else if(k === i) b.classList.add('no'); });
+  const bb = btns[i].getBoundingClientRect(); const cx = bb.left + bb.width/2, cy = bb.top + bb.height/2;
+  const corr = q.opts.filter(o => o.ok)[0].o;
+  R.answers.push({ id:q.t.questionId, ok:ok, qText:q.t.text, student:chosen.o, correct:corr, meta:meta(q.t.outcomeKey), explanation:q.t.explanation });
+  if(ok){ Snd.good(); Snd.win(); burst(cx, cy, null, 18); confetti(10); R.stageFirst[3]++; addEnergy(true, cx, cy - 20); mood('cheer', 'Doğru!'); }
+  else { Snd.bad(); xMark(cx, cy); shakeApp(); addEnergy(false); breakCombo(); mood('sad', 'Doğrusu: ' + 'ABCD'[q.opts.findIndex(o => o.ok)]); }
+  const dots = $('qDots').children; if(dots[s.i]) dots[s.i].className = ok ? 'ok' : 'no';
+  $('qFbTxt').textContent = (ok ? '✓ Doğru! ' : '✗ Yanlış. ') + q.t.explanation; $('qFb').hidden = false;
+  const nb = $('btnQNext'); nb.textContent = s.i >= 9 ? 'Sonucu Gör' : 'Devam'; try{ nb.focus({preventScroll:true}); }catch(e){}
+}
+$('btnQNext').addEventListener('click', () => {
+  const s = R && R.s3; if(!s || S.phase !== 's3' || !s.locked) return; s.locked = 'next'; s.i++;
+  if(s.i >= 10){ S.phase = 'advancing'; finishGame(); return; } Snd.whoosh(); renderQ();
+});
+document.addEventListener('keydown', e => {
+  if(S.phase !== 's3' || e.ctrlKey || e.metaKey || e.altKey) return; const k = e.key.toUpperCase(); const i = 'ABCD'.indexOf(k); const n = '1234'.indexOf(k);
+  const idx = i >= 0 ? i : n; if(idx >= 0 && R.s3 && R.s3.locked === false){ e.preventDefault(); chooseOpt(idx); }
+});
+
+/* ----- Aşama sonu ----- */
+function stageDone(n){
+  if(S.phase !== 's' + n) return; S.phase = 'stageDone'; clearAllT(); S.busy = true; cancelDrag(); clearSel();
+  const tot = n === 1 ? 5 : 5, f = R.stageFirst[n];
+  const m = $('medals'); m.innerHTML = ''; for(let i=0;i<tot;i++){ m.innerHTML += '<svg viewBox="0 0 64 64" class="' + (i < f ? 'on' : '') + '" aria-hidden="true" fill="' + (i < f ? '#ffd84d' : 'none') + '" stroke="' + (i < f ? '#c79c1f' : 'rgba(255,255,255,.45)') + '"><use href="#medalSym"/></svg>'; }
+  m.setAttribute('aria-label', 'İlk denemede doğru: ' + f + '/' + tot);
+  $('doneT').textContent = n + '. Aşama tamam!'; $('doneP').textContent = 'İlk denemede ' + f + '/' + tot + ' doğru. ' + (n === 1 ? 'Şimdi gizli elementleri bulma zamanı!' : 'Son görev: bilgi testi!');
+  showScreen('scDone'); Snd.fan(); confetti(f >= 4 ? 40 : 22); mood('cheer');
+}
+$('btnDone').addEventListener('click', () => { if(S.phase === 'stageDone'){ const n = CURSTAGE + 1; showStageIntro(n); } });
+
+/* ====== Sonuç ====== */
+function calcStars(c, t){ const pct = t > 0 ? (c/t)*100 : 0; return pct >= CFG.stars.s3 ? 3 : pct >= CFG.stars.s2 ? 2 : pct >= CFG.stars.s1 ? 1 : 0; }
+function buildResult(){
+  const answers = R.answers.map(a => a.ok ? { questionId:a.id, isCorrect:true } :
+    { questionId:a.id, isCorrect:false, questionText:a.qText, studentAnswer:a.student, correctAnswer:a.correct, unit:a.meta.unit, topic:a.meta.topic, outcome:a.meta.outcome, sourceRef:a.meta.sourceRef, explanation:a.explanation });
+  const c = R.answers.filter(a => a.ok).length, w = R.answers.length - c;
+  return { gameId:CFG.gameId, gameVersion:CFG.gameVersion, grade:S.ctx.grade, gameName:CFG.gameName, subjectId:S.ctx.subjectId, subjectName:S.ctx.subjectName,
+    stars:calcStars(c, answers.length), correctCount:c, wrongCount:w, durationMs:Clock.value(), answers:answers };
+}
+function validResult(p){
+  if(!p || [0,1,2,3].indexOf(p.stars) < 0) return false;
+  if(!(Number.isInteger(p.durationMs) && p.durationMs >= 0)) return false;
+  if(p.correctCount + p.wrongCount !== p.answers.length || p.answers.length !== CFG.totalQuestions) return false;
+  const seen = {};
+  for(let i=0;i<p.answers.length;i++){ const a = p.answers[i]; if(!a.questionId || seen[a.questionId]) return false; seen[a.questionId] = 1;
+    if(a.isCorrect === false){ const f = ['questionText','studentAnswer','correctAnswer','unit','topic','outcome','sourceRef']; for(let j=0;j<f.length;j++) if(!a[f[j]]) return false; } }
+  return true;
+}
+function finishGame(){
+  if(S.resultSent) return; S.phase = 'finished'; Clock.stop(); clearAllT(); cancelDrag();
+  const payload = buildResult();
+  if(!validResult(payload)){ showError('Sonuç oluşturulamadı. Lütfen oyunu yeniden dene.', false); return; }
+  if(S.mode === 'demo'){ showDemoResult(payload); return; }
+  S.resultSent = true; S.resultMsg = envelope('game.completed', payload);
+  $('sentSpin').hidden = false; $('sentT').textContent = 'Sonuç gönderildi'; $('sentMsg').textContent = 'Kaydediliyor…'; $('btnResend').hidden = true; showScreen('scSent'); Snd.fan(); confetti(30);
+  if(!sendToApp(S.resultMsg)){ $('sentSpin').hidden = true; $('sentT').textContent = 'Sonuç iletilemedi'; $('sentMsg').textContent = 'Sonuç uygulamaya iletilemedi. Tekrar göndermeyi dene.'; $('btnResend').hidden = false; try{ $('btnResend').focus(); }catch(e){} }
+  S.phase = 'sent';
+}
+$('btnResend').addEventListener('click', () => {
+  if(!S.resultMsg || S.phase !== 'sent') return;
+  if(sendToApp(S.resultMsg)){ $('sentSpin').hidden = false; $('sentT').textContent = 'Sonuç gönderildi'; $('sentMsg').textContent = 'Kaydediliyor…'; $('btnResend').hidden = true; }
+});
+function starSvg(on){ return '<svg viewBox="0 0 64 64" class="' + (on ? 'on' : '') + '" aria-hidden="true" fill="' + (on ? '#ffd84d' : 'none') + '" stroke="' + (on ? '#c79c1f' : 'rgba(255,255,255,.5)') + '"><use href="#medalSym"/></svg>'; }
+function showDemoResult(p){
+  let h = ''; for(let i=0;i<3;i++) h += starSvg(i < p.stars); $('stars').innerHTML = h; $('stars').setAttribute('aria-label', p.stars + ' yıldız');
+  $('rC').textContent = '✓ Doğru: ' + p.correctCount; $('rW').textContent = '✗ Yanlış: ' + p.wrongCount; $('rT').textContent = '⏱ ' + Math.round(p.durationMs/1000) + ' sn';
+  const rv = $('review'); rv.innerHTML = ''; const wr = p.answers.filter(a => !a.isCorrect);
+  wr.forEach(a => { const li = el('li'); li.appendChild(el('b', null, a.correctAnswer)); li.appendChild(document.createTextNode(' — ' + a.explanation)); rv.appendChild(li); });
+  $('reviewBox').hidden = wr.length === 0; $('resT').textContent = p.stars >= 2 ? 'Galaksi şampiyonu!' : (p.stars === 1 ? 'İyi gidiyorsun!' : 'Bir daha dene!');
+  showScreen('scRes'); if(p.stars >= 1){ Snd.fan(); confetti(p.stars === 3 ? 50 : 28); } else Snd.bad();
+  S.phase = 'finished';
+}
+$('btnAgain').addEventListener('click', () => { if(S.mode !== 'demo' || S.phase !== 'finished') return; R = null; clearAllT(); S.phase = 'intro'; CURSTAGE = 0; updateSteps(); showStart(); });
+
+/* ====== Başlatma / el sıkışma ====== */
+$('btnStart').addEventListener('click', () => { if(S.phase !== 'intro' || !S.mode) return; beginGame(); });
+$('btnRetry').addEventListener('click', () => { if(S.phase === 'error') bootstrap(); });
+$('btnExit').addEventListener('click', () => { try{ window.close(); }catch(e){} try{ if(history.length > 1) history.back(); }catch(e){} });
+function startDemo(){ S.mode = 'demo'; S.ctx = { runId:'demo-run', nonce:'demo-nonce', grade:CFG.grade, subjectId:CFG.subjectId, subjectName:CFG.subjectName, reducedMotion:false }; S.resultMsg = null; S.resultSent = false; applyRM(); $('demoTag').hidden = false; $('btnStart').textContent = 'Deneme Modunda Başla'; showStart(); }
+function bootstrap(){ clearT('hs'); S.phase = 'boot'; S.mode = null; S.readyIds = {}; S.bridgeTry = 0; showScreen('scLoad'); tryReady(); }
+function tryReady(){
+  if(sendReady()){ S.mode = 'native'; S.phase = 'waitInit'; $('btnStart').textContent = 'Başla'; setT('hs', () => { if(S.phase === 'waitInit') showError('Uygulamaya bağlanılamadı. Tekrar deneyebilir veya çıkabilirsin.', true); }, 10000); return; }
+  S.bridgeTry++; if(S.bridgeTry < 10){ setT('hs', tryReady, 300); return; }
+  startDemo();
+}
+window.addEventListener('resize', () => { layout(); });
+buildBg(); buildTable(); updateSteps();
+if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bootstrap); else bootstrap();
+})();
+</script>
+</body>
+</html>

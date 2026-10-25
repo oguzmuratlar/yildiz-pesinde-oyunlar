@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; media-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Buz &amp; Ateş Laboratuvarı</title>
+<style>
+:root{
+  --ink:#fff; --mute:#d6e8ff; --ice:#5fe6ff; --fire:#ff7a1a; --yel:#ffe14d; --pink:#ff4fa3; --good:#37e39a; --bad:#ff5d5d; --vio:#9b6bff;
+  --panel:rgba(16,14,70,.72); --line:rgba(190,220,255,.4);
+  --u:30px; --tt:260px; --px:0; --py:0;
+  --font:"Trebuchet MS","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;overflow:hidden;background:#0b1450;color:var(--ink);font-family:var(--font);-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+button{font-family:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* ===================== ARKA PLAN: buz ve ateş vadisi (çok katmanlı, paralaks) ===================== */
+#bg{position:fixed;top:0;right:0;bottom:0;left:0;overflow:hidden;z-index:0;background:#0b1450}
+#bg .ly{position:absolute;left:-6%;right:-6%;top:0;bottom:0;will-change:transform}
+#bg .sky{background:linear-gradient(180deg,#0a1259 0%,#3b1c9c 38%,#b53ea8 64%,#ff7a52 86%,#ffc15a 100%)}
+#bg .stars i{position:absolute;border-radius:50%;background:#fff;animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15;transform:scale(.7)}50%{opacity:1;transform:scale(1.25)}}
+#bg .aur{mix-blend-mode:screen;opacity:.85;pointer-events:none}
+#bg .aur b{position:absolute;display:block;left:-10%;width:130%;height:34%;filter:blur(14px);border-radius:50%;transform-origin:50% 50%}
+#bg .aur .a1{top:2%;background:linear-gradient(90deg,transparent,rgba(60,255,200,.7),rgba(80,160,255,.6),transparent);animation:aur1 11s ease-in-out infinite alternate}
+#bg .aur .a2{top:10%;background:linear-gradient(90deg,transparent,rgba(255,80,200,.55),rgba(150,100,255,.6),transparent);animation:aur2 14s ease-in-out infinite alternate}
+#bg .aur .a3{top:-4%;height:26%;background:linear-gradient(90deg,transparent,rgba(120,255,120,.5),rgba(60,220,255,.5),transparent);animation:aur1 17s ease-in-out infinite alternate-reverse}
+@keyframes aur1{0%{transform:translateX(-6%) skewX(-12deg) scaleY(.8)}100%{transform:translateX(7%) skewX(10deg) scaleY(1.25)}}
+@keyframes aur2{0%{transform:translateX(8%) skewX(14deg) scaleY(1.1);opacity:.6}100%{transform:translateX(-8%) skewX(-8deg) scaleY(.7);opacity:1}}
+#bg.hot .aur{animation:aurhot 2.2s ease-out 1}
+@keyframes aurhot{40%{filter:brightness(2.2) saturate(1.6)}}
+#bg .moon{left:auto;right:9%;top:7%;width:clamp(46px,9vw,92px);height:clamp(46px,9vw,92px);bottom:auto;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fffbe6,#ffe9a8 55%,#e8b86a);box-shadow:0 0 40px 10px rgba(255,235,170,.45);animation:moonp 6s ease-in-out infinite}
+@keyframes moonp{50%{box-shadow:0 0 60px 18px rgba(255,235,170,.6)}}
+#bg svg.sc{position:absolute;left:0;bottom:0;width:100%;height:auto;display:block}
+#bg .far{bottom:calc(100% - var(--tt) - 2px);top:auto;height:44%;transform:translate3d(calc(var(--px)*6px),calc(var(--py)*3px),0);animation:drift1 40s ease-in-out infinite alternate}
+#bg .mid{bottom:calc(100% - var(--tt) - 2px);top:auto;height:56%;transform:translate3d(calc(var(--px)*14px),calc(var(--py)*6px),0)}
+#bg .near{bottom:calc(100% - var(--tt) - 2px);top:auto;height:34%;transform:translate3d(calc(var(--px)*26px),calc(var(--py)*10px),0)}
+@keyframes drift1{from{margin-left:-1.5%}to{margin-left:1.5%}}
+#bg .lavaGlow{position:absolute;left:62%;bottom:calc(100% - var(--tt) + 6%);width:34%;height:46%;background:radial-gradient(ellipse at 50% 100%,rgba(255,110,30,.65),transparent 68%);mix-blend-mode:screen;animation:lg 2.6s ease-in-out infinite alternate;pointer-events:none}
+@keyframes lg{from{opacity:.55;transform:scale(.95)}to{opacity:1;transform:scale(1.08)}}
+#bg .smoke i{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(60,30,50,.85),rgba(120,70,80,.0) 70%);animation:smk linear infinite}
+@keyframes smk{0%{transform:translate(0,0) scale(.4);opacity:0}15%{opacity:.8}100%{transform:translate(var(--dx),-130px) scale(2.4);opacity:0}}
+#bg .lava i,#bg .erup i{position:absolute;border-radius:50%;background:radial-gradient(circle,#fff6b0,#ff9a1f 55%,#ff3d00);box-shadow:0 0 10px 3px rgba(255,140,30,.8)}
+#bg .lava i{animation:spark linear infinite}
+@keyframes spark{0%{transform:translate(0,0);opacity:0}10%{opacity:1}100%{transform:translate(var(--dx),var(--dy));opacity:0}}
+#bg .erup i{animation:erup 1.6s cubic-bezier(.2,.7,.4,1) forwards}
+@keyframes erup{0%{transform:translate(0,0) scale(1);opacity:1}60%{opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(.3);opacity:0}}
+#bg .glint i{position:absolute;width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 8px 3px rgba(150,240,255,.9);animation:gl 2.4s ease-in-out infinite}
+@keyframes gl{0%,100%{transform:scale(0);opacity:0}50%{transform:scale(1.6);opacity:1}}
+#bg .snow i{position:absolute;top:-10px;border-radius:50%;background:#fff;opacity:.9;animation:snow linear infinite}
+@keyframes snow{0%{transform:translate(0,-10px)}50%{transform:translate(var(--sw),48vh)}100%{transform:translate(calc(var(--sw)*-0.4),105vh)}}
+#bg .snowF{transform:translate3d(calc(var(--px)*-20px),0,0)}
+#bg .ember i{position:absolute;bottom:-10px;width:4px;height:4px;border-radius:50%;background:#ffb347;box-shadow:0 0 6px 2px rgba(255,140,30,.9);animation:emb linear infinite}
+@keyframes emb{0%{transform:translate(0,0);opacity:0}10%{opacity:1}100%{transform:translate(var(--dx),-70vh);opacity:0}}
+#bg .table{position:absolute;left:0;right:0;bottom:0;top:var(--tt);background:linear-gradient(180deg,#5b3aa8 0%,#2d2275 24%,#1a1458 100%);box-shadow:0 -6px 22px rgba(120,90,255,.55);overflow:hidden;z-index:2}
+#bg .table::before{content:"";position:absolute;left:-30%;right:-30%;top:0;bottom:-60%;background:repeating-linear-gradient(90deg,transparent 0 58px,rgba(150,200,255,.2) 58px 60px),repeating-linear-gradient(0deg,rgba(255,255,255,.06) 0 3px,transparent 3px 14px);transform-origin:50% 0;transform:perspective(240px) rotateX(46deg)}
+#bg .table::after{content:"";position:absolute;left:0;right:0;top:0;height:14px;background:linear-gradient(rgba(180,230,255,.75),transparent)}
+#bg .vig{position:absolute;top:0;right:0;bottom:0;left:0;background:radial-gradient(ellipse at 50% 46%,transparent 52%,rgba(6,6,40,.6) 100%);pointer-events:none;z-index:6}
+#bg .flash{position:absolute;top:0;right:0;bottom:0;left:0;background:radial-gradient(circle at 74% 60%,rgba(255,200,90,.7),transparent 60%);opacity:0;z-index:5;pointer-events:none}
+#bg.hot .flash{animation:fl 1.4s ease-out 1}
+@keyframes fl{0%{opacity:0}20%{opacity:.9}100%{opacity:0}}
+
+/* ===================== DÜZEN ===================== */
+#app{position:fixed;top:0;right:0;bottom:0;left:0;z-index:2;display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:6px;
+  padding:max(6px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
+#top{position:relative;display:flex;align-items:center;gap:8px;min-height:50px;padding:3px 8px;border-radius:16px;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(4px);z-index:8}
+#mascotBox{position:relative;flex:none;width:46px;height:46px}
+#mascot{width:46px;height:46px;overflow:visible}
+#bubble{position:absolute;left:52px;top:8px;z-index:12;background:#fff;color:#2a1a6a;border-radius:12px;padding:4px 10px;font:800 13px/1.2 var(--font);white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.35);opacity:0;transform:translateX(-8px);pointer-events:none;transition:opacity .2s,transform .2s}
+#bubble.on{opacity:1;transform:none}
+#steps{display:flex;gap:5px;list-style:none;margin:0;padding:0;flex:1;justify-content:center;min-width:0}
+.step{display:flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;background:rgba(255,255,255,.1);border:2px solid transparent;font:800 12px/1.1 var(--font);color:var(--mute);white-space:nowrap}
+.step b{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.18);font-size:14px}
+.step.cur{color:#fff;border-color:var(--ice);background:rgba(95,230,255,.18);animation:glow 1.6s ease-in-out infinite}
+.step.done{color:#fff} .step.done b{background:var(--good)}
+@keyframes glow{0%,100%{box-shadow:0 0 8px rgba(95,230,255,.4)}50%{box-shadow:0 0 20px rgba(255,140,60,.9)}}
+#hud{display:flex;align-items:center;gap:8px;flex:none}
+#score{position:relative;min-width:96px;height:30px;padding:0 12px;border-radius:999px;background:rgba(0,0,0,.4);border:2px solid var(--line);display:grid;place-items:center;font:900 14px/1 var(--font);color:var(--yel)}
+#score.pop{animation:spop .4s}
+@keyframes spop{50%{transform:scale(1.18)}}
+#combo{min-width:44px;text-align:center;font:900 14px/1 var(--font);color:#ffb347;opacity:0;transform:scale(.6);transition:opacity .2s,transform .2s}
+#combo.on{opacity:1;transform:scale(1)}
+.ibtn{width:44px;height:44px;border-radius:14px;border:2px solid var(--line);background:rgba(255,255,255,.12);display:grid;place-items:center;flex:none;font-size:20px}
+.ibtn[aria-pressed="true"]{opacity:.55;border-style:dashed}
+
+#board{position:relative;justify-self:center;width:min(70%,780px);min-height:54px;padding:6px 14px;border-radius:14px;
+  background:linear-gradient(160deg,rgba(24,32,110,.9),rgba(60,24,110,.88));border:3px solid var(--ice);box-shadow:0 0 22px rgba(95,230,255,.45),0 8px 18px rgba(0,0,40,.5),inset 0 0 22px rgba(95,230,255,.18);display:flex;align-items:center;gap:10px;z-index:7}
+#qBox{flex:1;min-width:0}
+#qTag{display:inline-block;margin-bottom:2px;padding:1px 8px;border-radius:999px;background:linear-gradient(90deg,var(--fire),var(--yel));color:#3a1800;font:900 11px/1.4 var(--font)}
+#qText{margin:0;font:800 clamp(12px,2.6vh,16.5px)/1.25 var(--font);color:#f4fbff;text-shadow:0 1px 0 rgba(0,0,0,.4)}
+#hearts{display:flex;gap:2px;flex:none;font-size:18px}
+#hearts i{font-style:normal;transition:transform .3s,opacity .3s} #hearts i.off{opacity:.25;transform:scale(.6) rotate(-20deg)}
+#fbBox{flex:1;min-width:0;display:flex;align-items:center;gap:10px}
+#fbText{margin:0;flex:1;font:700 clamp(11px,2.25vh,14.5px)/1.3 var(--font);color:#f4fbff}
+#board.okb{border-color:#37e39a;box-shadow:0 0 24px rgba(55,227,154,.55),0 8px 18px rgba(0,0,40,.5)} #board.nob{border-color:#ffb04d;box-shadow:0 0 24px rgba(255,150,60,.55),0 8px 18px rgba(0,0,40,.5)}
+.btn{min-height:46px;min-width:48px;padding:8px 22px;border:0;border-radius:16px;background:linear-gradient(#ffe36e,#ff9a1a);color:#3a1800;font:900 17px/1.1 var(--font);box-shadow:0 5px 0 #b25a00,0 0 18px rgba(255,160,0,.55)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #b25a00}
+.btn.alt{background:linear-gradient(#fff,#cfd6ff);box-shadow:0 5px 0 #8a93cc;color:#1d2260}
+
+#bench{position:relative;min-height:0;z-index:4}
+#work{position:absolute;top:0;right:0;bottom:0;left:0}
+#say{position:absolute;left:50%;top:0;transform:translateX(-50%);max-width:92%;padding:3px 12px;border-radius:999px;background:rgba(14,10,60,.8);border:1px solid var(--line);font:800 clamp(11px,2.2vh,14px)/1.3 var(--font);text-align:center;opacity:0;transition:opacity .25s;pointer-events:none;z-index:9}
+#say.on{opacity:1} #say.bad{color:#ffc2b4} #say.good{color:#9dffd0}
+#obs{position:absolute;left:1%;top:22px;display:flex;flex-direction:column;gap:3px;z-index:9;pointer-events:none;max-width:42%}
+#obs span{padding:2px 8px;border-radius:8px;background:rgba(14,10,60,.8);border:1px solid var(--line);font:800 11px/1.3 var(--font);animation:chip .35s}
+@keyframes chip{from{opacity:0;transform:translateX(-12px)}}
+#clk{position:absolute;right:1%;top:0;z-index:9;padding:2px 10px;border-radius:999px;background:rgba(14,10,60,.85);border:2px solid var(--ice);font:900 13px/1.3 "Courier New",monospace;color:#9dfcff;opacity:0;transition:opacity .3s}
+#clk.on{opacity:1}
+#btnHint{position:absolute;right:1%;bottom:1%;z-index:9;width:48px;height:48px;border-radius:50%;border:3px solid #fff;background:radial-gradient(circle at 30% 25%,#fff7a8,#ffc400);font-size:22px;box-shadow:0 4px 0 #b57d00,0 0 16px rgba(255,214,0,.7);animation:bob 2.4s ease-in-out infinite}
+#btnHint:disabled{opacity:.4;animation:none}
+#tutor{position:absolute;z-index:20;font-size:34px;pointer-events:none;filter:drop-shadow(0 3px 4px rgba(0,0,0,.5))}
+
+/* ===================== SAHNE NESNELERİ ===================== */
+.mv,.tg{position:absolute;transform:translate(-50%,-50%)}
+.mv{touch-action:none;cursor:grab;z-index:6;transition:left .35s cubic-bezier(.3,1.2,.4,1),top .35s cubic-bezier(.3,1.2,.4,1)}
+.mv.drag0{transition:none}
+.mv::before{content:"";position:absolute;top:-8px;right:-8px;bottom:-8px;left:-8px}
+.mv .art{width:100%;height:100%;animation:bob 3s ease-in-out infinite;animation-delay:var(--dl,0s)}
+.mv.placed .art,.mv.locked .art{animation:none}
+.mv .art svg{width:100%;height:100%;display:block;overflow:visible;filter:drop-shadow(0 6px 5px rgba(0,0,0,.35))}
+.cap{position:absolute;left:50%;top:100%;transform:translateX(-50%);margin-top:2px;white-space:nowrap;padding:1px 7px;border-radius:8px;background:rgba(14,10,60,.78);font:800 11px/1.3 var(--font);pointer-events:none;z-index:2}
+.mv.sel .art{filter:drop-shadow(0 0 10px var(--yel));animation:none;transform:scale(1.08)}
+.mv.ghosted{opacity:.28} .mv.ghosted .art{animation:none}
+.mv.locked{cursor:default;filter:drop-shadow(0 0 8px var(--good))}
+.mv.ghost{position:fixed;z-index:70;pointer-events:none;cursor:grabbing;transition:none}
+.mv.ghost::before{display:none}
+.mv.ghost .art{animation:none}
+.mv.ghost .cap{display:none}
+.mv.ghost.lift .art{filter:drop-shadow(0 12px 10px rgba(0,0,0,.5))}
+.tg{z-index:3}
+.tg.hl{filter:drop-shadow(0 0 12px var(--ice)) brightness(1.12)}
+.tg.glow{animation:tglow 1s ease-in-out 3}
+@keyframes tglow{50%{filter:drop-shadow(0 0 18px var(--yel)) brightness(1.25)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.tok{width:calc(var(--u)*1.9);height:calc(var(--u)*2.2);min-width:56px;min-height:62px}
+.tokC{width:calc(var(--u)*1.7);height:calc(var(--u)*2.1);min-width:56px;min-height:62px}
+.medal{width:calc(var(--u)*1.7);height:calc(var(--u)*2.1);min-width:52px;min-height:62px}
+.flagm{width:calc(var(--u)*1.5);height:calc(var(--u)*2.4);min-width:48px;min-height:66px}
+
+/* kap (termometreli) */
+.vsl{width:calc(var(--u)*3.6);height:calc(var(--u)*4.9);min-width:104px;min-height:140px}
+.vsl.sm{width:calc(var(--u)*2.7);height:calc(var(--u)*3.7);min-width:84px;min-height:112px}
+.vsl.xs{width:calc(var(--u)*2.4);height:calc(var(--u)*3.3);min-width:76px;min-height:100px}
+.vsl .vs{position:absolute;top:0;right:0;bottom:0;left:0}
+.vsl svg.vv{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible;filter:drop-shadow(0 6px 5px rgba(0,0,0,.35))}
+.vsl .lcd{position:absolute;left:50%;top:-2px;transform:translateX(-50%);padding:1px 6px;border-radius:6px;background:#0c2a22;color:#7dffb2;font:900 clamp(11px,2.4vh,14px)/1.2 "Courier New",monospace;text-shadow:0 0 6px rgba(125,255,178,.8);border:1px solid #3a8f6a;white-space:nowrap;z-index:3}
+.vsl .tag{position:absolute;left:12%;top:60%;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#2a1a6a;font:900 14px/1 var(--font);border:3px solid var(--ice);box-shadow:0 2px 6px rgba(0,0,0,.4);z-index:2}
+.vsl .cap{top:calc(100% - 6px)}
+.vsl .qchip{position:absolute;left:50%;top:22%;transform:translateX(-50%);white-space:nowrap;padding:1px 7px;border-radius:8px;background:linear-gradient(#ffe36e,#ff9a1a);color:#3a1800;font:900 11px/1.3 var(--font);z-index:4;animation:chip .35s}
+.vsl .qchip.cold{background:linear-gradient(#bff6ff,#5fe6ff);color:#04314a}
+.fl{opacity:0;transform-box:fill-box;transform-origin:50% 100%}
+.vsl.on .fl{opacity:1;animation:flk .22s ease-in-out infinite alternate}
+.vsl.on .fl.f2{animation-duration:.17s}
+.vsl.on .fl.f3{animation-duration:.26s}
+@keyframes flk{from{transform:scale(.85,.9)}to{transform:scale(1.1,1.2)}}
+.vsl .plate{transition:fill .5s}
+.vsl.on .plate{fill:url(#plateHot)}
+.vsl.cool.on .plate{fill:#4fd6ff}
+.bubs i,.stm path{opacity:0}
+.vsl.boil .bubs i{animation:vb 1s ease-in infinite}
+.vsl.boil .bubs i:nth-child(2){animation-delay:.25s}.vsl.boil .bubs i:nth-child(3){animation-delay:.5s}.vsl.boil .bubs i:nth-child(4){animation-delay:.75s}.vsl.boil .bubs i:nth-child(5){animation-delay:.12s}
+@keyframes vb{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-34px);opacity:0}}
+.vsl.boil .stm path,.vsl.steam .stm path{animation:vs 1.8s ease-out infinite}
+.vsl.boil .stm path:nth-child(2),.vsl.steam .stm path:nth-child(2){animation-delay:.6s}.vsl.boil .stm path:nth-child(3),.vsl.steam .stm path:nth-child(3){animation-delay:1.2s}
+@keyframes vs{0%{transform:translateY(8px) scaleY(.6);opacity:0}30%{opacity:.85}100%{transform:translateY(-22px) scaleY(1.2);opacity:0}}
+.vsl .frost{opacity:0;transition:opacity .8s}
+.vsl.cool .frost{opacity:.55}
+.vsl.done{filter:drop-shadow(0 0 10px var(--good))}
+.rail{background:linear-gradient(180deg,rgba(140,200,255,.4),rgba(60,70,160,.45));border:2px dashed rgba(190,225,255,.75);border-radius:18px;box-shadow:inset 0 0 18px rgba(120,200,255,.35)}
+.rail.hl{box-shadow:0 0 22px 4px rgba(255,160,50,.8),inset 0 0 22px rgba(255,160,50,.45)}
+.rail .rcap{position:absolute;left:50%;top:-17px;transform:translateX(-50%);white-space:nowrap;font:900 11px/1.2 var(--font);color:#dff5ff;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+.plq{width:calc(var(--u)*2.8);height:calc(var(--u)*1.7);min-width:84px;min-height:54px;border-radius:14px;display:grid;place-items:center;text-align:center;font:900 clamp(12px,2.7vh,16px)/1.1 var(--font);color:#fff;background:linear-gradient(#a56bff,#5b2fd0);border:3px dashed rgba(255,255,255,.85);box-shadow:0 8px 10px rgba(0,0,0,.35),inset 0 0 14px rgba(255,255,255,.25)}
+.plq small{display:block;font:800 10px/1.2 var(--font);opacity:.9}
+.heatq{position:absolute;left:50%;bottom:-18px;transform:translateX(-50%);white-space:nowrap;padding:1px 7px;border-radius:8px;background:linear-gradient(#ffe36e,#ff9a1a);color:#3a1800;font:900 11px/1.3 var(--font);animation:chip .35s;z-index:5}
+
+/* grafik */
+.gpanel{position:absolute;transform:translate(-50%,0);border-radius:12px;background:linear-gradient(180deg,rgba(10,16,70,.82),rgba(30,20,90,.82));border:2px solid rgba(190,225,255,.6);box-shadow:0 8px 16px rgba(0,0,30,.45);z-index:2;overflow:hidden}
+.gpanel svg{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible}
+.gcells{position:absolute;transform:translate(-50%,0);display:flex;z-index:3;border-radius:10px;overflow:hidden;border:2px solid #fff;box-shadow:0 6px 10px rgba(0,0,0,.4)}
+.gcell{flex:1;display:grid;place-items:center;min-height:44px;font:800 clamp(9px,2vh,11px)/1.1 var(--font);color:#1b1b4f;background:linear-gradient(#e8f6ff,#a9c8ff);border-right:1px solid rgba(60,80,160,.45);position:relative}
+.gcell:last-child{border-right:0}
+.gcell.on{background:linear-gradient(#ffe36e,#ffb347);outline:3px solid #fff;outline-offset:-3px}
+.gcell.good{animation:scg .8s 2;background:linear-gradient(#9dffd0,#37e39a)} @keyframes scg{50%{filter:brightness(1.6)}}
+.gcell.badc{background:linear-gradient(#ffc2b4,#ff7a5d)}
+.pin{position:absolute;top:-2px;width:34px;height:40px;margin-left:-17px;transform:translateY(-100%);z-index:4;pointer-events:none;animation:pinin .35s cubic-bezier(.3,1.6,.5,1)}
+.pin b{display:grid;place-items:center;width:34px;height:30px;border-radius:50% 50% 50% 8px;background:#fff;color:#1b1b4f;font:900 14px/1 var(--font);box-shadow:0 3px 6px rgba(0,0,0,.4);border:3px solid var(--pc,#fff)}
+.pin.bad b{--pc:#ff4b4b;color:#c00}.pin.good b{--pc:#2ee88e}
+@keyframes pinin{from{transform:translateY(-220%) scale(.4);opacity:0}}
+.cardg{width:min(calc(var(--u)*4.4),17%);height:calc(var(--u)*3.3);min-width:90px;min-height:80px}
+.cardg .cg{position:absolute;top:0;right:0;bottom:0;left:0;border-radius:12px;background:linear-gradient(#ffffff,#dbe8ff);border:3px solid #7da4ff;box-shadow:0 8px 12px rgba(0,0,40,.45);overflow:hidden}
+.cardg .cg svg{position:absolute;left:0;top:0;width:100%;height:100%}
+.cardg .cl{position:absolute;left:6px;top:4px;width:24px;height:24px;border-radius:50%;background:#5b2fd0;color:#fff;font:900 14px/24px var(--font);text-align:center;z-index:2}
+.nb{width:calc(var(--u)*6);height:calc(var(--u)*3.4);min-width:170px;min-height:96px;border-radius:14px;background:repeating-linear-gradient(0deg,#fffbe9 0 18px,#e3dcc0 18px 19px);border:4px solid #8a5a2b;box-shadow:0 8px 12px rgba(0,0,0,.4),inset 0 0 0 3px rgba(255,255,255,.7);display:grid;place-items:center;text-align:center;font:900 clamp(12px,2.6vh,16px)/1.2 var(--font);color:#6b3b12}
+.nb small{display:block;font:800 11px/1.2 var(--font);color:#8a5a2b}
+
+/* değişken kartları, kutular */
+.chip{width:min(calc(var(--u)*5.2),21%);min-width:104px;height:46px;border-radius:14px;display:grid;place-items:center;padding:0 8px;text-align:center;font:900 clamp(11px,2.5vh,14px)/1.15 var(--font);color:#2a0a5a;background:linear-gradient(#fff,#d9c8ff);border:3px solid #a56bff;box-shadow:0 5px 8px rgba(0,0,40,.4)}
+.chip .art{display:grid;place-items:center;width:100%;height:100%}
+.slotT{width:min(calc(var(--u)*7.2),30%);min-width:140px;max-height:46%;border-radius:16px;background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,.08));border:3px dashed rgba(255,255,255,.8);box-shadow:0 8px 12px rgba(0,0,40,.4),inset 0 0 16px rgba(255,255,255,.2);text-align:center;padding:3px 6px}
+.slotT .sl{font:900 clamp(11px,2.4vh,13px)/1.2 var(--font);color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+.slotT.ind{background:linear-gradient(180deg,rgba(255,122,26,.5),rgba(255,122,26,.15))} .slotT.dep{background:linear-gradient(180deg,rgba(95,230,255,.5),rgba(95,230,255,.15))} .slotT.ctl{background:linear-gradient(180deg,rgba(155,107,255,.5),rgba(155,107,255,.15))}
+.binT{width:min(calc(var(--u)*11.5),44%);min-width:0;max-height:42%;border-radius:18px;border:4px solid rgba(255,255,255,.85);box-shadow:0 8px 14px rgba(0,0,40,.45),inset 0 0 18px rgba(255,255,255,.25);text-align:center;padding:4px}
+.binT .sl{font:900 clamp(13px,3vh,17px)/1.2 var(--font);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.binT.b-hot{background:linear-gradient(180deg,rgba(255,106,40,.75),rgba(200,40,40,.55))} .binT.b-cold{background:linear-gradient(180deg,rgba(60,190,255,.75),rgba(60,80,220,.55))}
+.bcard{width:min(calc(var(--u)*5.2),21%);min-width:104px;height:50px;border-radius:12px;display:grid;place-items:center;padding:0 6px;text-align:center;font:800 clamp(11px,2.3vh,13px)/1.15 var(--font);color:#1d1a4a;background:linear-gradient(#fff,#e4ecff);border:3px solid #7da4ff;box-shadow:0 5px 8px rgba(0,0,40,.4)}
+.bcard .art{display:grid;place-items:center;width:100%;height:100%}
+.designT{width:min(calc(var(--u)*4),17%);height:min(calc(var(--u)*5.2),64%);min-width:92px;min-height:130px;border-radius:16px;border:3px dashed rgba(255,255,255,.85);background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,.06));box-shadow:0 8px 12px rgba(0,0,40,.4)}
+.designT .sl{position:absolute;left:0;right:0;bottom:3px;text-align:center;font:900 11px/1.2 var(--font);color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+
+/* buz kalıbı */
+.icecol{width:calc(var(--u)*4.6);height:calc(var(--u)*5.2);min-width:130px;min-height:150px}
+.icecol .blk{position:absolute;left:8%;right:8%;bottom:14%;height:46%;border-radius:12px;background:linear-gradient(160deg,rgba(210,250,255,.95),rgba(110,210,255,.85) 55%,rgba(70,160,255,.8));border:3px solid #fff;box-shadow:0 8px 14px rgba(0,0,40,.4),inset 0 0 18px rgba(255,255,255,.6);overflow:visible}
+.icecol .blk::after{content:"";position:absolute;left:8%;top:6%;width:30%;height:10%;border-radius:6px;background:rgba(255,255,255,.7)}
+.icecol .ball{position:absolute;left:50%;top:6%;width:44%;aspect-ratio:1;margin-left:-22%;border-radius:50%;z-index:2;transition:transform 2.6s cubic-bezier(.5,.1,.3,1),filter .5s}
+.icecol .ball .bl{position:absolute;top:0;right:0;bottom:0;left:0;border-radius:50%;box-shadow:inset -6px -8px 12px rgba(0,0,0,.35),inset 5px 5px 10px rgba(255,255,255,.45),0 0 18px 3px var(--bg,#ff7a1a)}
+.icecol .ball b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;font:900 15px/1 var(--font);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.icecol .sizz{position:absolute;left:50%;top:44%;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:rgba(255,255,255,.9);opacity:0}
+.icecol.run .sizz{animation:sz 1s ease-out infinite}
+@keyframes sz{0%{transform:translate(0,0) scale(.5);opacity:0}20%{opacity:.9}100%{transform:translate(var(--dx,6px),-34px) scale(1.4);opacity:0}}
+.icecol .cap{top:calc(100% - 8px)}
+.icecol .pit{position:absolute;left:50%;top:40%;width:46%;height:12%;margin-left:-23%;border-radius:50%;background:rgba(10,40,100,.35);transform:scaleY(0);transition:transform 2.6s}
+
+/* ===================== EKRANLAR ===================== */
+.screen{position:fixed;top:0;right:0;bottom:0;left:0;z-index:30;display:grid;place-items:center;overflow:hidden;padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));background:rgba(8,6,50,.78);backdrop-filter:blur(3px)}
+.card{position:relative;width:min(660px,96vw);max-height:96vh;overflow:auto;text-align:center;padding:14px 22px;border-radius:24px;background:linear-gradient(160deg,rgba(40,50,170,.96),rgba(90,30,130,.96));border:2px solid var(--ice);box-shadow:0 0 40px rgba(95,230,255,.4),0 0 70px rgba(255,120,40,.25)}
+.card h1{margin:4px 0;font:900 clamp(24px,6vh,38px)/1.1 var(--font);background:linear-gradient(90deg,var(--ice),var(--yel),var(--fire));-webkit-background-clip:text;background-clip:text;color:transparent}
+.card h2{margin:4px 0;font:900 clamp(20px,4.6vh,30px)/1.15 var(--font)}
+.card p,.card li{font:700 clamp(12px,2.5vh,16px)/1.4 var(--font);color:#e8f1ff}
+.card ul{list-style:none;padding:0;margin:8px 0;display:grid;gap:4px;text-align:left}
+.card .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+.demoTag{display:inline-block;margin:4px 0;padding:4px 12px;border-radius:999px;background:var(--pink);color:#3a0a1e;font:900 13px/1.2 var(--font)}
+.spin{width:38px;height:38px;margin:8px auto;border-radius:50%;border:5px solid rgba(255,255,255,.2);border-top-color:var(--ice);animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bigNum{display:inline-grid;place-items:center;width:clamp(54px,12vh,84px);height:clamp(54px,12vh,84px);border-radius:50%;background:radial-gradient(circle at 30% 25%,#ffe9a8,#ff6a1a);font:900 clamp(28px,7vh,46px)/1 var(--font);box-shadow:0 0 30px rgba(255,140,40,.8);animation:bigIn .7s cubic-bezier(.3,1.6,.5,1) both}
+@keyframes bigIn{0%{transform:scale(0) rotate(-180deg)}100%{transform:scale(1) rotate(0)}}
+.medals{display:flex;gap:6px;justify-content:center;margin:8px 0;font-size:clamp(26px,6.5vh,40px)}
+.medals span{animation:pop .6s cubic-bezier(.3,1.6,.5,1) both}.medals span.off{opacity:.3;filter:grayscale(1)}
+@keyframes pop{0%{transform:scale(.2);opacity:0}70%{transform:scale(1.2)}100%{transform:scale(1)}}
+.stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:6px 0}
+.stat{background:rgba(0,0,0,.3);border-radius:12px;padding:6px 12px;font:800 15px/1.2 var(--font)}
+.badges{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px 0}
+.badge{padding:3px 10px;border-radius:999px;background:linear-gradient(#ffe36e,#ff9a1a);color:#3a1800;font:900 12px/1.3 var(--font);animation:pop .6s both}
+#review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
+#review li{background:rgba(0,0,0,.3);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:13px}
+#review b{color:var(--yel)}
+#rotate{z-index:50;background:rgba(8,6,50,.96)}
+.phone{width:56px;height:92px;margin:6px auto;border:5px solid #fff;border-radius:12px;animation:rot 2.4s ease-in-out infinite}
+@keyframes rot{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
+@media (orientation:landscape){#rotate{display:none}}
+#toast{position:fixed;left:50%;top:60px;transform:translate(-50%,-30px);z-index:60;padding:6px 16px;border-radius:999px;background:linear-gradient(#ffe36e,#ff9a1a);color:#3a1800;font:900 14px/1.3 var(--font);box-shadow:0 6px 16px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:transform .35s cubic-bezier(.3,1.5,.5,1),opacity .3s}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+
+/* ===================== EFEKTLER ===================== */
+#fx{position:fixed;top:0;right:0;bottom:0;left:0;pointer-events:none;z-index:65;overflow:hidden}
+.pt{position:absolute;width:8px;height:8px;border-radius:50%;animation:pt .8s ease-out forwards}
+.ft{position:absolute;font:900 18px/1 var(--font);color:var(--yel);text-shadow:0 2px 6px rgba(0,0,0,.7);animation:ft 1s ease-out forwards;white-space:nowrap}
+.ft.bad{color:var(--bad)} .ft.good{color:var(--good)}
+.xmark{position:absolute;width:56px;height:56px;margin:-28px 0 0 -28px;animation:xm .8s ease-out forwards}
+.conf{position:absolute;top:-14px;width:9px;height:14px;animation:fall 1.8s ease-in forwards}
+@keyframes pt{0%{transform:translate(0,0) scale(1);opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(.2);opacity:0}}
+@keyframes ft{0%{transform:translateY(0) scale(.7);opacity:0}15%{opacity:1;transform:translateY(-8px) scale(1.15)}100%{transform:translateY(-50px) scale(1);opacity:0}}
+@keyframes xm{0%{transform:scale(.3);opacity:0}25%{transform:scale(1.15);opacity:1}70%{transform:scale(1);opacity:1}100%{transform:scale(1);opacity:0}}
+@keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:.9}}
+.hb{position:fixed;border-radius:50%;border:1.5px solid rgba(255,255,255,.95);background:radial-gradient(circle at 30% 25%,#fff,rgba(255,255,255,.25));pointer-events:none;z-index:66;animation:hrise 1.4s ease-in forwards}
+@keyframes hrise{0%{transform:translate(0,0) scale(.5);opacity:0}15%{opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(1.1);opacity:0}}
+.hlbl{position:fixed;font:900 16px/1 var(--font);color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.6);pointer-events:none;z-index:67;animation:ft 1.6s ease-out forwards}
+.mascot-happy #mnuc,.mascot-cheer #mnuc{animation:jump .6s}
+.mascot-sad #mnuc{animation:sadw .6s}
+#mascot .wv{animation:wave 2s ease-in-out infinite}
+#mascot .tuft{transform-box:fill-box;transform-origin:50% 100%;animation:tuft .3s ease-in-out infinite alternate}
+@keyframes tuft{from{transform:scale(.9,.95)}to{transform:scale(1.08,1.12)}}
+@keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(-4px)}}
+@keyframes jump{0%,100%{transform:translateY(0)}40%{transform:translateY(-8px) scale(1.08)}}
+@keyframes sadw{0%,100%{transform:rotate(0)}25%{transform:rotate(-10deg)}75%{transform:rotate(10deg)}}
+#app.shake{animation:shake .4s}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(5px)}60%{transform:translateX(-3px)}80%{transform:translateX(2px)}}
+html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition:none!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media (max-width:760px),(max-height:380px){
+  #top{min-height:46px;gap:6px;padding:2px 6px}
+  .step span{display:none} .step{padding:3px 6px}
+  #score{min-width:76px;padding:0 8px;font-size:13px}
+  #board{padding:4px 10px;min-height:48px;width:min(82%,780px)}
+  .card{padding:10px 16px}
+}
+@media (max-height:340px){ #qTag{display:none} #qText{font-size:12px} }
+</style>
+</head>
+<body>
+<div id="bg" aria-hidden="true"></div>
+
+<div id="app">
+  <header id="top">
+    <div id="mascotBox" class="mascot-idle">
+      <svg id="mascot" viewBox="0 0 60 60" role="img" aria-label="Kıvılcım">
+        <defs><linearGradient id="mice" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6fcff"/><stop offset="1" stop-color="#4fc8ff"/></linearGradient>
+          <linearGradient id="mfire" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff3d00"/><stop offset=".6" stop-color="#ff9a1a"/><stop offset="1" stop-color="#ffe14d"/></linearGradient></defs>
+        <g id="mnuc" style="transform-origin:30px 40px">
+          <path class="tuft" d="M30 2C36 10 40 12 38 20C36 24 24 24 22 20C20 12 26 10 30 2Z" fill="url(#mfire)"/>
+          <rect x="11" y="18" width="38" height="36" rx="9" fill="url(#mice)" stroke="#fff" stroke-width="2.2"/>
+          <path d="M16 24L24 22M40 46L44 40" stroke="rgba(255,255,255,.85)" stroke-width="2.4" stroke-linecap="round"/>
+          <circle cx="23" cy="34" r="3.6" fill="#fff"/><circle cx="37" cy="34" r="3.6" fill="#fff"/><circle cx="23.7" cy="34.5" r="1.7" fill="#1d2a66"/><circle cx="37.7" cy="34.5" r="1.7" fill="#1d2a66"/>
+          <circle cx="17" cy="41" r="3" fill="rgba(255,120,160,.55)"/><circle cx="43" cy="41" r="3" fill="rgba(255,120,160,.55)"/>
+          <path id="mouth" d="M25 42Q30 47 35 42" fill="none" stroke="#1d2a66" stroke-width="2.2" stroke-linecap="round"/>
+        </g>
+      </svg>
+      <div id="bubble" role="status" aria-live="polite"></div>
+    </div>
+    <ol id="steps" aria-label="İstasyonlar">
+      <li class="step" data-s="1"><b>🔥</b><span>Isıtma</span></li>
+      <li class="step" data-s="2"><b>🏅</b><span>Özısı</span></li>
+      <li class="step" data-s="3"><b>📈</b><span>Grafik</span></li>
+      <li class="step" data-s="4"><b>🧪</b><span>Tasarım</span></li>
+      <li class="step" data-s="5"><b>🧊</b><span>Buz Kalıbı</span></li>
+    </ol>
+    <div id="hud">
+      <div id="score" role="img" aria-label="Laboratuvar puanı">🔥 0</div>
+      <span id="combo" aria-hidden="true"></span>
+      <button class="ibtn" id="btnSfx" type="button" aria-pressed="false" aria-label="Efekt seslerini kapat">🔊</button>
+      <button class="ibtn" id="btnMus" type="button" aria-pressed="false" aria-label="Müziği kapat">🎵</button>
+    </div>
+  </header>
+
+  <section id="board" aria-live="polite">
+    <div id="qBox"><span id="qTag"></span><p id="qText"></p></div>
+    <div id="hearts" role="img" aria-label="Kalan hak"></div>
+    <div id="fbBox" hidden><p id="fbText"></p><button class="btn" id="btnNext" type="button">Devam</button></div>
+  </section>
+
+  <main id="bench">
+    <div id="work"></div>
+    <div id="say" role="status" aria-live="polite"></div>
+    <div id="obs" aria-live="polite"></div>
+    <div id="clk" aria-hidden="true"></div>
+    <button id="btnHint" type="button" aria-label="İpucu al">💡</button>
+    <div id="tutor" hidden>👆</div>
+  </main>
+</div>
+<div id="fx" aria-hidden="true"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<section class="screen" id="scLoad" role="dialog" aria-modal="true" aria-labelledby="loadT">
+  <div class="card"><div class="spin" aria-hidden="true"></div><h2 id="loadT">Uygulamaya bağlanılıyor…</h2><p>Lütfen bekle.</p></div>
+</section>
+<section class="screen" id="scStart" role="dialog" aria-modal="true" aria-labelledby="startT" hidden>
+  <div class="card">
+    <div style="font-size:44px" aria-hidden="true">🔥❄️</div>
+    <h1 id="startT">Buz &amp; Ateş Laboratuvarı</h1>
+    <p>Kıvılcım ile kutup–yanardağ araştırma üssündesin! 5 istasyonda 20 deney: ısıtıcıyı sürükle, termometreleri ve grafikleri izle, cevabı nesneleri bırakarak ver.</p>
+    <ul>
+      <li>🔥 <b>Eşit ısıtma:</b> kütle ve madde cinsi sıcaklığı nasıl değiştirir?</li>
+      <li>🏅 <b>Özısı podyumu:</b> maddeleri sırala</li>
+      <li>📈 <b>Grafik gözlemevi:</b> erime ve kaynama grafikleri</li>
+      <li>🧪 <b>Deney tasarımı:</b> doğru kapları ve değişkenleri seç</li>
+      <li>🧊 <b>Buz kalıbı:</b> ısı alan–veren olaylar</li>
+    </ul>
+    <span class="demoTag" id="demoTag" hidden>Deneme modu — kayıt yapılmaz</span>
+    <div class="row"><button class="btn" id="btnStart" type="button">Başla</button></div>
+  </div>
+</section>
+<section class="screen" id="scStage" role="dialog" aria-modal="true" aria-labelledby="stgT" hidden>
+  <div class="card"><div class="bigNum" id="stgNum">1</div><h2 id="stgT"></h2><p id="stgP"></p><div class="row"><button class="btn" id="btnStage" type="button">Hazırım!</button></div></div>
+</section>
+<section class="screen" id="scDone" role="dialog" aria-modal="true" aria-labelledby="doneT" hidden>
+  <div class="card"><h2 id="doneT">İstasyon tamam!</h2><div class="medals" id="medals" role="img"></div><p id="doneP"></p><div class="badges" id="doneBadges"></div><div class="row"><button class="btn" id="btnDone" type="button">Devam</button></div></div>
+</section>
+<section class="screen" id="scErr" role="alertdialog" aria-modal="true" aria-labelledby="errT" hidden>
+  <div class="card"><h2 id="errT">Bir sorun oluştu</h2><p id="errMsg"></p>
+    <div class="row"><button class="btn" id="btnRetry" type="button">Tekrar Dene</button><button class="btn alt" id="btnExit" type="button">Çıkış</button></div></div>
+</section>
+<section class="screen" id="scSent" role="dialog" aria-modal="true" aria-labelledby="sentT" hidden>
+  <div class="card"><div class="spin" id="sentSpin" aria-hidden="true"></div><h2 id="sentT">Sonuç gönderildi</h2><p id="sentMsg" role="status" aria-live="polite">Kaydediliyor…</p><div class="badges" id="sentBadges"></div>
+    <div class="row"><button class="btn" id="btnResend" type="button" hidden>Tekrar Gönder</button></div></div>
+</section>
+<section class="screen" id="scRes" role="dialog" aria-modal="true" aria-labelledby="resT" hidden>
+  <div class="card">
+    <span class="demoTag">Deneme modu — kayıt yapılmaz</span>
+    <h2 id="resT">Laboratuvar tamam!</h2>
+    <div class="medals" id="stars" role="img" aria-label="Yıldız"></div>
+    <div class="stats"><span class="stat" id="rC"></span><span class="stat" id="rW"></span><span class="stat" id="rT"></span><span class="stat" id="rR"></span></div>
+    <div class="badges" id="resBadges"></div>
+    <div id="reviewBox" hidden><p><b>Tekrar bak:</b></p><ul id="review"></ul></div>
+    <div class="row"><button class="btn" id="btnAgain" type="button">Tekrar Oyna</button></div>
+  </div>
+</section>
+<section class="screen" id="rotate" role="alert"><div class="card"><div class="phone" aria-hidden="true"></div><h2>Cihazını yan çevir</h2><p>Bu oyun yatay ekranda oynanır.</p></div></section>
+
+<script>
+(function(){
+'use strict';
+const TS = 1;   // zaman ölçeği (yalnızca otomasyon testlerinde küçültülür)
+const C = {"gameId":"fen-8-isi-buz-ates-laboratuvari","unit":"8. Sınıf 4. Ünite: Madde ve Endüstri","topic":"Maddenin Isı ile Etkileşimi","sourceRef":"8. Sınıf Fen Bilimleri Çalışma Kitabı (MEB, 2023), 4. Ünite, Test 5-6, s.74-79 (deney kurguları uyarlandı)","outcomes":{"K1":"Isı ile sıcaklığı ayırt eder; özdeş ısıtıcıyla ısıtılan maddelerde kütle, madde cinsi ve başlangıç sıcaklığının sıcaklık değişimine etkisini yorumlar. [Kitapta kazanım kodu yok; test sorularından türetilmiş ifade]","K2":"Maddelerin özısılarını karşılaştırır; sıcaklık değişimi verilerinden özısı ve kütle ilişkisini çıkarır. [Kitapta kazanım kodu yok; test sorularından türetilmiş ifade]","K3":"Hâl değişimi sırasında sıcaklığın sabit kaldığını bilir; erime, kaynama ve donma grafiklerini yorumlar. [Kitapta kazanım kodu yok; test sorularından türetilmiş ifade]","K4":"Isıyla ilgili hipotezi sınamak için kontrollü deney tasarlar; bağımsız, bağımlı ve sabit tutulan değişkenleri belirler. [Kitapta kazanım kodu yok; test sorularından türetilmiş ifade]","K5":"Hâl değişimlerinde ısı alma/verme durumunu ve ısı alışverişini açıklar; kaynama sıcaklığının madde miktarına bağlı olmadığını yorumlar. [Kitapta kazanım kodu yok; test sorularından türetilmiş ifade]"},"subs":{"su":{"name":"Su","color":"#35b8ff","c":4.18},"alkol":{"name":"Etil alkol","color":"#ff7ac8","c":2.54},"yag":{"name":"Zeytinyağı","color":"#ffd21f","c":1.96},"demir":{"name":"Demir","color":"#8d99ae","c":0.46},"bakir":{"name":"Bakır","color":"#e8793a","c":0.37},"alu":{"name":"Alüminyum","color":"#cfd8dc","c":0.9},"bakir_t":{"name":"Bakır","color":"#e8793a","c":0.387},"cinko_t":{"name":"Çinko","color":"#9fb4c7","c":0.39},"demir_t":{"name":"Demir","color":"#8d99ae","c":0.4},"gizem":{"name":"?","color":"#b48cff","c":2.0},"gizemm":{"name":"?","color":"#b48cff","c":0.9}},"stations":[{"id":"s1","num":1,"name":"Eşit Isıtma Atölyesi","icon":"🔥","outcomeKey":"K1","pick":4,"pool":[{"id":"s1-1","questionId":"isi-v1-s1-m-su","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"easy","prompt":"K, L ve M kaplarında 20 °C'de su var. Özdeş ısıtıcılarla eşit süre ısıtılınca en çok ısınan kaba kupayı bırak.","hint":"Isıtıcıyı tezgâha sürükleyip termometreleri izle. Aynı sıvıya eşit ısı verilince az olan daha çok ısınır.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,22.2933,20.0,100,"hl"],[22.2933,172.96,100,100,"b"],[172.96,212.96,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"su","m":200,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 200 g","subName":"Su","segs":[[0.0,44.5867,20.0,100,"hl"],[44.5867,345.92,100,100,"b"],[345.92,425.92,100,400.0,"hg"]],"tmark":null},{"id":"M","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,66.88,20.0,100,"hl"],[66.88,518.88,100,100,"b"],[518.88,638.88,100,400.0,"hg"]],"tmark":null}],"P":1500,"run":{"kind":"time","D":3,"tlo":15.0,"thi":35.0},"metric":"dT","dir":"max","plaque":false,"token":"flame","answer":{"t":"v-K"},"correctText":"K kabı (Su · 100 g)","explanation":"Aynı cins sıvıya eşit ısı verilince kütlesi en küçük olan kap en çok ısınır (ΔT = Q / m·c). Sıcaklık artışları: K (Su · 100 g): 10,8; L (Su · 200 g): 5,4; M (Su · 300 g): 3,6 °C."},{"id":"s1-2","questionId":"isi-v1-s1-cins-su-yag","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"easy","prompt":"Eşit kütleli su ve zeytinyağı özdeş ısıtıcılarla eşit süre ısıtılıyor. Sıcaklığı daha çok artan kaba kupayı bırak.","hint":"Özısı küçük olan madde aynı ısıyla daha çok ısınır. Önce deneyi çalıştırıp termometrelere bak.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,27.8667,20.0,100,"hl"],[27.8667,216.2,100,100,"b"],[216.2,266.2,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"yag","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 100 g","subName":"Zeytinyağı","segs":[[0.0,62.0667,20.0,400.0,"hl"]],"tmark":null}],"P":1200,"run":{"kind":"time","D":3,"tlo":15.0,"thi":45.0},"metric":"dT","dir":"max","plaque":false,"token":"flame","answer":{"t":"v-L"},"correctText":"L kabı (Zeytinyağı · 100 g)","explanation":"Eşit kütle ve eşit ısıda özısısı küçük olan zeytinyağı (1,96) suya (4,18) göre daha çok ısınır. Sıcaklık artışları: K (Su · 100 g): 8,6; L (Zeytinyağı · 100 g): 18,4 °C."},{"id":"s1-3","questionId":"isi-v1-s1-min-3sivi","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"medium","prompt":"Su, etil alkol ve zeytinyağı eşit kütlede; aynı ısıyı alıyorlar. En az ısınan kaba kupayı bırak.","hint":"Özısısı en büyük madde en az ısınır. Kitaptaki tabloda suyun özısısı en büyük.","vessels":[{"id":"K","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,96.52,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":null},{"id":"M","sub":"yag","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 100 g","subName":"Zeytinyağı","segs":[[0.0,74.48,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"metric":"dT","dir":"min","plaque":false,"token":"flame","answer":{"t":"v-L"},"correctText":"L kabı (Su · 100 g)","explanation":"Özısıları: su 4,18, etil alkol 2,54, zeytinyağı 1,96 J/g·°C. Eşit ısıda özısısı en büyük olan su en az ısınır. Sıcaklık artışları: K (Etil alkol · 100 g): 7,9; L (Su · 100 g): 4,8; M (Zeytinyağı · 100 g): 10,2 °C."},{"id":"s1-4","questionId":"isi-v1-s1-metal-su","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"medium","prompt":"Eşit kütleli demir, bakır ve su aynı ısıyı alıyor. Isıtma sonunda sıcaklığı en yüksek olana kupayı bırak.","hint":"Metallerin özısısı suyunkinden çok küçüktür; hangisi daha küçük: demir (0,46) mi bakır (0,37) mı?","vessels":[{"id":"K","sub":"demir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"metal","color":"#8d99ae","sub2":"Demir · 100 g","subName":"Demir","segs":[[0.0,17.48,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"bakir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"metal","color":"#e8793a","sub2":"Bakır · 100 g","subName":"Bakır","segs":[[0.0,14.06,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":1,"tlo":15.0,"thi":55.0},"metric":"Tfin","dir":"max","plaque":false,"token":"flame","answer":{"t":"v-L"},"correctText":"L kabı (Bakır · 100 g)","explanation":"Özısısı en küçük olan bakır (0,37) en çok ısınır; su (4,18) en az ısınır. Son sıcaklıklar: K (Demir · 100 g): 41,7; L (Bakır · 100 g): 47,0; M (Su · 100 g): 22,4 °C."},{"id":"s1-5","questionId":"isi-v1-s1-eq-dT","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"hard","prompt":"K, L, M'de eşit miktarda su var ama başlangıç sıcaklıkları farklı. Eşit ısıtınca sıcaklık artışı (ΔT) hangisinde daha fazla? Hepsi aynıysa kupayı EŞİT levhasına bırak.","hint":"Aynı miktarda aynı madde, aynı ısıyı alırsa sıcaklığı aynı miktar artar; başlangıç değeri artışı değiştirmez.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"su","m":100,"T0":40,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,25.08,40.0,100,"hl"],[25.08,251.08,100,100,"b"],[251.08,311.08,100,400.0,"hg"]],"tmark":null},{"id":"M","sub":"su","m":100,"T0":60,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,16.72,60.0,100,"hl"],[16.72,242.72,100,100,"b"],[242.72,302.72,100,400.0,"hg"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":3,"tlo":15.0,"thi":75.0},"metric":"dT","dir":"max","plaque":true,"token":"flame","answer":{"t":"v-eq"},"correctText":"Hepsi eşit (EŞİT levhası)","explanation":"ΔT = Q / (m·c). Kütle, cins ve ısı aynı olduğu için üç kapta da sıcaklık artışı aynıdır; yalnızca son sıcaklıklar farklıdır. Artışlar: K (Su · 100 g): 7,2; L (Su · 100 g): 7,2; M (Su · 100 g): 7,2 °C."},{"id":"s1-6","questionId":"isi-v1-s1-kutle-cins","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"hard","prompt":"K'de 50 g su, L'de 200 g zeytinyağı var; ikisi de 20 °C ve aynı ısıyı alıyor. Daha çok ısınan kaba kupayı bırak.","hint":"Hem kütle hem özısı etkilidir: kütle × özısı çarpımı küçük olan daha çok ısınır. İki çarpımı karşılaştır.","vessels":[{"id":"K","sub":"su","m":50,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,16.72,20.0,100,"hl"],[16.72,129.72,100,100,"b"],[129.72,159.72,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"yag","m":200,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 200 g","subName":"Zeytinyağı","segs":[[0.0,148.96,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"metric":"dT","dir":"max","plaque":false,"token":"flame","answer":{"t":"v-K"},"correctText":"K kabı (Su · 50 g)","explanation":"Çarpımlar: su 50·4,18 = 209; zeytinyağı 200·1,96 = 392. Çarpımı küçük olan su daha çok ısınır. Artışlar: K (Su · 50 g): 9,6; L (Zeytinyağı · 200 g): 5,1 °C."},{"id":"s1-7","questionId":"isi-v1-s1-ilk-40","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"medium","prompt":"Üç kapta 20 °C'de su var. Hepsi özdeş ısıtıcıyla ısıtılıyor. 40 °C'ye ilk ulaşacak kaba kupayı bırak.","hint":"Aynı sıvıyı aynı sıcaklığa getirmek için az olan daha az ısı ister; ısıtıcı eşitse daha çabuk ulaşır.","vessels":[{"id":"K","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,50.16,20.0,100,"hl"],[50.16,389.16,100,100,"b"],[389.16,479.16,100,400.0,"hg"]],"tmark":12.54},{"id":"L","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,16.72,20.0,100,"hl"],[16.72,129.72,100,100,"b"],[129.72,159.72,100,400.0,"hg"]],"tmark":4.18},{"id":"M","sub":"su","m":200,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#35b8ff","sub2":"Su · 200 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":8.36}],"P":2000,"run":{"kind":"reachT","T":40,"D":12.54,"tlo":15.0,"thi":85.0},"metric":"tReach","dir":"min","plaque":false,"token":"flame","answer":{"t":"v-L"},"correctText":"L kabı (Su · 100 g)","explanation":"Gereken ısı kütleyle artar; ısıtıcı aynı olduğu için en az suyu olan kap en önce 40 °C'ye ulaşır. Süreler (dk): K (Su · 300 g): 12,5; L (Su · 100 g): 4,2; M (Su · 200 g): 8,4."},{"id":"s1-8","questionId":"isi-v1-s1-metal-min","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"medium","prompt":"Demir, bakır ve alüminyum parçaları eşit kütleli ve aynı ısıyı alıyor. En az ısınan parçaya kupayı bırak.","hint":"Özısısı en büyük metal en az ısınır. Kitapta demir 0,46, bakır 0,37; alüminyumun özısısı 0,90'dır.","vessels":[{"id":"K","sub":"demir","m":50,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"metal","color":"#8d99ae","sub2":"Demir · 50 g","subName":"Demir","segs":[[0.0,17.48,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"bakir","m":50,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"metal","color":"#e8793a","sub2":"Bakır · 50 g","subName":"Bakır","segs":[[0.0,14.06,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"alu","m":50,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"metal","color":"#cfd8dc","sub2":"Alüminyum · 50 g","subName":"Alüminyum","segs":[[0.0,34.2,20.0,400.0,"hl"]],"tmark":null}],"P":500,"run":{"kind":"time","D":1,"tlo":15.0,"thi":55.0},"metric":"dT","dir":"min","plaque":false,"token":"flame","answer":{"t":"v-M"},"correctText":"M kabı (Alüminyum · 50 g)","explanation":"Eşit ısıda özısısı en büyük olan alüminyum (0,90) en az ısınır. Sıcaklık artışları: K (Demir · 50 g): 21,7; L (Bakır · 50 g): 27,0; M (Alüminyum · 50 g): 11,1 °C."},{"id":"s1-9","questionId":"isi-v1-s1-eq-Q","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"hard","prompt":"Farklı üç kap özdeş ısıtıcılarla eşit süre ısıtılıyor. Hangi kap daha çok ısı almıştır? Hepsi aynıysa kupayı EŞİT levhasına bırak.","hint":"Isıyı ısıtıcı verir. Isıtıcılar özdeş ve süre eşitse kapların aldığı ısı da eşittir; sıcaklıkları farklı olabilir.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,55.7333,20.0,100,"hl"],[55.7333,432.4,100,100,"b"],[432.4,532.4,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"yag","m":200,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 200 g","subName":"Zeytinyağı","segs":[[0.0,248.2667,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"demir","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"metal","color":"#8d99ae","sub2":"Demir · 300 g","subName":"Demir","segs":[[0.0,87.4,20.0,400.0,"hl"]],"tmark":null}],"P":600,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"metric":"Q","dir":"max","plaque":true,"token":"flame","answer":{"t":"v-eq"},"correctText":"Hepsi eşit (EŞİT levhası)","explanation":"Isı ile sıcaklık aynı şey değildir. Özdeş ısıtıcılar eşit sürede eşit ısı verir; kapların aldığı ısı eşittir ama sıcaklıkları farklı artar.","showQ":true},{"id":"s1-10","questionId":"isi-v1-s1-Q-30","type":"heat","mode":"pick","outcomeKey":"K1","difficulty":"hard","prompt":"K ve L kapları 20 °C'den 30 °C'ye kadar ısıtılıyor. İkisi de 30 °C'ye ulaşınca hangisi daha çok ısı almıştır?","hint":"Aynı sıvıda kütlesi büyük olan, aynı sıcaklık artışı için daha çok ısı ister. Süreleri ve ısı değerlerini izle.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":4.18},{"id":"L","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,100.32,20.0,100,"hl"],[100.32,778.32,100,100,"b"],[778.32,958.32,100,400.0,"hg"]],"tmark":12.54}],"P":1000,"run":{"kind":"reachDT","dT":10,"D":12.54,"tlo":15.0,"thi":55.0},"metric":"Qreach","dir":"max","plaque":false,"token":"flame","answer":{"t":"v-L"},"correctText":"L kabı (Su · 300 g)","explanation":"Son sıcaklıklar aynı olsa da kütlesi büyük olan L daha uzun ısıtıldı ve daha çok ısı aldı. Alınan ısı (J): K (Su · 100 g): 4180; L (Su · 300 g): 12540.","showQ":true}],"howto":"Isıtıcıyı (alevi) tezgâha sürükle, termometreleri izle; sonra cevap kupasını doğru kaba bırak."},{"id":"s2","num":2,"name":"Özısı Podyumu","icon":"🏅","outcomeKey":"K2","pick":4,"pool":[{"id":"s2-1","questionId":"isi-v1-s2-sira-3sivi","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"easy","prompt":"Eşit kütleli su, etil alkol ve zeytinyağı aynı ısıyı alıyor. Madalyaları en çok ısınandan (🥇) en az ısınana (🥉) doğru kaplara bırak.","hint":"Önce deneyi çalıştır. Özısı küçüldükçe sıcaklık artışı büyür.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,96.52,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"yag","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 100 g","subName":"Zeytinyağı","segs":[[0.0,74.48,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"metric":"dT","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-M","m2":"v-L","m3":"v-K"},"correctText":"🥇 M, 🥈 L, 🥉 K (en çok ısınandan en az ısınana)","explanation":"Sıcaklık artışı özısıyla ters orantılıdır: zeytinyağı (1,96) > etil alkol (2,54) > su (4,18) sırasıyla ısınır. Artışlar: K (Su · 100 g): 4,8; L (Etil alkol · 100 g): 7,9; M (Zeytinyağı · 100 g): 10,2 °C."},{"id":"s2-2","questionId":"isi-v1-s2-sira-metal","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"easy","prompt":"Eşit kütleli demir, bakır ve su aynı ısıyı alıyor. Madalyaları son sıcaklığı en yüksekten (🥇) en düşüğe (🥉) doğru bırak.","hint":"Özısısı en küçük olan en yüksek sıcaklığa ulaşır.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"demir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"metal","color":"#8d99ae","sub2":"Demir · 100 g","subName":"Demir","segs":[[0.0,17.48,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"bakir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"metal","color":"#e8793a","sub2":"Bakır · 100 g","subName":"Bakır","segs":[[0.0,14.06,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":1,"tlo":15.0,"thi":55.0},"metric":"Tfin","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-M","m2":"v-L","m3":"v-K"},"correctText":"🥇 M, 🥈 L, 🥉 K (son sıcaklık sırası)","explanation":"Bakır (0,37) < demir (0,46) < su (4,18) özısı sırasına göre son sıcaklıklar bakır > demir > su olur. Son sıcaklıklar: K (Su · 100 g): 22,4; L (Demir · 100 g): 41,7; M (Bakır · 100 g): 47,0 °C."},{"id":"s2-3","questionId":"isi-v1-s2-kutle-gizli","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"hard","prompt":"K, L ve M kaplarında aynı sıvı farklı kütlelerde. Özdeş ısıtıcıyla 2 dk ısıtınca sıcaklıkları farklı arttı. Madalyaları kütlesi en büyükten (🥇) en küçüğe (🥉) bırak.","hint":"Aynı sıvıya eşit ısı verilince kütlesi büyük olan az ısınır. Termometre artışlarını karşılaştır.","vessels":[{"id":"K","sub":"su","m":220,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"K","look":"liq","color":"#35b8ff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,31.9861,20.0,100,"hl"],[31.9861,248.16,100,100,"b"],[248.16,305.5513,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"su","m":550,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"L","look":"liq","color":"#35b8ff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,79.9652,20.0,100,"hl"],[79.9652,620.4,100,100,"b"],[620.4,763.8783,100,400.0,"hg"]],"tmark":null},{"id":"M","sub":"su","m":50,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"M","look":"liq","color":"#35b8ff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,7.2696,20.0,100,"hl"],[7.2696,56.4,100,100,"b"],[56.4,69.4435,100,400.0,"hg"]],"tmark":null}],"P":2300,"run":{"kind":"time","D":2,"tlo":15.0,"thi":50.0},"metric":"m","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-L","m2":"v-K","m3":"v-M"},"correctText":"🥇 L, 🥈 K, 🥉 M (kütle sırası)","explanation":"Sıcaklık artışı kütleyle ters orantılıdır: en az artan L en büyük, en çok artan M en küçük kütleye sahiptir. Artışlar: K ≈ 5, L ≈ 2, M ≈ 22 °C."},{"id":"s2-4","questionId":"isi-v1-s2-ozisi-gizli-a","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"medium","prompt":"Eşit kütleli K, L, M maddeleri aynı ısıyı aldı; sıcaklıkları farklı arttı. Madalyaları özısısı en büyükten (🥇) en küçüğe (🥉) bırak.","hint":"Aynı ısıyla az ısınan maddenin özısısı büyüktür. Hangisi en az ısındı?","vessels":[{"id":"K","sub":"gizemm","m":100,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"K","c":0.83,"look":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,31.54,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"gizemm","m":100,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"L","c":1.25,"look":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,47.5,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"gizemm","m":100,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"M","c":2.0,"look":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,76.0,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":1,"tlo":15.0,"thi":40.0},"metric":"c","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-M","m2":"v-L","m3":"v-K"},"correctText":"🥇 M, 🥈 L, 🥉 K (özısı sırası)","explanation":"Eşit kütle ve eşit ısıda sıcaklık artışı özısıyla ters orantılıdır: en az artan M en büyük, en çok artan K en küçük özısıya sahiptir."},{"id":"s2-5","questionId":"isi-v1-s2-ozisi-gizli-b","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"medium","prompt":"Aynı kütlede K, L ve M metalleri eşit ısıtıldı. Madalyaları özısısı en küçükten (🥇) en büyüğe (🥉) doğru bırak.","hint":"Hangisi en çok ısındı? Özısısı en küçük olan odur.","vessels":[{"id":"K","sub":"gizemm","m":100,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"K","c":0.5,"look":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,19.0,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"gizemm","m":100,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"L","c":1.6,"look":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,60.8,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"gizemm","m":100,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"M","c":0.9,"look":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor","segs":[[0.0,34.2,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":1,"tlo":15.0,"thi":45.0},"metric":"c","dir":"min","plaque":false,"token":"flame","answer":{"m1":"v-K","m2":"v-M","m3":"v-L"},"correctText":"🥇 K, 🥈 M, 🥉 L (özısı küçükten büyüğe)","explanation":"En çok ısınan K en küçük özısıya, en az ısınan L en büyük özısıya sahiptir: K < M < L."},{"id":"s2-6","questionId":"isi-v1-s2-bakir-cinko-demir","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"hard","prompt":"Kitaptaki tabloda bakır 0,387, çinko 0,390, demir 0,400 J/g·°C. Eşit ısıtınca son sıcaklığı en yüksekten (🥇) en düşüğe (🥉) bırak.","hint":"Özısıları çok yakın ama sırası belli: küçük özısı = daha çok ısınma. Termometreler 0,1 °C farkı gösterir.","vessels":[{"id":"K","sub":"demir_t","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"metal","color":"#8d99ae","sub2":"Demir · 100 g","subName":"Demir","segs":[[0.0,7.6,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"bakir_t","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"metal","color":"#e8793a","sub2":"Bakır · 100 g","subName":"Bakır","segs":[[0.0,7.353,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"cinko_t","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"metal","color":"#9fb4c7","sub2":"Çinko · 100 g","subName":"Çinko","segs":[[0.0,7.41,20.0,400.0,"hl"]],"tmark":null}],"P":2000,"run":{"kind":"time","D":1,"tlo":15.0,"thi":80.0},"metric":"Tfin","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-L","m2":"v-M","m3":"v-K"},"correctText":"🥇 L, 🥈 M, 🥉 K (son sıcaklık sırası)","explanation":"Eşit ısıda özısısı küçük olan daha çok ısınır. Özısılar bakır (0,387) < çinko (0,390) < demir (0,400) olduğundan son sıcaklık sırası bakır > çinko > demir olur. Son sıcaklıklar: K (Demir · 100 g): 70,0; L (Bakır · 100 g): 71,7; M (Çinko · 100 g): 71,3 °C."},{"id":"s2-7","questionId":"isi-v1-s2-alu-demir-bakir","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"medium","prompt":"Eşit kütleli alüminyum, demir ve bakır aynı ısıyı alıyor. Madalyaları özısısı en büyükten (🥇) en küçüğe (🥉) doğru bırak.","hint":"En az ısınan metalin özısısı en büyüktür.","vessels":[{"id":"K","sub":"bakir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"metal","color":"#e8793a","sub2":"Bakır · 100 g","subName":"Bakır","segs":[[0.0,14.06,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"alu","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"metal","color":"#cfd8dc","sub2":"Alüminyum · 100 g","subName":"Alüminyum","segs":[[0.0,34.2,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"demir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"metal","color":"#8d99ae","sub2":"Demir · 100 g","subName":"Demir","segs":[[0.0,17.48,20.0,400.0,"hl"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":1,"tlo":15.0,"thi":55.0},"metric":"c","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-L","m2":"v-M","m3":"v-K"},"correctText":"🥇 L, 🥈 M, 🥉 K (özısı sırası)","explanation":"Alüminyum (0,90) > demir (0,46) > bakır (0,37). Deneyde en az ısınan alüminyum, en çok ısınan bakırdır."},{"id":"s2-8","questionId":"isi-v1-s2-ayni-dT","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"hard","prompt":"Su, etil alkol ve zeytinyağı (eşit kütle) 20 °C'den 40 °C'ye ısıtılıyor. Madalyaları en uzun sürede ısınandan (🥇) en kısa sürede ısınana (🥉) bırak.","hint":"Sıcaklığı 20 °C artırmak için özısısı büyük olan daha çok ısı, yani daha uzun süre ister.","vessels":[{"id":"K","sub":"yag","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 100 g","subName":"Zeytinyağı","segs":[[0.0,37.24,20.0,400.0,"hl"]],"tmark":1.96},{"id":"L","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,16.72,20.0,100,"hl"],[16.72,129.72,100,100,"b"],[129.72,159.72,100,400.0,"hg"]],"tmark":4.18},{"id":"M","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,48.26,20.0,400.0,"hl"]],"tmark":2.54}],"P":2000,"run":{"kind":"reachDT","dT":20,"D":4.18,"tlo":15.0,"thi":70.0},"metric":"tReach","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-L","m2":"v-M","m3":"v-K"},"correctText":"🥇 L, 🥈 M, 🥉 K (süre uzundan kısaya)","explanation":"Aynı sıcaklık artışı için gereken ısı m·c·ΔT'dir. Özısısı büyük olan su en uzun, zeytinyağı en kısa sürede ısınır. Süreler (dk): K (Zeytinyağı · 100 g): 1,96; L (Su · 100 g): 4,18; M (Etil alkol · 100 g): 2,54."},{"id":"s2-9","questionId":"isi-v1-s2-karma-su-yag","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"hard","prompt":"K: 100 g su, L: 300 g su, M: 100 g zeytinyağı; hepsi aynı ısıyı alıyor. Madalyaları sıcaklığı en çok artandan (🥇) en az artana (🥉) bırak.","hint":"Kütlesi küçük ve özısısı küçük olan daha çok ısınır. İki etkiyi birlikte düşün.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,27.8667,20.0,100,"hl"],[27.8667,216.2,100,100,"b"],[216.2,266.2,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,83.6,20.0,100,"hl"],[83.6,648.6,100,100,"b"],[648.6,798.6,100,400.0,"hg"]],"tmark":null},{"id":"M","sub":"yag","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#ffd21f","sub2":"Zeytinyağı · 100 g","subName":"Zeytinyağı","segs":[[0.0,62.0667,20.0,400.0,"hl"]],"tmark":null}],"P":1200,"run":{"kind":"time","D":3,"tlo":15.0,"thi":45.0},"metric":"dT","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-M","m2":"v-K","m3":"v-L"},"correctText":"🥇 M, 🥈 K, 🥉 L (en çok ısınandan en az ısınana)","explanation":"ΔT = Q / m·c. Çarpımlar: M 196, K 418, L 1254. Çarpım küçüldükçe artış büyür: M > K > L. Artışlar: K (Su · 100 g): 8,6; L (Su · 300 g): 2,9; M (Zeytinyağı · 100 g): 18,4 °C."},{"id":"s2-10","questionId":"isi-v1-s2-karma-metal","type":"heat","mode":"medals","outcomeKey":"K2","difficulty":"hard","prompt":"K: 50 g demir, L: 100 g bakır, M: 100 g demir; hepsi aynı ısıyı alıyor. Madalyaları en çok ısınandan (🥇) en az ısınana (🥉) bırak.","hint":"Kütle × özısı çarpımı en küçük olan en çok ısınır.","vessels":[{"id":"K","sub":"demir","m":50,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"metal","color":"#8d99ae","sub2":"Demir · 50 g","subName":"Demir","segs":[[0.0,10.925,20.0,400.0,"hl"]],"tmark":null},{"id":"L","sub":"bakir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"metal","color":"#e8793a","sub2":"Bakır · 100 g","subName":"Bakır","segs":[[0.0,17.575,20.0,400.0,"hl"]],"tmark":null},{"id":"M","sub":"demir","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"metal","color":"#8d99ae","sub2":"Demir · 100 g","subName":"Demir","segs":[[0.0,21.85,20.0,400.0,"hl"]],"tmark":null}],"P":800,"run":{"kind":"time","D":1,"tlo":15.0,"thi":60.0},"metric":"dT","dir":"max","plaque":false,"token":"flame","answer":{"m1":"v-K","m2":"v-L","m3":"v-M"},"correctText":"🥇 K, 🥈 L, 🥉 M (en çok ısınandan en az ısınana)","explanation":"Çarpımlar: K 50·0,46 = 23; L 100·0,37 = 37; M 100·0,46 = 46. Çarpım küçüldükçe ısınma artar: K > L > M. Artışlar: K (Demir · 50 g): 34,8; L (Bakır · 100 g): 21,6; M (Demir · 100 g): 17,4 °C."}],"howto":"Deneyi izle, sonra madalyaları kapların üstüne doğru sırayla bırak."},{"id":"s3","num":3,"name":"Grafik Gözlemevi","icon":"📈","outcomeKey":"K3","pick":4,"pool":[{"id":"s3-1","questionId":"isi-v1-s3-buz-plato","type":"gmark","outcomeKey":"K3","difficulty":"easy","prompt":"50 g buz (−20 °C) özdeş ısıtıcıyla ısıtılıyor. Deneyi izle; sıcaklığın SABİT kaldığı bir zamanı grafikte işaretle.","hint":"Isıtıcıyı sürükle. Termometre bir yerde durup bekleyecek. Grafikte düz çizgi bölümünün üstündeki bir sütuna bayrağı bırak.","vessels":[{"id":"K","sub":"su","m":50,"T0":-20,"phase0":"s","heaters":1,"hide":false,"lab":"K","look":"ice","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,1.0,-20.0,0,"hs"],[1.0,8.9524,0,0,"m"],[8.9524,18.9048,0,100,"hl"],[18.9048,72.7143,100,100,"b"],[72.7143,87.0,100,400.0,"hg"]],"tmark":null}],"P":2100,"run":{"kind":"time","D":10.0,"tlo":-25.0,"thi":15.0},"ncols":10,"ymin":-25,"ymax":15,"dirn":1,"kind":"plateau","accept":[1,2,3,4,5,6,7,8],"pts":[[0.0,-20.0],[1.0,0],[8.952,0],[10.0,10.526]],"xlab":"Zaman (dk)","token":"flame","answer":{"t":"gx","cols":[1,2,3,4,5,6,7,8]},"correctText":"Sıcaklığın sabit kaldığı düz bölüm (2-9. sütunlar arası)","explanation":"Buz erirken ısı alır ama sıcaklığı 0 °C'de sabit kalır: hâl değişimi sürerken sıcaklık değişmez. Düz bölüm yaklaşık 1,0–9,0 dk arasıdır."},{"id":"s3-2","questionId":"isi-v1-s3-buz-erime-basi","type":"gmark","outcomeKey":"K3","difficulty":"medium","prompt":"Aynı buz ısıtılırken ERİMENİN BAŞLADIĞI anı (sıcaklık artışının durduğu yer) grafikte işaretle. Yaklaşık yeterli.","hint":"Eğik çizgi bittiği, düz çizgi başladığı yeri bul. Sütunlar 1 dk'dır.","vessels":[{"id":"K","sub":"su","m":50,"T0":-20,"phase0":"s","heaters":1,"hide":false,"lab":"K","look":"ice","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,1.0,-20.0,0,"hs"],[1.0,8.9524,0,0,"m"],[8.9524,18.9048,0,100,"hl"],[18.9048,72.7143,100,100,"b"],[72.7143,87.0,100,400.0,"hg"]],"tmark":null}],"P":2100,"run":{"kind":"time","D":10.0,"tlo":-25.0,"thi":15.0},"ncols":10,"ymin":-25,"ymax":15,"dirn":1,"kind":"start","accept":[0,1],"pts":[[0.0,-20.0],[1.0,0],[8.952,0],[10.0,10.526]],"xlab":"Zaman (dk)","token":"flame","answer":{"t":"gx","cols":[0,1]},"correctText":"Düz bölümün başladığı an (≈ 1,0 dk, 1-2. sütun)","explanation":"Buz önce 0 °C'ye kadar ısınır (≈ 1,0 dk); sonra erime başlar ve sıcaklık sabit kalır."},{"id":"s3-3","questionId":"isi-v1-s3-buz-erime-sonu","type":"gmark","outcomeKey":"K3","difficulty":"hard","prompt":"Buzun TAMAMI erimiş ve sıcaklık yeniden yükselmeye başlıyor. Bu anı grafikte işaretle (yaklaşık).","hint":"Düz bölümün bittiği yere dikkat et: orada madde tamamen sıvı olmuştur.","vessels":[{"id":"K","sub":"su","m":50,"T0":-20,"phase0":"s","heaters":1,"hide":false,"lab":"K","look":"ice","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,1.0,-20.0,0,"hs"],[1.0,8.9524,0,0,"m"],[8.9524,18.9048,0,100,"hl"],[18.9048,72.7143,100,100,"b"],[72.7143,87.0,100,400.0,"hg"]],"tmark":null}],"P":2100,"run":{"kind":"time","D":10.0,"tlo":-25.0,"thi":15.0},"ncols":10,"ymin":-25,"ymax":15,"dirn":1,"kind":"end","accept":[8,9],"pts":[[0.0,-20.0],[1.0,0],[8.952,0],[10.0,10.526]],"xlab":"Zaman (dk)","token":"flame","answer":{"t":"gx","cols":[8,9]},"correctText":"Düz bölümün bittiği an (≈ 9,0 dk, 9-10. sütun)","explanation":"Düz bölümün sonunda (≈ 9,0 dk) buzun hepsi erimiştir. Bundan sonra sıvı su ısınmaya devam eder."},{"id":"s3-4","questionId":"isi-v1-s3-su-kaynama-plato","type":"gmark","outcomeKey":"K3","difficulty":"medium","prompt":"100 g su (20 °C) kaynayana kadar ve kaynarken ısıtılıyor. Suyun KAYNADIĞI (sıcaklığın 100 °C'de sabit kaldığı) bir anı işaretle.","hint":"Termometre 100 °C'ye ulaşınca durur; kabarcıklar çıkar. Grafikte yatay çizginin üstündeki sütunlara bırak.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,2.09,20.0,100,"hl"],[2.09,16.215,100,100,"b"],[16.215,19.965,100,400.0,"hg"]],"tmark":null}],"P":16000,"run":{"kind":"time","D":10.0,"tlo":10.0,"thi":110.0},"ncols":10,"ymin":0,"ymax":115,"dirn":1,"kind":"plateau","accept":[2,3,4,5,6,7,8,9],"pts":[[0.0,20.0],[2.09,100],[10.0,100.0]],"xlab":"Zaman (dk)","token":"flame","answer":{"t":"gx","cols":[2,3,4,5,6,7,8,9]},"correctText":"Sıcaklığın sabit kaldığı düz bölüm (3-10. sütunlar arası)","explanation":"Su kaynarken ısı almaya devam eder ama sıcaklığı 100 °C'de sabit kalır. Kaynama ≈ 2,1 dk'dan sonra başlar ve sıvı suyun hepsi buharlaşana kadar sürer."},{"id":"s3-5","questionId":"isi-v1-s3-su-kaynama-basi","type":"gmark","outcomeKey":"K3","difficulty":"medium","prompt":"Aynı su ısıtılırken KAYNAMANIN BAŞLADIĞI anı grafikte işaretle (yaklaşık).","hint":"Sıcaklığın artmayı bıraktığı ve kaynama sıcaklığına ulaştığı yeri bul.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,2.09,20.0,100,"hl"],[2.09,16.215,100,100,"b"],[16.215,19.965,100,400.0,"hg"]],"tmark":null}],"P":16000,"run":{"kind":"time","D":10.0,"tlo":10.0,"thi":110.0},"ncols":10,"ymin":0,"ymax":115,"dirn":1,"kind":"start","accept":[1,2],"pts":[[0.0,20.0],[2.09,100],[10.0,100.0]],"xlab":"Zaman (dk)","token":"flame","answer":{"t":"gx","cols":[1,2]},"correctText":"Düz bölümün başladığı an (≈ 2,1 dk, 2-3. sütun)","explanation":"Su yaklaşık 2,1 dk sonra 100 °C'ye ulaşır ve kaynamaya başlar; sonra sıcaklık sabit kalır."},{"id":"s3-10","questionId":"isi-v1-s3-alkol-kaynama-basi","type":"gmark","outcomeKey":"K3","difficulty":"hard","prompt":"100 g etil alkol (20 °C) ısıtılıyor (kaynama noktası ≈ 78 °C). Alkolün KAYNAMAYA BAŞLADIĞI anı grafikte işaretle (yaklaşık).","hint":"Sıcaklık ≈ 78 °C'ye ulaşınca artış durur. Eğik çizginin düz çizgiye döndüğü yeri bul.","vessels":[{"id":"K","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","Tb":78,"Lv":838,"cg":1.4,"Tm":-114,"cs":1.0,"look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,3.683,20.0,78,"hl"],[3.683,24.633,78,78,"b"],[24.633,35.903,78,400.0,"hg"]],"tmark":null}],"P":4000,"run":{"kind":"time","D":10.0,"tlo":15.0,"thi":85.0},"ncols":10,"ymin":0,"ymax":100,"dirn":1,"kind":"start","accept":[3,4],"pts":[[0.0,20.0],[3.683,78],[10.0,78.0]],"xlab":"Zaman (dk)","token":"flame","answer":{"t":"gx","cols":[3,4]},"correctText":"Düz bölümün başladığı an (≈ 3,7 dk, 4-5. sütun)","explanation":"Etil alkol yaklaşık 78 °C'de kaynar (su 100 °C'de). Bu sıcaklığa ≈ 3,7 dk sonra ulaşır; kaynarken sıcaklık sabit kalır."},{"id":"s3-6","questionId":"isi-v1-s3-kart-buz","type":"gcard","outcomeKey":"K3","difficulty":"medium","prompt":"100 g buz (−10 °C) ısıtılıyor. Deneyi izle; sıcaklık-zaman grafiğine uyan kartı DENEY DEFTERİ'ne bırak.","hint":"Termometre 0 °C'de bir süre bekler. Düz bölümü olan ve 0 °C'de duran grafiği ara.","vessels":[{"id":"K","sub":"su","m":100,"T0":-10,"phase0":"s","heaters":1,"hide":false,"lab":"K","look":"ice","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,0.525,-10.0,0,"hs"],[0.525,8.875,0,0,"m"],[8.875,19.325,0,100,"hl"],[19.325,75.825,100,100,"b"],[75.825,90.825,100,400.0,"hg"]],"tmark":null}],"P":4000,"run":{"kind":"time","D":13.0,"tlo":-15.0,"thi":45.0},"xmax":13,"ymin":-20,"ymax":50,"cards":[{"id":"A","curves":[{"lab":"","color":"#ff9f1c","pts":[[0,-10],[13,39.474]]}]},{"id":"B","curves":[{"lab":"","color":"#ff9f1c","pts":[[0.0,-10.0],[0.525,0],[8.875,0],[13.0,39.474]]}]},{"id":"C","curves":[{"lab":"","color":"#ff9f1c","pts":[[0,-10],[3,20],[9.5,20],[13,40]]}]}],"token":"flame","answer":{"m":"card-B","t":"notebook"},"correctText":"B grafiği","explanation":"Buz ısıtılırken önce 0 °C'ye kadar ısınır, erirken 0 °C'de sabit kalır, sonra sıvı su ısınır. Doğru grafik, düz bölümü 0 °C'de olandır."},{"id":"s3-7","questionId":"isi-v1-s3-kart-kutle","type":"gcard","outcomeKey":"K3","difficulty":"medium","prompt":"K, L ve M kaplarında 20 °C'de aynı sıvı var (K en az, M en çok). Özdeş ısıtıcılarla ısıtılıyor. Doğru sıcaklık-zaman grafiğini DENEY DEFTERİ'ne bırak.","hint":"Önce deneyi izle: hangi termometre en hızlı yükseliyor? Çizgi ne kadar dikse o kap o kadar hızlı ısınır.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,16.72,20.0,100,"hl"],[16.72,129.72,100,100,"b"],[129.72,159.72,100,400.0,"hg"]],"tmark":null},{"id":"L","sub":"su","m":200,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 200 g","subName":"Su","segs":[[0.0,33.44,20.0,100,"hl"],[33.44,259.44,100,100,"b"],[259.44,319.44,100,400.0,"hg"]],"tmark":null},{"id":"M","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,50.16,20.0,100,"hl"],[50.16,389.16,100,100,"b"],[389.16,479.16,100,400.0,"hg"]],"tmark":null}],"P":2000,"run":{"kind":"time","D":6.0,"tlo":15.0,"thi":55.0},"xmax":6,"ymin":10,"ymax":60,"cards":[{"id":"A","curves":[{"lab":"K","color":"#ff6b6b","pts":[[0.0,20.0],[6.0,48.708]]},{"lab":"L","color":"#ffd93d","pts":[[0.0,20.0],[6.0,34.354]]},{"lab":"M","color":"#4dd0ff","pts":[[0.0,20.0],[6.0,29.569]]}]},{"id":"B","curves":[{"lab":"K","color":"#ff6b6b","pts":[[0.0,20.0],[6.0,29.569]]},{"lab":"L","color":"#ffd93d","pts":[[0.0,20.0],[6.0,34.354]]},{"lab":"M","color":"#4dd0ff","pts":[[0.0,20.0],[6.0,48.708]]}]},{"id":"C","curves":[{"lab":"K","color":"#ff6b6b","pts":[[0.0,20.0],[6.0,34.354]]},{"lab":"L","color":"#ffd93d","pts":[[0.0,20.0],[6.0,48.708]]},{"lab":"M","color":"#4dd0ff","pts":[[0.0,20.0],[6.0,29.569]]}]}],"token":"flame","answer":{"m":"card-A","t":"notebook"},"correctText":"A grafiği","explanation":"Aynı sıvıya eşit ısı verilince kütlesi küçük olan hızlı ısınır: K'nin çizgisi en dik, M'ninki en yataydır."},{"id":"s3-8","questionId":"isi-v1-s3-kart-kaynama","type":"gcard","outcomeKey":"K3","difficulty":"hard","prompt":"K, L, M kaplarında aynı sıvı var (20 g, 40 g, 60 g). Özdeş ısıtıcılarla kaynatılıyor. Doğru grafiği DENEY DEFTERİ'ne bırak.","hint":"Kaynama sıcaklığı sıvının cinsine bağlıdır; miktara bağlı değildir. Hepsinin düz bölümü aynı seviyede olmalı.","vessels":[{"id":"K","sub":null,"m":20,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","c":2.0,"Tb":80,"Lv":200,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"20 g (aynı sıvı)","subName":"aynı sıvı","segs":[[0.0,2.4,20.0,80,"hl"],[2.4,6.4,80,80,"b"],[6.4,12.8,80,400.0,"hg"]],"tmark":null},{"id":"L","sub":null,"m":40,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","c":2.0,"Tb":80,"Lv":200,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"40 g (aynı sıvı)","subName":"aynı sıvı","segs":[[0.0,4.8,20.0,80,"hl"],[4.8,12.8,80,80,"b"],[12.8,25.6,80,400.0,"hg"]],"tmark":null},{"id":"M","sub":null,"m":60,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","c":2.0,"Tb":80,"Lv":200,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"60 g (aynı sıvı)","subName":"aynı sıvı","segs":[[0.0,7.2,20.0,80,"hl"],[7.2,19.2,80,80,"b"],[19.2,38.4,80,400.0,"hg"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":14.0,"tlo":-15.0,"thi":435.0},"xmax":14,"ymin":10,"ymax":100,"cards":[{"id":"A","curves":[{"lab":"K","color":"#ff6b6b","pts":[[0,20],[2.0,70],[6.0,70]]},{"lab":"L","color":"#ffd93d","pts":[[0,20],[4.4,80],[12.4,80]]},{"lab":"M","color":"#4dd0ff","pts":[[0,20],[7.0,90],[14,90]]}]},{"id":"B","curves":[{"lab":"K","color":"#ff6b6b","pts":[[0,20],[7.2,80],[14,80]]},{"lab":"L","color":"#ffd93d","pts":[[0,20],[4.8,80],[14,80]]},{"lab":"M","color":"#4dd0ff","pts":[[0,20],[2.4,80],[14,80]]}]},{"id":"C","curves":[{"lab":"K","color":"#ff6b6b","pts":[[0.0,20.0],[2.4,80],[6.4,80.0]]},{"lab":"L","color":"#ffd93d","pts":[[0.0,20.0],[4.8,80],[12.8,80.0]]},{"lab":"M","color":"#4dd0ff","pts":[[0.0,20.0],[7.2,80],[14.0,80.0]]}]}],"token":"flame","answer":{"m":"card-C","t":"notebook"},"correctText":"C grafiği","explanation":"Aynı sıvının kaynama sıcaklığı miktara bağlı değildir: üç kapta da 80 °C'de düzleşir. Az olan kap daha çabuk kaynar: K, L, M sırasıyla."},{"id":"s3-9","questionId":"isi-v1-s3-kart-donma","type":"gcard","outcomeKey":"K3","difficulty":"hard","prompt":"100 g su (20 °C) soğutucuyla soğutuluyor ve donuyor. Deneyi izle; doğru sıcaklık-zaman grafiğini DENEY DEFTERİ'ne bırak.","hint":"Soğutulan sıvı donarken sıcaklığı bir süre sabit kalır. Grafik aşağı doğru ve düz bölümlü olmalı.","vessels":[{"id":"K","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,2.7867,20.0,0,"hl"],[2.7867,13.92,0,0,"f"],[13.92,24.42,0,-150.0,"hs"]],"tmark":null}],"P":3000,"run":{"kind":"time","D":15.0,"tlo":-20.0,"thi":25.0},"xmax":15,"ymin":-25,"ymax":30,"cards":[{"id":"A","curves":[{"lab":"","color":"#ff9f1c","pts":[[0,20],[15,-15.429]]}]},{"id":"B","curves":[{"lab":"","color":"#ff9f1c","pts":[[0.0,20.0],[2.787,0],[13.92,0],[15.0,-15.429]]}]},{"id":"C","curves":[{"lab":"","color":"#ff9f1c","pts":[[0,-20],[3,0],[11,0],[15,20]]}]}],"token":"cooler","answer":{"m":"card-B","t":"notebook"},"correctText":"B grafiği","explanation":"Su soğurken ısı verir; 0 °C'de donarken ısı vermeyi sürdürür ama sıcaklığı sabit kalır, donunca yeniden düşer."}],"howto":"Deneyi çalıştır, grafiğin çizilmesini izle; bayrağı ya da grafik kartını doğru yere bırak."},{"id":"s4","num":4,"name":"Deney Tasarım Odası","icon":"🧪","outcomeKey":"K4","pick":4,"pool":[{"id":"s4-1","questionId":"isi-v1-s4-buz-kutle","type":"design","outcomeKey":"K4","difficulty":"medium","prompt":"Hipotez: Buz miktarı arttıkça erime süresi uzar. Bunu sınamak için hangi İKİ kabı deney tezgâhına koymalısın? (Kapları tezgâh yuvalarına sürükle.)","hint":"Yalnızca buz miktarı farklı olmalı; ilk sıcaklık aynı kalmalı.","vessels":[{"id":"R","sub":"su","m":30,"T0":0,"phase0":"s","heaters":1,"hide":false,"lab":"R","ident":"su","look":"ice","color":"#35b8ff","sub2":"Su · 30 g","subName":"Su","segs":[[0.0,6.68,0.0,0.0,"m"],[6.68,15.04,0.0,100,"hl"],[15.04,60.24,100,100,"b"],[60.24,72.24,100,400.0,"hg"]],"tmark":6.68},{"id":"Y","sub":"su","m":30,"T0":-5,"phase0":"s","heaters":1,"hide":false,"lab":"Y","ident":"su","look":"ice","color":"#35b8ff","sub2":"Su · 30 g","subName":"Su","segs":[[0.0,0.21,-5.0,0,"hs"],[0.21,6.89,0,0,"m"],[6.89,15.25,0,100,"hl"],[15.25,60.45,100,100,"b"],[60.45,72.45,100,400.0,"hg"]],"tmark":6.89},{"id":"Z","sub":"su","m":40,"T0":0,"phase0":"s","heaters":1,"hide":false,"lab":"Z","ident":"su","look":"ice","color":"#35b8ff","sub2":"Su · 40 g","subName":"Su","segs":[[0.0,8.9067,0.0,0.0,"m"],[8.9067,20.0533,0.0,100,"hl"],[20.0533,80.32,100,100,"b"],[80.32,96.32,100,400.0,"hg"]],"tmark":8.9067},{"id":"T","sub":"su","m":50,"T0":-5,"phase0":"s","heaters":1,"hide":false,"lab":"T","ident":"su","look":"ice","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,0.35,-5.0,0,"hs"],[0.35,11.4833,0,0,"m"],[11.4833,25.4167,0,100,"hl"],[25.4167,100.75,100,100,"b"],[100.75,120.75,100,400.0,"hg"]],"tmark":11.4833}],"P":1500,"run":{"kind":"meltDone","D":11.4833,"tlo":-10.0,"thi":65.0},"variable":"m","valid":[["R","Z"],["Y","T"]],"token":"flame","answer":{"pairs":[["R","Z"],["Y","T"]]},"correctText":"Kaplar: R/Z ve Y/T (yalnızca madde miktarı farklı)","explanation":"Kontrollü deneyde yalnızca sınanan değişken (buz miktarı) değişir. R–Z (0 °C) ve Y–T (−5 °C) çiftlerinde ilk sıcaklık aynı, yalnızca kütle farklıdır."},{"id":"s4-2","questionId":"isi-v1-s4-cins","type":"design","outcomeKey":"K4","difficulty":"medium","prompt":"Hipotez: Madde cinsi, sıcaklık değişimini etkiler. Eşit ısıtılacak hangi İKİ kabı seçmelisin?","hint":"Yalnızca madde cinsi farklı olmalı; miktar aynı kalmalı.","vessels":[{"id":"1","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"1","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,80.4333,20.0,400.0,"hl"]],"tmark":null},{"id":"2","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"2","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,83.6,20.0,100,"hl"],[83.6,648.6,100,100,"b"],[648.6,798.6,100,400.0,"hg"]],"tmark":null},{"id":"3","sub":"alkol","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"3","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 300 g","subName":"Etil alkol","segs":[[0.0,241.3,20.0,400.0,"hl"]],"tmark":null},{"id":"4","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"4","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,27.8667,20.0,100,"hl"],[27.8667,216.2,100,100,"b"],[216.2,266.2,100,400.0,"hg"]],"tmark":null}],"P":1200,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"variable":"sub","valid":[["1","4"],["2","3"]],"token":"flame","answer":{"pairs":[["1","4"],["2","3"]]},"correctText":"Kaplar: 1/4 ve 2/3 (yalnızca madde cinsi farklı)","explanation":"Cinsin etkisi için miktarlar eşit olmalı: 100 g alkol ile 100 g su (ya da 300 g alkol ile 300 g su). Hem cins hem miktar farklıysa sonuç hangi nedenden olduğu anlaşılmaz."},{"id":"s4-3","questionId":"isi-v1-s4-miktar","type":"design","outcomeKey":"K4","difficulty":"medium","prompt":"Hipotez: Madde miktarı arttıkça sıcaklık artışı azalır. Hangi İKİ kabı seçmelisin?","hint":"Aynı maddeyi, farklı miktarlarda seç.","vessels":[{"id":"1","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"1","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,80.4333,20.0,400.0,"hl"]],"tmark":null},{"id":"2","sub":"su","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"2","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,83.6,20.0,100,"hl"],[83.6,648.6,100,100,"b"],[648.6,798.6,100,400.0,"hg"]],"tmark":null},{"id":"3","sub":"alkol","m":300,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"3","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 300 g","subName":"Etil alkol","segs":[[0.0,241.3,20.0,400.0,"hl"]],"tmark":null},{"id":"4","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"4","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,27.8667,20.0,100,"hl"],[27.8667,216.2,100,100,"b"],[216.2,266.2,100,400.0,"hg"]],"tmark":null}],"P":1200,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"variable":"m","valid":[["1","3"],["2","4"]],"token":"flame","answer":{"pairs":[["1","3"],["2","4"]]},"correctText":"Kaplar: 1/3 ve 2/4 (yalnızca madde miktarı farklı)","explanation":"Miktarın etkisini görmek için madde aynı olmalı: 100 g su ile 300 g su (ya da 100 g alkol ile 300 g alkol)."},{"id":"s4-4","questionId":"isi-v1-s4-kutle-iki-madde","type":"design","outcomeKey":"K4","difficulty":"hard","prompt":"Hipotez: Aynı cins maddelerin kütleleri farklı ise eşit ısı alınca sıcaklık artışları farklı olur. Hangi İKİ kabı seçmelisin?","hint":"Aynı maddenin, aynı başlangıç sıcaklığında, farklı kütleleri gerekir.","vessels":[{"id":"A1","sub":"alkol","m":50,"T0":15,"phase0":"l","heaters":1,"hide":false,"lab":"A1","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 50 g","subName":"Etil alkol","segs":[[0.0,48.895,15.0,400.0,"hl"]],"tmark":null},{"id":"A2","sub":"alkol","m":100,"T0":15,"phase0":"l","heaters":1,"hide":false,"lab":"A2","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,97.79,15.0,400.0,"hl"]],"tmark":null},{"id":"A3","sub":"alkol","m":100,"T0":25,"phase0":"l","heaters":1,"hide":false,"lab":"A3","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,95.25,25.0,400.0,"hl"]],"tmark":null},{"id":"B1","sub":"su","m":50,"T0":15,"phase0":"l","heaters":1,"hide":false,"lab":"B1","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,17.765,15.0,100,"hl"],[17.765,130.765,100,100,"b"],[130.765,160.765,100,400.0,"hg"]],"tmark":null}],"P":1000,"run":{"kind":"time","D":2,"tlo":10.0,"thi":40.0},"variable":"m","valid":[["A1","A2"]],"token":"flame","answer":{"pairs":[["A1","A2"]]},"correctText":"Kaplar: A1/A2 (yalnızca madde miktarı farklı)","explanation":"A1–A2: aynı madde, aynı başlangıç sıcaklığı (15 °C), yalnızca kütle farklı. A2–A3 yalnızca sıcaklığı, A1–B1 yalnızca cinsi değiştirir; hipotezi test etmez."},{"id":"s4-5","questionId":"isi-v1-s4-isitici-sayisi","type":"design","outcomeKey":"K4","difficulty":"hard","prompt":"Hipotez: Isıtıcı sayısı arttıkça sıvının kaynama süresi kısalır. Hangi İKİ kabı seçmelisin?","hint":"Aynı sıvıyı aynı miktarda al; yalnızca ısıtıcı sayısı farklı olsun.","vessels":[{"id":"K1","sub":"gizem","m":20,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"K1","ident":"K","c":1.5,"Tb":80,"Lv":300,"look":"liq","color":"#b48cff","sub2":"K sıvısı · 20 g · 1 ısıtıcı","subName":"bilinmiyor","segs":[[0.0,3.6,20.0,80,"hl"],[3.6,15.6,80,80,"b"],[15.6,41.2,80,400.0,"hg"]],"tmark":3.6},{"id":"K2","sub":"gizem","m":40,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"K2","ident":"K","c":1.5,"Tb":80,"Lv":300,"look":"liq","color":"#b48cff","sub2":"K sıvısı · 40 g · 1 ısıtıcı","subName":"bilinmiyor","segs":[[0.0,7.2,20.0,80,"hl"],[7.2,31.2,80,80,"b"],[31.2,82.4,80,400.0,"hg"]],"tmark":7.2},{"id":"K3","sub":"gizem","m":20,"T0":20,"phase0":"l","heaters":2,"hide":true,"lab":"K3","ident":"K","c":1.5,"Tb":80,"Lv":300,"look":"liq","color":"#b48cff","sub2":"K sıvısı · 20 g · 2 ısıtıcı","subName":"bilinmiyor","segs":[[0.0,1.8,20.0,80,"hl"],[1.8,7.8,80,80,"b"],[7.8,20.6,80,400.0,"hg"]],"tmark":1.8},{"id":"L1","sub":"gizem","m":20,"T0":20,"phase0":"l","heaters":1,"hide":true,"lab":"L1","ident":"L","c":2.0,"Tb":120,"Lv":300,"look":"liq","color":"#b48cff","sub2":"L sıvısı · 20 g · 1 ısıtıcı","subName":"bilinmiyor","segs":[[0.0,8.0,20.0,120,"hl"],[8.0,20.0,120,120,"b"],[20.0,42.4,120,400.0,"hg"]],"tmark":8.0}],"P":500,"run":{"kind":"boil","extra":0.5,"D":8.5,"tlo":10.0,"thi":130.0},"variable":"heaters","valid":[["K1","K3"]],"token":"flame","answer":{"pairs":[["K1","K3"]]},"correctText":"Kaplar: K1/K3 (yalnızca ısıtıcı sayısı farklı)","explanation":"Yalnızca ısıtıcı sayısı değişmeli: K1 (1 ısıtıcı) ve K3 (2 ısıtıcı) aynı sıvı ve aynı miktar. İki ısıtıcı kapta kaynama daha çabuk başlar."},{"id":"s4-6","questionId":"isi-v1-s4-uc-kart","type":"design","outcomeKey":"K4","difficulty":"easy","prompt":"Hipotez: Madde cinsi, sıcaklık değişimini etkiler. Üç düzenekten hangi İKİ kabı seçmelisin?","hint":"Miktarı eşit olan iki kabı seç; biri su, biri etil alkol olsun.","vessels":[{"id":"1","sub":"su","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"1","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,27.8667,20.0,100,"hl"],[27.8667,216.2,100,100,"b"],[216.2,266.2,100,400.0,"hg"]],"tmark":null},{"id":"2","sub":"su","m":50,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"2","ident":"su","look":"liq","color":"#35b8ff","sub2":"Su · 50 g","subName":"Su","segs":[[0.0,13.9333,20.0,100,"hl"],[13.9333,108.1,100,100,"b"],[108.1,133.1,100,400.0,"hg"]],"tmark":null},{"id":"3","sub":"alkol","m":100,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"3","ident":"alkol","look":"liq","color":"#ff7ac8","sub2":"Etil alkol · 100 g","subName":"Etil alkol","segs":[[0.0,80.4333,20.0,400.0,"hl"]],"tmark":null}],"P":1200,"run":{"kind":"time","D":2,"tlo":15.0,"thi":35.0},"variable":"sub","valid":[["1","3"]],"token":"flame","answer":{"pairs":[["1","3"]]},"correctText":"Kaplar: 1/3 (yalnızca madde cinsi farklı)","explanation":"1 ve 3 numaralı kaplar eşit miktarda (100 g) ama farklı cinstedir. 2 ve 3'te hem miktar hem cins farklıdır; sonucun nedeni anlaşılmaz."},{"id":"s4-7","questionId":"isi-v1-s4-var-cins","type":"vars","outcomeKey":"K4","difficulty":"medium","prompt":"Hipotez: Eşit miktarda alınan su ve yağ özdeş ısıtıcılarla eşit süre ısıtılınca yağın son sıcaklığı daha fazladır. Kartları doğru kutulara bırak.","hint":"Sınadığın şey 'ne'; sonucu ölçtüğün şey 'ne'? Geri kalan ikisi sabit kalmalı.","chips":[{"id":"c1","text":"Sıvının cinsi"},{"id":"c2","text":"Sıvıların sıcaklık değişimi"},{"id":"c3","text":"Sıvının miktarı"},{"id":"c4","text":"Isıtma süresi"}],"slots":[{"id":"ind","label":"Bağımsız değişken (değiştirdiğim)","cap":1},{"id":"dep","label":"Bağımlı değişken (ölçtüğüm)","cap":1},{"id":"ctl","label":"Sabit tutulanlar","cap":2}],"answer":{"c1":"ind","c2":"dep","c3":"ctl","c4":"ctl"},"correctText":"Sıvının cinsi → Bağımsız değişken (değiştirdiğim); Sıvıların sıcaklık değişimi → Bağımlı değişken (ölçtüğüm); Sıvının miktarı → Sabit tutulanlar; Isıtma süresi → Sabit tutulanlar","explanation":"Sınanan (bağımsız) değişken sıvının cinsidir, ölçülen (bağımlı) değişken sıcaklık değişimidir; miktar ve süre sabit tutulur."},{"id":"s4-8","questionId":"isi-v1-s4-var-miktar","type":"vars","outcomeKey":"K4","difficulty":"medium","prompt":"Hipotez: Aynı sıvının miktarı arttıkça, eşit ısıtmada sıcaklık artışı azalır. Kartları doğru kutulara bırak.","hint":"Hangisini değiştiriyorsun, hangisini ölçüyorsun?","chips":[{"id":"c1","text":"Sıvının miktarı"},{"id":"c2","text":"Sıcaklık artışı"},{"id":"c3","text":"Sıvının cinsi"},{"id":"c4","text":"Isıtıcının gücü"}],"slots":[{"id":"ind","label":"Bağımsız değişken (değiştirdiğim)","cap":1},{"id":"dep","label":"Bağımlı değişken (ölçtüğüm)","cap":1},{"id":"ctl","label":"Sabit tutulanlar","cap":2}],"answer":{"c1":"ind","c2":"dep","c3":"ctl","c4":"ctl"},"correctText":"Sıvının miktarı → Bağımsız değişken (değiştirdiğim); Sıcaklık artışı → Bağımlı değişken (ölçtüğüm); Sıvının cinsi → Sabit tutulanlar; Isıtıcının gücü → Sabit tutulanlar","explanation":"Bağımsız değişken sıvı miktarı, bağımlı değişken sıcaklık artışıdır; cins ve ısıtıcı gücü sabit tutulur."},{"id":"s4-9","questionId":"isi-v1-s4-var-buz","type":"vars","outcomeKey":"K4","difficulty":"hard","prompt":"Hipotez: Buz miktarı arttıkça tamamen erime süresi uzar. Kartları doğru kutulara bırak.","hint":"Süre senin ölçtüğün şey; buz miktarı değiştirdiğin şey.","chips":[{"id":"c1","text":"Buzun miktarı"},{"id":"c2","text":"Erime süresi"},{"id":"c3","text":"Buzun ilk sıcaklığı"},{"id":"c4","text":"Isıtıcı gücü"}],"slots":[{"id":"ind","label":"Bağımsız değişken (değiştirdiğim)","cap":1},{"id":"dep","label":"Bağımlı değişken (ölçtüğüm)","cap":1},{"id":"ctl","label":"Sabit tutulanlar","cap":2}],"answer":{"c1":"ind","c2":"dep","c3":"ctl","c4":"ctl"},"correctText":"Buzun miktarı → Bağımsız değişken (değiştirdiğim); Erime süresi → Bağımlı değişken (ölçtüğüm); Buzun ilk sıcaklığı → Sabit tutulanlar; Isıtıcı gücü → Sabit tutulanlar","explanation":"Değiştirilen buz miktarıdır; ölçülen erime süresidir. İlk sıcaklık ve ısıtıcı gücü sabit kalmazsa sonuç güvenilmez olur."},{"id":"s4-10","questionId":"isi-v1-s4-var-isitici","type":"vars","outcomeKey":"K4","difficulty":"hard","prompt":"Hipotez: Isıtıcı sayısı arttıkça sıvının kaynamaya başlama süresi kısalır. Kartları doğru kutulara bırak.","hint":"Sınanan: ısıtıcı sayısı. Ölçülen: kaynamaya başlama süresi.","chips":[{"id":"c1","text":"Isıtıcı sayısı"},{"id":"c2","text":"Kaynamaya başlama süresi"},{"id":"c3","text":"Sıvının cinsi"},{"id":"c4","text":"Sıvının miktarı"}],"slots":[{"id":"ind","label":"Bağımsız değişken (değiştirdiğim)","cap":1},{"id":"dep","label":"Bağımlı değişken (ölçtüğüm)","cap":1},{"id":"ctl","label":"Sabit tutulanlar","cap":2}],"answer":{"c1":"ind","c2":"dep","c3":"ctl","c4":"ctl"},"correctText":"Isıtıcı sayısı → Bağımsız değişken (değiştirdiğim); Kaynamaya başlama süresi → Bağımlı değişken (ölçtüğüm); Sıvının cinsi → Sabit tutulanlar; Sıvının miktarı → Sabit tutulanlar","explanation":"Bağımsız değişken ısıtıcı sayısı, bağımlı değişken kaynamaya başlama süresidir; sıvı cinsi ve miktarı sabit tutulur."}],"howto":"Hipotezi sınamak için kapları ya da değişken kartlarını doğru yerlere bırak."},{"id":"s5","num":5,"name":"Buz Kalıbı ve Isı Alışverişi","icon":"🧊","outcomeKey":"K5","pick":4,"pool":[{"id":"s5-1","questionId":"isi-v1-s5-top-sira","type":"ice","mode":"medals","outcomeKey":"K2","difficulty":"medium","prompt":"100 °C'deki eşit kütleli (50 g) bakır, demir ve alüminyum toplar buz kalıbının üstüne bırakılıyor. Madalyaları en derine batandan (🥇) en az batana (🥉) bırak.","hint":"Önce kıskacı sürükleyip topları bırak ve izle. Daha çok ısı veren top buzu daha çok eritir, daha derine batar.","balls":[{"id":"K","sub":"demir","m":50,"T0":100,"hide":false,"heaters":1,"melt":6.8862,"lookx":"metal","color":"#8d99ae","sub2":"Demir · 50 g","subName":"Demir"},{"id":"L","sub":"bakir","m":50,"T0":100,"hide":false,"heaters":1,"melt":5.5389,"lookx":"metal","color":"#e8793a","sub2":"Bakır · 50 g","subName":"Bakır"},{"id":"M","sub":"alu","m":50,"T0":100,"hide":false,"heaters":1,"melt":13.4731,"lookx":"metal","color":"#cfd8dc","sub2":"Alüminyum · 50 g","subName":"Alüminyum"}],"metric":"melt","answer":{"m1":"b-M","m2":"b-K","m3":"b-L"},"correctText":"🥇 M, 🥈 K, 🥉 L (batma sırası)","explanation":"Isı veren top buzu eritir: eriyen buz m·c·ΔT ile orantılıdır. Eşit kütle ve eşit sıcaklıkta özısısı büyük olan daha çok ısı verir: alüminyum > demir > bakır. Eriyen buz: K: 6,9 g; L: 5,5 g; M: 13,5 g.","T0":100},{"id":"s5-2","questionId":"isi-v1-s5-top-az","type":"ice","mode":"medals","outcomeKey":"K2","difficulty":"medium","prompt":"Aynı kütleli K, L ve M cisimleri 100 °C'den buz kalıbına bırakılıyor. Madalyaları EN AZ batandan (🥇) en çok batana (🥉) doğru bırak.","hint":"En az batan, buzu en az eritendir; en az ısı vermiştir.","balls":[{"id":"K","sub":"bakir","m":50,"T0":100,"hide":false,"heaters":1,"melt":5.5389,"lookx":"metal","color":"#e8793a","sub2":"Bakır · 50 g","subName":"Bakır"},{"id":"L","sub":"alu","m":50,"T0":100,"hide":false,"heaters":1,"melt":13.4731,"lookx":"metal","color":"#cfd8dc","sub2":"Alüminyum · 50 g","subName":"Alüminyum"},{"id":"M","sub":"demir","m":50,"T0":100,"hide":false,"heaters":1,"melt":6.8862,"lookx":"metal","color":"#8d99ae","sub2":"Demir · 50 g","subName":"Demir"}],"metric":"melt","answer":{"m1":"b-K","m2":"b-M","m3":"b-L"},"correctText":"🥇 K, 🥈 M, 🥉 L (az batandan çok batana)","explanation":"En az batan top en az ısı vermiştir: özısısı en küçük olan bakır (0,37). Sıra: bakır < demir < alüminyum. Eriyen buz: K: 5,5 g; L: 13,5 g; M: 6,9 g.","T0":100},{"id":"s5-3","questionId":"isi-v1-s5-top-gizli","type":"ice","mode":"medals","outcomeKey":"K2","difficulty":"hard","prompt":"Eşit kütleli, aynı sıcaklıktaki K, L, M cisimleri buz kalıbına bırakılıyor. Gözlemine göre özısısı en büyükten (🥇) en küçüğe (🥉) madalyaları bırak.","hint":"Daha derine batan cisim daha çok ısı vermiştir. Eşit kütle ve sıcaklıkta bu, özısısının büyük olması demektir.","balls":[{"id":"K","sub":"gizemm","m":50,"T0":100,"hide":true,"c":0.46,"heaters":1,"melt":6.8862,"lookx":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor"},{"id":"L","sub":"gizemm","m":50,"T0":100,"hide":true,"c":0.3,"heaters":1,"melt":4.491,"lookx":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor"},{"id":"M","sub":"gizemm","m":50,"T0":100,"hide":true,"c":0.9,"heaters":1,"melt":13.4731,"lookx":"metal","color":"#b48cff","sub2":"?","subName":"bilinmiyor"}],"metric":"melt","answer":{"m1":"b-M","m2":"b-K","m3":"b-L"},"correctText":"🥇 M, 🥈 K, 🥉 L (özısı sırası)","explanation":"En derine M battı: en çok ısıyı verdi, özısısı en büyüktür; L en az battı, özısısı en küçüktür. Sıra: M > K > L.","T0":100},{"id":"s5-4","questionId":"isi-v1-s5-top-kutle","type":"ice","mode":"pick","outcomeKey":"K2","difficulty":"medium","prompt":"Aynı maddeden yapılmış K (30 g), L (60 g), M (90 g) topları 100 °C'de. Buz kalıbına bırakılınca en derine batacak topa kupayı bırak.","hint":"Aynı madde ve aynı sıcaklıkta kütlesi büyük olan daha çok ısı verir.","balls":[{"id":"K","sub":"demir","m":30,"T0":100,"hide":false,"heaters":1,"melt":4.1317,"lookx":"metal","color":"#8d99ae","sub2":"Demir · 30 g","subName":"Demir"},{"id":"L","sub":"demir","m":60,"T0":100,"hide":false,"heaters":1,"melt":8.2635,"lookx":"metal","color":"#8d99ae","sub2":"Demir · 60 g","subName":"Demir"},{"id":"M","sub":"demir","m":90,"T0":100,"hide":false,"heaters":1,"melt":12.3952,"lookx":"metal","color":"#8d99ae","sub2":"Demir · 90 g","subName":"Demir"}],"metric":"melt","answer":{"t":"b-M"},"correctText":"M topu (Demir · 90 g)","explanation":"Aynı maddede kütle büyüdükçe verilen ısı artar (Q = m·c·ΔT). En büyük kütleli M topu en çok ısı verir ve en derine batar. Eriyen buz: K: 4,1 g; L: 8,3 g; M: 12,4 g.","T0":100},{"id":"s5-5","questionId":"isi-v1-s5-olay-1","type":"bins","outcomeKey":"K5","difficulty":"easy","prompt":"Olay kartlarını ısı alarak mı, ısı vererek mi gerçekleştiğine göre kutulara bırak.","hint":"Katı→sıvı ve sıvı→gaz geçişlerinde ısı alınır; ters yönde ısı verilir.","cards":[{"id":"e1","text":"Buzun erimesi","icon":"🧊"},{"id":"e2","text":"Suyun donması","icon":"❄"},{"id":"e3","text":"Çamaşırın kuruması","icon":"👕"},{"id":"e4","text":"Camda buğu oluşması","icon":"🪟"}],"bins":[{"id":"alir","label":"🔥 ISI ALIR","cls":"b-hot"},{"id":"verir","label":"❄ ISI VERİR","cls":"b-cold"}],"answer":{"e1":"alir","e2":"verir","e3":"alir","e4":"verir"},"correctText":"Buzun erimesi → ısı alır; Suyun donması → ısı verir; Çamaşırın kuruması → ısı alır; Camda buğu oluşması → ısı verir","explanation":"Erime ve buharlaşma (kuruma) ısı alarak, donma ve yoğuşma (buğu) ısı vererek gerçekleşir."},{"id":"s5-6","questionId":"isi-v1-s5-olay-2","type":"bins","outcomeKey":"K5","difficulty":"medium","prompt":"Olay kartlarını ısı alarak ya da ısı vererek gerçekleşmesine göre kutulara bırak.","hint":"Katıların gaza geçmesi (süblimleşme) de ısı alır.","cards":[{"id":"e1","text":"Tereyağının donması","icon":"🧈"},{"id":"e2","text":"Naftalinin süblimleşmesi","icon":"🟡"},{"id":"e3","text":"Buzulların erimesi","icon":"🏔"},{"id":"e4","text":"Gölün üstünde buz tutması","icon":"🧊"}],"bins":[{"id":"alir","label":"🔥 ISI ALIR","cls":"b-hot"},{"id":"verir","label":"❄ ISI VERİR","cls":"b-cold"}],"answer":{"e1":"verir","e2":"alir","e3":"alir","e4":"verir"},"correctText":"Tereyağının donması → ısı verir; Naftalinin süblimleşmesi → ısı alır; Buzulların erimesi → ısı alır; Gölün üstünde buz tutması → ısı verir","explanation":"Tereyağının donması ve gölde buz tutması ısı vererek, naftalinin süblimleşmesi ve buzulların erimesi ısı alarak gerçekleşir."},{"id":"s5-7","questionId":"isi-v1-s5-olay-3","type":"bins","outcomeKey":"K5","difficulty":"hard","prompt":"Günlük olaylara bak; hangileri ısı alır, hangileri ısı verir? Kartları kutulara bırak.","hint":"Gaz→sıvı ve gaz→katı geçişleri ısı verir.","cards":[{"id":"e1","text":"Kaynayan sudan buhar çıkması","icon":"♨"},{"id":"e2","text":"Sabah çiğ oluşması","icon":"💧"},{"id":"e3","text":"Kış sabahı kırağı oluşması","icon":"❄"},{"id":"e4","text":"Islak saçın kuruması","icon":"💇"}],"bins":[{"id":"alir","label":"🔥 ISI ALIR","cls":"b-hot"},{"id":"verir","label":"❄ ISI VERİR","cls":"b-cold"}],"answer":{"e1":"alir","e2":"verir","e3":"verir","e4":"alir"},"correctText":"Kaynayan sudan buhar çıkması → ısı alır; Sabah çiğ oluşması → ısı verir; Kış sabahı kırağı oluşması → ısı verir; Islak saçın kuruması → ısı alır","explanation":"Kaynama ve kuruma (buharlaşma) ısı alır; çiğ (yoğuşma) ve kırağı (gazdan doğrudan katıya) ısı vererek oluşur."},{"id":"s5-8","questionId":"isi-v1-s5-ilk-kaynayan","type":"heat","mode":"pick","outcomeKey":"K5","difficulty":"medium","prompt":"K, L, M kaplarında aynı sıvıdan 20 g, 40 g, 60 g var. Özdeş ısıtıcılarla ısıtılıyor. İlk kaynamaya başlayacak kaba kupayı bırak.","hint":"Aynı sıvıyı kaynama sıcaklığına getirmek için az olan daha az ısı ister; ısıtıcı aynıysa önce kaynar.","vessels":[{"id":"K","sub":"gizem","m":20,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"K","c":2.0,"Tb":80,"Lv":200,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"20 g (aynı sıvı)","subName":"?","segs":[[0.0,2.4,20.0,80,"hl"],[2.4,6.4,80,80,"b"],[6.4,12.8,80,400.0,"hg"]],"tmark":2.4},{"id":"L","sub":"gizem","m":40,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"L","c":2.0,"Tb":80,"Lv":200,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"40 g (aynı sıvı)","subName":"?","segs":[[0.0,4.8,20.0,80,"hl"],[4.8,12.8,80,80,"b"],[12.8,25.6,80,400.0,"hg"]],"tmark":4.8},{"id":"M","sub":"gizem","m":60,"T0":20,"phase0":"l","heaters":1,"hide":false,"lab":"M","c":2.0,"Tb":80,"Lv":200,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"60 g (aynı sıvı)","subName":"?","segs":[[0.0,7.2,20.0,80,"hl"],[7.2,19.2,80,80,"b"],[19.2,38.4,80,400.0,"hg"]],"tmark":7.2}],"P":1000,"run":{"kind":"boil","extra":0.5,"D":7.7,"tlo":10.0,"thi":160.0},"metric":"tReach","dir":"min","plaque":false,"token":"flame","answer":{"t":"v-K"},"correctText":"K kabı (20 g (aynı sıvı))","explanation":"Kaynama sıcaklığına ulaşmak için gereken ısı kütleyle artar. En az sıvısı olan K en önce kaynar. Süreler (dk): K (20 g (aynı sıvı)): 2,4; L (40 g (aynı sıvı)): 4,8; M (60 g (aynı sıvı)): 7,2."},{"id":"s5-9","questionId":"isi-v1-s5-kaynama-sicakligi","type":"heat","mode":"pick","outcomeKey":"K5","difficulty":"hard","prompt":"K'de 100 g, L'de 300 g su kaynıyor. Kaynarken termometre hangisinde daha yüksek sıcaklık gösterir? Aynıysa kupayı EŞİT levhasına bırak.","hint":"Kaynama sıcaklığı sıvının cinsine bağlıdır, miktarına değil. Deneyi çalıştırıp termometrelere bak.","vessels":[{"id":"K","sub":"su","m":100,"T0":80,"phase0":"l","heaters":1,"hide":false,"lab":"K","look":"liq","color":"#35b8ff","sub2":"Su · 100 g","subName":"Su","segs":[[0.0,1.3933,80.0,100,"hl"],[1.3933,39.06,100,100,"b"],[39.06,49.06,100,400.0,"hg"]],"tmark":1.3933},{"id":"L","sub":"su","m":300,"T0":80,"phase0":"l","heaters":1,"hide":false,"lab":"L","look":"liq","color":"#35b8ff","sub2":"Su · 300 g","subName":"Su","segs":[[0.0,4.18,80.0,100,"hl"],[4.18,117.18,100,100,"b"],[117.18,147.18,100,400.0,"hg"]],"tmark":4.18}],"P":6000,"run":{"kind":"boil","extra":2.0,"D":6.18,"tlo":75.0,"thi":105.0},"metric":"Tboil","dir":"max","plaque":true,"token":"flame","answer":{"t":"v-eq"},"correctText":"Hepsi eşit (EŞİT levhası)","explanation":"Kaynama sıcaklığı maddenin ayırt edici özelliğidir; miktara bağlı değildir. İki kapta da kaynarken termometre 100 °C gösterir. Çok su olan L daha geç kaynamaya başlar (K ≈ 1,4 dk, L ≈ 4,2 dk) ama sıcaklık aynıdır."},{"id":"s5-10","questionId":"isi-v1-s5-buharlasma-isisi","type":"heat","mode":"pick","outcomeKey":"K5","difficulty":"hard","prompt":"K, L, M kaplarında eşit miktarda üç farklı sıvı özdeş ısıtıcılarla kaynatılıp tamamen buharlaştırılıyor. Buharlaşması EN ÇOK ısı isteyen kaba kupayı bırak.","hint":"Isıtıcılar özdeş: tamamen buharlaşması en uzun süren sıvı en çok ısı almıştır. Deneyde kabın boşalmasını izle.","vessels":[{"id":"K","sub":"gizem","m":50,"T0":80,"phase0":"l","heaters":1,"hide":true,"lab":"K","c":2.0,"Tb":80,"Lv":100,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"K sıvısı","subName":"bilinmiyor","segs":[[0.0,5.0,80.0,80.0,"b"],[5.0,21.0,80.0,400.0,"hg"]],"tmark":5.0},{"id":"L","sub":"gizem","m":50,"T0":80,"phase0":"l","heaters":1,"hide":true,"lab":"L","c":2.0,"Tb":80,"Lv":170,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"L sıvısı","subName":"bilinmiyor","segs":[[0.0,8.5,80.0,80.0,"b"],[8.5,24.5,80.0,400.0,"hg"]],"tmark":8.5},{"id":"M","sub":"gizem","m":50,"T0":80,"phase0":"l","heaters":1,"hide":true,"lab":"M","c":2.0,"Tb":80,"Lv":240,"cg":1.0,"look":"liq","color":"#b48cff","sub2":"M sıvısı","subName":"bilinmiyor","segs":[[0.0,12.0,80.0,80.0,"b"],[12.0,28.0,80.0,400.0,"hg"]],"tmark":12.0}],"P":1000,"run":{"kind":"evap","D":12.0,"tlo":65.0,"thi":235.0},"metric":"tReach","dir":"max","plaque":false,"token":"flame","answer":{"t":"v-M"},"correctText":"M kabı","explanation":"Özdeş ısıtıcılarla eşit miktar sıvı için buharlaşma süresi, buharlaşma ısısıyla orantılıdır. En uzun sürede buharlaşan M en çok ısı almıştır: K < L < M."}],"howto":"Topları buza bırakıp izle, olay kartlarını ısı alır/verir kutularına ayır, kaynama deneylerini yorumla."}]};
+const CFG = {"gameId":"fen-8-isi-buz-ates-laboratuvari","gameVersion":"1.0.0","gameName":"Buz & Ateş Laboratuvarı","subjectId":"science","subjectName":"Fen Bilimleri","grade":8,"totalQuestions":20,"stars":{"s1":50,"s2":70,"s3":90},"sendGameStarted":false};
+/* ====== Yardımcılar ====== */
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if(cls) e.className = cls; if(txt != null) e.textContent = txt; return e; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let counter = 0;
+const newId = p => { counter++; return 'ypg-' + p + '-' + Date.now().toString(36) + '-' + counter + '-' + Math.floor(Math.random()*1e6).toString(36); };
+function rnd(){ try{ const a = new Uint32Array(1); (window.crypto||window.msCrypto).getRandomValues(a); return a[0]/4294967296; }catch(e){ return Math.random(); } }
+const shuffle = a => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(rnd()*(i+1)); const t=a[i]; a[i]=a[j]; a[j]=t; } return a; };
+const now = () => (window.performance && performance.now) ? performance.now() : Date.now();
+const cap1 = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+/* ====== Durum ====== */
+const S = { phase:'boot', mode:null, ctx:null, readyIds:{}, seen:{}, timers:{}, rm:false, bridgeTry:0, resultMsg:null, resultSent:false, sel:null, busy:false, portrait:false, tn:0, ran:false };
+let R = null;     // oturum
+let Sc = null;    // geçerli soru sahnesi
+let D = null;     // sürükleme
+let CURST = 0;
+
+const mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+function applyRM(){ S.rm = !!((mq && mq.matches) || (S.ctx && S.ctx.reducedMotion === true)); document.documentElement.classList.toggle('rm', S.rm); }
+if(mq){ if(mq.addEventListener) mq.addEventListener('change', applyRM); else if(mq.addListener) mq.addListener(applyRM); }
+applyRM();
+function setT(n, fn, ms){ clearT(n); S.timers[n] = setTimeout(function(){ S.timers[n] = null; fn(); }, ms * TS); }
+function clearT(n){ if(S.timers[n]){ clearTimeout(S.timers[n]); S.timers[n] = null; } }
+function clearAllT(){ Object.keys(S.timers).forEach(clearT); }
+// numaralı zincir: sahne animasyonları için
+function at(ms, fn){ const n = 'a' + (++S.tn); S.timers[n] = setTimeout(function(){ delete S.timers[n]; fn(); }, ms * TS); return n; }
+function clearSeq(){ Object.keys(S.timers).forEach(k => { if(/^a\d+$/.test(k)) clearT(k); }); }
+
+/* ====== SES: Web Audio sentezi ====== */
+const Snd = {
+  ctx:null, sfx:true, mus:true, step:0, iv:null,
+  init(){ if(this.ctx) return; const AC = window.AudioContext || window.webkitAudioContext; if(!AC) return; try{ this.ctx = new AC(); }catch(e){ this.ctx = null; } },
+  resume(){ this.init(); if(this.ctx && this.ctx.state === 'suspended' && (this.sfx || this.mus)){ try{ this.ctx.resume(); }catch(e){} } this.startMusic(); },
+  suspend(){ if(this.ctx && this.ctx.state === 'running'){ try{ this.ctx.suspend(); }catch(e){} } this.stopMusic(); },
+  tone(f, d, type, vol, delay, slide, force){
+    if(!this.ctx || (!this.sfx && !force)) return; const c = this.ctx, t = c.currentTime + (delay||0);
+    const o = c.createOscillator(), g = c.createGain(); o.type = type || 'sine'; o.frequency.setValueAtTime(f, t);
+    if(slide) o.frequency.exponentialRampToValueAtTime(slide, t + d);
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol || 0.2, t + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, t + d);
+    o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + d + 0.05);
+  },
+  noise(d, vol, freq, kind){
+    if(!this.ctx || !this.sfx) return; const c = this.ctx, t = c.currentTime, n = Math.max(1, Math.floor(c.sampleRate * d));
+    const buf = c.createBuffer(1, n, c.sampleRate), data = buf.getChannelData(0); for(let i=0;i<n;i++) data[i] = (Math.random()*2-1)*(1-i/n);
+    const s = c.createBufferSource(); s.buffer = buf; const f = c.createBiquadFilter(); f.type = kind || 'bandpass'; f.frequency.value = freq || 2000; f.Q.value = 1;
+    const g = c.createGain(); g.gain.value = vol || 0.12; s.connect(f); f.connect(g); g.connect(c.destination); s.start(t);
+  },
+  pick(){ this.tone(520, .09, 'triangle', .15); },
+  clink(){ this.tone(2400, .12, 'sine', .1); this.tone(3100, .1, 'sine', .07, .03); },
+  drop(){ this.tone(300, .12, 'sine', .2, 0, 120); },
+  plop(){ this.tone(420 + Math.random()*260, .09, 'sine', .08, 0, 180); },
+  ignite(){ this.noise(.5, .16, 700, 'bandpass'); this.tone(110, .5, 'sawtooth', .07, 0, 220); this.tone(1400, .15, 'square', .04, .05, 700); },
+  burn(){ this.noise(.28, .05, 380, 'lowpass'); },
+  boilS(){ this.plop(); this.tone(700 + Math.random()*400, .06, 'sine', .05, .03, 300); },
+  freeze(){ this.noise(.7, .07, 6500, 'highpass'); [0,.12,.26].forEach(d => this.tone(2600 + d*3000, .18, 'sine', .07, d)); },
+  crack(){ this.noise(.15, .14, 3200, 'bandpass'); this.tone(1800, .1, 'square', .05, 0, 600); },
+  sizzle(){ this.noise(.9, .09, 4800, 'highpass'); },
+  ding(){ this.tone(1175, .25, 'sine', .18); this.tone(1568, .35, 'sine', .14, .1); },
+  tick(){ this.tone(1800, .03, 'square', .03); },
+  bell(){ this.tone(988, .35, 'sine', .18); this.tone(1319, .5, 'sine', .14, .08); },
+  good(){ this.tone(660, .14, 'sine', .22); this.tone(990, .22, 'sine', .22, .09); },
+  bad(){ this.tone(220, .32, 'sawtooth', .16, 0, 110); this.tone(160, .28, 'square', .08, .05, 90); },
+  win(){ [523,659,784,1047].forEach((f,i) => this.tone(f, .24, 'triangle', .22, i*.1)); },
+  fan(){ [523,659,784,659,784,1047,1319].forEach((f,i) => this.tone(f, .22, 'triangle', .24, i*.11)); },
+  whoosh(){ this.noise(.35, .1, 900); },
+  boom(){ this.noise(.9, .18, 220, 'lowpass'); this.tone(70, .8, 'sine', .22, 0, 35); },
+  badge(){ [784,988,1319,1568].forEach((f,i) => this.tone(f, .2, 'triangle', .2, i*.07)); },
+  startMusic(){
+    if(!this.mus || !this.ctx || this.iv || document.visibilityState === 'hidden') return;
+    const notes = [220,262,330,262, 196,247,294,247, 220,262,330,440, 330,262,247,196];
+    this.iv = setInterval(() => { if(!this.mus || document.visibilityState === 'hidden' || S.portrait){ return; } const n = notes[this.step++ % notes.length]; this.tone(n, .5, 'triangle', .045, 0, 0, true); if(this.step % 4 === 1) this.tone(n/2, .9, 'sine', .05, 0, 0, true); if(this.step % 3 === 0) this.tone(700 + Math.random()*500, .07, 'sine', .03, .1, 250, true); }, 420);
+  },
+  stopMusic(){ if(this.iv){ clearInterval(this.iv); this.iv = null; } }
+};
+function renderSnd(){
+  const a = $('btnSfx'), b = $('btnMus');
+  a.textContent = Snd.sfx ? '🔊' : '🔇'; a.setAttribute('aria-pressed', String(!Snd.sfx)); a.setAttribute('aria-label', Snd.sfx ? 'Efekt seslerini kapat' : 'Efekt seslerini aç');
+  b.textContent = Snd.mus ? '🎵' : '🚫'; b.setAttribute('aria-pressed', String(!Snd.mus)); b.setAttribute('aria-label', Snd.mus ? 'Müziği kapat' : 'Müziği aç');
+}
+$('btnSfx').addEventListener('click', () => { Snd.sfx = !Snd.sfx; if(Snd.sfx){ Snd.resume(); Snd.good(); } renderSnd(); });
+$('btnMus').addEventListener('click', () => { Snd.mus = !Snd.mus; if(Snd.mus){ Snd.resume(); } else Snd.stopMusic(); renderSnd(); });
+renderSnd();
+
+/* ====== Süre sayacı ====== */
+const Clock = { acc:0, since:null, active:false,
+  start(){ this.acc = 0; this.since = now(); this.active = true; },
+  pause(){ if(this.since != null){ this.acc += now() - this.since; this.since = null; } },
+  resume(){ if(this.active && this.since == null && !S.portrait && document.visibilityState !== 'hidden') this.since = now(); },
+  stop(){ this.pause(); this.active = false; },
+  value(){ return Math.max(0, Math.round(this.acc + (this.since != null ? now() - this.since : 0))); } };
+document.addEventListener('visibilitychange', () => {
+  if(document.visibilityState === 'hidden'){ cancelDrag(); Clock.pause(); Snd.suspend(); }
+  else { Clock.resume(); if(Snd.ctx && (Snd.sfx || Snd.mus)){ try{ Snd.ctx.resume(); }catch(e){} } Snd.startMusic(); }
+});
+window.addEventListener('blur', () => cancelDrag());
+const pmq = window.matchMedia ? window.matchMedia('(orientation: portrait)') : null;
+function onOrient(){ S.portrait = !!(pmq && pmq.matches); if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
+if(pmq){ if(pmq.addEventListener) pmq.addEventListener('change', onOrient); else if(pmq.addListener) pmq.addListener(onOrient); }
+onOrient();
+
+/* ====== KÖPRÜ (bridgeVersion 1.0) ====== */
+function sendToApp(message){
+  const s = JSON.stringify(message);
+  try{
+    if(window.YildizPesindeBridge && window.YildizPesindeBridge.postMessage){ window.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.YildizPesindeBridge){ window.webkit.messageHandlers.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.AndroidYildizPesinde && window.AndroidYildizPesinde.postMessage){ window.AndroidYildizPesinde.postMessage(s); return true; }
+  }catch(e){ return false; }
+  return false;
+}
+function envelope(type, payload){
+  const m = { bridgeVersion:'1.0', type:type, messageId:newId(type.replace('.','-')) };
+  if(S.ctx && type !== 'game.ready'){ m.runId = S.ctx.runId; m.nonce = S.ctx.nonce; }
+  m.payload = payload || {}; return m;
+}
+function sendReady(){ const m = envelope('game.ready', { supportedVersions:['1.0'] }); const ok = sendToApp(m); if(ok) S.readyIds[m.messageId] = true; return ok; }
+const isStr = v => typeof v === 'string' && v.length > 0 && v.length <= 200;
+function onIncoming(raw){
+  let m;
+  try{ if(typeof raw === 'string'){ if(raw.length > 20000) return; m = JSON.parse(raw); } else m = raw; }catch(e){ return; }
+  if(!m || typeof m !== 'object' || Array.isArray(m)) return;
+  if(S.mode !== 'native') return;
+  if(!isStr(m.messageId) || !isStr(m.type)) return;
+  if(S.seen[m.messageId]) return;
+  if(m.bridgeVersion !== '1.0'){ if(m.type === 'app.init' && S.phase === 'waitInit'){ S.seen[m.messageId] = true; showError('Bu oyun uygulamanın bu sürümüyle çalışmıyor.', false); } return; }
+  if(m.type === 'app.init') return handleInit(m);
+  if(m.type === 'app.ack') return handleAck(m);
+  if(m.type === 'app.error') return handleErr(m);
+}
+function handleInit(m){
+  const p = m.payload;
+  if(S.phase !== 'waitInit' && S.phase !== 'error' && S.phase !== 'sent' && S.phase !== 'finished') return;
+  const bad = !p || typeof p !== 'object' || !isStr(m.runId) || !isStr(m.nonce) || !isStr(m.replyTo) || !S.readyIds[m.replyTo] ||
+    p.gameId !== CFG.gameId || p.gameVersion !== CFG.gameVersion || p.grade !== CFG.grade;
+  if(bad){ if(S.phase === 'waitInit'){ S.seen[m.messageId] = true; showError('Oyun uygulamayla uyumlu açılmadı. Lütfen tekrar dene.', true); } return; }
+  S.seen[m.messageId] = true; clearT('hs');
+  S.ctx = { runId:m.runId, nonce:m.nonce, grade:p.grade, subjectId:(isStr(p.subjectId) ? p.subjectId : CFG.subjectId), subjectName:(typeof p.subjectName === 'string' ? p.subjectName : CFG.subjectName), locale:p.locale, orientation:p.orientation, reducedMotion:p.reducedMotion === true };
+  S.resultMsg = null; S.resultSent = false; R = null; applyRM(); $('demoTag').hidden = true; showStart();
+}
+function handleAck(m){
+  const p = m.payload; if(!S.ctx || !S.resultMsg) return;
+  if(m.runId !== S.ctx.runId || m.nonce !== S.ctx.nonce || m.replyTo !== S.resultMsg.messageId) return;
+  S.seen[m.messageId] = true;
+  if(p && p.status === 'saved'){ $('sentSpin').hidden = true; $('btnResend').hidden = true; $('sentT').textContent = 'Sonuç kaydedildi'; $('sentMsg').textContent = 'Harika iş! Sonuç ekranı uygulamada gösterilecek.'; }
+}
+function handleErr(m){
+  let p = m.payload; if(!S.ctx || !S.resultMsg) return;
+  if(m.runId !== S.ctx.runId || m.nonce !== S.ctx.nonce || m.replyTo !== S.resultMsg.messageId) return;
+  S.seen[m.messageId] = true; p = p || {};
+  const msg = (typeof p.message === 'string' && p.message.length <= 140) ? p.message : 'Sonuç kaydedilemedi.';
+  $('sentSpin').hidden = true; $('sentT').textContent = 'Sonuç kaydedilemedi'; $('btnResend').hidden = true;
+  $('sentMsg').textContent = (p.retryable === true || p.code === 'SAVE_FAILED') ? 'Sonuç kaydedilemedi. Uygulamadaki “Kaydetmeyi Tekrar Dene” seçeneğini kullan.' : msg;
+}
+window.addEventListener('message', e => { if(e.source !== window && e.source !== window.parent) return; onIncoming(e.data); });
+window.YildizPesindeReceive = onIncoming;
+window.YildizPesindeGame = Object.freeze({ receiveMessage: onIncoming });
+
+/* ====== Ekranlar ====== */
+const SCREENS = ['scLoad','scStart','scStage','scDone','scErr','scSent','scRes'];
+function showScreen(id){
+  SCREENS.forEach(s => { $(s).hidden = (s !== id); });
+  const app = $('app'); if('inert' in app) app.inert = !!id; if(id) app.setAttribute('aria-hidden','true'); else app.removeAttribute('aria-hidden');
+  if(id){ const b = $(id).querySelector('button:not([hidden])'); if(b) try{ b.focus({preventScroll:true}); }catch(e){} }
+}
+function showError(msg, retry){ S.phase = 'error'; clearAllT(); cancelDrag(); $('errMsg').textContent = msg; $('btnRetry').hidden = !retry; showScreen('scErr'); }
+function showStart(){ S.phase = 'intro'; showScreen('scStart'); }
+
+/* ====== Maskot, efektler ====== */
+function mood(m, text){
+  const b = $('mascotBox'); b.className = 'mascot-' + m;
+  $('mouth').setAttribute('d', m === 'sad' ? 'M25 47Q30 41 35 47' : 'M25 42Q30 47 35 42');
+  if(text){ const bu = $('bubble'); bu.textContent = text; bu.classList.add('on'); setT('bub', () => bu.classList.remove('on'), 1900); }
+  setT('mood', () => { $('mascotBox').className = 'mascot-idle'; $('mouth').setAttribute('d', 'M25 42Q30 47 35 42'); }, 1500);
+}
+function fxl(){ return $('fx'); }
+function trimFx(){ const h = fxl(); while(h.children.length > 90) h.removeChild(h.firstChild); }
+function burst(x, y, color, n){
+  if(S.rm) return; const h = fxl(); n = n || 12; const cols = color ? [color] : ['#ffe14d','#3fe0ff','#ff4fa3','#37e39a'];
+  for(let i=0;i<n;i++){ const p = el('i','pt'); const a = (Math.PI*2/n)*i + Math.random()*.4, d = 24 + Math.random()*38;
+    p.style.cssText = 'left:'+x+'px;top:'+y+'px;background:'+cols[i % cols.length]+';--dx:'+(Math.cos(a)*d)+'px;--dy:'+(Math.sin(a)*d)+'px'; h.appendChild(p); setTimeout(() => { if(p.parentNode) p.parentNode.removeChild(p); }, 850); }
+  trimFx();
+}
+function floatText(x, y, text, cls){
+  const t = el('span', 'ft' + (cls ? ' ' + cls : ''), text); t.style.left = x + 'px'; t.style.top = y + 'px'; if(S.rm) t.style.animation = 'none'; fxl().appendChild(t);
+  setTimeout(() => { if(t.parentNode) t.parentNode.removeChild(t); }, 1100); trimFx();
+}
+function xMark(x, y){
+  const m = el('div','xmark'); m.style.left = x + 'px'; m.style.top = y + 'px'; if(S.rm) m.style.animation = 'none';
+  m.innerHTML = '<svg viewBox="0 0 100 100" width="56" height="56"><path d="M16 16L84 84M84 16L16 84" stroke="#ff4b4b" stroke-width="16" stroke-linecap="round" fill="none"/></svg>';
+  fxl().appendChild(m); setTimeout(() => { if(m.parentNode) m.parentNode.removeChild(m); }, 900);
+}
+function confetti(n){
+  if(S.rm) return; const cols = ['#ffe14d','#ff4fa3','#3fe0ff','#37e39a','#b388ff'];
+  for(let i=0;i<n;i++){ const c = el('i','conf'); c.style.left = (Math.random()*100) + '%'; c.style.background = cols[i % cols.length]; c.style.animationDelay = (Math.random()*.6) + 's'; c.style.animationDuration = (1.4+Math.random()) + 's'; fxl().appendChild(c); setTimeout(() => { if(c.parentNode) c.parentNode.removeChild(c); }, 2700); }
+  trimFx();
+}
+function shakeApp(){ if(S.rm) return; const a = $('app'); a.classList.remove('shake'); void a.offsetWidth; a.classList.add('shake'); setT('shk', () => a.classList.remove('shake'), 420); }
+function toast(t){ const e = $('toast'); e.textContent = t; e.classList.add('on'); Snd.badge(); setT('toast', () => e.classList.remove('on'), 2600); }
+function say(t, cls){ const e = $('say'); e.textContent = t || ''; e.className = t ? ('on ' + (cls || '')) : ''; }
+
+/* ====== Puan, seri, rozet (yalnızca oyun içi; uygulamaya gönderilmez) ====== */
+function setScore(v, anim){ const e = $('score'); e.textContent = '🔥 ' + v; if(anim && !S.rm){ e.classList.remove('pop'); void e.offsetWidth; e.classList.add('pop'); } }
+function addScore(n, x, y){ R.score += n; setScore(R.score, true); if(x != null) floatText(x, y, (n >= 0 ? '+' : '') + n + ' 🔥', n >= 0 ? 'good' : 'bad'); }
+function setCombo(){ const cb = $('combo'); if(R.combo >= 2){ cb.textContent = '🔥×' + R.combo; cb.classList.add('on'); } else cb.classList.remove('on'); }
+const BADGES = {
+  s1:{ t:'🔥 Alev Ustası', d:'1. istasyonda hepsi ilk denemede' }, s2:{ t:'🏅 Özısı Şampiyonu', d:'2. istasyonda hepsi ilk denemede' },
+  s3:{ t:'📈 Grafik Okuru', d:'3. istasyonda hepsi ilk denemede' }, s4:{ t:'🧪 Deney Tasarımcısı', d:'4. istasyonda hepsi ilk denemede' },
+  s5:{ t:'🧊 Buz Kâşifi', d:'5. istasyonda hepsi ilk denemede' },
+  combo:{ t:'⚡ Seri Ustası', d:'Arka arkaya 5 doğru' }, perfect:{ t:'🏆 Kusursuz Üs', d:'20/20 ilk denemede' }, curious:{ t:'🔬 Meraklı Gözlemci', d:'8 kez deney çalıştırdı' }
+};
+function giveBadge(k){ if(R.badges.indexOf(k) >= 0) return; R.badges.push(k); toast('Rozet: ' + BADGES[k].t); }
+function rank(c){ return c >= 18 ? 'Isı Profesörü' : c >= 14 ? 'Alev Ustası' : c >= 10 ? 'Buz Kâşifi' : 'Kar Tanesi'; }
+function badgesHTML(box){ box.innerHTML = ''; R.badges.forEach(k => { const b = el('span','badge', BADGES[k].t); b.title = BADGES[k].d; box.appendChild(b); }); }
+
+/* ====== Arka plan: buz ve ateş vadisi (çok katmanlı) ====== */
+function buildBg(){
+  const bg = $('bg'); bg.innerHTML = ''; bg.classList.remove('hot');
+  const L = (cls, html) => { const d = el('div', 'ly ' + cls); if(html) d.innerHTML = html; bg.appendChild(d); return d; };
+  L('sky');
+  let st = ''; for(let i=0;i<72;i++){ const z = 1 + Math.random()*2.2; st += '<i style="left:'+(Math.random()*100)+'%;top:'+(Math.random()*52)+'%;width:'+z+'px;height:'+z+'px;animation-duration:'+(2+Math.random()*4)+'s;animation-delay:-'+(Math.random()*5)+'s"></i>'; }
+  L('stars', st);
+  L('aur', '<b class="a1"></b><b class="a2"></b><b class="a3"></b>');
+  L('moon');
+  L('far', '<svg viewBox="0 0 1000 300" preserveAspectRatio="none" style="position:absolute;left:0;top:0;width:100%;height:100%"><defs><linearGradient id="gfar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a45c8"/><stop offset="1" stop-color="#2b1a77"/></linearGradient></defs>'+
+    '<path d="M0 300V190L70 140L140 185L230 95L320 175L410 120L510 185L600 105L700 170L800 90L900 165L1000 125V300Z" fill="url(#gfar)"/>'+
+    '<path d="M0 190L70 140L140 185L230 95L320 175L410 120L510 185L600 105L700 170L800 90L900 165L1000 125" fill="none" stroke="rgba(255,170,220,.6)" stroke-width="3"/>'+
+    '<path d="M230 95L205 130L230 118L255 134Z M600 105L580 138L600 126L622 140Z M800 90L778 126L800 112L824 128Z" fill="rgba(255,255,255,.75)"/></svg>');
+  // orta katman: buzul (sol) + yanardağ (sağ)
+  const mid = L('mid',
+    '<svg viewBox="0 0 1000 300" preserveAspectRatio="none" style="position:absolute;left:0;top:0;width:100%;height:100%"><defs>'+
+    '<linearGradient id="gglc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4ffff"/><stop offset=".5" stop-color="#9fe8ff"/><stop offset="1" stop-color="#3f9dff"/></linearGradient>'+
+    '<linearGradient id="gvol" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a2a4a"/><stop offset="1" stop-color="#2a0c30"/></linearGradient>'+
+    '<radialGradient id="gcr" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff2a0"/><stop offset=".5" stop-color="#ff9a1a"/><stop offset="1" stop-color="#ff3d00"/></radialGradient></defs>'+
+    '<path d="M0 300V170L55 110L105 150L170 45L245 140L300 90L360 160L420 120L500 300Z" fill="url(#gglc)"/>'+
+    '<path d="M170 45L135 100L170 88L205 106Z M300 90L275 128L300 118L325 134Z M55 110L32 142L55 132L78 146Z" fill="#fff"/>'+
+    '<path d="M170 45L205 106L245 140L215 300L170 88Z" fill="rgba(40,110,230,.28)"/><path d="M300 90L325 134L360 160L335 300L300 118Z" fill="rgba(40,110,230,.28)"/>'+
+    '<path d="M440 300L610 135L650 100L690 108L710 98L750 108L790 135L950 300Z" fill="url(#gvol)"/>'+
+    '<path d="M650 100Q700 128 750 108L790 135L610 135Z" fill="rgba(0,0,0,.25)"/>'+
+    '<ellipse cx="700" cy="104" rx="46" ry="11" fill="url(#gcr)"/>'+
+    '<path class="lv" d="M690 112Q672 170 640 215T596 300" fill="none" stroke="#ff7a1a" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 12"><animate attributeName="stroke-dashoffset" from="0" to="-52" dur="2.4s" repeatCount="indefinite"/></path>'+
+    '<path d="M712 112Q736 170 770 220T820 300" fill="none" stroke="#ffb02e" stroke-width="6" stroke-linecap="round" stroke-dasharray="12 12"><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="2s" repeatCount="indefinite"/></path>'+
+    '<path d="M700 114Q704 180 698 230T704 300" fill="none" stroke="#ff4d1a" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" from="0" to="-44" dur="1.7s" repeatCount="indefinite"/></path>'+
+    '</svg>');
+  // yanardağ ağzının konumu: %70, %35
+  const sm = el('div', 'smoke'); sm.style.cssText = 'position:absolute;left:70%;top:34%;width:0;height:0';
+  for(let i=0;i<7;i++){ const s = el('i'); const z = 26 + Math.random()*26; s.style.cssText = 'left:-'+(z/2)+'px;top:-'+(z/2)+'px;width:'+z+'px;height:'+z+'px;--dx:'+((Math.random()-.3)*60)+'px;animation-duration:'+(4+Math.random()*3)+'s;animation-delay:-'+(Math.random()*6)+'s'; sm.appendChild(s); }
+  mid.appendChild(sm);
+  const lv = el('div', 'lava'); lv.style.cssText = 'position:absolute;left:70%;top:35%;width:0;height:0';
+  for(let i=0;i<16;i++){ const s = el('i'); const z = 3 + Math.random()*4; s.style.cssText = 'left:-'+(z/2)+'px;top:-'+(z/2)+'px;width:'+z+'px;height:'+z+'px;--dx:'+((Math.random()-.5)*110)+'px;--dy:-'+(40+Math.random()*90)+'px;animation-duration:'+(1.4+Math.random()*1.8)+'s;animation-delay:-'+(Math.random()*3)+'s'; lv.appendChild(s); }
+  mid.appendChild(lv);
+  const lg = el('div', 'lavaGlow'); bg.appendChild(lg);
+  const gl = el('div', 'glint'); gl.style.cssText = 'position:absolute;left:0;top:0;width:100%;height:100%';
+  [[12,50],[18,22],[28,40],[34,62],[7,44],[22,70],[40,46]].forEach((p, i) => { const g = el('i'); g.style.cssText = 'left:'+p[0]+'%;top:'+p[1]+'%;animation-delay:-'+(i*.45)+'s;animation-duration:'+(2+i*.2)+'s'; gl.appendChild(g); });
+  mid.appendChild(gl);
+  // yakın katman: karlı tepeler + çamlar
+  let pines = '';
+  [[60,222,1],[100,214,.8],[150,226,1.1],[420,208,.9],[470,214,1],[560,218,.8],[830,206,1],[880,212,.9],[960,198,1]].forEach((p, i) => {
+    const x = p[0], y = p[1], s = p[2];
+    pines += '<g class="pn" style="transform-box:fill-box;transform-origin:50% 100%;animation:sway '+(3+i%3)+'s ease-in-out infinite alternate"><path d="M'+x+' '+(y-40*s)+'L'+(x-14*s)+' '+(y-8*s)+'H'+(x+14*s)+'Z M'+x+' '+(y-26*s)+'L'+(x-18*s)+' '+y+'H'+(x+18*s)+'Z" fill="#1c6b5e"/><path d="M'+x+' '+(y-40*s)+'L'+(x-6*s)+' '+(y-28*s)+'H'+(x+6*s)+'Z" fill="#fff"/></g>';
+  });
+  L('near', '<style>@keyframes sway{from{transform:rotate(-2.5deg)}to{transform:rotate(2.5deg)}}</style><svg viewBox="0 0 1000 300" preserveAspectRatio="none" style="position:absolute;left:0;top:0;width:100%;height:100%"><defs><linearGradient id="gnear" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9ed8ff"/></linearGradient></defs>'+
+    '<path d="M0 300V232Q120 170 260 218T520 208T780 222T1000 192V300Z" fill="url(#gnear)"/>'+pines+'</svg>');
+  const sn = (cls, n, zmin, zmax, dmin, dmax) => {
+    const d = el('div', 'ly ' + cls); d.style.cssText = 'top:0;bottom:0';
+    let h = ''; for(let i=0;i<n;i++){ const z = zmin + Math.random()*(zmax-zmin); h += '<i style="left:'+(Math.random()*100)+'%;width:'+z+'px;height:'+z+'px;--sw:'+((Math.random()-.5)*70)+'px;animation-duration:'+(dmin+Math.random()*(dmax-dmin))+'s;animation-delay:-'+(Math.random()*dmax)+'s"></i>'; }
+    d.innerHTML = h; bg.appendChild(d);
+  };
+  sn('snow', 26, 2, 4, 9, 16);
+  const em = el('div', 'ly ember'); let eh = ''; for(let i=0;i<14;i++) eh += '<i style="left:'+(52+Math.random()*44)+'%;--dx:'+((Math.random()-.5)*60)+'px;animation-duration:'+(4+Math.random()*5)+'s;animation-delay:-'+(Math.random()*8)+'s"></i>'; em.innerHTML = eh; bg.appendChild(em);
+  bg.appendChild(el('div', 'table'));
+  sn('snow snowF', 12, 5, 9, 6, 10);
+  bg.appendChild(el('div', 'flash')); bg.appendChild(el('div', 'vig'));
+}
+function erupt(){
+  const bg = $('bg'); bg.classList.remove('hot'); void bg.offsetWidth; bg.classList.add('hot'); setT('hot', () => bg.classList.remove('hot'), 1600);
+  Snd.boom();
+  if(S.rm) return;
+  const mid = bg.querySelector('.mid'); if(!mid) return;
+  const box = el('div', 'erup'); box.style.cssText = 'position:absolute;left:70%;top:35%;width:0;height:0;z-index:3'; mid.appendChild(box);
+  for(let i=0;i<34;i++){ const s = el('i'); const z = 4 + Math.random()*7, a = -Math.PI/2 + (Math.random()-.5)*1.5, d = 60 + Math.random()*150;
+    s.style.cssText = 'left:-'+(z/2)+'px;top:-'+(z/2)+'px;width:'+z+'px;height:'+z+'px;--dx:'+(Math.cos(a)*d)+'px;--dy:'+(Math.sin(a)*d + 60)+'px;animation-delay:'+(Math.random()*.25)+'s'; box.appendChild(s); }
+  setTimeout(() => { if(box.parentNode) box.parentNode.removeChild(box); }, 2200);
+}
+(function(){
+  let raf = 0, tx = 0, ty = 0;
+  function upd(){ raf = 0; const r = document.documentElement.style; r.setProperty('--px', tx.toFixed(3)); r.setProperty('--py', ty.toFixed(3)); }
+  window.addEventListener('pointermove', e => { if(S.rm) return; tx = (e.clientX / (window.innerWidth || 1) - .5) * 2; ty = (e.clientY / (window.innerHeight || 1) - .5) * 2; if(!raf) raf = requestAnimationFrame(upd); }, { passive:true });
+})();
+
+/* ====== SANAT: SVG nesneleri ====== */
+let uidn = 0;
+const fT = T => (Math.round(T*10)/10).toFixed(1).replace('.', ',') + '°C';
+const fN = (x, d) => (Math.round(x*Math.pow(10, d == null ? 1 : d))/Math.pow(10, d == null ? 1 : d)).toFixed(d == null ? 1 : d).replace('.', ',');
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+(function addDefs(){
+  const d = document.createElement('div'); d.setAttribute('aria-hidden', 'true'); d.style.cssText = 'position:absolute;width:0;height:0;overflow:hidden';
+  d.innerHTML = '<svg width="0" height="0"><defs><linearGradient id="plateHot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7a1a"/><stop offset=".5" stop-color="#ffd24d"/><stop offset="1" stop-color="#ff7a1a"/></linearGradient>'+
+    '<linearGradient id="gfl" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff3d00"/><stop offset=".55" stop-color="#ff9a1a"/><stop offset="1" stop-color="#ffe98a"/></linearGradient>'+
+    '<linearGradient id="gfrost" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#9fe8ff" stop-opacity=".4"/></linearGradient>'+
+    '<linearGradient id="gmetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity=".55"/><stop offset=".5" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient></defs></svg>';
+  document.body.insertBefore(d, document.body.firstChild);
+})();
+
+const BEAKER = 'M26 38V114Q26 124 36 124H72Q82 124 82 114V38';
+function vesselNode(v, cls, o){
+  o = o || {};
+  const id = 'vk' + (++uidn), metal = v.look === 'metal';
+  const n = el('div', 'vsl ' + (cls || '')); n.dataset.look = v.look;
+  const col = v.color || '#b48cff';
+  let body;
+  if(metal){
+    body = '<rect class="blk" x="22" y="58" width="64" height="66" rx="9" fill="'+col+'"/><rect x="22" y="58" width="64" height="66" rx="9" fill="url(#gmetal)"/>'+
+      '<rect class="hot" x="22" y="58" width="64" height="66" rx="9" fill="#ff3d00" opacity="0"/><rect x="22" y="58" width="64" height="12" rx="6" fill="rgba(255,255,255,.4)"/>'+
+      '<path d="M30 78V116" stroke="rgba(255,255,255,.55)" stroke-width="4" stroke-linecap="round"/><path d="M60 58V50H72V58" fill="none" stroke="rgba(255,255,255,.0)"/>';
+  } else {
+    body = '<defs><clipPath id="'+id+'"><path d="'+BEAKER+'V38Z"/></clipPath></defs>'+
+      '<path d="'+BEAKER+'" fill="rgba(255,255,255,.16)" stroke="none"/>'+
+      '<g clip-path="url(#'+id+')"><rect class="liq" x="20" y="36" width="68" height="90" style="fill:'+col+';opacity:.88;transform:scaleY(.62);transform-origin:50% 100%;transform-box:fill-box"/>'+
+      '<g class="bubs" fill="rgba(255,255,255,.85)"><circle cx="40" cy="116" r="3"/><circle cx="52" cy="118" r="2.4"/><circle cx="62" cy="116" r="3.4"/><circle cx="72" cy="119" r="2.2"/><circle cx="46" cy="119" r="2"/></g>'+
+      '<g class="cubes" style="transform-origin:54px 124px;transform-box:view-box"><rect x="32" y="94" width="20" height="20" rx="4" fill="rgba(230,252,255,.92)" stroke="#fff" stroke-width="1.5"/><rect x="52" y="98" width="20" height="20" rx="4" fill="rgba(200,244,255,.92)" stroke="#fff" stroke-width="1.5"/><rect x="42" y="76" width="20" height="20" rx="4" fill="rgba(240,255,255,.95)" stroke="#fff" stroke-width="1.5"/><rect x="62" y="82" width="16" height="16" rx="4" fill="rgba(215,248,255,.92)" stroke="#fff" stroke-width="1.5"/></g></g>'+
+      '<rect class="frost" x="26" y="38" width="56" height="86" rx="10" fill="url(#gfrost)" clip-path="url(#'+id+')"/>'+
+      '<path d="'+BEAKER+'" fill="none" stroke="rgba(255,255,255,.95)" stroke-width="2.6"/><path d="M20 38H88" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/>'+
+      '<path d="M33 50V108" stroke="rgba(255,255,255,.7)" stroke-width="3" stroke-linecap="round"/><g stroke="rgba(255,255,255,.9)" stroke-width="2"><path d="M70 52H82M74 66H82M70 80H82M74 94H82"/></g>';
+  }
+  const therm = '<g><rect x="94" y="26" width="14" height="104" rx="7" fill="rgba(255,255,255,.42)" stroke="#fff" stroke-width="2"/><g stroke="rgba(0,0,60,.4)" stroke-width="1.5"><path d="M94 40H99M94 52H99M94 64H99M94 76H99M94 88H99M94 100H99M94 112H99"/></g>'+
+    '<rect class="merc" x="99" y="100" width="4" height="26" rx="2" fill="#ff2d2d"/><circle class="bulb" cx="101" cy="131" r="8" fill="#ff2d2d" stroke="#fff" stroke-width="2"/></g>';
+  const flames = '<path class="fl f1" d="M36 132C32 144 40 148 40 154C40 148 48 146 46 138C44 144 40 142 36 132Z" fill="url(#gfl)" transform="translate(-4,-12)"/>'+
+    '<path class="fl f2" d="M52 128C46 142 58 148 56 158C62 150 70 144 62 134C62 142 56 140 52 128Z" fill="url(#gfl)" transform="translate(-2,-12)"/>'+
+    '<path class="fl f3" d="M70 132C68 144 78 148 76 154C82 148 86 144 80 138C78 144 74 142 70 132Z" fill="url(#gfl)" transform="translate(-4,-12)"/>';
+  const steam = '<g class="stm" fill="none" stroke="rgba(255,255,255,.8)" stroke-width="3" stroke-linecap="round"><path d="M40 32C34 24 46 18 40 8"/><path d="M54 30C48 22 60 16 54 6"/><path d="M68 32C62 24 74 18 68 8"/></g>';
+  n.innerHTML = '<div class="vs"><svg class="vv" viewBox="0 0 120 170" aria-hidden="true"><ellipse cx="60" cy="166" rx="48" ry="3.4" fill="rgba(0,0,0,.3)"/>'+body+steam+flames+
+    '<rect class="plate" x="12" y="146" width="96" height="14" rx="7" fill="#5b4aa8" stroke="rgba(255,255,255,.55)" stroke-width="1.6"/><rect x="18" y="148" width="84" height="4" rx="2" fill="rgba(255,255,255,.35)"/>'+therm+'</svg>'+
+    '<span class="lcd">' + fT(v.T0) + '</span><span class="tag">' + esc(v.lab) + '</span></div>';
+  if(!o.nocap){ const c = el('span', 'cap', v.sub2 == null ? '' : v.sub2); n.appendChild(c); }
+  n._r = { liq:n.querySelector('.liq'), cubes:n.querySelector('.cubes'), merc:n.querySelector('.merc'), bulb:n.querySelector('.bulb'), hot:n.querySelector('.hot'), lcd:n.querySelector('.lcd'), cap:n.querySelector('.cap') };
+  n._v = v;
+  return n;
+}
+function vsInit(n, run){ vsSet(n, n._v, n._v.T0, firstCode(n._v), 0, run); n.classList.remove('on','boil','steam','done','cool'); const q = n.querySelector('.qchip'); if(q) q.remove(); const hq = n.querySelector('.heatq'); if(hq) hq.remove(); }
+function firstCode(v){ return v.segs && v.segs.length ? v.segs[0][4] : 'hl'; }
+function Tat(segs, t){
+  for(let i=0;i<segs.length;i++){ const a = segs[i]; if(t <= a[1] + 1e-9){ if(a[1] - a[0] < 1e-9) return a[3]; return a[2] + (a[3]-a[2])*(t-a[0])/(a[1]-a[0]); } }
+  return segs[segs.length-1][3];
+}
+function segAt(segs, t){ for(let i=0;i<segs.length;i++){ if(t <= segs[i][1] + 1e-9) return segs[i]; } return segs[segs.length-1]; }
+function vsSet(n, v, T, code, p, run){
+  const r = n._r; if(!r) return;
+  const lo = run ? run.tlo : 0, hi = run ? run.thi : 100;
+  const f = clamp((T - lo)/Math.max(1, hi - lo), 0, 1), h = 6 + f*88;
+  r.merc.setAttribute('y', String(124 - h)); r.merc.setAttribute('height', String(h + 2));
+  r.lcd.textContent = fT(T);
+  const ice = v.look === 'ice', metal = v.look === 'metal';
+  if(metal){ const g = clamp((T - v.T0)/Math.max(8, (hi - v.T0)*.9), 0, .85); r.hot.setAttribute('opacity', String(g.toFixed(2))); return; }
+  let level = .62, solid = 0;
+  const evap = run && run.kind === 'evap';
+  if(ice){
+    if(code === 'hs'){ solid = 1; level = .1; }
+    else if(code === 'm'){ solid = 1 - p; level = .1 + .52*p; }
+    else if(code === 'f'){ solid = p; level = .62 - .52*p; }
+    else { solid = 0; level = .62; }
+  } else if(code === 'f'){ solid = p; level = .62 - .5*p; }
+  else if(code === 'hs'){ solid = 1; level = .1; }
+  else if(code === 'hg'){ level = evap ? 0 : .5; }
+  else if(code === 'b' && evap){ level = .62*(1 - p); }
+  r.liq.style.transform = 'scaleY(' + Math.max(.001, level).toFixed(3) + ')';
+  if(r.cubes){ r.cubes.style.transform = 'scale(' + (.15 + .85*solid).toFixed(3) + ')'; r.cubes.style.opacity = solid > .02 ? '1' : '0'; }
+}
+function metaFlag(){ return null; }
+
+/* ====== jetonlar ====== */
+function tokenArt(kind, extra){
+  if(kind === 'flame') return '<svg viewBox="0 0 50 60" aria-hidden="true"><ellipse cx="25" cy="57" rx="17" ry="3" fill="rgba(0,0,0,.3)"/><rect x="19" y="36" width="12" height="18" rx="4" fill="#9a8cd8" stroke="rgba(0,0,0,.3)"/><rect x="16" y="32" width="18" height="8" rx="3" fill="#6e5fc0"/>'+
+    '<path d="M25 2C32 12 40 16 36 27C33 34 17 34 14 27C10 17 20 12 25 2Z" fill="url(#gfl)" stroke="rgba(255,255,255,.55)" stroke-width="1.4"/><path d="M25 14C28 19 31 22 29 27C28 30 22 30 21 27C20 22 23 19 25 14Z" fill="#fff6b0"/></svg>';
+  if(kind === 'cooler') return '<svg viewBox="0 0 50 60" aria-hidden="true"><ellipse cx="25" cy="57" rx="17" ry="3" fill="rgba(0,0,0,.3)"/><rect x="19" y="38" width="12" height="16" rx="4" fill="#6fc6ff" stroke="rgba(0,0,0,.3)"/><circle cx="25" cy="22" r="17" fill="#d8f7ff" stroke="#fff" stroke-width="2"/>'+
+    '<g stroke="#2e9bff" stroke-width="3" stroke-linecap="round"><path d="M25 8V36M13 15L37 29M37 15L13 29"/></g></svg>';
+  if(kind === 'tongs') return '<svg viewBox="0 0 50 60" aria-hidden="true"><ellipse cx="25" cy="57" rx="17" ry="3" fill="rgba(0,0,0,.3)"/><path d="M16 4L24 36M34 4L26 36" stroke="#cfd8e8" stroke-width="6" stroke-linecap="round"/><circle cx="25" cy="44" r="11" fill="#ff7a1a" stroke="#fff" stroke-width="2"/><circle cx="21" cy="40" r="3.4" fill="rgba(255,255,255,.7)"/></svg>';
+  if(kind === 'trophy') return '<svg viewBox="0 0 50 60" aria-hidden="true"><ellipse cx="25" cy="57" rx="16" ry="3" fill="rgba(0,0,0,.3)"/><rect x="19" y="44" width="12" height="8" fill="#e5a312"/><rect x="13" y="50" width="24" height="6" rx="2" fill="#7b3f00"/><path d="M12 6H38V22Q38 38 25 40Q12 38 12 22Z" fill="#ffd23f" stroke="#b97a00" stroke-width="2"/><path d="M12 10Q2 10 4 20Q6 28 14 28M38 10Q48 10 46 20Q44 28 36 28" fill="none" stroke="#ffd23f" stroke-width="4"/><path d="M18 10V28" stroke="rgba(255,255,255,.7)" stroke-width="3" stroke-linecap="round"/><path d="M25 14L27.5 20H33L28.5 24L30 30L25 26L20 30L21.5 24L17 20H22.5Z" fill="#fff6b0"/></svg>';
+  if(kind.indexOf('medal') === 0){ const k = +kind.slice(5), c = [['#ffd23f','#b97a00'],['#dfe6f0','#7c8798'],['#e8903f','#8a4a14']][k-1];
+    return '<svg viewBox="0 0 50 60" aria-hidden="true"><ellipse cx="25" cy="57" rx="14" ry="3" fill="rgba(0,0,0,.3)"/><path d="M13 2L22 24H30L38 2Z" fill="'+(k===1?'#ff4d6d':k===2?'#4d8dff':'#37b36a')+'"/><circle cx="25" cy="38" r="17" fill="'+c[0]+'" stroke="'+c[1]+'" stroke-width="3"/><circle cx="25" cy="38" r="11" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2"/><text x="25" y="45" text-anchor="middle" font-size="19" font-weight="900" fill="'+c[1]+'" font-family="Trebuchet MS,Arial">'+k+'</text></svg>'; }
+  if(kind === 'flag') return '<svg viewBox="0 0 50 80" aria-hidden="true"><ellipse cx="25" cy="77" rx="13" ry="3" fill="rgba(0,0,0,.3)"/><rect x="22" y="6" width="5" height="70" rx="2.5" fill="#dfe6f2" stroke="rgba(0,0,0,.25)"/><circle cx="24.5" cy="6" r="5" fill="#ffd60a" stroke="rgba(0,0,0,.25)"/><path d="M27 12H48L41 24L48 36H27Z" fill="#ff4fa3" stroke="rgba(0,0,0,.25)"/><text x="37" y="29" text-anchor="middle" font-size="13" font-weight="900" fill="#fff" font-family="Trebuchet MS,Arial">⚑</text></svg>';
+  return '';
+}
+
+/* ====== grafikler ====== */
+function niceStep(range){ return range > 90 ? 20 : range > 45 ? 10 : range > 22 ? 5 : 2; }
+function buildGraph(panel, q, W, H){
+  const L = 36, R = 8, T = 10, B = 6, pw = W - L - R, ph = H - T - B, xmax = q.ncols, ymin = q.ymin, ymax = q.ymax;
+  const X = t => L + (t/xmax)*pw, Y = v => T + (ymax - v)/(ymax - ymin)*ph;
+  let g = '<defs><clipPath id="gclip"><rect x="'+L+'" y="'+T+'" width="'+pw+'" height="'+ph+'"/></clipPath></defs>';
+  const st = niceStep(ymax - ymin);
+  for(let v = Math.ceil(ymin/st)*st; v <= ymax; v += st) g += '<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(v)+'" y2="'+Y(v)+'" stroke="rgba(190,225,255,'+(v === 0 ? .8 : .22)+')" stroke-width="'+(v === 0 ? 1.8 : 1)+'"/><text x="'+(L-4)+'" y="'+(Y(v)+4)+'" text-anchor="end" font-size="11" font-weight="800" fill="#cfe6ff" font-family="Trebuchet MS,Arial">'+v+'</text>';
+  for(let t = 0; t <= xmax; t++) g += '<line x1="'+X(t)+'" x2="'+X(t)+'" y1="'+T+'" y2="'+(H-B)+'" stroke="rgba(190,225,255,.16)"/>';
+  g += '<text x="4" y="'+(T-1)+'" font-size="10" font-weight="800" fill="#ffd9a0" font-family="Trebuchet MS,Arial">°C</text>';
+  g += '<g clip-path="url(#gclip)"><path id="gcurve" d="" fill="none" stroke="#ffb02e" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><circle id="gdot" r="5" cx="'+X(0)+'" cy="'+Y(q.vessels[0].T0)+'" fill="#fff" stroke="#ff7a1a" stroke-width="2.5"/></g>';
+  panel.innerHTML = '<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" aria-hidden="true">'+g+'</svg>';
+  const path = panel.querySelector('#gcurve'), dot = panel.querySelector('#gdot');
+  const pts = q.pts;
+  function drawTo(t){
+    let d = '', last = null;
+    for(let i=0;i<pts.length;i++){
+      const p = pts[i];
+      if(p[0] <= t + 1e-9){ d += (d ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1); last = p; }
+      else { const a = pts[i-1]; if(a){ const f = (t - a[0])/(p[0] - a[0]); const vv = a[1] + (p[1]-a[1])*f; d += (d ? 'L' : 'M') + X(t).toFixed(1) + ' ' + Y(vv).toFixed(1); last = [t, vv]; } break; }
+    }
+    path.setAttribute('d', d); if(last){ dot.setAttribute('cx', X(last[0]).toFixed(1)); dot.setAttribute('cy', Y(last[1]).toFixed(1)); }
+  }
+  return { drawTo:drawTo, X:X, Y:Y, L:L, pw:pw };
+}
+function cardArt(card, q){
+  const W = 120, H = 84, L = 14, R = 14, T = 8, B = 10, pw = W - L - R, ph = H - T - B;
+  const X = t => L + t/q.xmax*pw, Y = v => T + (q.ymax - v)/(q.ymax - q.ymin)*ph;
+  let g = '<defs><clipPath id="cc'+card.id+'"><rect x="'+L+'" y="'+T+'" width="'+pw+'" height="'+ph+'"/></clipPath></defs><path d="M'+L+' '+(T-2)+'V'+(H-B)+'H'+(W-R+4)+'" fill="none" stroke="#2a2a6a" stroke-width="1.8"/>';
+  if(q.ymin < 0 && q.ymax > 0) g += '<line x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(0)+'" y2="'+Y(0)+'" stroke="rgba(40,40,120,.45)" stroke-dasharray="3 3"/><text x="'+(L-2)+'" y="'+(Y(0)+3)+'" font-size="8" font-weight="800" text-anchor="end" fill="#2a2a6a" font-family="Arial">0</text>';
+  card.curves.forEach(c => {
+    let d = ''; c.pts.forEach((p, i) => { d += (i ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1); });
+    g += '<path d="'+d+'" fill="none" stroke="'+c.color+'" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#cc'+card.id+')"/>';
+    if(c.lab){ const e = c.pts[c.pts.length-1]; g += '<text x="'+Math.min(W-6, X(e[0])+3)+'" y="'+clamp(Y(e[1])+3, 12, H-6)+'" font-size="10" font-weight="900" fill="#2a1a6a" font-family="Trebuchet MS,Arial">'+c.lab+'</text>'; }
+  });
+  g += '<text x="'+(W-R+2)+'" y="'+(H-B+9)+'" font-size="7.5" font-weight="800" fill="#2a2a6a" font-family="Arial" text-anchor="end">zaman</text><text x="2" y="'+(T+2)+'" font-size="7.5" font-weight="800" fill="#2a2a6a" font-family="Arial">°C</text>';
+  return '<svg viewBox="0 0 '+W+' '+H+'" aria-hidden="true">'+g+'</svg>';
+}
+function ballNode(b){
+  const n = el('div', 'icecol tg'); n.dataset.tid = 'b-' + b.id;
+  const col = b.hide ? '#b48cff' : b.color;
+  n.innerHTML = '<div class="blk"></div><div class="pit"></div><div class="ball" style="--bg:#ff7a1a"><div class="bl" style="background:radial-gradient(circle at 35% 30%,#fff6d0,'+col+' 55%,#7a2a00)"></div><b>' + esc(b.id) + '</b></div><i class="sizz"></i><span class="cap">' + esc(b.sub2) + '</span>';
+  return n;
+}
+
+/* ====== Düzen ====== */
+function layout(){
+  const b = $('bench').getBoundingClientRect(); if(!b.width || !b.height) return;
+  const u = Math.max(18, Math.min(b.width / 20, b.height / 8, 40));
+  const rs = document.documentElement.style;
+  rs.setProperty('--u', u + 'px');
+  rs.setProperty('--tt', Math.round(b.top + b.height * .76) + 'px');
+  if(Sc && Sc.relayout) Sc.relayout();
+  snapAll();
+}
+window.addEventListener('resize', layout);
+
+/* ====== Sahne kurma ====== */
+function rc(n){ const r = n.getBoundingClientRect(); return { l:r.left, t:r.top, w:r.width, h:r.height, cx:r.left + r.width/2, cy:r.top + r.height/2, r:r.right, b:r.bottom }; }
+function wrc(){ return rc($('work')); }
+function place(n, x, y){ n.style.left = x + '%'; n.style.top = y + '%'; }
+function spread(n, a, b){ const r = []; for(let i=0;i<n;i++) r.push(n === 1 ? (a+b)/2 : a + (b-a)*i/(n-1)); return r; }
+function addMover(id, cls, art, cap, accepts, x, y, kind, opts){
+  const n = el('div', 'mv ' + cls); n.dataset.mid = id; n.innerHTML = '<div class="art">' + art + '</div>' + (cap ? '<span class="cap">' + esc(cap) + '</span>' : '');
+  return regMover(id, n, cap, accepts, x, y, kind, opts);
+}
+function regMover(id, n, cap, accepts, x, y, kind, opts){
+  n.dataset.mid = id; n.style.setProperty('--dl', (Object.keys(Sc.movers).length * .35) + 's'); place(n, x, y); $('work').appendChild(n);
+  const m = Object.assign({ id:id, node:n, name:cap || id, accepts:accepts, kind:kind || 'ans', home:{ x:x, y:y }, locked:false }, opts || {});
+  Sc.movers[id] = m; bindDrag(n, m);
+  n.setAttribute('aria-label', (cap || id) + '. Tut ve sürükle ya da dokunup seç.'); return m;
+}
+function addTargetNode(id, n, x, y, name, opts){
+  n.classList.add('tg'); n.dataset.tid = id; if(x != null) place(n, x, y); $('work').appendChild(n);
+  const t = Object.assign({ id:id, node:n, name:name || id, cap:1, items:[], slot:null }, opts || {}); Sc.targets[id] = t;
+  n.setAttribute('role', 'button'); n.setAttribute('tabindex', '0'); n.setAttribute('aria-label', name || id);
+  n.addEventListener('click', e => { if(S.sel){ const ex = t.cols ? { col:colAt(t, e.clientX) } : null; tryDrop(S.sel, t, ex); } });
+  n.addEventListener('keydown', e => { if((e.key === 'Enter' || e.key === ' ') && S.sel){ e.preventDefault(); tryDrop(S.sel, t, t.cols ? { col:t.kb || 0 } : null); } else if(t.cols && (e.key === 'ArrowLeft' || e.key === 'ArrowRight')){ e.preventDefault(); t.kb = clamp((t.kb || 0) + (e.key === 'ArrowLeft' ? -1 : 1), 0, t.cols - 1); markCol(t, t.kb); } });
+  return t;
+}
+function addTarget(id, cls, html, x, y, name, opts){ const n = el('div', cls); n.innerHTML = html; return addTargetNode(id, n, x, y, name, opts); }
+function clearScene(){
+  clearSeq(); $('work').innerHTML = ''; $('obs').innerHTML = ''; say(''); S.sel = null; $('clk').classList.remove('on');
+  document.querySelectorAll('.mv.ghost,.drip,.hb,.hlbl,.heatq').forEach(n => { if(n.parentNode) n.parentNode.removeChild(n); });
+}
+function obsChip(t){ const o = $('obs'); const c = el('span', null, '🔎 ' + t); o.appendChild(c); while(o.children.length > 3) o.removeChild(o.firstChild); }
+function targetsOf(m){ const out = []; m.accepts.forEach(id => { if(Sc.targets[id]) out.push(Sc.targets[id]); }); return out; }
+
+/* kaplar, sıcaklık sütunları */
+function vesselList(){ return Sc.vlist; }
+function mkVessel(v, cls, x, y, asTarget){
+  const n = vesselNode(v, cls); vsInit(n, Sc.q.run);
+  if(asTarget) addTargetNode('v-' + v.id, n, x, y, (v.lab + ' kabı' + (v.sub2 && !v.hide ? ' (' + v.sub2 + ')' : '')), { vessel:true, v:v });
+  else { n.style.position = 'absolute'; n.style.transform = 'translate(-50%,-50%)'; place(n, x, y); $('work').appendChild(n); }
+  Sc.vlist.push({ v:v, node:n }); return n;
+}
+function addRail(x, y, w, h, cap){
+  const n = el('div', 'rail'); n.style.width = w + '%'; n.style.height = h + '%'; n.innerHTML = '<span class="rcap">' + esc(cap) + '</span>';
+  return addTargetNode('bench', n, x, y, 'Deney tezgâhı', { rail:true });
+}
+function runToken(kind, x, y){
+  const cap = kind === 'flame' ? 'Isıtıcı' : kind === 'cooler' ? 'Soğutucu' : 'Kıskaç';
+  const m = addMover('run', 'tok', tokenArt(kind), cap, ['bench'], x, y, 'run'); m.node.setAttribute('aria-label', cap + ': deneyi başlatmak için deney tezgâhına sürükle ya da dokunup seç'); return m;
+}
+
+const BUILD = {
+  heat(q){
+    const n = q.vessels.length, plq = q.plaque, xs = plq ? spread(n, 16, n === 3 ? 60 : 52) : spread(n, 22, n === 3 ? 74 : 66);
+    Sc.vlist = [];
+    const lo = xs[0], hi = xs[n-1];
+    addRail((lo + hi)/2, 46, (hi - lo) + 24, 66, 'Deney tezgâhı — ısıtıcıyı buraya bırak');
+    q.vessels.forEach((v, i) => { mkVessel(v, '', xs[i], 44, true); });
+    if(plq) addTarget('v-eq', 'plq', 'EŞİT<small>hepsi aynı</small>', 87, 40, 'EŞİT levhası: hepsi aynı');
+    runToken(q.token || 'flame', 9, 82);
+    if(q.mode === 'medals'){ [1,2,3].forEach((k, i) => addMover('m' + k, 'medal', tokenArt('medal' + k), ['1.', '2.', '3.'][i], q.vessels.map(v => 'v-' + v.id), [40, 51, 62][i], 82, 'ans', { name:k + '. madalya' })); }
+    else addMover('cup', 'tokC', tokenArt('trophy'), 'Cevap kupası', q.vessels.map(v => 'v-' + v.id).concat(plq ? ['v-eq'] : []), 50, 82, 'ans', { name:'Cevap kupası' });
+    Sc.need = q.mode === 'medals' ? 3 : 1; Sc.ans = q.mode === 'medals' ? q.answer : { cup:q.answer.t }; Sc.runAct = runHeat; Sc.check = checkMap; Sc.tutor = { from:'run', to:'bench' };
+  },
+  gmark(q){
+    Sc.vlist = []; const v = q.vessels[0];
+    mkVessel(v, 'sm', 11, 40, false);
+    const rail = addRail(11, 42, 22, 72, ''); rail.node.style.opacity = '.0'; rail.node.style.pointerEvents = 'auto';
+    const panel = el('div', 'gpanel'); $('work').appendChild(panel); const cells = el('div', 'gcells'); cells.setAttribute('role', 'group'); cells.setAttribute('aria-label', 'Zaman sütunları (her sütun 1 dakika)');
+    for(let c = 0; c < q.ncols; c++){ const s = el('span', 'gcell', c + '–' + (c+1)); s.dataset.col = c; cells.appendChild(s); }
+    Sc.gp = { panel:panel, cells:cells, g:null };
+    const t = addTargetNode('gx', cells, null, null, 'Zaman sütunları', { cols:q.ncols, kb:0 }); cells.style.position = 'absolute';
+    const layoutG = () => {
+      const w = wrc(), W = Math.round(w.w * .70), H = Math.max(80, Math.round(w.h - 126)), left = Math.round(w.w * .62 - W/2 + 0);
+      panel.style.cssText = 'left:' + Math.round(w.w * .62) + 'px;top:4px;width:' + W + 'px;height:' + H + 'px';
+      Sc.gp.g = buildGraph(panel, q, W, H); Sc.gp.g.drawTo(Sc.ran ? q.run.D : (Sc.gp.t || 0));
+      const pw = W - 36 - 8; cells.style.cssText = 'position:absolute;left:' + Math.round(w.w * .62 - W/2 + 36 + pw/2) + 'px;top:' + (H + 8) + 'px;width:' + pw + 'px;transform:translate(-50%,0)';
+    };
+    Sc.relayout = layoutG; layoutG();
+    runToken(q.token || 'flame', 10, 83);
+    const f = addMover('flag', 'flagm', tokenArt('flag'), 'Bayrak', ['gx'], 26, 85, 'ans', { name:'İşaret bayrağı', needRun:true }); f.node.classList.add('dim');
+    Sc.need = 1; Sc.runAct = runHeat; Sc.check = checkCols; Sc.tutor = { from:'run', to:'bench' };
+  },
+  gcard(q){
+    Sc.vlist = []; const n = q.vessels.length, xs = spread(n, 9, n === 3 ? 33 : 20);
+    const lo = xs[0], hi = xs[n-1];
+    addRail((lo + hi)/2, 40, (hi - lo) + 16, 70, '');
+    q.vessels.forEach((v, i) => mkVessel(v, n === 1 ? 'sm' : 'xs', xs[i], 40, false));
+    Sc.targets.bench.node.style.opacity = '.55';
+    const cx = [52, 70, 88];
+    q.cards.forEach((c, i) => { const m = addMover('card-' + c.id, 'cardg', '<div class="cg"><span class="cl">' + c.id + '</span>' + cardArt(c, q) + '</div>', null, ['notebook'], cx[i], 27, 'ans', { name:c.id + ' grafiği', card:true }); m.node.querySelector('.art').style.animation = 'none'; });
+    addTarget('notebook', 'nb', 'DENEY DEFTERİ<small>grafiği buraya bırak</small>', 70, 74, 'Deney defteri');
+    runToken(q.token || 'flame', 9, 82);
+    Sc.need = 1; Sc.ans = { ['card-' + q.answer.m.slice(5)]:'notebook' }; Sc.runAct = runHeat; Sc.check = checkMap; Sc.tutor = { from:'run', to:'bench' };
+  },
+  design(q){
+    Sc.vlist = []; const n = q.vessels.length, xs = spread(n, 8, 53);
+    q.vessels.forEach((v, i) => {
+      const nd = vesselNode(v, 'xs', { nocap:false }); vsInit(nd, q.run);
+      const m = regMover('card-' + v.id, nd, v.lab, ['slot1', 'slot2'], xs[i], 46, 'ans', { name:v.lab + ' kabı (' + v.sub2 + ')', card:true, vessel:v });
+      nd.classList.add('mv'); Sc.vlist.push({ v:v, node:nd });
+      nd.querySelector('.cap').style.whiteSpace = 'normal'; nd.querySelector('.cap').style.textAlign = 'center'; nd.querySelector('.cap').style.minWidth = '96px';
+    });
+    ['slot1', 'slot2'].forEach((id, i) => addTarget(id, 'designT', '<span class="sl">' + (i ? 'DENEY KABI 2' : 'DENEY KABI 1') + '</span>', [70.5, 88.5][i], 48, (i ? '2. deney kabı yuvası' : '1. deney kabı yuvası')));
+    Sc.need = 2; Sc.check = checkDesign; Sc.runAct = null; Sc.onFull = runDesign; Sc.tutor = { from:'card-' + q.vessels[0].id, to:'slot1' };
+  },
+  vars(q){
+    const nc = q.chips.length, xs = spread(nc, 14, 86);
+    const SL = q.slots, sx = spread(SL.length, 17, 83);
+    SL.forEach((s, i) => { const h = s.cap * 50 + 40; const t = addTarget('s-' + s.id, 'slotT ' + s.id, '<div class="sl">' + esc(s.label) + '</div>', sx[i], 66, s.label, { cap:s.cap, slotPos:(k, c) => { const r = rc(t.node); return { dx:0, dy:(c === 1 ? r.h * .1 : (k === 0 ? -r.h * .1 : r.h * .26)) }; } }); t.node.style.height = h + 'px'; });
+    q.chips.forEach((c, i) => addMover(c.id, 'chip', '<span>' + esc(c.text) + '</span>', null, SL.map(s => 's-' + s.id), xs[i], 14, 'ans', { name:c.text, chip:true }));
+    Sc.need = nc; Sc.ans = {}; Object.keys(q.answer).forEach(k => { Sc.ans[k] = 's-' + q.answer[k]; }); Sc.check = checkMap; Sc.runAct = null; Sc.tutor = { from:q.chips[0].id, to:'s-ind' };
+  },
+  bins(q){
+    const nc = q.cards.length, xs = spread(nc, 14, 86);
+    q.bins.forEach((b, i) => { const t = addTarget('bn-' + b.id, 'binT ' + b.cls, '<div class="sl">' + b.label + '</div>', [27, 73][i], 66, b.label, { cap:4, slotPos:(k, c) => { const r = rc(t.node); return { dx:(k % 2 ? 1 : -1) * r.w * .245, dy:(k < 2 ? -r.h * .1 : r.h * .27) }; } }); t.node.style.height = '150px'; });
+    q.cards.forEach((c, i) => addMover(c.id, 'bcard', '<span>' + c.icon + ' ' + esc(c.text) + '</span>', null, q.bins.map(b => 'bn-' + b.id), xs[i], 14, 'ans', { name:c.text, chip:true }));
+    Sc.need = nc; Sc.ans = {}; Object.keys(q.answer).forEach(k => { Sc.ans[k] = 'bn-' + q.answer[k]; }); Sc.check = checkMap; Sc.runAct = null; Sc.tutor = { from:q.cards[0].id, to:'bn-alir' };
+  },
+  ice(q){
+    const n = q.balls.length, xs = spread(n, 22, 70); Sc.balls = [];
+    const rail = addRail((xs[0] + xs[n-1])/2, 44, (xs[n-1] - xs[0]) + 26, 72, 'Buz kalıpları — kıskacı buraya bırak');
+    q.balls.forEach((b, i) => { const nd = ballNode(b); addTargetNode('b-' + b.id, nd, xs[i], 44, b.id + ' topu' + (b.hide ? '' : ' (' + b.sub2 + ')'), { ball:b }); Sc.balls.push({ b:b, node:nd }); });
+    runToken('tongs', 9, 82);
+    const acc = q.balls.map(b => 'b-' + b.id);
+    if(q.mode === 'medals') [1,2,3].forEach((k, i) => addMover('m' + k, 'medal', tokenArt('medal' + k), ['1.', '2.', '3.'][i], acc, [40, 51, 62][i], 82, 'ans', { name:k + '. madalya' }));
+    else addMover('cup', 'tokC', tokenArt('trophy'), 'Cevap kupası', acc, 50, 82, 'ans', { name:'Cevap kupası' });
+    Sc.need = q.mode === 'medals' ? 3 : 1; Sc.ans = q.mode === 'medals' ? q.answer : { cup:q.answer.t }; Sc.runAct = runIce; Sc.check = checkMap; Sc.tutor = { from:'run', to:'bench' };
+  }
+};
+
+/* ====== denetleyiciler ====== */
+function checkMap(pl){ const wrong = []; Object.keys(pl).forEach(mid => { if(Sc.ans[mid] !== pl[mid].t) wrong.push(mid); }); return { ok:wrong.length === 0, wrong:wrong }; }
+function checkDesign(pl){
+  const a = pl.card1 || null; const ids = Object.keys(pl).map(k => k.slice(5)).sort();
+  const ok = Sc.q.valid.some(p => p.slice().sort().join('|') === ids.join('|'));
+  return { ok:ok, wrong:ok ? [] : Object.keys(pl) };
+}
+function checkCols(pl){ const e = pl.flag; const ok = !!e && Sc.q.accept.indexOf(e.extra.col) >= 0; return { ok:ok, wrong:ok ? [] : ['flag'] }; }
+
+/* ====== Deney animasyonları ====== */
+const RUNTIME = { heat:3800, design:2800 };
+function readoutChips(){
+  const run = Sc.q.run; Sc.vlist.forEach(it => {
+    const v = it.v, tt = (v.tmark != null && /reach|meltDone|evap/.test(run.kind)) ? v.tmark : run.D;
+    obsChip(v.lab + ': ' + fN(v.T0) + ' → ' + fN(Tat(v.segs, tt)) + ' °C');
+  });
+}
+function animateRun(list, q, o, done){
+  o = o || {}; const run = q.run, D = run.D, N = S.rm ? 3 : 34, dur = o.dur || RUNTIME.heat;
+  S.busy = true; Sc.running = true; Sc.runs = (Sc.runs || 0) + 1; R.tests++; if(R.tests >= 8) giveBadge('curious');
+  $('obs').innerHTML = ''; document.querySelectorAll('.heatq').forEach(x => x.remove());
+  const freeze = /reachT|reachDT|meltDone|evap/.test(run.kind);
+  list.forEach(it => { it.done = false; it.marked = false; vsInit(it.node, run); it.node.classList.add('on'); if(o.cool) it.node.classList.add('cool'); });
+  $('clk').classList.add('on'); $('clk').textContent = '⏱ 0,0 dk';
+  if(o.cool) Snd.freeze(); else Snd.ignite();
+  const frame = f => {
+    const t = D * f; $('clk').textContent = '⏱ ' + fN(t) + ' dk'; let boiling = false;
+    list.forEach(it => {
+      const v = it.v; let tt = t;
+      if(freeze && v.tmark != null && t >= v.tmark){ tt = v.tmark; if(!it.done){ it.done = true; it.node.classList.remove('on'); it.node.classList.add('done'); const c = el('span', 'qchip', '✔ ' + fN(v.tmark) + ' dk'); it.node.appendChild(c); Snd.ding(); } }
+      const seg = segAt(v.segs, tt), T = Tat(v.segs, tt), len = seg[1] - seg[0], p = len > 1e-9 ? clamp((tt - seg[0])/len, 0, 1) : 1;
+      vsSet(it.node, v, T, seg[4], p, run);
+      const isB = seg[4] === 'b' && !it.done; it.node.classList.toggle('boil', isB); it.node.classList.toggle('steam', seg[4] === 'hg' && !it.done); if(isB) boiling = true;
+      if(!freeze && v.tmark != null && t >= v.tmark && !it.marked && run.kind === 'boil'){ it.marked = true; const c = el('span', 'qchip', '🔔 kaynadı ' + fN(v.tmark) + ' dk'); it.node.appendChild(c); Snd.ding(); }
+      if(o.cool && f > .1 && Math.random() < .3){ const r = rc(it.node); burst(r.cx + (Math.random()-.5)*r.w*.5, r.t + r.h*.4, '#bff6ff', 2); }
+    });
+    if(Sc.gp && Sc.gp.g) { Sc.gp.t = t; Sc.gp.g.drawTo(t); }
+    if(boiling) Snd.boilS(); else if(!o.cool && Math.round(f*N) % 6 === 0) Snd.burn();
+  };
+  for(let i=1;i<=N;i++) at(i * dur / N, () => frame(i / N));
+  at(dur + 150, () => {
+    list.forEach(it => { it.node.classList.remove('on'); it.node.classList.remove('boil'); });
+    if(Sc.gp && Sc.gp.g) Sc.gp.g.drawTo(D);
+    if(q.showQ) list.forEach(it => { const v = it.v, tt = v.tmark != null && freeze ? v.tmark : D, Q = Sc.q.P * v.heaters * tt; const c = el('span', 'heatq', 'ısı: ' + (Q >= 1000 ? fN(Q/1000) + ' kJ' : Math.round(Q) + ' J')); it.node.appendChild(c); });
+    readoutChips(); Sc.ran = true; Sc.running = false; S.busy = false; $('clk').classList.remove('on');
+    if(Sc.movers.flag){ Sc.movers.flag.node.classList.remove('dim'); }
+    if(done) done();
+  });
+}
+function runHeat(m, t, extra, g, cb){
+  // jeton bankoya bırakıldı: deneyi çalıştır
+  const q = Sc.q, T = rc(t.node), h = +g.dataset.h;
+  gTo(g, T.cx, T.t + T.h*.46, 0, .9, 450);
+  at(500, () => {
+    returnGhost(m, g);
+    animateRun(Sc.vlist, q, { cool:q.token === 'cooler' }, () => { cb({ scored:false }); });
+  });
+}
+function runDesign(done){
+  const placed = Object.keys(Sc.pl).map(k => Sc.vlist.filter(it => 'card-' + it.v.id === k)[0]);
+  animateRun(placed, Sc.q, { dur:RUNTIME.design }, done);
+}
+function runIce(m, t, extra, g, cb){
+  const T = rc(t.node); gTo(g, T.cx, T.t + T.h*.3, 0, .9, 450);
+  at(480, () => { returnGhost(m, g); iceDrop(() => cb({ scored:false })); });
+}
+function iceDrop(cb){
+  const q = Sc.q;
+  {
+    S.busy = true; Sc.running = true; Sc.runs = (Sc.runs || 0) + 1; R.tests++; if(R.tests >= 8) giveBadge('curious'); $('obs').innerHTML = '';
+    const maxMelt = Math.max.apply(null, q.balls.map(b => b.melt));
+    Snd.whoosh();
+    Sc.balls.forEach(it => { const bn = it.node.querySelector('.ball'), pit = it.node.querySelector('.pit'); it.node.classList.add('run'); bn.style.transition = 'none'; bn.style.transform = 'translateY(-60px)'; void bn.offsetWidth; });
+    at(100, () => { Sc.balls.forEach(it => { const bn = it.node.querySelector('.ball'); bn.style.transition = 'transform .5s cubic-bezier(.5,0,1,.6)'; bn.style.transform = 'translateY(0)'; }); });
+    at(650, () => { Snd.clink(); Snd.sizzle(); Sc.balls.forEach(it => { const bn = it.node.querySelector('.ball'), r = rc(it.node); const depth = 8 + 62 * it.b.melt / maxMelt; bn.style.transition = 'transform 2.8s cubic-bezier(.4,.1,.3,1), filter 1s'; bn.style.transform = 'translateY(' + depth.toFixed(1) + 'px)'; bn.style.filter = 'saturate(.8)'; it.node.querySelector('.pit').style.transform = 'scaleY(1)'; burst(r.cx, r.t + r.h*.35, '#e8fbff', 6); }); });
+    at(2400, () => { Sc.balls.forEach(it => { it.node.classList.remove('run'); const bn = it.node.querySelector('.ball'); bn.style.filter = 'saturate(.3) brightness(.9)'; }); });
+    at(3500, () => {
+      Sc.balls.forEach(it => obsChip(it.b.id + ': ' + fN(it.b.melt) + ' g buz erimiş'));
+      Sc.ran = true; Sc.running = false; S.busy = false; Snd.ding(); cb();
+    });
+  }
+}
+
+/* ====== Gmark yardımcıları ====== */
+function colAt(t, px){ const r = rc(t.node), k = Math.floor((px - r.l) / (r.w / t.cols)); return clamp(k, 0, t.cols - 1); }
+function markCol(t, c){ t.node.querySelectorAll('.gcell').forEach(x => x.classList.toggle('on', +x.dataset.col === c)); }
+
+/* ====== Sürükle-bırak ve yerleştirme motoru ====== */
+function bindDrag(node, m){
+  node.addEventListener('dragstart', e => e.preventDefault());
+  node.addEventListener('pointerdown', e => onDown(e, node, m));
+  node.addEventListener('pointermove', onMove);
+  node.addEventListener('pointerup', onUp);
+  node.addEventListener('pointercancel', () => cancelDrag());
+  node.addEventListener('lostpointercapture', () => { if(D && D.moved && !D.dropped) cancelDrag(); });
+  node.setAttribute('tabindex', '0'); node.setAttribute('role', 'button');
+  node.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggleSel(m); if(S.sel){ const f = targetsOf(m)[0]; if(f) f.node.focus(); } } });
+}
+function canDrag(){ return !S.busy && !S.portrait && S.phase === 'q' && Sc && !Sc.done; }
+function onDown(e, node, m){
+  if(D || !canDrag() || m.locked) return; if(e.pointerType === 'mouse' && e.button !== 0) return;
+  Snd.resume(); hideTutor(); const r = node.getBoundingClientRect();
+  D = { node:node, m:m, sx:e.clientX, sy:e.clientY, offX:e.clientX - r.left, offY:e.clientY - r.top, w:r.width, h:r.height, moved:false, ghost:null, pid:e.pointerId, dropped:false };
+  try{ node.setPointerCapture(e.pointerId); }catch(err){}
+  e.preventDefault();
+}
+function mkGhost(m){
+  const r = rc(m.node); const g = m.node.cloneNode(true);
+  g.removeAttribute('tabindex'); g.removeAttribute('role'); g.removeAttribute('aria-label'); g.removeAttribute('data-mid');
+  g.className = m.node.className.replace(/\b(placed|locked|sel|ghosted|dim|tg)\b/g, '') + ' ghost';
+  g.style.cssText = 'left:0;top:0;width:' + r.w + 'px;height:' + r.h + 'px;opacity:1;pointer-events:none;transform:translate(' + r.l + 'px,' + r.t + 'px)';
+  g.dataset.w = r.w; g.dataset.h = r.h; document.body.appendChild(g); m.node.classList.add('ghosted'); return g;
+}
+function gTo(g, cx, cy, rot, sc, ms){
+  const w = +g.dataset.w, h = +g.dataset.h;
+  g.style.transition = ms && !S.rm ? 'transform ' + Math.round(ms * TS) + 'ms cubic-bezier(.25,.85,.3,1)' : 'none';
+  g.style.transform = 'translate(' + (cx - w/2) + 'px,' + (cy - h/2) + 'px) rotate(' + (rot || 0) + 'deg) scale(' + (sc || 1) + ')';
+}
+function onMove(e){
+  if(!D || e.pointerId !== D.pid) return;
+  if(!D.moved){ if(Math.hypot(e.clientX - D.sx, e.clientY - D.sy) < 7) return; D.moved = true; clearSel(); D.ghost = mkGhost(D.m); D.ghost.classList.add('lift'); Snd.pick(); }
+  gTo(D.ghost, e.clientX - D.offX + D.w/2, e.clientY - D.offY + D.h/2, 0, 1.06, 0);
+  D.lx = e.clientX; D.ly = e.clientY; preview(e.clientX, e.clientY);
+}
+function hitTarget(m, px, py){
+  let best = null, bd = 1e9;
+  targetsOf(m).forEach(t => {
+    const r = rc(t.node); const padT = (t.cols ? 90 : 30), pad = (t.cols ? 14 : 12);
+    if(px >= r.l - pad && px <= r.r + pad && py >= r.t - padT && py <= r.b + pad){ const d = Math.hypot(px - r.cx, py - r.cy) - (t.rail ? 400 * 0 : 0); if(d < bd){ bd = d; best = t; } }
+  });
+  return best;
+}
+function clearHl(){ document.querySelectorAll('.tg.hl').forEach(n => n.classList.remove('hl')); document.querySelectorAll('.gcell.on').forEach(n => n.classList.remove('on')); }
+function preview(px, py){
+  clearHl(); const t = hitTarget(D.m, px, py); if(!t) return; t.node.classList.add('hl');
+  if(t.cols){ const c = colAt(t, px); markCol(t, c); }
+}
+function onUp(e){
+  if(!D || e.pointerId !== D.pid) return;
+  const d = D; try{ d.node.releasePointerCapture(d.pid); }catch(err){}
+  if(!d.moved){ D = null; toggleSel(d.m); return; }
+  d.dropped = true; const t = hitTarget(d.m, e.clientX, e.clientY); clearHl(); D = null;
+  if(!t){ returnGhost(d.m, d.ghost); return; }       // hedef dışına bırakma = iptal, hata sayılmaz
+  const extra = t.cols ? { col:colAt(t, e.clientX) } : null;
+  runAttempt(d.m, t, extra, d.ghost);
+}
+function returnGhost(m, g){
+  if(!g){ m.node.classList.remove('ghosted'); return; }
+  const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 260);
+  at(280, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); });
+}
+function cancelDrag(){
+  if(!D) return; const d = D; D = null; clearHl();
+  if(d.ghost && d.ghost.parentNode) d.ghost.parentNode.removeChild(d.ghost);
+  if(d.node) d.node.classList.remove('ghosted');
+  try{ d.node.releasePointerCapture(d.pid); }catch(e){}
+}
+document.addEventListener('keydown', e => { if(e.key === 'Escape'){ cancelDrag(); clearSel(); } });
+function clearSel(){ if(S.sel){ if(S.sel.node) S.sel.node.classList.remove('sel'); S.sel = null; } }
+function toggleSel(m){
+  if(!canDrag() || m.locked) return; Snd.resume(); hideTutor();
+  if(S.sel && S.sel.id === m.id){ clearSel(); return; }
+  clearSel(); S.sel = m; m.node.classList.add('sel'); Snd.pick(); say('Şimdi nesneyi bırakacağın yere dokun.', '');
+  setT('selsay', () => { if(S.sel === m) say(''); }, 2600);
+}
+function tryDrop(m, t, extra){
+  if(!canDrag()) return; clearSel();
+  if(targetsOf(m).indexOf(t) < 0) return;
+  runAttempt(m, t, extra, null);
+}
+function hideTutor(){ const t = $('tutor'); if(!t.hidden){ t.hidden = true; } clearT('tutor'); }
+function showTutor(){
+  const tu = Sc.tutor; if(!tu) return; const a = Sc.movers[tu.from], b = Sc.targets[tu.to]; if(!a || !b) return;
+  const A = rc(a.node), B = rc(b.node), bb = rc($('bench')), tg = $('tutor');
+  tg.hidden = false; tg.style.left = (A.cx - bb.l) + 'px'; tg.style.top = (A.cy - bb.t + 10) + 'px';
+  if(!S.rm){ tg.animate([{ transform:'translate(0,0)' }, { transform:'translate(' + ((B.cx - A.cx)*.8) + 'px,' + ((B.cy - A.cy)*.6) + 'px)' }, { transform:'translate(0,0)' }], { duration:2200 * TS + 400, iterations:Infinity }); }
+  setT('tutor', hideTutor, 12000);
+}
+
+/* ====== yerleştirme ====== */
+function slotPoint(m, t, idx, extra){
+  const r = rc(t.node), mr = rc(m.node);
+  if(t.cols){ const cw = r.w / t.cols; return { cx:r.l + ((extra && extra.col != null ? extra.col : 0) + .5) * cw, cy:r.t - mr.h/2 + 8 }; }
+  if(t.slotPos){ const o = t.slotPos(idx, t.cap); return { cx:r.cx + o.dx, cy:r.cy + o.dy }; }
+  if(t.vessel) return { cx:r.cx - r.w*.06, cy:r.cy + r.h*.06 };
+  if(t.ball) return { cx:r.cx, cy:r.t + r.h*.9 };
+  return { cx:r.cx, cy:r.cy };
+}
+function setNodePos(m, p){ const w = wrc(); m.node.style.left = (p.cx - w.l).toFixed(1) + 'px'; m.node.style.top = (p.cy - w.t).toFixed(1) + 'px'; }
+function snapAll(){
+  if(!Sc || !Sc.pl) return;
+  Object.keys(Sc.pl).forEach(mid => { const m = Sc.movers[mid], e = Sc.pl[mid], t = Sc.targets[e.t]; if(!m || !t) return; const idx = Math.max(0, t.items.indexOf(mid)); const p = slotPoint(m, t, idx, e.extra); m.node.style.transition = 'none'; setNodePos(m, p); void m.node.offsetWidth; m.node.style.transition = ''; });
+}
+function unplace(m, instant){
+  const e = Sc.pl[m.id]; if(!e) return; const t = Sc.targets[e.t]; if(t){ const i = t.items.indexOf(m.id); if(i >= 0) t.items.splice(i, 1); }
+  delete Sc.pl[m.id]; m.node.classList.remove('placed');
+  m.node.style.left = m.home.x + '%'; m.node.style.top = m.home.y + '%';
+  if(t) t.items.forEach((id, k) => { const mm = Sc.movers[id]; if(mm) setNodePos(mm, slotPoint(mm, t, k, Sc.pl[id].extra)); });
+}
+function runAttempt(m, t, extra, ghost){
+  const drop = () => { if(ghost && ghost.parentNode) ghost.parentNode.removeChild(ghost); m.node.classList.remove('ghosted'); };
+  if(S.busy || S.phase !== 'q' || Sc.done || m.locked){ drop(); return; }
+  if(m.kind === 'run'){ S.busy = true; say(''); const g = ghost || mkGhost(m); Snd.drop(); Sc.runAct(m, t, extra, g, () => { S.busy = false; }); return; }
+  if(m.needRun && !Sc.ran){ say('Önce deneyi çalıştır: ısıtıcıyı kaba sürükle ve grafiği izle!', 'bad'); returnGhost(m, ghost); return; }
+  placeAnswer(m, t, extra, ghost, false);
+}
+function placeAnswer(m, t, extra, ghost, noEval){
+  say(''); const old = Sc.pl[m.id];
+  if(old && old.t === t.id && !t.cols){ if(ghost) returnGhost(m, ghost); return; }
+  if(t.cap === 1 && t.items.length && t.items[0] !== m.id && Sc.movers[t.items[0]].locked){ say('Bu yer doğru yerleşmiş bir nesneyle dolu.', 'bad'); if(ghost) returnGhost(m, ghost); return; }
+  if(t.cap === 1 && t.items.length && t.items[0] !== m.id){ unplace(Sc.movers[t.items[0]]); }
+  else if(t.items.length >= t.cap && t.items.indexOf(m.id) < 0){ say('Bu kutu dolu; önce bir kartı çıkar.', 'bad'); if(ghost) returnGhost(m, ghost); return; }
+  if(old) unplace(m);
+  const idx = t.items.length; t.items.push(m.id); Sc.pl[m.id] = { t:t.id, extra:extra }; S.busy = true;
+  const g = ghost || mkGhost(m); const p = slotPoint(m, t, idx, extra); Snd.drop();
+  gTo(g, p.cx, p.cy, 0, 1, 260);
+  at(290, () => {
+    if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); m.node.classList.add('placed'); m.node.style.transition = 'none'; setNodePos(m, p); void m.node.offsetWidth; m.node.style.transition = '';
+    Snd.clink();
+    if(t.cols){ const c = t.node.querySelector('.gcell[data-col="' + extra.col + '"]'); if(c) c.classList.add('on'); }
+    if(noEval) return;
+    if(Object.keys(Sc.pl).length >= Sc.need){ if(Sc.onFull) Sc.onFull(() => evaluate()); else at(250, evaluate); }
+    else S.busy = false;
+  });
+}
+function targetNameOf(mid){ const e = Sc.pl[mid]; return e ? Sc.targets[e.t].name : '—'; }
+function studentText(){
+  const q = Sc.q, pl = Sc.pl, ids = Object.keys(pl);
+  if(q.type === 'gmark'){ const c = pl.flag.extra.col; return 'Bayrağı ' + (c+1) + '. sütuna (' + c + '–' + (c+1) + ' dk) bıraktı'; }
+  if(q.type === 'design') return 'Seçilen kaplar: ' + ids.map(k => k.slice(5)).join(' ve ');
+  if((q.type === 'heat' || q.type === 'ice') && q.mode === 'medals') return ['m1', 'm2', 'm3'].map((k, i) => ['🥇', '🥈', '🥉'][i] + ' ' + (pl[k] ? pl[k].t.slice(2).replace('eq', 'EŞİT') : '—')).join(', ');
+  if(q.type === 'heat' || q.type === 'ice') return 'Kupayı ' + targetNameOf('cup') + ' hedefine bıraktı';
+  if(q.type === 'gcard') return ids[0].slice(5) + ' grafiğini seçti';
+  return ids.filter(k => Sc.ans[k] !== pl[k].t).map(k => Sc.movers[k].name + ' → ' + targetNameOf(k)).join('; ') || 'Yanlış yerleştirme';
+}
+function wrongNote(res){
+  const q = Sc.q;
+  if(q.type === 'gmark'){ const c = Sc.pl.flag.extra.col, pts = q.pts; let sl = 0; for(let i=1;i<pts.length;i++){ if(pts[i][0] >= c + .5){ sl = pts[i][1] - pts[i-1][1]; break; } }
+    if(q.kind === 'plateau') return 'Bu sütunda sıcaklık hâlâ değişiyor; sıcaklığın sabit kaldığı düz bölümü ara.';
+    return Math.abs(sl) < .01 ? 'Bu sütunda sıcaklık sabit; ama sorulan an burası değil. Eğik ile düz çizginin birleştiği yere bak.' : 'Bu sütunda sıcaklık hâlâ değişiyor. Sorulan anı düz çizginin başladığı/bittiği yerde ara.'; }
+  if(q.type === 'design'){
+    const ids = Object.keys(Sc.pl).map(k => k.slice(5)), a = Sc.vlist.filter(x => x.v.id === ids[0])[0].v, b = Sc.vlist.filter(x => x.v.id === ids[1])[0].v, df = [];
+    if((a.ident || a.sub) !== (b.ident || b.sub)) df.push('madde cinsi'); if(a.m !== b.m) df.push('miktar'); if(a.T0 !== b.T0) df.push('ilk sıcaklık'); if(a.heaters !== b.heaters) df.push('ısıtıcı sayısı');
+    return df.length > 1 ? 'Seçtiğin kaplarda birden çok şey farklı (' + df.join(', ') + '). Yalnızca sınanan değişken farklı olmalı.' : 'Bu çiftte yalnızca ' + (df[0] || '—') + ' farklı ama hipotez başka bir değişkeni sınıyor.'; }
+  if(q.type === 'gcard') return 'Bu grafik, termometrelerin yükselişine uymuyor. Deneyi izleyip çizgilerin eğimine bak.';
+  if(q.type === 'vars') return res.wrong.length + ' kart yanlış kutuda; geri döndü. Sınanan ve ölçülen değişkeni ayır.';
+  if(q.type === 'bins') return res.wrong.length + ' olay yanlış kutuda; geri döndü. Katı→sıvı→gaz yönünde ısı alınır.';
+  if(q.mode === 'medals') return res.wrong.length + ' madalya yerinde değil; geri döndü. Termometrelere/deneye göre sırala.';
+  const mt = q.metric || 'melt';
+  if(q.type === 'ice') return 'Bu top beklenen derinlikte batmadı. Batma derinliklerini karşılaştır.';
+  if(Sc.pl.cup && Sc.pl.cup.t === 'v-eq') return 'Kaplar arasında fark var; termometrelere ve zaman sayacına bak.';
+  if(q.answer.t === 'v-eq') return 'Bu niceliği karşılaştır: aslında hepsi aynı olabilir.';
+  return ({ dT:'Bu kapta sıcaklık artışı (ΔT) sorulan gibi değil.', Tfin:'Bu kabın son sıcaklığı sorulan gibi değil.', tReach:'Bu kap sorulan süreye uymuyor; süre etiketlerine bak.', Qreach:'Bu kap daha çok ısı alan değil; süreye ve ısı etiketine bak.', Q:'Isı eşit mi, farklı mı? Deneye bak.', Tboil:'Kaynarken sıcaklığı karşılaştır.' })[mt] || 'Bu kap sorulan gibi değil.';
+}
+function xAt(mid){ const e = Sc.pl[mid]; if(!e) return; const t = Sc.targets[e.t]; if(!t) return; const r = rc(t.node); if(t.cols) { const cw = r.w / t.cols; xMark(r.l + (e.extra.col + .5) * cw, r.cy); } else xMark(r.cx, r.cy); }
+function evaluate(){
+  if(Sc.done) return; S.busy = true; const res = Sc.check(Sc.pl); Sc.attempts++;
+  if(res.ok){ finishQuestion(); return; }
+  if(!Sc.firstWrong) Sc.firstWrong = studentText();
+  res.wrong.forEach(xAt); Snd.bad(); shakeApp(); R.combo = 0; setCombo(); renderHearts(); mood('sad', 'Hmm, olmadı!');
+  const note = wrongNote(res); say(note, 'bad');
+  if(Sc.q.type === 'gmark'){ const e = Sc.pl.flag; const c = Sc.targets.gx.node.querySelector('.gcell[data-col="' + e.extra.col + '"]'); if(c){ c.classList.remove('on'); c.classList.add('badc'); at(1100, () => c.classList.remove('badc')); } }
+  Object.keys(Sc.pl).forEach(mid => { if(res.wrong.indexOf(mid) < 0){ const m = Sc.movers[mid]; m.locked = true; m.node.classList.add('locked'); } });
+  at(700, () => { res.wrong.forEach(mid => unplace(Sc.movers[mid])); });
+  const after = () => {
+    if(Sc.attempts >= 3){ at(900, revealAnswer); return; }
+    S.busy = false;
+  };
+  if(!Sc.ran && Sc.autoRun){ at(1500, () => { say('Deneyi senin için çalıştırıyorum: sonuçlara bak!', ''); Sc.autoRun(() => at(500, after)); }); }
+  else at(1200, after);
+}
+function revealAnswer(){
+  const q = Sc.q; Sc.revealed = true; S.busy = true; say('Üç hata oldu. Doğru cevabı gösteriyorum!', 'bad');
+  document.querySelectorAll('.mv.ghost').forEach(n => n.parentNode && n.parentNode.removeChild(n));
+  const jobs = [];
+  if(q.type === 'gmark'){ jobs.push([Sc.movers.flag, Sc.targets.gx, { col:q.accept[Math.floor(q.accept.length/2)] }]); }
+  else if(q.type === 'design'){ const pr = q.valid[0]; pr.forEach((id, i) => jobs.push([Sc.movers['card-' + id], Sc.targets['slot' + (i+1)], null])); }
+  else Object.keys(Sc.ans).forEach(mid => { const cur = Sc.pl[mid]; if(!cur || cur.t !== Sc.ans[mid]) jobs.push([Sc.movers[mid], Sc.targets[Sc.ans[mid]], null]); });
+  jobs.forEach(j => { if(Sc.pl[j[0].id]) unplace(j[0]); j[0].locked = false; });
+  jobs.forEach((j, i) => at(500 + i * 650, () => { j[0].node.classList.remove('locked'); placeAnswer(j[0], j[1], j[2], null, true); }));
+  const tEnd = 500 + jobs.length * 650 + 500;
+  at(tEnd, () => { if(!Sc.ran && Sc.autoRun) Sc.autoRun(() => at(600, finishQuestion)); else finishQuestion(); });
+}
+function nextHint(){
+  const q = Sc.q;
+  if(Sc.runAct && !Sc.ran && Sc.movers.run) return { m:Sc.movers.run, t:Sc.targets.bench, say:'💡 Önce ısıtıcıyı/kıskacı deney tezgâhına sürükle ve izle!' };
+  if(q.type === 'gmark') return { m:Sc.movers.flag, t:Sc.targets.gx, say:'💡 Bayrağı parlayan sütunlardan birine bırak!' };
+  if(q.type === 'design'){ const pr = q.valid[0]; const id = pr.filter(x => !Sc.pl['card-' + x])[0] || pr[0]; return { m:Sc.movers['card-' + id], t:Sc.targets['slot' + (pr.indexOf(id) + 1)], say:'💡 Parlayan kabı parlayan yuvaya bırak!' }; }
+  const bad = Object.keys(Sc.ans).filter(mid => !Sc.pl[mid] || Sc.pl[mid].t !== Sc.ans[mid] || !Sc.movers[mid].locked)[0];
+  if(!bad) return null; return { m:Sc.movers[bad], t:Sc.targets[Sc.ans[bad]], say:'💡 Parlayan nesneyi parlayan yere bırak!' };
+}
+$('btnHint').addEventListener('click', () => {
+  if(S.phase !== 'q' || !Sc || Sc.done || S.busy) return; Snd.resume();
+  if(Sc.hint === 0){ say('💡 ' + Sc.q.hint, ''); addScore(-10); mood('happy', 'İpucu!'); Sc.hint = 1; }
+  else if(Sc.hint === 1){ const h = nextHint(); if(h){ h.t.node.classList.add('glow'); at(3200, () => h.t.node.classList.remove('glow')); h.m.node.classList.add('sel'); at(3200, () => { if(S.sel !== h.m) h.m.node.classList.remove('sel'); }); say(h.say, ''); addScore(-20); Sc.hint = 2; } }
+});
+
+/* ====== Soru akışı ====== */
+const PER = 4, NST = 5, TOTAL = PER * NST;
+function meta(k){ return { unit:C.unit, topic:C.topic, outcome:C.outcomes[k], sourceRef:C.sourceRef }; }
+function beginGame(){
+  if(S.phase !== 'intro') return; Snd.resume();
+  R = { answers:[], score:0, combo:0, maxCombo:0, badges:[], tests:0, firstOk:{1:0,2:0,3:0,4:0,5:0}, st:null };
+  Clock.start(); setScore(0); setCombo(); buildBg(); showStageIntro(1);
+}
+function showStageIntro(n){
+  S.phase = 'stageIntro'; CURST = n; updateSteps(); clearSel(); cancelDrag(); clearScene(); Sc = null; const st = C.stations[n-1];
+  $('stgNum').textContent = st.icon; $('stgT').textContent = n + '. İstasyon: ' + st.name; $('stgP').textContent = st.howto; showScreen('scStage'); Snd.whoosh();
+}
+$('btnStage').addEventListener('click', () => { if(S.phase === 'stageIntro') startStation(CURST); });
+function updateSteps(){ document.querySelectorAll('.step').forEach(s => { const n = +s.dataset.s; s.classList.toggle('cur', n === CURST); s.classList.toggle('done', n < CURST); s.setAttribute('aria-current', n === CURST ? 'step' : 'false'); }); }
+function startStation(n){
+  showScreen(null); const st = C.stations[n-1]; Snd.resume(); mood('happy', n + '. istasyon başlıyor!'); layout();
+  R.st = { n:n, qs:shuffle(st.pool).slice(0, st.pick), i:0 }; nextQuestion();
+}
+function qNumber(){ return (R.st.n - 1) * PER + R.st.i + 1; }
+function nextQuestion(){
+  const q = R.st.qs[R.st.i]; S.phase = 'q'; S.busy = false; clearScene();
+  Sc = { q:q, movers:{}, targets:{}, pl:{}, need:1, ans:null, attempts:0, firstWrong:'', done:false, hint:0, ran:false, running:false, runs:0, revealed:false, vlist:[], check:null, runAct:null, autoRun:null, onFull:null, tutor:null, gp:null, relayout:null };
+  $('qTag').textContent = 'Deney ' + qNumber() + '/' + TOTAL + ' · ' + C.stations[R.st.n-1].name; $('qText').textContent = q.prompt;
+  $('work').dataset.qid = q.id; $('qBox').hidden = false; $('hearts').hidden = false; $('fbBox').hidden = true; $('board').className = '';
+  renderHearts(); $('btnHint').disabled = false;
+  layout(); BUILD[q.type](q);
+  if(Sc.runAct && q.type !== 'ice') Sc.autoRun = cb => animateRun(Sc.vlist, q, { cool:q.token === 'cooler' }, cb);
+  if(q.type === 'ice') Sc.autoRun = cb => iceDrop(cb);
+  layout();
+  if(qNumber() === 1) showTutor();
+  say('');
+}
+function renderHearts(){ const h = $('hearts'); h.innerHTML = ''; for(let i=0;i<3;i++) h.appendChild(el('i', i < 3 - wrongs() ? '' : 'off', '🔥')); h.setAttribute('aria-label', 'Kalan hak: ' + (3 - wrongs())); }
+function wrongs(){ return Math.max(0, Sc.attempts - (Sc.done && !Sc.revealed ? 1 : 0)); }
+function finishQuestion(){
+  const q = Sc.q; Sc.done = true; S.busy = true; say(''); clearSel();
+  const first = (Sc.attempts === 1 && !Sc.revealed);
+  const pts = Sc.revealed ? 0 : (first ? 100 + Math.min(R.combo, 5)*10 : (Sc.attempts === 2 ? 50 : 25));
+  const bx = rc($('board'));
+  if(first){ R.combo++; R.maxCombo = Math.max(R.maxCombo, R.combo); R.firstOk[R.st.n]++; if(R.combo >= 5) giveBadge('combo'); } else R.combo = 0;
+  setCombo(); if(pts) addScore(pts, bx.cx, bx.b + 14); Snd.good(); Snd.win(); confetti(first ? 18 : 8); mood(first ? 'cheer' : 'happy', first ? 'Harika deney!' : (Sc.revealed ? 'Şimdi anladın!' : 'Doğru!'));
+  if(first && R.combo >= 3) erupt(false);
+  const tg = Object.keys(Sc.targets).map(k => Sc.targets[k]).filter(x => x.node && !x.cols && !x.rail)[0]; if(tg){ const r = rc(tg.node); burst(r.cx, r.cy, null, 16); }
+  Object.keys(Sc.pl).forEach(mid => { const m = Sc.movers[mid]; if(m){ m.node.classList.add('locked'); } });
+  R.answers.push({ id:q.questionId, ok:first, qText:q.prompt, student:first ? 'Doğru yapıldı' : (Sc.firstWrong || 'Deney çözülemedi'), correct:q.correctText, meta:meta(q.outcomeKey), explanation:q.explanation });
+  $('qBox').hidden = true; $('hearts').hidden = true; $('fbBox').hidden = false; $('board').className = first ? 'okb' : 'nob';
+  $('fbText').textContent = (first ? '✓ Harika! ' : (Sc.revealed ? '✗ Doğrusu: ' : '✓ Doğru! ')) + q.explanation;
+  const nb = $('btnNext'); nb.textContent = R.st.i >= PER - 1 ? 'İstasyonu Bitir' : 'Sonraki Deney'; $('btnHint').disabled = true; try{ nb.focus({preventScroll:true}); }catch(e){}
+  S.phase = 'fb'; S.busy = false;
+}
+$('btnNext').addEventListener('click', () => {
+  if(S.phase !== 'fb') return; R.st.i++;
+  if(R.st.i >= R.st.qs.length){ stationDone(); return; }
+  Snd.whoosh(); nextQuestion();
+});
+function stationDone(){
+  const n = R.st.n, f = R.firstOk[n]; S.phase = 'stageDone'; clearScene(); clearAllT(); S.busy = true;
+  if(f === PER) giveBadge('s' + n);
+  const m = $('medals'); m.innerHTML = ''; for(let i=0;i<PER;i++){ const s = el('span', i < f ? '' : 'off', n % 2 ? '🔥' : '🧊'); s.style.animationDelay = (i*.12) + 's'; m.appendChild(s); }
+  m.setAttribute('aria-label', 'İlk denemede doğru: ' + f + '/' + PER);
+  $('doneT').textContent = n + '. İstasyon tamam!'; $('doneP').textContent = 'İlk denemede ' + f + '/' + PER + ' doğru. ' + (n < NST ? 'Sıradaki istasyon: ' + C.stations[n].name + '.' : 'Son sonuçlar hazırlanıyor!');
+  $('btnDone').textContent = n < NST ? 'Devam' : 'Sonucu Gör'; badgesHTML($('doneBadges')); showScreen('scDone'); Snd.fan(); confetti(f >= 3 ? 40 : 22); mood('cheer'); erupt(true);
+}
+$('btnDone').addEventListener('click', () => { if(S.phase !== 'stageDone') return; if(CURST >= NST){ S.phase = 'advancing'; finishGame(); } else showStageIntro(CURST + 1); });
+
+/* ====== Sonuç ====== */
+function calcStars(c, t){ const pct = t > 0 ? (c/t)*100 : 0; return pct >= CFG.stars.s3 ? 3 : pct >= CFG.stars.s2 ? 2 : pct >= CFG.stars.s1 ? 1 : 0; }
+function buildResult(){
+  const answers = R.answers.map(a => a.ok ? { questionId:a.id, isCorrect:true } :
+    { questionId:a.id, isCorrect:false, questionText:a.qText, studentAnswer:a.student, correctAnswer:a.correct, unit:a.meta.unit, topic:a.meta.topic, outcome:a.meta.outcome, sourceRef:a.meta.sourceRef, explanation:a.explanation });
+  const c = R.answers.filter(a => a.ok).length, w = R.answers.length - c;
+  return { gameId:CFG.gameId, gameVersion:CFG.gameVersion, grade:S.ctx.grade, gameName:CFG.gameName, subjectId:S.ctx.subjectId, subjectName:S.ctx.subjectName,
+    stars:calcStars(c, answers.length), correctCount:c, wrongCount:w, durationMs:Clock.value(), answers:answers };
+}
+function validResult(p){
+  if(!p || [0,1,2,3].indexOf(p.stars) < 0) return false;
+  if(!(Number.isInteger(p.durationMs) && p.durationMs >= 0)) return false;
+  if(p.correctCount + p.wrongCount !== p.answers.length || p.answers.length !== CFG.totalQuestions) return false;
+  const seen = {};
+  for(let i=0;i<p.answers.length;i++){ const a = p.answers[i]; if(!a.questionId || seen[a.questionId]) return false; seen[a.questionId] = 1;
+    if(a.isCorrect === false){ const f = ['questionText','studentAnswer','correctAnswer','unit','topic','outcome','sourceRef']; for(let j=0;j<f.length;j++) if(!a[f[j]]) return false; } }
+  return true;
+}
+function finishGame(){
+  if(S.resultSent) return; S.phase = 'finished'; Clock.stop(); clearAllT(); cancelDrag();
+  if(R.answers.length === TOTAL && R.answers.every(a => a.ok)) giveBadge('perfect');
+  const payload = buildResult();
+  if(!validResult(payload)){ showError('Sonuç oluşturulamadı. Lütfen oyunu yeniden dene.', false); return; }
+  if(S.mode === 'demo'){ showDemoResult(payload); return; }
+  S.resultSent = true; S.resultMsg = envelope('game.completed', payload);
+  $('sentSpin').hidden = false; $('sentT').textContent = 'Sonuç gönderildi'; $('sentMsg').textContent = 'Kaydediliyor…'; $('btnResend').hidden = true; badgesHTML($('sentBadges')); showScreen('scSent'); Snd.fan(); confetti(30);
+  if(!sendToApp(S.resultMsg)){ $('sentSpin').hidden = true; $('sentT').textContent = 'Sonuç iletilemedi'; $('sentMsg').textContent = 'Sonuç uygulamaya iletilemedi. Tekrar göndermeyi dene.'; $('btnResend').hidden = false; try{ $('btnResend').focus(); }catch(e){} }
+  S.phase = 'sent';
+}
+$('btnResend').addEventListener('click', () => {
+  if(!S.resultMsg || S.phase !== 'sent') return;
+  if(sendToApp(S.resultMsg)){ $('sentSpin').hidden = false; $('sentT').textContent = 'Sonuç gönderildi'; $('sentMsg').textContent = 'Kaydediliyor…'; $('btnResend').hidden = true; }
+});
+function showDemoResult(p){
+  const st = $('stars'); st.innerHTML = ''; for(let i=0;i<3;i++){ const s = el('span', i < p.stars ? '' : 'off', '⭐'); s.style.animationDelay = (i*.15) + 's'; st.appendChild(s); } st.setAttribute('aria-label', p.stars + ' yıldız');
+  $('rC').textContent = '✓ Doğru: ' + p.correctCount; $('rW').textContent = '✗ Yanlış: ' + p.wrongCount; $('rT').textContent = '⏱ ' + Math.round(p.durationMs/1000) + ' sn'; $('rR').textContent = '🎓 ' + rank(p.correctCount); badgesHTML($('resBadges'));
+  const rv = $('review'); rv.innerHTML = ''; const wr = p.answers.filter(a => !a.isCorrect);
+  wr.forEach(a => { const li = el('li'); li.appendChild(el('b', null, a.correctAnswer)); li.appendChild(document.createTextNode(' — ' + a.explanation)); rv.appendChild(li); });
+  $('reviewBox').hidden = wr.length === 0; $('resT').textContent = p.stars >= 2 ? 'Baş bilim insanı!' : (p.stars === 1 ? 'İyi gidiyorsun!' : 'Bir daha dene!');
+  showScreen('scRes'); if(p.stars >= 1){ Snd.fan(); confetti(p.stars === 3 ? 50 : 28); } else Snd.bad();
+  S.phase = 'finished';
+}
+$('btnAgain').addEventListener('click', () => { if(S.mode !== 'demo' || S.phase !== 'finished') return; R = null; clearAllT(); clearScene(); Sc = null; S.phase = 'intro'; CURST = 0; updateSteps(); setScore(0); showStart(); });
+
+/* ====== Başlatma / el sıkışma ====== */
+$('btnStart').addEventListener('click', () => { if(S.phase !== 'intro' || !S.mode) return; beginGame(); });
+$('btnRetry').addEventListener('click', () => { if(S.phase === 'error') bootstrap(); });
+$('btnExit').addEventListener('click', () => { try{ window.close(); }catch(e){} try{ if(history.length > 1) history.back(); }catch(e){} });
+function startDemo(){ S.mode = 'demo'; S.ctx = { runId:'demo-run', nonce:'demo-nonce', grade:CFG.grade, subjectId:CFG.subjectId, subjectName:CFG.subjectName, reducedMotion:false }; S.resultMsg = null; S.resultSent = false; applyRM(); $('demoTag').hidden = false; $('btnStart').textContent = 'Deneme Modunda Başla'; showStart(); }
+function bootstrap(){ clearT('hs'); S.phase = 'boot'; S.mode = null; S.readyIds = {}; S.bridgeTry = 0; showScreen('scLoad'); tryReady(); }
+function tryReady(){
+  if(sendReady()){ S.mode = 'native'; S.phase = 'waitInit'; $('btnStart').textContent = 'Başla'; setT('hs', () => { if(S.phase === 'waitInit') showError('Uygulamaya bağlanılamadı. Tekrar deneyebilir veya çıkabilirsin.', true); }, 10000); return; }
+  S.bridgeTry++; if(S.bridgeTry < 10){ setT('hs', tryReady, 300); return; }
+  startDemo();
+}
+buildBg(); updateSteps(); layout();
+if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => { layout(); bootstrap(); }); else { layout(); bootstrap(); }
+
+})();
+</script>
+</body>
+</html>

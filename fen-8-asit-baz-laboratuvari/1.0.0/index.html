@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; media-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Asit-Baz Laboratuvarı</title>
+<style>
+:root{
+  --ink:#fff; --mute:#cfe3ff; --cyan:#3fe0ff; --yel:#ffe14d; --pink:#ff4fa3; --good:#37e39a; --bad:#ff5d5d; --panel:rgba(14,28,72,.78); --line:rgba(190,220,255,.35);
+  --u:30px;
+  --font:"Trebuchet MS","Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;overflow:hidden;background:#17375e;color:var(--ink);font-family:var(--font);-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+button{font-family:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* ============ ARKA PLAN: laboratuvar odası ============ */
+#bg{position:fixed;top:0;right:0;bottom:0;left:0;overflow:hidden;z-index:0}
+#bg .wall{position:absolute;left:0;right:0;top:0;height:60%;
+  background:radial-gradient(ellipse at 50% 120%,rgba(255,255,255,.28),transparent 60%),linear-gradient(180deg,#43c6e8 0%,#78a8ff 62%,#9a8cff 100%)}
+#bg .tiles{position:absolute;left:0;right:0;top:0;height:60%;opacity:.28;
+  background:repeating-linear-gradient(90deg,transparent 0 46px,rgba(255,255,255,.7) 46px 48px),repeating-linear-gradient(0deg,transparent 0 46px,rgba(255,255,255,.7) 46px 48px)}
+#bg .vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,rgba(8,16,60,.55) 100%);pointer-events:none;z-index:6}
+#bg .win{position:absolute;left:2.5%;top:60px;width:15%;min-width:84px;height:calc(var(--tt,150px) - 78px);border-radius:10px;background:#fff;padding:6px;box-shadow:0 8px 18px rgba(0,30,90,.35);z-index:1}
+#bg .win .sky{position:absolute;inset:6px;border-radius:6px;overflow:hidden;background:linear-gradient(#59c8ff,#c9f0ff)}
+#bg .win .sun{position:absolute;right:10%;top:14%;width:28%;aspect-ratio:1;border-radius:50%;background:radial-gradient(#fff,#ffe872 55%,transparent 72%);animation:sunp 4s ease-in-out infinite}
+#bg .win .cl{position:absolute;height:16%;border-radius:20px;background:#fff;opacity:.9;animation:cloud linear infinite}
+#bg .win .bar{position:absolute;background:#fff;z-index:2}
+@keyframes sunp{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.18);opacity:1}}
+@keyframes cloud{from{transform:translateX(-120%)}to{transform:translateX(420%)}}
+#bg .shelf{position:absolute;right:1.5%;width:15%;min-width:84px;height:7px;border-radius:3px;background:linear-gradient(#e0a867,#a8672f);box-shadow:0 5px 8px rgba(0,20,80,.35);z-index:1}
+#bg .sb{position:absolute;bottom:100%;display:block}
+#bg .sb svg{width:100%;height:100%;display:block;overflow:visible}
+#bg .poster{position:absolute;left:19%;top:56px;width:7%;min-width:42px;aspect-ratio:3/4;background:#fffbe9;border-radius:4px;padding:4px;box-shadow:0 4px 10px rgba(0,30,90,.3);transform:rotate(-3deg);z-index:1;display:grid;grid-template-columns:repeat(6,1fr);gap:2px;align-content:start}
+#bg .poster i{display:block;aspect-ratio:1;border-radius:2px}
+#bg .lamp{position:absolute;left:33%;top:0;width:10%;min-width:50px;transform-origin:50% 0;animation:sway 6s ease-in-out infinite;z-index:5}
+#bg .lamp .cord{width:2px;height:20px;margin:0 auto;background:#223}
+#bg .lamp .shade{width:44%;height:16px;margin:0 auto;border-radius:30px 30px 4px 4px;background:linear-gradient(#ffd24d,#e59a00)}
+#bg .lamp .cone{position:absolute;left:-30%;top:34px;width:160%;height:240px;background:linear-gradient(rgba(255,244,190,.45),rgba(255,244,190,0));clip-path:polygon(40% 0,60% 0,100% 100%,0 100%);mix-blend-mode:screen}
+@keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+#bg .clock{position:absolute;right:20%;top:58px;width:5.5%;min-width:34px;aspect-ratio:1;border-radius:50%;background:#fff;border:3px solid #7a4a1d;box-shadow:0 4px 8px rgba(0,30,90,.3);z-index:1}
+#bg .clock b{position:absolute;left:50%;bottom:50%;width:2px;background:#222;transform-origin:50% 100%;border-radius:2px}
+#bg .clock .h{height:26%;transform:rotate(40deg)} #bg .clock .m{height:36%;animation:ticks 60s linear infinite}
+#bg .clock .s{height:40%;background:#e63946;animation:ticks 6s steps(6) infinite}
+@keyframes ticks{to{transform:rotate(360deg)}}
+#bg .table{position:absolute;left:0;right:0;bottom:0;top:var(--tt,150px);background:linear-gradient(180deg,#f0b574 0%,#c98544 22%,#9a5a2a 100%);box-shadow:0 -10px 24px rgba(0,20,80,.4);overflow:hidden;z-index:2}
+#bg .table::before{content:"";position:absolute;left:-20%;right:-20%;top:0;bottom:-40%;
+  background:repeating-linear-gradient(90deg,transparent 0 58px,rgba(70,30,0,.22) 58px 60px),repeating-linear-gradient(0deg,rgba(255,255,255,.06) 0 3px,transparent 3px 11px);
+  transform-origin:50% 0;transform:perspective(260px) rotateX(38deg)}
+#bg .table::after{content:"";position:absolute;left:0;right:0;top:0;height:18px;background:linear-gradient(rgba(255,255,255,.55),transparent)}
+#bg .mat{position:absolute;left:5%;right:5%;top:calc(var(--tt,150px) + 8px);bottom:6px;border-radius:18px;background:linear-gradient(180deg,rgba(20,64,98,.55),rgba(14,40,80,.7));box-shadow:inset 0 0 22px rgba(0,0,0,.35),0 2px 0 rgba(255,255,255,.2);z-index:3}
+#bg .burner{position:absolute;left:1%;bottom:8px;width:5.5%;min-width:34px;z-index:4}
+#bg .flame{position:absolute;left:50%;bottom:78%;width:42%;height:70%;transform:translateX(-50%);transform-origin:50% 100%;background:radial-gradient(ellipse at 50% 80%,#fff 0,#7fd6ff 25%,#3b6dff 55%,transparent 72%);border-radius:50% 50% 40% 40%;filter:blur(1px);animation:flick .18s ease-in-out infinite alternate}
+@keyframes flick{from{transform:translateX(-50%) scaleY(.88) scaleX(1.05)}to{transform:translateX(-50%) scaleY(1.1) scaleX(.9)}}
+#bg .dust{position:absolute;border-radius:50%;background:rgba(255,255,255,.85);animation:dust linear infinite;z-index:5}
+@keyframes dust{0%{transform:translate(0,0);opacity:0}15%{opacity:.8}85%{opacity:.7}100%{transform:translate(var(--dx),var(--dy));opacity:0}}
+#bg .bub{position:absolute;border-radius:50%;border:1.5px solid rgba(255,255,255,.7);background:radial-gradient(circle at 30% 25%,rgba(255,255,255,.7),rgba(255,255,255,.1));animation:rise ease-in infinite;z-index:4}
+@keyframes rise{0%{transform:translate(0,0) scale(.5);opacity:0}15%{opacity:1}100%{transform:translate(var(--dx),-80px) scale(1.1);opacity:0}}
+
+/* ============ DÜZEN ============ */
+#app{position:fixed;top:0;right:0;bottom:0;left:0;z-index:2;display:grid;grid-template-rows:auto auto minmax(0,1fr);gap:6px;
+  padding:max(6px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left))}
+#top{position:relative;display:flex;align-items:center;gap:8px;min-height:50px;padding:3px 8px;border-radius:16px;background:var(--panel);border:1px solid var(--line);backdrop-filter:blur(4px);z-index:8}
+#mascotBox{position:relative;flex:none;width:44px;height:44px}
+#mascot{width:44px;height:44px;overflow:visible}
+#bubble{position:absolute;left:50px;top:8px;z-index:12;background:#fff;color:#1d2a66;border-radius:12px;padding:4px 10px;font:800 13px/1.2 var(--font);white-space:nowrap;box-shadow:0 4px 14px rgba(0,0,0,.35);opacity:0;transform:translateX(-8px);pointer-events:none;transition:opacity .2s,transform .2s}
+#bubble.on{opacity:1;transform:none}
+#steps{display:flex;gap:6px;list-style:none;margin:0;padding:0;flex:1;justify-content:center;min-width:0}
+.step{display:flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(255,255,255,.1);border:2px solid transparent;font:800 12px/1.1 var(--font);color:var(--mute);white-space:nowrap}
+.step b{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.18);font-size:12px}
+.step.cur{color:#fff;border-color:var(--cyan);background:rgba(63,224,255,.18);animation:glow 1.6s ease-in-out infinite}
+.step.done{color:#fff} .step.done b{background:var(--good);color:#06402a}
+@keyframes glow{0%,100%{box-shadow:0 0 8px rgba(63,224,255,.4)}50%{box-shadow:0 0 20px rgba(63,224,255,.9)}}
+#hud{display:flex;align-items:center;gap:8px;flex:none}
+#score{position:relative;min-width:92px;height:30px;padding:0 12px;border-radius:999px;background:rgba(0,0,0,.4);border:2px solid var(--line);display:grid;place-items:center;font:900 14px/1 var(--font);color:var(--yel)}
+#score.pop{animation:spop .4s}
+@keyframes spop{50%{transform:scale(1.18)}}
+#combo{min-width:44px;text-align:center;font:900 14px/1 var(--font);color:#ffb347;opacity:0;transform:scale(.6);transition:opacity .2s,transform .2s}
+#combo.on{opacity:1;transform:scale(1)}
+.ibtn{width:44px;height:44px;border-radius:14px;border:2px solid var(--line);background:rgba(255,255,255,.12);display:grid;place-items:center;flex:none;font-size:20px}
+.ibtn[aria-pressed="true"]{opacity:.55;border-style:dashed}
+
+#board{position:relative;justify-self:center;width:min(62%,720px);min-height:54px;padding:6px 12px;border-radius:12px;
+  background:linear-gradient(160deg,#2c6b52,#1b4a3a);border:5px solid #b97a3e;box-shadow:0 6px 0 #7a4a1d,0 12px 20px rgba(0,20,60,.4),inset 0 0 22px rgba(0,0,0,.35);display:flex;align-items:center;gap:10px;z-index:7}
+#board::after{content:"";position:absolute;left:12px;right:12px;bottom:-12px;height:7px;border-radius:0 0 8px 8px;background:#e8ddc8;box-shadow:0 2px 0 rgba(0,0,0,.2);display:none}
+#qBox{flex:1;min-width:0}
+#qTag{display:inline-block;margin-bottom:2px;padding:1px 8px;border-radius:999px;background:var(--yel);color:#3a2b00;font:900 11px/1.4 var(--font)}
+#qText{margin:0;font:800 clamp(12px,2.7vh,17px)/1.25 var(--font);color:#f6fff0;text-shadow:0 1px 0 rgba(0,0,0,.4)}
+#hearts{display:flex;gap:2px;flex:none;font-size:18px}
+#hearts i{font-style:normal;transition:transform .3s,opacity .3s} #hearts i.off{opacity:.25;transform:scale(.6) rotate(-20deg)}
+#fbBox{flex:1;min-width:0;display:flex;align-items:center;gap:10px}
+#fbText{margin:0;flex:1;font:700 clamp(11px,2.3vh,15px)/1.3 var(--font);color:#f6fff0}
+#board.okb{border-color:#37e39a} #board.nob{border-color:#ff8c5d}
+.btn{min-height:46px;min-width:48px;padding:8px 22px;border:0;border-radius:16px;background:linear-gradient(#ffe36e,#ffb400);color:#3a2b00;font:900 17px/1.1 var(--font);box-shadow:0 5px 0 #b57d00,0 0 18px rgba(255,200,0,.5)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #b57d00}
+.btn.alt{background:linear-gradient(#fff,#cfd6ff);box-shadow:0 5px 0 #8a93cc;color:#1d2260}
+
+#bench{position:relative;min-height:0;z-index:4}
+#work{position:absolute;inset:0}
+#say{position:absolute;left:50%;top:0;transform:translateX(-50%);max-width:92%;padding:3px 12px;border-radius:999px;background:rgba(10,24,60,.72);border:1px solid var(--line);font:800 clamp(11px,2.2vh,14px)/1.3 var(--font);text-align:center;opacity:0;transition:opacity .25s;pointer-events:none;z-index:9}
+#say.on{opacity:1} #say.bad{color:#ffb4b4} #say.good{color:#9dffd0}
+#obs{position:absolute;left:1%;top:0;display:flex;flex-direction:column;gap:3px;z-index:9;pointer-events:none}
+#obs span{padding:2px 8px;border-radius:8px;background:rgba(10,24,60,.75);border:1px solid var(--line);font:800 11px/1.3 var(--font);animation:chip .35s}
+@keyframes chip{from{opacity:0;transform:translateX(-12px)}}
+#btnHint{position:absolute;right:1%;bottom:2%;z-index:9;width:48px;height:48px;border-radius:50%;border:3px solid #fff;background:radial-gradient(circle at 30% 25%,#fff7a8,#ffc400);font-size:22px;box-shadow:0 4px 0 #b57d00,0 0 16px rgba(255,214,0,.7);animation:bob 2.4s ease-in-out infinite}
+#btnHint:disabled{opacity:.4;animation:none}
+#tutor{position:absolute;z-index:20;font-size:34px;pointer-events:none;filter:drop-shadow(0 3px 4px rgba(0,0,0,.5))}
+
+/* ============ SAHNE NESNELERİ ============ */
+.mv,.tg{position:absolute;transform:translate(-50%,-50%)}
+.mv{touch-action:none;cursor:grab;z-index:6}
+.mv::before{content:"";position:absolute;top:-8px;right:-8px;bottom:-8px;left:-8px}
+.mv .art{width:100%;height:100%;animation:bob 3s ease-in-out infinite;animation-delay:var(--dl,0s)}
+.mv .art svg{width:100%;height:100%;display:block;overflow:visible;filter:drop-shadow(0 6px 5px rgba(0,0,0,.3))}
+.cap{position:absolute;left:50%;top:100%;transform:translateX(-50%);margin-top:3px;white-space:nowrap;padding:1px 7px;border-radius:8px;background:rgba(10,24,60,.72);font:800 11px/1.3 var(--font);pointer-events:none}
+.mv.sel .art{filter:drop-shadow(0 0 10px var(--yel));animation:none;transform:scale(1.08)}
+.mv.ghosted{opacity:.28} .mv.ghosted .art{animation:none}
+.mv.ghost{position:fixed;z-index:70;pointer-events:none;cursor:grabbing}
+.mv.ghost::before{display:none}
+.mv.ghost .art{animation:none}
+.mv.ghost .cap{display:none}
+.mv.ghost.lift .art{filter:drop-shadow(0 12px 10px rgba(0,0,0,.45))}
+.tg{z-index:3}
+.tg.hl{filter:drop-shadow(0 0 12px var(--cyan)) brightness(1.12)}
+.tg.glow{animation:tglow 1s ease-in-out 3}
+@keyframes tglow{50%{filter:drop-shadow(0 0 18px var(--yel)) brightness(1.2)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.bottle{width:calc(var(--u)*2);height:calc(var(--u)*3.1);min-width:46px;min-height:70px}
+.dropper{width:calc(var(--u)*1.7);height:calc(var(--u)*3.1);min-width:46px;min-height:70px}
+.ribbon{width:calc(var(--u)*1.5);height:calc(var(--u)*2.4);min-width:46px;min-height:60px}
+.flagm{width:calc(var(--u)*1.7);height:calc(var(--u)*3);min-width:46px;min-height:70px}
+.stripm{width:calc(var(--u)*1.3);height:calc(var(--u)*3);min-width:46px;min-height:70px;display:grid;place-items:center}
+.stripm .art{display:grid;place-items:center}
+.strip{width:calc(var(--u)*.62);min-width:18px;height:92%;border-radius:3px;background-color:var(--c);box-shadow:0 3px 5px rgba(0,0,0,.35),inset 0 0 0 2px rgba(255,255,255,.35);transition:background-color .9s ease;position:relative;overflow:hidden}
+.strip::after{content:"";position:absolute;left:0;right:0;top:0;height:32%;background:linear-gradient(rgba(255,255,255,.55),transparent)}
+.beakerm{width:calc(var(--u)*3.2);height:calc(var(--u)*3.2);min-width:80px;min-height:80px}
+.tubeT{width:calc(var(--u)*1.5);height:calc(var(--u)*4);min-width:46px;min-height:100px}
+.beakerT{width:calc(var(--u)*3.6);height:calc(var(--u)*3.6);min-width:90px;min-height:90px}
+.liq{transition:fill .9s ease,transform 1.2s cubic-bezier(.3,.8,.3,1),opacity .9s}
+.paperT{width:calc(var(--u)*5.2);height:calc(var(--u)*2.2);min-width:150px;min-height:62px}
+.paperT .tile{position:absolute;inset:0;border-radius:12px;background:linear-gradient(#fff,#dfe9f5);box-shadow:0 8px 10px rgba(0,0,0,.35),inset 0 0 0 3px rgba(255,255,255,.8)}
+.paperT .paper{position:absolute;left:12%;right:12%;top:26%;bottom:26%;border-radius:4px;background-color:var(--c);transition:background-color 1s ease;box-shadow:0 2px 4px rgba(0,0,0,.35);overflow:hidden}
+.paperT .paper::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.35),transparent 40%,rgba(255,255,255,.25))}
+.paperT .wet{position:absolute;left:46%;top:50%;width:20px;height:20px;margin:-10px;border-radius:50%;background:rgba(255,255,255,.45);transform:scale(0);opacity:0}
+.paperT.wetting .wet{animation:wet 1.2s ease-out forwards}
+@keyframes wet{0%{transform:scale(0);opacity:.9}100%{transform:scale(7);opacity:0}}
+.trayT{width:calc(var(--u)*3.7);height:calc(var(--u)*1.9);min-width:96px;min-height:50px;border-radius:12px;display:grid;place-items:center;text-align:center;font:900 clamp(11px,2.6vh,15px)/1.1 var(--font);border:3px dashed rgba(255,255,255,.8);box-shadow:0 8px 8px rgba(0,0,0,.3),inset 0 0 14px rgba(255,255,255,.25)}
+.trayT.t-asit{background:linear-gradient(#ff7a6b,#d6322a)} .trayT.t-baz{background:linear-gradient(#5aa6ff,#2358d6)} .trayT.t-nötr{background:linear-gradient(#58e0a0,#16915f)} .trayT.t-bazdeğil{background:linear-gradient(#ffb454,#d9650f)}
+.rack{position:absolute;left:50%;top:42%;width:112%;height:32%;transform:translateX(-50%);border-radius:8px;background:linear-gradient(#d99a58,#8d5427);box-shadow:0 6px 8px rgba(0,0,0,.35);z-index:-1}
+.scale{position:absolute;transform:translate(-50%,-50%);width:90%;z-index:3}
+.cells{display:flex;border-radius:12px;overflow:hidden;border:3px solid #fff;box-shadow:0 8px 10px rgba(0,0,0,.35);min-height:44px}
+.sc{flex:1;display:grid;place-items:center;height:max(44px,calc(var(--u)*1.5));font:900 clamp(11px,2.7vh,17px)/1 var(--font);color:#1b1b2f;text-shadow:0 1px 0 rgba(255,255,255,.5);position:relative;border-right:1px solid rgba(255,255,255,.6)}
+.sc:last-child{border-right:0}
+.sc.on{outline:4px solid #fff;outline-offset:-4px;filter:brightness(1.3)}
+.sc.good{animation:scg .8s 2} @keyframes scg{50%{filter:brightness(1.7)}}
+.zone{display:flex;margin-top:3px;font:900 clamp(9px,2vh,12px)/1.2 var(--font);text-align:center}
+.zone i{font-style:normal;padding:1px 0;border-radius:6px;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.5)}
+.zone .za{flex:7;background:#e8483c} .zone .zn{flex:1;background:#27b36a} .zone .zb{flex:7;background:#3a62e0}
+.pin{position:absolute;top:-2px;width:34px;height:40px;margin-left:-17px;transform:translateY(-100%);z-index:4;pointer-events:none;animation:pinin .35s cubic-bezier(.3,1.6,.5,1)}
+.pin b{display:grid;place-items:center;width:34px;height:30px;border-radius:50% 50% 50% 8px;background:#fff;color:#1b1b2f;font:900 14px/1 var(--font);box-shadow:0 3px 6px rgba(0,0,0,.4);border:3px solid var(--pc,#fff)}
+.pin.bad b{--pc:#ff4b4b;color:#c00}.pin.good b{--pc:#2ee88e}
+@keyframes pinin{from{transform:translateY(-220%) scale(.4);opacity:0}}
+.indtube{position:absolute;transform:translate(-50%,-50%);width:calc(var(--u)*1.4);height:calc(var(--u)*3.3);min-width:44px;min-height:90px}
+.meter{position:absolute;transform:translate(-50%,-50%);width:calc(var(--u)*3);min-width:92px;padding:6px 8px;border-radius:12px;background:linear-gradient(#e8edf5,#b9c4d6);box-shadow:0 8px 10px rgba(0,0,0,.35);text-align:center}
+.meter .lcd{display:block;padding:3px 4px;border-radius:6px;background:#1b3328;color:#7dffb2;font:900 clamp(14px,3.4vh,22px)/1 "Courier New",monospace;text-shadow:0 0 6px rgba(125,255,178,.8);letter-spacing:1px}
+.meter small{display:block;margin-top:2px;color:#33425c;font:800 10px/1.2 var(--font)}
+.wire{position:absolute;pointer-events:none;z-index:2}
+.hb{position:fixed;border-radius:50%;border:1.5px solid rgba(255,255,255,.95);background:radial-gradient(circle at 30% 25%,#fff,rgba(255,255,255,.25));pointer-events:none;z-index:66;animation:hrise 1.4s ease-in forwards}
+@keyframes hrise{0%{transform:translate(0,0) scale(.5);opacity:0}15%{opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(1.1);opacity:0}}
+.stream{position:fixed;width:7px;border-radius:4px;transform-origin:50% 0;pointer-events:none;z-index:69;animation:strm .28s ease-out both}
+@keyframes strm{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.drip{position:fixed;width:9px;height:12px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;pointer-events:none;z-index:69;animation:drip .5s ease-in forwards}
+@keyframes drip{from{transform:translateY(0);opacity:1}to{transform:translateY(var(--dy));opacity:.9}}
+.hlbl{position:fixed;font:900 16px/1 var(--font);color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.6);pointer-events:none;z-index:67;animation:ft 1.6s ease-out forwards}
+
+/* ============ EKRANLAR ============ */
+.screen{position:fixed;top:0;right:0;bottom:0;left:0;z-index:30;display:grid;place-items:center;overflow:hidden;padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));background:rgba(8,20,60,.82);backdrop-filter:blur(3px)}
+.card{position:relative;width:min(640px,96vw);max-height:96vh;overflow:auto;text-align:center;padding:14px 22px;border-radius:24px;background:linear-gradient(160deg,rgba(36,84,170,.96),rgba(18,36,100,.97));border:2px solid var(--cyan);box-shadow:0 0 40px rgba(63,224,255,.35)}
+.card h1{margin:4px 0;font:900 clamp(24px,6vh,38px)/1.1 var(--font);background:linear-gradient(90deg,var(--cyan),var(--yel),var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.card h2{margin:4px 0;font:900 clamp(20px,4.6vh,30px)/1.15 var(--font)}
+.card p,.card li{font:700 clamp(12px,2.5vh,16px)/1.4 var(--font);color:#e3edff}
+.card ul{list-style:none;padding:0;margin:8px 0;display:grid;gap:4px;text-align:left}
+.card .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+.demoTag{display:inline-block;margin:4px 0;padding:4px 12px;border-radius:999px;background:var(--pink);color:#3a0a1e;font:900 13px/1.2 var(--font)}
+.spin{width:38px;height:38px;margin:8px auto;border-radius:50%;border:5px solid rgba(255,255,255,.2);border-top-color:var(--cyan);animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.bigNum{display:inline-grid;place-items:center;width:clamp(54px,12vh,84px);height:clamp(54px,12vh,84px);border-radius:50%;background:radial-gradient(circle at 30% 25%,#b6f3ff,#2a7bff);font:900 clamp(28px,7vh,46px)/1 var(--font);box-shadow:0 0 30px rgba(63,224,255,.8);animation:bigIn .7s cubic-bezier(.3,1.6,.5,1) both}
+@keyframes bigIn{0%{transform:scale(0) rotate(-180deg)}100%{transform:scale(1) rotate(0)}}
+.medals{display:flex;gap:6px;justify-content:center;margin:8px 0;font-size:clamp(26px,6.5vh,40px)}
+.medals span{animation:pop .6s cubic-bezier(.3,1.6,.5,1) both}.medals span.off{opacity:.3;filter:grayscale(1)}
+@keyframes pop{0%{transform:scale(.2);opacity:0}70%{transform:scale(1.2)}100%{transform:scale(1)}}
+.stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:6px 0}
+.stat{background:rgba(0,0,0,.3);border-radius:12px;padding:6px 12px;font:800 15px/1.2 var(--font)}
+.badges{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px 0}
+.badge{padding:3px 10px;border-radius:999px;background:linear-gradient(#ffe36e,#ffb400);color:#3a2b00;font:900 12px/1.3 var(--font);animation:pop .6s both}
+#review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
+#review li{background:rgba(0,0,0,.3);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:13px}
+#review b{color:var(--yel)}
+#rotate{z-index:50;background:rgba(8,20,60,.96)}
+.phone{width:56px;height:92px;margin:6px auto;border:5px solid #fff;border-radius:12px;animation:rot 2.4s ease-in-out infinite}
+@keyframes rot{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
+@media (orientation:landscape){#rotate{display:none}}
+#toast{position:fixed;left:50%;top:60px;transform:translate(-50%,-30px);z-index:60;padding:6px 16px;border-radius:999px;background:linear-gradient(#ffe36e,#ffb400);color:#3a2b00;font:900 14px/1.3 var(--font);box-shadow:0 6px 16px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:transform .35s cubic-bezier(.3,1.5,.5,1),opacity .3s}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+
+/* ============ EFEKTLER ============ */
+#fx{position:fixed;top:0;right:0;bottom:0;left:0;pointer-events:none;z-index:65;overflow:hidden}
+.pt{position:absolute;width:8px;height:8px;border-radius:50%;animation:pt .8s ease-out forwards}
+.ft{position:absolute;font:900 18px/1 var(--font);color:var(--yel);text-shadow:0 2px 6px rgba(0,0,0,.7);animation:ft 1s ease-out forwards;white-space:nowrap}
+.ft.bad{color:var(--bad)} .ft.good{color:var(--good)}
+.xmark{position:absolute;width:56px;height:56px;margin:-28px 0 0 -28px;animation:xm .8s ease-out forwards}
+.conf{position:absolute;top:-14px;width:9px;height:14px;animation:fall 1.8s ease-in forwards}
+@keyframes pt{0%{transform:translate(0,0) scale(1);opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(.2);opacity:0}}
+@keyframes ft{0%{transform:translateY(0) scale(.7);opacity:0}15%{opacity:1;transform:translateY(-8px) scale(1.15)}100%{transform:translateY(-50px) scale(1);opacity:0}}
+@keyframes xm{0%{transform:scale(.3);opacity:0}25%{transform:scale(1.15);opacity:1}70%{transform:scale(1);opacity:1}100%{transform:scale(1);opacity:0}}
+@keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:.9}}
+.mascot-happy #mnuc,.mascot-cheer #mnuc{animation:jump .6s}
+.mascot-sad #mnuc{animation:sadw .6s}
+#mascot .wv{animation:wave 2s ease-in-out infinite}
+@keyframes wave{0%,100%{transform:translateX(0)}50%{transform:translateX(-4px)}}
+@keyframes jump{0%,100%{transform:translateY(0)}40%{transform:translateY(-8px) scale(1.08)}}
+@keyframes sadw{0%,100%{transform:rotate(0)}25%{transform:rotate(-10deg)}75%{transform:rotate(10deg)}}
+#app.shake{animation:shake .4s}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(5px)}60%{transform:translateX(-3px)}80%{transform:translateX(2px)}}
+html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition:none!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+@media (max-width:700px),(max-height:380px){
+  #top{min-height:46px;gap:6px;padding:2px 6px}
+  .step span{display:none} .step{padding:3px 6px}
+  #score{min-width:72px;padding:0 8px;font-size:13px}
+  #board{padding:4px 10px;min-height:48px;width:min(78%,720px)}
+  .card{padding:10px 16px}
+  #bg .win,#bg .poster{display:none}
+}
+@media (max-height:340px){ #qTag{display:none} #qText{font-size:12px} }
+</style>
+</head>
+<body>
+<div id="bg" aria-hidden="true"></div>
+
+<div id="app">
+  <header id="top">
+    <div id="mascotBox" class="mascot-idle">
+      <svg id="mascot" viewBox="0 0 60 60" role="img" aria-label="Bobi">
+        <defs><clipPath id="mclip"><path d="M14 8H46L43 48Q43 54 37 54H23Q17 54 17 48Z"/></clipPath>
+          <linearGradient id="mliq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7dffd2"/><stop offset="1" stop-color="#18b6ff"/></linearGradient></defs>
+        <g id="mnuc" style="transform-origin:30px 40px">
+          <path d="M14 8H46L43 48Q43 54 37 54H23Q17 54 17 48Z" fill="rgba(255,255,255,.28)" stroke="#fff" stroke-width="2.2"/>
+          <g clip-path="url(#mclip)"><g class="wv"><rect x="6" y="22" width="48" height="40" fill="url(#mliq)"/></g><circle cx="22" cy="46" r="2.4" fill="rgba(255,255,255,.7)"/><circle cx="37" cy="40" r="1.8" fill="rgba(255,255,255,.7)"/></g>
+          <circle cx="25" cy="30" r="3.2" fill="#fff"/><circle cx="35" cy="30" r="3.2" fill="#fff"/><circle cx="25.6" cy="30.4" r="1.5" fill="#12285e"/><circle cx="35.6" cy="30.4" r="1.5" fill="#12285e"/>
+          <path id="mouth" d="M25 37Q30 42 35 37" fill="none" stroke="#12285e" stroke-width="2" stroke-linecap="round"/>
+          <rect x="12" y="4" width="36" height="5" rx="2.5" fill="#fff"/>
+        </g>
+      </svg>
+      <div id="bubble" role="status" aria-live="polite"></div>
+    </div>
+    <ol id="steps" aria-label="İstasyonlar">
+      <li class="step" data-s="1"><b>1</b><span>Turnusol</span></li>
+      <li class="step" data-s="2"><b>2</b><span>Fenolftalein</span></li>
+      <li class="step" data-s="3"><b>3</b><span>pH</span></li>
+      <li class="step" data-s="4"><b>4</b><span>Nötrleşme</span></li>
+    </ol>
+    <div id="hud">
+      <div id="score" role="img" aria-label="Laboratuvar puanı">⚗ 0</div>
+      <span id="combo" aria-hidden="true"></span>
+      <button class="ibtn" id="btnSfx" type="button" aria-pressed="false" aria-label="Efekt seslerini kapat">🔊</button>
+      <button class="ibtn" id="btnMus" type="button" aria-pressed="false" aria-label="Müziği kapat">🎵</button>
+    </div>
+  </header>
+
+  <section id="board" aria-live="polite">
+    <div id="qBox"><span id="qTag"></span><p id="qText"></p></div>
+    <div id="hearts" role="img" aria-label="Kalan hak"></div>
+    <div id="fbBox" hidden><p id="fbText"></p><button class="btn" id="btnNext" type="button">Devam</button></div>
+  </section>
+
+  <main id="bench">
+    <div id="work"></div>
+    <div id="say" role="status" aria-live="polite"></div>
+    <div id="obs" aria-live="polite"></div>
+    <button id="btnHint" type="button" aria-label="İpucu al">💡</button>
+    <div id="tutor" hidden>👆</div>
+  </main>
+</div>
+<div id="fx" aria-hidden="true"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<section class="screen" id="scLoad" role="dialog" aria-modal="true" aria-labelledby="loadT">
+  <div class="card"><div class="spin" aria-hidden="true"></div><h2 id="loadT">Uygulamaya bağlanılıyor…</h2><p>Lütfen bekle.</p></div>
+</section>
+<section class="screen" id="scStart" role="dialog" aria-modal="true" aria-labelledby="startT" hidden>
+  <div class="card">
+    <div style="font-size:46px" aria-hidden="true">🧪</div>
+    <h1 id="startT">Asit-Baz Laboratuvarı</h1>
+    <p>Bobi ile laboratuvar masasında 4 istasyon, 20 deney! Şişeleri, damlalığı ve kâğıtları tutup sürükle.</p>
+    <ul>
+      <li>🧻 <b>Turnusol:</b> kâğıtlar rengini nasıl değiştirir?</li>
+      <li>💧 <b>Fenolftalein:</b> pembe renk ve kabarcıklar</li>
+      <li>🪜 <b>pH:</b> çözeltileri ölçekte yerine koy</li>
+      <li>⚗️ <b>Nötrleşme:</b> asit ve bazı karıştır</li>
+    </ul>
+    <span class="demoTag" id="demoTag" hidden>Deneme modu — kayıt yapılmaz</span>
+    <div class="row"><button class="btn" id="btnStart" type="button">Başla</button></div>
+  </div>
+</section>
+<section class="screen" id="scStage" role="dialog" aria-modal="true" aria-labelledby="stgT" hidden>
+  <div class="card"><div class="bigNum" id="stgNum">1</div><h2 id="stgT"></h2><p id="stgP"></p><div class="row"><button class="btn" id="btnStage" type="button">Hazırım!</button></div></div>
+</section>
+<section class="screen" id="scDone" role="dialog" aria-modal="true" aria-labelledby="doneT" hidden>
+  <div class="card"><h2 id="doneT">İstasyon tamam!</h2><div class="medals" id="medals" role="img"></div><p id="doneP"></p><div class="badges" id="doneBadges"></div><div class="row"><button class="btn" id="btnDone" type="button">Devam</button></div></div>
+</section>
+<section class="screen" id="scErr" role="alertdialog" aria-modal="true" aria-labelledby="errT" hidden>
+  <div class="card"><h2 id="errT">Bir sorun oluştu</h2><p id="errMsg"></p>
+    <div class="row"><button class="btn" id="btnRetry" type="button">Tekrar Dene</button><button class="btn alt" id="btnExit" type="button">Çıkış</button></div></div>
+</section>
+<section class="screen" id="scSent" role="dialog" aria-modal="true" aria-labelledby="sentT" hidden>
+  <div class="card"><div class="spin" id="sentSpin" aria-hidden="true"></div><h2 id="sentT">Sonuç gönderildi</h2><p id="sentMsg" role="status" aria-live="polite">Kaydediliyor…</p><div class="badges" id="sentBadges"></div>
+    <div class="row"><button class="btn" id="btnResend" type="button" hidden>Tekrar Gönder</button></div></div>
+</section>
+<section class="screen" id="scRes" role="dialog" aria-modal="true" aria-labelledby="resT" hidden>
+  <div class="card">
+    <span class="demoTag">Deneme modu — kayıt yapılmaz</span>
+    <h2 id="resT">Laboratuvar tamam!</h2>
+    <div class="medals" id="stars" role="img" aria-label="Yıldız"></div>
+    <div class="stats"><span class="stat" id="rC"></span><span class="stat" id="rW"></span><span class="stat" id="rT"></span><span class="stat" id="rR"></span></div>
+    <div class="badges" id="resBadges"></div>
+    <div id="reviewBox" hidden><p><b>Tekrar bak:</b></p><ul id="review"></ul></div>
+    <div class="row"><button class="btn" id="btnAgain" type="button">Tekrar Oyna</button></div>
+  </div>
+</section>
+<section class="screen" id="rotate" role="alert"><div class="card"><div class="phone" aria-hidden="true"></div><h2>Cihazını yan çevir</h2><p>Bu oyun yatay ekranda oynanır.</p></div></section>
+
+<script>
+(function(){
+'use strict';
+const TS = 1;   // zaman ölçeği (yalnızca otomasyon testlerinde küçültülür)
+const C = {"gameId":"fen-8-asit-baz-laboratuvari","unit":"8. Sınıf 4. Ünite","topic":"Asitler ve Bazlar","sourceRef":"Kaynakta doğrulanmadı: genel asit-baz bilgisi (8. sınıf ders kitabı yüklenmedi)","outcomes":{"K1":"Asit ve bazların ortak özelliklerini (indikatörlerle ve metallerle davranışları) açıklar (kitapta doğrulanmadı).","K2":"Günlük hayattan çözeltilerin asitlik-bazlık durumunu pH ölçeği ve indikatörlerle değerlendirir (kitapta doğrulanmadı).","K3":"Asit ve bazların nötrleşme tepkimesini açıklar (kitapta doğrulanmadı)."},"subs":{"limon":{"id":"limon","name":"Limon suyu","short":"Limon suyu","kind":"asit","pH":2,"ph":[1,3],"tint":"#ffe14d","cap":"#ff8a00","icon":"🍋"},"sirke":{"id":"sirke","name":"Sirke","short":"Sirke","kind":"asit","pH":3,"ph":[2,4],"tint":"#f2b64a","cap":"#8e44ad","icon":"🍶"},"elma":{"id":"elma","name":"Elma suyu","short":"Elma suyu","kind":"asit","pH":3.5,"ph":[2,4],"tint":"#d9ec62","cap":"#e74c3c","icon":"🍎"},"portakal":{"id":"portakal","name":"Portakal suyu","short":"Portakal suyu","kind":"asit","pH":3.5,"ph":[2,4],"tint":"#ffa63d","cap":"#16a085","icon":"🍊"},"mide":{"id":"mide","name":"Mide özsuyu","short":"Mide özsuyu","kind":"asit","pH":1.5,"ph":[0,2],"tint":"#b9f27a","cap":"#c0392b","icon":"🫧"},"hcl":{"id":"hcl","name":"Hidroklorik asit çözeltisi (HCl)","short":"HCl","kind":"asit","pH":1,"ph":[0,2],"tint":"#ffd2a6","cap":"#e67e22","icon":"HCl"},"sabun":{"id":"sabun","name":"Sabunlu su","short":"Sabunlu su","kind":"baz","pH":10,"ph":[9,11],"tint":"#c9f7e4","cap":"#2980b9","icon":"🧼"},"kabartma":{"id":"kabartma","name":"Kabartma sodası çözeltisi","short":"Kabartma sodası","kind":"baz","pH":8.5,"ph":[8,9],"tint":"#e7f6ff","cap":"#f39c12","icon":"🥄"},"kirec":{"id":"kirec","name":"Kireç suyu","short":"Kireç suyu","kind":"baz","pH":12,"ph":[11,13],"tint":"#f4f1e6","cap":"#27ae60","icon":"⚪"},"naoh":{"id":"naoh","name":"Sodyum hidroksit çözeltisi (NaOH)","short":"NaOH","kind":"baz","pH":13,"ph":[12,14],"tint":"#d6e4ff","cap":"#2c3e50","icon":"NaOH"},"antiasit":{"id":"antiasit","name":"Antiasit (mide ilacı) çözeltisi","short":"Antiasit","kind":"baz","pH":10,"ph":[9,11],"tint":"#ffe3f1","cap":"#8e44ad","icon":"💊"},"su":{"id":"su","name":"Saf su","short":"Saf su","kind":"nötr","pH":7,"ph":[7,7],"tint":"#bfe9ff","cap":"#7f8c8d","icon":"💧"},"seker":{"id":"seker","name":"Şekerli su","short":"Şekerli su","kind":"nötr","pH":7,"ph":[7,7],"tint":"#fff1c9","cap":"#d35400","icon":"🍬"},"tuz":{"id":"tuz","name":"Tuzlu su","short":"Tuzlu su","kind":"nötr","pH":7,"ph":[7,7],"tint":"#e2ecff","cap":"#34495e","icon":"🧂"}},"bands":[{"name":"kırmızı","color":"#ff3b30","from":0,"to":2},{"name":"turuncu","color":"#ff9500","from":3,"to":4},{"name":"sarı","color":"#ffd60a","from":5,"to":6},{"name":"yeşil","color":"#34c759","from":7,"to":7},{"name":"mavi","color":"#2f9bff","from":8,"to":9},{"name":"lacivert","color":"#5b5bd6","from":10,"to":11},{"name":"mor","color":"#a64dff","from":12,"to":14}],"stations":[{"id":"s1","num":1,"name":"Turnusol Masası","icon":"🧻","outcomeKey":"K1","pick":5,"howto":"Turnusol kâğıtlarını kaba daldır ya da doğru şişeyi kâğıdın üzerine dök. Nesneleri tutup sürükle!","pool":[{"id":"c1","questionId":"asitbaz-v1-s1-cls-limon","type":"classify","outcomeKey":"K1","difficulty":"easy","sample":"limon","label":"A","tools":["blue","red"],"trays":["asit","baz","nötr"],"prompt":"Gizemli çözelti A: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.","hint":"Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.","answer":{"mover":"sample","target":"tray-asit"},"correctText":"Asit tepsisi (Limon suyu)","explanation":"Limon suyu asittir: mavi turnusol kâğıdını kırmızıya çevirir, kırmızı kâğıdın rengini değiştirmez; fenolftalein renksiz kalır."},{"id":"c2","questionId":"asitbaz-v1-s1-cls-sabun","type":"classify","outcomeKey":"K1","difficulty":"easy","sample":"sabun","label":"B","tools":["blue","red"],"trays":["asit","baz","nötr"],"prompt":"Gizemli çözelti B: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.","hint":"Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.","answer":{"mover":"sample","target":"tray-baz"},"correctText":"Baz tepsisi (Sabunlu su)","explanation":"Sabunlu su bazdır: kırmızı turnusol kâğıdını maviye çevirir, mavi kâğıdın rengini değiştirmez; fenolftalein pembe olur."},{"id":"c3","questionId":"asitbaz-v1-s1-cls-su","type":"classify","outcomeKey":"K1","difficulty":"easy","sample":"su","label":"C","tools":["blue","red"],"trays":["asit","baz","nötr"],"prompt":"Gizemli çözelti C: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.","hint":"Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.","answer":{"mover":"sample","target":"tray-nötr"},"correctText":"Nötr tepsisi (Saf su)","explanation":"Saf su nötrdür: turnusol kâğıtlarının rengini değiştirmez; fenolftalein renksiz kalır."},{"id":"c4","questionId":"asitbaz-v1-s1-cls-sirke","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"sirke","label":"D","tools":["blue","red"],"trays":["asit","baz","nötr"],"prompt":"Gizemli çözelti D: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.","hint":"Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.","answer":{"mover":"sample","target":"tray-asit"},"correctText":"Asit tepsisi (Sirke)","explanation":"Sirke asittir: mavi turnusol kâğıdını kırmızıya çevirir, kırmızı kâğıdın rengini değiştirmez; fenolftalein renksiz kalır."},{"id":"c5","questionId":"asitbaz-v1-s1-cls-kirec","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"kirec","label":"E","tools":["blue","red"],"trays":["asit","baz","nötr"],"prompt":"Gizemli çözelti E: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.","hint":"Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.","answer":{"mover":"sample","target":"tray-baz"},"correctText":"Baz tepsisi (Kireç suyu)","explanation":"Kireç suyu bazdır: kırmızı turnusol kâğıdını maviye çevirir, mavi kâğıdın rengini değiştirmez; fenolftalein pembe olur."},{"id":"c6","questionId":"asitbaz-v1-s1-cls-tuz","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"tuz","label":"F","tools":["blue","red"],"trays":["asit","baz","nötr"],"prompt":"Gizemli çözelti F: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.","hint":"Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.","answer":{"mover":"sample","target":"tray-nötr"},"correctText":"Nötr tepsisi (Tuzlu su)","explanation":"Tuzlu su nötrdür: turnusol kâğıtlarının rengini değiştirmez; fenolftalein renksiz kalır."},{"id":"p1","questionId":"asitbaz-v1-s1-pour-sirke","type":"pourOn","outcomeKey":"K1","difficulty":"easy","paper":"mavi","goal":"kırmızı","bottles":["sirke","kabartma","su"],"prompt":"Mavi turnusol kâğıdını kırmızı renge çevirecek çözeltiyi kâğıdın üzerine dök.","hint":"Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.","answer":{"mover":"sirke","target":"paper"},"correctText":"Sirke (asit) şişesi","explanation":"Sirke bir asittir; mavi turnusol kâğıdını kırmızıya çevirir. Bazlar ve nötr çözeltiler mavi kâğıdın rengini değiştirmez."},{"id":"p2","questionId":"asitbaz-v1-s1-pour-kirec","type":"pourOn","outcomeKey":"K1","difficulty":"easy","paper":"kırmızı","goal":"mavi","bottles":["limon","kirec","tuz"],"prompt":"Kırmızı turnusol kâğıdını mavi renge çevirecek çözeltiyi kâğıdın üzerine dök.","hint":"Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.","answer":{"mover":"kirec","target":"paper"},"correctText":"Kireç suyu (baz) şişesi","explanation":"Kireç suyu bir bazdır; kırmızı turnusol kâğıdını maviye çevirir. Asitler ve nötr çözeltiler kırmızı kâğıdın rengini değiştirmez."},{"id":"p3","questionId":"asitbaz-v1-s1-pour-portakal","type":"pourOn","outcomeKey":"K1","difficulty":"medium","paper":"mavi","goal":"kırmızı","bottles":["sabun","portakal","seker"],"prompt":"Mavi turnusol kâğıdını kırmızı renge çevirecek çözeltiyi kâğıdın üzerine dök.","hint":"Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.","answer":{"mover":"portakal","target":"paper"},"correctText":"Portakal suyu (asit) şişesi","explanation":"Portakal suyu bir asittir; mavi turnusol kâğıdını kırmızıya çevirir. Bazlar ve nötr çözeltiler mavi kâğıdın rengini değiştirmez."},{"id":"p4","questionId":"asitbaz-v1-s1-pour-sabun","type":"pourOn","outcomeKey":"K1","difficulty":"medium","paper":"kırmızı","goal":"mavi","bottles":["elma","sabun","su"],"prompt":"Kırmızı turnusol kâğıdını mavi renge çevirecek çözeltiyi kâğıdın üzerine dök.","hint":"Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.","answer":{"mover":"sabun","target":"paper"},"correctText":"Sabunlu su (baz) şişesi","explanation":"Sabunlu su bir bazdır; kırmızı turnusol kâğıdını maviye çevirir. Asitler ve nötr çözeltiler kırmızı kâğıdın rengini değiştirmez."}]},{"id":"s2","num":2,"name":"Fenolftalein ve Tepkimeler","icon":"💧","outcomeKey":"K1","pick":5,"howto":"Damlalığı ve magnezyum şeridini tüplerin üstüne getir. Rengi ve kabarcıkları izle!","pool":[{"id":"d1","questionId":"asitbaz-v1-s2-phth-naoh","type":"dropOn","outcomeKey":"K1","difficulty":"medium","tubes":["hcl","naoh","su"],"prompt":"Fenolftalein damlatınca pembe renk veren tüpü bul: damlalığı o tüpün üzerine getir.","hint":"Fenolftalein yalnızca bazlarda pembe olur; asit ve nötr çözeltilerde renksiz kalır.","answer":{"mover":"dropper","target":"tube-naoh"},"correctText":"Sodyum hidroksit çözeltisi (NaOH) tüpü","explanation":"Fenolftalein bazlarda pembe, asit ve nötr çözeltilerde renksizdir. Sodyum hidroksit çözeltisi (NaOH) bazdır, bu yüzden pembe oldu."},{"id":"d2","questionId":"asitbaz-v1-s2-phth-kirec","type":"dropOn","outcomeKey":"K1","difficulty":"medium","tubes":["sirke","kirec","seker"],"prompt":"Fenolftalein damlatınca pembe renk veren tüpü bul: damlalığı o tüpün üzerine getir.","hint":"Fenolftalein yalnızca bazlarda pembe olur; asit ve nötr çözeltilerde renksiz kalır.","answer":{"mover":"dropper","target":"tube-kirec"},"correctText":"Kireç suyu tüpü","explanation":"Fenolftalein bazlarda pembe, asit ve nötr çözeltilerde renksizdir. Kireç suyu bazdır, bu yüzden pembe oldu."},{"id":"d3","questionId":"asitbaz-v1-s2-phth-sabun","type":"dropOn","outcomeKey":"K1","difficulty":"medium","tubes":["limon","tuz","sabun"],"prompt":"Fenolftalein damlatınca pembe renk veren tüpü bul: damlalığı o tüpün üzerine getir.","hint":"Fenolftalein yalnızca bazlarda pembe olur; asit ve nötr çözeltilerde renksiz kalır.","answer":{"mover":"dropper","target":"tube-sabun"},"correctText":"Sabunlu su tüpü","explanation":"Fenolftalein bazlarda pembe, asit ve nötr çözeltilerde renksizdir. Sabunlu su bazdır, bu yüzden pembe oldu."},{"id":"f1","questionId":"asitbaz-v1-s2-cls-naoh","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"naoh","label":"A","tools":["phth"],"trays":["baz","bazdeğil"],"prompt":"Gizemli çözelti A: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.","hint":"Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.","answer":{"mover":"sample","target":"tray-baz"},"correctText":"BAZ tepsisi (Sodyum hidroksit çözeltisi (NaOH))","explanation":"Fenolftalein pembe oldu: çözelti bazdır."},{"id":"f2","questionId":"asitbaz-v1-s2-cls-sirke","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"sirke","label":"B","tools":["phth"],"trays":["baz","bazdeğil"],"prompt":"Gizemli çözelti B: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.","hint":"Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.","answer":{"mover":"sample","target":"tray-bazdeğil"},"correctText":"BAZ DEĞİL tepsisi (Sirke)","explanation":"Fenolftalein renksiz kaldı. Sirke baz değildir (asit); fenolftalein asit ve nötr çözeltileri ayırt edemez."},{"id":"f3","questionId":"asitbaz-v1-s2-cls-su","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"su","label":"C","tools":["phth"],"trays":["baz","bazdeğil"],"prompt":"Gizemli çözelti C: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.","hint":"Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.","answer":{"mover":"sample","target":"tray-bazdeğil"},"correctText":"BAZ DEĞİL tepsisi (Saf su)","explanation":"Fenolftalein renksiz kaldı. Saf su baz değildir (nötr); fenolftalein asit ve nötr çözeltileri ayırt edemez."},{"id":"f4","questionId":"asitbaz-v1-s2-cls-kirec","type":"classify","outcomeKey":"K1","difficulty":"medium","sample":"kirec","label":"D","tools":["phth"],"trays":["baz","bazdeğil"],"prompt":"Gizemli çözelti D: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.","hint":"Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.","answer":{"mover":"sample","target":"tray-baz"},"correctText":"BAZ tepsisi (Kireç suyu)","explanation":"Fenolftalein pembe oldu: çözelti bazdır."},{"id":"m1","questionId":"asitbaz-v1-s2-mg-hcl","type":"metal","outcomeKey":"K1","difficulty":"medium","tubes":["hcl","sabun","su"],"prompt":"Magnezyum şeridi hangi tüpe atılırsa hidrojen gazı kabarcıkları çıkar? Şeridi tüpün üzerine getir.","hint":"Asitler magnezyum gibi bazı metallerle tepkimeye girip hidrojen gazı çıkarır.","answer":{"mover":"ribbon","target":"tube-hcl"},"correctText":"Hidroklorik asit çözeltisi (HCl) tüpü","explanation":"Asitler magnezyum gibi bazı metallerle tepkimeye girerek hidrojen gazı (H₂) çıkarır. Hidroklorik asit çözeltisi (HCl) asittir; baz ve nötr çözeltilerde kabarcık oluşmaz."},{"id":"m2","questionId":"asitbaz-v1-s2-mg-limon","type":"metal","outcomeKey":"K1","difficulty":"medium","tubes":["limon","kirec","tuz"],"prompt":"Magnezyum şeridi hangi tüpe atılırsa hidrojen gazı kabarcıkları çıkar? Şeridi tüpün üzerine getir.","hint":"Asitler magnezyum gibi bazı metallerle tepkimeye girip hidrojen gazı çıkarır.","answer":{"mover":"ribbon","target":"tube-limon"},"correctText":"Limon suyu tüpü","explanation":"Asitler magnezyum gibi bazı metallerle tepkimeye girerek hidrojen gazı (H₂) çıkarır. Limon suyu asittir; baz ve nötr çözeltilerde kabarcık oluşmaz."},{"id":"m3","questionId":"asitbaz-v1-s2-mg-sirke","type":"metal","outcomeKey":"K1","difficulty":"medium","tubes":["kabartma","sirke","seker"],"prompt":"Magnezyum şeridi hangi tüpe atılırsa hidrojen gazı kabarcıkları çıkar? Şeridi tüpün üzerine getir.","hint":"Asitler magnezyum gibi bazı metallerle tepkimeye girip hidrojen gazı çıkarır.","answer":{"mover":"ribbon","target":"tube-sirke"},"correctText":"Sirke tüpü","explanation":"Asitler magnezyum gibi bazı metallerle tepkimeye girerek hidrojen gazı (H₂) çıkarır. Sirke asittir; baz ve nötr çözeltilerde kabarcık oluşmaz."}]},{"id":"s3","num":3,"name":"pH Merdiveni","icon":"🪜","outcomeKey":"K2","pick":5,"howto":"Şişeleri ve bayrağı pH ölçeğinde doğru yere bırak.","pool":[{"id":"h1","questionId":"asitbaz-v1-s3-ph-limon","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"limon","prompt":"Limon suyu pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"limon","ph":2},"correctText":"pH 1–3 civarı","explanation":"Limon suyu asit bir çözeltidir; pH değeri 7'den küçüktür; asitlik arttıkça pH azalır (yaklaşık 2)."},{"id":"h2","questionId":"asitbaz-v1-s3-ph-sirke","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"sirke","prompt":"Sirke pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"sirke","ph":3},"correctText":"pH 2–4 civarı","explanation":"Sirke asit bir çözeltidir; pH değeri 7'den küçüktür; asitlik arttıkça pH azalır (yaklaşık 3)."},{"id":"h3","questionId":"asitbaz-v1-s3-ph-mide","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"mide","prompt":"Mide özsuyu pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"mide","ph":1},"correctText":"pH 0–2 civarı","explanation":"Mide özsuyu asit bir çözeltidir; pH değeri 7'den küçüktür; asitlik arttıkça pH azalır (yaklaşık 1,5)."},{"id":"h4","questionId":"asitbaz-v1-s3-ph-su","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"su","prompt":"Saf su pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"su","ph":7},"correctText":"pH 7","explanation":"Saf su nötr bir çözeltidir; pH değeri tam 7'dir (yaklaşık 7)."},{"id":"h5","questionId":"asitbaz-v1-s3-ph-sabun","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"sabun","prompt":"Sabunlu su pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"sabun","ph":10},"correctText":"pH 9–11 civarı","explanation":"Sabunlu su baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 10)."},{"id":"h6","questionId":"asitbaz-v1-s3-ph-kabartma","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"kabartma","prompt":"Kabartma sodası çözeltisi pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"kabartma","ph":8},"correctText":"pH 8–9 civarı","explanation":"Kabartma sodası çözeltisi baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 8,5)."},{"id":"h7","questionId":"asitbaz-v1-s3-ph-kirec","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"kirec","prompt":"Kireç suyu pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"kirec","ph":12},"correctText":"pH 11–13 civarı","explanation":"Kireç suyu baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 12)."},{"id":"h8","questionId":"asitbaz-v1-s3-ph-naoh","type":"phScale","outcomeKey":"K2","difficulty":"medium","item":"naoh","prompt":"Sodyum hidroksit çözeltisi (NaOH) pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.","hint":"pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.","answer":{"mover":"naoh","ph":13},"correctText":"pH 12–14 civarı","explanation":"Sodyum hidroksit çözeltisi (NaOH) baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 13)."},{"id":"i1","questionId":"asitbaz-v1-s3-uni-turuncu","type":"flagScale","outcomeKey":"K2","difficulty":"medium","color":"turuncu","prompt":"Evrensel indikatör çözeltiyi turuncu renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.","hint":"Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.","answer":{"mover":"flag","ph":3},"correctText":"pH 3–4 (asit)","explanation":"Evrensel indikatörde turuncu renk pH 3–4 aralığını gösterir; bu çözelti asit sınıfındadır."},{"id":"i2","questionId":"asitbaz-v1-s3-uni-mavi","type":"flagScale","outcomeKey":"K2","difficulty":"hard","color":"mavi","prompt":"Evrensel indikatör çözeltiyi mavi renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.","hint":"Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.","answer":{"mover":"flag","ph":8},"correctText":"pH 8–9 (baz)","explanation":"Evrensel indikatörde mavi renk pH 8–9 aralığını gösterir; bu çözelti baz sınıfındadır."},{"id":"i3","questionId":"asitbaz-v1-s3-uni-yeşil","type":"flagScale","outcomeKey":"K2","difficulty":"medium","color":"yeşil","prompt":"Evrensel indikatör çözeltiyi yeşil renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.","hint":"Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.","answer":{"mover":"flag","ph":7},"correctText":"pH 7 (nötr)","explanation":"Evrensel indikatörde yeşil renk pH 7 aralığını gösterir; bu çözelti nötr sınıfındadır."},{"id":"i4","questionId":"asitbaz-v1-s3-uni-mor","type":"flagScale","outcomeKey":"K2","difficulty":"hard","color":"mor","prompt":"Evrensel indikatör çözeltiyi mor renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.","hint":"Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.","answer":{"mover":"flag","ph":13},"correctText":"pH 12–14 (baz)","explanation":"Evrensel indikatörde mor renk pH 12–14 aralığını gösterir; bu çözelti baz sınıfındadır."},{"id":"i5","questionId":"asitbaz-v1-s3-uni-kırmızı","type":"flagScale","outcomeKey":"K2","difficulty":"medium","color":"kırmızı","prompt":"Evrensel indikatör çözeltiyi kırmızı renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.","hint":"Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.","answer":{"mover":"flag","ph":1},"correctText":"pH 0–2 (asit)","explanation":"Evrensel indikatörde kırmızı renk pH 0–2 aralığını gösterir; bu çözelti asit sınıfındadır."}]},{"id":"s4","num":4,"name":"Nötrleşme Reaktörü","icon":"⚗️","outcomeKey":"K3","pick":5,"howto":"Kaptaki çözeltiyi nötrleştirecek şişeyi seç ve kaba dök. pH göstergesini izle!","pool":[{"id":"n1","questionId":"asitbaz-v1-s4-neut-naoh-phth","type":"neutralize","outcomeKey":"K3","difficulty":"medium","base":"naoh","indicator":"phth","bottles":["hcl","sabun","su"],"prompt":"Kapta Sodyum hidroksit çözeltisi (NaOH) var; fenolftalein çözeltiyi pembe yaptı. Pembe rengi kaybettirip pH'ı 7 yapacak çözeltiyi kaba dök.","hint":"Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.","answer":{"mover":"hcl","target":"beaker"},"correctText":"Hidroklorik asit çözeltisi (HCl) şişesi","explanation":"Hidroklorik asit çözeltisi (HCl)  asit olduğu için Sodyum hidroksit çözeltisi (NaOH) ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."},{"id":"n2","questionId":"asitbaz-v1-s4-neut-kirec-phth","type":"neutralize","outcomeKey":"K3","difficulty":"medium","base":"kirec","indicator":"phth","bottles":["sirke","naoh","su"],"prompt":"Kapta Kireç suyu var; fenolftalein çözeltiyi pembe yaptı. Pembe rengi kaybettirip pH'ı 7 yapacak çözeltiyi kaba dök.","hint":"Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.","answer":{"mover":"sirke","target":"beaker"},"correctText":"Sirke şişesi","explanation":"Sirke  asit olduğu için Kireç suyu ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."},{"id":"n3","questionId":"asitbaz-v1-s4-neut-sabun-phth","type":"neutralize","outcomeKey":"K3","difficulty":"medium","base":"sabun","indicator":"phth","bottles":["limon","kirec","su"],"prompt":"Kapta Sabunlu su var; fenolftalein çözeltiyi pembe yaptı. Pembe rengi kaybettirip pH'ı 7 yapacak çözeltiyi kaba dök.","hint":"Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.","answer":{"mover":"limon","target":"beaker"},"correctText":"Limon suyu şişesi","explanation":"Limon suyu  asit olduğu için Sabunlu su ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."},{"id":"n4","questionId":"asitbaz-v1-s4-neut-hcl-uni","type":"neutralize","outcomeKey":"K3","difficulty":"hard","base":"hcl","indicator":"uni","bottles":["naoh","limon","su"],"prompt":"Kapta Hidroklorik asit çözeltisi (HCl) ve evrensel indikatör var. Çözeltiyi nötrleştirip yeşile çevirecek şişeyi kaba dök.","hint":"Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.","answer":{"mover":"naoh","target":"beaker"},"correctText":"Sodyum hidroksit çözeltisi (NaOH) şişesi","explanation":"Sodyum hidroksit çözeltisi (NaOH)  baz olduğu için Hidroklorik asit çözeltisi (HCl) ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."},{"id":"n5","questionId":"asitbaz-v1-s4-neut-sirke-uni","type":"neutralize","outcomeKey":"K3","difficulty":"hard","base":"sirke","indicator":"uni","bottles":["kirec","portakal","su"],"prompt":"Kapta Sirke ve evrensel indikatör var. Çözeltiyi nötrleştirip yeşile çevirecek şişeyi kaba dök.","hint":"Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.","answer":{"mover":"kirec","target":"beaker"},"correctText":"Kireç suyu şişesi","explanation":"Kireç suyu  baz olduğu için Sirke ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."},{"id":"n6","questionId":"asitbaz-v1-s4-neut-mide-uni","type":"neutralize","outcomeKey":"K3","difficulty":"hard","base":"mide","indicator":"uni","bottles":["antiasit","sirke","su"],"prompt":"Kapta Mide özsuyu ve evrensel indikatör var. Çözeltiyi nötrleştirip yeşile çevirecek şişeyi kaba dök.","hint":"Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.","answer":{"mover":"antiasit","target":"beaker"},"correctText":"Antiasit (mide ilacı) çözeltisi şişesi","explanation":"Antiasit (mide ilacı) çözeltisi  baz olduğu için Mide özsuyu ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."}]}]};
+const CFG = {"gameId":"fen-8-asit-baz-laboratuvari","gameVersion":"1.0.0","gameName":"Asit-Baz Laboratuvarı","subjectId":"science","subjectName":"Fen Bilimleri","grade":8,"totalQuestions":20,"stars":{"s1":50,"s2":70,"s3":90},"sendGameStarted":false};
+
+/* ====== Yardımcılar ====== */
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if(cls) e.className = cls; if(txt != null) e.textContent = txt; return e; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let counter = 0;
+const newId = p => { counter++; return 'ypg-' + p + '-' + Date.now().toString(36) + '-' + counter + '-' + Math.floor(Math.random()*1e6).toString(36); };
+function rnd(){ try{ const a = new Uint32Array(1); (window.crypto||window.msCrypto).getRandomValues(a); return a[0]/4294967296; }catch(e){ return Math.random(); } }
+const shuffle = a => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(rnd()*(i+1)); const t=a[i]; a[i]=a[j]; a[j]=t; } return a; };
+const now = () => (window.performance && performance.now) ? performance.now() : Date.now();
+const SUB = C.subs, BANDS = C.bands;
+const cap1 = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+/* ====== Durum ====== */
+const S = { phase:'boot', mode:null, ctx:null, readyIds:{}, seen:{}, timers:{}, rm:false, bridgeTry:0, resultMsg:null, resultSent:false, sel:null, busy:false, portrait:false, tn:0 };
+let R = null;     // oturum
+let Sc = null;    // geçerli soru sahnesi
+let D = null;     // sürükleme
+let CURST = 0;
+
+const mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+function applyRM(){ S.rm = !!((mq && mq.matches) || (S.ctx && S.ctx.reducedMotion === true)); document.documentElement.classList.toggle('rm', S.rm); }
+if(mq){ if(mq.addEventListener) mq.addEventListener('change', applyRM); else if(mq.addListener) mq.addListener(applyRM); }
+applyRM();
+function setT(n, fn, ms){ clearT(n); S.timers[n] = setTimeout(function(){ S.timers[n] = null; fn(); }, ms * TS); }
+function clearT(n){ if(S.timers[n]){ clearTimeout(S.timers[n]); S.timers[n] = null; } }
+function clearAllT(){ Object.keys(S.timers).forEach(clearT); }
+// numaralı zincir: sahne animasyonları için
+function at(ms, fn){ const n = 'a' + (++S.tn); S.timers[n] = setTimeout(function(){ delete S.timers[n]; fn(); }, ms * TS); return n; }
+function clearSeq(){ Object.keys(S.timers).forEach(k => { if(/^a\d+$/.test(k)) clearT(k); }); }
+
+/* ====== SES: Web Audio sentezi ====== */
+const Snd = {
+  ctx:null, sfx:true, mus:true, step:0, iv:null,
+  init(){ if(this.ctx) return; const AC = window.AudioContext || window.webkitAudioContext; if(!AC) return; try{ this.ctx = new AC(); }catch(e){ this.ctx = null; } },
+  resume(){ this.init(); if(this.ctx && this.ctx.state === 'suspended' && (this.sfx || this.mus)){ try{ this.ctx.resume(); }catch(e){} } this.startMusic(); },
+  suspend(){ if(this.ctx && this.ctx.state === 'running'){ try{ this.ctx.suspend(); }catch(e){} } this.stopMusic(); },
+  tone(f, d, type, vol, delay, slide, force){
+    if(!this.ctx || (!this.sfx && !force)) return; const c = this.ctx, t = c.currentTime + (delay||0);
+    const o = c.createOscillator(), g = c.createGain(); o.type = type || 'sine'; o.frequency.setValueAtTime(f, t);
+    if(slide) o.frequency.exponentialRampToValueAtTime(slide, t + d);
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol || 0.2, t + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, t + d);
+    o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + d + 0.05);
+  },
+  noise(d, vol, freq, kind){
+    if(!this.ctx || !this.sfx) return; const c = this.ctx, t = c.currentTime, n = Math.max(1, Math.floor(c.sampleRate * d));
+    const buf = c.createBuffer(1, n, c.sampleRate), data = buf.getChannelData(0); for(let i=0;i<n;i++) data[i] = (Math.random()*2-1)*(1-i/n);
+    const s = c.createBufferSource(); s.buffer = buf; const f = c.createBiquadFilter(); f.type = kind || 'bandpass'; f.frequency.value = freq || 2000; f.Q.value = 1;
+    const g = c.createGain(); g.gain.value = vol || 0.12; s.connect(f); f.connect(g); g.connect(c.destination); s.start(t);
+  },
+  pick(){ this.tone(520, .09, 'triangle', .15); },
+  clink(){ this.tone(2400, .12, 'sine', .1); this.tone(3100, .1, 'sine', .07, .03); },
+  drop(){ this.tone(300, .12, 'sine', .2, 0, 120); },
+  plop(){ this.tone(420 + Math.random()*260, .09, 'sine', .08, 0, 180); },
+  pourS(){ this.noise(.9, .09, 900, 'bandpass'); this.tone(240, .8, 'sine', .04, 0, 320); },
+  dripS(){ this.tone(900, .08, 'sine', .12, 0, 500); },
+  fizz(){ this.noise(1.6, .07, 5200, 'highpass'); [0,.2,.4,.7,1.0].forEach(d => this.plop.call(this)); },
+  bell(){ this.tone(988, .35, 'sine', .18); this.tone(1319, .5, 'sine', .14, .08); },
+  good(){ this.tone(660, .14, 'sine', .22); this.tone(990, .22, 'sine', .22, .09); },
+  bad(){ this.tone(220, .32, 'sawtooth', .16, 0, 110); this.tone(160, .28, 'square', .08, .05, 90); },
+  win(){ [523,659,784,1047].forEach((f,i) => this.tone(f, .24, 'triangle', .22, i*.1)); },
+  fan(){ [523,659,784,659,784,1047,1319].forEach((f,i) => this.tone(f, .22, 'triangle', .24, i*.11)); },
+  whoosh(){ this.noise(.35, .1, 900); },
+  badge(){ [784,988,1319,1568].forEach((f,i) => this.tone(f, .2, 'triangle', .2, i*.07)); },
+  startMusic(){
+    if(!this.mus || !this.ctx || this.iv || document.visibilityState === 'hidden') return;
+    const notes = [262,330,392,330, 294,370,440,370, 262,330,392,523, 392,330,294,247];
+    this.iv = setInterval(() => { if(!this.mus || document.visibilityState === 'hidden' || S.portrait){ return; } const n = notes[this.step++ % notes.length]; this.tone(n, .5, 'triangle', .045, 0, 0, true); if(this.step % 4 === 1) this.tone(n/2, .9, 'sine', .05, 0, 0, true); if(this.step % 3 === 0) this.tone(700 + Math.random()*500, .07, 'sine', .03, .1, 250, true); }, 420);
+  },
+  stopMusic(){ if(this.iv){ clearInterval(this.iv); this.iv = null; } }
+};
+function renderSnd(){
+  const a = $('btnSfx'), b = $('btnMus');
+  a.textContent = Snd.sfx ? '🔊' : '🔇'; a.setAttribute('aria-pressed', String(!Snd.sfx)); a.setAttribute('aria-label', Snd.sfx ? 'Efekt seslerini kapat' : 'Efekt seslerini aç');
+  b.textContent = Snd.mus ? '🎵' : '🚫'; b.setAttribute('aria-pressed', String(!Snd.mus)); b.setAttribute('aria-label', Snd.mus ? 'Müziği kapat' : 'Müziği aç');
+}
+$('btnSfx').addEventListener('click', () => { Snd.sfx = !Snd.sfx; if(Snd.sfx){ Snd.resume(); Snd.good(); } renderSnd(); });
+$('btnMus').addEventListener('click', () => { Snd.mus = !Snd.mus; if(Snd.mus){ Snd.resume(); } else Snd.stopMusic(); renderSnd(); });
+renderSnd();
+
+/* ====== Süre sayacı ====== */
+const Clock = { acc:0, since:null, active:false,
+  start(){ this.acc = 0; this.since = now(); this.active = true; },
+  pause(){ if(this.since != null){ this.acc += now() - this.since; this.since = null; } },
+  resume(){ if(this.active && this.since == null && !S.portrait && document.visibilityState !== 'hidden') this.since = now(); },
+  stop(){ this.pause(); this.active = false; },
+  value(){ return Math.max(0, Math.round(this.acc + (this.since != null ? now() - this.since : 0))); } };
+document.addEventListener('visibilitychange', () => {
+  if(document.visibilityState === 'hidden'){ cancelDrag(); Clock.pause(); Snd.suspend(); }
+  else { Clock.resume(); if(Snd.ctx && (Snd.sfx || Snd.mus)){ try{ Snd.ctx.resume(); }catch(e){} } Snd.startMusic(); }
+});
+window.addEventListener('blur', () => cancelDrag());
+const pmq = window.matchMedia ? window.matchMedia('(orientation: portrait)') : null;
+function onOrient(){ S.portrait = !!(pmq && pmq.matches); if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
+if(pmq){ if(pmq.addEventListener) pmq.addEventListener('change', onOrient); else if(pmq.addListener) pmq.addListener(onOrient); }
+onOrient();
+
+/* ====== KÖPRÜ (bridgeVersion 1.0) ====== */
+function sendToApp(message){
+  const s = JSON.stringify(message);
+  try{
+    if(window.YildizPesindeBridge && window.YildizPesindeBridge.postMessage){ window.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.YildizPesindeBridge){ window.webkit.messageHandlers.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.AndroidYildizPesinde && window.AndroidYildizPesinde.postMessage){ window.AndroidYildizPesinde.postMessage(s); return true; }
+  }catch(e){ return false; }
+  return false;
+}
+function envelope(type, payload){
+  const m = { bridgeVersion:'1.0', type:type, messageId:newId(type.replace('.','-')) };
+  if(S.ctx && type !== 'game.ready'){ m.runId = S.ctx.runId; m.nonce = S.ctx.nonce; }
+  m.payload = payload || {}; return m;
+}
+function sendReady(){ const m = envelope('game.ready', { supportedVersions:['1.0'] }); const ok = sendToApp(m); if(ok) S.readyIds[m.messageId] = true; return ok; }
+const isStr = v => typeof v === 'string' && v.length > 0 && v.length <= 200;
+function onIncoming(raw){
+  let m;
+  try{ if(typeof raw === 'string'){ if(raw.length > 20000) return; m = JSON.parse(raw); } else m = raw; }catch(e){ return; }
+  if(!m || typeof m !== 'object' || Array.isArray(m)) return;
+  if(S.mode !== 'native') return;
+  if(!isStr(m.messageId) || !isStr(m.type)) return;
+  if(S.seen[m.messageId]) return;
+  if(m.bridgeVersion !== '1.0'){ if(m.type === 'app.init' && S.phase === 'waitInit'){ S.seen[m.messageId] = true; showError('Bu oyun uygulamanın bu sürümüyle çalışmıyor.', false); } return; }
+  if(m.type === 'app.init') return handleInit(m);
+  if(m.type === 'app.ack') return handleAck(m);
+  if(m.type === 'app.error') return handleErr(m);
+}
+function handleInit(m){
+  const p = m.payload;
+  if(S.phase !== 'waitInit' && S.phase !== 'error' && S.phase !== 'sent' && S.phase !== 'finished') return;
+  const bad = !p || typeof p !== 'object' || !isStr(m.runId) || !isStr(m.nonce) || !isStr(m.replyTo) || !S.readyIds[m.replyTo] ||
+    p.gameId !== CFG.gameId || p.gameVersion !== CFG.gameVersion || p.grade !== CFG.grade;
+  if(bad){ if(S.phase === 'waitInit'){ S.seen[m.messageId] = true; showError('Oyun uygulamayla uyumlu açılmadı. Lütfen tekrar dene.', true); } return; }
+  S.seen[m.messageId] = true; clearT('hs');
+  S.ctx = { runId:m.runId, nonce:m.nonce, grade:p.grade, subjectId:(isStr(p.subjectId) ? p.subjectId : CFG.subjectId), subjectName:(typeof p.subjectName === 'string' ? p.subjectName : CFG.subjectName), locale:p.locale, orientation:p.orientation, reducedMotion:p.reducedMotion === true };
+  S.resultMsg = null; S.resultSent = false; R = null; applyRM(); $('demoTag').hidden = true; showStart();
+}
+function handleAck(m){
+  const p = m.payload; if(!S.ctx || !S.resultMsg) return;
+  if(m.runId !== S.ctx.runId || m.nonce !== S.ctx.nonce || m.replyTo !== S.resultMsg.messageId) return;
+  S.seen[m.messageId] = true;
+  if(p && p.status === 'saved'){ $('sentSpin').hidden = true; $('btnResend').hidden = true; $('sentT').textContent = 'Sonuç kaydedildi'; $('sentMsg').textContent = 'Harika iş! Sonuç ekranı uygulamada gösterilecek.'; }
+}
+function handleErr(m){
+  let p = m.payload; if(!S.ctx || !S.resultMsg) return;
+  if(m.runId !== S.ctx.runId || m.nonce !== S.ctx.nonce || m.replyTo !== S.resultMsg.messageId) return;
+  S.seen[m.messageId] = true; p = p || {};
+  const msg = (typeof p.message === 'string' && p.message.length <= 140) ? p.message : 'Sonuç kaydedilemedi.';
+  $('sentSpin').hidden = true; $('sentT').textContent = 'Sonuç kaydedilemedi'; $('btnResend').hidden = true;
+  $('sentMsg').textContent = (p.retryable === true || p.code === 'SAVE_FAILED') ? 'Sonuç kaydedilemedi. Uygulamadaki “Kaydetmeyi Tekrar Dene” seçeneğini kullan.' : msg;
+}
+window.addEventListener('message', e => { if(e.source !== window && e.source !== window.parent) return; onIncoming(e.data); });
+window.YildizPesindeReceive = onIncoming;
+window.YildizPesindeGame = Object.freeze({ receiveMessage: onIncoming });
+
+/* ====== Ekranlar ====== */
+const SCREENS = ['scLoad','scStart','scStage','scDone','scErr','scSent','scRes'];
+function showScreen(id){
+  SCREENS.forEach(s => { $(s).hidden = (s !== id); });
+  const app = $('app'); if('inert' in app) app.inert = !!id; if(id) app.setAttribute('aria-hidden','true'); else app.removeAttribute('aria-hidden');
+  if(id){ const b = $(id).querySelector('button:not([hidden])'); if(b) try{ b.focus({preventScroll:true}); }catch(e){} }
+}
+function showError(msg, retry){ S.phase = 'error'; clearAllT(); cancelDrag(); $('errMsg').textContent = msg; $('btnRetry').hidden = !retry; showScreen('scErr'); }
+function showStart(){ S.phase = 'intro'; showScreen('scStart'); }
+
+/* ====== SANAT: SVG nesneleri ====== */
+let uidn = 0;
+function bottleArt(s){
+  const id = 'bc' + (++uidn), big = s.icon.length > 2;
+  return '<svg viewBox="0 0 60 92" aria-hidden="true"><defs><clipPath id="'+id+'"><path d="M12 30Q12 22 22 22H38Q48 22 48 30V80Q48 88 40 88H20Q12 88 12 80Z"/></clipPath></defs>'+
+  '<ellipse cx="30" cy="89" rx="22" ry="3.2" fill="rgba(0,0,0,.3)"/>'+
+  '<rect x="21" y="8" width="18" height="15" rx="3" fill="rgba(255,255,255,.4)" stroke="rgba(255,255,255,.85)" stroke-width="1.4"/>'+
+  '<rect x="19" y="2" width="22" height="10" rx="3.5" fill="'+s.cap+'" stroke="rgba(0,0,0,.25)"/>'+
+  '<path d="M12 30Q12 22 22 22H38Q48 22 48 30V80Q48 88 40 88H20Q12 88 12 80Z" fill="rgba(255,255,255,.22)"/>'+
+  '<g clip-path="url(#'+id+')"><rect x="10" y="40" width="40" height="50" fill="'+s.tint+'"/><rect x="10" y="40" width="40" height="4" fill="rgba(255,255,255,.5)"/></g>'+
+  '<path d="M12 30Q12 22 22 22H38Q48 22 48 30V80Q48 88 40 88H20Q12 88 12 80Z" fill="none" stroke="rgba(255,255,255,.92)" stroke-width="1.8"/>'+
+  '<rect x="15" y="50" width="30" height="25" rx="4" fill="#fffbe9" stroke="rgba(0,0,0,.2)"/>'+
+  '<text x="30" y="'+(big?66:69)+'" text-anchor="middle" font-size="'+(big?9:16)+'" font-weight="900" fill="#1d2a66" font-family="Trebuchet MS,Arial">'+esc(s.icon)+'</text>'+
+  '<path d="M17 32V78" stroke="rgba(255,255,255,.75)" stroke-width="2.5" stroke-linecap="round"/></svg>';
+}
+function tubeArt(color, level){
+  const id = 'tc' + (++uidn);
+  return '<svg viewBox="0 0 34 104" aria-hidden="true"><defs><clipPath id="'+id+'"><path d="M6 6H28V84Q28 100 17 100Q6 100 6 84Z"/></clipPath></defs>'+
+  '<ellipse cx="17" cy="102" rx="13" ry="2.4" fill="rgba(0,0,0,.3)"/>'+
+  '<path d="M6 6H28V84Q28 100 17 100Q6 100 6 84Z" fill="rgba(255,255,255,.2)"/>'+
+  '<g clip-path="url(#'+id+')"><rect class="liq" x="2" y="6" width="30" height="98" style="fill:'+color+';transform:scaleY('+level+');transform-origin:50% 100%;transform-box:fill-box"/></g>'+
+  '<path d="M6 6H28V84Q28 100 17 100Q6 100 6 84Z" fill="none" stroke="rgba(255,255,255,.95)" stroke-width="2"/>'+
+  '<ellipse cx="17" cy="6" rx="12.5" ry="2.6" fill="none" stroke="rgba(255,255,255,.95)" stroke-width="2"/><path d="M10 14V80" stroke="rgba(255,255,255,.7)" stroke-width="2.4" stroke-linecap="round"/></svg>';
+}
+function beakerArt(color, level){
+  const id = 'kc' + (++uidn);
+  return '<svg viewBox="0 0 100 104" aria-hidden="true"><defs><clipPath id="'+id+'"><path d="M16 10H84L80 88Q80 96 72 96H28Q20 96 20 88Z"/></clipPath></defs>'+
+  '<ellipse cx="50" cy="100" rx="38" ry="3.6" fill="rgba(0,0,0,.3)"/>'+
+  '<path d="M16 10H84L80 88Q80 96 72 96H28Q20 96 20 88Z" fill="rgba(255,255,255,.2)"/>'+
+  '<g clip-path="url(#'+id+')"><rect class="liq" x="8" y="10" width="84" height="90" style="fill:'+color+';transform:scaleY('+level+');transform-origin:50% 100%;transform-box:fill-box"/></g>'+
+  '<path d="M16 10H84L80 88Q80 96 72 96H28Q20 96 20 88Z" fill="none" stroke="rgba(255,255,255,.95)" stroke-width="2.4"/><path d="M12 10H88" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>'+
+  '<g stroke="rgba(255,255,255,.9)" stroke-width="2"><path d="M66 30H80M70 46H80M66 62H80M70 78H80"/></g><path d="M26 22V80" stroke="rgba(255,255,255,.65)" stroke-width="3" stroke-linecap="round"/></svg>';
+}
+function dropperArt(){
+  return '<svg viewBox="0 0 50 96" aria-hidden="true"><ellipse cx="25" cy="93" rx="19" ry="3" fill="rgba(0,0,0,.3)"/>'+
+  '<path d="M19 4Q25 -2 31 4V22H19Z" fill="#ff4fa3" stroke="rgba(0,0,0,.25)"/><rect x="21" y="20" width="8" height="12" fill="#cfd8e6"/>'+
+  '<rect x="9" y="30" width="32" height="14" rx="6" fill="#f5a623" stroke="rgba(0,0,0,.2)"/>'+
+  '<path d="M9 40H41V82Q41 90 33 90H17Q9 90 9 82Z" fill="#c97a12" stroke="rgba(255,255,255,.7)" stroke-width="1.6"/>'+
+  '<rect x="13" y="52" width="24" height="26" rx="4" fill="#fffbe9"/><path d="M25 56Q31 64 31 69A6 6 0 0 1 19 69Q19 64 25 56Z" fill="#ff2d9a"/>'+
+  '<path d="M14 46V84" stroke="rgba(255,255,255,.55)" stroke-width="2.4" stroke-linecap="round"/></svg>';
+}
+function ribbonArt(){
+  return '<svg viewBox="0 0 40 70" aria-hidden="true"><defs><linearGradient id="rg'+(++uidn)+'" x1="0" x2="1"><stop offset="0" stop-color="#f2f5fa"/><stop offset="1" stop-color="#8b97aa"/></linearGradient></defs>'+
+  '<ellipse cx="20" cy="66" rx="13" ry="2.6" fill="rgba(0,0,0,.3)"/>'+
+  '<path d="M14 6C24 14 8 24 18 32C28 40 10 48 20 58" fill="none" stroke="#c8d0de" stroke-width="9" stroke-linecap="round"/>'+
+  '<path d="M14 6C24 14 8 24 18 32C28 40 10 48 20 58" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="3" stroke-linecap="round"/>'+
+  '<rect x="9" y="52" width="22" height="14" rx="3" fill="#ffe14d" stroke="rgba(0,0,0,.25)"/><text x="20" y="63" text-anchor="middle" font-size="10" font-weight="900" fill="#3a2b00" font-family="Trebuchet MS,Arial">Mg</text></svg>';
+}
+function flagArt(){
+  return '<svg viewBox="0 0 50 92" aria-hidden="true"><ellipse cx="25" cy="89" rx="15" ry="3" fill="rgba(0,0,0,.3)"/>'+
+  '<rect x="22" y="6" width="5" height="82" rx="2.5" fill="#dfe6f2" stroke="rgba(0,0,0,.25)"/><circle cx="24.5" cy="6" r="5" fill="#ffd60a" stroke="rgba(0,0,0,.25)"/>'+
+  '<path d="M27 12H48L41 24L48 36H27Z" fill="#ff4fa3" stroke="rgba(0,0,0,.25)"/><text x="37" y="29" text-anchor="middle" font-size="12" font-weight="900" fill="#fff" font-family="Trebuchet MS,Arial">pH</text></svg>';
+}
+function mkPaper(color){ return '<div class="tile"></div><div class="paper" style="--c:'+color+'"><i class="wet"></i></div>'; }
+
+/* ====== Arka plan (laboratuvar odası) ====== */
+function buildBg(){
+  const bg = $('bg'); bg.innerHTML = '';
+  bg.appendChild(el('div','wall')); bg.appendChild(el('div','tiles'));
+  const win = el('div','win'); let w = '<div class="sky"><div class="sun"></div>';
+  for(let i=0;i<3;i++) w += '<i class="cl" style="top:'+(18+i*24)+'%;width:'+(34+i*8)+'%;animation-duration:'+(30+i*14)+'s;animation-delay:-'+(i*11)+'s"></i>';
+  w += '</div><i class="bar" style="left:50%;top:6px;bottom:6px;width:5px;margin-left:-2px"></i><i class="bar" style="top:50%;left:6px;right:6px;height:5px;margin-top:-2px"></i>'; win.innerHTML = w; bg.appendChild(win);
+  const lamp = el('div','lamp'); lamp.innerHTML = '<div class="cord"></div><div class="shade"></div><div class="cone"></div>'; bg.appendChild(lamp);
+  const shelfData = [{top:'24%',items:[['limon',6,.18],['sabun',30,.4],['su',60,.62]]},{top:'44%',items:[['sirke',10,.3],['kirec',45,.1],['hcl',72,.5]]}];
+  shelfData.forEach(sh => { const s = el('div','shelf'); s.style.top = sh.top; sh.items.forEach(it => { const b = el('div','sb'); b.style.cssText = 'left:'+it[1]+'%;width:26%;height:'+Math.round(36)+'px'; b.innerHTML = bottleArt(SUB[it[0]]); s.appendChild(b); }); bg.appendChild(s); });
+  bg.appendChild(el('div','vig'));
+  const table = el('div','table'); bg.appendChild(table); bg.appendChild(el('div','mat'));
+  const bu = el('div','burner'); bu.innerHTML = '<div class="flame"></div><svg viewBox="0 0 40 50" style="width:100%;display:block"><rect x="16" y="8" width="8" height="30" rx="2" fill="#9aa6b8"/><ellipse cx="20" cy="42" rx="17" ry="6" fill="#5c6a80"/><rect x="14" y="30" width="12" height="8" fill="#c53030"/></svg>'; bg.appendChild(bu);
+  for(let i=0;i<26;i++){ const d = el('i','dust'); const z = 2 + Math.random()*3; d.style.cssText = 'left:'+(Math.random()*100)+'%;top:'+(Math.random()*100)+'%;width:'+z+'px;height:'+z+'px;--dx:'+((Math.random()-.5)*160)+'px;--dy:'+((Math.random()-.5)*120)+'px;animation-duration:'+(9+Math.random()*12)+'s;animation-delay:-'+(Math.random()*14)+'s'; bg.appendChild(d); }
+  for(let i=0;i<10;i++){ const b = el('i','bub'); const z = 6 + Math.random()*10; b.style.cssText = 'left:'+(86+Math.random()*10)+'%;top:'+(26+Math.random()*30)+'%;width:'+z+'px;height:'+z+'px;--dx:'+((Math.random()-.5)*30)+'px;animation-duration:'+(3+Math.random()*3)+'s;animation-delay:-'+(Math.random()*5)+'s'; bg.appendChild(b); }
+}
+
+/* ====== Maskot, efektler ====== */
+function mood(m, text){
+  const b = $('mascotBox'); b.className = 'mascot-' + m;
+  $('mouth').setAttribute('d', m === 'sad' ? 'M25 42Q30 37 35 42' : 'M25 37Q30 42 35 37');
+  if(text){ const bu = $('bubble'); bu.textContent = text; bu.classList.add('on'); setT('bub', () => bu.classList.remove('on'), 1900); }
+  setT('mood', () => { $('mascotBox').className = 'mascot-idle'; $('mouth').setAttribute('d', 'M25 37Q30 42 35 37'); }, 1500);
+}
+function fxl(){ return $('fx'); }
+function trimFx(){ const h = fxl(); while(h.children.length > 90) h.removeChild(h.firstChild); }
+function burst(x, y, color, n){
+  if(S.rm) return; const h = fxl(); n = n || 12; const cols = color ? [color] : ['#ffe14d','#3fe0ff','#ff4fa3','#37e39a'];
+  for(let i=0;i<n;i++){ const p = el('i','pt'); const a = (Math.PI*2/n)*i + Math.random()*.4, d = 24 + Math.random()*38;
+    p.style.cssText = 'left:'+x+'px;top:'+y+'px;background:'+cols[i % cols.length]+';--dx:'+(Math.cos(a)*d)+'px;--dy:'+(Math.sin(a)*d)+'px'; h.appendChild(p); setTimeout(() => { if(p.parentNode) p.parentNode.removeChild(p); }, 850); }
+  trimFx();
+}
+function floatText(x, y, text, cls){
+  const t = el('span', 'ft' + (cls ? ' ' + cls : ''), text); t.style.left = x + 'px'; t.style.top = y + 'px'; if(S.rm) t.style.animation = 'none'; fxl().appendChild(t);
+  setTimeout(() => { if(t.parentNode) t.parentNode.removeChild(t); }, 1100); trimFx();
+}
+function xMark(x, y){
+  const m = el('div','xmark'); m.style.left = x + 'px'; m.style.top = y + 'px'; if(S.rm) m.style.animation = 'none';
+  m.innerHTML = '<svg viewBox="0 0 100 100" width="56" height="56"><path d="M16 16L84 84M84 16L16 84" stroke="#ff4b4b" stroke-width="16" stroke-linecap="round" fill="none"/></svg>';
+  fxl().appendChild(m); setTimeout(() => { if(m.parentNode) m.parentNode.removeChild(m); }, 900);
+}
+function confetti(n){
+  if(S.rm) return; const cols = ['#ffe14d','#ff4fa3','#3fe0ff','#37e39a','#b388ff'];
+  for(let i=0;i<n;i++){ const c = el('i','conf'); c.style.left = (Math.random()*100) + '%'; c.style.background = cols[i % cols.length]; c.style.animationDelay = (Math.random()*.6) + 's'; c.style.animationDuration = (1.4+Math.random()) + 's'; fxl().appendChild(c); setTimeout(() => { if(c.parentNode) c.parentNode.removeChild(c); }, 2700); }
+  trimFx();
+}
+function shakeApp(){ if(S.rm) return; const a = $('app'); a.classList.remove('shake'); void a.offsetWidth; a.classList.add('shake'); setT('shk', () => a.classList.remove('shake'), 420); }
+function toast(t){ const e = $('toast'); e.textContent = t; e.classList.add('on'); Snd.badge(); setT('toast', () => e.classList.remove('on'), 2600); }
+function say(t, cls){ const e = $('say'); e.textContent = t || ''; e.className = t ? ('on ' + (cls || '')) : ''; }
+
+/* ====== Puan, seri, rozet (yalnızca oyun içi; uygulamaya gönderilmez) ====== */
+function setScore(v, anim){ const e = $('score'); e.textContent = '⚗ ' + v; if(anim && !S.rm){ e.classList.remove('pop'); void e.offsetWidth; e.classList.add('pop'); } }
+function addScore(n, x, y){ R.score += n; setScore(R.score, true); if(x != null) floatText(x, y, (n >= 0 ? '+' : '') + n + ' ⚗', n >= 0 ? 'good' : 'bad'); }
+function setCombo(){ const cb = $('combo'); if(R.combo >= 2){ cb.textContent = '🔥×' + R.combo; cb.classList.add('on'); } else cb.classList.remove('on'); }
+const BADGES = {
+  s1:{ t:'🧻 Turnusol Ustası', d:'1. istasyonda hepsi ilk denemede' }, s2:{ t:'💧 Pembe Büyücü', d:'2. istasyonda hepsi ilk denemede' },
+  s3:{ t:'🪜 pH Avcısı', d:'3. istasyonda hepsi ilk denemede' }, s4:{ t:'⚗️ Nötrleşme Şampiyonu', d:'4. istasyonda hepsi ilk denemede' },
+  combo:{ t:'🔥 Seri Ustası', d:'Arka arkaya 5 doğru' }, perfect:{ t:'🏆 Kusursuz Laboratuvar', d:'20/20 ilk denemede' }, curious:{ t:'🔬 Meraklı Bilim İnsanı', d:'6 kâğıt/damla testi yaptı' }
+};
+function giveBadge(k){ if(R.badges.indexOf(k) >= 0) return; R.badges.push(k); toast('Rozet: ' + BADGES[k].t); }
+function rank(c){ return c >= 18 ? 'Profesör' : c >= 14 ? 'Araştırmacı' : c >= 10 ? 'Laboratuvar Asistanı' : 'Çırak'; }
+function badgesHTML(box){ box.innerHTML = ''; R.badges.forEach(k => { const b = el('span','badge', BADGES[k].t); b.title = BADGES[k].d; box.appendChild(b); }); }
+
+/* ====== Düzen ====== */
+function layout(){
+  const b = $('bench').getBoundingClientRect(); if(!b.width || !b.height) return;
+  const u = Math.max(18, Math.min(b.width / 20, b.height / 8));
+  document.documentElement.style.setProperty('--u', u + 'px');
+  document.documentElement.style.setProperty('--tt', Math.round(b.top - 6) + 'px');
+}
+window.addEventListener('resize', layout);
+
+/* ====== Kimya kuralları (animasyon) ====== */
+const PAPER = { 'mavi':'#2f6bff', 'kırmızı':'#ff3b3b' }, PINK = '#ff2d9a';
+const litmus = (paper, kind) => kind === 'asit' ? 'kırmızı' : (kind === 'baz' ? 'mavi' : paper);
+const bandOf = ph => { const r = Math.floor(ph + .5); return BANDS.filter(b => r >= b.from && r <= b.to)[0]; };
+const fmtPh = v => String(Math.round(v*10)/10).replace('.', ',');
+function mix(base, add){
+  if((base.kind === 'asit' && add.kind === 'baz') || (base.kind === 'baz' && add.kind === 'asit')) return { pH:7, neutral:true };
+  if(add.kind === 'nötr') return { pH:base.pH + (base.pH < 7 ? 1 : -1), neutral:false };
+  return { pH:Math.round((base.pH + add.pH)/2*10)/10, neutral:false };
+}
+function indColor(ind, ph){
+  if(ind === 'phth') return ph >= 8.5 ? PINK : 'rgba(255,255,255,.14)';
+  return bandOf(ph).color;
+}
+function correctPair(q){
+  const t = q.type;
+  if(t === 'classify'){ const k = SUB[q.sample].kind; return { m:'sample', t:'tray-' + (q.trays.indexOf('asit') >= 0 ? k : (k === 'baz' ? 'baz' : 'bazdeğil')) }; }
+  if(t === 'pourOn') return { m:q.bottles.filter(b => litmus(q.paper, SUB[b].kind) === q.goal)[0], t:'paper' };
+  if(t === 'dropOn') return { m:'dropper', t:'tube-' + q.tubes.filter(b => SUB[b].kind === 'baz')[0] };
+  if(t === 'metal') return { m:'ribbon', t:'tube-' + q.tubes.filter(b => SUB[b].kind === 'asit')[0] };
+  if(t === 'phScale'){ const r = SUB[q.item].ph; return { m:q.item, t:'scale', ph:Math.floor((r[0] + r[1])/2) }; }
+  if(t === 'flagScale'){ const b = BANDS.filter(x => x.name === q.color)[0]; return { m:'flag', t:'scale', ph:Math.floor((b.from + b.to)/2) }; }
+  if(t === 'neutralize'){ const bk = SUB[q.base].kind; return { m:q.bottles.filter(b => SUB[b].kind !== bk && SUB[b].kind !== 'nötr')[0], t:'beaker' }; }
+}
+
+/* ====== Sahne kurma ====== */
+function rc(n){ const r = n.getBoundingClientRect(); return { l:r.left, t:r.top, w:r.width, h:r.height, cx:r.left + r.width/2, cy:r.top + r.height/2, r:r.right, b:r.bottom }; }
+function place(n, x, y){ n.style.left = x + '%'; n.style.top = y + '%'; }
+function addMover(id, cls, art, cap, accepts, x, y){
+  const n = el('div', 'mv ' + cls); n.dataset.mid = id; n.dataset.acc = accepts.join(','); n.innerHTML = '<div class="art">' + art + '</div><span class="cap">' + esc(cap) + '</span>';
+  n.style.setProperty('--dl', (Object.keys(Sc.movers).length * .35) + 's'); place(n, x, y); $('work').appendChild(n);
+  const m = { id:id, node:n, cls:cls, name:cap, accepts:accepts }; Sc.movers[id] = m; bindDrag(n, m);
+  n.setAttribute('aria-label', cap + '. Tut ve sürükle ya da dokunup seç.'); return m;
+}
+function addTarget(id, cls, html, cap, x, y, label){
+  const n = el('div', 'tg ' + cls); n.dataset.tid = id; n.innerHTML = html + (cap ? '<span class="cap">' + esc(cap) + '</span>' : ''); place(n, x, y); $('work').appendChild(n);
+  const t = { id:id, node:n, name:cap || label || id }; Sc.targets[id] = t; n.setAttribute('role', 'button'); n.setAttribute('tabindex', '0'); n.setAttribute('aria-label', label || cap || id);
+  n.addEventListener('click', () => { if(S.sel) tryDrop(S.sel, t, null); });
+  n.addEventListener('keydown', e => { if((e.key === 'Enter' || e.key === ' ') && S.sel){ e.preventDefault(); tryDrop(S.sel, t, null); } });
+  return t;
+}
+function spread(n, a, b){ const r = []; for(let i=0;i<n;i++) r.push(n === 1 ? (a+b)/2 : a + (b-a)*i/(n-1)); return r; }
+function addScale(x, y){
+  const n = el('div','scale tg'); n.dataset.tid = 'scale'; let h = '<div class="cells" id="cells">';
+  for(let i=0;i<=14;i++) h += '<span class="sc" data-ph="' + i + '" style="background:' + bandOf(i).color + '">' + i + '</span>';
+  h += '</div><div class="zone"><i class="za">ASİT</i><i class="zn">NÖTR</i><i class="zb">BAZ</i></div>'; n.innerHTML = h; place(n, x, y); $('work').appendChild(n);
+  n.setAttribute('role','slider'); n.setAttribute('tabindex','0'); n.setAttribute('aria-valuemin','0'); n.setAttribute('aria-valuemax','14'); n.setAttribute('aria-valuenow','7'); n.setAttribute('aria-label','pH ölçeği. Ok tuşlarıyla değer seç, Enter ile bırak.');
+  const t = { id:'scale', node:n, name:'pH ölçeği', scale:true, kb:7 }; Sc.targets.scale = t;
+  n.addEventListener('click', e => { const c = e.target.closest('.sc'); if(c && S.sel) tryDrop(S.sel, t, { ph:+c.dataset.ph }); });
+  n.addEventListener('keydown', e => {
+    if(e.key === 'ArrowLeft'){ t.kb = Math.max(0, t.kb - 1); e.preventDefault(); } else if(e.key === 'ArrowRight'){ t.kb = Math.min(14, t.kb + 1); e.preventDefault(); }
+    else if((e.key === 'Enter' || e.key === ' ') && S.sel){ e.preventDefault(); tryDrop(S.sel, t, { ph:t.kb }); return; } else return;
+    n.setAttribute('aria-valuenow', String(t.kb)); n.querySelectorAll('.sc').forEach(c => c.classList.toggle('on', +c.dataset.ph === t.kb));
+  });
+  return t;
+}
+function clearScene(){
+  clearSeq(); $('work').innerHTML = ''; $('obs').innerHTML = ''; say(''); S.sel = null;
+  document.querySelectorAll('.mv.ghost,.stream,.drip,.hb,.hlbl').forEach(n => { if(n.parentNode) n.parentNode.removeChild(n); });
+}
+
+/* Soru türü kurucuları */
+const BUILD = {
+  classify(q){
+    const s = SUB[q.sample]; const tools = q.tools; const xs = spread(tools.length, 12, 12 + 13*(tools.length - 1));
+    const accT = [];
+    tools.forEach((tl, i) => {
+      if(tl === 'blue') addMover('tool-blue', 'stripm', '<div class="strip" style="--c:' + PAPER['mavi'] + '"></div>', 'Mavi kâğıt', accT, xs[i], 46);
+      else if(tl === 'red') addMover('tool-red', 'stripm', '<div class="strip" style="--c:' + PAPER['kırmızı'] + '"></div>', 'Kırmızı kâğıt', accT, xs[i], 46);
+      else addMover('tool-phth', 'dropper', dropperArt(), 'Fenolftalein', accT, xs[i], 46);
+    });
+    const m = addMover('sample', 'beakerm', beakerArt('#cfeaff', .62), 'Gizemli çözelti ' + q.label, q.trays.map(t => 'tray-' + t), 55, 34);
+    m.node.setAttribute('aria-label', 'Gizemli çözelti ' + q.label + ' kabı. Önce kâğıtları daldır, sonra doğru tepsiye taşı.');
+    Sc.sampleBox = m.node; const dip = { id:'sample-dip', node:m.node, name:'Gizemli çözelti' };
+    tools.forEach(tl => { Sc.movers['tool-' + tl].dipOn = dip; });
+    const tx = spread(q.trays.length, q.trays.length === 3 ? 30 : 36, q.trays.length === 3 ? 80 : 74);
+    const names = { 'asit':'ASİT', 'baz':'BAZ', 'nötr':'NÖTR', 'bazdeğil':'BAZ DEĞİL' };
+    q.trays.forEach((t, i) => addTarget('tray-' + t, 'trayT t-' + t, names[t], '', tx[i], 84, names[t] + ' tepsisi'));
+    Sc.act = actClassify;
+  },
+  pourOn(q){
+    const acc = ['paper']; const xs = spread(q.bottles.length, 14, 14 + 18*(q.bottles.length - 1));
+    q.bottles.forEach((b, i) => addMover(b, 'bottle', bottleArt(SUB[b]), SUB[b].short, acc, xs[i], 58));
+    addTarget('paper', 'paperT', mkPaper(PAPER[q.paper]), cap1(q.paper) + ' turnusol kâğıdı', 80, 56, cap1(q.paper) + ' turnusol kâğıdı');
+    Sc.act = actPour;
+  },
+  dropOn(q){
+    const xs = spread(q.tubes.length, 58, 86);
+    addMover('dropper', 'dropper', dropperArt(), 'Fenolftalein', q.tubes.map(t => 'tube-' + t), 16, 58);
+    q.tubes.forEach((t, i) => addTarget('tube-' + t, 'tubeT', tubeArt(SUB[t].tint, .62), SUB[t].short, xs[i], 54, SUB[t].name + ' tüpü'));
+    Sc.act = actDrop;
+  },
+  metal(q){
+    const xs = spread(q.tubes.length, 58, 86);
+    addMover('ribbon', 'ribbon', ribbonArt(), 'Magnezyum şeridi', q.tubes.map(t => 'tube-' + t), 16, 58);
+    q.tubes.forEach((t, i) => addTarget('tube-' + t, 'tubeT', tubeArt(SUB[t].tint, .62), SUB[t].short, xs[i], 54, SUB[t].name + ' tüpü'));
+    Sc.act = actMetal;
+  },
+  phScale(q){
+    addScale(50, 30);
+    addMover(q.item, 'bottle', bottleArt(SUB[q.item]), SUB[q.item].short, ['scale'], 50, 74);
+    Sc.act = actScale;
+  },
+  flagScale(q){
+    addScale(50, 30);
+    const b = BANDS.filter(x => x.name === q.color)[0];
+    const n = el('div','indtube'); n.innerHTML = tubeArt(b.color, .7) + '<span class="cap">Evrensel indikatör: ' + esc(q.color) + '</span>'; place(n, 30, 68); $('work').appendChild(n);
+    addMover('flag', 'flagm', flagArt(), 'pH bayrağı', ['scale'], 66, 70);
+    Sc.act = actScale;
+  },
+  neutralize(q){
+    const base = SUB[q.base]; const xs = spread(q.bottles.length, 12, 12 + 17*(q.bottles.length - 1));
+    q.bottles.forEach((b, i) => addMover(b, 'bottle', bottleArt(SUB[b]), SUB[b].short, ['beaker'], xs[i], 62));
+    Sc.liqColor = indColor(q.indicator, base.pH);
+    addTarget('beaker', 'beakerT', beakerArt(Sc.liqColor, .55), base.short + ' + ' + (q.indicator === 'phth' ? 'fenolftalein' : 'evrensel indikatör'), 66, 46, base.name + ' kabı');
+    const mt = el('div','meter'); mt.innerHTML = '<span class="lcd" id="lcd">pH ' + fmtPh(base.pH) + '</span><small>pH metre</small>'; place(mt, 88, 40); $('work').appendChild(mt);
+    Sc.ph = base.pH; Sc.act = actNeut;
+  }
+};
+
+/* ====== Sürükle-bırak ====== */
+function bindDrag(node, m){
+  node.addEventListener('dragstart', e => e.preventDefault());
+  node.addEventListener('pointerdown', e => onDown(e, node, m));
+  node.addEventListener('pointermove', onMove);
+  node.addEventListener('pointerup', onUp);
+  node.addEventListener('pointercancel', () => cancelDrag());
+  node.addEventListener('lostpointercapture', () => { if(D && D.moved && !D.dropped) cancelDrag(); });
+  node.setAttribute('tabindex', '0'); node.setAttribute('role', 'button');
+  node.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggleSel(m); if(S.sel){ const f = firstTarget(m); if(f) f.node.focus(); } } });
+}
+function firstTarget(m){ return Sc.targets[m.accepts[0]] || (m.dipOn ? m.dipOn : null); }
+function canDrag(){ return !S.busy && !S.portrait && S.phase === 'q' && Sc && !Sc.done; }
+function onDown(e, node, m){
+  if(D || !canDrag()) return; if(e.pointerType === 'mouse' && e.button !== 0) return;
+  Snd.resume(); hideTutor(); const r = node.getBoundingClientRect();
+  D = { node:node, m:m, sx:e.clientX, sy:e.clientY, offX:e.clientX - r.left, offY:e.clientY - r.top, w:r.width, h:r.height, moved:false, ghost:null, pid:e.pointerId, dropped:false };
+  try{ node.setPointerCapture(e.pointerId); }catch(err){}
+  e.preventDefault();
+}
+function mkGhost(m){
+  const r = rc(m.node); const g = m.node.cloneNode(true);
+  g.removeAttribute('tabindex'); g.removeAttribute('role'); g.removeAttribute('aria-label'); g.className = 'mv ghost ' + m.cls; g.style.cssText = 'left:0;top:0;width:' + r.w + 'px;height:' + r.h + 'px;opacity:1;pointer-events:none;transform:translate(' + r.l + 'px,' + r.t + 'px)';
+  g.dataset.w = r.w; g.dataset.h = r.h; document.body.appendChild(g); m.node.classList.add('ghosted'); return g;
+}
+function gTo(g, cx, cy, rot, sc, ms){
+  const w = +g.dataset.w, h = +g.dataset.h;
+  g.style.transition = ms && !S.rm ? 'transform ' + Math.round(ms) + 'ms cubic-bezier(.25,.85,.3,1)' : 'none';
+  g.style.transform = 'translate(' + (cx - w/2) + 'px,' + (cy - h/2) + 'px) rotate(' + (rot || 0) + 'deg) scale(' + (sc || 1) + ')';
+}
+function onMove(e){
+  if(!D || e.pointerId !== D.pid) return;
+  if(!D.moved){ if(Math.hypot(e.clientX - D.sx, e.clientY - D.sy) < 7) return; D.moved = true; clearSel(); D.ghost = mkGhost(D.m); D.ghost.classList.add('lift'); Snd.pick(); }
+  gTo(D.ghost, e.clientX - D.offX + D.w/2, e.clientY - D.offY + D.h/2, 0, 1.06, 0);
+  D.lx = e.clientX; D.ly = e.clientY; preview(e.clientX, e.clientY);
+}
+function targetsOf(m){
+  const out = []; m.accepts.forEach(id => { if(Sc.targets[id]) out.push(Sc.targets[id]); }); if(m.dipOn) out.push(m.dipOn); return out;
+}
+function hitTarget(m, px, py){
+  let best = null, bd = 1e9;
+  targetsOf(m).forEach(t => {
+    const r = rc(t.node); const padT = (t.scale ? 70 : 34), pad = (t.scale ? 30 : 14);
+    if(px >= r.l - pad && px <= r.r + pad && py >= r.t - padT && py <= r.b + pad){ const d = Math.hypot(px - r.cx, py - r.cy); if(d < bd){ bd = d; best = t; } }
+  });
+  return best;
+}
+function phAt(t, px){ const r = rc(t.node.querySelector('#cells')); const k = Math.floor((px - r.l) / (r.w / 15)); return Math.max(0, Math.min(14, k)); }
+function clearHl(){ document.querySelectorAll('.tg.hl').forEach(n => n.classList.remove('hl')); document.querySelectorAll('.sc.on').forEach(n => n.classList.remove('on')); }
+function preview(px, py){
+  clearHl(); const t = hitTarget(D.m, px, py); if(!t) return; t.node.classList.add('hl');
+  if(t.scale){ const ph = phAt(t, px); const c = t.node.querySelector('.sc[data-ph="' + ph + '"]'); if(c) c.classList.add('on'); }
+}
+function onUp(e){
+  if(!D || e.pointerId !== D.pid) return;
+  const d = D; try{ d.node.releasePointerCapture(d.pid); }catch(err){}
+  if(!d.moved){ D = null; toggleSel(d.m); return; }
+  d.dropped = true; const t = hitTarget(d.m, e.clientX, e.clientY); clearHl(); D = null;
+  if(!t){ returnGhost(d.m, d.ghost); return; }       // hedef dışına bırakma = iptal, hata sayılmaz
+  const extra = t.scale ? { ph:phAt(t, e.clientX) } : null;
+  runAttempt(d.m, t, extra, d.ghost);
+}
+function returnGhost(m, g){
+  if(!g){ m.node.classList.remove('ghosted'); return; }
+  const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 260);
+  at(280, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); });
+}
+function cancelDrag(){
+  if(!D) return; const d = D; D = null; clearHl();
+  if(d.ghost && d.ghost.parentNode) d.ghost.parentNode.removeChild(d.ghost);
+  if(d.node) d.node.classList.remove('ghosted');
+  try{ d.node.releasePointerCapture(d.pid); }catch(e){}
+}
+document.addEventListener('keydown', e => { if(e.key === 'Escape'){ cancelDrag(); clearSel(); } });
+function clearSel(){ if(S.sel){ if(S.sel.node) S.sel.node.classList.remove('sel'); S.sel = null; } }
+function toggleSel(m){
+  if(!canDrag()) return; Snd.resume(); hideTutor();
+  if(S.sel && S.sel.id === m.id){ clearSel(); return; }
+  clearSel(); S.sel = m; m.node.classList.add('sel'); Snd.pick(); say('Şimdi nesneyi bırakacağın yere dokun.', '');
+  setT('selsay', () => { if(S.sel === m) say(''); }, 2600);
+}
+function tryDrop(m, t, extra){
+  if(!canDrag()) return; clearSel();
+  if(targetsOf(m).indexOf(t) < 0) return;
+  runAttempt(m, t, extra, null);
+}
+function hideTutor(){ const t = $('tutor'); if(!t.hidden){ t.hidden = true; } clearT('tutor'); }
+
+/* ====== Animasyon yardımcıları ====== */
+function dripFx(x, y0, y1, color, n, gap, sound){
+  for(let i=0;i<n;i++) at(i*gap, () => { const d = el('div','drip'); d.style.cssText = 'left:' + (x-4) + 'px;top:' + y0 + 'px;background:' + color + ';--dy:' + (y1 - y0) + 'px'; document.body.appendChild(d); if(S.rm) d.style.animation = 'none'; if(sound) Snd.dripS(); setTimeout(() => { if(d.parentNode) d.parentNode.removeChild(d); }, 600); });
+}
+function streamFx(x, y0, y1, color, ms){
+  const s = el('div','stream'); s.style.cssText = 'left:' + (x-3.5) + 'px;top:' + y0 + 'px;height:' + Math.max(8, y1 - y0) + 'px;background:' + color; document.body.appendChild(s); if(S.rm) s.style.animation = 'none';
+  at(ms, () => { s.style.transition = 'opacity .25s'; s.style.opacity = 0; at(260, () => { if(s.parentNode) s.parentNode.removeChild(s); }); });
+}
+function bubblesFx(rect, n, dur){
+  if(S.rm) return;
+  for(let i=0;i<n;i++) at(i*dur/n, () => { const b = el('i','hb'); const z = 5 + Math.random()*7; b.style.cssText = 'left:' + (rect.l + rect.w*(.3 + Math.random()*.4)) + 'px;top:' + (rect.b - rect.h*.2) + 'px;width:' + z + 'px;height:' + z + 'px;--dx:' + ((Math.random()-.5)*10) + 'px;--dy:' + (-rect.h*.6) + 'px'; document.body.appendChild(b); setTimeout(() => { if(b.parentNode) b.parentNode.removeChild(b); }, 1450); });
+}
+function setLiq(node, color, level){
+  const l = node.querySelector('.liq'); if(!l) return; if(color) l.style.fill = color; if(level != null) l.style.transform = 'scaleY(' + level + ')';
+}
+function pourTo(g, m, T, color, onFx, onEnd, opts){
+  // şişeyi 105° eğip ağzını hedefin üstüne getirir
+  opts = opts || {}; const h = +g.dataset.h; const ptop = T.t + (opts.dy || 0), px = T.cx + (opts.dx || 0);
+  const mouthY = ptop - 16, cx = px - h*.47, cy = mouthY - h*.13;
+  gTo(g, cx, cy, 105, 1, 520);
+  at(560, () => { Snd.pourS(); streamFx(px, mouthY + 4, T.t + T.h*(opts.depth || .4), color, opts.ms || 1000); at(260, () => { if(onFx) onFx(); }); });
+  at((opts.ms || 1000) + 700, () => { const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 460); });
+  at((opts.ms || 1000) + 1200, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); onEnd(); });
+}
+
+/* ====== Deney davranışları ====== */
+function obsChip(t){ const o = $('obs'); const c = el('span', null, '🔎 ' + t); o.appendChild(c); while(o.children.length > 3) o.removeChild(o.firstChild); }
+function actClassify(m, t, extra, g, cb){
+  if(m.id === 'sample'){                                   // kabı tepsiye taşı
+    const r = rc(t.node), correct = (t.id === correctPair(Sc.q).t);
+    gTo(g, r.cx, r.cy - 8, 0, .78, 650);
+    at(700, () => { Snd.clink(); });
+    at(900, () => {
+      if(correct){ cb({ scored:true, ok:true, desc:'' }); }
+      else { cb({ scored:true, ok:false, desc:'Gizemli çözelti ' + Sc.q.label + ' kabını ' + String(t.name).replace(/ tepsisi$/, '') + ' tepsisine taşıdı', note:'Bu tepsi değil! Deney sonuçlarına tekrar bak.', afterReset:true }); }
+    });
+    return;
+  }
+  // araç: kâğıt daldır / fenolftalein damlat
+  const s = SUB[Sc.q.sample], box = rc(Sc.sampleBox), h = +g.dataset.h;
+  if(m.id === 'tool-phth'){
+    gTo(g, box.cx, box.t - h*.5 - 16, 180, 1, 520);
+    at(600, () => dripFx(box.cx, box.t - 14, box.t + box.h*.4, PINK, 3, 330, true));
+    at(1500, () => { const pink = s.kind === 'baz'; setLiq(Sc.sampleBox, pink ? PINK : 'rgba(207,234,255,.9)'); if(pink) Snd.bell(); else Snd.plop(); obsChip(pink ? 'Fenolftalein → pembe oldu' : 'Fenolftalein → renksiz kaldı'); Sc.tests++; R.tests++; if(R.tests >= 6) giveBadge('curious'); });
+    at(2300, () => { const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 450); });
+    at(2800, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); cb({ scored:false }); });
+    return;
+  }
+  const paper = m.id === 'tool-blue' ? 'mavi' : 'kırmızı', res = litmus(paper, s.kind), strip = g.querySelector('.strip');
+  gTo(g, box.cx, box.t - h*.5 - 6, 0, 1, 500);
+  at(560, () => gTo(g, box.cx, box.t + box.h*.28, 0, 1, 380));
+  at(1000, () => { Snd.drop(); strip.style.setProperty('--c', PAPER[res]); const tubeStrip = m.node.querySelector('.strip'); if(res !== paper) Snd.bell(); else Snd.plop(); });
+  at(2100, () => gTo(g, box.cx, box.t - h*.5 - 6, 0, 1, 420));
+  at(2600, () => { const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 450); });
+  at(3100, () => {
+    const note = cap1(paper) + ' kâğıt → ' + (res === paper ? 'değişmedi' : res + ' oldu'); obsChip(note); Sc.tests++; R.tests++; if(R.tests >= 6) giveBadge('curious');
+    if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted');
+    const ms = m.node.querySelector('.strip'); ms.style.setProperty('--c', PAPER[res]);
+    at(2500, () => { ms.style.setProperty('--c', PAPER[paper]); });                // yeni kâğıt
+    cb({ scored:false });
+  });
+}
+function actPour(m, t, extra, g, cb){
+  const s = SUB[m.id], q = Sc.q, T = rc(t.node), res = litmus(q.paper, s.kind), ok = (res === q.goal);
+  pourTo(g, m, T, s.tint, () => { const pp = t.node.querySelector('.paper'); t.node.classList.add('wetting'); pp.style.setProperty('--c', PAPER[res]); if(res !== q.paper) at(500, () => Snd.bell()); at(1300, () => t.node.classList.remove('wetting')); },
+    () => { cb({ scored:true, ok:ok, desc:s.name + ' şişesini ' + q.paper + ' turnusol kâğıdına döktü; kâğıt ' + (res === q.paper ? 'değişmedi' : res + ' oldu'),
+      note:ok ? '' : (res === q.paper ? cap1(s.short) + ' kâğıdın rengini değiştirmedi.' : 'Kâğıt ' + res + ' oldu ama istenen renk bu değil.') }); }, { dy:6, depth:.4, ms:1100 });
+}
+function actDrop(m, t, extra, g, cb){
+  const T = rc(t.node), h = +g.dataset.h, id = t.id.slice(5), s = SUB[id], pink = s.kind === 'baz';
+  gTo(g, T.cx, T.t - h*.5 - 18, 180, 1, 520);
+  at(580, () => dripFx(T.cx, T.t - 16, T.t + T.h*.36, PINK, 3, 330, true));
+  at(1500, () => { setLiq(t.node, pink ? PINK : null); if(pink){ Snd.bell(); burst(T.cx, T.t + T.h*.4, PINK, 10); } else Snd.plop(); });
+  at(2400, () => { const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 450); });
+  at(2900, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); cb({ scored:true, ok:pink, desc:'Fenolftaleini ' + s.name + ' tüpüne damlattı; ' + (pink ? 'pembe oldu' : 'renksiz kaldı'), note:pink ? '' : cap1(s.short) + ' tüpü renksiz kaldı: baz değil.' }); });
+}
+function actMetal(m, t, extra, g, cb){
+  const T = rc(t.node), h = +g.dataset.h, id = t.id.slice(5), s = SUB[id], gas = s.kind === 'asit';
+  gTo(g, T.cx, T.t - h*.5 - 10, 0, 1, 520);
+  at(580, () => gTo(g, T.cx, T.t + T.h*.62, 0, .8, 520));
+  at(1150, () => { Snd.drop(); if(gas){ Snd.fizz(); bubblesFx(T, 16, 1600); const l = el('span','hlbl','H₂ ↑'); l.style.left = (T.cx - 14) + 'px'; l.style.top = (T.t - 6) + 'px'; document.body.appendChild(l); setTimeout(() => { if(l.parentNode) l.parentNode.removeChild(l); }, 1700); const gl = g.querySelector('.art'); if(gl && !S.rm) gl.style.transform = 'scale(.7)'; } });
+  at(2900, () => { const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 450); });
+  at(3400, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); cb({ scored:true, ok:gas, desc:'Magnezyum şeridini ' + s.name + ' tüpüne attı; ' + (gas ? 'kabarcık çıktı' : 'kabarcık çıkmadı'), note:gas ? '' : cap1(s.short) + ' tüpünde kabarcık oluşmadı: tepkime yok.' }); });
+}
+function actScale(m, t, extra, g, cb){
+  const q = Sc.q, ph = extra && extra.ph != null ? extra.ph : 7, cell = t.node.querySelector('.sc[data-ph="' + ph + '"]'), c = rc(cell), h = +g.dataset.h, isBottle = q.type === 'phScale';
+  let ok, desc, note;
+  if(isBottle){ const s = SUB[q.item]; ok = ph >= s.ph[0] && ph <= s.ph[1]; desc = s.name + ' şişesini pH ' + ph + ' kutusuna bıraktı'; note = ok ? '' : (ph < s.ph[0] ? 'Daha bazik bir değer olmalı.' : 'Daha asidik bir değer olmalı.'); if(ph === 7 && !ok) note = SUB[q.item].kind === 'asit' ? 'Asitlerin pH değeri 7\'den küçüktür.' : 'Bazların pH değeri 7\'den büyüktür.'; }
+  else { const b = BANDS.filter(x => x.name === q.color)[0]; ok = ph >= b.from && ph <= b.to; desc = 'pH bayrağını ' + ph + ' kutusuna bıraktı (' + bandOf(ph).name + ' bölge)'; note = ok ? '' : 'Bu kutu ' + bandOf(ph).name + ' renkte; tüpün rengi ' + q.color + '.'; }
+  const stripTop = rc(t.node.querySelector('#cells'));
+  if(isBottle){ gTo(g, c.cx - h*.4, stripTop.t - h*.35, 60, 1, 520); at(560, () => dripFx(c.cx, stripTop.t - 26, stripTop.t + 4, SUB[q.item].tint, 3, 260, true)); }
+  else { gTo(g, c.cx, stripTop.t - h*.42, 0, 1, 520); at(560, () => Snd.drop()); }
+  at(1250, () => {
+    const pin = el('div', 'pin ' + (ok ? 'good' : 'bad')); pin.innerHTML = '<b>' + ph + '</b>'; pin.style.left = (c.cx - rc(t.node).l) + 'px'; pin.style.top = (stripTop.t - rc(t.node).t) + 'px'; t.node.appendChild(pin);
+    at(1500, () => { if(pin.parentNode) pin.parentNode.removeChild(pin); });
+    if(ok){ cell.classList.add('good'); Snd.bell(); burst(c.cx, c.cy, bandOf(ph).color, 12); at(1200, () => cell.classList.remove('good')); } else Snd.bad();
+  });
+  at(1700, () => { const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 450); });
+  at(2200, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); cb({ scored:true, ok:ok, desc:desc, note:note }); });
+}
+function actNeut(m, t, extra, g, cb){
+  const q = Sc.q, s = SUB[m.id], base = SUB[q.base], T = rc(t.node), r = mix(base, s), ok = r.neutral;
+  const target = r.pH, color = indColor(q.indicator, target), startPh = Sc.ph;
+  pourTo(g, m, T, s.tint, () => {
+    setLiq(t.node, color, .78); Sc.ph = target; countLcd(startPh, target);
+    if(ok){ at(900, () => { Snd.bell(); Snd.fizz(); bubblesFx(T, 14, 1400); burst(T.cx, T.t + T.h*.4, '#37e39a', 14); const l = el('span','hlbl','TUZ + SU'); l.style.left = (T.cx - 30) + 'px'; l.style.top = (T.t - 4) + 'px'; document.body.appendChild(l); setTimeout(() => { if(l.parentNode) l.parentNode.removeChild(l); }, 1700); }); }
+  }, () => {
+    const note = ok ? '' : (s.kind === 'nötr' ? 'Su yalnızca seyreltti: pH ' + fmtPh(target) + '.' : 'Aynı türden çözelti nötrleştirmez: pH ' + fmtPh(target) + '.');
+    cb({ scored:true, ok:ok, desc:s.name + ' şişesini ' + base.short + ' kabına döktü (pH ' + fmtPh(target) + ')', note:note, afterReset:!ok });
+  }, { dy:4, depth:.35, ms:1400 });
+}
+function countLcd(a, b){
+  const e = $('lcd'); if(!e) return; const n = S.rm ? 1 : 14;
+  for(let i=1;i<=n;i++) at(i*(1400/n), () => { e.textContent = 'pH ' + fmtPh(a + (b - a)*i/n); });
+}
+function resetBeaker(){
+  const q = Sc.q; if(q.type !== 'neutralize') return; const base = SUB[q.base]; const t = Sc.targets.beaker;
+  setLiq(t.node, indColor(q.indicator, base.pH), .55); Sc.ph = base.pH; countLcd(+String($('lcd').textContent.replace('pH ','').replace(',','.')) || base.pH, base.pH);
+}
+
+/* ====== Soru akışı ====== */
+function meta(k){ return { unit:C.unit, topic:C.topic, outcome:C.outcomes[k], sourceRef:C.sourceRef }; }
+function beginGame(){
+  if(S.phase !== 'intro') return; Snd.resume();
+  R = { answers:[], score:0, combo:0, maxCombo:0, badges:[], tests:0, firstOk:{1:0,2:0,3:0,4:0}, st:null };
+  Clock.start(); setScore(0); setCombo(); buildBg(); showStageIntro(1);
+}
+function showStageIntro(n){
+  S.phase = 'stageIntro'; CURST = n; updateSteps(); clearSel(); cancelDrag(); clearScene(); const st = C.stations[n-1];
+  $('stgNum').textContent = n; $('stgT').textContent = n + '. İstasyon: ' + st.name; $('stgP').textContent = st.howto; showScreen('scStage'); Snd.whoosh();
+}
+$('btnStage').addEventListener('click', () => { if(S.phase === 'stageIntro') startStation(CURST); });
+function updateSteps(){ document.querySelectorAll('.step').forEach(s => { const n = +s.dataset.s; s.classList.toggle('cur', n === CURST); s.classList.toggle('done', n < CURST); s.setAttribute('aria-current', n === CURST ? 'step' : 'false'); }); }
+function startStation(n){
+  showScreen(null); const st = C.stations[n-1]; Snd.resume(); mood('happy', n + '. istasyon başlıyor!'); layout();
+  R.st = { n:n, qs:shuffle(st.pool).slice(0, st.pick), i:0 }; nextQuestion();
+}
+function qNumber(){ return (R.st.n - 1) * 5 + R.st.i + 1; }
+function nextQuestion(){
+  const q = R.st.qs[R.st.i]; S.phase = 'q'; S.busy = false; clearScene();
+  Sc = { q:q, movers:{}, targets:{}, attempts:0, firstWrong:'', done:false, hint:0, tests:0, act:null, revealed:false };
+  $('qTag').textContent = 'Deney ' + qNumber() + '/20 · ' + C.stations[R.st.n-1].name; $('qText').textContent = q.prompt;
+  $('work').dataset.qid = q.id; $('qBox').hidden = false; $('hearts').hidden = false; $('fbBox').hidden = true; $('board').className = '';
+  renderHearts(); $('btnHint').disabled = false;
+  layout(); BUILD[q.type](q); layout();
+  if(qNumber() === 1) showTutor();
+  say('');
+}
+function renderHearts(){ const h = $('hearts'); h.innerHTML = ''; for(let i=0;i<3;i++) h.appendChild(el('i', i < 3 - wrongs() ? '' : 'off', '🧪')); h.setAttribute('aria-label', 'Kalan hak: ' + (3 - wrongs())); }
+function wrongs(){ return Math.max(0, Sc.attempts - (Sc.done && !Sc.revealed ? 1 : 0)); }
+function showTutor(){
+  const q = Sc.q, tg = $('tutor'); const mvs = Object.keys(Sc.movers).filter(k => !Sc.movers[k].hidden); if(!mvs.length) return;
+  const a = rc(Sc.movers[mvs[0]].node), b = rc(Sc.sampleBox || $('work').querySelector('.tg:not(.trayT)') || $('work'));
+  const bb = rc($('bench')); tg.hidden = false; tg.style.left = (a.cx - bb.l) + 'px'; tg.style.top = (a.cy - bb.t + 10) + 'px';
+  if(!S.rm){ tg.animate([{ transform:'translate(0,0)' }, { transform:'translate(' + ((b.cx - a.cx)*.8) + 'px,' + ((b.cy - a.cy)*.6) + 'px)' }, { transform:'translate(0,0)' }], { duration:2200 * TS + 400, iterations:Infinity }); }
+  setT('tutor', hideTutor, 12000);
+}
+function runAttempt(m, t, extra, ghost){
+  if(S.busy || S.phase !== 'q' || Sc.done) { if(ghost && ghost.parentNode) ghost.parentNode.removeChild(ghost); m.node.classList.remove('ghosted'); return; }
+  S.busy = true; say(''); const g = ghost || mkGhost(m); Snd.drop();
+  Sc.act(m, t, extra, g, res => onResult(m, t, res));
+}
+function onResult(m, t, res){
+  if(!res.scored){ S.busy = false; return; }
+  Sc.attempts++;
+  if(res.ok){ finishQuestion(); return; }
+  if(!Sc.firstWrong) Sc.firstWrong = res.desc;
+  const r = rc(t.node); Snd.bad(); xMark(r.cx, r.cy); shakeApp(); R.combo = 0; setCombo(); renderHearts(); mood('sad', 'Hmm, olmadı!');
+  say(res.note || 'Tekrar dene!', 'bad');
+  if(res.afterReset){ at(900, () => { resetBeaker(); resetSample(m); }); }
+  if(Sc.attempts >= 3){ at(1500, () => revealAnswer()); return; }
+  at(res.afterReset ? 1500 : 400, () => { S.busy = false; });
+}
+function resetSample(m){
+  if(Sc.q.type !== 'classify' || m.id !== 'sample') return; const g = document.querySelector('.mv.ghost'); if(g){ const r = rc(m.node); gTo(g, r.cx, r.cy, 0, 1, 450); at(480, () => { if(g.parentNode) g.parentNode.removeChild(g); m.node.classList.remove('ghosted'); }); } else m.node.classList.remove('ghosted');
+}
+function revealAnswer(){
+  const q = Sc.q, c = correctPair(q), m = Sc.movers[c.m], t = Sc.targets[c.t]; Sc.revealed = true; say('Üç hata oldu. Doğru deneyi gösteriyorum!', 'bad');
+  document.querySelectorAll('.mv.ghost').forEach(n => n.parentNode && n.parentNode.removeChild(n)); m.node.classList.remove('ghosted'); resetBeaker();
+  at(900, () => { Sc.act(m, t, c.ph != null ? { ph:c.ph } : null, mkGhost(m), res => { finishQuestion(); }); });
+}
+function finishQuestion(){
+  const q = Sc.q; Sc.done = true; S.busy = true; say('');
+  const first = (Sc.attempts === 1 && !Sc.revealed);
+  const pts = Sc.revealed ? 0 : (first ? 100 + Math.min(R.combo, 5)*10 : (Sc.attempts === 2 ? 50 : 25));
+  const bx = rc($('board'));
+  if(first){ R.combo++; R.maxCombo = Math.max(R.maxCombo, R.combo); R.firstOk[R.st.n]++; if(R.combo >= 5) giveBadge('combo'); } else R.combo = 0;
+  setCombo(); if(pts) addScore(pts, bx.cx, bx.b + 14); Snd.good(); Snd.win(); confetti(first ? 18 : 8); mood(first ? 'cheer' : 'happy', first ? 'Harika deney!' : (Sc.revealed ? 'Şimdi anladın!' : 'Doğru!'));
+  const tg = Object.keys(Sc.targets).map(k => Sc.targets[k]).filter(x => x.node && x.node.classList && !x.scale)[0]; if(tg){ const r = rc(tg.node); burst(r.cx, r.cy, null, 16); }
+  R.answers.push({ id:q.questionId, ok:first, qText:q.prompt, student:first ? 'Doğru yapıldı' : (Sc.firstWrong || 'Deney çözülemedi'), correct:q.correctText, meta:meta(q.outcomeKey), explanation:q.explanation });
+  $('qBox').hidden = true; $('hearts').hidden = true; $('fbBox').hidden = false; $('board').className = first ? 'okb' : 'nob';
+  $('fbText').textContent = (first ? '✓ Harika! ' : (Sc.revealed ? '✗ Doğrusu: ' : '✓ Doğru! ')) + q.explanation;
+  const nb = $('btnNext'); nb.textContent = R.st.i >= 4 ? 'İstasyonu Bitir' : 'Sonraki Deney'; $('btnHint').disabled = true; try{ nb.focus({preventScroll:true}); }catch(e){}
+  S.phase = 'fb'; S.busy = false;
+}
+$('btnNext').addEventListener('click', () => {
+  if(S.phase !== 'fb') return; R.st.i++;
+  if(R.st.i >= R.st.qs.length){ stationDone(); return; }
+  Snd.whoosh(); nextQuestion();
+});
+$('btnHint').addEventListener('click', () => {
+  if(S.phase !== 'q' || !Sc || Sc.done) return; Snd.resume();
+  if(Sc.hint === 0){ say('💡 ' + Sc.q.hint, ''); addScore(-10); mood('happy', 'İpucu!'); Sc.hint = 1; }
+  else if(Sc.hint === 1){ const c = correctPair(Sc.q), t = Sc.targets[c.t]; if(t){ t.node.classList.add('glow'); at(3200, () => t.node.classList.remove('glow')); } const mv = Sc.movers[c.m]; if(mv){ mv.node.classList.add('sel'); at(3200, () => { if(S.sel !== mv) mv.node.classList.remove('sel'); }); } say('💡 Parlayan nesneleri kullan!', ''); addScore(-20); Sc.hint = 2; }
+});
+function stationDone(){
+  const n = R.st.n, f = R.firstOk[n]; S.phase = 'stageDone'; clearScene(); clearAllT(); S.busy = true;
+  if(f === 5) giveBadge('s' + n);
+  const m = $('medals'); m.innerHTML = ''; for(let i=0;i<5;i++){ const s = el('span', i < f ? '' : 'off', '🧪'); s.style.animationDelay = (i*.12) + 's'; m.appendChild(s); }
+  m.setAttribute('aria-label', 'İlk denemede doğru: ' + f + '/5');
+  $('doneT').textContent = n + '. İstasyon tamam!'; $('doneP').textContent = 'İlk denemede ' + f + '/5 doğru. ' + (n < 4 ? 'Sıradaki istasyon: ' + C.stations[n].name + '.' : 'Son sonuçlar hazırlanıyor!');
+  $('btnDone').textContent = n < 4 ? 'Devam' : 'Sonucu Gör'; badgesHTML($('doneBadges')); showScreen('scDone'); Snd.fan(); confetti(f >= 4 ? 40 : 22); mood('cheer');
+}
+$('btnDone').addEventListener('click', () => { if(S.phase !== 'stageDone') return; if(CURST >= 4){ S.phase = 'advancing'; finishGame(); } else showStageIntro(CURST + 1); });
+
+/* ====== Sonuç ====== */
+function calcStars(c, t){ const pct = t > 0 ? (c/t)*100 : 0; return pct >= CFG.stars.s3 ? 3 : pct >= CFG.stars.s2 ? 2 : pct >= CFG.stars.s1 ? 1 : 0; }
+function buildResult(){
+  const answers = R.answers.map(a => a.ok ? { questionId:a.id, isCorrect:true } :
+    { questionId:a.id, isCorrect:false, questionText:a.qText, studentAnswer:a.student, correctAnswer:a.correct, unit:a.meta.unit, topic:a.meta.topic, outcome:a.meta.outcome, sourceRef:a.meta.sourceRef, explanation:a.explanation });
+  const c = R.answers.filter(a => a.ok).length, w = R.answers.length - c;
+  return { gameId:CFG.gameId, gameVersion:CFG.gameVersion, grade:S.ctx.grade, gameName:CFG.gameName, subjectId:S.ctx.subjectId, subjectName:S.ctx.subjectName,
+    stars:calcStars(c, answers.length), correctCount:c, wrongCount:w, durationMs:Clock.value(), answers:answers };
+}
+function validResult(p){
+  if(!p || [0,1,2,3].indexOf(p.stars) < 0) return false;
+  if(!(Number.isInteger(p.durationMs) && p.durationMs >= 0)) return false;
+  if(p.correctCount + p.wrongCount !== p.answers.length || p.answers.length !== CFG.totalQuestions) return false;
+  const seen = {};
+  for(let i=0;i<p.answers.length;i++){ const a = p.answers[i]; if(!a.questionId || seen[a.questionId]) return false; seen[a.questionId] = 1;
+    if(a.isCorrect === false){ const f = ['questionText','studentAnswer','correctAnswer','unit','topic','outcome','sourceRef']; for(let j=0;j<f.length;j++) if(!a[f[j]]) return false; } }
+  return true;
+}
+function finishGame(){
+  if(S.resultSent) return; S.phase = 'finished'; Clock.stop(); clearAllT(); cancelDrag();
+  if(R.answers.length === 20 && R.answers.every(a => a.ok)) giveBadge('perfect');
+  const payload = buildResult();
+  if(!validResult(payload)){ showError('Sonuç oluşturulamadı. Lütfen oyunu yeniden dene.', false); return; }
+  if(S.mode === 'demo'){ showDemoResult(payload); return; }
+  S.resultSent = true; S.resultMsg = envelope('game.completed', payload);
+  $('sentSpin').hidden = false; $('sentT').textContent = 'Sonuç gönderildi'; $('sentMsg').textContent = 'Kaydediliyor…'; $('btnResend').hidden = true; badgesHTML($('sentBadges')); showScreen('scSent'); Snd.fan(); confetti(30);
+  if(!sendToApp(S.resultMsg)){ $('sentSpin').hidden = true; $('sentT').textContent = 'Sonuç iletilemedi'; $('sentMsg').textContent = 'Sonuç uygulamaya iletilemedi. Tekrar göndermeyi dene.'; $('btnResend').hidden = false; try{ $('btnResend').focus(); }catch(e){} }
+  S.phase = 'sent';
+}
+$('btnResend').addEventListener('click', () => {
+  if(!S.resultMsg || S.phase !== 'sent') return;
+  if(sendToApp(S.resultMsg)){ $('sentSpin').hidden = false; $('sentT').textContent = 'Sonuç gönderildi'; $('sentMsg').textContent = 'Kaydediliyor…'; $('btnResend').hidden = true; }
+});
+function showDemoResult(p){
+  const st = $('stars'); st.innerHTML = ''; for(let i=0;i<3;i++){ const s = el('span', i < p.stars ? '' : 'off', '⭐'); s.style.animationDelay = (i*.15) + 's'; st.appendChild(s); } st.setAttribute('aria-label', p.stars + ' yıldız');
+  $('rC').textContent = '✓ Doğru: ' + p.correctCount; $('rW').textContent = '✗ Yanlış: ' + p.wrongCount; $('rT').textContent = '⏱ ' + Math.round(p.durationMs/1000) + ' sn'; $('rR').textContent = '🎓 ' + rank(p.correctCount); badgesHTML($('resBadges'));
+  const rv = $('review'); rv.innerHTML = ''; const wr = p.answers.filter(a => !a.isCorrect);
+  wr.forEach(a => { const li = el('li'); li.appendChild(el('b', null, a.correctAnswer)); li.appendChild(document.createTextNode(' — ' + a.explanation)); rv.appendChild(li); });
+  $('reviewBox').hidden = wr.length === 0; $('resT').textContent = p.stars >= 2 ? 'Baş bilim insanı!' : (p.stars === 1 ? 'İyi gidiyorsun!' : 'Bir daha dene!');
+  showScreen('scRes'); if(p.stars >= 1){ Snd.fan(); confetti(p.stars === 3 ? 50 : 28); } else Snd.bad();
+  S.phase = 'finished';
+}
+$('btnAgain').addEventListener('click', () => { if(S.mode !== 'demo' || S.phase !== 'finished') return; R = null; clearAllT(); clearScene(); S.phase = 'intro'; CURST = 0; updateSteps(); setScore(0); showStart(); });
+
+/* ====== Başlatma / el sıkışma ====== */
+$('btnStart').addEventListener('click', () => { if(S.phase !== 'intro' || !S.mode) return; beginGame(); });
+$('btnRetry').addEventListener('click', () => { if(S.phase === 'error') bootstrap(); });
+$('btnExit').addEventListener('click', () => { try{ window.close(); }catch(e){} try{ if(history.length > 1) history.back(); }catch(e){} });
+function startDemo(){ S.mode = 'demo'; S.ctx = { runId:'demo-run', nonce:'demo-nonce', grade:CFG.grade, subjectId:CFG.subjectId, subjectName:CFG.subjectName, reducedMotion:false }; S.resultMsg = null; S.resultSent = false; applyRM(); $('demoTag').hidden = false; $('btnStart').textContent = 'Deneme Modunda Başla'; showStart(); }
+function bootstrap(){ clearT('hs'); S.phase = 'boot'; S.mode = null; S.readyIds = {}; S.bridgeTry = 0; showScreen('scLoad'); tryReady(); }
+function tryReady(){
+  if(sendReady()){ S.mode = 'native'; S.phase = 'waitInit'; $('btnStart').textContent = 'Başla'; setT('hs', () => { if(S.phase === 'waitInit') showError('Uygulamaya bağlanılamadı. Tekrar deneyebilir veya çıkabilirsin.', true); }, 10000); return; }
+  S.bridgeTry++; if(S.bridgeTry < 10){ setT('hs', tryReady, 300); return; }
+  startDemo();
+}
+buildBg(); updateSteps(); layout();
+if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => { layout(); bootstrap(); }); else { layout(); bootstrap(); }
+})();
+</script>
+</body>
+</html>

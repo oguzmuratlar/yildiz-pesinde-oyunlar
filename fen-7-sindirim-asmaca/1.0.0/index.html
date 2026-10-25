@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; media-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Elmi'nin Sindirim Yolculuğu</title>
+<style>
+:root{
+  --board:#25523f; --board-d:#1b3d2f; --chalk:#f6f2e6; --yellow:#ffd75e; --pink:#ff9fb3; --blue:#8bd8ff;
+  --good:#7ee8a0; --bad:#ff7b7b; --wood:#9a6a3a; --wood-d:#6b4423; --apple:#e63946;
+  --font:"Chalkboard SE","Marker Felt","Segoe Print","Comic Sans MS","Trebuchet MS",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --slot:34px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0;overflow:hidden;background:#2b1b0f;color:var(--chalk);font-family:var(--font);
+  -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+[hidden]{display:none!important}
+
+#app{position:fixed;top:0;right:0;bottom:0;left:0;display:grid;grid-template-rows:auto minmax(0,1fr);gap:6px;
+  padding:max(6px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(6px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));
+  background:radial-gradient(circle at 20% 10%,#5b3b1f,#2b1b0f 70%)}
+
+/* ---------- üst çubuk ---------- */
+#top{display:flex;align-items:center;gap:10px;min-height:48px;padding:4px 10px;border-radius:12px;
+  background:linear-gradient(#b07a45,#8d5d32);box-shadow:0 3px 0 var(--wood-d)}
+#track{position:relative;flex:1;height:44px;min-width:0}
+#trackLine{position:absolute;left:3%;right:3%;top:30px;height:0;border-top:3px dashed rgba(255,255,255,.55)}
+.stations{position:absolute;top:0;right:0;bottom:0;left:0;display:grid;grid-template-columns:repeat(8,1fr)}
+.st{display:flex;align-items:flex-end;justify-content:center;padding-bottom:3px}
+.st i{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;border:3px solid var(--chalk);background:var(--board-d);
+  font:900 13px/1 var(--font);font-style:normal;color:var(--chalk)}
+.st.ok i{background:var(--good);border-color:#2e8c52;color:#12432a}
+.st.no i{background:#ffd0d0;border-color:#c0392b;color:#8b1a1a}
+#elmi{position:absolute;top:-4px;left:0;width:12.5%;height:26px;display:flex;justify-content:center;transition:transform .5s cubic-bezier(.3,1.4,.5,1);pointer-events:none}
+#elmi svg{height:26px;width:auto;transform-origin:50% 100%}
+#elmi.hop svg{animation:hop .5s}
+#elmi.sad svg{animation:wob .5s}
+.pills{display:flex;gap:6px;align-items:center;flex:none}
+.pill{background:rgba(0,0,0,.28);border-radius:999px;padding:4px 10px;font:800 14px/1.1 var(--font);white-space:nowrap;color:#fff}
+#sndBtn{width:44px;height:44px;border-radius:12px;border:0;background:var(--chalk);color:#3b2a18;display:grid;place-items:center;flex:none;box-shadow:0 3px 0 #bdb293}
+#sndBtn svg{width:26px;height:26px}
+
+/* ---------- sahne ---------- */
+#stage{display:grid;grid-template-columns:minmax(0,1fr) clamp(312px,42vw,440px);gap:10px;min-height:0}
+#board{position:relative;min-width:0;min-height:0;display:grid;grid-template-columns:minmax(104px,36%) minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:6px 10px;
+  padding:10px 12px;border-radius:14px;border:10px solid var(--wood);
+  background:
+   radial-gradient(ellipse at 25% 20%,rgba(255,255,255,.08),transparent 45%),
+   radial-gradient(ellipse at 80% 85%,rgba(255,255,255,.06),transparent 40%),
+   linear-gradient(135deg,var(--board),var(--board-d));
+  box-shadow:inset 0 0 40px rgba(0,0,0,.5),0 5px 0 var(--wood-d);overflow:hidden}
+#board.shake{animation:shake .4s}
+#gal{grid-row:1;grid-column:1;min-height:0;position:relative;display:flex;flex-direction:column;align-items:center}
+#galSvg{flex:1;min-height:0;width:100%}
+#hak{display:flex;gap:4px;align-items:center;justify-content:center;font:800 13px/1 var(--font);padding-top:2px;white-space:nowrap}
+#hak b{display:inline-flex;gap:3px}
+#hak i{width:9px;height:9px;border-radius:50%;background:var(--yellow);border:2px solid var(--yellow)}
+#hak i.off{background:transparent;border-color:rgba(255,255,255,.45)}
+#clueBox{grid-row:1;grid-column:2;min-height:0;min-width:0;display:flex;flex-direction:column;gap:6px;overflow:auto}
+#qTag{align-self:flex-start;background:var(--yellow);color:#3b2a18;border-radius:999px;padding:3px 10px;font:900 12px/1.2 var(--font)}
+#clue{margin:0;font-weight:800;font-size:clamp(13px,2.5vh + .4vw,22px);line-height:1.3;color:var(--chalk);text-shadow:0 1px 0 rgba(0,0,0,.4)}
+#toast{min-height:20px;font:800 clamp(12px,2vh,16px)/1.2 var(--font);color:var(--blue)}
+#toast.good{color:var(--good)} #toast.bad{color:var(--bad)}
+#slots{grid-row:2;grid-column:1/-1;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;padding:4px 0 2px}
+.w{display:flex;gap:3px}
+.slot{position:relative;width:var(--slot);height:calc(var(--slot)*1.25);border-bottom:4px solid var(--chalk);display:grid;place-items:center;
+  font:900 calc(var(--slot)*.78)/1 var(--font);color:var(--yellow);text-shadow:0 2px 0 rgba(0,0,0,.35)}
+.slot.miss{color:var(--pink);border-bottom-style:dashed}
+.slot.pop .ch{animation:pop .5s}
+.slot.hit{box-shadow:0 0 0 3px rgba(126,232,160,.8),0 0 14px rgba(126,232,160,.9);border-radius:6px 6px 0 0}
+.sp{position:absolute;left:50%;top:50%;width:8px;height:8px;color:var(--good);font-size:14px;line-height:8px;pointer-events:none;animation:spark .7s ease-out forwards}
+#bigX{position:absolute;left:50%;top:44%;width:min(34%,150px);height:auto;transform:translate(-50%,-50%);pointer-events:none;opacity:0}
+#bigX.on{animation:bx .75s ease-out}
+#bigX.on.rm{animation:none;opacity:1}
+#fb{position:fixed;top:0;right:0;bottom:0;left:0;display:grid;place-items:center;background:rgba(10,25,18,.72);z-index:20;padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));overflow:hidden}
+.fbCard{max-width:min(94vw,540px);max-height:94vh;overflow:auto;text-align:center;border-radius:16px;padding:12px 16px;background:var(--board-d);border:4px solid var(--chalk)}
+.fbCard h2{margin:0 0 4px;font-size:clamp(18px,4vh,28px)}
+.fbCard .ans{font-weight:900;font-size:clamp(16px,3.6vh,26px);color:var(--yellow);margin:2px 0 6px}
+.fbCard p{margin:0 0 8px;font-size:clamp(12px,2.3vh,17px);line-height:1.35;font-weight:700}
+.fbOk h2{color:var(--good)} .fbNo h2{color:var(--bad)}
+.btn{min-height:48px;min-width:48px;padding:8px 22px;border:0;border-radius:14px;background:var(--yellow);color:#3b2a18;font:900 18px/1.1 var(--font);box-shadow:0 4px 0 #c79c1f}
+.btn:active{transform:translateY(2px);box-shadow:0 2px 0 #c79c1f}
+.btn.alt{background:var(--chalk);box-shadow:0 4px 0 #bdb293}
+.conf{position:absolute;top:-10px;width:9px;height:14px;pointer-events:none;animation:fall 1.6s ease-in forwards;z-index:6}
+
+/* ---------- harfler ---------- */
+#keys{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:minmax(44px,72px);align-content:center;gap:4px;
+  padding:6px;border-radius:14px;background:linear-gradient(#b07a45,#8d5d32);box-shadow:0 4px 0 var(--wood-d);min-height:0}
+.key{position:relative;min-width:44px;min-height:44px;border:0;border-bottom:4px solid #cbbf9f;border-radius:10px;background:var(--chalk);color:#23402f;
+  font:900 clamp(18px,3.4vh,30px)/1 var(--font)}
+.key:active:not(:disabled){transform:translateY(2px);border-bottom-width:2px}
+.key:disabled{cursor:default}
+.key.good{background:#b9f0c8;border-bottom-color:#3ea062}
+.key.bad{background:#ffd0d0;border-bottom-color:#c0392b;color:#8b1a1a;text-decoration:line-through;text-decoration-thickness:3px}
+.key.good::after,.key.bad::after{position:absolute;right:3px;top:1px;font:900 12px/1 var(--font);text-decoration:none}
+.key.good::after{content:"✓";color:#1b7a40} .key.bad::after{content:"✗";color:#b02a2a}
+#keys.lock .key{opacity:.55}
+
+/* ---------- ekranlar ---------- */
+.screen{position:fixed;top:0;right:0;bottom:0;left:0;z-index:30;display:grid;place-items:center;padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));
+  background:rgba(18,28,22,.94)}
+.card{width:min(620px,96vw);max-height:96vh;overflow:auto;text-align:center;padding:14px 20px;border-radius:18px;
+  background:linear-gradient(135deg,var(--board),var(--board-d));border:8px solid var(--wood);box-shadow:inset 0 0 30px rgba(0,0,0,.45),0 6px 0 var(--wood-d)}
+.card h1{margin:4px 0;font-size:clamp(22px,5vh,34px);color:var(--yellow);line-height:1.15}
+.card h2{margin:4px 0;font-size:clamp(20px,4.6vh,30px);line-height:1.15}
+.card p,.card li{font-weight:700;font-size:clamp(13px,2.6vh,17px);line-height:1.4}
+.card ul{list-style:none;padding:0;margin:8px 0;display:grid;gap:4px;text-align:left}
+.card .row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+.demoTag{display:inline-block;margin:4px 0;padding:4px 12px;border-radius:999px;background:var(--pink);color:#4a1020;font:900 13px/1.2 var(--font)}
+.spin{width:36px;height:36px;margin:8px auto;border-radius:50%;border:5px solid rgba(255,255,255,.25);border-top-color:var(--yellow);animation:spin 1s linear infinite}
+#stars{display:flex;justify-content:center;gap:6px;margin:6px 0}
+#stars svg{width:clamp(40px,9vh,64px);height:auto}
+#stars svg.on{animation:pop .6s both}
+.stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:6px 0}
+.stat{background:rgba(0,0,0,.3);border-radius:12px;padding:6px 12px;font:800 15px/1.2 var(--font)}
+#review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
+#review li{background:rgba(0,0,0,.28);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:14px}
+#review b{color:var(--yellow)}
+
+/* ---------- dikey yön ---------- */
+@media (orientation:portrait){
+  #stage{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto}
+  #keys{grid-template-columns:repeat(7,minmax(0,1fr));grid-auto-rows:46px;align-content:start;gap:3px;padding:4px}
+  #board{border-width:6px;padding:6px 8px;gap:4px 8px}
+  #clue{font-size:clamp(13px,2.2vh,19px)}
+  #hak span:first-child{display:none} #hak b{gap:2px} #hak i{width:7px;height:7px}
+  #board{grid-template-columns:minmax(100px,38%) minmax(0,1fr)}
+  .pill{font-size:12px;padding:4px 8px}
+}
+
+/* ---------- kompakt yatay (küçük telefonlar) ---------- */
+@media (orientation:landscape) and (max-width:720px), (orientation:landscape) and (max-height:400px){
+  #stage{grid-template-columns:minmax(0,1fr) clamp(288px,40vw,440px);gap:6px}
+  #board{border-width:6px;padding:6px 8px;gap:4px 8px;grid-template-columns:minmax(88px,40%) minmax(0,1fr)}
+  #keys{gap:3px;padding:4px}
+  #clue{font-size:clamp(12px,3.4vh,19px);line-height:1.22}
+  #qTag{font-size:11px;padding:2px 8px} .qt2{display:none}
+  #hak span:first-child{display:none} #hak b{gap:2px} #hak i{width:6px;height:6px;border-width:1.5px}
+  #toast{font-size:12px;min-height:16px}
+  #hak{font-size:11px} #hak i{width:7px;height:7px}
+  .fbCard{padding:8px 12px} .fbCard h2{font-size:18px} .fbCard .ans{font-size:17px;margin:0 0 4px} .fbCard p{font-size:12.5px;line-height:1.3;margin:0 0 6px}
+  .card{padding:10px 16px}
+}
+
+@media (max-height:340px){ #clue{font-size:11.5px;line-height:1.15} #clueBox{gap:3px} #toast{min-height:14px;font-size:11.5px} }
+
+/* ---------- animasyonlar ---------- */
+.chalk{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .5s ease-out}
+.part.on .chalk{stroke-dashoffset:0}
+.part .fillp{opacity:0;transition:opacity .3s .3s}
+.part.on .fillp{opacity:1}
+@keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-7px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}
+@keyframes pop{0%{transform:scale(.2)}60%{transform:scale(1.35)}100%{transform:scale(1)}}
+@keyframes spark{0%{transform:translate(-50%,-50%) scale(.4);opacity:1}100%{transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(1.2);opacity:0}}
+@keyframes bx{0%{opacity:0;transform:translate(-50%,-50%) scale(.3)}25%{opacity:1;transform:translate(-50%,-50%) scale(1.1)}70%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1)}}
+@keyframes hop{0%,100%{transform:translateY(0)}40%{transform:translateY(-12px) rotate(-8deg)}}
+@keyframes wob{0%,100%{transform:rotate(0)}25%{transform:rotate(-12deg)}75%{transform:rotate(12deg)}}
+@keyframes fall{to{transform:translateY(105vh) rotate(540deg);opacity:.9}}
+@keyframes spin{to{transform:rotate(360deg)}}
+html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition:none!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="chalkF" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="3" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/></filter>
+    <symbol id="elmiSym" viewBox="0 0 60 66">
+      <path d="M30 17C14 8 2 22 4 40c2 15 14 24 26 19 12 5 24-4 26-19C58 22 46 8 30 17Z" fill="#e63946" stroke="#9e1b26" stroke-width="2"/>
+      <ellipse cx="17" cy="27" rx="5" ry="8" fill="#fff" opacity=".28" transform="rotate(25 17 27)"/>
+      <path d="M30 17Q30 8 36 4" fill="none" stroke="#6b4423" stroke-width="3" stroke-linecap="round"/>
+      <path d="M34 10Q44 0 52 9Q42 16 34 10Z" fill="#5fc06b" stroke="#2f8a3d" stroke-width="1.5"/>
+      <circle cx="22" cy="37" r="4.6" fill="#fff"/><circle cx="38" cy="37" r="4.6" fill="#fff"/>
+      <circle cx="23" cy="38" r="2.2" fill="#222"/><circle cx="39" cy="38" r="2.2" fill="#222"/>
+      <path d="M22 48Q30 56 38 48" fill="none" stroke="#5a1018" stroke-width="2.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="starSym" viewBox="0 0 64 64"><path d="M32 4l8.4 17.6 19.2 2.6-14 13.4 3.6 19L32 47.6 14.8 56.6l3.6-19-14-13.4 19.2-2.6Z" stroke-linejoin="round" stroke-width="4"/></symbol>
+  </defs>
+</svg>
+
+<div id="app">
+  <header id="top">
+    <div id="track" role="img" aria-label="Elmi'nin yolculuğu">
+      <div id="trackLine"></div>
+      <div class="stations" id="stations"></div>
+      <div id="elmi"><svg viewBox="0 0 60 66" aria-hidden="true"><use href="#elmiSym"/></svg></div>
+    </div>
+    <div class="pills">
+      <span class="pill" id="pCorrect" aria-label="Doğru sayısı">✓ 0</span>
+      <span class="pill" id="pWrong" aria-label="Yanlış sayısı">✗ 0</span>
+    </div>
+    <button id="sndBtn" type="button" aria-pressed="false" aria-label="Sesi kapat"></button>
+  </header>
+
+  <main id="stage">
+    <section id="board" aria-label="Karatahta">
+      <div id="gal">
+        <svg id="galSvg" viewBox="0 0 200 220" role="img" aria-label="Adam asmaca çizimi" preserveAspectRatio="xMidYMid meet"></svg>
+        <div id="hak" aria-hidden="true"></div>
+      </div>
+      <div id="clueBox">
+        <span id="qTag">Soru 1/8</span>
+        <p id="clue"></p>
+        <div id="toast" role="status" aria-live="polite"></div>
+      </div>
+      <div id="slots" role="group" aria-label="Cevap"></div>
+      <svg id="bigX" viewBox="0 0 100 100" aria-hidden="true" filter="url(#chalkF)"><path d="M16 16L84 84M84 16L16 84" stroke="#ff5a5a" stroke-width="13" stroke-linecap="round" fill="none"/></svg>
+      </section>
+    <aside id="keys" role="group" aria-label="Harfler"></aside>
+  </main>
+</div>
+<div id="fb" hidden></div>
+
+<section class="screen" id="scLoad" role="dialog" aria-modal="true" aria-labelledby="loadT">
+  <div class="card"><div class="spin" aria-hidden="true"></div><h2 id="loadT">Uygulamaya bağlanılıyor…</h2><p>Lütfen bekle.</p></div>
+</section>
+
+<section class="screen" id="scStart" role="dialog" aria-modal="true" aria-labelledby="startT" hidden>
+  <div class="card">
+    <svg viewBox="0 0 60 66" width="64" height="70" aria-hidden="true"><use href="#elmiSym"/></svg>
+    <h1 id="startT">Elmi'nin Sindirim Yolculuğu</h1>
+    <p>Elmi ağızdan anüse kadar yolculuk ediyor. Gizli kelimeleri bul, yolculuğuna eşlik et!</p>
+    <ul>
+      <li>✏️ 8 kelime var. İpucunu oku, harflere dokun.</li>
+      <li>✓ Doğru harf kelimedeki yerine yazılır.</li>
+      <li>✗ Yanlış harfte çizim bir adım ilerler. 9 yanlışta kelime biter.</li>
+    </ul>
+    <span class="demoTag" id="demoTag" hidden>Deneme modu — kayıt yapılmaz</span>
+    <div class="row"><button class="btn" id="btnStart" type="button">Başla</button></div>
+  </div>
+</section>
+
+<section class="screen" id="scErr" role="alertdialog" aria-modal="true" aria-labelledby="errT" hidden>
+  <div class="card"><h2 id="errT">Bir sorun oluştu</h2><p id="errMsg"></p>
+    <div class="row"><button class="btn" id="btnRetry" type="button">Tekrar Dene</button><button class="btn alt" id="btnExit" type="button">Çıkış</button></div></div>
+</section>
+
+<section class="screen" id="scSent" role="dialog" aria-modal="true" aria-labelledby="sentT" hidden>
+  <div class="card"><div class="spin" id="sentSpin" aria-hidden="true"></div><h2 id="sentT">Sonuç gönderildi</h2><p id="sentMsg" role="status" aria-live="polite">Kaydediliyor…</p>
+    <div class="row"><button class="btn" id="btnResend" type="button" hidden>Tekrar Gönder</button></div></div>
+</section>
+
+<section class="screen" id="scRes" role="dialog" aria-modal="true" aria-labelledby="resT" hidden>
+  <div class="card">
+    <span class="demoTag">Deneme modu — kayıt yapılmaz</span>
+    <h2 id="resT">Yolculuk bitti!</h2>
+    <div id="stars" role="img" aria-label="Yıldız"></div>
+    <div class="stats"><span class="stat" id="rC"></span><span class="stat" id="rW"></span><span class="stat" id="rT"></span></div>
+    <div id="reviewBox" hidden><p><b>Tekrar bak:</b></p><ul id="review"></ul></div>
+    <div class="row"><button class="btn" id="btnAgain" type="button">Tekrar Oyna</button></div>
+  </div>
+</section>
+
+<script>
+(function(){
+'use strict';
+/* ====== Derleme adımında gömülen veri (data/questions.json + manifest.json) ====== */
+var QUESTIONS = [{"id":"sindirim-asmaca-v1-q001","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"easy","questionType":"open_ended","clue":"Besinlerin vücuda girdiği ilk organ.","answer":"AĞIZ","explanation":"Besinler vücuda ağızdan girer. Çiğneme ile fiziksel sindirim, tükürükteki enzimlerle karbohidratların kimyasal sindirimi ağızda başlar."},{"id":"sindirim-asmaca-v1-q002","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"open_ended","clue":"Besini ağızdan yemek borusuna ileten yapı; burada sindirim olmaz.","answer":"YUTAK","explanation":"Yutak besini ağızdan yemek borusuna iletir. Yutakta sindirim gerçekleşmez."},{"id":"sindirim-asmaca-v1-q003","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"open_ended","clue":"Besini yutaktan mideye kas hareketleriyle taşıyan, sindirimin olmadığı organ.","answer":"YEMEK BORUSU","explanation":"Yemek borusu besini kas hareketleriyle yutaktan mideye iletir. Burada sindirim gerçekleşmez."},{"id":"sindirim-asmaca-v1-q004","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"easy","questionType":"open_ended","clue":"Öz suyundaki enzimler proteinlerin kimyasal sindirimini burada başlatır.","answer":"MİDE","explanation":"Mide öz suyundaki enzimlerle proteinlerin kimyasal sindirimi başlar. Midedeki kasların kasılıp gevşemesi fiziksel sindirimi sağlar."},{"id":"sindirim-asmaca-v1-q005","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"open_ended","clue":"Sindirimin tamamlandığı, villuslar sayesinde besinlerin kana geçtiği organ.","answer":"İNCE BAĞIRSAK","explanation":"İnce bağırsakta sindirim tamamlanır. Besinler villuslar sayesinde emilerek kana geçer."},{"id":"sindirim-asmaca-v1-q006","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"open_ended","clue":"Sindirilmeyen besinler burada depolanır; su, bazı mineral ve vitaminler buradan emilir.","answer":"KALIN BAĞIRSAK","explanation":"Kalın bağırsak sindirilmeyen besinleri bir süre depolar. Suyun, bazı mineral ve vitaminlerin emilimi burada gerçekleşir."},{"id":"sindirim-asmaca-v1-q007","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"easy","questionType":"open_ended","clue":"Sindirim sisteminin son kısmı; sindirilmeyen besinler buradan vücuttan atılır.","answer":"ANÜS","explanation":"Anüs sindirim sisteminin son kısmıdır ve sindirilmeyen besinlerin vücuttan uzaklaştırılmasında görevlidir."},{"id":"sindirim-asmaca-v1-q008","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 92, 95 (PDF s. 93)","difficulty":"medium","questionType":"open_ended","clue":"Safra sıvısını salgılayan, sindirime yardımcı organ.","answer":"KARACİĞER","explanation":"Karaciğerin salgıladığı safra sıvısı ince bağırsağa gönderilir ve yağların fiziksel sindirimine yardımcı olur."},{"id":"sindirim-asmaca-v1-q009","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 92, 95 (PDF s. 93)","difficulty":"medium","questionType":"open_ended","clue":"Ürettiği öz suyu bir kanalla ince bağırsağa giden, sindirime yardımcı organ.","answer":"PANKREAS","explanation":"Pankreas öz suyunu bir kanalla ince bağırsağa gönderir. Bu sıvı besinlerin kimyasal sindirimine yardımcı olur."},{"id":"sindirim-asmaca-v1-q010","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 92 (PDF s. 93)","difficulty":"hard","questionType":"open_ended","clue":"Karaciğerin altında yer alır; karaciğerin salgıladığı sıvı burada toplanır.","answer":"SAFRA KESESİ","explanation":"Karaciğerin salgıladığı safra sıvısı, karaciğerin altındaki safra kesesinde toplanır. Buradan bir kanalla ince bağırsağa gönderilir."},{"id":"sindirim-asmaca-v1-q011","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 92 (PDF s. 93)","difficulty":"easy","questionType":"open_ended","clue":"Besinlerin parçalanma hızını artıran yapılara ne denir?","answer":"ENZİM","explanation":"Besinlerin parçalanma hızını artıran yapılara enzim denir. Kimyasal sindirim enzimler sayesinde gerçekleşir."},{"id":"sindirim-asmaca-v1-q012","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"hard","questionType":"open_ended","clue":"İnce bağırsağın iç yüzeyini genişleterek emilimi hızlandıran girintili çıkıntılı yapılar.","answer":"VİLLUS","explanation":"Villuslar ince bağırsağın iç yüzeyini genişletir ve temas yüzeyini artırır. Böylece emilim hızlanır."},{"id":"sindirim-asmaca-v1-q013","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 92 (PDF s. 93)","difficulty":"medium","questionType":"open_ended","clue":"Besinleri çiğneme ve kas hareketleriyle küçük parçalara ayıran, kimyasal olmayan sindirim türü.","answer":"FİZİKSEL SİNDİRİM","explanation":"Fiziksel (mekanik) sindirim besinleri küçük parçalara ayırır. Yüzey alanını artırarak kimyasal sindirimi kolaylaştırır."},{"id":"sindirim-asmaca-v1-q014","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 92 (PDF s. 93)","difficulty":"medium","questionType":"open_ended","clue":"Besinlerin enzimlerin yardımıyla kana geçebilecek küçüklükte yapı taşlarına ayrıldığı sindirim türü.","answer":"KİMYASAL SİNDİRİM","explanation":"Kimyasal sindirimde besinler enzimler ve su yardımıyla kana geçebilecek kadar küçük yapı taşlarına ayrılır."},{"id":"sindirim-asmaca-v1-q015","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"open_ended","clue":"Ağızda salgılanır; içindeki enzimler karbohidratların kimyasal sindirimini başlatır.","answer":"TÜKÜRÜK","explanation":"Tükürük salgısındaki enzimler ağızda karbohidratların kimyasal sindirimini başlatır."},{"id":"sindirim-asmaca-v1-q016","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 94 (PDF s. 95)","difficulty":"hard","questionType":"open_ended","clue":"Midede sindirilen besin parçalarının ince bağırsağa gitmeden önce dönüştüğü yoğun karışım.","answer":"BULAMAÇ","explanation":"Midede hem fiziksel hem kimyasal sindirime uğrayan besin parçaları bulamaç hâline gelir ve ince bağırsağa gönderilir."},{"id":"sindirim-asmaca-v1-q017","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"fill_blank","clue":"Kimyasal sindirimi ağızda başlayan besin türü: ........","answer":"KARBOHİDRAT","explanation":"Karbohidratların kimyasal sindirimi ağızda, tükürükteki enzimlerle başlar."},{"id":"sindirim-asmaca-v1-q018","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"medium","questionType":"fill_blank","clue":"Kimyasal sindirimi midede başlayan besin türü: ........","answer":"PROTEİN","explanation":"Proteinlerin kimyasal sindirimi midede, mide öz suyundaki enzimlerle başlar."},{"id":"sindirim-asmaca-v1-q019","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sisteminin Sağlığı","outcomeKey":"K2","outcome":"Sindirim sisteminin sağlığı için yapılması gerekenler konusunda bilgi toplayabilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 99 (PDF s. 100)","difficulty":"easy","questionType":"fill_blank","clue":"Doğru beslenme, yeterli sıvı alımı ve düzenli ........ alışkanlıkları sindirim sistemi sağlığını korur.","answer":"EGZERSİZ","explanation":"Doğru beslenme, yeterli sıvı alımı ve düzenli egzersiz sindirim sistemi sağlığını korumaya yardımcı olur."},{"id":"sindirim-asmaca-v1-q020","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sisteminin Sağlığı","outcomeKey":"K2","outcome":"Sindirim sisteminin sağlığı için yapılması gerekenler konusunda bilgi toplayabilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 99 (PDF s. 100)","difficulty":"easy","questionType":"fill_blank","clue":"Düzenli, dengeli ve yeterli ........ ile beslenmek sindirim organlarının sağlıklı çalışmasına yardımcı olur.","answer":"ÖĞÜN","explanation":"Düzenli, dengeli ve yeterli öğünlerle beslenmek sindirim sistemi organlarının sağlıklı çalışmasına yardımcı olur."},{"id":"sindirim-asmaca-v1-q021","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sisteminin Sağlığı","outcomeKey":"K2","outcome":"Sindirim sisteminin sağlığı için yapılması gerekenler konusunda bilgi toplayabilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 99 (PDF s. 100)","difficulty":"easy","questionType":"fill_blank","clue":"Uzun süre ........ başında kalmak, yemeklerin farkında olmadan hızlı ve fazla yenmesine yol açabilir.","answer":"EKRAN","explanation":"Uzun süre ekran başında kalmak dikkati dağıtır; yemekler farkında olmadan hızlı ve gereğinden fazla yenebilir."},{"id":"sindirim-asmaca-v1-q022","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sisteminin Sağlığı","outcomeKey":"K2","outcome":"Sindirim sisteminin sağlığı için yapılması gerekenler konusunda bilgi toplayabilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 99 (PDF s. 100)","difficulty":"hard","questionType":"fill_blank","clue":"Aşırı yağlı, paketli, hazır ve ........ yemekler mide rahatsızlıklarına yol açabilir.","answer":"AYAKÜSTÜ","explanation":"Aşırı yağlı, çok baharatlı, paketli, hazır ve ayaküstü yemekler mide rahatsızlıklarına ve aşırı kilo almaya neden olabilir."},{"id":"sindirim-asmaca-v1-q023","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sisteminin Sağlığı","outcomeKey":"K2","outcome":"Sindirim sisteminin sağlığı için yapılması gerekenler konusunda bilgi toplayabilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 96 (PDF s. 97)","difficulty":"easy","questionType":"open_ended","clue":"Ruhi sabahları evden aceleyle çıktığı için hangi öğünü yapmıyordu?","answer":"KAHVALTI","explanation":"Ruhi kahvaltı yapmıyor, öğle yemeğini atıştırmalıklarla geçiştiriyor ve akşam yemeğini geç yiyordu. Düzensiz beslenme sindirim rahatsızlıklarına yol açabilir."},{"id":"sindirim-asmaca-v1-q024","grade":7,"subject":"Fen Bilimleri","unit":"Vücudumuzdaki Sistemler","topic":"Sindirim Sistemi","outcomeKey":"K1","outcome":"Sindirim sistemini oluşturan yapı ve organların görevlerini model üzerinde gözlemleyebilme","sourceRef":"Fen Bilimleri 7. Sınıf Ders Kitabı (7-1.pdf), 3. Ünite, 1. Sindirim Sistemi, s. 95 (PDF s. 96)","difficulty":"easy","questionType":"open_ended","clue":"Besinlerin ağızda küçük parçalara ayrılmasını sağlayan hareket.","answer":"ÇİĞNEME","explanation":"Çiğneme hareketleri besinlerin ağızda fiziksel sindirimini sağlar."}];
+var CFG = {"gameId":"fen-7-sindirim-asmaca","gameVersion":"1.0.0","gameName":"Elmi'nin Sindirim Yolculuğu","subjectId":"science","subjectName":"Fen Bilimleri","grade":7,"sessionSize":8,"maxMistakes":9,"quota":{"K1":6,"K2":2},"stars":{"s1":50,"s2":70,"s3":90},"sendGameStarted":false};
+
+/* ====== Yardımcılar ====== */
+var $ = function(id){ return document.getElementById(id); };
+var trUp = function(s){ return String(s).toLocaleUpperCase('tr-TR'); };
+var trLow = function(s){ return String(s).toLocaleLowerCase('tr-TR'); };
+var ALPHABET = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('');
+var counter = 0;
+function newId(p){ counter++; return 'ypg-' + p + '-' + Date.now().toString(36) + '-' + counter + '-' + Math.floor(Math.random()*1e6).toString(36); }
+function rnd(){ try{ var a = new Uint32Array(1); (window.crypto||window.msCrypto).getRandomValues(a); return a[0]/4294967296; }catch(e){ return Math.random(); } }
+function shuffle(a){ a = a.slice(); for(var i=a.length-1;i>0;i--){ var j=Math.floor(rnd()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; } return a; }
+function now(){ return (window.performance && performance.now) ? performance.now() : Date.now(); }
+function el(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; }
+
+/* ====== Durum ====== */
+var S = { phase:'boot', mode:null, ctx:null, readyIds:{}, seen:{}, sess:null, word:null,
+  resultMsg:null, resultSent:false, timers:{}, rm:false, bridgeTry:0 };
+
+/* ====== Azaltılmış hareket ====== */
+var mq = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+function applyRM(){ S.rm = !!((mq && mq.matches) || (S.ctx && S.ctx.reducedMotion === true)); document.documentElement.classList.toggle('rm', S.rm); }
+if(mq){ if(mq.addEventListener) mq.addEventListener('change', applyRM); else if(mq.addListener) mq.addListener(applyRM); }
+applyRM();
+
+/* ====== SES (Web Audio sentezi; dosya yok) ====== */
+var Snd = {
+  ctx:null, muted:false,
+  init:function(){ if(this.ctx) return; var AC = window.AudioContext || window.webkitAudioContext; if(!AC) return; try{ this.ctx = new AC(); }catch(e){ this.ctx=null; } },
+  resume:function(){ this.init(); if(this.ctx && this.ctx.state==='suspended' && !this.muted){ try{ this.ctx.resume(); }catch(e){} } },
+  suspend:function(){ if(this.ctx && this.ctx.state==='running'){ try{ this.ctx.suspend(); }catch(e){} } },
+  tone:function(f,d,type,vol,delay,slide){
+    if(this.muted||!this.ctx) return; var c=this.ctx, t=c.currentTime+(delay||0);
+    var o=c.createOscillator(), g=c.createGain(); o.type=type||'sine'; o.frequency.setValueAtTime(f,t);
+    if(slide) o.frequency.exponentialRampToValueAtTime(slide,t+d);
+    g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(vol||0.2,t+0.02); g.gain.exponentialRampToValueAtTime(0.0001,t+d);
+    o.connect(g); g.connect(c.destination); o.start(t); o.stop(t+d+0.05);
+  },
+  noise:function(d,vol,freq,delay){
+    if(this.muted||!this.ctx) return; var c=this.ctx, t=c.currentTime+(delay||0), n=Math.max(1,Math.floor(c.sampleRate*d));
+    var buf=c.createBuffer(1,n,c.sampleRate), data=buf.getChannelData(0); for(var i=0;i<n;i++) data[i]=(Math.random()*2-1)*(1-i/n);
+    var s=c.createBufferSource(); s.buffer=buf; var f=c.createBiquadFilter(); f.type='bandpass'; f.frequency.value=freq||2500; f.Q.value=1.2;
+    var g=c.createGain(); g.gain.value=vol||0.15; s.connect(f); f.connect(g); g.connect(c.destination); s.start(t);
+  },
+  good:function(){ this.tone(660,.14,'sine',.22,0); this.tone(990,.22,'sine',.22,.09); },
+  bad:function(){ this.tone(220,.32,'sawtooth',.16,0,110); this.tone(160,.28,'square',.08,.05,90); },
+  chalk:function(){ this.noise(.16,.18,2800); },
+  win:function(){ [523,659,784,1047].forEach(function(f,i){ Snd.tone(f,.24,'triangle',.22,i*.1); }); },
+  lose:function(){ [392,330,262].forEach(function(f,i){ Snd.tone(f,.3,'triangle',.2,i*.16); }); },
+  fan:function(){ [523,659,784,659,784,1047].forEach(function(f,i){ Snd.tone(f,.22,'triangle',.24,i*.11); }); }
+};
+var ICON_ON='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3Z" fill="#3b2a18"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18 6a8.5 8.5 0 0 1 0 12" stroke="#3b2a18" stroke-width="2" fill="none" stroke-linecap="round"/></svg>';
+var ICON_OFF='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 4V5L7 9H3Z" fill="#3b2a18"/><path d="M16 9l6 6M22 9l-6 6" stroke="#b02a2a" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>';
+function renderSnd(){ var b=$('sndBtn'); b.innerHTML = Snd.muted?ICON_OFF:ICON_ON; b.setAttribute('aria-pressed', String(Snd.muted)); b.setAttribute('aria-label', Snd.muted?'Sesi aç':'Sesi kapat'); }
+$('sndBtn').addEventListener('click', function(){ Snd.muted=!Snd.muted; if(!Snd.muted){ Snd.resume(); Snd.good(); } renderSnd(); });
+renderSnd();
+
+/* ====== Süre sayacı (arka planda durur) ====== */
+var Clock = { acc:0, since:null, active:false,
+  start:function(){ this.acc=0; this.since=now(); this.active=true; },
+  pause:function(){ if(this.since!=null){ this.acc += now()-this.since; this.since=null; } },
+  resume:function(){ if(this.active && this.since==null) this.since=now(); },
+  stop:function(){ this.pause(); this.active=false; },
+  value:function(){ return Math.max(0, Math.round(this.acc + (this.since!=null ? now()-this.since : 0))); } };
+document.addEventListener('visibilitychange', function(){
+  if(document.visibilityState==='hidden'){ Clock.pause(); Snd.suspend(); }
+  else { Clock.resume(); if(!Snd.muted && Snd.ctx){ try{ Snd.ctx.resume(); }catch(e){} } }
+});
+
+/* ====== KÖPRÜ (bridgeVersion 1.0) ====== */
+function sendToApp(message){
+  var s = JSON.stringify(message);
+  try{
+    if(window.YildizPesindeBridge && window.YildizPesindeBridge.postMessage){ window.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.YildizPesindeBridge){ window.webkit.messageHandlers.YildizPesindeBridge.postMessage(s); return true; }
+    if(window.AndroidYildizPesinde && window.AndroidYildizPesinde.postMessage){ window.AndroidYildizPesinde.postMessage(s); return true; }
+  }catch(e){ return false; }
+  return false;
+}
+function envelope(type, payload, extra){
+  var m = { bridgeVersion:'1.0', type:type, messageId:newId(type.replace('.','-')) };
+  if(extra) for(var k in extra) m[k]=extra[k];
+  if(S.ctx && type!=='game.ready'){ m.runId=S.ctx.runId; m.nonce=S.ctx.nonce; }
+  m.payload = payload || {};
+  return m;
+}
+function sendReady(){
+  var m = envelope('game.ready', { supportedVersions:['1.0'] });
+  var ok = sendToApp(m); if(ok) S.readyIds[m.messageId]=true; return ok;
+}
+function isStr(v){ return typeof v==='string' && v.length>0 && v.length<=200; }
+function onIncoming(raw){
+  var m;
+  try{ if(typeof raw==='string'){ if(raw.length>20000) return; m=JSON.parse(raw); } else m=raw; }catch(e){ return; }
+  if(!m || typeof m!=='object' || Array.isArray(m)) return;
+  if(S.mode!=='native') return;                       // deneme modunda köprü mesajı işlenmez
+  if(!isStr(m.messageId) || !isStr(m.type)) return;
+  if(S.seen[m.messageId]) return;                      // tekrarlanan mesaj çift işlem üretmez
+  if(m.bridgeVersion!=='1.0'){ if(m.type==='app.init' && S.phase==='waitInit'){ S.seen[m.messageId]=true; showError('Bu oyun uygulamanın bu sürümüyle çalışmıyor.', false); } return; }
+  if(m.type==='app.init') return handleInit(m);
+  if(m.type==='app.ack') return handleAck(m);
+  if(m.type==='app.error') return handleErr(m);
+}
+function handleInit(m){
+  var p = m.payload;
+  if(S.phase!=='waitInit' && S.phase!=='error' && S.phase!=='sent' && S.phase!=='finished') return;   // oyun sürerken yeni oturum kabul edilmez
+  var bad = !p || typeof p!=='object' || !isStr(m.runId) || !isStr(m.nonce) || !isStr(m.replyTo) || !S.readyIds[m.replyTo] ||
+    p.gameId!==CFG.gameId || p.gameVersion!==CFG.gameVersion || p.grade!==CFG.grade;
+  if(bad){ if(S.phase==='waitInit'){ S.seen[m.messageId]=true; showError('Oyun uygulamayla uyumlu açılmadı. Lütfen tekrar dene.', true); } return; }
+  S.seen[m.messageId]=true;
+  clearT('hs');
+  S.ctx = { runId:m.runId, nonce:m.nonce, grade:p.grade, subjectId:(isStr(p.subjectId)?p.subjectId:CFG.subjectId), subjectName: (typeof p.subjectName==='string'?p.subjectName:CFG.subjectName),
+            locale:p.locale, orientation:p.orientation, reducedMotion: p.reducedMotion===true };
+  S.resultMsg=null; S.resultSent=false; S.sess=null; S.word=null; applyRM();
+  $('demoTag').hidden=true; showStart();
+}
+function handleAck(m){
+  var p=m.payload; if(!S.ctx||!S.resultMsg) return;
+  if(m.runId!==S.ctx.runId || m.nonce!==S.ctx.nonce || m.replyTo!==S.resultMsg.messageId) return;
+  S.seen[m.messageId]=true;
+  if(p && p.status==='saved'){ $('sentSpin').hidden=true; $('btnResend').hidden=true; $('sentT').textContent='Sonuç kaydedildi'; $('sentMsg').textContent='Harika iş! Sonuç ekranı uygulamada gösterilecek.'; }
+}
+function handleErr(m){
+  var p=m.payload; if(!S.ctx||!S.resultMsg) return;
+  if(m.runId!==S.ctx.runId || m.nonce!==S.ctx.nonce || m.replyTo!==S.resultMsg.messageId) return;
+  S.seen[m.messageId]=true; p = p||{};
+  var msg = (typeof p.message==='string' && p.message.length<=140) ? p.message : 'Sonuç kaydedilemedi.';
+  $('sentSpin').hidden=true; $('sentT').textContent='Sonuç kaydedilemedi'; $('btnResend').hidden=true;
+  if(p.retryable===true || p.code==='SAVE_FAILED'){ $('sentMsg').textContent='Sonuç kaydedilemedi. Uygulamadaki “Kaydetmeyi Tekrar Dene” seçeneğini kullan.'; }
+  else { $('sentMsg').textContent = msg; }
+}
+window.addEventListener('message', function(e){ if(e.source!==window && e.source!==window.parent) return; onIncoming(e.data); });
+window.YildizPesindeReceive = onIncoming;
+window.YildizPesindeGame = Object.freeze({ receiveMessage: onIncoming });
+
+/* ====== Zamanlayıcılar ====== */
+function setT(n, fn, ms){ clearT(n); S.timers[n] = setTimeout(function(){ S.timers[n]=null; fn(); }, ms); }
+function clearT(n){ if(S.timers[n]){ clearTimeout(S.timers[n]); S.timers[n]=null; } }
+
+/* ====== Ekran yönetimi ====== */
+var SCREENS=['scLoad','scStart','scErr','scSent','scRes'];
+function showScreen(id){
+  SCREENS.forEach(function(s){ $(s).hidden = (s!==id); });
+  var app=$('app'); if('inert' in app) app.inert = !!id; if(id) app.setAttribute('aria-hidden','true'); else app.removeAttribute('aria-hidden');
+  if(id){ var b=$(id).querySelector('button:not([hidden])'); if(b) try{ b.focus({preventScroll:true}); }catch(e){} }
+}
+function showError(msg, retry){
+  S.phase='error'; clearT('adv'); $('errMsg').textContent=msg; $('btnRetry').hidden=!retry; showScreen('scErr');
+}
+function showStart(){ S.phase='intro'; showScreen('scStart'); }
+
+/* ====== Oturum / soru seçimi ====== */
+var LEAK={};
+(function buildLeak(){
+  var STOP={ 'sindirim':1, 'bağırsak':1 };
+  function stems(q){ return trLow(q.answer).split(' ').filter(function(t){ return t.length>=4 && !STOP[t]; }).map(function(t){ return t.slice(0,5); }); }
+  function words(q){ return trLow(q.clue).replace(/[^a-zçğıöşü0-9 ]/g,' ').split(/\s+/).filter(Boolean); }
+  QUESTIONS.forEach(function(a){ var st=stems(a);
+    QUESTIONS.forEach(function(b){ if(a===b) return; var w=words(b);
+      if(st.some(function(s){ return w.some(function(x){ return x.indexOf(s)===0; }); })) { LEAK[b.id+'|'+a.id]=1; } // b'nin ipucu a'nın cevabını ele veriyor
+    }); });
+})();
+function conflicts(a,b){ return !!(LEAK[a.id+'|'+b.id] || LEAK[b.id+'|'+a.id]); }
+function pickSession(){
+  var n1=CFG.quota.K1, n2=CFG.quota.K2;
+  for(var tries=0; tries<400; tries++){
+    var chosen=[];
+    var take=function(pool,n){ var c=0; for(var i=0;i<pool.length&&c<n;i++){ var q=pool[i]; if(chosen.every(function(x){ return !conflicts(x,q); })){ chosen.push(q); c++; } } return c===n; };
+    var k1=shuffle(QUESTIONS.filter(function(q){ return q.outcomeKey==='K1'; }));
+    var k2=shuffle(QUESTIONS.filter(function(q){ return q.outcomeKey==='K2'; }));
+    if(take(k1,n1) && take(k2,n2)) return shuffle(chosen);
+  }
+  var f1=shuffle(QUESTIONS.filter(function(q){ return q.outcomeKey==='K1'; })).slice(0,n1);
+  var f2=shuffle(QUESTIONS.filter(function(q){ return q.outcomeKey==='K2'; })).slice(0,n2);
+  return shuffle(f1.concat(f2));
+}
+
+/* ====== Çizim: darağacı + adam (9 adım) ====== */
+var PARTS=[
+ '<path class="chalk" pathLength="1" d="M16 207Q60 201 114 207"/><path class="chalk" pathLength="1" d="M48 207V22"/>',
+ '<path class="chalk" pathLength="1" d="M46 24H140"/><path class="chalk" pathLength="1" d="M48 66L88 24"/>',
+ '<path class="chalk" pathLength="1" d="M138 24V48"/>',
+ '<circle class="chalk" pathLength="1" cx="138" cy="66" r="18"/><circle class="fillp" cx="131" cy="63" r="2.4" fill="#ffd75e"/><circle class="fillp" cx="145" cy="63" r="2.4" fill="#ffd75e"/><path class="fillp mouthH" d="M130 72Q138 80 146 72" fill="none" stroke="#ffd75e" stroke-width="2.6" stroke-linecap="round"/><path class="fillp mouthS" d="M131 78Q138 71 145 78" fill="none" stroke="#ffd75e" stroke-width="2.6" stroke-linecap="round" style="display:none"/>',
+ '<path class="chalk" pathLength="1" d="M138 84V140"/>',
+ '<path class="chalk" pathLength="1" d="M138 98L114 124"/>',
+ '<path class="chalk" pathLength="1" d="M138 98L162 124"/>',
+ '<path class="chalk" pathLength="1" d="M138 140L118 178"/>',
+ '<path class="chalk" pathLength="1" d="M138 140L158 178"/>'
+];
+function buildGallows(){
+  var svg=$('galSvg'); var h='<g filter="url(#chalkF)" fill="none" stroke-width="5">';
+  PARTS.forEach(function(p,i){ var man=i>=3; h+='<g class="part" id="part'+i+'" stroke="'+(man?'#ffd75e':'#f6f2e6')+'">'+p+'</g>'; });
+  svg.innerHTML = h+'</g>';
+}
+function drawTo(n){ for(var i=0;i<PARTS.length;i++){ var g=$('part'+i); if(g) g.classList.toggle('on', i<n); } }
+function setSad(sad){ var h=document.querySelector('#part3 .mouthH'), s=document.querySelector('#part3 .mouthS'); if(h) h.style.display=sad?'none':''; if(s) s.style.display=sad?'':'none'; }
+
+/* ====== Arayüz bileşenleri ====== */
+function buildKeys(){
+  var k=$('keys'); k.innerHTML='';
+  ALPHABET.forEach(function(L){ var b=el('button','key',L); b.type='button'; b.dataset.l=L; b.setAttribute('aria-label',L+' harfi'); b.addEventListener('click', function(){ pickLetter(L); }); k.appendChild(b); });
+}
+function resetKeys(){ var ks=$('keys').querySelectorAll('.key'); for(var i=0;i<ks.length;i++){ var b=ks[i]; b.disabled=false; b.className='key'; b.setAttribute('aria-label', b.dataset.l+' harfi'); } $('keys').classList.remove('lock'); }
+function lockKeys(on){ $('keys').classList.toggle('lock', on); var ks=$('keys').querySelectorAll('.key'); for(var i=0;i<ks.length;i++){ if(on) ks[i].disabled=true; } }
+function buildStations(){ var s=$('stations'); s.innerHTML=''; for(var i=0;i<CFG.sessionSize;i++){ var d=el('div','st'); d.appendChild(el('i',null,String(i+1))); s.appendChild(d); } }
+function updateTrack(){
+  var sts=$('stations').children, a=S.sess.answers;
+  for(var i=0;i<sts.length;i++){ var r=a[i]; sts[i].className='st'+(r?(r.ok?' ok':' no'):''); var ic=sts[i].firstChild; ic.textContent = r ? (r.ok?'✓':'✗') : String(i+1); }
+  var idx=Math.min(S.sess.i, CFG.sessionSize-1); $('elmi').style.transform='translateX('+(idx*100)+'%)';
+}
+function updatePills(){ $('pCorrect').textContent='✓ '+S.sess.correct; $('pWrong').textContent='✗ '+S.sess.wrong; $('pCorrect').setAttribute('aria-label','Doğru: '+S.sess.correct); $('pWrong').setAttribute('aria-label','Yanlış: '+S.sess.wrong); }
+function updateHak(){ var w=S.word, h=$('hak'); var left=CFG.maxMistakes-w.mistakes; var pips=''; for(var i=0;i<CFG.maxMistakes;i++) pips+='<i'+(i<left?'':' class="off"')+'></i>'; h.innerHTML='<span>Hak</span><b>'+pips+'</b><span>'+left+'</span>'; }
+function setToast(txt, cls){ var t=$('toast'); t.textContent=txt; t.className=cls||''; }
+function hop(cls){ var e=$('elmi'); e.classList.remove('hop','sad'); if(S.rm) return; void e.offsetWidth; e.classList.add(cls); }
+function renderSlots(){
+  var q=S.word.q, box=$('slots'); box.innerHTML=''; var wEl=el('div','w'); box.appendChild(wEl);
+  Array.prototype.forEach.call(q.answer, function(ch){
+    if(ch===' '){ wEl=el('div','w'); box.appendChild(wEl); return; }
+    var s=el('span','slot'); s.dataset.ch=ch; s.appendChild(el('span','ch','')); wEl.appendChild(s);
+  });
+  fitSlots(); announceWord();
+}
+function fitSlots(){
+  var box=$('slots'); if(!box || !S.word) return; var words=S.word.q.answer.split(' '); var longest=0; words.forEach(function(w){ longest=Math.max(longest,w.length); });
+  var avail=(box.clientWidth||300); var size=Math.floor((avail-(longest-1)*3)/longest);
+  var h=window.innerHeight||600; size=Math.min(size, Math.floor(h*0.11)+6, 46); if(size<15) size=15;
+  document.documentElement.style.setProperty('--slot', size+'px');
+}
+window.addEventListener('resize', fitSlots);
+function announceWord(){
+  var w=S.word, pat=Array.prototype.map.call(w.q.answer, function(c){ return c===' '?'/':(w.shown[c]?c:'boş'); }).join(' ');
+  $('slots').setAttribute('aria-label','Cevap: '+pat+'. Harf sayısı: '+w.q.answer.replace(/ /g,'').length);
+}
+function sparks(slot){
+  if(S.rm) return; for(var i=0;i<5;i++){ var s=el('span','sp','✦'); var a=(Math.PI*2/5)*i+Math.random()*.6, d=18+Math.random()*14; s.style.setProperty('--dx',Math.cos(a)*d+'px'); s.style.setProperty('--dy',Math.sin(a)*d+'px'); slot.appendChild(s); (function(x){ setTimeout(function(){ if(x.parentNode) x.parentNode.removeChild(x); },750); })(s); }
+}
+function confetti(host, n){
+  if(S.rm) return; var cols=['#ffd75e','#ff9fb3','#8bd8ff','#7ee8a0','#ff7b7b'];
+  for(var i=0;i<n;i++){ var c=el('span','conf'); c.style.left=Math.random()*100+'%'; c.style.background=cols[i%cols.length]; c.style.animationDelay=(Math.random()*.5)+'s'; c.style.animationDuration=(1.2+Math.random()*.8)+'s'; host.appendChild(c); (function(x){ setTimeout(function(){ if(x.parentNode) x.parentNode.removeChild(x); },2400); })(c); }
+}
+
+/* ====== Oyun akışı ====== */
+function beginGame(){
+  if(S.phase!=='intro') return;
+  Snd.resume();
+  S.sess={ qs:pickSession(), i:0, correct:0, wrong:0, answers:[] };
+  Clock.start(); S.phase='playing'; showScreen(null);
+  if(S.mode==='native' && CFG.sendGameStarted===true){ sendToApp(envelope('game.started',{ gameId:CFG.gameId, gameVersion:CFG.gameVersion })); }
+  buildStations(); startWord();
+}
+function startWord(){
+  var q=S.sess.qs[S.sess.i];
+  S.word={ q:q, set:{}, shown:{}, tried:{}, wrong:[], mistakes:0, locked:false };
+  Array.prototype.forEach.call(q.answer, function(c){ if(c!==' ') S.word.set[c]=true; });
+  S.phase='playing'; $('fb').hidden=true; $('fb').innerHTML='';
+  resetKeys(); setSad(false); drawTo(0); $('elmi').classList.remove('hop','sad');
+  var qt=$('qTag'); qt.textContent='Soru '+(S.sess.i+1)+'/'+CFG.sessionSize; qt.appendChild(el('span','qt2',' · '+(q.questionType==='fill_blank'?'Boşluğu doldur':'Kelimeyi bul')));
+  $('clue').textContent=q.clue; setToast('Bir harfe dokun!',''); updateHak(); updatePills(); updateTrack(); renderSlots();
+}
+function pickLetter(L){
+  var w=S.word; if(S.phase!=='playing' || !w || w.locked || w.tried[L]) return;
+  w.tried[L]=true; Snd.resume();
+  var btn=$('keys').querySelector('.key[data-l="'+L+'"]');
+  if(w.set[L]){
+    w.shown[L]=true; var slots=$('slots').querySelectorAll('.slot'), n=0;
+    for(var i=0;i<slots.length;i++){ if(slots[i].dataset.ch===L){ n++; slots[i].querySelector('.ch').textContent=L; slots[i].classList.add('pop','hit'); sparks(slots[i]); (function(s){ setTimeout(function(){ s.classList.remove('pop','hit'); },900); })(slots[i]); } }
+    if(btn){ btn.classList.add('good'); btn.disabled=true; btn.setAttribute('aria-label',L+' harfi, doğru'); }
+    Snd.good(); setToast('✓ '+L+' harfi var ('+n+' yer)','good'); announceWord(); hop('hop');
+    if(Object.keys(w.set).every(function(c){ return w.shown[c]; })) completeWord(true);
+  } else {
+    w.mistakes++; w.wrong.push(L);
+    if(btn){ btn.classList.add('bad'); btn.disabled=true; btn.setAttribute('aria-label',L+' harfi, yanlış'); }
+    var step=Math.min(w.mistakes,PARTS.length); drawTo(step); Snd.bad(); Snd.chalk();
+    var bx=$('bigX'); bx.classList.remove('on','rm'); void bx.offsetWidth; bx.classList.add('on'); if(S.rm) bx.classList.add('rm');
+    setT('bx', function(){ bx.classList.remove('on','rm'); }, S.rm?600:800);
+    var bd=$('board'); bd.classList.remove('shake'); if(!S.rm){ void bd.offsetWidth; bd.classList.add('shake'); setT('sh', function(){ bd.classList.remove('shake'); }, 420); }
+    setToast('✗ '+L+' harfi yok. Kalan hak: '+(CFG.maxMistakes-w.mistakes),'bad'); updateHak(); hop('sad');
+    if(w.mistakes>=CFG.maxMistakes) completeWord(false);
+  }
+}
+function completeWord(ok){
+  var w=S.word; if(w.locked) return; w.locked=true; S.phase='between'; lockKeys(true);
+  var s=S.sess, q=w.q;
+  var pat=Array.prototype.map.call(q.answer, function(c){ return c===' '?'  ':(w.shown[c]?c:'_'); }).join(' ').replace(/\s+/g,' ').trim();
+  var student = (ok? q.answer : ('Ulaşılan: '+pat+' | Yanlış harfler: '+(w.wrong.join(', ')||'-')));
+  s.answers.push({ q:q, ok:ok, student:student });
+  if(ok) s.correct++; else s.wrong++;
+  updatePills(); updateTrack();
+  if(!ok){ var slots=$('slots').querySelectorAll('.slot'); for(var i=0;i<slots.length;i++){ var c=slots[i].dataset.ch; if(!w.shown[c]){ slots[i].querySelector('.ch').textContent=c; slots[i].classList.add('miss'); } } setSad(true); drawTo(PARTS.length); Snd.lose(); hop('sad'); }
+  else { Snd.win(); }
+  var last = (s.i+1>=CFG.sessionSize);
+  var fb=$('fb'); fb.innerHTML=''; var card=el('div','fbCard '+(ok?'fbOk':'fbNo'));
+  card.appendChild(el('h2',null, ok?'✓ Doğru!':'✗ Bu kelime olmadı'));
+  card.appendChild(el('div','ans','Cevap: '+q.answer)); card.appendChild(el('p',null,q.explanation));
+  var b=el('button','btn', last?'Sonucu Gör':'Devam'); b.type='button'; b.id='btnNext'; b.addEventListener('click', advance); card.appendChild(b);
+  fb.appendChild(card); fb.hidden=false; if(ok) confetti(fb,18); try{ b.focus({preventScroll:true}); }catch(e){}
+  setToast(ok?'✓ Tebrikler!':'✗ Sorun değil, devam edelim.', ok?'good':'bad');
+  if(ok && !last) setT('adv', advance, 3200);
+}
+function advance(){
+  if(S.phase!=='between') return; clearT('adv'); S.phase='advancing';
+  var s=S.sess; s.i++;
+  if(s.i>=CFG.sessionSize){ finishGame(); return; }
+  startWord();
+}
+
+/* ====== Sonuç ====== */
+function calcStars(c,t){ var pct=t>0?(c/t)*100:0; return pct>=CFG.stars.s3?3 : pct>=CFG.stars.s2?2 : pct>=CFG.stars.s1?1 : 0; }
+function buildResult(){
+  var s=S.sess, answers=s.answers.map(function(a){
+    if(a.ok) return { questionId:a.q.id, isCorrect:true };
+    return { questionId:a.q.id, isCorrect:false, questionText:a.q.clue, studentAnswer:a.student, correctAnswer:a.q.answer,
+      unit:a.q.unit, topic:a.q.topic, outcome:a.q.outcome, sourceRef:a.q.sourceRef, explanation:a.q.explanation };
+  });
+  return { gameId:CFG.gameId, gameVersion:CFG.gameVersion, grade:S.ctx.grade, gameName:CFG.gameName, subjectId:S.ctx.subjectId, subjectName:S.ctx.subjectName,
+    stars:calcStars(s.correct,answers.length), correctCount:s.correct, wrongCount:s.wrong, durationMs:Clock.value(), answers:answers };
+}
+function validResult(p){
+  if(!p || [0,1,2,3].indexOf(p.stars)<0) return false;
+  if(!(Number.isInteger(p.durationMs)&&p.durationMs>=0)) return false;
+  if(p.correctCount+p.wrongCount!==p.answers.length || p.answers.length!==CFG.sessionSize) return false;
+  var seen={}; for(var i=0;i<p.answers.length;i++){ var a=p.answers[i]; if(!a.questionId||seen[a.questionId]) return false; seen[a.questionId]=1;
+    if(a.isCorrect===false){ var f=['questionText','studentAnswer','correctAnswer','unit','topic','outcome','sourceRef']; for(var j=0;j<f.length;j++) if(!a[f[j]]) return false; } }
+  return true;
+}
+function finishGame(){
+  if(S.resultSent) return; S.phase='finished'; Clock.stop(); clearT('adv'); $('fb').hidden=true;
+  var payload=buildResult();
+  if(!validResult(payload)){ showError('Sonuç oluşturulamadı. Lütfen oyunu yeniden dene.', false); return; }
+  if(S.mode==='demo'){ showDemoResult(payload); return; }
+  S.resultSent=true; S.resultMsg=envelope('game.completed', payload);
+  $('sentSpin').hidden=false; $('sentT').textContent='Sonuç gönderildi'; $('sentMsg').textContent='Kaydediliyor…'; $('btnResend').hidden=true; showScreen('scSent'); Snd.fan();
+  if(!sendToApp(S.resultMsg)){ $('sentSpin').hidden=true; $('sentT').textContent='Sonuç iletilemedi'; $('sentMsg').textContent='Sonuç uygulamaya iletilemedi. Tekrar göndermeyi dene.'; $('btnResend').hidden=false; try{ $('btnResend').focus(); }catch(e){} }
+  S.phase='sent';
+}
+$('btnResend').addEventListener('click', function(){
+  if(!S.resultMsg || S.phase!=='sent') return;
+  if(sendToApp(S.resultMsg)){ $('sentSpin').hidden=false; $('sentT').textContent='Sonuç gönderildi'; $('sentMsg').textContent='Kaydediliyor…'; $('btnResend').hidden=true; }
+});
+function starSvg(on){ return '<svg viewBox="0 0 64 64" class="'+(on?'on':'')+'" aria-hidden="true" fill="'+(on?'#ffd75e':'none')+'" stroke="'+(on?'#c79c1f':'rgba(255,255,255,.5)')+'"><use href="#starSym"/></svg>'; }
+function showDemoResult(p){
+  var h=''; for(var i=0;i<3;i++) h+=starSvg(i<p.stars); $('stars').innerHTML=h; $('stars').setAttribute('aria-label',p.stars+' yıldız');
+  $('rC').textContent='✓ Doğru: '+p.correctCount; $('rW').textContent='✗ Yanlış: '+p.wrongCount; $('rT').textContent='⏱ '+Math.round(p.durationMs/1000)+' sn';
+  var rv=$('review'); rv.innerHTML=''; var wrongs=p.answers.filter(function(a){ return !a.isCorrect; });
+  wrongs.forEach(function(a){ var li=el('li'); var b=el('b',null,a.correctAnswer); li.appendChild(b); li.appendChild(document.createTextNode(' — '+a.explanation)); rv.appendChild(li); });
+  $('reviewBox').hidden = wrongs.length===0; $('resT').textContent = p.stars>=2?'Harika yolculuk!':(p.stars===1?'İyi gidiyorsun!':'Bir daha dene!');
+  showScreen('scRes'); if(p.stars>=1){ Snd.fan(); confetti($('scRes'), p.stars===3?44:26); } else Snd.lose();
+  S.phase='finished';
+}
+$('btnAgain').addEventListener('click', function(){ if(S.mode!=='demo' || S.phase!=='finished') return; S.sess=null; S.word=null; S.phase='intro'; $('fb').hidden=true; showStart(); });
+
+/* ====== Başlatma / el sıkışma ====== */
+$('btnStart').addEventListener('click', function(){ if(S.phase!=='intro' || !S.mode) return; beginGame(); });
+$('btnRetry').addEventListener('click', function(){ if(S.phase==='error') bootstrap(); });
+$('btnExit').addEventListener('click', function(){ try{ window.close(); }catch(e){} try{ if(history.length>1) history.back(); }catch(e){} });
+
+function startDemo(){
+  S.mode='demo'; S.ctx={ runId:'demo-run', nonce:'demo-nonce', grade:CFG.grade, subjectId:CFG.subjectId, subjectName:CFG.subjectName, reducedMotion:false };
+  S.resultMsg=null; S.resultSent=false; applyRM(); $('demoTag').hidden=false; $('btnStart').textContent='Deneme Modunda Başla'; showStart();
+}
+function bootstrap(){
+  clearT('hs'); S.phase='boot'; S.mode=null; S.readyIds={}; S.bridgeTry=0; showScreen('scLoad'); $('loadT').textContent='Uygulamaya bağlanılıyor…';
+  tryReady();
+}
+function tryReady(){
+  if(sendReady()){
+    S.mode='native'; S.phase='waitInit'; $('btnStart').textContent='Başla';
+    setT('hs', function(){ if(S.phase==='waitInit') showError('Uygulamaya bağlanılamadı. Tekrar deneyebilir veya çıkabilirsin.', true); }, 10000);
+    return;
+  }
+  S.bridgeTry++;
+  if(S.bridgeTry<10){ setT('hs', tryReady, 300); return; }
+  startDemo();     // köprü yok: açıkça işaretli, kayıt yapmayan deneme modu
+}
+
+document.addEventListener('keydown', function(e){
+  if(e.ctrlKey||e.metaKey||e.altKey||S.phase!=='playing') return;
+  var k=e.key; if(!k||k.length!==1) return;
+  var L = k==='i' ? 'İ' : (k==='I'||k==='ı') ? 'I' : trUp(k);
+  if(ALPHABET.indexOf(L)>=0){ e.preventDefault(); pickLetter(L); }
+});
+
+buildGallows(); buildKeys(); buildStations();
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', bootstrap); else bootstrap();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1099 @@
+{
+ "gameId": "fen-8-asit-baz-laboratuvari",
+ "unit": "8. Sınıf 4. Ünite",
+ "topic": "Asitler ve Bazlar",
+ "sourceRef": "Kaynakta doğrulanmadı: genel asit-baz bilgisi (8. sınıf ders kitabı yüklenmedi)",
+ "outcomes": {
+  "K1": "Asit ve bazların ortak özelliklerini (indikatörlerle ve metallerle davranışları) açıklar (kitapta doğrulanmadı).",
+  "K2": "Günlük hayattan çözeltilerin asitlik-bazlık durumunu pH ölçeği ve indikatörlerle değerlendirir (kitapta doğrulanmadı).",
+  "K3": "Asit ve bazların nötrleşme tepkimesini açıklar (kitapta doğrulanmadı)."
+ },
+ "subs": {
+  "limon": {
+   "id": "limon",
+   "name": "Limon suyu",
+   "short": "Limon suyu",
+   "kind": "asit",
+   "pH": 2,
+   "ph": [
+    1,
+    3
+   ],
+   "tint": "#ffe14d",
+   "cap": "#ff8a00",
+   "icon": "🍋"
+  },
+  "sirke": {
+   "id": "sirke",
+   "name": "Sirke",
+   "short": "Sirke",
+   "kind": "asit",
+   "pH": 3,
+   "ph": [
+    2,
+    4
+   ],
+   "tint": "#f2b64a",
+   "cap": "#8e44ad",
+   "icon": "🍶"
+  },
+  "elma": {
+   "id": "elma",
+   "name": "Elma suyu",
+   "short": "Elma suyu",
+   "kind": "asit",
+   "pH": 3.5,
+   "ph": [
+    2,
+    4
+   ],
+   "tint": "#d9ec62",
+   "cap": "#e74c3c",
+   "icon": "🍎"
+  },
+  "portakal": {
+   "id": "portakal",
+   "name": "Portakal suyu",
+   "short": "Portakal suyu",
+   "kind": "asit",
+   "pH": 3.5,
+   "ph": [
+    2,
+    4
+   ],
+   "tint": "#ffa63d",
+   "cap": "#16a085",
+   "icon": "🍊"
+  },
+  "mide": {
+   "id": "mide",
+   "name": "Mide özsuyu",
+   "short": "Mide özsuyu",
+   "kind": "asit",
+   "pH": 1.5,
+   "ph": [
+    0,
+    2
+   ],
+   "tint": "#b9f27a",
+   "cap": "#c0392b",
+   "icon": "🫧"
+  },
+  "hcl": {
+   "id": "hcl",
+   "name": "Hidroklorik asit çözeltisi (HCl)",
+   "short": "HCl",
+   "kind": "asit",
+   "pH": 1,
+   "ph": [
+    0,
+    2
+   ],
+   "tint": "#ffd2a6",
+   "cap": "#e67e22",
+   "icon": "HCl"
+  },
+  "sabun": {
+   "id": "sabun",
+   "name": "Sabunlu su",
+   "short": "Sabunlu su",
+   "kind": "baz",
+   "pH": 10,
+   "ph": [
+    9,
+    11
+   ],
+   "tint": "#c9f7e4",
+   "cap": "#2980b9",
+   "icon": "🧼"
+  },
+  "kabartma": {
+   "id": "kabartma",
+   "name": "Kabartma sodası çözeltisi",
+   "short": "Kabartma sodası",
+   "kind": "baz",
+   "pH": 8.5,
+   "ph": [
+    8,
+    9
+   ],
+   "tint": "#e7f6ff",
+   "cap": "#f39c12",
+   "icon": "🥄"
+  },
+  "kirec": {
+   "id": "kirec",
+   "name": "Kireç suyu",
+   "short": "Kireç suyu",
+   "kind": "baz",
+   "pH": 12,
+   "ph": [
+    11,
+    13
+   ],
+   "tint": "#f4f1e6",
+   "cap": "#27ae60",
+   "icon": "⚪"
+  },
+  "naoh": {
+   "id": "naoh",
+   "name": "Sodyum hidroksit çözeltisi (NaOH)",
+   "short": "NaOH",
+   "kind": "baz",
+   "pH": 13,
+   "ph": [
+    12,
+    14
+   ],
+   "tint": "#d6e4ff",
+   "cap": "#2c3e50",
+   "icon": "NaOH"
+  },
+  "antiasit": {
+   "id": "antiasit",
+   "name": "Antiasit (mide ilacı) çözeltisi",
+   "short": "Antiasit",
+   "kind": "baz",
+   "pH": 10,
+   "ph": [
+    9,
+    11
+   ],
+   "tint": "#ffe3f1",
+   "cap": "#8e44ad",
+   "icon": "💊"
+  },
+  "su": {
+   "id": "su",
+   "name": "Saf su",
+   "short": "Saf su",
+   "kind": "nötr",
+   "pH": 7,
+   "ph": [
+    7,
+    7
+   ],
+   "tint": "#bfe9ff",
+   "cap": "#7f8c8d",
+   "icon": "💧"
+  },
+  "seker": {
+   "id": "seker",
+   "name": "Şekerli su",
+   "short": "Şekerli su",
+   "kind": "nötr",
+   "pH": 7,
+   "ph": [
+    7,
+    7
+   ],
+   "tint": "#fff1c9",
+   "cap": "#d35400",
+   "icon": "🍬"
+  },
+  "tuz": {
+   "id": "tuz",
+   "name": "Tuzlu su",
+   "short": "Tuzlu su",
+   "kind": "nötr",
+   "pH": 7,
+   "ph": [
+    7,
+    7
+   ],
+   "tint": "#e2ecff",
+   "cap": "#34495e",
+   "icon": "🧂"
+  }
+ },
+ "bands": [
+  {
+   "name": "kırmızı",
+   "color": "#ff3b30",
+   "from": 0,
+   "to": 2
+  },
+  {
+   "name": "turuncu",
+   "color": "#ff9500",
+   "from": 3,
+   "to": 4
+  },
+  {
+   "name": "sarı",
+   "color": "#ffd60a",
+   "from": 5,
+   "to": 6
+  },
+  {
+   "name": "yeşil",
+   "color": "#34c759",
+   "from": 7,
+   "to": 7
+  },
+  {
+   "name": "mavi",
+   "color": "#2f9bff",
+   "from": 8,
+   "to": 9
+  },
+  {
+   "name": "lacivert",
+   "color": "#5b5bd6",
+   "from": 10,
+   "to": 11
+  },
+  {
+   "name": "mor",
+   "color": "#a64dff",
+   "from": 12,
+   "to": 14
+  }
+ ],
+ "stations": [
+  {
+   "id": "s1",
+   "num": 1,
+   "name": "Turnusol Masası",
+   "icon": "🧻",
+   "outcomeKey": "K1",
+   "pick": 5,
+   "howto": "Turnusol kâğıtlarını kaba daldır ya da doğru şişeyi kâğıdın üzerine dök. Nesneleri tutup sürükle!",
+   "pool": [
+    {
+     "id": "c1",
+     "questionId": "asitbaz-v1-s1-cls-limon",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "easy",
+     "sample": "limon",
+     "label": "A",
+     "tools": [
+      "blue",
+      "red"
+     ],
+     "trays": [
+      "asit",
+      "baz",
+      "nötr"
+     ],
+     "prompt": "Gizemli çözelti A: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.",
+     "hint": "Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-asit"
+     },
+     "correctText": "Asit tepsisi (Limon suyu)",
+     "explanation": "Limon suyu asittir: mavi turnusol kâğıdını kırmızıya çevirir, kırmızı kâğıdın rengini değiştirmez; fenolftalein renksiz kalır."
+    },
+    {
+     "id": "c2",
+     "questionId": "asitbaz-v1-s1-cls-sabun",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "easy",
+     "sample": "sabun",
+     "label": "B",
+     "tools": [
+      "blue",
+      "red"
+     ],
+     "trays": [
+      "asit",
+      "baz",
+      "nötr"
+     ],
+     "prompt": "Gizemli çözelti B: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.",
+     "hint": "Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-baz"
+     },
+     "correctText": "Baz tepsisi (Sabunlu su)",
+     "explanation": "Sabunlu su bazdır: kırmızı turnusol kâğıdını maviye çevirir, mavi kâğıdın rengini değiştirmez; fenolftalein pembe olur."
+    },
+    {
+     "id": "c3",
+     "questionId": "asitbaz-v1-s1-cls-su",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "easy",
+     "sample": "su",
+     "label": "C",
+     "tools": [
+      "blue",
+      "red"
+     ],
+     "trays": [
+      "asit",
+      "baz",
+      "nötr"
+     ],
+     "prompt": "Gizemli çözelti C: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.",
+     "hint": "Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-nötr"
+     },
+     "correctText": "Nötr tepsisi (Saf su)",
+     "explanation": "Saf su nötrdür: turnusol kâğıtlarının rengini değiştirmez; fenolftalein renksiz kalır."
+    },
+    {
+     "id": "c4",
+     "questionId": "asitbaz-v1-s1-cls-sirke",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "sirke",
+     "label": "D",
+     "tools": [
+      "blue",
+      "red"
+     ],
+     "trays": [
+      "asit",
+      "baz",
+      "nötr"
+     ],
+     "prompt": "Gizemli çözelti D: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.",
+     "hint": "Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-asit"
+     },
+     "correctText": "Asit tepsisi (Sirke)",
+     "explanation": "Sirke asittir: mavi turnusol kâğıdını kırmızıya çevirir, kırmızı kâğıdın rengini değiştirmez; fenolftalein renksiz kalır."
+    },
+    {
+     "id": "c5",
+     "questionId": "asitbaz-v1-s1-cls-kirec",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "kirec",
+     "label": "E",
+     "tools": [
+      "blue",
+      "red"
+     ],
+     "trays": [
+      "asit",
+      "baz",
+      "nötr"
+     ],
+     "prompt": "Gizemli çözelti E: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.",
+     "hint": "Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-baz"
+     },
+     "correctText": "Baz tepsisi (Kireç suyu)",
+     "explanation": "Kireç suyu bazdır: kırmızı turnusol kâğıdını maviye çevirir, mavi kâğıdın rengini değiştirmez; fenolftalein pembe olur."
+    },
+    {
+     "id": "c6",
+     "questionId": "asitbaz-v1-s1-cls-tuz",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "tuz",
+     "label": "F",
+     "tools": [
+      "blue",
+      "red"
+     ],
+     "trays": [
+      "asit",
+      "baz",
+      "nötr"
+     ],
+     "prompt": "Gizemli çözelti F: Turnusol kâğıtlarını kaba daldır, rengi gözle; sonra kabı ASİT, BAZ ya da NÖTR tepsisine taşı.",
+     "hint": "Mavi ve kırmızı kâğıdı ayrı ayrı daldır. Mavi kâğıt kırmızı olursa asit, kırmızı kâğıt mavi olursa baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-nötr"
+     },
+     "correctText": "Nötr tepsisi (Tuzlu su)",
+     "explanation": "Tuzlu su nötrdür: turnusol kâğıtlarının rengini değiştirmez; fenolftalein renksiz kalır."
+    },
+    {
+     "id": "p1",
+     "questionId": "asitbaz-v1-s1-pour-sirke",
+     "type": "pourOn",
+     "outcomeKey": "K1",
+     "difficulty": "easy",
+     "paper": "mavi",
+     "goal": "kırmızı",
+     "bottles": [
+      "sirke",
+      "kabartma",
+      "su"
+     ],
+     "prompt": "Mavi turnusol kâğıdını kırmızı renge çevirecek çözeltiyi kâğıdın üzerine dök.",
+     "hint": "Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.",
+     "answer": {
+      "mover": "sirke",
+      "target": "paper"
+     },
+     "correctText": "Sirke (asit) şişesi",
+     "explanation": "Sirke bir asittir; mavi turnusol kâğıdını kırmızıya çevirir. Bazlar ve nötr çözeltiler mavi kâğıdın rengini değiştirmez."
+    },
+    {
+     "id": "p2",
+     "questionId": "asitbaz-v1-s1-pour-kirec",
+     "type": "pourOn",
+     "outcomeKey": "K1",
+     "difficulty": "easy",
+     "paper": "kırmızı",
+     "goal": "mavi",
+     "bottles": [
+      "limon",
+      "kirec",
+      "tuz"
+     ],
+     "prompt": "Kırmızı turnusol kâğıdını mavi renge çevirecek çözeltiyi kâğıdın üzerine dök.",
+     "hint": "Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.",
+     "answer": {
+      "mover": "kirec",
+      "target": "paper"
+     },
+     "correctText": "Kireç suyu (baz) şişesi",
+     "explanation": "Kireç suyu bir bazdır; kırmızı turnusol kâğıdını maviye çevirir. Asitler ve nötr çözeltiler kırmızı kâğıdın rengini değiştirmez."
+    },
+    {
+     "id": "p3",
+     "questionId": "asitbaz-v1-s1-pour-portakal",
+     "type": "pourOn",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "paper": "mavi",
+     "goal": "kırmızı",
+     "bottles": [
+      "sabun",
+      "portakal",
+      "seker"
+     ],
+     "prompt": "Mavi turnusol kâğıdını kırmızı renge çevirecek çözeltiyi kâğıdın üzerine dök.",
+     "hint": "Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.",
+     "answer": {
+      "mover": "portakal",
+      "target": "paper"
+     },
+     "correctText": "Portakal suyu (asit) şişesi",
+     "explanation": "Portakal suyu bir asittir; mavi turnusol kâğıdını kırmızıya çevirir. Bazlar ve nötr çözeltiler mavi kâğıdın rengini değiştirmez."
+    },
+    {
+     "id": "p4",
+     "questionId": "asitbaz-v1-s1-pour-sabun",
+     "type": "pourOn",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "paper": "kırmızı",
+     "goal": "mavi",
+     "bottles": [
+      "elma",
+      "sabun",
+      "su"
+     ],
+     "prompt": "Kırmızı turnusol kâğıdını mavi renge çevirecek çözeltiyi kâğıdın üzerine dök.",
+     "hint": "Asitler mavi kâğıdı kırmızıya, bazlar kırmızı kâğıdı maviye çevirir. Günlük hayattan ekşi olanlara bak.",
+     "answer": {
+      "mover": "sabun",
+      "target": "paper"
+     },
+     "correctText": "Sabunlu su (baz) şişesi",
+     "explanation": "Sabunlu su bir bazdır; kırmızı turnusol kâğıdını maviye çevirir. Asitler ve nötr çözeltiler kırmızı kâğıdın rengini değiştirmez."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "num": 2,
+   "name": "Fenolftalein ve Tepkimeler",
+   "icon": "💧",
+   "outcomeKey": "K1",
+   "pick": 5,
+   "howto": "Damlalığı ve magnezyum şeridini tüplerin üstüne getir. Rengi ve kabarcıkları izle!",
+   "pool": [
+    {
+     "id": "d1",
+     "questionId": "asitbaz-v1-s2-phth-naoh",
+     "type": "dropOn",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "tubes": [
+      "hcl",
+      "naoh",
+      "su"
+     ],
+     "prompt": "Fenolftalein damlatınca pembe renk veren tüpü bul: damlalığı o tüpün üzerine getir.",
+     "hint": "Fenolftalein yalnızca bazlarda pembe olur; asit ve nötr çözeltilerde renksiz kalır.",
+     "answer": {
+      "mover": "dropper",
+      "target": "tube-naoh"
+     },
+     "correctText": "Sodyum hidroksit çözeltisi (NaOH) tüpü",
+     "explanation": "Fenolftalein bazlarda pembe, asit ve nötr çözeltilerde renksizdir. Sodyum hidroksit çözeltisi (NaOH) bazdır, bu yüzden pembe oldu."
+    },
+    {
+     "id": "d2",
+     "questionId": "asitbaz-v1-s2-phth-kirec",
+     "type": "dropOn",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "tubes": [
+      "sirke",
+      "kirec",
+      "seker"
+     ],
+     "prompt": "Fenolftalein damlatınca pembe renk veren tüpü bul: damlalığı o tüpün üzerine getir.",
+     "hint": "Fenolftalein yalnızca bazlarda pembe olur; asit ve nötr çözeltilerde renksiz kalır.",
+     "answer": {
+      "mover": "dropper",
+      "target": "tube-kirec"
+     },
+     "correctText": "Kireç suyu tüpü",
+     "explanation": "Fenolftalein bazlarda pembe, asit ve nötr çözeltilerde renksizdir. Kireç suyu bazdır, bu yüzden pembe oldu."
+    },
+    {
+     "id": "d3",
+     "questionId": "asitbaz-v1-s2-phth-sabun",
+     "type": "dropOn",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "tubes": [
+      "limon",
+      "tuz",
+      "sabun"
+     ],
+     "prompt": "Fenolftalein damlatınca pembe renk veren tüpü bul: damlalığı o tüpün üzerine getir.",
+     "hint": "Fenolftalein yalnızca bazlarda pembe olur; asit ve nötr çözeltilerde renksiz kalır.",
+     "answer": {
+      "mover": "dropper",
+      "target": "tube-sabun"
+     },
+     "correctText": "Sabunlu su tüpü",
+     "explanation": "Fenolftalein bazlarda pembe, asit ve nötr çözeltilerde renksizdir. Sabunlu su bazdır, bu yüzden pembe oldu."
+    },
+    {
+     "id": "f1",
+     "questionId": "asitbaz-v1-s2-cls-naoh",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "naoh",
+     "label": "A",
+     "tools": [
+      "phth"
+     ],
+     "trays": [
+      "baz",
+      "bazdeğil"
+     ],
+     "prompt": "Gizemli çözelti A: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.",
+     "hint": "Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-baz"
+     },
+     "correctText": "BAZ tepsisi (Sodyum hidroksit çözeltisi (NaOH))",
+     "explanation": "Fenolftalein pembe oldu: çözelti bazdır."
+    },
+    {
+     "id": "f2",
+     "questionId": "asitbaz-v1-s2-cls-sirke",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "sirke",
+     "label": "B",
+     "tools": [
+      "phth"
+     ],
+     "trays": [
+      "baz",
+      "bazdeğil"
+     ],
+     "prompt": "Gizemli çözelti B: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.",
+     "hint": "Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-bazdeğil"
+     },
+     "correctText": "BAZ DEĞİL tepsisi (Sirke)",
+     "explanation": "Fenolftalein renksiz kaldı. Sirke baz değildir (asit); fenolftalein asit ve nötr çözeltileri ayırt edemez."
+    },
+    {
+     "id": "f3",
+     "questionId": "asitbaz-v1-s2-cls-su",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "su",
+     "label": "C",
+     "tools": [
+      "phth"
+     ],
+     "trays": [
+      "baz",
+      "bazdeğil"
+     ],
+     "prompt": "Gizemli çözelti C: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.",
+     "hint": "Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-bazdeğil"
+     },
+     "correctText": "BAZ DEĞİL tepsisi (Saf su)",
+     "explanation": "Fenolftalein renksiz kaldı. Saf su baz değildir (nötr); fenolftalein asit ve nötr çözeltileri ayırt edemez."
+    },
+    {
+     "id": "f4",
+     "questionId": "asitbaz-v1-s2-cls-kirec",
+     "type": "classify",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "sample": "kirec",
+     "label": "D",
+     "tools": [
+      "phth"
+     ],
+     "trays": [
+      "baz",
+      "bazdeğil"
+     ],
+     "prompt": "Gizemli çözelti D: Fenolftalein damlat. Pembe olursa BAZ, renksiz kalırsa BAZ DEĞİL tepsisine taşı.",
+     "hint": "Damlalığı kabın üzerine getir ve rengi izle. Pembe = baz.",
+     "answer": {
+      "mover": "sample",
+      "target": "tray-baz"
+     },
+     "correctText": "BAZ tepsisi (Kireç suyu)",
+     "explanation": "Fenolftalein pembe oldu: çözelti bazdır."
+    },
+    {
+     "id": "m1",
+     "questionId": "asitbaz-v1-s2-mg-hcl",
+     "type": "metal",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "tubes": [
+      "hcl",
+      "sabun",
+      "su"
+     ],
+     "prompt": "Magnezyum şeridi hangi tüpe atılırsa hidrojen gazı kabarcıkları çıkar? Şeridi tüpün üzerine getir.",
+     "hint": "Asitler magnezyum gibi bazı metallerle tepkimeye girip hidrojen gazı çıkarır.",
+     "answer": {
+      "mover": "ribbon",
+      "target": "tube-hcl"
+     },
+     "correctText": "Hidroklorik asit çözeltisi (HCl) tüpü",
+     "explanation": "Asitler magnezyum gibi bazı metallerle tepkimeye girerek hidrojen gazı (H₂) çıkarır. Hidroklorik asit çözeltisi (HCl) asittir; baz ve nötr çözeltilerde kabarcık oluşmaz."
+    },
+    {
+     "id": "m2",
+     "questionId": "asitbaz-v1-s2-mg-limon",
+     "type": "metal",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "tubes": [
+      "limon",
+      "kirec",
+      "tuz"
+     ],
+     "prompt": "Magnezyum şeridi hangi tüpe atılırsa hidrojen gazı kabarcıkları çıkar? Şeridi tüpün üzerine getir.",
+     "hint": "Asitler magnezyum gibi bazı metallerle tepkimeye girip hidrojen gazı çıkarır.",
+     "answer": {
+      "mover": "ribbon",
+      "target": "tube-limon"
+     },
+     "correctText": "Limon suyu tüpü",
+     "explanation": "Asitler magnezyum gibi bazı metallerle tepkimeye girerek hidrojen gazı (H₂) çıkarır. Limon suyu asittir; baz ve nötr çözeltilerde kabarcık oluşmaz."
+    },
+    {
+     "id": "m3",
+     "questionId": "asitbaz-v1-s2-mg-sirke",
+     "type": "metal",
+     "outcomeKey": "K1",
+     "difficulty": "medium",
+     "tubes": [
+      "kabartma",
+      "sirke",
+      "seker"
+     ],
+     "prompt": "Magnezyum şeridi hangi tüpe atılırsa hidrojen gazı kabarcıkları çıkar? Şeridi tüpün üzerine getir.",
+     "hint": "Asitler magnezyum gibi bazı metallerle tepkimeye girip hidrojen gazı çıkarır.",
+     "answer": {
+      "mover": "ribbon",
+      "target": "tube-sirke"
+     },
+     "correctText": "Sirke tüpü",
+     "explanation": "Asitler magnezyum gibi bazı metallerle tepkimeye girerek hidrojen gazı (H₂) çıkarır. Sirke asittir; baz ve nötr çözeltilerde kabarcık oluşmaz."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "num": 3,
+   "name": "pH Merdiveni",
+   "icon": "🪜",
+   "outcomeKey": "K2",
+   "pick": 5,
+   "howto": "Şişeleri ve bayrağı pH ölçeğinde doğru yere bırak.",
+   "pool": [
+    {
+     "id": "h1",
+     "questionId": "asitbaz-v1-s3-ph-limon",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "limon",
+     "prompt": "Limon suyu pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "limon",
+      "ph": 2
+     },
+     "correctText": "pH 1–3 civarı",
+     "explanation": "Limon suyu asit bir çözeltidir; pH değeri 7'den küçüktür; asitlik arttıkça pH azalır (yaklaşık 2)."
+    },
+    {
+     "id": "h2",
+     "questionId": "asitbaz-v1-s3-ph-sirke",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "sirke",
+     "prompt": "Sirke pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "sirke",
+      "ph": 3
+     },
+     "correctText": "pH 2–4 civarı",
+     "explanation": "Sirke asit bir çözeltidir; pH değeri 7'den küçüktür; asitlik arttıkça pH azalır (yaklaşık 3)."
+    },
+    {
+     "id": "h3",
+     "questionId": "asitbaz-v1-s3-ph-mide",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "mide",
+     "prompt": "Mide özsuyu pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "mide",
+      "ph": 1
+     },
+     "correctText": "pH 0–2 civarı",
+     "explanation": "Mide özsuyu asit bir çözeltidir; pH değeri 7'den küçüktür; asitlik arttıkça pH azalır (yaklaşık 1,5)."
+    },
+    {
+     "id": "h4",
+     "questionId": "asitbaz-v1-s3-ph-su",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "su",
+     "prompt": "Saf su pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "su",
+      "ph": 7
+     },
+     "correctText": "pH 7",
+     "explanation": "Saf su nötr bir çözeltidir; pH değeri tam 7'dir (yaklaşık 7)."
+    },
+    {
+     "id": "h5",
+     "questionId": "asitbaz-v1-s3-ph-sabun",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "sabun",
+     "prompt": "Sabunlu su pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "sabun",
+      "ph": 10
+     },
+     "correctText": "pH 9–11 civarı",
+     "explanation": "Sabunlu su baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 10)."
+    },
+    {
+     "id": "h6",
+     "questionId": "asitbaz-v1-s3-ph-kabartma",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "kabartma",
+     "prompt": "Kabartma sodası çözeltisi pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "kabartma",
+      "ph": 8
+     },
+     "correctText": "pH 8–9 civarı",
+     "explanation": "Kabartma sodası çözeltisi baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 8,5)."
+    },
+    {
+     "id": "h7",
+     "questionId": "asitbaz-v1-s3-ph-kirec",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "kirec",
+     "prompt": "Kireç suyu pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "kirec",
+      "ph": 12
+     },
+     "correctText": "pH 11–13 civarı",
+     "explanation": "Kireç suyu baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 12)."
+    },
+    {
+     "id": "h8",
+     "questionId": "asitbaz-v1-s3-ph-naoh",
+     "type": "phScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "item": "naoh",
+     "prompt": "Sodyum hidroksit çözeltisi (NaOH) pH ölçeğinde nereye gelir? Şişeyi ölçeğin doğru yerine bırak.",
+     "hint": "pH 0–6 asit, 7 nötr, 8–14 baz. Günlük hayatta ekşi olanlar asittir, kaygan hissedilenler bazdır.",
+     "answer": {
+      "mover": "naoh",
+      "ph": 13
+     },
+     "correctText": "pH 12–14 civarı",
+     "explanation": "Sodyum hidroksit çözeltisi (NaOH) baz bir çözeltidir; pH değeri 7'den büyüktür; bazlık arttıkça pH artar (yaklaşık 13)."
+    },
+    {
+     "id": "i1",
+     "questionId": "asitbaz-v1-s3-uni-turuncu",
+     "type": "flagScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "color": "turuncu",
+     "prompt": "Evrensel indikatör çözeltiyi turuncu renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.",
+     "hint": "Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.",
+     "answer": {
+      "mover": "flag",
+      "ph": 3
+     },
+     "correctText": "pH 3–4 (asit)",
+     "explanation": "Evrensel indikatörde turuncu renk pH 3–4 aralığını gösterir; bu çözelti asit sınıfındadır."
+    },
+    {
+     "id": "i2",
+     "questionId": "asitbaz-v1-s3-uni-mavi",
+     "type": "flagScale",
+     "outcomeKey": "K2",
+     "difficulty": "hard",
+     "color": "mavi",
+     "prompt": "Evrensel indikatör çözeltiyi mavi renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.",
+     "hint": "Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.",
+     "answer": {
+      "mover": "flag",
+      "ph": 8
+     },
+     "correctText": "pH 8–9 (baz)",
+     "explanation": "Evrensel indikatörde mavi renk pH 8–9 aralığını gösterir; bu çözelti baz sınıfındadır."
+    },
+    {
+     "id": "i3",
+     "questionId": "asitbaz-v1-s3-uni-yeşil",
+     "type": "flagScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "color": "yeşil",
+     "prompt": "Evrensel indikatör çözeltiyi yeşil renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.",
+     "hint": "Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.",
+     "answer": {
+      "mover": "flag",
+      "ph": 7
+     },
+     "correctText": "pH 7 (nötr)",
+     "explanation": "Evrensel indikatörde yeşil renk pH 7 aralığını gösterir; bu çözelti nötr sınıfındadır."
+    },
+    {
+     "id": "i4",
+     "questionId": "asitbaz-v1-s3-uni-mor",
+     "type": "flagScale",
+     "outcomeKey": "K2",
+     "difficulty": "hard",
+     "color": "mor",
+     "prompt": "Evrensel indikatör çözeltiyi mor renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.",
+     "hint": "Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.",
+     "answer": {
+      "mover": "flag",
+      "ph": 13
+     },
+     "correctText": "pH 12–14 (baz)",
+     "explanation": "Evrensel indikatörde mor renk pH 12–14 aralığını gösterir; bu çözelti baz sınıfındadır."
+    },
+    {
+     "id": "i5",
+     "questionId": "asitbaz-v1-s3-uni-kırmızı",
+     "type": "flagScale",
+     "outcomeKey": "K2",
+     "difficulty": "medium",
+     "color": "kırmızı",
+     "prompt": "Evrensel indikatör çözeltiyi kırmızı renge boyadı. Bayrağı bu rengin gösterdiği pH aralığına yerleştir.",
+     "hint": "Ölçekteki renklere bak: tüpün rengiyle aynı renkli kutulardan birine bırak.",
+     "answer": {
+      "mover": "flag",
+      "ph": 1
+     },
+     "correctText": "pH 0–2 (asit)",
+     "explanation": "Evrensel indikatörde kırmızı renk pH 0–2 aralığını gösterir; bu çözelti asit sınıfındadır."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "num": 4,
+   "name": "Nötrleşme Reaktörü",
+   "icon": "⚗️",
+   "outcomeKey": "K3",
+   "pick": 5,
+   "howto": "Kaptaki çözeltiyi nötrleştirecek şişeyi seç ve kaba dök. pH göstergesini izle!",
+   "pool": [
+    {
+     "id": "n1",
+     "questionId": "asitbaz-v1-s4-neut-naoh-phth",
+     "type": "neutralize",
+     "outcomeKey": "K3",
+     "difficulty": "medium",
+     "base": "naoh",
+     "indicator": "phth",
+     "bottles": [
+      "hcl",
+      "sabun",
+      "su"
+     ],
+     "prompt": "Kapta Sodyum hidroksit çözeltisi (NaOH) var; fenolftalein çözeltiyi pembe yaptı. Pembe rengi kaybettirip pH'ı 7 yapacak çözeltiyi kaba dök.",
+     "hint": "Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.",
+     "answer": {
+      "mover": "hcl",
+      "target": "beaker"
+     },
+     "correctText": "Hidroklorik asit çözeltisi (HCl) şişesi",
+     "explanation": "Hidroklorik asit çözeltisi (HCl)  asit olduğu için Sodyum hidroksit çözeltisi (NaOH) ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."
+    },
+    {
+     "id": "n2",
+     "questionId": "asitbaz-v1-s4-neut-kirec-phth",
+     "type": "neutralize",
+     "outcomeKey": "K3",
+     "difficulty": "medium",
+     "base": "kirec",
+     "indicator": "phth",
+     "bottles": [
+      "sirke",
+      "naoh",
+      "su"
+     ],
+     "prompt": "Kapta Kireç suyu var; fenolftalein çözeltiyi pembe yaptı. Pembe rengi kaybettirip pH'ı 7 yapacak çözeltiyi kaba dök.",
+     "hint": "Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.",
+     "answer": {
+      "mover": "sirke",
+      "target": "beaker"
+     },
+     "correctText": "Sirke şişesi",
+     "explanation": "Sirke  asit olduğu için Kireç suyu ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."
+    },
+    {
+     "id": "n3",
+     "questionId": "asitbaz-v1-s4-neut-sabun-phth",
+     "type": "neutralize",
+     "outcomeKey": "K3",
+     "difficulty": "medium",
+     "base": "sabun",
+     "indicator": "phth",
+     "bottles": [
+      "limon",
+      "kirec",
+      "su"
+     ],
+     "prompt": "Kapta Sabunlu su var; fenolftalein çözeltiyi pembe yaptı. Pembe rengi kaybettirip pH'ı 7 yapacak çözeltiyi kaba dök.",
+     "hint": "Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.",
+     "answer": {
+      "mover": "limon",
+      "target": "beaker"
+     },
+     "correctText": "Limon suyu şişesi",
+     "explanation": "Limon suyu  asit olduğu için Sabunlu su ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."
+    },
+    {
+     "id": "n4",
+     "questionId": "asitbaz-v1-s4-neut-hcl-uni",
+     "type": "neutralize",
+     "outcomeKey": "K3",
+     "difficulty": "hard",
+     "base": "hcl",
+     "indicator": "uni",
+     "bottles": [
+      "naoh",
+      "limon",
+      "su"
+     ],
+     "prompt": "Kapta Hidroklorik asit çözeltisi (HCl) ve evrensel indikatör var. Çözeltiyi nötrleştirip yeşile çevirecek şişeyi kaba dök.",
+     "hint": "Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.",
+     "answer": {
+      "mover": "naoh",
+      "target": "beaker"
+     },
+     "correctText": "Sodyum hidroksit çözeltisi (NaOH) şişesi",
+     "explanation": "Sodyum hidroksit çözeltisi (NaOH)  baz olduğu için Hidroklorik asit çözeltisi (HCl) ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."
+    },
+    {
+     "id": "n5",
+     "questionId": "asitbaz-v1-s4-neut-sirke-uni",
+     "type": "neutralize",
+     "outcomeKey": "K3",
+     "difficulty": "hard",
+     "base": "sirke",
+     "indicator": "uni",
+     "bottles": [
+      "kirec",
+      "portakal",
+      "su"
+     ],
+     "prompt": "Kapta Sirke ve evrensel indikatör var. Çözeltiyi nötrleştirip yeşile çevirecek şişeyi kaba dök.",
+     "hint": "Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.",
+     "answer": {
+      "mover": "kirec",
+      "target": "beaker"
+     },
+     "correctText": "Kireç suyu şişesi",
+     "explanation": "Kireç suyu  baz olduğu için Sirke ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."
+    },
+    {
+     "id": "n6",
+     "questionId": "asitbaz-v1-s4-neut-mide-uni",
+     "type": "neutralize",
+     "outcomeKey": "K3",
+     "difficulty": "hard",
+     "base": "mide",
+     "indicator": "uni",
+     "bottles": [
+      "antiasit",
+      "sirke",
+      "su"
+     ],
+     "prompt": "Kapta Mide özsuyu ve evrensel indikatör var. Çözeltiyi nötrleştirip yeşile çevirecek şişeyi kaba dök.",
+     "hint": "Asit ile baz tepkimeye girip tuz ve su oluşturur; nötrleşme için kaptakinin zıt türünden bir çözelti gerekir.",
+     "answer": {
+      "mover": "antiasit",
+      "target": "beaker"
+     },
+     "correctText": "Antiasit (mide ilacı) çözeltisi şişesi",
+     "explanation": "Antiasit (mide ilacı) çözeltisi  baz olduğu için Mide özsuyu ile nötrleşir: tuz ve su oluşur, pH 7 olur. Aynı türden çözelti pH'ı fazla değiştirmez; su ise yalnızca seyreltir."
+    }
+   ]
+  }
+ ]
+}
