@@ -1,0 +1,3904 @@
+[
+ {
+  "questionId": "mat7-t3-rv-v1-q001",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Veri kartlarını doğru vagona yükle: kartı tut, vagona bırak!",
+  "wagons": [
+   "Kategorik",
+   "Nicel"
+  ],
+  "items": [
+   {
+    "label": "En sevilen renk",
+    "wagon": 0
+   },
+   {
+    "label": "Kardeş sayısı",
+    "wagon": 1
+   },
+   {
+    "label": "Doğduğu il",
+    "wagon": 0
+   },
+   {
+    "label": "Boy uzunluğu",
+    "wagon": 1
+   },
+   {
+    "label": "Tuttuğu takım",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Kategorik: En sevilen renk; Doğduğu il; Tuttuğu takım | Nicel: Kardeş sayısı; Boy uzunluğu",
+  "explanation": "Sayıyla ifade edilen veriler nicel, gruplara/özelliklere ayrılan veriler kategoriktir.",
+  "textPlain": "Veri kartlarını doğru vagona yükle: kartı tut, vagona bırak! [Kartlar: En sevilen renk; Kardeş sayısı; Doğduğu il; Boy uzunluğu; Tuttuğu takım — gruplar: Kategorik / Nicel]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q002",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Ankette sorulan soruların verilerini vagonlara yükle.",
+  "wagons": [
+   "Kategorik",
+   "Nicel"
+  ],
+  "items": [
+   {
+    "label": "En sevdiğin ders hangisi?",
+    "wagon": 0
+   },
+   {
+    "label": "Bu ay kaç kitap okudun?",
+    "wagon": 1
+   },
+   {
+    "label": "Hangi sporu yapıyorsun?",
+    "wagon": 0
+   },
+   {
+    "label": "Günde kaç dakika yürüyorsun?",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kategorik: En sevdiğin ders hangisi?; Hangi sporu yapıyorsun? | Nicel: Bu ay kaç kitap okudun?; Günde kaç dakika yürüyorsun?",
+  "explanation": "Ders adı ve spor türü kategorik; kitap sayısı ve dakika nicel veridir.",
+  "textPlain": "Ankette sorulan soruların verilerini vagonlara yükle. [Kartlar: En sevdiğin ders hangisi?; Bu ay kaç kitap okudun?; Hangi sporu yapıyorsun?; Günde kaç dakika yürüyorsun? — gruplar: Kategorik / Nicel]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q003",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Nicel verileri kesikli ve sürekli olarak ayır.",
+  "wagons": [
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "Kardeş sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Boy uzunluğu",
+    "wagon": 1
+   },
+   {
+    "label": "Atılan gol sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Vücut sıcaklığı",
+    "wagon": 1
+   },
+   {
+    "label": "Kitaplıktaki kitap sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Aylık yağış miktarı",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kesikli: Kardeş sayısı; Atılan gol sayısı; Kitaplıktaki kitap sayısı | Sürekli: Boy uzunluğu; Vücut sıcaklığı; Aylık yağış miktarı",
+  "explanation": "Kesikli veri iki ölçüm arasında başka değer alamaz (sayılır); sürekli veri iki ölçüm arasında sınırsız değer alabilir (ölçülür).",
+  "textPlain": "Nicel verileri kesikli ve sürekli olarak ayır. [Kartlar: Kardeş sayısı; Boy uzunluğu; Atılan gol sayısı; Vücut sıcaklığı; Kitaplıktaki kitap sayısı; Aylık yağış miktarı — gruplar: Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q004",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Verileri kategorik, kesikli ve sürekli olarak üç vagona yükle.",
+  "wagons": [
+   "Kategorik",
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "Okuldaki öğrenci sayısı",
+    "wagon": 1
+   },
+   {
+    "label": "Bir ürünün fiyatı",
+    "wagon": 2
+   },
+   {
+    "label": "Göz rengi",
+    "wagon": 0
+   },
+   {
+    "label": "Günlük uyku süresi",
+    "wagon": 2
+   },
+   {
+    "label": "Okula geliş aracı",
+    "wagon": 0
+   },
+   {
+    "label": "Sınıftaki sıra sayısı",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kategorik: Göz rengi; Okula geliş aracı | Kesikli: Okuldaki öğrenci sayısı; Sınıftaki sıra sayısı | Sürekli: Bir ürünün fiyatı; Günlük uyku süresi",
+  "explanation": "Göz rengi ve araç kategorik; öğrenci ve sıra sayısı kesikli; fiyat ve uyku süresi süreklidir.",
+  "textPlain": "Verileri kategorik, kesikli ve sürekli olarak üç vagona yükle. [Kartlar: Okuldaki öğrenci sayısı; Bir ürünün fiyatı; Göz rengi; Günlük uyku süresi; Okula geliş aracı; Sınıftaki sıra sayısı — gruplar: Kategorik / Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q005",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Verileri kategorik, kesikli ve sürekli olarak ayır.",
+  "wagons": [
+   "Kategorik",
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "Bitkinin boyu (cm)",
+    "wagon": 2
+   },
+   {
+    "label": "Bir maçtaki asist sayısı",
+    "wagon": 1
+   },
+   {
+    "label": "Gram altının fiyatı",
+    "wagon": 2
+   },
+   {
+    "label": "En sevilen meyve",
+    "wagon": 0
+   },
+   {
+    "label": "Bir günde içilen su (L)",
+    "wagon": 2
+   },
+   {
+    "label": "Evdeki televizyon sayısı",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kategorik: En sevilen meyve | Kesikli: Bir maçtaki asist sayısı; Evdeki televizyon sayısı | Sürekli: Bitkinin boyu (cm); Gram altının fiyatı; Bir günde içilen su (L)",
+  "explanation": "Ölçülen boy, fiyat ve su miktarı sürekli; sayılan asist ve televizyon kesikli; meyve kategoriktir.",
+  "textPlain": "Verileri kategorik, kesikli ve sürekli olarak ayır. [Kartlar: Bitkinin boyu (cm); Bir maçtaki asist sayısı; Gram altının fiyatı; En sevilen meyve; Bir günde içilen su (L); Evdeki televizyon sayısı — gruplar: Kategorik / Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q006",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Nicel verileri kesikli ve sürekli olarak ayır.",
+  "wagons": [
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "Koşu süresi (saniye)",
+    "wagon": 1
+   },
+   {
+    "label": "Doğan bebek sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Bebeğin baş çevresi",
+    "wagon": 1
+   },
+   {
+    "label": "Otoparktaki araç sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Deniz suyu sıcaklığı",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kesikli: Doğan bebek sayısı; Otoparktaki araç sayısı | Sürekli: Koşu süresi (saniye); Bebeğin baş çevresi; Deniz suyu sıcaklığı",
+  "explanation": "Süre, uzunluk ve sıcaklık ölçülür (sürekli); bebek ve araç sayısı sayılır (kesikli).",
+  "textPlain": "Nicel verileri kesikli ve sürekli olarak ayır. [Kartlar: Koşu süresi (saniye); Doğan bebek sayısı; Bebeğin baş çevresi; Otoparktaki araç sayısı; Deniz suyu sıcaklığı — gruplar: Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q007",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "zor",
+  "group": "veri",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Nicel verileri kesikli ve sürekli olarak ayır.",
+  "wagons": [
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "Futbolcunun maçta koştuğu mesafe",
+    "wagon": 1
+   },
+   {
+    "label": "Sınıftaki devamsız öğrenci sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Şişedeki su miktarı",
+    "wagon": 1
+   },
+   {
+    "label": "Kitabın sayfa sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Rüzgâr hızı",
+    "wagon": 1
+   },
+   {
+    "label": "Apartmandaki daire sayısı",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Kesikli: Sınıftaki devamsız öğrenci sayısı; Kitabın sayfa sayısı; Apartmandaki daire sayısı | Sürekli: Futbolcunun maçta koştuğu mesafe; Şişedeki su miktarı; Rüzgâr hızı",
+  "explanation": "Mesafe, su miktarı ve rüzgâr hızı ölçülür; öğrenci, sayfa ve daire sayısı sayılır.",
+  "textPlain": "Nicel verileri kesikli ve sürekli olarak ayır. [Kartlar: Futbolcunun maçta koştuğu mesafe; Sınıftaki devamsız öğrenci sayısı; Şişedeki su miktarı; Kitabın sayfa sayısı; Rüzgâr hızı; Apartmandaki daire sayısı — gruplar: Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q008",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma sorusu",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 165",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Defne sınıfındaki su tüketimini araştırıyor. Soruları ayır: araştırma sorusu mu, anket sorusu mu?",
+  "wagons": [
+   "Araştırma sorusu",
+   "Anket sorusu"
+  ],
+  "items": [
+   {
+    "label": "7/A öğrencilerinin günlük su tüketimlerinin eğilimi nasıldır?",
+    "wagon": 0
+   },
+   {
+    "label": "Bir günde toplam kaç litre su içersiniz?",
+    "wagon": 1
+   },
+   {
+    "label": "7/A'daki kız ve erkek öğrencilerin su tüketimlerinin eğilimi nasıl değişmektedir?",
+    "wagon": 0
+   },
+   {
+    "label": "Su içmeyi sever misiniz?",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Araştırma sorusu: 7/A öğrencilerinin günlük su tüketimlerinin eğilimi nasıldır?; 7/A'daki kız ve erkek öğrencilerin su tüketimlerinin eğilimi nasıl değişmektedir? | Anket sorusu: Bir günde toplam kaç litre su içersiniz?; Su içmeyi sever misiniz?",
+  "explanation": "Araştırma sorusu bir grubun verilerinin eğilimini/dağılımını sorar; anket sorusu tek kişiye sorulan sorudur.",
+  "textPlain": "Defne sınıfındaki su tüketimini araştırıyor. Soruları ayır: araştırma sorusu mu, anket sorusu mu? [Kartlar: 7/A öğrencilerinin günlük su tüketimlerinin eğilimi nasıldır?; Bir günde toplam kaç litre su içersiniz?; 7/A'daki kız ve erkek öğrencilerin su tüketimlerinin eğilimi nasıl değişmektedir?; Su içmeyi sever misiniz? — gruplar: Araştırma sorusu / Anket sorusu]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q009",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma sorusu",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 165",
+  "difficulty": "zor",
+  "group": "veri",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Hangileri istatistiksel araştırmaya uygun bir araştırma sorusudur? (Değişebilirlik ve veri toplama ölçütüne dikkat!)",
+  "wagons": [
+   "Uygun",
+   "Uygun değil"
+  ],
+  "items": [
+   {
+    "label": "Ankara hangi yıl başkent oldu?",
+    "wagon": 1
+   },
+   {
+    "label": "Sınıfımızdaki öğrencilerin boy uzunluklarının eğilimi nasıldır?",
+    "wagon": 0
+   },
+   {
+    "label": "Okulumuzdaki öğrencilerin kantinde bekleme sürelerinin dağılımı nasıldır?",
+    "wagon": 0
+   },
+   {
+    "label": "Benim kardeşim kaç yaşında?",
+    "wagon": 1
+   },
+   {
+    "label": "Türkiye'deki illerin yıllık yağış miktarları nasıl değişmektedir?",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Uygun: Sınıfımızdaki öğrencilerin boy uzunluklarının eğilimi nasıldır?; Okulumuzdaki öğrencilerin kantinde bekleme sürelerinin dağılımı nasıldır?; Türkiye'deki illerin yıllık yağış miktarları nasıl değişmektedir? | Uygun değil: Ankara hangi yıl başkent oldu?; Benim kardeşim kaç yaşında?",
+  "explanation": "Tek ve kesin cevabı olan sorularda değişebilirlik yoktur; araştırma sorusu bir grubun değişen verilerini inceler.",
+  "textPlain": "Hangileri istatistiksel araştırmaya uygun bir araştırma sorusudur? (Değişebilirlik ve veri toplama ölçütüne dikkat!) [Kartlar: Ankara hangi yıl başkent oldu?; Sınıfımızdaki öğrencilerin boy uzunluklarının eğilimi nasıldır?; Okulumuzdaki öğrencilerin kantinde bekleme sürelerinin dağılımı nasıldır?; Benim kardeşim kaç yaşında?; Türkiye'deki illerin yıllık yağış miktarları nasıl değişmektedir? — gruplar: Uygun / Uygun değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q010",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma sorusu",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Ekran süresi araştırmasındaki soruları ayır.",
+  "wagons": [
+   "Araştırma sorusu",
+   "Anket sorusu"
+  ],
+  "items": [
+   {
+    "label": "Okulumuzdaki öğrencilerin günlük ekran sürelerinin dağılımı nasıldır?",
+    "wagon": 0
+   },
+   {
+    "label": "Dün kaç dakika ekran karşısında kaldın?",
+    "wagon": 1
+   },
+   {
+    "label": "6. ve 7. sınıfların ekran süreleri nasıl farklılaşmaktadır?",
+    "wagon": 0
+   },
+   {
+    "label": "Telefonun var mı?",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Araştırma sorusu: Okulumuzdaki öğrencilerin günlük ekran sürelerinin dağılımı nasıldır?; 6. ve 7. sınıfların ekran süreleri nasıl farklılaşmaktadır? | Anket sorusu: Dün kaç dakika ekran karşısında kaldın?; Telefonun var mı?",
+  "explanation": "Araştırma sorusu grubun eğilimini, anket sorusu kişinin kendi verisini sorar.",
+  "textPlain": "Ekran süresi araştırmasındaki soruları ayır. [Kartlar: Okulumuzdaki öğrencilerin günlük ekran sürelerinin dağılımı nasıldır?; Dün kaç dakika ekran karşısında kaldın?; 6. ve 7. sınıfların ekran süreleri nasıl farklılaşmaktadır?; Telefonun var mı? — gruplar: Araştırma sorusu / Anket sorusu]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q011",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 164",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Yapılan işleri araştırma sürecinin adımlarına yükle.",
+  "wagons": [
+   "1. Araştırma sorusu",
+   "2. Veri toplama",
+   "3. Analiz",
+   "4. Yorum ve karar"
+  ],
+  "items": [
+   {
+    "label": "Evren ve örneklemi belirlemek",
+    "wagon": 0
+   },
+   {
+    "label": "Anket uygulamak",
+    "wagon": 1
+   },
+   {
+    "label": "Çizgi grafiği çizmek",
+    "wagon": 2
+   },
+   {
+    "label": "Sonuca göre karar vermek",
+    "wagon": 3
+   }
+  ],
+  "correctAnswer": "1. Araştırma sorusu: Evren ve örneklemi belirlemek | 2. Veri toplama: Anket uygulamak | 3. Analiz: Çizgi grafiği çizmek | 4. Yorum ve karar: Sonuca göre karar vermek",
+  "explanation": "Evren-örneklem 1. adımda, anket 2. adımda, grafik 3. adımda, karar 4. adımda yer alır.",
+  "textPlain": "Yapılan işleri araştırma sürecinin adımlarına yükle. [Kartlar: Evren ve örneklemi belirlemek; Anket uygulamak; Çizgi grafiği çizmek; Sonuca göre karar vermek — gruplar: 1. Araştırma sorusu / 2. Veri toplama / 3. Analiz / 4. Yorum ve karar]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q012",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 164",
+  "difficulty": "zor",
+  "group": "veri",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Yapılan işleri araştırma sürecinin adımlarına yükle.",
+  "wagons": [
+   "1. Araştırma sorusu",
+   "2. Veri toplama",
+   "3. Analiz",
+   "4. Yorum ve karar"
+  ],
+  "items": [
+   {
+    "label": "Hazır veriye güvenilir siteden ulaşmak",
+    "wagon": 1
+   },
+   {
+    "label": "Ortalama mutlak sapmayı hesaplamak",
+    "wagon": 2
+   },
+   {
+    "label": "Araştırma sorusunu değişebilirliğe göre düzenlemek",
+    "wagon": 0
+   },
+   {
+    "label": "Gelecek yıl için tahmin yapmak",
+    "wagon": 3
+   },
+   {
+    "label": "Verileri tabloya kaydetmek",
+    "wagon": 1
+   },
+   {
+    "label": "Tepe değeri bulmak",
+    "wagon": 2
+   }
+  ],
+  "correctAnswer": "1. Araştırma sorusu: Araştırma sorusunu değişebilirliğe göre düzenlemek | 2. Veri toplama: Hazır veriye güvenilir siteden ulaşmak; Verileri tabloya kaydetmek | 3. Analiz: Ortalama mutlak sapmayı hesaplamak; Tepe değeri bulmak | 4. Yorum ve karar: Gelecek yıl için tahmin yapmak",
+  "explanation": "Veriye ulaşma ve kaydetme 2., hesaplamalar 3., tahmin ve yorum 4. adıma aittir.",
+  "textPlain": "Yapılan işleri araştırma sürecinin adımlarına yükle. [Kartlar: Hazır veriye güvenilir siteden ulaşmak; Ortalama mutlak sapmayı hesaplamak; Araştırma sorusunu değişebilirliğe göre düzenlemek; Gelecek yıl için tahmin yapmak; Verileri tabloya kaydetmek; Tepe değeri bulmak — gruplar: 1. Araştırma sorusu / 2. Veri toplama / 3. Analiz / 4. Yorum ve karar]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q013",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 164",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "step_rail",
+  "text": "İstatistiksel araştırma sürecinin adımlarını raya sırayla diz: kartı tut, numaralı yere bırak.",
+  "steps": [
+   "Araştırma sorusunu belirleme",
+   "Verileri toplama ve analize hazırlama",
+   "Veri analizi (görselleştirme ve özetleme)",
+   "Veriyi yorumlama ve karar verme"
+  ],
+  "correctAnswer": "1) Araştırma sorusunu belirleme → 2) Verileri toplama ve analize hazırlama → 3) Veri analizi (görselleştirme ve özetleme) → 4) Veriyi yorumlama ve karar verme",
+  "explanation": "Süreç araştırma sorusuyla başlar, veri toplama ve analizle devam eder, yorum ve kararla biter.",
+  "textPlain": "İstatistiksel araştırma sürecinin adımlarını raya sırayla diz: kartı tut, numaralı yere bırak. [Kartlar: Araştırma sorusunu belirleme; Verileri toplama ve analize hazırlama; Veri analizi (görselleştirme ve özetleme); Veriyi yorumlama ve karar verme]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q014",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 164",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "step_rail",
+  "text": "Defne'nin su tüketimi araştırmasındaki işleri sırayla diz.",
+  "steps": [
+   "Araştırma sorusunu yazar.",
+   "Arkadaşlarına günlük su miktarını sorup kaydeder.",
+   "Verileri grafikle gösterip ortalamasını bulur.",
+   "Sonuçları yorumlayıp günde 2 L hedefi koyar."
+  ],
+  "correctAnswer": "1) Araştırma sorusunu yazar. → 2) Arkadaşlarına günlük su miktarını sorup kaydeder. → 3) Verileri grafikle gösterip ortalamasını bulur. → 4) Sonuçları yorumlayıp günde 2 L hedefi koyar.",
+  "explanation": "Soru → veri toplama → analiz → yorum ve karar.",
+  "textPlain": "Defne'nin su tüketimi araştırmasındaki işleri sırayla diz. [Kartlar: Araştırma sorusunu yazar.; Arkadaşlarına günlük su miktarını sorup kaydeder.; Verileri grafikle gösterip ortalamasını bulur.; Sonuçları yorumlayıp günde 2 L hedefi koyar.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q015",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 173",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "step_rail",
+  "text": "Melek Hanım'ın kilo takibindeki işleri sırayla diz.",
+  "steps": [
+   "“Kilomun haftalara göre değişimi nasıldır?” diye sorar.",
+   "Her hafta aynı gün tartılıp kilosunu kaydeder.",
+   "Verileri çizgi grafiğiyle gösterir.",
+   "Kilosunun referans değere yaklaşmasını yorumlar."
+  ],
+  "correctAnswer": "1) “Kilomun haftalara göre değişimi nasıldır?” diye sorar. → 2) Her hafta aynı gün tartılıp kilosunu kaydeder. → 3) Verileri çizgi grafiğiyle gösterir. → 4) Kilosunun referans değere yaklaşmasını yorumlar.",
+  "explanation": "Süreç: araştırma sorusu, veri toplama, görselleştirme, yorum.",
+  "textPlain": "Melek Hanım'ın kilo takibindeki işleri sırayla diz. [Kartlar: “Kilomun haftalara göre değişimi nasıldır?” diye sorar.; Her hafta aynı gün tartılıp kilosunu kaydeder.; Verileri çizgi grafiğiyle gösterir.; Kilosunun referans değere yaklaşmasını yorumlar.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q016",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 177",
+  "difficulty": "orta",
+  "group": "veri",
+  "rank": 2,
+  "questionType": "step_rail",
+  "text": "Persentil verilerini dijital araçla çizgi grafiğine dönüştürme adımlarını sırala.",
+  "steps": [
+   "Dijital aracı açıp verilerin tablosunu oluştur.",
+   "Tabloyu başlıklarıyla birlikte seç.",
+   "Ekle menüsünden “İşaretçileri olan çizgi” grafiğini seç.",
+   "Yatay eksene zamanı, dikey eksene değerleri yerleştir."
+  ],
+  "correctAnswer": "1) Dijital aracı açıp verilerin tablosunu oluştur. → 2) Tabloyu başlıklarıyla birlikte seç. → 3) Ekle menüsünden “İşaretçileri olan çizgi” grafiğini seç. → 4) Yatay eksene zamanı, dikey eksene değerleri yerleştir.",
+  "explanation": "Önce tablo oluşturulur ve seçilir, sonra grafik eklenir ve eksenler düzenlenir.",
+  "textPlain": "Persentil verilerini dijital araçla çizgi grafiğine dönüştürme adımlarını sırala. [Kartlar: Dijital aracı açıp verilerin tablosunu oluştur.; Tabloyu başlıklarıyla birlikte seç.; Ekle menüsünden “İşaretçileri olan çizgi” grafiğini seç.; Yatay eksene zamanı, dikey eksene değerleri yerleştir.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q017",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 165",
+  "difficulty": "zor",
+  "group": "veri",
+  "rank": 3,
+  "questionType": "step_rail",
+  "text": "Bir araştırmanın planlama işlerini sırala.",
+  "steps": [
+   "Araştırma sorusunu belirle.",
+   "Evreni ve örneklemi belirle.",
+   "Anket sorusunu hazırla.",
+   "Verileri topla ve kaydet.",
+   "Verileri görselleştir ve özetle."
+  ],
+  "correctAnswer": "1) Araştırma sorusunu belirle. → 2) Evreni ve örneklemi belirle. → 3) Anket sorusunu hazırla. → 4) Verileri topla ve kaydet. → 5) Verileri görselleştir ve özetle.",
+  "explanation": "Araştırma sorusu ve evren-örneklem 1. adımda; anket ve veri toplama 2. adımda; görselleştirme 3. adımda yapılır.",
+  "textPlain": "Bir araştırmanın planlama işlerini sırala. [Kartlar: Araştırma sorusunu belirle.; Evreni ve örneklemi belirle.; Anket sorusunu hazırla.; Verileri topla ve kaydet.; Verileri görselleştir ve özetle.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q018",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "İstatistiksel araştırma süreci",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 171",
+  "difficulty": "zor",
+  "group": "veri",
+  "rank": 3,
+  "questionType": "step_rail",
+  "text": "Altın fiyatı araştırmasındaki işleri sırala.",
+  "steps": [
+   "“Gram altının günlere göre alış fiyatı nasıl değişmektedir?” sorusunu yaz.",
+   "Merkez Bankası sitesinden 11 günlük alış fiyatlarını al.",
+   "Fiyatları çizgi grafiğiyle görselleştir.",
+   "Fiyatların artış eğiliminde olduğunu yorumla."
+  ],
+  "correctAnswer": "1) “Gram altının günlere göre alış fiyatı nasıl değişmektedir?” sorusunu yaz. → 2) Merkez Bankası sitesinden 11 günlük alış fiyatlarını al. → 3) Fiyatları çizgi grafiğiyle görselleştir. → 4) Fiyatların artış eğiliminde olduğunu yorumla.",
+  "explanation": "Soru → hazır veriye ulaşma → çizgi grafiği → yorum.",
+  "textPlain": "Altın fiyatı araştırmasındaki işleri sırala. [Kartlar: “Gram altının günlere göre alış fiyatı nasıl değişmektedir?” sorusunu yaz.; Merkez Bankası sitesinden 11 günlük alış fiyatlarını al.; Fiyatları çizgi grafiğiyle görselleştir.; Fiyatların artış eğiliminde olduğunu yorumla.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q019",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Spor verilerini vagonlara yükle.",
+  "wagons": [
+   "Kategorik",
+   "Nicel"
+  ],
+  "items": [
+   {
+    "label": "Formasının rengi",
+    "wagon": 0
+   },
+   {
+    "label": "Maçta atılan sayı",
+    "wagon": 1
+   },
+   {
+    "label": "Oyuncunun mevkisi (pivot, oyun kurucu…)",
+    "wagon": 0
+   },
+   {
+    "label": "Oyuncunun boyu",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kategorik: Formasının rengi; Oyuncunun mevkisi (pivot, oyun kurucu…) | Nicel: Maçta atılan sayı; Oyuncunun boyu",
+  "explanation": "Mevki ve renk kategorik; sayı ve boy nicel veridir.",
+  "textPlain": "Spor verilerini vagonlara yükle. [Kartlar: Formasının rengi; Maçta atılan sayı; Oyuncunun mevkisi (pivot, oyun kurucu…); Oyuncunun boyu — gruplar: Kategorik / Nicel]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q020",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "zor",
+  "group": "veri",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Dikkat, bazı sayılar aslında birer etikettir! Verileri ayır.",
+  "wagons": [
+   "Kategorik",
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "İlin plaka kodu (06, 35…)",
+    "wagon": 0
+   },
+   {
+    "label": "Ayakkabı numarası",
+    "wagon": 1
+   },
+   {
+    "label": "Kan grubu",
+    "wagon": 0
+   },
+   {
+    "label": "Bebeğin kilosu",
+    "wagon": 2
+   },
+   {
+    "label": "Kütüphanedeki ziyaretçi sayısı",
+    "wagon": 1
+   },
+   {
+    "label": "Forma numarası",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Kategorik: İlin plaka kodu (06, 35…); Kan grubu; Forma numarası | Kesikli: Ayakkabı numarası; Kütüphanedeki ziyaretçi sayısı | Sürekli: Bebeğin kilosu",
+  "explanation": "Plaka kodu ve forma numarası sayı gibi görünse de grup/etiket bildirir (kategorik). Ayakkabı numarası ve ziyaretçi sayısı kesikli, kilo süreklidir.",
+  "textPlain": "Dikkat, bazı sayılar aslında birer etikettir! Verileri ayır. [Kartlar: İlin plaka kodu (06, 35…); Ayakkabı numarası; Kan grubu; Bebeğin kilosu; Kütüphanedeki ziyaretçi sayısı; Forma numarası — gruplar: Kategorik / Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q021",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri türleri",
+  "outcome": "Kategorik ve nicel (kesikli, sürekli) verileri ayırt edebilme; araştırma sorusu oluşturup istatistiksel araştırma sürecinin adımlarını sıralayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163",
+  "difficulty": "kolay",
+  "group": "veri",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Nicel verileri kesikli ve sürekli olarak ayır.",
+  "wagons": [
+   "Kesikli",
+   "Sürekli"
+  ],
+  "items": [
+   {
+    "label": "Sınıftaki kız öğrenci sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Bir koşucunun bitirme süresi",
+    "wagon": 1
+   },
+   {
+    "label": "Koli içindeki yumurta sayısı",
+    "wagon": 0
+   },
+   {
+    "label": "Çaydanlıktaki suyun sıcaklığı",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Kesikli: Sınıftaki kız öğrenci sayısı; Koli içindeki yumurta sayısı | Sürekli: Bir koşucunun bitirme süresi; Çaydanlıktaki suyun sıcaklığı",
+  "explanation": "Sayılanlar kesikli, ölçülenler süreklidir.",
+  "textPlain": "Nicel verileri kesikli ve sürekli olarak ayır. [Kartlar: Sınıftaki kız öğrenci sayısı; Bir koşucunun bitirme süresi; Koli içindeki yumurta sayısı; Çaydanlıktaki suyun sıcaklığı — gruplar: Kesikli / Sürekli]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q022",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "kolay",
+  "group": "orneklem",
+  "rank": 1,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Denizli'deki ortaokul öğrencilerinin kantin sırasında bekleme süreleri nasıl bir eğilim gösterir?” Kartları evren, örneklem ya da dışarıya bırak.",
+  "items": [
+   {
+    "label": "Denizli'deki tüm ortaokul öğrencileri",
+    "zone": 0
+   },
+   {
+    "label": "Denizli'deki birkaç ortaokuldan rastgele seçilen öğrenciler",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca kantine en yakın sınıfın öğrencileri",
+    "zone": 2
+   },
+   {
+    "label": "İzmir'deki ortaokul öğrencileri",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Denizli'deki tüm ortaokul öğrencileri | Örneklem: Denizli'deki birkaç ortaokuldan rastgele seçilen öğrenciler | Bu araştırmaya uygun değil: Yalnızca kantine en yakın sınıfın öğrencileri; İzmir'deki ortaokul öğrencileri",
+  "explanation": "Evren verilerin toplanabileceği en geniş gruptur; örneklem evreni temsil eden daha küçük gruptur. Kantine en yakın sınıf yanlı bir örneklemdir.",
+  "textPlain": "Araştırma sorusu: “Denizli'deki ortaokul öğrencilerinin kantin sırasında bekleme süreleri nasıl bir eğilim gösterir?” Kartları evren, örneklem ya da dışarıya bırak. [Kartlar: Denizli'deki tüm ortaokul öğrencileri; Denizli'deki birkaç ortaokuldan rastgele seçilen öğrenciler; Yalnızca kantine en yakın sınıfın öğrencileri; İzmir'deki ortaokul öğrencileri]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q023",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "kolay",
+  "group": "orneklem",
+  "rank": 1,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Türkiye'deki ortaokul öğrencilerinin günlük ekran süreleri nasıldır?”",
+  "items": [
+   {
+    "label": "Türkiye'deki tüm ortaokul öğrencileri",
+    "zone": 0
+   },
+   {
+    "label": "Farklı illerdeki okullardan rastgele seçilen 2000 ortaokul öğrencisi",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca bir bilgisayar kursuna giden öğrenciler",
+    "zone": 2
+   },
+   {
+    "label": "Lise öğrencileri",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Türkiye'deki tüm ortaokul öğrencileri | Örneklem: Farklı illerdeki okullardan rastgele seçilen 2000 ortaokul öğrencisi | Bu araştırmaya uygun değil: Yalnızca bir bilgisayar kursuna giden öğrenciler; Lise öğrencileri",
+  "explanation": "Kurs öğrencileri evreni temsil etmez; lise öğrencileri evrenin dışındadır.",
+  "textPlain": "Araştırma sorusu: “Türkiye'deki ortaokul öğrencilerinin günlük ekran süreleri nasıldır?” [Kartlar: Türkiye'deki tüm ortaokul öğrencileri; Farklı illerdeki okullardan rastgele seçilen 2000 ortaokul öğrencisi; Yalnızca bir bilgisayar kursuna giden öğrenciler; Lise öğrencileri]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q024",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 168",
+  "difficulty": "kolay",
+  "group": "orneklem",
+  "rank": 1,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Muğla'daki marketlerde glütensiz makarnanın 100 gram fiyatları nasıl değişmektedir?”",
+  "items": [
+   {
+    "label": "Muğla'da glütensiz makarna satan tüm marketler",
+    "zone": 0
+   },
+   {
+    "label": "Muğla'nın farklı ilçelerinden seçilen büyük ve küçük 20 market",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca eve en yakın market",
+    "zone": 2
+   },
+   {
+    "label": "İstanbul'daki marketler",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Muğla'da glütensiz makarna satan tüm marketler | Örneklem: Muğla'nın farklı ilçelerinden seçilen büyük ve küçük 20 market | Bu araştırmaya uygun değil: Yalnızca eve en yakın market; İstanbul'daki marketler",
+  "explanation": "Örneklem farklı büyüklük ve türde marketlerden seçilirse evreni temsil eder.",
+  "textPlain": "Araştırma sorusu: “Muğla'daki marketlerde glütensiz makarnanın 100 gram fiyatları nasıl değişmektedir?” [Kartlar: Muğla'da glütensiz makarna satan tüm marketler; Muğla'nın farklı ilçelerinden seçilen büyük ve küçük 20 market; Yalnızca eve en yakın market; İstanbul'daki marketler]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q025",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 169",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Okulumuzdaki öğrencilerin boy uzunluklarının dağılımı nasıldır?”",
+  "items": [
+   {
+    "label": "Okuldaki tüm öğrenciler",
+    "zone": 0
+   },
+   {
+    "label": "Her sınıftan rastgele seçilen 5'er öğrenci",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca basketbol takımındaki öğrenciler",
+    "zone": 2
+   },
+   {
+    "label": "Başka bir okuldaki öğrenciler",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Okuldaki tüm öğrenciler | Örneklem: Her sınıftan rastgele seçilen 5'er öğrenci | Bu araştırmaya uygun değil: Yalnızca basketbol takımındaki öğrenciler; Başka bir okuldaki öğrenciler",
+  "explanation": "Basketbol takımı uzun boylu öğrencilerden oluştuğu için yanlı bir örneklemdir.",
+  "textPlain": "Araştırma sorusu: “Okulumuzdaki öğrencilerin boy uzunluklarının dağılımı nasıldır?” [Kartlar: Okuldaki tüm öğrenciler; Her sınıftan rastgele seçilen 5'er öğrenci; Yalnızca basketbol takımındaki öğrenciler; Başka bir okuldaki öğrenciler]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q026",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 198",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Okulumuzdaki öğrencilerin egzersiz sonrası kalp atış hızlarının eğilimi nasıldır?”",
+  "items": [
+   {
+    "label": "Okuldaki tüm öğrenciler",
+    "zone": 0
+   },
+   {
+    "label": "Her sınıf düzeyinden rastgele seçilen öğrenciler",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca o gün bahçede egzersiz yapan öğrenciler",
+    "zone": 2
+   },
+   {
+    "label": "Okuldaki öğretmenler",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Okuldaki tüm öğrenciler | Örneklem: Her sınıf düzeyinden rastgele seçilen öğrenciler | Bu araştırmaya uygun değil: Yalnızca o gün bahçede egzersiz yapan öğrenciler; Okuldaki öğretmenler",
+  "explanation": "Yalnızca bahçedekiler okulun tüm öğrencilerini temsil etmeyebilir; öğretmenler evrenin dışındadır.",
+  "textPlain": "Araştırma sorusu: “Okulumuzdaki öğrencilerin egzersiz sonrası kalp atış hızlarının eğilimi nasıldır?” [Kartlar: Okuldaki tüm öğrenciler; Her sınıf düzeyinden rastgele seçilen öğrenciler; Yalnızca o gün bahçede egzersiz yapan öğrenciler; Okuldaki öğretmenler]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q027",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 190",
+  "difficulty": "zor",
+  "group": "orneklem",
+  "rank": 3,
+  "questionType": "venn_drop",
+  "text": "Fulya'nın araştırma sorusu: “Gazi Ortaokulundaki öğrencilerin en sevdiği derslerin dağılımı nasıldır?”",
+  "items": [
+   {
+    "label": "Gazi Ortaokulundaki tüm öğrenciler",
+    "zone": 0
+   },
+   {
+    "label": "Her sınıf düzeyinden rastgele seçilen öğrenciler",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca 7/A sınıfının öğrencileri",
+    "zone": 2
+   },
+   {
+    "label": "Okulun fen kulübü üyeleri",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Gazi Ortaokulundaki tüm öğrenciler | Örneklem: Her sınıf düzeyinden rastgele seçilen öğrenciler | Bu araştırmaya uygun değil: Yalnızca 7/A sınıfının öğrencileri; Okulun fen kulübü üyeleri",
+  "explanation": "Tek bir sınıf ya da fen kulübü okulun genelini temsil etmez.",
+  "textPlain": "Fulya'nın araştırma sorusu: “Gazi Ortaokulundaki öğrencilerin en sevdiği derslerin dağılımı nasıldır?” [Kartlar: Gazi Ortaokulundaki tüm öğrenciler; Her sınıf düzeyinden rastgele seçilen öğrenciler; Yalnızca 7/A sınıfının öğrencileri; Okulun fen kulübü üyeleri]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q028",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "zor",
+  "group": "orneklem",
+  "rank": 3,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Bir ilçedeki hanelerin günlük su tüketimi nasıl değişmektedir?”",
+  "items": [
+   {
+    "label": "İlçedeki tüm haneler",
+    "zone": 0
+   },
+   {
+    "label": "Her mahalleden rastgele seçilen haneler",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca havuzlu evler",
+    "zone": 2
+   },
+   {
+    "label": "Başka ilçedeki haneler",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: İlçedeki tüm haneler | Örneklem: Her mahalleden rastgele seçilen haneler | Bu araştırmaya uygun değil: Yalnızca havuzlu evler; Başka ilçedeki haneler",
+  "explanation": "Havuzlu evler çok su tükettiği için yanlı bir örneklem olur.",
+  "textPlain": "Araştırma sorusu: “Bir ilçedeki hanelerin günlük su tüketimi nasıl değişmektedir?” [Kartlar: İlçedeki tüm haneler; Her mahalleden rastgele seçilen haneler; Yalnızca havuzlu evler; Başka ilçedeki haneler]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q029",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 168",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Bir şehirdeki kitapçılarda bir romanın fiyatları nasıl değişmektedir?”",
+  "items": [
+   {
+    "label": "Şehirdeki o romanı satan tüm kitapçılar",
+    "zone": 0
+   },
+   {
+    "label": "Farklı semtlerden seçilen büyük ve küçük 15 kitapçı",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca havalimanındaki kitapçı",
+    "zone": 2
+   },
+   {
+    "label": "Başka şehirdeki kitapçılar",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Şehirdeki o romanı satan tüm kitapçılar | Örneklem: Farklı semtlerden seçilen büyük ve küçük 15 kitapçı | Bu araştırmaya uygun değil: Yalnızca havalimanındaki kitapçı; Başka şehirdeki kitapçılar",
+  "explanation": "Havalimanı gibi tek ve özel bir satış yeri evreni temsil etmez.",
+  "textPlain": "Araştırma sorusu: “Bir şehirdeki kitapçılarda bir romanın fiyatları nasıl değişmektedir?” [Kartlar: Şehirdeki o romanı satan tüm kitapçılar; Farklı semtlerden seçilen büyük ve küçük 15 kitapçı; Yalnızca havalimanındaki kitapçı; Başka şehirdeki kitapçılar]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q030",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Güvenilir kaynak",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 170",
+  "difficulty": "kolay",
+  "group": "orneklem",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Hangi bilgiler kişisel veridir? Vagonlara yükle.",
+  "wagons": [
+   "Kişisel veri",
+   "Kişisel veri değil"
+  ],
+  "items": [
+   {
+    "label": "Ev adresi",
+    "wagon": 0
+   },
+   {
+    "label": "Banka hesabındaki para",
+    "wagon": 0
+   },
+   {
+    "label": "Kimlik numarası",
+    "wagon": 0
+   },
+   {
+    "label": "Sınıfın ortalama boyu",
+    "wagon": 1
+   },
+   {
+    "label": "Türkiye'nin nüfusu",
+    "wagon": 1
+   },
+   {
+    "label": "Telefon numarası",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Kişisel veri: Ev adresi; Banka hesabındaki para; Kimlik numarası; Telefon numarası | Kişisel veri değil: Sınıfın ortalama boyu; Türkiye'nin nüfusu",
+  "explanation": "Kişinin sağlık, kimlik, banka, adres ve günlük yaşam bilgileri kişisel veridir; toplu (ortalama, toplam) bilgiler kişiyi göstermez.",
+  "textPlain": "Hangi bilgiler kişisel veridir? Vagonlara yükle. [Kartlar: Ev adresi; Banka hesabındaki para; Kimlik numarası; Sınıfın ortalama boyu; Türkiye'nin nüfusu; Telefon numarası — gruplar: Kişisel veri / Kişisel veri değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q031",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Güvenilir kaynak",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 192",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Davranışları ayır: mahremiyete uygun mu, mahremiyet ihlali mi?",
+  "wagons": [
+   "Mahremiyete uygun",
+   "Mahremiyet ihlali"
+  ],
+  "items": [
+   {
+    "label": "Ankette ad-soyad sormamak",
+    "wagon": 0
+   },
+   {
+    "label": "Arkadaşın sınav notunu grupta paylaşmak",
+    "wagon": 1
+   },
+   {
+    "label": "Toplanan verileri izinsiz paylaşmak",
+    "wagon": 1
+   },
+   {
+    "label": "Katılımı gönüllü tutmak",
+    "wagon": 0
+   },
+   {
+    "label": "Güçlü şifre kullanmak",
+    "wagon": 0
+   },
+   {
+    "label": "Arkadaşının fotoğrafını izinsiz paylaşmak",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Mahremiyete uygun: Ankette ad-soyad sormamak; Katılımı gönüllü tutmak; Güçlü şifre kullanmak | Mahremiyet ihlali: Arkadaşın sınav notunu grupta paylaşmak; Toplanan verileri izinsiz paylaşmak; Arkadaşının fotoğrafını izinsiz paylaşmak",
+  "explanation": "Kişisel bilgiler izin olmadan paylaşılmaz; anketlerde gönüllülük ve gizlilik esastır.",
+  "textPlain": "Davranışları ayır: mahremiyete uygun mu, mahremiyet ihlali mi? [Kartlar: Ankette ad-soyad sormamak; Arkadaşın sınav notunu grupta paylaşmak; Toplanan verileri izinsiz paylaşmak; Katılımı gönüllü tutmak; Güçlü şifre kullanmak; Arkadaşının fotoğrafını izinsiz paylaşmak — gruplar: Mahremiyete uygun / Mahremiyet ihlali]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q032",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Güvenilir kaynak",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 169",
+  "difficulty": "kolay",
+  "group": "orneklem",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Hazır veriye ulaşmak için kaynakları ayır.",
+  "wagons": [
+   "Güvenilir",
+   "Güvenilmez"
+  ],
+  "items": [
+   {
+    "label": "Meteoroloji Genel Müdürlüğü (gov.tr)",
+    "wagon": 0
+   },
+   {
+    "label": "Üniversite sitesi (edu.tr)",
+    "wagon": 0
+   },
+   {
+    "label": "Kaynağı belirtilmemiş sosyal medya haberi",
+    "wagon": 1
+   },
+   {
+    "label": "Türkiye İstatistik Kurumu",
+    "wagon": 0
+   },
+   {
+    "label": "İsimsiz forum yorumu",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Güvenilir: Meteoroloji Genel Müdürlüğü (gov.tr); Üniversite sitesi (edu.tr); Türkiye İstatistik Kurumu | Güvenilmez: Kaynağı belirtilmemiş sosyal medya haberi; İsimsiz forum yorumu",
+  "explanation": "Resmî kurumlar (gov.tr), üniversiteler (edu.tr) ve tanınmış kuruluşlar (org.tr) güvenilir kaynaktır.",
+  "textPlain": "Hazır veriye ulaşmak için kaynakları ayır. [Kartlar: Meteoroloji Genel Müdürlüğü (gov.tr); Üniversite sitesi (edu.tr); Kaynağı belirtilmemiş sosyal medya haberi; Türkiye İstatistik Kurumu; İsimsiz forum yorumu — gruplar: Güvenilir / Güvenilmez]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q033",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "zor",
+  "group": "orneklem",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Örneklemler evreni temsil ediyor mu?",
+  "wagons": [
+   "Temsil eder",
+   "Temsil etmez (yanlı)"
+  ],
+  "items": [
+   {
+    "label": "Okulun kantin süresi için kantine en yakın sınıf",
+    "wagon": 1
+   },
+   {
+    "label": "Okulun kantin süresi için her sınıftan rastgele öğrenciler",
+    "wagon": 0
+   },
+   {
+    "label": "Şehirdeki fiyatlar için yalnızca tek bir lüks market",
+    "wagon": 1
+   },
+   {
+    "label": "Şehirdeki fiyatlar için farklı ilçelerden farklı büyüklükte marketler",
+    "wagon": 0
+   },
+   {
+    "label": "Öğrencilerin uyku süresi için yalnızca yatılı öğrenciler",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Temsil eder: Okulun kantin süresi için her sınıftan rastgele öğrenciler; Şehirdeki fiyatlar için farklı ilçelerden farklı büyüklükte marketler | Temsil etmez (yanlı): Okulun kantin süresi için kantine en yakın sınıf; Şehirdeki fiyatlar için yalnızca tek bir lüks market; Öğrencilerin uyku süresi için yalnızca yatılı öğrenciler",
+  "explanation": "Örneklem evrenin özelliklerini taşımalıdır; tek tip ya da özel gruplar yanlı sonuç verir.",
+  "textPlain": "Örneklemler evreni temsil ediyor mu? [Kartlar: Okulun kantin süresi için kantine en yakın sınıf; Okulun kantin süresi için her sınıftan rastgele öğrenciler; Şehirdeki fiyatlar için yalnızca tek bir lüks market; Şehirdeki fiyatlar için farklı ilçelerden farklı büyüklükte marketler; Öğrencilerin uyku süresi için yalnızca yatılı öğrenciler — gruplar: Temsil eder / Temsil etmez (yanlı)]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q034",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Değişebilirlik",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 168",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Ölçümlerdeki farkın nedeni nedir?",
+  "wagons": [
+   "Kişiden kişiye değişir",
+   "Ölçme aracından kaynaklanır"
+  ],
+  "items": [
+   {
+    "label": "Hasta Alya 40,1 °C, sağlıklı Elif 36,3 °C",
+    "wagon": 0
+   },
+   {
+    "label": "Aras'ın ateşi A termometresiyle 38,7, B ile 39,0 °C",
+    "wagon": 1
+   },
+   {
+    "label": "Öğretmenin cihazı ile bilek cihazı farklı kalp atışı gösterdi",
+    "wagon": 1
+   },
+   {
+    "label": "Farklı yaştaki çocukların kalp atışları farklı",
+    "wagon": 0
+   },
+   {
+    "label": "Aynı bebek iki farklı tartıda farklı kilo çıktı",
+    "wagon": 1
+   },
+   {
+    "label": "Aynı sınıftaki öğrencilerin boyları farklı",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Kişiden kişiye değişir: Hasta Alya 40,1 °C, sağlıklı Elif 36,3 °C; Farklı yaştaki çocukların kalp atışları farklı; Aynı sınıftaki öğrencilerin boyları farklı | Ölçme aracından kaynaklanır: Aras'ın ateşi A termometresiyle 38,7, B ile 39,0 °C; Öğretmenin cihazı ile bilek cihazı farklı kalp atışı gösterdi; Aynı bebek iki farklı tartıda farklı kilo çıktı",
+  "explanation": "Değişebilirlik bireylerin özelliklerinden ya da ölçme aracından kaynaklanabilir.",
+  "textPlain": "Ölçümlerdeki farkın nedeni nedir? [Kartlar: Hasta Alya 40,1 °C, sağlıklı Elif 36,3 °C; Aras'ın ateşi A termometresiyle 38,7, B ile 39,0 °C; Öğretmenin cihazı ile bilek cihazı farklı kalp atışı gösterdi; Farklı yaştaki çocukların kalp atışları farklı; Aynı bebek iki farklı tartıda farklı kilo çıktı; Aynı sınıftaki öğrencilerin boyları farklı — gruplar: Kişiden kişiye değişir / Ölçme aracından kaynaklanır]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q035",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri toplama ve kişisel veriler",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 170",
+  "difficulty": "zor",
+  "group": "orneklem",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Hangi anket soruları uygun? (Kişisel veri sormamalı, yönlendirmemeli.)",
+  "wagons": [
+   "Uygun",
+   "Uygun değil"
+  ],
+  "items": [
+   {
+    "label": "Günde kaç saat uyursun?",
+    "wagon": 0
+   },
+   {
+    "label": "Ev adresin nedir?",
+    "wagon": 1
+   },
+   {
+    "label": "Ailenin geliri ne kadar?",
+    "wagon": 1
+   },
+   {
+    "label": "Haftada kaç kitap okursun?",
+    "wagon": 0
+   },
+   {
+    "label": "Sence de ödevler çok fazla değil mi?",
+    "wagon": 1
+   },
+   {
+    "label": "Okula hangi araçla gelirsin?",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Uygun: Günde kaç saat uyursun?; Haftada kaç kitap okursun?; Okula hangi araçla gelirsin? | Uygun değil: Ev adresin nedir?; Ailenin geliri ne kadar?; Sence de ödevler çok fazla değil mi?",
+  "explanation": "Anket soruları kişisel/mahrem bilgileri istememeli ve cevabı yönlendirmemelidir.",
+  "textPlain": "Hangi anket soruları uygun? (Kişisel veri sormamalı, yönlendirmemeli.) [Kartlar: Günde kaç saat uyursun?; Ev adresin nedir?; Ailenin geliri ne kadar?; Haftada kaç kitap okursun?; Sence de ödevler çok fazla değil mi?; Okula hangi araçla gelirsin? — gruplar: Uygun / Uygun değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q036",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri toplama ve kişisel veriler",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 167",
+  "difficulty": "kolay",
+  "group": "orneklem",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Veriler hazır mı alınır, yoksa araştırmacı kendisi mi toplar?",
+  "wagons": [
+   "Hazır veri",
+   "Kendi topladığım veri"
+  ],
+  "items": [
+   {
+    "label": "TÜİK'in yaş gruplarına göre nüfus verisi",
+    "wagon": 0
+   },
+   {
+    "label": "Sınıfımızda yaptığım en sevilen ders anketi",
+    "wagon": 1
+   },
+   {
+    "label": "Meteorolojinin yıllık yağış verisi",
+    "wagon": 0
+   },
+   {
+    "label": "Arkadaşlarımın boylarını ölçmem",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Hazır veri: TÜİK'in yaş gruplarına göre nüfus verisi; Meteorolojinin yıllık yağış verisi | Kendi topladığım veri: Sınıfımızda yaptığım en sevilen ders anketi; Arkadaşlarımın boylarını ölçmem",
+  "explanation": "Resmî kurumların yayımladığı veriler hazır veridir; anket ve ölçümle elde edilenler araştırmacının topladığı verilerdir.",
+  "textPlain": "Veriler hazır mı alınır, yoksa araştırmacı kendisi mi toplar? [Kartlar: TÜİK'in yaş gruplarına göre nüfus verisi; Sınıfımızda yaptığım en sevilen ders anketi; Meteorolojinin yıllık yağış verisi; Arkadaşlarımın boylarını ölçmem — gruplar: Hazır veri / Kendi topladığım veri]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q037",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri toplama ve kişisel veriler",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 169",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "step_rail",
+  "text": "Veri toplama planının adımlarını sırala.",
+  "steps": [
+   "Toplanacak verinin araştırma sorusuna uygun olup olmadığını kontrol et.",
+   "Evreni ve örneklemi belirle.",
+   "Verilerin nerede, ne zaman ve nasıl toplanacağını planla.",
+   "Verileri topla ve kaydet."
+  ],
+  "correctAnswer": "1) Toplanacak verinin araştırma sorusuna uygun olup olmadığını kontrol et. → 2) Evreni ve örneklemi belirle. → 3) Verilerin nerede, ne zaman ve nasıl toplanacağını planla. → 4) Verileri topla ve kaydet.",
+  "explanation": "Önce verinin amaca uygunluğu, sonra evren-örneklem, sonra yer-zaman-yöntem planlanır; en son veri toplanır.",
+  "textPlain": "Veri toplama planının adımlarını sırala. [Kartlar: Toplanacak verinin araştırma sorusuna uygun olup olmadığını kontrol et.; Evreni ve örneklemi belirle.; Verilerin nerede, ne zaman ve nasıl toplanacağını planla.; Verileri topla ve kaydet.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q038",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Güvenilir kaynak",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 193",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Ege bir oyun indirirken izin metnini okumadan onayladı. Önerileri ayır.",
+  "wagons": [
+   "Doğru davranış",
+   "Yanlış davranış"
+  ],
+  "items": [
+   {
+    "label": "İzin metnini okuyup gereksiz izinleri vermemek",
+    "wagon": 0
+   },
+   {
+    "label": "Tüm izinleri körü körüne kabul etmek",
+    "wagon": 1
+   },
+   {
+    "label": "Kişisel bilgileri yalnızca gerektiği kadar paylaşmak",
+    "wagon": 0
+   },
+   {
+    "label": "Şifresini arkadaşlarıyla paylaşmak",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Doğru davranış: İzin metnini okuyup gereksiz izinleri vermemek; Kişisel bilgileri yalnızca gerektiği kadar paylaşmak | Yanlış davranış: Tüm izinleri körü körüne kabul etmek; Şifresini arkadaşlarıyla paylaşmak",
+  "explanation": "Kişisel verilerin korunması için izin metinleri okunmalı, bilgi ve şifreler paylaşılmamalıdır.",
+  "textPlain": "Ege bir oyun indirirken izin metnini okumadan onayladı. Önerileri ayır. [Kartlar: İzin metnini okuyup gereksiz izinleri vermemek; Tüm izinleri körü körüne kabul etmek; Kişisel bilgileri yalnızca gerektiği kadar paylaşmak; Şifresini arkadaşlarıyla paylaşmak — gruplar: Doğru davranış / Yanlış davranış]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q039",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Evren ve örneklem",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 197",
+  "difficulty": "zor",
+  "group": "orneklem",
+  "rank": 3,
+  "questionType": "venn_drop",
+  "text": "Araştırma sorusu: “Türkiye'deki karayolu tünellerinin uzunlukları bölgelere göre nasıl dağılmaktadır?”",
+  "items": [
+   {
+    "label": "Türkiye'deki tüm karayolu tünelleri",
+    "zone": 0
+   },
+   {
+    "label": "Her bölgeden seçilen karayolu tünelleri",
+    "zone": 1
+   },
+   {
+    "label": "Yalnızca İstanbul'daki tüneller",
+    "zone": 2
+   },
+   {
+    "label": "Demir yolu köprüleri",
+    "zone": 2
+   }
+  ],
+  "correctAnswer": "Evren: Türkiye'deki tüm karayolu tünelleri | Örneklem: Her bölgeden seçilen karayolu tünelleri | Bu araştırmaya uygun değil: Yalnızca İstanbul'daki tüneller; Demir yolu köprüleri",
+  "explanation": "Tek bir ilin tünelleri bölgelere göre dağılımı temsil etmez; köprüler araştırmanın konusu değildir.",
+  "textPlain": "Araştırma sorusu: “Türkiye'deki karayolu tünellerinin uzunlukları bölgelere göre nasıl dağılmaktadır?” [Kartlar: Türkiye'deki tüm karayolu tünelleri; Her bölgeden seçilen karayolu tünelleri; Yalnızca İstanbul'daki tüneller; Demir yolu köprüleri]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q040",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Güvenilir kaynak",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 192",
+  "difficulty": "orta",
+  "group": "orneklem",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Herkese açık sosyal medya hesabında neler paylaşılabilir?",
+  "wagons": [
+   "Paylaşılabilir",
+   "Paylaşılmamalı"
+  ],
+  "items": [
+   {
+    "label": "Okuduğun bir kitabın önerisi",
+    "wagon": 0
+   },
+   {
+    "label": "Doğum tarihin ve okulunun adı",
+    "wagon": 1
+   },
+   {
+    "label": "İçinde kimsenin görünmediği bir müze fotoğrafı",
+    "wagon": 0
+   },
+   {
+    "label": "Ev adresin",
+    "wagon": 1
+   },
+   {
+    "label": "Arkadaşının izinsiz fotoğrafı",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Paylaşılabilir: Okuduğun bir kitabın önerisi; İçinde kimsenin görünmediği bir müze fotoğrafı | Paylaşılmamalı: Doğum tarihin ve okulunun adı; Ev adresin; Arkadaşının izinsiz fotoğrafı",
+  "explanation": "Kişiyi tanımlayan bilgiler ve başkalarının izinsiz görüntüleri paylaşılmaz.",
+  "textPlain": "Herkese açık sosyal medya hesabında neler paylaşılabilir? [Kartlar: Okuduğun bir kitabın önerisi; Doğum tarihin ve okulunun adı; İçinde kimsenin görünmediği bir müze fotoğrafı; Ev adresin; Arkadaşının izinsiz fotoğrafı — gruplar: Paylaşılabilir / Paylaşılmamalı]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q041",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri toplama ve kişisel veriler",
+  "outcome": "Araştırmanın evrenini ve örneklemini belirleyebilme; veri toplarken kişisel verilerin gizliliğine ve kaynakların güvenilirliğine dikkat edebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 196",
+  "difficulty": "zor",
+  "group": "orneklem",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Veri toplarken ortaya çıkan durumları ayır.",
+  "wagons": [
+   "Etik ve uygun",
+   "Etik sorun"
+  ],
+  "items": [
+   {
+    "label": "Katılımcıya anketin amacını açıklamak",
+    "wagon": 0
+   },
+   {
+    "label": "Cevap vermek istemeyeni zorlamak",
+    "wagon": 1
+   },
+   {
+    "label": "Verileri yalnızca araştırma için kullanmak",
+    "wagon": 0
+   },
+   {
+    "label": "İsimleri verilerle birlikte yayımlamak",
+    "wagon": 1
+   },
+   {
+    "label": "Katılımcının istediği zaman ayrılabilmesi",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Etik ve uygun: Katılımcıya anketin amacını açıklamak; Verileri yalnızca araştırma için kullanmak; Katılımcının istediği zaman ayrılabilmesi | Etik sorun: Cevap vermek istemeyeni zorlamak; İsimleri verilerle birlikte yayımlamak",
+  "explanation": "Gönüllülük, gizlilik ve amacın açıklanması veri toplamanın etik kurallarıdır.",
+  "textPlain": "Veri toplarken ortaya çıkan durumları ayır. [Kartlar: Katılımcıya anketin amacını açıklamak; Cevap vermek istemeyeni zorlamak; Verileri yalnızca araştırma için kullanmak; İsimleri verilerle birlikte yayımlamak; Katılımcının istediği zaman ayrılabilmesi — gruplar: Etik ve uygun / Etik sorun]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q042",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "line_points",
+  "text": "Kumlu toprakta yetişen bitkinin boyunu çizgi grafiğine işle: noktaları tutup yukarı-aşağı sürükle.",
+  "labels": [
+   "1. hf",
+   "2. hf",
+   "3. hf",
+   "4. hf"
+  ],
+  "values": [
+   0.8,
+   1.5,
+   2.0,
+   2.3
+  ],
+  "yMin": 0,
+  "yMax": 3,
+  "yStep": 0.1,
+  "given": [],
+  "valueUnit": "cm",
+  "yTitle": "Boy (cm)",
+  "explanation": "Her nokta haftaya karşılık gelen boy değerine konur ve noktalar çizgiyle birleştirilir.",
+  "correctAnswer": "Noktalar: 1. hf: 0,8, 2. hf: 1,5, 3. hf: 2, 4. hf: 2,3",
+  "textPlain": "Kumlu toprakta yetişen bitkinin boyunu çizgi grafiğine işle: noktaları tutup yukarı-aşağı sürükle. [Grafik ekseni: 1. hf, 2. hf, 3. hf, 4. hf; verilen noktalar: ]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q043",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 185 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "line_points",
+  "text": "Mehtap'ın saatlik vücut sıcaklığını çizgi grafiğine işle: 39,2 · 39,4 · 38,7 · 38,1 · 37,5 (°C).",
+  "labels": [
+   "11.00",
+   "12.00",
+   "13.00",
+   "14.00",
+   "15.00"
+  ],
+  "values": [
+   39.2,
+   39.4,
+   38.7,
+   38.1,
+   37.5
+  ],
+  "yMin": 37,
+  "yMax": 40,
+  "yStep": 0.1,
+  "given": [],
+  "valueUnit": "°C",
+  "yTitle": "Sıcaklık (°C)",
+  "explanation": "Değerler saat sırasına göre işaretlenir.",
+  "correctAnswer": "Noktalar: 11.00: 39,2, 12.00: 39,4, 13.00: 38,7, 14.00: 38,1, 15.00: 37,5",
+  "textPlain": "Mehtap'ın saatlik vücut sıcaklığını çizgi grafiğine işle: 39,2 · 39,4 · 38,7 · 38,1 · 37,5 (°C). [Grafik ekseni: 11.00, 12.00, 13.00, 14.00, 15.00; verilen noktalar: ]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q044",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 172 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "line_points",
+  "text": "Bir fidanın boyu haftalara göre 4, 6, 9, 11, 14 cm. Grafiği tamamla.",
+  "labels": [
+   "1. hf",
+   "2. hf",
+   "3. hf",
+   "4. hf",
+   "5. hf"
+  ],
+  "values": [
+   4,
+   6,
+   9,
+   11,
+   14
+  ],
+  "yMin": 0,
+  "yMax": 16,
+  "yStep": 1,
+  "given": [
+   0
+  ],
+  "valueUnit": "cm",
+  "yTitle": "Boy (cm)",
+  "explanation": "Her haftanın değeri dikey eksende işaretlenir.",
+  "correctAnswer": "Noktalar: 1. hf: 4, 2. hf: 6, 3. hf: 9, 4. hf: 11, 5. hf: 14",
+  "textPlain": "Bir fidanın boyu haftalara göre 4, 6, 9, 11, 14 cm. Grafiği tamamla. [Grafik ekseni: 1. hf, 2. hf, 3. hf, 4. hf, 5. hf; verilen noktalar: 1. hf: 4]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q045",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 179 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "line_points",
+  "text": "Esra Bayrak'ın uzun atlama mesafeleri: 2017: 5,17 · 2018: 5,27 · 2019: 5,38 · 2020: 5,37 · 2021: 5,36 m. Grafiği çiz.",
+  "labels": [
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021"
+  ],
+  "values": [
+   5.17,
+   5.27,
+   5.38,
+   5.37,
+   5.36
+  ],
+  "yMin": 5.1,
+  "yMax": 5.4,
+  "yStep": 0.01,
+  "given": [],
+  "valueUnit": "m",
+  "yTitle": "Mesafe (m)",
+  "explanation": "Değerler yıllara göre işaretlenir; dikey eksen 5,10'dan başlar.",
+  "correctAnswer": "Noktalar: 2017: 5,17, 2018: 5,27, 2019: 5,38, 2020: 5,37, 2021: 5,36",
+  "textPlain": "Esra Bayrak'ın uzun atlama mesafeleri: 2017: 5,17 · 2018: 5,27 · 2019: 5,38 · 2020: 5,37 · 2021: 5,36 m. Grafiği çiz. [Grafik ekseni: 2017, 2018, 2019, 2020, 2021; verilen noktalar: ]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q046",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 188 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "line_points",
+  "text": "Enes'in 10 dakikada koştuğu mesafeler (km): Pzt 2,5 · Salı 2,8 · Çrş 3,5 · Prş 3,2 · Cuma 2,6 · Cmt 3,2 · Paz 2,9. Grafiği tamamla.",
+  "labels": [
+   "Pzt",
+   "Salı",
+   "Çrş",
+   "Prş",
+   "Cuma",
+   "Cmt",
+   "Paz"
+  ],
+  "values": [
+   2.5,
+   2.8,
+   3.5,
+   3.2,
+   2.6,
+   3.2,
+   2.9
+  ],
+  "yMin": 2,
+  "yMax": 4,
+  "yStep": 0.1,
+  "given": [
+   0,
+   1
+  ],
+  "valueUnit": "km",
+  "yTitle": "Mesafe (km)",
+  "explanation": "Her günün mesafesi işaretlenir.",
+  "correctAnswer": "Noktalar: Pzt: 2,5, Salı: 2,8, Çrş: 3,5, Prş: 3,2, Cuma: 2,6, Cmt: 3,2, Paz: 2,9",
+  "textPlain": "Enes'in 10 dakikada koştuğu mesafeler (km): Pzt 2,5 · Salı 2,8 · Çrş 3,5 · Prş 3,2 · Cuma 2,6 · Cmt 3,2 · Paz 2,9. Grafiği tamamla. [Grafik ekseni: Pzt, Salı, Çrş, Prş, Cuma, Cmt, Paz; verilen noktalar: Pzt: 2,5, Salı: 2,8]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q047",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 172 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "line_points",
+  "text": "Bir şehrin haftalık ortalama sıcaklıkları: −2, 0, 3, 1, 5 °C. Grafiği çiz.",
+  "labels": [
+   "1. hf",
+   "2. hf",
+   "3. hf",
+   "4. hf",
+   "5. hf"
+  ],
+  "values": [
+   -2,
+   0,
+   3,
+   1,
+   5
+  ],
+  "yMin": -4,
+  "yMax": 6,
+  "yStep": 1,
+  "given": [],
+  "valueUnit": "°C",
+  "yTitle": "Sıcaklık (°C)",
+  "explanation": "Negatif değerler sıfırın altında işaretlenir.",
+  "correctAnswer": "Noktalar: 1. hf: −2, 2. hf: 0, 3. hf: 3, 4. hf: 1, 5. hf: 5",
+  "textPlain": "Bir şehrin haftalık ortalama sıcaklıkları: −2, 0, 3, 1, 5 °C. Grafiği çiz. [Grafik ekseni: 1. hf, 2. hf, 3. hf, 4. hf, 5. hf; verilen noktalar: ]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q048",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 180 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "grafik",
+  "rank": 3,
+  "questionType": "line_points",
+  "text": "Selma'nın 5 maçta aldığı sayılar: 18, 5, 32, 17, 13. Grafiği çiz.",
+  "labels": [
+   "1. maç",
+   "2. maç",
+   "3. maç",
+   "4. maç",
+   "5. maç"
+  ],
+  "values": [
+   18,
+   5,
+   32,
+   17,
+   13
+  ],
+  "yMin": 0,
+  "yMax": 35,
+  "yStep": 1,
+  "given": [],
+  "valueUnit": "sayı",
+  "yTitle": "Sayı",
+  "explanation": "Noktalar maç sırasına göre işaretlenir; inişli çıkışlı (dalgalı) bir çizgi oluşur.",
+  "correctAnswer": "Noktalar: 1. maç: 18, 2. maç: 5, 3. maç: 32, 4. maç: 17, 5. maç: 13",
+  "textPlain": "Selma'nın 5 maçta aldığı sayılar: 18, 5, 32, 17, 13. Grafiği çiz. [Grafik ekseni: 1. maç, 2. maç, 3. maç, 4. maç, 5. maç; verilen noktalar: ]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q049",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 185 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "graph_scrub",
+  "text": "Grafikteki imleci parmağınla kaydır: ateşin EN YÜKSEK olduğu saati seç.",
+  "labels": [
+   "11.00",
+   "12.00",
+   "13.00",
+   "14.00",
+   "15.00"
+  ],
+  "series": [
+   {
+    "name": "Sıcaklık",
+    "values": [
+     39.2,
+     39.4,
+     38.7,
+     38.1,
+     37.5
+    ]
+   }
+  ],
+  "mode": "point",
+  "answerIndex": 1,
+  "yTitle": "°C",
+  "correctAnswer": "12.00",
+  "explanation": "En yüksek değer 12.00'deki 39,4 °C'tur.",
+  "textPlain": "Grafikteki imleci parmağınla kaydır: ateşin EN YÜKSEK olduğu saati seç. [Çizgi grafiği: Sıcaklık 11.00: 39,2, 12.00: 39,4, 13.00: 38,7, 14.00: 38,1, 15.00: 37,5]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q050",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "graph_scrub",
+  "text": "Humuslu topraktaki bitkinin boyu (cm). İmleci kaydır: bitkinin EN HIZLI büyüdüğü haftalar arasını seç.",
+  "labels": [
+   "1. hf",
+   "2. hf",
+   "3. hf",
+   "4. hf"
+  ],
+  "series": [
+   {
+    "name": "Boy",
+    "values": [
+     2.0,
+     5.5,
+     8.7,
+     10.0
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 0,
+  "yTitle": "cm",
+  "correctAnswer": "1. hf – 2. hf",
+  "explanation": "Artışlar: 3,5 · 3,2 · 1,3 cm; en hızlı büyüme 1. ve 2. haftalar arasındadır.",
+  "textPlain": "Humuslu topraktaki bitkinin boyu (cm). İmleci kaydır: bitkinin EN HIZLI büyüdüğü haftalar arasını seç. [Çizgi grafiği: Boy 1. hf: 2, 2. hf: 5,5, 3. hf: 8,7, 4. hf: 10]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q051",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 185 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "graph_scrub",
+  "text": "Ateş normal aralığın üst sınırına (37,5 °C) ilk hangi saatte indi? İmleci o noktaya getir.",
+  "labels": [
+   "11.00",
+   "12.00",
+   "13.00",
+   "14.00",
+   "15.00"
+  ],
+  "series": [
+   {
+    "name": "Sıcaklık",
+    "values": [
+     39.2,
+     39.4,
+     38.7,
+     38.1,
+     37.5
+    ]
+   }
+  ],
+  "mode": "point",
+  "answerIndex": 4,
+  "yTitle": "°C",
+  "correctAnswer": "15.00",
+  "explanation": "15.00'te 37,5 °C'a inmiştir.",
+  "textPlain": "Ateş normal aralığın üst sınırına (37,5 °C) ilk hangi saatte indi? İmleci o noktaya getir. [Çizgi grafiği: Sıcaklık 11.00: 39,2, 12.00: 39,4, 13.00: 38,7, 14.00: 38,1, 15.00: 37,5]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q052",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "graph_scrub",
+  "text": "Türkiye'deki geri kazanım oranları (%). EN FAZLA artışın olduğu yıllar arasını seç.",
+  "labels": [
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "series": [
+   {
+    "name": "Geri kazanım",
+    "values": [
+     27.2,
+     30.13,
+     34.92,
+     36.08
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 1,
+  "yTitle": "%",
+  "correctAnswer": "2022 – 2023",
+  "explanation": "Artışlar: 2,93 · 4,79 · 1,16; en fazla artış 2022-2023 arasındadır.",
+  "textPlain": "Türkiye'deki geri kazanım oranları (%). EN FAZLA artışın olduğu yıllar arasını seç. [Çizgi grafiği: Geri kazanım 2021: 27,2, 2022: 30,13, 2023: 34,92, 2024: 36,08]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q053",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 173 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "graph_scrub",
+  "text": "Melek Hanım'ın haftalık kilosu (kg). En fazla kilo verdiği iki hafta arasını seç.",
+  "labels": [
+   "Baş.",
+   "1.",
+   "2.",
+   "3.",
+   "4.",
+   "5.",
+   "6.",
+   "7.",
+   "8.",
+   "9.",
+   "10."
+  ],
+  "series": [
+   {
+    "name": "Kilo",
+    "values": [
+     101.5,
+     99.1,
+     94.55,
+     92.25,
+     90.7,
+     89.25,
+     88.4,
+     86.02,
+     84.05,
+     82.95,
+     79.5
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 1,
+  "yTitle": "kg",
+  "correctAnswer": "1. – 2.",
+  "explanation": "En büyük düşüş 1. ve 2. hafta arasındadır: 99,10 − 94,55 = 4,55 kg.",
+  "textPlain": "Melek Hanım'ın haftalık kilosu (kg). En fazla kilo verdiği iki hafta arasını seç. [Çizgi grafiği: Kilo Baş.: 101,5, 1.: 99,1, 2.: 94,55, 3.: 92,25, 4.: 90,7, 5.: 89,25, 6.: 88,4, 7.: 86,02, 8.: 84,05, 9.: 82,95, 10.: 79,5]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q054",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 179 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "graph_scrub",
+  "text": "Esra Bayrak'ın atlayış mesafeleri (m). Mesafenin AZALMAYA başladığı yıllar arasını seç.",
+  "labels": [
+   "2017",
+   "2018",
+   "2019",
+   "2020",
+   "2021"
+  ],
+  "series": [
+   {
+    "name": "Mesafe",
+    "values": [
+     5.17,
+     5.27,
+     5.38,
+     5.37,
+     5.36
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 2,
+  "yTitle": "m",
+  "correctAnswer": "2019 – 2020",
+  "explanation": "2019'da 5,38 iken 2020'de 5,37'ye düşmüştür.",
+  "textPlain": "Esra Bayrak'ın atlayış mesafeleri (m). Mesafenin AZALMAYA başladığı yıllar arasını seç. [Çizgi grafiği: Mesafe 2017: 5,17, 2018: 5,27, 2019: 5,38, 2020: 5,37, 2021: 5,36]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q055",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 171 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "grafik",
+  "rank": 3,
+  "questionType": "graph_scrub",
+  "text": "Gram altının alış fiyatı (TL). İki ardışık ölçüm arasındaki EN BÜYÜK artışı seç.",
+  "labels": [
+   "27.10",
+   "28.10",
+   "30.10",
+   "31.10",
+   "03.11",
+   "04.11",
+   "05.11",
+   "06.11",
+   "07.11",
+   "10.11",
+   "11.11"
+  ],
+  "series": [
+   {
+    "name": "Fiyat",
+    "values": [
+     5421.88,
+     5257.73,
+     5390.82,
+     5447.94,
+     5417.62,
+     5404.93,
+     5369.58,
+     5439.78,
+     5431.2,
+     5524.37,
+     5624.27
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 1,
+  "yTitle": "TL",
+  "correctAnswer": "28.10 – 30.10",
+  "explanation": "28.10'dan 30.10'a artış 133,09 TL ile en büyüktür (10.11-11.11 arası 99,90 TL).",
+  "textPlain": "Gram altının alış fiyatı (TL). İki ardışık ölçüm arasındaki EN BÜYÜK artışı seç. [Çizgi grafiği: Fiyat 27.10: 5421,88, 28.10: 5257,73, 30.10: 5390,82, 31.10: 5447,94, 03.11: 5417,62, 04.11: 5404,93, 05.11: 5369,58, 06.11: 5439,78, 07.11: 5431,2, 10.11: 5524,37, 11.11: 5624,27]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q056",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 175 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "grafik",
+  "rank": 3,
+  "questionType": "graph_scrub",
+  "text": "Ortalama kar örtülü gün sayısı. EN BÜYÜK azalmanın olduğu dönemler arasını seç.",
+  "labels": [
+   "1970-80",
+   "1981-91",
+   "1992-02",
+   "2003-13",
+   "2014-24"
+  ],
+  "series": [
+   {
+    "name": "Gün",
+    "values": [
+     30.0,
+     29.6,
+     30.0,
+     27.1,
+     22.4
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 3,
+  "yTitle": "gün",
+  "correctAnswer": "2003-13 – 2014-24",
+  "explanation": "Son iki dönem arasında 27,1 − 22,4 = 4,7 günlük azalma en büyüktür.",
+  "textPlain": "Ortalama kar örtülü gün sayısı. EN BÜYÜK azalmanın olduğu dönemler arasını seç. [Çizgi grafiği: Gün 1970-80: 30, 1981-91: 29,6, 1992-02: 30, 2003-13: 27,1, 2014-24: 22,4]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q057",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 177 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "grafik",
+  "rank": 3,
+  "questionType": "graph_scrub",
+  "text": "Erkek bebeklerin baş çevresi P50 değerleri (cm). İki ölçüm arasındaki EN BÜYÜK artışı seç.",
+  "labels": [
+   "Doğum",
+   "1 ay",
+   "2 ay",
+   "3 ay",
+   "6 ay",
+   "9 ay",
+   "12 ay"
+  ],
+  "series": [
+   {
+    "name": "P50",
+    "values": [
+     34.9,
+     37.8,
+     39.5,
+     41.1,
+     43.6,
+     45.8,
+     47.0
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 0,
+  "yTitle": "cm",
+  "correctAnswer": "Doğum – 1 ay",
+  "explanation": "Doğumdan 1. aya 2,9 cm artış en büyüktür.",
+  "textPlain": "Erkek bebeklerin baş çevresi P50 değerleri (cm). İki ölçüm arasındaki EN BÜYÜK artışı seç. [Çizgi grafiği: P50 Doğum: 34,9, 1 ay: 37,8, 2 ay: 39,5, 3 ay: 41,1, 6 ay: 43,6, 9 ay: 45,8, 12 ay: 47]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q058",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri görselleştirme",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 172",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Hangi veriler çizgi grafiğiyle gösterilmeye uygundur?",
+  "wagons": [
+   "Çizgi grafiği uygun",
+   "Uygun değil"
+  ],
+  "items": [
+   {
+    "label": "Altın fiyatının günlere göre değişimi",
+    "wagon": 0
+   },
+   {
+    "label": "Sınıftaki en sevilen meyveler",
+    "wagon": 1
+   },
+   {
+    "label": "Bebeğin aylara göre baş çevresi",
+    "wagon": 0
+   },
+   {
+    "label": "Ailelerin evcil hayvan türleri",
+    "wagon": 1
+   },
+   {
+    "label": "Bir şehrin yıllara göre nüfusu",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Çizgi grafiği uygun: Altın fiyatının günlere göre değişimi; Bebeğin aylara göre baş çevresi; Bir şehrin yıllara göre nüfusu | Uygun değil: Sınıftaki en sevilen meyveler; Ailelerin evcil hayvan türleri",
+  "explanation": "Çizgi grafiği nicel (sürekli) bir değişkenin zamana bağlı değişimini gösterir; kategorik veriler için uygun değildir.",
+  "textPlain": "Hangi veriler çizgi grafiğiyle gösterilmeye uygundur? [Kartlar: Altın fiyatının günlere göre değişimi; Sınıftaki en sevilen meyveler; Bebeğin aylara göre baş çevresi; Ailelerin evcil hayvan türleri; Bir şehrin yıllara göre nüfusu — gruplar: Çizgi grafiği uygun / Uygun değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q059",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri görselleştirme",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 172",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Her veri için en uygun grafiği seç.",
+  "wagons": [
+   "Çizgi",
+   "Sütun",
+   "Daire"
+  ],
+  "items": [
+   {
+    "label": "Ateşin saatlere göre değişimi",
+    "wagon": 0
+   },
+   {
+    "label": "Öğrencilerin en sevdiği derslerin yüzdeleri",
+    "wagon": 2
+   },
+   {
+    "label": "Beş ilin nüfusunun karşılaştırılması",
+    "wagon": 1
+   },
+   {
+    "label": "Deniz suyu sıcaklığının yıllara göre değişimi",
+    "wagon": 0
+   },
+   {
+    "label": "Bütçenin harcama kalemlerine dağılımı",
+    "wagon": 2
+   },
+   {
+    "label": "Takımların attığı gol sayıları",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Çizgi: Ateşin saatlere göre değişimi; Deniz suyu sıcaklığının yıllara göre değişimi | Sütun: Beş ilin nüfusunun karşılaştırılması; Takımların attığı gol sayıları | Daire: Öğrencilerin en sevdiği derslerin yüzdeleri; Bütçenin harcama kalemlerine dağılımı",
+  "explanation": "Zamana bağlı değişim çizgi; parçaların bütüne oranı daire; grupların karşılaştırılması sütun grafiğiyle gösterilir.",
+  "textPlain": "Her veri için en uygun grafiği seç. [Kartlar: Ateşin saatlere göre değişimi; Öğrencilerin en sevdiği derslerin yüzdeleri; Beş ilin nüfusunun karşılaştırılması; Deniz suyu sıcaklığının yıllara göre değişimi; Bütçenin harcama kalemlerine dağılımı; Takımların attığı gol sayıları — gruplar: Çizgi / Sütun / Daire]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q060",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veri görselleştirme",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 172",
+  "difficulty": "orta",
+  "group": "grafik",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Nokta grafiği mi, çizgi grafiği mi?",
+  "wagons": [
+   "Nokta grafiği",
+   "Çizgi grafiği"
+  ],
+  "items": [
+   {
+    "label": "Sınıftaki öğrencilerin kardeş sayıları",
+    "wagon": 0
+   },
+   {
+    "label": "Bir hastanın saatlik vücut sıcaklığı",
+    "wagon": 1
+   },
+   {
+    "label": "Maçlarda atılan gol sayılarının dağılımı",
+    "wagon": 0
+   },
+   {
+    "label": "Benzin fiyatının aylara göre değişimi",
+    "wagon": 1
+   },
+   {
+    "label": "Ailelerdeki çocuk sayıları",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Nokta grafiği: Sınıftaki öğrencilerin kardeş sayıları; Maçlarda atılan gol sayılarının dağılımı; Ailelerdeki çocuk sayıları | Çizgi grafiği: Bir hastanın saatlik vücut sıcaklığı; Benzin fiyatının aylara göre değişimi",
+  "explanation": "Nokta grafiğinde kesikli veriler yığılmalı gösterilir; zamana bağlı sürekli değişim çizgi grafiğiyle gösterilir.",
+  "textPlain": "Nokta grafiği mi, çizgi grafiği mi? [Kartlar: Sınıftaki öğrencilerin kardeş sayıları; Bir hastanın saatlik vücut sıcaklığı; Maçlarda atılan gol sayılarının dağılımı; Benzin fiyatının aylara göre değişimi; Ailelerdeki çocuk sayıları — gruplar: Nokta grafiği / Çizgi grafiği]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q061",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 177 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "grafik",
+  "rank": 3,
+  "questionType": "line_points",
+  "text": "Bir bebeğin aylara göre kilosu: Doğum: 3,4 · 2. ay: 5,6 · 4. ay: 7,0 · 6. ay: 7,9 · 8. ay: 8,6 kg. Grafiği tamamla.",
+  "labels": [
+   "Doğum",
+   "2. ay",
+   "4. ay",
+   "6. ay",
+   "8. ay"
+  ],
+  "values": [
+   3.4,
+   5.6,
+   7.0,
+   7.9,
+   8.6
+  ],
+  "yMin": 3,
+  "yMax": 9,
+  "yStep": 0.1,
+  "given": [
+   0
+  ],
+  "valueUnit": "kg",
+  "yTitle": "Kilo (kg)",
+  "explanation": "Değerler aylara göre işaretlenir.",
+  "correctAnswer": "Noktalar: Doğum: 3,4, 2. ay: 5,6, 4. ay: 7, 6. ay: 7,9, 8. ay: 8,6",
+  "textPlain": "Bir bebeğin aylara göre kilosu: Doğum: 3,4 · 2. ay: 5,6 · 4. ay: 7,0 · 6. ay: 7,9 · 8. ay: 8,6 kg. Grafiği tamamla. [Grafik ekseni: Doğum, 2. ay, 4. ay, 6. ay, 8. ay; verilen noktalar: Doğum: 3,4]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q062",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çizgi grafiği",
+  "outcome": "Nicel (sürekli) verileri çizgi grafiği ile görselleştirebilme ve grafikleri yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 199 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "grafik",
+  "rank": 1,
+  "questionType": "graph_scrub",
+  "text": "Bir odanın bir haftalık sıcaklığı (°C). İmleci EN SICAK güne getir.",
+  "labels": [
+   "Pzt",
+   "Salı",
+   "Çrş",
+   "Prş",
+   "Cuma",
+   "Cmt",
+   "Paz"
+  ],
+  "series": [
+   {
+    "name": "Sıcaklık",
+    "values": [
+     21.5,
+     21.9,
+     22.3,
+     22.7,
+     23.0,
+     23.4,
+     24.1
+    ]
+   }
+  ],
+  "mode": "point",
+  "answerIndex": 6,
+  "yTitle": "°C",
+  "correctAnswer": "Paz",
+  "explanation": "En yüksek değer pazar günündeki 24,1 °C'tur.",
+  "textPlain": "Bir odanın bir haftalık sıcaklığı (°C). İmleci EN SICAK güne getir. [Çizgi grafiği: Sıcaklık Pzt: 21,5, Salı: 21,9, Çrş: 22,3, Prş: 22,7, Cuma: 23, Cmt: 23,4, Paz: 24,1]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q063",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "spread_band",
+  "text": "Ortalama çizgisini sürükle: verilerin ARİTMETİK ORTALAMASINA getir.",
+  "data": [
+   4,
+   6,
+   8,
+   10,
+   12
+  ],
+  "low": 0,
+  "high": 15,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "mean",
+  "answer": {
+   "c": 8.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Aritmetik ortalama = 8",
+  "explanation": "(4 + 6 + 8 + 10 + 12) ÷ 5 = 40 ÷ 5 = 8.",
+  "textPlain": "Ortalama çizgisini sürükle: verilerin ARİTMETİK ORTALAMASINA getir. [Veriler: 4, 6, 8, 10, 12]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q064",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "spread_band",
+  "text": "Çizgiyi verilerin ORTANCASINA getir.",
+  "data": [
+   3,
+   7,
+   7,
+   9,
+   12,
+   15,
+   16
+  ],
+  "low": 0,
+  "high": 18,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "median",
+  "answer": {
+   "c": 9.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Ortanca = 9",
+  "explanation": "7 veri sıralı; ortadaki (4.) veri 9'dur.",
+  "textPlain": "Çizgiyi verilerin ORTANCASINA getir. [Veriler: 3, 7, 7, 9, 12, 15, 16]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q065",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "spread_band",
+  "text": "Çizgiyi verilerin TEPE DEĞERİNE getir.",
+  "data": [
+   3,
+   5,
+   5,
+   5,
+   7,
+   8
+  ],
+  "low": 0,
+  "high": 10,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "mode",
+  "answer": {
+   "c": 5.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Tepe değer = 5",
+  "explanation": "En çok tekrar eden veri 5'tir.",
+  "textPlain": "Çizgiyi verilerin TEPE DEĞERİNE getir. [Veriler: 3, 5, 5, 5, 7, 8]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q066",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 181 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "spread_band",
+  "text": "Açıklık bandının iki ucunu en küçük ve en büyük veriye ger. (Yasemin'in maç sayıları)",
+  "data": [
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "low": 10,
+  "high": 25,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "range",
+  "answer": {
+   "lo": 15.0,
+   "hi": 19.0
+  },
+  "show": "list",
+  "valueUnit": "",
+  "correctAnswer": "En küçük 15, en büyük 19 (açıklık 4)",
+  "explanation": "En küçük 15, en büyük 19; açıklık 19 − 15 = 4.",
+  "textPlain": "Açıklık bandının iki ucunu en küçük ve en büyük veriye ger. (Yasemin'in maç sayıları) [Veriler: 15, 16, 17, 18, 19]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q067",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "spread_band",
+  "text": "5 günde okunan sayfa sayıları: 20, 25, 30, 35, 40. Ortalama çizgisini getir.",
+  "data": [
+   20,
+   25,
+   30,
+   35,
+   40
+  ],
+  "low": 0,
+  "high": 50,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "mean",
+  "answer": {
+   "c": 30.0
+  },
+  "show": "list",
+  "valueUnit": "",
+  "correctAnswer": "Aritmetik ortalama = 30",
+  "explanation": "150 ÷ 5 = 30 sayfa.",
+  "textPlain": "5 günde okunan sayfa sayıları: 20, 25, 30, 35, 40. Ortalama çizgisini getir. [Veriler: 20, 25, 30, 35, 40]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q068",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 180 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "spread_band",
+  "text": "Selma'nın maçta aldığı sayılar: 18, 5, 32, 17, 13. Ortalama çizgisini getir.",
+  "data": [
+   18,
+   5,
+   32,
+   17,
+   13
+  ],
+  "low": 0,
+  "high": 35,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "mean",
+  "answer": {
+   "c": 17.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Aritmetik ortalama = 17",
+  "explanation": "85 ÷ 5 = 17.",
+  "textPlain": "Selma'nın maçta aldığı sayılar: 18, 5, 32, 17, 13. Ortalama çizgisini getir. [Veriler: 18, 5, 32, 17, 13]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q069",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "spread_band",
+  "text": "Çizgiyi verilerin ORTANCASINA getir. (Veri sayısı çift!)",
+  "data": [
+   4,
+   6,
+   9,
+   11,
+   12,
+   15
+  ],
+  "low": 0,
+  "high": 18,
+  "step": 0.5,
+  "bandStep": 0.5,
+  "mode": "median",
+  "answer": {
+   "c": 10.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Ortanca = 10",
+  "explanation": "Ortadaki iki veri 9 ve 11; ortanca (9 + 11) ÷ 2 = 10.",
+  "textPlain": "Çizgiyi verilerin ORTANCASINA getir. (Veri sayısı çift!) [Veriler: 4, 6, 9, 11, 12, 15]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q070",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 183 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "spread_band",
+  "text": "Odanın bir haftalık sıcaklıkları: 21,5 · 22,3 · 24,1 · 23,0 · 21,9 · 22,7 · 23,4 °C. Açıklık bandını en küçük ve en büyük değere ger.",
+  "data": [
+   21.5,
+   22.3,
+   24.1,
+   23.0,
+   21.9,
+   22.7,
+   23.4
+  ],
+  "low": 21,
+  "high": 25,
+  "step": 0.1,
+  "bandStep": 0.1,
+  "mode": "range",
+  "answer": {
+   "lo": 21.5,
+   "hi": 24.1
+  },
+  "show": "list",
+  "valueUnit": "°C",
+  "correctAnswer": "En küçük 21,5, en büyük 24,1 (açıklık 2,6)",
+  "explanation": "En küçük 21,5, en büyük 24,1; açıklık 2,6 °C.",
+  "textPlain": "Odanın bir haftalık sıcaklıkları: 21,5 · 22,3 · 24,1 · 23,0 · 21,9 · 22,7 · 23,4 °C. Açıklık bandını en küçük ve en büyük değere ger. [Veriler: 21,5, 22,3, 24,1, 23, 21,9, 22,7, 23,4]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q071",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 182 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "spread_band",
+  "text": "Ortalama çizgisini ve ortalama mutlak sapma bandını ayarla: 20, 25, 30, 35, 40 sayfa.",
+  "data": [
+   20,
+   25,
+   30,
+   35,
+   40
+  ],
+  "low": 0,
+  "high": 50,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "band",
+  "answer": {
+   "c": 30.0,
+   "w": 6.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Ortalama 30, ortalama mutlak sapma 6",
+  "explanation": "Ortalama 30; uzaklıklar 10, 5, 0, 5, 10; toplam 30 ÷ 5 = 6. Bant 24 ile 36 arası.",
+  "textPlain": "Ortalama çizgisini ve ortalama mutlak sapma bandını ayarla: 20, 25, 30, 35, 40 sayfa. [Veriler: 20, 25, 30, 35, 40]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q072",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 182 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "spread_band",
+  "text": "Yasemin'in sayıları: 15, 16, 17, 18, 19. Ortalama çizgisini ve ortalama mutlak sapma bandını ayarla.",
+  "data": [
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "low": 10,
+  "high": 24,
+  "step": 1,
+  "bandStep": 0.1,
+  "mode": "band",
+  "answer": {
+   "c": 17.0,
+   "w": 1.2
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Ortalama 17, ortalama mutlak sapma 1,2",
+  "explanation": "Ortalama 17; uzaklıklar 2, 1, 0, 1, 2; toplam 6 ÷ 5 = 1,2.",
+  "textPlain": "Yasemin'in sayıları: 15, 16, 17, 18, 19. Ortalama çizgisini ve ortalama mutlak sapma bandını ayarla. [Veriler: 15, 16, 17, 18, 19]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q073",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 182 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ozet",
+  "rank": 3,
+  "questionType": "spread_band",
+  "text": "Selma'nın sayıları: 18, 5, 32, 17, 13. Ortalama çizgisini ve ortalama mutlak sapma bandını ayarla.",
+  "data": [
+   18,
+   5,
+   32,
+   17,
+   13
+  ],
+  "low": 0,
+  "high": 35,
+  "step": 1,
+  "bandStep": 0.1,
+  "mode": "band",
+  "answer": {
+   "c": 17.0,
+   "w": 6.4
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Ortalama 17, ortalama mutlak sapma 6,4",
+  "explanation": "Ortalama 17; uzaklıklar 1, 12, 15, 0, 4; toplam 32 ÷ 5 = 6,4.",
+  "textPlain": "Selma'nın sayıları: 18, 5, 32, 17, 13. Ortalama çizgisini ve ortalama mutlak sapma bandını ayarla. [Veriler: 18, 5, 32, 17, 13]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q074",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 181 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ozet",
+  "rank": 3,
+  "questionType": "spread_band",
+  "text": "Veriler: 2, 4, 6, 8, 10. Ortalama ve ortalama mutlak sapma bandını ayarla.",
+  "data": [
+   2,
+   4,
+   6,
+   8,
+   10
+  ],
+  "low": 0,
+  "high": 12,
+  "step": 1,
+  "bandStep": 0.1,
+  "mode": "band",
+  "answer": {
+   "c": 6.0,
+   "w": 2.4
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Ortalama 6, ortalama mutlak sapma 2,4",
+  "explanation": "Ortalama 6; uzaklıklar 4, 2, 0, 2, 4; toplam 12 ÷ 5 = 2,4.",
+  "textPlain": "Veriler: 2, 4, 6, 8, 10. Ortalama ve ortalama mutlak sapma bandını ayarla. [Veriler: 2, 4, 6, 8, 10]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q075",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ozet",
+  "rank": 3,
+  "questionType": "spread_band",
+  "text": "Motorlu arabanın 1 L benzinle gittiği yollar (km): 11,7 · 10,0 · 13,0 · 10,5 · 12,5 · 10,5 · 9,0 · 13,5 · 14,0 · 15,0. Çizgiyi ORTANCAYA getir.",
+  "data": [
+   11.7,
+   10.0,
+   13.0,
+   10.5,
+   12.5,
+   10.5,
+   9.0,
+   13.5,
+   14.0,
+   15.0
+  ],
+  "low": 8,
+  "high": 16,
+  "step": 0.1,
+  "bandStep": 0.1,
+  "mode": "median",
+  "answer": {
+   "c": 12.1
+  },
+  "show": "list",
+  "valueUnit": "km",
+  "correctAnswer": "Ortanca = 12,1",
+  "explanation": "Sıralayınca ortadaki iki veri 11,7 ve 12,5; ortanca 12,1 km.",
+  "textPlain": "Motorlu arabanın 1 L benzinle gittiği yollar (km): 11,7 · 10,0 · 13,0 · 10,5 · 12,5 · 10,5 · 9,0 · 13,5 · 14,0 · 15,0. Çizgiyi ORTANCAYA getir. [Veriler: 11,7, 10, 13, 10,5, 12,5, 10,5, 9, 13,5, 14, 15]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q076",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 200 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ozet",
+  "rank": 3,
+  "questionType": "spread_band",
+  "text": "Emre'nin bir haftalık su tüketimi (L): 2,0 · 2,4 · 2,6 · 2,2 · 2,8 · 2,4 · 2,4. Ortalama çizgisini getir.",
+  "data": [
+   2.0,
+   2.4,
+   2.6,
+   2.2,
+   2.8,
+   2.4,
+   2.4
+  ],
+  "low": 1.5,
+  "high": 3.2,
+  "step": 0.1,
+  "bandStep": 0.1,
+  "mode": "mean",
+  "answer": {
+   "c": 2.4
+  },
+  "show": "list",
+  "valueUnit": "L",
+  "correctAnswer": "Aritmetik ortalama = 2,4",
+  "explanation": "Toplam 16,8 ÷ 7 = 2,4 L.",
+  "textPlain": "Emre'nin bir haftalık su tüketimi (L): 2,0 · 2,4 · 2,6 · 2,2 · 2,8 · 2,4 · 2,4. Ortalama çizgisini getir. [Veriler: 2, 2,4, 2,6, 2,2, 2,8, 2,4, 2,4]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q077",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 181",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Ölçüleri vagonlara yükle.",
+  "wagons": [
+   "Merkezî eğilim ölçüsü",
+   "Yayılım ölçüsü"
+  ],
+  "items": [
+   {
+    "label": "Aritmetik ortalama",
+    "wagon": 0
+   },
+   {
+    "label": "Ortanca",
+    "wagon": 0
+   },
+   {
+    "label": "Tepe değer",
+    "wagon": 0
+   },
+   {
+    "label": "Açıklık",
+    "wagon": 1
+   },
+   {
+    "label": "Ortalama mutlak sapma",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Merkezî eğilim ölçüsü: Aritmetik ortalama; Ortanca; Tepe değer | Yayılım ölçüsü: Açıklık; Ortalama mutlak sapma",
+  "explanation": "Ortalama, ortanca ve tepe değer merkezi; açıklık ve ortalama mutlak sapma verilerin merkezden yayılımını gösterir.",
+  "textPlain": "Ölçüleri vagonlara yükle. [Kartlar: Aritmetik ortalama; Ortanca; Tepe değer; Açıklık; Ortalama mutlak sapma — gruplar: Merkezî eğilim ölçüsü / Yayılım ölçüsü]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q078",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 182",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Oyuncuların 5 maçta aldığı sayılar. Performansları ayır.",
+  "wagons": [
+   "İstikrarlı",
+   "Dalgalı"
+  ],
+  "items": [
+   {
+    "label": "Ali: 10, 11, 10, 12, 11",
+    "wagon": 0
+   },
+   {
+    "label": "Can: 2, 20, 8, 25, 5",
+    "wagon": 1
+   },
+   {
+    "label": "Ece: 15, 16, 14, 15, 15",
+    "wagon": 0
+   },
+   {
+    "label": "Ada: 30, 4, 18, 9, 26",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "İstikrarlı: Ali: 10, 11, 10, 12, 11; Ece: 15, 16, 14, 15, 15 | Dalgalı: Can: 2, 20, 8, 25, 5; Ada: 30, 4, 18, 9, 26",
+  "explanation": "Açıklığı ve ortalama mutlak sapması küçük olan veriler istikrarlı, büyük olanlar dalgalıdır.",
+  "textPlain": "Oyuncuların 5 maçta aldığı sayılar. Performansları ayır. [Kartlar: Ali: 10, 11, 10, 12, 11; Can: 2, 20, 8, 25, 5; Ece: 15, 16, 14, 15, 15; Ada: 30, 4, 18, 9, 26 — gruplar: İstikrarlı / Dalgalı]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q079",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 198",
+  "difficulty": "zor",
+  "group": "ozet",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Bisikletçilerin parkur süreleri (saat). Değişkenliğe göre ayır.",
+  "wagons": [
+   "Daha az değişken (istikrarlı)",
+   "Daha çok değişken (dalgalı)"
+  ],
+  "items": [
+   {
+    "label": "Esin: 1,33 ile 1,42 arası",
+    "wagon": 0
+   },
+   {
+    "label": "Alp: 1,20 ile 2,56 arası",
+    "wagon": 1
+   },
+   {
+    "label": "Levent: 1,14 ile 2,48 arası",
+    "wagon": 1
+   },
+   {
+    "label": "Yeliz: 1,13 ile 2,50 arası",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Daha az değişken (istikrarlı): Esin: 1,33 ile 1,42 arası | Daha çok değişken (dalgalı): Alp: 1,20 ile 2,56 arası; Levent: 1,14 ile 2,48 arası; Yeliz: 1,13 ile 2,50 arası",
+  "explanation": "Esin'in açıklığı 0,09 saat; diğerlerinin açıklığı 1 saatten fazladır.",
+  "textPlain": "Bisikletçilerin parkur süreleri (saat). Değişkenliğe göre ayır. [Kartlar: Esin: 1,33 ile 1,42 arası; Alp: 1,20 ile 2,56 arası; Levent: 1,14 ile 2,48 arası; Yeliz: 1,13 ile 2,50 arası — gruplar: Daha az değişken (istikrarlı) / Daha çok değişken (dalgalı)]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q080",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yayılım ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 181",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "step_rail",
+  "text": "Ortalama mutlak sapmayı bulma adımlarını sırala.",
+  "steps": [
+   "Aritmetik ortalamayı bul.",
+   "Her verinin ortalamaya uzaklığını bul.",
+   "Uzaklıkların hepsini topla.",
+   "Toplamı veri sayısına böl."
+  ],
+  "correctAnswer": "1) Aritmetik ortalamayı bul. → 2) Her verinin ortalamaya uzaklığını bul. → 3) Uzaklıkların hepsini topla. → 4) Toplamı veri sayısına böl.",
+  "explanation": "Ortalama → uzaklıklar → toplam → veri sayısına bölme.",
+  "textPlain": "Ortalama mutlak sapmayı bulma adımlarını sırala. [Kartlar: Aritmetik ortalamayı bul.; Her verinin ortalamaya uzaklığını bul.; Uzaklıkların hepsini topla.; Toplamı veri sayısına böl.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q081",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176",
+  "difficulty": "kolay",
+  "group": "ozet",
+  "rank": 1,
+  "questionType": "step_rail",
+  "text": "Ortancayı bulma adımlarını sırala.",
+  "steps": [
+   "Verileri küçükten büyüğe sırala.",
+   "Veri sayısının tek mi çift mi olduğuna bak.",
+   "Ortadaki veriyi ya da ortadaki iki verinin ortalamasını al."
+  ],
+  "correctAnswer": "1) Verileri küçükten büyüğe sırala. → 2) Veri sayısının tek mi çift mi olduğuna bak. → 3) Ortadaki veriyi ya da ortadaki iki verinin ortalamasını al.",
+  "explanation": "Önce sıralanır, sonra ortadaki değer bulunur.",
+  "textPlain": "Ortancayı bulma adımlarını sırala. [Kartlar: Verileri küçükten büyüğe sırala.; Veri sayısının tek mi çift mi olduğuna bak.; Ortadaki veriyi ya da ortadaki iki verinin ortalamasını al.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q082",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ozet",
+  "rank": 2,
+  "questionType": "spread_band",
+  "text": "Veriler: 12, 15, 18, 21, 24. Ortalama çizgisini getir.",
+  "data": [
+   12,
+   15,
+   18,
+   21,
+   24
+  ],
+  "low": 5,
+  "high": 30,
+  "step": 1,
+  "bandStep": 1,
+  "mode": "mean",
+  "answer": {
+   "c": 18.0
+  },
+  "show": "dots",
+  "valueUnit": "",
+  "correctAnswer": "Aritmetik ortalama = 18",
+  "explanation": "90 ÷ 5 = 18.",
+  "textPlain": "Veriler: 12, 15, 18, 21, 24. Ortalama çizgisini getir. [Veriler: 12, 15, 18, 21, 24]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q083",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini merkezî eğilim ölçüleri (aritmetik ortalama, ortanca, tepe değer) ve yayılım ölçüleri (açıklık, ortalama mutlak sapma) ile özetleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 188 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ozet",
+  "rank": 3,
+  "questionType": "spread_band",
+  "text": "Enes'in koştuğu mesafeler (km): 2,5 · 2,8 · 3,5 · 3,2 · 2,6 · 3,2 · 2,9. Çizgiyi ORTANCAYA getir.",
+  "data": [
+   2.5,
+   2.8,
+   3.5,
+   3.2,
+   2.6,
+   3.2,
+   2.9
+  ],
+  "low": 2,
+  "high": 4,
+  "step": 0.1,
+  "bandStep": 0.1,
+  "mode": "median",
+  "answer": {
+   "c": 2.9
+  },
+  "show": "list",
+  "valueUnit": "km",
+  "correctAnswer": "Ortanca = 2,9",
+  "explanation": "Sıralı: 2,5 · 2,6 · 2,8 · 2,9 · 3,2 · 3,2 · 3,5; ortadaki 2,9 km.",
+  "textPlain": "Enes'in koştuğu mesafeler (km): 2,5 · 2,8 · 3,5 · 3,2 · 2,6 · 3,2 · 2,9. Çizgiyi ORTANCAYA getir. [Veriler: 2,5, 2,8, 3,5, 3,2, 2,6, 3,2, 2,9]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q084",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 185",
+  "difficulty": "kolay",
+  "group": "yorum",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Mehtap'ın saatlik ateşi: 11.00: 39,2 · 12.00: 39,4 · 13.00: 38,7 · 14.00: 38,1 · 15.00: 37,5 °C. Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "11.00 ile 12.00 arasında ateş yükselmiştir.",
+    "wagon": 0
+   },
+   {
+    "label": "Saat 15.00'te ilaç içtiği için ateşi düşmüştür.",
+    "wagon": 1
+   },
+   {
+    "label": "13.00'ten sonra ateş düşme eğilimindedir.",
+    "wagon": 0
+   },
+   {
+    "label": "Mehtap'ın grip olduğu kesindir.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: 11.00 ile 12.00 arasında ateş yükselmiştir.; 13.00'ten sonra ateş düşme eğilimindedir. | Veriye dayalı değil: Saat 15.00'te ilaç içtiği için ateşi düşmüştür.; Mehtap'ın grip olduğu kesindir.",
+  "explanation": "Yorumlar yalnızca tablodaki verilere dayanmalı; ilaç ya da hastalık türü veride yoktur.",
+  "textPlain": "Mehtap'ın saatlik ateşi: 11.00: 39,2 · 12.00: 39,4 · 13.00: 38,7 · 14.00: 38,1 · 15.00: 37,5 °C. Yorumları ayır. [Kartlar: 11.00 ile 12.00 arasında ateş yükselmiştir.; Saat 15.00'te ilaç içtiği için ateşi düşmüştür.; 13.00'ten sonra ateş düşme eğilimindedir.; Mehtap'ın grip olduğu kesindir. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q085",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 176",
+  "difficulty": "kolay",
+  "group": "yorum",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Motor 1 L benzinle en az 13 km gidermiş. Denemeler (km): 11,7 · 10,0 · 13,0 · 10,5 · 12,5 · 10,5 · 9,0 · 13,5 · 14,0 · 15,0. Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "Denemelerin 6'sında 13 km'nin altında kalınmıştır.",
+    "wagon": 0
+   },
+   {
+    "label": "Ortalama 13 km'den az olduğu için iddia doğrulanmamıştır.",
+    "wagon": 0
+   },
+   {
+    "label": "Motor yağmurlu havada daha az yol gider.",
+    "wagon": 1
+   },
+   {
+    "label": "Araba her koşulda en az 9 km gider.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: Denemelerin 6'sında 13 km'nin altında kalınmıştır.; Ortalama 13 km'den az olduğu için iddia doğrulanmamıştır. | Veriye dayalı değil: Motor yağmurlu havada daha az yol gider.; Araba her koşulda en az 9 km gider.",
+  "explanation": "Ortalama 11,97 km; hava durumu veride yok; 10 denemeden “her koşulda” sonucu çıkarılamaz.",
+  "textPlain": "Motor 1 L benzinle en az 13 km gidermiş. Denemeler (km): 11,7 · 10,0 · 13,0 · 10,5 · 12,5 · 10,5 · 9,0 · 13,5 · 14,0 · 15,0. Yorumları ayır. [Kartlar: Denemelerin 6'sında 13 km'nin altında kalınmıştır.; Ortalama 13 km'den az olduğu için iddia doğrulanmamıştır.; Motor yağmurlu havada daha az yol gider.; Araba her koşulda en az 9 km gider. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q086",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma süreçlerinin incelenmesi",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 190",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Fulya 7/A'ya en sevilen dersi sordu: Fen 12, Mat 10, Türkçe 8, Sosyal 6, İngilizce 4. Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "Okulda en çok sevilen ders fen bilimleridir.",
+    "wagon": 1
+   },
+   {
+    "label": "7/A'da en çok sevilen ders fen bilimleridir.",
+    "wagon": 0
+   },
+   {
+    "label": "7/A'da sosyal bilgileri sevenler Türkçeyi sevenlerden fazladır.",
+    "wagon": 1
+   },
+   {
+    "label": "7/A'da matematiği seven 10 öğrenci vardır.",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: 7/A'da en çok sevilen ders fen bilimleridir.; 7/A'da matematiği seven 10 öğrenci vardır. | Veriye dayalı değil: Okulda en çok sevilen ders fen bilimleridir.; 7/A'da sosyal bilgileri sevenler Türkçeyi sevenlerden fazladır.",
+  "explanation": "Veriler yalnızca 7/A'dan toplandığı için okul geneline genellenemez; sosyal (6) Türkçeden (8) azdır.",
+  "textPlain": "Fulya 7/A'ya en sevilen dersi sordu: Fen 12, Mat 10, Türkçe 8, Sosyal 6, İngilizce 4. Yorumları ayır. [Kartlar: Okulda en çok sevilen ders fen bilimleridir.; 7/A'da en çok sevilen ders fen bilimleridir.; 7/A'da sosyal bilgileri sevenler Türkçeyi sevenlerden fazladır.; 7/A'da matematiği seven 10 öğrenci vardır. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q087",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 182",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Selma (ort. 17, açıklık 27) ve Yasemin (ort. 17, açıklık 4). Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "Yasemin'in performansı daha istikrarlıdır.",
+    "wagon": 0
+   },
+   {
+    "label": "Selma bir sonraki maçta 32 sayı alacaktır.",
+    "wagon": 1
+   },
+   {
+    "label": "İki oyuncunun ortalaması eşittir.",
+    "wagon": 0
+   },
+   {
+    "label": "Selma takımdaki en iyi oyuncudur.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: Yasemin'in performansı daha istikrarlıdır.; İki oyuncunun ortalaması eşittir. | Veriye dayalı değil: Selma bir sonraki maçta 32 sayı alacaktır.; Selma takımdaki en iyi oyuncudur.",
+  "explanation": "Ortalama ve yayılım verilere dayanır; kesin gelecek tahmini ve “en iyi oyuncu” sonucu veride yoktur.",
+  "textPlain": "Selma (ort. 17, açıklık 27) ve Yasemin (ort. 17, açıklık 4). Yorumları ayır. [Kartlar: Yasemin'in performansı daha istikrarlıdır.; Selma bir sonraki maçta 32 sayı alacaktır.; İki oyuncunun ortalaması eşittir.; Selma takımdaki en iyi oyuncudur. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q088",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 191",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Gözlem mi, tahmin mi? (Altın fiyatları 27.10–11.11 arasında genel olarak arttı.)",
+  "wagons": [
+   "Verideki gözlem",
+   "Veri ötesi tahmin"
+  ],
+  "items": [
+   {
+    "label": "28.10'da fiyat bir önceki güne göre düşmüştür.",
+    "wagon": 0
+   },
+   {
+    "label": "Gelecek hafta fiyat 5700 TL'yi geçebilir.",
+    "wagon": 1
+   },
+   {
+    "label": "11.11 bu dönemin en yüksek fiyatıdır.",
+    "wagon": 0
+   },
+   {
+    "label": "Artış sürerse ay sonunda fiyat daha da yükselebilir.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Verideki gözlem: 28.10'da fiyat bir önceki güne göre düşmüştür.; 11.11 bu dönemin en yüksek fiyatıdır. | Veri ötesi tahmin: Gelecek hafta fiyat 5700 TL'yi geçebilir.; Artış sürerse ay sonunda fiyat daha da yükselebilir.",
+  "explanation": "Verideki değerler gözlem; veride olmayan gelecek değerler tahmindir.",
+  "textPlain": "Gözlem mi, tahmin mi? (Altın fiyatları 27.10–11.11 arasında genel olarak arttı.) [Kartlar: 28.10'da fiyat bir önceki güne göre düşmüştür.; Gelecek hafta fiyat 5700 TL'yi geçebilir.; 11.11 bu dönemin en yüksek fiyatıdır.; Artış sürerse ay sonunda fiyat daha da yükselebilir. — gruplar: Verideki gözlem / Veri ötesi tahmin]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q089",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma süreçlerinin incelenmesi",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 190",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Fulya'nın araştırma adımlarını incele: hangileri doğru, hangileri hatalı?",
+  "wagons": [
+   "Doğru adım",
+   "Hatalı adım"
+  ],
+  "items": [
+   {
+    "label": "Evren: Gazi Ortaokulundaki tüm öğrenciler",
+    "wagon": 0
+   },
+   {
+    "label": "Örneklem: yalnızca 7/A sınıfı",
+    "wagon": 1
+   },
+   {
+    "label": "Anket sorusu: En sevdiğiniz ders nedir?",
+    "wagon": 0
+   },
+   {
+    "label": "Yorum: Okulda en çok sevilen ders fen bilimleridir.",
+    "wagon": 1
+   },
+   {
+    "label": "Görselleştirme: daire grafiği",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Doğru adım: Evren: Gazi Ortaokulundaki tüm öğrenciler; Anket sorusu: En sevdiğiniz ders nedir?; Görselleştirme: daire grafiği | Hatalı adım: Örneklem: yalnızca 7/A sınıfı; Yorum: Okulda en çok sevilen ders fen bilimleridir.",
+  "explanation": "Tek sınıf okulu temsil etmez; bu yüzden okul geneline yönelik yorum hatalıdır.",
+  "textPlain": "Fulya'nın araştırma adımlarını incele: hangileri doğru, hangileri hatalı? [Kartlar: Evren: Gazi Ortaokulundaki tüm öğrenciler; Örneklem: yalnızca 7/A sınıfı; Anket sorusu: En sevdiğiniz ders nedir?; Yorum: Okulda en çok sevilen ders fen bilimleridir.; Görselleştirme: daire grafiği — gruplar: Doğru adım / Hatalı adım]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q090",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 174",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Verilere göre verilen kararlar uygun mu?",
+  "wagons": [
+   "Veriye uygun karar",
+   "Uygun olmayan karar"
+  ],
+  "items": [
+   {
+    "label": "Yağış 10 yıldır azalıyor; çiftçi kuraklığa dayanıklı ürün eker.",
+    "wagon": 0
+   },
+   {
+    "label": "Kilosu azalan ama hâlâ referansın üstünde olan Melek Hanım diyeti bırakır.",
+    "wagon": 1
+   },
+   {
+    "label": "Bazı günler 2 L'den az su içen Emre su tüketimini artırır.",
+    "wagon": 0
+   },
+   {
+    "label": "Kar örtülü gün biraz azaldı diye kayak merkezi hemen kapatılır.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye uygun karar: Yağış 10 yıldır azalıyor; çiftçi kuraklığa dayanıklı ürün eker.; Bazı günler 2 L'den az su içen Emre su tüketimini artırır. | Uygun olmayan karar: Kilosu azalan ama hâlâ referansın üstünde olan Melek Hanım diyeti bırakır.; Kar örtülü gün biraz azaldı diye kayak merkezi hemen kapatılır.",
+  "explanation": "Karar verilerin gösterdiği eğilim ve referans değerlerle uyumlu olmalıdır.",
+  "textPlain": "Verilere göre verilen kararlar uygun mu? [Kartlar: Yağış 10 yıldır azalıyor; çiftçi kuraklığa dayanıklı ürün eker.; Kilosu azalan ama hâlâ referansın üstünde olan Melek Hanım diyeti bırakır.; Bazı günler 2 L'den az su içen Emre su tüketimini artırır.; Kar örtülü gün biraz azaldı diye kayak merkezi hemen kapatılır. — gruplar: Veriye uygun karar / Uygun olmayan karar]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q091",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 191",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Genellemeler uygun mu, yanıltıcı mı?",
+  "wagons": [
+   "Uygun genelleme",
+   "Yanıltıcı genelleme"
+  ],
+  "items": [
+   {
+    "label": "Bir sınıftaki ankete göre Türkiye'deki tüm öğrenciler hakkında sonuç çıkarmak",
+    "wagon": 1
+   },
+   {
+    "label": "Her ilden rastgele seçilen 5000 öğrenciye göre Türkiye geneli hakkında yorum yapmak",
+    "wagon": 0
+   },
+   {
+    "label": "Yalnızca 2000-2010 verisine bakarak tüm yıllar hakkında karar vermek",
+    "wagon": 1
+   },
+   {
+    "label": "40 yıllık verinin genel eğilimine göre yorum yapmak",
+    "wagon": 0
+   }
+  ],
+  "correctAnswer": "Uygun genelleme: Her ilden rastgele seçilen 5000 öğrenciye göre Türkiye geneli hakkında yorum yapmak; 40 yıllık verinin genel eğilimine göre yorum yapmak | Yanıltıcı genelleme: Bir sınıftaki ankete göre Türkiye'deki tüm öğrenciler hakkında sonuç çıkarmak; Yalnızca 2000-2010 verisine bakarak tüm yıllar hakkında karar vermek",
+  "explanation": "Genelleme, evreni temsil eden örneklem ve yeterli zaman aralığındaki verilere dayanmalıdır.",
+  "textPlain": "Genellemeler uygun mu, yanıltıcı mı? [Kartlar: Bir sınıftaki ankete göre Türkiye'deki tüm öğrenciler hakkında sonuç çıkarmak; Her ilden rastgele seçilen 5000 öğrenciye göre Türkiye geneli hakkında yorum yapmak; Yalnızca 2000-2010 verisine bakarak tüm yıllar hakkında karar vermek; 40 yıllık verinin genel eğilimine göre yorum yapmak — gruplar: Uygun genelleme / Yanıltıcı genelleme]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q092",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 195",
+  "difficulty": "kolay",
+  "group": "yorum",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Bir gölün su seviyesi (m): 1990: 848 · 2000: 845 · 2010: 842 · 2020: 838. Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "1990-2020 arasında su seviyesi azalma eğilimindedir.",
+    "wagon": 0
+   },
+   {
+    "label": "Aynı bölgedeki diğer göllerde de su azalmıştır.",
+    "wagon": 1
+   },
+   {
+    "label": "En düşük seviye 2020'deki 838 m'dir.",
+    "wagon": 0
+   },
+   {
+    "label": "Gölün azalmasının tek nedeni kuraklıktır.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: 1990-2020 arasında su seviyesi azalma eğilimindedir.; En düşük seviye 2020'deki 838 m'dir. | Veriye dayalı değil: Aynı bölgedeki diğer göllerde de su azalmıştır.; Gölün azalmasının tek nedeni kuraklıktır.",
+  "explanation": "Diğer göller ve nedenler veride yoktur; yalnızca verilen değerlere dayanan yorumlar geçerlidir.",
+  "textPlain": "Bir gölün su seviyesi (m): 1990: 848 · 2000: 845 · 2010: 842 · 2020: 838. Yorumları ayır. [Kartlar: 1990-2020 arasında su seviyesi azalma eğilimindedir.; Aynı bölgedeki diğer göllerde de su azalmıştır.; En düşük seviye 2020'deki 838 m'dir.; Gölün azalmasının tek nedeni kuraklıktır. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q093",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 185 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "line_points",
+  "text": "Mehtap'ın ateşi düşme eğilimini sürdürürse 16.00'da kaç °C olabilir? Son noktayı eğilime uygun bir yere sürükle.",
+  "labels": [
+   "12.00",
+   "13.00",
+   "14.00",
+   "15.00",
+   "16.00"
+  ],
+  "values": [
+   39.4,
+   38.7,
+   38.1,
+   37.5,
+   null
+  ],
+  "yMin": 36,
+  "yMax": 40,
+  "yStep": 0.1,
+  "given": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "valueUnit": "°C",
+  "yTitle": "°C",
+  "explanation": "Ateş saatte yaklaşık 0,6 °C düşüyor; 16.00'da 37,5 °C'tan düşük bir değer (ör. 36,9 °C) beklenebilir. Bu bir tahmindir.",
+  "freePoint": {
+   "i": 4,
+   "lo": 36.5,
+   "hi": 37.4
+  },
+  "correctAnswer": "16.00 için 36,5 ile 37,4 °C arasında, eğilime uygun bir tahmin",
+  "textPlain": "Mehtap'ın ateşi düşme eğilimini sürdürürse 16.00'da kaç °C olabilir? Son noktayı eğilime uygun bir yere sürükle. [Grafik ekseni: 12.00, 13.00, 14.00, 15.00, 16.00; verilen noktalar: 12.00: 39,4, 13.00: 38,7, 14.00: 38,1, 15.00: 37,5]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q094",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 175 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "line_points",
+  "text": "Kar örtülü gün sayısındaki eğilim sürerse 2025-2035 dönemi için tahminini çiz (son noktayı sürükle).",
+  "labels": [
+   "1981-91",
+   "1992-02",
+   "2003-13",
+   "2014-24",
+   "2025-35"
+  ],
+  "values": [
+   29.6,
+   30.0,
+   27.1,
+   22.4,
+   null
+  ],
+  "yMin": 10,
+  "yMax": 32,
+  "yStep": 0.5,
+  "given": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "valueUnit": "gün",
+  "yTitle": "gün",
+  "explanation": "Son dönemlerde azalma hızlanmış; eğilim sürerse 22,4'ten daha az gün beklenir.",
+  "freePoint": {
+   "i": 4,
+   "lo": 12,
+   "hi": 22
+  },
+  "correctAnswer": "2025-35 için 12 ile 22 gün arasında, eğilime uygun bir tahmin",
+  "textPlain": "Kar örtülü gün sayısındaki eğilim sürerse 2025-2035 dönemi için tahminini çiz (son noktayı sürükle). [Grafik ekseni: 1981-91, 1992-02, 2003-13, 2014-24, 2025-35; verilen noktalar: 1981-91: 29,6, 1992-02: 30, 2003-13: 27,1, 2014-24: 22,4]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q095",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 163 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "line_points",
+  "text": "Geri kazanım oranı (%, yuvarlanmış): 2021: 27 · 2022: 30 · 2023: 35 · 2024: 36. Eğilim sürerse 2025 için tahminini çiz.",
+  "labels": [
+   "2021",
+   "2022",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "values": [
+   27,
+   30,
+   35,
+   36,
+   null
+  ],
+  "yMin": 20,
+  "yMax": 45,
+  "yStep": 1,
+  "given": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "valueUnit": "%",
+  "yTitle": "%",
+  "explanation": "Oran her yıl artmış; eğilim sürerse 2025'te 36'dan büyük bir değer beklenir.",
+  "freePoint": {
+   "i": 4,
+   "lo": 37,
+   "hi": 42
+  },
+  "correctAnswer": "2025 için 37 ile 42 % arasında, eğilime uygun bir tahmin",
+  "textPlain": "Geri kazanım oranı (%, yuvarlanmış): 2021: 27 · 2022: 30 · 2023: 35 · 2024: 36. Eğilim sürerse 2025 için tahminini çiz. [Grafik ekseni: 2021, 2022, 2023, 2024, 2025; verilen noktalar: 2021: 27, 2022: 30, 2023: 35, 2024: 36]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q096",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 174 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "graph_scrub",
+  "text": "İki denizin ortalama su sıcaklığı (°C, örnek veri). A denizinde sıcaklığın EN HIZLI arttığı dönemler arasını seç.",
+  "labels": [
+   "1970-80",
+   "1981-91",
+   "1992-02",
+   "2003-13",
+   "2014-24"
+  ],
+  "series": [
+   {
+    "name": "A denizi",
+    "values": [
+     18.2,
+     18.3,
+     18.5,
+     19.0,
+     19.8
+    ]
+   },
+   {
+    "name": "B denizi",
+    "values": [
+     15.2,
+     15.4,
+     15.8,
+     16.8,
+     17.2
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 3,
+  "yTitle": "°C",
+  "correctAnswer": "2003-13 – 2014-24",
+  "explanation": "A denizinde 2003-13 ile 2014-24 arası artış 0,8 °C ile en büyüktür; B denizinde de artış son dönemlerde hızlanmıştır.",
+  "textPlain": "İki denizin ortalama su sıcaklığı (°C, örnek veri). A denizinde sıcaklığın EN HIZLI arttığı dönemler arasını seç. [Çizgi grafiği: A denizi 1970-80: 18,2, 1981-91: 18,3, 1992-02: 18,5, 2003-13: 19, 2014-24: 19,8; B denizi 1970-80: 15,2, 1981-91: 15,4, 1992-02: 15,8, 2003-13: 16,8, 2014-24: 17,2]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q097",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 191 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "graph_scrub",
+  "text": "Bir buz tabakasının alanı (milyon km², örnek veri): 1980: 3,2 · 1990: 3,4 · 2000: 2,9 · 2010: 2,3 · 2020: 1,9. Alanın ARTTIĞI tek dönemi seç (“sürekli azaldı” demek doğru mu?).",
+  "labels": [
+   "1980",
+   "1990",
+   "2000",
+   "2010",
+   "2020"
+  ],
+  "series": [
+   {
+    "name": "Alan",
+    "values": [
+     3.2,
+     3.4,
+     2.9,
+     2.3,
+     1.9
+    ]
+   }
+  ],
+  "mode": "segment",
+  "answerIndex": 0,
+  "yTitle": "milyon km²",
+  "correctAnswer": "1980 – 1990",
+  "explanation": "1980-1990 arasında alan artmıştır; bu yüzden “sürekli azaldı” yorumu doğru değildir, genel eğilim azalmadır.",
+  "textPlain": "Bir buz tabakasının alanı (milyon km², örnek veri): 1980: 3,2 · 1990: 3,4 · 2000: 2,9 · 2010: 2,3 · 2020: 1,9. Alanın ARTTIĞI tek dönemi seç (“sürekli azaldı” demek doğru mu?). [Çizgi grafiği: Alan 1980: 3,2, 1990: 3,4, 2000: 2,9, 2010: 2,3, 2020: 1,9]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q098",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 174",
+  "difficulty": "kolay",
+  "group": "yorum",
+  "rank": 1,
+  "questionType": "step_rail",
+  "text": "Veriye dayalı yorum yapma adımlarını sırala.",
+  "steps": [
+   "Grafiği ya da tabloyu dikkatle oku.",
+   "Verilerin eğilimini (artış, azalış) belirle.",
+   "Yalnızca verilere dayanan yorumu yaz.",
+   "Gerekirse veri ötesi bir tahminde bulun."
+  ],
+  "correctAnswer": "1) Grafiği ya da tabloyu dikkatle oku. → 2) Verilerin eğilimini (artış, azalış) belirle. → 3) Yalnızca verilere dayanan yorumu yaz. → 4) Gerekirse veri ötesi bir tahminde bulun.",
+  "explanation": "Önce veri okunur, eğilim belirlenir, veriye dayalı yorum yapılır; tahmin en son ve “olabilir” diliyle yapılır.",
+  "textPlain": "Veriye dayalı yorum yapma adımlarını sırala. [Kartlar: Grafiği ya da tabloyu dikkatle oku.; Verilerin eğilimini (artış, azalış) belirle.; Yalnızca verilere dayanan yorumu yaz.; Gerekirse veri ötesi bir tahminde bulun.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q099",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma süreçlerinin incelenmesi",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 195",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "wagon_sort",
+  "text": "Bir öğrencinin göl araştırmasındaki ifadeleri ayır.",
+  "wagons": [
+   "Uygun",
+   "Hatalı"
+  ],
+  "items": [
+   {
+    "label": "Verilere güvenilir kaynaktan ulaştım.",
+    "wagon": 0
+   },
+   {
+    "label": "Değişimi çizgi grafiğiyle gösterdim.",
+    "wagon": 0
+   },
+   {
+    "label": "Bu göl için bulduğum sonuçlar bölgedeki tüm göller için geçerlidir.",
+    "wagon": 1
+   },
+   {
+    "label": "Grafiğe göre 2035'te seviye kesinlikle 820,50 m olacaktır.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Uygun: Verilere güvenilir kaynaktan ulaştım.; Değişimi çizgi grafiğiyle gösterdim. | Hatalı: Bu göl için bulduğum sonuçlar bölgedeki tüm göller için geçerlidir.; Grafiğe göre 2035'te seviye kesinlikle 820,50 m olacaktır.",
+  "explanation": "Bir gölün verisi başka göllere genellenemez; tahminler kesinlik diliyle ifade edilmemelidir.",
+  "textPlain": "Bir öğrencinin göl araştırmasındaki ifadeleri ayır. [Kartlar: Verilere güvenilir kaynaktan ulaştım.; Değişimi çizgi grafiğiyle gösterdim.; Bu göl için bulduğum sonuçlar bölgedeki tüm göller için geçerlidir.; Grafiğe göre 2035'te seviye kesinlikle 820,50 m olacaktır. — gruplar: Uygun / Hatalı]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q100",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 200",
+  "difficulty": "kolay",
+  "group": "yorum",
+  "rank": 1,
+  "questionType": "wagon_sort",
+  "text": "Emre'nin günlük su tüketimi (L): Pzt 2,0 · Salı 2,4 · Çrş 2,6 · Prş 2,2 · Cuma 2,8 · Cmt 2,4 · Paz 2,4. Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "Emre her gün en az 2 L su içmiştir.",
+    "wagon": 0
+   },
+   {
+    "label": "Cuma günü en çok suyu içmiştir.",
+    "wagon": 0
+   },
+   {
+    "label": "Emre hafta sonu spor yaptığı için çok su içmiştir.",
+    "wagon": 1
+   },
+   {
+    "label": "Gelecek hafta da tam 2,4 L içecektir.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: Emre her gün en az 2 L su içmiştir.; Cuma günü en çok suyu içmiştir. | Veriye dayalı değil: Emre hafta sonu spor yaptığı için çok su içmiştir.; Gelecek hafta da tam 2,4 L içecektir.",
+  "explanation": "Spor yaptığı ya da gelecek haftanın kesin değeri veride yoktur.",
+  "textPlain": "Emre'nin günlük su tüketimi (L): Pzt 2,0 · Salı 2,4 · Çrş 2,6 · Prş 2,2 · Cuma 2,8 · Cmt 2,4 · Paz 2,4. Yorumları ayır. [Kartlar: Emre her gün en az 2 L su içmiştir.; Cuma günü en çok suyu içmiştir.; Emre hafta sonu spor yaptığı için çok su içmiştir.; Gelecek hafta da tam 2,4 L içecektir. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q101",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma süreçlerinin incelenmesi",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 190",
+  "difficulty": "zor",
+  "group": "yorum",
+  "rank": 3,
+  "questionType": "step_rail",
+  "text": "Fulya'nın araştırmasını DÜZELTİLMİŞ hâliyle sırala.",
+  "steps": [
+   "Okuldaki öğrencilerin en sevdiği dersleri soran araştırma sorusunu yaz.",
+   "Her sınıf düzeyinden rastgele öğrencileri örneklem olarak seç.",
+   "“En sevdiğin ders nedir?” sorusunu sorup cevapları kaydet.",
+   "Sonuçları daire grafiğiyle göster ve okul geneli için yorumla."
+  ],
+  "correctAnswer": "1) Okuldaki öğrencilerin en sevdiği dersleri soran araştırma sorusunu yaz. → 2) Her sınıf düzeyinden rastgele öğrencileri örneklem olarak seç. → 3) “En sevdiğin ders nedir?” sorusunu sorup cevapları kaydet. → 4) Sonuçları daire grafiğiyle göster ve okul geneli için yorumla.",
+  "explanation": "Örneklem okulu temsil edecek biçimde seçilince okul geneli hakkında yorum yapılabilir.",
+  "textPlain": "Fulya'nın araştırmasını DÜZELTİLMİŞ hâliyle sırala. [Kartlar: Okuldaki öğrencilerin en sevdiği dersleri soran araştırma sorusunu yaz.; Her sınıf düzeyinden rastgele öğrencileri örneklem olarak seç.; “En sevdiğin ders nedir?” sorusunu sorup cevapları kaydet.; Sonuçları daire grafiğiyle göster ve okul geneli için yorumla.]"
+ },
+ {
+  "questionId": "mat7-t3-rv-v1-q102",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "3. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriyi yorumlama",
+  "outcome": "Araştırma sonuçlarını veriye dayalı yorumlayabilme, tahmin ve karar verebilme; araştırma süreçlerini eleştirel olarak inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 3. Tema “İstatistiksel Araştırma Süreci”, s. 184",
+  "difficulty": "orta",
+  "group": "yorum",
+  "rank": 2,
+  "questionType": "wagon_sort",
+  "text": "Yenilenebilir enerji üretim oranları (%) 2020–2024: Rüzgâr 8,10 → 10,83; Güneş 3,70 → 9,39 arttı. Yorumları ayır.",
+  "wagons": [
+   "Veriye dayalı",
+   "Veriye dayalı değil"
+  ],
+  "items": [
+   {
+    "label": "Güneş enerjisinin payı bu dönemde artmıştır.",
+    "wagon": 0
+   },
+   {
+    "label": "Rüzgâr enerjisinin payı 2024'te 2020'dekinden fazladır.",
+    "wagon": 0
+   },
+   {
+    "label": "Güneş enerjisi en ucuz enerji kaynağıdır.",
+    "wagon": 1
+   },
+   {
+    "label": "2030'da güneşin payı kesinlikle %20 olacaktır.",
+    "wagon": 1
+   }
+  ],
+  "correctAnswer": "Veriye dayalı: Güneş enerjisinin payı bu dönemde artmıştır.; Rüzgâr enerjisinin payı 2024'te 2020'dekinden fazladır. | Veriye dayalı değil: Güneş enerjisi en ucuz enerji kaynağıdır.; 2030'da güneşin payı kesinlikle %20 olacaktır.",
+  "explanation": "Maliyet veride yoktur; gelecekle ilgili kesin ifadeler veriye dayalı değildir.",
+  "textPlain": "Yenilenebilir enerji üretim oranları (%) 2020–2024: Rüzgâr 8,10 → 10,83; Güneş 3,70 → 9,39 arttı. Yorumları ayır. [Kartlar: Güneş enerjisinin payı bu dönemde artmıştır.; Rüzgâr enerjisinin payı 2024'te 2020'dekinden fazladır.; Güneş enerjisi en ucuz enerji kaynağıdır.; 2030'da güneşin payı kesinlikle %20 olacaktır. — gruplar: Veriye dayalı / Veriye dayalı değil]"
+ }
+]

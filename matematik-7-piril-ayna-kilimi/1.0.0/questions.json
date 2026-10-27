@@ -1,0 +1,8108 @@
+[
+ {
+  "questionId": "mat7-t4-pk-v1-q001",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "A noktasının d doğrusuna göre yansıma dönüşümü altındaki görüntüsü A′ noktasını bul.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     3
+    ]
+   ],
+   "labels": [
+    "A"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    8,
+    3
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(8, 5) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 3 kare uzakta, A' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "A noktasının d doğrusuna göre yansıma dönüşümü altındaki görüntüsü A′ noktasını bul. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(2, 5)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q002",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "K noktası yatay d doğrusunun üstünde. K noktasının d doğrusuna göre görüntüsünü bul.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     6,
+     1
+    ]
+   ],
+   "labels": [
+    "K"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    6,
+    7
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ]
+  ],
+  "correctAnswer": "K'(6, 1) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: K doğruya 3 kare uzakta, K' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "K noktası yatay d doğrusunun üstünde. K noktasının d doğrusuna göre görüntüsünü bul. [Kareli zemin, sol alt köşe (0, 0). d doğrusu yatay (y = 4). Verilen şekil: K(6, 7)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q003",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "AB doğru parçasının d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     6
+    ]
+   ],
+   "labels": [
+    "A",
+    "B"
+   ],
+   "closed": false
+  },
+  "answer": [
+   [
+    9,
+    2
+   ],
+   [
+    7,
+    6
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(9, 6), B'(7, 2) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 2 kare uzakta, B' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "AB doğru parçasının d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(1, 6), B(3, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q004",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 202 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "Pırıl kanadının bir parçası olan ABC üçgenini aynaya tuttu. Üçgenin d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    9,
+    6
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    8,
+    2
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    10,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(9, 2), B'(6, 2), C'(8, 6) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 1 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 3 kare uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "Pırıl kanadının bir parçası olan ABC üçgenini aynaya tuttu. Üçgenin d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(1, 2), B(4, 2), C(2, 6)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q005",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 202 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "KLMN karesinin yatay d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     6,
+     1
+    ],
+    [
+     8,
+     1
+    ],
+    [
+     8,
+     3
+    ],
+    [
+     6,
+     3
+    ]
+   ],
+   "labels": [
+    "K",
+    "L",
+    "M",
+    "N"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    6,
+    7
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    8,
+    5
+   ],
+   [
+    6,
+    5
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    1,
+    8
+   ]
+  ],
+  "correctAnswer": "K'(6, 1), L'(8, 1), M'(8, 3), N'(6, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: K doğruya 3 kare uzakta, K' de öbür yanda aynı uzaklıkta; L doğruya 3 kare uzakta, L' de öbür yanda aynı uzaklıkta; M doğruya 1 kare uzakta, M' de öbür yanda aynı uzaklıkta; N doğruya 1 kare uzakta, N' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "KLMN karesinin yatay d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu yatay (y = 4). Verilen şekil: K(6, 7), L(8, 7), M(8, 5), N(6, 5)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q006",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "Ece, ABC üçgeninin d doğrusuna göre görüntüsünü çizdi ama bir köşeyi yanlış yere koydu. Hatalı köşeyi düzelt.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    9,
+    1
+   ],
+   [
+    7,
+    1
+   ],
+   [
+    9,
+    4
+   ]
+  ],
+  "start": [
+   [
+    9,
+    1
+   ],
+   [
+    7,
+    1
+   ],
+   [
+    8,
+    4
+   ]
+  ],
+  "correctAnswer": "A'(9, 7), B'(7, 7), C'(9, 4) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 2 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 4 kare uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "fix": true,
+  "textPlain": "Ece, ABC üçgeninin d doğrusuna göre görüntüsünü çizdi ama bir köşeyi yanlış yere koydu. Hatalı köşeyi düzelt. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(1, 7), B(3, 7), C(1, 4) ; öğrenciye verilen hatalı görüntü: A'(9, 7), B'(7, 7), C'(8, 4)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q007",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "PR doğru parçasının yatay d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    5
+   ],
+   [
+    10,
+    5
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     7
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "labels": [
+    "P",
+    "R"
+   ],
+   "closed": false
+  },
+  "answer": [
+   [
+    2,
+    3
+   ],
+   [
+    7,
+    4
+   ]
+  ],
+  "start": [
+   [
+    5,
+    4
+   ],
+   [
+    3,
+    4
+   ]
+  ],
+  "correctAnswer": "P'(2, 5), R'(7, 4) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: P doğruya 2 kare uzakta, P' de öbür yanda aynı uzaklıkta; R doğruya 1 kare uzakta, R' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "PR doğru parçasının yatay d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu yatay (y = 3). Verilen şekil: P(2, 1), R(7, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q008",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 202 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "Dikdörtgen biçimli ABCD bayrağının d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    6,
+    0
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     2
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    10,
+    2
+   ],
+   [
+    7,
+    2
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "start": [
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    10,
+    7
+   ]
+  ],
+  "correctAnswer": "A'(10, 6), B'(7, 6), C'(7, 4), D'(10, 4) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 1 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 1 kare uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 4 kare uzakta, D' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "Dikdörtgen biçimli ABCD bayrağının d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 6). Verilen şekil: A(2, 6), B(5, 6), C(5, 4), D(2, 4)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q009",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "mirror_points",
+  "text": "Mert, KLM üçgeninin yatay d doğrusuna göre görüntüsünü çizerken bir köşede hata yaptı. Hatalı köşeyi bul ve düzelt.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     1
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "labels": [
+    "K",
+    "L",
+    "M"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    2,
+    7
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    3,
+    5
+   ]
+  ],
+  "start": [
+   [
+    2,
+    6
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    3,
+    5
+   ]
+  ],
+  "correctAnswer": "K'(2, 1), L'(6, 1), M'(3, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: K doğruya 3 kare uzakta, K' de öbür yanda aynı uzaklıkta; L doğruya 3 kare uzakta, L' de öbür yanda aynı uzaklıkta; M doğruya 1 kare uzakta, M' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "fix": true,
+  "textPlain": "Mert, KLM üçgeninin yatay d doğrusuna göre görüntüsünü çizerken bir köşede hata yaptı. Hatalı köşeyi bul ve düzelt. [Kareli zemin, sol alt köşe (0, 0). d doğrusu yatay (y = 4). Verilen şekil: K(2, 7), L(6, 7), M(3, 5) ; öğrenciye verilen hatalı görüntü: K'(2, 2), L'(6, 1), M'(3, 3)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q010",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "ABCD dik yamuğunun d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     1
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    9,
+    1
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    8,
+    5
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    10,
+    8
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "correctAnswer": "A'(9, 7), B'(6, 7), C'(6, 3), D'(8, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 1 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 1 kare uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 3 kare uzakta, D' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "ABCD dik yamuğunun d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(1, 7), B(4, 7), C(4, 3), D(2, 3)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q011",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "Ev biçimindeki ABCDE beşgeninin d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     7
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    9,
+    7
+   ],
+   [
+    9,
+    4
+   ],
+   [
+    8,
+    2
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    7,
+    7
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    10,
+    8
+   ],
+   [
+    6,
+    6
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "correctAnswer": "A'(9, 1), B'(9, 4), C'(8, 6), D'(7, 4), E'(7, 1) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 4 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 3 kare uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 2 kare uzakta, D' de öbür yanda aynı uzaklıkta; E doğruya 2 kare uzakta, E' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "Ev biçimindeki ABCDE beşgeninin d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(1, 1), B(1, 4), C(2, 6), D(3, 4), E(3, 1)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q012",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Üçgenin bir kenarına göre yansıması",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 208 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "Çeşitkenar dik üçgen ABC’nin AB hipotenüsü d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz. (Doğru üzerindeki noktalara dikkat!)",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    2
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    10,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(5, 7), B'(5, 2), C'(7, 6) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 0 kare uzakta, kendisine yansır; B doğruya 0 kare uzakta, kendisine yansır; C doğruya 2 kare uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir. Doğru üzerindeki A ve B kendisine yansır. ABC üçgeni ile görüntüsü birlikte bir deltoit oluşturur.",
+  "textPlain": "Çeşitkenar dik üçgen ABC’nin AB hipotenüsü d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz. (Doğru üzerindeki noktalara dikkat!) [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(5, 7), B(5, 2), C(3, 6)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q013",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Üçgenin bir kenarına göre yansıması",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 208 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "İkizkenar dik üçgen ABC’nin AB hipotenüsü d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    8,
+    4
+   ]
+  ],
+  "start": [
+   [
+    6,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    10,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(5, 7), B'(5, 1), C'(8, 4) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 0 kare uzakta, kendisine yansır; B doğruya 0 kare uzakta, kendisine yansır; C doğruya 3 kare uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir. A ve B kendisine yansır; üçgen ile görüntüsü birlikte bir kare oluşturur.",
+  "textPlain": "İkizkenar dik üçgen ABC’nin AB hipotenüsü d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(5, 7), B(5, 1), C(2, 4)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q014",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Üçgenin bir kenarına göre yansıması",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 208 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "İkizkenar üçgen ABC’nin AB tabanı yatay d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    5
+   ],
+   [
+    10,
+    5
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     5
+    ],
+    [
+     8,
+     5
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    2,
+    5
+   ],
+   [
+    8,
+    5
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "start": [
+   [
+    4,
+    8
+   ],
+   [
+    6,
+    8
+   ],
+   [
+    2,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(2, 3), B'(8, 3), C'(5, 0) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 0 kare uzakta, kendisine yansır; B doğruya 0 kare uzakta, kendisine yansır; C doğruya 3 kare uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir. A ve B kendisine yansır; üçgen ile görüntüsü birlikte bir eşkenar dörtgen oluşturur.",
+  "textPlain": "İkizkenar üçgen ABC’nin AB tabanı yatay d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu yatay (y = 3). Verilen şekil: A(2, 3), B(8, 3), C(5, 6)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q015",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "Sağdaki A′B′C′ üçgeni, ABC üçgeninin d doğrusuna göre görüntüsüdür. ABC üçgeninin köşelerini (A, B, C) doğru yerlere sürükle.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     6,
+     2
+    ],
+    [
+     9,
+     3
+    ],
+    [
+     7,
+     6
+    ]
+   ],
+   "labels": [
+    "A'",
+    "B'",
+    "C'"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    4,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    3,
+    6
+   ]
+  ],
+  "start": [
+   [
+    4,
+    8
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    0,
+    8
+   ]
+  ],
+  "correctAnswer": "A(4, 6), B(1, 5), C(3, 2) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A' doğruya 1 kare uzakta, A de öbür yanda aynı uzaklıkta; B' doğruya 4 kare uzakta, B de öbür yanda aynı uzaklıkta; C' doğruya 2 kare uzakta, C de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "hlabels": [
+   "A",
+   "B",
+   "C"
+  ],
+  "textPlain": "Sağdaki A′B′C′ üçgeni, ABC üçgeninin d doğrusuna göre görüntüsüdür. ABC üçgeninin köşelerini (A, B, C) doğru yerlere sürükle. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A'(6, 6), B'(9, 5), C'(7, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q016",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "Ali, ABCD dörtgeninin görüntüsünü çizerken bir köşeyi aynaya göre değil, kaydırarak yerleştirdi. Hatalı köşeyi düzelt.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    9,
+    2
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    8,
+    5
+   ]
+  ],
+  "start": [
+   [
+    9,
+    2
+   ],
+   [
+    6,
+    1
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    7,
+    5
+   ]
+  ],
+  "correctAnswer": "A'(9, 6), B'(6, 7), C'(6, 4), D'(8, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 1 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 1 kare uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 3 kare uzakta, D' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "fix": true,
+  "textPlain": "Ali, ABCD dörtgeninin görüntüsünü çizerken bir köşeyi aynaya göre değil, kaydırarak yerleştirdi. Hatalı köşeyi düzelt. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 5). Verilen şekil: A(1, 6), B(4, 7), C(4, 4), D(2, 3) ; öğrenciye verilen hatalı görüntü: A'(9, 6), B'(6, 7), C'(6, 4), D'(7, 3)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q017",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "L harfi biçimindeki ABCDEF altıgeninin yatay d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    3,
+    6
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    1,
+    8
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    4,
+    7
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "correctAnswer": "A'(2, 0), B'(3, 0), C'(3, 2), D'(5, 2), E'(5, 3), F'(2, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 4 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 4 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 2 kare uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 2 kare uzakta, D' de öbür yanda aynı uzaklıkta; E doğruya 1 kare uzakta, E' de öbür yanda aynı uzaklıkta; F doğruya 1 kare uzakta, F' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "L harfi biçimindeki ABCDEF altıgeninin yatay d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu yatay (y = 4). Verilen şekil: A(2, 8), B(3, 8), C(3, 6), D(5, 6), E(5, 5), F(2, 5)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q018",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde yansıma",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "mirror_points",
+  "text": "Kilim motifindeki ABCD deltoidinin d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    4,
+    0
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    6,
+    1
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    6,
+    7
+   ],
+   [
+    7,
+    3
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    8,
+    7
+   ]
+  ],
+  "correctAnswer": "A'(6, 7), B'(5, 5), C'(6, 1), D'(7, 5) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 2 kare uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 1 kare uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 2 kare uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 3 kare uzakta, D' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "Kilim motifindeki ABCD deltoidinin d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu dikey (x = 4). Verilen şekil: A(2, 7), B(3, 5), C(2, 1), D(1, 5)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q019",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "A noktasının eğik d doğrusuna göre görüntüsünü bul. (Doğru, karelerin köşegenleri boyunca uzanıyor.)",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     5,
+     1
+    ]
+   ],
+   "labels": [
+    "A"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    1,
+    5
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(1, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 2 kare köşegeni uzakta, A' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "A noktasının eğik d doğrusuna göre görüntüsünü bul. (Doğru, karelerin köşegenleri boyunca uzanıyor.) [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 8) ve (8, 0) noktalarından geçen). Verilen şekil: A(5, 7)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q020",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "AB doğru parçasının eğik d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     3,
+     1
+    ],
+    [
+     7,
+     2
+    ]
+   ],
+   "labels": [
+    "A",
+    "B"
+   ],
+   "closed": false
+  },
+  "answer": [
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    7
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    3,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(1, 5), B'(2, 1) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 1 kare köşegeni uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 2,5 kare köşegeni uzakta, B' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "AB doğru parçasının eğik d doğrusuna göre yansıma dönüşümü altındaki görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 8) ve (8, 0) noktalarından geçen). Verilen şekil: A(3, 7), B(7, 6)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q021",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "ABC üçgeninin eğik d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    8
+   ],
+   [
+    8,
+    0
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     3
+    ],
+    [
+     4,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    5,
+    7
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    7,
+    6
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(5, 1), B'(7, 4), C'(7, 2) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 2 kare köşegeni uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 1,5 kare köşegeni uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 2,5 kare köşegeni uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "ABC üçgeninin eğik d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 0) ve (8, 8) noktalarından geçen). Verilen şekil: A(1, 5), B(4, 7), C(2, 7)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q022",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "Selin, ABC üçgeninin eğik d doğrusuna göre görüntüsünü çizdi ama bir köşe hatalı. Düzelt.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     0
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     5,
+     0
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    0,
+    2
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    0,
+    5
+   ]
+  ],
+  "start": [
+   [
+    0,
+    2
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    0,
+    5
+   ]
+  ],
+  "correctAnswer": "A'(0, 6), B'(2, 2), C'(0, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 1 kare köşegeni uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 2 kare köşegeni uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 2,5 kare köşegeni uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "fix": true,
+  "textPlain": "Selin, ABC üçgeninin eğik d doğrusuna göre görüntüsünü çizdi ama bir köşe hatalı. Düzelt. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 8) ve (8, 0) noktalarından geçen). Verilen şekil: A(2, 8), B(6, 6), C(5, 8) ; öğrenciye verilen hatalı görüntü: A'(0, 6), B'(3, 3), C'(0, 3)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q023",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 204 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "KLMN dörtgeninin eğik d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    8
+   ],
+   [
+    8,
+    0
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     0,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "labels": [
+    "K",
+    "L",
+    "M",
+    "N"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    4,
+    8
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    7,
+    5
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    8,
+    8
+   ],
+   [
+    1,
+    8
+   ]
+  ],
+  "correctAnswer": "K'(4, 0), L'(5, 2), M'(7, 3), N'(7, 0) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: K doğruya 2 kare köşegeni uzakta, K' de öbür yanda aynı uzaklıkta; L doğruya 1,5 kare köşegeni uzakta, L' de öbür yanda aynı uzaklıkta; M doğruya 2 kare köşegeni uzakta, M' de öbür yanda aynı uzaklıkta; N doğruya 3,5 kare köşegeni uzakta, N' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "KLMN dörtgeninin eğik d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 0) ve (8, 8) noktalarından geçen). Verilen şekil: K(0, 4), L(2, 5), M(3, 7), N(0, 7)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q024",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Üçgenin bir kenarına göre yansıması",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 208 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "ABC üçgeninin AB kenarı eğik d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     1
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    1,
+    1
+   ],
+   [
+    5,
+    5
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    7,
+    8
+   ]
+  ],
+  "correctAnswer": "A'(1, 7), B'(5, 3), C'(2, 3) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 0 kare köşegeni uzakta, kendisine yansır; B doğruya 0 kare köşegeni uzakta, kendisine yansır; C doğruya 1,5 kare köşegeni uzakta, C' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir. A ve B kendisine yansır; üçgen ile görüntüsü birlikte bir deltoit oluşturur.",
+  "textPlain": "ABC üçgeninin AB kenarı eğik d doğrusunun üzerinde. Üçgenin d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 8) ve (8, 0) noktalarından geçen). Verilen şekil: A(1, 7), B(5, 3), C(5, 6)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q025",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "A′B′C′D′ dörtgeni, ABCD dörtgeninin eğik d doğrusuna göre görüntüsü. ABCD dörtgeninin köşelerini doğru yerlere sürükle.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "labels": [
+    "A'",
+    "B'",
+    "C'",
+    "D'"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    4,
+    1
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    4,
+    3
+   ]
+  ],
+  "start": [
+   [
+    9,
+    8
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    10,
+    7
+   ],
+   [
+    7,
+    6
+   ]
+  ],
+  "correctAnswer": "A(4, 7), B(6, 6), C(7, 4), D(4, 5) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A' doğruya 1,5 kare köşegeni uzakta, A de öbür yanda aynı uzaklıkta; B' doğruya 2 kare köşegeni uzakta, B de öbür yanda aynı uzaklıkta; C' doğruya 1,5 kare köşegeni uzakta, C de öbür yanda aynı uzaklıkta; D' doğruya 0,5 kare köşegeni uzakta, D de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "hlabels": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "textPlain": "A′B′C′D′ dörtgeni, ABCD dörtgeninin eğik d doğrusuna göre görüntüsü. ABCD dörtgeninin köşelerini doğru yerlere sürükle. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((0, 8) ve (8, 0) noktalarından geçen). Verilen şekil: A'(1, 4), B'(2, 2), C'(4, 1), D'(3, 4)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q026",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümü",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 210 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "mirror_points",
+  "text": "ABCDE beşgeninin eğik d doğrusuna göre görüntüsünü çiz.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    1,
+    8
+   ],
+   [
+    10,
+    -1
+   ]
+  ],
+  "shape": {
+   "pts": [
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     0
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     1,
+     3
+    ]
+   ],
+   "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "closed": true
+  },
+  "answer": [
+   [
+    8,
+    7
+   ],
+   [
+    9,
+    5
+   ],
+   [
+    7,
+    4
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    6,
+    8
+   ]
+  ],
+  "start": [
+   [
+    5,
+    8
+   ],
+   [
+    3,
+    8
+   ],
+   [
+    7,
+    8
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    4,
+    7
+   ]
+  ],
+  "correctAnswer": "A'(8, 1), B'(9, 3), C'(7, 4), D'(5, 2), E'(6, 0) (sol alt köşe (0, 0); sağa ve yukarı kare sayısı)",
+  "explanation": "Her köşe simetri doğrusuna dik olarak, doğruya uzaklığı kadar öbür yana taşınır: A doğruya 3 kare köşegeni uzakta, A' de öbür yanda aynı uzaklıkta; B doğruya 2,5 kare köşegeni uzakta, B' de öbür yanda aynı uzaklıkta; C doğruya 1 kare köşegeni uzakta, C' de öbür yanda aynı uzaklıkta; D doğruya 1 kare köşegeni uzakta, D' de öbür yanda aynı uzaklıkta; E doğruya 2,5 kare köşegeni uzakta, E' de öbür yanda aynı uzaklıkta. Şekil ile görüntüsü eştir.",
+  "textPlain": "ABCDE beşgeninin eğik d doğrusuna göre görüntüsünü çiz. [Kareli zemin, sol alt köşe (0, 0). d doğrusu eğik ((1, 0) ve (10, 9) noktalarından geçen). Verilen şekil: A(2, 7), B(4, 8), C(5, 6), D(3, 4), E(1, 5)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q027",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "pair_link",
+  "text": "d doğrusunun iki yanındaki noktalardan hangileri birbirinin görüntüsü? Görüntü çiftlerini iple bağla.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     2,
+     2
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     3,
+     5
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     8,
+     2
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     8,
+     5
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    2
+   ]
+  ],
+  "correctAnswer": "A–K",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K çiftlerinde bu sağlanır. B, L noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "d doğrusunun iki yanındaki noktalardan hangileri birbirinin görüntüsü? Görüntü çiftlerini iple bağla. [d doğrusu dikey (x = 5). Noktalar: A(2, 6), B(3, 3), K(8, 6), L(8, 3)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q028",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "pair_link",
+  "text": "Yatay d doğrusuna göre birbirinin görüntüsü olan noktaları iple bağla.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     2,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     6,
+     2
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     8,
+     3
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     2,
+     7
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     6,
+     6
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     7,
+     5
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "correctAnswer": "A–K, B–L",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, B–L çiftlerinde bu sağlanır. C, M noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Yatay d doğrusuna göre birbirinin görüntüsü olan noktaları iple bağla. [d doğrusu yatay (y = 4). Noktalar: A(2, 7), B(6, 6), C(8, 5), K(2, 1), L(6, 2), M(7, 3)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q029",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "yansima",
+  "rank": 1,
+  "questionType": "pair_link",
+  "text": "Pırıl, aynanın iki yanına boncuklar dizdi. Birbirinin görüntüsü olan boncukları iple bağla.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    4,
+    0
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     1,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     2,
+     4
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     3,
+     7
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     7,
+     1
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     6,
+     4
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     6,
+     7
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "correctAnswer": "A–K, B–L",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, B–L çiftlerinde bu sağlanır. C, M noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Pırıl, aynanın iki yanına boncuklar dizdi. Birbirinin görüntüsü olan boncukları iple bağla. [d doğrusu dikey (x = 4). Noktalar: A(1, 7), B(2, 4), C(3, 1), K(7, 7), L(6, 4), M(6, 1)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q030",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "pair_link",
+  "text": "Birbirinin görüntüsü olan nokta çiftlerini bağla. Dikkat: bazı noktaların görüntüsü yok!",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     1,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     3,
+     3
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     2,
+     5
+    ]
+   },
+   {
+    "n": "D",
+    "p": [
+     4,
+     7
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     9,
+     1
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     8,
+     4
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     8,
+     5
+    ]
+   },
+   {
+    "n": "N",
+    "p": [
+     6,
+     7
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    4
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    3,
+    7
+   ]
+  ],
+  "correctAnswer": "A–K, C–M, D–N",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, C–M, D–N çiftlerinde bu sağlanır. B, L noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Birbirinin görüntüsü olan nokta çiftlerini bağla. Dikkat: bazı noktaların görüntüsü yok! [d doğrusu dikey (x = 5). Noktalar: A(1, 7), B(3, 5), C(2, 3), D(4, 1), K(9, 7), L(8, 4), M(8, 3), N(6, 1)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q031",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "pair_link",
+  "text": "Yatay d doğrusuna göre görüntü çiftlerini iple bağla. İp doğruya dik olmalı, doğru ipi tam ortalamalı.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    4
+   ],
+   [
+    10,
+    4
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     1,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     4,
+     2
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     7,
+     0
+    ]
+   },
+   {
+    "n": "D",
+    "p": [
+     9,
+     3
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     1,
+     7
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     5,
+     6
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     7,
+     8
+    ]
+   },
+   {
+    "n": "N",
+    "p": [
+     9,
+     6
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    4
+   ],
+   [
+    2,
+    6
+   ]
+  ],
+  "correctAnswer": "A–K, C–M",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, C–M çiftlerinde bu sağlanır. B, D, L, N noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Yatay d doğrusuna göre görüntü çiftlerini iple bağla. İp doğruya dik olmalı, doğru ipi tam ortalamalı. [d doğrusu yatay (y = 4). Noktalar: A(1, 7), B(4, 6), C(7, 8), D(9, 5), K(1, 1), L(5, 2), M(7, 0), N(9, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q032",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "pair_link",
+  "text": "ABC ve KLM üçgenlerinin köşelerinden hangileri d doğrusuna göre birbirinin görüntüsü? Görüntü çiftlerini bağla.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     2,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     4,
+     3
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     1,
+     5
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     8,
+     1
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     7,
+     3
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     9,
+     6
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    3
+   ]
+  ],
+  "correctAnswer": "A–K",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K çiftlerinde bu sağlanır. B, C, L, M noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "ABC ve KLM üçgenlerinin köşelerinden hangileri d doğrusuna göre birbirinin görüntüsü? Görüntü çiftlerini bağla. [d doğrusu dikey (x = 5). Noktalar: A(2, 7), B(4, 5), C(1, 3), K(8, 7), L(7, 5), M(9, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q033",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "pair_link",
+  "text": "Eğik d doğrusuna göre birbirinin görüntüsü olan noktaları iple bağla.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    0
+   ],
+   [
+    8,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     4,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     6,
+     3
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     7,
+     2
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     1,
+     4
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     3,
+     6
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     3,
+     7
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "correctAnswer": "A–K, B–L",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, B–L çiftlerinde bu sağlanır. C, M noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Eğik d doğrusuna göre birbirinin görüntüsü olan noktaları iple bağla. [d doğrusu eğik ((0, 8) ve (8, 0) noktalarından geçen). Noktalar: A(4, 7), B(6, 5), C(7, 6), K(1, 4), L(3, 2), M(3, 1)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q034",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "pair_link",
+  "text": "Eğik d doğrusunun iki yanındaki noktalardan görüntü çiftlerini bağla. Bazılarının eşi yok!",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    0,
+    8
+   ],
+   [
+    8,
+    0
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     1,
+     2
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     2,
+     4
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     3,
+     1
+    ]
+   },
+   {
+    "n": "D",
+    "p": [
+     1,
+     5
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     6,
+     7
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     4,
+     6
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     7,
+     5
+    ]
+   },
+   {
+    "n": "N",
+    "p": [
+     5,
+     7
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    4
+   ],
+   [
+    1,
+    5
+   ],
+   [
+    2,
+    6
+   ]
+  ],
+  "correctAnswer": "A–K, B–L, C–M",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, B–L, C–M çiftlerinde bu sağlanır. D, N noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Eğik d doğrusunun iki yanındaki noktalardan görüntü çiftlerini bağla. Bazılarının eşi yok! [d doğrusu eğik ((0, 0) ve (8, 8) noktalarından geçen). Noktalar: A(1, 6), B(2, 4), C(3, 7), D(1, 3), K(6, 1), L(4, 2), M(7, 3), N(5, 1)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q035",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "yansima",
+  "rank": 3,
+  "questionType": "pair_link",
+  "text": "Eğik d doğrusuna göre görüntü çiftlerini bağla.",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    2,
+    0
+   ],
+   [
+    10,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     4,
+     0
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     6,
+     1
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     8,
+     3
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     2,
+     2
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     3,
+     4
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     4,
+     6
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    4
+   ]
+  ],
+  "correctAnswer": "A–K, B–L",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: A–K, B–L çiftlerinde bu sağlanır. C, M noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "Eğik d doğrusuna göre görüntü çiftlerini bağla. [d doğrusu eğik ((2, 8) ve (10, 0) noktalarından geçen). Noktalar: A(4, 8), B(6, 7), C(8, 5), K(2, 6), L(3, 4), M(4, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q036",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Yansıma dönüşümünün özellikleri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "yansima",
+  "rank": 2,
+  "questionType": "pair_link",
+  "text": "d doğrusuna göre birbirinin görüntüsü olan çiftleri bağla. Doğruya eşit uzaklıkta olmak yetmez, ip doğruya dik olmalı!",
+  "grid": {
+   "w": 10,
+   "h": 8
+  },
+  "line": [
+   [
+    5,
+    0
+   ],
+   [
+    5,
+    8
+   ]
+  ],
+  "pts": [
+   {
+    "n": "A",
+    "p": [
+     3,
+     1
+    ]
+   },
+   {
+    "n": "B",
+    "p": [
+     2,
+     4
+    ]
+   },
+   {
+    "n": "C",
+    "p": [
+     4,
+     6
+    ]
+   },
+   {
+    "n": "K",
+    "p": [
+     7,
+     2
+    ]
+   },
+   {
+    "n": "L",
+    "p": [
+     8,
+     4
+    ]
+   },
+   {
+    "n": "M",
+    "p": [
+     6,
+     6
+    ]
+   }
+  ],
+  "pairs": [
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    5
+   ]
+  ],
+  "correctAnswer": "B–L, C–M",
+  "explanation": "Birbirinin görüntüsü olan iki noktayı birleştiren doğru parçası simetri doğrusuna diktir ve simetri doğrusu onu ortalar: B–L, C–M çiftlerinde bu sağlanır. A, K noktalarının karşısında doğruya dik ve eşit uzaklıkta bir nokta yoktur.",
+  "textPlain": "d doğrusuna göre birbirinin görüntüsü olan çiftleri bağla. Doğruya eşit uzaklıkta olmak yetmez, ip doğruya dik olmalı! [d doğrusu dikey (x = 5). Noktalar: A(3, 7), B(2, 4), C(4, 2), K(7, 6), L(8, 4), M(6, 2)]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q037",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "Göz motifinin sol yarısı dokundu. Dikey simetri doğrusuna göre sağ yarısını boya.",
+  "rows": 5,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "v",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#e63946"
+  ],
+  "names": [
+   "kırmızı"
+  ],
+  "answer": [
+   "..11..",
+   ".1..1.",
+   "1....1",
+   ".1..1.",
+   "..11.."
+  ],
+  "editable": [
+   "000111",
+   "000111",
+   "000111",
+   "000111",
+   "000111"
+  ],
+  "start": [
+   "..1...",
+   ".1....",
+   "1.....",
+   ".1....",
+   "..1..."
+  ],
+  "correctAnswer": "Boş kısımda 5 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Göz motifinin sol yarısı dokundu. Dikey simetri doğrusuna göre sağ yarısını boya. [5×6 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=kırmızı): ..1... / .1.... / 1..... / .1.... / ..1...]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q038",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "Bereket motifinin sağ yarısını, desen dikey doğruya göre simetrik olacak biçimde boya.",
+  "rows": 5,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "v",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#e63946"
+  ],
+  "names": [
+   "kırmızı"
+  ],
+  "answer": [
+   "111111",
+   ".1111.",
+   "..11..",
+   ".1111.",
+   "111111"
+  ],
+  "editable": [
+   "000111",
+   "000111",
+   "000111",
+   "000111",
+   "000111"
+  ],
+  "start": [
+   "1111..",
+   ".11...",
+   "..11..",
+   ".11...",
+   "111..."
+  ],
+  "correctAnswer": "Boş kısımda 9 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Bereket motifinin sağ yarısını, desen dikey doğruya göre simetrik olacak biçimde boya. [5×6 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=kırmızı): 1111.. / .11... / ..11.. / .11... / 111...]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q039",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 202 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "Kilimin üst yarısı hazır. Yatay simetri doğrusuna göre alt yarısını boya.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "h",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#3a0ca3"
+  ],
+  "names": [
+   "lacivert"
+  ],
+  "answer": [
+   "1....1",
+   ".1..1.",
+   "..11..",
+   "..11..",
+   ".1..1.",
+   "1....1"
+  ],
+  "editable": [
+   "000000",
+   "000000",
+   "000000",
+   "111111",
+   "111111",
+   "111111"
+  ],
+  "start": [
+   "1....1",
+   ".1..1.",
+   "..11..",
+   "......",
+   "......",
+   "......"
+  ],
+  "correctAnswer": "Boş kısımda 6 lacivert kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Kilimin üst yarısı hazır. Yatay simetri doğrusuna göre alt yarısını boya. [6×6 kareli desen; simetri doğrusu: yatay; verilen kısım (satır satır, renkler: 1=lacivert): 1....1 / .1..1. / ..11.. / ...... / ...... / ......]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q040",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "Kuş motifinin sol yarısı verildi. Sağ yarısını aynaya bakar gibi boya.",
+  "rows": 5,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#e63946"
+  ],
+  "names": [
+   "kırmızı"
+  ],
+  "answer": [
+   "1......1",
+   ".1....1.",
+   "..1..1..",
+   "...11...",
+   "........"
+  ],
+  "editable": [
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111"
+  ],
+  "start": [
+   "1.......",
+   ".1......",
+   "..1.....",
+   "...1....",
+   "........"
+  ],
+  "correctAnswer": "Boş kısımda 4 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Kuş motifinin sol yarısı verildi. Sağ yarısını aynaya bakar gibi boya. [5×8 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=kırmızı): 1....... / .1...... / ..1..... / ...1.... / ........]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q041",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 202 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "Yatay doğruya göre simetrik bir şerit dokunacak. Alt yarıyı boya.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "h",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#ffbe0b"
+  ],
+  "names": [
+   "sarı"
+  ],
+  "answer": [
+   "11..11",
+   "..11..",
+   "......",
+   "......",
+   "..11..",
+   "11..11"
+  ],
+  "editable": [
+   "000000",
+   "000000",
+   "000000",
+   "111111",
+   "111111",
+   "111111"
+  ],
+  "start": [
+   "11..11",
+   "..11..",
+   "......",
+   "......",
+   "..1...",
+   "......"
+  ],
+  "correctAnswer": "Boş kısımda 5 sarı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Yatay doğruya göre simetrik bir şerit dokunacak. Alt yarıyı boya. [6×6 kareli desen; simetri doğrusu: yatay; verilen kısım (satır satır, renkler: 1=sarı): 11..11 / ..11.. / ...... / ...... / ..1... / ......]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q042",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "Hayat ağacı motifinin sol yarısı hazır. Sağ yarısını boya.",
+  "rows": 6,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#06d6a0",
+   "#3a0ca3"
+  ],
+  "names": [
+   "yeşil",
+   "lacivert"
+  ],
+  "answer": [
+   "...11...",
+   "..1111..",
+   "...11...",
+   ".1.11.1.",
+   "...11...",
+   "...22..."
+  ],
+  "editable": [
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111"
+  ],
+  "start": [
+   "...11...",
+   "..11....",
+   "...1....",
+   ".1.11...",
+   "...1....",
+   "...2...."
+  ],
+  "correctAnswer": "Boş kısımda 5 yeşil, 1 lacivert kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Hayat ağacı motifinin sol yarısı hazır. Sağ yarısını boya. [6×8 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=yeşil, 2=lacivert): ...11... / ..11.... / ...1.... / .1.11... / ...1.... / ...2....]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q043",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "desen",
+  "rank": 1,
+  "questionType": "paint_mirror",
+  "text": "İki renkli göz motifinin sağ yarısını tamamla.",
+  "rows": 5,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "v",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#e63946",
+   "#ffbe0b"
+  ],
+  "names": [
+   "kırmızı",
+   "sarı"
+  ],
+  "answer": [
+   "..11..",
+   ".1221.",
+   "12..21",
+   ".1221.",
+   "..11.."
+  ],
+  "editable": [
+   "000111",
+   "000111",
+   "000111",
+   "000111",
+   "000111"
+  ],
+  "start": [
+   "..11..",
+   ".12.1.",
+   "12...1",
+   ".12...",
+   "..1..."
+  ],
+  "correctAnswer": "Boş kısımda 2 kırmızı, 3 sarı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "İki renkli göz motifinin sağ yarısını tamamla. [5×6 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=kırmızı, 2=sarı): ..11.. / .12.1. / 12...1 / .12... / ..1...]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q044",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Bereket motifini dikey simetri doğrusuna göre tamamla. Renklere dikkat!",
+  "rows": 6,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#3a0ca3",
+   "#ffbe0b",
+   "#e63946"
+  ],
+  "names": [
+   "lacivert",
+   "sarı",
+   "kırmızı"
+  ],
+  "answer": [
+   "1......1",
+   "12....21",
+   "122..221",
+   "12....21",
+   "1......1",
+   ".333333."
+  ],
+  "editable": [
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111"
+  ],
+  "start": [
+   "1.......",
+   "12......",
+   "122.....",
+   "12......",
+   "1.......",
+   ".333...."
+  ],
+  "correctAnswer": "Boş kısımda 5 lacivert, 4 sarı, 3 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Bereket motifini dikey simetri doğrusuna göre tamamla. Renklere dikkat! [6×8 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=lacivert, 2=sarı, 3=kırmızı): 1....... / 12...... / 122..... / 12...... / 1....... / .333....]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q045",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Kilimin üst yarısı dokundu. Alt yarısını yatay simetri doğrusuna göre boya.",
+  "rows": 8,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "h",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#e63946",
+   "#ffbe0b",
+   "#3a0ca3"
+  ],
+  "names": [
+   "kırmızı",
+   "sarı",
+   "lacivert"
+  ],
+  "answer": [
+   "1.22.1",
+   ".1..1.",
+   "331133",
+   "...3..",
+   "...3..",
+   "331133",
+   ".1..1.",
+   "1.22.1"
+  ],
+  "editable": [
+   "000000",
+   "000000",
+   "000000",
+   "000000",
+   "111111",
+   "111111",
+   "111111",
+   "111111"
+  ],
+  "start": [
+   "1.22.1",
+   ".1..1.",
+   "331133",
+   "...3..",
+   "......",
+   "......",
+   "......",
+   "......"
+  ],
+  "correctAnswer": "Boş kısımda 6 kırmızı, 2 sarı, 5 lacivert kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Kilimin üst yarısı dokundu. Alt yarısını yatay simetri doğrusuna göre boya. [8×6 kareli desen; simetri doğrusu: yatay; verilen kısım (satır satır, renkler: 1=kırmızı, 2=sarı, 3=lacivert): 1.22.1 / .1..1. / 331133 / ...3.. / ...... / ...... / ...... / ......]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q046",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Bu kez desenin sağ yarısı hazır. Sol yarısını dikey doğruya göre boya.",
+  "rows": 5,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#ff006e",
+   "#fb5607"
+  ],
+  "names": [
+   "pembe",
+   "turuncu"
+  ],
+  "answer": [
+   "..1..1..",
+   ".12..21.",
+   "12.22.21",
+   ".12..21.",
+   "..1..1.."
+  ],
+  "editable": [
+   "11110000",
+   "11110000",
+   "11110000",
+   "11110000",
+   "11110000"
+  ],
+  "start": [
+   ".....1..",
+   ".....21.",
+   "....2.21",
+   ".....21.",
+   ".....1.."
+  ],
+  "correctAnswer": "Boş kısımda 5 pembe, 4 turuncu kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Bu kez desenin sağ yarısı hazır. Sol yarısını dikey doğruya göre boya. [5×8 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=pembe, 2=turuncu): .....1.. / .....21. / ....2.21 / .....21. / .....1..]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q047",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Desenin alt yarısı dokundu. Üst yarısını yatay doğruya göre boya.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "h",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#06d6a0",
+   "#e63946"
+  ],
+  "names": [
+   "yeşil",
+   "kırmızı"
+  ],
+  "answer": [
+   ".1..1.",
+   "11..11",
+   "..22..",
+   "..22..",
+   "11..11",
+   ".1..1."
+  ],
+  "editable": [
+   "111111",
+   "111111",
+   "111111",
+   "000000",
+   "000000",
+   "000000"
+  ],
+  "start": [
+   "......",
+   "......",
+   "......",
+   "..22..",
+   "11..11",
+   ".1..1."
+  ],
+  "correctAnswer": "Boş kısımda 6 yeşil, 2 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Desenin alt yarısı dokundu. Üst yarısını yatay doğruya göre boya. [6×6 kareli desen; simetri doğrusu: yatay; verilen kısım (satır satır, renkler: 1=yeşil, 2=kırmızı): ...... / ...... / ...... / ..22.. / 11..11 / .1..1.]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q048",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Koçboynuzu motifinden esinlenen deseni tamamla.",
+  "rows": 6,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#e63946"
+  ],
+  "names": [
+   "kırmızı"
+  ],
+  "answer": [
+   ".11..11.",
+   "1..11..1",
+   "1......1",
+   ".1....1.",
+   "..1111..",
+   "........"
+  ],
+  "editable": [
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111"
+  ],
+  "start": [
+   ".11.....",
+   "1..1....",
+   "1.......",
+   ".1......",
+   "..11....",
+   "........"
+  ],
+  "correctAnswer": "Boş kısımda 8 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Koçboynuzu motifinden esinlenen deseni tamamla. [6×8 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=kırmızı): .11..... / 1..1.... / 1....... / .1...... / ..11.... / ........]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q049",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 209 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Bayrak deseninin sol yarısı verildi. Sağ yarısını dikey doğruya göre boya.",
+  "rows": 5,
+  "cols": 10,
+  "lines": [
+   {
+    "k": "v",
+    "at": 5
+   }
+  ],
+  "palette": [
+   "#e63946",
+   "#ffbe0b"
+  ],
+  "names": [
+   "kırmızı",
+   "sarı"
+  ],
+  "answer": [
+   "1111..1111",
+   "11.2..2.11",
+   "1.222222.1",
+   "11.2..2.11",
+   "1111..1111"
+  ],
+  "editable": [
+   "0000011111",
+   "0000011111",
+   "0000011111",
+   "0000011111",
+   "0000011111"
+  ],
+  "start": [
+   "1111......",
+   "11.2......",
+   "1.222.....",
+   "11.2......",
+   "1111......"
+  ],
+  "correctAnswer": "Boş kısımda 13 kırmızı, 5 sarı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Bayrak deseninin sol yarısı verildi. Sağ yarısını dikey doğruya göre boya. [5×10 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=kırmızı, 2=sarı): 1111...... / 11.2...... / 1.222..... / 11.2...... / 1111......]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q050",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "desen",
+  "rank": 2,
+  "questionType": "paint_mirror",
+  "text": "Üç renkli kilim motifinin sağ yarısını tamamla.",
+  "rows": 5,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   }
+  ],
+  "palette": [
+   "#3a0ca3",
+   "#e63946",
+   "#ffbe0b",
+   "#fb5607"
+  ],
+  "names": [
+   "lacivert",
+   "kırmızı",
+   "sarı",
+   "turuncu"
+  ],
+  "answer": [
+   "1..22..1",
+   ".1.33.1.",
+   "..2442..",
+   ".1.33.1.",
+   "1..22..1"
+  ],
+  "editable": [
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111",
+   "00001111"
+  ],
+  "start": [
+   "1..2....",
+   ".1.3....",
+   "..24....",
+   ".1.3....",
+   "1..2...."
+  ],
+  "correctAnswer": "Boş kısımda 4 lacivert, 3 kırmızı, 2 sarı, 1 turuncu kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Simetri doğrusuna göre her kare, doğrunun öbür yanında doğruya aynı uzaklıktaki kareye yansır: doğruya bitişik kareler bitişik karelere, ikinci sıradakiler ikinci sıradakilere. Desen ile görüntüsü eştir.",
+  "textPlain": "Üç renkli kilim motifinin sağ yarısını tamamla. [5×8 kareli desen; simetri doğrusu: dikey; verilen kısım (satır satır, renkler: 1=lacivert, 2=kırmızı, 3=sarı, 4=turuncu): 1..2.... / .1.3.... / ..24.... / .1.3.... / 1..2....]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q051",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "desen",
+  "rank": 3,
+  "questionType": "paint_mirror",
+  "text": "Simetri doğrusu bu kez karelerin köşegeni boyunca uzanıyor. Desenin boş yarısını doğruya göre boya.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "d"
+   }
+  ],
+  "palette": [
+   "#e63946",
+   "#ffbe0b"
+  ],
+  "names": [
+   "kırmızı",
+   "sarı"
+  ],
+  "answer": [
+   "112.21",
+   "11.2.1",
+   "2.1.2.",
+   ".2.1..",
+   "2.2.1.",
+   "11...1"
+  ],
+  "editable": [
+   "011111",
+   "001111",
+   "000111",
+   "000011",
+   "000001",
+   "000000"
+  ],
+  "start": [
+   "1.....",
+   "11....",
+   "2.1...",
+   ".2.1..",
+   "2.2.1.",
+   "11...1"
+  ],
+  "correctAnswer": "Boş kısımda 3 kırmızı, 4 sarı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Köşegen doğrultusundaki simetri doğrusuna göre yansımada bir karenin satır ve sütun numarası yer değiştirir: örneğin 2. satır 5. sütundaki kare, 5. satır 2. sütundaki kareyle aynı renkte olur.",
+  "textPlain": "Simetri doğrusu bu kez karelerin köşegeni boyunca uzanıyor. Desenin boş yarısını doğruya göre boya. [6×6 kareli desen; simetri doğrusu: köşegen doğrultusunda; verilen kısım (satır satır, renkler: 1=kırmızı, 2=sarı): 1..... / 11.... / 2.1... / .2.1.. / 2.2.1. / 11...1]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q052",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "desen",
+  "rank": 3,
+  "questionType": "paint_mirror",
+  "text": "Köşegen doğrultusundaki simetri doğrusuna göre deseni tamamla.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "d"
+   }
+  ],
+  "palette": [
+   "#3a0ca3",
+   "#06d6a0",
+   "#e63946"
+  ],
+  "names": [
+   "lacivert",
+   "yeşil",
+   "kırmızı"
+  ],
+  "answer": [
+   "12...3",
+   "212...",
+   ".212..",
+   "..212.",
+   "...212",
+   "3...21"
+  ],
+  "editable": [
+   "011111",
+   "001111",
+   "000111",
+   "000011",
+   "000001",
+   "000000"
+  ],
+  "start": [
+   "1.....",
+   "21....",
+   ".21...",
+   "..21..",
+   "...21.",
+   "3...21"
+  ],
+  "correctAnswer": "Boş kısımda 5 yeşil, 1 kırmızı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Köşegen doğrultusundaki simetri doğrusuna göre yansımada bir karenin satır ve sütun numarası yer değiştirir: örneğin 2. satır 5. sütundaki kare, 5. satır 2. sütundaki kareyle aynı renkte olur.",
+  "textPlain": "Köşegen doğrultusundaki simetri doğrusuna göre deseni tamamla. [6×6 kareli desen; simetri doğrusu: köşegen doğrultusunda; verilen kısım (satır satır, renkler: 1=lacivert, 2=yeşil, 3=kırmızı): 1..... / 21.... / .21... / ..21.. / ...21. / 3...21]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q053",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "desen",
+  "rank": 3,
+  "questionType": "paint_mirror",
+  "text": "Eğik simetri doğrusuna göre desenin üst yarısını boya.",
+  "rows": 5,
+  "cols": 5,
+  "lines": [
+   {
+    "k": "d"
+   }
+  ],
+  "palette": [
+   "#ff006e",
+   "#fb5607",
+   "#ffbe0b"
+  ],
+  "names": [
+   "pembe",
+   "turuncu",
+   "sarı"
+  ],
+  "answer": [
+   "12232",
+   "213..",
+   "23123",
+   "3.21.",
+   "2.3.1"
+  ],
+  "editable": [
+   "01111",
+   "00111",
+   "00011",
+   "00001",
+   "00000"
+  ],
+  "start": [
+   "1....",
+   "21...",
+   "231..",
+   "3.21.",
+   "2.3.1"
+  ],
+  "correctAnswer": "Boş kısımda 4 turuncu, 3 sarı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "Köşegen doğrultusundaki simetri doğrusuna göre yansımada bir karenin satır ve sütun numarası yer değiştirir: örneğin 2. satır 5. sütundaki kare, 5. satır 2. sütundaki kareyle aynı renkte olur.",
+  "textPlain": "Eğik simetri doğrusuna göre desenin üst yarısını boya. [5×5 kareli desen; simetri doğrusu: köşegen doğrultusunda; verilen kısım (satır satır, renkler: 1=pembe, 2=turuncu, 3=sarı): 1.... / 21... / 231.. / 3.21. / 2.3.1]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q054",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "desen",
+  "rank": 3,
+  "questionType": "paint_mirror",
+  "text": "Bu kilimde iki simetri doğrusu var! Sol üst çeyrek hazır; diğer üç çeyreği boya.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "v",
+    "at": 3
+   },
+   {
+    "k": "h",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#e63946",
+   "#ffbe0b",
+   "#3a0ca3"
+  ],
+  "names": [
+   "kırmızı",
+   "sarı",
+   "lacivert"
+  ],
+  "answer": [
+   "1....1",
+   ".2..2.",
+   "..33..",
+   "..33..",
+   ".2..2.",
+   "1....1"
+  ],
+  "editable": [
+   "000111",
+   "000111",
+   "000111",
+   "111111",
+   "111111",
+   "111111"
+  ],
+  "start": [
+   "1.....",
+   ".2....",
+   "..3...",
+   "......",
+   "......",
+   "......"
+  ],
+  "correctAnswer": "Boş kısımda 3 kırmızı, 3 sarı, 3 lacivert kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "İki simetri doğrusu var: desen önce dikey doğruya göre, sonra yatay doğruya göre yansıtılır. Dört çeyrek birbirinin görüntüsüdür; her kare doğrulara aynı uzaklıktaki karelerle aynı renktedir.",
+  "textPlain": "Bu kilimde iki simetri doğrusu var! Sol üst çeyrek hazır; diğer üç çeyreği boya. [6×6 kareli desen; simetri doğrusu: dikey ve yatay; verilen kısım (satır satır, renkler: 1=kırmızı, 2=sarı, 3=lacivert): 1..... / .2.... / ..3... / ...... / ...... / ......]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q055",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "desen",
+  "rank": 3,
+  "questionType": "paint_mirror",
+  "text": "Göz motifli kilimin sol üst çeyreği dokundu. Dikey ve yatay simetri doğrularına göre kalan çeyrekleri boya.",
+  "rows": 6,
+  "cols": 8,
+  "lines": [
+   {
+    "k": "v",
+    "at": 4
+   },
+   {
+    "k": "h",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#e63946",
+   "#ffbe0b"
+  ],
+  "names": [
+   "kırmızı",
+   "sarı"
+  ],
+  "answer": [
+   "...11...",
+   "..1221..",
+   ".12..21.",
+   ".12..21.",
+   "..1221..",
+   "...11..."
+  ],
+  "editable": [
+   "00001111",
+   "00001111",
+   "00001111",
+   "11111111",
+   "11111111",
+   "11111111"
+  ],
+  "start": [
+   "...1....",
+   "..12....",
+   ".12.....",
+   "........",
+   "........",
+   "........"
+  ],
+  "correctAnswer": "Boş kısımda 9 kırmızı, 6 sarı kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "İki simetri doğrusu var: desen önce dikey doğruya göre, sonra yatay doğruya göre yansıtılır. Dört çeyrek birbirinin görüntüsüdür; her kare doğrulara aynı uzaklıktaki karelerle aynı renktedir.",
+  "textPlain": "Göz motifli kilimin sol üst çeyreği dokundu. Dikey ve yatay simetri doğrularına göre kalan çeyrekleri boya. [6×8 kareli desen; simetri doğrusu: dikey ve yatay; verilen kısım (satır satır, renkler: 1=kırmızı, 2=sarı): ...1.... / ..12.... / .12..... / ........ / ........ / ........]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q056",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Desenlerde simetri",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "desen",
+  "rank": 3,
+  "questionType": "paint_mirror",
+  "text": "Dört çeyrekli kilim deseni: sol üst çeyreği iki doğruya göre yansıtarak tamamla.",
+  "rows": 6,
+  "cols": 6,
+  "lines": [
+   {
+    "k": "v",
+    "at": 3
+   },
+   {
+    "k": "h",
+    "at": 3
+   }
+  ],
+  "palette": [
+   "#06d6a0",
+   "#fb5607"
+  ],
+  "names": [
+   "yeşil",
+   "turuncu"
+  ],
+  "answer": [
+   "1.11.1",
+   ".2..2.",
+   "1....1",
+   "1....1",
+   ".2..2.",
+   "1.11.1"
+  ],
+  "editable": [
+   "000111",
+   "000111",
+   "000111",
+   "111111",
+   "111111",
+   "111111"
+  ],
+  "start": [
+   "1.1...",
+   ".2....",
+   "1.....",
+   "......",
+   "......",
+   "......"
+  ],
+  "correctAnswer": "Boş kısımda 9 yeşil, 3 turuncu kare boyanır; her kare, simetri doğrusuna göre karşısındaki karenin rengini alır.",
+  "explanation": "İki simetri doğrusu var: desen önce dikey doğruya göre, sonra yatay doğruya göre yansıtılır. Dört çeyrek birbirinin görüntüsüdür; her kare doğrulara aynı uzaklıktaki karelerle aynı renktedir.",
+  "textPlain": "Dört çeyrekli kilim deseni: sol üst çeyreği iki doğruya göre yansıtarak tamamla. [6×6 kareli desen; simetri doğrusu: dikey ve yatay; verilen kısım (satır satır, renkler: 1=yeşil, 2=turuncu): 1.1... / .2.... / 1..... / ...... / ...... / ......]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q057",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "İkizkenar üçgenin simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      7
+     ],
+     [
+      8,
+      7
+     ],
+     [
+      5,
+      1
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    6.5,
+    4.0
+   ],
+   [
+    3.5,
+    4.0
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5.0,
+     7.0
+    ],
+    [
+     5,
+     1
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "İkizkenar üçgenin bir simetri doğrusu vardır: tepe noktasından tabanın orta noktasına inen doğru. Bu doğru tabanı dik ortalar.",
+  "textPlain": "İkizkenar üçgenin simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q058",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "Dikdörtgenin simetri doğrularını bul. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      2
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      7,
+      6
+     ],
+     [
+      1,
+      6
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     4.0,
+     2.0
+    ],
+    [
+     4.0,
+     6.0
+    ]
+   ],
+   [
+    [
+     7.0,
+     4.0
+    ],
+    [
+     1.0,
+     4.0
+    ]
+   ]
+  ],
+  "correctAnswer": "2 simetri doğrusu (1 dikey, 1 yatay)",
+  "explanation": "Dikdörtgenin 2 simetri doğrusu vardır: karşılıklı kenarların orta noktalarını birleştiren dikey ve yatay doğrular. Köşegenler simetri doğrusu değildir; köşegen boyunca katlanınca köşeler üst üste gelmez.",
+  "textPlain": "Dikdörtgenin simetri doğrularını bul. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q059",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "A harfini aynaya tutan Pırıl, harfin simetrik olduğunu fark etti. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       2,
+       7
+      ],
+      [
+       5,
+       1
+      ],
+      [
+       8,
+       7
+      ]
+     ],
+     [
+      [
+       3.5,
+       4
+      ],
+      [
+       6.5,
+       4
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    3.5,
+    4.0
+   ],
+   [
+    6.5,
+    4.0
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5,
+     1
+    ],
+    [
+     5.0,
+     4.0
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "A harfinin tepesinden geçen dikey doğru, harfi iki eş parçaya ayırır. Bu harfin 1 simetri doğrusu vardır.",
+  "textPlain": "A harfini aynaya tutan Pırıl, harfin simetrik olduğunu fark etti. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q060",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "T harfinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       2,
+       1
+      ],
+      [
+       8,
+       1
+      ]
+     ],
+     [
+      [
+       5,
+       1
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     5.0,
+     1.0
+    ],
+    [
+     5,
+     7
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "T harfinin yalnızca dikey çubuğu boyunca uzanan 1 simetri doğrusu vardır.",
+  "textPlain": "T harfinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q061",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "E harfinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       7,
+       1
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       7,
+       7
+      ]
+     ],
+     [
+      [
+       3,
+       4
+      ],
+      [
+       6,
+       4
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    4.5,
+    4.0
+   ]
+  ],
+  "axes": [
+   [
+    [
+     3.0,
+     4.0
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 yatay)",
+  "explanation": "E harfi yatay doğruya göre simetriktir: orta çubuktan geçen yatay doğru 1 simetri doğrusudur. Dikey bir doğruya göre simetrik değildir.",
+  "textPlain": "E harfinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q062",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "Çeşitkenar üçgenin simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      7
+     ],
+     [
+      8,
+      6
+     ],
+     [
+      4,
+      1
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    4.5,
+    6.5
+   ],
+   [
+    6.0,
+    3.5
+   ],
+   [
+    2.5,
+    4.0
+   ]
+  ],
+  "axes": [],
+  "correctAnswer": "Simetri doğrusu yok",
+  "explanation": "Çeşitkenar üçgenin bütün kenarları farklı uzunluktadır; hiçbir doğru onu iki eş parçaya ayırmaz. Simetri doğrusu yoktur.",
+  "textPlain": "Çeşitkenar üçgenin simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q063",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "Yarım dairenin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "sector",
+    "c": [
+     5,
+     6
+    ],
+    "r": 4,
+    "a1": 0,
+    "a2": 180,
+    "f": 3
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     5,
+     6
+    ],
+    [
+     5.0,
+     2.0
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "Yarım dairenin 1 simetri doğrusu vardır: merkezden geçen ve çapa dik olan doğru. Çapın kendisi simetri doğrusu değildir.",
+  "textPlain": "Yarım dairenin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q064",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "Dijital saatteki 3 rakamının simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       7
+      ],
+      [
+       3,
+       7
+      ]
+     ],
+     [
+      [
+       4,
+       4
+      ],
+      [
+       7,
+       4
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    5.5,
+    4.0
+   ]
+  ],
+  "axes": [
+   [
+    [
+     7.0,
+     4.0
+    ],
+    [
+     4,
+     4
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 yatay)",
+  "explanation": "3 rakamı yatay orta doğruya göre simetriktir; 1 simetri doğrusu vardır.",
+  "textPlain": "Dijital saatteki 3 rakamının simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q065",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "simetri",
+  "rank": 1,
+  "questionType": "axis_draw",
+  "text": "Deltoidin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      5,
+      1
+     ],
+     [
+      8,
+      3
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    6.5,
+    2.0
+   ],
+   [
+    6.5,
+    5.0
+   ],
+   [
+    3.5,
+    5.0
+   ],
+   [
+    3.5,
+    2.0
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     7
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "Deltoidin eşit kenarlarının birleştiği köşelerden geçen köşegeni 1 simetri doğrusudur. Diğer köşegen simetri doğrusu değildir.",
+  "textPlain": "Deltoidin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q066",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Karenin bütün simetri doğrularını bul. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      1
+     ],
+     [
+      6,
+      1
+     ],
+     [
+      6,
+      5
+     ],
+     [
+      2,
+      5
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     2,
+     1
+    ],
+    [
+     6,
+     5
+    ]
+   ],
+   [
+    [
+     6,
+     1
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   [
+    [
+     4.0,
+     1.0
+    ],
+    [
+     4.0,
+     5.0
+    ]
+   ],
+   [
+    [
+     6.0,
+     3.0
+    ],
+    [
+     2.0,
+     3.0
+    ]
+   ]
+  ],
+  "correctAnswer": "4 simetri doğrusu (2 eğik, 1 dikey, 1 yatay)",
+  "explanation": "Karenin 4 simetri doğrusu vardır: karşılıklı kenarların orta noktalarından geçen 2 doğru ve 2 köşegen.",
+  "textPlain": "Karenin bütün simetri doğrularını bul. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q067",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Eşkenar dörtgenin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      5,
+      1
+     ],
+     [
+      7,
+      4
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    6.0,
+    2.5
+   ],
+   [
+    6.0,
+    5.5
+   ],
+   [
+    4.0,
+    5.5
+   ],
+   [
+    4.0,
+    2.5
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   [
+    [
+     7,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ]
+  ],
+  "correctAnswer": "2 simetri doğrusu (1 dikey, 1 yatay)",
+  "explanation": "Eşkenar dörtgenin köşegenleri onun simetri doğrularıdır; 2 simetri doğrusu vardır. Kenarların orta noktalarından geçen doğrular simetri doğrusu değildir.",
+  "textPlain": "Eşkenar dörtgenin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q068",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Paralelkenarın simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      2
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      8,
+      6
+     ],
+     [
+      3,
+      6
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    4.5,
+    2.0
+   ],
+   [
+    7.5,
+    4.0
+   ],
+   [
+    5.5,
+    6.0
+   ],
+   [
+    2.5,
+    4.0
+   ]
+  ],
+  "axes": [],
+  "correctAnswer": "Simetri doğrusu yok",
+  "explanation": "Bu paralelkenarın simetri doğrusu yoktur: köşegen ya da kenar ortalarından geçen doğru boyunca katlanınca parçalar üst üste gelmez.",
+  "textPlain": "Paralelkenarın simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q069",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "İkizkenar yamuğun simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      6
+     ],
+     [
+      9,
+      6
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      3,
+      2
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     5.0,
+     6.0
+    ],
+    [
+     5.0,
+     2.0
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "İkizkenar yamuğun paralel kenarlarının orta noktalarından geçen 1 simetri doğrusu vardır.",
+  "textPlain": "İkizkenar yamuğun simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q070",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Dik yamuğun simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      2
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      8,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [],
+  "correctAnswer": "Simetri doğrusu yok",
+  "explanation": "Bu dik yamuğun simetri doğrusu yoktur; hiçbir doğru onu iki eş parçaya ayırmaz.",
+  "textPlain": "Dik yamuğun simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q071",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "H harfinin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       3,
+       7
+      ]
+     ],
+     [
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       7
+      ]
+     ],
+     [
+      [
+       3,
+       4
+      ],
+      [
+       7,
+       4
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     3.0,
+     4.0
+    ],
+    [
+     7.0,
+     4.0
+    ]
+   ],
+   [
+    [
+     5.0,
+     4.0
+    ],
+    [
+     5,
+     0
+    ]
+   ]
+  ],
+  "correctAnswer": "2 simetri doğrusu (1 yatay, 1 dikey)",
+  "explanation": "H harfinin 2 simetri doğrusu vardır: ortadan geçen dikey doğru ve yatay çubuktan geçen yatay doğru.",
+  "textPlain": "H harfinin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q072",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "X harfinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       7,
+       7
+      ]
+     ],
+     [
+      [
+       7,
+       1
+      ],
+      [
+       3,
+       7
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     5.0,
+     4.0
+    ],
+    [
+     0,
+     4
+    ]
+   ],
+   [
+    [
+     5.0,
+     4.0
+    ],
+    [
+     5,
+     0
+    ]
+   ]
+  ],
+  "correctAnswer": "2 simetri doğrusu (1 yatay, 1 dikey)",
+  "explanation": "Bu X harfinin 2 simetri doğrusu vardır: kesişme noktasından geçen dikey ve yatay doğrular. Çubukların kendisi simetri doğrusu değildir çünkü çubuklar birbirine dik değil.",
+  "textPlain": "X harfinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q073",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "N harfinin simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       1
+      ],
+      [
+       7,
+       7
+      ],
+      [
+       7,
+       1
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [],
+  "correctAnswer": "Simetri doğrusu yok",
+  "explanation": "N harfinin simetri doğrusu yoktur. Yarım tur döndürülünce kendisiyle çakışır ama bu yansıma değildir.",
+  "textPlain": "N harfinin simetri doğrusu var mı? Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q074",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 203 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Dijital saatteki 8 rakamının simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       3,
+       1
+      ],
+      [
+       7,
+       1
+      ],
+      [
+       7,
+       7
+      ],
+      [
+       3,
+       7
+      ],
+      [
+       3,
+       1
+      ]
+     ],
+     [
+      [
+       3,
+       4
+      ],
+      [
+       7,
+       4
+      ]
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     5.0,
+     1.0
+    ],
+    [
+     5.0,
+     7.0
+    ]
+   ],
+   [
+    [
+     7.0,
+     4.0
+    ],
+    [
+     3.0,
+     4.0
+    ]
+   ]
+  ],
+  "correctAnswer": "2 simetri doğrusu (1 dikey, 1 yatay)",
+  "explanation": "Dijital 8 rakamının 2 simetri doğrusu vardır: dikey ve yatay orta doğrular.",
+  "textPlain": "Dijital saatteki 8 rakamının simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q075",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 207 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Kilimdeki göz motifinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      5,
+      1
+     ],
+     [
+      8,
+      4
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      2,
+      4
+     ]
+    ],
+    "f": 0
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      5,
+      2.5
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      5,
+      5.5
+     ],
+     [
+      4,
+      4
+     ]
+    ],
+    "f": 2
+   }
+  ],
+  "keys": [
+   [
+    5,
+    1
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    6.5,
+    2.5
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    6.5,
+    5.5
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3.5,
+    5.5
+   ],
+   [
+    3.5,
+    2.5
+   ],
+   [
+    5,
+    2.5
+   ],
+   [
+    6,
+    4
+   ],
+   [
+    5.5,
+    3.25
+   ],
+   [
+    5,
+    5.5
+   ],
+   [
+    5.5,
+    4.75
+   ],
+   [
+    4,
+    4
+   ],
+   [
+    4.5,
+    4.75
+   ],
+   [
+    4.5,
+    3.25
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5,
+     1
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   [
+    [
+     8,
+     4
+    ],
+    [
+     2,
+     4
+    ]
+   ]
+  ],
+  "correctAnswer": "2 simetri doğrusu (1 dikey, 1 yatay)",
+  "explanation": "Göz motifindeki iki iç içe eşkenar dörtgenin ortak 2 simetri doğrusu vardır: dikey ve yatay köşegenler.",
+  "textPlain": "Kilimdeki göz motifinin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q076",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "İki eş üçgen gizli bir doğruya göre simetrik mi? Simetrikse o doğruyu çiz; değilse hiçbir şey çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      2
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      2,
+      5
+     ]
+    ],
+    "f": 1
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      9,
+      2
+     ],
+     [
+      7,
+      1
+     ],
+     [
+      8,
+      5
+     ]
+    ],
+    "f": 0
+   }
+  ],
+  "keys": [
+   [
+    2.0,
+    1.5
+   ],
+   [
+    2.5,
+    3.0
+   ],
+   [
+    1.5,
+    3.5
+   ],
+   [
+    8.0,
+    1.5
+   ],
+   [
+    7.5,
+    3.0
+   ],
+   [
+    8.5,
+    3.5
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5,
+     0
+    ],
+    [
+     5,
+     1
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 dikey)",
+  "explanation": "Karşılıklı köşeleri birleştiren doğru parçaları birbirine paraleldir ve hepsinin orta noktası aynı dikey doğru üzerindedir. Bu doğru (x = 5) gizli simetri doğrusudur.",
+  "textPlain": "İki eş üçgen gizli bir doğruya göre simetrik mi? Simetrikse o doğruyu çiz; değilse hiçbir şey çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q077",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "İki eş dörtgenin arasında gizli bir simetri doğrusu var mı? Varsa çiz; yoksa hiçbir şey çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      4,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "f": 4
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      7
+     ],
+     [
+      4,
+      7
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      2,
+      5
+     ]
+    ],
+    "f": 3
+   }
+  ],
+  "keys": [
+   [
+    2.5,
+    1.0
+   ],
+   [
+    1.5,
+    2.0
+   ],
+   [
+    2.5,
+    7.0
+   ],
+   [
+    1.5,
+    6.0
+   ]
+  ],
+  "axes": [
+   [
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 yatay)",
+  "explanation": "Karşılıklı köşeler yatay doğrunun iki yanında ona eşit uzaklıktadır ve onları birleştiren doğru parçaları doğruya diktir. Gizli simetri doğrusu yataydır.",
+  "textPlain": "İki eş dörtgenin arasında gizli bir simetri doğrusu var mı? Varsa çiz; yoksa hiçbir şey çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q078",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 217 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "simetri",
+  "rank": 2,
+  "questionType": "axis_draw",
+  "text": "Bu iki eş üçgen bir doğruya göre simetrik mi? Simetrikse doğruyu çiz; değilse hiçbir şey çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      2,
+      4
+     ]
+    ],
+    "f": 1
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      6,
+      4
+     ],
+     [
+      9,
+      5
+     ],
+     [
+      7,
+      7
+     ]
+    ],
+    "f": 0
+   }
+  ],
+  "keys": [
+   [
+    2.5,
+    1.5
+   ],
+   [
+    1.5,
+    2.5
+   ],
+   [
+    7.5,
+    4.5
+   ],
+   [
+    6.5,
+    5.5
+   ]
+  ],
+  "axes": [],
+  "correctAnswer": "Simetri doğrusu yok",
+  "explanation": "İkinci üçgen birincinin kaydırılmış hâlidir; karşılıklı köşeleri birleştiren doğru parçalarına dik ve onları ortalayan ortak bir doğru yoktur. Simetri doğrusu yoktur.",
+  "textPlain": "Bu iki eş üçgen bir doğruya göre simetrik mi? Simetrikse doğruyu çiz; değilse hiçbir şey çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q079",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "Eşkenar üçgenin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      7
+     ],
+     [
+      8,
+      7
+     ],
+     [
+      5,
+      1.803847577293368
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [
+   [
+    2,
+    7
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    5.0,
+    7.0
+   ],
+   [
+    5,
+    1.803848
+   ],
+   [
+    6.5,
+    4.401924
+   ],
+   [
+    3.5,
+    4.401924
+   ]
+  ],
+  "axes": [
+   [
+    [
+     2,
+     7
+    ],
+    [
+     6.5,
+     4.401924
+    ]
+   ],
+   [
+    [
+     8,
+     7
+    ],
+    [
+     3.5,
+     4.401924
+    ]
+   ],
+   [
+    [
+     5.0,
+     7.0
+    ],
+    [
+     5,
+     1.803848
+    ]
+   ]
+  ],
+  "correctAnswer": "3 simetri doğrusu (2 eğik, 1 dikey)",
+  "explanation": "Eşkenar üçgenin 3 simetri doğrusu vardır: her köşeden karşı kenarın orta noktasına giden doğrular.",
+  "textPlain": "Eşkenar üçgenin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q080",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "Düzgün beşgenin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      5.0,
+      0.8999999999999999
+     ],
+     [
+      1.7664078445964781,
+      3.2493422191251784
+     ],
+     [
+      3.001530142205591,
+      7.05065778087482
+     ],
+     [
+      6.998469857794408,
+      7.050657780874822
+     ],
+     [
+      8.233592155403523,
+      3.2493422191251797
+     ]
+    ],
+    "f": null,
+    "center": [
+     5,
+     4.3
+    ]
+   }
+  ],
+  "keys": [
+   [
+    5.0,
+    0.9
+   ],
+   [
+    1.766408,
+    3.249342
+   ],
+   [
+    3.383204,
+    2.074671
+   ],
+   [
+    3.00153,
+    7.050658
+   ],
+   [
+    2.383969,
+    5.15
+   ],
+   [
+    6.99847,
+    7.050658
+   ],
+   [
+    5.0,
+    7.050658
+   ],
+   [
+    8.233592,
+    3.249342
+   ],
+   [
+    7.616031,
+    5.15
+   ],
+   [
+    6.616796,
+    2.074671
+   ],
+   [
+    5,
+    4.3
+   ]
+  ],
+  "axes": [
+   [
+    [
+     5.0,
+     0.9
+    ],
+    [
+     5.0,
+     7.050658
+    ]
+   ],
+   [
+    [
+     1.766408,
+     3.249342
+    ],
+    [
+     7.616031,
+     5.15
+    ]
+   ],
+   [
+    [
+     3.383204,
+     2.074671
+    ],
+    [
+     6.99847,
+     7.050658
+    ]
+   ],
+   [
+    [
+     3.00153,
+     7.050658
+    ],
+    [
+     6.616796,
+     2.074671
+    ]
+   ],
+   [
+    [
+     2.383969,
+     5.15
+    ],
+    [
+     8.233592,
+     3.249342
+    ]
+   ]
+  ],
+  "correctAnswer": "5 simetri doğrusu (1 dikey, 4 eğik)",
+  "explanation": "Düzgün beşgenin 5 simetri doğrusu vardır: her köşeden karşı kenarın orta noktasına giden doğrular.",
+  "textPlain": "Düzgün beşgenin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q081",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 205 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "Düzgün altıgenin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      8.4,
+      4.0
+     ],
+     [
+      6.7,
+      1.0555136271329086
+     ],
+     [
+      3.3000000000000007,
+      1.0555136271329086
+     ],
+     [
+      1.6,
+      3.9999999999999996
+     ],
+     [
+      3.2999999999999985,
+      6.9444863728670905
+     ],
+     [
+      6.7,
+      6.944486372867091
+     ]
+    ],
+    "f": null,
+    "center": [
+     5,
+     4
+    ]
+   }
+  ],
+  "keys": [
+   [
+    8.4,
+    4.0
+   ],
+   [
+    6.7,
+    1.055514
+   ],
+   [
+    7.55,
+    2.527757
+   ],
+   [
+    3.3,
+    1.055514
+   ],
+   [
+    5.0,
+    1.055514
+   ],
+   [
+    1.6,
+    4.0
+   ],
+   [
+    2.45,
+    2.527757
+   ],
+   [
+    3.3,
+    6.944486
+   ],
+   [
+    2.45,
+    5.472243
+   ],
+   [
+    6.7,
+    6.944486
+   ],
+   [
+    5.0,
+    6.944486
+   ],
+   [
+    7.55,
+    5.472243
+   ],
+   [
+    5,
+    4
+   ]
+  ],
+  "axes": [
+   [
+    [
+     8.4,
+     4.0
+    ],
+    [
+     1.6,
+     4.0
+    ]
+   ],
+   [
+    [
+     6.7,
+     1.055514
+    ],
+    [
+     3.3,
+     6.944486
+    ]
+   ],
+   [
+    [
+     7.55,
+     2.527757
+    ],
+    [
+     2.45,
+     5.472243
+    ]
+   ],
+   [
+    [
+     3.3,
+     1.055514
+    ],
+    [
+     6.7,
+     6.944486
+    ]
+   ],
+   [
+    [
+     5.0,
+     1.055514
+    ],
+    [
+     5.0,
+     6.944486
+    ]
+   ],
+   [
+    [
+     2.45,
+     2.527757
+    ],
+    [
+     7.55,
+     5.472243
+    ]
+   ]
+  ],
+  "correctAnswer": "6 simetri doğrusu (1 yatay, 4 eğik, 1 dikey)",
+  "explanation": "Düzgün altıgenin 6 simetri doğrusu vardır: karşılıklı köşelerden geçen 3 doğru ve karşılıklı kenarların orta noktalarından geçen 3 doğru.",
+  "textPlain": "Düzgün altıgenin bütün simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q082",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 217 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "Daire diliminin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "sector",
+    "c": [
+     2,
+     7
+    ],
+    "r": 5.5,
+    "a1": 10,
+    "a2": 70,
+    "f": 2
+   }
+  ],
+  "keys": [
+   [
+    2,
+    7
+   ],
+   [
+    7.416443,
+    6.044935
+   ],
+   [
+    4.708221,
+    6.522468
+   ],
+   [
+    3.881111,
+    1.831691
+   ],
+   [
+    2.940555,
+    4.415845
+   ],
+   [
+    6.213244,
+    3.464668
+   ]
+  ],
+  "axes": [
+   [
+    [
+     2,
+     7
+    ],
+    [
+     6.213244,
+     3.464668
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 eğik)",
+  "explanation": "Daire diliminin 1 simetri doğrusu vardır: merkezden ve yayın orta noktasından geçen doğru. Bu doğru dilimin açısının açıortayıdır.",
+  "textPlain": "Daire diliminin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q083",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Simetri doğruları",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 208 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "İkizkenar dik üçgenin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      1
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      8,
+      7
+     ]
+    ],
+    "f": null
+   }
+  ],
+  "keys": [],
+  "axes": [
+   [
+    [
+     2,
+     7
+    ],
+    [
+     5.0,
+     4.0
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 eğik)",
+  "explanation": "İkizkenar dik üçgenin 1 simetri doğrusu vardır: dik açının köşesinden hipotenüsün orta noktasına giden eğik doğru.",
+  "textPlain": "İkizkenar dik üçgenin simetri doğrularını çiz. Şeklin bütün simetri doğrularını çiz. Simetri doğrusu yoksa hiç çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q084",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "İki eş üçgen gizli bir eğik doğruya göre simetrik olabilir. Varsa o doğruyu çiz; yoksa hiçbir şey çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      4,
+      1
+     ],
+     [
+      7,
+      2
+     ],
+     [
+      5,
+      3
+     ]
+    ],
+    "f": 1
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      7
+     ],
+     [
+      3,
+      5
+     ]
+    ],
+    "f": 0
+   }
+  ],
+  "keys": [
+   [
+    5.5,
+    1.5
+   ],
+   [
+    6.0,
+    2.5
+   ],
+   [
+    4.5,
+    2.0
+   ],
+   [
+    1.5,
+    5.5
+   ],
+   [
+    2.5,
+    6.0
+   ],
+   [
+    2.0,
+    4.5
+   ]
+  ],
+  "axes": [
+   [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     1
+    ]
+   ]
+  ],
+  "correctAnswer": "1 simetri doğrusu (1 eğik)",
+  "explanation": "Karşılıklı köşeleri birleştiren doğru parçaları birbirine paraleldir; orta noktaları karelerin köşegeni boyunca uzanan aynı eğik doğru üzerindedir. Gizli simetri doğrusu bu eğik doğrudur.",
+  "textPlain": "İki eş üçgen gizli bir eğik doğruya göre simetrik olabilir. Varsa o doğruyu çiz; yoksa hiçbir şey çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q085",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Şekillerin bir doğruya göre yansıma dönüşümü altındaki görüntülerinin oluşturulmasına dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 206 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "simetri",
+  "rank": 3,
+  "questionType": "axis_draw",
+  "text": "İki eş üçgen bir doğruya göre simetrik mi? Simetrikse doğruyu çiz; değilse hiçbir şey çizmeden kontrol et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "shapes": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      1,
+      1
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      2,
+      4
+     ]
+    ],
+    "f": 1
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      9,
+      7
+     ],
+     [
+      6,
+      6
+     ],
+     [
+      8,
+      4
+     ]
+    ],
+    "f": 0
+   }
+  ],
+  "keys": [
+   [
+    2.5,
+    1.5
+   ],
+   [
+    1.5,
+    2.5
+   ],
+   [
+    7.5,
+    6.5
+   ],
+   [
+    8.5,
+    5.5
+   ]
+  ],
+  "axes": [],
+  "correctAnswer": "Simetri doğrusu yok",
+  "explanation": "Karşılıklı köşeleri birleştiren doğru parçaları birbirine paralel değildir; bu yüzden şekiller bir doğruya göre simetrik olamaz. İkinci üçgen birincinin yarım tur döndürülmüş hâlidir. Simetri doğrusu yoktur.",
+  "textPlain": "İki eş üçgen bir doğruya göre simetrik mi? Simetrikse doğruyu çiz; değilse hiçbir şey çizmeden kontrol et."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q086",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 215 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ortadikme",
+  "rank": 1,
+  "questionType": "compass_build",
+  "text": "AB doğru parçasının orta dikmesi için çemberler çizildi (AB = 6 birim). Cetvelin iki ucunu çemberlerin kesişim noktalarına sürükleyerek orta dikmeyi çiz.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    2,
+    4
+   ],
+   "B": [
+    8,
+    4
+   ]
+  },
+  "pre": [
+   {
+    "c": [
+     2,
+     4
+    ],
+    "r": 4
+   },
+   {
+    "c": [
+     8,
+     4
+    ],
+    "r": 4
+   }
+  ],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AB doğru parçasının orta dikmesi: A ve B merkezli, yarıçapı AB’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur.",
+  "textPlain": "AB doğru parçasının orta dikmesi için çemberler çizildi (AB = 6 birim). Cetvelin iki ucunu çemberlerin kesişim noktalarına sürükleyerek orta dikmeyi çiz. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q087",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 215 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ortadikme",
+  "rank": 1,
+  "questionType": "compass_build",
+  "text": "İnşa yarım kaldı: A merkezli çember çizildi. Pergel açıklığını bozmadan B merkezli eş çemberi çiz, sonra cetvelle orta dikmeyi tamamla. (AB = 5 birim)",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    2,
+    4
+   ],
+   "B": [
+    7,
+    4
+   ]
+  },
+  "pre": [
+   {
+    "c": [
+     2,
+     4
+    ],
+    "r": 3.5
+   }
+  ],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AB doğru parçasının orta dikmesi: A ve B merkezli, yarıçapı AB’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur.",
+  "textPlain": "İnşa yarım kaldı: A merkezli çember çizildi. Pergel açıklığını bozmadan B merkezli eş çemberi çiz, sonra cetvelle orta dikmeyi tamamla. (AB = 5 birim) [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q088",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 216 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ortadikme",
+  "rank": 1,
+  "questionType": "compass_build",
+  "text": "Ece çemberleri AB’nin yarısından kısa yarıçapla çizdi; çemberler kesişmedi! Yarıçapı AB’nin yarısından büyük seçerek orta dikmeyi doğru inşa et. (AB = 6 birim)",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    2,
+    4
+   ],
+   "B": [
+    8,
+    4
+   ]
+  },
+  "pre": [
+   {
+    "c": [
+     2,
+     4
+    ],
+    "r": 2
+   },
+   {
+    "c": [
+     8,
+     4
+    ],
+    "r": 2
+   }
+  ],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AB doğru parçasının orta dikmesi: A ve B merkezli, yarıçapı AB’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur. Yarıçap AB’nin yarısından küçükse çemberler kesişmez ve kesişim noktası bulunamaz.",
+  "textPlain": "Ece çemberleri AB’nin yarısından kısa yarıçapla çizdi; çemberler kesişmedi! Yarıçapı AB’nin yarısından büyük seçerek orta dikmeyi doğru inşa et. (AB = 6 birim) [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q089",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 212 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ortadikme",
+  "rank": 2,
+  "questionType": "compass_build",
+  "text": "Kerim, yalnızca pergel ve ölçüsüz cetvel kullanarak AB doğru parçasının simetri doğrusunu inşa etmek istiyor. Ona yardım et. (AB = 4 birim)",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    3,
+    4
+   ],
+   "B": [
+    7,
+    4
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AB doğru parçasının orta dikmesi: A ve B merkezli, yarıçapı AB’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur.",
+  "textPlain": "Kerim, yalnızca pergel ve ölçüsüz cetvel kullanarak AB doğru parçasının simetri doğrusunu inşa etmek istiyor. Ona yardım et. (AB = 4 birim) [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q090",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 212 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ortadikme",
+  "rank": 2,
+  "questionType": "compass_build",
+  "text": "Dikey AB doğru parçasının orta dikmesini pergel ve ölçüsüz cetvelle inşa et. (AB = 5 birim)",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    5,
+    1
+   ],
+   "B": [
+    5,
+    6
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AB doğru parçasının orta dikmesi: A ve B merkezli, yarıçapı AB’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur.",
+  "textPlain": "Dikey AB doğru parçasının orta dikmesini pergel ve ölçüsüz cetvelle inşa et. (AB = 5 birim) [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q091",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ortadikme",
+  "rank": 2,
+  "questionType": "compass_build",
+  "text": "Eğik duran AB doğru parçasının orta dikmesini inşa et. Pergel açıklığı AB’nin yarısından büyük olmalı.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    2,
+    6
+   ],
+   "B": [
+    7,
+    2
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AB doğru parçasının orta dikmesi: A ve B merkezli, yarıçapı AB’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur.",
+  "textPlain": "Eğik duran AB doğru parçasının orta dikmesini inşa et. Pergel açıklığı AB’nin yarısından büyük olmalı. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q092",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 216 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ortadikme",
+  "rank": 3,
+  "questionType": "compass_build",
+  "text": "CD doğru parçasının orta dikmesini inşa et. Çemberlerin hangi yarıçapla kesişeceğini düşün.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "C": [
+    3,
+    1
+   ],
+   "D": [
+    6,
+    7
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "CD doğru parçasının orta dikmesi: C ve D merkezli, yarıçapı CD’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur.",
+  "textPlain": "CD doğru parçasının orta dikmesini inşa et. Çemberlerin hangi yarıçapla kesişeceğini düşün. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q093",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 217 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ortadikme",
+  "rank": 3,
+  "questionType": "compass_build",
+  "text": "ABC ve A′B′C′ eş üçgenleri gizli bir doğruya göre simetrik. A ve A′ noktalarını kullanarak bu gizli simetri doğrusunu pergel ve ölçüsüz cetvelle inşa et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "A": [
+    2,
+    1
+   ],
+   "A′": [
+    8,
+    7
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "AA′ doğru parçasının orta dikmesi: A ve A′ merkezli, yarıçapı AA′’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur. Simetri doğrusu, karşılıklı simetrik noktaları birleştiren AA′ doğru parçasını dik ortalar; bu yüzden AA′’nün orta dikmesi gizli simetri doğrusudur.",
+  "decor": [
+   {
+    "k": "poly",
+    "pts": [
+     [
+      2,
+      1
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "f": 1
+   },
+   {
+    "k": "poly",
+    "pts": [
+     [
+      8,
+      7
+     ],
+     [
+      8,
+      5
+     ],
+     [
+      6,
+      7
+     ]
+    ],
+    "f": 0
+   }
+  ],
+  "noSeg": true,
+  "textPlain": "ABC ve A′B′C′ eş üçgenleri gizli bir doğruya göre simetrik. A ve A′ noktalarını kullanarak bu gizli simetri doğrusunu pergel ve ölçüsüz cetvelle inşa et. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q094",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Gizli simetri doğrusu",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 211 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ortadikme",
+  "rank": 3,
+  "questionType": "compass_build",
+  "text": "AB ve A′B′ doğru parçaları gizli bir doğruya göre simetrik. B ve B′ noktalarını kullanarak simetri doğrusunu inşa et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "perp",
+  "named": {
+   "B": [
+    2,
+    6
+   ],
+   "B′": [
+    6,
+    2
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "BB′ doğru parçasının orta dikmesi: B ve B′ merkezli, yarıçapı BB′’nin yarısından büyük eş çemberlerin iki kesişim noktasından geçen doğru",
+  "explanation": "Orta dikme inşası: pergelin sivri ucunu bir uca koy, açıklığı doğru parçasının yarısından büyük seçip çember çiz; açıklığı bozmadan öbür uca koyup eş çemberi çiz. İki çemberin kesişim noktalarını ölçüsüz cetvelle birleştir. Bu doğru, doğru parçasını dik ortalar; doğru parçasının simetri doğrusudur. Simetri doğrusu BB′ doğru parçasını dik ortalar; BB′’nün orta dikmesi aranan doğrudur.",
+  "decor": [
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       1,
+       2
+      ],
+      [
+       2,
+       6
+      ]
+     ]
+    ],
+    "f": 1
+   },
+   {
+    "k": "stroke",
+    "paths": [
+     [
+      [
+       2,
+       7
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    ],
+    "f": 0
+   }
+  ],
+  "noSeg": true,
+  "textPlain": "AB ve A′B′ doğru parçaları gizli bir doğruya göre simetrik. B ve B′ noktalarını kullanarak simetri doğrusunu inşa et. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q095",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ortadikme",
+  "rank": 1,
+  "questionType": "ray_turn",
+  "text": "AB = 6 cm. M noktasını kaydırıp doğruyu döndürerek AB’nin orta dikmesini oluştur.",
+  "canvas": {
+   "w": 10,
+   "h": 6
+  },
+  "mode": "perp",
+  "correctAnswer": "AM = 3 cm, açı = 90°",
+  "explanation": "Orta dikme doğru parçasını dik keser ve iki eş parçaya ayırır. AB = 6 cm olduğundan M, A’dan 3 cm uzakta olmalı ve doğru AB ile 90° açı yapmalıdır.",
+  "A": [
+   0.8,
+   4.2
+  ],
+  "len": 6,
+  "scale": 1.0,
+  "tilt": 0,
+  "start": {
+   "m": 1,
+   "a": 60
+  },
+  "textPlain": "AB = 6 cm. M noktasını kaydırıp doğruyu döndürerek AB’nin orta dikmesini oluştur."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q096",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "ortadikme",
+  "rank": 1,
+  "questionType": "ray_turn",
+  "text": "AB = 8 cm. AB’yi dik kesen ve iki eş parçaya ayıran doğruyu (orta dikmeyi) oluştur.",
+  "canvas": {
+   "w": 10,
+   "h": 6
+  },
+  "mode": "perp",
+  "correctAnswer": "AM = 4 cm, açı = 90°",
+  "explanation": "Orta dikme doğru parçasını dik keser ve iki eş parçaya ayırır. AB = 8 cm olduğundan M, A’dan 4 cm uzakta olmalı ve doğru AB ile 90° açı yapmalıdır.",
+  "A": [
+   0.8,
+   4.2
+  ],
+  "len": 8,
+  "scale": 1.0,
+  "tilt": 0,
+  "start": {
+   "m": 6,
+   "a": 45
+  },
+  "textPlain": "AB = 8 cm. AB’yi dik kesen ve iki eş parçaya ayıran doğruyu (orta dikmeyi) oluştur."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q097",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ortadikme",
+  "rank": 2,
+  "questionType": "ray_turn",
+  "text": "AB = 7 cm. Orta dikmeyi oluştur: M nerede olmalı, doğru kaç derece açı yapmalı?",
+  "canvas": {
+   "w": 10,
+   "h": 6
+  },
+  "mode": "perp",
+  "correctAnswer": "AM = 3,5 cm, açı = 90°",
+  "explanation": "Orta dikme doğru parçasını dik keser ve iki eş parçaya ayırır. AB = 7 cm olduğundan M, A’dan 3,5 cm uzakta olmalı ve doğru AB ile 90° açı yapmalıdır.",
+  "A": [
+   0.8,
+   4.2
+  ],
+  "len": 7,
+  "scale": 1.0,
+  "tilt": 0,
+  "start": {
+   "m": 2,
+   "a": 120
+  },
+  "textPlain": "AB = 7 cm. Orta dikmeyi oluştur: M nerede olmalı, doğru kaç derece açı yapmalı?"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q098",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "ortadikme",
+  "rank": 2,
+  "questionType": "ray_turn",
+  "text": "AB = 5 cm. Orta dikme AB’yi nerede ve hangi açıyla keser? Doğruyu yerleştir.",
+  "canvas": {
+   "w": 10,
+   "h": 6
+  },
+  "mode": "perp",
+  "correctAnswer": "AM = 2,5 cm, açı = 90°",
+  "explanation": "Orta dikme doğru parçasını dik keser ve iki eş parçaya ayırır. AB = 5 cm olduğundan M, A’dan 2,5 cm uzakta olmalı ve doğru AB ile 90° açı yapmalıdır.",
+  "A": [
+   0.8,
+   4.2
+  ],
+  "len": 5,
+  "scale": 1.0,
+  "tilt": 0,
+  "start": {
+   "m": 4,
+   "a": 30
+  },
+  "textPlain": "AB = 5 cm. Orta dikme AB’yi nerede ve hangi açıyla keser? Doğruyu yerleştir."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q099",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ortadikme",
+  "rank": 3,
+  "questionType": "ray_turn",
+  "text": "Eğik duran AB = 9 cm. Orta dikmeyi oluştur.",
+  "canvas": {
+   "w": 10,
+   "h": 6
+  },
+  "mode": "perp",
+  "correctAnswer": "AM = 4,5 cm, açı = 90°",
+  "explanation": "Orta dikme doğru parçasını dik keser ve iki eş parçaya ayırır. AB = 9 cm olduğundan M, A’dan 4,5 cm uzakta olmalı ve doğru AB ile 90° açı yapmalıdır.",
+  "A": [
+   0.8,
+   5.6
+  ],
+  "len": 9,
+  "scale": 0.9333333333333333,
+  "tilt": 20,
+  "start": {
+   "m": 2,
+   "a": 135
+  },
+  "textPlain": "Eğik duran AB = 9 cm. Orta dikmeyi oluştur."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q100",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Orta dikme inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "ortadikme",
+  "rank": 3,
+  "questionType": "ray_turn",
+  "text": "Eğik duran AB = 7 cm. AB’nin simetri doğrusu olan orta dikmeyi oluştur.",
+  "canvas": {
+   "w": 10,
+   "h": 6
+  },
+  "mode": "perp",
+  "correctAnswer": "AM = 3,5 cm, açı = 90°",
+  "explanation": "Orta dikme doğru parçasını dik keser ve iki eş parçaya ayırır. AB = 7 cm olduğundan M, A’dan 3,5 cm uzakta olmalı ve doğru AB ile 90° açı yapmalıdır.",
+  "A": [
+   0.8,
+   5.6
+  ],
+  "len": 7,
+  "scale": 1.0,
+  "tilt": 25,
+  "start": {
+   "m": 6,
+   "a": 60
+  },
+  "textPlain": "Eğik duran AB = 7 cm. AB’nin simetri doğrusu olan orta dikmeyi oluştur."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q101",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 215 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "aciortay",
+  "rank": 1,
+  "questionType": "compass_build",
+  "text": "Açıortay inşası yarım kaldı: O merkezli çember ile K ve L merkezli eş çemberler çizildi. Cetveli O ile kesişim noktasına yerleştirerek açıortayı çiz.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    1.5,
+    6.5
+   ],
+   "K": [
+    4.0,
+    6.5
+   ],
+   "L": [
+    2.75,
+    4.334936491
+   ]
+  },
+  "pre": [
+   {
+    "c": [
+     1.5,
+     6.5
+    ],
+    "r": 2.5
+   },
+   {
+    "c": [
+     4.0,
+     6.5
+    ],
+    "r": 2
+   },
+   {
+    "c": [
+     2.75,
+     4.334936491
+    ],
+    "r": 2
+   }
+  ],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur.",
+  "arms": [
+   [
+    8.5,
+    6.5
+   ],
+   [
+    5.0,
+    0.437822174
+   ]
+  ],
+  "labelO": [
+   2.366025,
+   6.0
+  ],
+  "textPlain": "Açıortay inşası yarım kaldı: O merkezli çember ile K ve L merkezli eş çemberler çizildi. Cetveli O ile kesişim noktasına yerleştirerek açıortayı çiz. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q102",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 215 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "aciortay",
+  "rank": 1,
+  "questionType": "compass_build",
+  "text": "O merkezli çember kolları K ve L noktalarında kesti. K ve L merkezli eş çemberleri çiz, sonra cetvelle açıortayı tamamla.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    1.5,
+    6.5
+   ],
+   "K": [
+    4.454423259,
+    5.979055467
+   ],
+   "L": [
+    2.020944533,
+    3.545576741
+   ]
+  },
+  "pre": [
+   {
+    "c": [
+     1.5,
+     6.5
+    ],
+    "r": 3
+   }
+  ],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur.",
+  "arms": [
+   [
+    7.605808069,
+    5.423381298
+   ],
+   [
+    2.576618702,
+    0.394191931
+   ]
+  ],
+  "labelO": [
+   2.207107,
+   5.792893
+  ],
+  "textPlain": "O merkezli çember kolları K ve L noktalarında kesti. K ve L merkezli eş çemberleri çiz, sonra cetvelle açıortayı tamamla. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q103",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 213 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "aciortay",
+  "rank": 2,
+  "questionType": "compass_build",
+  "text": "Yalnızca pergel ve ölçüsüz cetvel kullanarak O açısının açıortayını inşa et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    1.5,
+    6.5
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur.",
+  "arms": [
+   [
+    8.5,
+    6.5
+   ],
+   [
+    5.999513268,
+    1.137688898
+   ]
+  ],
+  "labelO": [
+   2.406308,
+   6.077382
+  ],
+  "textPlain": "Yalnızca pergel ve ölçüsüz cetvel kullanarak O açısının açıortayını inşa et. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q104",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "aciortay",
+  "rank": 2,
+  "questionType": "compass_build",
+  "text": "Geniş açılı O açısının açıortayını pergel ve ölçüsüz cetvelle inşa et.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    5,
+    6.5
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur.",
+  "arms": [
+   [
+    9.228616794,
+    4.960909355
+   ],
+   [
+    1.552800006,
+    3.607455756
+   ]
+  ],
+  "labelO": [
+   5.173648,
+   5.515192
+  ],
+  "textPlain": "Geniş açılı O açısının açıortayını pergel ve ölçüsüz cetvelle inşa et. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q105",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 217 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "aciortay",
+  "rank": 2,
+  "questionType": "compass_build",
+  "text": "Daire diliminin simetri doğrusunu yalnızca pergel ve ölçüsüz cetvelle inşa et. (İpucu: dilimin açısının açıortayı)",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    1.5,
+    6.5
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur. Daire diliminin simetri doğrusu, dilimin açısının açıortayıdır.",
+  "arms": [
+   [
+    7.477168189,
+    5.977065544
+   ],
+   [
+    3.052914271,
+    0.704445042
+   ]
+  ],
+  "decor": [
+   {
+    "k": "sector",
+    "c": [
+     1.5,
+     6.5
+    ],
+    "r": 6,
+    "a1": 5,
+    "a2": 75,
+    "f": 2
+   }
+  ],
+  "labelO": [
+   2.266044,
+   5.857212
+  ],
+  "textPlain": "Daire diliminin simetri doğrusunu yalnızca pergel ve ölçüsüz cetvelle inşa et. (İpucu: dilimin açısının açıortayı) [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q106",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "aciortay",
+  "rank": 3,
+  "questionType": "compass_build",
+  "text": "Dik açının açıortayını inşa et. Kollar eğik duruyor; dikkatli ol!",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    3,
+    7
+   ]
+  },
+  "pre": [],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur.",
+  "arms": [
+   [
+    8.168309414,
+    5.118889212
+   ],
+   [
+    1.118889212,
+    1.831690586
+   ]
+  ],
+  "labelO": [
+   3.422618,
+   6.093692
+  ],
+  "textPlain": "Dik açının açıortayını inşa et. Kollar eğik duruyor; dikkatli ol! [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q107",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 216 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "aciortay",
+  "rank": 3,
+  "questionType": "compass_build",
+  "text": "Mert, K ve L merkezli çemberleri çok küçük yarıçapla çizdi; çemberler kesişmedi. İnşayı doğru biçimde tamamla.",
+  "canvas": {
+   "w": 10,
+   "h": 8
+  },
+  "mode": "bis",
+  "named": {
+   "O": [
+    1.5,
+    6.5
+   ],
+   "K": [
+    4.5,
+    6.5
+   ],
+   "L": [
+    2.52606043,
+    3.680922138
+   ]
+  },
+  "pre": [
+   {
+    "c": [
+     1.5,
+     6.5
+    ],
+    "r": 3
+   },
+   {
+    "c": [
+     4.5,
+     6.5
+    ],
+    "r": 1
+   },
+   {
+    "c": [
+     2.52606043,
+     3.680922138
+    ],
+    "r": 1
+   }
+  ],
+  "compass": {
+   "n": [
+    8.6,
+    7.4
+   ],
+   "r": 1.5,
+   "a": 3.141592653589793
+  },
+  "ruler": [
+   [
+    0.6,
+    7.6
+   ],
+   [
+    3.4,
+    7.6
+   ]
+  ],
+  "correctAnswer": "Açıortay: köşe O ile, kollar üzerindeki K ve L merkezli eş çemberlerin kesişim noktasından geçen doğru",
+  "explanation": "Açıortay inşası: pergeli açının köşesine koyup kolları K ve L noktalarında kesen bir çember çiz. K ve L merkezli, KL’nin yarısından büyük ve eşit yarıçaplı iki çember çiz. Bu çemberlerin kesişim noktasını köşeyle cetvelle birleştir. Bu doğru açıyı iki eş açıya ayırır; açının simetri doğrusudur. K ve L merkezli çemberlerin yarıçapı KL’nin yarısından büyük olmalıdır; yoksa çemberler kesişmez.",
+  "arms": [
+   [
+    7.8,
+    6.5
+   ],
+   [
+    3.654726903,
+    0.579936489
+   ]
+  ],
+  "labelO": [
+   2.319152,
+   5.926424
+  ],
+  "textPlain": "Mert, K ve L merkezli çemberleri çok küçük yarıçapla çizdi; çemberler kesişmedi. İnşayı doğru biçimde tamamla. [Pergel ve ölçüsüz cetvelle ekranda inşa]"
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q108",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "aciortay",
+  "rank": 1,
+  "questionType": "ray_turn",
+  "text": "∠AOB = 80°. OC ışınını döndürerek açının açıortayı yap.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "bis",
+  "correctAnswer": "∠AOC = ∠COB = 40°",
+  "explanation": "Açıortay açıyı iki eş açıya ayırır: ∠AOB = 80° olduğundan ∠AOC = ∠COB = 40° olmalıdır.",
+  "len": 3.2,
+  "start": 22,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 10,
+  "a2": 90,
+  "answer": 50,
+  "textPlain": "∠AOB = 80°. OC ışınını döndürerek açının açıortayı yap."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q109",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "aciortay",
+  "rank": 1,
+  "questionType": "ray_turn",
+  "text": "∠AOB = 120°. OC ışınını açıyı iki eş açıya ayıracak biçimde döndür.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "bis",
+  "correctAnswer": "∠AOC = ∠COB = 60°",
+  "explanation": "Açıortay açıyı iki eş açıya ayırır: ∠AOB = 120° olduğundan ∠AOC = ∠COB = 60° olmalıdır.",
+  "len": 3.2,
+  "start": 42,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 30,
+  "a2": 150,
+  "answer": 90,
+  "textPlain": "∠AOB = 120°. OC ışınını açıyı iki eş açıya ayıracak biçimde döndür."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q110",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "aciortay",
+  "rank": 2,
+  "questionType": "ray_turn",
+  "text": "∠AOB = 64°. OC ışınını açıortay olacak biçimde yerleştir.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "bis",
+  "correctAnswer": "∠AOC = ∠COB = 32°",
+  "explanation": "Açıortay açıyı iki eş açıya ayırır: ∠AOB = 64° olduğundan ∠AOC = ∠COB = 32° olmalıdır.",
+  "len": 3.2,
+  "start": 112,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 100,
+  "a2": 164,
+  "answer": 132,
+  "textPlain": "∠AOB = 64°. OC ışınını açıortay olacak biçimde yerleştir."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q111",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "aciortay",
+  "rank": 2,
+  "questionType": "ray_turn",
+  "text": "OC, AOB açısının açıortayı ve ∠AOC = 35°. OB kolunu doğru yere döndür.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "arm",
+  "correctAnswer": "∠AOB = 70° (∠COB = ∠AOC = 35°)",
+  "explanation": "OC açıortay olduğundan ∠AOC = ∠COB = 35° olmalı; bu yüzden ∠AOB = 70° olur ve OB, OC’nin öbür yanında kalır.",
+  "len": 3.2,
+  "start": 65,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 20,
+  "c": 55,
+  "answer": 90,
+  "textPlain": "OC, AOB açısının açıortayı ve ∠AOC = 35°. OB kolunu doğru yere döndür."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q112",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "aciortay",
+  "rank": 2,
+  "questionType": "ray_turn",
+  "text": "∠AOB = 150°. Açıortayı oluşturan OC ışınını yerleştir.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "bis",
+  "correctAnswer": "∠AOC = ∠COB = 75°",
+  "explanation": "Açıortay açıyı iki eş açıya ayırır: ∠AOB = 150° olduğundan ∠AOC = ∠COB = 75° olmalıdır.",
+  "len": 3.2,
+  "start": 27,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 15,
+  "a2": 165,
+  "answer": 90,
+  "textPlain": "∠AOB = 150°. Açıortayı oluşturan OC ışınını yerleştir."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q113",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "aciortay",
+  "rank": 3,
+  "questionType": "ray_turn",
+  "text": "OC, AOB açısının açıortayı ve ∠AOC = 42°. OB kolunu doğru yere döndür.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "arm",
+  "correctAnswer": "∠AOB = 84° (∠COB = ∠AOC = 42°)",
+  "explanation": "OC açıortay olduğundan ∠AOC = ∠COB = 42° olmalı; bu yüzden ∠AOB = 84° olur ve OB, OC’nin öbür yanında kalır.",
+  "len": 3.2,
+  "start": 108,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 160,
+  "c": 118,
+  "answer": 76,
+  "textPlain": "OC, AOB açısının açıortayı ve ∠AOC = 42°. OB kolunu doğru yere döndür."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q114",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "aciortay",
+  "rank": 3,
+  "questionType": "ray_turn",
+  "text": "∠AOB = 136°. Açı aşağı doğru açılıyor; OC ışınını açıortay yap.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "bis",
+  "correctAnswer": "∠AOC = ∠COB = 68°",
+  "explanation": "Açıortay açıyı iki eş açıya ayırır: ∠AOB = 136° olduğundan ∠AOC = ∠COB = 68° olmalıdır.",
+  "len": 3.2,
+  "start": 214,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 202,
+  "a2": 338,
+  "answer": 270,
+  "textPlain": "∠AOB = 136°. Açı aşağı doğru açılıyor; OC ışınını açıortay yap."
+ },
+ {
+  "questionId": "mat7-t4-pk-v1-q115",
+  "grade": 7,
+  "subject": "Matematik",
+  "unit": "4. Tema: Dönüşüm",
+  "topic": "Açıortay inşası",
+  "outcome": "Simetri doğrusuna ilişkin deneyimlerini orta dikme ve açıortay inşalarına yansıtabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 1. Kitap, 4. Tema “Dönüşüm”, s. 214 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "aciortay",
+  "rank": 3,
+  "questionType": "ray_turn",
+  "text": "∠AOB = 90° ve kolları eğik. OC ışınını açıortay olacak biçimde döndür.",
+  "canvas": {
+   "w": 10,
+   "h": 7
+  },
+  "mode": "bis",
+  "correctAnswer": "∠AOC = ∠COB = 45°",
+  "explanation": "Açıortay açıyı iki eş açıya ayırır: ∠AOB = 90° olduğundan ∠AOC = ∠COB = 45° olmalıdır.",
+  "len": 3.2,
+  "start": 200,
+  "O": [
+   5,
+   3.6
+  ],
+  "a1": 35,
+  "a2": 125,
+  "answer": 80,
+  "textPlain": "∠AOB = 90° ve kolları eğik. OC ışınını açıortay olacak biçimde döndür."
+ }
+]
