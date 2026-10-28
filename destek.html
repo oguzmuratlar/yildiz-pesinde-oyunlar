@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yıldız Peşinde · Destek</title>
+<meta name="description" content="Yıldız Peşinde uygulaması için yardım, sık sorulan sorular, hesap silme talebi ve iletişim.">
+<style>
+:root{--ink:#1d1b4b;--soft:#5b5a7e;--bg:#f6f4ff;--card:#fff;--line:#e4e0fb;--acc:#6c3ce1;--acc2:#ff8a00;--sky1:#3a1c96;--sky2:#6c3ce1;--sky3:#2d9cdb}
+@media (prefers-color-scheme:dark){:root{--ink:#f1efff;--soft:#b9b6d8;--bg:#14122b;--card:#1f1c3d;--line:#36325f;--acc:#b49bff}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+header{background:linear-gradient(150deg,var(--sky1),var(--sky2) 55%,var(--sky3));color:#fff;padding:44px 16px 56px;text-align:center;position:relative;overflow:hidden}
+header .stars{position:absolute;inset:0;pointer-events:none;opacity:.55;background-image:radial-gradient(2px 2px at 12% 30%,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 78% 22%,#fff 50%,transparent 51%),radial-gradient(2px 2px at 64% 70%,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 30% 80%,#fff 50%,transparent 51%),radial-gradient(2.5px 2.5px at 90% 60%,#ffd84d 50%,transparent 51%)}
+header .logo{font-size:44px;line-height:1}
+header h1{margin:10px 0 4px;font-size:clamp(26px,6vw,36px);letter-spacing:-.5px}
+header p{margin:0 auto;max-width:560px;opacity:.92}
+main{max-width:760px;margin:-28px auto 0;padding:0 16px 48px;position:relative}
+section{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px 22px;margin-bottom:16px;box-shadow:0 6px 20px rgba(40,20,120,.06)}
+h2{margin:0 0 10px;font-size:20px}
+p{margin:0 0 10px}
+ul{margin:0 0 10px;padding-left:20px}
+li{margin-bottom:6px}
+details{border-top:1px solid var(--line);padding:12px 0}
+details:first-of-type{border-top:0;padding-top:4px}
+summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--acc);font-weight:800}
+details[open] summary::after{content:"–"}
+details p,details ul{margin-top:8px;color:var(--soft)}
+.contact{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;font-weight:700;padding:11px 18px;border-radius:14px}
+.btn.alt{background:var(--acc2)}
+.note{font-size:14px;color:var(--soft)}
+a{color:var(--acc)}
+footer{text-align:center;font-size:13px;color:var(--soft);padding:0 16px 32px}
+</style>
+</head>
+<body>
+<header>
+ <div class="stars"></div>
+ <div class="logo" aria-hidden="true">⭐</div>
+ <h1>Yıldız Peşinde · Destek</h1>
+ <p>5–8. sınıf öğrencileri için Fen Bilimleri, Matematik ve Türkçe oyunları. Sorun mu yaşıyorsun? Aşağıdaki cevaplara bak ya da bize yaz.</p>
+</header>
+<main>
+ <section id="iletisim">
+  <h2>Bize ulaşın</h2>
+  <p>Soru, öneri ve hata bildirimleri için e-posta gönderebilirsiniz. Lütfen mesajınıza <b>kullanıcı adınızı</b>, kullandığınız <b>cihazı</b> (ör. iPhone 13, Samsung A54) ve sorun bir oyundaysa <b>oyunun adını</b> ekleyin.</p>
+  <div class="contact">
+   <a class="btn" id="mail" href="mailto:DESTEK_EPOSTA?subject=Y%C4%B1ld%C4%B1z%20Pe%C5%9Finde%20destek">✉️ E-posta gönder</a>
+   <span class="note">DESTEK_EPOSTA · En geç 3 iş günü içinde dönüş yapılır.</span>
+  </div>
+ </section>
+
+ <section id="sss">
+  <h2>Sık sorulan sorular</h2>
+  <details><summary>Nasıl kayıt olurum?</summary>
+   <p>Uygulamayı açıp rolünü (öğrenci ya da öğretmen) seç. Öğrenciler ad, soyad, sınıf ve kendi belirledikleri kullanıcı adı ile şifreyle; öğretmenler ayrıca branşlarını seçerek kayıt olur. Telefon numarası isteğe bağlıdır.</p></details>
+  <details><summary>Şifremi unuttum, ne yapmalıyım?</summary>
+   <p>Uygulama içinde şifre sıfırlama yoktur. Kullanıcı adını ve adını-soyadını yazarak bize e-posta gönder; hesabını doğruladıktan sonra şifreni yenilemene yardımcı oluruz.</p></details>
+  <details><summary>Oyun açılmıyor ya da yarıda kaldı.</summary>
+   <ul><li>Oyunlar internetten yüklenir; bağlantını kontrol et.</li><li>Uygulamayı kapatıp yeniden aç ve en güncel sürümü kullandığından emin ol.</li><li>Yarıda kalan oyun kaydedilmez; oyunu baştan başlatabilirsin.</li><li>Sorun sürerse oyunun adını yazarak bize bildir.</li></ul></details>
+  <details><summary>Yıldızlar nasıl kazanılır?</summary>
+   <p>Her oyunda 10 görev vardır. 5–6 doğru 1 yıldız, 7–8 doğru 2 yıldız, 9–10 doğru 3 yıldız kazandırır. Her oyundan aldığın en yüksek yıldız saklanır ve haritan renklenir. Oyunu istediğin kadar tekrar oynayabilirsin.</p></details>
+  <details><summary>Hata defteri ve PDF nedir?</summary>
+   <p>Yanlış yaptığın sorular doğru cevapları ve açıklamalarıyla hata defterine eklenir. Hata defterini son 7 gün, son 30 gün ya da tüm zamanlar için PDF olarak alıp tekrar çalışabilirsin.</p></details>
+  <details><summary>Galaksi nedir, nasıl katılırım?</summary>
+   <p>Galaksi, arkadaşlarınla ya da öğretmeninle yıldızlarınızı karşılaştırdığınız bir gruptur. Galaksi kuran kişinin paylaştığı 6 karakterlik kodu “Galaksiye Katıl” ekranına yazman yeterli. Galakside yalnızca adın, soyadının baş harfi, avatarın ve toplam yıldızın görünür.</p></details>
+  <details><summary>Uygulama ücretli mi?</summary>
+   <p>Pilot dönem boyunca uygulama herkes için ücretsiz ve sınırsızdır. Uygulamada reklam ve sohbet bulunmaz.</p></details>
+  <details><summary>Sınıfımı ya da avatarımı nasıl değiştiririm?</summary>
+   <p>Profil ekranından sınıfını ve hazır avatarını değiştirebilirsin. Ad ve soyad değişikliği için bize yaz.</p></details>
+ </section>
+
+ <section id="hesap-silme">
+  <h2>Hesap ve veri silme talebi</h2>
+  <p>Hesabınızın ve verilerinizin silinmesini istiyorsanız, hesabın bağlı olduğu <b>kullanıcı adını</b> ve <b>ad-soyadı</b> yazarak bize e-posta gönderin. Talebi gönderen kişinin hesap sahibi (öğrenciyse velisi) olduğunu doğrulamak için ek bilgi isteyebiliriz.</p>
+  <ul>
+   <li><b>Silinen veriler:</b> profil bilgileri (ad, soyad, sınıf/branş, kullanıcı adı, telefon), yıldızlar ve oyun sonuçları, hata defteri ve PDF dosyaları, galaksi üyelikleri ve kullanım kayıtları.</li>
+   <li><b>Süre:</b> Talep doğrulandıktan sonra en geç 30 gün içinde kalıcı olarak silinir.</li>
+   <li><b>Saklanan veriler:</b> Yasal yükümlülükler gerektirmedikçe hiçbir veri saklanmaz.</li>
+  </ul>
+  <a class="btn alt" href="mailto:DESTEK_EPOSTA?subject=Hesap%20silme%20talebi%20-%20Y%C4%B1ld%C4%B1z%20Pe%C5%9Finde&body=Kullan%C4%B1c%C4%B1%20ad%C4%B1%3A%0AAd%20Soyad%3A%0A">🗑️ Hesap silme talebi gönder</a>
+ </section>
+
+ <section id="gizlilik">
+  <h2>Gizlilik</h2>
+  <p>Yıldız Peşinde reklam kimliği, konum ya da cihaz donanım kimliği toplamaz; kullanım verileri yalnızca kendi sunucularımızda, uygulamayı iyileştirmek için tutulur. Ayrıntılar için <a href="GIZLILIK_URL">Gizlilik Politikası ve Aydınlatma Metni</a>’ni inceleyin.</p>
+ </section>
+</main>
+<footer>© 2026 Oguz Tarık Muratlar · Yıldız Peşinde</footer>
+</body>
+</html>
