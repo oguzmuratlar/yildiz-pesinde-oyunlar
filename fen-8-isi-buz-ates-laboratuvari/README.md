@@ -7,7 +7,7 @@
 | Ders | Fen Bilimleri (subjectId: science) |
 | Sınıf | 8 |
 | Ünite / konu | 8. Sınıf 4. Ünite: Madde ve Endüstri — Maddenin Isı ile Etkileşimi |
-| Ekran yönü | Yatay (dikeyde "cihazını yan çevir" uyarısı gösterir) |
+| Ekran yönü | Dikey |
 | Oyun türü | 5 istasyon × 4 deney: eşit ısıtma, özısı sıralama, grafik okuma, deney tasarımı, buz kalıbı ve ısı alışverişi |
 | Toplam soru | 20 (soru başına 3 hak; yalnız ilk deneme doğru sayılır) |
 | Yıldız eşikleri | %50: 1 · %70: 2 · %90: 3 (10–13 doğru 1★, 14–17 2★, 18–20 3★) |

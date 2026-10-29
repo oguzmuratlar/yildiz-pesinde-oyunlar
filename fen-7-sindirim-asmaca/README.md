@@ -1,6 +1,6 @@
 # Elmi'nin Sindirim Yolculuğu (Adam Asmaca)
 
-- gameId: `fen-7-sindirim-asmaca` · Sürüm: `1.0.0` · Ekran yönü: Yatay (dikeyde de düzgün çalışır)
+- gameId: `fen-7-sindirim-asmaca` · Sürüm: `1.0.0` · Ekran yönü: Dikey
 - Ders: Fen Bilimleri · Sınıf: 7 · Ünite: Vücudumuzdaki Sistemler (Sindirim sistemi)
 - Akış: 8 kelime (K1: 6, K2: 2), kelime başına 9 yanlış harf hakkı; süre sınırı yok.
 - Yıldız: doğru oranı %50 1★ · %70 2★ · %90 3★ (8 kelimede: 4–5 → 1★, 6 → 2★, 8 → 3★)

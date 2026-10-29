@@ -10,7 +10,7 @@
 | Ekran yönü | Dikey |
 | Oyun türü | Seksek: 10 kare, kolaydan zora (3 kolay · 4 orta · 3 zor); üç seçenekli ve doğru/yanlış sorular, süre sınırı yok, her karede tek deneme |
 | Yıldız | 0–4 doğru 0★ · 5–6 1★ · 7–8 2★ · 9–10 3★ |
-| Soru havuzu | 120 soru (questions.json), index.html içine gömülüdür |
+| Soru havuzu | 119 soru (questions.json), index.html içine gömülüdür |
 
 ## Oyun
 
@@ -18,11 +18,11 @@ Asfalta tebeşirle çizilmiş bir seksek tahtası vardır; oyun başlarken tahta
 
 ## Soru havuzu
 
-5 grup × 3 zorluk × 8 soru:
+5 grup × 3 zorluk × 7–8 soru:
 
 | Grup | İçerik |
 |---|---|
-| metin | Gölge Oyunu, Bülbül ile Bezirgân, Kangurunun Parmak Uçlarındaki Dünya, Topsuz Basketbol Oyunu, Bir İp Bul Oyuna Başla!, Bir Güzel Hediye, Çocukluk, Mangala |
+| metin | Oyun temalı kısa okuma parçaları; metin soruda verilir (yüzey anlam, konu, ana fikir, çıkarım) |
 | soz | Eş, yakın, zıt ve eş sesli kelimeler; kelime anlamı; anahtar kelime; söz öbekleri |
 | nokta | Noktanın işlevleri (kısaltma, sıra, tarih, saat, binlik, internet adresi, çarpma) ve kısa çizgiyle satır sonu bölme |
 | dil | İsim ve fiil, tahmin işlevli söz varlığı, gerçek ve hayal ürünü ifadeler |

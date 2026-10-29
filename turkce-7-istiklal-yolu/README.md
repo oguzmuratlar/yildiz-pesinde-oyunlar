@@ -24,8 +24,8 @@ Ek boşluklarında (ör. “1923’___”) taşlar “-te” biçiminde gösteri
 
 | Grup | İçerik |
 |---|---|
-| metin | Bayrağımızın Altında, Mustafa 1881-1920, Mustafa Kemal’in Kağnısı, Gözüm Arkada Kalmayacak, Mehmet Âkif infografiği |
-| tarih | Tema metinlerindeki Millî Mücadele bilgileri, eser ve yazarlar |
+| metin | Tema metinlerinden yüzey bilgileri ve metni soruda verilen kısa okuma parçaları (kitabı okumuş olmayı gerektirmez) |
+| tarih | Millî Mücadele bilgileri (gerekli bilgi soruda verilir) |
 | sozvarligi | Kelime anlamı (muhacir, bandıra, kâbus, nefer…), deyimler, anlamca çelişen kelimeler |
 | ekler | İsim ve fiil çekim ekleri |
 | ikna | İkna teknikleri (otorite, sevgi, kıtlık, tutarlılık, toplumsal kanıt, karşılıkta bulunma, karşıtlık, uzlaşma) |

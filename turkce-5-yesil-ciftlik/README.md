@@ -10,7 +10,7 @@
 | Ekran yönü | Dikey |
 | Oyun türü | Tohum ekme: 12 fidan, kolaydan zora (4 kolay · 4 orta · 4 zor); cevap kesesi tarlaya sürüklenir veya keseye dokunulur, süre sınırı yok, her soruda tek deneme |
 | Yıldız | 0–5 doğru 0★ · 6–8 1★ · 9–10 2★ · 11–12 3★ |
-| Soru havuzu | 116 soru (questions.json), index.html içine gömülüdür |
+| Soru havuzu | 111 soru (questions.json), index.html içine gömülüdür |
 
 ## Oyun
 
@@ -22,7 +22,7 @@
 
 | Grup | İçerik |
 |---|---|
-| metin | Oğlu Hüseyin’den Emine Ana’ya Mektuplar, Gazi Mustafa Kemal ve Sığırtmaç Mustafa, Atatürk ve Çiftlik, Toprağımız Temizdir, Gözüm Arkamda Kalmayacak, Yörük Musa |
+| metin | Atatürk temalı kısa okuma parçaları ve sözleri; metin soruda verilir (yüzey anlam, konu, ana fikir, çıkarım) |
 | ataturk | Atatürk’ün öğrenim hayatı, Yeni Türk harflerinin kabulü, Vatansever, Atatürk ve eğitim |
 | soz | Kelime anlamı, deyimler, pekiştirme ve ikileme, çok anlamlı kelimeler |
 | dil | İsmi niteleyen ve belirten kelimeler, ekleme bildiren bağlantı ifadeleri |

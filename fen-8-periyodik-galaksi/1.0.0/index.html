@@ -187,10 +187,6 @@ button{font-family:inherit;cursor:pointer;color:inherit}
 #review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
 #review li{background:rgba(0,0,0,.3);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:13px}
 #review b{color:var(--yel)}
-#rotate{z-index:50;background:rgba(8,10,40,.96)}
-.phone{width:56px;height:92px;margin:6px auto;border:5px solid #fff;border-radius:12px;animation:rot 2.4s ease-in-out infinite}
-@keyframes rot{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
-@media (orientation:landscape){#rotate{display:none}}
 
 /* ================= EFEKTLER ================= */
 #fx{position:fixed;top:0;right:0;bottom:0;left:0;pointer-events:none;z-index:65;overflow:hidden}
@@ -226,6 +222,13 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
   .card{padding:10px 16px}
 }
 @media (max-height:440px){ #stDesc{display:none} #stTag{display:none} }
+/* Dikey yerleşim: tablo üstte, panel altta */
+#app{grid-template-columns:minmax(0,1fr)}
+#steps{overflow:hidden}
+html.pv #opts{grid-template-columns:1fr}
+html.pv #play{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:8px}
+html.pv #tableBox{justify-self:center}
+html.pv #quiz{grid-row:1/-1}
 @media (max-height:340px){ #stDesc{display:none} #quizQ{padding:6px 10px} #opts{gap:6px} }
 </style>
 </head>
@@ -336,7 +339,6 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
   </div>
 </section>
 
-<section class="screen" id="rotate" role="alert"><div class="card"><div class="phone" aria-hidden="true"></div><h2>Cihazını yan çevir</h2><p>Bu oyun yatay ekranda oynanır.</p></div></section>
 
 <script>
 (function(){
@@ -433,7 +435,7 @@ document.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('blur', () => cancelDrag());
 const pmq = window.matchMedia ? window.matchMedia('(orientation: portrait)') : null;
-function onOrient(){ S.portrait = !!(pmq && pmq.matches); if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
+function onOrient(){ S.portrait = false; if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
 if(pmq){ if(pmq.addEventListener) pmq.addEventListener('change', onOrient); else if(pmq.addListener) pmq.addListener(onOrient); }
 onOrient();
 
@@ -564,8 +566,10 @@ function updateSteps(){ document.querySelectorAll('.step').forEach(s => { const 
 /* ====== Tablo ve yerleşim ====== */
 function layout(){
   const st = $('stage'), W = st.clientWidth, H = st.clientHeight; if(!W || !H) return;
-  const g = 3, Pmin = Math.max(240, Math.round(W * .34));
-  const cs = Math.max(30, Math.floor(Math.min((W - Pmin - 10 - 7*g) / 8.55, (H - 3*g) / 4.45, 80)));
+  const g = 3, pv = W < H * 1.15; document.documentElement.classList.toggle('pv', pv);
+  const Pmin = Math.max(240, Math.round(W * .34));
+  const cs = pv ? Math.max(24, Math.floor(Math.min((W - 25 - 7*g) / 8.55, (H * .5 - 3*g) / 4.45, 80)))
+               : Math.max(30, Math.floor(Math.min((W - Pmin - 10 - 7*g) / 8.55, (H - 3*g) / 4.45, 80)));
   G = { cs:cs, g:g, p:cs+g, lw:Math.round(cs*.55), hh:Math.round(cs*.45) };
   G.tw = G.lw + 8*cs + 7*g; G.th = G.hh + 4*cs + 3*g;
   const rs = document.documentElement.style; rs.setProperty('--cs', cs + 'px'); rs.setProperty('--g', g + 'px');
@@ -717,7 +721,7 @@ function startStage(n){
   $('stTag').textContent = n + '. Aşama'; $('stTitle').textContent = STAGES[n].t; $('stDesc').textContent = STAGES[n].d; setHint('', '');
   const play = $('play'); play.classList.toggle('quizMode', n === 3);
   $('tableBox').hidden = (n === 3); $('side').hidden = (n === 3); $('quiz').hidden = (n !== 3);
-  play.style.gridTemplateColumns = n === 3 ? 'minmax(0,1fr)' : 'auto minmax(0,1fr)';
+  play.style.gridTemplateColumns = n === 3 ? 'minmax(0,1fr)' : '';
   if(n === 1) startStage1(); else if(n === 2) startStage2(); else startStage3();
   layout();
 }

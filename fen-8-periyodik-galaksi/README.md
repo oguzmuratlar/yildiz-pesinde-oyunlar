@@ -7,7 +7,7 @@
 | Ders | Fen Bilimleri (subjectId: science) |
 | Sınıf | 8 (oyun yalnızca 8. sınıf bağlamını kabul eder) |
 | Ünite / konu | 8. Sınıf 4. Ünite — Periyodik Tablo |
-| Ekran yönü | Yatay |
+| Ekran yönü | Dikey |
 | Oyun türü | 3 aşama: blok sürükleme (5), gizli element yerleştirme (5), bilgi testi (10) |
 | Toplam soru | 20 |
 | Yıldız eşikleri | %50: 1 · %70: 2 · %90: 3 (doğru oranı) |

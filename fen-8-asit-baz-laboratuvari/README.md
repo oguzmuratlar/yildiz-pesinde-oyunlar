@@ -7,7 +7,7 @@
 | Ders | Fen Bilimleri (subjectId: science) |
 | Sınıf | 8 |
 | Ünite / konu | 8. Sınıf 4. Ünite — Asitler ve Bazlar |
-| Ekran yönü | Yatay (dikeyde "cihazını yan çevir" uyarısı gösterir) |
+| Ekran yönü | Dikey |
 | Oyun türü | 4 istasyon × 5 deney: turnusol, fenolftalein/metal, pH merdiveni, nötrleşme (sürükle-bırak veya dokun-seç) |
 | Toplam soru | 20 (soru başına 3 hak; yalnız ilk deneme doğru sayılır) |
 | Yıldız eşikleri | %50: 1 · %70: 2 · %90: 3 (10–13 doğru 1★, 14–17 2★, 18–20 3★) |

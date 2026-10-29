@@ -200,10 +200,6 @@ button{font-family:inherit;cursor:pointer;color:inherit}
 #review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
 #review li{background:rgba(0,0,0,.3);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:13px}
 #review b{color:var(--yel)}
-#rotate{z-index:50;background:rgba(8,20,60,.96)}
-.phone{width:56px;height:92px;margin:6px auto;border:5px solid #fff;border-radius:12px;animation:rot 2.4s ease-in-out infinite}
-@keyframes rot{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
-@media (orientation:landscape){#rotate{display:none}}
 #toast{position:fixed;left:50%;top:60px;transform:translate(-50%,-30px);z-index:60;padding:6px 16px;border-radius:999px;background:linear-gradient(#ffe36e,#ffb400);color:#3a2b00;font:900 14px/1.3 var(--font);box-shadow:0 6px 16px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:transform .35s cubic-bezier(.3,1.5,.5,1),opacity .3s}
 #toast.on{opacity:1;transform:translate(-50%,0)}
 
@@ -237,6 +233,14 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
   #bg .win,#bg .poster{display:none}
 }
 @media (max-height:340px){ #qTag{display:none} #qText{font-size:12px} }
+#app{grid-template-columns:minmax(0,1fr)}
+/* Dikey yerleşim */
+html.pv #board{width:100%}
+html.pv #steps{overflow:hidden}
+@media (max-width:400px){html.pv .step:not(.cur){display:none}}
+html.pv .trayT{width:29%;min-width:0}
+html.pv .scale{width:96%}
+html.pv .paperT{min-width:140px}
 </style>
 </head>
 <body>
@@ -332,7 +336,6 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
     <div class="row"><button class="btn" id="btnAgain" type="button">Tekrar Oyna</button></div>
   </div>
 </section>
-<section class="screen" id="rotate" role="alert"><div class="card"><div class="phone" aria-hidden="true"></div><h2>Cihazını yan çevir</h2><p>Bu oyun yatay ekranda oynanır.</p></div></section>
 
 <script>
 (function(){
@@ -433,7 +436,7 @@ document.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('blur', () => cancelDrag());
 const pmq = window.matchMedia ? window.matchMedia('(orientation: portrait)') : null;
-function onOrient(){ S.portrait = !!(pmq && pmq.matches); if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
+function onOrient(){ S.portrait = false; if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
 if(pmq){ if(pmq.addEventListener) pmq.addEventListener('change', onOrient); else if(pmq.addListener) pmq.addListener(onOrient); }
 onOrient();
 
@@ -623,9 +626,11 @@ function rank(c){ return c >= 18 ? 'Profesör' : c >= 14 ? 'Araştırmacı' : c 
 function badgesHTML(box){ box.innerHTML = ''; R.badges.forEach(k => { const b = el('span','badge', BADGES[k].t); b.title = BADGES[k].d; box.appendChild(b); }); }
 
 /* ====== Düzen ====== */
+let PV = false;   // dikey yerleşim
 function layout(){
   const b = $('bench').getBoundingClientRect(); if(!b.width || !b.height) return;
-  const u = Math.max(18, Math.min(b.width / 20, b.height / 8));
+  PV = b.width < b.height * 1.15; document.documentElement.classList.toggle('pv', PV);
+  const u = PV ? Math.max(18, Math.min(b.width / 9, b.height / 15)) : Math.max(18, Math.min(b.width / 20, b.height / 8));
   document.documentElement.style.setProperty('--u', u + 'px');
   document.documentElement.style.setProperty('--tt', Math.round(b.top - 6) + 'px');
 }
@@ -695,38 +700,38 @@ function clearScene(){
 /* Soru türü kurucuları */
 const BUILD = {
   classify(q){
-    const s = SUB[q.sample]; const tools = q.tools; const xs = spread(tools.length, 12, 12 + 13*(tools.length - 1));
+    const s = SUB[q.sample]; const tools = q.tools; const xs = PV ? spread(tools.length, 30, 70) : spread(tools.length, 12, 12 + 13*(tools.length - 1)); const ty = PV ? 20 : 46;
     const accT = [];
     tools.forEach((tl, i) => {
-      if(tl === 'blue') addMover('tool-blue', 'stripm', '<div class="strip" style="--c:' + PAPER['mavi'] + '"></div>', 'Mavi kâğıt', accT, xs[i], 46);
-      else if(tl === 'red') addMover('tool-red', 'stripm', '<div class="strip" style="--c:' + PAPER['kırmızı'] + '"></div>', 'Kırmızı kâğıt', accT, xs[i], 46);
-      else addMover('tool-phth', 'dropper', dropperArt(), 'Fenolftalein', accT, xs[i], 46);
+      if(tl === 'blue') addMover('tool-blue', 'stripm', '<div class="strip" style="--c:' + PAPER['mavi'] + '"></div>', 'Mavi kâğıt', accT, xs[i], ty);
+      else if(tl === 'red') addMover('tool-red', 'stripm', '<div class="strip" style="--c:' + PAPER['kırmızı'] + '"></div>', 'Kırmızı kâğıt', accT, xs[i], ty);
+      else addMover('tool-phth', 'dropper', dropperArt(), 'Fenolftalein', accT, xs[i], ty);
     });
-    const m = addMover('sample', 'beakerm', beakerArt('#cfeaff', .62), 'Gizemli çözelti ' + q.label, q.trays.map(t => 'tray-' + t), 55, 34);
+    const m = addMover('sample', 'beakerm', beakerArt('#cfeaff', .62), 'Gizemli çözelti ' + q.label, q.trays.map(t => 'tray-' + t), PV ? 50 : 55, PV ? 52 : 34);
     m.node.setAttribute('aria-label', 'Gizemli çözelti ' + q.label + ' kabı. Önce kâğıtları daldır, sonra doğru tepsiye taşı.');
     Sc.sampleBox = m.node; const dip = { id:'sample-dip', node:m.node, name:'Gizemli çözelti' };
     tools.forEach(tl => { Sc.movers['tool-' + tl].dipOn = dip; });
-    const tx = spread(q.trays.length, q.trays.length === 3 ? 30 : 36, q.trays.length === 3 ? 80 : 74);
+    const tx = PV ? spread(q.trays.length, q.trays.length === 3 ? 17 : 27, q.trays.length === 3 ? 83 : 73) : spread(q.trays.length, q.trays.length === 3 ? 30 : 36, q.trays.length === 3 ? 80 : 74);
     const names = { 'asit':'ASİT', 'baz':'BAZ', 'nötr':'NÖTR', 'bazdeğil':'BAZ DEĞİL' };
-    q.trays.forEach((t, i) => addTarget('tray-' + t, 'trayT t-' + t, names[t], '', tx[i], 84, names[t] + ' tepsisi'));
+    q.trays.forEach((t, i) => addTarget('tray-' + t, 'trayT t-' + t, names[t], '', tx[i], PV ? 79 : 84, names[t] + ' tepsisi'));
     Sc.act = actClassify;
   },
   pourOn(q){
-    const acc = ['paper']; const xs = spread(q.bottles.length, 14, 14 + 18*(q.bottles.length - 1));
-    q.bottles.forEach((b, i) => addMover(b, 'bottle', bottleArt(SUB[b]), SUB[b].short, acc, xs[i], 58));
-    addTarget('paper', 'paperT', mkPaper(PAPER[q.paper]), cap1(q.paper) + ' turnusol kâğıdı', 80, 56, cap1(q.paper) + ' turnusol kâğıdı');
+    const acc = ['paper']; const xs = PV ? spread(q.bottles.length, 18, 82) : spread(q.bottles.length, 14, 14 + 18*(q.bottles.length - 1));
+    q.bottles.forEach((b, i) => addMover(b, 'bottle', bottleArt(SUB[b]), SUB[b].short, acc, xs[i], PV ? 24 : 58));
+    addTarget('paper', 'paperT', mkPaper(PAPER[q.paper]), cap1(q.paper) + ' turnusol kâğıdı', PV ? 50 : 80, PV ? 70 : 56, cap1(q.paper) + ' turnusol kâğıdı');
     Sc.act = actPour;
   },
   dropOn(q){
-    const xs = spread(q.tubes.length, 58, 86);
-    addMover('dropper', 'dropper', dropperArt(), 'Fenolftalein', q.tubes.map(t => 'tube-' + t), 16, 58);
-    q.tubes.forEach((t, i) => addTarget('tube-' + t, 'tubeT', tubeArt(SUB[t].tint, .62), SUB[t].short, xs[i], 54, SUB[t].name + ' tüpü'));
+    const xs = PV ? spread(q.tubes.length, 20, 80) : spread(q.tubes.length, 58, 86);
+    addMover('dropper', 'dropper', dropperArt(), 'Fenolftalein', q.tubes.map(t => 'tube-' + t), PV ? 50 : 16, PV ? 22 : 58);
+    q.tubes.forEach((t, i) => addTarget('tube-' + t, 'tubeT', tubeArt(SUB[t].tint, .62), SUB[t].short, xs[i], PV ? 63 : 54, SUB[t].name + ' tüpü'));
     Sc.act = actDrop;
   },
   metal(q){
-    const xs = spread(q.tubes.length, 58, 86);
-    addMover('ribbon', 'ribbon', ribbonArt(), 'Magnezyum şeridi', q.tubes.map(t => 'tube-' + t), 16, 58);
-    q.tubes.forEach((t, i) => addTarget('tube-' + t, 'tubeT', tubeArt(SUB[t].tint, .62), SUB[t].short, xs[i], 54, SUB[t].name + ' tüpü'));
+    const xs = PV ? spread(q.tubes.length, 20, 80) : spread(q.tubes.length, 58, 86);
+    addMover('ribbon', 'ribbon', ribbonArt(), 'Magnezyum şeridi', q.tubes.map(t => 'tube-' + t), PV ? 50 : 16, PV ? 22 : 58);
+    q.tubes.forEach((t, i) => addTarget('tube-' + t, 'tubeT', tubeArt(SUB[t].tint, .62), SUB[t].short, xs[i], PV ? 63 : 54, SUB[t].name + ' tüpü'));
     Sc.act = actMetal;
   },
   phScale(q){
@@ -737,16 +742,16 @@ const BUILD = {
   flagScale(q){
     addScale(50, 30);
     const b = BANDS.filter(x => x.name === q.color)[0];
-    const n = el('div','indtube'); n.innerHTML = tubeArt(b.color, .7) + '<span class="cap">Evrensel indikatör: ' + esc(q.color) + '</span>'; place(n, 30, 68); $('work').appendChild(n);
-    addMover('flag', 'flagm', flagArt(), 'pH bayrağı', ['scale'], 66, 70);
+    const n = el('div','indtube'); n.innerHTML = tubeArt(b.color, .7) + '<span class="cap">Evrensel indikatör: ' + esc(q.color) + '</span>'; place(n, PV ? 28 : 30, PV ? 70 : 68); $('work').appendChild(n);
+    addMover('flag', 'flagm', flagArt(), 'pH bayrağı', ['scale'], PV ? 72 : 66, 70);
     Sc.act = actScale;
   },
   neutralize(q){
-    const base = SUB[q.base]; const xs = spread(q.bottles.length, 12, 12 + 17*(q.bottles.length - 1));
-    q.bottles.forEach((b, i) => addMover(b, 'bottle', bottleArt(SUB[b]), SUB[b].short, ['beaker'], xs[i], 62));
+    const base = SUB[q.base]; const xs = PV ? spread(q.bottles.length, 18, 82) : spread(q.bottles.length, 12, 12 + 17*(q.bottles.length - 1));
+    q.bottles.forEach((b, i) => addMover(b, 'bottle', bottleArt(SUB[b]), SUB[b].short, ['beaker'], xs[i], PV ? 22 : 62));
     Sc.liqColor = indColor(q.indicator, base.pH);
-    addTarget('beaker', 'beakerT', beakerArt(Sc.liqColor, .55), base.short + ' + ' + (q.indicator === 'phth' ? 'fenolftalein' : 'evrensel indikatör'), 66, 46, base.name + ' kabı');
-    const mt = el('div','meter'); mt.innerHTML = '<span class="lcd" id="lcd">pH ' + fmtPh(base.pH) + '</span><small>pH metre</small>'; place(mt, 88, 40); $('work').appendChild(mt);
+    addTarget('beaker', 'beakerT', beakerArt(Sc.liqColor, .55), base.short + ' + ' + (q.indicator === 'phth' ? 'fenolftalein' : 'evrensel indikatör'), PV ? 36 : 66, PV ? 68 : 46, base.name + ' kabı');
+    const mt = el('div','meter'); mt.innerHTML = '<span class="lcd" id="lcd">pH ' + fmtPh(base.pH) + '</span><small>pH metre</small>'; place(mt, PV ? 80 : 88, PV ? 68 : 40); $('work').appendChild(mt);
     Sc.ph = base.pH; Sc.act = actNeut;
   }
 };

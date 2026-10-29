@@ -248,10 +248,6 @@ button{font-family:inherit;cursor:pointer;color:inherit}
 #review{list-style:none;padding:0;margin:8px 0;text-align:left;display:grid;gap:6px;max-height:22vh;overflow:auto}
 #review li{background:rgba(0,0,0,.3);border-left:5px solid var(--pink);border-radius:8px;padding:6px 10px;font-size:13px}
 #review b{color:var(--yel)}
-#rotate{z-index:50;background:rgba(8,6,50,.96)}
-.phone{width:56px;height:92px;margin:6px auto;border:5px solid #fff;border-radius:12px;animation:rot 2.4s ease-in-out infinite}
-@keyframes rot{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
-@media (orientation:landscape){#rotate{display:none}}
 #toast{position:fixed;left:50%;top:60px;transform:translate(-50%,-30px);z-index:60;padding:6px 16px;border-radius:999px;background:linear-gradient(#ffe36e,#ff9a1a);color:#3a1800;font:900 14px/1.3 var(--font);box-shadow:0 6px 16px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:transform .35s cubic-bezier(.3,1.5,.5,1),opacity .3s}
 #toast.on{opacity:1;transform:translate(-50%,0)}
 
@@ -289,6 +285,17 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
   .card{padding:10px 16px}
 }
 @media (max-height:340px){ #qTag{display:none} #qText{font-size:12px} }
+#app{grid-template-columns:minmax(0,1fr)}
+/* Dikey yerleşim */
+html.pv #board{width:100%}
+html.pv #steps{overflow:hidden}
+@media (max-width:400px){html.pv .step:not(.cur){display:none}}
+html.pv .slotT{width:31%;min-width:0}
+html.pv .binT{width:46%}
+html.pv .chip,html.pv .bcard{width:44%;min-width:0;height:auto;min-height:46px;padding:4px 6px}
+html.pv .cardg{width:30%;min-width:0}
+html.pv .vsl.xs{min-width:66px}
+html.pv .designT{width:34%;height:42%;min-height:120px}
 </style>
 </head>
 <body>
@@ -388,7 +395,6 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
     <div class="row"><button class="btn" id="btnAgain" type="button">Tekrar Oyna</button></div>
   </div>
 </section>
-<section class="screen" id="rotate" role="alert"><div class="card"><div class="phone" aria-hidden="true"></div><h2>Cihazını yan çevir</h2><p>Bu oyun yatay ekranda oynanır.</p></div></section>
 
 <script>
 (function(){
@@ -493,7 +499,7 @@ document.addEventListener('visibilitychange', () => {
 });
 window.addEventListener('blur', () => cancelDrag());
 const pmq = window.matchMedia ? window.matchMedia('(orientation: portrait)') : null;
-function onOrient(){ S.portrait = !!(pmq && pmq.matches); if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
+function onOrient(){ S.portrait = false; if(S.portrait){ cancelDrag(); Clock.pause(); } else { Clock.resume(); setTimeout(layout, 50); } }
 if(pmq){ if(pmq.addEventListener) pmq.addEventListener('change', onOrient); else if(pmq.addListener) pmq.addListener(onOrient); }
 onOrient();
 
@@ -826,9 +832,11 @@ function ballNode(b){
 }
 
 /* ====== Düzen ====== */
+let PV = false;   // dikey yerleşim
 function layout(){
   const b = $('bench').getBoundingClientRect(); if(!b.width || !b.height) return;
-  const u = Math.max(18, Math.min(b.width / 20, b.height / 8, 40));
+  PV = b.width < b.height * 1.15; document.documentElement.classList.toggle('pv', PV);
+  const u = PV ? Math.max(18, Math.min(b.width / 9, b.height / 16, 40)) : Math.max(18, Math.min(b.width / 20, b.height / 8, 40));
   const rs = document.documentElement.style;
   rs.setProperty('--u', u + 'px');
   rs.setProperty('--tt', Math.round(b.top + b.height * .76) + 'px');
@@ -887,80 +895,81 @@ function runToken(kind, x, y){
 
 const BUILD = {
   heat(q){
-    const n = q.vessels.length, plq = q.plaque, xs = plq ? spread(n, 16, n === 3 ? 60 : 52) : spread(n, 22, n === 3 ? 74 : 66);
+    const n = q.vessels.length, plq = q.plaque, xs = PV ? (plq ? spread(n, 14, n === 3 ? 62 : 50) : spread(n, n === 3 ? 18 : 28, n === 3 ? 82 : 72)) : (plq ? spread(n, 16, n === 3 ? 60 : 52) : spread(n, 22, n === 3 ? 74 : 66)), vy = PV ? 34 : 44;
     Sc.vlist = [];
     const lo = xs[0], hi = xs[n-1];
-    addRail((lo + hi)/2, 46, (hi - lo) + 24, 66, 'Deney tezgâhı — ısıtıcıyı buraya bırak');
-    q.vessels.forEach((v, i) => { mkVessel(v, '', xs[i], 44, true); });
-    if(plq) addTarget('v-eq', 'plq', 'EŞİT<small>hepsi aynı</small>', 87, 40, 'EŞİT levhası: hepsi aynı');
-    runToken(q.token || 'flame', 9, 82);
-    if(q.mode === 'medals'){ [1,2,3].forEach((k, i) => addMover('m' + k, 'medal', tokenArt('medal' + k), ['1.', '2.', '3.'][i], q.vessels.map(v => 'v-' + v.id), [40, 51, 62][i], 82, 'ans', { name:k + '. madalya' })); }
-    else addMover('cup', 'tokC', tokenArt('trophy'), 'Cevap kupası', q.vessels.map(v => 'v-' + v.id).concat(plq ? ['v-eq'] : []), 50, 82, 'ans', { name:'Cevap kupası' });
+    addRail((lo + hi)/2, PV ? 36 : 46, (hi - lo) + (PV ? 30 : 24), PV ? 50 : 66, 'Deney tezgâhı — ısıtıcıyı buraya bırak');
+    q.vessels.forEach((v, i) => { mkVessel(v, '', xs[i], vy, true); });
+    if(plq) addTarget('v-eq', 'plq', 'EŞİT<small>hepsi aynı</small>', PV ? 86 : 87, PV ? 34 : 40, 'EŞİT levhası: hepsi aynı');
+    runToken(q.token || 'flame', PV ? 13 : 9, 82);
+    if(q.mode === 'medals'){ [1,2,3].forEach((k, i) => addMover('m' + k, 'medal', tokenArt('medal' + k), ['1.', '2.', '3.'][i], q.vessels.map(v => 'v-' + v.id), (PV ? [36, 55, 74] : [40, 51, 62])[i], 82, 'ans', { name:k + '. madalya' })); }
+    else addMover('cup', 'tokC', tokenArt('trophy'), 'Cevap kupası', q.vessels.map(v => 'v-' + v.id).concat(plq ? ['v-eq'] : []), PV ? 56 : 50, 82, 'ans', { name:'Cevap kupası' });
     Sc.need = q.mode === 'medals' ? 3 : 1; Sc.ans = q.mode === 'medals' ? q.answer : { cup:q.answer.t }; Sc.runAct = runHeat; Sc.check = checkMap; Sc.tutor = { from:'run', to:'bench' };
   },
   gmark(q){
     Sc.vlist = []; const v = q.vessels[0];
-    mkVessel(v, 'sm', 11, 40, false);
-    const rail = addRail(11, 42, 22, 72, ''); rail.node.style.opacity = '.0'; rail.node.style.pointerEvents = 'auto';
+    mkVessel(v, 'sm', PV ? 18 : 11, PV ? 17 : 40, false);
+    const rail = PV ? addRail(18, 17, 34, 32, '') : addRail(11, 42, 22, 72, ''); rail.node.style.opacity = '.0'; rail.node.style.pointerEvents = 'auto';
     const panel = el('div', 'gpanel'); $('work').appendChild(panel); const cells = el('div', 'gcells'); cells.setAttribute('role', 'group'); cells.setAttribute('aria-label', 'Zaman sütunları (her sütun 1 dakika)');
     for(let c = 0; c < q.ncols; c++){ const s = el('span', 'gcell', c + '–' + (c+1)); s.dataset.col = c; cells.appendChild(s); }
     Sc.gp = { panel:panel, cells:cells, g:null };
     const t = addTargetNode('gx', cells, null, null, 'Zaman sütunları', { cols:q.ncols, kb:0 }); cells.style.position = 'absolute';
     const layoutG = () => {
-      const w = wrc(), W = Math.round(w.w * .70), H = Math.max(80, Math.round(w.h - 126)), left = Math.round(w.w * .62 - W/2 + 0);
-      panel.style.cssText = 'left:' + Math.round(w.w * .62) + 'px;top:4px;width:' + W + 'px;height:' + H + 'px';
+      const w = wrc(), cxp = PV ? .5 : .62, W = Math.round(w.w * (PV ? .96 : .70)), top = PV ? Math.round(w.h * .36) : 4, H = PV ? Math.max(80, Math.round(w.h - top - 112)) : Math.max(80, Math.round(w.h - 126));
+      panel.style.cssText = 'left:' + Math.round(w.w * cxp) + 'px;top:' + top + 'px;width:' + W + 'px;height:' + H + 'px';
       Sc.gp.g = buildGraph(panel, q, W, H); Sc.gp.g.drawTo(Sc.ran ? q.run.D : (Sc.gp.t || 0));
-      const pw = W - 36 - 8; cells.style.cssText = 'position:absolute;left:' + Math.round(w.w * .62 - W/2 + 36 + pw/2) + 'px;top:' + (H + 8) + 'px;width:' + pw + 'px;transform:translate(-50%,0)';
+      const pw = W - 36 - 8; cells.style.cssText = 'position:absolute;left:' + Math.round(w.w * cxp - W/2 + 36 + pw/2) + 'px;top:' + (top + H + 4) + 'px;width:' + pw + 'px;transform:translate(-50%,0)';
     };
     Sc.relayout = layoutG; layoutG();
-    runToken(q.token || 'flame', 10, 83);
-    const f = addMover('flag', 'flagm', tokenArt('flag'), 'Bayrak', ['gx'], 26, 85, 'ans', { name:'İşaret bayrağı', needRun:true }); f.node.classList.add('dim');
+    runToken(q.token || 'flame', PV ? 56 : 10, PV ? 17 : 83);
+    const f = addMover('flag', 'flagm', tokenArt('flag'), 'Bayrak', ['gx'], PV ? 82 : 26, PV ? 17 : 85, 'ans', { name:'İşaret bayrağı', needRun:true }); f.node.classList.add('dim');
     Sc.need = 1; Sc.runAct = runHeat; Sc.check = checkCols; Sc.tutor = { from:'run', to:'bench' };
   },
   gcard(q){
-    Sc.vlist = []; const n = q.vessels.length, xs = spread(n, 9, n === 3 ? 33 : 20);
+    Sc.vlist = []; const n = q.vessels.length, xs = PV ? spread(n, n === 1 ? 50 : 22, n === 1 ? 50 : 78) : spread(n, 9, n === 3 ? 33 : 20), gy = PV ? 17 : 40;
     const lo = xs[0], hi = xs[n-1];
-    addRail((lo + hi)/2, 40, (hi - lo) + 16, 70, '');
-    q.vessels.forEach((v, i) => mkVessel(v, n === 1 ? 'sm' : 'xs', xs[i], 40, false));
+    addRail((lo + hi)/2, gy, (hi - lo) + (PV ? 30 : 16), PV ? 32 : 70, '');
+    q.vessels.forEach((v, i) => mkVessel(v, n === 1 ? 'sm' : 'xs', xs[i], gy, false));
     Sc.targets.bench.node.style.opacity = '.55';
-    const cx = [52, 70, 88];
-    q.cards.forEach((c, i) => { const m = addMover('card-' + c.id, 'cardg', '<div class="cg"><span class="cl">' + c.id + '</span>' + cardArt(c, q) + '</div>', null, ['notebook'], cx[i], 27, 'ans', { name:c.id + ' grafiği', card:true }); m.node.querySelector('.art').style.animation = 'none'; });
-    addTarget('notebook', 'nb', 'DENEY DEFTERİ<small>grafiği buraya bırak</small>', 70, 74, 'Deney defteri');
-    runToken(q.token || 'flame', 9, 82);
+    const cx = PV ? [18, 50, 82] : [52, 70, 88];
+    q.cards.forEach((c, i) => { const m = addMover('card-' + c.id, 'cardg', '<div class="cg"><span class="cl">' + c.id + '</span>' + cardArt(c, q) + '</div>', null, ['notebook'], cx[i], PV ? 50 : 27, 'ans', { name:c.id + ' grafiği', card:true }); m.node.querySelector('.art').style.animation = 'none'; });
+    addTarget('notebook', 'nb', 'DENEY DEFTERİ<small>grafiği buraya bırak</small>', PV ? 62 : 70, PV ? 80 : 74, 'Deney defteri');
+    runToken(q.token || 'flame', PV ? 13 : 9, 82);
     Sc.need = 1; Sc.ans = { ['card-' + q.answer.m.slice(5)]:'notebook' }; Sc.runAct = runHeat; Sc.check = checkMap; Sc.tutor = { from:'run', to:'bench' };
   },
   design(q){
-    Sc.vlist = []; const n = q.vessels.length, xs = spread(n, 8, 53);
+    Sc.vlist = []; const n = q.vessels.length, xs = PV ? spread(n, 13, 87) : spread(n, 8, 53);
     q.vessels.forEach((v, i) => {
       const nd = vesselNode(v, 'xs', { nocap:false }); vsInit(nd, q.run);
-      const m = regMover('card-' + v.id, nd, v.lab, ['slot1', 'slot2'], xs[i], 46, 'ans', { name:v.lab + ' kabı (' + v.sub2 + ')', card:true, vessel:v });
+      const m = regMover('card-' + v.id, nd, v.lab, ['slot1', 'slot2'], xs[i], PV ? 22 : 46, 'ans', { name:v.lab + ' kabı (' + v.sub2 + ')', card:true, vessel:v });
       nd.classList.add('mv'); Sc.vlist.push({ v:v, node:nd });
       nd.querySelector('.cap').style.whiteSpace = 'normal'; nd.querySelector('.cap').style.textAlign = 'center'; nd.querySelector('.cap').style.minWidth = '96px';
     });
-    ['slot1', 'slot2'].forEach((id, i) => addTarget(id, 'designT', '<span class="sl">' + (i ? 'DENEY KABI 2' : 'DENEY KABI 1') + '</span>', [70.5, 88.5][i], 48, (i ? '2. deney kabı yuvası' : '1. deney kabı yuvası')));
+    ['slot1', 'slot2'].forEach((id, i) => addTarget(id, 'designT', '<span class="sl">' + (i ? 'DENEY KABI 2' : 'DENEY KABI 1') + '</span>', (PV ? [30, 70] : [70.5, 88.5])[i], PV ? 70 : 48, (i ? '2. deney kabı yuvası' : '1. deney kabı yuvası')));
     Sc.need = 2; Sc.check = checkDesign; Sc.runAct = null; Sc.onFull = runDesign; Sc.tutor = { from:'card-' + q.vessels[0].id, to:'slot1' };
   },
   vars(q){
-    const nc = q.chips.length, xs = spread(nc, 14, 86);
-    const SL = q.slots, sx = spread(SL.length, 17, 83);
+    const nc = q.chips.length, xs = PV ? null : spread(nc, 14, 86);
+    const SL = q.slots, sx = PV ? spread(SL.length, 17, 83) : spread(SL.length, 17, 83);
+    const cpos = i => PV ? (nc <= 3 ? [spread(nc, 18, 82)[i], 12] : [i % 2 ? 73 : 27, i < 2 ? 8 : 25]) : [xs[i], 14];
     SL.forEach((s, i) => { const h = s.cap * 50 + 40; const t = addTarget('s-' + s.id, 'slotT ' + s.id, '<div class="sl">' + esc(s.label) + '</div>', sx[i], 66, s.label, { cap:s.cap, slotPos:(k, c) => { const r = rc(t.node); return { dx:0, dy:(c === 1 ? r.h * .1 : (k === 0 ? -r.h * .1 : r.h * .26)) }; } }); t.node.style.height = h + 'px'; });
-    q.chips.forEach((c, i) => addMover(c.id, 'chip', '<span>' + esc(c.text) + '</span>', null, SL.map(s => 's-' + s.id), xs[i], 14, 'ans', { name:c.text, chip:true }));
+    q.chips.forEach((c, i) => addMover(c.id, 'chip', '<span>' + esc(c.text) + '</span>', null, SL.map(s => 's-' + s.id), cpos(i)[0], cpos(i)[1], 'ans', { name:c.text, chip:true }));
     Sc.need = nc; Sc.ans = {}; Object.keys(q.answer).forEach(k => { Sc.ans[k] = 's-' + q.answer[k]; }); Sc.check = checkMap; Sc.runAct = null; Sc.tutor = { from:q.chips[0].id, to:'s-ind' };
   },
   bins(q){
-    const nc = q.cards.length, xs = spread(nc, 14, 86);
+    const nc = q.cards.length, xs = spread(nc, 14, 86), bpos = i => PV ? (nc <= 3 ? [spread(nc, 18, 82)[i], 12] : [i % 2 ? 73 : 27, i < 2 ? 8 : 25]) : [xs[i], 14];
     q.bins.forEach((b, i) => { const t = addTarget('bn-' + b.id, 'binT ' + b.cls, '<div class="sl">' + b.label + '</div>', [27, 73][i], 66, b.label, { cap:4, slotPos:(k, c) => { const r = rc(t.node); return { dx:(k % 2 ? 1 : -1) * r.w * .245, dy:(k < 2 ? -r.h * .1 : r.h * .27) }; } }); t.node.style.height = '150px'; });
-    q.cards.forEach((c, i) => addMover(c.id, 'bcard', '<span>' + c.icon + ' ' + esc(c.text) + '</span>', null, q.bins.map(b => 'bn-' + b.id), xs[i], 14, 'ans', { name:c.text, chip:true }));
+    q.cards.forEach((c, i) => addMover(c.id, 'bcard', '<span>' + c.icon + ' ' + esc(c.text) + '</span>', null, q.bins.map(b => 'bn-' + b.id), bpos(i)[0], bpos(i)[1], 'ans', { name:c.text, chip:true }));
     Sc.need = nc; Sc.ans = {}; Object.keys(q.answer).forEach(k => { Sc.ans[k] = 'bn-' + q.answer[k]; }); Sc.check = checkMap; Sc.runAct = null; Sc.tutor = { from:q.cards[0].id, to:'bn-alir' };
   },
   ice(q){
-    const n = q.balls.length, xs = spread(n, 22, 70); Sc.balls = [];
-    const rail = addRail((xs[0] + xs[n-1])/2, 44, (xs[n-1] - xs[0]) + 26, 72, 'Buz kalıpları — kıskacı buraya bırak');
-    q.balls.forEach((b, i) => { const nd = ballNode(b); addTargetNode('b-' + b.id, nd, xs[i], 44, b.id + ' topu' + (b.hide ? '' : ' (' + b.sub2 + ')'), { ball:b }); Sc.balls.push({ b:b, node:nd }); });
-    runToken('tongs', 9, 82);
+    const n = q.balls.length, xs = PV ? spread(n, 18, 82) : spread(n, 22, 70), by = PV ? 34 : 44; Sc.balls = [];
+    const rail = addRail((xs[0] + xs[n-1])/2, by, (xs[n-1] - xs[0]) + (PV ? 30 : 26), PV ? 50 : 72, 'Buz kalıpları — kıskacı buraya bırak');
+    q.balls.forEach((b, i) => { const nd = ballNode(b); addTargetNode('b-' + b.id, nd, xs[i], by, b.id + ' topu' + (b.hide ? '' : ' (' + b.sub2 + ')'), { ball:b }); Sc.balls.push({ b:b, node:nd }); });
+    runToken('tongs', PV ? 13 : 9, 82);
     const acc = q.balls.map(b => 'b-' + b.id);
-    if(q.mode === 'medals') [1,2,3].forEach((k, i) => addMover('m' + k, 'medal', tokenArt('medal' + k), ['1.', '2.', '3.'][i], acc, [40, 51, 62][i], 82, 'ans', { name:k + '. madalya' }));
-    else addMover('cup', 'tokC', tokenArt('trophy'), 'Cevap kupası', acc, 50, 82, 'ans', { name:'Cevap kupası' });
+    if(q.mode === 'medals') [1,2,3].forEach((k, i) => addMover('m' + k, 'medal', tokenArt('medal' + k), ['1.', '2.', '3.'][i], acc, (PV ? [36, 55, 74] : [40, 51, 62])[i], 82, 'ans', { name:k + '. madalya' }));
+    else addMover('cup', 'tokC', tokenArt('trophy'), 'Cevap kupası', acc, PV ? 56 : 50, 82, 'ans', { name:'Cevap kupası' });
     Sc.need = q.mode === 'medals' ? 3 : 1; Sc.ans = q.mode === 'medals' ? q.answer : { cup:q.answer.t }; Sc.runAct = runIce; Sc.check = checkMap; Sc.tutor = { from:'run', to:'bench' };
   }
 };

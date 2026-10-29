@@ -13,7 +13,7 @@
 <script>
 'use strict';
 (()=>{
-const $=id=>document.getElementById(id),BANK=JSON.parse($('question-data').textContent),CONFIG=Object.freeze({gameId:'harf-senligi',gameVersion:'1.0.0',grade:6,subjectId:'science',subjectName:'Fen Bilimleri',locale:'tr-TR',orientation:'landscape'}),GROUPS=['reproduction','plant','animal','human','nervous','hormone','wellbeing'],ALPHABET=[...'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'],motion=matchMedia('(prefers-reduced-motion: reduce)'),GRADES=Object.freeze([6]);
+const $=id=>document.getElementById(id),BANK=JSON.parse($('question-data').textContent),CONFIG=Object.freeze({gameId:'harf-senligi',gameVersion:'1.0.0',grade:6,subjectId:'science',subjectName:'Fen Bilimleri',locale:'tr-TR',orientation:'portrait'}),GROUPS=['reproduction','plant','animal','human','nervous','hormone','wellbeing'],ALPHABET=[...'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'],motion=matchMedia('(prefers-reduced-motion: reduce)'),GRADES=Object.freeze([6]);
 let state='waiting',ctx=null,ready=null,nativeMode=false,deck=[],round=0,records=[],tiles=[],selected=[],remaining=60000,lastTick=performance.now(),lastSecond=60,started=0,pending=null,result=null,sent=false,saved=false,readyTimer=null,muted=false,audio=null,master=null;
 const runs=new Set(),received=new Set();
 const letters=s=>[...s.normalize('NFC').toLocaleUpperCase('tr-TR').replace(/\s/g,'')];

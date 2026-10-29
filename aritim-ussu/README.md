@@ -1,6 +1,6 @@
 # Arıtım Üssü · Robotun Rotası
 
-- gameId: `aritim-ussu` · Sürüm: `1.0.0` · Ekran yönü: Yatay
+- gameId: `aritim-ussu` · Sürüm: `1.0.0` · Ekran yönü: Dikey
 - Ders: Fen Bilimleri · Sınıf: 7 · Ünite: Vücudumuzdaki Sistemler (Boşaltım sistemi)
 - Akış: 8 görev kartı (4 organın her birinden 2), 30 sn/görev; kartı doğru istasyona (Böbrekler, Üreter, Mesane, Üretra) gönder.
 - Yıldız: 0–2 doğru 0★ · 3–4 1★ · 5–6 2★ · 7–8 3★
