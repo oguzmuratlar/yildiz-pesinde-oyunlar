@@ -1,0 +1,4270 @@
+[
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": true
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": false
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": true
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": false
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": true
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": false
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Venüs",
+        "Mars",
+        "Satürn"
+      ]
+    },
+    "textPlain": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat! Harita: 1. yörünge: Merkür; 2. yörünge: ?; 3. yörünge: Dünya; 4. yörünge: ?; 5. yörünge: Jüpiter; 6. yörünge: ?; 7. yörünge: Uranüs; 8. yörünge: Neptün. Kartlar: Venüs, Mars, Satürn",
+    "correctAnswer": "2. yörünge: Venüs; 4. yörünge: Mars; 6. yörünge: Satürn",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": false
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": true
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": true
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": true
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": false
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": true
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": false
+        }
+      ],
+      "tokens": [
+        "Merkür",
+        "Jüpiter",
+        "Neptün"
+      ]
+    },
+    "textPlain": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat! Harita: 1. yörünge: ?; 2. yörünge: Venüs; 3. yörünge: Dünya; 4. yörünge: Mars; 5. yörünge: ?; 6. yörünge: Satürn; 7. yörünge: Uranüs; 8. yörünge: ?. Kartlar: Merkür, Jüpiter, Neptün",
+    "correctAnswer": "1. yörünge: Merkür; 5. yörünge: Jüpiter; 8. yörünge: Neptün",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": true
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": true
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": false
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": false
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": true
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": true
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": false
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": false
+        }
+      ],
+      "tokens": [
+        "Dünya",
+        "Mars",
+        "Uranüs",
+        "Neptün"
+      ]
+    },
+    "textPlain": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat! Harita: 1. yörünge: Merkür; 2. yörünge: Venüs; 3. yörünge: ?; 4. yörünge: ?; 5. yörünge: Jüpiter; 6. yörünge: Satürn; 7. yörünge: ?; 8. yörünge: ?. Kartlar: Dünya, Mars, Uranüs, Neptün",
+    "correctAnswer": "3. yörünge: Dünya; 4. yörünge: Mars; 7. yörünge: Uranüs; 8. yörünge: Neptün",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": false
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": false
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": true
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": true
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": true
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": false
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": false
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Merkür",
+        "Venüs",
+        "Satürn",
+        "Uranüs",
+        "Ay"
+      ]
+    },
+    "textPlain": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat! Harita: 1. yörünge: ?; 2. yörünge: ?; 3. yörünge: Dünya; 4. yörünge: Mars; 5. yörünge: Jüpiter; 6. yörünge: ?; 7. yörünge: ?; 8. yörünge: Neptün. Kartlar: Merkür, Venüs, Satürn, Uranüs, Ay",
+    "correctAnswer": "1. yörünge: Merkür; 2. yörünge: Venüs; 6. yörünge: Satürn; 7. yörünge: Uranüs",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": true
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": false
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": false
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": true
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": false
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": false
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": false
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Venüs",
+        "Dünya",
+        "Jüpiter",
+        "Satürn",
+        "Uranüs",
+        "Güneş"
+      ]
+    },
+    "textPlain": "Rota haritasını tamamla: Boş yörüngelere gezegenleri Güneş’e yakınlık sırasına göre yerleştir, sonra roketi fırlat! Harita: 1. yörünge: Merkür; 2. yörünge: ?; 3. yörünge: ?; 4. yörünge: Mars; 5. yörünge: ?; 6. yörünge: ?; 7. yörünge: ?; 8. yörünge: Neptün. Kartlar: Venüs, Dünya, Jüpiter, Satürn, Uranüs, Güneş",
+    "correctAnswer": "2. yörünge: Venüs; 3. yörünge: Dünya; 5. yörünge: Jüpiter; 6. yörünge: Satürn; 7. yörünge: Uranüs",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Kargo listesi: Gezegenleri hacim bakımından büyükten küçüğe doğru boş satırlara yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "vol",
+      "rows": [
+        {
+          "t": "1. büyük",
+          "a": "Jüpiter",
+          "fix": false
+        },
+        {
+          "t": "2. büyük",
+          "a": "Satürn",
+          "fix": true
+        },
+        {
+          "t": "3. büyük",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "4. büyük",
+          "a": "Neptün",
+          "fix": true
+        },
+        {
+          "t": "5. büyük",
+          "a": "Dünya",
+          "fix": false
+        },
+        {
+          "t": "6. büyük",
+          "a": "Venüs",
+          "fix": true
+        },
+        {
+          "t": "7. büyük",
+          "a": "Mars",
+          "fix": true
+        },
+        {
+          "t": "8. büyük",
+          "a": "Merkür",
+          "fix": false
+        }
+      ],
+      "tokens": [
+        "Jüpiter",
+        "Dünya",
+        "Merkür"
+      ]
+    },
+    "textPlain": "Kargo listesi: Gezegenleri hacim bakımından büyükten küçüğe doğru boş satırlara yerleştir, sonra roketi fırlat! Harita: 1. büyük: ?; 2. büyük: Satürn; 3. büyük: Uranüs; 4. büyük: Neptün; 5. büyük: ?; 6. büyük: Venüs; 7. büyük: Mars; 8. büyük: ?. Kartlar: Jüpiter, Dünya, Merkür",
+    "correctAnswer": "1. büyük: Jüpiter; 5. büyük: Dünya; 8. büyük: Merkür",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Kargo listesi: Gezegenleri hacim bakımından büyükten küçüğe doğru boş satırlara yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "vol",
+      "rows": [
+        {
+          "t": "1. büyük",
+          "a": "Jüpiter",
+          "fix": true
+        },
+        {
+          "t": "2. büyük",
+          "a": "Satürn",
+          "fix": false
+        },
+        {
+          "t": "3. büyük",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "4. büyük",
+          "a": "Neptün",
+          "fix": false
+        },
+        {
+          "t": "5. büyük",
+          "a": "Dünya",
+          "fix": true
+        },
+        {
+          "t": "6. büyük",
+          "a": "Venüs",
+          "fix": false
+        },
+        {
+          "t": "7. büyük",
+          "a": "Mars",
+          "fix": false
+        },
+        {
+          "t": "8. büyük",
+          "a": "Merkür",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Satürn",
+        "Neptün",
+        "Venüs",
+        "Mars"
+      ]
+    },
+    "textPlain": "Kargo listesi: Gezegenleri hacim bakımından büyükten küçüğe doğru boş satırlara yerleştir, sonra roketi fırlat! Harita: 1. büyük: Jüpiter; 2. büyük: ?; 3. büyük: Uranüs; 4. büyük: ?; 5. büyük: Dünya; 6. büyük: ?; 7. büyük: ?; 8. büyük: Merkür. Kartlar: Satürn, Neptün, Venüs, Mars",
+    "correctAnswer": "2. büyük: Satürn; 4. büyük: Neptün; 6. büyük: Venüs; 7. büyük: Mars",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Kargo listesi: Gezegenleri hacim bakımından büyükten küçüğe doğru boş satırlara yerleştir, sonra roketi fırlat!",
+    "data": {
+      "mode": "vol",
+      "rows": [
+        {
+          "t": "1. büyük",
+          "a": "Jüpiter",
+          "fix": true
+        },
+        {
+          "t": "2. büyük",
+          "a": "Satürn",
+          "fix": true
+        },
+        {
+          "t": "3. büyük",
+          "a": "Uranüs",
+          "fix": false
+        },
+        {
+          "t": "4. büyük",
+          "a": "Neptün",
+          "fix": false
+        },
+        {
+          "t": "5. büyük",
+          "a": "Dünya",
+          "fix": false
+        },
+        {
+          "t": "6. büyük",
+          "a": "Venüs",
+          "fix": false
+        },
+        {
+          "t": "7. büyük",
+          "a": "Mars",
+          "fix": false
+        },
+        {
+          "t": "8. büyük",
+          "a": "Merkür",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Uranüs",
+        "Neptün",
+        "Dünya",
+        "Venüs",
+        "Mars"
+      ]
+    },
+    "textPlain": "Kargo listesi: Gezegenleri hacim bakımından büyükten küçüğe doğru boş satırlara yerleştir, sonra roketi fırlat! Harita: 1. büyük: Jüpiter; 2. büyük: Satürn; 3. büyük: ?; 4. büyük: ?; 5. büyük: ?; 6. büyük: ?; 7. büyük: ?; 8. büyük: Merkür. Kartlar: Uranüs, Neptün, Dünya, Venüs, Mars",
+    "correctAnswer": "3. büyük: Uranüs; 4. büyük: Neptün; 5. büyük: Dünya; 6. büyük: Venüs; 7. büyük: Mars",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "kolay",
+    "group": "gokcisim",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Rota haritasında asteroit kuşağının yeri boş kaldı! Kartları doğru yere yerleştir, sonra roketi fırlat.",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": true
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": true
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": true
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": true
+        },
+        {
+          "t": "Mars ile Jüpiter arası",
+          "a": "Asteroit kuşağı",
+          "fix": false
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": false
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": true
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Asteroit kuşağı",
+        "Jüpiter"
+      ]
+    },
+    "textPlain": "Rota haritasında asteroit kuşağının yeri boş kaldı! Kartları doğru yere yerleştir, sonra roketi fırlat. Harita: 1. yörünge: Merkür; 2. yörünge: Venüs; 3. yörünge: Dünya; 4. yörünge: Mars; Mars ile Jüpiter arası: ?; 5. yörünge: ?; 6. yörünge: Satürn; 7. yörünge: Uranüs; 8. yörünge: Neptün. Kartlar: Asteroit kuşağı, Jüpiter",
+    "correctAnswer": "Mars ile Jüpiter arası: Asteroit kuşağı; 5. yörünge: Jüpiter",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-gokcisim-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "orta",
+    "group": "gokcisim",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Asteroit kuşağını ve eksik gezegenleri rota haritasına yerleştir, sonra roketi fırlat.",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": true
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": true
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": true
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": false
+        },
+        {
+          "t": "Mars ile Jüpiter arası",
+          "a": "Asteroit kuşağı",
+          "fix": false
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": true
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": false
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Mars",
+        "Asteroit kuşağı",
+        "Satürn"
+      ]
+    },
+    "textPlain": "Asteroit kuşağını ve eksik gezegenleri rota haritasına yerleştir, sonra roketi fırlat. Harita: 1. yörünge: Merkür; 2. yörünge: Venüs; 3. yörünge: Dünya; 4. yörünge: ?; Mars ile Jüpiter arası: ?; 5. yörünge: Jüpiter; 6. yörünge: ?; 7. yörünge: Uranüs; 8. yörünge: Neptün. Kartlar: Mars, Asteroit kuşağı, Satürn",
+    "correctAnswer": "4. yörünge: Mars; Mars ile Jüpiter arası: Asteroit kuşağı; 6. yörünge: Satürn",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-gokcisim-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "zor",
+    "group": "gokcisim",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Asteroit kuşağını ve eksik gezegenleri rota haritasına yerleştir. Dikkat: Bir kart haritaya ait değil!",
+    "data": {
+      "mode": "dist",
+      "rows": [
+        {
+          "t": "1. yörünge",
+          "a": "Merkür",
+          "fix": true
+        },
+        {
+          "t": "2. yörünge",
+          "a": "Venüs",
+          "fix": true
+        },
+        {
+          "t": "3. yörünge",
+          "a": "Dünya",
+          "fix": false
+        },
+        {
+          "t": "4. yörünge",
+          "a": "Mars",
+          "fix": false
+        },
+        {
+          "t": "Mars ile Jüpiter arası",
+          "a": "Asteroit kuşağı",
+          "fix": false
+        },
+        {
+          "t": "5. yörünge",
+          "a": "Jüpiter",
+          "fix": false
+        },
+        {
+          "t": "6. yörünge",
+          "a": "Satürn",
+          "fix": true
+        },
+        {
+          "t": "7. yörünge",
+          "a": "Uranüs",
+          "fix": true
+        },
+        {
+          "t": "8. yörünge",
+          "a": "Neptün",
+          "fix": true
+        }
+      ],
+      "tokens": [
+        "Dünya",
+        "Mars",
+        "Asteroit kuşağı",
+        "Jüpiter",
+        "Meteor çukuru"
+      ]
+    },
+    "textPlain": "Asteroit kuşağını ve eksik gezegenleri rota haritasına yerleştir. Dikkat: Bir kart haritaya ait değil! Harita: 1. yörünge: Merkür; 2. yörünge: Venüs; 3. yörünge: ?; 4. yörünge: ?; Mars ile Jüpiter arası: ?; 5. yörünge: ?; 6. yörünge: Satürn; 7. yörünge: Uranüs; 8. yörünge: Neptün. Kartlar: Dünya, Mars, Asteroit kuşağı, Jüpiter, Meteor çukuru",
+    "correctAnswer": "3. yörünge: Dünya; 4. yörünge: Mars; Mars ile Jüpiter arası: Asteroit kuşağı; 5. yörünge: Jüpiter",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-gokcisim-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "vol",
+      "items": [
+        "Jüpiter",
+        "Dünya",
+        "Merkür"
+      ],
+      "order": [
+        "Jüpiter",
+        "Dünya",
+        "Merkür"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Jüpiter, Dünya, Merkür",
+    "correctAnswer": "Jüpiter → Dünya → Merkür",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına Güneş’e en yakından en uzağa doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "dist",
+      "items": [
+        "Mars",
+        "Merkür",
+        "Satürn"
+      ],
+      "order": [
+        "Merkür",
+        "Mars",
+        "Satürn"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına Güneş’e en yakından en uzağa doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Mars, Merkür, Satürn",
+    "correctAnswer": "Merkür → Mars → Satürn",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "vol",
+      "items": [
+        "Satürn",
+        "Venüs",
+        "Uranüs",
+        "Mars"
+      ],
+      "order": [
+        "Satürn",
+        "Uranüs",
+        "Venüs",
+        "Mars"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Satürn, Venüs, Uranüs, Mars",
+    "correctAnswer": "Satürn → Uranüs → Venüs → Mars",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına Güneş’e en uzaktan en yakına doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "dist",
+      "items": [
+        "Neptün",
+        "Venüs",
+        "Jüpiter",
+        "Dünya"
+      ],
+      "order": [
+        "Neptün",
+        "Jüpiter",
+        "Dünya",
+        "Venüs"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına Güneş’e en uzaktan en yakına doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Neptün, Venüs, Jüpiter, Dünya",
+    "correctAnswer": "Neptün → Jüpiter → Dünya → Venüs",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına hacim bakımından küçükten büyüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "vol",
+      "items": [
+        "Neptün",
+        "Dünya",
+        "Uranüs",
+        "Mars",
+        "Venüs"
+      ],
+      "order": [
+        "Mars",
+        "Venüs",
+        "Dünya",
+        "Neptün",
+        "Uranüs"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına hacim bakımından küçükten büyüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Neptün, Dünya, Uranüs, Mars, Venüs",
+    "correctAnswer": "Mars → Venüs → Dünya → Neptün → Uranüs",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "vol",
+      "items": [
+        "Merkür",
+        "Satürn",
+        "Neptün",
+        "Venüs",
+        "Jüpiter"
+      ],
+      "order": [
+        "Jüpiter",
+        "Satürn",
+        "Neptün",
+        "Venüs",
+        "Merkür"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Merkür, Satürn, Neptün, Venüs, Jüpiter",
+    "correctAnswer": "Jüpiter → Satürn → Neptün → Venüs → Merkür",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20, 40",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "key": "vol",
+      "items": [
+        "Dünya",
+        "Merkür",
+        "Venüs",
+        "Mars"
+      ],
+      "order": [
+        "Dünya",
+        "Venüs",
+        "Mars",
+        "Merkür"
+      ]
+    },
+    "textPlain": "Fırlatma rampası: Gezegen kartlarına hacim bakımından büyükten küçüğe doğru sırayla dokun, sonra tarayıcıyı çalıştır! Kartlar: Dünya, Merkür, Venüs, Mars",
+    "correctAnswer": "Dünya → Venüs → Mars → Merkür",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 40–41",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "balls",
+    "prompt": "Model atölyesi: Gezegen kartlarını hacimsel büyüklüklerine göre topların üzerine yerleştir, sonra modeli kontrol et!",
+    "data": {
+      "balls": [
+        "Basketbol topu",
+        "Futbol topu",
+        "Tenis topu",
+        "Pinpon topu"
+      ],
+      "ans": [
+        "Satürn",
+        "Uranüs",
+        "Venüs",
+        "Mars"
+      ],
+      "tokens": [
+        "Mars",
+        "Venüs",
+        "Uranüs",
+        "Satürn"
+      ]
+    },
+    "textPlain": "Model atölyesi: Gezegen kartlarını hacimsel büyüklüklerine göre topların üzerine yerleştir, sonra modeli kontrol et! Toplar büyükten küçüğe: basketbol, futbol, tenis, pinpon. Gezegenler: Mars, Venüs, Uranüs, Satürn",
+    "correctAnswer": "Basketbol topu: Satürn; Futbol topu: Uranüs; Tenis topu: Venüs; Pinpon topu: Mars",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür. En büyük top en büyük gezegeni, en küçük top en küçük gezegeni temsil eder.",
+    "questionId": "fen6u1-yorunge-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 40–41",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "balls",
+    "prompt": "Model atölyesi: Karasal gezegenleri hacimsel büyüklüklerine göre topların üzerine yerleştir, sonra modeli kontrol et!",
+    "data": {
+      "balls": [
+        "Basketbol topu",
+        "Futbol topu",
+        "Tenis topu",
+        "Pinpon topu"
+      ],
+      "ans": [
+        "Dünya",
+        "Venüs",
+        "Mars",
+        "Merkür"
+      ],
+      "tokens": [
+        "Merkür",
+        "Venüs",
+        "Dünya",
+        "Mars"
+      ]
+    },
+    "textPlain": "Model atölyesi: Karasal gezegenleri hacimsel büyüklüklerine göre topların üzerine yerleştir, sonra modeli kontrol et! Toplar büyükten küçüğe: basketbol, futbol, tenis, pinpon. Gezegenler: Merkür, Venüs, Dünya, Mars",
+    "correctAnswer": "Basketbol topu: Dünya; Futbol topu: Venüs; Tenis topu: Mars; Pinpon topu: Merkür",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür. En büyük top en büyük gezegeni, en küçük top en küçük gezegeni temsil eder.",
+    "questionId": "fen6u1-yorunge-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 40–41",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "balls",
+    "prompt": "Model atölyesi: Gezegen kartlarını hacimsel büyüklüklerine göre topların üzerine yerleştir, sonra modeli kontrol et!",
+    "data": {
+      "balls": [
+        "Basketbol topu",
+        "Futbol topu",
+        "Tenis topu",
+        "Pinpon topu"
+      ],
+      "ans": [
+        "Jüpiter",
+        "Neptün",
+        "Dünya",
+        "Mars"
+      ],
+      "tokens": [
+        "Mars",
+        "Jüpiter",
+        "Dünya",
+        "Neptün",
+        "Ay"
+      ]
+    },
+    "textPlain": "Model atölyesi: Gezegen kartlarını hacimsel büyüklüklerine göre topların üzerine yerleştir, sonra modeli kontrol et! Toplar büyükten küçüğe: basketbol, futbol, tenis, pinpon. Gezegenler: Mars, Jüpiter, Dünya, Neptün, Ay",
+    "correctAnswer": "Basketbol topu: Jüpiter; Futbol topu: Neptün; Tenis topu: Dünya; Pinpon topu: Mars",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür. En büyük top en büyük gezegeni, en küçük top en küçük gezegeni temsil eder.",
+    "questionId": "fen6u1-yorunge-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–22, 40",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "balls",
+    "prompt": "Model atölyesi: Yalnızca gazsal gezegenleri hacimsel büyüklüklerine göre topların üzerine yerleştir. Bir kart dışarıda kalacak!",
+    "data": {
+      "balls": [
+        "Basketbol topu",
+        "Futbol topu",
+        "Tenis topu",
+        "Pinpon topu"
+      ],
+      "ans": [
+        "Jüpiter",
+        "Satürn",
+        "Uranüs",
+        "Neptün"
+      ],
+      "tokens": [
+        "Jüpiter",
+        "Satürn",
+        "Uranüs",
+        "Neptün",
+        "Mars"
+      ]
+    },
+    "textPlain": "Model atölyesi: Yalnızca gazsal gezegenleri hacimsel büyüklüklerine göre topların üzerine yerleştir. Bir kart dışarıda kalacak! Toplar büyükten küçüğe: basketbol, futbol, tenis, pinpon. Gezegenler: Jüpiter, Satürn, Uranüs, Neptün, Mars",
+    "correctAnswer": "Basketbol topu: Jüpiter; Futbol topu: Satürn; Tenis topu: Uranüs; Pinpon topu: Neptün",
+    "explanation": "Gazsal gezegenler Jüpiter, Satürn, Uranüs ve Neptün’dür; hacimce büyükten küçüğe Jüpiter, Satürn, Uranüs, Neptün sıralanır. Mars karasaldır.",
+    "questionId": "fen6u1-nitelik-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 26",
+    "difficulty": "kolay",
+    "group": "yorunge",
+    "rank": 1,
+    "type": "scan",
+    "prompt": "Tarama görevi: Dünya’dan yola çıkan roket Güneş’ten uzaklaşacak yönde gidiyor. Hangi gezegenlerle karşılaşır? Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "textPlain": "Tarama görevi: Dünya’dan yola çıkan roket Güneş’ten uzaklaşacak yönde gidiyor. Hangi gezegenlerle karşılaşır? Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur.",
+    "questionId": "fen6u1-yorunge-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 28",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "scan",
+    "prompt": "Tarama görevi: Hacim bakımından Dünya’dan daha küçük olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        0,
+        1,
+        3
+      ]
+    },
+    "textPlain": "Tarama görevi: Hacim bakımından Dünya’dan daha küçük olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Merkür, Venüs, Mars",
+    "explanation": "Hacim bakımından büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür. Gazsal gezegenler karasal gezegenlerden büyüktür.",
+    "questionId": "fen6u1-yorunge-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 28",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "scan",
+    "prompt": "Tarama görevi: Güneş’e Uranüs’ten daha yakın olan gazsal gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        4,
+        5
+      ]
+    },
+    "textPlain": "Tarama görevi: Güneş’e Uranüs’ten daha yakın olan gazsal gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Jüpiter, Satürn",
+    "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Mars ile Jüpiter arasında asteroit kuşağı bulunur. Gazsal gezegenler Jüpiter, Satürn, Uranüs ve Neptün’dür.",
+    "questionId": "fen6u1-yorunge-21"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "scan",
+    "prompt": "Tarama görevi: Halkası olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "textPlain": "Tarama görevi: Halkası olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Jüpiter, Satürn, Uranüs, Neptün",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20, 25",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "scan",
+    "prompt": "Tarama görevi: Uydusu olmayan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Tarama görevi: Uydusu olmayan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Merkür, Venüs",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 39",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "scan",
+    "prompt": "Tarama görevi: Uydusu olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "textPlain": "Tarama görevi: Uydusu olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23, 28",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "scan",
+    "prompt": "Tarama görevi: Güneş’e asteroit kuşağından daha uzak olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "textPlain": "Tarama görevi: Güneş’e asteroit kuşağından daha uzak olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Jüpiter, Satürn, Uranüs, Neptün",
+    "explanation": "Asteroit kuşağı Mars ile Jüpiter arasındadır. Ondan uzaktaki Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır, uyduları ve halkaları vardır.",
+    "questionId": "fen6u1-nitelik-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 25",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "scan",
+    "prompt": "Tarama görevi: Uydusu olan ama halkası olmayan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        2,
+        3
+      ]
+    },
+    "textPlain": "Tarama görevi: Uydusu olan ama halkası olmayan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Dünya, Mars",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "orta",
+    "group": "gokcisim",
+    "rank": 2,
+    "type": "scan",
+    "prompt": "Tarama görevi: Asteroit kuşağından önce, Güneş’e daha yakın olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat!",
+    "data": {
+      "ans": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Tarama görevi: Asteroit kuşağından önce, Güneş’e daha yakın olan gezegenleri bul. Gezegenlere dokunarak işaretle, sonra taramayı başlat! Gezegenler Güneş’e yakınlık sırasıyla: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün.",
+    "correctAnswer": "Merkür, Venüs, Dünya, Mars",
+    "explanation": "Asteroit kuşağı Mars ile Jüpiter arasındadır; ondan önce Merkür, Venüs, Dünya ve Mars yer alır. Bunlar karasal gezegenlerdir.",
+    "questionId": "fen6u1-gokcisim-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Güneş’e en yakın gezegen",
+        "Uydusu ve halkası yok"
+      ],
+      "ans": 0
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Güneş’e en yakın gezegen | Uydusu ve halkası yok. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Merkür",
+    "explanation": "Merkür Güneş’e en yakın gezegendir; hacimce en küçük gezegendir, uydusu ve halkası yoktur, karasal yapıdadır.",
+    "questionId": "fen6u1-nitelik-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Görünümünden dolayı “Kızıl gezegen” denir",
+        "Uydusu var, halkası yok"
+      ],
+      "ans": 3
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Görünümünden dolayı “Kızıl gezegen” denir | Uydusu var, halkası yok. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Mars",
+    "explanation": "Mars, görünümünden dolayı “Kızıl gezegen” olarak adlandırılır. Güneş’e yakınlıkta dördüncüdür, uydusu vardır, halkası yoktur.",
+    "questionId": "fen6u1-nitelik-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Halkaları en belirgin gezegen",
+        "Gazsal yapıda"
+      ],
+      "ans": 5
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Halkaları en belirgin gezegen | Gazsal yapıda. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Satürn",
+    "explanation": "Satürn, halkaları en belirgin gezegendir. Güneş’e yakınlıkta altıncı, hacimce ikinci büyük gezegendir.",
+    "questionId": "fen6u1-nitelik-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Güneş sisteminin en sıcak gezegeni",
+        "Karasal yapıda",
+        "Uydusu yok"
+      ],
+      "ans": 1
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Güneş sisteminin en sıcak gezegeni | Karasal yapıda | Uydusu yok. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Venüs",
+    "explanation": "Venüs, Güneş sisteminin en sıcak gezegenidir. Güneş’e yakınlıkta ikinci sıradadır, uydusu ve halkası yoktur.",
+    "questionId": "fen6u1-nitelik-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 24",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Gazsal yapıda",
+        "Güneş’e Satürn’den uzak, Neptün’den yakın"
+      ],
+      "ans": 6
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Gazsal yapıda | Güneş’e Satürn’den uzak, Neptün’den yakın. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Uranüs",
+    "explanation": "Güneş’e yakınlıkta Satürn altıncı, Uranüs yedinci, Neptün sekizinci sıradadır.",
+    "questionId": "fen6u1-nitelik-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 24",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Asteroit kuşağına en yakın gazsal gezegen",
+        "Hacimce en büyük gezegen"
+      ],
+      "ans": 4
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Asteroit kuşağına en yakın gazsal gezegen | Hacimce en büyük gezegen. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Jüpiter",
+    "explanation": "Asteroit kuşağı Mars ile Jüpiter arasındadır; Jüpiter kuşağa en yakın gazsal gezegendir ve hacimce en büyük gezegendir.",
+    "questionId": "fen6u1-nitelik-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 24",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Halkası olmayan gezegenlerin hacimce en büyüğü"
+      ],
+      "ans": 2
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Halkası olmayan gezegenlerin hacimce en büyüğü. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Dünya",
+    "explanation": "Halkası olmayan gezegenler karasal gezegenlerdir: Merkür, Venüs, Dünya, Mars. Bunların hacimce en büyüğü Dünya’dır (hacimce beşinci).",
+    "questionId": "fen6u1-nitelik-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 24, 39",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Hacimce en küçük gazsal gezegen",
+        "Güneş’e en uzak gezegen"
+      ],
+      "ans": 7
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Hacimce en küçük gazsal gezegen | Güneş’e en uzak gezegen. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Neptün",
+    "explanation": "Gazsal gezegenlerin hacimce sıralaması Jüpiter, Satürn, Uranüs, Neptün’dür; en küçüğü Neptün’dür. Neptün Güneş’e en uzak gezegendir.",
+    "questionId": "fen6u1-nitelik-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20, 39",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Halkası ve uydusu olmayan gezegenlerden Güneş’e en uzak olanı"
+      ],
+      "ans": 1
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Halkası ve uydusu olmayan gezegenlerden Güneş’e en uzak olanı. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Venüs",
+    "explanation": "Halkası ve uydusu olmayan gezegenler Merkür ve Venüs’tür; Güneş’e daha uzak olanı Venüs’tür.",
+    "questionId": "fen6u1-nitelik-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20",
+    "difficulty": "orta",
+    "group": "yorunge",
+    "rank": 2,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Güneş’e yakınlıkta 3. sırada",
+        "Hacimce 5. büyük gezegen",
+        "Canlı yaşamı olduğu bilinen tek gezegen"
+      ],
+      "ans": 2
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Güneş’e yakınlıkta 3. sırada | Hacimce 5. büyük gezegen | Canlı yaşamı olduğu bilinen tek gezegen. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Dünya",
+    "explanation": "Dünya Güneş’e yakınlıkta üçüncü, hacimce beşinci büyük gezegendir; canlı yaşamının olduğu bilinen tek gezegendir.",
+    "questionId": "fen6u1-yorunge-22"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin Güneş’e yakınlık ve hacim sıralaması",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+    "difficulty": "zor",
+    "group": "yorunge",
+    "rank": 3,
+    "type": "probe",
+    "prompt": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder.",
+    "data": {
+      "clues": [
+        "Güneş’e yakınlıkta 7. sırada",
+        "Hacimce 3. büyük gezegen"
+      ],
+      "ans": 6
+    },
+    "textPlain": "Gizemli gezegen! Sondanın gönderdiği ipuçlarını oku, hangi gezegen olduğunu seç ve sondayı gönder. İpuçları: Güneş’e yakınlıkta 7. sırada | Hacimce 3. büyük gezegen. Seçenekler: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün",
+    "correctAnswer": "Uranüs",
+    "explanation": "Uranüs Güneş’e yakınlıkta yedinci, hacimce üçüncü büyük gezegendir.",
+    "questionId": "fen6u1-yorunge-23"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20, 25",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "console",
+    "prompt": "Kokpit paneli: Mars için göstergeleri ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🔴",
+        "Mars"
+      ],
+      "rows": [
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Uydu",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: Mars için göstergeleri ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Yapı: Karasal / Gazsal | Uydu: Var / Yok | Halka: Var / Yok",
+    "correctAnswer": "Yapı: Karasal; Uydu: Var; Halka: Yok",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "console",
+    "prompt": "Kokpit paneli: Jüpiter için göstergeleri ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🟠",
+        "Jüpiter"
+      ],
+      "rows": [
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Uydu",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: Jüpiter için göstergeleri ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Yapı: Karasal / Gazsal | Uydu: Var / Yok | Halka: Var / Yok",
+    "correctAnswer": "Yapı: Gazsal; Uydu: Var; Halka: Var",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20, 25",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "console",
+    "prompt": "Kokpit paneli: Merkür için göstergeleri ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🪨",
+        "Merkür"
+      ],
+      "rows": [
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Uydu",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Güneş’e yakınlık",
+          "o": [
+            "1.",
+            "2.",
+            "3.",
+            "4."
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: Merkür için göstergeleri ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Yapı: Karasal / Gazsal | Uydu: Var / Yok | Halka: Var / Yok | Güneş’e yakınlık: 1. / 2. / 3. / 4.",
+    "correctAnswer": "Yapı: Karasal; Uydu: Yok; Halka: Yok; Güneş’e yakınlık: 1.",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür. Merkür Güneş’e en yakın gezegendir.",
+    "questionId": "fen6u1-nitelik-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "console",
+    "prompt": "Kokpit paneli: Uranüs için göstergeleri ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🔵",
+        "Uranüs"
+      ],
+      "rows": [
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Uydu",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Hacim sırası",
+          "o": [
+            "2.",
+            "3.",
+            "4.",
+            "5."
+          ],
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: Uranüs için göstergeleri ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Yapı: Karasal / Gazsal | Uydu: Var / Yok | Halka: Var / Yok | Hacim sırası: 2. / 3. / 4. / 5.",
+    "correctAnswer": "Yapı: Gazsal; Uydu: Var; Halka: Var; Hacim sırası: 3.",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür. Uranüs hacimce üçüncü büyük gezegendir.",
+    "questionId": "fen6u1-nitelik-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20, 25",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "console",
+    "prompt": "Kokpit paneli: Venüs için göstergeleri ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🌕",
+        "Venüs"
+      ],
+      "rows": [
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Uydu",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Güneş’e yakınlık",
+          "o": [
+            "1.",
+            "2.",
+            "3.",
+            "4."
+          ],
+          "a": 1
+        },
+        {
+          "l": "Hacim sırası",
+          "o": [
+            "5.",
+            "6.",
+            "7.",
+            "8."
+          ],
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: Venüs için göstergeleri ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Yapı: Karasal / Gazsal | Uydu: Var / Yok | Halka: Var / Yok | Güneş’e yakınlık: 1. / 2. / 3. / 4. | Hacim sırası: 5. / 6. / 7. / 8.",
+    "correctAnswer": "Yapı: Karasal; Uydu: Yok; Halka: Yok; Güneş’e yakınlık: 2.; Hacim sırası: 6.",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür. Venüs Güneş’e yakınlıkta ikinci, hacimce altıncı büyük gezegendir.",
+    "questionId": "fen6u1-nitelik-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "console",
+    "prompt": "Kokpit paneli: Neptün için göstergeleri ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🔷",
+        "Neptün"
+      ],
+      "rows": [
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Uydu",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Güneş’e yakınlık",
+          "o": [
+            "5.",
+            "6.",
+            "7.",
+            "8."
+          ],
+          "a": 3
+        },
+        {
+          "l": "Hacim sırası",
+          "o": [
+            "1.",
+            "2.",
+            "3.",
+            "4."
+          ],
+          "a": 3
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: Neptün için göstergeleri ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Yapı: Karasal / Gazsal | Uydu: Var / Yok | Halka: Var / Yok | Güneş’e yakınlık: 5. / 6. / 7. / 8. | Hacim sırası: 1. / 2. / 3. / 4.",
+    "correctAnswer": "Yapı: Gazsal; Uydu: Var; Halka: Var; Güneş’e yakınlık: 8.; Hacim sırası: 4.",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür. Neptün Güneş’e en uzak, hacimce dördüncü büyük gezegendir.",
+    "questionId": "fen6u1-nitelik-21"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 22–23",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "console",
+    "prompt": "Kokpit paneli: X gezegeninin uydusu var ve Güneş’e Mars’tan daha uzak. Konum, yapı ve halka göstergelerini ayarla, sonra tarayıcıyı çalıştır!",
+    "data": {
+      "head": [
+        "🛸",
+        "X gezegeni"
+      ],
+      "rows": [
+        {
+          "l": "Konum",
+          "o": [
+            "Asteroit kuşağından önce",
+            "Asteroit kuşağından sonra"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Yapı",
+          "o": [
+            "Karasal",
+            "Gazsal"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Halka",
+          "o": [
+            "Var",
+            "Yok"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Kokpit paneli: X gezegeninin uydusu var ve Güneş’e Mars’tan daha uzak. Konum, yapı ve halka göstergelerini ayarla, sonra tarayıcıyı çalıştır! Göstergeler: Konum: Asteroit kuşağından önce / Asteroit kuşağından sonra | Yapı: Karasal / Gazsal | Halka: Var / Yok",
+    "correctAnswer": "Konum: Asteroit kuşağından sonra; Yapı: Gazsal; Halka: Var",
+    "explanation": "Asteroit kuşağından sonra gelen gezegenler (Jüpiter, Satürn, Uranüs, Neptün) gazsal yapıdadır ve halkaları vardır.",
+    "questionId": "fen6u1-nitelik-22"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "kolay",
+    "group": "gokcisim",
+    "rank": 1,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat!",
+    "data": {
+      "empty": [
+        1,
+        2
+      ],
+      "tokens": [
+        "Meteor",
+        "Meteorit"
+      ],
+      "desc": true
+    },
+    "textPlain": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Meteor, Meteorit",
+    "correctAnswer": "2. durak: Meteor; 3. durak: Meteorit",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "kolay",
+    "group": "gokcisim",
+    "rank": 1,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat!",
+    "data": {
+      "empty": [
+        0,
+        3
+      ],
+      "tokens": [
+        "Gök taşı",
+        "Meteor çukuru"
+      ],
+      "desc": true
+    },
+    "textPlain": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Gök taşı, Meteor çukuru",
+    "correctAnswer": "1. durak: Gök taşı; 4. durak: Meteor çukuru",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "orta",
+    "group": "gokcisim",
+    "rank": 2,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2
+      ],
+      "tokens": [
+        "Gök taşı",
+        "Meteor",
+        "Meteorit"
+      ],
+      "desc": false
+    },
+    "textPlain": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Gök taşı, Meteor, Meteorit",
+    "correctAnswer": "1. durak: Gök taşı; 2. durak: Meteor; 3. durak: Meteorit",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "orta",
+    "group": "gokcisim",
+    "rank": 2,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat!",
+    "data": {
+      "empty": [
+        1,
+        2,
+        3
+      ],
+      "tokens": [
+        "Meteor",
+        "Meteorit",
+        "Meteor çukuru"
+      ],
+      "desc": false
+    },
+    "textPlain": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Meteor, Meteorit, Meteor çukuru",
+    "correctAnswer": "2. durak: Meteor; 3. durak: Meteorit; 4. durak: Meteor çukuru",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "zor",
+    "group": "gokcisim",
+    "rank": 3,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Duraklara doğru adları yerleştir. Dikkat: Bazı kartlar bu yolculuğa ait değil!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tokens": [
+        "Gök taşı",
+        "Meteor",
+        "Meteorit",
+        "Meteor çukuru",
+        "Asteroit kuşağı"
+      ],
+      "desc": false
+    },
+    "textPlain": "Gök taşı takibi: Duraklara doğru adları yerleştir. Dikkat: Bazı kartlar bu yolculuğa ait değil! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Gök taşı, Meteor, Meteorit, Meteor çukuru, Asteroit kuşağı",
+    "correctAnswer": "1. durak: Gök taşı; 2. durak: Meteor; 3. durak: Meteorit; 4. durak: Meteor çukuru",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "zor",
+    "group": "gokcisim",
+    "rank": 3,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Duraklara doğru adları yerleştir. Dikkat: Bazı kartlar bu yolculuğa ait değil!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tokens": [
+        "Gök taşı",
+        "Meteor",
+        "Meteorit",
+        "Meteor çukuru",
+        "Gezegen",
+        "Uydu"
+      ],
+      "desc": false
+    },
+    "textPlain": "Gök taşı takibi: Duraklara doğru adları yerleştir. Dikkat: Bazı kartlar bu yolculuğa ait değil! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Gök taşı, Meteor, Meteorit, Meteor çukuru, Gezegen, Uydu",
+    "correctAnswer": "1. durak: Gök taşı; 2. durak: Meteor; 3. durak: Meteorit; 4. durak: Meteor çukuru",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "kolay",
+    "group": "gokcisim",
+    "rank": 1,
+    "type": "meteor",
+    "prompt": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "tokens": [
+        "Gök taşı",
+        "Meteor",
+        "Meteorit",
+        "Meteor çukuru"
+      ],
+      "desc": true
+    },
+    "textPlain": "Gök taşı takibi: Kaya parçasının yolculuğundaki her durağa doğru adı yerleştir, sonra izi oynat! Duraklar: 1) uzayda kaya parçası, 2) atmosferde, 3) yeryüzünde, 4) yerdeki çukur. Kartlar: Gök taşı, Meteor, Meteorit, Meteor çukuru",
+    "correctAnswer": "1. durak: Gök taşı; 2. durak: Meteor; 3. durak: Meteorit; 4. durak: Meteor çukuru",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 31–34",
+    "difficulty": "kolay",
+    "group": "gunes",
+    "rank": 1,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Güneş, Dünya ve Ay’ı hizaya diz ki Güneş tutulması oluşsun. Sonra ışığı aç!",
+    "data": {
+      "want": "gunes",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": null
+    },
+    "textPlain": "Tutulma simülatörü: Güneş, Dünya ve Ay’ı hizaya diz ki Güneş tutulması oluşsun. Sonra ışığı aç! Kartlar: Güneş, Dünya, Ay",
+    "correctAnswer": "Güneş – Ay – Dünya (ortada Ay)",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir.",
+    "questionId": "fen6u1-gunes-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 37, 41",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "eclipse",
+    "prompt": "Top modeli: Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topları Güneş tutulması modeli olacak şekilde diz, sonra el fenerini yak!",
+    "data": {
+      "want": "gunes",
+      "skin": "ball",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": null
+    },
+    "textPlain": "Top modeli: Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topları Güneş tutulması modeli olacak şekilde diz, sonra el fenerini yak! Kartlar: Basketbol topu, Tenis topu, Pinpon topu",
+    "correctAnswer": "Basketbol topu – Pinpon topu – Tenis topu (ortada Pinpon topu)",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir.",
+    "questionId": "fen6u1-gunes-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 31–34",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Bu dizilişte Güneş tutulması oluşmuyor! Cisimlerin yerini değiştirerek Güneş tutulması oluştur, sonra ışığı aç.",
+    "data": {
+      "want": "gunes",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": [
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    "textPlain": "Tutulma simülatörü: Bu dizilişte Güneş tutulması oluşmuyor! Cisimlerin yerini değiştirerek Güneş tutulması oluştur, sonra ışığı aç. Kartlar: Güneş, Dünya, Ay. Başlangıç dizilişi: Güneş, Dünya, Ay",
+    "correctAnswer": "Güneş – Ay – Dünya (ortada Ay)",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir.",
+    "questionId": "fen6u1-gunes-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 41",
+    "difficulty": "zor",
+    "group": "gunes",
+    "rank": 3,
+    "type": "eclipse",
+    "prompt": "Bir öğrenci Güneş tutulması modelini yanlış kurmuş. Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topların yerini düzelt, sonra el fenerini yak!",
+    "data": {
+      "want": "gunes",
+      "skin": "ball",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": [
+        "A",
+        "G",
+        "D"
+      ]
+    },
+    "textPlain": "Bir öğrenci Güneş tutulması modelini yanlış kurmuş. Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topların yerini düzelt, sonra el fenerini yak! Kartlar: Basketbol topu, Tenis topu, Pinpon topu. Başlangıç dizilişi: Pinpon topu, Basketbol topu, Tenis topu",
+    "correctAnswer": "Basketbol topu – Pinpon topu – Tenis topu (ortada Pinpon topu)",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir.",
+    "questionId": "fen6u1-gunes-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 31–34",
+    "difficulty": "zor",
+    "group": "gunes",
+    "rank": 3,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Ay’ın gölgesi Dünya’nın üzerine düşsün! Doğru üç cismi hizaya diz; bir kart dışarıda kalacak. Sonra ışığı aç.",
+    "data": {
+      "want": "gunes",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A",
+        "Mars"
+      ],
+      "pre": null
+    },
+    "textPlain": "Tutulma simülatörü: Ay’ın gölgesi Dünya’nın üzerine düşsün! Doğru üç cismi hizaya diz; bir kart dışarıda kalacak. Sonra ışığı aç. Kartlar: Güneş, Dünya, Ay, Mars",
+    "correctAnswer": "Güneş – Ay – Dünya (ortada Ay)",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir.",
+    "questionId": "fen6u1-gunes-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 31–34",
+    "difficulty": "kolay",
+    "group": "ay",
+    "rank": 1,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Güneş, Dünya ve Ay’ı hizaya diz ki Ay tutulması oluşsun. Sonra ışığı aç!",
+    "data": {
+      "want": "ay",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": null
+    },
+    "textPlain": "Tutulma simülatörü: Güneş, Dünya ve Ay’ı hizaya diz ki Ay tutulması oluşsun. Sonra ışığı aç! Kartlar: Güneş, Dünya, Ay",
+    "correctAnswer": "Güneş – Dünya – Ay (ortada Dünya)",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 37, 41",
+    "difficulty": "orta",
+    "group": "ay",
+    "rank": 2,
+    "type": "eclipse",
+    "prompt": "Top modeli: Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topları Ay tutulması modeli olacak şekilde diz, sonra el fenerini yak!",
+    "data": {
+      "want": "ay",
+      "skin": "ball",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": null
+    },
+    "textPlain": "Top modeli: Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topları Ay tutulması modeli olacak şekilde diz, sonra el fenerini yak! Kartlar: Basketbol topu, Tenis topu, Pinpon topu",
+    "correctAnswer": "Basketbol topu – Tenis topu – Pinpon topu (ortada Tenis topu)",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 31–34",
+    "difficulty": "orta",
+    "group": "ay",
+    "rank": 2,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Bu dizilişte Ay tutulması oluşmuyor! Cisimlerin yerini değiştirerek Ay tutulması oluştur, sonra ışığı aç.",
+    "data": {
+      "want": "ay",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": [
+        "G",
+        "A",
+        "D"
+      ]
+    },
+    "textPlain": "Tutulma simülatörü: Bu dizilişte Ay tutulması oluşmuyor! Cisimlerin yerini değiştirerek Ay tutulması oluştur, sonra ışığı aç. Kartlar: Güneş, Dünya, Ay. Başlangıç dizilişi: Güneş, Ay, Dünya",
+    "correctAnswer": "Güneş – Dünya – Ay (ortada Dünya)",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 31–34",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Ay, Dünya’nın gölgesinde kalsın! Doğru üç cismi hizaya diz; bir kart dışarıda kalacak. Sonra ışığı aç.",
+    "data": {
+      "want": "ay",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A",
+        "Mars"
+      ],
+      "pre": null
+    },
+    "textPlain": "Tutulma simülatörü: Ay, Dünya’nın gölgesinde kalsın! Doğru üç cismi hizaya diz; bir kart dışarıda kalacak. Sonra ışığı aç. Kartlar: Güneş, Dünya, Ay, Mars",
+    "correctAnswer": "Güneş – Dünya – Ay (ortada Dünya)",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 37, 41",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "eclipse",
+    "prompt": "Bir öğrenci Ay tutulması modeli kurmak isterken topları yanlış dizmiş. Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topları düzelt, sonra el fenerini yak!",
+    "data": {
+      "want": "ay",
+      "skin": "ball",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": [
+        "D",
+        "A",
+        "G"
+      ]
+    },
+    "textPlain": "Bir öğrenci Ay tutulması modeli kurmak isterken topları yanlış dizmiş. Basketbol topu Güneş’i, tenis topu Dünya’yı, pinpon topu Ay’ı temsil ediyor. Topları düzelt, sonra el fenerini yak! Kartlar: Basketbol topu, Tenis topu, Pinpon topu. Başlangıç dizilişi: Tenis topu, Pinpon topu, Basketbol topu",
+    "correctAnswer": "Basketbol topu – Tenis topu – Pinpon topu (ortada Tenis topu)",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "kolay",
+    "group": "ay",
+    "rank": 1,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Dolunay gecesi Ay kararsın! Cisimleri Ay tutulması oluşacak şekilde hizaya diz, sonra ışığı aç.",
+    "data": {
+      "want": "ay",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": null
+    },
+    "textPlain": "Tutulma simülatörü: Dolunay gecesi Ay kararsın! Cisimleri Ay tutulması oluşacak şekilde hizaya diz, sonra ışığı aç. Kartlar: Güneş, Dünya, Ay",
+    "correctAnswer": "Güneş – Dünya – Ay (ortada Dünya)",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "kolay",
+    "group": "gunes",
+    "rank": 1,
+    "type": "eclipse",
+    "prompt": "Tutulma simülatörü: Yeni ay evresinde, gündüz Güneş kararsın! Cisimleri Güneş tutulması oluşacak şekilde hizaya diz, sonra ışığı aç.",
+    "data": {
+      "want": "gunes",
+      "skin": "sky",
+      "tokens": [
+        "G",
+        "D",
+        "A"
+      ],
+      "pre": null
+    },
+    "textPlain": "Tutulma simülatörü: Yeni ay evresinde, gündüz Güneş kararsın! Cisimleri Güneş tutulması oluşacak şekilde hizaya diz, sonra ışığı aç. Kartlar: Güneş, Dünya, Ay",
+    "correctAnswer": "Güneş – Ay – Dünya (ortada Ay)",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir.",
+    "questionId": "fen6u1-gunes-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "kolay",
+    "group": "gunes",
+    "rank": 1,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "gunes",
+      "spot": [
+        -45,
+        -5,
+        26
+      ],
+      "st": [
+        {
+          "x": -35,
+          "y": -16,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": 6,
+          "y": -32,
+          "in": false,
+          "n": "B"
+        },
+        {
+          "x": -10,
+          "y": 3,
+          "in": false,
+          "n": "C"
+        },
+        {
+          "x": -43,
+          "y": -42,
+          "in": false,
+          "n": "D"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Haritada Ay’ın gölgesi Dünya’nın gündüz tarafında küçük bir bölgeye düşüyor. İstasyonlar: A (sol tarafta), B (sağ tarafta), C (sol tarafta), D (sol tarafta)",
+    "correctAnswer": "A",
+    "explanation": "Güneş tutulması yalnızca Ay’ın gölgesinin düştüğü bölgede gözlemlenir; Dünya’nın her yerinden aynı anda görülmez. Güneş tutulması Ay tutulmasına göre daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "gunes",
+      "spot": [
+        -45,
+        -5,
+        26
+      ],
+      "st": [
+        {
+          "x": -46,
+          "y": 4,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": -42,
+          "y": -22,
+          "in": true,
+          "n": "B"
+        },
+        {
+          "x": 65,
+          "y": -26,
+          "in": false,
+          "n": "C"
+        },
+        {
+          "x": 11,
+          "y": -46,
+          "in": false,
+          "n": "D"
+        },
+        {
+          "x": 21,
+          "y": 0,
+          "in": false,
+          "n": "E"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Haritada Ay’ın gölgesi Dünya’nın gündüz tarafında küçük bir bölgeye düşüyor. İstasyonlar: A (sol tarafta), B (sol tarafta), C (sağ tarafta), D (sağ tarafta), E (sağ tarafta)",
+    "correctAnswer": "A, B",
+    "explanation": "Güneş tutulması yalnızca Ay’ın gölgesinin düştüğü bölgede gözlemlenir; Dünya’nın her yerinden aynı anda görülmez. Güneş tutulması Ay tutulmasına göre daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "zor",
+    "group": "gunes",
+    "rank": 3,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "gunes",
+      "spot": [
+        -25,
+        0,
+        26
+      ],
+      "st": [
+        {
+          "x": -29,
+          "y": 15,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": -20,
+          "y": -14,
+          "in": true,
+          "n": "B"
+        },
+        {
+          "x": -28,
+          "y": -39,
+          "in": false,
+          "n": "C"
+        },
+        {
+          "x": 31,
+          "y": -34,
+          "in": false,
+          "n": "D"
+        },
+        {
+          "x": -29,
+          "y": -66,
+          "in": false,
+          "n": "E"
+        },
+        {
+          "x": 60,
+          "y": -3,
+          "in": false,
+          "n": "F"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Haritada Ay’ın gölgesi Dünya’nın gündüz tarafında küçük bir bölgeye düşüyor. İstasyonlar: A (sol tarafta), B (sol tarafta), C (sol tarafta), D (sağ tarafta), E (sol tarafta), F (sağ tarafta)",
+    "correctAnswer": "A, B",
+    "explanation": "Güneş tutulması yalnızca Ay’ın gölgesinin düştüğü bölgede gözlemlenir; Dünya’nın her yerinden aynı anda görülmez. Güneş tutulması Ay tutulmasına göre daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "gunes",
+      "spot": [
+        -35,
+        -20,
+        26
+      ],
+      "st": [
+        {
+          "x": -45,
+          "y": -29,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": -20,
+          "y": -15,
+          "in": true,
+          "n": "B"
+        },
+        {
+          "x": 8,
+          "y": 34,
+          "in": false,
+          "n": "C"
+        },
+        {
+          "x": 45,
+          "y": 46,
+          "in": false,
+          "n": "D"
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "in": false,
+          "n": "E"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Güneş ile Dünya’nın arasına girdi ve gölgesi Dünya’ya düştü. Güneş tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Haritada Ay’ın gölgesi Dünya’nın gündüz tarafında küçük bir bölgeye düşüyor. İstasyonlar: A (sol tarafta), B (sol tarafta), C (sağ tarafta), D (sağ tarafta), E (sağ tarafta)",
+    "correctAnswer": "A, B",
+    "explanation": "Güneş tutulması yalnızca Ay’ın gölgesinin düştüğü bölgede gözlemlenir; Dünya’nın her yerinden aynı anda görülmez. Güneş tutulması Ay tutulmasına göre daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "kolay",
+    "group": "ay",
+    "rank": 1,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "ay",
+      "st": [
+        {
+          "x": 30,
+          "y": 51,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": -31,
+          "y": -35,
+          "in": false,
+          "n": "B"
+        },
+        {
+          "x": 17,
+          "y": -45,
+          "in": true,
+          "n": "C"
+        },
+        {
+          "x": -30,
+          "y": -1,
+          "in": false,
+          "n": "D"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Güneş ışığı soldan geliyor; Ay Dünya’nın sağ tarafında, gölgesinde. İstasyonlar: A (sağ tarafta), B (sol tarafta), C (sağ tarafta), D (sol tarafta)",
+    "correctAnswer": "A, C",
+    "explanation": "Ay tutulması gece gözlemlenir: Dünya’nın Güneş’e bakmayan, gece yaşanan tarafındaki herkes Ay’ı görebildiği için tutulmayı izleyebilir. Bu yüzden Ay tutulması Güneş tutulmasına göre daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "orta",
+    "group": "ay",
+    "rank": 2,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "ay",
+      "st": [
+        {
+          "x": 23,
+          "y": -6,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": 79,
+          "y": 12,
+          "in": true,
+          "n": "B"
+        },
+        {
+          "x": -22,
+          "y": -31,
+          "in": false,
+          "n": "C"
+        },
+        {
+          "x": -61,
+          "y": -45,
+          "in": false,
+          "n": "D"
+        },
+        {
+          "x": -30,
+          "y": -69,
+          "in": false,
+          "n": "E"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Güneş ışığı soldan geliyor; Ay Dünya’nın sağ tarafında, gölgesinde. İstasyonlar: A (sağ tarafta), B (sağ tarafta), C (sol tarafta), D (sol tarafta), E (sol tarafta)",
+    "correctAnswer": "A, B",
+    "explanation": "Ay tutulması gece gözlemlenir: Dünya’nın Güneş’e bakmayan, gece yaşanan tarafındaki herkes Ay’ı görebildiği için tutulmayı izleyebilir. Bu yüzden Ay tutulması Güneş tutulmasına göre daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "ay",
+      "st": [
+        {
+          "x": 68,
+          "y": -35,
+          "in": true,
+          "n": "A"
+        },
+        {
+          "x": 16,
+          "y": -13,
+          "in": true,
+          "n": "B"
+        },
+        {
+          "x": -36,
+          "y": -23,
+          "in": false,
+          "n": "C"
+        },
+        {
+          "x": 16,
+          "y": 41,
+          "in": true,
+          "n": "D"
+        },
+        {
+          "x": -63,
+          "y": -5,
+          "in": false,
+          "n": "E"
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "in": true,
+          "n": "F"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Güneş ışığı soldan geliyor; Ay Dünya’nın sağ tarafında, gölgesinde. İstasyonlar: A (sağ tarafta), B (sağ tarafta), C (sol tarafta), D (sağ tarafta), E (sol tarafta), F (sağ tarafta)",
+    "correctAnswer": "A, B, D, F",
+    "explanation": "Ay tutulması gece gözlemlenir: Dünya’nın Güneş’e bakmayan, gece yaşanan tarafındaki herkes Ay’ı görebildiği için tutulmayı izleyebilir. Bu yüzden Ay tutulması Güneş tutulmasına göre daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "map",
+    "prompt": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat!",
+    "data": {
+      "kind": "ay",
+      "st": [
+        {
+          "x": -16,
+          "y": -68,
+          "in": false,
+          "n": "A"
+        },
+        {
+          "x": 33,
+          "y": 73,
+          "in": true,
+          "n": "B"
+        },
+        {
+          "x": 54,
+          "y": 35,
+          "in": true,
+          "n": "C"
+        },
+        {
+          "x": -66,
+          "y": 26,
+          "in": false,
+          "n": "D"
+        },
+        {
+          "x": 22,
+          "y": -2,
+          "in": true,
+          "n": "E"
+        },
+        {
+          "x": -77,
+          "y": -8,
+          "in": false,
+          "n": "F"
+        },
+        {
+          "x": -26,
+          "y": 72,
+          "in": false,
+          "n": "G"
+        }
+      ]
+    },
+    "textPlain": "Gölge haritası: Ay, Dünya’nın gölgesine girdi. Güneş ışığı soldan geliyor. Ay tutulmasını görebilecek gözlem istasyonlarını seç, sonra gölgeyi oynat! Güneş ışığı soldan geliyor; Ay Dünya’nın sağ tarafında, gölgesinde. İstasyonlar: A (sol tarafta), B (sağ tarafta), C (sağ tarafta), D (sol tarafta), E (sağ tarafta), F (sol tarafta), G (sol tarafta)",
+    "correctAnswer": "B, C, E",
+    "explanation": "Ay tutulması gece gözlemlenir: Dünya’nın Güneş’e bakmayan, gece yaşanan tarafındaki herkes Ay’ı görebildiği için tutulmayı izleyebilir. Bu yüzden Ay tutulması Güneş tutulmasına göre daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "kolay",
+    "group": "gunes",
+    "rank": 1,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Ne zaman?",
+          "o": [
+            "Gündüz",
+            "Gece"
+          ],
+          "a": 0
+        }
+      ],
+      "scene": [
+        "G",
+        "A",
+        "D"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder! Model: Güneş, Ay, Dünya aynı hizada (Ay ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Ne zaman?: Gündüz / Gece",
+    "correctAnswer": "Tutulma: Güneş tutulması; Ne zaman?: Gündüz",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş tutulmasını doğrudan gözlemlemek göz sağlığını tehlikeye atar; uygun filtreli araçlarla gözlemlenmelidir. Ay tutulmasından daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Ay’ın evresi",
+          "o": [
+            "Yeni ay",
+            "Dolunay"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Kimin gölgesi?",
+          "o": [
+            "Ay’ın gölgesi Dünya’ya",
+            "Dünya’nın gölgesi Ay’a"
+          ],
+          "a": 0
+        }
+      ],
+      "scene": [
+        "D",
+        "A",
+        "G"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder! Model: Dünya, Ay, Güneş aynı hizada (Ay ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Ay’ın evresi: Yeni ay / Dolunay | Kimin gölgesi?: Ay’ın gölgesi Dünya’ya / Dünya’nın gölgesi Ay’a",
+    "correctAnswer": "Tutulma: Güneş tutulması; Ay’ın evresi: Yeni ay; Kimin gölgesi?: Ay’ın gölgesi Dünya’ya",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş tutulmasını doğrudan gözlemlemek göz sağlığını tehlikeye atar; uygun filtreli araçlarla gözlemlenmelidir. Ay tutulmasından daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "zor",
+    "group": "gunes",
+    "rank": 3,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Ay’ın evresi",
+          "o": [
+            "Yeni ay",
+            "Dolunay"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Filtreli gözlük",
+          "o": [
+            "Gerekli",
+            "Gerekmez"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Gözlem alanı",
+          "o": [
+            "Daha dar",
+            "Daha geniş"
+          ],
+          "a": 0
+        }
+      ],
+      "scene": [
+        "G",
+        "A",
+        "D"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder! Model: Güneş, Ay, Dünya aynı hizada (Ay ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Ay’ın evresi: Yeni ay / Dolunay | Filtreli gözlük: Gerekli / Gerekmez | Gözlem alanı: Daha dar / Daha geniş",
+    "correctAnswer": "Tutulma: Güneş tutulması; Ay’ın evresi: Yeni ay; Filtreli gözlük: Gerekli; Gözlem alanı: Daha dar",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş tutulmasını doğrudan gözlemlemek göz sağlığını tehlikeye atar; uygun filtreli araçlarla gözlemlenmelidir. Ay tutulmasından daha dar bir alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki dizilişte bir tutulma oluşur mu? Göstergeyi ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 2
+        }
+      ],
+      "scene": [
+        "D",
+        "G",
+        "A"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki dizilişte bir tutulma oluşur mu? Göstergeyi ayarla, sonra raporu gönder! Model: Dünya, Güneş, Ay (Güneş ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok",
+    "correctAnswer": "Tutulma: Tutulma yok",
+    "explanation": "Tutulma için Güneş, Dünya ve Ay aynı hizada olmalı; ortada Ay varsa Güneş tutulması, ortada Dünya varsa Ay tutulması olur. Güneş ortadaysa tutulma oluşmaz.",
+    "questionId": "fen6u1-gunes-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "kolay",
+    "group": "ay",
+    "rank": 1,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Ne zaman?",
+          "o": [
+            "Gündüz",
+            "Gece"
+          ],
+          "a": 1
+        }
+      ],
+      "scene": [
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder! Model: Güneş, Dünya, Ay aynı hizada (Dünya ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Ne zaman?: Gündüz / Gece",
+    "correctAnswer": "Tutulma: Ay tutulması; Ne zaman?: Gece",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir. Ay tutulması Güneş tutulmasından daha uzun sürer ve daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "orta",
+    "group": "ay",
+    "rank": 2,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Ay’ın evresi",
+          "o": [
+            "Yeni ay",
+            "Dolunay"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Kimin gölgesi?",
+          "o": [
+            "Ay’ın gölgesi Dünya’ya",
+            "Dünya’nın gölgesi Ay’a"
+          ],
+          "a": 1
+        }
+      ],
+      "scene": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder! Model: Ay, Dünya, Güneş aynı hizada (Dünya ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Ay’ın evresi: Yeni ay / Dolunay | Kimin gölgesi?: Ay’ın gölgesi Dünya’ya / Dünya’nın gölgesi Ay’a",
+    "correctAnswer": "Tutulma: Ay tutulması; Ay’ın evresi: Dolunay; Kimin gölgesi?: Dünya’nın gölgesi Ay’a",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir. Ay tutulması Güneş tutulmasından daha uzun sürer ve daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Ay’ın evresi",
+          "o": [
+            "Yeni ay",
+            "Dolunay"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Süre",
+          "o": [
+            "Daha kısa",
+            "Daha uzun"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Gözlem alanı",
+          "o": [
+            "Daha dar",
+            "Daha geniş"
+          ],
+          "a": 1
+        }
+      ],
+      "scene": [
+        "G",
+        "D",
+        "A"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki diziliş modelini incele. Göstergeleri ayarla, sonra raporu gönder! Model: Güneş, Dünya, Ay aynı hizada (Dünya ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Ay’ın evresi: Yeni ay / Dolunay | Süre: Daha kısa / Daha uzun | Gözlem alanı: Daha dar / Daha geniş",
+    "correctAnswer": "Tutulma: Ay tutulması; Ay’ın evresi: Dolunay; Süre: Daha uzun; Gözlem alanı: Daha geniş",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir. Ay tutulması Güneş tutulmasından daha uzun sürer ve daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 37",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "console",
+    "prompt": "Gözlem raporu: Ekrandaki modelde hangi tutulma var? Ay mı Dünya mı Güneş’e daha uzak? Göstergeleri ayarla, sonra raporu gönder!",
+    "data": {
+      "head": [
+        "🔭",
+        "Gözlem raporu"
+      ],
+      "rows": [
+        {
+          "l": "Tutulma",
+          "o": [
+            "Güneş tutulması",
+            "Ay tutulması",
+            "Tutulma yok"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Daha uzak cisim",
+          "o": [
+            "Güneş’e Ay daha uzak",
+            "Güneş’e Dünya daha uzak"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Ne zaman?",
+          "o": [
+            "Gündüz",
+            "Gece"
+          ],
+          "a": 1
+        }
+      ],
+      "scene": [
+        "A",
+        "D",
+        "G"
+      ]
+    },
+    "textPlain": "Gözlem raporu: Ekrandaki modelde hangi tutulma var? Ay mı Dünya mı Güneş’e daha uzak? Göstergeleri ayarla, sonra raporu gönder! Model: Ay, Dünya, Güneş aynı hizada (Dünya ortada). Göstergeler: Tutulma: Güneş tutulması / Ay tutulması / Tutulma yok | Daha uzak cisim: Güneş’e Ay daha uzak / Güneş’e Dünya daha uzak | Ne zaman?: Gündüz / Gece",
+    "correctAnswer": "Tutulma: Ay tutulması; Daha uzak cisim: Güneş’e Ay daha uzak; Ne zaman?: Gece",
+    "explanation": "Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir. Ay tutulması Güneş tutulmasından daha uzun sürer ve daha geniş bir alanda gözlemlenir.",
+    "questionId": "fen6u1-ay-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–22",
+    "difficulty": "kolay",
+    "group": "nitelik",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Gezegenleri yapılarına göre doğru kargo bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Karasal gezegenler",
+        "Gazsal gezegenler"
+      ],
+      "cards": [
+        {
+          "t": "Merkür",
+          "b": 0
+        },
+        {
+          "t": "Jüpiter",
+          "b": 1
+        },
+        {
+          "t": "Mars",
+          "b": 0
+        },
+        {
+          "t": "Neptün",
+          "b": 1
+        },
+        {
+          "t": "Venüs",
+          "b": 0
+        },
+        {
+          "t": "Satürn",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Gezegenleri yapılarına göre doğru kargo bölmesine yerleştir. Bölmeler: Karasal gezegenler / Gazsal gezegenler. Kartlar: Merkür | Jüpiter | Mars | Neptün | Venüs | Satürn",
+    "correctAnswer": "Karasal gezegenler: Merkür, Mars, Venüs | Gazsal gezegenler: Jüpiter, Neptün, Satürn",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-23"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Gezegenleri uydusu olup olmamasına göre doğru kargo bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Uydusu var",
+        "Uydusu yok"
+      ],
+      "cards": [
+        {
+          "t": "Merkür",
+          "b": 1
+        },
+        {
+          "t": "Dünya",
+          "b": 0
+        },
+        {
+          "t": "Venüs",
+          "b": 1
+        },
+        {
+          "t": "Uranüs",
+          "b": 0
+        },
+        {
+          "t": "Mars",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Gezegenleri uydusu olup olmamasına göre doğru kargo bölmesine yerleştir. Bölmeler: Uydusu var / Uydusu yok. Kartlar: Merkür | Dünya | Venüs | Uranüs | Mars",
+    "correctAnswer": "Uydusu var: Dünya, Uranüs, Mars | Uydusu yok: Merkür, Venüs",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-24"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–21, 25",
+    "difficulty": "zor",
+    "group": "nitelik",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Gezegenleri uydu ve halka özelliklerine göre doğru kargo bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Uydu var, halka var",
+        "Uydu var, halka yok",
+        "Uydu yok, halka yok"
+      ],
+      "cards": [
+        {
+          "t": "Venüs",
+          "b": 2
+        },
+        {
+          "t": "Satürn",
+          "b": 0
+        },
+        {
+          "t": "Mars",
+          "b": 1
+        },
+        {
+          "t": "Merkür",
+          "b": 2
+        },
+        {
+          "t": "Dünya",
+          "b": 1
+        },
+        {
+          "t": "Neptün",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Gezegenleri uydu ve halka özelliklerine göre doğru kargo bölmesine yerleştir. Bölmeler: Uydu var, halka var / Uydu var, halka yok / Uydu yok, halka yok. Kartlar: Venüs | Satürn | Mars | Merkür | Dünya | Neptün",
+    "correctAnswer": "Uydu var, halka var: Satürn, Neptün | Uydu var, halka yok: Mars, Dünya | Uydu yok, halka yok: Venüs, Merkür",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür.",
+    "questionId": "fen6u1-nitelik-25"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Gezegenlerin nitelikleri: karasal/gazsal yapı, uydu ve halka",
+    "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+    "difficulty": "orta",
+    "group": "nitelik",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Nitelik kartlarını karasal ve gazsal gezegenlere göre ayır.",
+    "data": {
+      "bins": [
+        "Karasal gezegen niteliği",
+        "Gazsal gezegen niteliği"
+      ],
+      "cards": [
+        {
+          "t": "Halkası yoktur",
+          "b": 0
+        },
+        {
+          "t": "Halkası vardır",
+          "b": 1
+        },
+        {
+          "t": "Asteroit kuşağından önce gelir",
+          "b": 0
+        },
+        {
+          "t": "Asteroit kuşağından sonra gelir",
+          "b": 1
+        },
+        {
+          "t": "Hacimce daha küçüktür",
+          "b": 0
+        },
+        {
+          "t": "Hacimce daha büyüktür",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Nitelik kartlarını karasal ve gazsal gezegenlere göre ayır. Bölmeler: Karasal gezegen niteliği / Gazsal gezegen niteliği. Kartlar: Halkası yoktur | Halkası vardır | Asteroit kuşağından önce gelir | Asteroit kuşağından sonra gelir | Hacimce daha küçüktür | Hacimce daha büyüktür",
+    "correctAnswer": "Karasal gezegen niteliği: Halkası yoktur, Asteroit kuşağından önce gelir, Hacimce daha küçüktür | Gazsal gezegen niteliği: Halkası vardır, Asteroit kuşağından sonra gelir, Hacimce daha büyüktür",
+    "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal yapıdadır. Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır. Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür. Karasal gezegenler asteroit kuşağından önce, gazsal gezegenler sonra gelir.",
+    "questionId": "fen6u1-nitelik-26"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "kolay",
+    "group": "gokcisim",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Tanım kartlarını doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Gök taşı",
+        "Meteor",
+        "Meteorit"
+      ],
+      "cards": [
+        {
+          "t": "Uzayda dolaşan küçük kaya parçası",
+          "b": 0
+        },
+        {
+          "t": "Atmosfere girip yanarak ışık izi bırakır",
+          "b": 1
+        },
+        {
+          "t": "Yeryüzüne ulaşıp yere düşer",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Tanım kartlarını doğru bölmeye yerleştir. Bölmeler: Gök taşı / Meteor / Meteorit. Kartlar: Uzayda dolaşan küçük kaya parçası | Atmosfere girip yanarak ışık izi bırakır | Yeryüzüne ulaşıp yere düşer",
+    "correctAnswer": "Gök taşı: Uzayda dolaşan küçük kaya parçası | Meteor: Atmosfere girip yanarak ışık izi bırakır | Meteorit: Yeryüzüne ulaşıp yere düşer",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+    "difficulty": "orta",
+    "group": "gokcisim",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Gök taşı",
+        "Meteor",
+        "Meteorit"
+      ],
+      "cards": [
+        {
+          "t": "Çoğunluğu asteroitlerden kopmuştur",
+          "b": 0
+        },
+        {
+          "t": "Dünya atmosferindedir",
+          "b": 1
+        },
+        {
+          "t": "Meteor çukuru oluşturabilir",
+          "b": 2
+        },
+        {
+          "t": "Henüz atmosfere girmemiştir",
+          "b": 0
+        },
+        {
+          "t": "Yeryüzüne ulaşmıştır",
+          "b": 2
+        },
+        {
+          "t": "Atmosfere girmiş ama yere ulaşmamıştır",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Gök taşı / Meteor / Meteorit. Kartlar: Çoğunluğu asteroitlerden kopmuştur | Dünya atmosferindedir | Meteor çukuru oluşturabilir | Henüz atmosfere girmemiştir | Yeryüzüne ulaşmıştır | Atmosfere girmiş ama yere ulaşmamıştır",
+    "correctAnswer": "Gök taşı: Çoğunluğu asteroitlerden kopmuştur, Henüz atmosfere girmemiştir | Meteor: Dünya atmosferindedir, Atmosfere girmiş ama yere ulaşmamıştır | Meteorit: Meteor çukuru oluşturabilir, Yeryüzüne ulaşmıştır",
+    "explanation": "Güneş sisteminde çoğunluğu asteroitlerden kopmuş küçük kaya parçalarına gök taşı denir. Dünya atmosferine giren gök taşları meteor, yeryüzüne ulaşan gök taşları meteorit olarak adlandırılır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 24, 35, 38",
+    "difficulty": "zor",
+    "group": "gokcisim",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Uzay müzesi: Katkı kartlarını doğru bilim insanının vitrinine yerleştir.",
+    "data": {
+      "bins": [
+        "Biruni",
+        "Fergani",
+        "Bettânî"
+      ],
+      "cards": [
+        {
+          "t": "Güneş merkezli sistemin matematiksel olarak olanaklı olabileceğini öngördü",
+          "b": 0
+        },
+        {
+          "t": "Ufuk alçalma açısıyla yerin çevresini hesapladı",
+          "b": 0
+        },
+        {
+          "t": "Tutulma zamanlarının tespitine yönelik yöntemler geliştirdi",
+          "b": 1
+        },
+        {
+          "t": "Güneş tutulmasının halka şeklinde olabileceği sonucunu çıkardı",
+          "b": 2
+        },
+        {
+          "t": "Bir yılı 365 gün 5 saat 46 dakika 24 saniye olarak hesapladı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Uzay müzesi: Katkı kartlarını doğru bilim insanının vitrinine yerleştir. Bölmeler: Biruni / Fergani / Bettânî. Kartlar: Güneş merkezli sistemin matematiksel olarak olanaklı olabileceğini öngördü | Ufuk alçalma açısıyla yerin çevresini hesapladı | Tutulma zamanlarının tespitine yönelik yöntemler geliştirdi | Güneş tutulmasının halka şeklinde olabileceği sonucunu çıkardı | Bir yılı 365 gün 5 saat 46 dakika 24 saniye olarak hesapladı",
+    "correctAnswer": "Biruni: Güneş merkezli sistemin matematiksel olarak olanaklı olabileceğini öngördü, Ufuk alçalma açısıyla yerin çevresini hesapladı | Fergani: Tutulma zamanlarının tespitine yönelik yöntemler geliştirdi | Bettânî: Güneş tutulmasının halka şeklinde olabileceği sonucunu çıkardı, Bir yılı 365 gün 5 saat 46 dakika 24 saniye olarak hesapladı",
+    "explanation": "Biruni Güneş merkezli bir sistemin matematiksel olarak olanaklı olabileceğini öngördü ve yerin çevresini hesapladı. Fergani tutulma zamanlarını tespit etmeye yönelik yöntemler geliştirdi. Bettânî Güneş tutulmasının halka şeklinde olabileceğini çıkardı ve yılın uzunluğunu çok yakın hesapladı.",
+    "questionId": "fen6u1-gokcisim-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 38",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Uzay müzesi: Katkı kartlarını doğru bilim insanının vitrinine yerleştir.",
+    "data": {
+      "bins": [
+        "Zerkâle",
+        "Takıyyüddin",
+        "Dilhan Eryurt"
+      ],
+      "cards": [
+        {
+          "t": "Merkür ve Mars yörüngelerinin eliptik olduğunu iddia etti",
+          "b": 0
+        },
+        {
+          "t": "İstanbul Gözlemevini kurdu",
+          "b": 1
+        },
+        {
+          "t": "Güneş tarihini inceledi, Apollo Başarı Ödülü aldı",
+          "b": 2
+        },
+        {
+          "t": "Toledo’da astronomik gözlemler yaptı",
+          "b": 0
+        },
+        {
+          "t": "NASA’da bir enstitüde çalışan tek kadın astronom oldu",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Uzay müzesi: Katkı kartlarını doğru bilim insanının vitrinine yerleştir. Bölmeler: Zerkâle / Takıyyüddin / Dilhan Eryurt. Kartlar: Merkür ve Mars yörüngelerinin eliptik olduğunu iddia etti | İstanbul Gözlemevini kurdu | Güneş tarihini inceledi, Apollo Başarı Ödülü aldı | Toledo’da astronomik gözlemler yaptı | NASA’da bir enstitüde çalışan tek kadın astronom oldu",
+    "correctAnswer": "Zerkâle: Merkür ve Mars yörüngelerinin eliptik olduğunu iddia etti, Toledo’da astronomik gözlemler yaptı | Takıyyüddin: İstanbul Gözlemevini kurdu | Dilhan Eryurt: Güneş tarihini inceledi, Apollo Başarı Ödülü aldı, NASA’da bir enstitüde çalışan tek kadın astronom oldu",
+    "explanation": "Zerkâle Toledo’da gözlemler yaptı ve bazı gezegenler için eliptik yörünge kavramını ortaya attı. Takıyyüddin İstanbul Gözlemevini kurdu. Dilhan Eryurt NASA’da çalıştı, Güneş tarihini inceledi ve Apollo Başarı Ödülü aldı.",
+    "questionId": "fen6u1-ay-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "kolay",
+    "group": "gunes",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Nitelik kartlarını doğru tutulmanın bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Güneş tutulması",
+        "Ay tutulması"
+      ],
+      "cards": [
+        {
+          "t": "Gündüz gözlemlenir",
+          "b": 0
+        },
+        {
+          "t": "Gece gözlemlenir",
+          "b": 1
+        },
+        {
+          "t": "Ay’ın gölgesi Dünya’ya düşer",
+          "b": 0
+        },
+        {
+          "t": "Ay, Dünya’nın gölgesinde kalır",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Nitelik kartlarını doğru tutulmanın bölmesine yerleştir. Bölmeler: Güneş tutulması / Ay tutulması. Kartlar: Gündüz gözlemlenir | Gece gözlemlenir | Ay’ın gölgesi Dünya’ya düşer | Ay, Dünya’nın gölgesinde kalır",
+    "correctAnswer": "Güneş tutulması: Gündüz gözlemlenir, Ay’ın gölgesi Dünya’ya düşer | Ay tutulması: Gece gözlemlenir, Ay, Dünya’nın gölgesinde kalır",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-gunes-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Nitelik kartlarını doğru tutulmanın bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Güneş tutulması",
+        "Ay tutulması"
+      ],
+      "cards": [
+        {
+          "t": "Yeni ay evresinde olur",
+          "b": 0
+        },
+        {
+          "t": "Dolunay evresinde olur",
+          "b": 1
+        },
+        {
+          "t": "Filtresiz bakmak göze zarar verir",
+          "b": 0
+        },
+        {
+          "t": "Daha geniş alanda gözlemlenir",
+          "b": 1
+        },
+        {
+          "t": "Ay, Güneş’e Dünya’dan daha yakındır",
+          "b": 0
+        },
+        {
+          "t": "Daha uzun sürer",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Nitelik kartlarını doğru tutulmanın bölmesine yerleştir. Bölmeler: Güneş tutulması / Ay tutulması. Kartlar: Yeni ay evresinde olur | Dolunay evresinde olur | Filtresiz bakmak göze zarar verir | Daha geniş alanda gözlemlenir | Ay, Güneş’e Dünya’dan daha yakındır | Daha uzun sürer",
+    "correctAnswer": "Güneş tutulması: Yeni ay evresinde olur, Filtresiz bakmak göze zarar verir, Ay, Güneş’e Dünya’dan daha yakındır | Ay tutulması: Dolunay evresinde olur, Daha geniş alanda gözlemlenir, Daha uzun sürer",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir. Ay tutulması daha uzun sürer ve daha geniş alanda gözlemlenir.",
+    "questionId": "fen6u1-gunes-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+    "difficulty": "kolay",
+    "group": "ay",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru tutulmanın bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Güneş tutulması",
+        "Ay tutulması"
+      ],
+      "cards": [
+        {
+          "t": "Ortada Ay vardır",
+          "b": 0
+        },
+        {
+          "t": "Ortada Dünya vardır",
+          "b": 1
+        },
+        {
+          "t": "Dolunayda olur",
+          "b": 1
+        },
+        {
+          "t": "Yeni ayda olur",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru tutulmanın bölmesine yerleştir. Bölmeler: Güneş tutulması / Ay tutulması. Kartlar: Ortada Ay vardır | Ortada Dünya vardır | Dolunayda olur | Yeni ayda olur",
+    "correctAnswer": "Güneş tutulması: Ortada Ay vardır, Yeni ayda olur | Ay tutulması: Ortada Dünya vardır, Dolunayda olur",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir.",
+    "questionId": "fen6u1-ay-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–36",
+    "difficulty": "orta",
+    "group": "ay",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Gözlem defteri: Gözlem kayıtlarını hangi tutulmaya ait olduklarına göre ayır.",
+    "data": {
+      "bins": [
+        "Güneş tutulması gözlemi",
+        "Ay tutulması gözlemi"
+      ],
+      "cards": [
+        {
+          "t": "Gece gökyüzünde dolunay bir süre parlaklığını yitiriyor",
+          "b": 1
+        },
+        {
+          "t": "Gündüz Güneş’in önü kararıyor",
+          "b": 0
+        },
+        {
+          "t": "Gözlemciler filtreli gözlük takıyor",
+          "b": 0
+        },
+        {
+          "t": "Ay, Dünya’nın gölgesinde kalıyor",
+          "b": 1
+        },
+        {
+          "t": "Gölge Antalya’dan Ordu’ya doğru ilerliyor",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Gözlem defteri: Gözlem kayıtlarını hangi tutulmaya ait olduklarına göre ayır. Bölmeler: Güneş tutulması gözlemi / Ay tutulması gözlemi. Kartlar: Gece gökyüzünde dolunay bir süre parlaklığını yitiriyor | Gündüz Güneş’in önü kararıyor | Gözlemciler filtreli gözlük takıyor | Ay, Dünya’nın gölgesinde kalıyor | Gölge Antalya’dan Ordu’ya doğru ilerliyor",
+    "correctAnswer": "Güneş tutulması gözlemi: Gündüz Güneş’in önü kararıyor, Gözlemciler filtreli gözlük takıyor, Gölge Antalya’dan Ordu’ya doğru ilerliyor | Ay tutulması gözlemi: Gece gökyüzünde dolunay bir süre parlaklığını yitiriyor, Ay, Dünya’nın gölgesinde kalıyor",
+    "explanation": "Güneş tutulması gündüz gözlemlenir; Ay’ın gölgesi Dünya’da dar bir hat boyunca ilerler (2006’da Antalya’dan Ordu’ya) ve filtreli araçla izlenmelidir. Ay tutulmasında Ay, Dünya’nın gölgesinde kalır, bir süre parlak görünmez ve tutulma gece gözlemlenir.",
+    "questionId": "fen6u1-ay-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Güneş tutulması",
+        "Ay tutulması",
+        "İkisi de"
+      ],
+      "cards": [
+        {
+          "t": "Güneş, Dünya ve Ay aynı hizadadır",
+          "b": 2
+        },
+        {
+          "t": "Gece gözlemlenir",
+          "b": 1
+        },
+        {
+          "t": "Gündüz gözlemlenir",
+          "b": 0
+        },
+        {
+          "t": "Bir gök cismi diğerinin gölgesinde kalır",
+          "b": 2
+        },
+        {
+          "t": "Daha dar alanda gözlemlenir",
+          "b": 0
+        },
+        {
+          "t": "Daha uzun sürer",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Güneş tutulması / Ay tutulması / İkisi de. Kartlar: Güneş, Dünya ve Ay aynı hizadadır | Gece gözlemlenir | Gündüz gözlemlenir | Bir gök cismi diğerinin gölgesinde kalır | Daha dar alanda gözlemlenir | Daha uzun sürer",
+    "correctAnswer": "Güneş tutulması: Gündüz gözlemlenir, Daha dar alanda gözlemlenir | Ay tutulması: Gece gözlemlenir, Daha uzun sürer | İkisi de: Güneş, Dünya ve Ay aynı hizadadır, Bir gök cismi diğerinin gölgesinde kalır",
+    "explanation": "Güneş, Ay ve Dünya aynı hizadayken Ay, Güneş ile Dünya’nın arasına girerse Ay’ın gölgesi Dünya’nın bir bölgesine düşer ve orada Güneş tutulması gözlemlenir. Güneş tutulması gündüz ve yeni ay evresinde gerçekleşir. Güneş, Dünya ve Ay aynı hizadayken Dünya, Güneş ile Ay’ın arasına girerse Ay, Dünya’nın gölgesinde kalır ve Ay tutulması gerçekleşir. Ay tutulması gece ve dolunay evresinde gözlemlenir. İki tutulmada da üç gök cismi aynı hizadadır.",
+    "questionId": "fen6u1-ay-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 25",
+    "difficulty": "kolay",
+    "group": "gokcisim",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "1989’da Sivas Yıldızeli’ne düşen meteorit 80 cm genişliğinde, 20 cm derinliğinde bir çukur açtı. Çukurun genişliği derinliğinden kaç cm fazladır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 80,
+      "op": "−",
+      "b": 20,
+      "ans": 60,
+      "unit": "cm"
+    },
+    "textPlain": "1989’da Sivas Yıldızeli’ne düşen meteorit 80 cm genişliğinde, 20 cm derinliğinde bir çukur açtı. Çukurun genişliği derinliğinden kaç cm fazladır? Sayı çarklarıyla gir! İşlem: 80 − 20",
+    "correctAnswer": "60 cm",
+    "explanation": "30 Ekim 1989’da Sivas Yıldızeli’ne düşen meteorit 20 cm derinliğinde ve 80 cm genişliğinde bir çukur açmıştır: 80 − 20 = 60 cm. Meteor çukurunun büyüklüğü meteoritin büyüklüğüne bağlıdır.",
+    "questionId": "fen6u1-gokcisim-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23, 25",
+    "difficulty": "orta",
+    "group": "gokcisim",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Yıldızeli meteor çukuru 80 cm genişliğinde ve 20 cm derinliğindedir. Genişlik derinliğin kaç katıdır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 80,
+      "op": "÷",
+      "b": 20,
+      "ans": 4,
+      "unit": "kat"
+    },
+    "textPlain": "Yıldızeli meteor çukuru 80 cm genişliğinde ve 20 cm derinliğindedir. Genişlik derinliğin kaç katıdır? Sayı çarklarıyla gir! İşlem: 80 ÷ 20",
+    "correctAnswer": "4 kat",
+    "explanation": "80 ÷ 20 = 4. Çukurun genişliği derinliğinin 4 katıdır. Meteoritlerin yeryüzünde oluşturduğu çukurlara meteor çukuru denir.",
+    "questionId": "fen6u1-gokcisim-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Asteroit kuşağı, gök taşı, meteor ve meteorit",
+    "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 25",
+    "difficulty": "zor",
+    "group": "gokcisim",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Yıldızeli’ne düşen meteoritin sesi yaklaşık 15 km uzaklıktan duyuldu. Bu uzaklık kaç metredir? (1 km = 1000 m) Sayı çarklarıyla gir!",
+    "data": {
+      "a": 15,
+      "op": "×",
+      "b": 1000,
+      "ans": 15000,
+      "unit": "m"
+    },
+    "textPlain": "Yıldızeli’ne düşen meteoritin sesi yaklaşık 15 km uzaklıktan duyuldu. Bu uzaklık kaç metredir? (1 km = 1000 m) Sayı çarklarıyla gir! İşlem: 15 × 1000",
+    "correctAnswer": "15000 m",
+    "explanation": "15 × 1000 = 15 000 m. Meteorit düşerken top patlamasına benzer bir ses çıkmış ve yaklaşık 15 km uzaktan duyulmuştur.",
+    "questionId": "fen6u1-gokcisim-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 36",
+    "difficulty": "kolay",
+    "group": "gunes",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Türkiye’de 11 Ağustos 1999’da ve 29 Mart 2006’da tam Güneş tutulması gözlemlendi. İki tutulma arasında yaklaşık kaç yıl var? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2006,
+      "op": "−",
+      "b": 1999,
+      "ans": 7,
+      "unit": "yıl"
+    },
+    "textPlain": "Türkiye’de 11 Ağustos 1999’da ve 29 Mart 2006’da tam Güneş tutulması gözlemlendi. İki tutulma arasında yaklaşık kaç yıl var? Sayı çarklarıyla gir! İşlem: 2006 − 1999",
+    "correctAnswer": "7 yıl",
+    "explanation": "2006 − 1999 = 7 yıl. Güneş tutulması her yeni ay evresinde gerçekleşmez; aynı yerden tam Güneş tutulması görmek seyrek bir olaydır.",
+    "questionId": "fen6u1-gunes-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 36",
+    "difficulty": "orta",
+    "group": "gunes",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "29 Mart 2006’daki tam Güneş tutulmasından sonra Türkiye’den görülecek tam Güneş tutulması 30 Nisan 2060’ta. Aradan yaklaşık kaç yıl geçecek? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2060,
+      "op": "−",
+      "b": 2006,
+      "ans": 54,
+      "unit": "yıl"
+    },
+    "textPlain": "29 Mart 2006’daki tam Güneş tutulmasından sonra Türkiye’den görülecek tam Güneş tutulması 30 Nisan 2060’ta. Aradan yaklaşık kaç yıl geçecek? Sayı çarklarıyla gir! İşlem: 2060 − 2006",
+    "correctAnswer": "54 yıl",
+    "explanation": "2060 − 2006 = 54 yıl. Güneş tutulması yalnızca Ay’ın gölgesinin düştüğü dar bir bölgeden gözlemlendiği için aynı yerde seyrek görülür.",
+    "questionId": "fen6u1-gunes-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Güneş tutulması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 36",
+    "difficulty": "zor",
+    "group": "gunes",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "2006 tutulmasında Ay’ın gölgesi saatte yaklaşık 3250 km hızla ilerledi. Bu hızla gölge 2 saatte kaç km yol alır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 3250,
+      "op": "×",
+      "b": 2,
+      "ans": 6500,
+      "unit": "km"
+    },
+    "textPlain": "2006 tutulmasında Ay’ın gölgesi saatte yaklaşık 3250 km hızla ilerledi. Bu hızla gölge 2 saatte kaç km yol alır? Sayı çarklarıyla gir! İşlem: 3250 × 2",
+    "correctAnswer": "6500 km",
+    "explanation": "3250 × 2 = 6500 km. Antalya kıyısından giren tutulma gölgesi saatte yaklaşık 3250 km hızla Ordu’ya kadar uzanan hat boyunca ilerlemiştir.",
+    "questionId": "fen6u1-gunes-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 38",
+    "difficulty": "orta",
+    "group": "ay",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Bettânî bir yılı 365 gün 5 saat 46 dakika olarak hesapladı. Gerçek değer 365 gün 5 saat 48 dakikaya yakındır. Aradaki fark kaç dakikadır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 48,
+      "op": "−",
+      "b": 46,
+      "ans": 2,
+      "unit": "dakika"
+    },
+    "textPlain": "Bettânî bir yılı 365 gün 5 saat 46 dakika olarak hesapladı. Gerçek değer 365 gün 5 saat 48 dakikaya yakındır. Aradaki fark kaç dakikadır? Sayı çarklarıyla gir! İşlem: 48 − 46",
+    "correctAnswer": "2 dakika",
+    "explanation": "48 − 46 = 2 dakika. Bettânî’nin hesapladığı değer gerçek değere çok yakındır; ayrıca Güneş tutulmasının halka şeklinde olabileceğini çıkarmıştır.",
+    "questionId": "fen6u1-ay-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 38",
+    "difficulty": "kolay",
+    "group": "ay",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "İstanbul Gözlemevini kuran Takıyyüddin 1521’de doğdu, 1585’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1585,
+      "op": "−",
+      "b": 1521,
+      "ans": 64,
+      "unit": "yıl"
+    },
+    "textPlain": "İstanbul Gözlemevini kuran Takıyyüddin 1521’de doğdu, 1585’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1585 − 1521",
+    "correctAnswer": "64 yıl",
+    "explanation": "1585 − 1521 = 64 yıl. Takıyyüddin’in gözlem araçlarıyla Ay’ın safhaları ve Ay ile Güneş’in birbirine göre konumları bilinebiliyordu.",
+    "questionId": "fen6u1-ay-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+    "topic": "Ay tutulması ve iki tutulmanın karşılaştırılması",
+    "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 38",
+    "difficulty": "zor",
+    "group": "ay",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Dilhan Eryurt 1926’da doğdu, 2012’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2012,
+      "op": "−",
+      "b": 1926,
+      "ans": 86,
+      "unit": "yıl"
+    },
+    "textPlain": "Dilhan Eryurt 1926’da doğdu, 2012’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 2012 − 1926",
+    "correctAnswer": "86 yıl",
+    "explanation": "2012 − 1926 = 86 yıl. Dilhan Eryurt NASA’da Güneş tarihi üzerine çalışmış ve Apollo Başarı Ödülü almıştır.",
+    "questionId": "fen6u1-ay-21"
+  }
+]
