@@ -1,0 +1,3961 @@
+[
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "kolay",
+    "group": "mikro",
+    "rank": 1,
+    "type": "proc",
+    "prompt": "Soğan zarını incele! Mikroskobu doğru sırayla kullanmak için kartlara sırayla dokun.",
+    "data": {
+      "scene": "scope",
+      "steps": [
+        {
+          "t": "Işık kaynağını aç",
+          "act": "light_on"
+        },
+        {
+          "t": "Preparatı tablaya yerleştir",
+          "act": "slide_in"
+        },
+        {
+          "t": "En küçük büyütmeli objektifi seç",
+          "act": "obj_low"
+        },
+        {
+          "t": "Kaba ayar vidasıyla netleştir",
+          "act": "coarse"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Soğan zarını incele! Mikroskobu doğru sırayla kullanmak için kartlara sırayla dokun. Adım kartları (karışık): En küçük büyütmeli objektifi seç | Işık kaynağını aç | Kaba ayar vidasıyla netleştir | Preparatı tablaya yerleştir",
+    "correctAnswer": "1) Işık kaynağını aç → 2) Preparatı tablaya yerleştir → 3) En küçük büyütmeli objektifi seç → 4) Kaba ayar vidasıyla netleştir",
+    "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, kaba ayar sonra ince ayarla netleştirilir; daha sonra büyük objektife geçilip ince ayar yapılır.",
+    "questionId": "fen5u3-mikro-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "kolay",
+    "group": "mikro",
+    "rank": 1,
+    "type": "proc",
+    "prompt": "Işık açık. Ağız içi epitel hücresini incelemek için kartlara doğru sırayla dokun.",
+    "data": {
+      "scene": "scope",
+      "steps": [
+        {
+          "t": "Preparatı tablaya yerleştir",
+          "act": "slide_in"
+        },
+        {
+          "t": "En küçük büyütmeli objektifi seç",
+          "act": "obj_low"
+        },
+        {
+          "t": "Kaba ayar vidasıyla netleştir",
+          "act": "coarse"
+        },
+        {
+          "t": "İnce ayar vidasıyla netleştir",
+          "act": "fine"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Işık açık. Ağız içi epitel hücresini incelemek için kartlara doğru sırayla dokun. Adım kartları (karışık): En küçük büyütmeli objektifi seç | Kaba ayar vidasıyla netleştir | Preparatı tablaya yerleştir | İnce ayar vidasıyla netleştir",
+    "correctAnswer": "1) Preparatı tablaya yerleştir → 2) En küçük büyütmeli objektifi seç → 3) Kaba ayar vidasıyla netleştir → 4) İnce ayar vidasıyla netleştir",
+    "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, kaba ayar sonra ince ayarla netleştirilir; daha sonra büyük objektife geçilip ince ayar yapılır.",
+    "questionId": "fen5u3-mikro-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "proc",
+    "prompt": "Yaprak örneğini net görmek için mikroskop adımlarına doğru sırayla dokun.",
+    "data": {
+      "scene": "scope",
+      "steps": [
+        {
+          "t": "Işık kaynağını aç",
+          "act": "light_on"
+        },
+        {
+          "t": "Preparatı tablaya yerleştir",
+          "act": "slide_in"
+        },
+        {
+          "t": "En küçük büyütmeli objektifi seç",
+          "act": "obj_low"
+        },
+        {
+          "t": "Kaba ayar vidasıyla netleştir",
+          "act": "coarse"
+        },
+        {
+          "t": "İnce ayar vidasıyla netleştir",
+          "act": "fine"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Yaprak örneğini net görmek için mikroskop adımlarına doğru sırayla dokun. Adım kartları (karışık): En küçük büyütmeli objektifi seç | Işık kaynağını aç | Kaba ayar vidasıyla netleştir | Preparatı tablaya yerleştir | İnce ayar vidasıyla netleştir",
+    "correctAnswer": "1) Işık kaynağını aç → 2) Preparatı tablaya yerleştir → 3) En küçük büyütmeli objektifi seç → 4) Kaba ayar vidasıyla netleştir → 5) İnce ayar vidasıyla netleştir",
+    "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, kaba ayar sonra ince ayarla netleştirilir; daha sonra büyük objektife geçilip ince ayar yapılır.",
+    "questionId": "fen5u3-mikro-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "proc",
+    "prompt": "Preparat tablada ve ışık açık. Ayrıntılı görüntü için kalan adımlara doğru sırayla dokun.",
+    "data": {
+      "scene": "scope",
+      "steps": [
+        {
+          "t": "En küçük büyütmeli objektifi seç",
+          "act": "obj_low"
+        },
+        {
+          "t": "Kaba ayar vidasıyla netleştir",
+          "act": "coarse"
+        },
+        {
+          "t": "İnce ayar vidasıyla netleştir",
+          "act": "fine"
+        },
+        {
+          "t": "Büyütmesi daha fazla objektife geç",
+          "act": "obj_high"
+        },
+        {
+          "t": "İnce ayar vidasıyla yeniden netleştir",
+          "act": "fine2"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Preparat tablada ve ışık açık. Ayrıntılı görüntü için kalan adımlara doğru sırayla dokun. Adım kartları (karışık): Büyütmesi daha fazla objektife geç | En küçük büyütmeli objektifi seç | Kaba ayar vidasıyla netleştir | İnce ayar vidasıyla netleştir | İnce ayar vidasıyla yeniden netleştir",
+    "correctAnswer": "1) En küçük büyütmeli objektifi seç → 2) Kaba ayar vidasıyla netleştir → 3) İnce ayar vidasıyla netleştir → 4) Büyütmesi daha fazla objektife geç → 5) İnce ayar vidasıyla yeniden netleştir",
+    "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, kaba ayar sonra ince ayarla netleştirilir; daha sonra büyük objektife geçilip ince ayar yapılır.",
+    "questionId": "fen5u3-mikro-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "proc",
+    "prompt": "Soğan zarı hücrelerini en ayrıntılı biçimde gözlemle! Bütün adımlara doğru sırayla dokun. Dikkat: Kartlardan biri yanlış bir adım!",
+    "data": {
+      "scene": "scope",
+      "steps": [
+        {
+          "t": "Işık kaynağını aç",
+          "act": "light_on"
+        },
+        {
+          "t": "Preparatı tablaya yerleştir",
+          "act": "slide_in"
+        },
+        {
+          "t": "En küçük büyütmeli objektifi seç",
+          "act": "obj_low"
+        },
+        {
+          "t": "Kaba ayar vidasıyla netleştir",
+          "act": "coarse"
+        },
+        {
+          "t": "İnce ayar vidasıyla netleştir",
+          "act": "fine"
+        },
+        {
+          "t": "Büyütmesi daha fazla objektife geç",
+          "act": "obj_high"
+        },
+        {
+          "t": "İnce ayar vidasıyla yeniden netleştir",
+          "act": "fine2"
+        }
+      ],
+      "traps": [
+        {
+          "t": "Gözleme en büyük büyütmeli objektifle başla",
+          "act": "trap"
+        }
+      ]
+    },
+    "textPlain": "Soğan zarı hücrelerini en ayrıntılı biçimde gözlemle! Bütün adımlara doğru sırayla dokun. Dikkat: Kartlardan biri yanlış bir adım! Adım kartları (karışık): Büyütmesi daha fazla objektife geç | En küçük büyütmeli objektifi seç | Gözleme en büyük büyütmeli objektifle başla | Işık kaynağını aç | Kaba ayar vidasıyla netleştir | Preparatı tablaya yerleştir | İnce ayar vidasıyla netleştir | İnce ayar vidasıyla yeniden netleştir",
+    "correctAnswer": "1) Işık kaynağını aç → 2) Preparatı tablaya yerleştir → 3) En küçük büyütmeli objektifi seç → 4) Kaba ayar vidasıyla netleştir → 5) İnce ayar vidasıyla netleştir → 6) Büyütmesi daha fazla objektife geç → 7) İnce ayar vidasıyla yeniden netleştir",
+    "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, kaba ayar sonra ince ayarla netleştirilir; daha sonra büyük objektife geçilip ince ayar yapılır. En büyük objektifle başlamak yanlıştır.",
+    "questionId": "fen5u3-mikro-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "proc",
+    "prompt": "Mikroskopla gözleme başla ve büyük objektife geç. Adımlara doğru sırayla dokun; yanlış karta dikkat!",
+    "data": {
+      "scene": "scope",
+      "steps": [
+        {
+          "t": "Işık kaynağını aç",
+          "act": "light_on"
+        },
+        {
+          "t": "Preparatı tablaya yerleştir",
+          "act": "slide_in"
+        },
+        {
+          "t": "En küçük büyütmeli objektifi seç",
+          "act": "obj_low"
+        },
+        {
+          "t": "Kaba ayar vidasıyla netleştir",
+          "act": "coarse"
+        },
+        {
+          "t": "İnce ayar vidasıyla netleştir",
+          "act": "fine"
+        },
+        {
+          "t": "Büyütmesi daha fazla objektife geç",
+          "act": "obj_high"
+        }
+      ],
+      "traps": [
+        {
+          "t": "Gözleme en büyük büyütmeli objektifle başla",
+          "act": "trap"
+        }
+      ]
+    },
+    "textPlain": "Mikroskopla gözleme başla ve büyük objektife geç. Adımlara doğru sırayla dokun; yanlış karta dikkat! Adım kartları (karışık): Büyütmesi daha fazla objektife geç | En küçük büyütmeli objektifi seç | Gözleme en büyük büyütmeli objektifle başla | Işık kaynağını aç | Kaba ayar vidasıyla netleştir | Preparatı tablaya yerleştir | İnce ayar vidasıyla netleştir",
+    "correctAnswer": "1) Işık kaynağını aç → 2) Preparatı tablaya yerleştir → 3) En küçük büyütmeli objektifi seç → 4) Kaba ayar vidasıyla netleştir → 5) İnce ayar vidasıyla netleştir → 6) Büyütmesi daha fazla objektife geç",
+    "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, kaba ayar sonra ince ayarla netleştirilir; daha sonra büyük objektife geçilip ince ayar yapılır.",
+    "questionId": "fen5u3-mikro-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "proc",
+    "prompt": "Gözlem bitti. Mikroskobu kapatma adımlarına doğru sırayla dokun.",
+    "data": {
+      "scene": "down",
+      "steps": [
+        {
+          "t": "Örneği tabladan çıkar",
+          "act": "slide_out"
+        },
+        {
+          "t": "Mikroskobun ışığını kapat",
+          "act": "light_off"
+        },
+        {
+          "t": "Mikroskobun fişini çek",
+          "act": "unplug"
+        },
+        {
+          "t": "Işık kaynağı soğuyunca temizle",
+          "act": "clean"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Gözlem bitti. Mikroskobu kapatma adımlarına doğru sırayla dokun. Adım kartları (karışık): Işık kaynağı soğuyunca temizle | Mikroskobun fişini çek | Mikroskobun ışığını kapat | Örneği tabladan çıkar",
+    "correctAnswer": "1) Örneği tabladan çıkar → 2) Mikroskobun ışığını kapat → 3) Mikroskobun fişini çek → 4) Işık kaynağı soğuyunca temizle",
+    "explanation": "Gözlem bitince örnek tabladan çıkarılır, ışık kapatılır, fiş çekilir, ışık kaynağı soğuyunca temizlik yapılır ve mikroskop taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "proc",
+    "prompt": "Gözlem bitti. Mikroskobu güvenle kaldırmak için bütün adımlara doğru sırayla dokun.",
+    "data": {
+      "scene": "down",
+      "steps": [
+        {
+          "t": "Örneği tabladan çıkar",
+          "act": "slide_out"
+        },
+        {
+          "t": "Mikroskobun ışığını kapat",
+          "act": "light_off"
+        },
+        {
+          "t": "Mikroskobun fişini çek",
+          "act": "unplug"
+        },
+        {
+          "t": "Işık kaynağı soğuyunca temizle",
+          "act": "clean"
+        },
+        {
+          "t": "Mikroskobu taşıma kolundan tutup taşı",
+          "act": "carry"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Gözlem bitti. Mikroskobu güvenle kaldırmak için bütün adımlara doğru sırayla dokun. Adım kartları (karışık): Işık kaynağı soğuyunca temizle | Mikroskobu taşıma kolundan tutup taşı | Mikroskobun fişini çek | Mikroskobun ışığını kapat | Örneği tabladan çıkar",
+    "correctAnswer": "1) Örneği tabladan çıkar → 2) Mikroskobun ışığını kapat → 3) Mikroskobun fişini çek → 4) Işık kaynağı soğuyunca temizle → 5) Mikroskobu taşıma kolundan tutup taşı",
+    "explanation": "Gözlem bitince örnek tabladan çıkarılır, ışık kapatılır, fiş çekilir, ışık kaynağı soğuyunca temizlik yapılır ve mikroskop taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "proc",
+    "prompt": "Örnek tabladan çıkarıldı. Kalan adımlara doğru sırayla dokun; yanlış karta dikkat!",
+    "data": {
+      "scene": "down",
+      "steps": [
+        {
+          "t": "Mikroskobun ışığını kapat",
+          "act": "light_off"
+        },
+        {
+          "t": "Mikroskobun fişini çek",
+          "act": "unplug"
+        },
+        {
+          "t": "Işık kaynağı soğuyunca temizle",
+          "act": "clean"
+        },
+        {
+          "t": "Mikroskobu taşıma kolundan tutup taşı",
+          "act": "carry"
+        }
+      ],
+      "traps": [
+        {
+          "t": "Işık kaynağını sıcakken hemen temizle",
+          "act": "trap"
+        }
+      ]
+    },
+    "textPlain": "Örnek tabladan çıkarıldı. Kalan adımlara doğru sırayla dokun; yanlış karta dikkat! Adım kartları (karışık): Işık kaynağı soğuyunca temizle | Işık kaynağını sıcakken hemen temizle | Mikroskobu taşıma kolundan tutup taşı | Mikroskobun fişini çek | Mikroskobun ışığını kapat",
+    "correctAnswer": "1) Mikroskobun ışığını kapat → 2) Mikroskobun fişini çek → 3) Işık kaynağı soğuyunca temizle → 4) Mikroskobu taşıma kolundan tutup taşı",
+    "explanation": "Gözlem bitince örnek tabladan çıkarılır, ışık kapatılır, fiş çekilir, ışık kaynağı soğuyunca temizlik yapılır ve mikroskop taşıma kolundan tutularak taşınır. Işık kaynağı sıcakken temizlenmez.",
+    "questionId": "fen5u3-mikro-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 100",
+    "difficulty": "kolay",
+    "group": "mikro",
+    "rank": 1,
+    "type": "proc",
+    "prompt": "Soğan zarı preparatı hazırla! Adım kartlarına doğru sırayla dokun.",
+    "data": {
+      "scene": "slide",
+      "steps": [
+        {
+          "t": "Lamın üzerine bir damla su damlat",
+          "act": "drop"
+        },
+        {
+          "t": "Soğan zarı kesitini lamın üzerine yerleştir",
+          "act": "onion"
+        },
+        {
+          "t": "Lameli hava kabarcığı oluşmayacak şekilde kapat",
+          "act": "cover"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Soğan zarı preparatı hazırla! Adım kartlarına doğru sırayla dokun. Adım kartları (karışık): Lameli hava kabarcığı oluşmayacak şekilde kapat | Lamın üzerine bir damla su damlat | Soğan zarı kesitini lamın üzerine yerleştir",
+    "correctAnswer": "1) Lamın üzerine bir damla su damlat → 2) Soğan zarı kesitini lamın üzerine yerleştir → 3) Lameli hava kabarcığı oluşmayacak şekilde kapat",
+    "explanation": "Preparat hazırlarken lama önce su damlatılır, örnek suya konur ve lamel hava kabarcığı kalmayacak biçimde kapatılır; sonra mikroskopta incelenir.",
+    "questionId": "fen5u3-mikro-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 100",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "proc",
+    "prompt": "Soğan zarı preparatı hazırla ve incele! Adımlara doğru sırayla dokun.",
+    "data": {
+      "scene": "slide",
+      "steps": [
+        {
+          "t": "Lamın üzerine bir damla su damlat",
+          "act": "drop"
+        },
+        {
+          "t": "Soğan zarı kesitini lamın üzerine yerleştir",
+          "act": "onion"
+        },
+        {
+          "t": "Lameli hava kabarcığı oluşmayacak şekilde kapat",
+          "act": "cover"
+        },
+        {
+          "t": "Preparatı mikroskopta incele",
+          "act": "scope"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Soğan zarı preparatı hazırla ve incele! Adımlara doğru sırayla dokun. Adım kartları (karışık): Lameli hava kabarcığı oluşmayacak şekilde kapat | Lamın üzerine bir damla su damlat | Preparatı mikroskopta incele | Soğan zarı kesitini lamın üzerine yerleştir",
+    "correctAnswer": "1) Lamın üzerine bir damla su damlat → 2) Soğan zarı kesitini lamın üzerine yerleştir → 3) Lameli hava kabarcığı oluşmayacak şekilde kapat → 4) Preparatı mikroskopta incele",
+    "explanation": "Preparat hazırlarken lama önce su damlatılır, örnek suya konur ve lamel hava kabarcığı kalmayacak biçimde kapatılır; sonra mikroskopta incelenir.",
+    "questionId": "fen5u3-mikro-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 101",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "proc",
+    "prompt": "Ağız içi epitel hücresi preparatı hazırla! Adımlara doğru sırayla dokun.",
+    "data": {
+      "scene": "slide",
+      "steps": [
+        {
+          "t": "Lamın üzerine bir damla su damlat",
+          "act": "drop"
+        },
+        {
+          "t": "Ahşap çubuktaki örneği sudaki damlaya karıştır",
+          "act": "cheek"
+        },
+        {
+          "t": "Lamın üzerini lamel ile kapat",
+          "act": "cover"
+        },
+        {
+          "t": "Preparatı mikroskopta incele",
+          "act": "scope"
+        }
+      ],
+      "traps": []
+    },
+    "textPlain": "Ağız içi epitel hücresi preparatı hazırla! Adımlara doğru sırayla dokun. Adım kartları (karışık): Ahşap çubuktaki örneği sudaki damlaya karıştır | Lamın üzerine bir damla su damlat | Lamın üzerini lamel ile kapat | Preparatı mikroskopta incele",
+    "correctAnswer": "1) Lamın üzerine bir damla su damlat → 2) Ahşap çubuktaki örneği sudaki damlaya karıştır → 3) Lamın üzerini lamel ile kapat → 4) Preparatı mikroskopta incele",
+    "explanation": "Preparat hazırlarken lama önce su damlatılır, örnek suya konur ve lamel hava kabarcığı kalmayacak biçimde kapatılır; sonra mikroskopta incelenir.",
+    "questionId": "fen5u3-mikro-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 100",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "proc",
+    "prompt": "Soğan zarı preparatı hazırla. Yanlış karta dikkat!",
+    "data": {
+      "scene": "slide",
+      "steps": [
+        {
+          "t": "Lamın üzerine bir damla su damlat",
+          "act": "drop"
+        },
+        {
+          "t": "Soğan zarı kesitini lamın üzerine yerleştir",
+          "act": "onion"
+        },
+        {
+          "t": "Lameli hava kabarcığı oluşmayacak şekilde kapat",
+          "act": "cover"
+        },
+        {
+          "t": "Preparatı mikroskopta incele",
+          "act": "scope"
+        }
+      ],
+      "traps": [
+        {
+          "t": "Örneği koymadan önce lameli kapat",
+          "act": "trap"
+        }
+      ]
+    },
+    "textPlain": "Soğan zarı preparatı hazırla. Yanlış karta dikkat! Adım kartları (karışık): Lameli hava kabarcığı oluşmayacak şekilde kapat | Lamın üzerine bir damla su damlat | Preparatı mikroskopta incele | Soğan zarı kesitini lamın üzerine yerleştir | Örneği koymadan önce lameli kapat",
+    "correctAnswer": "1) Lamın üzerine bir damla su damlat → 2) Soğan zarı kesitini lamın üzerine yerleştir → 3) Lameli hava kabarcığı oluşmayacak şekilde kapat → 4) Preparatı mikroskopta incele",
+    "explanation": "Preparat hazırlarken lama önce su damlatılır, örnek suya konur ve lamel hava kabarcığı kalmayacak biçimde kapatılır; sonra mikroskopta incelenir. Lamel önce kapatılırsa örnek yerleştirilemez.",
+    "questionId": "fen5u3-mikro-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "kolay",
+    "group": "mikro",
+    "rank": 1,
+    "type": "parts",
+    "prompt": "Mikroskopta istenen kısımlara sırayla dokun.",
+    "data": {
+      "keys": [
+        "okuler",
+        "tabla",
+        "isik"
+      ],
+      "func": false,
+      "prompts": [
+        "Oküler",
+        "Tabla",
+        "Işık kaynağı"
+      ]
+    },
+    "textPlain": "Mikroskopta istenen kısımlara sırayla dokun. [Şekil: Mikroskop] İstenenler: Oküler | Tabla | Işık kaynağı",
+    "correctAnswer": "Oküler → Tabla → Işık kaynağı",
+    "explanation": "Oküler göz merceği, objektif örneğe yakın mercek; tabla preparatın yeri; kaba ve ince ayar vidaları netleştirir; taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "kolay",
+    "group": "mikro",
+    "rank": 1,
+    "type": "parts",
+    "prompt": "Mikroskopta istenen kısımlara sırayla dokun.",
+    "data": {
+      "keys": [
+        "objektif",
+        "kol",
+        "tabla"
+      ],
+      "func": false,
+      "prompts": [
+        "Objektif",
+        "Taşıma kolu",
+        "Tabla"
+      ]
+    },
+    "textPlain": "Mikroskopta istenen kısımlara sırayla dokun. [Şekil: Mikroskop] İstenenler: Objektif | Taşıma kolu | Tabla",
+    "correctAnswer": "Objektif → Taşıma kolu → Tabla",
+    "explanation": "Oküler göz merceği, objektif örneğe yakın mercek; tabla preparatın yeri; kaba ve ince ayar vidaları netleştirir; taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "parts",
+    "prompt": "Mikroskopta istenen kısımlara sırayla dokun.",
+    "data": {
+      "keys": [
+        "kaba",
+        "ince",
+        "okuler"
+      ],
+      "func": false,
+      "prompts": [
+        "Kaba ayar vidası",
+        "İnce ayar vidası",
+        "Oküler"
+      ]
+    },
+    "textPlain": "Mikroskopta istenen kısımlara sırayla dokun. [Şekil: Mikroskop] İstenenler: Kaba ayar vidası | İnce ayar vidası | Oküler",
+    "correctAnswer": "Kaba ayar vidası → İnce ayar vidası → Oküler",
+    "explanation": "Oküler göz merceği, objektif örneğe yakın mercek; tabla preparatın yeri; kaba ve ince ayar vidaları netleştirir; taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "parts",
+    "prompt": "Mikroskopta istenen kısımlara sırayla dokun.",
+    "data": {
+      "keys": [
+        "ince",
+        "objektif",
+        "kol"
+      ],
+      "func": false,
+      "prompts": [
+        "İnce ayar vidası",
+        "Objektif",
+        "Taşıma kolu"
+      ]
+    },
+    "textPlain": "Mikroskopta istenen kısımlara sırayla dokun. [Şekil: Mikroskop] İstenenler: İnce ayar vidası | Objektif | Taşıma kolu",
+    "correctAnswer": "İnce ayar vidası → Objektif → Taşıma kolu",
+    "explanation": "Oküler göz merceği, objektif örneğe yakın mercek; tabla preparatın yeri; kaba ve ince ayar vidaları netleştirir; taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "parts",
+    "prompt": "Mikroskopta istenen kısımlara sırayla dokun.",
+    "data": {
+      "keys": [
+        "okuler",
+        "kaba",
+        "isik"
+      ],
+      "func": true,
+      "prompts": [
+        "İçinden bakılan, görüntüyü göze veren mercek",
+        "Görüntüyü ilk olarak netleştiren büyük vida",
+        "Örneği aydınlatan kısım"
+      ]
+    },
+    "textPlain": "Mikroskopta istenen kısımlara sırayla dokun. [Şekil: Mikroskop] İstenenler: İçinden bakılan, görüntüyü göze veren mercek | Görüntüyü ilk olarak netleştiren büyük vida | Örneği aydınlatan kısım",
+    "correctAnswer": "Oküler → Kaba ayar vidası → Işık kaynağı",
+    "explanation": "Oküler göz merceği, objektif örneğe yakın mercek; tabla preparatın yeri; kaba ve ince ayar vidaları netleştirir; taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+    "difficulty": "zor",
+    "group": "mikro",
+    "rank": 3,
+    "type": "parts",
+    "prompt": "Mikroskopta istenen kısımlara sırayla dokun.",
+    "data": {
+      "keys": [
+        "ince",
+        "objektif",
+        "tabla"
+      ],
+      "func": true,
+      "prompts": [
+        "Görüntüyü son olarak hassasça netleştiren küçük vida",
+        "Örneğe yakın duran, farklı büyütmeli mercekler",
+        "Preparatın (örneğin) yerleştirildiği düz kısım"
+      ]
+    },
+    "textPlain": "Mikroskopta istenen kısımlara sırayla dokun. [Şekil: Mikroskop] İstenenler: Görüntüyü son olarak hassasça netleştiren küçük vida | Örneğe yakın duran, farklı büyütmeli mercekler | Preparatın (örneğin) yerleştirildiği düz kısım",
+    "correctAnswer": "İnce ayar vidası → Objektif → Tabla",
+    "explanation": "Oküler göz merceği, objektif örneğe yakın mercek; tabla preparatın yeri; kaba ve ince ayar vidaları netleştirir; taşıma kolundan tutularak taşınır.",
+    "questionId": "fen5u3-mikro-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99–101, 142",
+    "difficulty": "kolay",
+    "group": "mikro",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Mikroskobun kısmı",
+        "Preparat malzemesi"
+      ],
+      "cards": [
+        {
+          "t": "Oküler",
+          "b": 0
+        },
+        {
+          "t": "Lam",
+          "b": 1
+        },
+        {
+          "t": "Objektif",
+          "b": 0
+        },
+        {
+          "t": "Lamel",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru petri kabına koy. Kaplar: Mikroskobun kısmı / Preparat malzemesi. Kartlar: Oküler | Lam | Objektif | Lamel",
+    "correctAnswer": "Mikroskobun kısmı: Oküler, Objektif | Preparat malzemesi: Lam, Lamel",
+    "explanation": "Oküler ve objektif mikroskobun kısımlarıdır; lam ve lamel preparat hazırlamak için kullanılan cam parçalarıdır.",
+    "questionId": "fen5u3-mikro-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Mikroskop: kısımları, kullanım adımları ve preparat hazırlama",
+    "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99–101",
+    "difficulty": "orta",
+    "group": "mikro",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Mikroskobun kısmı",
+        "Preparat malzemesi"
+      ],
+      "cards": [
+        {
+          "t": "Kaba ayar vidası",
+          "b": 0
+        },
+        {
+          "t": "Damlalık",
+          "b": 1
+        },
+        {
+          "t": "Tabla",
+          "b": 0
+        },
+        {
+          "t": "Lam",
+          "b": 1
+        },
+        {
+          "t": "Lamel",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru petri kabına koy. Kaplar: Mikroskobun kısmı / Preparat malzemesi. Kartlar: Kaba ayar vidası | Damlalık | Tabla | Lam | Lamel",
+    "correctAnswer": "Mikroskobun kısmı: Kaba ayar vidası, Tabla | Preparat malzemesi: Damlalık, Lam, Lamel",
+    "explanation": "Tabla ve ayar vidaları mikroskobun kısımlarıdır; damlalık, lam ve lamel preparat hazırlarken kullanılır.",
+    "questionId": "fen5u3-mikro-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "bitki",
+      "tokens": [
+        {
+          "k": "cekirdek",
+          "ok": true
+        },
+        {
+          "k": "kloroplast",
+          "ok": true
+        },
+        {
+          "k": "duvar",
+          "ok": true
+        },
+        {
+          "k": "sentrozom",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Çekirdek, Kloroplast, Hücre duvarı, Sentrozom",
+    "correctAnswer": "Hücreye konacaklar: Çekirdek, Kloroplast, Hücre duvarı · Dışarıda kalacaklar: Sentrozom",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "hayvan",
+      "tokens": [
+        {
+          "k": "cekirdek",
+          "ok": true
+        },
+        {
+          "k": "sentrozom",
+          "ok": true
+        },
+        {
+          "k": "mitokondri",
+          "ok": true
+        },
+        {
+          "k": "kloroplast",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Çekirdek, Sentrozom, Mitokondri, Kloroplast",
+    "correctAnswer": "Hücreye konacaklar: Çekirdek, Sentrozom, Mitokondri · Dışarıda kalacaklar: Kloroplast",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "hayvan",
+      "tokens": [
+        {
+          "k": "zar",
+          "ok": true
+        },
+        {
+          "k": "cekirdek",
+          "ok": true
+        },
+        {
+          "k": "duvar",
+          "ok": false
+        },
+        {
+          "k": "mitokondri",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Hücre zarı, Çekirdek, Hücre duvarı, Mitokondri",
+    "correctAnswer": "Hücreye konacaklar: Hücre zarı, Çekirdek, Mitokondri · Dışarıda kalacaklar: Hücre duvarı",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "bitki",
+      "tokens": [
+        {
+          "k": "duvar",
+          "ok": true
+        },
+        {
+          "k": "koful_b",
+          "ok": true
+        },
+        {
+          "k": "koful_k",
+          "ok": false
+        },
+        {
+          "k": "mitokondri",
+          "ok": true
+        },
+        {
+          "k": "sentrozom",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Hücre duvarı, Büyük koful, Küçük kofullar, Mitokondri, Sentrozom",
+    "correctAnswer": "Hücreye konacaklar: Hücre duvarı, Büyük koful, Mitokondri · Dışarıda kalacaklar: Küçük kofullar, Sentrozom",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "hayvan",
+      "tokens": [
+        {
+          "k": "koful_k",
+          "ok": true
+        },
+        {
+          "k": "lizozom",
+          "ok": true
+        },
+        {
+          "k": "kloroplast",
+          "ok": false
+        },
+        {
+          "k": "ribozom",
+          "ok": true
+        },
+        {
+          "k": "duvar",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Küçük kofullar, Lizozom, Kloroplast, Ribozom, Hücre duvarı",
+    "correctAnswer": "Hücreye konacaklar: Küçük kofullar, Lizozom, Ribozom · Dışarıda kalacaklar: Kloroplast, Hücre duvarı",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "bitki",
+      "tokens": [
+        {
+          "k": "kloroplast",
+          "ok": true
+        },
+        {
+          "k": "er",
+          "ok": true
+        },
+        {
+          "k": "golgi",
+          "ok": true
+        },
+        {
+          "k": "sentrozom",
+          "ok": false
+        },
+        {
+          "k": "cekirdek",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Kloroplast, Endoplazmik retikulum, Golgi aygıtı, Sentrozom, Çekirdek",
+    "correctAnswer": "Hücreye konacaklar: Kloroplast, Endoplazmik retikulum, Golgi aygıtı, Çekirdek · Dışarıda kalacaklar: Sentrozom",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "hayvan",
+      "tokens": [
+        {
+          "k": "sentrozom",
+          "ok": true
+        },
+        {
+          "k": "koful_b",
+          "ok": false
+        },
+        {
+          "k": "koful_k",
+          "ok": true
+        },
+        {
+          "k": "golgi",
+          "ok": true
+        },
+        {
+          "k": "kloroplast",
+          "ok": false
+        },
+        {
+          "k": "er",
+          "ok": true
+        },
+        {
+          "k": "duvar",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Bir hayvan hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Sentrozom, Büyük koful, Küçük kofullar, Golgi aygıtı, Kloroplast, Endoplazmik retikulum, Hücre duvarı",
+    "correctAnswer": "Hücreye konacaklar: Sentrozom, Küçük kofullar, Golgi aygıtı, Endoplazmik retikulum · Dışarıda kalacaklar: Büyük koful, Kloroplast, Hücre duvarı",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "bitki",
+      "tokens": [
+        {
+          "k": "duvar",
+          "ok": true
+        },
+        {
+          "k": "zar",
+          "ok": true
+        },
+        {
+          "k": "koful_k",
+          "ok": false
+        },
+        {
+          "k": "koful_b",
+          "ok": true
+        },
+        {
+          "k": "sentrozom",
+          "ok": false
+        },
+        {
+          "k": "kloroplast",
+          "ok": true
+        },
+        {
+          "k": "ribozom",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Hücre duvarı, Hücre zarı, Küçük kofullar, Büyük koful, Sentrozom, Kloroplast, Ribozom",
+    "correctAnswer": "Hücreye konacaklar: Hücre duvarı, Hücre zarı, Büyük koful, Kloroplast, Ribozom · Dışarıda kalacaklar: Küçük kofullar, Sentrozom",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak.",
+    "data": {
+      "cell": "bitki",
+      "tokens": [
+        {
+          "k": "lizozom",
+          "ok": false
+        },
+        {
+          "k": "kloroplast",
+          "ok": true
+        },
+        {
+          "k": "sentrozom",
+          "ok": false
+        },
+        {
+          "k": "mitokondri",
+          "ok": true
+        },
+        {
+          "k": "koful_b",
+          "ok": true
+        },
+        {
+          "k": "duvar",
+          "ok": true
+        },
+        {
+          "k": "golgi",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Bir bitki hücresi modeli kur! Bu hücrede bulunan yapıları hücreye taşı, bulunmayanları dışarıda bırak. Parçalar: Lizozom, Kloroplast, Sentrozom, Mitokondri, Büyük koful, Hücre duvarı, Golgi aygıtı",
+    "correctAnswer": "Hücreye konacaklar: Kloroplast, Mitokondri, Büyük koful, Hücre duvarı, Golgi aygıtı · Dışarıda kalacaklar: Lizozom, Sentrozom",
+    "explanation": "Bitki hücresinde hücre duvarı, kloroplast ve büyük koful bulunur, sentrozom bulunmaz. Hayvan hücresinde sentrozom ve küçük kofullar bulunur; hücre duvarı ve kloroplast bulunmaz.",
+    "questionId": "fen5u3-hucre-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109, 138",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "evid",
+    "prompt": "Mikroskopta köşeli hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun.",
+    "data": {
+      "cell": "bitki",
+      "ev": [
+        "duvar",
+        "kloroplast",
+        "koful_b"
+      ],
+      "sample": "köşeli hücreler"
+    },
+    "textPlain": "Mikroskopta köşeli hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun. [Şekil: Mikroskop görüntüsünde köşeli hücreler; görünen yapılar: Mitokondri, Büyük koful, Hücre duvarı, Çekirdek, Kloroplast]",
+    "correctAnswer": "Bitki hücresi; kanıt: Hücre duvarı ya da Kloroplast ya da Büyük koful",
+    "explanation": "Köşeli şekil, hücre duvarı ve kloroplast bitki hücresini gösterir.",
+    "questionId": "fen5u3-hucre-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109, 138",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "evid",
+    "prompt": "Mikroskopta oval hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun.",
+    "data": {
+      "cell": "hayvan",
+      "ev": [
+        "sentrozom"
+      ],
+      "sample": "oval hücreler"
+    },
+    "textPlain": "Mikroskopta oval hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun. [Şekil: Mikroskop görüntüsünde oval hücreler; görünen yapılar: Mitokondri, Çekirdek, Sentrozom, Küçük kofullar]",
+    "correctAnswer": "Hayvan hücresi; kanıt: Sentrozom",
+    "explanation": "Hücre duvarı ve kloroplast yok; sentrozom var. Bu bir hayvan hücresidir.",
+    "questionId": "fen5u3-hucre-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109, 138",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "evid",
+    "prompt": "Mikroskopta yeşil bir yapraktan alınmış hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun.",
+    "data": {
+      "cell": "bitki",
+      "ev": [
+        "duvar",
+        "kloroplast",
+        "koful_b"
+      ],
+      "sample": "yeşil bir yapraktan alınmış hücreler"
+    },
+    "textPlain": "Mikroskopta yeşil bir yapraktan alınmış hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun. [Şekil: Mikroskop görüntüsünde yeşil bir yapraktan alınmış hücreler; görünen yapılar: Mitokondri, Büyük koful, Hücre duvarı, Çekirdek, Kloroplast]",
+    "correctAnswer": "Bitki hücresi; kanıt: Hücre duvarı ya da Kloroplast ya da Büyük koful",
+    "explanation": "Yaprak hücresinde kloroplast ve hücre duvarı bulunur.",
+    "questionId": "fen5u3-hucre-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109, 138",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "evid",
+    "prompt": "Mikroskopta ağız içi epitel hücreleri görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun.",
+    "data": {
+      "cell": "hayvan",
+      "ev": [
+        "sentrozom"
+      ],
+      "sample": "ağız içi epitel hücreleri"
+    },
+    "textPlain": "Mikroskopta ağız içi epitel hücreleri görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun. [Şekil: Mikroskop görüntüsünde ağız içi epitel hücreleri; görünen yapılar: Mitokondri, Çekirdek, Sentrozom, Küçük kofullar]",
+    "correctAnswer": "Hayvan hücresi; kanıt: Sentrozom",
+    "explanation": "Ağız içi epitel hücresi hayvan hücresidir; sentrozom bulunur, hücre duvarı yoktur.",
+    "questionId": "fen5u3-hucre-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109, 138",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "evid",
+    "prompt": "Mikroskopta bir kas hücresi görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun.",
+    "data": {
+      "cell": "hayvan",
+      "ev": [
+        "sentrozom"
+      ],
+      "sample": "bir kas hücresi"
+    },
+    "textPlain": "Mikroskopta bir kas hücresi görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun. [Şekil: Mikroskop görüntüsünde bir kas hücresi; görünen yapılar: Mitokondri, Çekirdek, Sentrozom, Küçük kofullar]",
+    "correctAnswer": "Hayvan hücresi; kanıt: Sentrozom",
+    "explanation": "Sentrozom yalnızca hayvan hücrelerinde bulunur; mitokondri ve çekirdek her iki hücrede de olduğu için kanıt olmaz.",
+    "questionId": "fen5u3-hucre-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109, 138",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "evid",
+    "prompt": "Mikroskopta marul yaprağından alınmış hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun.",
+    "data": {
+      "cell": "bitki",
+      "ev": [
+        "duvar",
+        "kloroplast",
+        "koful_b"
+      ],
+      "sample": "marul yaprağından alınmış hücreler"
+    },
+    "textPlain": "Mikroskopta marul yaprağından alınmış hücreler görünüyor. Önce hücrenin bitki mi hayvan mı olduğunu seç, sonra kararını kanıtlayan yapıya dokun. [Şekil: Mikroskop görüntüsünde marul yaprağından alınmış hücreler; görünen yapılar: Mitokondri, Büyük koful, Hücre duvarı, Çekirdek, Kloroplast]",
+    "correctAnswer": "Bitki hücresi; kanıt: Hücre duvarı ya da Kloroplast ya da Büyük koful",
+    "explanation": "Hücre duvarı, kloroplast ya da büyük koful bitki hücresini kanıtlar; çekirdek ve mitokondri her iki hücrede de bulunur.",
+    "questionId": "fen5u3-hucre-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Yapıları doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Yalnız bitki hücresinde",
+        "Yalnız hayvan hücresinde",
+        "İkisinde de"
+      ],
+      "cards": [
+        {
+          "t": "Hücre duvarı",
+          "b": 0
+        },
+        {
+          "t": "Sentrozom",
+          "b": 1
+        },
+        {
+          "t": "Çekirdek",
+          "b": 2
+        },
+        {
+          "t": "Kloroplast",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Yapıları doğru petri kabına koy. Kaplar: Yalnız bitki hücresinde / Yalnız hayvan hücresinde / İkisinde de. Kartlar: Hücre duvarı | Sentrozom | Çekirdek | Kloroplast",
+    "correctAnswer": "Yalnız bitki hücresinde: Hücre duvarı, Kloroplast | Yalnız hayvan hücresinde: Sentrozom | İkisinde de: Çekirdek",
+    "explanation": "Hücre zarı, sitoplazma, çekirdek, mitokondri ve ribozom iki hücrede de bulunur; hücre duvarı ve kloroplast yalnız bitki, sentrozom yalnız hayvan hücresindedir.",
+    "questionId": "fen5u3-hucre-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "kolay",
+    "group": "hucre",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Yapıları doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Yalnız bitki hücresinde",
+        "Yalnız hayvan hücresinde",
+        "İkisinde de"
+      ],
+      "cards": [
+        {
+          "t": "Hücre zarı",
+          "b": 2
+        },
+        {
+          "t": "Sitoplazma",
+          "b": 2
+        },
+        {
+          "t": "Sentrozom",
+          "b": 1
+        },
+        {
+          "t": "Hücre duvarı",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Yapıları doğru petri kabına koy. Kaplar: Yalnız bitki hücresinde / Yalnız hayvan hücresinde / İkisinde de. Kartlar: Hücre zarı | Sitoplazma | Sentrozom | Hücre duvarı",
+    "correctAnswer": "Yalnız bitki hücresinde: Hücre duvarı | Yalnız hayvan hücresinde: Sentrozom | İkisinde de: Hücre zarı, Sitoplazma",
+    "explanation": "Hücre zarı, sitoplazma, çekirdek, mitokondri ve ribozom iki hücrede de bulunur; hücre duvarı ve kloroplast yalnız bitki, sentrozom yalnız hayvan hücresindedir.",
+    "questionId": "fen5u3-hucre-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104, 109",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Özellikleri doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Yalnız bitki hücresinde",
+        "Yalnız hayvan hücresinde",
+        "İkisinde de"
+      ],
+      "cards": [
+        {
+          "t": "Köşeli şekil",
+          "b": 0
+        },
+        {
+          "t": "Oval şekil",
+          "b": 1
+        },
+        {
+          "t": "Mitokondri",
+          "b": 2
+        },
+        {
+          "t": "Büyük ve az sayıda koful",
+          "b": 0
+        },
+        {
+          "t": "Küçük ve çok sayıda koful",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Özellikleri doğru petri kabına koy. Kaplar: Yalnız bitki hücresinde / Yalnız hayvan hücresinde / İkisinde de. Kartlar: Köşeli şekil | Oval şekil | Mitokondri | Büyük ve az sayıda koful | Küçük ve çok sayıda koful",
+    "correctAnswer": "Yalnız bitki hücresinde: Köşeli şekil, Büyük ve az sayıda koful | Yalnız hayvan hücresinde: Oval şekil, Küçük ve çok sayıda koful | İkisinde de: Mitokondri",
+    "explanation": "Bitki hücresi köşelidir, kofulları büyük ve azdır; hayvan hücresi ovaldir, kofulları küçük ve çoktur. Mitokondri ikisinde de bulunur.",
+    "questionId": "fen5u3-hucre-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+    "difficulty": "orta",
+    "group": "hucre",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Yapıları doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Yalnız bitki hücresinde",
+        "Yalnız hayvan hücresinde",
+        "İkisinde de"
+      ],
+      "cards": [
+        {
+          "t": "Ribozom",
+          "b": 2
+        },
+        {
+          "t": "Kloroplast",
+          "b": 0
+        },
+        {
+          "t": "Sentrozom",
+          "b": 1
+        },
+        {
+          "t": "Çekirdek",
+          "b": 2
+        },
+        {
+          "t": "Hücre duvarı",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Yapıları doğru petri kabına koy. Kaplar: Yalnız bitki hücresinde / Yalnız hayvan hücresinde / İkisinde de. Kartlar: Ribozom | Kloroplast | Sentrozom | Çekirdek | Hücre duvarı",
+    "correctAnswer": "Yalnız bitki hücresinde: Kloroplast, Hücre duvarı | Yalnız hayvan hücresinde: Sentrozom | İkisinde de: Ribozom, Çekirdek",
+    "explanation": "Hücre zarı, sitoplazma, çekirdek, mitokondri ve ribozom iki hücrede de bulunur; hücre duvarı ve kloroplast yalnız bitki, sentrozom yalnız hayvan hücresindedir.",
+    "questionId": "fen5u3-hucre-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103–109",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Görevleri verilen yapıların hangi hücrede bulunduğunu belirle.",
+    "data": {
+      "bins": [
+        "Yalnız bitki hücresinde",
+        "Yalnız hayvan hücresinde",
+        "İkisinde de"
+      ],
+      "cards": [
+        {
+          "t": "Besin ve oksijen üreten organel",
+          "b": 0
+        },
+        {
+          "t": "Hücre bölünmesinde görevli yapı",
+          "b": 1
+        },
+        {
+          "t": "Hücreyi yöneten organel",
+          "b": 2
+        },
+        {
+          "t": "Hücreye biçim veren dış duvar",
+          "b": 0
+        },
+        {
+          "t": "Protein üreten yapı",
+          "b": 2
+        },
+        {
+          "t": "Enerji üreten organel",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Görevleri verilen yapıların hangi hücrede bulunduğunu belirle. Kaplar: Yalnız bitki hücresinde / Yalnız hayvan hücresinde / İkisinde de. Kartlar: Besin ve oksijen üreten organel | Hücre bölünmesinde görevli yapı | Hücreyi yöneten organel | Hücreye biçim veren dış duvar | Protein üreten yapı | Enerji üreten organel",
+    "correctAnswer": "Yalnız bitki hücresinde: Besin ve oksijen üreten organel, Hücreye biçim veren dış duvar | Yalnız hayvan hücresinde: Hücre bölünmesinde görevli yapı | İkisinde de: Hücreyi yöneten organel, Protein üreten yapı, Enerji üreten organel",
+    "explanation": "Kloroplast ve hücre duvarı yalnız bitki, sentrozom yalnız hayvan hücresindedir; çekirdek, ribozom ve mitokondri ikisinde de bulunur.",
+    "questionId": "fen5u3-hucre-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Bitki ve hayvan hücrelerinin temel kısımları ve organelleri; benzerlik ve farklılıklar",
+    "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 100–110",
+    "difficulty": "zor",
+    "group": "hucre",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru petri kabına koy.",
+    "data": {
+      "bins": [
+        "Yalnız bitki hücresinde",
+        "Yalnız hayvan hücresinde",
+        "İkisinde de"
+      ],
+      "cards": [
+        {
+          "t": "Ağız içi epitel hücresinde var, yeşil yaprak hücresinde yok",
+          "b": 1
+        },
+        {
+          "t": "Yeşil yaprak hücresinde var, kas hücresinde yok",
+          "b": 0
+        },
+        {
+          "t": "Hem marul hem kas hücresinde var",
+          "b": 2
+        },
+        {
+          "t": "Soğan zarı hücresinde var, epitel hücresinde yok",
+          "b": 0
+        },
+        {
+          "t": "Kas hücresinde var, marul hücresinde yok",
+          "b": 1
+        },
+        {
+          "t": "Her hücreyi dıştan saran ince zar",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru petri kabına koy. Kaplar: Yalnız bitki hücresinde / Yalnız hayvan hücresinde / İkisinde de. Kartlar: Ağız içi epitel hücresinde var, yeşil yaprak hücresinde yok | Yeşil yaprak hücresinde var, kas hücresinde yok | Hem marul hem kas hücresinde var | Soğan zarı hücresinde var, epitel hücresinde yok | Kas hücresinde var, marul hücresinde yok | Her hücreyi dıştan saran ince zar",
+    "correctAnswer": "Yalnız bitki hücresinde: Yeşil yaprak hücresinde var, kas hücresinde yok, Soğan zarı hücresinde var, epitel hücresinde yok | Yalnız hayvan hücresinde: Ağız içi epitel hücresinde var, yeşil yaprak hücresinde yok, Kas hücresinde var, marul hücresinde yok | İkisinde de: Hem marul hem kas hücresinde var, Her hücreyi dıştan saran ince zar",
+    "explanation": "Epitel ve kas hücresi hayvan, yaprak, marul ve soğan zarı hücresi bitki hücresidir. Bitkiye özgü yapılar duvar ve kloroplast, hayvana özgü yapı sentrozomdur; hücre zarı her hücrede vardır.",
+    "questionId": "fen5u3-hucre-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "kolay",
+    "group": "organel",
+    "rank": 1,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "cekirdek",
+          "f": "Hücrede gerçekleşen olayları yönetir",
+          "ic": "🏛️"
+        },
+        {
+          "k": "mitokondri",
+          "f": "Hücrenin ihtiyacı olan enerjiyi üretir",
+          "ic": "⚡"
+        },
+        {
+          "k": "kloroplast",
+          "f": "Bitkide besin ve oksijen üretir",
+          "ic": "☀️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücrede gerçekleşen olayları yönetir | Hücrenin ihtiyacı olan enerjiyi üretir | Bitkide besin ve oksijen üretir. Organeller: Çekirdek, Mitokondri, Kloroplast",
+    "correctAnswer": "Hücrede gerçekleşen olayları yönetir → Çekirdek | Hücrenin ihtiyacı olan enerjiyi üretir → Mitokondri | Bitkide besin ve oksijen üretir → Kloroplast",
+    "explanation": "Çekirdek: hücrede gerçekleşen olayları yönetir. Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir. Kloroplast: bitkide besin ve oksijen üretir.",
+    "questionId": "fen5u3-organel-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "kolay",
+    "group": "organel",
+    "rank": 1,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "ribozom",
+          "f": "Hücrenin ihtiyacı olan proteini üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "koful_b",
+          "f": "Su, besin ve atık maddeleri depolar",
+          "ic": "🛢️"
+        },
+        {
+          "k": "zar",
+          "f": "Hücreyi sarar, madde giriş çıkışını sağlar",
+          "ic": "🚪"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücrenin ihtiyacı olan proteini üretir | Su, besin ve atık maddeleri depolar | Hücreyi sarar, madde giriş çıkışını sağlar. Organeller: Ribozom, Büyük koful, Hücre zarı",
+    "correctAnswer": "Hücrenin ihtiyacı olan proteini üretir → Ribozom | Su, besin ve atık maddeleri depolar → Büyük koful | Hücreyi sarar, madde giriş çıkışını sağlar → Hücre zarı",
+    "explanation": "Ribozom: hücrenin ihtiyacı olan proteini üretir. Büyük koful: su, besin ve atık maddeleri depolar. Hücre zarı: hücreyi sarar, madde giriş çıkışını sağlar.",
+    "questionId": "fen5u3-organel-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "kolay",
+    "group": "organel",
+    "rank": 1,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "lizozom",
+          "f": "Hücre içi sindirimi gerçekleştirir",
+          "ic": "♻️"
+        },
+        {
+          "k": "cekirdek",
+          "f": "Hücrede gerçekleşen olayları yönetir",
+          "ic": "🏛️"
+        },
+        {
+          "k": "duvar",
+          "f": "Bitki hücresini dıştan korur ve biçim verir",
+          "ic": "🧱"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücre içi sindirimi gerçekleştirir | Hücrede gerçekleşen olayları yönetir | Bitki hücresini dıştan korur ve biçim verir. Organeller: Lizozom, Çekirdek, Hücre duvarı",
+    "correctAnswer": "Hücre içi sindirimi gerçekleştirir → Lizozom | Hücrede gerçekleşen olayları yönetir → Çekirdek | Bitki hücresini dıştan korur ve biçim verir → Hücre duvarı",
+    "explanation": "Lizozom: hücre içi sindirimi gerçekleştirir. Çekirdek: hücrede gerçekleşen olayları yönetir. Hücre duvarı: bitki hücresini dıştan korur ve biçim verir.",
+    "questionId": "fen5u3-organel-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "kolay",
+    "group": "organel",
+    "rank": 1,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "mitokondri",
+          "f": "Hücrenin ihtiyacı olan enerjiyi üretir",
+          "ic": "⚡"
+        },
+        {
+          "k": "golgi",
+          "f": "Salgı maddelerini üretir ve paketler",
+          "ic": "📦"
+        },
+        {
+          "k": "koful_b",
+          "f": "Su, besin ve atık maddeleri depolar",
+          "ic": "🛢️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücrenin ihtiyacı olan enerjiyi üretir | Salgı maddelerini üretir ve paketler | Su, besin ve atık maddeleri depolar. Organeller: Mitokondri, Golgi aygıtı, Büyük koful",
+    "correctAnswer": "Hücrenin ihtiyacı olan enerjiyi üretir → Mitokondri | Salgı maddelerini üretir ve paketler → Golgi aygıtı | Su, besin ve atık maddeleri depolar → Büyük koful",
+    "explanation": "Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir. Golgi aygıtı: salgı maddelerini üretir ve paketler. Büyük koful: su, besin ve atık maddeleri depolar.",
+    "questionId": "fen5u3-organel-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "er",
+          "f": "Hücre içinde madde iletimini sağlar",
+          "ic": "🛤️"
+        },
+        {
+          "k": "golgi",
+          "f": "Salgı maddelerini üretir ve paketler",
+          "ic": "📦"
+        },
+        {
+          "k": "ribozom",
+          "f": "Hücrenin ihtiyacı olan proteini üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "mitokondri",
+          "f": "Hücrenin ihtiyacı olan enerjiyi üretir",
+          "ic": "⚡"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücre içinde madde iletimini sağlar | Salgı maddelerini üretir ve paketler | Hücrenin ihtiyacı olan proteini üretir | Hücrenin ihtiyacı olan enerjiyi üretir. Organeller: Endoplazmik retikulum, Golgi aygıtı, Ribozom, Mitokondri",
+    "correctAnswer": "Hücre içinde madde iletimini sağlar → Endoplazmik retikulum | Salgı maddelerini üretir ve paketler → Golgi aygıtı | Hücrenin ihtiyacı olan proteini üretir → Ribozom | Hücrenin ihtiyacı olan enerjiyi üretir → Mitokondri",
+    "explanation": "Endoplazmik retikulum: hücre içinde madde iletimini sağlar. Golgi aygıtı: salgı maddelerini üretir ve paketler. Ribozom: hücrenin ihtiyacı olan proteini üretir. Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir.",
+    "questionId": "fen5u3-organel-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "lizozom",
+          "f": "Hücre içi sindirimi gerçekleştirir",
+          "ic": "♻️"
+        },
+        {
+          "k": "koful_b",
+          "f": "Su, besin ve atık maddeleri depolar",
+          "ic": "🛢️"
+        },
+        {
+          "k": "kloroplast",
+          "f": "Bitkide besin ve oksijen üretir",
+          "ic": "☀️"
+        },
+        {
+          "k": "sentrozom",
+          "f": "Hayvan hücresinde hücre bölünmesinde görev alır",
+          "ic": "✂️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücre içi sindirimi gerçekleştirir | Su, besin ve atık maddeleri depolar | Bitkide besin ve oksijen üretir | Hayvan hücresinde hücre bölünmesinde görev alır. Organeller: Lizozom, Büyük koful, Kloroplast, Sentrozom",
+    "correctAnswer": "Hücre içi sindirimi gerçekleştirir → Lizozom | Su, besin ve atık maddeleri depolar → Büyük koful | Bitkide besin ve oksijen üretir → Kloroplast | Hayvan hücresinde hücre bölünmesinde görev alır → Sentrozom",
+    "explanation": "Lizozom: hücre içi sindirimi gerçekleştirir. Büyük koful: su, besin ve atık maddeleri depolar. Kloroplast: bitkide besin ve oksijen üretir. Sentrozom: hayvan hücresinde hücre bölünmesinde görev alır.",
+    "questionId": "fen5u3-organel-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "zar",
+          "f": "Hücreyi sarar, madde giriş çıkışını sağlar",
+          "ic": "🚪"
+        },
+        {
+          "k": "duvar",
+          "f": "Bitki hücresini dıştan korur ve biçim verir",
+          "ic": "🧱"
+        },
+        {
+          "k": "cekirdek",
+          "f": "Hücrede gerçekleşen olayları yönetir",
+          "ic": "🏛️"
+        },
+        {
+          "k": "sitoplazma",
+          "f": "Organelleri içinde bulunduran yarı akışkan, saydam sıvı",
+          "ic": "💧"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücreyi sarar, madde giriş çıkışını sağlar | Bitki hücresini dıştan korur ve biçim verir | Hücrede gerçekleşen olayları yönetir | Organelleri içinde bulunduran yarı akışkan, saydam sıvı. Organeller: Hücre zarı, Hücre duvarı, Çekirdek, Sitoplazma",
+    "correctAnswer": "Hücreyi sarar, madde giriş çıkışını sağlar → Hücre zarı | Bitki hücresini dıştan korur ve biçim verir → Hücre duvarı | Hücrede gerçekleşen olayları yönetir → Çekirdek | Organelleri içinde bulunduran yarı akışkan, saydam sıvı → Sitoplazma",
+    "explanation": "Hücre zarı: hücreyi sarar, madde giriş çıkışını sağlar. Hücre duvarı: bitki hücresini dıştan korur ve biçim verir. Çekirdek: hücrede gerçekleşen olayları yönetir. Sitoplazma: organelleri içinde bulunduran yarı akışkan, saydam sıvı.",
+    "questionId": "fen5u3-organel-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "ribozom",
+          "f": "Hücrenin ihtiyacı olan proteini üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "kloroplast",
+          "f": "Bitkide besin ve oksijen üretir",
+          "ic": "☀️"
+        },
+        {
+          "k": "er",
+          "f": "Hücre içinde madde iletimini sağlar",
+          "ic": "🛤️"
+        },
+        {
+          "k": "lizozom",
+          "f": "Hücre içi sindirimi gerçekleştirir",
+          "ic": "♻️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücrenin ihtiyacı olan proteini üretir | Bitkide besin ve oksijen üretir | Hücre içinde madde iletimini sağlar | Hücre içi sindirimi gerçekleştirir. Organeller: Ribozom, Kloroplast, Endoplazmik retikulum, Lizozom",
+    "correctAnswer": "Hücrenin ihtiyacı olan proteini üretir → Ribozom | Bitkide besin ve oksijen üretir → Kloroplast | Hücre içinde madde iletimini sağlar → Endoplazmik retikulum | Hücre içi sindirimi gerçekleştirir → Lizozom",
+    "explanation": "Ribozom: hücrenin ihtiyacı olan proteini üretir. Kloroplast: bitkide besin ve oksijen üretir. Endoplazmik retikulum: hücre içinde madde iletimini sağlar. Lizozom: hücre içi sindirimi gerçekleştirir.",
+    "questionId": "fen5u3-organel-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "er",
+          "f": "Hücre içinde madde iletimini sağlar",
+          "ic": "🛤️"
+        },
+        {
+          "k": "golgi",
+          "f": "Salgı maddelerini üretir ve paketler",
+          "ic": "📦"
+        },
+        {
+          "k": "lizozom",
+          "f": "Hücre içi sindirimi gerçekleştirir",
+          "ic": "♻️"
+        },
+        {
+          "k": "koful_b",
+          "f": "Su, besin ve atık maddeleri depolar",
+          "ic": "🛢️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücre içinde madde iletimini sağlar | Salgı maddelerini üretir ve paketler | Hücre içi sindirimi gerçekleştirir | Su, besin ve atık maddeleri depolar. Organeller: Endoplazmik retikulum, Golgi aygıtı, Lizozom, Büyük koful",
+    "correctAnswer": "Hücre içinde madde iletimini sağlar → Endoplazmik retikulum | Salgı maddelerini üretir ve paketler → Golgi aygıtı | Hücre içi sindirimi gerçekleştirir → Lizozom | Su, besin ve atık maddeleri depolar → Büyük koful",
+    "explanation": "Endoplazmik retikulum: hücre içinde madde iletimini sağlar. Golgi aygıtı: salgı maddelerini üretir ve paketler. Lizozom: hücre içi sindirimi gerçekleştirir. Büyük koful: su, besin ve atık maddeleri depolar.",
+    "questionId": "fen5u3-organel-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "ribozom",
+          "f": "Hücrenin ihtiyacı olan proteini üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "mitokondri",
+          "f": "Hücrenin ihtiyacı olan enerjiyi üretir",
+          "ic": "⚡"
+        },
+        {
+          "k": "kloroplast",
+          "f": "Bitkide besin ve oksijen üretir",
+          "ic": "☀️"
+        },
+        {
+          "k": "sentrozom",
+          "f": "Hayvan hücresinde hücre bölünmesinde görev alır",
+          "ic": "✂️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücrenin ihtiyacı olan proteini üretir | Hücrenin ihtiyacı olan enerjiyi üretir | Bitkide besin ve oksijen üretir | Hayvan hücresinde hücre bölünmesinde görev alır. Organeller: Ribozom, Mitokondri, Kloroplast, Sentrozom",
+    "correctAnswer": "Hücrenin ihtiyacı olan proteini üretir → Ribozom | Hücrenin ihtiyacı olan enerjiyi üretir → Mitokondri | Bitkide besin ve oksijen üretir → Kloroplast | Hayvan hücresinde hücre bölünmesinde görev alır → Sentrozom",
+    "explanation": "Ribozom: hücrenin ihtiyacı olan proteini üretir. Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir. Kloroplast: bitkide besin ve oksijen üretir. Sentrozom: hayvan hücresinde hücre bölünmesinde görev alır.",
+    "questionId": "fen5u3-organel-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "zar",
+          "f": "Hücreyi sarar, madde giriş çıkışını sağlar",
+          "ic": "🚪"
+        },
+        {
+          "k": "sitoplazma",
+          "f": "Organelleri içinde bulunduran yarı akışkan, saydam sıvı",
+          "ic": "💧"
+        },
+        {
+          "k": "duvar",
+          "f": "Bitki hücresini dıştan korur ve biçim verir",
+          "ic": "🧱"
+        },
+        {
+          "k": "golgi",
+          "f": "Salgı maddelerini üretir ve paketler",
+          "ic": "📦"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücreyi sarar, madde giriş çıkışını sağlar | Organelleri içinde bulunduran yarı akışkan, saydam sıvı | Bitki hücresini dıştan korur ve biçim verir | Salgı maddelerini üretir ve paketler. Organeller: Hücre zarı, Sitoplazma, Hücre duvarı, Golgi aygıtı",
+    "correctAnswer": "Hücreyi sarar, madde giriş çıkışını sağlar → Hücre zarı | Organelleri içinde bulunduran yarı akışkan, saydam sıvı → Sitoplazma | Bitki hücresini dıştan korur ve biçim verir → Hücre duvarı | Salgı maddelerini üretir ve paketler → Golgi aygıtı",
+    "explanation": "Hücre zarı: hücreyi sarar, madde giriş çıkışını sağlar. Sitoplazma: organelleri içinde bulunduran yarı akışkan, saydam sıvı. Hücre duvarı: bitki hücresini dıştan korur ve biçim verir. Golgi aygıtı: salgı maddelerini üretir ve paketler.",
+    "questionId": "fen5u3-organel-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "city",
+    "prompt": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "cekirdek",
+          "f": "Hücrede gerçekleşen olayları yönetir",
+          "ic": "🏛️"
+        },
+        {
+          "k": "ribozom",
+          "f": "Hücrenin ihtiyacı olan proteini üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "sentrozom",
+          "f": "Hayvan hücresinde hücre bölünmesinde görev alır",
+          "ic": "✂️"
+        },
+        {
+          "k": "lizozom",
+          "f": "Hücre içi sindirimi gerçekleştirir",
+          "ic": "♻️"
+        }
+      ]
+    },
+    "textPlain": "Hücre Şehri'nde her organeli görevinin yapıldığı binaya taşı. Binalar: Hücrede gerçekleşen olayları yönetir | Hücrenin ihtiyacı olan proteini üretir | Hayvan hücresinde hücre bölünmesinde görev alır | Hücre içi sindirimi gerçekleştirir. Organeller: Çekirdek, Ribozom, Sentrozom, Lizozom",
+    "correctAnswer": "Hücrede gerçekleşen olayları yönetir → Çekirdek | Hücrenin ihtiyacı olan proteini üretir → Ribozom | Hayvan hücresinde hücre bölünmesinde görev alır → Sentrozom | Hücre içi sindirimi gerçekleştirir → Lizozom",
+    "explanation": "Çekirdek: hücrede gerçekleşen olayları yönetir. Ribozom: hücrenin ihtiyacı olan proteini üretir. Sentrozom: hayvan hücresinde hücre bölünmesinde görev alır. Lizozom: hücre içi sindirimi gerçekleştirir.",
+    "questionId": "fen5u3-organel-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "kolay",
+    "group": "organel",
+    "rank": 1,
+    "type": "city",
+    "prompt": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "cekirdek",
+          "f": "Okul müdürü: okuldaki bütün işleri yönetir",
+          "ic": "🏛️"
+        },
+        {
+          "k": "zar",
+          "f": "Okul kapısındaki görevli: kimin girip çıkacağını denetler",
+          "ic": "🚪"
+        },
+        {
+          "k": "mitokondri",
+          "f": "Kalorifer dairesi: okula enerji sağlar",
+          "ic": "⚡"
+        }
+      ]
+    },
+    "textPlain": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı. Binalar: Okul müdürü: okuldaki bütün işleri yönetir | Okul kapısındaki görevli: kimin girip çıkacağını denetler | Kalorifer dairesi: okula enerji sağlar. Organeller: Çekirdek, Hücre zarı, Mitokondri",
+    "correctAnswer": "Okul müdürü: okuldaki bütün işleri yönetir → Çekirdek | Okul kapısındaki görevli: kimin girip çıkacağını denetler → Hücre zarı | Kalorifer dairesi: okula enerji sağlar → Mitokondri",
+    "explanation": "Çekirdek: hücrede gerçekleşen olayları yönetir. Hücre zarı: hücreyi sarar, madde giriş çıkışını sağlar. Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir.",
+    "questionId": "fen5u3-organel-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "city",
+    "prompt": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "golgi",
+          "f": "Kargo odası: hazırlanan malzemeyi paketleyip gönderir",
+          "ic": "📦"
+        },
+        {
+          "k": "er",
+          "f": "Koridorlar: malzemenin sınıflar arasında taşındığı yollar",
+          "ic": "🛤️"
+        },
+        {
+          "k": "koful_b",
+          "f": "Depo: su, malzeme ve atıkların saklandığı oda",
+          "ic": "🛢️"
+        },
+        {
+          "k": "cekirdek",
+          "f": "Okul müdürü: okuldaki bütün işleri yönetir",
+          "ic": "🏛️"
+        }
+      ]
+    },
+    "textPlain": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı. Binalar: Kargo odası: hazırlanan malzemeyi paketleyip gönderir | Koridorlar: malzemenin sınıflar arasında taşındığı yollar | Depo: su, malzeme ve atıkların saklandığı oda | Okul müdürü: okuldaki bütün işleri yönetir. Organeller: Golgi aygıtı, Endoplazmik retikulum, Büyük koful, Çekirdek",
+    "correctAnswer": "Kargo odası: hazırlanan malzemeyi paketleyip gönderir → Golgi aygıtı | Koridorlar: malzemenin sınıflar arasında taşındığı yollar → Endoplazmik retikulum | Depo: su, malzeme ve atıkların saklandığı oda → Büyük koful | Okul müdürü: okuldaki bütün işleri yönetir → Çekirdek",
+    "explanation": "Golgi aygıtı: salgı maddelerini üretir ve paketler. Endoplazmik retikulum: hücre içinde madde iletimini sağlar. Büyük koful: su, besin ve atık maddeleri depolar. Çekirdek: hücrede gerçekleşen olayları yönetir.",
+    "questionId": "fen5u3-organel-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "city",
+    "prompt": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "lizozom",
+          "f": "Temizlik ekibi: işe yaramayanları parçalayıp temizler",
+          "ic": "♻️"
+        },
+        {
+          "k": "ribozom",
+          "f": "Atölye: okulun ihtiyacı olan malzemeyi üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "zar",
+          "f": "Okul kapısındaki görevli: kimin girip çıkacağını denetler",
+          "ic": "🚪"
+        },
+        {
+          "k": "mitokondri",
+          "f": "Kalorifer dairesi: okula enerji sağlar",
+          "ic": "⚡"
+        }
+      ]
+    },
+    "textPlain": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı. Binalar: Temizlik ekibi: işe yaramayanları parçalayıp temizler | Atölye: okulun ihtiyacı olan malzemeyi üretir | Okul kapısındaki görevli: kimin girip çıkacağını denetler | Kalorifer dairesi: okula enerji sağlar. Organeller: Lizozom, Ribozom, Hücre zarı, Mitokondri",
+    "correctAnswer": "Temizlik ekibi: işe yaramayanları parçalayıp temizler → Lizozom | Atölye: okulun ihtiyacı olan malzemeyi üretir → Ribozom | Okul kapısındaki görevli: kimin girip çıkacağını denetler → Hücre zarı | Kalorifer dairesi: okula enerji sağlar → Mitokondri",
+    "explanation": "Lizozom: hücre içi sindirimi gerçekleştirir. Ribozom: hücrenin ihtiyacı olan proteini üretir. Hücre zarı: hücreyi sarar, madde giriş çıkışını sağlar. Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir.",
+    "questionId": "fen5u3-organel-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "city",
+    "prompt": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "er",
+          "f": "Koridorlar: malzemenin sınıflar arasında taşındığı yollar",
+          "ic": "🛤️"
+        },
+        {
+          "k": "golgi",
+          "f": "Kargo odası: hazırlanan malzemeyi paketleyip gönderir",
+          "ic": "📦"
+        },
+        {
+          "k": "ribozom",
+          "f": "Atölye: okulun ihtiyacı olan malzemeyi üretir",
+          "ic": "🔧"
+        },
+        {
+          "k": "lizozom",
+          "f": "Temizlik ekibi: işe yaramayanları parçalayıp temizler",
+          "ic": "♻️"
+        }
+      ]
+    },
+    "textPlain": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı. Binalar: Koridorlar: malzemenin sınıflar arasında taşındığı yollar | Kargo odası: hazırlanan malzemeyi paketleyip gönderir | Atölye: okulun ihtiyacı olan malzemeyi üretir | Temizlik ekibi: işe yaramayanları parçalayıp temizler. Organeller: Endoplazmik retikulum, Golgi aygıtı, Ribozom, Lizozom",
+    "correctAnswer": "Koridorlar: malzemenin sınıflar arasında taşındığı yollar → Endoplazmik retikulum | Kargo odası: hazırlanan malzemeyi paketleyip gönderir → Golgi aygıtı | Atölye: okulun ihtiyacı olan malzemeyi üretir → Ribozom | Temizlik ekibi: işe yaramayanları parçalayıp temizler → Lizozom",
+    "explanation": "Endoplazmik retikulum: hücre içinde madde iletimini sağlar. Golgi aygıtı: salgı maddelerini üretir ve paketler. Ribozom: hücrenin ihtiyacı olan proteini üretir. Lizozom: hücre içi sindirimi gerçekleştirir.",
+    "questionId": "fen5u3-organel-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "city",
+    "prompt": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı.",
+    "data": {
+      "st": [
+        {
+          "k": "koful_b",
+          "f": "Depo: su, malzeme ve atıkların saklandığı oda",
+          "ic": "🛢️"
+        },
+        {
+          "k": "mitokondri",
+          "f": "Kalorifer dairesi: okula enerji sağlar",
+          "ic": "⚡"
+        },
+        {
+          "k": "zar",
+          "f": "Okul kapısındaki görevli: kimin girip çıkacağını denetler",
+          "ic": "🚪"
+        },
+        {
+          "k": "golgi",
+          "f": "Kargo odası: hazırlanan malzemeyi paketleyip gönderir",
+          "ic": "📦"
+        }
+      ]
+    },
+    "textPlain": "Hücreyi bir okula benzettik. Her organeli benzediği okul görevlisine taşı. Binalar: Depo: su, malzeme ve atıkların saklandığı oda | Kalorifer dairesi: okula enerji sağlar | Okul kapısındaki görevli: kimin girip çıkacağını denetler | Kargo odası: hazırlanan malzemeyi paketleyip gönderir. Organeller: Büyük koful, Mitokondri, Hücre zarı, Golgi aygıtı",
+    "correctAnswer": "Depo: su, malzeme ve atıkların saklandığı oda → Büyük koful | Kalorifer dairesi: okula enerji sağlar → Mitokondri | Okul kapısındaki görevli: kimin girip çıkacağını denetler → Hücre zarı | Kargo odası: hazırlanan malzemeyi paketleyip gönderir → Golgi aygıtı",
+    "explanation": "Büyük koful: su, besin ve atık maddeleri depolar. Mitokondri: hücrenin ihtiyacı olan enerjiyi üretir. Hücre zarı: hücreyi sarar, madde giriş çıkışını sağlar. Golgi aygıtı: salgı maddelerini üretir ve paketler.",
+    "questionId": "fen5u3-organel-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103",
+    "difficulty": "kolay",
+    "group": "organel",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Organelleri yaptıkları işe göre doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Üretir",
+        "Depolar ya da taşır"
+      ],
+      "cards": [
+        {
+          "t": "Ribozom: protein",
+          "b": 0
+        },
+        {
+          "t": "Koful: su ve atık",
+          "b": 1
+        },
+        {
+          "t": "Mitokondri: enerji",
+          "b": 0
+        },
+        {
+          "t": "Endoplazmik retikulum: madde iletimi",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Organelleri yaptıkları işe göre doğru kaba koy. Kaplar: Üretir / Depolar ya da taşır. Kartlar: Ribozom: protein | Koful: su ve atık | Mitokondri: enerji | Endoplazmik retikulum: madde iletimi",
+    "correctAnswer": "Üretir: Ribozom: protein, Mitokondri: enerji | Depolar ya da taşır: Koful: su ve atık, Endoplazmik retikulum: madde iletimi",
+    "explanation": "Ribozom protein, mitokondri enerji üretir; koful depolar, endoplazmik retikulum madde iletir.",
+    "questionId": "fen5u3-organel-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103",
+    "difficulty": "orta",
+    "group": "organel",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Organelleri yaptıkları işe göre doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Üretir",
+        "Depolar ya da taşır"
+      ],
+      "cards": [
+        {
+          "t": "Kloroplast: besin ve oksijen",
+          "b": 0
+        },
+        {
+          "t": "Golgi aygıtı: salgı maddeleri",
+          "b": 0
+        },
+        {
+          "t": "Koful: besin",
+          "b": 1
+        },
+        {
+          "t": "Endoplazmik retikulum: hücre içi iletim",
+          "b": 1
+        },
+        {
+          "t": "Ribozom: protein",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Organelleri yaptıkları işe göre doğru kaba koy. Kaplar: Üretir / Depolar ya da taşır. Kartlar: Kloroplast: besin ve oksijen | Golgi aygıtı: salgı maddeleri | Koful: besin | Endoplazmik retikulum: hücre içi iletim | Ribozom: protein",
+    "correctAnswer": "Üretir: Kloroplast: besin ve oksijen, Golgi aygıtı: salgı maddeleri, Ribozom: protein | Depolar ya da taşır: Koful: besin, Endoplazmik retikulum: hücre içi iletim",
+    "explanation": "Kloroplast, golgi aygıtı ve ribozom üretimde; koful depolamada, endoplazmik retikulum taşımada görevlidir.",
+    "questionId": "fen5u3-organel-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücredeki yapı ve organellerin görevleri",
+    "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 109",
+    "difficulty": "zor",
+    "group": "organel",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Organelleri yaptıkları işe göre doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Yönetir ya da korur",
+        "Üretir",
+        "Sindirir ya da depolar"
+      ],
+      "cards": [
+        {
+          "t": "Çekirdek",
+          "b": 0
+        },
+        {
+          "t": "Hücre duvarı",
+          "b": 0
+        },
+        {
+          "t": "Mitokondri",
+          "b": 1
+        },
+        {
+          "t": "Kloroplast",
+          "b": 1
+        },
+        {
+          "t": "Lizozom",
+          "b": 2
+        },
+        {
+          "t": "Koful",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Organelleri yaptıkları işe göre doğru kaba koy. Kaplar: Yönetir ya da korur / Üretir / Sindirir ya da depolar. Kartlar: Çekirdek | Hücre duvarı | Mitokondri | Kloroplast | Lizozom | Koful",
+    "correctAnswer": "Yönetir ya da korur: Çekirdek, Hücre duvarı | Üretir: Mitokondri, Kloroplast | Sindirir ya da depolar: Lizozom, Koful",
+    "explanation": "Çekirdek yönetir, hücre duvarı korur; mitokondri enerji, kloroplast besin üretir; lizozom sindirir, koful depolar.",
+    "questionId": "fen5u3-organel-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "kolay",
+    "group": "hiyer",
+    "rank": 1,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Kas hücresi",
+        "Kol",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Organ",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Kas hücresi, Kol, İnsan",
+    "correctAnswer": "Kas hücresi → Kol → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "kolay",
+    "group": "hiyer",
+    "rank": 1,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Sinir hücresi",
+        "Sinir sistemi",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Sinir hücresi, Sinir sistemi, İnsan",
+    "correctAnswer": "Sinir hücresi → Sinir sistemi → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "kolay",
+    "group": "hiyer",
+    "rank": 1,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Akciğer dokusu",
+        "Akciğer",
+        "Solunum sistemi"
+      ],
+      "levels": [
+        "Doku",
+        "Organ",
+        "Sistem"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Akciğer, Akciğer dokusu, Solunum sistemi",
+    "correctAnswer": "Akciğer dokusu → Akciğer → Solunum sistemi",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Kalp kası hücresi",
+        "Kalp kası dokusu",
+        "Kalp",
+        "Dolaşım sistemi"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Dolaşım sistemi, Kalp, Kalp kası dokusu, Kalp kası hücresi",
+    "correctAnswer": "Kalp kası hücresi → Kalp kası dokusu → Kalp → Dolaşım sistemi",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Kemik dokusu",
+        "Uyluk kemiği",
+        "Destek ve hareket sistemi",
+        "İnsan"
+      ],
+      "levels": [
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Destek ve hareket sistemi, Kemik dokusu, Uyluk kemiği, İnsan",
+    "correctAnswer": "Kemik dokusu → Uyluk kemiği → Destek ve hareket sistemi → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Sinir hücresi",
+        "Sinir dokusu",
+        "Beyin",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Beyin, Sinir dokusu, Sinir hücresi, İnsan",
+    "correctAnswer": "Sinir hücresi → Sinir dokusu → Beyin → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Kas hücresi",
+        "Kas dokusu",
+        "Kol",
+        "Destek ve hareket sistemi",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Destek ve hareket sistemi, Kas dokusu, Kas hücresi, Kol, İnsan",
+    "correctAnswer": "Kas hücresi → Kas dokusu → Kol → Destek ve hareket sistemi → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Sinir hücresi",
+        "Sinir dokusu",
+        "Beyin",
+        "Sinir sistemi",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Beyin, Sinir dokusu, Sinir hücresi, Sinir sistemi, İnsan",
+    "correctAnswer": "Sinir hücresi → Sinir dokusu → Beyin → Sinir sistemi → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Kalp kası hücresi",
+        "Kalp kası dokusu",
+        "Kalp",
+        "Dolaşım sistemi",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Dolaşım sistemi, Kalp, Kalp kası dokusu, Kalp kası hücresi, İnsan",
+    "correctAnswer": "Kalp kası hücresi → Kalp kası dokusu → Kalp → Dolaşım sistemi → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir.",
+    "data": {
+      "mode": "order",
+      "items": [
+        "Akciğer hücresi",
+        "Akciğer dokusu",
+        "Akciğer",
+        "Solunum sistemi",
+        "İnsan"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Yakınlaştırma merdivenini kur: Kartları en basitten (1) en karmaşığa doğru basamaklara yerleştir. Kartlar: Akciğer, Akciğer dokusu, Akciğer hücresi, Solunum sistemi, İnsan",
+    "correctAnswer": "Akciğer hücresi → Akciğer dokusu → Akciğer → Solunum sistemi → İnsan",
+    "explanation": "Hücreler dokuyu, dokular organı, organlar sistemi, sistemler organizmayı oluşturur: hücre → doku → organ → sistem → organizma.",
+    "questionId": "fen5u3-hiyer-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–112, 137",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir.",
+    "data": {
+      "mode": "map",
+      "items": [
+        "Tuğla",
+        "Duvar",
+        "Oda",
+        "Köy"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir. Kartlar: Duvar, Köy, Oda, Tuğla",
+    "correctAnswer": "Hücre = Tuğla | Doku = Duvar | Organ = Oda | Organizma = Köy",
+    "explanation": "Tuğlalar duvarı, duvarlar odayı, odalar evi, evler ve diğer yapılar köyü oluşturur; hücre-doku-organ-sistem-organizma gibi.",
+    "questionId": "fen5u3-hiyer-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–112, 137",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir.",
+    "data": {
+      "mode": "map",
+      "items": [
+        "Tuğla",
+        "Duvar",
+        "Sınıf",
+        "Okul binası"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir. Kartlar: Duvar, Okul binası, Sınıf, Tuğla",
+    "correctAnswer": "Hücre = Tuğla | Doku = Duvar | Organ = Sınıf | Organizma = Okul binası",
+    "explanation": "Tuğla hücreye, duvar dokuya, sınıf organa, kat sisteme, okul binası organizmaya benzetilir.",
+    "questionId": "fen5u3-hiyer-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–112, 137",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir.",
+    "data": {
+      "mode": "map",
+      "items": [
+        "Tuğla",
+        "Duvar",
+        "Oda",
+        "Ev",
+        "Köy"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir. Kartlar: Duvar, Ev, Köy, Oda, Tuğla",
+    "correctAnswer": "Hücre = Tuğla | Doku = Duvar | Organ = Oda | Sistem = Ev | Organizma = Köy",
+    "explanation": "Tuğlalar duvarı, duvarlar odayı, odalar evi, evler ve diğer yapılar köyü oluşturur; hücre-doku-organ-sistem-organizma gibi.",
+    "questionId": "fen5u3-hiyer-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–112, 137",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir.",
+    "data": {
+      "mode": "map",
+      "items": [
+        "Ev",
+        "Mahalle",
+        "İlçe",
+        "İl",
+        "Ülke"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir. Kartlar: Ev, Mahalle, Ülke, İl, İlçe",
+    "correctAnswer": "Hücre = Ev | Doku = Mahalle | Organ = İlçe | Sistem = İl | Organizma = Ülke",
+    "explanation": "Ev hücreye, mahalle dokuya, ilçe organa, il sisteme, ülke organizmaya benzetilir.",
+    "questionId": "fen5u3-hiyer-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–112, 137",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir.",
+    "data": {
+      "mode": "map",
+      "items": [
+        "Tuğla",
+        "Duvar",
+        "Sınıf",
+        "Kat",
+        "Okul binası"
+      ],
+      "levels": [
+        "Hücre",
+        "Doku",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir. Kartlar: Duvar, Kat, Okul binası, Sınıf, Tuğla",
+    "correctAnswer": "Hücre = Tuğla | Doku = Duvar | Organ = Sınıf | Sistem = Kat | Organizma = Okul binası",
+    "explanation": "Tuğla hücreye, duvar dokuya, sınıf organa, kat sisteme, okul binası organizmaya benzetilir.",
+    "questionId": "fen5u3-hiyer-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–112, 137",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir.",
+    "data": {
+      "mode": "map",
+      "items": [
+        "Ev",
+        "İlçe",
+        "İl",
+        "Ülke"
+      ],
+      "levels": [
+        "Hücre",
+        "Organ",
+        "Sistem",
+        "Organizma"
+      ]
+    },
+    "textPlain": "Benzetmeyi kur: Her kartı benzediği basamağa yerleştir. Kartlar: Ev, Ülke, İl, İlçe",
+    "correctAnswer": "Hücre = Ev | Organ = İlçe | Sistem = İl | Organizma = Ülke",
+    "explanation": "Ev hücreye, mahalle dokuya, ilçe organa, il sisteme, ülke organizmaya benzetilir.",
+    "questionId": "fen5u3-hiyer-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 112–113",
+    "difficulty": "kolay",
+    "group": "hiyer",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru basamak kabına koy.",
+    "data": {
+      "bins": [
+        "Hücre",
+        "Organ",
+        "Sistem"
+      ],
+      "cards": [
+        {
+          "t": "Kas hücresi",
+          "b": 0
+        },
+        {
+          "t": "Kalp",
+          "b": 1
+        },
+        {
+          "t": "Dolaşım sistemi",
+          "b": 2
+        },
+        {
+          "t": "Beyin",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru basamak kabına koy. Kaplar: Hücre / Organ / Sistem. Kartlar: Kas hücresi | Kalp | Dolaşım sistemi | Beyin",
+    "correctAnswer": "Hücre: Kas hücresi | Organ: Kalp, Beyin | Sistem: Dolaşım sistemi",
+    "explanation": "Kas, sinir ve kemik hücreleri hücredir; kalp, mide, akciğer, beyin organdır; dolaşım, solunum, sindirim, sinir sistemleri sistemdir.",
+    "questionId": "fen5u3-hiyer-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 112–113",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru basamak kabına koy.",
+    "data": {
+      "bins": [
+        "Hücre",
+        "Organ",
+        "Sistem"
+      ],
+      "cards": [
+        {
+          "t": "Sinir hücresi",
+          "b": 0
+        },
+        {
+          "t": "Akciğer",
+          "b": 1
+        },
+        {
+          "t": "Solunum sistemi",
+          "b": 2
+        },
+        {
+          "t": "Kemik hücresi",
+          "b": 0
+        },
+        {
+          "t": "Destek ve hareket sistemi",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru basamak kabına koy. Kaplar: Hücre / Organ / Sistem. Kartlar: Sinir hücresi | Akciğer | Solunum sistemi | Kemik hücresi | Destek ve hareket sistemi",
+    "correctAnswer": "Hücre: Sinir hücresi, Kemik hücresi | Organ: Akciğer | Sistem: Solunum sistemi, Destek ve hareket sistemi",
+    "explanation": "Kas, sinir ve kemik hücreleri hücredir; kalp, mide, akciğer, beyin organdır; dolaşım, solunum, sindirim, sinir sistemleri sistemdir.",
+    "questionId": "fen5u3-hiyer-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 112–113, 141",
+    "difficulty": "orta",
+    "group": "hiyer",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru basamak kabına koy.",
+    "data": {
+      "bins": [
+        "Doku",
+        "Organ",
+        "Organizma"
+      ],
+      "cards": [
+        {
+          "t": "Kas dokusu",
+          "b": 0
+        },
+        {
+          "t": "Kol",
+          "b": 1
+        },
+        {
+          "t": "Elma ağacı",
+          "b": 2
+        },
+        {
+          "t": "Sinir dokusu",
+          "b": 0
+        },
+        {
+          "t": "İnsan",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru basamak kabına koy. Kaplar: Doku / Organ / Organizma. Kartlar: Kas dokusu | Kol | Elma ağacı | Sinir dokusu | İnsan",
+    "correctAnswer": "Doku: Kas dokusu, Sinir dokusu | Organ: Kol | Organizma: Elma ağacı, İnsan",
+    "explanation": "Benzer hücreler dokuyu oluşturur; kol bir organdır; elma ağacı ve insan birer organizmadır.",
+    "questionId": "fen5u3-hiyer-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Hücre-doku-organ-sistem-organizma ilişkisi",
+    "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 112–113",
+    "difficulty": "zor",
+    "group": "hiyer",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru basamak kabına koy.",
+    "data": {
+      "bins": [
+        "Doku",
+        "Organ",
+        "Sistem"
+      ],
+      "cards": [
+        {
+          "t": "Kemik dokusu",
+          "b": 0
+        },
+        {
+          "t": "Uyluk kemiği",
+          "b": 1
+        },
+        {
+          "t": "Sindirim sistemi",
+          "b": 2
+        },
+        {
+          "t": "Mide",
+          "b": 1
+        },
+        {
+          "t": "Kalp kası dokusu",
+          "b": 0
+        },
+        {
+          "t": "Sinir sistemi",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru basamak kabına koy. Kaplar: Doku / Organ / Sistem. Kartlar: Kemik dokusu | Uyluk kemiği | Sindirim sistemi | Mide | Kalp kası dokusu | Sinir sistemi",
+    "correctAnswer": "Doku: Kemik dokusu, Kalp kası dokusu | Organ: Uyluk kemiği, Mide | Sistem: Sindirim sistemi, Sinir sistemi",
+    "explanation": "Dokular aynı görevi yapan hücrelerden, organlar dokulardan, sistemler organlardan oluşur.",
+    "questionId": "fen5u3-hiyer-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "bones",
+    "prompt": "İskelette istenen kemiklere sırayla dokun.",
+    "data": {
+      "mode": "find",
+      "keys": [
+        "kafatasi",
+        "kaburga",
+        "uyluk"
+      ]
+    },
+    "textPlain": "İskelette istenen kemiklere sırayla dokun. [Şekil: İnsan iskeleti] İstenen kemikler: Kafatası, Kaburga kemikleri, Uyluk kemiği",
+    "correctAnswer": "Kafatası → Kaburga kemikleri → Uyluk kemiği",
+    "explanation": "Kafatası başta, kaburgalar göğüs kafesinde, omurlar sırtta; pazu kemiği üst kolda, uyluk kemiği üst bacakta (vücudun en uzun kemiği), kaval ve baldır kemikleri alt bacaktadır.",
+    "questionId": "fen5u3-destek-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "bones",
+    "prompt": "İskelette istenen kemiklere sırayla dokun.",
+    "data": {
+      "mode": "find",
+      "keys": [
+        "pazu",
+        "legen",
+        "omur"
+      ]
+    },
+    "textPlain": "İskelette istenen kemiklere sırayla dokun. [Şekil: İnsan iskeleti] İstenen kemikler: Pazu kemiği, Leğen kemiği, Omur kemikleri",
+    "correctAnswer": "Pazu kemiği → Leğen kemiği → Omur kemikleri",
+    "explanation": "Kafatası başta, kaburgalar göğüs kafesinde, omurlar sırtta; pazu kemiği üst kolda, uyluk kemiği üst bacakta (vücudun en uzun kemiği), kaval ve baldır kemikleri alt bacaktadır.",
+    "questionId": "fen5u3-destek-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "bones",
+    "prompt": "İskelette istenen kemiklere sırayla dokun.",
+    "data": {
+      "mode": "find",
+      "keys": [
+        "kaval",
+        "kurek",
+        "elbilek"
+      ]
+    },
+    "textPlain": "İskelette istenen kemiklere sırayla dokun. [Şekil: İnsan iskeleti] İstenen kemikler: Kaval kemiği, Kürek kemiği, El bilek kemikleri",
+    "correctAnswer": "Kaval kemiği → Kürek kemiği → El bilek kemikleri",
+    "explanation": "Kafatası başta, kaburgalar göğüs kafesinde, omurlar sırtta; pazu kemiği üst kolda, uyluk kemiği üst bacakta (vücudun en uzun kemiği), kaval ve baldır kemikleri alt bacaktadır.",
+    "questionId": "fen5u3-destek-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "bones",
+    "prompt": "İskelette istenen kemiklere sırayla dokun.",
+    "data": {
+      "mode": "find",
+      "keys": [
+        "onkol",
+        "ayakbilek",
+        "kaburga"
+      ]
+    },
+    "textPlain": "İskelette istenen kemiklere sırayla dokun. [Şekil: İnsan iskeleti] İstenen kemikler: Ön kol kemiği, Ayak bilek kemikleri, Kaburga kemikleri",
+    "correctAnswer": "Ön kol kemiği → Ayak bilek kemikleri → Kaburga kemikleri",
+    "explanation": "Kafatası başta, kaburgalar göğüs kafesinde, omurlar sırtta; pazu kemiği üst kolda, uyluk kemiği üst bacakta (vücudun en uzun kemiği), kaval ve baldır kemikleri alt bacaktadır.",
+    "questionId": "fen5u3-destek-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "bones",
+    "prompt": "İskelette istenen kemiklere sırayla dokun.",
+    "data": {
+      "mode": "find",
+      "keys": [
+        "baldir",
+        "dirsek",
+        "ayakparmak"
+      ]
+    },
+    "textPlain": "İskelette istenen kemiklere sırayla dokun. [Şekil: İnsan iskeleti] İstenen kemikler: Baldır kemiği, Dirsek kemiği, Ayak parmak kemikleri",
+    "correctAnswer": "Baldır kemiği → Dirsek kemiği → Ayak parmak kemikleri",
+    "explanation": "Kafatası başta, kaburgalar göğüs kafesinde, omurlar sırtta; pazu kemiği üst kolda, uyluk kemiği üst bacakta (vücudun en uzun kemiği), kaval ve baldır kemikleri alt bacaktadır.",
+    "questionId": "fen5u3-destek-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 122–123",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "bones",
+    "prompt": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı.",
+    "data": {
+      "mode": "paint",
+      "keys": [
+        "uyluk",
+        "kafatasi",
+        "elbilek"
+      ],
+      "ty": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı. [Şekil: İskelette numaralı kemikler: Uyluk kemiği, Kafatası, El bilek kemikleri]",
+    "correctAnswer": "Uyluk kemiği: Uzun kemik | Kafatası: Yassı kemik | El bilek kemikleri: Kısa kemik",
+    "explanation": "Uzun kemiklerin boyu eninden fazladır (uyluk, kaval, baldır, pazu, ön kol, parmak). Kısa kemiklerin eni ve boyu yakındır (el ve ayak bilek). Yassı kemikler levha şeklindedir (kafatası, kürek, kaburga, leğen).",
+    "questionId": "fen5u3-destek-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 122–123",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "bones",
+    "prompt": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı.",
+    "data": {
+      "mode": "paint",
+      "keys": [
+        "pazu",
+        "kaburga",
+        "ayakbilek"
+      ],
+      "ty": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı. [Şekil: İskelette numaralı kemikler: Pazu kemiği, Kaburga kemikleri, Ayak bilek kemikleri]",
+    "correctAnswer": "Pazu kemiği: Uzun kemik | Kaburga kemikleri: Yassı kemik | Ayak bilek kemikleri: Kısa kemik",
+    "explanation": "Uzun kemiklerin boyu eninden fazladır (uyluk, kaval, baldır, pazu, ön kol, parmak). Kısa kemiklerin eni ve boyu yakındır (el ve ayak bilek). Yassı kemikler levha şeklindedir (kafatası, kürek, kaburga, leğen).",
+    "questionId": "fen5u3-destek-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 122–123",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "bones",
+    "prompt": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı.",
+    "data": {
+      "mode": "paint",
+      "keys": [
+        "kaval",
+        "legen",
+        "elbilek",
+        "kurek"
+      ],
+      "ty": [
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı. [Şekil: İskelette numaralı kemikler: Kaval kemiği, Leğen kemiği, El bilek kemikleri, Kürek kemiği]",
+    "correctAnswer": "Kaval kemiği: Uzun kemik | Leğen kemiği: Yassı kemik | El bilek kemikleri: Kısa kemik | Kürek kemiği: Yassı kemik",
+    "explanation": "Uzun kemiklerin boyu eninden fazladır (uyluk, kaval, baldır, pazu, ön kol, parmak). Kısa kemiklerin eni ve boyu yakındır (el ve ayak bilek). Yassı kemikler levha şeklindedir (kafatası, kürek, kaburga, leğen).",
+    "questionId": "fen5u3-destek-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 122–123",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "bones",
+    "prompt": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı.",
+    "data": {
+      "mode": "paint",
+      "keys": [
+        "baldir",
+        "kurek",
+        "ayakbilek",
+        "elparmak",
+        "legen"
+      ],
+      "ty": [
+        0,
+        2,
+        1,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı. [Şekil: İskelette numaralı kemikler: Baldır kemiği, Kürek kemiği, Ayak bilek kemikleri, El parmak kemikleri, Leğen kemiği]",
+    "correctAnswer": "Baldır kemiği: Uzun kemik | Kürek kemiği: Yassı kemik | Ayak bilek kemikleri: Kısa kemik | El parmak kemikleri: Uzun kemik | Leğen kemiği: Yassı kemik",
+    "explanation": "Uzun kemiklerin boyu eninden fazladır (uyluk, kaval, baldır, pazu, ön kol, parmak). Kısa kemiklerin eni ve boyu yakındır (el ve ayak bilek). Yassı kemikler levha şeklindedir (kafatası, kürek, kaburga, leğen).",
+    "questionId": "fen5u3-destek-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 122–123",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "bones",
+    "prompt": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı.",
+    "data": {
+      "mode": "paint",
+      "keys": [
+        "onkol",
+        "kafatasi",
+        "kaburga",
+        "ayakparmak",
+        "elbilek"
+      ],
+      "ty": [
+        0,
+        2,
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Fırçayı seç ve numaralı kemikleri şekillerine göre boya: uzun, kısa ya da yassı. [Şekil: İskelette numaralı kemikler: Ön kol kemiği, Kafatası, Kaburga kemikleri, Ayak parmak kemikleri, El bilek kemikleri]",
+    "correctAnswer": "Ön kol kemiği: Uzun kemik | Kafatası: Yassı kemik | Kaburga kemikleri: Yassı kemik | Ayak parmak kemikleri: Uzun kemik | El bilek kemikleri: Kısa kemik",
+    "explanation": "Uzun kemiklerin boyu eninden fazladır (uyluk, kaval, baldır, pazu, ön kol, parmak). Kısa kemiklerin eni ve boyu yakındır (el ve ayak bilek). Yassı kemikler levha şeklindedir (kafatası, kürek, kaburga, leğen).",
+    "questionId": "fen5u3-destek-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 124",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "bones",
+    "prompt": "Kıkırdak bulunan bütün yerlere dokun, sonra kontrol et.",
+    "data": {
+      "mode": "cart",
+      "opts": [
+        "burun",
+        "kulak",
+        "kafatasi",
+        "uyluk"
+      ],
+      "ans": [
+        "burun",
+        "kulak"
+      ]
+    },
+    "textPlain": "Kıkırdak bulunan bütün yerlere dokun, sonra kontrol et. [Şekil: İnsan iskeleti ve baş] Seçenekler: Burun ucu, Kulak kepçesi, Kafatası, Uyluk kemiğinin orta kısmı",
+    "correctAnswer": "Burun ucu, Kulak kepçesi",
+    "explanation": "Kıkırdak; burun, kulak kepçesi, soluk borusu gibi yapılarda ve uzun kemiklerin uç kısmında bulunur, kemiklere göre daha yumuşak ve esnektir.",
+    "questionId": "fen5u3-destek-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 124",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "bones",
+    "prompt": "Kıkırdak bulunan bütün yerlere dokun, sonra kontrol et.",
+    "data": {
+      "mode": "cart",
+      "opts": [
+        "burun",
+        "soluk",
+        "diz",
+        "pazu",
+        "legen"
+      ],
+      "ans": [
+        "burun",
+        "soluk",
+        "diz"
+      ]
+    },
+    "textPlain": "Kıkırdak bulunan bütün yerlere dokun, sonra kontrol et. [Şekil: İnsan iskeleti ve baş] Seçenekler: Burun ucu, Soluk borusu, Diz (uzun kemiklerin uç kısmı), Pazu kemiğinin orta kısmı, Leğen kemiği",
+    "correctAnswer": "Burun ucu, Soluk borusu, Diz (uzun kemiklerin uç kısmı)",
+    "explanation": "Kıkırdak; burun, kulak kepçesi, soluk borusu gibi yapılarda ve uzun kemiklerin uç kısmında bulunur, kemiklere göre daha yumuşak ve esnektir.",
+    "questionId": "fen5u3-destek-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 124",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "bones",
+    "prompt": "Kıkırdak bulunan bütün yerlere dokun, sonra kontrol et.",
+    "data": {
+      "mode": "cart",
+      "opts": [
+        "kulak",
+        "soluk",
+        "diz",
+        "burun",
+        "kafatasi",
+        "uyluk",
+        "legen"
+      ],
+      "ans": [
+        "kulak",
+        "soluk",
+        "diz",
+        "burun"
+      ]
+    },
+    "textPlain": "Kıkırdak bulunan bütün yerlere dokun, sonra kontrol et. [Şekil: İnsan iskeleti ve baş] Seçenekler: Kulak kepçesi, Soluk borusu, Diz (uzun kemiklerin uç kısmı), Burun ucu, Kafatası, Uyluk kemiğinin orta kısmı, Leğen kemiği",
+    "correctAnswer": "Kulak kepçesi, Soluk borusu, Diz (uzun kemiklerin uç kısmı), Burun ucu",
+    "explanation": "Kıkırdak; burun, kulak kepçesi, soluk borusu gibi yapılarda ve uzun kemiklerin uç kısmında bulunur, kemiklere göre daha yumuşak ve esnektir.",
+    "questionId": "fen5u3-destek-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 125–126",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "joints",
+    "prompt": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat!",
+    "data": {
+      "keys": [
+        "kafa",
+        "omurga",
+        "dirsek"
+      ],
+      "ty": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat! [Şekil: İskelet kukla; işaretli eklemler: Kafatası kemikleri arası, Omurga, Dirsek]",
+    "correctAnswer": "Kafatası kemikleri arası: Oynamaz eklem | Omurga: Yarı oynar eklem | Dirsek: Oynar eklem",
+    "explanation": "Kol ve bacaklardaki eklemler oynar, omurgadaki bazı eklemler yarı oynar, kafatası kemikleri arasındaki eklemler oynamaz eklemdir.",
+    "questionId": "fen5u3-destek-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 125–126",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "joints",
+    "prompt": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat!",
+    "data": {
+      "keys": [
+        "kafa",
+        "omurga",
+        "diz"
+      ],
+      "ty": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat! [Şekil: İskelet kukla; işaretli eklemler: Kafatası kemikleri arası, Omurga, Diz]",
+    "correctAnswer": "Kafatası kemikleri arası: Oynamaz eklem | Omurga: Yarı oynar eklem | Diz: Oynar eklem",
+    "explanation": "Kol ve bacaklardaki eklemler oynar, omurgadaki bazı eklemler yarı oynar, kafatası kemikleri arasındaki eklemler oynamaz eklemdir.",
+    "questionId": "fen5u3-destek-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 125–126",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "joints",
+    "prompt": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat!",
+    "data": {
+      "keys": [
+        "kafa",
+        "omurga",
+        "omuz",
+        "kalca"
+      ],
+      "ty": [
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    "textPlain": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat! [Şekil: İskelet kukla; işaretli eklemler: Kafatası kemikleri arası, Omurga, Omuz, Kalça]",
+    "correctAnswer": "Kafatası kemikleri arası: Oynamaz eklem | Omurga: Yarı oynar eklem | Omuz: Oynar eklem | Kalça: Oynar eklem",
+    "explanation": "Kol ve bacaklardaki eklemler oynar, omurgadaki bazı eklemler yarı oynar, kafatası kemikleri arasındaki eklemler oynamaz eklemdir.",
+    "questionId": "fen5u3-destek-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 125–126",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "joints",
+    "prompt": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat!",
+    "data": {
+      "keys": [
+        "omurga",
+        "diz",
+        "elbilek",
+        "kafa"
+      ],
+      "ty": [
+        1,
+        0,
+        0,
+        2
+      ]
+    },
+    "textPlain": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat! [Şekil: İskelet kukla; işaretli eklemler: Omurga, Diz, El bileği, Kafatası kemikleri arası]",
+    "correctAnswer": "Omurga: Yarı oynar eklem | Diz: Oynar eklem | El bileği: Oynar eklem | Kafatası kemikleri arası: Oynamaz eklem",
+    "explanation": "Kol ve bacaklardaki eklemler oynar, omurgadaki bazı eklemler yarı oynar, kafatası kemikleri arasındaki eklemler oynamaz eklemdir.",
+    "questionId": "fen5u3-destek-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 125–126",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "joints",
+    "prompt": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat!",
+    "data": {
+      "keys": [
+        "kafa",
+        "omurga",
+        "omuz",
+        "dirsek",
+        "diz",
+        "ayakbilek"
+      ],
+      "ty": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "textPlain": "İskelet kuklanın eklemlerini ayarla: Her ekleme dokunarak oynar, yarı oynar ya da oynamaz yap. Sonra kuklayı oynat! [Şekil: İskelet kukla; işaretli eklemler: Kafatası kemikleri arası, Omurga, Omuz, Dirsek, Diz, Ayak bileği]",
+    "correctAnswer": "Kafatası kemikleri arası: Oynamaz eklem | Omurga: Yarı oynar eklem | Omuz: Oynar eklem | Dirsek: Oynar eklem | Diz: Oynar eklem | Ayak bileği: Oynar eklem",
+    "explanation": "Kol ve bacaklardaki eklemler oynar, omurgadaki bazı eklemler yarı oynar, kafatası kemikleri arasındaki eklemler oynamaz eklemdir.",
+    "questionId": "fen5u3-destek-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 127",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları kas çeşidine göre doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Çizgili kas",
+        "Düz kas",
+        "Kalp kası"
+      ],
+      "cards": [
+        {
+          "t": "Koldaki kaslar",
+          "b": 0
+        },
+        {
+          "t": "Mide",
+          "b": 1
+        },
+        {
+          "t": "Kalp",
+          "b": 2
+        },
+        {
+          "t": "Bacaktaki kaslar",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları kas çeşidine göre doğru kaba koy. Kaplar: Çizgili kas / Düz kas / Kalp kası. Kartlar: Koldaki kaslar | Mide | Kalp | Bacaktaki kaslar",
+    "correctAnswer": "Çizgili kas: Koldaki kaslar, Bacaktaki kaslar | Düz kas: Mide | Kalp kası: Kalp",
+    "explanation": "Çizgili kaslar iskeleti sarar ve yürüme, koşma, yazma gibi hareketleri sağlar; düz kaslar mide ve bağırsak gibi iç organlardadır; kalp kası yalnız kalpte bulunur ve sürekli çalışır.",
+    "questionId": "fen5u3-destek-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 127",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları kas çeşidine göre doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Çizgili kas",
+        "Düz kas",
+        "Kalp kası"
+      ],
+      "cards": [
+        {
+          "t": "Parmak kasları",
+          "b": 0
+        },
+        {
+          "t": "İnce bağırsak",
+          "b": 1
+        },
+        {
+          "t": "Yalnız kalpte bulunur",
+          "b": 2
+        },
+        {
+          "t": "Yazı yazmayı sağlar",
+          "b": 0
+        },
+        {
+          "t": "İç organların yapısında bulunur",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları kas çeşidine göre doğru kaba koy. Kaplar: Çizgili kas / Düz kas / Kalp kası. Kartlar: Parmak kasları | İnce bağırsak | Yalnız kalpte bulunur | Yazı yazmayı sağlar | İç organların yapısında bulunur",
+    "correctAnswer": "Çizgili kas: Parmak kasları, Yazı yazmayı sağlar | Düz kas: İnce bağırsak, İç organların yapısında bulunur | Kalp kası: Yalnız kalpte bulunur",
+    "explanation": "Çizgili kaslar iskeleti sarar ve yürüme, koşma, yazma gibi hareketleri sağlar; düz kaslar mide ve bağırsak gibi iç organlardadır; kalp kası yalnız kalpte bulunur ve sürekli çalışır.",
+    "questionId": "fen5u3-destek-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 127, 141",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları kas çeşidine göre doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Çizgili kas",
+        "Düz kas",
+        "Kalp kası"
+      ],
+      "cards": [
+        {
+          "t": "İskeletin etrafını sarar",
+          "b": 0
+        },
+        {
+          "t": "Anne karnından yaşam sonuna kadar çalışır",
+          "b": 2
+        },
+        {
+          "t": "Bağırsağın yapısındadır",
+          "b": 1
+        },
+        {
+          "t": "Koşmayı sağlar",
+          "b": 0
+        },
+        {
+          "t": "Midenin yapısındadır",
+          "b": 1
+        },
+        {
+          "t": "Kanı vücuda pompalayan organı çalıştırır",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Kartları kas çeşidine göre doğru kaba koy. Kaplar: Çizgili kas / Düz kas / Kalp kası. Kartlar: İskeletin etrafını sarar | Anne karnından yaşam sonuna kadar çalışır | Bağırsağın yapısındadır | Koşmayı sağlar | Midenin yapısındadır | Kanı vücuda pompalayan organı çalıştırır",
+    "correctAnswer": "Çizgili kas: İskeletin etrafını sarar, Koşmayı sağlar | Düz kas: Bağırsağın yapısındadır, Midenin yapısındadır | Kalp kası: Anne karnından yaşam sonuna kadar çalışır, Kanı vücuda pompalayan organı çalıştırır",
+    "explanation": "Çizgili kaslar iskeleti sarar ve yürüme, koşma, yazma gibi hareketleri sağlar; düz kaslar mide ve bağırsak gibi iç organlardadır; kalp kası yalnız kalpte bulunur ve sürekli çalışır.",
+    "questionId": "fen5u3-destek-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 131–134",
+    "difficulty": "kolay",
+    "group": "destek",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Davranışları doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Sağlığa olumlu",
+        "Sağlığa olumsuz"
+      ],
+      "cards": [
+        {
+          "t": "Dengeli ve düzenli beslenmek",
+          "b": 0
+        },
+        {
+          "t": "Saatlerce ekran başında hareketsiz kalmak",
+          "b": 1
+        },
+        {
+          "t": "Düzenli egzersiz yapmak",
+          "b": 0
+        },
+        {
+          "t": "Kambur oturmak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Davranışları doğru kaba koy. Kaplar: Sağlığa olumlu / Sağlığa olumsuz. Kartlar: Dengeli ve düzenli beslenmek | Saatlerce ekran başında hareketsiz kalmak | Düzenli egzersiz yapmak | Kambur oturmak",
+    "correctAnswer": "Sağlığa olumlu: Dengeli ve düzenli beslenmek, Düzenli egzersiz yapmak | Sağlığa olumsuz: Saatlerce ekran başında hareketsiz kalmak, Kambur oturmak",
+    "explanation": "Dengeli beslenmek; kalsiyum, D vitamini ve protein içeren besinler; düzenli egzersiz ve dik duruş olumludur. Uzun süre hareketsiz kalmak, yanlış duruş ve aşırı ya da yaşa uygun olmayan spor olumsuzdur.",
+    "questionId": "fen5u3-destek-22"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 131–134",
+    "difficulty": "orta",
+    "group": "destek",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Davranışları doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Sağlığa olumlu",
+        "Sağlığa olumsuz"
+      ],
+      "cards": [
+        {
+          "t": "Süt ve peynir gibi kalsiyumlu besinler tüketmek",
+          "b": 0
+        },
+        {
+          "t": "Yerden eşyayı belden eğilerek kaldırmak",
+          "b": 1
+        },
+        {
+          "t": "Ders çalışırken dik oturmak",
+          "b": 0
+        },
+        {
+          "t": "Yaşına uygun olmayan ağır sporlar yapmak",
+          "b": 1
+        },
+        {
+          "t": "Yerden eşyayı dizleri bükerek almak",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Davranışları doğru kaba koy. Kaplar: Sağlığa olumlu / Sağlığa olumsuz. Kartlar: Süt ve peynir gibi kalsiyumlu besinler tüketmek | Yerden eşyayı belden eğilerek kaldırmak | Ders çalışırken dik oturmak | Yaşına uygun olmayan ağır sporlar yapmak | Yerden eşyayı dizleri bükerek almak",
+    "correctAnswer": "Sağlığa olumlu: Süt ve peynir gibi kalsiyumlu besinler tüketmek, Ders çalışırken dik oturmak, Yerden eşyayı dizleri bükerek almak | Sağlığa olumsuz: Yerden eşyayı belden eğilerek kaldırmak, Yaşına uygun olmayan ağır sporlar yapmak",
+    "explanation": "Dengeli beslenmek; kalsiyum, D vitamini ve protein içeren besinler; düzenli egzersiz ve dik duruş olumludur. Uzun süre hareketsiz kalmak, yanlış duruş ve aşırı ya da yaşa uygun olmayan spor olumsuzdur.",
+    "questionId": "fen5u3-destek-23"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+    "topic": "Destek ve hareket sistemi: kemik, kıkırdak, eklem, kas çeşitleri ve sistemin sağlığı",
+    "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 120, 124",
+    "difficulty": "zor",
+    "group": "destek",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Özellikleri doğru kaba koy.",
+    "data": {
+      "bins": [
+        "Kemik",
+        "Kıkırdak"
+      ],
+      "cards": [
+        {
+          "t": "Sert ve canlıdır",
+          "b": 0
+        },
+        {
+          "t": "Daha yumuşak ve esneklidir",
+          "b": 1
+        },
+        {
+          "t": "Kan hücreleri üretir",
+          "b": 0
+        },
+        {
+          "t": "Kemiklerin birbirine sürtünmesini önler",
+          "b": 1
+        },
+        {
+          "t": "Mineral depolar",
+          "b": 0
+        },
+        {
+          "t": "Kulak kepçesinin yapısında bulunur",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Özellikleri doğru kaba koy. Kaplar: Kemik / Kıkırdak. Kartlar: Sert ve canlıdır | Daha yumuşak ve esneklidir | Kan hücreleri üretir | Kemiklerin birbirine sürtünmesini önler | Mineral depolar | Kulak kepçesinin yapısında bulunur",
+    "correctAnswer": "Kemik: Sert ve canlıdır, Kan hücreleri üretir, Mineral depolar | Kıkırdak: Daha yumuşak ve esneklidir, Kemiklerin birbirine sürtünmesini önler, Kulak kepçesinin yapısında bulunur",
+    "explanation": "Kemik sert ve canlıdır, mineral depolar, kan hücreleri üretir. Kıkırdak daha yumuşak ve esnektir; burun, kulak kepçesi, soluk borusunda ve kemik uçlarında bulunur, sürtünmeyi önler.",
+    "questionId": "fen5u3-destek-24"
+  }
+]
