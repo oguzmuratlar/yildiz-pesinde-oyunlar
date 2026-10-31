@@ -1,0 +1,3418 @@
+[
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Ayna",
+          "a": 0
+        },
+        {
+          "n": "Buruşturulmuş folyo",
+          "a": 1
+        },
+        {
+          "n": "Durgun su",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Düzgün",
+        "Dağınık"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder! Yüzeyler: Ayna, Buruşturulmuş folyo, Durgun su. Seçenekler: Düzgün / Dağınık",
+    "correctAnswer": "Ayna: Düzgün; Buruşturulmuş folyo: Dağınık; Durgun su: Düzgün",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Dalgalı su",
+          "a": 1
+        },
+        {
+          "n": "Düz alüminyum folyo",
+          "a": 0
+        },
+        {
+          "n": "Halı",
+          "a": 1
+        }
+      ],
+      "opts": [
+        "Düzgün",
+        "Dağınık"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder! Yüzeyler: Dalgalı su, Düz alüminyum folyo, Halı. Seçenekler: Düzgün / Dağınık",
+    "correctAnswer": "Dalgalı su: Dağınık; Düz alüminyum folyo: Düzgün; Halı: Dağınık",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Fener bekçisi kendini hangi yüzeylerde net görür? Her yüzey için seç, sonra ışınları gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Ayna",
+          "a": 0
+        },
+        {
+          "n": "Çim",
+          "a": 1
+        },
+        {
+          "n": "Dalgalı su",
+          "a": 1
+        }
+      ],
+      "opts": [
+        "Net görüntü var",
+        "Net görüntü yok"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Fener bekçisi kendini hangi yüzeylerde net görür? Her yüzey için seç, sonra ışınları gönder! Yüzeyler: Ayna, Çim, Dalgalı su. Seçenekler: Net görüntü var / Net görüntü yok",
+    "correctAnswer": "Ayna: Net görüntü var; Çim: Net görüntü yok; Dalgalı su: Net görüntü yok",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Durgun su",
+          "a": 0
+        },
+        {
+          "n": "Dalgalı su",
+          "a": 1
+        },
+        {
+          "n": "Buruşturulmuş folyo",
+          "a": 1
+        },
+        {
+          "n": "Düz alüminyum folyo",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Düzgün",
+        "Dağınık"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder! Yüzeyler: Durgun su, Dalgalı su, Buruşturulmuş folyo, Düz alüminyum folyo. Seçenekler: Düzgün / Dağınık",
+    "correctAnswer": "Durgun su: Düzgün; Dalgalı su: Dağınık; Buruşturulmuş folyo: Dağınık; Düz alüminyum folyo: Düzgün",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Paralel gelen ışınlar her yüzeyden nasıl yansır? Seç, sonra ışınları gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Çim",
+          "a": 1
+        },
+        {
+          "n": "Ayna",
+          "a": 0
+        },
+        {
+          "n": "Halı",
+          "a": 1
+        },
+        {
+          "n": "Durgun su",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Paralel yansır",
+        "Dağılarak yansır"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Paralel gelen ışınlar her yüzeyden nasıl yansır? Seç, sonra ışınları gönder! Yüzeyler: Çim, Ayna, Halı, Durgun su. Seçenekler: Paralel yansır / Dağılarak yansır",
+    "correctAnswer": "Çim: Dağılarak yansır; Ayna: Paralel yansır; Halı: Dağılarak yansır; Durgun su: Paralel yansır",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Fener bekçisi kendini hangi yüzeylerde net görür? Her yüzey için seç, sonra ışınları gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Buruşturulmuş folyo",
+          "a": 1
+        },
+        {
+          "n": "Durgun su",
+          "a": 0
+        },
+        {
+          "n": "Halı",
+          "a": 1
+        },
+        {
+          "n": "Ayna",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Net görüntü var",
+        "Net görüntü yok"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Fener bekçisi kendini hangi yüzeylerde net görür? Her yüzey için seç, sonra ışınları gönder! Yüzeyler: Buruşturulmuş folyo, Durgun su, Halı, Ayna. Seçenekler: Net görüntü var / Net görüntü yok",
+    "correctAnswer": "Buruşturulmuş folyo: Net görüntü yok; Durgun su: Net görüntü var; Halı: Net görüntü yok; Ayna: Net görüntü var",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Paralel gelen ışınlar her yüzeyden nasıl yansır? Seç, sonra ışınları gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Halı",
+          "a": 1
+        },
+        {
+          "n": "Düz alüminyum folyo",
+          "a": 0
+        },
+        {
+          "n": "Dalgalı su",
+          "a": 1
+        },
+        {
+          "n": "Çim",
+          "a": 1
+        },
+        {
+          "n": "Ayna",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Paralel yansır",
+        "Dağılarak yansır"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Paralel gelen ışınlar her yüzeyden nasıl yansır? Seç, sonra ışınları gönder! Yüzeyler: Halı, Düz alüminyum folyo, Dalgalı su, Çim, Ayna. Seçenekler: Paralel yansır / Dağılarak yansır",
+    "correctAnswer": "Halı: Dağılarak yansır; Düz alüminyum folyo: Paralel yansır; Dalgalı su: Dağılarak yansır; Çim: Dağılarak yansır; Ayna: Paralel yansır",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Fener bekçisi kendini hangi yüzeylerde net görür? Her yüzey için seç, sonra ışınları gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Durgun su",
+          "a": 0
+        },
+        {
+          "n": "Buruşturulmuş folyo",
+          "a": 1
+        },
+        {
+          "n": "Ayna",
+          "a": 0
+        },
+        {
+          "n": "Dalgalı su",
+          "a": 1
+        },
+        {
+          "n": "Düz alüminyum folyo",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Net görüntü var",
+        "Net görüntü yok"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Fener bekçisi kendini hangi yüzeylerde net görür? Her yüzey için seç, sonra ışınları gönder! Yüzeyler: Durgun su, Buruşturulmuş folyo, Ayna, Dalgalı su, Düz alüminyum folyo. Seçenekler: Net görüntü var / Net görüntü yok",
+    "correctAnswer": "Durgun su: Net görüntü var; Buruşturulmuş folyo: Net görüntü yok; Ayna: Net görüntü var; Dalgalı su: Net görüntü yok; Düz alüminyum folyo: Net görüntü var",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Çim",
+          "a": 1
+        },
+        {
+          "n": "Durgun su",
+          "a": 0
+        },
+        {
+          "n": "Halı",
+          "a": 1
+        },
+        {
+          "n": "Buruşturulmuş folyo",
+          "a": 1
+        },
+        {
+          "n": "Ayna",
+          "a": 0
+        }
+      ],
+      "opts": [
+        "Düzgün",
+        "Dağınık"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder! Yüzeyler: Çim, Durgun su, Halı, Buruşturulmuş folyo, Ayna. Seçenekler: Düzgün / Dağınık",
+    "correctAnswer": "Çim: Dağınık; Durgun su: Düzgün; Halı: Dağınık; Buruşturulmuş folyo: Dağınık; Ayna: Düzgün",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 143",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Fener seyir defteri: Gözlem kartlarını doğru yansıma türünün bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Düzgün yansıma",
+        "Dağınık yansıma"
+      ],
+      "cards": [
+        {
+          "t": "Işınlar paralel yansır",
+          "b": 0
+        },
+        {
+          "t": "Işınlar farklı doğrultularda yansır",
+          "b": 1
+        },
+        {
+          "t": "Net görüntü oluşur",
+          "b": 0
+        },
+        {
+          "t": "Net görüntü oluşmaz",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Fener seyir defteri: Gözlem kartlarını doğru yansıma türünün bölmesine yerleştir. Bölmeler: Düzgün yansıma / Dağınık yansıma. Kartlar: Işınlar paralel yansır | Işınlar farklı doğrultularda yansır | Net görüntü oluşur | Net görüntü oluşmaz",
+    "correctAnswer": "Düzgün yansıma: Işınlar paralel yansır, Net görüntü oluşur | Dağınık yansıma: Işınlar farklı doğrultularda yansır, Net görüntü oluşmaz",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 136, 142",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Gece nöbeti: Fenerden görülen cisimleri doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Kendi ışığını yayar",
+        "Işığı yansıttığı için görülür"
+      ],
+      "cards": [
+        {
+          "t": "Güneş",
+          "b": 0
+        },
+        {
+          "t": "Ay",
+          "b": 1
+        },
+        {
+          "t": "Yanan el feneri",
+          "b": 0
+        },
+        {
+          "t": "Ayna",
+          "b": 1
+        },
+        {
+          "t": "Kitap",
+          "b": 1
+        },
+        {
+          "t": "Yanan ampul",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Gece nöbeti: Fenerden görülen cisimleri doğru bölmeye yerleştir. Bölmeler: Kendi ışığını yayar / Işığı yansıttığı için görülür. Kartlar: Güneş | Ay | Yanan el feneri | Ayna | Kitap | Yanan ampul",
+    "correctAnswer": "Kendi ışığını yayar: Güneş, Yanan el feneri, Yanan ampul | Işığı yansıttığı için görülür: Ay, Ayna, Kitap",
+    "explanation": "Işık kaynakları kendi ışığını yayar. Ay, ayna ve kitap gibi cisimler ise üzerlerine düşen ışığı yansıttıkları için görülür: nesnelerden yansıyan ışık ışınları gözümüze ulaşır ve onları görürüz.",
+    "questionId": "fen6u4-yansima-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 134, 136, 143",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Gözlem kartlarını doğru yansıma türünün bölmesine yerleştir.",
+    "data": {
+      "bins": [
+        "Düzgün yansıma",
+        "Dağınık yansıma"
+      ],
+      "cards": [
+        {
+          "t": "Durgun gölde ağaçların görüntüsü",
+          "b": 0
+        },
+        {
+          "t": "Dalgalı denizde bulanık ışıltı",
+          "b": 1
+        },
+        {
+          "t": "Saat camından duvara düşen parlak ışık",
+          "b": 0
+        },
+        {
+          "t": "Halıya düşen ışık",
+          "b": 1
+        },
+        {
+          "t": "Buruşturulup açılan folyo",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Gözlem kartlarını doğru yansıma türünün bölmesine yerleştir. Bölmeler: Düzgün yansıma / Dağınık yansıma. Kartlar: Durgun gölde ağaçların görüntüsü | Dalgalı denizde bulanık ışıltı | Saat camından duvara düşen parlak ışık | Halıya düşen ışık | Buruşturulup açılan folyo",
+    "correctAnswer": "Düzgün yansıma: Durgun gölde ağaçların görüntüsü, Saat camından duvara düşen parlak ışık | Dağınık yansıma: Dalgalı denizde bulanık ışıltı, Halıya düşen ışık, Buruşturulup açılan folyo",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz. Saatin düz camından yansıyan ışık duvarda parlak bir alan oluşturur.",
+    "questionId": "fen6u4-yansima-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 142, 172",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Yansıma olur",
+        "Yansıma olmaz"
+      ],
+      "cards": [
+        {
+          "t": "Işık aynaya çarpıp geri döner",
+          "b": 0
+        },
+        {
+          "t": "Işık halıya çarpıp farklı yönlere döner",
+          "b": 0
+        },
+        {
+          "t": "Işık, karanlık odadaki bir cisimden göze gelmez",
+          "b": 1
+        },
+        {
+          "t": "Işık yüzeye çarpıp geldiği ortama döner",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Yansıma olur / Yansıma olmaz. Kartlar: Işık aynaya çarpıp geri döner | Işık halıya çarpıp farklı yönlere döner | Işık, karanlık odadaki bir cisimden göze gelmez | Işık yüzeye çarpıp geldiği ortama döner",
+    "correctAnswer": "Yansıma olur: Işık aynaya çarpıp geri döner, Işık halıya çarpıp farklı yönlere döner, Işık yüzeye çarpıp geldiği ortama döner | Yansıma olmaz: Işık, karanlık odadaki bir cisimden göze gelmez",
+    "explanation": "Bir yüzeye çarpan ışık ışınlarının geldiği ortama geri dönmesiyle yansıma gerçekleşir; hem düzgün hem dağınık yansıma bir yansımadır. Karanlık odada cisimlerden göze ışık yansımadığı için cisimler görünmez.",
+    "questionId": "fen6u4-yansima-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 25° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun!",
+    "data": {
+      "mode": "i2r",
+      "val": 25,
+      "ans": 25,
+      "inc": 25
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 25° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun! Gelme açısı 25°.",
+    "correctAnswer": "Yansıma açısı 25°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 45° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun!",
+    "data": {
+      "mode": "i2r",
+      "val": 45,
+      "ans": 45,
+      "inc": 45
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 45° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun! Gelme açısı 45°.",
+    "correctAnswer": "Yansıma açısı 45°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını aynaya dik olarak geliyor. Yansıma açısını ayarla, sonra ışını gönder!",
+    "data": {
+      "mode": "dik",
+      "val": 0,
+      "ans": 0,
+      "inc": 0
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını aynaya dik olarak geliyor. Yansıma açısını ayarla, sonra ışını gönder! Işın aynaya dik geliyor.",
+    "correctAnswer": "Yansıma açısı 0° (ışın kendi üzerinden geri döner)",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 60° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun!",
+    "data": {
+      "mode": "i2r",
+      "val": 60,
+      "ans": 60,
+      "inc": 60
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 60° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun! Gelme açısı 60°.",
+    "correctAnswer": "Yansıma açısı 60°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Gemi, aynadan yansıyan ışını normal ile 75° açıda bekliyor. Fenerin ışınını aynaya hangi gelme açısıyla göndermelisin? Ayarla ve gönder!",
+    "data": {
+      "mode": "r2i",
+      "val": 75,
+      "ans": 75,
+      "inc": 75
+    },
+    "textPlain": "Işın yönlendirme: Gemi, aynadan yansıyan ışını normal ile 75° açıda bekliyor. Fenerin ışınını aynaya hangi gelme açısıyla göndermelisin? Ayarla ve gönder! Yansıma açısı 75°.",
+    "correctAnswer": "Gelme açısı 75°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Gemi, aynadan yansıyan ışını normal ile 50° açıda bekliyor. Fenerin ışınını aynaya hangi gelme açısıyla göndermelisin? Ayarla ve gönder!",
+    "data": {
+      "mode": "r2i",
+      "val": 50,
+      "ans": 50,
+      "inc": 50
+    },
+    "textPlain": "Işın yönlendirme: Gemi, aynadan yansıyan ışını normal ile 50° açıda bekliyor. Fenerin ışınını aynaya hangi gelme açısıyla göndermelisin? Ayarla ve gönder! Yansıma açısı 50°.",
+    "correctAnswer": "Gelme açısı 50°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 35° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun!",
+    "data": {
+      "mode": "i2r",
+      "val": 35,
+      "ans": 35,
+      "inc": 35
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını aynaya, yüzey normali ile 35° açı yaparak geliyor. Yansıyan ışının normal ile yapacağı açıyı ayarla ki ışık gemiyi bulsun! Gelme açısı 35°.",
+    "correctAnswer": "Yansıma açısı 35°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Gemi, aynadan yansıyan ışını normal ile 30° açıda bekliyor. Fenerin ışınını aynaya hangi gelme açısıyla göndermelisin? Ayarla ve gönder!",
+    "data": {
+      "mode": "r2i",
+      "val": 30,
+      "ans": 30,
+      "inc": 30
+    },
+    "textPlain": "Işın yönlendirme: Gemi, aynadan yansıyan ışını normal ile 30° açıda bekliyor. Fenerin ışınını aynaya hangi gelme açısıyla göndermelisin? Ayarla ve gönder! Yansıma açısı 30°.",
+    "correctAnswer": "Gelme açısı 30°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır.",
+    "questionId": "fen6u4-kanun-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını ayna yüzeyi ile 30° açı yapıyor. Yansıma açısını (normal ile) ayarla ki ışık gemiyi bulsun!",
+    "data": {
+      "mode": "ayna",
+      "val": 30,
+      "ans": 60,
+      "inc": 60
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını ayna yüzeyi ile 30° açı yapıyor. Yansıma açısını (normal ile) ayarla ki ışık gemiyi bulsun! Gelen ışın ile ayna yüzeyi arasındaki açı 30°. Yüzey normali aynaya diktir (90°).",
+    "correctAnswer": "Yansıma açısı 60°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. Ayna ile ışın arasındaki açı ve normal ile ışın arasındaki açı toplamı 90°’dir.",
+    "questionId": "fen6u4-kanun-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Fenerin ışını ayna yüzeyi ile 50° açı yapıyor. Yansıma açısını (normal ile) ayarla ki ışık gemiyi bulsun!",
+    "data": {
+      "mode": "ayna",
+      "val": 50,
+      "ans": 40,
+      "inc": 40
+    },
+    "textPlain": "Işın yönlendirme: Fenerin ışını ayna yüzeyi ile 50° açı yapıyor. Yansıma açısını (normal ile) ayarla ki ışık gemiyi bulsun! Gelen ışın ile ayna yüzeyi arasındaki açı 50°. Yüzey normali aynaya diktir (90°).",
+    "correctAnswer": "Yansıma açısı 40°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. Ayna ile ışın arasındaki açı ve normal ile ışın arasındaki açı toplamı 90°’dir.",
+    "questionId": "fen6u4-kanun-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Gelen ışın ile yansıyan ışın arasındaki açı 100° olmalı. Gelme açısını ayarla, sonra ışını gönder!",
+    "data": {
+      "mode": "arasi",
+      "val": 100,
+      "ans": 50,
+      "inc": 50
+    },
+    "textPlain": "Işın yönlendirme: Gelen ışın ile yansıyan ışın arasındaki açı 100° olmalı. Gelme açısını ayarla, sonra ışını gönder! Gelen ve yansıyan ışın arasındaki açı 100°.",
+    "correctAnswer": "Gelme açısı 50°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. Gelen ve yansıyan ışın arasındaki açı, gelme ve yansıma açılarının toplamıdır.",
+    "questionId": "fen6u4-kanun-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "beam",
+    "prompt": "Işın yönlendirme: Gelen ışın ile yansıyan ışın arasındaki açı 80° olmalı. Gelme açısını ayarla, sonra ışını gönder!",
+    "data": {
+      "mode": "arasi",
+      "val": 80,
+      "ans": 40,
+      "inc": 40
+    },
+    "textPlain": "Işın yönlendirme: Gelen ışın ile yansıyan ışın arasındaki açı 80° olmalı. Gelme açısını ayarla, sonra ışını gönder! Gelen ve yansıyan ışın arasındaki açı 80°.",
+    "correctAnswer": "Gelme açısı 40°",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. Gelen ve yansıyan ışın arasındaki açı, gelme ve yansıma açılarının toplamıdır.",
+    "questionId": "fen6u4-kanun-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "label",
+    "prompt": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2
+      ],
+      "tokens": [
+        "Gelen ışın",
+        "Yansıyan ışın",
+        "Yüzey normali"
+      ],
+      "flip": false
+    },
+    "textPlain": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Şema: Aynaya bir ışın geliyor ve yansıyor. 1: aynaya gelen ışın, 2: aynadan dönen ışın, 3: çarpma noktasındaki dik kesikli çizgi, 4: gelen ışın ile kesikli çizgi arasındaki açı, 5: yansıyan ışın ile kesikli çizgi arasındaki açı. Kartlar: Gelen ışın, Yansıyan ışın, Yüzey normali",
+    "correctAnswer": "1: Gelen ışın; 2: Yansıyan ışın; 3: Yüzey normali",
+    "explanation": "Yansıtıcı yüzeye ulaşan ışın gelen ışın, yüzeye çarpıp geldiği ortama dönen ışın yansıyan ışındır. Işının çarptığı noktadan yüzeye dik çizilen hayalî çizgi yüzey normalidir (N). Gelen ışın ile normal arasındaki açı gelme açısı, yansıyan ışın ile normal arasındaki açı yansıma açısıdır.",
+    "questionId": "fen6u4-kanun-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "label",
+    "prompt": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat!",
+    "data": {
+      "empty": [
+        2,
+        3,
+        4
+      ],
+      "tokens": [
+        "Yüzey normali",
+        "Gelme açısı",
+        "Yansıma açısı"
+      ],
+      "flip": true
+    },
+    "textPlain": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Şema: Aynaya bir ışın geliyor ve yansıyor. 1: aynaya gelen ışın, 2: aynadan dönen ışın, 3: çarpma noktasındaki dik kesikli çizgi, 4: gelen ışın ile kesikli çizgi arasındaki açı, 5: yansıyan ışın ile kesikli çizgi arasındaki açı. Kartlar: Yüzey normali, Gelme açısı, Yansıma açısı",
+    "correctAnswer": "3: Yüzey normali; 4: Gelme açısı; 5: Yansıma açısı",
+    "explanation": "Yansıtıcı yüzeye ulaşan ışın gelen ışın, yüzeye çarpıp geldiği ortama dönen ışın yansıyan ışındır. Işının çarptığı noktadan yüzeye dik çizilen hayalî çizgi yüzey normalidir (N). Gelen ışın ile normal arasındaki açı gelme açısı, yansıyan ışın ile normal arasındaki açı yansıma açısıdır.",
+    "questionId": "fen6u4-kanun-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 148–149",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "label",
+    "prompt": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "tokens": [
+        "Gelen ışın",
+        "Yansıyan ışın",
+        "Yüzey normali",
+        "Gelme açısı",
+        "Yansıma açısı"
+      ],
+      "flip": false
+    },
+    "textPlain": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Şema: Aynaya bir ışın geliyor ve yansıyor. 1: aynaya gelen ışın, 2: aynadan dönen ışın, 3: çarpma noktasındaki dik kesikli çizgi, 4: gelen ışın ile kesikli çizgi arasındaki açı, 5: yansıyan ışın ile kesikli çizgi arasındaki açı. Kartlar: Gelen ışın, Yansıyan ışın, Yüzey normali, Gelme açısı, Yansıma açısı",
+    "correctAnswer": "1: Gelen ışın; 2: Yansıyan ışın; 3: Yüzey normali; 4: Gelme açısı; 5: Yansıma açısı",
+    "explanation": "Yansıtıcı yüzeye ulaşan ışın gelen ışın, yüzeye çarpıp geldiği ortama dönen ışın yansıyan ışındır. Işının çarptığı noktadan yüzeye dik çizilen hayalî çizgi yüzey normalidir (N). Gelen ışın ile normal arasındaki açı gelme açısı, yansıyan ışın ile normal arasındaki açı yansıma açısıdır.",
+    "questionId": "fen6u4-kanun-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 148–149",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "label",
+    "prompt": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "tokens": [
+        "Gelen ışın",
+        "Yansıyan ışın",
+        "Gelme açısı",
+        "Yansıma açısı"
+      ],
+      "flip": true
+    },
+    "textPlain": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Şema: Aynaya bir ışın geliyor ve yansıyor. 1: aynaya gelen ışın, 2: aynadan dönen ışın, 3: çarpma noktasındaki dik kesikli çizgi, 4: gelen ışın ile kesikli çizgi arasındaki açı, 5: yansıyan ışın ile kesikli çizgi arasındaki açı. Kartlar: Gelen ışın, Yansıyan ışın, Gelme açısı, Yansıma açısı",
+    "correctAnswer": "1: Gelen ışın; 2: Yansıyan ışın; 4: Gelme açısı; 5: Yansıma açısı",
+    "explanation": "Yansıtıcı yüzeye ulaşan ışın gelen ışın, yüzeye çarpıp geldiği ortama dönen ışın yansıyan ışındır. Işının çarptığı noktadan yüzeye dik çizilen hayalî çizgi yüzey normalidir (N). Gelen ışın ile normal arasındaki açı gelme açısı, yansıyan ışın ile normal arasındaki açı yansıma açısıdır.",
+    "questionId": "fen6u4-kanun-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 148–149",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "label",
+    "prompt": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Dikkat: Bir kart şemaya ait değil!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "tokens": [
+        "Gelen ışın",
+        "Yansıyan ışın",
+        "Yüzey normali",
+        "Gelme açısı",
+        "Yansıma açısı",
+        "Yansıtıcı yüzey"
+      ],
+      "flip": true
+    },
+    "textPlain": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Dikkat: Bir kart şemaya ait değil! Şema: Aynaya bir ışın geliyor ve yansıyor. 1: aynaya gelen ışın, 2: aynadan dönen ışın, 3: çarpma noktasındaki dik kesikli çizgi, 4: gelen ışın ile kesikli çizgi arasındaki açı, 5: yansıyan ışın ile kesikli çizgi arasındaki açı. Kartlar: Gelen ışın, Yansıyan ışın, Yüzey normali, Gelme açısı, Yansıma açısı, Yansıtıcı yüzey",
+    "correctAnswer": "1: Gelen ışın; 2: Yansıyan ışın; 3: Yüzey normali; 4: Gelme açısı; 5: Yansıma açısı",
+    "explanation": "Yansıtıcı yüzeye ulaşan ışın gelen ışın, yüzeye çarpıp geldiği ortama dönen ışın yansıyan ışındır. Işının çarptığı noktadan yüzeye dik çizilen hayalî çizgi yüzey normalidir (N). Gelen ışın ile normal arasındaki açı gelme açısı, yansıyan ışın ile normal arasındaki açı yansıma açısıdır.",
+    "questionId": "fen6u4-kanun-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 148–149",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "label",
+    "prompt": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Dikkat: Bir kart şemaya ait değil!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "tokens": [
+        "Gelen ışın",
+        "Yansıyan ışın",
+        "Yüzey normali",
+        "Gelme açısı",
+        "Yansıma açısı",
+        "Işık kaynağı"
+      ],
+      "flip": false
+    },
+    "textPlain": "Işın şeması: Bir kartı seç, sonra şemadaki doğru numaraya dokun. Hepsi bitince şemayı onaylat! Dikkat: Bir kart şemaya ait değil! Şema: Aynaya bir ışın geliyor ve yansıyor. 1: aynaya gelen ışın, 2: aynadan dönen ışın, 3: çarpma noktasındaki dik kesikli çizgi, 4: gelen ışın ile kesikli çizgi arasındaki açı, 5: yansıyan ışın ile kesikli çizgi arasındaki açı. Kartlar: Gelen ışın, Yansıyan ışın, Yüzey normali, Gelme açısı, Yansıma açısı, Işık kaynağı",
+    "correctAnswer": "1: Gelen ışın; 2: Yansıyan ışın; 3: Yüzey normali; 4: Gelme açısı; 5: Yansıma açısı",
+    "explanation": "Yansıtıcı yüzeye ulaşan ışın gelen ışın, yüzeye çarpıp geldiği ortama dönen ışın yansıyan ışındır. Işının çarptığı noktadan yüzeye dik çizilen hayalî çizgi yüzey normalidir (N). Gelen ışın ile normal arasındaki açı gelme açısı, yansıyan ışın ile normal arasındaki açı yansıma açısıdır.",
+    "questionId": "fen6u4-kanun-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+    "difficulty": "kolay",
+    "group": "ayna",
+    "rank": 1,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "s",
+          "d"
+        ]
+      ],
+      "ans": 0
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: aynı boyda ve düz. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Düz ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+    "difficulty": "kolay",
+    "group": "ayna",
+    "rank": 1,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "k",
+          "d"
+        ]
+      ],
+      "ans": 2
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: küçük ve düz. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Tümsek ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+    "difficulty": "kolay",
+    "group": "ayna",
+    "rank": 1,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "b",
+          "t"
+        ]
+      ],
+      "ans": 1
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: büyük ve ters. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Çukur ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "k",
+          "t"
+        ]
+      ],
+      "ans": 1
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: büyük ve düz; küçük ve ters. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Çukur ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "k",
+          "d"
+        ],
+        [
+          "k",
+          "d"
+        ]
+      ],
+      "ans": 2
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: küçük ve düz; küçük ve düz. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Tümsek ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 157–158, 180",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Gizli aynaya paralel ışınlar gönderildi; yansıyan ışınlar ekranda. Hangi ayna olduğunu seç, sonra perdeyi kaldır!",
+    "data": {
+      "rays": "c",
+      "ans": 1
+    },
+    "textPlain": "Ayna atölyesi: Gizli aynaya paralel ışınlar gönderildi; yansıyan ışınlar ekranda. Hangi ayna olduğunu seç, sonra perdeyi kaldır! Yansıyan ışınlar: bir noktada toplanıyor. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Çukur ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 157, 180",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Gizli aynaya paralel ışınlar gönderildi; yansıyan ışınlar ekranda. Hangi ayna olduğunu seç, sonra perdeyi kaldır!",
+    "data": {
+      "rays": "t",
+      "ans": 2
+    },
+    "textPlain": "Ayna atölyesi: Gizli aynaya paralel ışınlar gönderildi; yansıyan ışınlar ekranda. Hangi ayna olduğunu seç, sonra perdeyi kaldır! Yansıyan ışınlar: dağılıyor. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Tümsek ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "s",
+          "t"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "ans": 1
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: aynı boyda ve ters; büyük ve düz. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Çukur ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 180",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Gizli aynaya paralel ışınlar gönderildi; yansıyan ışınlar ekranda. Hangi ayna olduğunu seç, sonra perdeyi kaldır!",
+    "data": {
+      "rays": "d",
+      "ans": 0
+    },
+    "textPlain": "Ayna atölyesi: Gizli aynaya paralel ışınlar gönderildi; yansıyan ışınlar ekranda. Hangi ayna olduğunu seç, sonra perdeyi kaldır! Yansıyan ışınlar: birbirine paralel. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Düz ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 158, 179",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "mirror",
+    "prompt": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır!",
+    "data": {
+      "obs": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "b",
+          "t"
+        ],
+        [
+          "k",
+          "t"
+        ]
+      ],
+      "ans": 1
+    },
+    "textPlain": "Ayna atölyesi: Oyuncak kedi perdenin arkasındaki aynaya yaklaştırılıp uzaklaştırıldı. Görüntülere bakarak aynayı seç, sonra perdeyi kaldır! Görüntüler: büyük ve düz; büyük ve ters; küçük ve ters. Seçenekler: Düz ayna, Çukur ayna, Tümsek ayna",
+    "correctAnswer": "Çukur ayna",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır.",
+    "questionId": "fen6u4-ayna-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 159",
+    "difficulty": "kolay",
+    "group": "ayna",
+    "rank": 1,
+    "type": "sym",
+    "prompt": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç!",
+    "data": {
+      "cells": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "horiz": false
+    },
+    "textPlain": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç! Izgara 5 sütun × 5 satır. Dolu kutular (satır, sütun): (1,5), (2,4), (3,3)",
+    "correctAnswer": "Görüntü: (1,1), (2,2), (3,3)",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir; görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir. Ambulans ve itfaiye yazılarının ters yazılması bu yüzdendir: aynada düz okunurlar.",
+    "questionId": "fen6u4-ayna-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 159",
+    "difficulty": "kolay",
+    "group": "ayna",
+    "rank": 1,
+    "type": "sym",
+    "prompt": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç!",
+    "data": {
+      "cells": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "horiz": false
+    },
+    "textPlain": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç! Izgara 5 sütun × 5 satır. Dolu kutular (satır, sütun): (2,2), (2,3), (4,5), (5,5)",
+    "correctAnswer": "Görüntü: (2,4), (2,3), (4,1), (5,1)",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir; görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir. Ambulans ve itfaiye yazılarının ters yazılması bu yüzdendir: aynada düz okunurlar.",
+    "questionId": "fen6u4-ayna-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 159",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "sym",
+    "prompt": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç!",
+    "data": {
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "horiz": false
+    },
+    "textPlain": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç! Izgara 5 sütun × 5 satır. Dolu kutular (satır, sütun): (1,1), (1,2), (3,4), (4,4), (5,2)",
+    "correctAnswer": "Görüntü: (1,5), (1,4), (3,2), (4,2), (5,4)",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir; görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir. Ambulans ve itfaiye yazılarının ters yazılması bu yüzdendir: aynada düz okunurlar.",
+    "questionId": "fen6u4-ayna-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 159",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "sym",
+    "prompt": "Ayna simetrisi: Durgun su yüzeyi düz ayna gibi davranır. Fener bayrağının sudaki görüntüsünü alttaki ızgarada kutulara dokunarak çiz, sonra suyu durult!",
+    "data": {
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "horiz": true
+    },
+    "textPlain": "Ayna simetrisi: Durgun su yüzeyi düz ayna gibi davranır. Fener bayrağının sudaki görüntüsünü alttaki ızgarada kutulara dokunarak çiz, sonra suyu durult! Izgara 5 sütun × 5 satır. Dolu kutular (satır, sütun): (1,3), (2,3), (3,3), (3,4), (3,5)",
+    "correctAnswer": "Görüntü: (5,3), (4,3), (3,3), (3,4), (3,5)",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir; görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir. Ambulans ve itfaiye yazılarının ters yazılması bu yüzdendir: aynada düz okunurlar.",
+    "questionId": "fen6u4-ayna-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 159",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "sym",
+    "prompt": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç!",
+    "data": {
+      "cells": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "horiz": false
+    },
+    "textPlain": "Ayna simetrisi: Fener işaretinin düz aynadaki görüntüsünü sağdaki ızgarada kutulara dokunarak çiz, sonra aynayı aç! Izgara 5 sütun × 5 satır. Dolu kutular (satır, sütun): (1,5), (2,5), (2,4), (3,1), (4,2), (5,3), (5,4)",
+    "correctAnswer": "Görüntü: (1,1), (2,1), (2,2), (3,5), (4,4), (5,3), (5,2)",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir; görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir. Ambulans ve itfaiye yazılarının ters yazılması bu yüzdendir: aynada düz okunurlar.",
+    "questionId": "fen6u4-ayna-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156, 159",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "sym",
+    "prompt": "Ayna simetrisi: Durgun su yüzeyi düz ayna gibi davranır. Fener bayrağının sudaki görüntüsünü alttaki ızgarada kutulara dokunarak çiz, sonra suyu durult!",
+    "data": {
+      "cells": [
+        [
+          4,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "horiz": true
+    },
+    "textPlain": "Ayna simetrisi: Durgun su yüzeyi düz ayna gibi davranır. Fener bayrağının sudaki görüntüsünü alttaki ızgarada kutulara dokunarak çiz, sonra suyu durult! Izgara 5 sütun × 5 satır. Dolu kutular (satır, sütun): (5,1), (4,2), (4,3), (3,5), (2,5), (1,3)",
+    "correctAnswer": "Görüntü: (1,1), (2,2), (2,3), (3,5), (4,5), (5,3)",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir; görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir. Ambulans ve itfaiye yazılarının ters yazılması bu yüzdendir: aynada düz okunurlar.",
+    "questionId": "fen6u4-ayna-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–159",
+    "difficulty": "kolay",
+    "group": "ayna",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Liman dükkânı: Aynaları doğru rafa yerleştir.",
+    "data": {
+      "bins": [
+        "Düz ayna",
+        "Çukur ayna",
+        "Tümsek ayna"
+      ],
+      "cards": [
+        {
+          "t": "Boy aynası",
+          "b": 0
+        },
+        {
+          "t": "Dişçi aynası",
+          "b": 1
+        },
+        {
+          "t": "Viraj aynası",
+          "b": 2
+        },
+        {
+          "t": "Araba yan aynası",
+          "b": 2
+        },
+        {
+          "t": "Makyaj aynası",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Liman dükkânı: Aynaları doğru rafa yerleştir. Bölmeler: Düz ayna / Çukur ayna / Tümsek ayna. Kartlar: Boy aynası | Dişçi aynası | Viraj aynası | Araba yan aynası | Makyaj aynası",
+    "correctAnswer": "Düz ayna: Boy aynası | Çukur ayna: Dişçi aynası, Makyaj aynası | Tümsek ayna: Viraj aynası, Araba yan aynası",
+    "explanation": "Tümsek aynalar geniş alan gösterdiği için araba yan aynası, viraj aynası, mağaza ve güvenlik kontrol aynası olarak kullanılır. Çukur aynalar büyük ve ayrıntılı görüntü verdiği için dişçi ve makyaj aynalarında kullanılır. Boy aynası düz aynadır.",
+    "questionId": "fen6u4-ayna-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 157–159",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Aynaları kullanım yerlerine göre doğru rafa yerleştir.",
+    "data": {
+      "bins": [
+        "Çukur ayna",
+        "Tümsek ayna"
+      ],
+      "cards": [
+        {
+          "t": "Teleskop",
+          "b": 0
+        },
+        {
+          "t": "Mağaza güvenlik aynası",
+          "b": 1
+        },
+        {
+          "t": "Güneş fırını",
+          "b": 0
+        },
+        {
+          "t": "Güvenlik kontrol aynası",
+          "b": 1
+        },
+        {
+          "t": "Dişçi aynası",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Aynaları kullanım yerlerine göre doğru rafa yerleştir. Bölmeler: Çukur ayna / Tümsek ayna. Kartlar: Teleskop | Mağaza güvenlik aynası | Güneş fırını | Güvenlik kontrol aynası | Dişçi aynası",
+    "correctAnswer": "Çukur ayna: Teleskop, Güneş fırını, Dişçi aynası | Tümsek ayna: Mağaza güvenlik aynası, Güvenlik kontrol aynası",
+    "explanation": "Teleskop, güneş fırını, dişçi ve makyaj aynalarında çukur ayna kullanılır; güneş fırını ışınları bir noktada toplama özelliğinden yararlanır. Güvenlik ve mağaza aynaları geniş alan gösteren tümsek aynalardır.",
+    "questionId": "fen6u4-ayna-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–158",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Özellik kartlarını doğru aynanın rafına yerleştir.",
+    "data": {
+      "bins": [
+        "Düz ayna",
+        "Çukur ayna",
+        "Tümsek ayna"
+      ],
+      "cards": [
+        {
+          "t": "Görüntü her zaman düz ve küçüktür",
+          "b": 2
+        },
+        {
+          "t": "Görüntü cisimle aynı boyda ve simetriktir",
+          "b": 0
+        },
+        {
+          "t": "Görüntü büyük ve ters olabilir",
+          "b": 1
+        },
+        {
+          "t": "Işınları toplayarak yansıtır",
+          "b": 1
+        },
+        {
+          "t": "Işınları dağıtarak yansıtır",
+          "b": 2
+        },
+        {
+          "t": "Cisim yaklaşırsa görüntüsü de yaklaşır",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Özellik kartlarını doğru aynanın rafına yerleştir. Bölmeler: Düz ayna / Çukur ayna / Tümsek ayna. Kartlar: Görüntü her zaman düz ve küçüktür | Görüntü cisimle aynı boyda ve simetriktir | Görüntü büyük ve ters olabilir | Işınları toplayarak yansıtır | Işınları dağıtarak yansıtır | Cisim yaklaşırsa görüntüsü de yaklaşır",
+    "correctAnswer": "Düz ayna: Görüntü cisimle aynı boyda ve simetriktir, Cisim yaklaşırsa görüntüsü de yaklaşır | Çukur ayna: Görüntü büyük ve ters olabilir, Işınları toplayarak yansıtır | Tümsek ayna: Görüntü her zaman düz ve küçüktür, Işınları dağıtarak yansıtır",
+    "explanation": "Düz aynada görüntü cisimle aynı boyda, düz ve simetriktir. Tümsek aynada görüntü her zaman düz ve küçüktür; tümsek ayna ışınları dağıtarak yansıtır. Çukur aynada görüntü cismin konumuna göre değişir: büyük ve düz, büyük ve ters, küçük ve ters ya da aynı boyda ve ters olabilir; çukur ayna ışınları toplayacak şekilde yansıtır. Düz aynada cisim aynaya yaklaşırsa görüntüsü de yaklaşır.",
+    "questionId": "fen6u4-ayna-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 154, 161",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kaşık deneyi: Gözlem kartlarını kaşığın doğru yüzeyine yerleştir.",
+    "data": {
+      "bins": [
+        "Kaşığın iç yüzeyi",
+        "Kaşığın dış yüzeyi"
+      ],
+      "cards": [
+        {
+          "t": "Çukur ayna gibi davranır",
+          "b": 0
+        },
+        {
+          "t": "Tümsek ayna gibi davranır",
+          "b": 1
+        },
+        {
+          "t": "Görüntü ters olabilir",
+          "b": 0
+        },
+        {
+          "t": "Görüntü hep düz ve küçüktür",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kaşık deneyi: Gözlem kartlarını kaşığın doğru yüzeyine yerleştir. Bölmeler: Kaşığın iç yüzeyi / Kaşığın dış yüzeyi. Kartlar: Çukur ayna gibi davranır | Tümsek ayna gibi davranır | Görüntü ters olabilir | Görüntü hep düz ve küçüktür",
+    "correctAnswer": "Kaşığın iç yüzeyi: Çukur ayna gibi davranır, Görüntü ters olabilir | Kaşığın dış yüzeyi: Tümsek ayna gibi davranır, Görüntü hep düz ve küçüktür",
+    "explanation": "Metal kaşığın iç yüzeyi çukur ayna, dış yüzeyi tümsek ayna özelliği gösterir. Çukur aynada görüntü ters olabilir; tümsek aynada görüntü her zaman düz ve küçüktür.",
+    "questionId": "fen6u4-ayna-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 167–169",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "prism",
+    "prompt": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç!",
+    "data": {
+      "empty": [
+        1,
+        3,
+        5
+      ]
+    },
+    "textPlain": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç! Bantlar yukarıdan aşağıya: Kırmızı, ?, Sarı, ?, Mavi, ?, Mor",
+    "correctAnswer": "Turuncu, Yeşil, Lacivert",
+    "explanation": "Güneş ışığı beyaz ışıktır ve tüm ışık renklerinin birleşiminden oluşur. Beyaz ışık prizmadan geçtiğinde kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renklere ayrılır. Gökkuşağı da Güneş ışığının yağmur damlalarından geçerek renklerine ayrılmasıyla oluşur.",
+    "questionId": "fen6u4-renk-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 167–169",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "prism",
+    "prompt": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç!",
+    "data": {
+      "empty": [
+        0,
+        2,
+        6
+      ]
+    },
+    "textPlain": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç! Bantlar yukarıdan aşağıya: ?, Turuncu, ?, Yeşil, Mavi, Lacivert, ?",
+    "correctAnswer": "Kırmızı, Sarı, Mor",
+    "explanation": "Güneş ışığı beyaz ışıktır ve tüm ışık renklerinin birleşiminden oluşur. Beyaz ışık prizmadan geçtiğinde kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renklere ayrılır. Gökkuşağı da Güneş ışığının yağmur damlalarından geçerek renklerine ayrılmasıyla oluşur.",
+    "questionId": "fen6u4-renk-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 167–169",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "prism",
+    "prompt": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    "textPlain": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç! Bantlar yukarıdan aşağıya: ?, ?, Sarı, Yeşil, ?, ?, Mor",
+    "correctAnswer": "Kırmızı, Turuncu, Mavi, Lacivert",
+    "explanation": "Güneş ışığı beyaz ışıktır ve tüm ışık renklerinin birleşiminden oluşur. Beyaz ışık prizmadan geçtiğinde kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renklere ayrılır. Gökkuşağı da Güneş ışığının yağmur damlalarından geçerek renklerine ayrılmasıyla oluşur.",
+    "questionId": "fen6u4-renk-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 167–169",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "prism",
+    "prompt": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç!",
+    "data": {
+      "empty": [
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    "textPlain": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç! Bantlar yukarıdan aşağıya: Kırmızı, Turuncu, ?, ?, Mavi, ?, ?",
+    "correctAnswer": "Sarı, Yeşil, Lacivert, Mor",
+    "explanation": "Güneş ışığı beyaz ışıktır ve tüm ışık renklerinin birleşiminden oluşur. Beyaz ışık prizmadan geçtiğinde kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renklere ayrılır. Gökkuşağı da Güneş ışığının yağmur damlalarından geçerek renklerine ayrılmasıyla oluşur.",
+    "questionId": "fen6u4-renk-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 167–169",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "prism",
+    "prompt": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç!",
+    "data": {
+      "empty": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "textPlain": "Prizma tezgâhı: Fenerin beyaz ışığı prizmadan geçiyor. Boş renk bantlarına renk kartlarını sırayla (yukarıdan aşağıya) dokunarak yerleştir, sonra ışığı aç! Bantlar yukarıdan aşağıya: ?, ?, ?, ?, ?, ?, ?",
+    "correctAnswer": "Kırmızı, Turuncu, Sarı, Yeşil, Mavi, Lacivert, Mor",
+    "explanation": "Güneş ışığı beyaz ışıktır ve tüm ışık renklerinin birleşiminden oluşur. Beyaz ışık prizmadan geçtiğinde kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renklere ayrılır. Gökkuşağı da Güneş ışığının yağmur damlalarından geçerek renklerine ayrılmasıyla oluşur.",
+    "questionId": "fen6u4-renk-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "mix",
+    "prompt": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde sarı görünsün. Sonra projektörleri yak!",
+    "data": {
+      "target": "Sarı",
+      "ans": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde sarı görünsün. Sonra projektörleri yak! Projektörler: kırmızı, yeşil, mavi.",
+    "correctAnswer": "Kırmızı + Yeşil",
+    "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir; sarı, magenta ve cyan ara renklerdir. Görsel 4.3.2’deki gibi kırmızı ve yeşil ışığın üst üste geldiği yerde sarı, kırmızı ve mavide magenta, yeşil ve mavide cyan, üçünün birleştiği yerde beyaz görünür.",
+    "questionId": "fen6u4-renk-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "mix",
+    "prompt": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde cyan görünsün. Sonra projektörleri yak!",
+    "data": {
+      "target": "Cyan",
+      "ans": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde cyan görünsün. Sonra projektörleri yak! Projektörler: kırmızı, yeşil, mavi.",
+    "correctAnswer": "Yeşil + Mavi",
+    "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir; sarı, magenta ve cyan ara renklerdir. Görsel 4.3.2’deki gibi kırmızı ve yeşil ışığın üst üste geldiği yerde sarı, kırmızı ve mavide magenta, yeşil ve mavide cyan, üçünün birleştiği yerde beyaz görünür.",
+    "questionId": "fen6u4-renk-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "mix",
+    "prompt": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde magenta görünsün. Sonra projektörleri yak!",
+    "data": {
+      "target": "Magenta",
+      "ans": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde magenta görünsün. Sonra projektörleri yak! Projektörler: kırmızı, yeşil, mavi.",
+    "correctAnswer": "Kırmızı + Mavi",
+    "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir; sarı, magenta ve cyan ara renklerdir. Görsel 4.3.2’deki gibi kırmızı ve yeşil ışığın üst üste geldiği yerde sarı, kırmızı ve mavide magenta, yeşil ve mavide cyan, üçünün birleştiği yerde beyaz görünür.",
+    "questionId": "fen6u4-renk-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "mix",
+    "prompt": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde beyaz görünsün. Sonra projektörleri yak!",
+    "data": {
+      "target": "Beyaz",
+      "ans": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Fener ışık panosu: Kırmızı, yeşil ve mavi projektörlerden gerekenleri aç ki ışıkların üst üste geldiği yerde beyaz görünsün. Sonra projektörleri yak! Projektörler: kırmızı, yeşil, mavi.",
+    "correctAnswer": "Kırmızı + Yeşil + Mavi",
+    "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir; sarı, magenta ve cyan ara renklerdir. Görsel 4.3.2’deki gibi kırmızı ve yeşil ışığın üst üste geldiği yerde sarı, kırmızı ve mavide magenta, yeşil ve mavide cyan, üçünün birleştiği yerde beyaz görünür.",
+    "questionId": "fen6u4-renk-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Renk kartlarını doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Ana renk",
+        "Ara renk"
+      ],
+      "cards": [
+        {
+          "t": "Kırmızı",
+          "b": 0
+        },
+        {
+          "t": "Sarı",
+          "b": 1
+        },
+        {
+          "t": "Mavi",
+          "b": 0
+        },
+        {
+          "t": "Magenta",
+          "b": 1
+        },
+        {
+          "t": "Yeşil",
+          "b": 0
+        },
+        {
+          "t": "Cyan",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Renk kartlarını doğru bölmeye yerleştir. Bölmeler: Ana renk / Ara renk. Kartlar: Kırmızı | Sarı | Mavi | Magenta | Yeşil | Cyan",
+    "correctAnswer": "Ana renk: Kırmızı, Mavi, Yeşil | Ara renk: Sarı, Magenta, Cyan",
+    "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir; sarı, magenta ve cyan ara renklerdir. Görsel 4.3.2’deki gibi kırmızı ve yeşil ışığın üst üste geldiği yerde sarı, kırmızı ve mavide magenta, yeşil ve mavide cyan, üçünün birleştiği yerde beyaz görünür.",
+    "questionId": "fen6u4-renk-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 167, 169",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Gözlemleri doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Beyaz ışık renklerine ayrılır",
+        "Beyaz ışık renklerine ayrılmaz"
+      ],
+      "cards": [
+        {
+          "t": "Gökkuşağı",
+          "b": 0
+        },
+        {
+          "t": "Prizmadan geçen ışık",
+          "b": 0
+        },
+        {
+          "t": "Sabun köpüğü",
+          "b": 0
+        },
+        {
+          "t": "CD yüzeyi",
+          "b": 0
+        },
+        {
+          "t": "Düz aynadan yansıyan ışık",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Gözlemleri doğru bölmeye yerleştir. Bölmeler: Beyaz ışık renklerine ayrılır / Beyaz ışık renklerine ayrılmaz. Kartlar: Gökkuşağı | Prizmadan geçen ışık | Sabun köpüğü | CD yüzeyi | Düz aynadan yansıyan ışık",
+    "correctAnswer": "Beyaz ışık renklerine ayrılır: Gökkuşağı, Prizmadan geçen ışık, Sabun köpüğü, CD yüzeyi | Beyaz ışık renklerine ayrılmaz: Düz aynadan yansıyan ışık",
+    "explanation": "Güneş ışığı beyaz ışıktır ve tüm ışık renklerinin birleşiminden oluşur. Beyaz ışık prizmadan geçtiğinde kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renklere ayrılır. Gökkuşağı da Güneş ışığının yağmur damlalarından geçerek renklerine ayrılmasıyla oluşur. CD’lerin üzerinde, avizelerde ve sabun köpüğünde de beyaz ışığın renklerine ayrıldığı görülür.",
+    "questionId": "fen6u4-renk-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 170–174",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler kırmızı ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "K",
+      "items": [
+        {
+          "n": "Şapka",
+          "c": "K",
+          "a": "K"
+        },
+        {
+          "n": "Top",
+          "c": "B",
+          "a": "K"
+        },
+        {
+          "n": "Terlik",
+          "c": "S",
+          "a": "S"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler kırmızı ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: kırmızı. Cisimler: kırmızı şapka, beyaz top, siyah terlik",
+    "correctAnswer": "Kırmızı şapka: kırmızı; Beyaz top: kırmızı; Siyah terlik: siyah",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 170–174",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler mavi ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "M",
+      "items": [
+        {
+          "n": "Defter",
+          "c": "M",
+          "a": "M"
+        },
+        {
+          "n": "Top",
+          "c": "B",
+          "a": "M"
+        },
+        {
+          "n": "Şapka",
+          "c": "K",
+          "a": "S"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler mavi ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: mavi. Cisimler: mavi defter, beyaz top, kırmızı şapka",
+    "correctAnswer": "Mavi defter: mavi; Beyaz top: mavi; Kırmızı şapka: siyah",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 170–174",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler beyaz ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "B",
+      "items": [
+        {
+          "n": "Yaprak",
+          "c": "Y",
+          "a": "Y"
+        },
+        {
+          "n": "Defter",
+          "c": "M",
+          "a": "M"
+        },
+        {
+          "n": "Terlik",
+          "c": "S",
+          "a": "S"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler beyaz ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: beyaz. Cisimler: yeşil yaprak, mavi defter, siyah terlik",
+    "correctAnswer": "Yeşil yaprak: yeşil; Mavi defter: mavi; Siyah terlik: siyah",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 177",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler yeşil ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "Y",
+      "items": [
+        {
+          "n": "Ayakkabı",
+          "c": "Y",
+          "a": "Y"
+        },
+        {
+          "n": "Şapka",
+          "c": "K",
+          "a": "S"
+        },
+        {
+          "n": "Top",
+          "c": "M",
+          "a": "S"
+        },
+        {
+          "n": "Kâğıt",
+          "c": "B",
+          "a": "Y"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler yeşil ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: yeşil. Cisimler: yeşil ayakkabı, kırmızı şapka, mavi top, beyaz kâğıt",
+    "correctAnswer": "Yeşil ayakkabı: yeşil; Kırmızı şapka: siyah; Mavi top: siyah; Beyaz kâğıt: yeşil",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 174",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler kırmızı ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "K",
+      "items": [
+        {
+          "n": "Kalem",
+          "c": "K",
+          "a": "K"
+        },
+        {
+          "n": "Yaprak",
+          "c": "Y",
+          "a": "S"
+        },
+        {
+          "n": "Defter",
+          "c": "M",
+          "a": "S"
+        },
+        {
+          "n": "Top",
+          "c": "B",
+          "a": "K"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler kırmızı ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: kırmızı. Cisimler: kırmızı kalem, yeşil yaprak, mavi defter, beyaz top",
+    "correctAnswer": "Kırmızı kalem: kırmızı; Yeşil yaprak: siyah; Mavi defter: siyah; Beyaz top: kırmızı",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 172, 179",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler mavi ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "M",
+      "items": [
+        {
+          "n": "Şapka",
+          "c": "Y",
+          "a": "S"
+        },
+        {
+          "n": "Top",
+          "c": "M",
+          "a": "M"
+        },
+        {
+          "n": "Terlik",
+          "c": "S",
+          "a": "S"
+        },
+        {
+          "n": "Kâğıt",
+          "c": "B",
+          "a": "M"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler mavi ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: mavi. Cisimler: yeşil şapka, mavi top, siyah terlik, beyaz kâğıt",
+    "correctAnswer": "Yeşil şapka: siyah; Mavi top: mavi; Siyah terlik: siyah; Beyaz kâğıt: mavi",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 174",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler yeşil ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "Y",
+      "items": [
+        {
+          "n": "Kalem",
+          "c": "K",
+          "a": "S"
+        },
+        {
+          "n": "Yaprak",
+          "c": "Y",
+          "a": "Y"
+        },
+        {
+          "n": "Defter",
+          "c": "M",
+          "a": "S"
+        },
+        {
+          "n": "Terlik",
+          "c": "S",
+          "a": "S"
+        },
+        {
+          "n": "Top",
+          "c": "B",
+          "a": "Y"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler yeşil ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: yeşil. Cisimler: kırmızı kalem, yeşil yaprak, mavi defter, siyah terlik, beyaz top",
+    "correctAnswer": "Kırmızı kalem: siyah; Yeşil yaprak: yeşil; Mavi defter: siyah; Siyah terlik: siyah; Beyaz top: yeşil",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 174",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "stage",
+    "prompt": "Karanlık depo: Cisimler mavi ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak!",
+    "data": {
+      "light": "M",
+      "items": [
+        {
+          "n": "Kalem",
+          "c": "K",
+          "a": "S"
+        },
+        {
+          "n": "Yaprak",
+          "c": "Y",
+          "a": "S"
+        },
+        {
+          "n": "Defter",
+          "c": "M",
+          "a": "M"
+        },
+        {
+          "n": "Terlik",
+          "c": "S",
+          "a": "S"
+        },
+        {
+          "n": "Top",
+          "c": "B",
+          "a": "M"
+        }
+      ]
+    },
+    "textPlain": "Karanlık depo: Cisimler mavi ışıkla aydınlatılacak. Her cismin hangi renkte görüneceğini seç, sonra ışığı yak! Işık: mavi. Cisimler: kırmızı kalem, yeşil yaprak, mavi defter, siyah terlik, beyaz top",
+    "correctAnswer": "Kırmızı kalem: siyah; Yeşil yaprak: siyah; Mavi defter: mavi; Siyah terlik: siyah; Beyaz top: mavi",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür.",
+    "questionId": "fen6u4-renk-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 171–172, 179",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "detect",
+    "prompt": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç!",
+    "data": {
+      "c": "M",
+      "given": false
+    },
+    "textPlain": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç! Gözlemler: kırmızı ışıkta siyah; yeşil ışıkta siyah; mavi ışıkta mavi. Seçenekler: kırmızı, yeşil, mavi, beyaz, siyah.",
+    "correctAnswer": "Mavi",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Her renkli ışıkta o ışığın renginde görünen cisim beyazdır; her ışıkta siyah görünen cisim siyahtır.",
+    "questionId": "fen6u4-renk-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 171–172, 179",
+    "difficulty": "kolay",
+    "group": "renk",
+    "rank": 1,
+    "type": "detect",
+    "prompt": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç!",
+    "data": {
+      "c": "K",
+      "given": false
+    },
+    "textPlain": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç! Gözlemler: kırmızı ışıkta kırmızı; yeşil ışıkta siyah; mavi ışıkta siyah. Seçenekler: kırmızı, yeşil, mavi, beyaz, siyah.",
+    "correctAnswer": "Kırmızı",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Her renkli ışıkta o ışığın renginde görünen cisim beyazdır; her ışıkta siyah görünen cisim siyahtır.",
+    "questionId": "fen6u4-renk-21"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 171–172, 179",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "detect",
+    "prompt": "Gizemli kutu: Bekçi, kutudaki cisme karanlıkta kırmızı, yeşil ve mavi ışıkla baktı; sonuçlar ekranda. Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç!",
+    "data": {
+      "c": "B",
+      "given": true
+    },
+    "textPlain": "Gizemli kutu: Bekçi, kutudaki cisme karanlıkta kırmızı, yeşil ve mavi ışıkla baktı; sonuçlar ekranda. Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç! Gözlemler: kırmızı ışıkta kırmızı; yeşil ışıkta yeşil; mavi ışıkta mavi. Seçenekler: kırmızı, yeşil, mavi, beyaz, siyah.",
+    "correctAnswer": "Beyaz",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Her renkli ışıkta o ışığın renginde görünen cisim beyazdır; her ışıkta siyah görünen cisim siyahtır.",
+    "questionId": "fen6u4-renk-22"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 171–172, 179",
+    "difficulty": "orta",
+    "group": "renk",
+    "rank": 2,
+    "type": "detect",
+    "prompt": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç!",
+    "data": {
+      "c": "Y",
+      "given": false
+    },
+    "textPlain": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç! Gözlemler: kırmızı ışıkta siyah; yeşil ışıkta yeşil; mavi ışıkta siyah. Seçenekler: kırmızı, yeşil, mavi, beyaz, siyah.",
+    "correctAnswer": "Yeşil",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Her renkli ışıkta o ışığın renginde görünen cisim beyazdır; her ışıkta siyah görünen cisim siyahtır.",
+    "questionId": "fen6u4-renk-23"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 171–172, 179",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "detect",
+    "prompt": "Gizemli kutu: Bekçi, kutudaki cisme karanlıkta kırmızı, yeşil ve mavi ışıkla baktı; sonuçlar ekranda. Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç!",
+    "data": {
+      "c": "S",
+      "given": true
+    },
+    "textPlain": "Gizemli kutu: Bekçi, kutudaki cisme karanlıkta kırmızı, yeşil ve mavi ışıkla baktı; sonuçlar ekranda. Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç! Gözlemler: kırmızı ışıkta siyah; yeşil ışıkta siyah; mavi ışıkta siyah. Seçenekler: kırmızı, yeşil, mavi, beyaz, siyah.",
+    "correctAnswer": "Siyah",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Her renkli ışıkta o ışığın renginde görünen cisim beyazdır; her ışıkta siyah görünen cisim siyahtır.",
+    "questionId": "fen6u4-renk-24"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 171–172, 179",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "detect",
+    "prompt": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç!",
+    "data": {
+      "c": "B",
+      "given": false
+    },
+    "textPlain": "Gizemli kutu: Karanlıktaki cisme fenerin renkli ışıklarıyla bak (ışık düğmelerine dokun). Cisim beyaz ışıkta hangi renkte görünür? Seç, sonra kapağı aç! Gözlemler: kırmızı ışıkta kırmızı; yeşil ışıkta yeşil; mavi ışıkta mavi. Seçenekler: kırmızı, yeşil, mavi, beyaz, siyah.",
+    "correctAnswer": "Beyaz",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Her renkli ışıkta o ışığın renginde görünen cisim beyazdır; her ışıkta siyah görünen cisim siyahtır.",
+    "questionId": "fen6u4-renk-25"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 164–166",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "thermo",
+    "prompt": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç!",
+    "data": {
+      "items": [
+        "Beyaz",
+        "Siyah"
+      ],
+      "order": [
+        "Siyah",
+        "Beyaz"
+      ]
+    },
+    "textPlain": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç! Kutular: Beyaz, Siyah",
+    "correctAnswer": "Siyah → Beyaz",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 165",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "thermo",
+    "prompt": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç!",
+    "data": {
+      "items": [
+        "Mavi",
+        "Beyaz",
+        "Siyah"
+      ],
+      "order": [
+        "Siyah",
+        "Mavi",
+        "Beyaz"
+      ]
+    },
+    "textPlain": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç! Kutular: Mavi, Beyaz, Siyah",
+    "correctAnswer": "Siyah → Mavi → Beyaz",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "orta",
+    "group": "sogurma",
+    "rank": 2,
+    "type": "thermo",
+    "prompt": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç!",
+    "data": {
+      "items": [
+        "Kırmızı",
+        "Siyah",
+        "Beyaz"
+      ],
+      "order": [
+        "Siyah",
+        "Kırmızı",
+        "Beyaz"
+      ]
+    },
+    "textPlain": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç! Kutular: Kırmızı, Siyah, Beyaz",
+    "correctAnswer": "Siyah → Kırmızı → Beyaz",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 164",
+    "difficulty": "orta",
+    "group": "sogurma",
+    "rank": 2,
+    "type": "thermo",
+    "prompt": "Termometre deneyi: Bir termometre güneşli alana, diğeri gölgeye konacak. Sıcaklığı en çok artacak olandan başlayarak sırayla dokun, sonra 20 dakika beklet!",
+    "data": {
+      "items": [
+        "Güneşli alan",
+        "Gölge alan"
+      ],
+      "order": [
+        "Güneşli alan",
+        "Gölge alan"
+      ]
+    },
+    "textPlain": "Termometre deneyi: Bir termometre güneşli alana, diğeri gölgeye konacak. Sıcaklığı en çok artacak olandan başlayarak sırayla dokun, sonra 20 dakika beklet! Kutular: Güneşli alan, Gölge alan",
+    "correctAnswer": "Güneşli alan → Gölge alan",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "zor",
+    "group": "sogurma",
+    "rank": 3,
+    "type": "thermo",
+    "prompt": "Güneş tepsisi: Bu kez en AZ ısınacak kutudan en çoka doğru sırayla dokun, sonra güneşi aç!",
+    "data": {
+      "items": [
+        "Beyaz",
+        "Kırmızı",
+        "Siyah"
+      ],
+      "order": [
+        "Beyaz",
+        "Kırmızı",
+        "Siyah"
+      ]
+    },
+    "textPlain": "Güneş tepsisi: Bu kez en AZ ısınacak kutudan en çoka doğru sırayla dokun, sonra güneşi aç! Kutular: Beyaz, Kırmızı, Siyah",
+    "correctAnswer": "Beyaz → Kırmızı → Siyah",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "orta",
+    "group": "sogurma",
+    "rank": 2,
+    "type": "table",
+    "prompt": "Ölçüm tablosu: Kutular güneşte 1 saat bekletildi; ilk sıcaklıklar eşitti. Renk kartlarını son sıcaklıklara göre doğru satıra yerleştir, sonra kutuları aç!",
+    "data": {
+      "rows": [
+        [
+          20,
+          23
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          26
+        ]
+      ],
+      "ans": [
+        "Kırmızı",
+        "Beyaz",
+        "Siyah"
+      ]
+    },
+    "textPlain": "Ölçüm tablosu: Kutular güneşte 1 saat bekletildi; ilk sıcaklıklar eşitti. Renk kartlarını son sıcaklıklara göre doğru satıra yerleştir, sonra kutuları aç! Satırlar: ilk 20 °C, son 23 °C; ilk 20 °C, son 21 °C; ilk 20 °C, son 26 °C",
+    "correctAnswer": "son 23 °C: Kırmızı; son 21 °C: Beyaz; son 26 °C: Siyah",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 165–166",
+    "difficulty": "zor",
+    "group": "sogurma",
+    "rank": 3,
+    "type": "table",
+    "prompt": "Ölçüm tablosu: Kutular güneşte 1 saat bekletildi; ilk sıcaklıklar eşitti. Renk kartlarını son sıcaklıklara göre doğru satıra yerleştir, sonra kutuları aç!",
+    "data": {
+      "rows": [
+        [
+          18,
+          25
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          22
+        ]
+      ],
+      "ans": [
+        "Siyah",
+        "Beyaz",
+        "Mavi"
+      ]
+    },
+    "textPlain": "Ölçüm tablosu: Kutular güneşte 1 saat bekletildi; ilk sıcaklıklar eşitti. Renk kartlarını son sıcaklıklara göre doğru satıra yerleştir, sonra kutuları aç! Satırlar: ilk 18 °C, son 25 °C; ilk 18 °C, son 19 °C; ilk 18 °C, son 22 °C",
+    "correctAnswer": "son 25 °C: Siyah; son 19 °C: Beyaz; son 22 °C: Mavi",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Açık renkli cisim",
+        "Koyu renkli cisim"
+      ],
+      "cards": [
+        {
+          "t": "Işığın büyük kısmını yansıtır",
+          "b": 0
+        },
+        {
+          "t": "Işığın büyük kısmını soğurur",
+          "b": 1
+        },
+        {
+          "t": "Güneşte daha az ısınır",
+          "b": 0
+        },
+        {
+          "t": "Güneşte daha çok ısınır",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Açık renkli cisim / Koyu renkli cisim. Kartlar: Işığın büyük kısmını yansıtır | Işığın büyük kısmını soğurur | Güneşte daha az ısınır | Güneşte daha çok ısınır",
+    "correctAnswer": "Açık renkli cisim: Işığın büyük kısmını yansıtır, Güneşte daha az ısınır | Koyu renkli cisim: Işığın büyük kısmını soğurur, Güneşte daha çok ısınır",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 163, 166",
+    "difficulty": "orta",
+    "group": "sogurma",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Fener bekçisinin dolabı: Kıyafetleri doğru mevsimin rafına yerleştir.",
+    "data": {
+      "bins": [
+        "Yazın tercih edilir",
+        "Kışın tercih edilir"
+      ],
+      "cards": [
+        {
+          "t": "Beyaz tişört",
+          "b": 0
+        },
+        {
+          "t": "Siyah mont",
+          "b": 1
+        },
+        {
+          "t": "Açık renkli şapka",
+          "b": 0
+        },
+        {
+          "t": "Koyu renkli kazak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Fener bekçisinin dolabı: Kıyafetleri doğru mevsimin rafına yerleştir. Bölmeler: Yazın tercih edilir / Kışın tercih edilir. Kartlar: Beyaz tişört | Siyah mont | Açık renkli şapka | Koyu renkli kazak",
+    "correctAnswer": "Yazın tercih edilir: Beyaz tişört, Açık renkli şapka | Kışın tercih edilir: Siyah mont, Koyu renkli kazak",
+    "explanation": "Koyu renkli kıyafetler ışığı daha çok soğurup ısındığı için kışın, açık renkli kıyafetler ışığı daha çok yansıttığı için yazın tercih edilir.",
+    "questionId": "fen6u4-sogurma-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 176",
+    "difficulty": "orta",
+    "group": "sogurma",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Adanın enerji planı: Güneş enerjisi uygulamalarını doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Işığı elektriğe dönüştürür",
+        "Güneşin ısısından yararlanılır"
+      ],
+      "cards": [
+        {
+          "t": "Güneş paneli",
+          "b": 0
+        },
+        {
+          "t": "Güneş enerjili sokak lambası",
+          "b": 0
+        },
+        {
+          "t": "Seradaki sıcaklık",
+          "b": 1
+        },
+        {
+          "t": "Suyu buharlaştırarak arıtma",
+          "b": 1
+        },
+        {
+          "t": "Uzay aracı paneli",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Adanın enerji planı: Güneş enerjisi uygulamalarını doğru bölmeye yerleştir. Bölmeler: Işığı elektriğe dönüştürür / Güneşin ısısından yararlanılır. Kartlar: Güneş paneli | Güneş enerjili sokak lambası | Seradaki sıcaklık | Suyu buharlaştırarak arıtma | Uzay aracı paneli",
+    "correctAnswer": "Işığı elektriğe dönüştürür: Güneş paneli, Güneş enerjili sokak lambası, Uzay aracı paneli | Güneşin ısısından yararlanılır: Seradaki sıcaklık, Suyu buharlaştırarak arıtma",
+    "explanation": "Güneş panelleri güneş ışığını doğrudan elektrik enerjisine dönüştürür; evlerde, sokak lambalarında ve uzay araçlarında kullanılır. Seralarda bitkiler için gerekli sıcaklık sağlanır, suyu buharlaştırarak arıtmada da güneşin ısısından yararlanılır.",
+    "questionId": "fen6u4-sogurma-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 159, 178",
+    "difficulty": "zor",
+    "group": "sogurma",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Fener müzesi: Katkı kartlarını doğru bilim insanının vitrinine yerleştir.",
+    "data": {
+      "bins": [
+        "İbnülheysem",
+        "Kemaleddin el Farisi",
+        "Isaac Newton"
+      ],
+      "cards": [
+        {
+          "t": "Yansıma kanunlarını geometrik yöntemlerle kanıtladı",
+          "b": 0
+        },
+        {
+          "t": "Gökkuşağının oluşumunu cam küre deneyiyle açıkladı",
+          "b": 1
+        },
+        {
+          "t": "Prizmayla güneş ışığının renklerden oluştuğunu gösterdi",
+          "b": 2
+        },
+        {
+          "t": "Camera obscura üzerinde matematiksel inceleme yaptı",
+          "b": 0
+        },
+        {
+          "t": "Renklerden yeniden beyaz ışık elde etti",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Fener müzesi: Katkı kartlarını doğru bilim insanının vitrinine yerleştir. Bölmeler: İbnülheysem / Kemaleddin el Farisi / Isaac Newton. Kartlar: Yansıma kanunlarını geometrik yöntemlerle kanıtladı | Gökkuşağının oluşumunu cam küre deneyiyle açıkladı | Prizmayla güneş ışığının renklerden oluştuğunu gösterdi | Camera obscura üzerinde matematiksel inceleme yaptı | Renklerden yeniden beyaz ışık elde etti",
+    "correctAnswer": "İbnülheysem: Yansıma kanunlarını geometrik yöntemlerle kanıtladı, Camera obscura üzerinde matematiksel inceleme yaptı | Kemaleddin el Farisi: Gökkuşağının oluşumunu cam küre deneyiyle açıkladı | Isaac Newton: Prizmayla güneş ışığının renklerden oluştuğunu gösterdi, Renklerden yeniden beyaz ışık elde etti",
+    "explanation": "İbnülheysem yansıma kanunlarını belirledi ve camera obscurayı matematiksel olarak inceledi. Farisi gökkuşağının oluşumunu cam küre düzeneğiyle açıkladı. Newton prizmayla güneş ışığının renklerden oluştuğunu gösterdi, mercekle renklerden yeniden beyaz ışık elde etti.",
+    "questionId": "fen6u4-sogurma-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 177",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Siyah duvarlı koridor: Her cisim, verilen ışıkta kendi renginde görülür mü? Kodlama kartlarını doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Görülür (1)",
+        "Görülmez (0)"
+      ],
+      "cards": [
+        {
+          "t": "Kırmızı ışıkta kırmızı şapka",
+          "b": 0
+        },
+        {
+          "t": "Kırmızı ışıkta yeşil ayakkabı",
+          "b": 1
+        },
+        {
+          "t": "Yeşil ışıkta yeşil ayakkabı",
+          "b": 0
+        },
+        {
+          "t": "Mavi ışıkta kırmızı şapka",
+          "b": 1
+        },
+        {
+          "t": "Mavi ışıkta mavi top",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Siyah duvarlı koridor: Her cisim, verilen ışıkta kendi renginde görülür mü? Kodlama kartlarını doğru bölmeye yerleştir. Bölmeler: Görülür (1) / Görülmez (0). Kartlar: Kırmızı ışıkta kırmızı şapka | Kırmızı ışıkta yeşil ayakkabı | Yeşil ışıkta yeşil ayakkabı | Mavi ışıkta kırmızı şapka | Mavi ışıkta mavi top",
+    "correctAnswer": "Görülür (1): Kırmızı ışıkta kırmızı şapka, Yeşil ışıkta yeşil ayakkabı, Mavi ışıkta mavi top | Görülmez (0): Kırmızı ışıkta yeşil ayakkabı, Mavi ışıkta kırmızı şapka",
+    "explanation": "Cisimler yansıttığı ışığın renginde görünür. Beyaz cisim üzerine gelen bütün renkleri yansıtır, siyah cisim hepsini soğurur. Ana renklerden birindeki cisme kendi renginde ışık gönderilirse o rengi yansıtır; farklı bir ana renkte ışık gönderilirse ışığı soğurur ve siyah görünür. Siyah görünen cisim siyah duvarlı koridorda fark edilmez.",
+    "questionId": "fen6u4-renk-26"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 149, 180",
+    "difficulty": "kolay",
+    "group": "kanun",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Yansıma Kuralları atölyesi: Işın aynaya normal ile 50° açıyla geldi. Gelen ışın ile yansıyan ışın arasındaki açı kaç derecedir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 50,
+      "op": "+",
+      "b": 50,
+      "ans": 100,
+      "unit": "°"
+    },
+    "textPlain": "Yansıma Kuralları atölyesi: Işın aynaya normal ile 50° açıyla geldi. Gelen ışın ile yansıyan ışın arasındaki açı kaç derecedir? Sayı çarklarıyla gir! İşlem: 50 + 50",
+    "correctAnswer": "100 °",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. 50° + 50° = 100°.",
+    "questionId": "fen6u4-kanun-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 149–150",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Işın, ayna yüzeyi ile 25° açı yapıyor. Gelme açısı kaç derecedir? (Normal aynaya diktir.) Sayı çarklarıyla gir!",
+    "data": {
+      "a": 90,
+      "op": "−",
+      "b": 25,
+      "ans": 65,
+      "unit": "°"
+    },
+    "textPlain": "Işın, ayna yüzeyi ile 25° açı yapıyor. Gelme açısı kaç derecedir? (Normal aynaya diktir.) Sayı çarklarıyla gir! İşlem: 90 − 25",
+    "correctAnswer": "65 °",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. Normal ile ayna arasında 90° vardır: 90° − 25° = 65°.",
+    "questionId": "fen6u4-kanun-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 149",
+    "difficulty": "zor",
+    "group": "kanun",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Gelen ışın ile yansıyan ışın arasındaki açı 120°. Yansıma açısı kaç derecedir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 120,
+      "op": "÷",
+      "b": 2,
+      "ans": 60,
+      "unit": "°"
+    },
+    "textPlain": "Gelen ışın ile yansıyan ışın arasındaki açı 120°. Yansıma açısı kaç derecedir? Sayı çarklarıyla gir! İşlem: 120 ÷ 2",
+    "correctAnswer": "60 °",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. Gelme ve yansıma açıları eşit olduğundan 120° ÷ 2 = 60°.",
+    "questionId": "fen6u4-kanun-21"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Gelen ışın, yansıyan ışın, yüzey normali ve yansıma kanunları",
+    "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 150",
+    "difficulty": "orta",
+    "group": "kanun",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Işın aynaya normal ile 52° açıyla geliyor. Gelen ve yansıyan ışın arasındaki açı kaç derecedir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 52,
+      "op": "+",
+      "b": 52,
+      "ans": 104,
+      "unit": "°"
+    },
+    "textPlain": "Işın aynaya normal ile 52° açıyla geliyor. Gelen ve yansıyan ışın arasındaki açı kaç derecedir? Sayı çarklarıyla gir! İşlem: 52 + 52",
+    "correctAnswer": "104 °",
+    "explanation": "Gelen ışın ile yüzey normali arasındaki açı gelme açısı, yansıyan ışın ile yüzey normali arasındaki açı yansıma açısıdır. Yansıma kanununa göre gelme açısı yansıma açısına eşittir; yüzeye dik gelen ışın kendi üzerinden geri yansır. 52° + 52° = 104°.",
+    "questionId": "fen6u4-kanun-22"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Siyah kutudaki termometre 20 °C’den 26 °C’ye çıktı. Sıcaklık kaç °C arttı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 26,
+      "op": "−",
+      "b": 20,
+      "ans": 6,
+      "unit": "°C"
+    },
+    "textPlain": "Siyah kutudaki termometre 20 °C’den 26 °C’ye çıktı. Sıcaklık kaç °C arttı? Sayı çarklarıyla gir! İşlem: 26 − 20",
+    "correctAnswer": "6 °C",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır. 26 − 20 = 6 °C.",
+    "questionId": "fen6u4-sogurma-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "orta",
+    "group": "sogurma",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Güneşte bekletilen kırmızı kutu 23 °C, beyaz kutu 21 °C oldu. Kırmızı kutu beyaz kutudan kaç °C daha sıcak? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 23,
+      "op": "−",
+      "b": 21,
+      "ans": 2,
+      "unit": "°C"
+    },
+    "textPlain": "Güneşte bekletilen kırmızı kutu 23 °C, beyaz kutu 21 °C oldu. Kırmızı kutu beyaz kutudan kaç °C daha sıcak? Sayı çarklarıyla gir! İşlem: 23 − 21",
+    "correctAnswer": "2 °C",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır. 23 − 21 = 2 °C.",
+    "questionId": "fen6u4-sogurma-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 178",
+    "difficulty": "zor",
+    "group": "sogurma",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Prizma deneyiyle beyaz ışığın renklerden oluştuğunu gösteren Isaac Newton 1643’te doğdu, 1727’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1727,
+      "op": "−",
+      "b": 1643,
+      "ans": 84,
+      "unit": "yıl"
+    },
+    "textPlain": "Prizma deneyiyle beyaz ışığın renklerden oluştuğunu gösteren Isaac Newton 1643’te doğdu, 1727’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1727 − 1643",
+    "correctAnswer": "84 yıl",
+    "explanation": "1727 − 1643 = 84 yıl. Newton, güneş ışığını prizmadan geçirerek “Güneş ışığı farklı renklerden oluşur.” çıkarımını yapmıştır.",
+    "questionId": "fen6u4-sogurma-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 159, 178",
+    "difficulty": "orta",
+    "group": "ayna",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Yansıma kanunlarını aynalarla deneysel olarak inceleyen İbnülheysem 965’te doğdu, 1040’ta öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1040,
+      "op": "−",
+      "b": 965,
+      "ans": 75,
+      "unit": "yıl"
+    },
+    "textPlain": "Yansıma kanunlarını aynalarla deneysel olarak inceleyen İbnülheysem 965’te doğdu, 1040’ta öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1040 − 965",
+    "correctAnswer": "75 yıl",
+    "explanation": "1040 − 965 = 75 yıl. İbnülheysem ışığın düz ve küresel aynalarda nasıl yansıdığını deneysel olarak incelemiş, yansıma kanununu geometrik yöntemlerle kanıtlamıştır.",
+    "questionId": "fen6u4-ayna-21"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düz, çukur ve tümsek aynalar",
+    "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156",
+    "difficulty": "zor",
+    "group": "ayna",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Bir gemi düz aynanın 40 cm önünde duruyor. Gemi ile aynadaki görüntüsü arasındaki uzaklık kaç cm’dir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2,
+      "op": "×",
+      "b": 40,
+      "ans": 80,
+      "unit": "cm"
+    },
+    "textPlain": "Bir gemi düz aynanın 40 cm önünde duruyor. Gemi ile aynadaki görüntüsü arasındaki uzaklık kaç cm’dir? Sayı çarklarıyla gir! İşlem: 2 × 40",
+    "correctAnswer": "80 cm",
+    "explanation": "Düz aynada görüntünün aynaya uzaklığı ile cismin aynaya uzaklığı eşittir: görüntü de aynanın 40 cm arkasında görünür. 40 + 40 = 80 cm.",
+    "questionId": "fen6u4-ayna-22"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Beyaz ışık, renkler ve cisimlerin renkli görünmesi",
+    "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+    "difficulty": "zor",
+    "group": "renk",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Beyaz ışığı oluşturan renklerden kaç tanesi ana renk, kaç tanesi ara renktir? Ana ve ara renklerin toplam sayısını gir!",
+    "data": {
+      "a": 3,
+      "op": "+",
+      "b": 3,
+      "ans": 6,
+      "unit": "renk"
+    },
+    "textPlain": "Beyaz ışığı oluşturan renklerden kaç tanesi ana renk, kaç tanesi ara renktir? Ana ve ara renklerin toplam sayısını gir! İşlem: 3 + 3",
+    "correctAnswer": "6 renk",
+    "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir; sarı, magenta ve cyan ara renklerdir. Görsel 4.3.2’deki gibi kırmızı ve yeşil ışığın üst üste geldiği yerde sarı, kırmızı ve mavide magenta, yeşil ve mavide cyan, üçünün birleştiği yerde beyaz görünür.",
+    "questionId": "fen6u4-renk-27"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Paralel gelen ışınlar her yüzeyden nasıl yansır? Seç, sonra ışınları gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Halı",
+          "a": 1
+        },
+        {
+          "n": "Durgun su",
+          "a": 0
+        },
+        {
+          "n": "Buruşturulmuş folyo",
+          "a": 1
+        }
+      ],
+      "opts": [
+        "Paralel yansır",
+        "Dağılarak yansır"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Paralel gelen ışınlar her yüzeyden nasıl yansır? Seç, sonra ışınları gönder! Yüzeyler: Halı, Durgun su, Buruşturulmuş folyo. Seçenekler: Paralel yansır / Dağılarak yansır",
+    "correctAnswer": "Halı: Dağılarak yansır; Durgun su: Paralel yansır; Buruşturulmuş folyo: Dağılarak yansır",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "surface",
+    "prompt": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "n": "Ayna",
+          "a": 0
+        },
+        {
+          "n": "Dalgalı su",
+          "a": 1
+        },
+        {
+          "n": "Düz alüminyum folyo",
+          "a": 0
+        },
+        {
+          "n": "Çim",
+          "a": 1
+        }
+      ],
+      "opts": [
+        "Düzgün",
+        "Dağınık"
+      ]
+    },
+    "textPlain": "Yüzey test tezgâhı: Her yüzeyde hangi yansıma olur? Seçimini yap, sonra fenerin ışınlarını gönder! Yüzeyler: Ayna, Dalgalı su, Düz alüminyum folyo, Çim. Seçenekler: Düzgün / Dağınık",
+    "correctAnswer": "Ayna: Düzgün; Dalgalı su: Dağınık; Düz alüminyum folyo: Düzgün; Çim: Dağınık",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Düzgün ve dağınık yansıma; cisimlerin görülmesi",
+    "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 140, 143",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Fener bekçisi yüzeylere bakıyor: Yüzey kartlarını doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Net görüntü oluşur",
+        "Net görüntü oluşmaz"
+      ],
+      "cards": [
+        {
+          "t": "Ayna",
+          "b": 0
+        },
+        {
+          "t": "Buruşturulmuş folyo",
+          "b": 1
+        },
+        {
+          "t": "Durgun su",
+          "b": 0
+        },
+        {
+          "t": "Dalgalı su",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Fener bekçisi yüzeylere bakıyor: Yüzey kartlarını doğru bölmeye yerleştir. Bölmeler: Net görüntü oluşur / Net görüntü oluşmaz. Kartlar: Ayna | Buruşturulmuş folyo | Durgun su | Dalgalı su",
+    "correctAnswer": "Net görüntü oluşur: Ayna, Durgun su | Net görüntü oluşmaz: Buruşturulmuş folyo, Dalgalı su",
+    "explanation": "Ayna, durgun su ve düz folyo gibi düzgün ve parlak yüzeylere paralel gelen ışınlar yine paralel yansır; bu düzgün yansımadır ve net görüntü oluşur. Buruşturulmuş folyo, dalgalı su, çim ve halı gibi pürüzlü yüzeylerde ışınlar farklı doğrultularda yansır; bu dağınık yansımadır ve net görüntü oluşmaz.",
+    "questionId": "fen6u4-yansima-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "thermo",
+    "prompt": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç!",
+    "data": {
+      "items": [
+        "Siyah",
+        "Beyaz",
+        "Kırmızı"
+      ],
+      "order": [
+        "Siyah",
+        "Kırmızı",
+        "Beyaz"
+      ]
+    },
+    "textPlain": "Güneş tepsisi: Aynı maddeden kutular güneşte bekletilecek. En çok ısınacak kutudan en aza doğru kutulara sırayla dokun, sonra güneşi aç! Kutular: Siyah, Beyaz, Kırmızı",
+    "correctAnswer": "Siyah → Kırmızı → Beyaz",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 165",
+    "difficulty": "zor",
+    "group": "sogurma",
+    "rank": 3,
+    "type": "thermo",
+    "prompt": "Güneş tepsisi: En AZ ısınacak kutudan en çoka doğru sırayla dokun, sonra güneşi aç!",
+    "data": {
+      "items": [
+        "Mavi",
+        "Siyah",
+        "Beyaz"
+      ],
+      "order": [
+        "Beyaz",
+        "Mavi",
+        "Siyah"
+      ]
+    },
+    "textPlain": "Güneş tepsisi: En AZ ısınacak kutudan en çoka doğru sırayla dokun, sonra güneşi aç! Kutular: Mavi, Siyah, Beyaz",
+    "correctAnswer": "Beyaz → Mavi → Siyah",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 165–166",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "table",
+    "prompt": "Ölçüm tablosu: Kutular güneşte 1 saat bekletildi; ilk sıcaklıklar eşitti. Renk kartlarını son sıcaklıklara göre doğru satıra yerleştir, sonra kutuları aç!",
+    "data": {
+      "rows": [
+        [
+          22,
+          30
+        ],
+        [
+          22,
+          24
+        ]
+      ],
+      "ans": [
+        "Siyah",
+        "Beyaz"
+      ]
+    },
+    "textPlain": "Ölçüm tablosu: Kutular güneşte 1 saat bekletildi; ilk sıcaklıklar eşitti. Renk kartlarını son sıcaklıklara göre doğru satıra yerleştir, sonra kutuları aç! Satırlar: ilk 22 °C, son 30 °C; ilk 22 °C, son 24 °C",
+    "correctAnswer": "son 30 °C: Siyah; son 24 °C: Beyaz",
+    "explanation": "Işığın cisimler tarafından tutulmasına soğurulma denir; soğurulan ışık enerjisi ısı enerjisine dönüşür ve sıcaklık artar. Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur, açık renkli cisimler büyük kısmını yansıtır. Bu yüzden siyah en çok, beyaz en az ısınır.",
+    "questionId": "fen6u4-sogurma-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+    "topic": "Işığın soğurulması ve güneş enerjisi",
+    "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+    "difficulty": "kolay",
+    "group": "sogurma",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Işık geçer, yansır ya da soğurulur",
+        "Soğurulan ışığın etkisi"
+      ],
+      "cards": [
+        {
+          "t": "Işık bir maddeyle karşılaşır",
+          "b": 0
+        },
+        {
+          "t": "Işık enerjisi ısı enerjisine dönüşür",
+          "b": 1
+        },
+        {
+          "t": "Cismin sıcaklığı artar",
+          "b": 1
+        },
+        {
+          "t": "Işık maddeden geçebilir",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Işık geçer, yansır ya da soğurulur / Soğurulan ışığın etkisi. Kartlar: Işık bir maddeyle karşılaşır | Işık enerjisi ısı enerjisine dönüşür | Cismin sıcaklığı artar | Işık maddeden geçebilir",
+    "correctAnswer": "Işık geçer, yansır ya da soğurulur: Işık bir maddeyle karşılaşır, Işık maddeden geçebilir | Soğurulan ışığın etkisi: Işık enerjisi ısı enerjisine dönüşür, Cismin sıcaklığı artar",
+    "explanation": "Işık bir madde ile karşılaştığında maddeden geçebilir, yansıyabilir ya da soğurulabilir. Işığın soğurulmasıyla ışık enerjisi ısı enerjisine dönüşür ve cismin sıcaklığı artabilir.",
+    "questionId": "fen6u4-sogurma-18"
+  }
+]
