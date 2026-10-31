@@ -1,0 +1,4243 @@
+[
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "kolay",
+    "group": "ayrim",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "kagit",
+        "metal"
+      ],
+      "items": [
+        {
+          "n": "Kullanılmış kitap",
+          "e": "📚",
+          "b": "kagit"
+        },
+        {
+          "n": "Plastik gıda kabı",
+          "e": "🥡",
+          "b": "plastik"
+        },
+        {
+          "n": "Metal çatal",
+          "e": "🍴",
+          "b": "metal"
+        },
+        {
+          "n": "Kırılmamış cam şişe",
+          "e": "🍾",
+          "b": "cam"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Kâğıt, Metal] Atıklar: Kullanılmış kitap, Plastik gıda kabı, Metal çatal, Kırılmamış cam şişe",
+    "correctAnswer": "Kullanılmış kitap → Kâğıt | Plastik gıda kabı → Plastik | Metal çatal → Metal | Kırılmamış cam şişe → Cam",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "kolay",
+    "group": "ayrim",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "kagit",
+        "metal"
+      ],
+      "items": [
+        {
+          "n": "Kırılmamış cam bardak",
+          "e": "🥛",
+          "b": "cam"
+        },
+        {
+          "n": "Karton kutu",
+          "e": "📦",
+          "b": "kagit"
+        },
+        {
+          "n": "Boş deterjan kabı",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Kâğıt, Metal] Atıklar: Kırılmamış cam bardak, Karton kutu, Boş deterjan kabı, Alüminyum içecek kutusu",
+    "correctAnswer": "Kırılmamış cam bardak → Cam | Karton kutu → Kâğıt | Boş deterjan kabı → Plastik | Alüminyum içecek kutusu → Metal",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "kolay",
+    "group": "ayrim",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "kagit",
+        "metal",
+        "plastik"
+      ],
+      "items": [
+        {
+          "n": "Alüminyum folyo",
+          "e": "🪙",
+          "b": "metal"
+        },
+        {
+          "n": "Karton kutu",
+          "e": "📦",
+          "b": "kagit"
+        },
+        {
+          "n": "Boş deterjan kabı",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Konserve kutusu",
+          "e": "🥫",
+          "b": "metal"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Kâğıt, Metal, Plastik] Atıklar: Alüminyum folyo, Karton kutu, Boş deterjan kabı, Konserve kutusu",
+    "correctAnswer": "Alüminyum folyo → Metal | Karton kutu → Kâğıt | Boş deterjan kabı → Plastik | Konserve kutusu → Metal",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "kolay",
+    "group": "ayrim",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "cam",
+        "plastik",
+        "metal"
+      ],
+      "items": [
+        {
+          "n": "Alüminyum folyo",
+          "e": "🪙",
+          "b": "metal"
+        },
+        {
+          "n": "Plastik gıda kabı",
+          "e": "🥡",
+          "b": "plastik"
+        },
+        {
+          "n": "Kırılmamış cam şişe",
+          "e": "🍾",
+          "b": "cam"
+        },
+        {
+          "n": "Konserve kutusu",
+          "e": "🥫",
+          "b": "metal"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Cam, Plastik, Metal] Atıklar: Alüminyum folyo, Plastik gıda kabı, Kırılmamış cam şişe, Konserve kutusu",
+    "correctAnswer": "Alüminyum folyo → Metal | Plastik gıda kabı → Plastik | Kırılmamış cam şişe → Cam | Konserve kutusu → Metal",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "kagit",
+        "metal",
+        "pil"
+      ],
+      "items": [
+        {
+          "n": "Kullanılmış saat pili",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Biten kalem pil",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Konserve kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Kırılmamış cam bardak",
+          "e": "🥛",
+          "b": "cam"
+        },
+        {
+          "n": "Plastik gıda kabı",
+          "e": "🥡",
+          "b": "plastik"
+        },
+        {
+          "n": "Karton kutu",
+          "e": "📦",
+          "b": "kagit"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Kâğıt, Metal, Atık pil] Atıklar: Kullanılmış saat pili, Biten kalem pil, Konserve kutusu, Kırılmamış cam bardak, Plastik gıda kabı, Karton kutu",
+    "correctAnswer": "Kullanılmış saat pili → Atık pil | Biten kalem pil → Atık pil | Konserve kutusu → Metal | Kırılmamış cam bardak → Cam | Plastik gıda kabı → Plastik | Karton kutu → Kâğıt",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "kagit",
+        "metal",
+        "organik"
+      ],
+      "items": [
+        {
+          "n": "Besin artıkları",
+          "e": "🍲",
+          "b": "organik"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Plastik gıda kabı",
+          "e": "🥡",
+          "b": "plastik"
+        },
+        {
+          "n": "Boş deterjan kabı",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Çürümüş domates",
+          "e": "🍅",
+          "b": "organik"
+        },
+        {
+          "n": "Gazete",
+          "e": "📰",
+          "b": "kagit"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Kâğıt, Metal, Organik atık] Atıklar: Besin artıkları, Alüminyum içecek kutusu, Plastik gıda kabı, Boş deterjan kabı, Çürümüş domates, Gazete",
+    "correctAnswer": "Besin artıkları → Organik atık | Alüminyum içecek kutusu → Metal | Plastik gıda kabı → Plastik | Boş deterjan kabı → Plastik | Çürümüş domates → Organik atık | Gazete → Kâğıt",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "cam",
+        "kagit",
+        "pil",
+        "organik",
+        "plastik"
+      ],
+      "items": [
+        {
+          "n": "Turşu kavanozu",
+          "e": "🫙",
+          "b": "cam"
+        },
+        {
+          "n": "Küflenmiş ekmek",
+          "e": "🍞",
+          "b": "organik"
+        },
+        {
+          "n": "Boş deterjan kabı",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Kullanılmış saat pili",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Karton kutu",
+          "e": "📦",
+          "b": "kagit"
+        },
+        {
+          "n": "Boş şampuan kutusu",
+          "e": "🧴",
+          "b": "plastik"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Cam, Kâğıt, Atık pil, Organik atık, Plastik] Atıklar: Turşu kavanozu, Küflenmiş ekmek, Boş deterjan kabı, Kullanılmış saat pili, Karton kutu, Boş şampuan kutusu",
+    "correctAnswer": "Turşu kavanozu → Cam | Küflenmiş ekmek → Organik atık | Boş deterjan kabı → Plastik | Kullanılmış saat pili → Atık pil | Karton kutu → Kâğıt | Boş şampuan kutusu → Plastik",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "metal",
+        "yag"
+      ],
+      "items": [
+        {
+          "n": "Plastik bidon",
+          "e": "🪣",
+          "b": "plastik"
+        },
+        {
+          "n": "Kullanılmış kızartma yağı",
+          "e": "🫗",
+          "b": "yag"
+        },
+        {
+          "n": "Kırılmamış cam şişe",
+          "e": "🍾",
+          "b": "cam"
+        },
+        {
+          "n": "Maden suyu şişesi",
+          "e": "🍾",
+          "b": "cam"
+        },
+        {
+          "n": "Metal çatal",
+          "e": "🍴",
+          "b": "metal"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Metal, Atık yağ kumbarası] Atıklar: Plastik bidon, Kullanılmış kızartma yağı, Kırılmamış cam şişe, Maden suyu şişesi, Metal çatal",
+    "correctAnswer": "Plastik bidon → Plastik | Kullanılmış kızartma yağı → Atık yağ kumbarası | Kırılmamış cam şişe → Cam | Maden suyu şişesi → Cam | Metal çatal → Metal",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "kagit",
+        "cop",
+        "plastik",
+        "metal"
+      ],
+      "items": [
+        {
+          "n": "Mumlu kâğıt",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Boş pet şişe",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Eskimiş defter",
+          "e": "📓",
+          "b": "kagit"
+        },
+        {
+          "n": "Yağlanmış kâğıt",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Plastik bidon",
+          "e": "🪣",
+          "b": "plastik"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Kâğıt, Geri dönüştürülemeyen atık, Plastik, Metal] Atıklar: Mumlu kâğıt, Boş pet şişe, Eskimiş defter, Yağlanmış kâğıt, Alüminyum içecek kutusu, Plastik bidon",
+    "correctAnswer": "Mumlu kâğıt → Geri dönüştürülemeyen atık | Boş pet şişe → Plastik | Eskimiş defter → Kâğıt | Yağlanmış kâğıt → Geri dönüştürülemeyen atık | Alüminyum içecek kutusu → Metal | Plastik bidon → Plastik",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "kagit",
+        "metal",
+        "cop",
+        "organik"
+      ],
+      "items": [
+        {
+          "n": "Kuruyemiş kabukları",
+          "e": "🥜",
+          "b": "organik"
+        },
+        {
+          "n": "Kullanılmış kitap",
+          "e": "📚",
+          "b": "kagit"
+        },
+        {
+          "n": "Mumlu kâğıt",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Turşu kavanozu",
+          "e": "🫙",
+          "b": "cam"
+        },
+        {
+          "n": "Konserve kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Plastik bidon",
+          "e": "🪣",
+          "b": "plastik"
+        },
+        {
+          "n": "Plastik gıda kabı",
+          "e": "🥡",
+          "b": "plastik"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Kâğıt, Metal, Geri dönüştürülemeyen atık, Organik atık] Atıklar: Kuruyemiş kabukları, Kullanılmış kitap, Mumlu kâğıt, Turşu kavanozu, Konserve kutusu, Plastik bidon, Plastik gıda kabı",
+    "correctAnswer": "Kuruyemiş kabukları → Organik atık | Kullanılmış kitap → Kâğıt | Mumlu kâğıt → Geri dönüştürülemeyen atık | Turşu kavanozu → Cam | Konserve kutusu → Metal | Plastik bidon → Plastik | Plastik gıda kabı → Plastik",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "kagit",
+        "cop",
+        "pil",
+        "yag",
+        "metal",
+        "cam"
+      ],
+      "items": [
+        {
+          "n": "Kullanılmış kızartma yağı",
+          "e": "🫗",
+          "b": "yag"
+        },
+        {
+          "n": "Yapıştırma bandı",
+          "e": "🎞️",
+          "b": "cop"
+        },
+        {
+          "n": "Kırılmamış cam bardak",
+          "e": "🥛",
+          "b": "cam"
+        },
+        {
+          "n": "Kullanılmış saat pili",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Turşu kavanozu",
+          "e": "🫙",
+          "b": "cam"
+        },
+        {
+          "n": "Gazete",
+          "e": "📰",
+          "b": "kagit"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Kâğıt, Geri dönüştürülemeyen atık, Atık pil, Atık yağ kumbarası, Metal, Cam] Atıklar: Kullanılmış kızartma yağı, Yapıştırma bandı, Kırılmamış cam bardak, Kullanılmış saat pili, Turşu kavanozu, Gazete, Alüminyum içecek kutusu",
+    "correctAnswer": "Kullanılmış kızartma yağı → Atık yağ kumbarası | Yapıştırma bandı → Geri dönüştürülemeyen atık | Kırılmamış cam bardak → Cam | Kullanılmış saat pili → Atık pil | Turşu kavanozu → Cam | Gazete → Kâğıt | Alüminyum içecek kutusu → Metal",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cop",
+        "tibbi",
+        "organik",
+        "kagit",
+        "pil"
+      ],
+      "items": [
+        {
+          "n": "Besin artıkları",
+          "e": "🍲",
+          "b": "organik"
+        },
+        {
+          "n": "Karbon kâğıdı",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Biten kalem pil",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Kuruyemiş kabukları",
+          "e": "🥜",
+          "b": "organik"
+        },
+        {
+          "n": "Hastanede kullanılmış şırınga",
+          "e": "💉",
+          "b": "tibbi"
+        },
+        {
+          "n": "Eskimiş defter",
+          "e": "📓",
+          "b": "kagit"
+        },
+        {
+          "n": "Boş deterjan kabı",
+          "e": "🧴",
+          "b": "plastik"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Geri dönüştürülemeyen atık, Tıbbi atık toplama, Organik atık, Kâğıt, Atık pil] Atıklar: Besin artıkları, Karbon kâğıdı, Biten kalem pil, Kuruyemiş kabukları, Hastanede kullanılmış şırınga, Eskimiş defter, Boş deterjan kabı",
+    "correctAnswer": "Besin artıkları → Organik atık | Karbon kâğıdı → Geri dönüştürülemeyen atık | Biten kalem pil → Atık pil | Kuruyemiş kabukları → Organik atık | Hastanede kullanılmış şırınga → Tıbbi atık toplama | Eskimiş defter → Kâğıt | Boş deterjan kabı → Plastik",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "cam",
+        "metal",
+        "kagit",
+        "cop",
+        "yag",
+        "plastik"
+      ],
+      "items": [
+        {
+          "n": "Karton kutu",
+          "e": "📦",
+          "b": "kagit"
+        },
+        {
+          "n": "Turşu kavanozu",
+          "e": "🫙",
+          "b": "cam"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Kullanılmış kızartma yağı",
+          "e": "🫗",
+          "b": "yag"
+        },
+        {
+          "n": "Yapıştırma bandı",
+          "e": "🎞️",
+          "b": "cop"
+        },
+        {
+          "n": "Şişe kapağı",
+          "e": "🔘",
+          "b": "plastik"
+        },
+        {
+          "n": "Alüminyum folyo",
+          "e": "🪙",
+          "b": "metal"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Cam, Metal, Kâğıt, Geri dönüştürülemeyen atık, Atık yağ kumbarası, Plastik] Atıklar: Karton kutu, Turşu kavanozu, Alüminyum içecek kutusu, Kullanılmış kızartma yağı, Yapıştırma bandı, Şişe kapağı, Alüminyum folyo",
+    "correctAnswer": "Karton kutu → Kâğıt | Turşu kavanozu → Cam | Alüminyum içecek kutusu → Metal | Kullanılmış kızartma yağı → Atık yağ kumbarası | Yapıştırma bandı → Geri dönüştürülemeyen atık | Şişe kapağı → Plastik | Alüminyum folyo → Metal",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141",
+    "difficulty": "kolay",
+    "group": "ayrim",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Plastik kutusu",
+        "Cam kutusu"
+      ],
+      "cards": [
+        {
+          "t": "Boş pet şişe",
+          "b": 0
+        },
+        {
+          "t": "Turşu kavanozu",
+          "b": 1
+        },
+        {
+          "t": "Plastik kova",
+          "b": 0
+        },
+        {
+          "t": "Kırılmamış cam tabak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Plastik kutusu / Cam kutusu. Kartlar: Boş pet şişe | Turşu kavanozu | Plastik kova | Kırılmamış cam tabak",
+    "correctAnswer": "Plastik kutusu: Boş pet şişe, Plastik kova | Cam kutusu: Turşu kavanozu, Kırılmamış cam tabak",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140, 159",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Ayrıştırmanın faydası",
+        "Ayrıştırmamanın sonucu"
+      ],
+      "cards": [
+        {
+          "t": "Atıklar birbirini kirletmez",
+          "b": 0
+        },
+        {
+          "t": "Geri dönüşüm süreci uzar",
+          "b": 1
+        },
+        {
+          "t": "Daha az iş gücü ve enerji harcanır",
+          "b": 0
+        },
+        {
+          "t": "Bazı atıkların geri dönüşümü zorlaşır",
+          "b": 1
+        },
+        {
+          "t": "Geri dönüşüm daha kolay ve ekonomik olur",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru kasaya koy. Kasalar: Ayrıştırmanın faydası / Ayrıştırmamanın sonucu. Kartlar: Atıklar birbirini kirletmez | Geri dönüşüm süreci uzar | Daha az iş gücü ve enerji harcanır | Bazı atıkların geri dönüşümü zorlaşır | Geri dönüşüm daha kolay ve ekonomik olur",
+    "correctAnswer": "Ayrıştırmanın faydası: Atıklar birbirini kirletmez, Daha az iş gücü ve enerji harcanır, Geri dönüşüm daha kolay ve ekonomik olur | Ayrıştırmamanın sonucu: Geri dönüşüm süreci uzar, Bazı atıkların geri dönüşümü zorlaşır",
+    "explanation": "Gruplara ayrılmayan atıklar birbirini kirletebilir, geri dönüşümü zorlaşır; ayrıştırılmadan atılan atıklar sürecin uzamasına, daha çok iş gücü ve enerji harcanmasına neden olur. Atıklar kaynağında ayrıştırılınca geri dönüşüm daha kolay ve ekonomik olur.",
+    "questionId": "fen5u7-ayrim-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Özel atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Pil toplama kutusu",
+        "Atık yağ toplama noktası",
+        "Tıbbi atık toplama"
+      ],
+      "cards": [
+        {
+          "t": "Biten kalem pil",
+          "b": 0
+        },
+        {
+          "t": "Kızartmadan kalan yağ",
+          "b": 1
+        },
+        {
+          "t": "Hastanede kullanılmış sargı bezi",
+          "b": 2
+        },
+        {
+          "t": "Zedelenmiş pil (güvenlik önlemi alınarak)",
+          "b": 0
+        },
+        {
+          "t": "Sızdırmaz kapta biriktirilen bitkisel yağ",
+          "b": 1
+        },
+        {
+          "t": "Kullanılmış şırınga",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Özel atıkları doğru kasaya koy. Kasalar: Pil toplama kutusu / Atık yağ toplama noktası / Tıbbi atık toplama. Kartlar: Biten kalem pil | Kızartmadan kalan yağ | Hastanede kullanılmış sargı bezi | Zedelenmiş pil (güvenlik önlemi alınarak) | Sızdırmaz kapta biriktirilen bitkisel yağ | Kullanılmış şırınga",
+    "correctAnswer": "Pil toplama kutusu: Biten kalem pil, Zedelenmiş pil (güvenlik önlemi alınarak) | Atık yağ toplama noktası: Kızartmadan kalan yağ, Sızdırmaz kapta biriktirilen bitkisel yağ | Tıbbi atık toplama: Hastanede kullanılmış sargı bezi, Kullanılmış şırınga",
+    "explanation": "Atık piller pil toplama kutularına atılır, böylece zehirli maddelerin suya ve toprağa karışması önlenir. Atık yağlar lavaboya dökülmez, sızdırmaz kapta biriktirilip toplama noktalarına götürülür. Tıbbi atıklar dikkatle toplanıp özel alanlarda imha edilir.",
+    "questionId": "fen5u7-ayrim-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Özel atıklar bandında! Her atığı doğru yere gönder, sonra denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "pil",
+        "yag",
+        "tibbi",
+        "cop"
+      ],
+      "items": [
+        {
+          "n": "Kumandadan çıkan biten pil",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Tavada kalan kızartma yağı",
+          "e": "🫗",
+          "b": "yag"
+        },
+        {
+          "n": "Kullanılmış kâğıt havlu",
+          "e": "🧻",
+          "b": "cop"
+        },
+        {
+          "n": "Hastanede kullanılmış şırınga",
+          "e": "💉",
+          "b": "tibbi"
+        }
+      ]
+    },
+    "textPlain": "Özel atıklar bandında! Her atığı doğru yere gönder, sonra denetçi robotu çalıştır. [Yerler: Atık pil, Atık yağ kumbarası, Tıbbi atık toplama, Geri dönüştürülemeyen atık] Atıklar: Kumandadan çıkan biten pil, Tavada kalan kızartma yağı, Kullanılmış kâğıt havlu, Hastanede kullanılmış şırınga",
+    "correctAnswer": "Kumandadan çıkan biten pil → Atık pil | Tavada kalan kızartma yağı → Atık yağ kumbarası | Kullanılmış kâğıt havlu → Geri dönüştürülemeyen atık | Hastanede kullanılmış şırınga → Tıbbi atık toplama",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Özel atıklar bandında! Her atığı doğru yere gönder, sonra denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "pil",
+        "yag",
+        "tibbi",
+        "cop"
+      ],
+      "items": [
+        {
+          "n": "Duvar kâğıdı artığı",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Saat pili",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Kızartma yağı",
+          "e": "🫗",
+          "b": "yag"
+        },
+        {
+          "n": "Karbon kâğıdı",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Kullanılmış sargı bezi (hastane)",
+          "e": "🩹",
+          "b": "tibbi"
+        }
+      ]
+    },
+    "textPlain": "Özel atıklar bandında! Her atığı doğru yere gönder, sonra denetçi robotu çalıştır. [Yerler: Atık pil, Atık yağ kumbarası, Tıbbi atık toplama, Geri dönüştürülemeyen atık] Atıklar: Duvar kâğıdı artığı, Saat pili, Kızartma yağı, Karbon kâğıdı, Kullanılmış sargı bezi (hastane)",
+    "correctAnswer": "Duvar kâğıdı artığı → Geri dönüştürülemeyen atık | Saat pili → Atık pil | Kızartma yağı → Atık yağ kumbarası | Karbon kâğıdı → Geri dönüştürülemeyen atık | Kullanılmış sargı bezi (hastane) → Tıbbi atık toplama",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 138–140",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüştürülebilir",
+        "Geri dönüştürülemez"
+      ],
+      "cards": [
+        {
+          "t": "Alüminyum içecek kutusu",
+          "b": 0
+        },
+        {
+          "t": "Çürümüş domates",
+          "b": 1
+        },
+        {
+          "t": "Cam şişe",
+          "b": 0
+        },
+        {
+          "t": "Küflenmiş ekmek",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Geri dönüştürülebilir / Geri dönüştürülemez. Kartlar: Alüminyum içecek kutusu | Çürümüş domates | Cam şişe | Küflenmiş ekmek",
+    "correctAnswer": "Geri dönüştürülebilir: Alüminyum içecek kutusu, Cam şişe | Geri dönüştürülemez: Çürümüş domates, Küflenmiş ekmek",
+    "explanation": "Kitap, defter, gazete, karton, metal kutular, pet şişe, cam şişe ve kavanoz, kumaş parçaları ve atık piller geri dönüşüme kazandırılabilir. Çürümüş ve bozuk yiyecekler, küflenmiş ekmek, kömür külü, kâğıt havlu, tuvalet kâğıdı, yağlanmış kâğıt, karbon kâğıdı, duvar kâğıdı, yapıştırma bandı, mumlu kâğıt, boya, deodorant ve motor yağı kutuları geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüştürülebilir",
+        "Geri dönüştürülemez"
+      ],
+      "cards": [
+        {
+          "t": "Gazete",
+          "b": 0
+        },
+        {
+          "t": "Kömür külü",
+          "b": 1
+        },
+        {
+          "t": "Eskimiş defter",
+          "b": 0
+        },
+        {
+          "t": "Bozulmuş süt",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Geri dönüştürülebilir / Geri dönüştürülemez. Kartlar: Gazete | Kömür külü | Eskimiş defter | Bozulmuş süt",
+    "correctAnswer": "Geri dönüştürülebilir: Gazete, Eskimiş defter | Geri dönüştürülemez: Kömür külü, Bozulmuş süt",
+    "explanation": "Kitap, defter, gazete, karton, metal kutular, pet şişe, cam şişe ve kavanoz, kumaş parçaları ve atık piller geri dönüşüme kazandırılabilir. Çürümüş ve bozuk yiyecekler, küflenmiş ekmek, kömür külü, kâğıt havlu, tuvalet kâğıdı, yağlanmış kâğıt, karbon kâğıdı, duvar kâğıdı, yapıştırma bandı, mumlu kâğıt, boya, deodorant ve motor yağı kutuları geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 138, 142",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüştürülebilir",
+        "Geri dönüştürülemez"
+      ],
+      "cards": [
+        {
+          "t": "Kullanılmış maden suyu şişesi",
+          "b": 0
+        },
+        {
+          "t": "Kâğıt havlu",
+          "b": 1
+        },
+        {
+          "t": "Kumaş parçaları",
+          "b": 0
+        },
+        {
+          "t": "Yapıştırma bandı",
+          "b": 1
+        },
+        {
+          "t": "Plastik deterjan kabı",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Geri dönüştürülebilir / Geri dönüştürülemez. Kartlar: Kullanılmış maden suyu şişesi | Kâğıt havlu | Kumaş parçaları | Yapıştırma bandı | Plastik deterjan kabı",
+    "correctAnswer": "Geri dönüştürülebilir: Kullanılmış maden suyu şişesi, Kumaş parçaları, Plastik deterjan kabı | Geri dönüştürülemez: Kâğıt havlu, Yapıştırma bandı",
+    "explanation": "Kitap, defter, gazete, karton, metal kutular, pet şişe, cam şişe ve kavanoz, kumaş parçaları ve atık piller geri dönüşüme kazandırılabilir. Çürümüş ve bozuk yiyecekler, küflenmiş ekmek, kömür külü, kâğıt havlu, tuvalet kâğıdı, yağlanmış kâğıt, karbon kâğıdı, duvar kâğıdı, yapıştırma bandı, mumlu kâğıt, boya, deodorant ve motor yağı kutuları geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140, 142",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüştürülebilir",
+        "Geri dönüştürülemez"
+      ],
+      "cards": [
+        {
+          "t": "Eskimiş battaniye",
+          "b": 0
+        },
+        {
+          "t": "Mumlu kâğıt",
+          "b": 1
+        },
+        {
+          "t": "Araba aküsü",
+          "b": 0
+        },
+        {
+          "t": "Duvar kâğıdı",
+          "b": 1
+        },
+        {
+          "t": "Karton kutu",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Geri dönüştürülebilir / Geri dönüştürülemez. Kartlar: Eskimiş battaniye | Mumlu kâğıt | Araba aküsü | Duvar kâğıdı | Karton kutu",
+    "correctAnswer": "Geri dönüştürülebilir: Eskimiş battaniye, Araba aküsü, Karton kutu | Geri dönüştürülemez: Mumlu kâğıt, Duvar kâğıdı",
+    "explanation": "Kitap, defter, gazete, karton, metal kutular, pet şişe, cam şişe ve kavanoz, kumaş parçaları ve atık piller geri dönüşüme kazandırılabilir. Çürümüş ve bozuk yiyecekler, küflenmiş ekmek, kömür külü, kâğıt havlu, tuvalet kâğıdı, yağlanmış kâğıt, karbon kâğıdı, duvar kâğıdı, yapıştırma bandı, mumlu kâğıt, boya, deodorant ve motor yağı kutuları geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–142",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüştürülebilir",
+        "Geri dönüştürülemez"
+      ],
+      "cards": [
+        {
+          "t": "Yağlanmış kâğıt",
+          "b": 1
+        },
+        {
+          "t": "Kullanılmış kitap",
+          "b": 0
+        },
+        {
+          "t": "Motor yağı kutusu",
+          "b": 1
+        },
+        {
+          "t": "Atık pil",
+          "b": 0
+        },
+        {
+          "t": "Deodorant kutusu",
+          "b": 1
+        },
+        {
+          "t": "Turşu kavanozu",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Geri dönüştürülebilir / Geri dönüştürülemez. Kartlar: Yağlanmış kâğıt | Kullanılmış kitap | Motor yağı kutusu | Atık pil | Deodorant kutusu | Turşu kavanozu",
+    "correctAnswer": "Geri dönüştürülebilir: Kullanılmış kitap, Atık pil, Turşu kavanozu | Geri dönüştürülemez: Yağlanmış kâğıt, Motor yağı kutusu, Deodorant kutusu",
+    "explanation": "Kitap, defter, gazete, karton, metal kutular, pet şişe, cam şişe ve kavanoz, kumaş parçaları ve atık piller geri dönüşüme kazandırılabilir. Çürümüş ve bozuk yiyecekler, küflenmiş ekmek, kömür külü, kâğıt havlu, tuvalet kâğıdı, yağlanmış kâğıt, karbon kâğıdı, duvar kâğıdı, yapıştırma bandı, mumlu kâğıt, boya, deodorant ve motor yağı kutuları geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Evsel atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Katı atık",
+        "Sıvı atık"
+      ],
+      "cards": [
+        {
+          "t": "Plastik şişe",
+          "b": 0
+        },
+        {
+          "t": "Deterjanlı su",
+          "b": 1
+        },
+        {
+          "t": "Kâğıt parçaları",
+          "b": 0
+        },
+        {
+          "t": "Kullanılmış sıvı yağ",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Evsel atıkları doğru kasaya koy. Kasalar: Katı atık / Sıvı atık. Kartlar: Plastik şişe | Deterjanlı su | Kâğıt parçaları | Kullanılmış sıvı yağ",
+    "correctAnswer": "Katı atık: Plastik şişe, Kâğıt parçaları | Sıvı atık: Deterjanlı su, Kullanılmış sıvı yağ",
+    "explanation": "Evsel atıklar katı ve sıvı atıklar olarak ikiye ayrılır. Sıvı atıklar deterjanlı su ve sıvı yağ gibi maddelerdir; katı atıklar plastik, cam, metal, kâğıt, kumaş parçaları, besin artıkları ve bozuk gıdalardır.",
+    "questionId": "fen5u7-atik-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Evsel atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Katı atık",
+        "Sıvı atık"
+      ],
+      "cards": [
+        {
+          "t": "Besin artıkları",
+          "b": 0
+        },
+        {
+          "t": "Bulaşık suyu (deterjanlı)",
+          "b": 1
+        },
+        {
+          "t": "Kumaş parçaları",
+          "b": 0
+        },
+        {
+          "t": "Kızartma yağı",
+          "b": 1
+        },
+        {
+          "t": "Metal konserve kutusu",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Evsel atıkları doğru kasaya koy. Kasalar: Katı atık / Sıvı atık. Kartlar: Besin artıkları | Bulaşık suyu (deterjanlı) | Kumaş parçaları | Kızartma yağı | Metal konserve kutusu",
+    "correctAnswer": "Katı atık: Besin artıkları, Kumaş parçaları, Metal konserve kutusu | Sıvı atık: Bulaşık suyu (deterjanlı), Kızartma yağı",
+    "explanation": "Evsel atıklar katı ve sıvı atıklar olarak ikiye ayrılır. Sıvı atıklar deterjanlı su ve sıvı yağ gibi maddelerdir; katı atıklar plastik, cam, metal, kâğıt, kumaş parçaları, besin artıkları ve bozuk gıdalardır.",
+    "questionId": "fen5u7-atik-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140, 142, 160",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kavramları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Evsel atık",
+        "Çöp",
+        "Tıbbi atık"
+      ],
+      "cards": [
+        {
+          "t": "Evde oluşan, ihtiyaç duyulmayan her madde",
+          "b": 0
+        },
+        {
+          "t": "Geri dönüştürülemeyip kullanılamayan kısım",
+          "b": 1
+        },
+        {
+          "t": "Hastanede kullanılmış ilaç ve sargı bezi",
+          "b": 2
+        },
+        {
+          "t": "Okulda ve restoranda oluşan atıklar",
+          "b": 0
+        },
+        {
+          "t": "Kâğıt havlu ve kömür külü gibi atıklar",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kavramları doğru kasaya koy. Kasalar: Evsel atık / Çöp / Tıbbi atık. Kartlar: Evde oluşan, ihtiyaç duyulmayan her madde | Geri dönüştürülemeyip kullanılamayan kısım | Hastanede kullanılmış ilaç ve sargı bezi | Okulda ve restoranda oluşan atıklar | Kâğıt havlu ve kömür külü gibi atıklar",
+    "correctAnswer": "Evsel atık: Evde oluşan, ihtiyaç duyulmayan her madde, Okulda ve restoranda oluşan atıklar | Çöp: Geri dönüştürülemeyip kullanılamayan kısım, Kâğıt havlu ve kömür külü gibi atıklar | Tıbbi atık: Hastanede kullanılmış ilaç ve sargı bezi",
+    "explanation": "Ev, okul, restoran gibi yaşam alanlarında ihtiyaç duyulmayan maddeler evsel atıktır; bunların geri dönüştürülemeyip kullanılamayan kısmına çöp denir. Hastane gibi yerlerde oluşan tıbbi atıklar özel olarak toplanıp imha edilir.",
+    "questionId": "fen5u7-atik-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Kâğıt kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "kagit",
+      "items": [
+        {
+          "n": "Karton kutu",
+          "ok": true
+        },
+        {
+          "n": "Yağlanmış kâğıt",
+          "ok": false
+        },
+        {
+          "n": "Gazete",
+          "ok": true
+        },
+        {
+          "n": "Eskimiş defter",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Kâğıt kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Kâğıt kutusundaki atıklar: Karton kutu, Yağlanmış kâğıt, Gazete, Eskimiş defter]",
+    "correctAnswer": "Çıkarılacaklar: Yağlanmış kâğıt",
+    "explanation": "Kâğıt kutusuna yalnız temiz ve kuru kâğıtlar (gazete, defter, karton, kitap) atılır. Yağlanmış kâğıt, kâğıt havlu, tuvalet kâğıdı, karbon kâğıdı, duvar kâğıdı ve mumlu kâğıt geri dönüştürülemez; kutudakileri de kirletir.",
+    "questionId": "fen5u7-atik-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Organik atık kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "organik",
+      "items": [
+        {
+          "n": "Elma kabuğu",
+          "ok": true
+        },
+        {
+          "n": "Besin artıkları",
+          "ok": true
+        },
+        {
+          "n": "Atık pil",
+          "ok": false
+        },
+        {
+          "n": "Çürümüş domates",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Organik atık kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Organik atık kutusundaki atıklar: Elma kabuğu, Besin artıkları, Atık pil, Çürümüş domates]",
+    "correctAnswer": "Çıkarılacaklar: Atık pil",
+    "explanation": "Organik atık kutusuna besin artıkları ve bozulmuş yiyecekler atılır. Pet şişe plastik, alüminyum kutu metal kutusuna, piller pil toplama kutusuna gider.",
+    "questionId": "fen5u7-atik-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Kâğıt kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "kagit",
+      "items": [
+        {
+          "n": "Duvar kâğıdı",
+          "ok": false
+        },
+        {
+          "n": "Gazete",
+          "ok": true
+        },
+        {
+          "n": "Karton kutu",
+          "ok": true
+        },
+        {
+          "n": "Eskimiş defter",
+          "ok": true
+        },
+        {
+          "n": "Yağlanmış kâğıt",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Kâğıt kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Kâğıt kutusundaki atıklar: Duvar kâğıdı, Gazete, Karton kutu, Eskimiş defter, Yağlanmış kâğıt]",
+    "correctAnswer": "Çıkarılacaklar: Yağlanmış kâğıt, Duvar kâğıdı",
+    "explanation": "Kâğıt kutusuna yalnız temiz ve kuru kâğıtlar (gazete, defter, karton, kitap) atılır. Yağlanmış kâğıt, kâğıt havlu, tuvalet kâğıdı, karbon kâğıdı, duvar kâğıdı ve mumlu kâğıt geri dönüştürülemez; kutudakileri de kirletir.",
+    "questionId": "fen5u7-atik-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Plastik kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "plastik",
+      "items": [
+        {
+          "n": "Boş pet şişe",
+          "ok": true
+        },
+        {
+          "n": "Motor yağı kutusu",
+          "ok": false
+        },
+        {
+          "n": "Plastik bidon",
+          "ok": true
+        },
+        {
+          "n": "Boya kutusu",
+          "ok": false
+        },
+        {
+          "n": "Şişe kapağı",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Plastik kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Plastik kutusundaki atıklar: Boş pet şişe, Motor yağı kutusu, Plastik bidon, Boya kutusu, Şişe kapağı]",
+    "correctAnswer": "Çıkarılacaklar: Boya kutusu, Motor yağı kutusu",
+    "explanation": "Plastik kutusuna şişe, bidon, kapak, kova ve gıda kapları atılır. Motor yağı ve boya kutuları geri dönüşüm kutularına atılmaz; tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-atik-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Metal kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "metal",
+      "items": [
+        {
+          "n": "Metal çatal",
+          "ok": true
+        },
+        {
+          "n": "Boya kutusu",
+          "ok": false
+        },
+        {
+          "n": "Konserve kutusu",
+          "ok": true
+        },
+        {
+          "n": "Kömür külü",
+          "ok": false
+        },
+        {
+          "n": "Alüminyum folyo",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Metal kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Metal kutusundaki atıklar: Metal çatal, Boya kutusu, Konserve kutusu, Kömür külü, Alüminyum folyo]",
+    "correctAnswer": "Çıkarılacaklar: Kömür külü, Boya kutusu",
+    "explanation": "Metal kutusuna folyo, kutu, çatal, bıçak gibi metaller atılır. Deodorant ve boya kutuları ile kömür külü geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Kâğıt kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "kagit",
+      "items": [
+        {
+          "n": "Duvar kâğıdı",
+          "ok": false
+        },
+        {
+          "n": "Eskimiş defter",
+          "ok": true
+        },
+        {
+          "n": "Karbon kâğıdı",
+          "ok": false
+        },
+        {
+          "n": "Karton kutu",
+          "ok": true
+        },
+        {
+          "n": "Mumlu kâğıt",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Kâğıt kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Kâğıt kutusundaki atıklar: Duvar kâğıdı, Eskimiş defter, Karbon kâğıdı, Karton kutu, Mumlu kâğıt]",
+    "correctAnswer": "Çıkarılacaklar: Duvar kâğıdı, Mumlu kâğıt, Karbon kâğıdı",
+    "explanation": "Kâğıt kutusuna yalnız temiz ve kuru kâğıtlar (gazete, defter, karton, kitap) atılır. Yağlanmış kâğıt, kâğıt havlu, tuvalet kâğıdı, karbon kâğıdı, duvar kâğıdı ve mumlu kâğıt geri dönüştürülemez; kutudakileri de kirletir.",
+    "questionId": "fen5u7-atik-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Cam kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "cam",
+      "items": [
+        {
+          "n": "Cam şişe",
+          "ok": true
+        },
+        {
+          "n": "Kırılmamış cam bardak",
+          "ok": true
+        },
+        {
+          "n": "Kâğıt havlu",
+          "ok": false
+        },
+        {
+          "n": "Pet şişe",
+          "ok": false
+        },
+        {
+          "n": "Turşu kavanozu",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Cam kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Cam kutusundaki atıklar: Cam şişe, Kırılmamış cam bardak, Kâğıt havlu, Pet şişe, Turşu kavanozu]",
+    "correctAnswer": "Çıkarılacaklar: Kâğıt havlu, Pet şişe",
+    "explanation": "Cam kutusuna kırılmamış şişe, kavanoz, bardak ve tabaklar atılır. Kırık camlar, kâğıt havlu ve plastik şişe cam kutusuna atılmaz.",
+    "questionId": "fen5u7-atik-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Plastik kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "plastik",
+      "items": [
+        {
+          "n": "Kullanılmış şırınga",
+          "ok": false
+        },
+        {
+          "n": "Boş pet şişe",
+          "ok": true
+        },
+        {
+          "n": "Plastik kova",
+          "ok": true
+        },
+        {
+          "n": "Boya kutusu",
+          "ok": false
+        },
+        {
+          "n": "Plastik bidon",
+          "ok": true
+        },
+        {
+          "n": "Motor yağı kutusu",
+          "ok": false
+        }
+      ]
+    },
+    "textPlain": "Plastik kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Plastik kutusundaki atıklar: Kullanılmış şırınga, Boş pet şişe, Plastik kova, Boya kutusu, Plastik bidon, Motor yağı kutusu]",
+    "correctAnswer": "Çıkarılacaklar: Motor yağı kutusu, Boya kutusu, Kullanılmış şırınga",
+    "explanation": "Plastik kutusuna şişe, bidon, kapak, kova ve gıda kapları atılır. Motor yağı ve boya kutuları geri dönüşüm kutularına atılmaz; tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-atik-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Eski kot pantolon",
+          "b": "Çanta",
+          "t": 1,
+          "ea": "👖",
+          "eb": "👜"
+        },
+        {
+          "a": "Kırık sandalye",
+          "b": "Onarılıp yine sandalye",
+          "t": 0,
+          "ea": "🪑",
+          "eb": "🪑"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Eski kot pantolon → Çanta | Kırık sandalye → Onarılıp yine sandalye]",
+    "correctAnswer": "Eski kot pantolon → Çanta: İleri dönüşüm | Kırık sandalye → Onarılıp yine sandalye: Yeniden kullanım",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Kullanılmış defter",
+          "b": "Tuvalet kâğıdı",
+          "t": 2,
+          "ea": "📓",
+          "eb": "🧻"
+        },
+        {
+          "a": "Cam şişe",
+          "b": "Yıkanıp yine içecek şişesi",
+          "t": 0,
+          "ea": "🍾",
+          "eb": "🍾"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Kullanılmış defter → Tuvalet kâğıdı | Cam şişe → Yıkanıp yine içecek şişesi]",
+    "correctAnswer": "Kullanılmış defter → Tuvalet kâğıdı: Geri dönüşüm | Cam şişe → Yıkanıp yine içecek şişesi: Yeniden kullanım",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Yoğurt kabı",
+          "b": "Çiçek saksısı",
+          "t": 1,
+          "ea": "🥛",
+          "eb": "🪴"
+        },
+        {
+          "a": "Alüminyum kutu",
+          "b": "Eritilip yeni kutu",
+          "t": 2,
+          "ea": "🥫",
+          "eb": "🥫"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Yoğurt kabı → Çiçek saksısı | Alüminyum kutu → Eritilip yeni kutu]",
+    "correctAnswer": "Yoğurt kabı → Çiçek saksısı: İleri dönüşüm | Alüminyum kutu → Eritilip yeni kutu: Geri dönüşüm",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Pet şişe",
+          "b": "Eritilip yeni plastik ürün",
+          "t": 2,
+          "ea": "🧴",
+          "eb": "🧺"
+        },
+        {
+          "a": "Pet şişe kapakları",
+          "b": "Duvar panosu (sanat eseri)",
+          "t": 1,
+          "ea": "🔘",
+          "eb": "🖼️"
+        },
+        {
+          "a": "Bez alışveriş torbası",
+          "b": "Her alışverişte yine torba",
+          "t": 0,
+          "ea": "🛍️",
+          "eb": "🛍️"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Pet şişe → Eritilip yeni plastik ürün | Pet şişe kapakları → Duvar panosu (sanat eseri) | Bez alışveriş torbası → Her alışverişte yine torba]",
+    "correctAnswer": "Pet şişe → Eritilip yeni plastik ürün: Geri dönüşüm | Pet şişe kapakları → Duvar panosu (sanat eseri): İleri dönüşüm | Bez alışveriş torbası → Her alışverişte yine torba: Yeniden kullanım",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Eski kumaş artıkları",
+          "b": "Saf pamuk",
+          "t": 2,
+          "ea": "🧵",
+          "eb": "☁️"
+        },
+        {
+          "a": "Kot pantolon",
+          "b": "Fırın eldiveni",
+          "t": 1,
+          "ea": "👖",
+          "eb": "🧤"
+        },
+        {
+          "a": "Reçel kavanozu",
+          "b": "Yine reçel kavanozu",
+          "t": 0,
+          "ea": "🫙",
+          "eb": "🫙"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Eski kumaş artıkları → Saf pamuk | Kot pantolon → Fırın eldiveni | Reçel kavanozu → Yine reçel kavanozu]",
+    "correctAnswer": "Eski kumaş artıkları → Saf pamuk: Geri dönüşüm | Kot pantolon → Fırın eldiveni: İleri dönüşüm | Reçel kavanozu → Yine reçel kavanozu: Yeniden kullanım",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Kâğıt havlu rulosu",
+          "b": "Kalemlik",
+          "t": 1,
+          "ea": "🧻",
+          "eb": "✏️"
+        },
+        {
+          "a": "Gazete",
+          "b": "Yeni kâğıt hamuru",
+          "t": 2,
+          "ea": "📰",
+          "eb": "📄"
+        },
+        {
+          "a": "Kırık sandalye",
+          "b": "Onarılıp yine sandalye",
+          "t": 0,
+          "ea": "🪑",
+          "eb": "🪑"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Kâğıt havlu rulosu → Kalemlik | Gazete → Yeni kâğıt hamuru | Kırık sandalye → Onarılıp yine sandalye]",
+    "correctAnswer": "Kâğıt havlu rulosu → Kalemlik: İleri dönüşüm | Gazete → Yeni kâğıt hamuru: Geri dönüşüm | Kırık sandalye → Onarılıp yine sandalye: Yeniden kullanım",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Eski kot pantolon",
+          "b": "Çanta",
+          "t": 1,
+          "ea": "👖",
+          "eb": "👜"
+        },
+        {
+          "a": "Kullanılmış defter",
+          "b": "Tuvalet kâğıdı",
+          "t": 2,
+          "ea": "📓",
+          "eb": "🧻"
+        },
+        {
+          "a": "Cam şişe",
+          "b": "Yıkanıp yine içecek şişesi",
+          "t": 0,
+          "ea": "🍾",
+          "eb": "🍾"
+        },
+        {
+          "a": "Pet şişe kapakları",
+          "b": "Duvar panosu (sanat eseri)",
+          "t": 1,
+          "ea": "🔘",
+          "eb": "🖼️"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Eski kot pantolon → Çanta | Kullanılmış defter → Tuvalet kâğıdı | Cam şişe → Yıkanıp yine içecek şişesi | Pet şişe kapakları → Duvar panosu (sanat eseri)]",
+    "correctAnswer": "Eski kot pantolon → Çanta: İleri dönüşüm | Kullanılmış defter → Tuvalet kâğıdı: Geri dönüşüm | Cam şişe → Yıkanıp yine içecek şişesi: Yeniden kullanım | Pet şişe kapakları → Duvar panosu (sanat eseri): İleri dönüşüm",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Eski kumaş artıkları",
+          "b": "Saf pamuk",
+          "t": 2,
+          "ea": "🧵",
+          "eb": "☁️"
+        },
+        {
+          "a": "Yoğurt kabı",
+          "b": "Çiçek saksısı",
+          "t": 1,
+          "ea": "🥛",
+          "eb": "🪴"
+        },
+        {
+          "a": "Bez alışveriş torbası",
+          "b": "Her alışverişte yine torba",
+          "t": 0,
+          "ea": "🛍️",
+          "eb": "🛍️"
+        },
+        {
+          "a": "Alüminyum kutu",
+          "b": "Eritilip yeni kutu",
+          "t": 2,
+          "ea": "🥫",
+          "eb": "🥫"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Eski kumaş artıkları → Saf pamuk | Yoğurt kabı → Çiçek saksısı | Bez alışveriş torbası → Her alışverişte yine torba | Alüminyum kutu → Eritilip yeni kutu]",
+    "correctAnswer": "Eski kumaş artıkları → Saf pamuk: Geri dönüşüm | Yoğurt kabı → Çiçek saksısı: İleri dönüşüm | Bez alışveriş torbası → Her alışverişte yine torba: Yeniden kullanım | Alüminyum kutu → Eritilip yeni kutu: Geri dönüşüm",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Reçel kavanozu",
+          "b": "Yine reçel kavanozu",
+          "t": 0,
+          "ea": "🫙",
+          "eb": "🫙"
+        },
+        {
+          "a": "Pet şişe",
+          "b": "Eritilip yeni plastik ürün",
+          "t": 2,
+          "ea": "🧴",
+          "eb": "🧺"
+        },
+        {
+          "a": "Kot pantolon",
+          "b": "Fırın eldiveni",
+          "t": 1,
+          "ea": "👖",
+          "eb": "🧤"
+        },
+        {
+          "a": "Gazete",
+          "b": "Yeni kâğıt hamuru",
+          "t": 2,
+          "ea": "📰",
+          "eb": "📄"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Reçel kavanozu → Yine reçel kavanozu | Pet şişe → Eritilip yeni plastik ürün | Kot pantolon → Fırın eldiveni | Gazete → Yeni kâğıt hamuru]",
+    "correctAnswer": "Reçel kavanozu → Yine reçel kavanozu: Yeniden kullanım | Pet şişe → Eritilip yeni plastik ürün: Geri dönüşüm | Kot pantolon → Fırın eldiveni: İleri dönüşüm | Gazete → Yeni kâğıt hamuru: Geri dönüşüm",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 137, 158",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Geri dönüşüm hattını sırala: Kartlara doğru sırayla dokun, sonra hattı çalıştır!",
+    "data": {
+      "steps": [
+        "Atıklar toplanır",
+        "Atıklar türlerine göre ayrıştırılır",
+        "Ham maddeye dönüştürülür"
+      ],
+      "traps": []
+    },
+    "textPlain": "Geri dönüşüm hattını sırala: Kartlara doğru sırayla dokun, sonra hattı çalıştır! Kartlar (karışık): Atıklar toplanır | Atıklar türlerine göre ayrıştırılır | Ham maddeye dönüştürülür",
+    "correctAnswer": "1) Atıklar toplanır → 2) Atıklar türlerine göre ayrıştırılır → 3) Ham maddeye dönüştürülür",
+    "explanation": "Geri dönüşüm, atıkların toplanmasıyla başlar; toplanan atıklar türlerine göre ayrıştırılır, ham maddeye dönüştürülür ve yeni ürünlerin imalatında kullanılır.",
+    "questionId": "fen5u7-surec-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Atık pilin yolculuğunu sırala, sonra hattı çalıştır!",
+    "data": {
+      "steps": [
+        "Pil biter",
+        "Atık pil toplama kutusuna atılır",
+        "Toplanan piller geri dönüşüm sürecine kazandırılır"
+      ],
+      "traps": []
+    },
+    "textPlain": "Atık pilin yolculuğunu sırala, sonra hattı çalıştır! Kartlar (karışık): Atık pil toplama kutusuna atılır | Pil biter | Toplanan piller geri dönüşüm sürecine kazandırılır",
+    "correctAnswer": "1) Pil biter → 2) Atık pil toplama kutusuna atılır → 3) Toplanan piller geri dönüşüm sürecine kazandırılır",
+    "explanation": "Biten piller atık pil toplama kutularına atılır; toplanan piller geri dönüşüm sürecine kazandırılır ve zehirli maddelerin suya ve toprağa karışması önlenir.",
+    "questionId": "fen5u7-surec-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 137, 158",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Geri dönüşüm hattını baştan sona sırala, sonra hattı çalıştır!",
+    "data": {
+      "steps": [
+        "Atıklar toplanır",
+        "Atıklar türlerine göre ayrıştırılır",
+        "Ham maddeye dönüştürülür",
+        "Yeni ürün imal edilir"
+      ],
+      "traps": []
+    },
+    "textPlain": "Geri dönüşüm hattını baştan sona sırala, sonra hattı çalıştır! Kartlar (karışık): Atıklar toplanır | Atıklar türlerine göre ayrıştırılır | Ham maddeye dönüştürülür | Yeni ürün imal edilir",
+    "correctAnswer": "1) Atıklar toplanır → 2) Atıklar türlerine göre ayrıştırılır → 3) Ham maddeye dönüştürülür → 4) Yeni ürün imal edilir",
+    "explanation": "Geri dönüşüm, atıkların toplanmasıyla başlar; toplanan atıklar türlerine göre ayrıştırılır, ham maddeye dönüştürülür ve yeni ürünlerin imalatında kullanılır.",
+    "questionId": "fen5u7-surec-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Atık yağın yolculuğunu sırala, sonra hattı çalıştır!",
+    "data": {
+      "steps": [
+        "Kızartmadan sonra yağ soğutulur",
+        "Sızdırmaz bir kapta biriktirilir",
+        "Atık yağ toplama kumbarasına götürülür",
+        "Lisanslı tesiste geri kazanılır"
+      ],
+      "traps": []
+    },
+    "textPlain": "Atık yağın yolculuğunu sırala, sonra hattı çalıştır! Kartlar (karışık): Atık yağ toplama kumbarasına götürülür | Kızartmadan sonra yağ soğutulur | Lisanslı tesiste geri kazanılır | Sızdırmaz bir kapta biriktirilir",
+    "correctAnswer": "1) Kızartmadan sonra yağ soğutulur → 2) Sızdırmaz bir kapta biriktirilir → 3) Atık yağ toplama kumbarasına götürülür → 4) Lisanslı tesiste geri kazanılır",
+    "explanation": "Atık yağlar lavaboya dökülmez; sızdırmaz kaplarda toplanıp atık yağ kumbaralarına ya da toplama noktalarına ulaştırılır, lisanslı tesislerde geri kazanılır.",
+    "questionId": "fen5u7-surec-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149, 158",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Pet şişenin yolculuğunu sırala, sonra hattı çalıştır!",
+    "data": {
+      "steps": [
+        "Pet şişe plastik kutusuna atılır",
+        "Toplanıp tesise taşınır",
+        "Ayrıştırılıp temizlenir",
+        "Parçalanıp ham maddeye dönüştürülür",
+        "Yeni ürün üretilir"
+      ],
+      "traps": []
+    },
+    "textPlain": "Pet şişenin yolculuğunu sırala, sonra hattı çalıştır! Kartlar (karışık): Ayrıştırılıp temizlenir | Parçalanıp ham maddeye dönüştürülür | Pet şişe plastik kutusuna atılır | Toplanıp tesise taşınır | Yeni ürün üretilir",
+    "correctAnswer": "1) Pet şişe plastik kutusuna atılır → 2) Toplanıp tesise taşınır → 3) Ayrıştırılıp temizlenir → 4) Parçalanıp ham maddeye dönüştürülür → 5) Yeni ürün üretilir",
+    "explanation": "Geri dönüşüm, atıkların toplanmasıyla başlar; toplanan atıklar türlerine göre ayrıştırılır, ham maddeye dönüştürülür ve yeni ürünlerin imalatında kullanılır.",
+    "questionId": "fen5u7-surec-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140, 158",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Geri dönüşüm hattını sırala. Dikkat: Kartlardan biri yanlış bir adım!",
+    "data": {
+      "steps": [
+        "Atıklar toplanır",
+        "Atıklar türlerine göre ayrıştırılır",
+        "Ham maddeye dönüştürülür",
+        "Yeni ürün imal edilir"
+      ],
+      "traps": [
+        "Bütün atıklar aynı poşette karıştırılır"
+      ]
+    },
+    "textPlain": "Geri dönüşüm hattını sırala. Dikkat: Kartlardan biri yanlış bir adım! Kartlar (karışık): Atıklar toplanır | Atıklar türlerine göre ayrıştırılır | Bütün atıklar aynı poşette karıştırılır | Ham maddeye dönüştürülür | Yeni ürün imal edilir",
+    "correctAnswer": "1) Atıklar toplanır → 2) Atıklar türlerine göre ayrıştırılır → 3) Ham maddeye dönüştürülür → 4) Yeni ürün imal edilir",
+    "explanation": "Geri dönüşüm, atıkların toplanmasıyla başlar; toplanan atıklar türlerine göre ayrıştırılır, ham maddeye dönüştürülür ve yeni ürünlerin imalatında kullanılır. Ayrıştırılmadan karıştırılan atıklar birbirini kirletir.",
+    "questionId": "fen5u7-surec-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Atık yağın yolculuğunu sırala. Dikkat: Kartlardan biri yanlış bir adım!",
+    "data": {
+      "steps": [
+        "Kızartmadan sonra yağ soğutulur",
+        "Sızdırmaz bir kapta biriktirilir",
+        "Atık yağ toplama kumbarasına götürülür"
+      ],
+      "traps": [
+        "Yağ lavaboya dökülür"
+      ]
+    },
+    "textPlain": "Atık yağın yolculuğunu sırala. Dikkat: Kartlardan biri yanlış bir adım! Kartlar (karışık): Atık yağ toplama kumbarasına götürülür | Kızartmadan sonra yağ soğutulur | Sızdırmaz bir kapta biriktirilir | Yağ lavaboya dökülür",
+    "correctAnswer": "1) Kızartmadan sonra yağ soğutulur → 2) Sızdırmaz bir kapta biriktirilir → 3) Atık yağ toplama kumbarasına götürülür",
+    "explanation": "Atık yağlar lavaboya dökülürse içilebilir suları kirletir; sızdırmaz kapta toplanıp kumbaraya götürülmelidir.",
+    "questionId": "fen5u7-surec-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 143, 159",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Binadaki atık ayrıştırma sisteminin adımlarını sırala. Dikkat: Yanlış kart var!",
+    "data": {
+      "steps": [
+        "Çok katlı binada atıklar kaynağında ayrıştırılır",
+        "Plastik, cam, kâğıt ve yağ ayrı bölmelerde toplanır",
+        "Belediye atıkları ayrı ayrı taşır",
+        "Atıklar geri dönüşüm tesisinde işlenir"
+      ],
+      "traps": [
+        "Ayrıştırılan atıklar yeniden tek kutuda karıştırılır"
+      ]
+    },
+    "textPlain": "Binadaki atık ayrıştırma sisteminin adımlarını sırala. Dikkat: Yanlış kart var! Kartlar (karışık): Atıklar geri dönüşüm tesisinde işlenir | Ayrıştırılan atıklar yeniden tek kutuda karıştırılır | Belediye atıkları ayrı ayrı taşır | Plastik, cam, kâğıt ve yağ ayrı bölmelerde toplanır | Çok katlı binada atıklar kaynağında ayrıştırılır",
+    "correctAnswer": "1) Çok katlı binada atıklar kaynağında ayrıştırılır → 2) Plastik, cam, kâğıt ve yağ ayrı bölmelerde toplanır → 3) Belediye atıkları ayrı ayrı taşır → 4) Atıklar geri dönüşüm tesisinde işlenir",
+    "explanation": "Evsel atık ayrıştırma sistemleri atıkların plastik, cam, kâğıt, bitkisel atık yağ ve diğer kategorilerde toplanmasını sağlar; atıklar kaynağında ayrıştırılınca geri dönüşüm kolaylaşır.",
+    "questionId": "fen5u7-surec-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149, 158",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Örnekleri doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Yeniden kullanım",
+        "İleri dönüşüm",
+        "Geri dönüşüm"
+      ],
+      "cards": [
+        {
+          "t": "Kırık sandalyeyi onarıp kullanmak",
+          "b": 0
+        },
+        {
+          "t": "Eski kottan çanta dikmek",
+          "b": 1
+        },
+        {
+          "t": "Defteri tuvalet kâğıdına dönüştürmek",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Örnekleri doğru kasaya koy. Kasalar: Yeniden kullanım / İleri dönüşüm / Geri dönüşüm. Kartlar: Kırık sandalyeyi onarıp kullanmak | Eski kottan çanta dikmek | Defteri tuvalet kâğıdına dönüştürmek",
+    "correctAnswer": "Yeniden kullanım: Kırık sandalyeyi onarıp kullanmak | İleri dönüşüm: Eski kottan çanta dikmek | Geri dönüşüm: Defteri tuvalet kâğıdına dönüştürmek",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Tanımları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Yeniden kullanım",
+        "İleri dönüşüm",
+        "Geri dönüşüm",
+        "Geri kazanım"
+      ],
+      "cards": [
+        {
+          "t": "Atık, aynı amaçla tekrar kullanılır",
+          "b": 0
+        },
+        {
+          "t": "Atık, daha yüksek değerli yeni ürüne dönüşür",
+          "b": 1
+        },
+        {
+          "t": "Atık, ham madde olarak imalata döner",
+          "b": 2
+        },
+        {
+          "t": "Atık, fiziksel ya da kimyasal işlemle ikincil ham maddeye dönüşür",
+          "b": 3
+        }
+      ]
+    },
+    "textPlain": "Tanımları doğru kasaya koy. Kasalar: Yeniden kullanım / İleri dönüşüm / Geri dönüşüm / Geri kazanım. Kartlar: Atık, aynı amaçla tekrar kullanılır | Atık, daha yüksek değerli yeni ürüne dönüşür | Atık, ham madde olarak imalata döner | Atık, fiziksel ya da kimyasal işlemle ikincil ham maddeye dönüşür",
+    "correctAnswer": "Yeniden kullanım: Atık, aynı amaçla tekrar kullanılır | İleri dönüşüm: Atık, daha yüksek değerli yeni ürüne dönüşür | Geri dönüşüm: Atık, ham madde olarak imalata döner | Geri kazanım: Atık, fiziksel ya da kimyasal işlemle ikincil ham maddeye dönüşür",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı). Geri kazanım: yeniden değerlendirilebilen atıkların fiziksel ya da kimyasal işlemlerle ikincil ham maddeye dönüştürülüp üretime katılmasıdır.",
+    "questionId": "fen5u7-surec-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 157–158",
+    "difficulty": "zor",
+    "group": "surec",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Örnekleri doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Yeniden kullanım",
+        "İleri dönüşüm",
+        "Geri dönüşüm"
+      ],
+      "cards": [
+        {
+          "t": "Peynir kabını saksı yapmak",
+          "b": 1
+        },
+        {
+          "t": "Cam su şişesini yıkayıp yine su için kullanmak",
+          "b": 0
+        },
+        {
+          "t": "Gazeteyi kâğıt hamuruna çevirmek",
+          "b": 2
+        },
+        {
+          "t": "Kapaklardan sanat eseri yapmak",
+          "b": 1
+        },
+        {
+          "t": "Eski giysilerden saf pamuk elde etmek",
+          "b": 2
+        },
+        {
+          "t": "Bez torbayı tekrar tekrar kullanmak",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Örnekleri doğru kasaya koy. Kasalar: Yeniden kullanım / İleri dönüşüm / Geri dönüşüm. Kartlar: Peynir kabını saksı yapmak | Cam su şişesini yıkayıp yine su için kullanmak | Gazeteyi kâğıt hamuruna çevirmek | Kapaklardan sanat eseri yapmak | Eski giysilerden saf pamuk elde etmek | Bez torbayı tekrar tekrar kullanmak",
+    "correctAnswer": "Yeniden kullanım: Cam su şişesini yıkayıp yine su için kullanmak, Bez torbayı tekrar tekrar kullanmak | İleri dönüşüm: Peynir kabını saksı yapmak, Kapaklardan sanat eseri yapmak | Geri dönüşüm: Gazeteyi kâğıt hamuruna çevirmek, Eski giysilerden saf pamuk elde etmek",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "habit",
+    "prompt": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "market",
+      "items": [
+        {
+          "t": "Her ürün için ayrı poşet almak",
+          "ok": 0
+        },
+        {
+          "t": "Plastik yerine cam kavanozlu ürün seçmek",
+          "ok": 1
+        },
+        {
+          "t": "Alışverişe bez torbayla gitmek",
+          "ok": 1
+        },
+        {
+          "t": "İhtiyaç kadar ürün almak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Her ürün için ayrı poşet almak | Plastik yerine cam kavanozlu ürün seçmek | Alışverişe bez torbayla gitmek | İhtiyaç kadar ürün almak]",
+    "correctAnswer": "Uygun davranışlar: Plastik yerine cam kavanozlu ürün seçmek, Alışverişe bez torbayla gitmek, İhtiyaç kadar ürün almak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "habit",
+    "prompt": "Okulda bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "okul",
+      "items": [
+        {
+          "t": "Atık kâğıtları çöpe karıştırmak",
+          "ok": 0
+        },
+        {
+          "t": "Kâğıdın tek yüzünü kullanıp atmak",
+          "ok": 0
+        },
+        {
+          "t": "Okula toplu taşımayla gitmek",
+          "ok": 1
+        },
+        {
+          "t": "Her gün yeni pet şişe almak",
+          "ok": 0
+        }
+      ]
+    },
+    "textPlain": "Okulda bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Atık kâğıtları çöpe karıştırmak | Kâğıdın tek yüzünü kullanıp atmak | Okula toplu taşımayla gitmek | Her gün yeni pet şişe almak]",
+    "correctAnswer": "Uygun davranışlar: Okula toplu taşımayla gitmek",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "habit",
+    "prompt": "Evde bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "ev",
+      "items": [
+        {
+          "t": "Bayat ekmeği çöpe atmak",
+          "ok": 0
+        },
+        {
+          "t": "Atık yağı lavaboya dökmek",
+          "ok": 0
+        },
+        {
+          "t": "Biten pili çöpe atmak",
+          "ok": 0
+        },
+        {
+          "t": "Atıkları kaynağında ayırmak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Evde bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Bayat ekmeği çöpe atmak | Atık yağı lavaboya dökmek | Biten pili çöpe atmak | Atıkları kaynağında ayırmak]",
+    "correctAnswer": "Uygun davranışlar: Atıkları kaynağında ayırmak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "orta",
+    "group": "sifir",
+    "rank": 2,
+    "type": "habit",
+    "prompt": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "market",
+      "items": [
+        {
+          "t": "İndirim var diye fazla yiyecek alıp çürütmek",
+          "ok": 0
+        },
+        {
+          "t": "Her ürün için ayrı poşet almak",
+          "ok": 0
+        },
+        {
+          "t": "Plastik yerine cam kavanozlu ürün seçmek",
+          "ok": 1
+        },
+        {
+          "t": "Tek kullanımlık plastik çatal almak",
+          "ok": 0
+        },
+        {
+          "t": "İhtiyaç kadar ürün almak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: İndirim var diye fazla yiyecek alıp çürütmek | Her ürün için ayrı poşet almak | Plastik yerine cam kavanozlu ürün seçmek | Tek kullanımlık plastik çatal almak | İhtiyaç kadar ürün almak]",
+    "correctAnswer": "Uygun davranışlar: Plastik yerine cam kavanozlu ürün seçmek, İhtiyaç kadar ürün almak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "orta",
+    "group": "sifir",
+    "rank": 2,
+    "type": "habit",
+    "prompt": "Evde bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "ev",
+      "items": [
+        {
+          "t": "Enerji tasarruflu ampul kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Atıkları kaynağında ayırmak",
+          "ok": 1
+        },
+        {
+          "t": "Atık yağı lavaboya dökmek",
+          "ok": 0
+        },
+        {
+          "t": "Şarj edilebilir pil kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Biten pili çöpe atmak",
+          "ok": 0
+        }
+      ]
+    },
+    "textPlain": "Evde bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Enerji tasarruflu ampul kullanmak | Atıkları kaynağında ayırmak | Atık yağı lavaboya dökmek | Şarj edilebilir pil kullanmak | Biten pili çöpe atmak]",
+    "correctAnswer": "Uygun davranışlar: Enerji tasarruflu ampul kullanmak, Atıkları kaynağında ayırmak, Şarj edilebilir pil kullanmak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "orta",
+    "group": "sifir",
+    "rank": 2,
+    "type": "habit",
+    "prompt": "Ev temizliği: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "temizlik",
+      "items": [
+        {
+          "t": "Kullanılmayan ışığı açık unutmak",
+          "ok": 0
+        },
+        {
+          "t": "Musluğu açık bırakmak",
+          "ok": 0
+        },
+        {
+          "t": "Doğal temizlik ürünleri kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Eski tişörtü temizlik bezi yapmak",
+          "ok": 1
+        },
+        {
+          "t": "Bulaşık suyunu gereğinden fazla kullanmamak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Ev temizliği: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Kullanılmayan ışığı açık unutmak | Musluğu açık bırakmak | Doğal temizlik ürünleri kullanmak | Eski tişörtü temizlik bezi yapmak | Bulaşık suyunu gereğinden fazla kullanmamak]",
+    "correctAnswer": "Uygun davranışlar: Doğal temizlik ürünleri kullanmak, Eski tişörtü temizlik bezi yapmak, Bulaşık suyunu gereğinden fazla kullanmamak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "orta",
+    "group": "sifir",
+    "rank": 2,
+    "type": "habit",
+    "prompt": "Okulda bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "okul",
+      "items": [
+        {
+          "t": "Kâğıdın tek yüzünü kullanıp atmak",
+          "ok": 0
+        },
+        {
+          "t": "Okula toplu taşımayla gitmek",
+          "ok": 1
+        },
+        {
+          "t": "Her gün yeni pet şişe almak",
+          "ok": 0
+        },
+        {
+          "t": "Matarayla su içmek",
+          "ok": 1
+        },
+        {
+          "t": "Atık kâğıtları çöpe karıştırmak",
+          "ok": 0
+        }
+      ]
+    },
+    "textPlain": "Okulda bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Kâğıdın tek yüzünü kullanıp atmak | Okula toplu taşımayla gitmek | Her gün yeni pet şişe almak | Matarayla su içmek | Atık kâğıtları çöpe karıştırmak]",
+    "correctAnswer": "Uygun davranışlar: Okula toplu taşımayla gitmek, Matarayla su içmek",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "zor",
+    "group": "sifir",
+    "rank": 3,
+    "type": "habit",
+    "prompt": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "market",
+      "items": [
+        {
+          "t": "Tek kullanımlık plastik çatal almak",
+          "ok": 0
+        },
+        {
+          "t": "Plastik yerine cam kavanozlu ürün seçmek",
+          "ok": 1
+        },
+        {
+          "t": "Alışverişe bez torbayla gitmek",
+          "ok": 1
+        },
+        {
+          "t": "İndirim var diye fazla yiyecek alıp çürütmek",
+          "ok": 0
+        },
+        {
+          "t": "Her ürün için ayrı poşet almak",
+          "ok": 0
+        },
+        {
+          "t": "İhtiyaç kadar ürün almak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Tek kullanımlık plastik çatal almak | Plastik yerine cam kavanozlu ürün seçmek | Alışverişe bez torbayla gitmek | İndirim var diye fazla yiyecek alıp çürütmek | Her ürün için ayrı poşet almak | İhtiyaç kadar ürün almak]",
+    "correctAnswer": "Uygun davranışlar: Plastik yerine cam kavanozlu ürün seçmek, Alışverişe bez torbayla gitmek, İhtiyaç kadar ürün almak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "zor",
+    "group": "sifir",
+    "rank": 3,
+    "type": "habit",
+    "prompt": "Evde bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "ev",
+      "items": [
+        {
+          "t": "Enerji tasarruflu ampul kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Atıkları kaynağında ayırmak",
+          "ok": 1
+        },
+        {
+          "t": "Atık yağı lavaboya dökmek",
+          "ok": 0
+        },
+        {
+          "t": "Biten pili çöpe atmak",
+          "ok": 0
+        },
+        {
+          "t": "Şarj edilebilir pil kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Bayat ekmeği çöpe atmak",
+          "ok": 0
+        }
+      ]
+    },
+    "textPlain": "Evde bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Enerji tasarruflu ampul kullanmak | Atıkları kaynağında ayırmak | Atık yağı lavaboya dökmek | Biten pili çöpe atmak | Şarj edilebilir pil kullanmak | Bayat ekmeği çöpe atmak]",
+    "correctAnswer": "Uygun davranışlar: Enerji tasarruflu ampul kullanmak, Atıkları kaynağında ayırmak, Şarj edilebilir pil kullanmak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "zor",
+    "group": "sifir",
+    "rank": 3,
+    "type": "habit",
+    "prompt": "Okulda bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "okul",
+      "items": [
+        {
+          "t": "Okula toplu taşımayla gitmek",
+          "ok": 1
+        },
+        {
+          "t": "Defterin boş sayfalarını kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Her gün yeni pet şişe almak",
+          "ok": 0
+        },
+        {
+          "t": "Matarayla su içmek",
+          "ok": 1
+        },
+        {
+          "t": "Atık kâğıtları çöpe karıştırmak",
+          "ok": 0
+        },
+        {
+          "t": "Kâğıdın tek yüzünü kullanıp atmak",
+          "ok": 0
+        }
+      ]
+    },
+    "textPlain": "Okulda bir gün: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Okula toplu taşımayla gitmek | Defterin boş sayfalarını kullanmak | Her gün yeni pet şişe almak | Matarayla su içmek | Atık kâğıtları çöpe karıştırmak | Kâğıdın tek yüzünü kullanıp atmak]",
+    "correctAnswer": "Uygun davranışlar: Okula toplu taşımayla gitmek, Defterin boş sayfalarını kullanmak, Matarayla su içmek",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 147–148",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Davranışları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Sıfır atığa uygun",
+        "Sıfır atığa uygun değil"
+      ],
+      "cards": [
+        {
+          "t": "Bez torba kullanmak",
+          "b": 0
+        },
+        {
+          "t": "Gereğinden fazla tüketmek",
+          "b": 1
+        },
+        {
+          "t": "Toplu taşıma kullanmak",
+          "b": 0
+        },
+        {
+          "t": "Atıkları karışık atmak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Davranışları doğru kasaya koy. Kasalar: Sıfır atığa uygun / Sıfır atığa uygun değil. Kartlar: Bez torba kullanmak | Gereğinden fazla tüketmek | Toplu taşıma kullanmak | Atıkları karışık atmak",
+    "correctAnswer": "Sıfır atığa uygun: Bez torba kullanmak, Toplu taşıma kullanmak | Sıfır atığa uygun değil: Gereğinden fazla tüketmek, Atıkları karışık atmak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 148",
+    "difficulty": "orta",
+    "group": "sifir",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Sıfır Atık Projesinin hedefi",
+        "Hedefi değil"
+      ],
+      "cards": [
+        {
+          "t": "İsrafın önüne geçerek üretim maliyetini azaltmak",
+          "b": 0
+        },
+        {
+          "t": "Ülkenin ve çevrenin temiz kalması",
+          "b": 0
+        },
+        {
+          "t": "Tek kullanımlık ürünleri artırmak",
+          "b": 1
+        },
+        {
+          "t": "Bireylerin çevreye duyarlı olması",
+          "b": 0
+        },
+        {
+          "t": "Daha çok ambalaj üretmek",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru kasaya koy. Kasalar: Sıfır Atık Projesinin hedefi / Hedefi değil. Kartlar: İsrafın önüne geçerek üretim maliyetini azaltmak | Ülkenin ve çevrenin temiz kalması | Tek kullanımlık ürünleri artırmak | Bireylerin çevreye duyarlı olması | Daha çok ambalaj üretmek",
+    "correctAnswer": "Sıfır Atık Projesinin hedefi: İsrafın önüne geçerek üretim maliyetini azaltmak, Ülkenin ve çevrenin temiz kalması, Bireylerin çevreye duyarlı olması | Hedefi değil: Tek kullanımlık ürünleri artırmak, Daha çok ambalaj üretmek",
+    "explanation": "Sıfır Atık Projesi; israfı önleyerek üretim maliyetlerini azaltmayı, ürün verimliliğini artırmayı, ülkenin ve çevrenin temiz kalmasını, sağlığı olumsuz etkileyecek durumları azaltmayı ve toplumun çevreye duyarlı olmasını hedefler.",
+    "questionId": "fen5u7-sifir-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142, 147",
+    "difficulty": "orta",
+    "group": "sifir",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Atık yönetimi uygulaması",
+        "Atık yönetimine aykırı"
+      ],
+      "cards": [
+        {
+          "t": "Depozitolu şişeyi iade etmek",
+          "b": 0
+        },
+        {
+          "t": "Geri dönüşüm kutularını sokaklara koymak",
+          "b": 0
+        },
+        {
+          "t": "Ambalajları doğaya bırakmak",
+          "b": 1
+        },
+        {
+          "t": "Bitkisel atık yağı ayrı toplamak",
+          "b": 0
+        },
+        {
+          "t": "Pilleri çöpe atmak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru kasaya koy. Kasalar: Atık yönetimi uygulaması / Atık yönetimine aykırı. Kartlar: Depozitolu şişeyi iade etmek | Geri dönüşüm kutularını sokaklara koymak | Ambalajları doğaya bırakmak | Bitkisel atık yağı ayrı toplamak | Pilleri çöpe atmak",
+    "correctAnswer": "Atık yönetimi uygulaması: Depozitolu şişeyi iade etmek, Geri dönüşüm kutularını sokaklara koymak, Bitkisel atık yağı ayrı toplamak | Atık yönetimine aykırı: Ambalajları doğaya bırakmak, Pilleri çöpe atmak",
+    "explanation": "Depozito sisteminde ürün ve ambalajların fiyatına depozito bedeli eklenir; tüketiciler ambalajı iade ederek kontrollü toplanmasını sağlar. Geri dönüşüm kutuları, atık yağ ve pil toplama noktaları atık yönetimi uygulamalarıdır.",
+    "questionId": "fen5u7-sifir-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 143, 147, 149",
+    "difficulty": "zor",
+    "group": "sifir",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Davranışları sıfır atık şemasındaki doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "İsrafı önlemek",
+        "Kaynağında ayrıştırmak",
+        "Geri kazanmak"
+      ],
+      "cards": [
+        {
+          "t": "İhtiyaç kadar ekmek almak",
+          "b": 0
+        },
+        {
+          "t": "Evde plastik, cam ve kâğıdı ayrı biriktirmek",
+          "b": 1
+        },
+        {
+          "t": "Atık kâğıdı ham maddeye dönüştürüp yeniden üretmek",
+          "b": 2
+        },
+        {
+          "t": "Suyu boşa akıtmamak",
+          "b": 0
+        },
+        {
+          "t": "Binada atık yağ için ayrı bölme kullanmak",
+          "b": 1
+        },
+        {
+          "t": "Pet şişeden ikincil ham madde elde etmek",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Davranışları sıfır atık şemasındaki doğru kasaya koy. Kasalar: İsrafı önlemek / Kaynağında ayrıştırmak / Geri kazanmak. Kartlar: İhtiyaç kadar ekmek almak | Evde plastik, cam ve kâğıdı ayrı biriktirmek | Atık kâğıdı ham maddeye dönüştürüp yeniden üretmek | Suyu boşa akıtmamak | Binada atık yağ için ayrı bölme kullanmak | Pet şişeden ikincil ham madde elde etmek",
+    "correctAnswer": "İsrafı önlemek: İhtiyaç kadar ekmek almak, Suyu boşa akıtmamak | Kaynağında ayrıştırmak: Evde plastik, cam ve kâğıdı ayrı biriktirmek, Binada atık yağ için ayrı bölme kullanmak | Geri kazanmak: Atık kâğıdı ham maddeye dönüştürüp yeniden üretmek, Pet şişeden ikincil ham madde elde etmek",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır. Geri kazanımda atıklar ikincil ham maddeye dönüştürülüp ekonomiye kazandırılır.",
+    "questionId": "fen5u7-sifir-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141, 143, 147–148",
+    "difficulty": "zor",
+    "group": "sifir",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Fabrika panosundaki ifadeleri doğru ya da hatalı diye ayır.",
+    "data": {
+      "bins": [
+        "Doğru",
+        "Hatalı"
+      ],
+      "cards": [
+        {
+          "t": "Sıfır atıkta ilk adım atık oluşumunu önlemektir.",
+          "b": 0
+        },
+        {
+          "t": "Sıfır atık yalnızca geri dönüşüm demektir.",
+          "b": 1
+        },
+        {
+          "t": "Kültürümüzde israf hoş görülmez.",
+          "b": 0
+        },
+        {
+          "t": "Atık pil toplamak sosyal sorumluluğun gereğidir.",
+          "b": 0
+        },
+        {
+          "t": "Depozito sistemi ambalajların doğaya bırakılmasını artırır.",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Fabrika panosundaki ifadeleri doğru ya da hatalı diye ayır. Kasalar: Doğru / Hatalı. Kartlar: Sıfır atıkta ilk adım atık oluşumunu önlemektir. | Sıfır atık yalnızca geri dönüşüm demektir. | Kültürümüzde israf hoş görülmez. | Atık pil toplamak sosyal sorumluluğun gereğidir. | Depozito sistemi ambalajların doğaya bırakılmasını artırır.",
+    "correctAnswer": "Doğru: Sıfır atıkta ilk adım atık oluşumunu önlemektir., Kültürümüzde israf hoş görülmez., Atık pil toplamak sosyal sorumluluğun gereğidir. | Hatalı: Sıfır atık yalnızca geri dönüşüm demektir., Depozito sistemi ambalajların doğaya bırakılmasını artırır.",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır. Depozito sistemi ambalajların kontrollü toplanmasını sağlar.",
+    "questionId": "fen5u7-sifir-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En çok tasarruf sağlanan malzemenin sütununa dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Plastik",
+          "v": 5774000
+        },
+        {
+          "n": "Cam",
+          "v": 42000
+        },
+        {
+          "n": "Kâğıt",
+          "v": 4100000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        }
+      ],
+      "mode": "max",
+      "ans": 0
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En çok tasarruf sağlanan malzemenin sütununa dokun, sonra ölç! [Grafik: Plastik 5.774.000 kWh, Cam 42.000 kWh, Kâğıt 4.100.000 kWh, Metal 642.000 kWh]",
+    "correctAnswer": "Plastik",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En az tasarruf sağlanan malzemenin sütununa dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Plastik",
+          "v": 5774000
+        },
+        {
+          "n": "Cam",
+          "v": 42000
+        },
+        {
+          "n": "Kâğıt",
+          "v": 4100000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        }
+      ],
+      "mode": "min",
+      "ans": 1
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En az tasarruf sağlanan malzemenin sütununa dokun, sonra ölç! [Grafik: Plastik 5.774.000 kWh, Cam 42.000 kWh, Kâğıt 4.100.000 kWh, Metal 642.000 kWh]",
+    "correctAnswer": "Cam",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En çok tasarruf sağlanan malzemenin sütununa dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Cam",
+          "v": 42000
+        },
+        {
+          "n": "Kâğıt",
+          "v": 4100000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        }
+      ],
+      "mode": "max",
+      "ans": 1
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En çok tasarruf sağlanan malzemenin sütununa dokun, sonra ölç! [Grafik: Cam 42.000 kWh, Kâğıt 4.100.000 kWh, Metal 642.000 kWh]",
+    "correctAnswer": "Kâğıt",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En az tasarruf sağlanan malzemenin sütununa dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Plastik",
+          "v": 5774000
+        },
+        {
+          "n": "Kâğıt",
+          "v": 4100000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        }
+      ],
+      "mode": "min",
+      "ans": 2
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. En az tasarruf sağlanan malzemenin sütununa dokun, sonra ölç! [Grafik: Plastik 5.774.000 kWh, Kâğıt 4.100.000 kWh, Metal 642.000 kWh]",
+    "correctAnswer": "Metal",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. Sütunlara en çoktan en aza doğru sırayla dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Plastik",
+          "v": 5774000
+        },
+        {
+          "n": "Cam",
+          "v": 42000
+        },
+        {
+          "n": "Kâğıt",
+          "v": 4100000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        }
+      ],
+      "mode": "order",
+      "ans": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. Sütunlara en çoktan en aza doğru sırayla dokun, sonra ölç! [Grafik: Plastik 5.774.000 kWh, Cam 42.000 kWh, Kâğıt 4.100.000 kWh, Metal 642.000 kWh]",
+    "correctAnswer": "Plastik → Kâğıt → Metal → Cam",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. Sütunlara en çoktan en aza doğru sırayla dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Kâğıt",
+          "v": 4100000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        },
+        {
+          "n": "Cam",
+          "v": 42000
+        }
+      ],
+      "mode": "order",
+      "ans": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. Sütunlara en çoktan en aza doğru sırayla dokun, sonra ölç! [Grafik: Kâğıt 4.100.000 kWh, Metal 642.000 kWh, Cam 42.000 kWh]",
+    "correctAnswer": "Kâğıt → Metal → Cam",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Sınıfta 20 öğrenci var. Her öğrenci okulda günde 1 pet şişe atık oluşturuyor. 5 okul gününde kaç şişe birikir? Sayı çarklarıyla gir, sonra şişeleri topla!",
+    "data": {
+      "a": 20,
+      "b": 5,
+      "ans": 100,
+      "unit": "şişe"
+    },
+    "textPlain": "Sınıfta 20 öğrenci var. Her öğrenci okulda günde 1 pet şişe atık oluşturuyor. 5 okul gününde kaç şişe birikir? Sayı çarklarıyla gir, sonra şişeleri topla! [Veri: 20 ve 5]",
+    "correctAnswer": "100 şişe",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Sınıfta 24 öğrenci var. Her öğrenci günde 1 pet şişe atık oluşturuyor. 5 günde kaç şişe birikir? Sayı çarklarıyla gir, sonra şişeleri topla!",
+    "data": {
+      "a": 24,
+      "b": 5,
+      "ans": 120,
+      "unit": "şişe"
+    },
+    "textPlain": "Sınıfta 24 öğrenci var. Her öğrenci günde 1 pet şişe atık oluşturuyor. 5 günde kaç şişe birikir? Sayı çarklarıyla gir, sonra şişeleri topla! [Veri: 24 ve 5]",
+    "correctAnswer": "120 şişe",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Sınıfta 30 öğrenci var. Her öğrenci okulda günde 1 pet şişe atık oluşturuyor. Bir ayda 20 okul günü varsa ayda kaç şişe birikir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 30,
+      "b": 20,
+      "ans": 600,
+      "unit": "şişe"
+    },
+    "textPlain": "Sınıfta 30 öğrenci var. Her öğrenci okulda günde 1 pet şişe atık oluşturuyor. Bir ayda 20 okul günü varsa ayda kaç şişe birikir? Sayı çarklarıyla gir! [Veri: 30 ve 20]",
+    "correctAnswer": "600 şişe",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Sınıfta 28 öğrenci var. Her öğrenci günde 1 pet şişe yerine matara kullanırsa 10 günde kaç pet şişe atığı önlenir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 28,
+      "b": 10,
+      "ans": 280,
+      "unit": "şişe"
+    },
+    "textPlain": "Sınıfta 28 öğrenci var. Her öğrenci günde 1 pet şişe yerine matara kullanırsa 10 günde kaç pet şişe atığı önlenir? Sayı çarklarıyla gir! [Veri: 28 ve 10]",
+    "correctAnswer": "280 şişe",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Bir okulda 25 sınıf var ve her sınıf günde 4 kilogram kâğıt atığı biriktiriyor. Okul bir günde kaç kilogram kâğıdı geri dönüşüme kazandırır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 25,
+      "b": 4,
+      "ans": 100,
+      "unit": "kg"
+    },
+    "textPlain": "Bir okulda 25 sınıf var ve her sınıf günde 4 kilogram kâğıt atığı biriktiriyor. Okul bir günde kaç kilogram kâğıdı geri dönüşüme kazandırır? Sayı çarklarıyla gir! [Veri: 25 ve 4]",
+    "correctAnswer": "100 kg",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Bin ton kâğıt geri dönüştürülünce 17.000 ağaç kesilmekten kurtuluyor. İki bin ton kâğıt geri dönüştürülürse kaç ağaç kurtulur? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2,
+      "b": 17000,
+      "ans": 34000,
+      "unit": "ağaç"
+    },
+    "textPlain": "Bin ton kâğıt geri dönüştürülünce 17.000 ağaç kesilmekten kurtuluyor. İki bin ton kâğıt geri dönüştürülürse kaç ağaç kurtulur? Sayı çarklarıyla gir! [Veri: 2 ve 17000]",
+    "correctAnswer": "34000 ağaç",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140, 146, 156",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüşümün faydası",
+        "Geri dönüşümle ilgisi yok"
+      ],
+      "cards": [
+        {
+          "t": "Ağaçların kesilmesini azaltır",
+          "b": 0
+        },
+        {
+          "t": "Enerji tasarrufu sağlar",
+          "b": 0
+        },
+        {
+          "t": "Atık miktarını artırır",
+          "b": 1
+        },
+        {
+          "t": "Petrol tüketimini azaltır",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru kasaya koy. Kasalar: Geri dönüşümün faydası / Geri dönüşümle ilgisi yok. Kartlar: Ağaçların kesilmesini azaltır | Enerji tasarrufu sağlar | Atık miktarını artırır | Petrol tüketimini azaltır",
+    "correctAnswer": "Geri dönüşümün faydası: Ağaçların kesilmesini azaltır, Enerji tasarrufu sağlar, Petrol tüketimini azaltır | Geri dönüşümle ilgisi yok: Atık miktarını artırır",
+    "explanation": "Geri dönüşüm doğal kaynakları (ağaç, petrol, maden) korur, ham madde ve enerji tasarrufu sağlar, ülke ekonomisine katkı yapar, atık miktarını azaltarak çevrenin temiz kalmasına yardım eder.",
+    "questionId": "fen5u7-kaynak-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146, 156",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Geri dönüşümleri koruduğu kaynağa göre doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Kurtarılan kaynak: ağaç",
+        "Kurtarılan kaynak: petrol",
+        "Kurtarılan kaynak: maden"
+      ],
+      "cards": [
+        {
+          "t": "Gazete ve kartonun geri dönüşümü",
+          "b": 0
+        },
+        {
+          "t": "Pet şişelerin geri dönüşümü",
+          "b": 1
+        },
+        {
+          "t": "Alüminyum kutuların geri dönüşümü",
+          "b": 2
+        },
+        {
+          "t": "Eski defterlerin geri dönüşümü",
+          "b": 0
+        },
+        {
+          "t": "Plastik bidonların geri dönüşümü",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Geri dönüşümleri koruduğu kaynağa göre doğru kasaya koy. Kasalar: Kurtarılan kaynak: ağaç / Kurtarılan kaynak: petrol / Kurtarılan kaynak: maden. Kartlar: Gazete ve kartonun geri dönüşümü | Pet şişelerin geri dönüşümü | Alüminyum kutuların geri dönüşümü | Eski defterlerin geri dönüşümü | Plastik bidonların geri dönüşümü",
+    "correctAnswer": "Kurtarılan kaynak: ağaç: Gazete ve kartonun geri dönüşümü, Eski defterlerin geri dönüşümü | Kurtarılan kaynak: petrol: Pet şişelerin geri dönüşümü, Plastik bidonların geri dönüşümü | Kurtarılan kaynak: maden: Alüminyum kutuların geri dönüşümü",
+    "explanation": "Geri dönüşüm doğal kaynakları (ağaç, petrol, maden) korur, ham madde ve enerji tasarrufu sağlar, ülke ekonomisine katkı yapar, atık miktarını azaltarak çevrenin temiz kalmasına yardım eder. Kâğıt ağaçtan, plastik petrolden, metal madenden üretilir.",
+    "questionId": "fen5u7-kaynak-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Tasarruf tablosuyla ilgili yorumları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Doğru yorum",
+        "Hatalı yorum"
+      ],
+      "cards": [
+        {
+          "t": "Plastik, ham madde tasarrufu için önemli bir geri dönüşüm malzemesidir.",
+          "b": 0
+        },
+        {
+          "t": "Geri dönüşümle farklı ham maddelerden tasarruf sağlanır.",
+          "b": 0
+        },
+        {
+          "t": "Camın enerji tasarrufu az olduğu için geri dönüşümü gereksizdir.",
+          "b": 1
+        },
+        {
+          "t": "Plastikte sağlanan enerji tasarrufu metalden fazladır.",
+          "b": 0
+        },
+        {
+          "t": "Geri dönüşüm yalnız kâğıt için faydalıdır.",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Tasarruf tablosuyla ilgili yorumları doğru kasaya koy. Kasalar: Doğru yorum / Hatalı yorum. Kartlar: Plastik, ham madde tasarrufu için önemli bir geri dönüşüm malzemesidir. | Geri dönüşümle farklı ham maddelerden tasarruf sağlanır. | Camın enerji tasarrufu az olduğu için geri dönüşümü gereksizdir. | Plastikte sağlanan enerji tasarrufu metalden fazladır. | Geri dönüşüm yalnız kâğıt için faydalıdır.",
+    "correctAnswer": "Doğru yorum: Plastik, ham madde tasarrufu için önemli bir geri dönüşüm malzemesidir., Geri dönüşümle farklı ham maddelerden tasarruf sağlanır., Plastikte sağlanan enerji tasarrufu metalden fazladır. | Hatalı yorum: Camın enerji tasarrufu az olduğu için geri dönüşümü gereksizdir., Geri dönüşüm yalnız kâğıt için faydalıdır.",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 157",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Katkıları doğru kişinin kasasına koy.",
+    "data": {
+      "bins": [
+        "Mobius",
+        "Benjamin Law",
+        "Mevlana"
+      ],
+      "cards": [
+        {
+          "t": "Geri dönüşüm sembolüne ilham veren şerit",
+          "b": 0
+        },
+        {
+          "t": "Kumaş artıklarından saf pamuk elde etti",
+          "b": 1
+        },
+        {
+          "t": "Kaynakların sınırsız olmadığını söyledi",
+          "b": 2
+        },
+        {
+          "t": "Kâğıt şeridin uçlarını döndürüp yapıştırdı",
+          "b": 0
+        },
+        {
+          "t": "Eski giysileri geri dönüştüren sistem geliştirdi",
+          "b": 1
+        },
+        {
+          "t": "Aşırı tüketime karşı uyardı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Katkıları doğru kişinin kasasına koy. Kasalar: Mobius / Benjamin Law / Mevlana. Kartlar: Geri dönüşüm sembolüne ilham veren şerit | Kumaş artıklarından saf pamuk elde etti | Kaynakların sınırsız olmadığını söyledi | Kâğıt şeridin uçlarını döndürüp yapıştırdı | Eski giysileri geri dönüştüren sistem geliştirdi | Aşırı tüketime karşı uyardı",
+    "correctAnswer": "Mobius: Geri dönüşüm sembolüne ilham veren şerit, Kâğıt şeridin uçlarını döndürüp yapıştırdı | Benjamin Law: Kumaş artıklarından saf pamuk elde etti, Eski giysileri geri dönüştüren sistem geliştirdi | Mevlana: Kaynakların sınırsız olmadığını söyledi, Aşırı tüketime karşı uyardı",
+    "explanation": "Mobius'un kâğıt şeridi geri dönüşüm sembolüne ilham kaynağı olmuştur. Benjamin Law eski giysi ve kumaşları geri dönüştürerek saf pamuk elde etmiştir. Mevlana kaynakların sınırsız olmadığını ve tüketimin aşırı olmaması gerektiğini belirtmiştir.",
+    "questionId": "fen5u7-kaynak-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Organik atık kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "organik",
+      "items": [
+        {
+          "n": "Alüminyum kutu",
+          "ok": false
+        },
+        {
+          "n": "Elma kabuğu",
+          "ok": true
+        },
+        {
+          "n": "Çürümüş domates",
+          "ok": true
+        },
+        {
+          "n": "Atık pil",
+          "ok": false
+        },
+        {
+          "n": "Besin artıkları",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Organik atık kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Organik atık kutusundaki atıklar: Alüminyum kutu, Elma kabuğu, Çürümüş domates, Atık pil, Besin artıkları]",
+    "correctAnswer": "Çıkarılacaklar: Atık pil, Alüminyum kutu",
+    "explanation": "Organik atık kutusuna besin artıkları ve bozulmuş yiyecekler atılır. Pet şişe plastik, alüminyum kutu metal kutusuna, piller pil toplama kutusuna gider.",
+    "questionId": "fen5u7-atik-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Metal kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır.",
+    "data": {
+      "bin": "metal",
+      "items": [
+        {
+          "n": "Alüminyum folyo",
+          "ok": true
+        },
+        {
+          "n": "Konserve kutusu",
+          "ok": true
+        },
+        {
+          "n": "Boya kutusu",
+          "ok": false
+        },
+        {
+          "n": "Kömür külü",
+          "ok": false
+        },
+        {
+          "n": "Metal çatal",
+          "ok": true
+        }
+      ]
+    },
+    "textPlain": "Metal kutusunu denetle! Bu kutuya atılmaması gereken atıklara dokun, sonra mıknatıslı kepçeyi çalıştır. [Metal kutusundaki atıklar: Alüminyum folyo, Konserve kutusu, Boya kutusu, Kömür külü, Metal çatal]",
+    "correctAnswer": "Çıkarılacaklar: Kömür külü, Boya kutusu",
+    "explanation": "Metal kutusuna folyo, kutu, çatal, bıçak gibi metaller atılır. Deodorant ve boya kutuları ile kömür külü geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–142",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Atıkları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Geri dönüştürülebilir",
+        "Geri dönüştürülemez"
+      ],
+      "cards": [
+        {
+          "t": "Konserve kutusu",
+          "b": 0
+        },
+        {
+          "t": "Kâğıt havlu",
+          "b": 1
+        },
+        {
+          "t": "Plastik bidon",
+          "b": 0
+        },
+        {
+          "t": "Bozuk yiyecek",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru kasaya koy. Kasalar: Geri dönüştürülebilir / Geri dönüştürülemez. Kartlar: Konserve kutusu | Kâğıt havlu | Plastik bidon | Bozuk yiyecek",
+    "correctAnswer": "Geri dönüştürülebilir: Konserve kutusu, Plastik bidon | Geri dönüştürülemez: Kâğıt havlu, Bozuk yiyecek",
+    "explanation": "Kitap, defter, gazete, karton, metal kutular, pet şişe, cam şişe ve kavanoz, kumaş parçaları ve atık piller geri dönüşüme kazandırılabilir. Çürümüş ve bozuk yiyecekler, küflenmiş ekmek, kömür külü, kâğıt havlu, tuvalet kâğıdı, yağlanmış kâğıt, karbon kâğıdı, duvar kâğıdı, yapıştırma bandı, mumlu kâğıt, boya, deodorant ve motor yağı kutuları geri dönüşüm kutularına atılmaz.",
+    "questionId": "fen5u7-atik-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Evsel atıklar: geri dönüştürülebilen ve dönüştürülemeyen maddeler",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Atıkları doğru geri dönüşüm kutusuna koy.",
+    "data": {
+      "bins": [
+        "Plastik kutusu",
+        "Cam kutusu",
+        "Kâğıt kutusu",
+        "Metal kutusu"
+      ],
+      "cards": [
+        {
+          "t": "Şişe kapağı",
+          "b": 0
+        },
+        {
+          "t": "Kavanoz",
+          "b": 1
+        },
+        {
+          "t": "Karton",
+          "b": 2
+        },
+        {
+          "t": "Folyo",
+          "b": 3
+        },
+        {
+          "t": "Plastik kova",
+          "b": 0
+        },
+        {
+          "t": "Gazete",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Atıkları doğru geri dönüşüm kutusuna koy. Kasalar: Plastik kutusu / Cam kutusu / Kâğıt kutusu / Metal kutusu. Kartlar: Şişe kapağı | Kavanoz | Karton | Folyo | Plastik kova | Gazete",
+    "correctAnswer": "Plastik kutusu: Şişe kapağı, Plastik kova | Cam kutusu: Kavanoz | Kâğıt kutusu: Karton, Gazete | Metal kutusu: Folyo",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-atik-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "orta",
+    "group": "ayrim",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "kagit",
+        "metal"
+      ],
+      "items": [
+        {
+          "n": "Maden suyu şişesi",
+          "e": "🍾",
+          "b": "cam"
+        },
+        {
+          "n": "Karton kutu",
+          "e": "📦",
+          "b": "kagit"
+        },
+        {
+          "n": "Eskimiş defter",
+          "e": "📓",
+          "b": "kagit"
+        },
+        {
+          "n": "Alüminyum folyo",
+          "e": "🪙",
+          "b": "metal"
+        },
+        {
+          "n": "Boş pet şişe",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Gazete",
+          "e": "📰",
+          "b": "kagit"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Kâğıt, Metal] Atıklar: Maden suyu şişesi, Karton kutu, Eskimiş defter, Alüminyum folyo, Boş pet şişe, Gazete",
+    "correctAnswer": "Maden suyu şişesi → Cam | Karton kutu → Kâğıt | Eskimiş defter → Kâğıt | Alüminyum folyo → Metal | Boş pet şişe → Plastik | Gazete → Kâğıt",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "zor",
+    "group": "ayrim",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "plastik",
+        "cam",
+        "kagit",
+        "metal",
+        "pil",
+        "organik",
+        "cop"
+      ],
+      "items": [
+        {
+          "n": "Besin artıkları",
+          "e": "🍲",
+          "b": "organik"
+        },
+        {
+          "n": "Biten kalem pil",
+          "e": "🔋",
+          "b": "pil"
+        },
+        {
+          "n": "Kırılmamış cam bardak",
+          "e": "🥛",
+          "b": "cam"
+        },
+        {
+          "n": "Gazete",
+          "e": "📰",
+          "b": "kagit"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Mumlu kâğıt",
+          "e": "📄",
+          "b": "cop"
+        },
+        {
+          "n": "Plastik bidon",
+          "e": "🪣",
+          "b": "plastik"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Plastik, Cam, Kâğıt, Metal, Atık pil, Organik atık, Geri dönüştürülemeyen atık] Atıklar: Besin artıkları, Biten kalem pil, Kırılmamış cam bardak, Gazete, Alüminyum içecek kutusu, Mumlu kâğıt, Plastik bidon",
+    "correctAnswer": "Besin artıkları → Organik atık | Biten kalem pil → Atık pil | Kırılmamış cam bardak → Cam | Gazete → Kâğıt | Alüminyum içecek kutusu → Metal | Mumlu kâğıt → Geri dönüştürülemeyen atık | Plastik bidon → Plastik",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "habit",
+    "prompt": "Ev temizliği: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "temizlik",
+      "items": [
+        {
+          "t": "Musluğu açık bırakmak",
+          "ok": 0
+        },
+        {
+          "t": "Kullanılmayan ışığı açık unutmak",
+          "ok": 0
+        },
+        {
+          "t": "Bulaşık suyunu gereğinden fazla kullanmamak",
+          "ok": 1
+        },
+        {
+          "t": "Doğal temizlik ürünleri kullanmak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Ev temizliği: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Musluğu açık bırakmak | Kullanılmayan ışığı açık unutmak | Bulaşık suyunu gereğinden fazla kullanmamak | Doğal temizlik ürünleri kullanmak]",
+    "correctAnswer": "Uygun davranışlar: Bulaşık suyunu gereğinden fazla kullanmamak, Doğal temizlik ürünleri kullanmak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "zor",
+    "group": "sifir",
+    "rank": 3,
+    "type": "habit",
+    "prompt": "Ev temizliği: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "temizlik",
+      "items": [
+        {
+          "t": "Musluğu açık bırakmak",
+          "ok": 0
+        },
+        {
+          "t": "Bulaşık suyunu gereğinden fazla kullanmamak",
+          "ok": 1
+        },
+        {
+          "t": "Doğal temizlik ürünleri kullanmak",
+          "ok": 1
+        },
+        {
+          "t": "Eski tişörtü temizlik bezi yapmak",
+          "ok": 1
+        },
+        {
+          "t": "Kullanılmayan ışığı açık unutmak",
+          "ok": 0
+        }
+      ]
+    },
+    "textPlain": "Ev temizliği: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Musluğu açık bırakmak | Bulaşık suyunu gereğinden fazla kullanmamak | Doğal temizlik ürünleri kullanmak | Eski tişörtü temizlik bezi yapmak | Kullanılmayan ışığı açık unutmak]",
+    "correctAnswer": "Uygun davranışlar: Bulaşık suyunu gereğinden fazla kullanmamak, Doğal temizlik ürünleri kullanmak, Eski tişörtü temizlik bezi yapmak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "habit",
+    "prompt": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart!",
+    "data": {
+      "sc": "market",
+      "items": [
+        {
+          "t": "Alışverişe bez torbayla gitmek",
+          "ok": 1
+        },
+        {
+          "t": "Tek kullanımlık plastik çatal almak",
+          "ok": 0
+        },
+        {
+          "t": "Her ürün için ayrı poşet almak",
+          "ok": 0
+        },
+        {
+          "t": "İhtiyaç kadar ürün almak",
+          "ok": 1
+        }
+      ]
+    },
+    "textPlain": "Market alışverişi: Sıfır atığa uygun davranışların hepsini seç, sonra çöp poşetini tart! [Davranışlar: Alışverişe bez torbayla gitmek | Tek kullanımlık plastik çatal almak | Her ürün için ayrı poşet almak | İhtiyaç kadar ürün almak]",
+    "correctAnswer": "Uygun davranışlar: Alışverişe bez torbayla gitmek, İhtiyaç kadar ürün almak",
+    "explanation": "Sıfır atık; israfı önlemeyi, kaynakları verimli kullanmayı, atık miktarını azaltmayı, atıkları kaynağında ayrıştırıp geri kazanmayı kapsar. İlk adım atık oluşumunu önlemektir: bez torba kullanmak, ihtiyaç kadar tüketmek, toplu taşıma, şarj edilebilir pil, enerji tasarruflu ürünler, plastik yerine cam ve doğal temizlik ürünleri tercih etmek atığı azaltır.",
+    "questionId": "fen5u7-sifir-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Sıfır atık ve atık yönetimi uygulamaları",
+    "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "sifir",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Davranışları doğru kasaya koy.",
+    "data": {
+      "bins": [
+        "Yeniden kullanım",
+        "Tek kullanım"
+      ],
+      "cards": [
+        {
+          "t": "Cam kavanozu tekrar doldurmak",
+          "b": 0
+        },
+        {
+          "t": "Plastik bardağı bir kez kullanıp atmak",
+          "b": 1
+        },
+        {
+          "t": "Bez torbayı her alışverişte kullanmak",
+          "b": 0
+        },
+        {
+          "t": "Kâğıt peçeteyi bol bol harcamak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Davranışları doğru kasaya koy. Kasalar: Yeniden kullanım / Tek kullanım. Kartlar: Cam kavanozu tekrar doldurmak | Plastik bardağı bir kez kullanıp atmak | Bez torbayı her alışverişte kullanmak | Kâğıt peçeteyi bol bol harcamak",
+    "correctAnswer": "Yeniden kullanım: Cam kavanozu tekrar doldurmak, Bez torbayı her alışverişte kullanmak | Tek kullanım: Plastik bardağı bir kez kullanıp atmak, Kâğıt peçeteyi bol bol harcamak",
+    "explanation": "Yeniden kullanım atık miktarını azaltır ve aile bütçesine katkı sağlar; tek kullanımlık ürünler atığı artırır.",
+    "questionId": "fen5u7-sifir-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 156",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "chart",
+    "prompt": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. Sütunlara en çoktan en aza doğru sırayla dokun, sonra ölç!",
+    "data": {
+      "items": [
+        {
+          "n": "Plastik",
+          "v": 5774000
+        },
+        {
+          "n": "Cam",
+          "v": 42000
+        },
+        {
+          "n": "Metal",
+          "v": 642000
+        }
+      ],
+      "mode": "order",
+      "ans": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Bin ton atık geri dönüştürülünce sağlanan enerji tasarrufu grafikte. Sütunlara en çoktan en aza doğru sırayla dokun, sonra ölç! [Grafik: Plastik 5.774.000 kWh, Cam 42.000 kWh, Metal 642.000 kWh]",
+    "correctAnswer": "Plastik → Metal → Cam",
+    "explanation": "Biner ton atık geri dönüştürüldüğünde en çok enerji tasarrufu plastikte (5.774.000 kWh), sonra kâğıtta (4.100.000 kWh), metalde (642.000 kWh) ve camda (42.000 kWh) sağlanır. Bin ton plastik 16.300 varil petrol, bin ton kâğıt 17.000 ağaç kurtarır. Geri dönüşüm ham madde ve enerji tasarrufu sağlar; her malzemenin geri dönüşümü önemlidir.",
+    "questionId": "fen5u7-kaynak-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Bir ailede her gün 6 kâğıt havlu yerine yıkanabilir bez kullanılıyor. 15 günde kaç kâğıt havlu atığı önlenir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 15,
+      "b": 6,
+      "ans": 90,
+      "unit": "havlu"
+    },
+    "textPlain": "Bir ailede her gün 6 kâğıt havlu yerine yıkanabilir bez kullanılıyor. 15 günde kaç kâğıt havlu atığı önlenir? Sayı çarklarıyla gir! [Veri: 15 ve 6]",
+    "correctAnswer": "90 havlu",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Bin ton plastik geri dönüştürülünce 16.300 varil petrol tasarruf ediliyor. Üç bin ton plastikle kaç varil petrol tasarruf edilir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 3,
+      "b": 16300,
+      "ans": 48900,
+      "unit": "varil"
+    },
+    "textPlain": "Bin ton plastik geri dönüştürülünce 16.300 varil petrol tasarruf ediliyor. Üç bin ton plastikle kaç varil petrol tasarruf edilir? Sayı çarklarıyla gir! [Veri: 3 ve 16300]",
+    "correctAnswer": "48900 varil",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+    "difficulty": "orta",
+    "group": "surec",
+    "rank": 2,
+    "type": "machine",
+    "prompt": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır.",
+    "data": {
+      "rows": [
+        {
+          "a": "Cam şişe",
+          "b": "Yıkanıp yine içecek şişesi",
+          "t": 0,
+          "ea": "🍾",
+          "eb": "🍾"
+        },
+        {
+          "a": "Eski kot pantolon",
+          "b": "Çanta",
+          "t": 1,
+          "ea": "👖",
+          "eb": "👜"
+        },
+        {
+          "a": "Gazete",
+          "b": "Yeni kâğıt hamuru",
+          "t": 2,
+          "ea": "📰",
+          "eb": "📄"
+        }
+      ]
+    },
+    "textPlain": "Dönüşüm makinesi! Her ürün için hangi dönüşümün yapıldığını seç, sonra makineyi çalıştır. [Dönüşümler: Cam şişe → Yıkanıp yine içecek şişesi | Eski kot pantolon → Çanta | Gazete → Yeni kâğıt hamuru]",
+    "correctAnswer": "Cam şişe → Yıkanıp yine içecek şişesi: Yeniden kullanım | Eski kot pantolon → Çanta: İleri dönüşüm | Gazete → Yeni kâğıt hamuru: Geri dönüşüm",
+    "explanation": "Yeniden kullanım: atığın üretim amacıyla aynı amaçla tekrar kullanılması (onarılan sandalye). İleri dönüşüm: atığın daha yüksek değerli yeni bir ürüne dönüştürülmesi (kottan çanta). Geri dönüşüm: atığın işlenerek ham madde olarak yeniden imalata kazandırılması (defterden tuvalet kâğıdı).",
+    "questionId": "fen5u7-surec-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşüm süreci; yeniden kullanım, ileri dönüşüm ve geri dönüşüm",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 137, 158",
+    "difficulty": "kolay",
+    "group": "surec",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Geri dönüşüm hattını sırala: Kartlara doğru sırayla dokun, sonra hattı çalıştır!",
+    "data": {
+      "steps": [
+        "Atıklar toplanır",
+        "Türlerine göre ayrıştırılır",
+        "Yeni ürün imal edilir"
+      ],
+      "traps": []
+    },
+    "textPlain": "Geri dönüşüm hattını sırala: Kartlara doğru sırayla dokun, sonra hattı çalıştır! Kartlar (karışık): Atıklar toplanır | Türlerine göre ayrıştırılır | Yeni ürün imal edilir",
+    "correctAnswer": "1) Atıklar toplanır → 2) Türlerine göre ayrıştırılır → 3) Yeni ürün imal edilir",
+    "explanation": "Geri dönüşüm, atıkların toplanmasıyla başlar; toplanan atıklar türlerine göre ayrıştırılır, ham maddeye dönüştürülür ve yeni ürünlerin imalatında kullanılır.",
+    "questionId": "fen5u7-surec-22"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Atıkların türlerine göre ayrıştırılması ve geri dönüşüm kutuları",
+    "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+    "difficulty": "kolay",
+    "group": "ayrim",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır.",
+    "data": {
+      "bins": [
+        "kagit",
+        "cam",
+        "metal",
+        "plastik"
+      ],
+      "items": [
+        {
+          "n": "Gazete",
+          "e": "📰",
+          "b": "kagit"
+        },
+        {
+          "n": "Alüminyum içecek kutusu",
+          "e": "🥫",
+          "b": "metal"
+        },
+        {
+          "n": "Boş pet şişe",
+          "e": "🧴",
+          "b": "plastik"
+        },
+        {
+          "n": "Kırılmamış cam bardak",
+          "e": "🥛",
+          "b": "cam"
+        }
+      ]
+    },
+    "textPlain": "Banttan gelen her atığı doğru kutuya at! Hepsi bitince denetçi robotu çalıştır. [Kutular: Kâğıt, Cam, Metal, Plastik] Atıklar: Gazete, Alüminyum içecek kutusu, Boş pet şişe, Kırılmamış cam bardak",
+    "correctAnswer": "Gazete → Kâğıt | Alüminyum içecek kutusu → Metal | Boş pet şişe → Plastik | Kırılmamış cam bardak → Cam",
+    "explanation": "Plastik (şişe, bidon, kapak, kova, gıda kapları), cam (kırılmamış şişe, kavanoz, bardak), kâğıt (kitap, defter, karton, gazete) ve metal (folyo, kutu, çatal) ayrı kutulara atılır. Atık piller pil toplama kutusuna, kızartma yağı sızdırmaz kapta atık yağ kumbarasına gider. Besin artıkları organik atıktır. Kâğıt havlu, yağlanmış kâğıt, kömür külü, yapıştırma bandı gibi maddeler geri dönüştürülemez. Tıbbi atıklar özel olarak toplanır.",
+    "questionId": "fen5u7-ayrim-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+    "topic": "Geri dönüşümün kaynakların etkili kullanımındaki önemi",
+    "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Bir sınıfta 30 öğrenci var. Her öğrenci haftada 3 defter sayfasını boş bırakmadan kullanırsa haftada kaç sayfa kâğıt tasarruf edilir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 30,
+      "b": 3,
+      "ans": 90,
+      "unit": "sayfa"
+    },
+    "textPlain": "Bir sınıfta 30 öğrenci var. Her öğrenci haftada 3 defter sayfasını boş bırakmadan kullanırsa haftada kaç sayfa kâğıt tasarruf edilir? Sayı çarklarıyla gir! [Veri: 30 ve 3]",
+    "correctAnswer": "90 sayfa",
+    "explanation": "Küçük alışkanlıklar büyük sayılara dönüşür: Her öğrencinin her gün bir pet şişe atık oluşturması, kısa sürede çok sayıda şişe birikmesi demektir. Bu şişeler plastik toplama kutularına atılırsa ham madde ve enerji tasarrufu sağlanır.",
+    "questionId": "fen5u7-kaynak-20"
+  }
+]
