@@ -1,0 +1,4013 @@
+[
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her sembolün altına doğru devre elemanının adını yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "pil",
+        "ampul",
+        "kablo"
+      ],
+      "mode": "name",
+      "toks": [
+        {
+          "k": "pil"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "kablo"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına doğru devre elemanının adını yerleştir. Sonra panoyu yak. [Semboller: pil sembolü, ampul sembolü, bağlantı kablosu sembolü] Kartlar: Pil, Ampul, Bağlantı kablosu",
+    "correctAnswer": "Pil sembolü → Pil | Ampul sembolü → Ampul | Bağlantı kablosu sembolü → Bağlantı kablosu",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her sembolün altına doğru devre elemanının adını yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "ampul",
+        "acik",
+        "pil"
+      ],
+      "mode": "name",
+      "toks": [
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "acik"
+        },
+        {
+          "k": "pil"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına doğru devre elemanının adını yerleştir. Sonra panoyu yak. [Semboller: ampul sembolü, açık anahtar sembolü, pil sembolü] Kartlar: Ampul, Açık anahtar, Pil",
+    "correctAnswer": "Ampul sembolü → Ampul | Açık anahtar sembolü → Açık anahtar | Pil sembolü → Pil",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her sembolün altına doğru devre elemanının adını yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "kapali",
+        "kablo",
+        "ampul"
+      ],
+      "mode": "name",
+      "toks": [
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "kablo"
+        },
+        {
+          "k": "ampul"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına doğru devre elemanının adını yerleştir. Sonra panoyu yak. [Semboller: kapalı anahtar sembolü, bağlantı kablosu sembolü, ampul sembolü] Kartlar: Kapalı anahtar, Bağlantı kablosu, Ampul",
+    "correctAnswer": "Kapalı anahtar sembolü → Kapalı anahtar | Bağlantı kablosu sembolü → Bağlantı kablosu | Ampul sembolü → Ampul",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "orta",
+    "group": "sembol",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının resmini yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "pil",
+        "ampul",
+        "acik",
+        "kablo"
+      ],
+      "mode": "pic",
+      "toks": [
+        {
+          "k": "pil"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "acik"
+        },
+        {
+          "k": "kablo"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının resmini yerleştir. Sonra panoyu yak. [Semboller: pil sembolü, ampul sembolü, açık anahtar sembolü, bağlantı kablosu sembolü] Kartlar: Pil, Ampul, Açık anahtar, Bağlantı kablosu",
+    "correctAnswer": "Pil sembolü → Pil | Ampul sembolü → Ampul | Açık anahtar sembolü → Açık anahtar | Bağlantı kablosu sembolü → Bağlantı kablosu",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "orta",
+    "group": "sembol",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının resmini yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "kapali",
+        "pil",
+        "ampul"
+      ],
+      "mode": "pic",
+      "toks": [
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "pil"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "yatak"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının resmini yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak. [Semboller: kapalı anahtar sembolü, pil sembolü, ampul sembolü] Kartlar: Kapalı anahtar, Pil, Ampul, Pil yatağı",
+    "correctAnswer": "Kapalı anahtar sembolü → Kapalı anahtar | Pil sembolü → Pil | Ampul sembolü → Ampul | Boşta kalan: Pil yatağı",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "orta",
+    "group": "sembol",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her sembolün altına doğru devre elemanının adını yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "pil",
+        "ampul",
+        "kablo",
+        "kapali"
+      ],
+      "mode": "name",
+      "toks": [
+        {
+          "k": "pil"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "kablo"
+        },
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "duy"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına doğru devre elemanının adını yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak. [Semboller: pil sembolü, ampul sembolü, bağlantı kablosu sembolü, kapalı anahtar sembolü] Kartlar: Pil, Ampul, Bağlantı kablosu, Kapalı anahtar, Duy",
+    "correctAnswer": "Pil sembolü → Pil | Ampul sembolü → Ampul | Bağlantı kablosu sembolü → Bağlantı kablosu | Kapalı anahtar sembolü → Kapalı anahtar | Boşta kalan: Duy",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "zor",
+    "group": "sembol",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının görevini yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "pil",
+        "ampul",
+        "kablo",
+        "acik"
+      ],
+      "mode": "fn",
+      "toks": [
+        {
+          "k": "pil"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "kablo"
+        },
+        {
+          "k": "acik"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının görevini yerleştir. Sonra panoyu yak. [Semboller: pil sembolü, ampul sembolü, bağlantı kablosu sembolü, açık anahtar sembolü] Kartlar: Devreye enerji sağlar, Elektrik enerjisini ışığa dönüştürür, Devre elemanlarını birbirine bağlar, Devreyi keser, ampul yanmaz",
+    "correctAnswer": "Pil sembolü → Devreye enerji sağlar | Ampul sembolü → Elektrik enerjisini ışığa dönüştürür | Bağlantı kablosu sembolü → Devre elemanlarını birbirine bağlar | Açık anahtar sembolü → Devreyi keser, ampul yanmaz",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "zor",
+    "group": "sembol",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının görevini yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "ampul",
+        "kapali",
+        "pil",
+        "kablo"
+      ],
+      "mode": "fn",
+      "toks": [
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "pil"
+        },
+        {
+          "k": "kablo"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının görevini yerleştir. Sonra panoyu yak. [Semboller: ampul sembolü, kapalı anahtar sembolü, pil sembolü, bağlantı kablosu sembolü] Kartlar: Elektrik enerjisini ışığa dönüştürür, Devreyi tamamlar, akım geçer, Devreye enerji sağlar, Devre elemanlarını birbirine bağlar",
+    "correctAnswer": "Ampul sembolü → Elektrik enerjisini ışığa dönüştürür | Kapalı anahtar sembolü → Devreyi tamamlar, akım geçer | Pil sembolü → Devreye enerji sağlar | Bağlantı kablosu sembolü → Devre elemanlarını birbirine bağlar",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "zor",
+    "group": "sembol",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının resmini yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "pil",
+        "ampul",
+        "acik",
+        "kapali"
+      ],
+      "mode": "pic",
+      "toks": [
+        {
+          "k": "pil"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "acik"
+        },
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "duy"
+        },
+        {
+          "k": "yatak"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının resmini yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak. [Semboller: pil sembolü, ampul sembolü, açık anahtar sembolü, kapalı anahtar sembolü] Kartlar: Pil, Ampul, Açık anahtar, Kapalı anahtar, Duy, Pil yatağı",
+    "correctAnswer": "Pil sembolü → Pil | Ampul sembolü → Ampul | Açık anahtar sembolü → Açık anahtar | Kapalı anahtar sembolü → Kapalı anahtar | Boşta kalan: Duy, Pil yatağı",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 109, 112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Devre elemanlarını doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Sembolü var",
+        "Sembolü yok"
+      ],
+      "cards": [
+        {
+          "t": "Pil",
+          "b": 0
+        },
+        {
+          "t": "Duy",
+          "b": 1
+        },
+        {
+          "t": "Ampul",
+          "b": 0
+        },
+        {
+          "t": "Pil yatağı",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Devre elemanlarını doğru bölmeye koy. Bölmeler: Sembolü var / Sembolü yok. Kartlar: Pil | Duy | Ampul | Pil yatağı",
+    "correctAnswer": "Sembolü var: Pil, Ampul | Sembolü yok: Duy, Pil yatağı",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 109, 112",
+    "difficulty": "orta",
+    "group": "sembol",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Devre elemanlarını doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Sembolü var",
+        "Sembolü yok"
+      ],
+      "cards": [
+        {
+          "t": "Bağlantı kablosu",
+          "b": 0
+        },
+        {
+          "t": "Pil yatağı",
+          "b": 1
+        },
+        {
+          "t": "Açık anahtar",
+          "b": 0
+        },
+        {
+          "t": "Duy",
+          "b": 1
+        },
+        {
+          "t": "Kapalı anahtar",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Devre elemanlarını doğru bölmeye koy. Bölmeler: Sembolü var / Sembolü yok. Kartlar: Bağlantı kablosu | Pil yatağı | Açık anahtar | Duy | Kapalı anahtar",
+    "correctAnswer": "Sembolü var: Bağlantı kablosu, Açık anahtar, Kapalı anahtar | Sembolü yok: Pil yatağı, Duy",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 112–113",
+    "difficulty": "orta",
+    "group": "sembol",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Panodaki ifadeleri doğru ya da hatalı diye ayır.",
+    "data": {
+      "bins": [
+        "Doğru",
+        "Hatalı"
+      ],
+      "cards": [
+        {
+          "t": "Sembol kullanımı ortak bir bilimsel dil oluşturur.",
+          "b": 0
+        },
+        {
+          "t": "Bağlantı kablosunun sembolü yoktur.",
+          "b": 1
+        },
+        {
+          "t": "Pil yatağının belirli bir sembolü yoktur.",
+          "b": 0
+        },
+        {
+          "t": "Ampul, içinde çarpı olan bir daireyle gösterilir.",
+          "b": 0
+        },
+        {
+          "t": "Duy, ampulle aynı sembolle gösterilir.",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Panodaki ifadeleri doğru ya da hatalı diye ayır. Bölmeler: Doğru / Hatalı. Kartlar: Sembol kullanımı ortak bir bilimsel dil oluşturur. | Bağlantı kablosunun sembolü yoktur. | Pil yatağının belirli bir sembolü yoktur. | Ampul, içinde çarpı olan bir daireyle gösterilir. | Duy, ampulle aynı sembolle gösterilir.",
+    "correctAnswer": "Doğru: Sembol kullanımı ortak bir bilimsel dil oluşturur., Pil yatağının belirli bir sembolü yoktur., Ampul, içinde çarpı olan bir daireyle gösterilir. | Hatalı: Bağlantı kablosunun sembolü yoktur., Duy, ampulle aynı sembolle gösterilir.",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 107, 110, 112",
+    "difficulty": "zor",
+    "group": "sembol",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Sembol kullanmanın faydası",
+        "Sembolle ilgisi yok"
+      ],
+      "cards": [
+        {
+          "t": "Farklı dil konuşanlar aynı şemayı anlayabilir",
+          "b": 0
+        },
+        {
+          "t": "Yetkili servis, ihraç edilen cihazı şemaya bakarak onarabilir",
+          "b": 0
+        },
+        {
+          "t": "Ampulün daha parlak yanmasını sağlar",
+          "b": 1
+        },
+        {
+          "t": "Devreyi çizmeyi kolaylaştırır ve zaman kazandırır",
+          "b": 0
+        },
+        {
+          "t": "Pilin daha uzun dayanmasını sağlar",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye koy. Bölmeler: Sembol kullanmanın faydası / Sembolle ilgisi yok. Kartlar: Farklı dil konuşanlar aynı şemayı anlayabilir | Yetkili servis, ihraç edilen cihazı şemaya bakarak onarabilir | Ampulün daha parlak yanmasını sağlar | Devreyi çizmeyi kolaylaştırır ve zaman kazandırır | Pilin daha uzun dayanmasını sağlar",
+    "correctAnswer": "Sembol kullanmanın faydası: Farklı dil konuşanlar aynı şemayı anlayabilir, Yetkili servis, ihraç edilen cihazı şemaya bakarak onarabilir, Devreyi çizmeyi kolaylaştırır ve zaman kazandırır | Sembolle ilgisi yok: Ampulün daha parlak yanmasını sağlar, Pilin daha uzun dayanmasını sağlar",
+    "explanation": "Semboller dünyada ortak bir bilimsel dil oluşturur: farklı dil konuşanlar aynı şemayı anlar, çizim kolaylaşır, servisler cihazları şemaya bakarak onarır. Sembollerin ampul parlaklığına ya da pil ömrüne etkisi yoktur.",
+    "questionId": "fen5u6-sembol-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 107, 112",
+    "difficulty": "zor",
+    "group": "sembol",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları ait oldukları devre elemanının bölmesine koy.",
+    "data": {
+      "bins": [
+        "Pil",
+        "Ampul",
+        "Anahtar"
+      ],
+      "cards": [
+        {
+          "t": "Uzun ve kısa iki paralel çizgi",
+          "b": 0
+        },
+        {
+          "t": "İçinde çarpı olan daire",
+          "b": 1
+        },
+        {
+          "t": "Kalkık çizgi: devre açık",
+          "b": 2
+        },
+        {
+          "t": "Elektrik enerjisini ışığa dönüştürür",
+          "b": 1
+        },
+        {
+          "t": "Devreyi açar ya da kapatır",
+          "b": 2
+        },
+        {
+          "t": "+ ve − kutupları vardır",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları ait oldukları devre elemanının bölmesine koy. Bölmeler: Pil / Ampul / Anahtar. Kartlar: Uzun ve kısa iki paralel çizgi | İçinde çarpı olan daire | Kalkık çizgi: devre açık | Elektrik enerjisini ışığa dönüştürür | Devreyi açar ya da kapatır | + ve − kutupları vardır",
+    "correctAnswer": "Pil: Uzun ve kısa iki paralel çizgi, + ve − kutupları vardır | Ampul: İçinde çarpı olan daire, Elektrik enerjisini ışığa dönüştürür | Anahtar: Kalkık çizgi: devre açık, Devreyi açar ya da kapatır",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "ampul"
+      ],
+      "given": "pic",
+      "slots": 3,
+      "goal": {
+        "pil": 1,
+        "ampul": 1,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et! [Düzenek resmi: 1 pil, 1 ampul, 1 kapalı anahtar; şemada 3 boş yer]",
+    "correctAnswer": "1 pil, 1 ampul, 1 kapalı anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "ampul",
+        "acik"
+      ],
+      "given": "pic",
+      "slots": 3,
+      "goal": {
+        "pil": 1,
+        "ampul": 1,
+        "sw": "acik"
+      }
+    },
+    "textPlain": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et! [Düzenek resmi: 1 pil, 1 ampul, 1 açık anahtar; şemada 3 boş yer]",
+    "correctAnswer": "1 pil, 1 ampul, 1 açık anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "build",
+    "prompt": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "kapali",
+        "ampul"
+      ],
+      "given": "text",
+      "slots": 4,
+      "goal": {
+        "pil": 2,
+        "ampul": 1,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et! [İstenen devre: 2 pil, 1 ampul, 1 kapalı anahtar; şemada 4 boş yer]",
+    "correctAnswer": "2 pil, 1 ampul, 1 kapalı anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul"
+      ],
+      "given": "pic",
+      "slots": 5,
+      "goal": {
+        "pil": 2,
+        "ampul": 2,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et! [Düzenek resmi: 2 pil, 2 ampul, 1 kapalı anahtar; şemada 5 boş yer]",
+    "correctAnswer": "2 pil, 2 ampul, 1 kapalı anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "build",
+    "prompt": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "acik",
+        "ampul",
+        "ampul"
+      ],
+      "given": "text",
+      "slots": 5,
+      "goal": {
+        "pil": 1,
+        "ampul": 2,
+        "sw": "acik"
+      }
+    },
+    "textPlain": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et! [İstenen devre: 1 pil, 2 ampul, 1 açık anahtar; şemada 5 boş yer]",
+    "correctAnswer": "1 pil, 2 ampul, 1 açık anahtar, 1 bağlantı kablosu",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "build",
+    "prompt": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "pil",
+        "kapali",
+        "ampul"
+      ],
+      "given": "text",
+      "slots": 6,
+      "goal": {
+        "pil": 3,
+        "ampul": 1,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et! [İstenen devre: 3 pil, 1 ampul, 1 kapalı anahtar; şemada 6 boş yer]",
+    "correctAnswer": "3 pil, 1 ampul, 1 kapalı anahtar, 1 bağlantı kablosu",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "build",
+    "prompt": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul",
+        "ampul",
+        "ampul"
+      ],
+      "given": "text",
+      "slots": 8,
+      "goal": {
+        "pil": 3,
+        "ampul": 4,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et! [İstenen devre: 3 pil, 4 ampul, 1 kapalı anahtar; şemada 8 boş yer]",
+    "correctAnswer": "3 pil, 4 ampul, 1 kapalı anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "acik",
+        "ampul",
+        "ampul",
+        "ampul"
+      ],
+      "given": "pic",
+      "slots": 6,
+      "goal": {
+        "pil": 2,
+        "ampul": 3,
+        "sw": "acik"
+      }
+    },
+    "textPlain": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et! [Düzenek resmi: 2 pil, 3 ampul, 1 açık anahtar; şemada 6 boş yer]",
+    "correctAnswer": "2 pil, 3 ampul, 1 açık anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "build",
+    "prompt": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul",
+        "ampul"
+      ],
+      "given": "text",
+      "slots": 7,
+      "goal": {
+        "pil": 1,
+        "ampul": 3,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et! [İstenen devre: 1 pil, 3 ampul, 1 kapalı anahtar; şemada 7 boş yer]",
+    "correctAnswer": "1 pil, 3 ampul, 1 kapalı anahtar, 2 bağlantı kablosu",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 1 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "1 pil, 1 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "acik",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 2 pil, 1 ampul, 1 açık anahtar]",
+    "correctAnswer": "2 pil, 1 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 2 pil, 3 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "2 pil, 3 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 3 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "3 pil, 2 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul",
+        "ampul",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 3 pil, 4 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "3 pil, 4 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "acik",
+        "ampul",
+        "pil",
+        "ampul",
+        "ampul",
+        "pil"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 4 pil, 3 ampul, 1 açık anahtar]",
+    "correctAnswer": "4 pil, 3 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 112, 117",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Devre şeması",
+        "Devre düzeneği"
+      ],
+      "cards": [
+        {
+          "t": "Sembollerle yapılan çizim",
+          "b": 0
+        },
+        {
+          "t": "Pil yatağı ve duy görünür",
+          "b": 1
+        },
+        {
+          "t": "Farklı dil konuşan herkes aynı şekilde okur",
+          "b": 0
+        },
+        {
+          "t": "Gerçek malzemelerle kurulur",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye koy. Bölmeler: Devre şeması / Devre düzeneği. Kartlar: Sembollerle yapılan çizim | Pil yatağı ve duy görünür | Farklı dil konuşan herkes aynı şekilde okur | Gerçek malzemelerle kurulur",
+    "correctAnswer": "Devre şeması: Sembollerle yapılan çizim, Farklı dil konuşan herkes aynı şekilde okur | Devre düzeneği: Pil yatağı ve duy görünür, Gerçek malzemelerle kurulur",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır. Pil yatağı ve duy düzenekte bulunur ama şemada sembolleri yoktur.",
+    "questionId": "fen5u6-sema-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Şemada 2 pil var",
+        "Şemada 3 pil var"
+      ],
+      "cards": [
+        {
+          "t": "Uzun-kısa çizgi çifti iki kez çizilmiş",
+          "b": 0
+        },
+        {
+          "t": "3 pil, 1 ampul ve kapalı anahtarlı el feneri",
+          "b": 1
+        },
+        {
+          "t": "Aynı sayıda pil ve ampul, 2 ampullü devre",
+          "b": 0
+        },
+        {
+          "t": "Pil sayısı, 1 ampullü 2 pilli devreden 1 fazla",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye koy. Bölmeler: Şemada 2 pil var / Şemada 3 pil var. Kartlar: Uzun-kısa çizgi çifti iki kez çizilmiş | 3 pil, 1 ampul ve kapalı anahtarlı el feneri | Aynı sayıda pil ve ampul, 2 ampullü devre | Pil sayısı, 1 ampullü 2 pilli devreden 1 fazla",
+    "correctAnswer": "Şemada 2 pil var: Uzun-kısa çizgi çifti iki kez çizilmiş, Aynı sayıda pil ve ampul, 2 ampullü devre | Şemada 3 pil var: 3 pil, 1 ampul ve kapalı anahtarlı el feneri, Pil sayısı, 1 ampullü 2 pilli devreden 1 fazla",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "pil",
+          "kapali",
+          "ampul"
+        ],
+        [
+          "pil",
+          "acik",
+          "ampul"
+        ]
+      ],
+      "mode": "sym",
+      "ans": [
+        0
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 1 ampul, 1 açık anahtar]",
+    "correctAnswer": "Işık verenler: A",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "pil",
+          "acik",
+          "ampul"
+        ],
+        [
+          "pil",
+          "pil",
+          "kapali",
+          "ampul"
+        ]
+      ],
+      "mode": "real",
+      "ans": [
+        1
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 1 pil, 1 ampul, 1 açık anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "Işık verenler: B",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "pil",
+          "kapali",
+          "ampul",
+          "bos"
+        ],
+        [
+          "pil",
+          "kapali",
+          "ampul",
+          "ampul"
+        ],
+        [
+          "pil",
+          "acik",
+          "ampul"
+        ]
+      ],
+      "mode": "sym",
+      "ans": [
+        1
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar, 1 kopuk kablo | B) 1 pil, 2 ampul, 1 kapalı anahtar | C) 1 pil, 1 ampul, 1 açık anahtar]",
+    "correctAnswer": "Işık verenler: B",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "pil",
+          "pil",
+          "kapali",
+          "ampul"
+        ],
+        [
+          "pil",
+          "kapali",
+          "bos",
+          "ampul"
+        ],
+        [
+          "pil",
+          "kapali",
+          "ampul",
+          "ampul",
+          "ampul"
+        ]
+      ],
+      "mode": "real",
+      "ans": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 2 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 1 ampul, 1 kapalı anahtar, 1 kopuk kablo | C) 1 pil, 3 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "Işık verenler: A, C",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "zor",
+    "group": "ariza",
+    "rank": 3,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "pil",
+          "acik",
+          "ampul",
+          "ampul"
+        ],
+        [
+          "pil",
+          "pil",
+          "kapali",
+          "ampul",
+          "bos"
+        ],
+        [
+          "pil",
+          "kapali",
+          "ampul"
+        ],
+        [
+          "pil",
+          "pil",
+          "pil",
+          "kapali",
+          "ampul",
+          "ampul"
+        ]
+      ],
+      "mode": "sym",
+      "ans": [
+        2,
+        3
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 1 pil, 2 ampul, 1 açık anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar, 1 kopuk kablo | C) 1 pil, 1 ampul, 1 kapalı anahtar | D) 3 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "Işık verenler: C, D",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "zor",
+    "group": "ariza",
+    "rank": 3,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "kapali",
+          "ampul",
+          "ampul"
+        ],
+        [
+          "pil",
+          "kapali",
+          "ampul",
+          "ampul",
+          "ampul",
+          "ampul"
+        ],
+        [
+          "pil",
+          "pil",
+          "acik",
+          "ampul"
+        ],
+        [
+          "pil",
+          "kapali",
+          "bos",
+          "ampul",
+          "pil"
+        ]
+      ],
+      "mode": "sym",
+      "ans": [
+        1
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 2 ampul, 1 kapalı anahtar | B) 1 pil, 4 ampul, 1 kapalı anahtar | C) 2 pil, 1 ampul, 1 açık anahtar | D) 2 pil, 1 ampul, 1 kapalı anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Işık verenler: B",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "acik",
+        "ampul"
+      ],
+      "faults": [
+        1
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 1 pil, 1 ampul, 1 açık anahtar]",
+    "correctAnswer": "Arıza: açık anahtar (kapatılmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "bos",
+        "ampul"
+      ],
+      "faults": [
+        2
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 1 pil, 1 ampul, 1 kapalı anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Arıza: kopuk kablo (bağlanmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "acik",
+        "ampul",
+        "ampul"
+      ],
+      "faults": [
+        2
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 2 pil, 2 ampul, 1 açık anahtar]",
+    "correctAnswer": "Arıza: açık anahtar (kapatılmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "ampul",
+        "bos",
+        "ampul"
+      ],
+      "faults": [
+        3
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 1 pil, 2 ampul, 1 kapalı anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Arıza: kopuk kablo (bağlanmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "zor",
+    "group": "ariza",
+    "rank": 3,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "acik",
+        "ampul",
+        "bos",
+        "ampul"
+      ],
+      "faults": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 1 pil, 2 ampul, 1 açık anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Arıza: açık anahtar (kapatılmalı), kopuk kablo (bağlanmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "zor",
+    "group": "ariza",
+    "rank": 3,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "bos",
+        "kapali",
+        "ampul",
+        "acik"
+      ],
+      "faults": [
+        2,
+        5
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 2 pil, 1 ampul, 1 kapalı anahtar, 1 açık anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Arıza: kopuk kablo (bağlanmalı), açık anahtar (kapatılmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 116",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Devreleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Ampul ışık verir",
+        "Ampul ışık vermez"
+      ],
+      "cards": [
+        {
+          "t": "Pil, kapalı anahtar ve ampulden oluşan devre",
+          "b": 0
+        },
+        {
+          "t": "Anahtarı açık devre",
+          "b": 1
+        },
+        {
+          "t": "Kablosu kopuk devre",
+          "b": 1
+        },
+        {
+          "t": "İki pilli, kapalı anahtarlı devre",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Devreleri doğru bölmeye koy. Bölmeler: Ampul ışık verir / Ampul ışık vermez. Kartlar: Pil, kapalı anahtar ve ampulden oluşan devre | Anahtarı açık devre | Kablosu kopuk devre | İki pilli, kapalı anahtarlı devre",
+    "correctAnswer": "Ampul ışık verir: Pil, kapalı anahtar ve ampulden oluşan devre, İki pilli, kapalı anahtarlı devre | Ampul ışık vermez: Anahtarı açık devre, Kablosu kopuk devre",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 116–117",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Devreleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Ampul ışık verir",
+        "Ampul ışık vermez"
+      ],
+      "cards": [
+        {
+          "t": "Pili olmayan, kapalı anahtarlı devre",
+          "b": 1
+        },
+        {
+          "t": "Bir pil ve üç ampullü kapalı devre",
+          "b": 0
+        },
+        {
+          "t": "Anahtarı kapalı ama bir kablosu kopuk devre",
+          "b": 1
+        },
+        {
+          "t": "Kapalı anahtarlı, kabloları sağlam el feneri",
+          "b": 0
+        },
+        {
+          "t": "Anahtarı açık, üç pilli devre",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Devreleri doğru bölmeye koy. Bölmeler: Ampul ışık verir / Ampul ışık vermez. Kartlar: Pili olmayan, kapalı anahtarlı devre | Bir pil ve üç ampullü kapalı devre | Anahtarı kapalı ama bir kablosu kopuk devre | Kapalı anahtarlı, kabloları sağlam el feneri | Anahtarı açık, üç pilli devre",
+    "correctAnswer": "Ampul ışık verir: Bir pil ve üç ampullü kapalı devre, Kapalı anahtarlı, kabloları sağlam el feneri | Ampul ışık vermez: Pili olmayan, kapalı anahtarlı devre, Anahtarı kapalı ama bir kablosu kopuk devre, Anahtarı açık, üç pilli devre",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 1,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "B daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 0,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "A daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 2,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 2 pil, 1 ampul, 1 kapalı anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "Eşit parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 0,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 3 pil, 1 ampul, 1 kapalı anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "A daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 1,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 1 pil, 3 ampul, 1 kapalı anahtar | B) 1 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "B daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en parlak yanar? Seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "max",
+      "ans": 2,
+      "opts": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en parlak yanar? Seç, sonra ampulleri yak! [Devreler: A) 2 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 1 ampul, 1 kapalı anahtar | C) 3 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "C",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en sönük yanar? Seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "min",
+      "ans": 1,
+      "opts": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en sönük yanar? Seç, sonra ampulleri yak! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 3 ampul, 1 kapalı anahtar | C) 1 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "B",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 1,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 1 pil, 2 ampul, 1 kapalı anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "B daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en parlak yanar? Seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "max",
+      "ans": 2,
+      "opts": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en parlak yanar? Seç, sonra ampulleri yak! [Devreler: A) 2 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 3 ampul, 1 kapalı anahtar | C) 3 pil, 1 ampul, 1 kapalı anahtar | D) 1 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "C",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en sönük yanar? Seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "min",
+      "ans": 1,
+      "opts": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en sönük yanar? Seç, sonra ampulleri yak! [Devreler: A) 2 pil, 2 ampul, 1 kapalı anahtar | B) 1 pil, 3 ampul, 1 kapalı anahtar | C) 3 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "B",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "tune",
+    "prompt": "Ampul sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 1,
+      "a": 1,
+      "goal": "pil_up"
+    },
+    "textPlain": "Ampul sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 1 pil, 1 ampul, kapalı anahtar]",
+    "correctAnswer": "Ampul sayısı 1 kalır, pil sayısı 1'den fazla olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "tune",
+    "prompt": "Pil sayısını değiştirmeden ampulleri DAHA SÖNÜK yap! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 2,
+      "a": 1,
+      "goal": "amp_up"
+    },
+    "textPlain": "Pil sayısını değiştirmeden ampulleri DAHA SÖNÜK yap! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 2 pil, 1 ampul, kapalı anahtar]",
+    "correctAnswer": "Pil sayısı 2 kalır, ampul sayısı 1'den fazla olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "tune",
+    "prompt": "Pil sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 1,
+      "a": 3,
+      "goal": "amp_down"
+    },
+    "textPlain": "Pil sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 1 pil, 3 ampul, kapalı anahtar]",
+    "correctAnswer": "Pil sayısı 1 kalır, ampul sayısı 3'den az (en az 1) olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "tune",
+    "prompt": "Ampul sayısını değiştirmeden ampulleri DAHA SÖNÜK yap! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 3,
+      "a": 2,
+      "goal": "pil_down"
+    },
+    "textPlain": "Ampul sayısını değiştirmeden ampulleri DAHA SÖNÜK yap! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 3 pil, 2 ampul, kapalı anahtar]",
+    "correctAnswer": "Ampul sayısı 2 kalır, pil sayısı 3'den az (en az 1) olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "tune",
+    "prompt": "Ampul sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 2,
+      "a": 2,
+      "goal": "pil_up"
+    },
+    "textPlain": "Ampul sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 2 pil, 2 ampul, kapalı anahtar]",
+    "correctAnswer": "Ampul sayısı 2 kalır, pil sayısı 2'den fazla olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "tune",
+    "prompt": "Pil sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 1,
+      "a": 2,
+      "goal": "amp_down"
+    },
+    "textPlain": "Pil sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 1 pil, 2 ampul, kapalı anahtar]",
+    "correctAnswer": "Pil sayısı 1 kalır, ampul sayısı 2'den az (en az 1) olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Değişiklikleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Parlaklık artar",
+        "Parlaklık azalır"
+      ],
+      "cards": [
+        {
+          "t": "Ampul sayısı sabitken pil eklemek",
+          "b": 0
+        },
+        {
+          "t": "Pil sayısı sabitken ampul eklemek",
+          "b": 1
+        },
+        {
+          "t": "Ampul sayısı sabitken pil çıkarmak",
+          "b": 1
+        },
+        {
+          "t": "Pil sayısı sabitken ampul çıkarmak",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Değişiklikleri doğru bölmeye koy. Bölmeler: Parlaklık artar / Parlaklık azalır. Kartlar: Ampul sayısı sabitken pil eklemek | Pil sayısı sabitken ampul eklemek | Ampul sayısı sabitken pil çıkarmak | Pil sayısı sabitken ampul çıkarmak",
+    "correctAnswer": "Parlaklık artar: Ampul sayısı sabitken pil eklemek, Pil sayısı sabitken ampul çıkarmak | Parlaklık azalır: Pil sayısı sabitken ampul eklemek, Ampul sayısı sabitken pil çıkarmak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124, 130",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Daha parlak",
+        "Daha sönük"
+      ],
+      "cards": [
+        {
+          "t": "3 pilli el feneri (2 pilliye göre, ampuller özdeş)",
+          "b": 0
+        },
+        {
+          "t": "Çadırdaki devreye bir ampul daha eklemek",
+          "b": 1
+        },
+        {
+          "t": "2 pil 1 ampullü devre (1 pil 1 ampulle karşılaştırınca)",
+          "b": 0
+        },
+        {
+          "t": "1 pil 3 ampullü devre (1 pil 2 ampulle karşılaştırınca)",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye koy. Bölmeler: Daha parlak / Daha sönük. Kartlar: 3 pilli el feneri (2 pilliye göre, ampuller özdeş) | Çadırdaki devreye bir ampul daha eklemek | 2 pil 1 ampullü devre (1 pil 1 ampulle karşılaştırınca) | 1 pil 3 ampullü devre (1 pil 2 ampulle karşılaştırınca)",
+    "correctAnswer": "Daha parlak: 3 pilli el feneri (2 pilliye göre, ampuller özdeş), 2 pil 1 ampullü devre (1 pil 1 ampulle karşılaştırınca) | Daha sönük: Çadırdaki devreye bir ampul daha eklemek, 1 pil 3 ampullü devre (1 pil 2 ampulle karşılaştırınca)",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121",
+    "difficulty": "kolay",
+    "group": "degisken",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Deney: Ampul sayısı sabit tutulup pil sayısı artırılıyor. Değişkenleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Pil sayısı",
+          "b": 0
+        },
+        {
+          "t": "Ampul parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Ampul sayısı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Deney: Ampul sayısı sabit tutulup pil sayısı artırılıyor. Değişkenleri doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Pil sayısı | Ampul parlaklığı | Ampul sayısı",
+    "correctAnswer": "Bağımsız değişken: Pil sayısı | Bağımlı değişken: Ampul parlaklığı | Kontrol edilen değişken: Ampul sayısı",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-01"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 122",
+    "difficulty": "kolay",
+    "group": "degisken",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Deney: Pil sayısı sabit tutulup ampul sayısı artırılıyor. Değişkenleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Ampul sayısı",
+          "b": 0
+        },
+        {
+          "t": "Ampul parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Pil sayısı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Deney: Pil sayısı sabit tutulup ampul sayısı artırılıyor. Değişkenleri doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Ampul sayısı | Ampul parlaklığı | Pil sayısı",
+    "correctAnswer": "Bağımsız değişken: Ampul sayısı | Bağımlı değişken: Ampul parlaklığı | Kontrol edilen değişken: Pil sayısı",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-02"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 130",
+    "difficulty": "orta",
+    "group": "degisken",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Hipotez: “Pil sayısını artırırsam ampul parlaklığı artar.” Değişkenleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Pil sayısı",
+          "b": 0
+        },
+        {
+          "t": "Ampul parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Ampul sayısı",
+          "b": 2
+        },
+        {
+          "t": "Ampullerin özdeş olması",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Hipotez: “Pil sayısını artırırsam ampul parlaklığı artar.” Değişkenleri doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Pil sayısı | Ampul parlaklığı | Ampul sayısı | Ampullerin özdeş olması",
+    "correctAnswer": "Bağımsız değişken: Pil sayısı | Bağımlı değişken: Ampul parlaklığı | Kontrol edilen değişken: Ampul sayısı, Ampullerin özdeş olması",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-03"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 133",
+    "difficulty": "orta",
+    "group": "degisken",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Değişkenleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Ampul sayısı",
+          "b": 0
+        },
+        {
+          "t": "Ampul parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Pil sayısı",
+          "b": 2
+        },
+        {
+          "t": "Pillerin özdeş olması",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Değişkenleri doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Ampul sayısı | Ampul parlaklığı | Pil sayısı | Pillerin özdeş olması",
+    "correctAnswer": "Bağımsız değişken: Ampul sayısı | Bağımlı değişken: Ampul parlaklığı | Kontrol edilen değişken: Pil sayısı, Pillerin özdeş olması",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-04"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121",
+    "difficulty": "zor",
+    "group": "degisken",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Tanımları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Araştırmacının değiştirdiği",
+          "b": 0
+        },
+        {
+          "t": "Deneyde merak edilen, ölçülen sonuç",
+          "b": 1
+        },
+        {
+          "t": "Deney boyunca sabit tutulan",
+          "b": 2
+        },
+        {
+          "t": "Bağımlı değişkeni etkileyen",
+          "b": 0
+        },
+        {
+          "t": "Bağımsız değişkene göre değişen",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Tanımları doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Araştırmacının değiştirdiği | Deneyde merak edilen, ölçülen sonuç | Deney boyunca sabit tutulan | Bağımlı değişkeni etkileyen | Bağımsız değişkene göre değişen",
+    "correctAnswer": "Bağımsız değişken: Araştırmacının değiştirdiği, Bağımlı değişkeni etkileyen | Bağımlı değişken: Deneyde merak edilen, ölçülen sonuç, Bağımsız değişkene göre değişen | Kontrol edilen değişken: Deney boyunca sabit tutulan",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-05"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 133",
+    "difficulty": "zor",
+    "group": "degisken",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Hipotez",
+        "Hipotez değil"
+      ],
+      "cards": [
+        {
+          "t": "Pil sayısı artarsa ampul parlaklığı artar.",
+          "b": 0
+        },
+        {
+          "t": "Ampul sayısı artarsa ampul parlaklığı azalır.",
+          "b": 0
+        },
+        {
+          "t": "Ampul parlaklığını etkileyen faktörler nelerdir?",
+          "b": 1
+        },
+        {
+          "t": "Devrede 2 pil ve 1 ampul var.",
+          "b": 1
+        },
+        {
+          "t": "Anahtar açılırsa ampul söner.",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye koy. Bölmeler: Hipotez / Hipotez değil. Kartlar: Pil sayısı artarsa ampul parlaklığı artar. | Ampul sayısı artarsa ampul parlaklığı azalır. | Ampul parlaklığını etkileyen faktörler nelerdir? | Devrede 2 pil ve 1 ampul var. | Anahtar açılırsa ampul söner.",
+    "correctAnswer": "Hipotez: Pil sayısı artarsa ampul parlaklığı artar., Ampul sayısı artarsa ampul parlaklığı azalır., Anahtar açılırsa ampul söner. | Hipotez değil: Ampul parlaklığını etkileyen faktörler nelerdir?, Devrede 2 pil ve 1 ampul var.",
+    "explanation": "Hipotez, araştırma sorusunun cevabına yönelik test edilebilir bir tahmindir. Soru cümleleri ve yalnızca durumu anlatan cümleler hipotez değildir.",
+    "questionId": "fen5u6-degisken-06"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "kolay",
+    "group": "degisken",
+    "rank": 1,
+    "type": "pair",
+    "prompt": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "pil",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 1 pil, 1 ampul, 1 kapalı anahtar | L) 2 pil, 1 ampul, 1 kapalı anahtar | M) 2 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve L devreleri (yalnız pil sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-07"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "kolay",
+    "group": "degisken",
+    "rank": 1,
+    "type": "pair",
+    "prompt": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "ampul",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 1 pil, 1 ampul, 1 kapalı anahtar | L) 2 pil, 2 ampul, 1 kapalı anahtar | M) 1 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve M devreleri (yalnız ampul sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-08"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "orta",
+    "group": "degisken",
+    "rank": 2,
+    "type": "pair",
+    "prompt": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "pil",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        2,
+        3
+      ]
+    },
+    "textPlain": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 1 pil, 2 ampul, 1 kapalı anahtar | L) 2 pil, 1 ampul, 1 kapalı anahtar | M) 2 pil, 3 ampul, 1 kapalı anahtar | N) 3 pil, 3 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "M ve N devreleri (yalnız pil sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-09"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "orta",
+    "group": "degisken",
+    "rank": 2,
+    "type": "pair",
+    "prompt": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "ampul",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 2 pil, 1 ampul, 1 kapalı anahtar | L) 1 pil, 2 ampul, 1 kapalı anahtar | M) 2 pil, 3 ampul, 1 kapalı anahtar | N) 3 pil, 3 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve M devreleri (yalnız ampul sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-10"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "zor",
+    "group": "degisken",
+    "rank": 3,
+    "type": "pair",
+    "prompt": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "pil",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        3
+      ]
+    },
+    "textPlain": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 2 pil, 3 ampul, 1 kapalı anahtar | L) 3 pil, 2 ampul, 1 kapalı anahtar | M) 1 pil, 1 ampul, 1 kapalı anahtar | N) 1 pil, 3 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve N devreleri (yalnız pil sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-11"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "zor",
+    "group": "degisken",
+    "rank": 3,
+    "type": "pair",
+    "prompt": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "ampul",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        3
+      ]
+    },
+    "textPlain": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 3 pil, 1 ampul, 1 kapalı anahtar | L) 2 pil, 2 ampul, 1 kapalı anahtar | M) 1 pil, 1 ampul, 1 kapalı anahtar | N) 3 pil, 3 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve N devreleri (yalnız ampul sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-12"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının resmini yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "pil",
+        "kapali",
+        "ampul"
+      ],
+      "mode": "pic",
+      "toks": [
+        {
+          "k": "pil"
+        },
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "ampul"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının resmini yerleştir. Sonra panoyu yak. [Semboller: pil sembolü, kapalı anahtar sembolü, ampul sembolü] Kartlar: Pil, Kapalı anahtar, Ampul",
+    "correctAnswer": "Pil sembolü → Pil | Kapalı anahtar sembolü → Kapalı anahtar | Ampul sembolü → Ampul",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının resmini yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "acik",
+        "kablo",
+        "pil"
+      ],
+      "mode": "pic",
+      "toks": [
+        {
+          "k": "acik"
+        },
+        {
+          "k": "kablo"
+        },
+        {
+          "k": "pil"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının resmini yerleştir. Sonra panoyu yak. [Semboller: açık anahtar sembolü, bağlantı kablosu sembolü, pil sembolü] Kartlar: Açık anahtar, Bağlantı kablosu, Pil",
+    "correctAnswer": "Açık anahtar sembolü → Açık anahtar | Bağlantı kablosu sembolü → Bağlantı kablosu | Pil sembolü → Pil",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "orta",
+    "group": "sembol",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her sembolün altına o devre elemanının görevini yerleştir. Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "ampul",
+        "acik",
+        "kapali",
+        "kablo"
+      ],
+      "mode": "fn",
+      "toks": [
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "acik"
+        },
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "kablo"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına o devre elemanının görevini yerleştir. Sonra panoyu yak. [Semboller: ampul sembolü, açık anahtar sembolü, kapalı anahtar sembolü, bağlantı kablosu sembolü] Kartlar: Elektrik enerjisini ışığa dönüştürür, Devreyi keser, ampul yanmaz, Devreyi tamamlar, akım geçer, Devre elemanlarını birbirine bağlar",
+    "correctAnswer": "Ampul sembolü → Elektrik enerjisini ışığa dönüştürür | Açık anahtar sembolü → Devreyi keser, ampul yanmaz | Kapalı anahtar sembolü → Devreyi tamamlar, akım geçer | Bağlantı kablosu sembolü → Devre elemanlarını birbirine bağlar",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+    "difficulty": "zor",
+    "group": "sembol",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Her sembolün altına doğru devre elemanının adını yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak.",
+    "data": {
+      "keys": [
+        "kablo",
+        "kapali",
+        "acik",
+        "ampul"
+      ],
+      "mode": "name",
+      "toks": [
+        {
+          "k": "kablo"
+        },
+        {
+          "k": "kapali"
+        },
+        {
+          "k": "acik"
+        },
+        {
+          "k": "ampul"
+        },
+        {
+          "k": "yatak"
+        },
+        {
+          "k": "duy"
+        }
+      ]
+    },
+    "textPlain": "Her sembolün altına doğru devre elemanının adını yerleştir. Dikkat: Sembolü olmayan kart da var! Sonra panoyu yak. [Semboller: bağlantı kablosu sembolü, kapalı anahtar sembolü, açık anahtar sembolü, ampul sembolü] Kartlar: Bağlantı kablosu, Kapalı anahtar, Açık anahtar, Ampul, Pil yatağı, Duy",
+    "correctAnswer": "Bağlantı kablosu sembolü → Bağlantı kablosu | Kapalı anahtar sembolü → Kapalı anahtar | Açık anahtar sembolü → Açık anahtar | Ampul sembolü → Ampul | Boşta kalan: Pil yatağı, Duy",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre elemanlarının sembolleri",
+    "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 109, 112",
+    "difficulty": "kolay",
+    "group": "sembol",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Devre elemanlarını doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Sembolü var",
+        "Sembolü yok"
+      ],
+      "cards": [
+        {
+          "t": "Kapalı anahtar",
+          "b": 0
+        },
+        {
+          "t": "Bağlantı kablosu",
+          "b": 0
+        },
+        {
+          "t": "Duy",
+          "b": 1
+        },
+        {
+          "t": "Pil yatağı",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Devre elemanlarını doğru bölmeye koy. Bölmeler: Sembolü var / Sembolü yok. Kartlar: Kapalı anahtar | Bağlantı kablosu | Duy | Pil yatağı",
+    "correctAnswer": "Sembolü var: Kapalı anahtar, Bağlantı kablosu | Sembolü yok: Duy, Pil yatağı",
+    "explanation": "Pil iki paralel çizgiyle (uzun ve kısa), ampul içinde çarpı olan bir daireyle, bağlantı kablosu düz çizgiyle, anahtar ise açık ya da kapalı hâliyle sembolize edilir. Pil yatağı ve duyun belirli bir sembolü yoktur. Semboller ortak bir bilimsel dil oluşturur.",
+    "questionId": "fen5u6-sembol-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "ampul",
+        "ampul"
+      ],
+      "given": "pic",
+      "slots": 4,
+      "goal": {
+        "pil": 1,
+        "ampul": 2,
+        "sw": "kapali"
+      }
+    },
+    "textPlain": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et! [Düzenek resmi: 1 pil, 2 ampul, 1 kapalı anahtar; şemada 4 boş yer]",
+    "correctAnswer": "1 pil, 2 ampul, 1 kapalı anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "acik",
+        "ampul"
+      ],
+      "given": "pic",
+      "slots": 4,
+      "goal": {
+        "pil": 2,
+        "ampul": 1,
+        "sw": "acik"
+      }
+    },
+    "textPlain": "Düzeneğin resmine bak ve şema tahtasındaki boş yerlere uygun sembolleri yerleştir. Sonra şemayı test et! [Düzenek resmi: 2 pil, 1 ampul, 1 açık anahtar; şemada 4 boş yer]",
+    "correctAnswer": "2 pil, 1 ampul, 1 açık anahtar",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+    "difficulty": "zor",
+    "group": "sema",
+    "rank": 3,
+    "type": "build",
+    "prompt": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et!",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "pil",
+        "acik",
+        "ampul",
+        "ampul"
+      ],
+      "given": "text",
+      "slots": 7,
+      "goal": {
+        "pil": 3,
+        "ampul": 2,
+        "sw": "acik"
+      }
+    },
+    "textPlain": "İstenen devrenin şemasını kur: Boş yerlere uygun sembolleri yerleştir (fazla yerlere bağlantı kablosu koy). Sonra şemayı test et! [İstenen devre: 3 pil, 2 ampul, 1 açık anahtar; şemada 7 boş yer]",
+    "correctAnswer": "3 pil, 2 ampul, 1 açık anahtar, 1 bağlantı kablosu",
+    "explanation": "Devre elemanlarının sembolleri kullanılarak yapılan çizime devre şeması denir. Şemadaki eleman sayıları ve anahtarın açık ya da kapalı olması düzenektekiyle aynı olmalıdır.",
+    "questionId": "fen5u6-sema-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "sema",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "acik",
+        "ampul",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 1 pil, 2 ampul, 1 açık anahtar]",
+    "correctAnswer": "1 pil, 2 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devre şeması çizme ve devre kurma",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 116–119",
+    "difficulty": "orta",
+    "group": "sema",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur!",
+    "data": {
+      "comps": [
+        "pil",
+        "kapali",
+        "ampul",
+        "pil",
+        "ampul"
+      ]
+    },
+    "textPlain": "Şemadaki elemanları say: Sayaçları pil, ampul ve anahtar sayısına göre ayarla, sonra düzeneği kur! [Şema: 2 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "2 pil, 2 ampul, 1 anahtar",
+    "explanation": "Devre şemasındaki pil, ampul ve anahtar sayısı, kurulacak düzenekteki eleman sayısıyla aynıdır. Uzun-kısa iki çizgi bir pili, çarpılı daire bir ampulü gösterir.",
+    "questionId": "fen5u6-sema-22"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "pil",
+          "kapali",
+          "ampul"
+        ],
+        [
+          "pil",
+          "kapali",
+          "bos",
+          "ampul"
+        ]
+      ],
+      "mode": "real",
+      "ans": [
+        0
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 1 ampul, 1 kapalı anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Işık verenler: A",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–116",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "works",
+    "prompt": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir!",
+    "data": {
+      "circs": [
+        [
+          "kapali",
+          "ampul"
+        ],
+        [
+          "pil",
+          "pil",
+          "kapali",
+          "ampul",
+          "ampul"
+        ],
+        [
+          "pil",
+          "acik",
+          "ampul",
+          "ampul"
+        ]
+      ],
+      "mode": "sym",
+      "ans": [
+        1
+      ]
+    },
+    "textPlain": "Hangi devrelerde ampul ışık verir? Hepsini seç, sonra şalteri indir! [Devreler: A) 1 ampul, 1 kapalı anahtar | B) 2 pil, 2 ampul, 1 kapalı anahtar | C) 1 pil, 2 ampul, 1 açık anahtar]",
+    "correctAnswer": "Işık verenler: B",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "kolay",
+    "group": "ariza",
+    "rank": 1,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "pil",
+        "acik",
+        "ampul"
+      ],
+      "faults": [
+        2
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 2 pil, 1 ampul, 1 açık anahtar]",
+    "correctAnswer": "Arıza: açık anahtar (kapatılmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "orta",
+    "group": "ariza",
+    "rank": 2,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "bos",
+        "kapali",
+        "ampul",
+        "ampul",
+        "pil"
+      ],
+      "faults": [
+        1
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 2 pil, 2 ampul, 1 kapalı anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Arıza: kopuk kablo (bağlanmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-18"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+    "difficulty": "zor",
+    "group": "ariza",
+    "rank": 3,
+    "type": "fix",
+    "prompt": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder.",
+    "data": {
+      "comps": [
+        "pil",
+        "acik",
+        "bos",
+        "ampul",
+        "ampul",
+        "pil"
+      ],
+      "faults": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Bu devrede ampul yanmıyor! Arızalı yer(ler)e dokun, sonra tamir ekibini gönder. [Devre: 2 pil, 2 ampul, 1 açık anahtar, 1 kopuk kablo]",
+    "correctAnswer": "Arıza: açık anahtar (kapatılmalı), kopuk kablo (bağlanmalı)",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Devrenin çalışma koşulları: kapalı anahtar ve kesintisiz bağlantı",
+    "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 117",
+    "difficulty": "zor",
+    "group": "ariza",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kapalı ve sağlam bir devrede yapılan değişiklikleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Ampul yanar",
+        "Ampul yanmaz"
+      ],
+      "cards": [
+        {
+          "t": "El fenerinin anahtarını kapatmak",
+          "b": 0
+        },
+        {
+          "t": "Pil yatağından pilleri çıkarmak",
+          "b": 1
+        },
+        {
+          "t": "Kopuk kabloyu yeniden bağlamak",
+          "b": 0
+        },
+        {
+          "t": "Kapalı anahtarı açmak",
+          "b": 1
+        },
+        {
+          "t": "Devreye özdeş bir pil eklemek",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kapalı ve sağlam bir devrede yapılan değişiklikleri doğru bölmeye koy. Bölmeler: Ampul yanar / Ampul yanmaz. Kartlar: El fenerinin anahtarını kapatmak | Pil yatağından pilleri çıkarmak | Kopuk kabloyu yeniden bağlamak | Kapalı anahtarı açmak | Devreye özdeş bir pil eklemek",
+    "correctAnswer": "Ampul yanar: El fenerinin anahtarını kapatmak, Kopuk kabloyu yeniden bağlamak, Devreye özdeş bir pil eklemek | Ampul yanmaz: Pil yatağından pilleri çıkarmak, Kapalı anahtarı açmak",
+    "explanation": "Ampulün ışık vermesi için devrede en az bir pil bulunmalı, anahtar kapalı olmalı ve bağlantı kabloları kesintisiz bir yol oluşturmalıdır. Anahtar açıksa ya da kablo kopuksa devre tamamlanmaz ve ampul yanmaz.",
+    "questionId": "fen5u6-ariza-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 0,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 3 pil, 1 ampul, 1 kapalı anahtar | B) 1 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "A daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-19"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "which",
+      "ans": 1,
+      "opts": [
+        "A daha parlak",
+        "B daha parlak",
+        "Eşit parlak"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerde ampullerin parlaklığını karşılaştır. Tahminini seç, sonra ampulleri yak! [Devreler: A) 2 pil, 2 ampul, 1 kapalı anahtar | B) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "B daha parlak",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-20"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "bright",
+    "prompt": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en parlak yanar? Seç, sonra ampulleri yak!",
+    "data": {
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ask": "max",
+      "ans": 2,
+      "opts": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "textPlain": "Özdeş pil ve ampullerle kurulan devrelerden hangisinde ampuller en parlak yanar? Seç, sonra ampulleri yak! [Devreler: A) 1 pil, 1 ampul, 1 kapalı anahtar | B) 2 pil, 3 ampul, 1 kapalı anahtar | C) 3 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "C",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır.",
+    "questionId": "fen5u6-parlak-21"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "kolay",
+    "group": "parlak",
+    "rank": 1,
+    "type": "tune",
+    "prompt": "Pil sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 1,
+      "a": 2,
+      "goal": "amp_down"
+    },
+    "textPlain": "Pil sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 1 pil, 2 ampul, kapalı anahtar]",
+    "correctAnswer": "Pil sayısı 1 kalır, ampul sayısı 2'den az (en az 1) olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-22"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "orta",
+    "group": "parlak",
+    "rank": 2,
+    "type": "tune",
+    "prompt": "Ampul sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 2,
+      "a": 1,
+      "goal": "pil_up"
+    },
+    "textPlain": "Ampul sayısını değiştirmeden ampulleri DAHA PARLAK yak! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 2 pil, 1 ampul, kapalı anahtar]",
+    "correctAnswer": "Ampul sayısı 1 kalır, pil sayısı 2'den fazla olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-23"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Ampul parlaklığını etkileyen değişkenler: pil sayısı ve ampul sayısı",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121–126",
+    "difficulty": "zor",
+    "group": "parlak",
+    "rank": 3,
+    "type": "tune",
+    "prompt": "Pil sayısını değiştirmeden ampulleri DAHA SÖNÜK yap! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir.",
+    "data": {
+      "p": 3,
+      "a": 3,
+      "goal": "amp_up"
+    },
+    "textPlain": "Pil sayısını değiştirmeden ampulleri DAHA SÖNÜK yap! Sayaçlarla pil ve ampul ekle ya da çıkar, sonra şalteri indir. [Başlangıç devresi: 3 pil, 3 ampul, kapalı anahtar]",
+    "correctAnswer": "Pil sayısı 3 kalır, ampul sayısı 3'den fazla olur",
+    "explanation": "Özdeş ampul ve pillerle kurulan devrelerde ampul sayısı değiştirilmeden pil sayısı artırılırsa ampuller daha parlak yanar. Pil sayısı değiştirilmeden ampul sayısı artırılırsa ampullerin parlaklığı azalır. Bir değişkenin etkisini görmek için diğer değişken sabit tutulur.",
+    "questionId": "fen5u6-parlak-24"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "kolay",
+    "group": "degisken",
+    "rank": 1,
+    "type": "pair",
+    "prompt": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "pil",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Hipotez: “Pil sayısı artarsa ampul parlaklığı artar.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 1 pil, 2 ampul, 1 kapalı anahtar | L) 1 pil, 3 ampul, 1 kapalı anahtar | M) 2 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve M devreleri (yalnız pil sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-13"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "orta",
+    "group": "degisken",
+    "rank": 2,
+    "type": "pair",
+    "prompt": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "ampul",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 1 pil, 1 ampul, 1 kapalı anahtar | L) 2 pil, 1 ampul, 1 kapalı anahtar | M) 1 pil, 3 ampul, 1 kapalı anahtar | N) 3 pil, 2 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve M devreleri (yalnız ampul sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-14"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+    "difficulty": "zor",
+    "group": "degisken",
+    "rank": 3,
+    "type": "pair",
+    "prompt": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap!",
+    "data": {
+      "var": "ampul",
+      "circs": [
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "pil",
+            "kapali",
+            "ampul",
+            "ampul",
+            "ampul"
+          ]
+        },
+        {
+          "c": [
+            "pil",
+            "pil",
+            "kapali",
+            "ampul"
+          ]
+        }
+      ],
+      "ans": [
+        0,
+        3
+      ]
+    },
+    "textPlain": "Hipotez: “Ampul sayısı artarsa ampul parlaklığı azalır.” Bu hipotezi test etmek için hangi İKİ devreyi kullanmalısın? İki devre seç, sonra deneyi yap! [Devreler: K) 2 pil, 3 ampul, 1 kapalı anahtar | L) 1 pil, 2 ampul, 1 kapalı anahtar | M) 3 pil, 3 ampul, 1 kapalı anahtar | N) 2 pil, 1 ampul, 1 kapalı anahtar]",
+    "correctAnswer": "K ve N devreleri (yalnız ampul sayısı farklı)",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller). İki devrede yalnız bağımsız değişken farklı olmalı, diğerleri aynı kalmalıdır.",
+    "questionId": "fen5u6-degisken-15"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124",
+    "difficulty": "kolay",
+    "group": "degisken",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Deney: Özdeş ampullü iki el fenerinden birine daha fazla pil takılıyor. Değişkenleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Pil sayısı",
+          "b": 0
+        },
+        {
+          "t": "El fenerinin ışığının parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Ampul sayısı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Deney: Özdeş ampullü iki el fenerinden birine daha fazla pil takılıyor. Değişkenleri doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Pil sayısı | El fenerinin ışığının parlaklığı | Ampul sayısı",
+    "correctAnswer": "Bağımsız değişken: Pil sayısı | Bağımlı değişken: El fenerinin ışığının parlaklığı | Kontrol edilen değişken: Ampul sayısı",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-16"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 122, 130",
+    "difficulty": "orta",
+    "group": "degisken",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Deney: Çadır aydınlatmasında pil sayısı aynı kalıyor, devreye ampul ekleniyor. Değişkenleri doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Kontrol edilen değişken"
+      ],
+      "cards": [
+        {
+          "t": "Ampul sayısı",
+          "b": 0
+        },
+        {
+          "t": "Ampullerin parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Pil sayısı",
+          "b": 2
+        },
+        {
+          "t": "Anahtarın kapalı olması",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Deney: Çadır aydınlatmasında pil sayısı aynı kalıyor, devreye ampul ekleniyor. Değişkenleri doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Kontrol edilen değişken. Kartlar: Ampul sayısı | Ampullerin parlaklığı | Pil sayısı | Anahtarın kapalı olması",
+    "correctAnswer": "Bağımsız değişken: Ampul sayısı | Bağımlı değişken: Ampullerin parlaklığı | Kontrol edilen değişken: Pil sayısı, Anahtarın kapalı olması",
+    "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir (ör. pil sayısı). Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur (ampul parlaklığı). Kontrol edilen değişkenler deney boyunca sabit tutulanlardır (ör. ampul sayısı, özdeş pil ve ampuller).",
+    "questionId": "fen5u6-degisken-17"
+  },
+  {
+    "grade": 5,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+    "topic": "Bağımlı, bağımsız ve kontrol edilen değişkenler; hipotez",
+    "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+    "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 127",
+    "difficulty": "zor",
+    "group": "degisken",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Devre çiftlerini doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Pil sayısının etkisini gösterir",
+        "Ampul sayısının etkisini gösterir",
+        "Hiçbir etkiyi göstermez"
+      ],
+      "cards": [
+        {
+          "t": "1 pil 1 ampul ile 2 pil 1 ampul",
+          "b": 0
+        },
+        {
+          "t": "2 pil 1 ampul ile 2 pil 3 ampul",
+          "b": 1
+        },
+        {
+          "t": "1 pil 2 ampul ile 2 pil 1 ampul",
+          "b": 2
+        },
+        {
+          "t": "3 pil 2 ampul ile 1 pil 2 ampul",
+          "b": 0
+        },
+        {
+          "t": "1 pil 1 ampul ile 1 pil 2 ampul",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Devre çiftlerini doğru bölmeye koy. Bölmeler: Pil sayısının etkisini gösterir / Ampul sayısının etkisini gösterir / Hiçbir etkiyi göstermez. Kartlar: 1 pil 1 ampul ile 2 pil 1 ampul | 2 pil 1 ampul ile 2 pil 3 ampul | 1 pil 2 ampul ile 2 pil 1 ampul | 3 pil 2 ampul ile 1 pil 2 ampul | 1 pil 1 ampul ile 1 pil 2 ampul",
+    "correctAnswer": "Pil sayısının etkisini gösterir: 1 pil 1 ampul ile 2 pil 1 ampul, 3 pil 2 ampul ile 1 pil 2 ampul | Ampul sayısının etkisini gösterir: 2 pil 1 ampul ile 2 pil 3 ampul, 1 pil 1 ampul ile 1 pil 2 ampul | Hiçbir etkiyi göstermez: 1 pil 2 ampul ile 2 pil 1 ampul",
+    "explanation": "Bir değişkenin etkisini göstermek için iki devrede yalnız o değişken farklı, diğerleri aynı olmalıdır. Hem pil hem ampul sayısı değişirse hangisinin etkisi olduğu anlaşılamaz.",
+    "questionId": "fen5u6-degisken-18"
+  }
+]
