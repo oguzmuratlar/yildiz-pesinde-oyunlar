@@ -1,0 +1,3963 @@
+[
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Bakır tel",
+          "e": "🧵",
+          "a": 0
+        },
+        {
+          "n": "Plastik çubuk",
+          "e": "🧪",
+          "a": 1
+        },
+        {
+          "n": "Vida",
+          "e": "🔩",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Bakır tel, Plastik çubuk, Vida",
+    "correctAnswer": "Bakır tel: yanar (iletken); Plastik çubuk: yanmaz (yalıtkan); Vida: yanar (iletken)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Tahta çubuk",
+          "e": "🪵",
+          "a": 1
+        },
+        {
+          "n": "Alüminyum folyo",
+          "e": "🪙",
+          "a": 0
+        },
+        {
+          "n": "Silgi",
+          "e": "🧽",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Tahta çubuk, Alüminyum folyo, Silgi",
+    "correctAnswer": "Tahta çubuk: yanmaz (yalıtkan); Alüminyum folyo: yanar (iletken); Silgi: yanmaz (yalıtkan)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Cam çubuk",
+          "e": "🥢",
+          "a": 1
+        },
+        {
+          "n": "Metal makas",
+          "e": "✂️",
+          "a": 0
+        },
+        {
+          "n": "Mum",
+          "e": "🕯️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Cam çubuk, Metal makas, Mum",
+    "correctAnswer": "Cam çubuk: yanmaz (yalıtkan); Metal makas: yanar (iletken); Mum: yanmaz (yalıtkan)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Porselen fincan",
+          "e": "☕",
+          "a": 1
+        },
+        {
+          "n": "Nikel tel",
+          "e": "〰️",
+          "a": 0
+        },
+        {
+          "n": "Yün",
+          "e": "🧶",
+          "a": 1
+        },
+        {
+          "n": "Demir bilye",
+          "e": "⚙️",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Porselen fincan, Nikel tel, Yün, Demir bilye",
+    "correctAnswer": "Porselen fincan: yanmaz (yalıtkan); Nikel tel: yanar (iletken); Yün: yanmaz (yalıtkan); Demir bilye: yanar (iletken)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72, 93",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Toplu iğne",
+          "e": "📍",
+          "a": 0
+        },
+        {
+          "n": "Balon",
+          "e": "🎈",
+          "a": 1
+        },
+        {
+          "n": "Zımba teli",
+          "e": "📎",
+          "a": 0
+        },
+        {
+          "n": "Sünger",
+          "e": "🧽",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Toplu iğne, Balon, Zımba teli, Sünger",
+    "correctAnswer": "Toplu iğne: yanar (iletken); Balon: yanmaz (yalıtkan); Zımba teli: yanar (iletken); Sünger: yanmaz (yalıtkan)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72–73",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Altın yüzük",
+          "e": "💍",
+          "a": 0
+        },
+        {
+          "n": "Kauçuk",
+          "e": "⚫",
+          "a": 1
+        },
+        {
+          "n": "Plastik kaşık",
+          "e": "🥄",
+          "a": 1
+        },
+        {
+          "n": "Bakır tencere",
+          "e": "🍲",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Altın yüzük, Kauçuk, Plastik kaşık, Bakır tencere",
+    "correctAnswer": "Altın yüzük: yanar (iletken); Kauçuk: yanmaz (yalıtkan); Plastik kaşık: yanmaz (yalıtkan); Bakır tencere: yanar (iletken)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72–73, 93",
+    "difficulty": "zor",
+    "group": "iletken",
+    "rank": 3,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Gözlük camı",
+          "e": "👓",
+          "a": 1
+        },
+        {
+          "n": "Gümüş kaşık",
+          "e": "🥄",
+          "a": 0
+        },
+        {
+          "n": "Plastik ip",
+          "e": "🪢",
+          "a": 1
+        },
+        {
+          "n": "Metal makas",
+          "e": "✂️",
+          "a": 0
+        },
+        {
+          "n": "Karton poster",
+          "e": "📜",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Gözlük camı, Gümüş kaşık, Plastik ip, Metal makas, Karton poster",
+    "correctAnswer": "Gözlük camı: yanmaz (yalıtkan); Gümüş kaşık: yanar (iletken); Plastik ip: yanmaz (yalıtkan); Metal makas: yanar (iletken); Karton poster: yanmaz (yalıtkan)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–73, 93",
+    "difficulty": "zor",
+    "group": "iletken",
+    "rank": 3,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Bant",
+          "e": "🩹",
+          "a": 1
+        },
+        {
+          "n": "Vida",
+          "e": "🔩",
+          "a": 0
+        },
+        {
+          "n": "Porselen fincan",
+          "e": "☕",
+          "a": 1
+        },
+        {
+          "n": "Nikel tel",
+          "e": "〰️",
+          "a": 0
+        },
+        {
+          "n": "Silgi",
+          "e": "🧽",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Bant, Vida, Porselen fincan, Nikel tel, Silgi",
+    "correctAnswer": "Bant: yanmaz (yalıtkan); Vida: yanar (iletken); Porselen fincan: yanmaz (yalıtkan); Nikel tel: yanar (iletken); Silgi: yanmaz (yalıtkan)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca iletken katı maddelerin yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Limonlu su",
+        "Nikel tel",
+        "Şekerli su",
+        "Tuzlu su",
+        "Tahta çubuk",
+        "Demir bilye",
+        "Sirke",
+        "Plastik kaşık"
+      ],
+      "ans": [
+        1,
+        5
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca iletken katı maddelerin yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Limonlu su, Nikel tel, Şekerli su, Tuzlu su, Tahta çubuk, Demir bilye, Sirke, Plastik kaşık",
+    "correctAnswer": "Nikel tel, Demir bilye",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-iletken-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca yalıtkan katı maddelerin yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Gözlük camı",
+        "Bakır tencere",
+        "Alkollü su",
+        "Limon suyu",
+        "Silgi",
+        "Vida",
+        "Şekerli su",
+        "Mum"
+      ],
+      "ans": [
+        0,
+        4,
+        7
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca yalıtkan katı maddelerin yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Gözlük camı, Bakır tencere, Alkollü su, Limon suyu, Silgi, Vida, Şekerli su, Mum",
+    "correctAnswer": "Gözlük camı, Silgi, Mum",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-iletken-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca iletken sıvıların yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Limonlu su",
+        "Nikel tel",
+        "Şekerli su",
+        "Tuzlu su",
+        "Tahta çubuk",
+        "Demir bilye",
+        "Sirke",
+        "Plastik kaşık"
+      ],
+      "ans": [
+        0,
+        3,
+        6
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca iletken sıvıların yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Limonlu su, Nikel tel, Şekerli su, Tuzlu su, Tahta çubuk, Demir bilye, Sirke, Plastik kaşık",
+    "correctAnswer": "Limonlu su, Tuzlu su, Sirke",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca yalıtkan sıvıların yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Gözlük camı",
+        "Bakır tencere",
+        "Alkollü su",
+        "Limon suyu",
+        "Silgi",
+        "Vida",
+        "Şekerli su",
+        "Mum"
+      ],
+      "ans": [
+        2,
+        6
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca yalıtkan sıvıların yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Gözlük camı, Bakır tencere, Alkollü su, Limon suyu, Silgi, Vida, Şekerli su, Mum",
+    "correctAnswer": "Alkollü su, Şekerli su",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca iletken maddelerin (katı ya da sıvı) yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Gözlük camı",
+        "Bakır tencere",
+        "Alkollü su",
+        "Limon suyu",
+        "Silgi",
+        "Vida",
+        "Şekerli su",
+        "Mum"
+      ],
+      "ans": [
+        1,
+        3,
+        5
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca iletken maddelerin (katı ya da sıvı) yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Gözlük camı, Bakır tencere, Alkollü su, Limon suyu, Silgi, Vida, Şekerli su, Mum",
+    "correctAnswer": "Bakır tencere, Limon suyu, Vida",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "zor",
+    "group": "iletken",
+    "rank": 3,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca yalıtkan maddelerin (katı ya da sıvı) yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Limonlu su",
+        "Nikel tel",
+        "Şekerli su",
+        "Tuzlu su",
+        "Tahta çubuk",
+        "Demir bilye",
+        "Sirke",
+        "Plastik kaşık"
+      ],
+      "ans": [
+        2,
+        4,
+        7
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca yalıtkan maddelerin (katı ya da sıvı) yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Limonlu su, Nikel tel, Şekerli su, Tuzlu su, Tahta çubuk, Demir bilye, Sirke, Plastik kaşık",
+    "correctAnswer": "Şekerli su, Tahta çubuk, Plastik kaşık",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-iletken-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Tuzlu su",
+          "a": 0
+        },
+        {
+          "n": "Şekerli su",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Tuzlu su, Şekerli su",
+    "correctAnswer": "Yanar: Tuzlu su",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Alkollü su",
+          "a": 1
+        },
+        {
+          "n": "Sirke",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Alkollü su, Sirke",
+    "correctAnswer": "Yanar: Sirke",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Limon suyu",
+          "a": 0
+        },
+        {
+          "n": "Şekerli su",
+          "a": 1
+        },
+        {
+          "n": "Tuzlu su",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Limon suyu, Şekerli su, Tuzlu su",
+    "correctAnswer": "Yanar: Limon suyu, Tuzlu su",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Alkollü su",
+          "a": 1
+        },
+        {
+          "n": "Limonlu su",
+          "a": 0
+        },
+        {
+          "n": "Şekerli su",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Alkollü su, Limonlu su, Şekerli su",
+    "correctAnswer": "Yanar: Limonlu su",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Sirke",
+          "a": 0
+        },
+        {
+          "n": "Alkollü su",
+          "a": 1
+        },
+        {
+          "n": "Limon suyu",
+          "a": 0
+        },
+        {
+          "n": "Şekerli su",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Sirke, Alkollü su, Limon suyu, Şekerli su",
+    "correctAnswer": "Yanar: Sirke, Limon suyu",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Şekerli su",
+          "a": 1
+        },
+        {
+          "n": "Tuzlu su",
+          "a": 0
+        },
+        {
+          "n": "Alkollü su",
+          "a": 1
+        },
+        {
+          "n": "Sirke",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Şekerli su, Tuzlu su, Alkollü su, Sirke",
+    "correctAnswer": "Yanar: Tuzlu su, Sirke",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Kablonun iç kısmı",
+          "o": [
+            "Bakır tel",
+            "Plastik"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Kablonun dış kaplaması",
+          "o": [
+            "Plastik",
+            "Bakır"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Kablonun iç kısmı: Bakır tel / Plastik | Kablonun dış kaplaması: Plastik / Bakır",
+    "correctAnswer": "Kablonun iç kısmı: Bakır tel; Kablonun dış kaplaması: Plastik",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-sivi-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Teknisyenin eldiveni",
+          "o": [
+            "Yalıtkan eldiven",
+            "Metal eldiven"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Priz gövdesi",
+          "o": [
+            "Alüminyum",
+            "Plastik"
+          ],
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Teknisyenin eldiveni: Yalıtkan eldiven / Metal eldiven | Priz gövdesi: Alüminyum / Plastik",
+    "correctAnswer": "Teknisyenin eldiveni: Yalıtkan eldiven; Priz gövdesi: Plastik",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-sivi-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Elektrik anahtarının kapağı",
+          "o": [
+            "Plastik",
+            "Bakır"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Teknisyenin ayakkabısı",
+          "o": [
+            "Yalıtkan taban",
+            "Metal taban"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Trafo bakımında basılan halı",
+          "o": [
+            "İzole halı",
+            "Metal levha"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Elektrik anahtarının kapağı: Plastik / Bakır | Teknisyenin ayakkabısı: Yalıtkan taban / Metal taban | Trafo bakımında basılan halı: İzole halı / Metal levha",
+    "correctAnswer": "Elektrik anahtarının kapağı: Plastik; Teknisyenin ayakkabısı: Yalıtkan taban; Trafo bakımında basılan halı: İzole halı",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-sivi-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Kablonun iç kısmı",
+          "o": [
+            "Bakır tel",
+            "Plastik"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Kablonun dış kaplaması",
+          "o": [
+            "Plastik",
+            "Bakır"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Teknisyenin eldiveni",
+          "o": [
+            "Yalıtkan eldiven",
+            "Metal eldiven"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Priz gövdesi",
+          "o": [
+            "Alüminyum",
+            "Plastik"
+          ],
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Kablonun iç kısmı: Bakır tel / Plastik | Kablonun dış kaplaması: Plastik / Bakır | Teknisyenin eldiveni: Yalıtkan eldiven / Metal eldiven | Priz gövdesi: Alüminyum / Plastik",
+    "correctAnswer": "Kablonun iç kısmı: Bakır tel; Kablonun dış kaplaması: Plastik; Teknisyenin eldiveni: Yalıtkan eldiven; Priz gövdesi: Plastik",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-sivi-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 81, 83",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Ampulün filamanı",
+          "o": [
+            "Çok ince, direnci yüksek tel",
+            "Kalın, direnci düşük tel"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Isıtıcının ısıtan teli",
+          "o": [
+            "Direnç teli",
+            "Plastik şerit"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Ampulün filamanı: Çok ince, direnci yüksek tel / Kalın, direnci düşük tel | Isıtıcının ısıtan teli: Direnç teli / Plastik şerit",
+    "correctAnswer": "Ampulün filamanı: Çok ince, direnci yüksek tel; Isıtıcının ısıtan teli: Direnç teli",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-direnc-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72, 83",
+    "difficulty": "zor",
+    "group": "direnc",
+    "rank": 3,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Ucuz ve iyi iletken kablo teli",
+          "o": [
+            "Bakır",
+            "Gümüş"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Ampulün filamanı",
+          "o": [
+            "Çok ince, direnci yüksek tel",
+            "Kalın, direnci düşük tel"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Kablonun dış kaplaması",
+          "o": [
+            "Plastik",
+            "Bakır"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Ucuz ve iyi iletken kablo teli: Bakır / Gümüş | Ampulün filamanı: Çok ince, direnci yüksek tel / Kalın, direnci düşük tel | Kablonun dış kaplaması: Plastik / Bakır",
+    "correctAnswer": "Ucuz ve iyi iletken kablo teli: Bakır; Ampulün filamanı: Çok ince, direnci yüksek tel; Kablonun dış kaplaması: Plastik",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-direnc-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "K",
+          "m": "Bakır",
+          "L": 1,
+          "S": 1
+        },
+        {
+          "n": "L",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "K",
+        "L"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: K: Bakır, 1 birim uzun, ince; L: Bakır, 2 birim uzun, ince",
+    "correctAnswer": "K → L",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "M",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "N",
+          "m": "Bakır",
+          "L": 2,
+          "S": 2
+        }
+      ],
+      "order": [
+        "N",
+        "M"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: M: Bakır, 2 birim uzun, ince; N: Bakır, 2 birim uzun, kalın",
+    "correctAnswer": "N → M",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "P",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "R",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "R",
+        "P"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: P: Demir, 2 birim uzun, ince; R: Bakır, 2 birim uzun, ince",
+    "correctAnswer": "R → P",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "A",
+          "m": "Demir",
+          "L": 1,
+          "S": 1
+        },
+        {
+          "n": "B",
+          "m": "Demir",
+          "L": 3,
+          "S": 1
+        },
+        {
+          "n": "C",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: A: Demir, 1 birim uzun, ince; B: Demir, 3 birim uzun, ince; C: Demir, 2 birim uzun, ince",
+    "correctAnswer": "A → C → B",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 83",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "D",
+          "m": "Gümüş",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "E",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "F",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "D",
+        "F",
+        "E"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: D: Gümüş, 2 birim uzun, ince; E: Demir, 2 birim uzun, ince; F: Bakır, 2 birim uzun, ince",
+    "correctAnswer": "D → F → E",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN SÖNÜKTEN en parlağa doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "G",
+          "m": "Bakır",
+          "L": 2,
+          "S": 2
+        },
+        {
+          "n": "H",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "I",
+          "m": "Bakır",
+          "L": 1,
+          "S": 2
+        }
+      ],
+      "order": [
+        "H",
+        "G",
+        "I"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN SÖNÜKTEN en parlağa doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: G: Bakır, 2 birim uzun, kalın; H: Bakır, 2 birim uzun, ince; I: Bakır, 1 birim uzun, kalın",
+    "correctAnswer": "H → G → I",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "zor",
+    "group": "direnc",
+    "rank": 3,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "K",
+          "m": "Bakır",
+          "L": 1,
+          "S": 2
+        },
+        {
+          "n": "L",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "M",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "N",
+          "m": "Bakır",
+          "L": 1,
+          "S": 1
+        }
+      ],
+      "order": [
+        "K",
+        "N",
+        "L",
+        "M"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: K: Bakır, 1 birim uzun, kalın; L: Bakır, 2 birim uzun, ince; M: Demir, 2 birim uzun, ince; N: Bakır, 1 birim uzun, ince",
+    "correctAnswer": "K → N → L → M",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 91",
+    "difficulty": "zor",
+    "group": "direnc",
+    "rank": 3,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN SÖNÜKTEN en parlağa doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "I",
+          "m": "Demir",
+          "L": 1,
+          "S": 1
+        },
+        {
+          "n": "II",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "III",
+          "m": "Demir",
+          "L": 2,
+          "S": 2
+        },
+        {
+          "n": "IV",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "II",
+        "III",
+        "I",
+        "IV"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN SÖNÜKTEN en parlağa doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: I: Demir, 1 birim uzun, ince; II: Demir, 2 birim uzun, ince; III: Demir, 2 birim uzun, kalın; IV: Bakır, 2 birim uzun, ince",
+    "correctAnswer": "II → III → I → IV",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "Kısa tel",
+          "m": "Bakır",
+          "L": 1,
+          "S": 1
+        },
+        {
+          "n": "Uzun tel",
+          "m": "Bakır",
+          "L": 3,
+          "S": 1
+        }
+      ],
+      "order": [
+        "Kısa tel",
+        "Uzun tel"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: Kısa tel: Bakır, 1 birim uzun, ince; Uzun tel: Bakır, 3 birim uzun, ince",
+    "correctAnswer": "Kısa tel → Uzun tel",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-deney-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 1 birim uzunlukta ve ince. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 1,
+        "S": 1
+      },
+      "var": "L",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "1 birim",
+            "2 birim"
+          ],
+          "a": 1,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 0,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 1 birim uzunlukta ve ince. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 1 birim / 2 birim | Kalınlığı: İnce / Kalın",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 2 birim; Kalınlığı: İnce",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve ince. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 2,
+        "S": 1
+      },
+      "var": "S",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 1,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve ince. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 2 birim / 4 birim | Kalınlığı: İnce / Kalın",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 2 birim; Kalınlığı: Kalın",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve ince. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 2,
+        "S": 1
+      },
+      "var": "m",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 1,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 0,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve ince. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 2 birim / 4 birim | Kalınlığı: İnce / Kalın",
+    "correctAnswer": "2. tel: Cinsi: Demir; Uzunluğu: 2 birim; Kalınlığı: İnce",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Demir, 1 birim uzunlukta ve kalın. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Demir",
+        "L": 1,
+        "S": 2
+      },
+      "var": "L",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Demir",
+            "Bakır"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "1 birim",
+            "2 birim"
+          ],
+          "a": 1,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "Kalın",
+            "İnce"
+          ],
+          "a": 0,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Demir, 1 birim uzunlukta ve kalın. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Demir / Bakır | Uzunluğu: 1 birim / 2 birim | Kalınlığı: Kalın / İnce",
+    "correctAnswer": "2. tel: Cinsi: Demir; Uzunluğu: 2 birim; Kalınlığı: Kalın",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Demir, 2 birim uzunlukta ve ince. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Demir",
+        "L": 2,
+        "S": 1
+      },
+      "var": "m",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Demir",
+            "Bakır"
+          ],
+          "a": 1,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 0,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Demir, 2 birim uzunlukta ve ince. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Demir / Bakır | Uzunluğu: 2 birim / 4 birim | Kalınlığı: İnce / Kalın",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 2 birim; Kalınlığı: İnce",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 1 birim uzunlukta ve kalın. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 1,
+        "S": 2
+      },
+      "var": "S",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "1 birim",
+            "2 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "Kalın",
+            "İnce"
+          ],
+          "a": 1,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 1 birim uzunlukta ve kalın. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 1 birim / 2 birim | Kalınlığı: Kalın / İnce",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 1 birim; Kalınlığı: İnce",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "zor",
+    "group": "deney",
+    "rank": 3,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve ince. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 2,
+        "S": 1
+      },
+      "var": "S",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 1,
+          "k": "S"
+        },
+        {
+          "l": "Bu deneyde bağımlı değişken",
+          "o": [
+            "Ampul parlaklığı",
+            "Telin dik kesit alanı"
+          ],
+          "a": 0,
+          "k": "dep"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve ince. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 2 birim / 4 birim | Kalınlığı: İnce / Kalın | Bu deneyde bağımlı değişken: Ampul parlaklığı / Telin dik kesit alanı",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 2 birim; Kalınlığı: Kalın; Bu deneyde bağımlı değişken: Ampul parlaklığı",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "zor",
+    "group": "deney",
+    "rank": 3,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Demir, 1 birim uzunlukta ve ince. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Demir",
+        "L": 1,
+        "S": 1
+      },
+      "var": "L",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Demir",
+            "Bakır"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "1 birim",
+            "2 birim"
+          ],
+          "a": 1,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 0,
+          "k": "S"
+        },
+        {
+          "l": "Bu deneyde bağımlı değişken",
+          "o": [
+            "Ampul parlaklığı",
+            "Telin uzunluğu"
+          ],
+          "a": 0,
+          "k": "dep"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Demir, 1 birim uzunlukta ve ince. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Demir / Bakır | Uzunluğu: 1 birim / 2 birim | Kalınlığı: İnce / Kalın | Bu deneyde bağımlı değişken: Ampul parlaklığı / Telin uzunluğu",
+    "correctAnswer": "2. tel: Cinsi: Demir; Uzunluğu: 2 birim; Kalınlığı: İnce; Bu deneyde bağımlı değişken: Ampul parlaklığı",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "zor",
+    "group": "deney",
+    "rank": 3,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 1 birim uzunlukta ve ince. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 1,
+        "S": 1
+      },
+      "var": "m",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 1,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "1 birim",
+            "2 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "İnce",
+            "Kalın"
+          ],
+          "a": 0,
+          "k": "S"
+        },
+        {
+          "l": "Bu deneyde bağımlı değişken",
+          "o": [
+            "Ampul parlaklığı",
+            "Telin cinsi"
+          ],
+          "a": 0,
+          "k": "dep"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 1 birim uzunlukta ve ince. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 1 birim / 2 birim | Kalınlığı: İnce / Kalın | Bu deneyde bağımlı değişken: Ampul parlaklığı / Telin cinsi",
+    "correctAnswer": "2. tel: Cinsi: Demir; Uzunluğu: 1 birim; Kalınlığı: İnce; Bu deneyde bağımlı değişken: Ampul parlaklığı",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Davulcunun ışığı EN PARLAK yansın! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak.",
+    "data": {
+      "start": 2,
+      "ans": 4
+    },
+    "textPlain": "Sahne ışığı: Davulcunun ışığı EN PARLAK yansın! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 2.",
+    "correctAnswer": "Sürgü konumu 4",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-01"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Mendil oyunu sırasında ışık EN SÖNÜK yansın! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak.",
+    "data": {
+      "start": 2,
+      "ans": 0
+    },
+    "textPlain": "Sahne ışığı: Mendil oyunu sırasında ışık EN SÖNÜK yansın! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 2.",
+    "correctAnswer": "Sürgü konumu 0",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-02"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Sürgü 1 yönünün en ucunda. Işık, en parlak hâlinden bir kademe sönük yansın. Sürgüyü yerleştir, sonra ışığı yak.",
+    "data": {
+      "start": 0,
+      "ans": 3
+    },
+    "textPlain": "Sahne ışığı: Sürgü 1 yönünün en ucunda. Işık, en parlak hâlinden bir kademe sönük yansın. Sürgüyü yerleştir, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 0.",
+    "correctAnswer": "Sürgü konumu 3",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-03"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Sürgü 2 yönünün en ucunda. Işık, en sönük hâlinden bir kademe parlak yansın. Sürgüyü yerleştir, sonra ışığı yak.",
+    "data": {
+      "start": 4,
+      "ans": 1
+    },
+    "textPlain": "Sahne ışığı: Sürgü 2 yönünün en ucunda. Işık, en sönük hâlinden bir kademe parlak yansın. Sürgüyü yerleştir, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 4.",
+    "correctAnswer": "Sürgü konumu 1",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-04"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "zor",
+    "group": "reosta",
+    "rank": 3,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Sürgü şu an 1. kademede. Direnci iki kademe AZALT. Sürgüyü yerleştir, sonra ışığı yak.",
+    "data": {
+      "start": 1,
+      "ans": 3
+    },
+    "textPlain": "Sahne ışığı: Sürgü şu an 1. kademede. Direnci iki kademe AZALT. Sürgüyü yerleştir, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 1.",
+    "correctAnswer": "Sürgü konumu 3",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-05"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "zor",
+    "group": "reosta",
+    "rank": 3,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Sürgü şu an 3. kademede. Direnci iki kademe ARTIR. Sürgüyü yerleştir, sonra ışığı yak.",
+    "data": {
+      "start": 3,
+      "ans": 1
+    },
+    "textPlain": "Sahne ışığı: Sürgü şu an 3. kademede. Direnci iki kademe ARTIR. Sürgüyü yerleştir, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 3.",
+    "correctAnswer": "Sürgü konumu 1",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-06"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Devredeki direnç EN KÜÇÜK olsun! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak.",
+    "data": {
+      "start": 0,
+      "ans": 4
+    },
+    "textPlain": "Sahne ışığı: Devredeki direnç EN KÜÇÜK olsun! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 0.",
+    "correctAnswer": "Sürgü konumu 4",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-07"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        2,
+        3,
+        1
+      ],
+      "names": [
+        "K",
+        "L"
+      ],
+      "o": [
+        "1 yönü",
+        "2 yönü"
+      ],
+      "ans": [
+        1,
+        0
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat! Parlaklık: başlangıç 2, K 3, L 1 (1 yönü direnci artırır).",
+    "correctAnswer": "K: 2 yönü; L: 1 yönü",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-08"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Direnç nasıl değişti? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        3,
+        1,
+        2
+      ],
+      "names": [
+        "K",
+        "L"
+      ],
+      "o": [
+        "Direnç arttı",
+        "Direnç azaldı"
+      ],
+      "ans": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Direnç nasıl değişti? Seç, sonra grafiği oynat! Parlaklık: başlangıç 3, K 1, L 2 (1 yönü direnci artırır).",
+    "correctAnswer": "K: Direnç arttı; L: Direnç azaldı",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-09"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        2,
+        1,
+        3,
+        4
+      ],
+      "names": [
+        "K",
+        "L",
+        "M"
+      ],
+      "o": [
+        "1 yönü",
+        "2 yönü"
+      ],
+      "ans": [
+        0,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat! Parlaklık: başlangıç 2, K 1, L 3, M 4 (1 yönü direnci artırır).",
+    "correctAnswer": "K: 1 yönü; L: 2 yönü; M: 2 yönü",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-10"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Direnç nasıl değişti? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "names": [
+        "K",
+        "L",
+        "M"
+      ],
+      "o": [
+        "Direnç arttı",
+        "Direnç azaldı"
+      ],
+      "ans": [
+        1,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Direnç nasıl değişti? Seç, sonra grafiği oynat! Parlaklık: başlangıç 1, K 3, L 2, M 4 (1 yönü direnci artırır).",
+    "correctAnswer": "K: Direnç azaldı; L: Direnç arttı; M: Direnç azaldı",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "zor",
+    "group": "reosta",
+    "rank": 3,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        3,
+        4,
+        2,
+        1,
+        3
+      ],
+      "names": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "o": [
+        "1 yönü",
+        "2 yönü"
+      ],
+      "ans": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat! Parlaklık: başlangıç 3, K 4, L 2, M 1, N 3 (1 yönü direnci artırır).",
+    "correctAnswer": "K: 2 yönü; L: 1 yönü; M: 1 yönü; N: 2 yönü",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "zor",
+    "group": "reosta",
+    "rank": 3,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Direnç nasıl değişti? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        2,
+        1,
+        3,
+        4,
+        2
+      ],
+      "names": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "o": [
+        "Direnç arttı",
+        "Direnç azaldı"
+      ],
+      "ans": [
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Direnç nasıl değişti? Seç, sonra grafiği oynat! Parlaklık: başlangıç 2, K 1, L 3, M 4, N 2 (1 yönü direnci artırır).",
+    "correctAnswer": "K: Direnç arttı; L: Direnç azaldı; M: Direnç azaldı; N: Direnç arttı",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Şenlik deposu: Malzemeleri doğru sandığa koy.",
+    "data": {
+      "bins": [
+        "İletken",
+        "Yalıtkan"
+      ],
+      "cards": [
+        {
+          "t": "Bakır tel",
+          "b": 0
+        },
+        {
+          "t": "Plastik çubuk",
+          "b": 1
+        },
+        {
+          "t": "Vida",
+          "b": 0
+        },
+        {
+          "t": "Porselen fincan",
+          "b": 1
+        },
+        {
+          "t": "Alüminyum",
+          "b": 0
+        },
+        {
+          "t": "Mum",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Şenlik deposu: Malzemeleri doğru sandığa koy. Bölmeler: İletken / Yalıtkan. Kartlar: Bakır tel | Plastik çubuk | Vida | Porselen fincan | Alüminyum | Mum",
+    "correctAnswer": "İletken: Bakır tel, Vida, Alüminyum | Yalıtkan: Plastik çubuk, Porselen fincan, Mum",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72–73",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Dart puan tablosu: Malzemeleri doğru sütuna yerleştir.",
+    "data": {
+      "bins": [
+        "İletken katı",
+        "İletken sıvı",
+        "Yalıtkan katı",
+        "Yalıtkan sıvı"
+      ],
+      "cards": [
+        {
+          "t": "Nikel tel",
+          "b": 0
+        },
+        {
+          "t": "Sirke",
+          "b": 1
+        },
+        {
+          "t": "Plastik kaşık",
+          "b": 2
+        },
+        {
+          "t": "Şekerli su",
+          "b": 3
+        },
+        {
+          "t": "Bakır tencere",
+          "b": 0
+        },
+        {
+          "t": "Tuzlu su",
+          "b": 1
+        },
+        {
+          "t": "Gözlük camı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Dart puan tablosu: Malzemeleri doğru sütuna yerleştir. Bölmeler: İletken katı / İletken sıvı / Yalıtkan katı / Yalıtkan sıvı. Kartlar: Nikel tel | Sirke | Plastik kaşık | Şekerli su | Bakır tencere | Tuzlu su | Gözlük camı",
+    "correctAnswer": "İletken katı: Nikel tel, Bakır tencere | İletken sıvı: Sirke, Tuzlu su | Yalıtkan katı: Plastik kaşık, Gözlük camı | Yalıtkan sıvı: Şekerli su",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-iletken-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 93",
+    "difficulty": "zor",
+    "group": "iletken",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Seçil’in test masası: Malzemeleri doğru sandığa koy.",
+    "data": {
+      "bins": [
+        "İletken",
+        "Yalıtkan"
+      ],
+      "cards": [
+        {
+          "t": "Balon",
+          "b": 1
+        },
+        {
+          "t": "Plastik ip",
+          "b": 1
+        },
+        {
+          "t": "Toplu iğne",
+          "b": 0
+        },
+        {
+          "t": "Bant",
+          "b": 1
+        },
+        {
+          "t": "Zımba teli",
+          "b": 0
+        },
+        {
+          "t": "Karton poster",
+          "b": 1
+        },
+        {
+          "t": "Metal makas",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Seçil’in test masası: Malzemeleri doğru sandığa koy. Bölmeler: İletken / Yalıtkan. Kartlar: Balon | Plastik ip | Toplu iğne | Bant | Zımba teli | Karton poster | Metal makas",
+    "correctAnswer": "İletken: Toplu iğne, Zımba teli, Metal makas | Yalıtkan: Balon, Plastik ip, Bant, Karton poster",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Şenlik deposu: Malzemeleri doğru sandığa koy.",
+    "data": {
+      "bins": [
+        "İletken",
+        "Yalıtkan"
+      ],
+      "cards": [
+        {
+          "t": "Gümüş",
+          "b": 0
+        },
+        {
+          "t": "Kauçuk",
+          "b": 1
+        },
+        {
+          "t": "Altın",
+          "b": 0
+        },
+        {
+          "t": "Yün",
+          "b": 1
+        },
+        {
+          "t": "Sünger",
+          "b": 1
+        },
+        {
+          "t": "Bakır",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik deposu: Malzemeleri doğru sandığa koy. Bölmeler: İletken / Yalıtkan. Kartlar: Gümüş | Kauçuk | Altın | Yün | Sünger | Bakır",
+    "correctAnswer": "İletken: Gümüş, Altın, Bakır | Yalıtkan: Kauçuk, Yün, Sünger",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Güvenlik denetimi: Parçaları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Yalıtkan olmasının nedeni: güvenlik",
+        "İletken olması gerekir"
+      ],
+      "cards": [
+        {
+          "t": "Priz gövdesi",
+          "b": 0
+        },
+        {
+          "t": "Kablonun dış kaplaması",
+          "b": 0
+        },
+        {
+          "t": "Kablonun içindeki tel",
+          "b": 1
+        },
+        {
+          "t": "Teknisyen eldiveni",
+          "b": 0
+        },
+        {
+          "t": "Test uçlarındaki timsah ağızlı kablo ucu",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Güvenlik denetimi: Parçaları doğru bölmeye yerleştir. Bölmeler: Yalıtkan olmasının nedeni: güvenlik / İletken olması gerekir. Kartlar: Priz gövdesi | Kablonun dış kaplaması | Kablonun içindeki tel | Teknisyen eldiveni | Test uçlarındaki timsah ağızlı kablo ucu",
+    "correctAnswer": "Yalıtkan olmasının nedeni: güvenlik: Priz gövdesi, Kablonun dış kaplaması, Teknisyen eldiveni | İletken olması gerekir: Kablonun içindeki tel, Test uçlarındaki timsah ağızlı kablo ucu",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır. Hava normalde yalıtkandır; ancak yağışlı havada şimşek ve yıldırım sırasında iletken hâle gelebilir.",
+    "questionId": "fen6u6-sivi-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Sıvı rafı: Şişeleri doğru rafa koy.",
+    "data": {
+      "bins": [
+        "İletken sıvı",
+        "Yalıtkan sıvı"
+      ],
+      "cards": [
+        {
+          "t": "Tuzlu su",
+          "b": 0
+        },
+        {
+          "t": "Alkollü su",
+          "b": 1
+        },
+        {
+          "t": "Limon suyu",
+          "b": 0
+        },
+        {
+          "t": "Şekerli su",
+          "b": 1
+        },
+        {
+          "t": "Sirke",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Sıvı rafı: Şişeleri doğru rafa koy. Bölmeler: İletken sıvı / Yalıtkan sıvı. Kartlar: Tuzlu su | Alkollü su | Limon suyu | Şekerli su | Sirke",
+    "correctAnswer": "İletken sıvı: Tuzlu su, Limon suyu, Sirke | Yalıtkan sıvı: Alkollü su, Şekerli su",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77, 82",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Uzmanlık masası: Değişiklikleri doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Direnç artar",
+        "Direnç azalır"
+      ],
+      "cards": [
+        {
+          "t": "Tel uzatılırsa",
+          "b": 0
+        },
+        {
+          "t": "Tel kalınlaştırılırsa",
+          "b": 1
+        },
+        {
+          "t": "Tel kısaltılırsa",
+          "b": 1
+        },
+        {
+          "t": "Tel inceltilirse",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Uzmanlık masası: Değişiklikleri doğru bölmeye yerleştir. Bölmeler: Direnç artar / Direnç azalır. Kartlar: Tel uzatılırsa | Tel kalınlaştırılırsa | Tel kısaltılırsa | Tel inceltilirse",
+    "correctAnswer": "Direnç artar: Tel uzatılırsa, Tel inceltilirse | Direnç azalır: Tel kalınlaştırılırsa, Tel kısaltılırsa",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82–83",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Uzmanlık masası: Değişiklikleri doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Ampul daha parlak",
+        "Ampul daha sönük"
+      ],
+      "cards": [
+        {
+          "t": "Bakır yerine demir tel",
+          "b": 1
+        },
+        {
+          "t": "Uzun tel yerine kısa tel",
+          "b": 0
+        },
+        {
+          "t": "İnce tel yerine kalın tel",
+          "b": 0
+        },
+        {
+          "t": "Bakır yerine gümüş tel",
+          "b": 0
+        },
+        {
+          "t": "Kısa tel yerine uzun tel",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Uzmanlık masası: Değişiklikleri doğru bölmeye yerleştir. Bölmeler: Ampul daha parlak / Ampul daha sönük. Kartlar: Bakır yerine demir tel | Uzun tel yerine kısa tel | İnce tel yerine kalın tel | Bakır yerine gümüş tel | Kısa tel yerine uzun tel",
+    "correctAnswer": "Ampul daha parlak: Uzun tel yerine kısa tel, İnce tel yerine kalın tel, Bakır yerine gümüş tel | Ampul daha sönük: Bakır yerine demir tel, Kısa tel yerine uzun tel",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 76–77",
+    "difficulty": "zor",
+    "group": "direnc",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Yol-araba benzetmesi: Kartları eşleşen bölmeye koy.",
+    "data": {
+      "bins": [
+        "Yol benzetmesinde",
+        "Elektrik devresinde"
+      ],
+      "cards": [
+        {
+          "t": "Uzun yol",
+          "b": 0
+        },
+        {
+          "t": "Uzun iletken tel",
+          "b": 1
+        },
+        {
+          "t": "Dar yol",
+          "b": 0
+        },
+        {
+          "t": "İnce iletken tel",
+          "b": 1
+        },
+        {
+          "t": "Toprak yol",
+          "b": 0
+        },
+        {
+          "t": "Direnci büyük tel cinsi",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Yol-araba benzetmesi: Kartları eşleşen bölmeye koy. Bölmeler: Yol benzetmesinde / Elektrik devresinde. Kartlar: Uzun yol | Uzun iletken tel | Dar yol | İnce iletken tel | Toprak yol | Direnci büyük tel cinsi",
+    "correctAnswer": "Yol benzetmesinde: Uzun yol, Dar yol, Toprak yol | Elektrik devresinde: Uzun iletken tel, İnce iletken tel, Direnci büyük tel cinsi",
+    "explanation": "Uzun yol uzun tele, dar yol dik kesit alanı küçük (ince) tele, zorlu toprak yol direnci büyük tel cinsine benzetilir; bunlarda araçlar (elektrik) daha çok zorlanır, direnç büyüktür.",
+    "questionId": "fen6u6-direnc-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Şenlik çadırı: Aletleri doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Reosta (değişken direnç) kullanılır",
+        "Kullanılmaz"
+      ],
+      "cards": [
+        {
+          "t": "Eski radyonun ses düğmesi",
+          "b": 0
+        },
+        {
+          "t": "Ütünün sıcaklık ayarı",
+          "b": 0
+        },
+        {
+          "t": "Saç kurutma makinesinin sıcaklık ayarı",
+          "b": 0
+        },
+        {
+          "t": "Plastik bardak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Şenlik çadırı: Aletleri doğru bölmeye yerleştir. Bölmeler: Reosta (değişken direnç) kullanılır / Kullanılmaz. Kartlar: Eski radyonun ses düğmesi | Ütünün sıcaklık ayarı | Saç kurutma makinesinin sıcaklık ayarı | Plastik bardak",
+    "correctAnswer": "Reosta (değişken direnç) kullanılır: Eski radyonun ses düğmesi, Ütünün sıcaklık ayarı, Saç kurutma makinesinin sıcaklık ayarı | Kullanılmaz: Plastik bardak",
+    "explanation": "Eski radyolarda ses seviyesinin; ütü, elektrikli fırın, saç kurutma makinesi gibi aletlerde sıcaklığın ayarlanmasında reosta kullanılır.",
+    "questionId": "fen6u6-reosta-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Reosta defteri: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Sürgü 1 yönünde",
+        "Sürgü 2 yönünde"
+      ],
+      "cards": [
+        {
+          "t": "Direnç artar",
+          "b": 0
+        },
+        {
+          "t": "Ampul sönükleşir",
+          "b": 0
+        },
+        {
+          "t": "Direnç azalır",
+          "b": 1
+        },
+        {
+          "t": "Ampul parlaklaşır",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Reosta defteri: Kartları doğru bölmeye yerleştir. Bölmeler: Sürgü 1 yönünde / Sürgü 2 yönünde. Kartlar: Direnç artar | Ampul sönükleşir | Direnç azalır | Ampul parlaklaşır",
+    "correctAnswer": "Sürgü 1 yönünde: Direnç artar, Ampul sönükleşir | Sürgü 2 yönünde: Direnç azalır, Ampul parlaklaşır",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 92",
+    "difficulty": "zor",
+    "group": "reosta",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Şenlik onur kürsüsü: Katkıları doğru bilim insanına ver.",
+    "data": {
+      "bins": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Emin Kalmuk",
+        "Fuat Külünk"
+      ],
+      "cards": [
+        {
+          "t": "Karbonize bambu filamanlı uzun ömürlü ampul",
+          "b": 0
+        },
+        {
+          "t": "Elektriği kablosuz iletme ideali",
+          "b": 1
+        },
+        {
+          "t": "İstanbul telefon tesislerini arızasız işletti",
+          "b": 2
+        },
+        {
+          "t": "Adı yüksek gerilim laboratuvarına verildi",
+          "b": 3
+        }
+      ]
+    },
+    "textPlain": "Şenlik onur kürsüsü: Katkıları doğru bilim insanına ver. Bölmeler: Thomas Edison / Nikola Tesla / Emin Kalmuk / Fuat Külünk. Kartlar: Karbonize bambu filamanlı uzun ömürlü ampul | Elektriği kablosuz iletme ideali | İstanbul telefon tesislerini arızasız işletti | Adı yüksek gerilim laboratuvarına verildi",
+    "correctAnswer": "Thomas Edison: Karbonize bambu filamanlı uzun ömürlü ampul | Nikola Tesla: Elektriği kablosuz iletme ideali | Emin Kalmuk: İstanbul telefon tesislerini arızasız işletti | Fuat Külünk: Adı yüksek gerilim laboratuvarına verildi",
+    "explanation": "Edison yüksek dirençli karbonize bambu filamanla ticari olarak başarılı ilk ampulü geliştirdi. Tesla elektriği kablosuz iletmeye çalıştı. Emin Kalmuk telefon ve telgraf haberleşmesinde büyük hizmetler verdi. Fuat Külünk’ün adı İTÜ’deki yüksek gerilim laboratuvarına verildi.",
+    "questionId": "fen6u6-reosta-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 93",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Göktuğ ile Hasan’ın deneyi: Uzunluğu ve cinsi aynı, kalınlığı farklı iki tel test ediliyor. Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Bağımsız değişken",
+        "Bağımlı değişken",
+        "Sabit tutulan"
+      ],
+      "cards": [
+        {
+          "t": "Telin kalınlığı (değiştirilen)",
+          "b": 0
+        },
+        {
+          "t": "Ampul parlaklığı",
+          "b": 1
+        },
+        {
+          "t": "Telin uzunluğu",
+          "b": 2
+        },
+        {
+          "t": "Telin cinsi",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Göktuğ ile Hasan’ın deneyi: Uzunluğu ve cinsi aynı, kalınlığı farklı iki tel test ediliyor. Kartları doğru bölmeye koy. Bölmeler: Bağımsız değişken / Bağımlı değişken / Sabit tutulan. Kartlar: Telin kalınlığı (değiştirilen) | Ampul parlaklığı | Telin uzunluğu | Telin cinsi",
+    "correctAnswer": "Bağımsız değişken: Telin kalınlığı (değiştirilen) | Bağımlı değişken: Ampul parlaklığı | Sabit tutulan: Telin uzunluğu, Telin cinsi",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-11"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Uzmanlık masası: Kartları doğru bölmeye koy.",
+    "data": {
+      "bins": [
+        "Elektriksel direncin bağlı olduğu faktör",
+        "Bağlı olmayan"
+      ],
+      "cards": [
+        {
+          "t": "Telin uzunluğu",
+          "b": 0
+        },
+        {
+          "t": "Telin dik kesit alanı",
+          "b": 0
+        },
+        {
+          "t": "Telin cinsi",
+          "b": 0
+        },
+        {
+          "t": "Telin rengi",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Uzmanlık masası: Kartları doğru bölmeye koy. Bölmeler: Elektriksel direncin bağlı olduğu faktör / Bağlı olmayan. Kartlar: Telin uzunluğu | Telin dik kesit alanı | Telin cinsi | Telin rengi",
+    "correctAnswer": "Elektriksel direncin bağlı olduğu faktör: Telin uzunluğu, Telin dik kesit alanı, Telin cinsi | Bağlı olmayan: Telin rengi",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-deney-12"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 91",
+    "difficulty": "zor",
+    "group": "deney",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Tel çiftleri: Her çiftin hangi değişkenin etkisini gösterdiğini bul.",
+    "data": {
+      "bins": [
+        "Uzunluğun etkisi",
+        "Kalınlığın etkisi",
+        "Cinsin etkisi"
+      ],
+      "cards": [
+        {
+          "t": "Demir 1 birim ince + demir 2 birim ince",
+          "b": 0
+        },
+        {
+          "t": "Demir 2 birim ince + demir 2 birim kalın",
+          "b": 1
+        },
+        {
+          "t": "Demir 2 birim ince + bakır 2 birim ince",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Tel çiftleri: Her çiftin hangi değişkenin etkisini gösterdiğini bul. Bölmeler: Uzunluğun etkisi / Kalınlığın etkisi / Cinsin etkisi. Kartlar: Demir 1 birim ince + demir 2 birim ince | Demir 2 birim ince + demir 2 birim kalın | Demir 2 birim ince + bakır 2 birim ince",
+    "correctAnswer": "Uzunluğun etkisi: Demir 1 birim ince + demir 2 birim ince | Kalınlığın etkisi: Demir 2 birim ince + demir 2 birim kalın | Cinsin etkisi: Demir 2 birim ince + bakır 2 birim ince",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-13"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 92",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Edison’un bambu filamanlı ampulü 1200 saatten fazla yanabiliyordu. 1200 saat kaç gün eder? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1200,
+      "op": "÷",
+      "b": 24,
+      "ans": 50,
+      "unit": "gün"
+    },
+    "textPlain": "Edison’un bambu filamanlı ampulü 1200 saatten fazla yanabiliyordu. 1200 saat kaç gün eder? Sayı çarklarıyla gir! İşlem: 1200 ÷ 24",
+    "correctAnswer": "50 gün",
+    "explanation": "1200 ÷ 24 = 50 gün. Edison uzun ömürlü ampul için yüksek dirençli filaman aradı.",
+    "questionId": "fen6u6-deney-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 92",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Thomas Edison 1847’de doğdu, 1931’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1931,
+      "op": "−",
+      "b": 1847,
+      "ans": 84,
+      "unit": "yıl"
+    },
+    "textPlain": "Thomas Edison 1847’de doğdu, 1931’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1931 − 1847",
+    "correctAnswer": "84 yıl",
+    "explanation": "1931 − 1847 = 84 yıl.",
+    "questionId": "fen6u6-deney-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 92",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Nikola Tesla 1856’da doğdu, 1943’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1943,
+      "op": "−",
+      "b": 1856,
+      "ans": 87,
+      "unit": "yıl"
+    },
+    "textPlain": "Nikola Tesla 1856’da doğdu, 1943’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1943 − 1856",
+    "correctAnswer": "87 yıl",
+    "explanation": "1943 − 1856 = 87 yıl. Tesla, elektrik enerjisinin evlere girmesine katkı sağladı.",
+    "questionId": "fen6u6-reosta-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 92",
+    "difficulty": "zor",
+    "group": "deney",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Yüksek gerilim çalışmalarıyla tanınan Fuat Külünk 1911’de doğdu, 1951’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1951,
+      "op": "−",
+      "b": 1911,
+      "ans": 40,
+      "unit": "yıl"
+    },
+    "textPlain": "Yüksek gerilim çalışmalarıyla tanınan Fuat Külünk 1911’de doğdu, 1951’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1951 − 1911",
+    "correctAnswer": "40 yıl",
+    "explanation": "1951 − 1911 = 40 yıl.",
+    "questionId": "fen6u6-deney-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Işık zinciri için 2 birim uzunlukta bir bakır tel var. Aynı cins ve kalınlıkta, 3 kat uzun tel kaç birim olur? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2,
+      "op": "×",
+      "b": 3,
+      "ans": 6,
+      "unit": "birim"
+    },
+    "textPlain": "Işık zinciri için 2 birim uzunlukta bir bakır tel var. Aynı cins ve kalınlıkta, 3 kat uzun tel kaç birim olur? Sayı çarklarıyla gir! İşlem: 2 × 3",
+    "correctAnswer": "6 birim",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar. 2 × 3 = 6 birim; uzun tel daha büyük direnç gösterir, ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-14"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Dart oyununda 1. öğrenci 3 iletken katıya, 2. öğrenci 2 iletken sıvıya isabet ettirdi. Toplam kaç iletken maddeye ok isabet etti? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 3,
+      "op": "+",
+      "b": 2,
+      "ans": 5,
+      "unit": "madde"
+    },
+    "textPlain": "Dart oyununda 1. öğrenci 3 iletken katıya, 2. öğrenci 2 iletken sıvıya isabet ettirdi. Toplam kaç iletken maddeye ok isabet etti? Sayı çarklarıyla gir! İşlem: 3 + 2",
+    "correctAnswer": "5 madde",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 92",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Telefon ve telgraf haberleşmesine hizmet eden Emin Kalmuk 1869’da doğdu, 1954’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1954,
+      "op": "−",
+      "b": 1869,
+      "ans": 85,
+      "unit": "yıl"
+    },
+    "textPlain": "Telefon ve telgraf haberleşmesine hizmet eden Emin Kalmuk 1869’da doğdu, 1954’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1954 − 1869",
+    "correctAnswer": "85 yıl",
+    "explanation": "1954 − 1869 = 85 yıl.",
+    "questionId": "fen6u6-reosta-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72, 93",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Gümüş kaşık",
+          "e": "🥄",
+          "a": 0
+        },
+        {
+          "n": "Yün",
+          "e": "🧶",
+          "a": 1
+        },
+        {
+          "n": "Toplu iğne",
+          "e": "📍",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Gümüş kaşık, Yün, Toplu iğne",
+    "correctAnswer": "Gümüş kaşık: yanar (iletken); Yün: yanmaz (yalıtkan); Toplu iğne: yanar (iletken)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+    "difficulty": "orta",
+    "group": "iletken",
+    "rank": 2,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Kauçuk",
+          "e": "⚫",
+          "a": 1
+        },
+        {
+          "n": "Zımba teli",
+          "e": "📎",
+          "a": 0
+        },
+        {
+          "n": "Cam çubuk",
+          "e": "🥢",
+          "a": 1
+        },
+        {
+          "n": "Alüminyum folyo",
+          "e": "🪙",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Kauçuk, Zımba teli, Cam çubuk, Alüminyum folyo",
+    "correctAnswer": "Kauçuk: yanmaz (yalıtkan); Zımba teli: yanar (iletken); Cam çubuk: yanmaz (yalıtkan); Alüminyum folyo: yanar (iletken)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–73, 93",
+    "difficulty": "zor",
+    "group": "iletken",
+    "rank": 3,
+    "type": "tester",
+    "prompt": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat!",
+    "data": {
+      "items": [
+        {
+          "n": "Balon",
+          "e": "🎈",
+          "a": 1
+        },
+        {
+          "n": "Bakır tencere",
+          "e": "🍲",
+          "a": 0
+        },
+        {
+          "n": "Sünger",
+          "e": "🧽",
+          "a": 1
+        },
+        {
+          "n": "Demir bilye",
+          "e": "⚙️",
+          "a": 0
+        },
+        {
+          "n": "Tahta çubuk",
+          "e": "🪵",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Işık zinciri testi: Her malzeme test uçlarına bağlanınca ampul yanar mı? Tahminini işaretle, sonra testi başlat! Malzemeler: Balon, Bakır tencere, Sünger, Demir bilye, Tahta çubuk",
+    "correctAnswer": "Balon: yanmaz (yalıtkan); Bakır tencere: yanar (iletken); Sünger: yanmaz (yalıtkan); Demir bilye: yanar (iletken); Tahta çubuk: yanmaz (yalıtkan)",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır.",
+    "questionId": "fen6u6-iletken-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Limon suyu",
+          "a": 0
+        },
+        {
+          "n": "Alkollü su",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Limon suyu, Alkollü su",
+    "correctAnswer": "Yanar: Limon suyu",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "beaker",
+    "prompt": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır!",
+    "data": {
+      "items": [
+        {
+          "n": "Sirke",
+          "a": 0
+        },
+        {
+          "n": "Şekerli su",
+          "a": 1
+        },
+        {
+          "n": "Limonlu su",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Sıvı testi: Levhalar her beherglasa daldırılınca şenlik lambası yanar mı? Yanacak olanları seç, sonra levhaları daldır! Beherglaslar: Sirke, Şekerli su, Limonlu su",
+    "correctAnswer": "Yanar: Sirke, Limonlu su",
+    "explanation": "Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Katı maddelerin elektriği iletme durumları",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "kolay",
+    "group": "iletken",
+    "rank": 1,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca iletken katı maddelerin yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Altın yüzük",
+        "Sirke",
+        "Kauçuk",
+        "Alkollü su",
+        "Zımba teli",
+        "Yün",
+        "Tuzlu su",
+        "Bakır tel"
+      ],
+      "ans": [
+        0,
+        4,
+        7
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca iletken katı maddelerin yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Altın yüzük, Sirke, Kauçuk, Alkollü su, Zımba teli, Yün, Tuzlu su, Bakır tel",
+    "correctAnswer": "Altın yüzük, Zımba teli, Bakır tel",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-iletken-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 73",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "dart",
+    "prompt": "Şenlik dartı: Okları yalnızca iletken sıvıların yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat.",
+    "data": {
+      "sec": [
+        "Altın yüzük",
+        "Sirke",
+        "Kauçuk",
+        "Alkollü su",
+        "Zımba teli",
+        "Yün",
+        "Tuzlu su",
+        "Bakır tel"
+      ],
+      "ans": [
+        1,
+        6
+      ]
+    },
+    "textPlain": "Şenlik dartı: Okları yalnızca iletken sıvıların yazılı bölgelere at! Bölgelere dokunarak hedefle, sonra okları fırlat. Bölgeler: Altın yüzük, Sirke, Kauçuk, Alkollü su, Zımba teli, Yün, Tuzlu su, Bakır tel",
+    "correctAnswer": "Sirke, Tuzlu su",
+    "explanation": "Elektrik enerjisinin bir noktadan başka bir noktaya geçişini sağlayan maddelere iletken, engelleyen maddelere yalıtkan denir. Bakır, alüminyum, gümüş, altın gibi metaller katı iletkendir; kauçuk, mum, plastik, silgi, yün, sünger, cam, porselen ve tahta katı yalıtkandır. Tuzlu su, sirke ve limon suyu gibi sıvılar iletkendir; şekerli su ve alkollü su gibi sıvılar yalıtkandır. Test devresinde iletken sıvıya daldırılan levhalar devreyi tamamlar ve ampul ışık verir.",
+    "questionId": "fen6u6-sivi-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "Kalın tel",
+          "m": "Demir",
+          "L": 2,
+          "S": 2
+        },
+        {
+          "n": "İnce tel",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "Kalın tel",
+        "İnce tel"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: Kalın tel: Demir, 2 birim uzun, kalın; İnce tel: Demir, 2 birim uzun, ince",
+    "correctAnswer": "Kalın tel → İnce tel",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-15"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+    "difficulty": "orta",
+    "group": "direnc",
+    "rank": 2,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN SÖNÜKTEN en parlağa doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "X",
+          "m": "Bakır",
+          "L": 3,
+          "S": 2
+        },
+        {
+          "n": "Y",
+          "m": "Bakır",
+          "L": 1,
+          "S": 2
+        },
+        {
+          "n": "Z",
+          "m": "Bakır",
+          "L": 2,
+          "S": 2
+        }
+      ],
+      "order": [
+        "X",
+        "Z",
+        "Y"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN SÖNÜKTEN en parlağa doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: X: Bakır, 3 birim uzun, kalın; Y: Bakır, 1 birim uzun, kalın; Z: Bakır, 2 birim uzun, kalın",
+    "correctAnswer": "X → Z → Y",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-16"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82–83",
+    "difficulty": "zor",
+    "group": "direnc",
+    "rank": 3,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "A",
+          "m": "Gümüş",
+          "L": 1,
+          "S": 2
+        },
+        {
+          "n": "B",
+          "m": "Bakır",
+          "L": 1,
+          "S": 2
+        },
+        {
+          "n": "C",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "D",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: A: Gümüş, 1 birim uzun, kalın; B: Bakır, 1 birim uzun, kalın; C: Bakır, 2 birim uzun, ince; D: Demir, 2 birim uzun, ince",
+    "correctAnswer": "A → B → C → D",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-direnc-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 83",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "wires",
+    "prompt": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak!",
+    "data": {
+      "items": [
+        {
+          "n": "Bakır tel",
+          "m": "Bakır",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "Demir tel",
+          "m": "Demir",
+          "L": 2,
+          "S": 1
+        },
+        {
+          "n": "Gümüş tel",
+          "m": "Gümüş",
+          "L": 2,
+          "S": 1
+        }
+      ],
+      "order": [
+        "Gümüş tel",
+        "Bakır tel",
+        "Demir tel"
+      ]
+    },
+    "textPlain": "Işık zinciri: Telleri, bağlandıkları ampul EN PARLAKTAN en sönüğe doğru sırayla dokunarak diz, sonra şenlik ışıklarını yak! Teller: Bakır tel: Bakır, 2 birim uzun, ince; Demir tel: Demir, 2 birim uzun, ince; Gümüş tel: Gümüş, 2 birim uzun, ince",
+    "correctAnswer": "Gümüş tel → Bakır tel → Demir tel",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar.",
+    "questionId": "fen6u6-deney-17"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "kolay",
+    "group": "deney",
+    "rank": 1,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Demir, 2 birim uzunlukta ve kalın. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Demir",
+        "L": 2,
+        "S": 2
+      },
+      "var": "S",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Demir",
+            "Bakır"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "Kalın",
+            "İnce"
+          ],
+          "a": 1,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Demir, 2 birim uzunlukta ve kalın. Telin dik kesit alanı ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Demir / Bakır | Uzunluğu: 2 birim / 4 birim | Kalınlığı: Kalın / İnce",
+    "correctAnswer": "2. tel: Cinsi: Demir; Uzunluğu: 2 birim; Kalınlığı: İnce",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "orta",
+    "group": "deney",
+    "rank": 2,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve kalın. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Bakır",
+        "L": 2,
+        "S": 2
+      },
+      "var": "L",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Bakır",
+            "Demir"
+          ],
+          "a": 0,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 1,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "Kalın",
+            "İnce"
+          ],
+          "a": 0,
+          "k": "S"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Bakır, 2 birim uzunlukta ve kalın. Telin uzunluğu ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Bakır / Demir | Uzunluğu: 2 birim / 4 birim | Kalınlığı: Kalın / İnce",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 4 birim; Kalınlığı: Kalın",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Değişkenleri kontrol ederek direnç deneyi tasarlama",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+    "difficulty": "zor",
+    "group": "deney",
+    "rank": 3,
+    "type": "design",
+    "prompt": "Deney masası: 1. tel Demir, 2 birim uzunlukta ve kalın. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır!",
+    "data": {
+      "base": {
+        "m": "Demir",
+        "L": 2,
+        "S": 2
+      },
+      "var": "m",
+      "rows": [
+        {
+          "l": "Cinsi",
+          "o": [
+            "Demir",
+            "Bakır"
+          ],
+          "a": 1,
+          "k": "m"
+        },
+        {
+          "l": "Uzunluğu",
+          "o": [
+            "2 birim",
+            "4 birim"
+          ],
+          "a": 0,
+          "k": "L"
+        },
+        {
+          "l": "Kalınlığı",
+          "o": [
+            "Kalın",
+            "İnce"
+          ],
+          "a": 0,
+          "k": "S"
+        },
+        {
+          "l": "Bu deneyde bağımlı değişken",
+          "o": [
+            "Ampul parlaklığı",
+            "Telin cinsi"
+          ],
+          "a": 0,
+          "k": "dep"
+        }
+      ]
+    },
+    "textPlain": "Deney masası: 1. tel Demir, 2 birim uzunlukta ve kalın. Telin cinsi ampul parlaklığını etkiler mi? 2. telin özelliklerini ayarla, sonra iki devreyi çalıştır! Seçenekler: Cinsi: Demir / Bakır | Uzunluğu: 2 birim / 4 birim | Kalınlığı: Kalın / İnce | Bu deneyde bağımlı değişken: Ampul parlaklığı / Telin cinsi",
+    "correctAnswer": "2. tel: Cinsi: Bakır; Uzunluğu: 2 birim; Kalınlığı: Kalın; Bu deneyde bağımlı değişken: Ampul parlaklığı",
+    "explanation": "Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı tutulmalıdır. Telin uzunluğunun etkisi için cinsi ve kalınlığı aynı, uzunluğu farklı iki tel; dik kesit alanının etkisi için cinsi ve uzunluğu aynı, kalınlığı farklı iki tel; cinsinin etkisi için uzunluğu ve kalınlığı aynı, cinsi farklı iki tel kullanılır. Ampul parlaklığı bağımlı değişkendir.",
+    "questionId": "fen6u6-deney-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Devredeki direnç EN BÜYÜK olsun! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak.",
+    "data": {
+      "start": 4,
+      "ans": 0
+    },
+    "textPlain": "Sahne ışığı: Devredeki direnç EN BÜYÜK olsun! Reosta sürgüsünü doğru yere kaydır, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 4.",
+    "correctAnswer": "Sürgü konumu 0",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "reo",
+    "prompt": "Sahne ışığı: Sürgü ortada. Halay başlarken ışık bir kademe parlaklaşsın. Sürgüyü yerleştir, sonra ışığı yak.",
+    "data": {
+      "start": 2,
+      "ans": 3
+    },
+    "textPlain": "Sahne ışığı: Sürgü ortada. Halay başlarken ışık bir kademe parlaklaşsın. Sürgüyü yerleştir, sonra ışığı yak. Sürgü 0 (1 yönünün ucu, en büyük direnç) ile 4 (2 yönünün ucu, en küçük direnç) arasında; başlangıç: 2.",
+    "correctAnswer": "Sürgü konumu 3",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-20"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "kolay",
+    "group": "reosta",
+    "rank": 1,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "names": [
+        "K",
+        "L"
+      ],
+      "o": [
+        "1 yönü",
+        "2 yönü"
+      ],
+      "ans": [
+        1,
+        1
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat! Parlaklık: başlangıç 1, K 2, L 3 (1 yönü direnci artırır).",
+    "correctAnswer": "K: 2 yönü; L: 2 yönü",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-21"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Ayarlanabilir direnç (reosta) ve ampul parlaklığı",
+    "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 89–91",
+    "difficulty": "orta",
+    "group": "reosta",
+    "rank": 2,
+    "type": "trend",
+    "prompt": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat!",
+    "data": {
+      "levels": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "names": [
+        "K",
+        "L",
+        "M"
+      ],
+      "o": [
+        "1 yönü",
+        "2 yönü"
+      ],
+      "ans": [
+        0,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Parlaklık grafiği: Her aşamada ampul parlaklığı grafikteki gibi değişti. Sürgü hangi yöne kaydırıldı? Seç, sonra grafiği oynat! Parlaklık: başlangıç 4, K 2, L 3, M 1 (1 yönü direnci artırır).",
+    "correctAnswer": "K: 1 yönü; L: 2 yönü; M: 1 yönü",
+    "explanation": "Reosta (ayarlanabilir direnç) devredeki direncin büyüklüğünü ayarlar. Sürgü, akımın geçtiği tel uzunluğunu artıracak yönde (1 yönü) kaydırılınca direnç artar, ampul sönükleşir; ters yönde (2 yönü) kaydırılınca direnç azalır, ampul parlaklaşır.",
+    "questionId": "fen6u6-reosta-22"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Sıvıların iletkenliği ve elektrik güvenliği",
+    "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Priz gövdesi",
+          "o": [
+            "Alüminyum",
+            "Plastik"
+          ],
+          "a": 1
+        },
+        {
+          "l": "Kablonun iç kısmı",
+          "o": [
+            "Bakır tel",
+            "Plastik"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Trafo bakımında basılan halı",
+          "o": [
+            "İzole halı",
+            "Metal levha"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Priz gövdesi: Alüminyum / Plastik | Kablonun iç kısmı: Bakır tel / Plastik | Trafo bakımında basılan halı: İzole halı / Metal levha",
+    "correctAnswer": "Priz gövdesi: Plastik; Kablonun iç kısmı: Bakır tel; Trafo bakımında basılan halı: İzole halı",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-sivi-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 72, 83",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "kit",
+    "prompt": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat!",
+    "data": {
+      "rows": [
+        {
+          "l": "Ampulün filamanı",
+          "o": [
+            "Çok ince, direnci yüksek tel",
+            "Kalın, direnci düşük tel"
+          ],
+          "a": 0
+        },
+        {
+          "l": "Kablonun iç kısmı",
+          "o": [
+            "Bakır tel",
+            "Plastik"
+          ],
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik elektrikçisi: Meydanın ışıkları kurulurken her parça için doğru malzemeyi seç, sonra güvenlik kontrolünü başlat! Parçalar: Ampulün filamanı: Çok ince, direnci yüksek tel / Kalın, direnci düşük tel | Kablonun iç kısmı: Bakır tel / Plastik",
+    "correctAnswer": "Ampulün filamanı: Çok ince, direnci yüksek tel; Kablonun iç kısmı: Bakır tel",
+    "explanation": "Prizler, elektrik anahtarları ve kabloların dış kısmında plastik gibi yalıtkanlar kullanılır; kablonun iç kısmında iletken bakır bulunur. Teknisyenler yalıtkan eldiven, ayakkabı ve izole halı kullanır. Ampul filamanı çok ince ve direnci yüksek bir teldir; ısıtıcılarda direnç telleri elektrik enerjisini ısıya dönüştürür. Gümüş bakırdan daha iyi iletir ama pahalı olduğu için kablolarda genellikle bakır kullanılır.",
+    "questionId": "fen6u6-direnc-18"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 81, 83, 85",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Şenlik mutfağı: Aletleri doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Isı amaçlı direnç kullanılır",
+        "Işık amaçlı direnç kullanılır"
+      ],
+      "cards": [
+        {
+          "t": "Elektrikli ısıtıcının teli",
+          "b": 0
+        },
+        {
+          "t": "Ampul filamanı",
+          "b": 1
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "b": 0
+        },
+        {
+          "t": "Saç kurutma makinesi",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Şenlik mutfağı: Aletleri doğru bölmeye yerleştir. Bölmeler: Isı amaçlı direnç kullanılır / Işık amaçlı direnç kullanılır. Kartlar: Elektrikli ısıtıcının teli | Ampul filamanı | Su ısıtıcısı | Saç kurutma makinesi",
+    "correctAnswer": "Isı amaçlı direnç kullanılır: Elektrikli ısıtıcının teli, Su ısıtıcısı, Saç kurutma makinesi | Işık amaçlı direnç kullanılır: Ampul filamanı",
+    "explanation": "Elektrikli ısıtıcılarda, su ısıtıcısı ve saç kurutma makinesinde direnç telleri elektrik enerjisini ısıya dönüştürür. Ampuldeki ince filaman da direnç gösterir; ısınıp ışık yayar.",
+    "questionId": "fen6u6-direnc-19"
+  },
+  {
+    "grade": 6,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+    "topic": "Elektriksel direncin bağlı olduğu faktörler",
+    "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+    "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 82",
+    "difficulty": "kolay",
+    "group": "direnc",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Dik kesit alanı 2 birim olan bir tel yerine, aynı cins ve uzunlukta, dik kesit alanı 2 katı olan bir tel alınıyor. Yeni telin dik kesit alanı kaç birimdir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2,
+      "op": "×",
+      "b": 2,
+      "ans": 4,
+      "unit": "birim"
+    },
+    "textPlain": "Dik kesit alanı 2 birim olan bir tel yerine, aynı cins ve uzunlukta, dik kesit alanı 2 katı olan bir tel alınıyor. Yeni telin dik kesit alanı kaç birimdir? Sayı çarklarıyla gir! İşlem: 2 × 2",
+    "correctAnswer": "4 birim",
+    "explanation": "Elektriksel direnç; iletken telin uzunluğuna, dik kesit alanına ve cinsine bağlıdır. Uzun telin direnci kısa telden, ince telin direnci kalın telden fazladır. Aynı boyutlarda demir telin direnci bakırdan, bakırın direnci gümüşten fazladır. Direnç arttıkça ampul daha sönük yanar. 2 × 2 = 4 birim; kalın telin direnci daha küçüktür.",
+    "questionId": "fen6u6-direnc-20"
+  }
+]
