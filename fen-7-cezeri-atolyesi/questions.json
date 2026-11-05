@@ -1,0 +1,3949 @@
+[
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🧱"
+        },
+        {
+          "t": "Beyaz tahtayı sağa çekerek kaydıran öğretmen",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🧑‍🏫"
+        },
+        {
+          "t": "Koliye yukarı kuvvet uyguladığı hâlde kaldıramayan çalışanlar",
+          "f": "u",
+          "m": "n",
+          "a": 0,
+          "e": "📦"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Sınıfın duvarını büyük bir kuvvetle iten öğrenci (kuvvet: sağa, hareket: yok); Beyaz tahtayı sağa çekerek kaydıran öğretmen (kuvvet: sağa, hareket: sağa); Koliye yukarı kuvvet uyguladığı hâlde kaldıramayan çalışanlar (kuvvet: yukarı, hareket: yok)",
+    "correctAnswer": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci: iş yok; Beyaz tahtayı sağa çekerek kaydıran öğretmen: iş var; Koliye yukarı kuvvet uyguladığı hâlde kaldıramayan çalışanlar: iş yok",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Çantasını sırtında taşıyarak düz yolda yürüyen öğrenci",
+          "f": "u",
+          "m": "r",
+          "a": 0,
+          "e": "🎒"
+        },
+        {
+          "t": "Ağır dolabı ittiği hâlde yerinden oynatamayan çocuk",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🗄️"
+        },
+        {
+          "t": "Çiçek dolu el arabasını ileri iten bahçıvan",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🌷"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Çantasını sırtında taşıyarak düz yolda yürüyen öğrenci (kuvvet: yukarı, hareket: sağa); Ağır dolabı ittiği hâlde yerinden oynatamayan çocuk (kuvvet: sağa, hareket: yok); Çiçek dolu el arabasını ileri iten bahçıvan (kuvvet: sağa, hareket: sağa)",
+    "correctAnswer": "Çantasını sırtında taşıyarak düz yolda yürüyen öğrenci: iş yok; Ağır dolabı ittiği hâlde yerinden oynatamayan çocuk: iş yok; Çiçek dolu el arabasını ileri iten bahçıvan: iş var",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🧱"
+        },
+        {
+          "t": "Koliyi yerden yukarı kaldıran çalışan",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Beyaz tahtayı sağa çekerek kaydıran öğretmen",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🧑‍🏫"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Sınıfın duvarını büyük bir kuvvetle iten öğrenci (kuvvet: sağa, hareket: yok); Koliyi yerden yukarı kaldıran çalışan (kuvvet: yukarı, hareket: yukarı); Beyaz tahtayı sağa çekerek kaydıran öğretmen (kuvvet: sağa, hareket: sağa)",
+    "correctAnswer": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci: iş yok; Koliyi yerden yukarı kaldıran çalışan: iş var; Beyaz tahtayı sağa çekerek kaydıran öğretmen: iş var",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Koliyi merdivenlerden yukarı çıkaran Ahmet",
+          "f": "u",
+          "m": "ur",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🧱"
+        },
+        {
+          "t": "Çantasını sırtında taşıyarak düz yolda yürüyen öğrenci",
+          "f": "u",
+          "m": "r",
+          "a": 0,
+          "e": "🎒"
+        },
+        {
+          "t": "Kitapları alt raftan üst rafa kaldıran Ahmet",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "📚"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Koliyi merdivenlerden yukarı çıkaran Ahmet (kuvvet: yukarı, hareket: yukarı-ileri (merdiven)); Sınıfın duvarını büyük bir kuvvetle iten öğrenci (kuvvet: sağa, hareket: yok); Çantasını sırtında taşıyarak düz yolda yürüyen öğrenci (kuvvet: yukarı, hareket: sağa); Kitapları alt raftan üst rafa kaldıran Ahmet (kuvvet: yukarı, hareket: yukarı)",
+    "correctAnswer": "Koliyi merdivenlerden yukarı çıkaran Ahmet: iş var; Sınıfın duvarını büyük bir kuvvetle iten öğrenci: iş yok; Çantasını sırtında taşıyarak düz yolda yürüyen öğrenci: iş yok; Kitapları alt raftan üst rafa kaldıran Ahmet: iş var",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Oyuncak arabayı iterek hareket ettiren çocuk",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🚗"
+        },
+        {
+          "t": "Koliye yukarı kuvvet uyguladığı hâlde kaldıramayan çalışanlar",
+          "f": "u",
+          "m": "n",
+          "a": 0,
+          "e": "📦"
+        },
+        {
+          "t": "Koliyi merdivenlerden yukarı çıkaran Ahmet",
+          "f": "u",
+          "m": "ur",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Tuğlayı yerden kaldırıp duvarın üstüne koyan usta",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "🧱"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Oyuncak arabayı iterek hareket ettiren çocuk (kuvvet: sağa, hareket: sağa); Koliye yukarı kuvvet uyguladığı hâlde kaldıramayan çalışanlar (kuvvet: yukarı, hareket: yok); Koliyi merdivenlerden yukarı çıkaran Ahmet (kuvvet: yukarı, hareket: yukarı-ileri (merdiven)); Tuğlayı yerden kaldırıp duvarın üstüne koyan usta (kuvvet: yukarı, hareket: yukarı)",
+    "correctAnswer": "Oyuncak arabayı iterek hareket ettiren çocuk: iş var; Koliye yukarı kuvvet uyguladığı hâlde kaldıramayan çalışanlar: iş yok; Koliyi merdivenlerden yukarı çıkaran Ahmet: iş var; Tuğlayı yerden kaldırıp duvarın üstüne koyan usta: iş var",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Halteri yukarı doğru kaldıran sporcu",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "🏋️"
+        },
+        {
+          "t": "Koliyi merdivenlerden yukarı çıkaran Ahmet",
+          "f": "u",
+          "m": "ur",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Tuğlayı yerden kaldırıp duvarın üstüne koyan usta",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "🧱"
+        },
+        {
+          "t": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🧱"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Halteri yukarı doğru kaldıran sporcu (kuvvet: yukarı, hareket: yukarı); Koliyi merdivenlerden yukarı çıkaran Ahmet (kuvvet: yukarı, hareket: yukarı-ileri (merdiven)); Tuğlayı yerden kaldırıp duvarın üstüne koyan usta (kuvvet: yukarı, hareket: yukarı); Sınıfın duvarını büyük bir kuvvetle iten öğrenci (kuvvet: sağa, hareket: yok)",
+    "correctAnswer": "Halteri yukarı doğru kaldıran sporcu: iş var; Koliyi merdivenlerden yukarı çıkaran Ahmet: iş var; Tuğlayı yerden kaldırıp duvarın üstüne koyan usta: iş var; Sınıfın duvarını büyük bir kuvvetle iten öğrenci: iş yok",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Bilgisayar başında oturup ekrandaki bilgileri okuyan çalışan",
+          "f": "n",
+          "m": "n",
+          "a": 0,
+          "e": "💻"
+        },
+        {
+          "t": "Halteri yukarı doğru kaldıran sporcu",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "🏋️"
+        },
+        {
+          "t": "Koliyi sallamadan düz koridorda taşıyan Ahmet",
+          "f": "u",
+          "m": "r",
+          "a": 0,
+          "e": "📦"
+        },
+        {
+          "t": "Ağır dolabı ittiği hâlde yerinden oynatamayan çocuk",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🗄️"
+        },
+        {
+          "t": "Oyuncak arabayı iterek hareket ettiren çocuk",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🚗"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Bilgisayar başında oturup ekrandaki bilgileri okuyan çalışan (kuvvet: yok, hareket: yok); Halteri yukarı doğru kaldıran sporcu (kuvvet: yukarı, hareket: yukarı); Koliyi sallamadan düz koridorda taşıyan Ahmet (kuvvet: yukarı, hareket: sağa); Ağır dolabı ittiği hâlde yerinden oynatamayan çocuk (kuvvet: sağa, hareket: yok); Oyuncak arabayı iterek hareket ettiren çocuk (kuvvet: sağa, hareket: sağa)",
+    "correctAnswer": "Bilgisayar başında oturup ekrandaki bilgileri okuyan çalışan: iş yok; Halteri yukarı doğru kaldıran sporcu: iş var; Koliyi sallamadan düz koridorda taşıyan Ahmet: iş yok; Ağır dolabı ittiği hâlde yerinden oynatamayan çocuk: iş yok; Oyuncak arabayı iterek hareket ettiren çocuk: iş var",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Koliyi merdivenlerden yukarı çıkaran Ahmet",
+          "f": "u",
+          "m": "ur",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Koliyi yerden yukarı kaldıran çalışan",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Koliyi sallamadan düz koridorda taşıyan Ahmet",
+          "f": "u",
+          "m": "r",
+          "a": 0,
+          "e": "📦"
+        },
+        {
+          "t": "Halteri yukarı doğru kaldıran sporcu",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "🏋️"
+        },
+        {
+          "t": "Halteri başının üstünde tutan sporcu",
+          "f": "u",
+          "m": "n",
+          "a": 0,
+          "e": "🏋️"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Koliyi merdivenlerden yukarı çıkaran Ahmet (kuvvet: yukarı, hareket: yukarı-ileri (merdiven)); Koliyi yerden yukarı kaldıran çalışan (kuvvet: yukarı, hareket: yukarı); Koliyi sallamadan düz koridorda taşıyan Ahmet (kuvvet: yukarı, hareket: sağa); Halteri yukarı doğru kaldıran sporcu (kuvvet: yukarı, hareket: yukarı); Halteri başının üstünde tutan sporcu (kuvvet: yukarı, hareket: yok)",
+    "correctAnswer": "Koliyi merdivenlerden yukarı çıkaran Ahmet: iş var; Koliyi yerden yukarı kaldıran çalışan: iş var; Koliyi sallamadan düz koridorda taşıyan Ahmet: iş yok; Halteri yukarı doğru kaldıran sporcu: iş var; Halteri başının üstünde tutan sporcu: iş yok",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 60–63",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "workcheck",
+    "prompt": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır!",
+    "data": {
+      "items": [
+        {
+          "t": "Çiçek dolu el arabasını ileri iten bahçıvan",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🌷"
+        },
+        {
+          "t": "Beyaz tahtayı sağa çekerek kaydıran öğretmen",
+          "f": "r",
+          "m": "r",
+          "a": 1,
+          "e": "🧑‍🏫"
+        },
+        {
+          "t": "Koliyi yerden yukarı kaldıran çalışan",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "📦"
+        },
+        {
+          "t": "Sınıfın duvarını büyük bir kuvvetle iten öğrenci",
+          "f": "r",
+          "m": "n",
+          "a": 0,
+          "e": "🧱"
+        },
+        {
+          "t": "Halteri yukarı doğru kaldıran sporcu",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "🏋️"
+        },
+        {
+          "t": "Kitapları alt raftan üst rafa kaldıran Ahmet",
+          "f": "u",
+          "m": "u",
+          "a": 1,
+          "e": "📚"
+        }
+      ]
+    },
+    "textPlain": "İş dedektörü: Tezgâhtaki her durumda kuvvet okunu ve hareket okunu incele. Kartlara dokunarak “İŞ VAR” ya da “İŞ YOK” damgası vur, sonra dedektörü çalıştır! Durumlar: Çiçek dolu el arabasını ileri iten bahçıvan (kuvvet: sağa, hareket: sağa); Beyaz tahtayı sağa çekerek kaydıran öğretmen (kuvvet: sağa, hareket: sağa); Koliyi yerden yukarı kaldıran çalışan (kuvvet: yukarı, hareket: yukarı); Sınıfın duvarını büyük bir kuvvetle iten öğrenci (kuvvet: sağa, hareket: yok); Halteri yukarı doğru kaldıran sporcu (kuvvet: yukarı, hareket: yukarı); Kitapları alt raftan üst rafa kaldıran Ahmet (kuvvet: yukarı, hareket: yukarı)",
+    "correctAnswer": "Çiçek dolu el arabasını ileri iten bahçıvan: iş var; Beyaz tahtayı sağa çekerek kaydıran öğretmen: iş var; Koliyi yerden yukarı kaldıran çalışan: iş var; Sınıfın duvarını büyük bir kuvvetle iten öğrenci: iş yok; Halteri yukarı doğru kaldıran sporcu: iş var; Kitapları alt raftan üst rafa kaldıran Ahmet: iş var",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62–63",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "workcalc",
+    "prompt": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz!",
+    "data": {
+      "items": [
+        "L",
+        "K"
+      ],
+      "f": [
+        20,
+        20
+      ],
+      "d": [
+        3,
+        1
+      ],
+      "low": "En büyük iş",
+      "high": "En küçük iş"
+    },
+    "textPlain": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz! Veriler: L: 20 N, 3 m; K: 20 N, 1 m",
+    "correctAnswer": "L > K",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur.",
+    "questionId": "fen7u2-is-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62–63",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "workcalc",
+    "prompt": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz!",
+    "data": {
+      "items": [
+        "M",
+        "N"
+      ],
+      "f": [
+        40,
+        10
+      ],
+      "d": [
+        2,
+        2
+      ],
+      "low": "En büyük iş",
+      "high": "En küçük iş"
+    },
+    "textPlain": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz! Veriler: M: 40 N, 2 m; N: 10 N, 2 m",
+    "correctAnswer": "M > N",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur.",
+    "questionId": "fen7u2-is-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62–63",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "workcalc",
+    "prompt": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz!",
+    "data": {
+      "items": [
+        "M",
+        "K",
+        "L"
+      ],
+      "f": [
+        80,
+        60,
+        20
+      ],
+      "d": [
+        2,
+        1,
+        2
+      ],
+      "low": "En büyük iş",
+      "high": "En küçük iş"
+    },
+    "textPlain": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz! Veriler: M: 80 N, 2 m; K: 60 N, 1 m; L: 20 N, 2 m",
+    "correctAnswer": "M > K > L",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur.",
+    "questionId": "fen7u2-is-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62–63",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "workcalc",
+    "prompt": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz!",
+    "data": {
+      "items": [
+        "K",
+        "L",
+        "M"
+      ],
+      "f": [
+        100,
+        40,
+        20
+      ],
+      "d": [
+        1,
+        2,
+        3
+      ],
+      "low": "En büyük iş",
+      "high": "En küçük iş"
+    },
+    "textPlain": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz! Veriler: K: 100 N, 1 m; L: 40 N, 2 m; M: 20 N, 3 m",
+    "correctAnswer": "K > L > M",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur.",
+    "questionId": "fen7u2-is-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62–63",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "workcalc",
+    "prompt": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz!",
+    "data": {
+      "items": [
+        "L",
+        "K",
+        "N",
+        "M"
+      ],
+      "f": [
+        100,
+        60,
+        40,
+        20
+      ],
+      "d": [
+        1.5,
+        2,
+        2.5,
+        3
+      ],
+      "low": "En büyük iş",
+      "high": "En küçük iş"
+    },
+    "textPlain": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz! Veriler: L: 100 N, 1.5 m; K: 60 N, 2 m; N: 40 N, 2.5 m; M: 20 N, 3 m",
+    "correctAnswer": "L > K > N > M",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur.",
+    "questionId": "fen7u2-is-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62–63",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "workcalc",
+    "prompt": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz!",
+    "data": {
+      "items": [
+        "K",
+        "L",
+        "N",
+        "M"
+      ],
+      "f": [
+        80,
+        40,
+        20,
+        100
+      ],
+      "d": [
+        1.5,
+        2,
+        3,
+        0.5
+      ],
+      "low": "En büyük iş",
+      "high": "En küçük iş"
+    },
+    "textPlain": "İş terazisi: Kitaplara uygulanan kuvvet ile kuvvet doğrultusunda alınan yollar verildi. Kitapları yapılan işe göre BÜYÜKTEN KÜÇÜĞE sırala, sonra iş alanlarını çiz! Veriler: K: 80 N, 1.5 m; L: 40 N, 2 m; N: 20 N, 3 m; M: 100 N, 0.5 m",
+    "correctAnswer": "K > L > N > M",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur.",
+    "questionId": "fen7u2-is-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 59–62",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Laboratuvar günlüğü: Necmettin Öğretmen’in yaptıklarını doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Fiziksel anlamda iş yapılır",
+        "Fiziksel anlamda iş yapılmaz"
+      ],
+      "cards": [
+        {
+          "t": "Kalemleri yerden masaya kaldırmak",
+          "b": 0
+        },
+        {
+          "t": "Masayı iterek pencereye kaydırmak",
+          "b": 0
+        },
+        {
+          "t": "Bilgisayardaki ders planını okumak",
+          "b": 1
+        },
+        {
+          "t": "Sınıfın duvarını itmek",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Laboratuvar günlüğü: Necmettin Öğretmen’in yaptıklarını doğru bölmeye yerleştir. Bölmeler: Fiziksel anlamda iş yapılır / Fiziksel anlamda iş yapılmaz. Kartlar: Kalemleri yerden masaya kaldırmak | Masayı iterek pencereye kaydırmak | Bilgisayardaki ders planını okumak | Sınıfın duvarını itmek",
+    "correctAnswer": "Fiziksel anlamda iş yapılır: Kalemleri yerden masaya kaldırmak, Masayı iterek pencereye kaydırmak | Fiziksel anlamda iş yapılmaz: Bilgisayardaki ders planını okumak, Sınıfın duvarını itmek",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 82",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Sibel Hanım’ın günü: Her adımı doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "İş yapıldı",
+        "İş yapılmadı"
+      ],
+      "cards": [
+        {
+          "t": "Dizüstü bilgisayarını masadan alıp çantasına koydu",
+          "b": 0
+        },
+        {
+          "t": "Çantasını yerden sırtına aldı",
+          "b": 0
+        },
+        {
+          "t": "Çantasını sallamadan düz yolda yürüyerek taşıdı",
+          "b": 1
+        },
+        {
+          "t": "Çantasıyla merdivenlerden ikinci kata çıktı",
+          "b": 0
+        },
+        {
+          "t": "Oturduğu yerden bilgisayardaki bilgileri okudu",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Sibel Hanım’ın günü: Her adımı doğru bölmeye yerleştir. Bölmeler: İş yapıldı / İş yapılmadı. Kartlar: Dizüstü bilgisayarını masadan alıp çantasına koydu | Çantasını yerden sırtına aldı | Çantasını sallamadan düz yolda yürüyerek taşıdı | Çantasıyla merdivenlerden ikinci kata çıktı | Oturduğu yerden bilgisayardaki bilgileri okudu",
+    "correctAnswer": "İş yapıldı: Dizüstü bilgisayarını masadan alıp çantasına koydu, Çantasını yerden sırtına aldı, Çantasıyla merdivenlerden ikinci kata çıktı | İş yapılmadı: Çantasını sallamadan düz yolda yürüyerek taşıdı, Oturduğu yerden bilgisayardaki bilgileri okudu",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 63",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kütüphane rotası: Ahmet’in koliyi taşıdığı her bölümü doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "İş yapılır",
+        "İş yapılmaz"
+      ],
+      "cards": [
+        {
+          "t": "A noktasında koliyi yerden kaldırırken",
+          "b": 0
+        },
+        {
+          "t": "A–B arasında koliyi sallamadan düz yolda taşırken",
+          "b": 1
+        },
+        {
+          "t": "B–C arasında koliyi merdivenlerden çıkarırken",
+          "b": 0
+        },
+        {
+          "t": "C noktasında koliyi elinde tutup beklerken",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kütüphane rotası: Ahmet’in koliyi taşıdığı her bölümü doğru bölmeye yerleştir. Bölmeler: İş yapılır / İş yapılmaz. Kartlar: A noktasında koliyi yerden kaldırırken | A–B arasında koliyi sallamadan düz yolda taşırken | B–C arasında koliyi merdivenlerden çıkarırken | C noktasında koliyi elinde tutup beklerken",
+    "correctAnswer": "İş yapılır: A noktasında koliyi yerden kaldırırken, B–C arasında koliyi merdivenlerden çıkarırken | İş yapılmaz: A–B arasında koliyi sallamadan düz yolda taşırken, C noktasında koliyi elinde tutup beklerken",
+    "explanation": "Fiziksel anlamda iş yapılabilmesi için cisme net bir kuvvet uygulanmalı ve cisim uygulanan kuvvet doğrultusunda hareket etmelidir. Kuvvet uygulandığı hâlde cisim hareket etmiyorsa ya da cisim kuvvete dik doğrultuda hareket ediyorsa (çantayı sırtta düz yolda taşımak gibi) fiziksel anlamda iş yapılmaz.",
+    "questionId": "fen7u2-is-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 82",
+    "difficulty": "orta",
+    "group": "is",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Eser kutuları 50 cm yükseklikteki rafa, İnci ise eşit kütleli kutuları 100 cm yükseklikteki rafa kaldırıyor. İnci’nin 1 kutu için yaptığı iş, Eser’in kaç kutu için yaptığı işe eşittir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 100,
+      "op": "÷",
+      "b": 50,
+      "ans": 2,
+      "unit": "kutu"
+    },
+    "textPlain": "Eser kutuları 50 cm yükseklikteki rafa, İnci ise eşit kütleli kutuları 100 cm yükseklikteki rafa kaldırıyor. İnci’nin 1 kutu için yaptığı iş, Eser’in kaç kutu için yaptığı işe eşittir? Sayı çarklarıyla gir! İşlem: 100 ÷ 50",
+    "correctAnswer": "2 kutu",
+    "explanation": "İş, kuvvet doğrultusunda alınan yol ile doğru orantılıdır. Kutular eşit kütleli olduğundan kaldırmak için eşit kuvvet gerekir; İnci iki kat yükseğe kaldırdığı için bir kutuda Eser’in iki kutudaki işi kadar iş yapar.",
+    "questionId": "fen7u2-is-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 83",
+    "difficulty": "zor",
+    "group": "is",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Çekici, kaçış rampasında duran iki özdeş kamyona eşit kuvvet uyguluyor; birini 30 m, diğerini 15 m çekiyor. 30 m çekerken yapılan iş, 15 m çekerken yapılan işin kaç katıdır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 30,
+      "op": "÷",
+      "b": 15,
+      "ans": 2,
+      "unit": "kat"
+    },
+    "textPlain": "Çekici, kaçış rampasında duran iki özdeş kamyona eşit kuvvet uyguluyor; birini 30 m, diğerini 15 m çekiyor. 30 m çekerken yapılan iş, 15 m çekerken yapılan işin kaç katıdır? Sayı çarklarıyla gir! İşlem: 30 ÷ 15",
+    "correctAnswer": "2 kat",
+    "explanation": "Eşit kuvvetle çekildiğinde iş, alınan yol ile doğru orantılıdır: 30 ÷ 15 = 2 kat. Rampada daha uzun yol alıp duran kamyonun rampaya girerken kinetik enerjisi daha büyüktür.",
+    "questionId": "fen7u2-is-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Fiziksel anlamda iş ve bağlı olduğu faktörler",
+    "outcome": "Fiziksel anlamda yapılan işin bağlı olduğu faktörlere ilişkin bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62",
+    "difficulty": "kolay",
+    "group": "is",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Bir kutu 1 m yükseğe kaldırıldığında yapılan iş 2 birimdir. Aynı kutu 2 m yükseğe kaldırılırsa yapılan iş kaç birim olur? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 2,
+      "op": "×",
+      "b": 2,
+      "ans": 4,
+      "unit": "birim"
+    },
+    "textPlain": "Bir kutu 1 m yükseğe kaldırıldığında yapılan iş 2 birimdir. Aynı kutu 2 m yükseğe kaldırılırsa yapılan iş kaç birim olur? Sayı çarklarıyla gir! İşlem: 2 × 2",
+    "correctAnswer": "4 birim",
+    "explanation": "Fiziksel anlamda yapılan iş, cisme uygulanan kuvvet ve cismin kuvvet doğrultusunda aldığı yol ile doğru orantılıdır. Kuvvet ve yol ne kadar büyükse yapılan iş o kadar büyük olur; kuvvet newton, yol metre alınırsa iş birimi joule (J) olur. Yol 2 katına çıktığında iş de 2 katına çıkar: 2 × 2 = 4.",
+    "questionId": "fen7u2-is-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "kolay",
+    "group": "tur",
+    "rank": 1,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Barajda biriken su",
+          "e": "🌊",
+          "a": 1
+        },
+        {
+          "t": "Parkta bisiklet süren çocuk",
+          "e": "🚴",
+          "a": 0
+        },
+        {
+          "t": "Sıkıştırılmış sarmal yay",
+          "e": "🌀",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Barajda biriken su, Parkta bisiklet süren çocuk, Sıkıştırılmış sarmal yay",
+    "correctAnswer": "Barajda biriken su: çekim potansiyel enerjisi (yükseklik); Parkta bisiklet süren çocuk: kinetik enerji (hareket); Sıkıştırılmış sarmal yay: esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "kolay",
+    "group": "tur",
+    "rank": 1,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Gerilmiş yay (ok atmadan önce)",
+          "e": "🏹",
+          "a": 2
+        },
+        {
+          "t": "Denizde yüzen balık",
+          "e": "🐟",
+          "a": 0
+        },
+        {
+          "t": "Salıncağın en üst noktasında bir an duran çocuk",
+          "e": "🎠",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Gerilmiş yay (ok atmadan önce), Denizde yüzen balık, Salıncağın en üst noktasında bir an duran çocuk",
+    "correctAnswer": "Gerilmiş yay (ok atmadan önce): esneklik potansiyel enerjisi; Denizde yüzen balık: kinetik enerji (hareket); Salıncağın en üst noktasında bir an duran çocuk: çekim potansiyel enerjisi (yükseklik)",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "kolay",
+    "group": "tur",
+    "rank": 1,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Raftaki kitaplar",
+          "e": "📚",
+          "a": 1
+        },
+        {
+          "t": "Denizde yüzen balık",
+          "e": "🐟",
+          "a": 0
+        },
+        {
+          "t": "Salıncağın en üst noktasında bir an duran çocuk",
+          "e": "🎠",
+          "a": 1
+        },
+        {
+          "t": "Motosikletin ağırlığıyla sıkışan çelik yay",
+          "e": "🏍️",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Raftaki kitaplar, Denizde yüzen balık, Salıncağın en üst noktasında bir an duran çocuk, Motosikletin ağırlığıyla sıkışan çelik yay",
+    "correctAnswer": "Raftaki kitaplar: çekim potansiyel enerjisi (yükseklik); Denizde yüzen balık: kinetik enerji (hareket); Salıncağın en üst noktasında bir an duran çocuk: çekim potansiyel enerjisi (yükseklik); Motosikletin ağırlığıyla sıkışan çelik yay: esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "orta",
+    "group": "tur",
+    "rank": 2,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Denizde ilerleyen tekne",
+          "e": "🚤",
+          "a": 0
+        },
+        {
+          "t": "Tepede duran kaya",
+          "e": "🪨",
+          "a": 1
+        },
+        {
+          "t": "Gerilmiş paket lastiği",
+          "e": "🪢",
+          "a": 2
+        },
+        {
+          "t": "Sıkıştırılmış sarmal yay",
+          "e": "🌀",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Denizde ilerleyen tekne, Tepede duran kaya, Gerilmiş paket lastiği, Sıkıştırılmış sarmal yay",
+    "correctAnswer": "Denizde ilerleyen tekne: kinetik enerji (hareket); Tepede duran kaya: çekim potansiyel enerjisi (yükseklik); Gerilmiş paket lastiği: esneklik potansiyel enerjisi; Sıkıştırılmış sarmal yay: esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "orta",
+    "group": "tur",
+    "rank": 2,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Barajda biriken su",
+          "e": "🌊",
+          "a": 1
+        },
+        {
+          "t": "Topa doğru koşan çocuklar",
+          "e": "🏃",
+          "a": 0
+        },
+        {
+          "t": "Raftaki kitaplar",
+          "e": "📚",
+          "a": 1
+        },
+        {
+          "t": "Gerilmiş paket lastiği",
+          "e": "🪢",
+          "a": 2
+        },
+        {
+          "t": "Sıkıştırılmış sünger",
+          "e": "🧽",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Barajda biriken su, Topa doğru koşan çocuklar, Raftaki kitaplar, Gerilmiş paket lastiği, Sıkıştırılmış sünger",
+    "correctAnswer": "Barajda biriken su: çekim potansiyel enerjisi (yükseklik); Topa doğru koşan çocuklar: kinetik enerji (hareket); Raftaki kitaplar: çekim potansiyel enerjisi (yükseklik); Gerilmiş paket lastiği: esneklik potansiyel enerjisi; Sıkıştırılmış sünger: esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "orta",
+    "group": "tur",
+    "rank": 2,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Gerilmiş paket lastiği",
+          "e": "🪢",
+          "a": 2
+        },
+        {
+          "t": "Ağaç dalında duran elma",
+          "e": "🍎",
+          "a": 1
+        },
+        {
+          "t": "Sıkıştırılmış sünger",
+          "e": "🧽",
+          "a": 2
+        },
+        {
+          "t": "Denizde yüzen balık",
+          "e": "🐟",
+          "a": 0
+        },
+        {
+          "t": "Barajda biriken su",
+          "e": "🌊",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Gerilmiş paket lastiği, Ağaç dalında duran elma, Sıkıştırılmış sünger, Denizde yüzen balık, Barajda biriken su",
+    "correctAnswer": "Gerilmiş paket lastiği: esneklik potansiyel enerjisi; Ağaç dalında duran elma: çekim potansiyel enerjisi (yükseklik); Sıkıştırılmış sünger: esneklik potansiyel enerjisi; Denizde yüzen balık: kinetik enerji (hareket); Barajda biriken su: çekim potansiyel enerjisi (yükseklik)",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "zor",
+    "group": "tur",
+    "rank": 3,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Raftaki kitaplar",
+          "e": "📚",
+          "a": 1
+        },
+        {
+          "t": "Yarış pistinde virajı dönen araba",
+          "e": "🏎️",
+          "a": 0
+        },
+        {
+          "t": "Topa doğru koşan çocuklar",
+          "e": "🏃",
+          "a": 0
+        },
+        {
+          "t": "Denizde ilerleyen tekne",
+          "e": "🚤",
+          "a": 0
+        },
+        {
+          "t": "Barajda biriken su",
+          "e": "🌊",
+          "a": 1
+        },
+        {
+          "t": "Gerilmiş paket lastiği",
+          "e": "🪢",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Raftaki kitaplar, Yarış pistinde virajı dönen araba, Topa doğru koşan çocuklar, Denizde ilerleyen tekne, Barajda biriken su, Gerilmiş paket lastiği",
+    "correctAnswer": "Raftaki kitaplar: çekim potansiyel enerjisi (yükseklik); Yarış pistinde virajı dönen araba: kinetik enerji (hareket); Topa doğru koşan çocuklar: kinetik enerji (hareket); Denizde ilerleyen tekne: kinetik enerji (hareket); Barajda biriken su: çekim potansiyel enerjisi (yükseklik); Gerilmiş paket lastiği: esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "zor",
+    "group": "tur",
+    "rank": 3,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Düz yolda kayan kaykaycı",
+          "e": "🛹",
+          "a": 0
+        },
+        {
+          "t": "Yarış pistinde virajı dönen araba",
+          "e": "🏎️",
+          "a": 0
+        },
+        {
+          "t": "Salıncağın en üst noktasında bir an duran çocuk",
+          "e": "🎠",
+          "a": 1
+        },
+        {
+          "t": "Ağaç dalında duran elma",
+          "e": "🍎",
+          "a": 1
+        },
+        {
+          "t": "Gerilmiş yay (ok atmadan önce)",
+          "e": "🏹",
+          "a": 2
+        },
+        {
+          "t": "Denizde ilerleyen tekne",
+          "e": "🚤",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Düz yolda kayan kaykaycı, Yarış pistinde virajı dönen araba, Salıncağın en üst noktasında bir an duran çocuk, Ağaç dalında duran elma, Gerilmiş yay (ok atmadan önce), Denizde ilerleyen tekne",
+    "correctAnswer": "Düz yolda kayan kaykaycı: kinetik enerji (hareket); Yarış pistinde virajı dönen araba: kinetik enerji (hareket); Salıncağın en üst noktasında bir an duran çocuk: çekim potansiyel enerjisi (yükseklik); Ağaç dalında duran elma: çekim potansiyel enerjisi (yükseklik); Gerilmiş yay (ok atmadan önce): esneklik potansiyel enerjisi; Denizde ilerleyen tekne: kinetik enerji (hareket)",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "zor",
+    "group": "tur",
+    "rank": 3,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Yarış pistinde virajı dönen araba",
+          "e": "🏎️",
+          "a": 0
+        },
+        {
+          "t": "Sıkıştırılmış sarmal yay",
+          "e": "🌀",
+          "a": 2
+        },
+        {
+          "t": "Raftaki kitaplar",
+          "e": "📚",
+          "a": 1
+        },
+        {
+          "t": "Gerilmiş yay (ok atmadan önce)",
+          "e": "🏹",
+          "a": 2
+        },
+        {
+          "t": "Motosikletin ağırlığıyla sıkışan çelik yay",
+          "e": "🏍️",
+          "a": 2
+        },
+        {
+          "t": "Denizde ilerleyen tekne",
+          "e": "🚤",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Yarış pistinde virajı dönen araba, Sıkıştırılmış sarmal yay, Raftaki kitaplar, Gerilmiş yay (ok atmadan önce), Motosikletin ağırlığıyla sıkışan çelik yay, Denizde ilerleyen tekne",
+    "correctAnswer": "Yarış pistinde virajı dönen araba: kinetik enerji (hareket); Sıkıştırılmış sarmal yay: esneklik potansiyel enerjisi; Raftaki kitaplar: çekim potansiyel enerjisi (yükseklik); Gerilmiş yay (ok atmadan önce): esneklik potansiyel enerjisi; Motosikletin ağırlığıyla sıkışan çelik yay: esneklik potansiyel enerjisi; Denizde ilerleyen tekne: kinetik enerji (hareket)",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "kolay",
+    "group": "tur",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Malzeme dolabı: Kartları doğru rafa koy.",
+    "data": {
+      "bins": [
+        "Esnek cisim",
+        "Esnek olmayan cisim"
+      ],
+      "cards": [
+        {
+          "t": "Paket lastiği",
+          "b": 0
+        },
+        {
+          "t": "Sünger",
+          "b": 0
+        },
+        {
+          "t": "Sarmal yay",
+          "b": 0
+        },
+        {
+          "t": "Tahta blok",
+          "b": 1
+        },
+        {
+          "t": "Cam bardak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Malzeme dolabı: Kartları doğru rafa koy. Bölmeler: Esnek cisim / Esnek olmayan cisim. Kartlar: Paket lastiği | Sünger | Sarmal yay | Tahta blok | Cam bardak",
+    "correctAnswer": "Esnek cisim: Paket lastiği, Sünger, Sarmal yay | Esnek olmayan cisim: Tahta blok, Cam bardak",
+    "explanation": "Kuvvet uygulandığında şekli değişen, kuvvetin etkisi ortadan kalktığında eski hâline dönen cisimlere esnek cisim denir. Paket lastiği, sünger ve sarmal yay birer esnek cisimdir.",
+    "questionId": "fen7u2-tur-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64",
+    "difficulty": "kolay",
+    "group": "tur",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Enerji çeşidi",
+        "Enerji çeşidi değil"
+      ],
+      "cards": [
+        {
+          "t": "Kinetik enerji",
+          "b": 0
+        },
+        {
+          "t": "Isı enerjisi",
+          "b": 0
+        },
+        {
+          "t": "Işık enerjisi",
+          "b": 0
+        },
+        {
+          "t": "Elektrik enerjisi",
+          "b": 0
+        },
+        {
+          "t": "Joule",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Enerji çeşidi / Enerji çeşidi değil. Kartlar: Kinetik enerji | Isı enerjisi | Işık enerjisi | Elektrik enerjisi | Joule",
+    "correctAnswer": "Enerji çeşidi: Kinetik enerji, Isı enerjisi, Işık enerjisi, Elektrik enerjisi | Enerji çeşidi değil: Joule",
+    "explanation": "Günlük hayatta enerji potansiyel, kinetik, ışık, ısı, elektrik enerjisi gibi farklı şekillerde karşımıza çıkar. Enerji iş yapabilme yeteneğidir; birimi işin birimi gibi joule’dür.",
+    "questionId": "fen7u2-tur-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–69",
+    "difficulty": "orta",
+    "group": "tur",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Karşılaştırma posteri: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Kinetik enerji",
+        "Potansiyel enerji",
+        "İkisinde de ortak"
+      ],
+      "cards": [
+        {
+          "t": "Hareketten kaynaklanır",
+          "b": 0
+        },
+        {
+          "t": "Konum veya esneklikten kaynaklanır, depolanır",
+          "b": 1
+        },
+        {
+          "t": "Birimi joule’dür",
+          "b": 2
+        },
+        {
+          "t": "İş yapabilme yeteneğinin bir çeşididir",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Karşılaştırma posteri: Kartları doğru bölmeye yerleştir. Bölmeler: Kinetik enerji / Potansiyel enerji / İkisinde de ortak. Kartlar: Hareketten kaynaklanır | Konum veya esneklikten kaynaklanır, depolanır | Birimi joule’dür | İş yapabilme yeteneğinin bir çeşididir",
+    "correctAnswer": "Kinetik enerji: Hareketten kaynaklanır | Potansiyel enerji: Konum veya esneklikten kaynaklanır, depolanır | İkisinde de ortak: Birimi joule’dür, İş yapabilme yeteneğinin bir çeşididir",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir. Her iki enerji de iş yapabilme yeteneğidir ve birimi joule’dür.",
+    "questionId": "fen7u2-tur-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 62, 64, 80",
+    "difficulty": "zor",
+    "group": "tur",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kavram haritası: Kartları doğru kavrama yerleştir.",
+    "data": {
+      "bins": [
+        "İş",
+        "Enerji",
+        "Joule"
+      ],
+      "cards": [
+        {
+          "t": "Kuvvet ve kuvvet doğrultusunda yer değiştirmeyle yapılır",
+          "b": 0
+        },
+        {
+          "t": "İş yapabilme yeteneği",
+          "b": 1
+        },
+        {
+          "t": "İş ve enerjinin birimi",
+          "b": 2
+        },
+        {
+          "t": "Adını James Prescott Joule’den alan birim",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Kavram haritası: Kartları doğru kavrama yerleştir. Bölmeler: İş / Enerji / Joule. Kartlar: Kuvvet ve kuvvet doğrultusunda yer değiştirmeyle yapılır | İş yapabilme yeteneği | İş ve enerjinin birimi | Adını James Prescott Joule’den alan birim",
+    "correctAnswer": "İş: Kuvvet ve kuvvet doğrultusunda yer değiştirmeyle yapılır | Enerji: İş yapabilme yeteneği | Joule: İş ve enerjinin birimi, Adını James Prescott Joule’den alan birim",
+    "explanation": "Fiziksel anlamda iş, cisme kuvvet uygulanması ve cismin bu kuvvet doğrultusunda yer değiştirmesiyle yapılır. Enerji iş yapabilme yeteneğidir. İş ve enerjinin birimi joule’dür; bu ad James Prescott Joule’e ithafen verilmiştir.",
+    "questionId": "fen7u2-tur-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "orta",
+    "group": "tur",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Çekim potansiyel enerjisi",
+        "Esneklik potansiyel enerjisi"
+      ],
+      "cards": [
+        {
+          "t": "Daldaki elma",
+          "b": 0
+        },
+        {
+          "t": "Barajda biriken su",
+          "b": 0
+        },
+        {
+          "t": "Gerilmiş paket lastiği",
+          "b": 1
+        },
+        {
+          "t": "Sıkıştırılmış sarmal yay",
+          "b": 1
+        },
+        {
+          "t": "Salıncakta en üstte duran çocuk",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Çekim potansiyel enerjisi / Esneklik potansiyel enerjisi. Kartlar: Daldaki elma | Barajda biriken su | Gerilmiş paket lastiği | Sıkıştırılmış sarmal yay | Salıncakta en üstte duran çocuk",
+    "correctAnswer": "Çekim potansiyel enerjisi: Daldaki elma, Barajda biriken su, Salıncakta en üstte duran çocuk | Esneklik potansiyel enerjisi: Gerilmiş paket lastiği, Sıkıştırılmış sarmal yay",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 1,
+          "b": 1
+        },
+        {
+          "n": "B",
+          "a": 1,
+          "b": 3
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 1 birim, hız 1 birim; B: kütle 1 birim, hız 3 birim",
+    "correctAnswer": "B",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 3,
+          "b": 2
+        },
+        {
+          "n": "B",
+          "a": 1,
+          "b": 2
+        }
+      ],
+      "ans": 0,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 3 birim, hız 2 birim; B: kütle 1 birim, hız 2 birim",
+    "correctAnswer": "A",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 2
+        },
+        {
+          "n": "B",
+          "a": 2,
+          "b": 2
+        }
+      ],
+      "ans": 2,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 2 birim, hız 2 birim; B: kütle 2 birim, hız 2 birim",
+    "correctAnswer": "Hepsi eşit",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 1,
+          "b": 2
+        },
+        {
+          "n": "B",
+          "a": 2,
+          "b": 3
+        },
+        {
+          "n": "C",
+          "a": 2,
+          "b": 2
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 1 birim, hız 2 birim; B: kütle 2 birim, hız 3 birim; C: kütle 2 birim, hız 2 birim",
+    "correctAnswer": "B",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "zor",
+    "group": "etken",
+    "rank": 3,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 1
+        },
+        {
+          "n": "B",
+          "a": 3,
+          "b": 3
+        },
+        {
+          "n": "C",
+          "a": 1,
+          "b": 3
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 2 birim, hız 1 birim; B: kütle 3 birim, hız 3 birim; C: kütle 1 birim, hız 3 birim",
+    "correctAnswer": "B",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "zor",
+    "group": "etken",
+    "rank": 3,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 3,
+          "b": 1
+        },
+        {
+          "n": "B",
+          "a": 3,
+          "b": 2
+        },
+        {
+          "n": "C",
+          "a": 1,
+          "b": 2
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 3 birim, hız 1 birim; B: kütle 3 birim, hız 2 birim; C: kütle 1 birim, hız 2 birim",
+    "correctAnswer": "B",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "compare",
+    "prompt": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes!",
+    "data": {
+      "mode": "pe",
+      "items": [
+        {
+          "n": "A",
+          "a": 1,
+          "b": 1
+        },
+        {
+          "n": "B",
+          "a": 1,
+          "b": 3
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes! Düzenekler: A: kütle 1 birim, yükseklik 1 birim; B: kütle 1 birim, yükseklik 3 birim",
+    "correctAnswer": "B",
+    "explanation": "Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "compare",
+    "prompt": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes!",
+    "data": {
+      "mode": "pe",
+      "items": [
+        {
+          "n": "A",
+          "a": 3,
+          "b": 2
+        },
+        {
+          "n": "B",
+          "a": 1,
+          "b": 2
+        }
+      ],
+      "ans": 0,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes! Düzenekler: A: kütle 3 birim, yükseklik 2 birim; B: kütle 1 birim, yükseklik 2 birim",
+    "correctAnswer": "A",
+    "explanation": "Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "compare",
+    "prompt": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes!",
+    "data": {
+      "mode": "pe",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 3
+        },
+        {
+          "n": "B",
+          "a": 2,
+          "b": 1
+        },
+        {
+          "n": "C",
+          "a": 1,
+          "b": 3
+        }
+      ],
+      "ans": 0,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes! Düzenekler: A: kütle 2 birim, yükseklik 3 birim; B: kütle 2 birim, yükseklik 1 birim; C: kütle 1 birim, yükseklik 3 birim",
+    "correctAnswer": "A",
+    "explanation": "Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 81",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "compare",
+    "prompt": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes!",
+    "data": {
+      "mode": "pe",
+      "items": [
+        {
+          "n": "A",
+          "a": 3,
+          "b": 3
+        },
+        {
+          "n": "B",
+          "a": 3,
+          "b": 3
+        }
+      ],
+      "ans": 2,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes! Düzenekler: A: kütle 3 birim, yükseklik 3 birim; B: kütle 3 birim, yükseklik 3 birim",
+    "correctAnswer": "Hepsi eşit",
+    "explanation": "Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "zor",
+    "group": "etken",
+    "rank": 3,
+    "type": "compare",
+    "prompt": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes!",
+    "data": {
+      "mode": "pe",
+      "items": [
+        {
+          "n": "A",
+          "a": 1,
+          "b": 2
+        },
+        {
+          "n": "B",
+          "a": 3,
+          "b": 3
+        },
+        {
+          "n": "C",
+          "a": 2,
+          "b": 3
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes! Düzenekler: A: kütle 1 birim, yükseklik 2 birim; B: kütle 3 birim, yükseklik 3 birim; C: kütle 2 birim, yükseklik 3 birim",
+    "correctAnswer": "B",
+    "explanation": "Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 81",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "compare",
+    "prompt": "Yay mancınığı: Özdeş yaylar farklı miktarda sıkıştırıldı. Hangisi bilyeyi EN UZAĞA fırlatır? Seç, sonra yayları bırak!",
+    "data": {
+      "mode": "spring",
+      "items": [
+        {
+          "n": "A",
+          "a": 1,
+          "b": 0
+        },
+        {
+          "n": "B",
+          "a": 3,
+          "b": 0
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Yay mancınığı: Özdeş yaylar farklı miktarda sıkıştırıldı. Hangisi bilyeyi EN UZAĞA fırlatır? Seç, sonra yayları bırak! Düzenekler: A: sıkışma 1 birim; B: sıkışma 3 birim",
+    "correctAnswer": "B",
+    "explanation": "Esneklik potansiyel enerjisi esnek cismin sıkışma ya da gerilme miktarına bağlıdır. Aynı yay daha çok sıkıştırıldığında daha çok enerji depolar ve önündeki cismi daha uzağa fırlatır.",
+    "questionId": "fen7u2-etken-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 81",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "compare",
+    "prompt": "Yay mancınığı: Özdeş yaylar farklı miktarda sıkıştırıldı. Hangisi bilyeyi EN UZAĞA fırlatır? Seç, sonra yayları bırak!",
+    "data": {
+      "mode": "spring",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 0
+        },
+        {
+          "n": "B",
+          "a": 3,
+          "b": 0
+        },
+        {
+          "n": "C",
+          "a": 1,
+          "b": 0
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Yay mancınığı: Özdeş yaylar farklı miktarda sıkıştırıldı. Hangisi bilyeyi EN UZAĞA fırlatır? Seç, sonra yayları bırak! Düzenekler: A: sıkışma 2 birim; B: sıkışma 3 birim; C: sıkışma 1 birim",
+    "correctAnswer": "B",
+    "explanation": "Esneklik potansiyel enerjisi esnek cismin sıkışma ya da gerilme miktarına bağlıdır. Aynı yay daha çok sıkıştırıldığında daha çok enerji depolar ve önündeki cismi daha uzağa fırlatır.",
+    "questionId": "fen7u2-etken-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 81",
+    "difficulty": "zor",
+    "group": "etken",
+    "rank": 3,
+    "type": "compare",
+    "prompt": "Yay mancınığı: Özdeş yaylar farklı miktarda sıkıştırıldı. Hangisi bilyeyi EN UZAĞA fırlatır? Seç, sonra yayları bırak!",
+    "data": {
+      "mode": "spring",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 0
+        },
+        {
+          "n": "B",
+          "a": 2,
+          "b": 0
+        },
+        {
+          "n": "C",
+          "a": 2,
+          "b": 0
+        }
+      ],
+      "ans": 3,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Yay mancınığı: Özdeş yaylar farklı miktarda sıkıştırıldı. Hangisi bilyeyi EN UZAĞA fırlatır? Seç, sonra yayları bırak! Düzenekler: A: sıkışma 2 birim; B: sıkışma 2 birim; C: sıkışma 2 birim",
+    "correctAnswer": "Hepsi eşit",
+    "explanation": "Esneklik potansiyel enerjisi esnek cismin sıkışma ya da gerilme miktarına bağlıdır. Aynı yay daha çok sıkıştırıldığında daha çok enerji depolar ve önündeki cismi daha uzağa fırlatır.",
+    "questionId": "fen7u2-etken-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67–68",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Etken panosu: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Kinetik enerjiyi etkiler",
+        "Çekim potansiyel enerjisini etkiler"
+      ],
+      "cards": [
+        {
+          "t": "Hız",
+          "b": 0
+        },
+        {
+          "t": "Yükseklik",
+          "b": 1
+        },
+        {
+          "t": "Ağırlık",
+          "b": 1
+        },
+        {
+          "t": "Yarışı birinci bitiren arabanın daha uzun mesafede durması",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Etken panosu: Kartları doğru bölmeye yerleştir. Bölmeler: Kinetik enerjiyi etkiler / Çekim potansiyel enerjisini etkiler. Kartlar: Hız | Yükseklik | Ağırlık | Yarışı birinci bitiren arabanın daha uzun mesafede durması",
+    "correctAnswer": "Kinetik enerjiyi etkiler: Hız, Yarışı birinci bitiren arabanın daha uzun mesafede durması | Çekim potansiyel enerjisini etkiler: Yükseklik, Ağırlık",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur. Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "zor",
+    "group": "etken",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Kinetik enerji artar",
+        "Kinetik enerji azalır"
+      ],
+      "cards": [
+        {
+          "t": "Aynı kütlede hız artar",
+          "b": 0
+        },
+        {
+          "t": "Aynı hızda kütle artar",
+          "b": 0
+        },
+        {
+          "t": "Aynı kütlede hız azalır",
+          "b": 1
+        },
+        {
+          "t": "Kütle ve hız azalır",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Kinetik enerji artar / Kinetik enerji azalır. Kartlar: Aynı kütlede hız artar | Aynı hızda kütle artar | Aynı kütlede hız azalır | Kütle ve hız azalır",
+    "correctAnswer": "Kinetik enerji artar: Aynı kütlede hız artar, Aynı hızda kütle artar | Kinetik enerji azalır: Aynı kütlede hız azalır, Kütle ve hız azalır",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Yedikule oyunu: Hacimleri, hızları ve yolları aynı olan topları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Daha çok taş devirir",
+        "Daha az taş devirir"
+      ],
+      "cards": [
+        {
+          "t": "Basketbol topu (ağır)",
+          "b": 0
+        },
+        {
+          "t": "Plastik top (hafif)",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Yedikule oyunu: Hacimleri, hızları ve yolları aynı olan topları doğru bölmeye yerleştir. Bölmeler: Daha çok taş devirir / Daha az taş devirir. Kartlar: Basketbol topu (ağır) | Plastik top (hafif)",
+    "correctAnswer": "Daha çok taş devirir: Basketbol topu (ağır) | Daha az taş devirir: Plastik top (hafif)",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur. Basketbol topunun kütlesi daha büyük olduğu için aynı hızda daha fazla kinetik enerjiye sahiptir ve daha çok taş devirir.",
+    "questionId": "fen7u2-etken-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Yedikule oyununda basketbol topu 6 taş, aynı hızla atılan plastik top 2 taş devirdi. Basketbol topu kaç taş fazla devirdi? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 6,
+      "op": "−",
+      "b": 2,
+      "ans": 4,
+      "unit": "taş"
+    },
+    "textPlain": "Yedikule oyununda basketbol topu 6 taş, aynı hızla atılan plastik top 2 taş devirdi. Basketbol topu kaç taş fazla devirdi? Sayı çarklarıyla gir! İşlem: 6 − 2",
+    "correctAnswer": "4 taş",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur. 6 − 2 = 4.",
+    "questionId": "fen7u2-etken-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 73",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Basketbol topu omuz hizasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "top",
+      "pts": [
+        {
+          "n": "Bırakıldığı nokta",
+          "h": 4
+        },
+        {
+          "n": "Yere değmeden önce",
+          "h": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Basketbol topu omuz hizasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): Bırakıldığı nokta: 4, Yere değmeden önce: 0",
+    "correctAnswer": "Bırakıldığı nokta: K 0 küp, P 4 küp; Yere değmeden önce: K 4 küp, P 0 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 74",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Maket araba sarmal yayı sıkıştırıyor, sonra yay serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "yay",
+      "pts": [
+        {
+          "n": "Yay sıkışık",
+          "h": 4
+        },
+        {
+          "n": "Yaydan çıktıktan sonra",
+          "h": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Maket araba sarmal yayı sıkıştırıyor, sonra yay serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): Yay sıkışık: 4, Yaydan çıktıktan sonra: 0",
+    "correctAnswer": "Yay sıkışık: K 0 küp, P 4 küp; Yaydan çıktıktan sonra: K 4 küp, P 0 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir. Sıkıştırılmış yayda depolanan esneklik potansiyel enerjisi, yay serbest kalınca cismin kinetik enerjisine dönüşür.",
+    "questionId": "fen7u2-donusum-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 72–73, 79",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Sarkacın topuzu K noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "sarkac",
+      "pts": [
+        {
+          "n": "K",
+          "h": 4
+        },
+        {
+          "n": "L (en alt)",
+          "h": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Sarkacın topuzu K noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): K: 4, L (en alt): 0",
+    "correctAnswer": "K: K 0 küp, P 4 küp; L (en alt): K 4 küp, P 0 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 72–73, 79",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Sarkacın topuzu K noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "sarkac",
+      "pts": [
+        {
+          "n": "K",
+          "h": 4
+        },
+        {
+          "n": "L (en alt)",
+          "h": 0
+        },
+        {
+          "n": "M (en üst)",
+          "h": 4
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Sarkacın topuzu K noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): K: 4, L (en alt): 0, M (en üst): 4",
+    "correctAnswer": "K: K 0 küp, P 4 küp; L (en alt): K 4 küp, P 0 küp; M (en üst): K 0 küp, P 4 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 74",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Maket araba eğik düzlemin en üst noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "egik",
+      "pts": [
+        {
+          "n": "En üst",
+          "h": 4
+        },
+        {
+          "n": "Orta",
+          "h": 2
+        },
+        {
+          "n": "En alt",
+          "h": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Maket araba eğik düzlemin en üst noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): En üst: 4, Orta: 2, En alt: 0",
+    "correctAnswer": "En üst: K 0 küp, P 4 küp; Orta: K 2 küp, P 2 küp; En alt: K 4 küp, P 0 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Futbol topu pistin A noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "rampa",
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 0
+        },
+        {
+          "n": "C",
+          "h": 4
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Futbol topu pistin A noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): A: 4, B: 0, C: 4",
+    "correctAnswer": "A: K 0 küp, P 4 küp; B: K 4 küp, P 0 küp; C: K 0 küp, P 4 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 79",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Yay sıkıştırılıp bırakılıyor; cisim düz zeminde A’ya gelip rampada B’ye kadar çıkıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "yayrampa",
+      "pts": [
+        {
+          "n": "Yay sıkışık",
+          "h": 4
+        },
+        {
+          "n": "A (düz zemin)",
+          "h": 0
+        },
+        {
+          "n": "B (en üst)",
+          "h": 4
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Yay sıkıştırılıp bırakılıyor; cisim düz zeminde A’ya gelip rampada B’ye kadar çıkıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): Yay sıkışık: 4, A (düz zemin): 0, B (en üst): 4",
+    "correctAnswer": "Yay sıkışık: K 0 küp, P 4 küp; A (düz zemin): K 4 küp, P 0 küp; B (en üst): K 0 küp, P 4 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir. Sıkıştırılmış yayda depolanan esneklik potansiyel enerjisi, yay serbest kalınca cismin kinetik enerjisine dönüşür.",
+    "questionId": "fen7u2-donusum-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 83",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Futbol topu pistin A noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "rampa",
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 2
+        },
+        {
+          "n": "C",
+          "h": 0
+        },
+        {
+          "n": "D",
+          "h": 1
+        },
+        {
+          "n": "E",
+          "h": 3
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Futbol topu pistin A noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): A: 4, B: 2, C: 0, D: 1, E: 3",
+    "correctAnswer": "A: K 0 küp, P 4 küp; B: K 2 küp, P 2 küp; C: K 4 küp, P 0 küp; D: K 3 küp, P 1 küp; E: K 1 küp, P 3 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 83",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Futbol topu pistin A noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "rampa",
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 1
+        },
+        {
+          "n": "C",
+          "h": 3
+        },
+        {
+          "n": "D",
+          "h": 0
+        },
+        {
+          "n": "E",
+          "h": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Futbol topu pistin A noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): A: 4, B: 1, C: 3, D: 0, E: 2",
+    "correctAnswer": "A: K 0 küp, P 4 küp; B: K 3 küp, P 1 küp; C: K 1 küp, P 3 küp; D: K 4 küp, P 0 küp; E: K 2 küp, P 2 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 73",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Basketbol topu omuz hizasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "top",
+      "pts": [
+        {
+          "n": "Bırakıldığı nokta",
+          "h": 4
+        },
+        {
+          "n": "Üst çeyrek",
+          "h": 3
+        },
+        {
+          "n": "Yolun ortası",
+          "h": 2
+        },
+        {
+          "n": "Yere değmeden önce",
+          "h": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Basketbol topu omuz hizasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): Bırakıldığı nokta: 4, Üst çeyrek: 3, Yolun ortası: 2, Yere değmeden önce: 0",
+    "correctAnswer": "Bırakıldığı nokta: K 0 küp, P 4 küp; Üst çeyrek: K 1 küp, P 3 küp; Yolun ortası: K 2 küp, P 2 küp; Yere değmeden önce: K 4 küp, P 0 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 83",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Sürtünmesiz pistte bilyenin A noktasındaki potansiyel enerjisi 4 küp. Pistin en alt noktasında potansiyel enerjisi 0 küp ise kinetik enerjisi kaç küptür? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 4,
+      "op": "−",
+      "b": 0,
+      "ans": 4,
+      "unit": "küp"
+    },
+    "textPlain": "Sürtünmesiz pistte bilyenin A noktasındaki potansiyel enerjisi 4 küp. Pistin en alt noktasında potansiyel enerjisi 0 küp ise kinetik enerjisi kaç küptür? Sayı çarklarıyla gir! İşlem: 4 − 0",
+    "correctAnswer": "4 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 83",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Sürtünmesiz düzenekte bilyenin toplam enerjisi 4 küp. D noktasında potansiyel enerjisi 1 küp ise kinetik enerjisi kaç küptür? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 4,
+      "op": "−",
+      "b": 1,
+      "ans": 3,
+      "unit": "küp"
+    },
+    "textPlain": "Sürtünmesiz düzenekte bilyenin toplam enerjisi 4 küp. D noktasında potansiyel enerjisi 1 küp ise kinetik enerjisi kaç küptür? Sayı çarklarıyla gir! İşlem: 4 − 1",
+    "correctAnswer": "3 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir. 4 − 1 = 3.",
+    "questionId": "fen7u2-donusum-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 0
+        },
+        {
+          "n": "C",
+          "h": 4
+        }
+      ],
+      "rows": [
+        {
+          "s": "A → B",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "B → C",
+          "p": 0,
+          "k": 1
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 4, B: 0, C: 4. Bölümler: A → B, B → C",
+    "correctAnswer": "A → B: P azalır, K artar; B → C: P artar, K azalır",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 0
+        },
+        {
+          "n": "C",
+          "h": 4
+        }
+      ],
+      "rows": [
+        {
+          "s": "C → B",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "B → A",
+          "p": 0,
+          "k": 1
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 4, B: 0, C: 4. Bölümler: C → B, B → A",
+    "correctAnswer": "C → B: P azalır, K artar; B → A: P artar, K azalır",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 0
+        },
+        {
+          "n": "C",
+          "h": 4
+        }
+      ],
+      "rows": [
+        {
+          "s": "A → B",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "B → C",
+          "p": 0,
+          "k": 1
+        },
+        {
+          "s": "C → B",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "B → A",
+          "p": 0,
+          "k": 1
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 4, B: 0, C: 4. Bölümler: A → B, B → C, C → B, B → A",
+    "correctAnswer": "A → B: P azalır, K artar; B → C: P artar, K azalır; C → B: P azalır, K artar; B → A: P artar, K azalır",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 0
+        },
+        {
+          "n": "C",
+          "h": 2
+        }
+      ],
+      "rows": [
+        {
+          "s": "A → B",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "B → C",
+          "p": 0,
+          "k": 1
+        },
+        {
+          "s": "C → B",
+          "p": 1,
+          "k": 0
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 4, B: 0, C: 2. Bölümler: A → B, B → C, C → B",
+    "correctAnswer": "A → B: P azalır, K artar; B → C: P artar, K azalır; C → B: P azalır, K artar",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 1
+        },
+        {
+          "n": "C",
+          "h": 3
+        },
+        {
+          "n": "D",
+          "h": 0
+        }
+      ],
+      "rows": [
+        {
+          "s": "A → B",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "B → C",
+          "p": 0,
+          "k": 1
+        },
+        {
+          "s": "C → D",
+          "p": 1,
+          "k": 0
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 4, B: 1, C: 3, D: 0. Bölümler: A → B, B → C, C → D",
+    "correctAnswer": "A → B: P azalır, K artar; B → C: P artar, K azalır; C → D: P azalır, K artar",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 3
+        },
+        {
+          "n": "B",
+          "h": 0
+        },
+        {
+          "n": "C",
+          "h": 2
+        },
+        {
+          "n": "D",
+          "h": 1
+        },
+        {
+          "n": "E",
+          "h": 4
+        }
+      ],
+      "rows": [
+        {
+          "s": "B → C",
+          "p": 0,
+          "k": 1
+        },
+        {
+          "s": "C → D",
+          "p": 1,
+          "k": 0
+        },
+        {
+          "s": "D → E",
+          "p": 0,
+          "k": 1
+        },
+        {
+          "s": "A → B",
+          "p": 1,
+          "k": 0
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 3, B: 0, C: 2, D: 1, E: 4. Bölümler: B → C, C → D, D → E, A → B",
+    "correctAnswer": "B → C: P artar, K azalır; C → D: P azalır, K artar; D → E: P artar, K azalır; A → B: P azalır, K artar",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 71",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Merve ve Arda salıncakta: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Salıncak en üstteyken",
+        "Salıncak en alttayken"
+      ],
+      "cards": [
+        {
+          "t": "Potansiyel enerji en büyüktür",
+          "b": 0
+        },
+        {
+          "t": "Kinetik enerji en büyüktür",
+          "b": 1
+        },
+        {
+          "t": "Bir an durur, hızı en azdır",
+          "b": 0
+        },
+        {
+          "t": "Hızı en büyüktür",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Merve ve Arda salıncakta: Kartları doğru bölmeye yerleştir. Bölmeler: Salıncak en üstteyken / Salıncak en alttayken. Kartlar: Potansiyel enerji en büyüktür | Kinetik enerji en büyüktür | Bir an durur, hızı en azdır | Hızı en büyüktür",
+    "correctAnswer": "Salıncak en üstteyken: Potansiyel enerji en büyüktür, Bir an durur, hızı en azdır | Salıncak en alttayken: Kinetik enerji en büyüktür, Hızı en büyüktür",
+    "explanation": "Sürtünme ihmal edildiğinde salıncaktaki çocuk aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 65, 76",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Barajda biriken su aşağıya akıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Çekim potansiyel enerjisi",
+        "Kinetik enerji"
+      ],
+      "cards": [
+        "Kinetik enerji",
+        "Esneklik potansiyel enerjisi",
+        "Çekim potansiyel enerjisi"
+      ],
+      "e": "🌊"
+    },
+    "textPlain": "Dönüşüm zinciri: Barajda biriken su aşağıya akıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Kinetik enerji, Esneklik potansiyel enerjisi, Çekim potansiyel enerjisi",
+    "correctAnswer": "Çekim potansiyel enerjisi → Kinetik enerji",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 76",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Gerilmiş yaydan ok fırlatılıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji"
+      ],
+      "cards": [
+        "Çekim potansiyel enerjisi",
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji"
+      ],
+      "e": "🏹"
+    },
+    "textPlain": "Dönüşüm zinciri: Gerilmiş yaydan ok fırlatılıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Çekim potansiyel enerjisi, Esneklik potansiyel enerjisi, Kinetik enerji",
+    "correctAnswer": "Esneklik potansiyel enerjisi → Kinetik enerji",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Kaykaycı kaymayı bırakınca sürtünmeyle yavaşlayıp duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Kinetik enerji",
+        "Isı ve ses enerjisi"
+      ],
+      "cards": [
+        "Isı ve ses enerjisi",
+        "Kinetik enerji",
+        "Esneklik potansiyel enerjisi"
+      ],
+      "e": "🛹"
+    },
+    "textPlain": "Dönüşüm zinciri: Kaykaycı kaymayı bırakınca sürtünmeyle yavaşlayıp duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Isı ve ses enerjisi, Kinetik enerji, Esneklik potansiyel enerjisi",
+    "correctAnswer": "Kinetik enerji → Isı ve ses enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 79",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Sıkıştırılan yay cismi fırlatıyor, cisim rampaya tırmanıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji",
+        "Çekim potansiyel enerjisi"
+      ],
+      "cards": [
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji",
+        "Çekim potansiyel enerjisi",
+        "Isı ve ses enerjisi"
+      ],
+      "e": "🌀"
+    },
+    "textPlain": "Dönüşüm zinciri: Sıkıştırılan yay cismi fırlatıyor, cisim rampaya tırmanıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Esneklik potansiyel enerjisi, Kinetik enerji, Çekim potansiyel enerjisi, Isı ve ses enerjisi",
+    "correctAnswer": "Esneklik potansiyel enerjisi → Kinetik enerji → Çekim potansiyel enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76–77",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Cezerî’nin düzeneğinde yükseğe asılmış ağırlık düşerek çarkları döndürüyor, çarklar sürtünerek ısınıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Çekim potansiyel enerjisi",
+        "Kinetik enerji",
+        "Isı ve ses enerjisi"
+      ],
+      "cards": [
+        "Çekim potansiyel enerjisi",
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji",
+        "Isı ve ses enerjisi"
+      ],
+      "e": "⚙️"
+    },
+    "textPlain": "Dönüşüm zinciri: Cezerî’nin düzeneğinde yükseğe asılmış ağırlık düşerek çarkları döndürüyor, çarklar sürtünerek ısınıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Çekim potansiyel enerjisi, Esneklik potansiyel enerjisi, Kinetik enerji, Isı ve ses enerjisi",
+    "correctAnswer": "Çekim potansiyel enerjisi → Kinetik enerji → Isı ve ses enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 73, 76",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Yukarı doğru atılan top en yüksek noktaya çıkıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Kinetik enerji",
+        "Çekim potansiyel enerjisi"
+      ],
+      "cards": [
+        "Isı ve ses enerjisi",
+        "Kinetik enerji",
+        "Çekim potansiyel enerjisi",
+        "Esneklik potansiyel enerjisi"
+      ],
+      "e": "🏀"
+    },
+    "textPlain": "Dönüşüm zinciri: Yukarı doğru atılan top en yüksek noktaya çıkıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Isı ve ses enerjisi, Kinetik enerji, Çekim potansiyel enerjisi, Esneklik potansiyel enerjisi",
+    "correctAnswer": "Kinetik enerji → Çekim potansiyel enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 76",
+    "difficulty": "zor",
+    "group": "korunum",
+    "rank": 3,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Trambolinin üstüne yükseklerden düşen çocuk trambolin yatağını geriyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Çekim potansiyel enerjisi",
+        "Kinetik enerji",
+        "Esneklik potansiyel enerjisi"
+      ],
+      "cards": [
+        "Isı ve ses enerjisi",
+        "Esneklik potansiyel enerjisi",
+        "Işık enerjisi",
+        "Çekim potansiyel enerjisi",
+        "Kinetik enerji"
+      ],
+      "e": "🤸"
+    },
+    "textPlain": "Dönüşüm zinciri: Trambolinin üstüne yükseklerden düşen çocuk trambolin yatağını geriyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Isı ve ses enerjisi, Esneklik potansiyel enerjisi, Işık enerjisi, Çekim potansiyel enerjisi, Kinetik enerji",
+    "correctAnswer": "Çekim potansiyel enerjisi → Kinetik enerji → Esneklik potansiyel enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 83",
+    "difficulty": "zor",
+    "group": "korunum",
+    "rank": 3,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Sürtünmeli pistte tepeden bırakılan bilye giderek yavaşlıyor ve duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Çekim potansiyel enerjisi",
+        "Kinetik enerji",
+        "Isı ve ses enerjisi"
+      ],
+      "cards": [
+        "Isı ve ses enerjisi",
+        "Çekim potansiyel enerjisi",
+        "Işık enerjisi",
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji"
+      ],
+      "e": "🎳"
+    },
+    "textPlain": "Dönüşüm zinciri: Sürtünmeli pistte tepeden bırakılan bilye giderek yavaşlıyor ve duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Isı ve ses enerjisi, Çekim potansiyel enerjisi, Işık enerjisi, Esneklik potansiyel enerjisi, Kinetik enerji",
+    "correctAnswer": "Çekim potansiyel enerjisi → Kinetik enerji → Isı ve ses enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 74, 79",
+    "difficulty": "zor",
+    "group": "korunum",
+    "rank": 3,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Yayı sıkıştırılmış oyuncak araba bırakılıyor, yokuş yukarı çıkıp duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji",
+        "Çekim potansiyel enerjisi"
+      ],
+      "cards": [
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji",
+        "Elektrik enerjisi",
+        "Isı ve ses enerjisi",
+        "Çekim potansiyel enerjisi"
+      ],
+      "e": "🚗"
+    },
+    "textPlain": "Dönüşüm zinciri: Yayı sıkıştırılmış oyuncak araba bırakılıyor, yokuş yukarı çıkıp duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Esneklik potansiyel enerjisi, Kinetik enerji, Elektrik enerjisi, Isı ve ses enerjisi, Çekim potansiyel enerjisi",
+    "correctAnswer": "Esneklik potansiyel enerjisi → Kinetik enerji → Çekim potansiyel enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kanun panosu: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Enerjinin korunumu kanununa uygun",
+        "Uygun değil"
+      ],
+      "cards": [
+        {
+          "t": "Enerji başka bir türe dönüşebilir",
+          "b": 0
+        },
+        {
+          "t": "Enerji yoktan var olmaz",
+          "b": 0
+        },
+        {
+          "t": "Sürtünmeyle kinetik enerji yok olur",
+          "b": 1
+        },
+        {
+          "t": "Var olan enerji yok olmaz",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Kanun panosu: Kartları doğru bölmeye yerleştir. Bölmeler: Enerjinin korunumu kanununa uygun / Uygun değil. Kartlar: Enerji başka bir türe dönüşebilir | Enerji yoktan var olmaz | Sürtünmeyle kinetik enerji yok olur | Var olan enerji yok olmaz",
+    "correctAnswer": "Enerjinin korunumu kanununa uygun: Enerji başka bir türe dönüşebilir, Enerji yoktan var olmaz, Var olan enerji yok olmaz | Uygun değil: Sürtünmeyle kinetik enerji yok olur",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Pist raporu: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Sürtünme ihmal edilirse",
+        "Sürtünme hesaba katılırsa"
+      ],
+      "cards": [
+        {
+          "t": "Kaykaycı A ile C arasında hep aynı yüksekliğe çıkar",
+          "b": 0
+        },
+        {
+          "t": "Kinetik enerjinin bir kısmı ısı ve sese dönüşür",
+          "b": 1
+        },
+        {
+          "t": "Her gidişte biraz daha alçağa çıkar",
+          "b": 1
+        },
+        {
+          "t": "Sonunda en alt noktada durur",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Pist raporu: Kartları doğru bölmeye yerleştir. Bölmeler: Sürtünme ihmal edilirse / Sürtünme hesaba katılırsa. Kartlar: Kaykaycı A ile C arasında hep aynı yüksekliğe çıkar | Kinetik enerjinin bir kısmı ısı ve sese dönüşür | Her gidişte biraz daha alçağa çıkar | Sonunda en alt noktada durur",
+    "correctAnswer": "Sürtünme ihmal edilirse: Kaykaycı A ile C arasında hep aynı yüksekliğe çıkar | Sürtünme hesaba katılırsa: Kinetik enerjinin bir kısmı ısı ve sese dönüşür, Her gidişte biraz daha alçağa çıkar, Sonunda en alt noktada durur",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur. Sürtünme ihmal edilirse kaykaycı hep aynı yüksekliğe çıkar.",
+    "questionId": "fen7u2-korunum-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 80",
+    "difficulty": "zor",
+    "group": "korunum",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Bilim insanı arşivi: Kartları doğru kişinin dosyasına koy.",
+    "data": {
+      "bins": [
+        "Galileo Galilei",
+        "Hermann von Helmholtz",
+        "James Prescott Joule",
+        "W. J. M. Rankine"
+      ],
+      "cards": [
+        {
+          "t": "Sarkaçlar ve serbest düşüş üzerinde çalıştı",
+          "b": 0
+        },
+        {
+          "t": "Enerjinin korunumu kanununu matematiksel olarak gösterdi",
+          "b": 1
+        },
+        {
+          "t": "İş birimine onun adı verildi",
+          "b": 2
+        },
+        {
+          "t": "Termodinamiğin kurucularından; buhar makinesi teorisi",
+          "b": 3
+        }
+      ]
+    },
+    "textPlain": "Bilim insanı arşivi: Kartları doğru kişinin dosyasına koy. Bölmeler: Galileo Galilei / Hermann von Helmholtz / James Prescott Joule / W. J. M. Rankine. Kartlar: Sarkaçlar ve serbest düşüş üzerinde çalıştı | Enerjinin korunumu kanununu matematiksel olarak gösterdi | İş birimine onun adı verildi | Termodinamiğin kurucularından; buhar makinesi teorisi",
+    "correctAnswer": "Galileo Galilei: Sarkaçlar ve serbest düşüş üzerinde çalıştı | Hermann von Helmholtz: Enerjinin korunumu kanununu matematiksel olarak gösterdi | James Prescott Joule: İş birimine onun adı verildi | W. J. M. Rankine: Termodinamiğin kurucularından; buhar makinesi teorisi",
+    "explanation": "Galilei mekanik, sarkaçlar ve serbest düşüş üzerine çalıştı, ilkel bir teleskop üretti. Helmholtz enerjinin korunumu kanununu matematiksel olarak gösterdi. Joule enerji çeşitlerinin birbirine dönüşebildiğini keşfetti; iş birimine onun adı verildi. Rankine termodinamiğin kurucularındandır ve buhar makinesi teorisiyle bilinir.",
+    "questionId": "fen7u2-korunum-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 77",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kitab-ül Hiyel: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Cezerî ve Kitab-ül Hiyel",
+        "İlgisi yok"
+      ],
+      "cards": [
+        {
+          "t": "Su saatleri ve kandil saatleri",
+          "b": 0
+        },
+        {
+          "t": "Mekanik yollarla hareket eden müzik aletleri",
+          "b": 0
+        },
+        {
+          "t": "Aletleri yer çekimi kuvvetiyle çalışır",
+          "b": 0
+        },
+        {
+          "t": "Elektrik motoruyla çalışan makineler",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kitab-ül Hiyel: Kartları doğru bölmeye yerleştir. Bölmeler: Cezerî ve Kitab-ül Hiyel / İlgisi yok. Kartlar: Su saatleri ve kandil saatleri | Mekanik yollarla hareket eden müzik aletleri | Aletleri yer çekimi kuvvetiyle çalışır | Elektrik motoruyla çalışan makineler",
+    "correctAnswer": "Cezerî ve Kitab-ül Hiyel: Su saatleri ve kandil saatleri, Mekanik yollarla hareket eden müzik aletleri, Aletleri yer çekimi kuvvetiyle çalışır | İlgisi yok: Elektrik motoruyla çalışan makineler",
+    "explanation": "Cezerî 1205’te tamamladığı Kitab-ül Hiyel’de su ve kandil saatleri, çeşmeler, otomatik müzik aletleri ve su pompalayan makineleri anlattı. Aletleri yer çekimi kuvvetiyle; düşürülen bir ağırlık, boşalan bir kaptaki şamandıra veya batan bir cisimle çalışır.",
+    "questionId": "fen7u2-korunum-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 80",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Sarkaçlar üzerinde çalışan Galileo Galilei 1564’te doğdu, 1642’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1642,
+      "op": "−",
+      "b": 1564,
+      "ans": 78,
+      "unit": "yıl"
+    },
+    "textPlain": "Sarkaçlar üzerinde çalışan Galileo Galilei 1564’te doğdu, 1642’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1642 − 1564",
+    "correctAnswer": "78 yıl",
+    "explanation": "1642 − 1564 = 78 yıl. Galilei mekanik, sarkaçlar ve serbest düşüş konularına yoğunlaşmıştır.",
+    "questionId": "fen7u2-korunum-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 80",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "İş birimine adı verilen James Prescott Joule 1818’de doğdu, 1889’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1889,
+      "op": "−",
+      "b": 1818,
+      "ans": 71,
+      "unit": "yıl"
+    },
+    "textPlain": "İş birimine adı verilen James Prescott Joule 1818’de doğdu, 1889’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1889 − 1818",
+    "correctAnswer": "71 yıl",
+    "explanation": "1889 − 1818 = 71 yıl.",
+    "questionId": "fen7u2-korunum-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 80",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Enerjinin korunumunu matematiksel olarak gösteren Helmholtz 1821’de doğdu, 1894’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1894,
+      "op": "−",
+      "b": 1821,
+      "ans": 73,
+      "unit": "yıl"
+    },
+    "textPlain": "Enerjinin korunumunu matematiksel olarak gösteren Helmholtz 1821’de doğdu, 1894’te öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1894 − 1821",
+    "correctAnswer": "73 yıl",
+    "explanation": "1894 − 1821 = 73 yıl.",
+    "questionId": "fen7u2-korunum-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 77",
+    "difficulty": "zor",
+    "group": "korunum",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Cezerî kitabını 1205’te tamamladı; kitaptaki su saatlerinden biri 1976’da Londra Bilim Müzesinde yeniden yapıldı. Aradan kaç yıl geçti? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1976,
+      "op": "−",
+      "b": 1205,
+      "ans": 771,
+      "unit": "yıl"
+    },
+    "textPlain": "Cezerî kitabını 1205’te tamamladı; kitaptaki su saatlerinden biri 1976’da Londra Bilim Müzesinde yeniden yapıldı. Aradan kaç yıl geçti? Sayı çarklarıyla gir! İşlem: 1976 − 1205",
+    "correctAnswer": "771 yıl",
+    "explanation": "1976 − 1205 = 771 yıl.",
+    "questionId": "fen7u2-korunum-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 80",
+    "difficulty": "zor",
+    "group": "korunum",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Termodinamiğin kurucularından Rankine 1824’te doğdu, 1907’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1907,
+      "op": "−",
+      "b": 1824,
+      "ans": 83,
+      "unit": "yıl"
+    },
+    "textPlain": "Termodinamiğin kurucularından Rankine 1824’te doğdu, 1907’de öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1907 − 1824",
+    "correctAnswer": "83 yıl",
+    "explanation": "1907 − 1824 = 83 yıl.",
+    "questionId": "fen7u2-korunum-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 80",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Galilei 1564’te doğdu ve 25 yaşında matematik profesörü oldu. Bu hangi yıldı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1564,
+      "op": "+",
+      "b": 25,
+      "ans": 1589,
+      "unit": "yılı"
+    },
+    "textPlain": "Galilei 1564’te doğdu ve 25 yaşında matematik profesörü oldu. Bu hangi yıldı? Sayı çarklarıyla gir! İşlem: 1564 + 25",
+    "correctAnswer": "1589 yılı",
+    "explanation": "1564 + 25 = 1589.",
+    "questionId": "fen7u2-korunum-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "kolay",
+    "group": "tur",
+    "rank": 1,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Düz yolda kayan kaykaycı",
+          "e": "🛹",
+          "a": 0
+        },
+        {
+          "t": "Barajda biriken su",
+          "e": "🌊",
+          "a": 1
+        },
+        {
+          "t": "Gerilmiş paket lastiği",
+          "e": "🪢",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Düz yolda kayan kaykaycı, Barajda biriken su, Gerilmiş paket lastiği",
+    "correctAnswer": "Düz yolda kayan kaykaycı: kinetik enerji (hareket); Barajda biriken su: çekim potansiyel enerjisi (yükseklik); Gerilmiş paket lastiği: esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "orta",
+    "group": "tur",
+    "rank": 2,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Düz yolda kayan kaykaycı",
+          "e": "🛹",
+          "a": 0
+        },
+        {
+          "t": "Sıkıştırılmış sünger",
+          "e": "🧽",
+          "a": 2
+        },
+        {
+          "t": "Raftaki kitaplar",
+          "e": "📚",
+          "a": 1
+        },
+        {
+          "t": "Salıncağın en üst noktasında bir an duran çocuk",
+          "e": "🎠",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Düz yolda kayan kaykaycı, Sıkıştırılmış sünger, Raftaki kitaplar, Salıncağın en üst noktasında bir an duran çocuk",
+    "correctAnswer": "Düz yolda kayan kaykaycı: kinetik enerji (hareket); Sıkıştırılmış sünger: esneklik potansiyel enerjisi; Raftaki kitaplar: çekim potansiyel enerjisi (yükseklik); Salıncağın en üst noktasında bir an duran çocuk: çekim potansiyel enerjisi (yükseklik)",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64–68",
+    "difficulty": "zor",
+    "group": "tur",
+    "rank": 3,
+    "type": "classify",
+    "prompt": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır!",
+    "data": {
+      "items": [
+        {
+          "t": "Tepede duran kaya",
+          "e": "🪨",
+          "a": 1
+        },
+        {
+          "t": "Sıkıştırılmış sünger",
+          "e": "🧽",
+          "a": 2
+        },
+        {
+          "t": "Motosikletin ağırlığıyla sıkışan çelik yay",
+          "e": "🏍️",
+          "a": 2
+        },
+        {
+          "t": "Yarış pistinde virajı dönen araba",
+          "e": "🏎️",
+          "a": 0
+        },
+        {
+          "t": "Topa doğru koşan çocuklar",
+          "e": "🏃",
+          "a": 0
+        },
+        {
+          "t": "Gerilmiş yay (ok atmadan önce)",
+          "e": "🏹",
+          "a": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji etiketi: Tezgâhtaki her örneğin enerjisi nereden geliyor? Karta dokunarak HAREKET / YÜKSEKLİK / ESNEKLİK etiketi koy, sonra örnekleri canlandır! Örnekler: Tepede duran kaya, Sıkıştırılmış sünger, Motosikletin ağırlığıyla sıkışan çelik yay, Yarış pistinde virajı dönen araba, Topa doğru koşan çocuklar, Gerilmiş yay (ok atmadan önce)",
+    "correctAnswer": "Tepede duran kaya: çekim potansiyel enerjisi (yükseklik); Sıkıştırılmış sünger: esneklik potansiyel enerjisi; Motosikletin ağırlığıyla sıkışan çelik yay: esneklik potansiyel enerjisi; Yarış pistinde virajı dönen araba: kinetik enerji (hareket); Topa doğru koşan çocuklar: kinetik enerji (hareket); Gerilmiş yay (ok atmadan önce): esneklik potansiyel enerjisi",
+    "explanation": "Cismin hareketinden dolayı sahip olduğu enerjiye kinetik enerji denir. Cisimlerin durumlarından dolayı depoladıkları enerji potansiyel enerjidir: Yüksekliğinden dolayı sahip olunan enerji çekim potansiyel enerjisi, paket lastiği, sünger ve sarmal yay gibi esnek cisimlerin şekli değiştiğinde depoladığı enerji esneklik potansiyel enerjisidir.",
+    "questionId": "fen7u2-tur-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerji ve enerji çeşitleri: kinetik, çekim ve esneklik potansiyel enerjisi",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 64",
+    "difficulty": "zor",
+    "group": "tur",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Enerji albümü: Örnekleri doğru enerji çeşidine yerleştir.",
+    "data": {
+      "bins": [
+        "Isı enerjisi",
+        "Işık enerjisi",
+        "Kinetik enerji"
+      ],
+      "cards": [
+        {
+          "t": "Güneş’in Dünya’yı ısıtması",
+          "b": 0
+        },
+        {
+          "t": "Lambanın etrafı aydınlatması",
+          "b": 1
+        },
+        {
+          "t": "Rüzgârın yaprakları savurması",
+          "b": 2
+        },
+        {
+          "t": "Potaya giden topun hareketi",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Enerji albümü: Örnekleri doğru enerji çeşidine yerleştir. Bölmeler: Isı enerjisi / Işık enerjisi / Kinetik enerji. Kartlar: Güneş’in Dünya’yı ısıtması | Lambanın etrafı aydınlatması | Rüzgârın yaprakları savurması | Potaya giden topun hareketi",
+    "correctAnswer": "Isı enerjisi: Güneş’in Dünya’yı ısıtması | Işık enerjisi: Lambanın etrafı aydınlatması | Kinetik enerji: Rüzgârın yaprakları savurması, Potaya giden topun hareketi",
+    "explanation": "Enerji; Güneş’in Dünya’yı ısıtması (ısı), lambanın etrafı aydınlatması (ışık), rüzgârın yaprakları savurması (hareket, kinetik) gibi çok farklı şekillerde karşımıza çıkar.",
+    "questionId": "fen7u2-tur-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67",
+    "difficulty": "orta",
+    "group": "etken",
+    "rank": 2,
+    "type": "compare",
+    "prompt": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak!",
+    "data": {
+      "mode": "ke",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 1
+        },
+        {
+          "n": "B",
+          "a": 2,
+          "b": 3
+        },
+        {
+          "n": "C",
+          "a": 1,
+          "b": 1
+        }
+      ],
+      "ans": 1,
+      "o": [
+        "A",
+        "B",
+        "C",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Taş kulesi deneyi: Arabalar taş kulelerine doğru yuvarlanacak. Hangisi EN ÇOK taş devirir? Seç, sonra arabaları bırak! Düzenekler: A: kütle 2 birim, hız 1 birim; B: kütle 2 birim, hız 3 birim; C: kütle 1 birim, hız 1 birim",
+    "correctAnswer": "B",
+    "explanation": "Kinetik enerji kütle ve hıza bağlıdır; kütlesi ve hızı artan cismin kinetik enerjisi artar. Aynı kütlede hızı fazla olan ya da aynı hızda kütlesi fazla olan cismin kinetik enerjisi daha büyüktür; bu yüzden daha çok taş devirir ve daha uzun mesafede durur.",
+    "questionId": "fen7u2-etken-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerjiyi etkileyen faktörler",
+    "outcome": "Enerji çeşitlerinden kinetik ve potansiyel enerjiyi karşılaştırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68",
+    "difficulty": "kolay",
+    "group": "etken",
+    "rank": 1,
+    "type": "compare",
+    "prompt": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes!",
+    "data": {
+      "mode": "pe",
+      "items": [
+        {
+          "n": "A",
+          "a": 2,
+          "b": 3
+        },
+        {
+          "n": "B",
+          "a": 2,
+          "b": 1
+        }
+      ],
+      "ans": 0,
+      "o": [
+        "A",
+        "B",
+        "Hepsi eşit"
+      ]
+    },
+    "textPlain": "Ağırlık düşürme deneyi: Cezerî’nin düzeneğinde ağırlıklar bırakılınca su haznesine düşecek. Hangisi EN ÇOK su sıçratır? Seç, sonra ipleri kes! Düzenekler: A: kütle 2 birim, yükseklik 3 birim; B: kütle 2 birim, yükseklik 1 birim",
+    "correctAnswer": "A",
+    "explanation": "Çekim potansiyel enerjisi cismin ağırlığına (kütlesine) ve yüksekliğine bağlıdır. Daha yüksekte ya da daha ağır olan cismin çekim potansiyel enerjisi daha büyüktür; havuza daha yüksekten ya da daha ağır biri atladığında daha çok su sıçrar.",
+    "questionId": "fen7u2-etken-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 74",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Maket araba eğik düzlemin en üst noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "egik",
+      "pts": [
+        {
+          "n": "En üst",
+          "h": 4
+        },
+        {
+          "n": "En alt",
+          "h": 0
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Maket araba eğik düzlemin en üst noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): En üst: 4, En alt: 0",
+    "correctAnswer": "En üst: K 0 küp, P 4 küp; En alt: K 4 küp, P 0 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 72–73, 79",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Enerji sütunları: Sarkacın topuzu K noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat!",
+    "data": {
+      "kind": "sarkac",
+      "pts": [
+        {
+          "n": "K",
+          "h": 4
+        },
+        {
+          "n": "K–L arası",
+          "h": 2
+        },
+        {
+          "n": "L (en alt)",
+          "h": 0
+        },
+        {
+          "n": "L–M arası",
+          "h": 2
+        },
+        {
+          "n": "M (en üst)",
+          "h": 4
+        }
+      ]
+    },
+    "textPlain": "Enerji sütunları: Sarkacın topuzu K noktasından serbest bırakılıyor. Sürtünme yok, toplam enerji 4 küp. Her konumda K (kinetik) ve P (potansiyel) sütununa dokunup küpleri ayarla, sonra deneyi oynat! Konumlar ve yükseklik düzeyleri (0–4): K: 4, K–L arası: 2, L (en alt): 0, L–M arası: 2, M (en üst): 4",
+    "correctAnswer": "K: K 0 küp, P 4 küp; K–L arası: K 2 küp, P 2 küp; L (en alt): K 4 küp, P 0 küp; L–M arası: K 2 küp, P 2 küp; M (en üst): K 0 küp, P 4 küp",
+    "explanation": "Sürtünme ihmal edildiğinde kinetik ve potansiyel enerji birbirine dönüşür, toplam enerji korunur. Cisim yükseldikçe potansiyel enerjisi artar, kinetik enerjisi azalır; alçaldıkça potansiyel enerjisi azalır, kinetik enerjisi artar. Serbest bırakıldığı en yüksek noktada tüm enerji potansiyel, en alt noktada tüm enerji kinetiktir.",
+    "questionId": "fen7u2-donusum-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Kinetik ve potansiyel enerji dönüşümleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 76, 78",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "trend",
+    "prompt": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır!",
+    "data": {
+      "pts": [
+        {
+          "n": "A",
+          "h": 4
+        },
+        {
+          "n": "B",
+          "h": 0
+        }
+      ],
+      "rows": [
+        {
+          "s": "A → B",
+          "p": 1,
+          "k": 0
+        }
+      ]
+    },
+    "textPlain": "Kaykay pisti: Anıl sürtünmesiz pistte kayıyor. Her bölümde potansiyel (P) ve kinetik (K) enerjinin ARTAR mı AZALIR mı olduğunu seç, sonra Anıl’ı kaydır! Pist noktalarının yükseklik düzeyleri: A: 4, B: 0. Bölümler: A → B",
+    "correctAnswer": "A → B: P azalır, K artar",
+    "explanation": "Sürtünme ihmal edildiğinde kaykaycı aşağı inerken potansiyel enerjisi azalır, kinetik enerjisi artar; yukarı çıkarken potansiyel enerjisi artar, kinetik enerjisi azalır. En alt noktada kinetik enerji, en üst noktalarda potansiyel enerji en büyüktür.",
+    "questionId": "fen7u2-donusum-22"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 68, 76",
+    "difficulty": "kolay",
+    "group": "korunum",
+    "rank": 1,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Gerilmiş paket lastiğiyle kâğıt top fırlatılıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Esneklik potansiyel enerjisi",
+        "Kinetik enerji"
+      ],
+      "cards": [
+        "Çekim potansiyel enerjisi",
+        "Kinetik enerji",
+        "Esneklik potansiyel enerjisi"
+      ],
+      "e": "🪢"
+    },
+    "textPlain": "Dönüşüm zinciri: Gerilmiş paket lastiğiyle kâğıt top fırlatılıyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Çekim potansiyel enerjisi, Kinetik enerji, Esneklik potansiyel enerjisi",
+    "correctAnswer": "Esneklik potansiyel enerjisi → Kinetik enerji",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: Kuvvet ve Enerjiyi Keşfedelim",
+    "topic": "Enerjinin korunumu, sürtünme ve enerji dönüşüm zincirleri",
+    "outcome": "Enerji dönüşümünden hareketle enerjinin korunduğuna ilişkin tümevarımsal akıl yürütür.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (1. kitap), 2. Ünite “Kuvvet ve Enerjiyi Keşfedelim”, s. 67, 76",
+    "difficulty": "orta",
+    "group": "korunum",
+    "rank": 2,
+    "type": "convert",
+    "prompt": "Dönüşüm zinciri: Hızla giden bisikletin frenine basılıyor, bisiklet yavaşlayıp duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır!",
+    "data": {
+      "items": [
+        "Kinetik enerji",
+        "Isı ve ses enerjisi"
+      ],
+      "cards": [
+        "Kinetik enerji",
+        "Esneklik potansiyel enerjisi",
+        "Çekim potansiyel enerjisi",
+        "Isı ve ses enerjisi"
+      ],
+      "e": "🚴"
+    },
+    "textPlain": "Dönüşüm zinciri: Hızla giden bisikletin frenine basılıyor, bisiklet yavaşlayıp duruyor. Enerjinin dönüştüğü türleri baştan sona doğru sırayla seç, sonra düzeneği çalıştır! Kartlar: Kinetik enerji, Esneklik potansiyel enerjisi, Çekim potansiyel enerjisi, Isı ve ses enerjisi",
+    "correctAnswer": "Kinetik enerji → Isı ve ses enerjisi",
+    "explanation": "Enerji yoktan var olmaz, var olan enerji yok olmaz; ancak başka bir enerji türüne dönüşür. Buna enerjinin korunumu kanunu denir. Günlük hayatta hareketli cisimlerin kinetik enerjisi, sürtünme kuvvetinin etkisiyle ısı, ses ve diğer enerji türlerine dönüşür; bu yüzden hareket yavaşlar ve cisim bir süre sonra durur.",
+    "questionId": "fen7u2-korunum-21"
+  }
+]
