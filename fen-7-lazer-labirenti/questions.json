@@ -1,0 +1,3579 @@
+[
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 40,
+      "frm": "top",
+      "ans": 0,
+      "perm": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Hava ortamından Su ortamına, normal ile 40° açı yaparak gidiyor.",
+    "correctAnswer": "Normale yaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 0,
+      "frm": "top",
+      "ans": 1,
+      "perm": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Hava ortamından Su ortamına, yüzeye dik olarak gidiyor.",
+    "correctAnswer": "Doğrultusu değişmez",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 30,
+      "frm": "bot",
+      "ans": 2,
+      "perm": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Su ortamından Hava ortamına, normal ile 30° açı yaparak gidiyor.",
+    "correctAnswer": "Normalden uzaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 50,
+      "frm": "top",
+      "ans": 0,
+      "perm": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Hava ortamından Su ortamına, normal ile 50° açı yaparak gidiyor.",
+    "correctAnswer": "Normale yaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 0,
+      "frm": "bot",
+      "ans": 1,
+      "perm": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Su ortamından Hava ortamına, yüzeye dik olarak gidiyor.",
+    "correctAnswer": "Doğrultusu değişmez",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "A ortamı",
+      "bot": "B ortamı",
+      "dtop": 1,
+      "dbot": 0,
+      "ang": 35,
+      "frm": "top",
+      "ans": 2,
+      "perm": [
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: A ortamı (çok yoğun), alt ortam: B ortamı (az yoğun). Işın A ortamı ortamından B ortamı ortamına, normal ile 35° açı yaparak gidiyor.",
+    "correctAnswer": "Normalden uzaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "K ortamı",
+      "bot": "L ortamı",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 45,
+      "frm": "bot",
+      "ans": 2,
+      "perm": [
+        1,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: K ortamı (az yoğun), alt ortam: L ortamı (çok yoğun). Işın L ortamı ortamından K ortamı ortamına, normal ile 45° açı yaparak gidiyor.",
+    "correctAnswer": "Normalden uzaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 25,
+      "frm": "bot",
+      "ans": 2,
+      "perm": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Su ortamından Hava ortamına, normal ile 25° açı yaparak gidiyor.",
+    "correctAnswer": "Normalden uzaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "zor",
+    "group": "kirilma",
+    "rank": 3,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "X ortamı",
+      "bot": "Y ortamı",
+      "dtop": 1,
+      "dbot": 0,
+      "ang": 40,
+      "frm": "bot",
+      "ans": 0,
+      "perm": [
+        1,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: X ortamı (çok yoğun), alt ortam: Y ortamı (az yoğun). Işın Y ortamı ortamından X ortamı ortamına, normal ile 40° açı yaparak gidiyor.",
+    "correctAnswer": "Normale yaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "zor",
+    "group": "kirilma",
+    "rank": 3,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "M ortamı",
+      "bot": "N ortamı",
+      "dtop": 1,
+      "dbot": 0,
+      "ang": 0,
+      "frm": "top",
+      "ans": 1,
+      "perm": [
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: M ortamı (çok yoğun), alt ortam: N ortamı (az yoğun). Işın M ortamı ortamından N ortamı ortamına, yüzeye dik olarak gidiyor.",
+    "correctAnswer": "Doğrultusu değişmez",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "zor",
+    "group": "kirilma",
+    "rank": 3,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "P ortamı",
+      "bot": "R ortamı",
+      "dtop": 1,
+      "dbot": 0,
+      "ang": 30,
+      "frm": "top",
+      "ans": 2,
+      "perm": [
+        1,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: P ortamı (çok yoğun), alt ortam: R ortamı (az yoğun). Işın P ortamı ortamından R ortamı ortamına, normal ile 30° açı yaparak gidiyor.",
+    "correctAnswer": "Normalden uzaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "zor",
+    "group": "kirilma",
+    "rank": 3,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "S ortamı",
+      "bot": "T ortamı",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 55,
+      "frm": "top",
+      "ans": 0,
+      "perm": [
+        1,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: S ortamı (az yoğun), alt ortam: T ortamı (çok yoğun). Işın S ortamı ortamından T ortamı ortamına, normal ile 55° açı yaparak gidiyor.",
+    "correctAnswer": "Normale yaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 19",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Lazer raporu: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Normale yaklaşarak kırılır",
+        "Normalden uzaklaşarak kırılır"
+      ],
+      "cards": [
+        {
+          "t": "Havadan suya geçen ışık",
+          "b": 0
+        },
+        {
+          "t": "Sudan havaya geçen ışık",
+          "b": 1
+        },
+        {
+          "t": "Az yoğun ortamdan çok yoğun ortama geçen ışık",
+          "b": 0
+        },
+        {
+          "t": "Çok yoğun ortamdan az yoğun ortama geçen ışık",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Lazer raporu: Kartları doğru bölmeye yerleştir. Bölmeler: Normale yaklaşarak kırılır / Normalden uzaklaşarak kırılır. Kartlar: Havadan suya geçen ışık | Sudan havaya geçen ışık | Az yoğun ortamdan çok yoğun ortama geçen ışık | Çok yoğun ortamdan az yoğun ortama geçen ışık",
+    "correctAnswer": "Normale yaklaşarak kırılır: Havadan suya geçen ışık, Az yoğun ortamdan çok yoğun ortama geçen ışık | Normalden uzaklaşarak kırılır: Sudan havaya geçen ışık, Çok yoğun ortamdan az yoğun ortama geçen ışık",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Kırılma açısı gelme açısından küçük",
+        "Kırılma açısı gelme açısından büyük",
+        "Işık kırılmadan geçer"
+      ],
+      "cards": [
+        {
+          "t": "Havadan suya eğik geçen ışın",
+          "b": 0
+        },
+        {
+          "t": "Sudan havaya eğik geçen ışın",
+          "b": 1
+        },
+        {
+          "t": "Yüzeye dik gelen ışın",
+          "b": 2
+        },
+        {
+          "t": "Çok yoğun ortamdan az yoğun ortama eğik geçen ışın",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Kırılma açısı gelme açısından küçük / Kırılma açısı gelme açısından büyük / Işık kırılmadan geçer. Kartlar: Havadan suya eğik geçen ışın | Sudan havaya eğik geçen ışın | Yüzeye dik gelen ışın | Çok yoğun ortamdan az yoğun ortama eğik geçen ışın",
+    "correctAnswer": "Kırılma açısı gelme açısından küçük: Havadan suya eğik geçen ışın | Kırılma açısı gelme açısından büyük: Sudan havaya eğik geçen ışın, Çok yoğun ortamdan az yoğun ortama eğik geçen ışın | Işık kırılmadan geçer: Yüzeye dik gelen ışın",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "zor",
+    "group": "kirilma",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kırılma koşulları: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Işığın kırılması için gerekli",
+        "Gerekli değil"
+      ],
+      "cards": [
+        {
+          "t": "Işığın yoğunluğu farklı başka bir saydam ortama geçmesi",
+          "b": 0
+        },
+        {
+          "t": "Işının yüzeye dik açıdan farklı bir açıyla gelmesi",
+          "b": 0
+        },
+        {
+          "t": "Ortamın saydam olmaması",
+          "b": 1
+        },
+        {
+          "t": "İki ortamın yoğunluğunun aynı olması",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kırılma koşulları: Kartları doğru bölmeye yerleştir. Bölmeler: Işığın kırılması için gerekli / Gerekli değil. Kartlar: Işığın yoğunluğu farklı başka bir saydam ortama geçmesi | Işının yüzeye dik açıdan farklı bir açıyla gelmesi | Ortamın saydam olmaması | İki ortamın yoğunluğunun aynı olması",
+    "correctAnswer": "Işığın kırılması için gerekli: Işığın yoğunluğu farklı başka bir saydam ortama geçmesi, Işının yüzeye dik açıdan farklı bir açıyla gelmesi | Gerekli değil: Ortamın saydam olmaması, İki ortamın yoğunluğunun aynı olması",
+    "explanation": "Işık ışınlarının saydam bir ortamdan yoğunluğu farklı başka bir saydam ortama geçerken doğrultu ve hız değiştirerek ilerlemesine ışığın kırılması denir. Dik açıdan farklı bir açıyla gelen ışınlar kırılır; dik gelenler kırılmadan geçer.",
+    "questionId": "fen7u4-kirilma-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Hız ölçer: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Işığın hızı artar",
+        "Işığın hızı azalır"
+      ],
+      "cards": [
+        {
+          "t": "Havadan suya geçerken",
+          "b": 1
+        },
+        {
+          "t": "Sudan havaya geçerken",
+          "b": 0
+        },
+        {
+          "t": "Az yoğun ortamdan çok yoğun ortama geçerken",
+          "b": 1
+        },
+        {
+          "t": "Çok yoğun ortamdan az yoğun ortama geçerken",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Hız ölçer: Kartları doğru bölmeye yerleştir. Bölmeler: Işığın hızı artar / Işığın hızı azalır. Kartlar: Havadan suya geçerken | Sudan havaya geçerken | Az yoğun ortamdan çok yoğun ortama geçerken | Çok yoğun ortamdan az yoğun ortama geçerken",
+    "correctAnswer": "Işığın hızı artar: Sudan havaya geçerken, Çok yoğun ortamdan az yoğun ortama geçerken | Işığın hızı azalır: Havadan suya geçerken, Az yoğun ortamdan çok yoğun ortama geçerken",
+    "explanation": "Işığın hızı saydam ortamın yoğunluğu arttıkça azalır. Dik gelen ışınlar bile ortam değiştirdiğinde hız değiştirir. Su havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Bir lazer ışını su yüzeyiyle 50° açı yapacak şekilde geliyor. Normal, yüzeye diktir (90°). Gelme açısı (gelen ışın ile normal arasındaki açı) kaç derecedir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 90,
+      "op": "−",
+      "b": 50,
+      "ans": 40,
+      "unit": "°"
+    },
+    "textPlain": "Bir lazer ışını su yüzeyiyle 50° açı yapacak şekilde geliyor. Normal, yüzeye diktir (90°). Gelme açısı (gelen ışın ile normal arasındaki açı) kaç derecedir? Sayı çarklarıyla gir! İşlem: 90 − 50",
+    "correctAnswer": "40 °",
+    "explanation": "Gelme açısı gelen ışın ile yüzeyin normali arasındaki açıdır. Normal yüzeye dik olduğundan 90 − 50 = 40°.",
+    "questionId": "fen7u4-kirilma-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Kırılan ışın ile yüzey arasındaki açı 65°’dir. Kırılma açısı (kırılan ışın ile normal arasındaki açı) kaç derecedir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 90,
+      "op": "−",
+      "b": 65,
+      "ans": 25,
+      "unit": "°"
+    },
+    "textPlain": "Kırılan ışın ile yüzey arasındaki açı 65°’dir. Kırılma açısı (kırılan ışın ile normal arasındaki açı) kaç derecedir? Sayı çarklarıyla gir! İşlem: 90 − 65",
+    "correctAnswer": "25 °",
+    "explanation": "Kırılma açısı kırılan ışın ile yüzeyin normali arasındaki açıdır: 90 − 65 = 25°.",
+    "questionId": "fen7u4-kirilma-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 19",
+    "difficulty": "zor",
+    "group": "kirilma",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Sudaki balıktan gelen ışın su yüzeyiyle 50° açı yapıyor. Gelme açısı kaç derecedir? Bu ışın havaya geçerken kırılma açısı gelme açısından büyük mü olur? Önce gelme açısını sayı çarklarıyla gir!",
+    "data": {
+      "a": 90,
+      "op": "−",
+      "b": 50,
+      "ans": 40,
+      "unit": "°"
+    },
+    "textPlain": "Sudaki balıktan gelen ışın su yüzeyiyle 50° açı yapıyor. Gelme açısı kaç derecedir? Bu ışın havaya geçerken kırılma açısı gelme açısından büyük mü olur? Önce gelme açısını sayı çarklarıyla gir! İşlem: 90 − 50",
+    "correctAnswer": "40 °",
+    "explanation": "Gelme açısı 90 − 50 = 40°’dir. Işın çok yoğun ortamdan (su) az yoğun ortama (hava) geçtiği için normalden uzaklaşır; kırılma açısı 40°’den büyük olur.",
+    "questionId": "fen7u4-kirilma-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "apparent",
+    "prompt": "Görünür konum: İskeledeki balıkçı suyun içindeki dalgıca bakıyor. Gözlemci dalgıç nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "balikci",
+      "oe": "🤿",
+      "ee": "🎣",
+      "eye": "air",
+      "ans": 0,
+      "perm": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Görünür konum: İskeledeki balıkçı suyun içindeki dalgıca bakıyor. Gözlemci dalgıç nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha yakında",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "apparent",
+    "prompt": "Görünür konum: Merve Balıklıgöl’ün kıyısından sudaki balığa bakıyor. Gözlemci balık nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "balik",
+      "oe": "🐟",
+      "ee": "👧",
+      "eye": "air",
+      "ans": 0,
+      "perm": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Görünür konum: Merve Balıklıgöl’ün kıyısından sudaki balığa bakıyor. Gözlemci balık nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha yakında",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "apparent",
+    "prompt": "Görünür konum: Su altındaki dalgıç iskelede balık tutan adama bakıyor. Gözlemci balıkçı nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "dalgic",
+      "oe": "🎣",
+      "ee": "🤿",
+      "eye": "water",
+      "ans": 2,
+      "perm": [
+        1,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Görünür konum: Su altındaki dalgıç iskelede balık tutan adama bakıyor. Gözlemci balıkçı nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha uzakta",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "apparent",
+    "prompt": "Görünür konum: Çocuk kıyıdan havuzun dibindeki taşa bakıyor. Gözlemci taş nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "tas",
+      "oe": "🪨",
+      "ee": "🧒",
+      "eye": "air",
+      "ans": 0,
+      "perm": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Görünür konum: Çocuk kıyıdan havuzun dibindeki taşa bakıyor. Gözlemci taş nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha yakında",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "apparent",
+    "prompt": "Görünür konum: İskeledeki balıkçı suyun içindeki dalgıca bakıyor. Gözlemci dalgıç nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "balikci",
+      "oe": "🤿",
+      "ee": "🎣",
+      "eye": "air",
+      "ans": 0,
+      "perm": [
+        1,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Görünür konum: İskeledeki balıkçı suyun içindeki dalgıca bakıyor. Gözlemci dalgıç nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha yakında",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "apparent",
+    "prompt": "Görünür konum: Havuzun dibindeki kurbağa, havuz kenarındaki kediye bakıyor. Gözlemci kedi nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "kurbaga",
+      "oe": "🐈",
+      "ee": "🐸",
+      "eye": "water",
+      "ans": 2,
+      "perm": [
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Görünür konum: Havuzun dibindeki kurbağa, havuz kenarındaki kediye bakıyor. Gözlemci kedi nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha uzakta",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "apparent",
+    "prompt": "Görünür konum: Su altındaki dalgıç iskelede balık tutan adama bakıyor. Gözlemci balıkçı nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "dalgic",
+      "oe": "🎣",
+      "ee": "🤿",
+      "eye": "water",
+      "ans": 2,
+      "perm": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Görünür konum: Su altındaki dalgıç iskelede balık tutan adama bakıyor. Gözlemci balıkçı nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha uzakta",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "apparent",
+    "prompt": "Görünür konum: Çocuk kıyıdan havuzun dibindeki taşa bakıyor. Gözlemci taş nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "tas",
+      "oe": "🪨",
+      "ee": "🧒",
+      "eye": "air",
+      "ans": 0,
+      "perm": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Görünür konum: Çocuk kıyıdan havuzun dibindeki taşa bakıyor. Gözlemci taş nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha yakında",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "apparent",
+    "prompt": "Görünür konum: Merve Balıklıgöl’ün kıyısından sudaki balığa bakıyor. Gözlemci balık nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "balik",
+      "oe": "🐟",
+      "ee": "👧",
+      "eye": "air",
+      "ans": 0,
+      "perm": [
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Görünür konum: Merve Balıklıgöl’ün kıyısından sudaki balığa bakıyor. Gözlemci balık nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha yakında",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "prism",
+    "prompt": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır!",
+    "data": {
+      "items": [
+        "Kırmızı",
+        "Sarı",
+        "Mor"
+      ],
+      "low": "Kırmızı tarafı",
+      "high": "Mor tarafı"
+    },
+    "textPlain": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır! Renkler: Kırmızı, Mor, Sarı",
+    "correctAnswer": "Kırmızı → Sarı → Mor",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "prism",
+    "prompt": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır!",
+    "data": {
+      "items": [
+        "Kırmızı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "low": "Kırmızı tarafı",
+      "high": "Mor tarafı"
+    },
+    "textPlain": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır! Renkler: Kırmızı, Mavi, Yeşil",
+    "correctAnswer": "Kırmızı → Yeşil → Mavi",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "prism",
+    "prompt": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır!",
+    "data": {
+      "items": [
+        "Turuncu",
+        "Sarı",
+        "Mavi",
+        "Mor"
+      ],
+      "low": "Kırmızı tarafı",
+      "high": "Mor tarafı"
+    },
+    "textPlain": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır! Renkler: Mavi, Mor, Sarı, Turuncu",
+    "correctAnswer": "Turuncu → Sarı → Mavi → Mor",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "prism",
+    "prompt": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır!",
+    "data": {
+      "items": [
+        "Kırmızı",
+        "Yeşil",
+        "Lacivert",
+        "Mor"
+      ],
+      "low": "Kırmızı tarafı",
+      "high": "Mor tarafı"
+    },
+    "textPlain": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır! Renkler: Kırmızı, Lacivert, Mor, Yeşil",
+    "correctAnswer": "Kırmızı → Yeşil → Lacivert → Mor",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "prism",
+    "prompt": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır!",
+    "data": {
+      "items": [
+        "Kırmızı",
+        "Turuncu",
+        "Sarı",
+        "Yeşil",
+        "Mavi",
+        "Lacivert",
+        "Mor"
+      ],
+      "low": "Kırmızı tarafı",
+      "high": "Mor tarafı"
+    },
+    "textPlain": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır! Renkler: Kırmızı, Lacivert, Mavi, Mor, Sarı, Turuncu, Yeşil",
+    "correctAnswer": "Kırmızı → Turuncu → Sarı → Yeşil → Mavi → Lacivert → Mor",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "prism",
+    "prompt": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır!",
+    "data": {
+      "items": [
+        "Turuncu",
+        "Sarı",
+        "Yeşil",
+        "Mavi",
+        "Lacivert"
+      ],
+      "low": "Kırmızı tarafı",
+      "high": "Mor tarafı"
+    },
+    "textPlain": "Prizma tüneli: Beyaz lazer prizmaya giriyor. Renk ayrışmasında renkleri KIRMIZIDAN başlayarak sıraya diz, sonra ışığı ayrıştır! Renkler: Lacivert, Mavi, Sarı, Turuncu, Yeşil",
+    "correctAnswer": "Turuncu → Sarı → Yeşil → Mavi → Lacivert",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–20",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Işığın kırılmasıyla açıklanır",
+        "Kırılmayla ilgisi yok"
+      ],
+      "cards": [
+        {
+          "t": "Gökkuşağının oluşması",
+          "b": 0
+        },
+        {
+          "t": "Su dolu bardaktaki kalemin kırık görünmesi",
+          "b": 0
+        },
+        {
+          "t": "Balıkların yüzeye yakın görünmesi",
+          "b": 0
+        },
+        {
+          "t": "Aynada görüntümüzü görmek",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Işığın kırılmasıyla açıklanır / Kırılmayla ilgisi yok. Kartlar: Gökkuşağının oluşması | Su dolu bardaktaki kalemin kırık görünmesi | Balıkların yüzeye yakın görünmesi | Aynada görüntümüzü görmek",
+    "correctAnswer": "Işığın kırılmasıyla açıklanır: Gökkuşağının oluşması, Su dolu bardaktaki kalemin kırık görünmesi, Balıkların yüzeye yakın görünmesi | Kırılmayla ilgisi yok: Aynada görüntümüzü görmek",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür. Gökkuşağı, ışık ışınlarının yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 21, 34",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Optik arşivi: Kartları doğru bilim insanının dosyasına koy.",
+    "data": {
+      "bins": [
+        "Mîrim Çelebi",
+        "İbnü’l-Heysem",
+        "Kemâleddîn el-Fârisî"
+      ],
+      "cards": [
+        {
+          "t": "Optik eserinde gökkuşağı ve halenin oluşumunu inceledi",
+          "b": 0
+        },
+        {
+          "t": "Ali Kuşçu’nun Fethiyye’sini açıklayan eser yazdı",
+          "b": 0
+        },
+        {
+          "t": "İlkçağ’dan XVII. yüzyıla optik tarihinin en önemli şahsiyeti",
+          "b": 1
+        },
+        {
+          "t": "Işığa birincil ve ikincil ışık adlarını verdi",
+          "b": 1
+        },
+        {
+          "t": "Kitâbü’l-Menâẓır’ı inceleyip geliştiren eser yazdı",
+          "b": 2
+        }
+      ]
+    },
+    "textPlain": "Optik arşivi: Kartları doğru bilim insanının dosyasına koy. Bölmeler: Mîrim Çelebi / İbnü’l-Heysem / Kemâleddîn el-Fârisî. Kartlar: Optik eserinde gökkuşağı ve halenin oluşumunu inceledi | Ali Kuşçu’nun Fethiyye’sini açıklayan eser yazdı | İlkçağ’dan XVII. yüzyıla optik tarihinin en önemli şahsiyeti | Işığa birincil ve ikincil ışık adlarını verdi | Kitâbü’l-Menâẓır’ı inceleyip geliştiren eser yazdı",
+    "correctAnswer": "Mîrim Çelebi: Optik eserinde gökkuşağı ve halenin oluşumunu inceledi, Ali Kuşçu’nun Fethiyye’sini açıklayan eser yazdı | İbnü’l-Heysem: İlkçağ’dan XVII. yüzyıla optik tarihinin en önemli şahsiyeti, Işığa birincil ve ikincil ışık adlarını verdi | Kemâleddîn el-Fârisî: Kitâbü’l-Menâẓır’ı inceleyip geliştiren eser yazdı",
+    "explanation": "Mîrim Çelebi 16. yüzyılda optik eserinde ışığın kırılması, renkler, gökkuşağı ve halenin oluşumunu incelemiş; Fethiyye’yi açıklayan bir eser yazmıştır. İbnü’l-Heysem optiği deneysel bir bilim hâline getirmiş, ışığı birincil ve ikincil olarak adlandırmıştır. Kemâleddîn el-Fârisî Kitâbü’l-Menâẓır’ı inceleyip geliştiren eserinde gökkuşağı, hale ve karanlık oda konularını işlemiştir.",
+    "questionId": "fen7u4-gorunum-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Görüntü raporu: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Gerçekte olduğundan daha yakında görünür",
+        "Gerçekte olduğundan daha uzakta görünür"
+      ],
+      "cards": [
+        {
+          "t": "Balıkçının gördüğü dalgıç",
+          "b": 0
+        },
+        {
+          "t": "Dalgıcın gördüğü balıkçı",
+          "b": 1
+        },
+        {
+          "t": "Kıyıdan bakılan sudaki balık",
+          "b": 0
+        },
+        {
+          "t": "Su altından bakılan iskeledeki adam",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Görüntü raporu: Kartları doğru bölmeye yerleştir. Bölmeler: Gerçekte olduğundan daha yakında görünür / Gerçekte olduğundan daha uzakta görünür. Kartlar: Balıkçının gördüğü dalgıç | Dalgıcın gördüğü balıkçı | Kıyıdan bakılan sudaki balık | Su altından bakılan iskeledeki adam",
+    "correctAnswer": "Gerçekte olduğundan daha yakında görünür: Balıkçının gördüğü dalgıç, Kıyıdan bakılan sudaki balık | Gerçekte olduğundan daha uzakta görünür: Dalgıcın gördüğü balıkçı, Su altından bakılan iskeledeki adam",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "kolay",
+    "group": "gorunum",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Prizmanın yüzeyine dik gelmeyen ışın prizmaya girerken bir kez kırılıyor. Prizmadan çıkarken bir kez daha kırılırsa toplam kaç kez kırılmış olur? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1,
+      "op": "+",
+      "b": 1,
+      "ans": 2,
+      "unit": "kez"
+    },
+    "textPlain": "Prizmanın yüzeyine dik gelmeyen ışın prizmaya girerken bir kez kırılıyor. Prizmadan çıkarken bir kez daha kırılırsa toplam kaç kez kırılmış olur? Sayı çarklarıyla gir! İşlem: 1 + 1",
+    "correctAnswer": "2 kez",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur.",
+    "questionId": "fen7u4-gorunum-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 20",
+    "difficulty": "zor",
+    "group": "gorunum",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Prizmadan çıkan ışıkta kırmızıdan sonra sırayla turuncu, sarı ve yeşil gelir. Toplam 7 renk varsa yeşilden sonra kaç renk daha vardır? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 7,
+      "op": "−",
+      "b": 4,
+      "ans": 3,
+      "unit": "renk"
+    },
+    "textPlain": "Prizmadan çıkan ışıkta kırmızıdan sonra sırayla turuncu, sarı ve yeşil gelir. Toplam 7 renk varsa yeşilden sonra kaç renk daha vardır? Sayı çarklarıyla gir! İşlem: 7 − 3",
+    "correctAnswer": "3 renk",
+    "explanation": "Beyaz ışık olarak adlandırılan güneş ışığı tüm renklerden oluşur. Prizmaya gönderilen beyaz ışık kırılarak sırayla kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor renge ayrılır. Prizmanın yüzeyine dik gelmeyen ışınlar prizmaya girerken ve çıkarken iki defa kırılır. Gökkuşağı ışığın yağmur damlalarında kırılmasıyla oluşur. Yeşilden sonra mavi, lacivert ve mor gelir: 7 − 4 = 3.",
+    "questionId": "fen7u4-gorunum-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "kolay",
+    "group": "kavram",
+    "rank": 1,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        0,
+        1,
+        2
+      ],
+      "nums": [
+        1,
+        2,
+        3
+      ],
+      "names": [
+        "Normal",
+        "Gelen ışın",
+        "Kırılan ışın"
+      ],
+      "extra": []
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 1, 2, 3",
+    "correctAnswer": "1: Normal; 2: Gelen ışın; 3: Kırılan ışın",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "kolay",
+    "group": "kavram",
+    "rank": 1,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        0,
+        3,
+        4
+      ],
+      "nums": [
+        1,
+        3,
+        2
+      ],
+      "names": [
+        "Normal",
+        "Gelme açısı",
+        "Kırılma açısı"
+      ],
+      "extra": []
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 1, 3, 2",
+    "correctAnswer": "1: Normal; 2: Kırılma açısı; 3: Gelme açısı",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "nums": [
+        5,
+        2,
+        3,
+        1,
+        4
+      ],
+      "names": [
+        "Normal",
+        "Gelen ışın",
+        "Kırılan ışın",
+        "Gelme açısı",
+        "Kırılma açısı"
+      ],
+      "extra": [
+        "Az yoğun ortam"
+      ]
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 5, 2, 3, 1, 4",
+    "correctAnswer": "1: Gelme açısı; 2: Gelen ışın; 3: Kırılan ışın; 4: Kırılma açısı; 5: Normal",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nums": [
+        3,
+        4,
+        1,
+        2
+      ],
+      "names": [
+        "Gelen ışın",
+        "Kırılan ışın",
+        "Gelme açısı",
+        "Kırılma açısı"
+      ],
+      "extra": [
+        "Normal"
+      ]
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 3, 4, 1, 2",
+    "correctAnswer": "1: Gelme açısı; 2: Kırılma açısı; 3: Gelen ışın; 4: Kırılan ışın",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "zor",
+    "group": "kavram",
+    "rank": 3,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "nums": [
+        5,
+        3,
+        2,
+        6,
+        1,
+        7,
+        4
+      ],
+      "names": [
+        "Normal",
+        "Gelen ışın",
+        "Kırılan ışın",
+        "Gelme açısı",
+        "Kırılma açısı",
+        "Az yoğun ortam",
+        "Çok yoğun ortam"
+      ],
+      "extra": []
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 5, 3, 2, 6, 1, 7, 4",
+    "correctAnswer": "1: Kırılma açısı; 2: Kırılan ışın; 3: Gelen ışın; 4: Çok yoğun ortam; 5: Normal; 6: Gelme açısı; 7: Az yoğun ortam",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "zor",
+    "group": "kavram",
+    "rank": 3,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "nums": [
+        3,
+        1,
+        4,
+        2,
+        5
+      ],
+      "names": [
+        "Normal",
+        "Gelme açısı",
+        "Kırılma açısı",
+        "Az yoğun ortam",
+        "Çok yoğun ortam"
+      ],
+      "extra": [
+        "Gelen ışın"
+      ]
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 3, 1, 4, 2, 5",
+    "correctAnswer": "1: Gelme açısı; 2: Az yoğun ortam; 3: Normal; 4: Kırılma açısı; 5: Çok yoğun ortam",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "kolay",
+    "group": "kavram",
+    "rank": 1,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        0,
+        1,
+        2
+      ],
+      "nums": [
+        3,
+        1,
+        2
+      ],
+      "names": [
+        "Asal eksen",
+        "Optik merkez",
+        "Odak noktası"
+      ],
+      "extra": []
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 3, 1, 2",
+    "correctAnswer": "1: Optik merkez; 2: Odak noktası; 3: Asal eksen",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "kolay",
+    "group": "kavram",
+    "rank": 1,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        0,
+        2,
+        4
+      ],
+      "nums": [
+        3,
+        2,
+        1
+      ],
+      "names": [
+        "Asal eksen",
+        "Odak noktası",
+        "İnce kenarlı mercek"
+      ],
+      "extra": []
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 3, 2, 1",
+    "correctAnswer": "1: İnce kenarlı mercek; 2: Odak noktası; 3: Asal eksen",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nums": [
+        2,
+        4,
+        3,
+        1
+      ],
+      "names": [
+        "Asal eksen",
+        "Optik merkez",
+        "Odak noktası",
+        "Odak uzaklığı"
+      ],
+      "extra": [
+        "İnce kenarlı mercek"
+      ]
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 2, 4, 3, 1",
+    "correctAnswer": "1: Odak uzaklığı; 2: Asal eksen; 3: Odak noktası; 4: Optik merkez",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nums": [
+        4,
+        3,
+        1,
+        2
+      ],
+      "names": [
+        "Optik merkez",
+        "Odak noktası",
+        "Odak uzaklığı",
+        "İnce kenarlı mercek"
+      ],
+      "extra": [
+        "Asal eksen"
+      ]
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 4, 3, 1, 2",
+    "correctAnswer": "1: Odak uzaklığı; 2: İnce kenarlı mercek; 3: Odak noktası; 4: Optik merkez",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "zor",
+    "group": "kavram",
+    "rank": 3,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "nums": [
+        4,
+        3,
+        2,
+        5,
+        7,
+        6,
+        1
+      ],
+      "names": [
+        "Asal eksen",
+        "Optik merkez",
+        "Odak noktası",
+        "Odak uzaklığı",
+        "İnce kenarlı mercek",
+        "Gelen ışın",
+        "Kırılan ışın"
+      ],
+      "extra": []
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 4, 3, 2, 5, 7, 6, 1",
+    "correctAnswer": "1: Kırılan ışın; 2: Odak noktası; 3: Optik merkez; 4: Asal eksen; 5: Odak uzaklığı; 6: Gelen ışın; 7: İnce kenarlı mercek",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "zor",
+    "group": "kavram",
+    "rank": 3,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "nums": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ],
+      "names": [
+        "Asal eksen",
+        "Optik merkez",
+        "Odak uzaklığı",
+        "Gelen ışın",
+        "Kırılan ışın"
+      ],
+      "extra": [
+        "Odak noktası"
+      ]
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 1, 5, 3, 2, 4",
+    "correctAnswer": "1: Asal eksen; 2: Gelen ışın; 3: Odak uzaklığı; 4: Kırılan ışın; 5: Optik merkez",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18, 27",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Kavram dolabı: Kartları doğru rafa koy.",
+    "data": {
+      "bins": [
+        "Kırılmayla ilgili kavram",
+        "Mercekle ilgili kavram"
+      ],
+      "cards": [
+        {
+          "t": "Gelme açısı",
+          "b": 0
+        },
+        {
+          "t": "Yüzeyin normali",
+          "b": 0
+        },
+        {
+          "t": "Asal eksen",
+          "b": 1
+        },
+        {
+          "t": "Odak uzaklığı",
+          "b": 1
+        },
+        {
+          "t": "Optik merkez",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kavram dolabı: Kartları doğru rafa koy. Bölmeler: Kırılmayla ilgili kavram / Mercekle ilgili kavram. Kartlar: Gelme açısı | Yüzeyin normali | Asal eksen | Odak uzaklığı | Optik merkez",
+    "correctAnswer": "Kırılmayla ilgili kavram: Gelme açısı, Yüzeyin normali | Mercekle ilgili kavram: Asal eksen, Odak uzaklığı, Optik merkez",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır. Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 34",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Optiği deneysel bir bilim hâline getiren İbnü’l-Heysem 965’te doğdu, 1039’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1039,
+      "op": "−",
+      "b": 965,
+      "ans": 74,
+      "unit": "yıl"
+    },
+    "textPlain": "Optiği deneysel bir bilim hâline getiren İbnü’l-Heysem 965’te doğdu, 1039’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1039 − 965",
+    "correctAnswer": "74 yıl",
+    "explanation": "1039 − 965 = 74 yıl.",
+    "questionId": "fen7u4-kavram-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 34",
+    "difficulty": "zor",
+    "group": "kavram",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "Gökkuşağı ve karanlık oda üzerine çalışan Kemâleddîn el-Fârisî 1267’de doğdu, 1319’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1319,
+      "op": "−",
+      "b": 1267,
+      "ans": 52,
+      "unit": "yıl"
+    },
+    "textPlain": "Gökkuşağı ve karanlık oda üzerine çalışan Kemâleddîn el-Fârisî 1267’de doğdu, 1319’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1319 − 1267",
+    "correctAnswer": "52 yıl",
+    "explanation": "1319 − 1267 = 52 yıl.",
+    "questionId": "fen7u4-kavram-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 34",
+    "difficulty": "kolay",
+    "group": "kavram",
+    "rank": 1,
+    "type": "calc",
+    "prompt": "Gözdeki kırılma kusurlarını inceleyen Thomas Young 1773’te doğdu, 1829’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1829,
+      "op": "−",
+      "b": 1773,
+      "ans": 56,
+      "unit": "yıl"
+    },
+    "textPlain": "Gözdeki kırılma kusurlarını inceleyen Thomas Young 1773’te doğdu, 1829’da öldü. Kaç yıl yaşadı? Sayı çarklarıyla gir! İşlem: 1829 − 1773",
+    "correctAnswer": "56 yıl",
+    "explanation": "1829 − 1773 = 56 yıl.",
+    "questionId": "fen7u4-kavram-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 34",
+    "difficulty": "zor",
+    "group": "kavram",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Optik arşivi: Kartları doğru kişinin dosyasına koy.",
+    "data": {
+      "bins": [
+        "İbn Sehl",
+        "Thomas Young"
+      ],
+      "cards": [
+        {
+          "t": "Kırılmanın ortamın yoğunluğundan etkilendiğini ileri sürdü",
+          "b": 0
+        },
+        {
+          "t": "Yakan küresel mercekleri inceledi",
+          "b": 0
+        },
+        {
+          "t": "Gözün içine giren ışık sayesinde gördüğümüzü fark etti",
+          "b": 1
+        },
+        {
+          "t": "Renkli görmenin mekanizması üzerine çalıştı",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Optik arşivi: Kartları doğru kişinin dosyasına koy. Bölmeler: İbn Sehl / Thomas Young. Kartlar: Kırılmanın ortamın yoğunluğundan etkilendiğini ileri sürdü | Yakan küresel mercekleri inceledi | Gözün içine giren ışık sayesinde gördüğümüzü fark etti | Renkli görmenin mekanizması üzerine çalıştı",
+    "correctAnswer": "İbn Sehl: Kırılmanın ortamın yoğunluğundan etkilendiğini ileri sürdü, Yakan küresel mercekleri inceledi | Thomas Young: Gözün içine giren ışık sayesinde gördüğümüzü fark etti, Renkli görmenin mekanizması üzerine çalıştı",
+    "explanation": "İbn Sehl X. yüzyılda ışığın kırılmasını mercek çizimleriyle açıklamış, kırılmanın ortamın yoğunluğundan etkileneceğini ileri sürmüştür. Thomas Young gözün içine giren ışık sayesinde gördüğümüzü fark etmiş; ışığın hızı, renkli görme ve gözdeki kırılma kusurları üzerine çalışmıştır.",
+    "questionId": "fen7u4-kavram-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "kolay",
+    "group": "mercek",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "bicx",
+          "a": 0
+        },
+        {
+          "s": "bicv",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası kalın, kenarları ince), 2. mercek (ortası ince, kenarları kalın)",
+    "correctAnswer": "1. mercek: ince kenarlı; 2. mercek: kalın kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "kolay",
+    "group": "mercek",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "bicv",
+          "a": 1
+        },
+        {
+          "s": "plcx",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası ince, kenarları kalın), 2. mercek (ortası kalın, kenarları ince)",
+    "correctAnswer": "1. mercek: kalın kenarlı; 2. mercek: ince kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "kolay",
+    "group": "mercek",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "bicx",
+          "a": 0
+        },
+        {
+          "s": "plcv",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası kalın, kenarları ince), 2. mercek (ortası ince, kenarları kalın)",
+    "correctAnswer": "1. mercek: ince kenarlı; 2. mercek: kalın kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "plcx",
+          "a": 0
+        },
+        {
+          "s": "bicv",
+          "a": 1
+        },
+        {
+          "s": "bicx",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası kalın, kenarları ince), 2. mercek (ortası ince, kenarları kalın), 3. mercek (ortası kalın, kenarları ince)",
+    "correctAnswer": "1. mercek: ince kenarlı; 2. mercek: kalın kenarlı; 3. mercek: ince kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "plcv",
+          "a": 1
+        },
+        {
+          "s": "bicx",
+          "a": 0
+        },
+        {
+          "s": "symc",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası ince, kenarları kalın), 2. mercek (ortası kalın, kenarları ince), 3. mercek (çift taraflı ok)",
+    "correctAnswer": "1. mercek: kalın kenarlı; 2. mercek: ince kenarlı; 3. mercek: ince kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "symv",
+          "a": 1
+        },
+        {
+          "s": "bicx",
+          "a": 0
+        },
+        {
+          "s": "plcv",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (uçları içe dönük çift taraflı ok), 2. mercek (ortası kalın, kenarları ince), 3. mercek (ortası ince, kenarları kalın)",
+    "correctAnswer": "1. mercek: kalın kenarlı; 2. mercek: ince kenarlı; 3. mercek: kalın kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "zor",
+    "group": "mercek",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "symc",
+          "a": 0
+        },
+        {
+          "s": "symv",
+          "a": 1
+        },
+        {
+          "s": "plcv",
+          "a": 1
+        },
+        {
+          "s": "bicx",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (çift taraflı ok), 2. mercek (uçları içe dönük çift taraflı ok), 3. mercek (ortası ince, kenarları kalın), 4. mercek (ortası kalın, kenarları ince)",
+    "correctAnswer": "1. mercek: ince kenarlı; 2. mercek: kalın kenarlı; 3. mercek: kalın kenarlı; 4. mercek: ince kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "zor",
+    "group": "mercek",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "plcx",
+          "a": 0
+        },
+        {
+          "s": "symv",
+          "a": 1
+        },
+        {
+          "s": "bicv",
+          "a": 1
+        },
+        {
+          "s": "symc",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası kalın, kenarları ince), 2. mercek (uçları içe dönük çift taraflı ok), 3. mercek (ortası ince, kenarları kalın), 4. mercek (çift taraflı ok)",
+    "correctAnswer": "1. mercek: ince kenarlı; 2. mercek: kalın kenarlı; 3. mercek: kalın kenarlı; 4. mercek: ince kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "zor",
+    "group": "mercek",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "bicv",
+          "a": 1
+        },
+        {
+          "s": "symc",
+          "a": 0
+        },
+        {
+          "s": "plcx",
+          "a": 0
+        },
+        {
+          "s": "symv",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası ince, kenarları kalın), 2. mercek (çift taraflı ok), 3. mercek (ortası kalın, kenarları ince), 4. mercek (uçları içe dönük çift taraflı ok)",
+    "correctAnswer": "1. mercek: kalın kenarlı; 2. mercek: ince kenarlı; 3. mercek: ince kenarlı; 4. mercek: kalın kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "kolay",
+    "group": "mercek",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Mercek kutuları: Kartları doğru kutuya koy.",
+    "data": {
+      "bins": [
+        "İnce kenarlı mercek",
+        "Kalın kenarlı mercek"
+      ],
+      "cards": [
+        {
+          "t": "Işığı toplar",
+          "b": 0
+        },
+        {
+          "t": "Işığı dağıtır",
+          "b": 1
+        },
+        {
+          "t": "Ortası kalın, kenarları ince",
+          "b": 0
+        },
+        {
+          "t": "Ortası ince, kenarları kalın",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek kutuları: Kartları doğru kutuya koy. Bölmeler: İnce kenarlı mercek / Kalın kenarlı mercek. Kartlar: Işığı toplar | Işığı dağıtır | Ortası kalın, kenarları ince | Ortası ince, kenarları kalın",
+    "correctAnswer": "İnce kenarlı mercek: Işığı toplar, Ortası kalın, kenarları ince | Kalın kenarlı mercek: Işığı dağıtır, Ortası ince, kenarları kalın",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Mercek kutuları: Kartları doğru kutuya koy.",
+    "data": {
+      "bins": [
+        "İnce kenarlı (yakınsak)",
+        "Kalın kenarlı (ıraksak)"
+      ],
+      "cards": [
+        {
+          "t": "Paralel ışınlar odak noktasında toplanır",
+          "b": 0
+        },
+        {
+          "t": "Kırılan ışınların uzantıları odakta kesişir",
+          "b": 1
+        },
+        {
+          "t": "Çift taraflı okla gösterilir",
+          "b": 0
+        },
+        {
+          "t": "Uçları içe dönük çift taraflı okla gösterilir",
+          "b": 1
+        },
+        {
+          "t": "Cisimleri olduğundan küçük gösterebilir",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek kutuları: Kartları doğru kutuya koy. Bölmeler: İnce kenarlı (yakınsak) / Kalın kenarlı (ıraksak). Kartlar: Paralel ışınlar odak noktasında toplanır | Kırılan ışınların uzantıları odakta kesişir | Çift taraflı okla gösterilir | Uçları içe dönük çift taraflı okla gösterilir | Cisimleri olduğundan küçük gösterebilir",
+    "correctAnswer": "İnce kenarlı (yakınsak): Paralel ışınlar odak noktasında toplanır, Çift taraflı okla gösterilir | Kalın kenarlı (ıraksak): Kırılan ışınların uzantıları odakta kesişir, Uçları içe dönük çift taraflı okla gösterilir, Cisimleri olduğundan küçük gösterebilir",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "zor",
+    "group": "mercek",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Işın yolu raporu: Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Kırılmadan geçer",
+        "İki kez kırılır"
+      ],
+      "cards": [
+        {
+          "t": "Optik merkezden geçen ışın",
+          "b": 0
+        },
+        {
+          "t": "Asal eksene paralel gelip merceğe giren ışın",
+          "b": 1
+        },
+        {
+          "t": "Merceğin kenarına yakın giren ışın",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Işın yolu raporu: Kartları doğru bölmeye yerleştir. Bölmeler: Kırılmadan geçer / İki kez kırılır. Kartlar: Optik merkezden geçen ışın | Asal eksene paralel gelip merceğe giren ışın | Merceğin kenarına yakın giren ışın",
+    "correctAnswer": "Kırılmadan geçer: Optik merkezden geçen ışın | İki kez kırılır: Asal eksene paralel gelip merceğe giren ışın, Merceğin kenarına yakın giren ışın",
+    "explanation": "Optik merkezden geçen ışınlar merceklerden kırılmadan geçer. Diğer ışık ışınları mercekte iki defa kırılır: ilki merceğe girerken, ikincisi mercekten çıkarken.",
+    "questionId": "fen7u4-mercek-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "kolay",
+    "group": "mercek",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Malzeme dolabı: Kartları doğru rafa koy.",
+    "data": {
+      "bins": [
+        "Mercek",
+        "Mercek değil"
+      ],
+      "cards": [
+        {
+          "t": "En az bir yüzeyi küresel saydam cam",
+          "b": 0
+        },
+        {
+          "t": "Sert plastikten yapılmış saydam büyüteç camı",
+          "b": 0
+        },
+        {
+          "t": "Düz ayna",
+          "b": 1
+        },
+        {
+          "t": "Saydam olmayan plastik tarak",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Malzeme dolabı: Kartları doğru rafa koy. Bölmeler: Mercek / Mercek değil. Kartlar: En az bir yüzeyi küresel saydam cam | Sert plastikten yapılmış saydam büyüteç camı | Düz ayna | Saydam olmayan plastik tarak",
+    "correctAnswer": "Mercek: En az bir yüzeyi küresel saydam cam, Sert plastikten yapılmış saydam büyüteç camı | Mercek değil: Düz ayna, Saydam olmayan plastik tarak",
+    "explanation": "En az bir yüzeyi küresel olan, cam veya sert plastikten yapılan saydam cisimlere mercek denir. Mercekler ışınları kırarak toplama ya da dağıtma ilkesiyle çalışır.",
+    "questionId": "fen7u4-mercek-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "calc",
+    "prompt": "Optik merkezden geçmeyen bir ışın merceğe girerken bir kez kırılıyor. Mercekten çıkarken de kırılırsa toplam kaç kez kırılmış olur? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 1,
+      "op": "+",
+      "b": 1,
+      "ans": 2,
+      "unit": "kez"
+    },
+    "textPlain": "Optik merkezden geçmeyen bir ışın merceğe girerken bir kez kırılıyor. Mercekten çıkarken de kırılırsa toplam kaç kez kırılmış olur? Sayı çarklarıyla gir! İşlem: 1 + 1",
+    "correctAnswer": "2 kez",
+    "explanation": "Optik merkezden geçen ışınlar kırılmadan geçer; diğer ışınlar merceğe girerken ve çıkarken olmak üzere iki defa kırılır.",
+    "questionId": "fen7u4-mercek-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "zor",
+    "group": "mercek",
+    "rank": 3,
+    "type": "calc",
+    "prompt": "İnce kenarlı bir merceğin odak noktası 12 cm, optik merkezi 4 cm çizgisinde duruyor (aynı cetvel üzerinde). Odak uzaklığı kaç cm’dir? Sayı çarklarıyla gir!",
+    "data": {
+      "a": 12,
+      "op": "−",
+      "b": 4,
+      "ans": 8,
+      "unit": "cm"
+    },
+    "textPlain": "İnce kenarlı bir merceğin odak noktası 12 cm, optik merkezi 4 cm çizgisinde duruyor (aynı cetvel üzerinde). Odak uzaklığı kaç cm’dir? Sayı çarklarıyla gir! İşlem: 12 − 4",
+    "correctAnswer": "8 cm",
+    "explanation": "Odak noktasının optik merkeze olan uzaklığına odak uzaklığı denir: 12 − 4 = 8 cm.",
+    "questionId": "fen7u4-mercek-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 24, 27–28",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "tools",
+    "prompt": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene!",
+    "data": {
+      "mode": "kind",
+      "tags": [
+        "İNCE KENARLI",
+        "KALIN KENARLI"
+      ],
+      "items": [
+        {
+          "t": "İçi su dolu pet şişe",
+          "e": "🧴",
+          "a": 0
+        },
+        {
+          "t": "Üzerine su damlası düşen yazı",
+          "e": "💧",
+          "a": 0
+        },
+        {
+          "t": "Uzak gözlüğü",
+          "e": "🕶️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene! Araçlar: İçi su dolu pet şişe, Üzerine su damlası düşen yazı, Uzak gözlüğü",
+    "correctAnswer": "İçi su dolu pet şişe: i̇nce kenarli; Üzerine su damlası düşen yazı: i̇nce kenarli; Uzak gözlüğü: kalin kenarli",
+    "explanation": "İnce kenarlı merceğin optik merkezi ile odak noktası arasındaki cisimler büyük ve düz görünür; bu yüzden büyüteç ve okuma gözlüklerinde ince kenarlı mercek kullanılır. Kalın kenarlı mercekle cisimler küçük görülür; geniş alanı görmek için dış kapı dürbünlerinde ve uzağı görmekte zorlananların gözlüklerinde kalın kenarlı mercek bulunur. Su damlaları ve içi su dolu şişeler ince kenarlı mercek gibi davranır.",
+    "questionId": "fen7u4-kullanim-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 24, 27–28",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "tools",
+    "prompt": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene!",
+    "data": {
+      "mode": "kind",
+      "tags": [
+        "İNCE KENARLI",
+        "KALIN KENARLI"
+      ],
+      "items": [
+        {
+          "t": "Uzak gözlüğü",
+          "e": "🕶️",
+          "a": 1
+        },
+        {
+          "t": "Okuma gözlüğü",
+          "e": "👓",
+          "a": 0
+        },
+        {
+          "t": "Üzerine su damlası düşen yazı",
+          "e": "💧",
+          "a": 0
+        },
+        {
+          "t": "Dış kapı dürbünü",
+          "e": "🚪",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene! Araçlar: Uzak gözlüğü, Okuma gözlüğü, Üzerine su damlası düşen yazı, Dış kapı dürbünü",
+    "correctAnswer": "Uzak gözlüğü: kalin kenarli; Okuma gözlüğü: i̇nce kenarli; Üzerine su damlası düşen yazı: i̇nce kenarli; Dış kapı dürbünü: kalin kenarli",
+    "explanation": "İnce kenarlı merceğin optik merkezi ile odak noktası arasındaki cisimler büyük ve düz görünür; bu yüzden büyüteç ve okuma gözlüklerinde ince kenarlı mercek kullanılır. Kalın kenarlı mercekle cisimler küçük görülür; geniş alanı görmek için dış kapı dürbünlerinde ve uzağı görmekte zorlananların gözlüklerinde kalın kenarlı mercek bulunur. Su damlaları ve içi su dolu şişeler ince kenarlı mercek gibi davranır.",
+    "questionId": "fen7u4-kullanim-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 24, 27–28",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "tools",
+    "prompt": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene!",
+    "data": {
+      "mode": "kind",
+      "tags": [
+        "İNCE KENARLI",
+        "KALIN KENARLI"
+      ],
+      "items": [
+        {
+          "t": "Üzerine su damlası düşen yazı",
+          "e": "💧",
+          "a": 0
+        },
+        {
+          "t": "Büyüteç",
+          "e": "🔍",
+          "a": 0
+        },
+        {
+          "t": "Dış kapı dürbünü",
+          "e": "🚪",
+          "a": 1
+        },
+        {
+          "t": "İçi su dolu pet şişe",
+          "e": "🧴",
+          "a": 0
+        },
+        {
+          "t": "Uzak gözlüğü",
+          "e": "🕶️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene! Araçlar: Üzerine su damlası düşen yazı, Büyüteç, Dış kapı dürbünü, İçi su dolu pet şişe, Uzak gözlüğü",
+    "correctAnswer": "Üzerine su damlası düşen yazı: i̇nce kenarli; Büyüteç: i̇nce kenarli; Dış kapı dürbünü: kalin kenarli; İçi su dolu pet şişe: i̇nce kenarli; Uzak gözlüğü: kalin kenarli",
+    "explanation": "İnce kenarlı merceğin optik merkezi ile odak noktası arasındaki cisimler büyük ve düz görünür; bu yüzden büyüteç ve okuma gözlüklerinde ince kenarlı mercek kullanılır. Kalın kenarlı mercekle cisimler küçük görülür; geniş alanı görmek için dış kapı dürbünlerinde ve uzağı görmekte zorlananların gözlüklerinde kalın kenarlı mercek bulunur. Su damlaları ve içi su dolu şişeler ince kenarlı mercek gibi davranır.",
+    "questionId": "fen7u4-kullanim-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 24, 27–28",
+    "difficulty": "zor",
+    "group": "kullanim",
+    "rank": 3,
+    "type": "tools",
+    "prompt": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene!",
+    "data": {
+      "mode": "kind",
+      "tags": [
+        "İNCE KENARLI",
+        "KALIN KENARLI"
+      ],
+      "items": [
+        {
+          "t": "Büyüteç",
+          "e": "🔍",
+          "a": 0
+        },
+        {
+          "t": "Dış kapı dürbünü",
+          "e": "🚪",
+          "a": 1
+        },
+        {
+          "t": "Üzerine su damlası düşen yazı",
+          "e": "💧",
+          "a": 0
+        },
+        {
+          "t": "Uzak gözlüğü",
+          "e": "🕶️",
+          "a": 1
+        },
+        {
+          "t": "İçi su dolu pet şişe",
+          "e": "🧴",
+          "a": 0
+        },
+        {
+          "t": "Yapraktaki yağmur damlası",
+          "e": "🍃",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene! Araçlar: Büyüteç, Dış kapı dürbünü, Üzerine su damlası düşen yazı, Uzak gözlüğü, İçi su dolu pet şişe, Yapraktaki yağmur damlası",
+    "correctAnswer": "Büyüteç: i̇nce kenarli; Dış kapı dürbünü: kalin kenarli; Üzerine su damlası düşen yazı: i̇nce kenarli; Uzak gözlüğü: kalin kenarli; İçi su dolu pet şişe: i̇nce kenarli; Yapraktaki yağmur damlası: i̇nce kenarli",
+    "explanation": "İnce kenarlı merceğin optik merkezi ile odak noktası arasındaki cisimler büyük ve düz görünür; bu yüzden büyüteç ve okuma gözlüklerinde ince kenarlı mercek kullanılır. Kalın kenarlı mercekle cisimler küçük görülür; geniş alanı görmek için dış kapı dürbünlerinde ve uzağı görmekte zorlananların gözlüklerinde kalın kenarlı mercek bulunur. Su damlaları ve içi su dolu şişeler ince kenarlı mercek gibi davranır.",
+    "questionId": "fen7u4-kullanim-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "tools",
+    "prompt": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır!",
+    "data": {
+      "mode": "use",
+      "tags": [
+        "NETLEŞTİRİR",
+        "BÜYÜTÜR",
+        "BÜYÜTÜP YANSITIR"
+      ],
+      "items": [
+        {
+          "t": "Projeksiyon cihazı",
+          "e": "📽️",
+          "a": 2
+        },
+        {
+          "t": "Teleskop",
+          "e": "🔭",
+          "a": 1
+        },
+        {
+          "t": "Gözlük",
+          "e": "👓",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır! Araçlar: Projeksiyon cihazı, Teleskop, Gözlük",
+    "correctAnswer": "Projeksiyon cihazı: büyütüp yansitir; Teleskop: büyütür; Gözlük: netleşti̇ri̇r",
+    "explanation": "Gözlük, fotoğraf makinesi, kamera ve cep telefonundaki mercekler görüntüyü netleştirir. Büyüteç, mikroskop ve teleskoptaki mercekler sayesinde görüntüsü büyütülen nesneler ayrıntılı incelenir. Projeksiyon cihazı görüntünün büyütülüp yansıtılmasında kullanılır.",
+    "questionId": "fen7u4-kullanim-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "tools",
+    "prompt": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır!",
+    "data": {
+      "mode": "use",
+      "tags": [
+        "NETLEŞTİRİR",
+        "BÜYÜTÜR",
+        "BÜYÜTÜP YANSITIR"
+      ],
+      "items": [
+        {
+          "t": "Projeksiyon cihazı",
+          "e": "📽️",
+          "a": 2
+        },
+        {
+          "t": "Mikroskop",
+          "e": "🔬",
+          "a": 1
+        },
+        {
+          "t": "Gözlük",
+          "e": "👓",
+          "a": 0
+        },
+        {
+          "t": "Büyüteç",
+          "e": "🔍",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır! Araçlar: Projeksiyon cihazı, Mikroskop, Gözlük, Büyüteç",
+    "correctAnswer": "Projeksiyon cihazı: büyütüp yansitir; Mikroskop: büyütür; Gözlük: netleşti̇ri̇r; Büyüteç: büyütür",
+    "explanation": "Gözlük, fotoğraf makinesi, kamera ve cep telefonundaki mercekler görüntüyü netleştirir. Büyüteç, mikroskop ve teleskoptaki mercekler sayesinde görüntüsü büyütülen nesneler ayrıntılı incelenir. Projeksiyon cihazı görüntünün büyütülüp yansıtılmasında kullanılır.",
+    "questionId": "fen7u4-kullanim-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "tools",
+    "prompt": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır!",
+    "data": {
+      "mode": "use",
+      "tags": [
+        "NETLEŞTİRİR",
+        "BÜYÜTÜR",
+        "BÜYÜTÜP YANSITIR"
+      ],
+      "items": [
+        {
+          "t": "Gözlük",
+          "e": "👓",
+          "a": 0
+        },
+        {
+          "t": "Kameralı cep telefonu",
+          "e": "📱",
+          "a": 0
+        },
+        {
+          "t": "Mikroskop",
+          "e": "🔬",
+          "a": 1
+        },
+        {
+          "t": "Projeksiyon cihazı",
+          "e": "📽️",
+          "a": 2
+        },
+        {
+          "t": "Büyüteç",
+          "e": "🔍",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır! Araçlar: Gözlük, Kameralı cep telefonu, Mikroskop, Projeksiyon cihazı, Büyüteç",
+    "correctAnswer": "Gözlük: netleşti̇ri̇r; Kameralı cep telefonu: netleşti̇ri̇r; Mikroskop: büyütür; Projeksiyon cihazı: büyütüp yansitir; Büyüteç: büyütür",
+    "explanation": "Gözlük, fotoğraf makinesi, kamera ve cep telefonundaki mercekler görüntüyü netleştirir. Büyüteç, mikroskop ve teleskoptaki mercekler sayesinde görüntüsü büyütülen nesneler ayrıntılı incelenir. Projeksiyon cihazı görüntünün büyütülüp yansıtılmasında kullanılır.",
+    "questionId": "fen7u4-kullanim-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "zor",
+    "group": "kullanim",
+    "rank": 3,
+    "type": "tools",
+    "prompt": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır!",
+    "data": {
+      "mode": "use",
+      "tags": [
+        "NETLEŞTİRİR",
+        "BÜYÜTÜR",
+        "BÜYÜTÜP YANSITIR"
+      ],
+      "items": [
+        {
+          "t": "Mikroskop",
+          "e": "🔬",
+          "a": 1
+        },
+        {
+          "t": "Fotoğraf makinesi",
+          "e": "📷",
+          "a": 0
+        },
+        {
+          "t": "Teleskop",
+          "e": "🔭",
+          "a": 1
+        },
+        {
+          "t": "Projeksiyon cihazı",
+          "e": "📽️",
+          "a": 2
+        },
+        {
+          "t": "Gözlük",
+          "e": "👓",
+          "a": 0
+        },
+        {
+          "t": "Kameralı cep telefonu",
+          "e": "📱",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır! Araçlar: Mikroskop, Fotoğraf makinesi, Teleskop, Projeksiyon cihazı, Gözlük, Kameralı cep telefonu",
+    "correctAnswer": "Mikroskop: büyütür; Fotoğraf makinesi: netleşti̇ri̇r; Teleskop: büyütür; Projeksiyon cihazı: büyütüp yansitir; Gözlük: netleşti̇ri̇r; Kameralı cep telefonu: netleşti̇ri̇r",
+    "explanation": "Gözlük, fotoğraf makinesi, kamera ve cep telefonundaki mercekler görüntüyü netleştirir. Büyüteç, mikroskop ve teleskoptaki mercekler sayesinde görüntüsü büyütülen nesneler ayrıntılı incelenir. Projeksiyon cihazı görüntünün büyütülüp yansıtılmasında kullanılır.",
+    "questionId": "fen7u4-kullanim-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "Bez çanta",
+          "a": 0
+        },
+        {
+          "t": "Şeffaf poşet (su birikmiş)",
+          "a": 1
+        },
+        {
+          "t": "Cam şişe tabanı",
+          "a": 1
+        },
+        {
+          "t": "Karton kutu",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: Bez çanta, Şeffaf poşet (su birikmiş), Cam şişe tabanı, Karton kutu",
+    "correctAnswer": "Yangın riski: Şeffaf poşet (su birikmiş), Cam şişe tabanı",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "Cam bardak tabanı",
+          "a": 1
+        },
+        {
+          "t": "Bez çanta",
+          "a": 0
+        },
+        {
+          "t": "Kâğıt peçete",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: Cam bardak tabanı, Bez çanta, Kâğıt peçete",
+    "correctAnswer": "Yangın riski: Cam bardak tabanı",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "Cam bardak tabanı",
+          "a": 1
+        },
+        {
+          "t": "Karton kutu",
+          "a": 0
+        },
+        {
+          "t": "İçi su dolu pet şişe",
+          "a": 1
+        },
+        {
+          "t": "Ağaç dalı",
+          "a": 0
+        },
+        {
+          "t": "Şeffaf poşet (su birikmiş)",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: Cam bardak tabanı, Karton kutu, İçi su dolu pet şişe, Ağaç dalı, Şeffaf poşet (su birikmiş)",
+    "correctAnswer": "Yangın riski: Cam bardak tabanı, İçi su dolu pet şişe, Şeffaf poşet (su birikmiş)",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "Kâğıt peçete",
+          "a": 0
+        },
+        {
+          "t": "Şeffaf poşet (su birikmiş)",
+          "a": 1
+        },
+        {
+          "t": "Ağaç dalı",
+          "a": 0
+        },
+        {
+          "t": "Bez çanta",
+          "a": 0
+        },
+        {
+          "t": "Cam şişe tabanı",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: Kâğıt peçete, Şeffaf poşet (su birikmiş), Ağaç dalı, Bez çanta, Cam şişe tabanı",
+    "correctAnswer": "Yangın riski: Şeffaf poşet (su birikmiş), Cam şişe tabanı",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "zor",
+    "group": "kullanim",
+    "rank": 3,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "Şeffaf poşet (su birikmiş)",
+          "a": 1
+        },
+        {
+          "t": "Cam bardak tabanı",
+          "a": 1
+        },
+        {
+          "t": "Ağaç dalı",
+          "a": 0
+        },
+        {
+          "t": "İçi su dolu pet şişe",
+          "a": 1
+        },
+        {
+          "t": "Karton kutu",
+          "a": 0
+        },
+        {
+          "t": "Bez çanta",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: Şeffaf poşet (su birikmiş), Cam bardak tabanı, Ağaç dalı, İçi su dolu pet şişe, Karton kutu, Bez çanta",
+    "correctAnswer": "Yangın riski: Şeffaf poşet (su birikmiş), Cam bardak tabanı, İçi su dolu pet şişe",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "zor",
+    "group": "kullanim",
+    "rank": 3,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "İçi su dolu pet şişe",
+          "a": 1
+        },
+        {
+          "t": "Cam bardak tabanı",
+          "a": 1
+        },
+        {
+          "t": "Karton kutu",
+          "a": 0
+        },
+        {
+          "t": "Şeffaf poşet (su birikmiş)",
+          "a": 1
+        },
+        {
+          "t": "Cam şişe tabanı",
+          "a": 1
+        },
+        {
+          "t": "Bez çanta",
+          "a": 0
+        },
+        {
+          "t": "Ağaç dalı",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: İçi su dolu pet şişe, Cam bardak tabanı, Karton kutu, Şeffaf poşet (su birikmiş), Cam şişe tabanı, Bez çanta, Ağaç dalı",
+    "correctAnswer": "Yangın riski: İçi su dolu pet şişe, Cam bardak tabanı, Şeffaf poşet (su birikmiş), Cam şişe tabanı",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Optik vitrin: Araçları merceğin işlevine göre yerleştir.",
+    "data": {
+      "bins": [
+        "Netleştirir",
+        "Büyütür"
+      ],
+      "cards": [
+        {
+          "t": "Fotoğraf makinesi",
+          "b": 0
+        },
+        {
+          "t": "Kamera",
+          "b": 0
+        },
+        {
+          "t": "Mikroskop",
+          "b": 1
+        },
+        {
+          "t": "Teleskop",
+          "b": 1
+        },
+        {
+          "t": "Gözlük",
+          "b": 0
+        }
+      ]
+    },
+    "textPlain": "Optik vitrin: Araçları merceğin işlevine göre yerleştir. Bölmeler: Netleştirir / Büyütür. Kartlar: Fotoğraf makinesi | Kamera | Mikroskop | Teleskop | Gözlük",
+    "correctAnswer": "Netleştirir: Fotoğraf makinesi, Kamera, Gözlük | Büyütür: Mikroskop, Teleskop",
+    "explanation": "Gözlük, fotoğraf makinesi, kamera ve cep telefonundaki mercekler görüntüyü netleştirir. Büyüteç, mikroskop ve teleskoptaki mercekler sayesinde görüntüsü büyütülen nesneler ayrıntılı incelenir. Projeksiyon cihazı görüntünün büyütülüp yansıtılmasında kullanılır.",
+    "questionId": "fen7u4-kullanim-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "zor",
+    "group": "kullanim",
+    "rank": 3,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "OPMER",
+        "Mercekli araçlar"
+      ],
+      "cards": [
+        {
+          "t": "Uydu teknolojileri için hassas optik bileşen geliştirir",
+          "b": 0
+        },
+        {
+          "t": "Büyük çaplı optik bileşenleri millî imkânlarla üretir",
+          "b": 0
+        },
+        {
+          "t": "Dürbün",
+          "b": 1
+        },
+        {
+          "t": "Projeksiyon cihazı",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: OPMER / Mercekli araçlar. Kartlar: Uydu teknolojileri için hassas optik bileşen geliştirir | Büyük çaplı optik bileşenleri millî imkânlarla üretir | Dürbün | Projeksiyon cihazı",
+    "correctAnswer": "OPMER: Uydu teknolojileri için hassas optik bileşen geliştirir, Büyük çaplı optik bileşenleri millî imkânlarla üretir | Mercekli araçlar: Dürbün, Projeksiyon cihazı",
+    "explanation": "TÜBİTAK UZAY Optik Sistemler Araştırma Laboratuvarı (OPMER) başta uydu teknolojileri olmak üzere hassas optik bileşenleri millî imkânlarla geliştirmek için kurulmuştur. Gözlük, fotoğraf makinesi, dürbün, mikroskop, teleskop ve projeksiyon cihazı mercek kullanılan araçlardır.",
+    "questionId": "fen7u4-kullanim-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "sort",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "bins": [
+        "Büyük gösterir",
+        "Küçük gösterir"
+      ],
+      "cards": [
+        {
+          "t": "Büyüteç",
+          "b": 0
+        },
+        {
+          "t": "Okuma gözlüğü",
+          "b": 0
+        },
+        {
+          "t": "Dış kapı dürbünü",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Büyük gösterir / Küçük gösterir. Kartlar: Büyüteç | Okuma gözlüğü | Dış kapı dürbünü",
+    "correctAnswer": "Büyük gösterir: Büyüteç, Okuma gözlüğü | Küçük gösterir: Dış kapı dürbünü",
+    "explanation": "İnce kenarlı merceğin optik merkezi ile odak noktası arasındaki cisimler büyük ve düz görünür; bu yüzden büyüteç ve okuma gözlüklerinde ince kenarlı mercek kullanılır. Kalın kenarlı mercekle cisimler küçük görülür; geniş alanı görmek için dış kapı dürbünlerinde ve uzağı görmekte zorlananların gözlüklerinde kalın kenarlı mercek bulunur. Su damlaları ve içi su dolu şişeler ince kenarlı mercek gibi davranır.",
+    "questionId": "fen7u4-kullanim-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "kolay",
+    "group": "mercek",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "plcx",
+          "a": 0
+        },
+        {
+          "s": "plcv",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası kalın, kenarları ince), 2. mercek (ortası ince, kenarları kalın)",
+    "correctAnswer": "1. mercek: ince kenarlı; 2. mercek: kalın kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "bicv",
+          "a": 1
+        },
+        {
+          "s": "symv",
+          "a": 1
+        },
+        {
+          "s": "bicx",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (ortası ince, kenarları kalın), 2. mercek (uçları içe dönük çift taraflı ok), 3. mercek (ortası kalın, kenarları ince)",
+    "correctAnswer": "1. mercek: kalın kenarlı; 2. mercek: kalın kenarlı; 3. mercek: ince kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "zor",
+    "group": "mercek",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder!",
+    "data": {
+      "items": [
+        {
+          "s": "symv",
+          "a": 1
+        },
+        {
+          "s": "plcx",
+          "a": 0
+        },
+        {
+          "s": "symc",
+          "a": 0
+        },
+        {
+          "s": "plcv",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek tezgâhı: Tezgâhtaki merceklere dokunarak İNCE KENARLI (yakınsak) ya da KALIN KENARLI (ıraksak) etiketi koy, sonra paralel lazer ışınlarını gönder! Mercek kesitleri: 1. mercek (uçları içe dönük çift taraflı ok), 2. mercek (ortası kalın, kenarları ince), 3. mercek (çift taraflı ok), 4. mercek (ortası ince, kenarları kalın)",
+    "correctAnswer": "1. mercek: kalın kenarlı; 2. mercek: ince kenarlı; 3. mercek: ince kenarlı; 4. mercek: kalın kenarlı",
+    "explanation": "Ortası kalın, kenarları ince olan mercekler ince kenarlı (yakınsak) merceklerdir; ışığı toplar, asal eksene paralel gelen ışınlar odak noktasında toplanır ve çift taraflı okla gösterilir. Kenarları kalın, ortası ince olan mercekler kalın kenarlı (ıraksak) merceklerdir; ışığı dağıtır, kırılan ışınların uzantıları odak noktasında kesişir ve uçları içe dönük çift taraflı okla gösterilir.",
+    "questionId": "fen7u4-mercek-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18",
+    "difficulty": "kolay",
+    "group": "kavram",
+    "rank": 1,
+    "type": "angles",
+    "prompt": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "k",
+      "parts": [
+        1,
+        2,
+        0
+      ],
+      "nums": [
+        1,
+        2,
+        3
+      ],
+      "names": [
+        "Gelen ışın",
+        "Kırılan ışın",
+        "Normal"
+      ],
+      "extra": []
+    },
+    "textPlain": "Kırılma haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 1, 2, 3",
+    "correctAnswer": "1: Gelen ışın; 2: Kırılan ışın; 3: Normal",
+    "explanation": "Yüzeyin normali, ışının yüzeye temas ettiği yerden dik çizildiği varsayılan kesikli çizgidir (N). Gelen ışın saydam ortama ulaşan, kırılan ışın diğer ortama geçerken doğrultu değiştiren ışındır. Gelme açısı gelen ışın ile normal, kırılma açısı kırılan ışın ile normal arasındaki açıdır.",
+    "questionId": "fen7u4-kavram-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılma ve mercek kavramları: normal, açılar, asal eksen, odak",
+    "outcome": "Işığın kırılmasına ve merceklere ilişkin kavramları açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27",
+    "difficulty": "orta",
+    "group": "kavram",
+    "rank": 2,
+    "type": "angles",
+    "prompt": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula!",
+    "data": {
+      "mode": "m",
+      "parts": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "nums": [
+        4,
+        3,
+        1,
+        2
+      ],
+      "names": [
+        "Asal eksen",
+        "Odak noktası",
+        "Odak uzaklığı",
+        "Gelen ışın"
+      ],
+      "extra": [
+        "Optik merkez"
+      ]
+    },
+    "textPlain": "Mercek haritası: Lazer düzeneğinin numaralı parçalarına doğru adları yerleştir, sonra haritayı doğrula! Numaralı parçalar: 4, 3, 1, 2",
+    "correctAnswer": "1: Odak uzaklığı; 2: Gelen ışın; 3: Odak noktası; 4: Asal eksen",
+    "explanation": "Merceğin merkezinden geçtiği kabul edilen yatay çizgiye asal eksen, merceğin tam ortasındaki noktaya optik merkez (O) denir. İnce kenarlı merceğin asal eksenine paralel gelen ışınlar kırılarak odak noktasında (F) toplanır; odak noktasının optik merkeze uzaklığı odak uzaklığıdır. İnce kenarlı mercek çift taraflı ok ile gösterilir.",
+    "questionId": "fen7u4-kavram-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 32",
+    "difficulty": "kolay",
+    "group": "kullanim",
+    "rank": 1,
+    "type": "tools",
+    "prompt": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır!",
+    "data": {
+      "mode": "use",
+      "tags": [
+        "NETLEŞTİRİR",
+        "BÜYÜTÜR",
+        "BÜYÜTÜP YANSITIR"
+      ],
+      "items": [
+        {
+          "t": "Projeksiyon cihazı",
+          "e": "📽️",
+          "a": 2
+        },
+        {
+          "t": "Fotoğraf makinesi",
+          "e": "📷",
+          "a": 0
+        },
+        {
+          "t": "Mikroskop",
+          "e": "🔬",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Optik vitrin: Araçlara dokunarak merceğin ne işe yaradığını etiketle (NETLEŞTİRİR / BÜYÜTÜR / BÜYÜTÜP YANSITIR), sonra cihazları çalıştır! Araçlar: Projeksiyon cihazı, Fotoğraf makinesi, Mikroskop",
+    "correctAnswer": "Projeksiyon cihazı: büyütüp yansitir; Fotoğraf makinesi: netleşti̇ri̇r; Mikroskop: büyütür",
+    "explanation": "Gözlük, fotoğraf makinesi, kamera ve cep telefonundaki mercekler görüntüyü netleştirir. Büyüteç, mikroskop ve teleskoptaki mercekler sayesinde görüntüsü büyütülen nesneler ayrıntılı incelenir. Projeksiyon cihazı görüntünün büyütülüp yansıtılmasında kullanılır.",
+    "questionId": "fen7u4-kullanim-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 24, 27–28",
+    "difficulty": "zor",
+    "group": "kullanim",
+    "rank": 3,
+    "type": "tools",
+    "prompt": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene!",
+    "data": {
+      "mode": "kind",
+      "tags": [
+        "İNCE KENARLI",
+        "KALIN KENARLI"
+      ],
+      "items": [
+        {
+          "t": "Uzak gözlüğü",
+          "e": "🕶️",
+          "a": 1
+        },
+        {
+          "t": "İçi su dolu pet şişe",
+          "e": "🧴",
+          "a": 0
+        },
+        {
+          "t": "Üzerine su damlası düşen yazı",
+          "e": "💧",
+          "a": 0
+        },
+        {
+          "t": "Büyüteç",
+          "e": "🔍",
+          "a": 0
+        },
+        {
+          "t": "Dış kapı dürbünü",
+          "e": "🚪",
+          "a": 1
+        },
+        {
+          "t": "Okuma gözlüğü",
+          "e": "👓",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Gözlükçü rafı: Araçlara dokunarak içlerindeki merceğin türünü etiketle, sonra mercekten bakıp dene! Araçlar: Uzak gözlüğü, İçi su dolu pet şişe, Üzerine su damlası düşen yazı, Büyüteç, Dış kapı dürbünü, Okuma gözlüğü",
+    "correctAnswer": "Uzak gözlüğü: kalin kenarli; İçi su dolu pet şişe: i̇nce kenarli; Üzerine su damlası düşen yazı: i̇nce kenarli; Büyüteç: i̇nce kenarli; Dış kapı dürbünü: kalin kenarli; Okuma gözlüğü: i̇nce kenarli",
+    "explanation": "İnce kenarlı merceğin optik merkezi ile odak noktası arasındaki cisimler büyük ve düz görünür; bu yüzden büyüteç ve okuma gözlüklerinde ince kenarlı mercek kullanılır. Kalın kenarlı mercekle cisimler küçük görülür; geniş alanı görmek için dış kapı dürbünlerinde ve uzağı görmekte zorlananların gözlüklerinde kalın kenarlı mercek bulunur. Su damlaları ve içi su dolu şişeler ince kenarlı mercek gibi davranır.",
+    "questionId": "fen7u4-kullanim-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Merceklerin günlük hayatta kullanım alanları",
+    "outcome": "Mercekleri kullanım alanlarına göre sınıflandırır.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 28",
+    "difficulty": "orta",
+    "group": "kullanim",
+    "rank": 2,
+    "type": "fire",
+    "prompt": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak!",
+    "data": {
+      "items": [
+        {
+          "t": "Cam şişe tabanı",
+          "a": 1
+        },
+        {
+          "t": "Bez çanta",
+          "a": 0
+        },
+        {
+          "t": "Şeffaf poşet (su birikmiş)",
+          "a": 1
+        },
+        {
+          "t": "Karton kutu",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Orman devriyesi: Güneş tepede! Ormana atılmış atıklardan güneş ışığını toplayıp yangın çıkarabilecek olanlara dokunarak işaretle, sonra öğle güneşini yak! Atıklar: Cam şişe tabanı, Bez çanta, Şeffaf poşet (su birikmiş), Karton kutu",
+    "correctAnswer": "Yangın riski: Cam şişe tabanı, Şeffaf poşet (su birikmiş)",
+    "explanation": "Cam bardak ya da şişe tabanları, içi su dolu pet şişe veya şeffaf poşetler ince kenarlı mercek özelliği göstererek güneş ışığını bir noktada toplar; kuru otlar ve ağaç kabukları tutuşarak orman yangınlarına neden olabilir. Bu yüzden ormanlık alanlara atık atılmamalıdır.",
+    "questionId": "fen7u4-kullanim-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "kolay",
+    "group": "kirilma",
+    "rank": 1,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Hava",
+      "bot": "Su",
+      "dtop": 0,
+      "dbot": 1,
+      "ang": 20,
+      "frm": "top",
+      "ans": 0,
+      "perm": [
+        1,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Hava (az yoğun), alt ortam: Su (çok yoğun). Işın Hava ortamından Su ortamına, normal ile 20° açı yaparak gidiyor.",
+    "correctAnswer": "Normale yaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Işığın kırılması ve kırılma kanunları",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 18–19",
+    "difficulty": "orta",
+    "group": "kirilma",
+    "rank": 2,
+    "type": "refract",
+    "prompt": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle!",
+    "data": {
+      "top": "Su",
+      "bot": "Hava",
+      "dtop": 1,
+      "dbot": 0,
+      "ang": 35,
+      "frm": "top",
+      "ans": 2,
+      "perm": [
+        0,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Lazer yönlendirme: Lazer ışını bir saydam ortamdan diğerine geçiyor. Işının ikinci ortamda izleyeceği yolu (1, 2 ya da 3) seç, sonra lazeri ateşle! Üst ortam: Su (çok yoğun), alt ortam: Hava (az yoğun). Işın Su ortamından Hava ortamına, normal ile 35° açı yaparak gidiyor.",
+    "correctAnswer": "Normalden uzaklaşır",
+    "explanation": "Işık ışınları az yoğun saydam ortamdan çok yoğun saydam ortama geçerken normale yaklaşarak kırılır (kırılma açısı gelme açısından küçüktür); çok yoğun ortamdan az yoğun ortama geçerken normalden uzaklaşarak kırılır (kırılma açısı gelme açısından büyüktür). Yüzeye dik gelen ışınlar kırılmadan geçer, yalnızca hızları değişir. Su, havadan daha yoğundur.",
+    "questionId": "fen7u4-kirilma-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "Kırılmanın sonuçları: görünür konum, prizma ve gökkuşağı",
+    "outcome": "Işığın kırılmasına yönelik bilimsel çıkarım yapar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 15, 18",
+    "difficulty": "orta",
+    "group": "gorunum",
+    "rank": 2,
+    "type": "apparent",
+    "prompt": "Görünür konum: Havuzun dibindeki kurbağa, havuz kenarındaki kediye bakıyor. Gözlemci kedi nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz!",
+    "data": {
+      "k": "kurbaga",
+      "oe": "🐈",
+      "ee": "🐸",
+      "eye": "water",
+      "ans": 2,
+      "perm": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Görünür konum: Havuzun dibindeki kurbağa, havuz kenarındaki kediye bakıyor. Gözlemci kedi nerede görür? A, B ya da C konumunu seç, sonra ışınları çiz! Konumlar: gerçek konum, gerçekten daha yakın, gerçekten daha uzak.",
+    "correctAnswer": "Olduğundan daha uzakta",
+    "explanation": "Işık havadan suya veya sudan havaya geçerken kırılır. İskelede balık tutan adam su içindeki dalgıcı gerçek konumundan daha yakında görür; sudan havaya bakan dalgıç ise iskeledeki adamı olduğundan daha uzakta görür. Sudaki balıklar yüzeye daha yakın görünür; su dolu bardaktaki kalem kırılmış gibi görünür.",
+    "questionId": "fen7u4-gorunum-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "4. Ünite: Işığın Kırılması ve Mercekler",
+    "topic": "İnce kenarlı ve kalın kenarlı mercekler",
+    "outcome": "Merceklerin niteliklerini tanımlar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 4. Ünite “Işığın Kırılması ve Mercekler”, s. 27–28",
+    "difficulty": "orta",
+    "group": "mercek",
+    "rank": 2,
+    "type": "sort",
+    "prompt": "Mercek sözlüğü: Kartları doğru kavrama yerleştir.",
+    "data": {
+      "bins": [
+        "Optik merkez (O)",
+        "Odak noktası (F)",
+        "Asal eksen"
+      ],
+      "cards": [
+        {
+          "t": "Merceğin tam ortasındaki nokta",
+          "b": 0
+        },
+        {
+          "t": "Paralel ışınların toplandığı nokta",
+          "b": 1
+        },
+        {
+          "t": "Merceğin merkezinden geçen yatay çizgi",
+          "b": 2
+        },
+        {
+          "t": "Kalın kenarlı mercekte uzantıların kesiştiği nokta",
+          "b": 1
+        }
+      ]
+    },
+    "textPlain": "Mercek sözlüğü: Kartları doğru kavrama yerleştir. Bölmeler: Optik merkez (O) / Odak noktası (F) / Asal eksen. Kartlar: Merceğin tam ortasındaki nokta | Paralel ışınların toplandığı nokta | Merceğin merkezinden geçen yatay çizgi | Kalın kenarlı mercekte uzantıların kesiştiği nokta",
+    "correctAnswer": "Optik merkez (O): Merceğin tam ortasındaki nokta | Odak noktası (F): Paralel ışınların toplandığı nokta, Kalın kenarlı mercekte uzantıların kesiştiği nokta | Asal eksen: Merceğin merkezinden geçen yatay çizgi",
+    "explanation": "Asal eksen merceğin merkezinden geçtiği kabul edilen yatay çizgidir; optik merkez (O) merceğin tam ortasıdır. İnce kenarlı mercekte paralel ışınlar odak noktasında (F) toplanır; kalın kenarlı mercekte kırılan ışınların uzantıları odak noktasında kesişir.",
+    "questionId": "fen7u4-mercek-19"
+  }
+]
