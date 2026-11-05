@@ -1,0 +1,3107 @@
+[
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "yuk",
+    "rank": 1,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 1,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "it"
+        }
+      ],
+      "sol": [
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi + yüklü. Hedefler: K ile L birbirini itsin.",
+    "correctAnswer": "Örnek çözüm: K + yüklü, L + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "yuk",
+    "rank": 1,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": -1,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "it"
+        }
+      ],
+      "sol": [
+        -1,
+        -1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi − yüklü. Hedefler: K ile L birbirini itsin.",
+    "correctAnswer": "Örnek çözüm: K − yüklü, L − yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "yuk",
+    "rank": 1,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 0,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "yok"
+        }
+      ],
+      "sol": [
+        0,
+        0
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi nötr. Hedefler: K ile L birbirine kuvvet uygulamasın.",
+    "correctAnswer": "Örnek çözüm: K nötr, L nötr",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "kolay",
+    "group": "yuk",
+    "rank": 1,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": -1,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        -1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi − yüklü. Hedefler: K ile L birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K − yüklü, L + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 1,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "it"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        1,
+        1,
+        -1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi + yüklü. Hedefler: K ile L birbirini itsin; L ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K + yüklü, L + yüklü, M − yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": -1,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "çek"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "it"
+        }
+      ],
+      "sol": [
+        -1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi − yüklü. Hedefler: K ile L birbirini çeksin; L ile M birbirini itsin.",
+    "correctAnswer": "Örnek çözüm: K − yüklü, L + yüklü, M + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 1,
+          "cnt": [
+            2,
+            1
+          ]
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "it"
+        }
+      ],
+      "sol": [
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi + yüklü (2 artı, 1 eksi yük). Hedefler: K ile L birbirini itsin.",
+    "correctAnswer": "Örnek çözüm: K + yüklü, L + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": -1,
+          "cnt": [
+            2,
+            4
+          ]
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        -1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi − yüklü (2 artı, 4 eksi yük). Hedefler: K ile L birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K − yüklü, L + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": 0,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "it"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        1,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: M küresi nötr. Hedefler: K ile L birbirini itsin; L ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K + yüklü, L + yüklü, M nötr",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 1,
+          "cnt": [
+            4,
+            2
+          ]
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "çek"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "it"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        1,
+        -1,
+        -1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi + yüklü (4 artı, 2 eksi yük). Hedefler: K ile L birbirini çeksin; L ile M birbirini itsin; K ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K + yüklü, L − yüklü, M − yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": -1,
+          "cnt": [
+            4,
+            5
+          ]
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "it"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "r": "çek"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi − yüklü (4 artı, 5 eksi yük). Hedefler: K ile L birbirini itsin; K ile M birbirini çeksin; L ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K − yüklü, L − yüklü, M + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "yok"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        0,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: . Hedefler: K ile L birbirine kuvvet uygulamasın; L ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K nötr, L nötr, M + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 1,
+          "cnt": [
+            3,
+            2
+          ]
+        },
+        {
+          "n": "L",
+          "c": -1,
+          "cnt": [
+            3,
+            4
+          ]
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 2,
+          "r": "it"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        1,
+        -1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi + yüklü (3 artı, 2 eksi yük), L küresi − yüklü (3 artı, 4 eksi yük). Hedefler: K ile M birbirini itsin; L ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K + yüklü, L − yüklü, M + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "hang",
+    "prompt": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak.",
+    "data": {
+      "balls": [
+        {
+          "n": "K",
+          "c": 0,
+          "cnt": null
+        },
+        {
+          "n": "L",
+          "c": null,
+          "cnt": null
+        },
+        {
+          "n": "M",
+          "c": null,
+          "cnt": null
+        }
+      ],
+      "goals": [
+        {
+          "i": 0,
+          "j": 1,
+          "r": "çek"
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "r": "it"
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "r": "çek"
+        }
+      ],
+      "sol": [
+        0,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: İpe asılı küreleri yükle! Kilitsiz kürelere dokunarak yükünü seç (+ / − / nötr), hedefler sağlanınca küreleri serbest bırak. Sabit küreler: K küresi nötr. Hedefler: K ile L birbirini çeksin; L ile M birbirini itsin; K ile M birbirini çeksin.",
+    "correctAnswer": "Örnek çözüm: K nötr, L + yüklü, M + yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "kolay",
+    "group": "surt",
+    "rank": 1,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında kâğıt parçalarını çekebilecek yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "any",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında kâğıt parçalarını çekebilecek yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Herhangi bir çubuğu kumaşa iyice sürtmek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "kolay",
+    "group": "surt",
+    "rank": 1,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "negrod",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Plastik çubuğu kumaşa sürtmek (ör. plastik–yün)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "kolay",
+    "group": "surt",
+    "rank": 1,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "posrod",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Cam çubuğu kumaşa sürtmek (ör. cam–ipek)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "kolay",
+    "group": "surt",
+    "rank": 1,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında kâğıt parçalarını çekebilecek yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "any",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında kâğıt parçalarını çekebilecek yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Herhangi bir çubuğu kumaşa iyice sürtmek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "orta",
+    "group": "surt",
+    "rank": 2,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "poscloth",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Yün kumaşı plastik çubuğa sürtmek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "orta",
+    "group": "surt",
+    "rank": 2,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "negcloth",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "İpek kumaşı cam çubuğa sürtmek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "orta",
+    "group": "surt",
+    "rank": 2,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "negrod",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Plastik çubuğu kumaşa sürtmek (ör. plastik–yün)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "orta",
+    "group": "surt",
+    "rank": 2,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "posrod",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Cam çubuğu kumaşa sürtmek (ör. cam–ipek)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "zor",
+    "group": "surt",
+    "rank": 3,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında birbirini ÇEKECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et.",
+    "data": {
+      "goal": "attract",
+      "two": true
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında birbirini ÇEKECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Bir tezgâhta plastik–yün, diğerinde cam–ipek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "zor",
+    "group": "surt",
+    "rank": 3,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında birbirini İTECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et.",
+    "data": {
+      "goal": "repel",
+      "two": true
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında birbirini İTECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "İki tezgâhta da aynı tür çubuk (ör. iki plastik çubuk yüne sürtülür)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "zor",
+    "group": "surt",
+    "rank": 3,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında birbirini ÇEKECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et.",
+    "data": {
+      "goal": "attract",
+      "two": true
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında birbirini ÇEKECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Bir tezgâhta plastik–yün, diğerinde cam–ipek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "zor",
+    "group": "surt",
+    "rank": 3,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında birbirini İTECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et.",
+    "data": {
+      "goal": "repel",
+      "two": true
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında birbirini İTECEK iki çubuk hazırla! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt (iki tezgâhta da), sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "İki tezgâhta da aynı tür çubuk (ör. iki plastik çubuk yüne sürtülür)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "orta",
+    "group": "surt",
+    "rank": 2,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "poscloth",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında POZİTİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "Yün kumaşı plastik çubuğa sürtmek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "zor",
+    "group": "surt",
+    "rank": 3,
+    "type": "rub",
+    "prompt": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et.",
+    "data": {
+      "goal": "negcloth",
+      "two": false
+    },
+    "textPlain": "Kutudaki deney: Sürtünme tezgâhında NEGATİF yüklü bir kumaş elde et! Çubuk ve kumaş seç, çubuğu kumaşa parmağınla sağa-sola sürt, sonra deneyi test et. Çubuklar: plastik çubuk, cam çubuk. Kumaşlar: yün kumaş, ipek kumaş.",
+    "correctAnswer": "İpek kumaşı cam çubuğa sürtmek",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında yalıtkan saplı nötr metal topu NEGATİF yükle! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "neg",
+      "ok": [
+        "-"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında yalıtkan saplı nötr metal topu NEGATİF yükle! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: negatif yüklü B küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında nötr metal topu POZİTİF yükle! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "pos",
+      "ok": [
+        "+"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında nötr metal topu POZİTİF yükle! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: pozitif yüklü A küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki elektroskobun topuzuna değdiğinde yapraklar NEGATİF yükle açılsın! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "scope",
+      "ok": [
+        "-"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki elektroskobun topuzuna değdiğinde yapraklar NEGATİF yükle açılsın! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: negatif yüklü B küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki POZİTİF yüklü test küresi onu İTSİN! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "repelP",
+      "ok": [
+        "+"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki POZİTİF yüklü test küresi onu İTSİN! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: pozitif yüklü A küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki NEGATİF yüklü test küresi onu İTSİN! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "repelN",
+      "ok": [
+        "-"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki NEGATİF yüklü test küresi onu İTSİN! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: negatif yüklü B küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "zor",
+    "group": "dokun",
+    "rank": 3,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki POZİTİF yüklü test küresi onu ÇEKSİN (nötr bırakma!)! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "attractP",
+      "ok": [
+        "-"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki POZİTİF yüklü test küresi onu ÇEKSİN (nötr bırakma!)! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: negatif yüklü B küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında yalıtkan saplı nötr metal topu NEGATİF yükle! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "neg",
+      "ok": [
+        "-"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında yalıtkan saplı nötr metal topu NEGATİF yükle! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: negatif yüklü B küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+    "difficulty": "zor",
+    "group": "dokun",
+    "rank": 3,
+    "type": "touch",
+    "prompt": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki NEGATİF yüklü test küresi onu İTSİN! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et.",
+    "data": {
+      "goal": "repelN",
+      "ok": [
+        "-"
+      ]
+    },
+    "textPlain": "Kutudaki deney: Dokunma tezgâhında topu öyle yükle ki NEGATİF yüklü test küresi onu İTSİN! Topu sürükleyip bir küreye dokundur (ya da küreye dokun), sonra deneyi test et. Masada pozitif yüklü A küresi ve negatif yüklü B küresi var.",
+    "correctAnswer": "Dokundurulacak küre: negatif yüklü B küresi",
+    "explanation": "Dokunma ile elektriklenmede temas sağlanınca negatif yükler yer değiştirir, toplam yük korunarak yük paylaşılır ve cisimler son durumda AYNI elektrik yüküyle yüklenir. Örneğin pozitif yüklü küreye nötr çubuk dokundurulunca ikisi de pozitif olur. Aynı yüklü cisimler birbirini iter.",
+    "questionId": "fen7u6-dokun-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (pozitif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": 1,
+      "cnt": null
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (pozitif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: pozitif yüklü çubuk.",
+    "correctAnswer": "Yakın taraf −, uzak taraf +",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (negatif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": -1,
+      "cnt": null
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (negatif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: negatif yüklü çubuk.",
+    "correctAnswer": "Yakın taraf +, uzak taraf −",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (negatif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": -1,
+      "cnt": null
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (negatif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: negatif yüklü çubuk.",
+    "correctAnswer": "Yakın taraf +, uzak taraf −",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (pozitif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": 1,
+      "cnt": null
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (pozitif yüklü çubuk). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: pozitif yüklü çubuk.",
+    "correctAnswer": "Yakın taraf −, uzak taraf +",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 6 artı ve 2 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": 1,
+      "cnt": [
+        6,
+        2
+      ]
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 6 artı ve 2 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: çubukta 6 artı ve 2 eksi yük var.",
+    "correctAnswer": "Yakın taraf −, uzak taraf +",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "zor",
+    "group": "dokun",
+    "rank": 3,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 2 artı ve 5 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": -1,
+      "cnt": [
+        2,
+        5
+      ]
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 2 artı ve 5 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: çubukta 2 artı ve 5 eksi yük var.",
+    "correctAnswer": "Yakın taraf +, uzak taraf −",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "zor",
+    "group": "dokun",
+    "rank": 3,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 5 artı ve 3 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": 1,
+      "cnt": [
+        5,
+        3
+      ]
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 5 artı ve 3 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: çubukta 5 artı ve 3 eksi yük var.",
+    "correctAnswer": "Yakın taraf −, uzak taraf +",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 119",
+    "difficulty": "zor",
+    "group": "dokun",
+    "rank": 3,
+    "type": "induce",
+    "prompt": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 3 artı ve 6 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle!",
+    "data": {
+      "rod": -1,
+      "cnt": [
+        3,
+        6
+      ]
+    },
+    "textPlain": "Kutudaki deney: Nötr metal küreye yüklü çubuk dokundurulmadan yaklaşıyor (çubukta 3 artı ve 6 eksi yük var). Çubuğu küreye doğru sürükle, kürenin YAKIN ve UZAK yarısına dokunarak oluşacak yükleri yerleştir, sonra elektronları izle! Çubuk: çubukta 3 artı ve 6 eksi yük var.",
+    "correctAnswer": "Yakın taraf +, uzak taraf −",
+    "explanation": "Temassız (etki ile) elektriklenmede cisimler birbirine dokunmaz. Nötr iletken küreye pozitif yüklü çubuk yaklaştırılınca çubuk, küredeki negatif yükleri en yakın noktaya çeker; kürenin uzak tarafında elektron eksikliği olduğundan pozitif yük fazlalığı oluşur. Çubuk negatif yüklüyse elektronlar uzak tarafa itilir: yakın taraf pozitif, uzak taraf negatif olur.",
+    "questionId": "fen7u6-dokun-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında otomobil boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "otomobil",
+      "spray": 1,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında otomobil boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: + yüklü; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "buzdolabı",
+      "spray": -1,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: − yüklü; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında otomobil boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "otomobil",
+      "spray": null,
+      "body": -1
+    },
+    "textPlain": "Kutudaki deney: Boya hattında otomobil boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: − yüklü.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında çamaşır makinesi boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "çamaşır makinesi",
+      "spray": null,
+      "body": 1
+    },
+    "textPlain": "Kutudaki deney: Boya hattında çamaşır makinesi boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: + yüklü.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Sprey ve gövdenin yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "buzdolabı",
+      "spray": null,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Sprey ve gövdenin yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında otomobil boyanacak. Sprey ve gövdenin yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "otomobil",
+      "spray": null,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında otomobil boyanacak. Sprey ve gövdenin yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "zor",
+    "group": "tekno",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında otomobil kapısı boyanacak. Sprey ve gövdenin yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "otomobil kapısı",
+      "spray": null,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında otomobil kapısı boyanacak. Sprey ve gövdenin yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "zor",
+    "group": "tekno",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "buzdolabı",
+      "spray": 1,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: + yüklü; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "zor",
+    "group": "tekno",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında fırın boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "fırın",
+      "spray": null,
+      "body": -1
+    },
+    "textPlain": "Kutudaki deney: Boya hattında fırın boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: − yüklü.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        },
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        },
+        {
+          "t": "Masa lambası",
+          "e": "💡",
+          "a": 0
+        },
+        {
+          "t": "Otomobil boyama hattı",
+          "e": "🚗",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Su ısıtıcısı, Tost makinesi, Masa lambası, Otomobil boyama hattı",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Otomobil boyama hattı",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Toz torbalı elektrik süpürgesi",
+          "e": "🧹",
+          "a": 1
+        },
+        {
+          "t": "Lazer yazıcı",
+          "e": "🖨️",
+          "a": 1
+        },
+        {
+          "t": "Masa lambası",
+          "e": "💡",
+          "a": 0
+        },
+        {
+          "t": "Klima",
+          "e": "❄️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Toz torbalı elektrik süpürgesi, Lazer yazıcı, Masa lambası, Klima",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Toz torbalı elektrik süpürgesi, Lazer yazıcı, Klima",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Davlumbaz baca filtresi",
+          "e": "🍳",
+          "a": 1
+        },
+        {
+          "t": "Masa lambası",
+          "e": "💡",
+          "a": 0
+        },
+        {
+          "t": "Klima",
+          "e": "❄️",
+          "a": 1
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Davlumbaz baca filtresi, Masa lambası, Klima, Su ısıtıcısı, Parmak izi tozlama seti",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Davlumbaz baca filtresi, Klima, Parmak izi tozlama seti",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Davlumbaz baca filtresi",
+          "e": "🍳",
+          "a": 1
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        },
+        {
+          "t": "Lazer yazıcı",
+          "e": "🖨️",
+          "a": 1
+        },
+        {
+          "t": "Otomobil boyama hattı",
+          "e": "🚗",
+          "a": 1
+        },
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        },
+        {
+          "t": "Ütü",
+          "e": "👔",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Davlumbaz baca filtresi, Parmak izi tozlama seti, Lazer yazıcı, Otomobil boyama hattı, Tost makinesi, Ütü",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Davlumbaz baca filtresi, Parmak izi tozlama seti, Lazer yazıcı, Otomobil boyama hattı",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "zor",
+    "group": "tekno",
+    "rank": 3,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        },
+        {
+          "t": "Otomobil boyama hattı",
+          "e": "🚗",
+          "a": 1
+        },
+        {
+          "t": "Ütü",
+          "e": "👔",
+          "a": 0
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        },
+        {
+          "t": "Masa lambası",
+          "e": "💡",
+          "a": 0
+        },
+        {
+          "t": "Toz torbalı elektrik süpürgesi",
+          "e": "🧹",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Tost makinesi, Parmak izi tozlama seti, Otomobil boyama hattı, Ütü, Su ısıtıcısı, Masa lambası, Toz torbalı elektrik süpürgesi",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Parmak izi tozlama seti, Otomobil boyama hattı, Toz torbalı elektrik süpürgesi",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "zor",
+    "group": "tekno",
+    "rank": 3,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        },
+        {
+          "t": "Lazer yazıcı",
+          "e": "🖨️",
+          "a": 1
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        },
+        {
+          "t": "Ütü",
+          "e": "👔",
+          "a": 0
+        },
+        {
+          "t": "Klima",
+          "e": "❄️",
+          "a": 1
+        },
+        {
+          "t": "Toz torbalı elektrik süpürgesi",
+          "e": "🧹",
+          "a": 1
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        },
+        {
+          "t": "Davlumbaz baca filtresi",
+          "e": "🍳",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Tost makinesi, Lazer yazıcı, Su ısıtıcısı, Ütü, Klima, Toz torbalı elektrik süpürgesi, Parmak izi tozlama seti, Davlumbaz baca filtresi",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Lazer yazıcı, Klima, Toz torbalı elektrik süpürgesi, Parmak izi tozlama seti, Davlumbaz baca filtresi",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Otomobil boyama hattı",
+          "e": "🚗",
+          "a": 1
+        },
+        {
+          "t": "Klima",
+          "e": "❄️",
+          "a": 1
+        },
+        {
+          "t": "Ütü",
+          "e": "👔",
+          "a": 0
+        },
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        },
+        {
+          "t": "Toz torbalı elektrik süpürgesi",
+          "e": "🧹",
+          "a": 1
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Otomobil boyama hattı, Klima, Ütü, Tost makinesi, Toz torbalı elektrik süpürgesi, Su ısıtıcısı",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Otomobil boyama hattı, Klima, Toz torbalı elektrik süpürgesi",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "zor",
+    "group": "tekno",
+    "rank": 3,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Davlumbaz baca filtresi",
+          "e": "🍳",
+          "a": 1
+        },
+        {
+          "t": "Otomobil boyama hattı",
+          "e": "🚗",
+          "a": 1
+        },
+        {
+          "t": "Ütü",
+          "e": "👔",
+          "a": 0
+        },
+        {
+          "t": "Lazer yazıcı",
+          "e": "🖨️",
+          "a": 1
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        },
+        {
+          "t": "Toz torbalı elektrik süpürgesi",
+          "e": "🧹",
+          "a": 1
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        },
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Davlumbaz baca filtresi, Otomobil boyama hattı, Ütü, Lazer yazıcı, Su ısıtıcısı, Toz torbalı elektrik süpürgesi, Parmak izi tozlama seti, Tost makinesi",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Davlumbaz baca filtresi, Otomobil boyama hattı, Lazer yazıcı, Toz torbalı elektrik süpürgesi, Parmak izi tozlama seti",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "kolay",
+    "group": "doga",
+    "rank": 1,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat!",
+    "data": {
+      "mode": "bolt",
+      "kinds": [
+        0,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat! Kayıtta 3 boşalma var.",
+    "correctAnswer": "Bulut-yer arasındaki boşalmalar yıldırım, bulut-bulut arasındakiler şimşektir",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "kolay",
+    "group": "doga",
+    "rank": 1,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat.",
+    "data": {
+      "mode": "rod"
+    },
+    "textPlain": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat. Seçenekler: binanın tepesi, pencere kenarı, bodrum; tel: toprağa, su deposuna, havaya.",
+    "correctAnswer": "Paratoner binanın en tepesine konur, teli toprağa bağlanır",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "kolay",
+    "group": "doga",
+    "rank": 1,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle.",
+    "data": {
+      "mode": "cage",
+      "seed": 1
+    },
+    "textPlain": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle. Seçenekler: metal gövdeli araba içi, ağaç altı, açık alan, metal kafes dışı.",
+    "correctAnswer": "Metal gövdeli araç (Faraday kafesi) içi",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "orta",
+    "group": "doga",
+    "rank": 2,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat!",
+    "data": {
+      "mode": "bolt",
+      "kinds": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat! Kayıtta 4 boşalma var.",
+    "correctAnswer": "Bulut-yer arasındaki boşalmalar yıldırım, bulut-bulut arasındakiler şimşektir",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "orta",
+    "group": "doga",
+    "rank": 2,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat.",
+    "data": {
+      "mode": "rod"
+    },
+    "textPlain": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat. Seçenekler: binanın tepesi, pencere kenarı, bodrum; tel: toprağa, su deposuna, havaya.",
+    "correctAnswer": "Paratoner binanın en tepesine konur, teli toprağa bağlanır",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "orta",
+    "group": "doga",
+    "rank": 2,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle.",
+    "data": {
+      "mode": "cage",
+      "seed": 2
+    },
+    "textPlain": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle. Seçenekler: metal gövdeli araba içi, ağaç altı, açık alan, metal kafes dışı.",
+    "correctAnswer": "Metal gövdeli araç (Faraday kafesi) içi",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "zor",
+    "group": "doga",
+    "rank": 3,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat!",
+    "data": {
+      "mode": "bolt",
+      "kinds": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat! Kayıtta 5 boşalma var.",
+    "correctAnswer": "Bulut-yer arasındaki boşalmalar yıldırım, bulut-bulut arasındakiler şimşektir",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "zor",
+    "group": "doga",
+    "rank": 3,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat.",
+    "data": {
+      "mode": "rod"
+    },
+    "textPlain": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat. Seçenekler: binanın tepesi, pencere kenarı, bodrum; tel: toprağa, su deposuna, havaya.",
+    "correctAnswer": "Paratoner binanın en tepesine konur, teli toprağa bağlanır",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "zor",
+    "group": "doga",
+    "rank": 3,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat!",
+    "data": {
+      "mode": "bolt",
+      "kinds": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat! Kayıtta 6 boşalma var.",
+    "correctAnswer": "Bulut-yer arasındaki boşalmalar yıldırım, bulut-bulut arasındakiler şimşektir",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "orta",
+    "group": "doga",
+    "rank": 2,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat!",
+    "data": {
+      "mode": "bolt",
+      "kinds": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat! Kayıtta 5 boşalma var.",
+    "correctAnswer": "Bulut-yer arasındaki boşalmalar yıldırım, bulut-bulut arasındakiler şimşektir",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "zor",
+    "group": "doga",
+    "rank": 3,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle.",
+    "data": {
+      "mode": "cage",
+      "seed": 3
+    },
+    "textPlain": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle. Seçenekler: metal gövdeli araba içi, ağaç altı, açık alan, metal kafes dışı.",
+    "correctAnswer": "Metal gövdeli araç (Faraday kafesi) içi",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 113, 121",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları sola (TEMASLI) ya da sağa (TEMASSIZ) fırlat!",
+    "data": {
+      "l": "Temaslı",
+      "r": "Temassız",
+      "cards": [
+        {
+          "t": "Plastik tarakla saçı taramak",
+          "a": 0
+        },
+        {
+          "t": "Yüklü kalemin kâğıt parçalarını çekmesi",
+          "a": 1
+        },
+        {
+          "t": "Kapı koluna dokununca çıtırtı",
+          "a": 0
+        },
+        {
+          "t": "Televizyon ekranının tozları çekmesi",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları sola (TEMASLI) ya da sağa (TEMASSIZ) fırlat! Sol: Temaslı, sağ: Temassız. Kartlar: Plastik tarakla saçı taramak | Yüklü kalemin kâğıt parçalarını çekmesi | Kapı koluna dokununca çıtırtı | Televizyon ekranının tozları çekmesi",
+    "correctAnswer": "Plastik tarakla saçı taramak: Temaslı; Yüklü kalemin kâğıt parçalarını çekmesi: Temassız; Kapı koluna dokununca çıtırtı: Temaslı; Televizyon ekranının tozları çekmesi: Temassız",
+    "explanation": "Sürtünme ve dokunma ile elektriklenme temaslıdır; etki ile elektriklenme temassızdır (cisimler birbirine dokunmaz).",
+    "questionId": "fen7u6-dokun-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 106, 112, 121, 124",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları sola (TEMASLI) ya da sağa (TEMASSIZ) fırlat!",
+    "data": {
+      "l": "Temaslı",
+      "r": "Temassız",
+      "cards": [
+        {
+          "t": "Yüklü balonun tavanda asılı kalması",
+          "a": 1
+        },
+        {
+          "t": "Yün kazak giyerken çıtırtı",
+          "a": 0
+        },
+        {
+          "t": "Yüklü balonun akan suyu çekmesi",
+          "a": 1
+        },
+        {
+          "t": "Kaydıraktan kayarken elektriklenme",
+          "a": 0
+        },
+        {
+          "t": "Yüklü balonun pipeti döndürmesi",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları sola (TEMASLI) ya da sağa (TEMASSIZ) fırlat! Sol: Temaslı, sağ: Temassız. Kartlar: Yüklü balonun tavanda asılı kalması | Yün kazak giyerken çıtırtı | Yüklü balonun akan suyu çekmesi | Kaydıraktan kayarken elektriklenme | Yüklü balonun pipeti döndürmesi",
+    "correctAnswer": "Yüklü balonun tavanda asılı kalması: Temassız; Yün kazak giyerken çıtırtı: Temaslı; Yüklü balonun akan suyu çekmesi: Temassız; Kaydıraktan kayarken elektriklenme: Temaslı; Yüklü balonun pipeti döndürmesi: Temassız",
+    "explanation": "Sürtünme ve dokunma ile elektriklenme temaslıdır; etki ile elektriklenme temassızdır (cisimler birbirine dokunmaz).",
+    "questionId": "fen7u6-dokun-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116",
+    "difficulty": "kolay",
+    "group": "yuk",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Cisimleri sola (POZİTİF) ya da sağa (NEGATİF) fırlat!",
+    "data": {
+      "l": "Pozitif yüklü",
+      "r": "Negatif yüklü",
+      "cards": [
+        {
+          "t": "5 artı, 2 eksi yük",
+          "a": 0
+        },
+        {
+          "t": "3 artı, 6 eksi yük",
+          "a": 1
+        },
+        {
+          "t": "Elektron kaybetmiş cisim",
+          "a": 0
+        },
+        {
+          "t": "Elektron kazanmış cisim",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Cisimleri sola (POZİTİF) ya da sağa (NEGATİF) fırlat! Sol: Pozitif yüklü, sağ: Negatif yüklü. Kartlar: 5 artı, 2 eksi yük | 3 artı, 6 eksi yük | Elektron kaybetmiş cisim | Elektron kazanmış cisim",
+    "correctAnswer": "5 artı, 2 eksi yük: Pozitif yüklü; 3 artı, 6 eksi yük: Negatif yüklü; Elektron kaybetmiş cisim: Pozitif yüklü; Elektron kazanmış cisim: Negatif yüklü",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür. Elektron kaybeden cisim pozitif, elektron kazanan cisim negatif yüklü olur.",
+    "questionId": "fen7u6-yuk-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 117–118",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Cisim çiftlerini sola (İTER) ya da sağa (ÇEKER) fırlat!",
+    "data": {
+      "l": "Birbirini iter",
+      "r": "Birbirini çeker",
+      "cards": [
+        {
+          "t": "Pozitif ile pozitif",
+          "a": 0
+        },
+        {
+          "t": "Negatif ile pozitif",
+          "a": 1
+        },
+        {
+          "t": "Nötr ile negatif",
+          "a": 1
+        },
+        {
+          "t": "Negatif ile negatif",
+          "a": 0
+        },
+        {
+          "t": "Nötr ile pozitif",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Cisim çiftlerini sola (İTER) ya da sağa (ÇEKER) fırlat! Sol: Birbirini iter, sağ: Birbirini çeker. Kartlar: Pozitif ile pozitif | Negatif ile pozitif | Nötr ile negatif | Negatif ile negatif | Nötr ile pozitif",
+    "correctAnswer": "Pozitif ile pozitif: Birbirini iter; Negatif ile pozitif: Birbirini çeker; Nötr ile negatif: Birbirini çeker; Negatif ile negatif: Birbirini iter; Nötr ile pozitif: Birbirini çeker",
+    "explanation": "Aynı elektrik yüküne sahip cisimler birbirini iter, zıt yüklü cisimler birbirini çeker. Nötr bir cisim (+) ya da (−) yüklü bir cisme yaklaştırıldığında aralarında çekme oluşur; iki nötr cisim birbirine itme ya da çekme kuvveti uygulamaz. Pozitif yük miktarı fazla olan cisim pozitif, negatif yük miktarı fazla olan negatif, eşit olan nötrdür.",
+    "questionId": "fen7u6-yuk-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 107, 112",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Parçacıkları sola ya da sağa fırlat!",
+    "data": {
+      "l": "Elektriklenmede yer değiştirir",
+      "r": "Yer değiştirmez",
+      "cards": [
+        {
+          "t": "Elektron",
+          "a": 0
+        },
+        {
+          "t": "Proton",
+          "a": 1
+        },
+        {
+          "t": "Nötron",
+          "a": 1
+        },
+        {
+          "t": "Negatif yüklü parçacık",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Parçacıkları sola ya da sağa fırlat! Sol: Elektriklenmede yer değiştirir, sağ: Yer değiştirmez. Kartlar: Elektron | Proton | Nötron | Negatif yüklü parçacık",
+    "correctAnswer": "Elektron: Elektriklenmede yer değiştirir; Proton: Yer değiştirmez; Nötron: Yer değiştirmez; Negatif yüklü parçacık: Elektriklenmede yer değiştirir",
+    "explanation": "Elektriklenme, cisimlerin sahip olduğu negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle gerçekleşir; protonlar ve nötronlar yer değiştirmez. Nötronlar yük taşımaz.",
+    "questionId": "fen7u6-yuk-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 106–107",
+    "difficulty": "kolay",
+    "group": "surt",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları sola ya da sağa fırlat!",
+    "data": {
+      "l": "Sürtünme ile elektriklenme",
+      "r": "Başka bir olay",
+      "cards": [
+        {
+          "t": "Saçı plastik tarakla taramak",
+          "a": 0
+        },
+        {
+          "t": "Yün kazağı çıkarırken çıtırtı",
+          "a": 0
+        },
+        {
+          "t": "Kediyi severken çıtırtı",
+          "a": 0
+        },
+        {
+          "t": "Güneşte ısınan taş",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları sola ya da sağa fırlat! Sol: Sürtünme ile elektriklenme, sağ: Başka bir olay. Kartlar: Saçı plastik tarakla taramak | Yün kazağı çıkarırken çıtırtı | Kediyi severken çıtırtı | Güneşte ısınan taş",
+    "correctAnswer": "Saçı plastik tarakla taramak: Sürtünme ile elektriklenme; Yün kazağı çıkarırken çıtırtı: Sürtünme ile elektriklenme; Kediyi severken çıtırtı: Sürtünme ile elektriklenme; Güneşte ısınan taş: Başka bir olay",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir. Saç taramak, yün kazak giymek, kaydıraktan kaymak ve kedi sevmek sürtünme ile elektriklenme örnekleridir.",
+    "questionId": "fen7u6-surt-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+    "difficulty": "orta",
+    "group": "surt",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Cisimleri sola ya da sağa fırlat!",
+    "data": {
+      "l": "Elektron kazanır (−)",
+      "r": "Elektron kaybeder (+)",
+      "cards": [
+        {
+          "t": "Yüne sürtülen plastik çubuk",
+          "a": 0
+        },
+        {
+          "t": "Plastiğe sürtülen yün kumaş",
+          "a": 1
+        },
+        {
+          "t": "Cama sürtülen ipek kumaş",
+          "a": 0
+        },
+        {
+          "t": "İpeğe sürtülen cam çubuk",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Cisimleri sola ya da sağa fırlat! Sol: Elektron kazanır (−), sağ: Elektron kaybeder (+). Kartlar: Yüne sürtülen plastik çubuk | Plastiğe sürtülen yün kumaş | Cama sürtülen ipek kumaş | İpeğe sürtülen cam çubuk",
+    "correctAnswer": "Yüne sürtülen plastik çubuk: Elektron kazanır (−); Plastiğe sürtülen yün kumaş: Elektron kaybeder (+); Cama sürtülen ipek kumaş: Elektron kazanır (−); İpeğe sürtülen cam çubuk: Elektron kaybeder (+)",
+    "explanation": "Elektriklenme, cisimler arasında negatif yüklü parçacıkların (elektronların) yer değiştirmesiyle olur. Plastik çubuk yün kumaşa sürtülünce yündeki bazı elektronlar plastiğe geçer: plastik negatif, yün pozitif olur. Cam çubuk ipek kumaşa sürtülünce camdaki bazı elektronlar ipeğe geçer: cam pozitif, ipek negatif olur. Sürtünme ile elektriklenmede cisimler zıt yükle yüklenir.",
+    "questionId": "fen7u6-surt-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120",
+    "difficulty": "kolay",
+    "group": "doga",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları sola (ŞİMŞEK) ya da sağa (YILDIRIM) fırlat!",
+    "data": {
+      "l": "Şimşek",
+      "r": "Yıldırım",
+      "cards": [
+        {
+          "t": "Bulutlar arasında yük aktarımı",
+          "a": 0
+        },
+        {
+          "t": "Bulut ile yeryüzü arasında yük aktarımı",
+          "a": 1
+        },
+        {
+          "t": "Paratonerin korumaya çalıştığı olay",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları sola (ŞİMŞEK) ya da sağa (YILDIRIM) fırlat! Sol: Şimşek, sağ: Yıldırım. Kartlar: Bulutlar arasında yük aktarımı | Bulut ile yeryüzü arasında yük aktarımı | Paratonerin korumaya çalıştığı olay",
+    "correctAnswer": "Bulutlar arasında yük aktarımı: Şimşek; Bulut ile yeryüzü arasında yük aktarımı: Yıldırım; Paratonerin korumaya çalıştığı olay: Yıldırım",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 110, 120",
+    "difficulty": "orta",
+    "group": "doga",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları doğru bilim insanına fırlat!",
+    "data": {
+      "l": "Thales",
+      "r": "Benjamin Franklin",
+      "cards": [
+        {
+          "t": "Yüne sürttüğü kehribarın kılları çektiğini gözledi",
+          "a": 0
+        },
+        {
+          "t": "Uçurtma deneyiyle yıldırımın yük ilettiğini doğruladı",
+          "a": 1
+        },
+        {
+          "t": "Paratoneri icat etti",
+          "a": 1
+        },
+        {
+          "t": "İki tür elektrik yükü olabileceğini düşündü",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları doğru bilim insanına fırlat! Sol: Thales, sağ: Benjamin Franklin. Kartlar: Yüne sürttüğü kehribarın kılları çektiğini gözledi | Uçurtma deneyiyle yıldırımın yük ilettiğini doğruladı | Paratoneri icat etti | İki tür elektrik yükü olabileceğini düşündü",
+    "correctAnswer": "Yüne sürttüğü kehribarın kılları çektiğini gözledi: Thales; Uçurtma deneyiyle yıldırımın yük ilettiğini doğruladı: Benjamin Franklin; Paratoneri icat etti: Benjamin Franklin; İki tür elektrik yükü olabileceğini düşündü: Thales",
+    "explanation": "Thales yüne sürtülen kehribarın kırıntıları ve kedi kıllarını çektiğini gözledi, iki tür yük olabileceğini düşündü; “elektrik” kelimesi Yunanca kehribar anlamındaki “elektron”dan gelir. Franklin uçurtma deneyiyle yıldırımın elektrik yükü ilettiğini doğruladı, paratoneri icat etti, pozitif-negatif yük terimlerini türetti.",
+    "questionId": "fen7u6-doga-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 122",
+    "difficulty": "zor",
+    "group": "doga",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları doğru bilim insanına fırlat!",
+    "data": {
+      "l": "William Gilbert",
+      "r": "Nicola Cabeo",
+      "cards": [
+        {
+          "t": "Versorium düzeneğini geliştirdi",
+          "a": 0
+        },
+        {
+          "t": "Cam ve kükürdün de elektriklendiğini buldu",
+          "a": 0
+        },
+        {
+          "t": "Testere tozlarının uzaklaşmasıyla itmeyi keşfetti",
+          "a": 1
+        },
+        {
+          "t": "Gilbert’in listesine eklemeler yaptı",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları doğru bilim insanına fırlat! Sol: William Gilbert, sağ: Nicola Cabeo. Kartlar: Versorium düzeneğini geliştirdi | Cam ve kükürdün de elektriklendiğini buldu | Testere tozlarının uzaklaşmasıyla itmeyi keşfetti | Gilbert’in listesine eklemeler yaptı",
+    "correctAnswer": "Versorium düzeneğini geliştirdi: William Gilbert; Cam ve kükürdün de elektriklendiğini buldu: William Gilbert; Testere tozlarının uzaklaşmasıyla itmeyi keşfetti: Nicola Cabeo; Gilbert’in listesine eklemeler yaptı: Nicola Cabeo",
+    "explanation": "Gilbert versorium düzeneğiyle cisimleri inceledi, cam ve kükürdün de elektriklendiğini buldu. Cabeo, Gilbert’in listesine eklemeler yaptı ve testere tozlarının yüklü cisme değince uzaklaştığını gözleyerek itmeyi keşfetti.",
+    "questionId": "fen7u6-doga-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 122",
+    "difficulty": "zor",
+    "group": "doga",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları doğru bilim insanına fırlat!",
+    "data": {
+      "l": "Michael Faraday",
+      "r": "Nikola Tesla",
+      "cards": [
+        {
+          "t": "1836’da metal tel kafesi tasarladı",
+          "a": 0
+        },
+        {
+          "t": "Kafesin içine yük geçmediğini gösterdi",
+          "a": 0
+        },
+        {
+          "t": "Enerjinin kablosuz iletimi",
+          "a": 1
+        },
+        {
+          "t": "40 km uzaktaki 200 lambayı yaktı",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları doğru bilim insanına fırlat! Sol: Michael Faraday, sağ: Nikola Tesla. Kartlar: 1836’da metal tel kafesi tasarladı | Kafesin içine yük geçmediğini gösterdi | Enerjinin kablosuz iletimi | 40 km uzaktaki 200 lambayı yaktı",
+    "correctAnswer": "1836’da metal tel kafesi tasarladı: Michael Faraday; Kafesin içine yük geçmediğini gösterdi: Michael Faraday; Enerjinin kablosuz iletimi: Nikola Tesla; 40 km uzaktaki 200 lambayı yaktı: Nikola Tesla",
+    "explanation": "Faraday 1836’da metal tellerden Faraday Kafesi’ni tasarladı; yükler dış yüzeyde toplanır, içeri geçmez. Tesla enerjinin kablosuz iletimini gerçekleştirdi; 1899’da yaklaşık 40 km uzaktaki 200 lambayı yaktı.",
+    "questionId": "fen7u6-doga-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Araçları sola ya da sağa fırlat!",
+    "data": {
+      "l": "Elektriklenmeden yararlanır",
+      "r": "Yararlanmaz",
+      "cards": [
+        {
+          "t": "Lazer yazıcı",
+          "a": 0
+        },
+        {
+          "t": "Ütü",
+          "a": 1
+        },
+        {
+          "t": "Elektrostatik baca filtresi",
+          "a": 0
+        },
+        {
+          "t": "Su ısıtıcısı",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Araçları sola ya da sağa fırlat! Sol: Elektriklenmeden yararlanır, sağ: Yararlanmaz. Kartlar: Lazer yazıcı | Ütü | Elektrostatik baca filtresi | Su ısıtıcısı",
+    "correctAnswer": "Lazer yazıcı: Elektriklenmeden yararlanır; Ütü: Yararlanmaz; Elektrostatik baca filtresi: Elektriklenmeden yararlanır; Su ısıtıcısı: Yararlanmaz",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Hızlı tur: Kartları sola ya da sağa fırlat!",
+    "data": {
+      "l": "Toz/kir tanecikleri tutulur",
+      "r": "Toz/boya yüzeye çekilir",
+      "cards": [
+        {
+          "t": "Klima tutucusu",
+          "a": 0
+        },
+        {
+          "t": "Davlumbaz filtresi",
+          "a": 0
+        },
+        {
+          "t": "Lazer yazıcıda toner tozu kâğıda",
+          "a": 1
+        },
+        {
+          "t": "Parmak izine toz yapışması",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Hızlı tur: Kartları sola ya da sağa fırlat! Sol: Toz/kir tanecikleri tutulur, sağ: Toz/boya yüzeye çekilir. Kartlar: Klima tutucusu | Davlumbaz filtresi | Lazer yazıcıda toner tozu kâğıda | Parmak izine toz yapışması",
+    "correctAnswer": "Klima tutucusu: Toz/kir tanecikleri tutulur; Davlumbaz filtresi: Toz/kir tanecikleri tutulur; Lazer yazıcıda toner tozu kâğıda: Toz/boya yüzeye çekilir; Parmak izine toz yapışması: Toz/boya yüzeye çekilir",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "kolay",
+    "group": "dokun",
+    "rank": 1,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran nötr pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": 0,
+      "goal": "çek"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran nötr pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Sürtülmüş (yüklü) çubuklardan biri",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-dokun-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": -1,
+      "goal": "it"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Yüne sürtülmüş plastik çubuk (negatif)",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-dokun-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "orta",
+    "group": "dokun",
+    "rank": 2,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": -1,
+      "goal": "çek"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Cam çubuk (pozitif) ya da sürtülmemiş nötr çubuk",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-dokun-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "orta",
+    "group": "yuk",
+    "rank": 2,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran pozitif yüklü pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": 1,
+      "goal": "it"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran pozitif yüklü pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "İpeğe sürtülmüş cam çubuk (pozitif)",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-yuk-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "zor",
+    "group": "yuk",
+    "rank": 3,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran pozitif yüklü pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": 1,
+      "goal": "çek"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran pozitif yüklü pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Plastik çubuk (negatif) ya da nötr çubuk",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-yuk-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Dokunma ve etki (temassız) ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "zor",
+    "group": "dokun",
+    "rank": 3,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": -1,
+      "goal": "it"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Yüne sürtülmüş plastik çubuk (negatif)",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-dokun-22"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektrik yükleri ve yüklü cisimler arasındaki etkileşim",
+    "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "kolay",
+    "group": "yuk",
+    "rank": 1,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran nötr pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": 0,
+      "goal": "çek"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran nötr pipet var. Pipetin ucunu çubuğa doğru ÇEKMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Sürtülmüş (yüklü) çubuklardan biri",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-yuk-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Sürtünme ile elektriklenme",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 112, 116–118",
+    "difficulty": "zor",
+    "group": "surt",
+    "rank": 3,
+    "type": "straw",
+    "prompt": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır!",
+    "data": {
+      "st": -1,
+      "goal": "it"
+    },
+    "textPlain": "Kutudaki deney: Şişe kapağında dengede duran yüne sürtülmüş (negatif yüklü) plastik pipet var. Pipetin ucunu çubuğa doğru İTMEK için doğru çubuğu seç ve pipetin ucuna yaklaştır! Çubuklar: yüne sürtülmüş plastik çubuk, ipeğe sürtülmüş cam çubuk, hiç sürtülmemiş çubuk.",
+    "correctAnswer": "Yüne sürtülmüş plastik çubuk (negatif)",
+    "explanation": "Pet şişenin kapağında dengede duran pipete yüklü bir cisim yaklaştırılınca pipet hareket eder (etki ile elektriklenme). Nötr pipet hem pozitif hem negatif yüklü cisme doğru çekilir; yüklü pipet aynı yüklü cisimden itilir, zıt yüklü cisme çekilir. Yüklenmemiş (nötr) bir çubuk nötr pipete kuvvet uygulamaz. Yüne sürtülen plastik negatif, ipeğe sürtülen cam pozitif olur.",
+    "questionId": "fen7u6-surt-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "kolay",
+    "group": "doga",
+    "rank": 1,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat.",
+    "data": {
+      "mode": "rod"
+    },
+    "textPlain": "Kutudaki deney: Fırtına yaklaşıyor! Paratoneri binada doğru YERE koy ve telini doğru YERE bağla, sonra fırtınayı başlat. Seçenekler: binanın tepesi, pencere kenarı, bodrum; tel: toprağa, su deposuna, havaya.",
+    "correctAnswer": "Paratoner binanın en tepesine konur, teli toprağa bağlanır",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "orta",
+    "group": "doga",
+    "rank": 2,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle.",
+    "data": {
+      "mode": "cage",
+      "seed": 4
+    },
+    "textPlain": "Kutudaki deney: Yıldırım düşmek üzere! Yolcuyu yıldırımdan korunacağı yere sürükle ya da dokun, sonra yıldırımı izle. Seçenekler: metal gövdeli araba içi, ağaç altı, açık alan, metal kafes dışı.",
+    "correctAnswer": "Metal gövdeli araç (Faraday kafesi) içi",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Şimşek, yıldırım, paratoner ve elektriklenme bilginleri",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+    "difficulty": "kolay",
+    "group": "doga",
+    "rank": 1,
+    "type": "storm",
+    "prompt": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat!",
+    "data": {
+      "mode": "bolt",
+      "kinds": [
+        0,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kutudaki deney: Gökyüzü kamerası elektrik boşalmalarını kaydetti. YILDIRIM olanların (bulut ile yeryüzü arası) hepsine dokun, sonra kaydı oynat! Kayıtta 3 boşalma var.",
+    "correctAnswer": "Bulut-yer arasındaki boşalmalar yıldırım, bulut-bulut arasındakiler şimşektir",
+    "explanation": "Hareket eden bulutlarda sürtünme ile elektriklenme olur. Bulutlar arasındaki yük aktarımıyla şimşek, bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur. Franklin yıldırımın enerjisini toprağa yönlendiren paratoneri icat etti; paratoner binanın tepesine konur ve toprağa bağlanır. Faraday kafesinde (uçak, araba gövdesi) yükler dış yüzeyde toplanır, içeridekiler etkilenmez.",
+    "questionId": "fen7u6-doga-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Su ısıtıcısı",
+          "e": "🫖",
+          "a": 0
+        },
+        {
+          "t": "Otomobil boyama hattı",
+          "e": "🚗",
+          "a": 1
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        },
+        {
+          "t": "Lazer yazıcı",
+          "e": "🖨️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Su ısıtıcısı, Otomobil boyama hattı, Parmak izi tozlama seti, Lazer yazıcı",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Otomobil boyama hattı, Parmak izi tozlama seti, Lazer yazıcı",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 121",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "tech",
+    "prompt": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle.",
+    "data": {
+      "items": [
+        {
+          "t": "Tost makinesi",
+          "e": "🥪",
+          "a": 0
+        },
+        {
+          "t": "Toz torbalı elektrik süpürgesi",
+          "e": "🧹",
+          "a": 1
+        },
+        {
+          "t": "Ütü",
+          "e": "👔",
+          "a": 0
+        },
+        {
+          "t": "Davlumbaz baca filtresi",
+          "e": "🍳",
+          "a": 1
+        },
+        {
+          "t": "Parmak izi tozlama seti",
+          "e": "🔎",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Kutudaki deney: Bu evde elektriklenmeden yararlanan araçlar saklı! Onları bul ve dokunarak işaretle, sonra toz bulutunu serbest bırak ve hangilerinin tozu yakaladığını izle. Araçlar: Tost makinesi, Toz torbalı elektrik süpürgesi, Ütü, Davlumbaz baca filtresi, Parmak izi tozlama seti",
+    "correctAnswer": "Elektriklenmeden yararlananlar: Toz torbalı elektrik süpürgesi, Davlumbaz baca filtresi, Parmak izi tozlama seti",
+    "explanation": "Elektriklenmeden toz torbalı elektrik süpürgelerinde, sanayide boyamada, elektrostatik baca filtrelerinde (davlumbaz), parmak izi çıkarmada, lazer yazıcılarda ve klimalarda yararlanılır. Ütü ve su ısıtıcısı gibi araçlar elektriği ısıya çevirir; elektriklenmeden yararlanmaz.",
+    "questionId": "fen7u6-tekno-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "kolay",
+    "group": "tekno",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "buzdolabı",
+      "spray": null,
+      "body": 1
+    },
+    "textPlain": "Kutudaki deney: Boya hattında buzdolabı boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: ayarlanabilir; gövde: + yüklü.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-22"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "6. Ünite: Elektriklenme",
+    "topic": "Elektriklenmenin teknolojideki kullanımı",
+    "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+    "difficulty": "orta",
+    "group": "tekno",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Kutudaki deney: Boya hattında otomobil boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle!",
+    "data": {
+      "obj": "otomobil",
+      "spray": -1,
+      "body": null
+    },
+    "textPlain": "Kutudaki deney: Boya hattında otomobil boyanacak. Kilitsiz parçanın yükünü ayarla ki boya yüzeye EŞİT dağılsın, sonra boya tabancasını tetikle! Sprey boya: − yüklü; gövde: ayarlanabilir.",
+    "correctAnswer": "Boya ile gövde zıt yüklü olmalı",
+    "explanation": "Sanayide boyamada elektriklenmeden yararlanılır: boya ile boyanacak yüzey ZIT yüklerle yüklenirse boya tanecikleri yüzeye çekilir ve boşluk kalmadan eşit dağılır. Aynı yükle yüklenirse boya tanecikleri itilir ve bazı yerler boyanmaz.",
+    "questionId": "fen7u6-tekno-23"
+  }
+]
