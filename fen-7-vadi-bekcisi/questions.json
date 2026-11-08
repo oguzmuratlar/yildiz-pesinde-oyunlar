@@ -1,0 +1,4424 @@
+[
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 133–134",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Çekirge",
+          "e": "🦗",
+          "p": 0
+        },
+        {
+          "n": "Kuş",
+          "e": "🐦",
+          "p": 0
+        },
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        }
+      ],
+      "E": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 3,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Ot, Çekirge, Kuş.",
+    "correctAnswer": "Ot → Çekirge → Kuş",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 132–133",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Tırtıl",
+          "e": "🐛",
+          "p": 0
+        },
+        {
+          "n": "Yaprak",
+          "e": "🍃",
+          "p": 1
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "k": 3,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Yaprak, Tırtıl, Serçe.",
+    "correctAnswer": "Yaprak → Tırtıl → Serçe",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 132–133",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Arpa",
+          "e": "🌾",
+          "p": 1
+        },
+        {
+          "n": "Tavuk",
+          "e": "🐔",
+          "p": 0
+        },
+        {
+          "n": "Kedi",
+          "e": "🐈",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 3,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Arpa, Tavuk, Kedi.",
+    "correctAnswer": "Arpa → Tavuk → Kedi",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 134",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Yonca",
+          "e": "☘️",
+          "p": 1
+        },
+        {
+          "n": "Kuzu",
+          "e": "🐑",
+          "p": 0
+        },
+        {
+          "n": "İnsan",
+          "e": "🧑",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "k": 3,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (3 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Yonca, Kuzu, İnsan.",
+    "correctAnswer": "Yonca → Kuzu → İnsan",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir. Öğle yemeğindeki kuzu eti için zincir yonca → kuzu → insandır; insan burada ikincil tüketicidir.",
+    "questionId": "fen7u7-zincir-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 134",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Kuş",
+          "e": "🐦",
+          "p": 0
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊",
+          "p": 0
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗",
+          "p": 0
+        },
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        }
+      ],
+      "E": [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 4,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Ot, Çekirge, Kuş, Tilki.",
+    "correctAnswer": "Ot → Çekirge → Kuş → Tilki",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Yılan",
+          "e": "🐍",
+          "p": 0
+        },
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇",
+          "p": 0
+        },
+        {
+          "n": "Kartal",
+          "e": "🦅",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "k": 4,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Ot, Tavşan, Yılan, Kartal.",
+    "correctAnswer": "Ot → Tavşan → Yılan → Kartal",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 139",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Çimen",
+          "e": "🌱",
+          "p": 1
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊",
+          "p": 0
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗",
+          "p": 0
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "k": 4,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Çimen, Çekirge, Kirpi, Tilki.",
+    "correctAnswer": "Çimen → Çekirge → Kirpi → Tilki",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 142",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Leylek",
+          "e": "🦢",
+          "p": 0
+        },
+        {
+          "n": "Mısır kurdu",
+          "e": "🐛",
+          "p": 0
+        },
+        {
+          "n": "Mısır",
+          "e": "🌽",
+          "p": 1
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "k": 4,
+      "end": null
+    },
+    "textPlain": "Vadide bir besin zinciri kur! Besini veren canlıya, ardından onu yiyen canlıya dokunarak ok çiz (4 halkalı zincir), sonra Güneş enerjisini akıt. Canlılar: Mısır, Mısır kurdu, Serçe, Leylek.",
+    "correctAnswer": "Mısır → Mısır kurdu → Serçe → Leylek",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 159",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Bahçede çiçek, kelebek, kurbağa ve mantar gözlendi. 3 halkalı besin zincirini oklarla kur (kelebek nektarla beslenir; ayrıştırıcıyı zincire katma), sonra enerjiyi akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Kurbağa",
+          "e": "🐸",
+          "p": 0
+        },
+        {
+          "n": "Mantar",
+          "e": "🍄",
+          "p": 0
+        },
+        {
+          "n": "Çiçek",
+          "e": "🌸",
+          "p": 1
+        },
+        {
+          "n": "Kelebek",
+          "e": "🦋",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "k": 3,
+      "end": null
+    },
+    "textPlain": "Bahçede çiçek, kelebek, kurbağa ve mantar gözlendi. 3 halkalı besin zincirini oklarla kur (kelebek nektarla beslenir; ayrıştırıcıyı zincire katma), sonra enerjiyi akıt. Canlılar: Çiçek, Kelebek, Kurbağa, Mantar.",
+    "correctAnswer": "Çiçek → Kelebek → Kurbağa",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir. Mantar bir ayrıştırıcıdır; canlı kalıntılarını çürüterek beslenir ve zincirin her basamağında bulunabilir, bu yüzden zincirin halkası olarak çizilmez.",
+    "questionId": "fen7u7-zincir-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 137",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Besin ağından ŞAHİN ile biten 5 halkalı bir zincir çıkar! Okları besini verenden yiyene doğru çiz, sonra enerjiyi akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Yılan",
+          "e": "🐍",
+          "p": 0
+        },
+        {
+          "n": "Şahin",
+          "e": "🦅",
+          "p": 0
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗",
+          "p": 0
+        },
+        {
+          "n": "Kurbağa",
+          "e": "🐸",
+          "p": 0
+        },
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        }
+      ],
+      "E": [
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 5,
+      "end": 1
+    },
+    "textPlain": "Besin ağından ŞAHİN ile biten 5 halkalı bir zincir çıkar! Okları besini verenden yiyene doğru çiz, sonra enerjiyi akıt. Canlılar: Ot, Çekirge, Kurbağa, Yılan, Şahin.",
+    "correctAnswer": "Ot → Çekirge → Kurbağa → Yılan → Şahin",
+    "explanation": "Canlılar tek bir besin zinciri içinde beslenmez; bir canlı birden çok canlıyla beslenebilir ya da birçok canlıya besin olabilir. Birden çok besin zincirinden oluşan yapıya besin ağı denir. Görsel 7.1.3’teki ağda ot; tavşan, fare ve çekirgeye; çekirge kurbağa ve kuşa; kurbağa ve kuş yılana; yılan, tavşan ve fare şahine besin olur.",
+    "questionId": "fen7u7-zincir-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 137",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Besin ağındaki bu canlılardan YILAN ile biten 4 halkalı bir zincir kur (bir canlı fazla), sonra enerjiyi akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Kurbağa",
+          "e": "🐸",
+          "p": 0
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗",
+          "p": 0
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍",
+          "p": 0
+        },
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        },
+        {
+          "n": "Kuş",
+          "e": "🐦",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "k": 4,
+      "end": 2
+    },
+    "textPlain": "Besin ağındaki bu canlılardan YILAN ile biten 4 halkalı bir zincir kur (bir canlı fazla), sonra enerjiyi akıt. Canlılar: Ot, Çekirge, Kuş, Kurbağa, Yılan.",
+    "correctAnswer": "Ot → Çekirge → Kurbağa → Yılan",
+    "explanation": "Canlılar tek bir besin zinciri içinde beslenmez; bir canlı birden çok canlıyla beslenebilir ya da birçok canlıya besin olabilir. Birden çok besin zincirinden oluşan yapıya besin ağı denir. Görsel 7.1.3’teki ağda ot; tavşan, fare ve çekirgeye; çekirge kurbağa ve kuşa; kurbağa ve kuş yılana; yılan, tavşan ve fare şahine besin olur.",
+    "questionId": "fen7u7-zincir-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 137",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Besin ağından BAYKUŞ ile biten 3 halkalı bir zincir kur (fazla canlılar var), sonra enerjiyi akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        },
+        {
+          "n": "Fare",
+          "e": "🐁",
+          "p": 0
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊",
+          "p": 0
+        },
+        {
+          "n": "Baykuş",
+          "e": "🦉",
+          "p": 0
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "k": 3,
+      "end": 3
+    },
+    "textPlain": "Besin ağından BAYKUŞ ile biten 3 halkalı bir zincir kur (fazla canlılar var), sonra enerjiyi akıt. Canlılar: Ot, Fare, Tavşan, Baykuş, Tilki.",
+    "correctAnswer": "Ot → Fare → Baykuş",
+    "explanation": "Canlılar tek bir besin zinciri içinde beslenmez; bir canlı birden çok canlıyla beslenebilir ya da birçok canlıya besin olabilir. Birden çok besin zincirinden oluşan yapıya besin ağı denir. Görsel 7.1.3’teki ağda ot; tavşan, fare ve çekirgeye; çekirge kurbağa ve kuşa; kurbağa ve kuş yılana; yılan, tavşan ve fare şahine besin olur.",
+    "questionId": "fen7u7-zincir-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 137",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Besin ağından ŞAHİN ile biten 3 halkalı bir zincir kur, sonra enerjiyi akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Yılan",
+          "e": "🐍",
+          "p": 0
+        },
+        {
+          "n": "Ot",
+          "e": "🌿",
+          "p": 1
+        },
+        {
+          "n": "Fare",
+          "e": "🐁",
+          "p": 0
+        },
+        {
+          "n": "Şahin",
+          "e": "🦅",
+          "p": 0
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "k": 3,
+      "end": 3
+    },
+    "textPlain": "Besin ağından ŞAHİN ile biten 3 halkalı bir zincir kur, sonra enerjiyi akıt. Canlılar: Ot, Tavşan, Fare, Yılan, Şahin.",
+    "correctAnswer": "Ot → Tavşan → Şahin",
+    "explanation": "Canlılar tek bir besin zinciri içinde beslenmez; bir canlı birden çok canlıyla beslenebilir ya da birçok canlıya besin olabilir. Birden çok besin zincirinden oluşan yapıya besin ağı denir. Görsel 7.1.3’teki ağda ot; tavşan, fare ve çekirgeye; çekirge kurbağa ve kuşa; kurbağa ve kuş yılana; yılan, tavşan ve fare şahine besin olur.",
+    "questionId": "fen7u7-zincir-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Çukurova Deltası’nda 4 halkalı bir su zinciri kur (sazan turna balığından küçüktür), sonra enerjiyi akıt.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Sazan",
+          "e": "🐟",
+          "p": 0
+        },
+        {
+          "n": "Turna balığı",
+          "e": "🐠",
+          "p": 0
+        },
+        {
+          "n": "Su yosunu",
+          "e": "🟢",
+          "p": 1
+        },
+        {
+          "n": "Böcek larvası",
+          "e": "🪱",
+          "p": 0
+        }
+      ],
+      "E": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "k": 4,
+      "end": null
+    },
+    "textPlain": "Çukurova Deltası’nda 4 halkalı bir su zinciri kur (sazan turna balığından küçüktür), sonra enerjiyi akıt. Canlılar: Su yosunu, Böcek larvası, Sazan, Turna balığı.",
+    "correctAnswer": "Su yosunu → Böcek larvası → Sazan → Turna balığı",
+    "explanation": "Besin zinciri, madde ve enerjinin organizmadan organizmaya besin biçiminde aktarılma şeklidir. İlk basamakta Güneş’in ışık enerjisiyle kendi besinini üreten üreticiler bulunur; zincir üreticilerden tüketicilere doğru ilerler. Ok, besini sağlayan canlıdan o canlıyla beslenen tüketiciye doğru çizilir.",
+    "questionId": "fen7u7-zincir-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 139",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "pop",
+    "prompt": "Vadide ÇEKIRGE sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Çimen",
+          "e": "🌱"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "ev": 1,
+      "d": -1,
+      "eff": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "ask": [
+        0,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Vadide ÇEKIRGE sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Çimen → Çekirge → Kirpi → Tilki.",
+    "correctAnswer": "Çimen artar, Kirpi azalır, Tilki azalır",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 159",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "pop",
+    "prompt": "Vadide KELEBEK sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Çiçek",
+          "e": "🌸"
+        },
+        {
+          "n": "Kelebek",
+          "e": "🦋"
+        },
+        {
+          "n": "Kurbağa",
+          "e": "🐸"
+        }
+      ],
+      "ev": 1,
+      "d": -1,
+      "eff": [
+        1,
+        -1,
+        -1
+      ],
+      "ask": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Vadide KELEBEK sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Çiçek → Kelebek → Kurbağa.",
+    "correctAnswer": "Çiçek artar, Kurbağa azalır",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138–139",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "pop",
+    "prompt": "Vadide TAVŞAN sayısı arttı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        },
+        {
+          "n": "Kartal",
+          "e": "🦅"
+        }
+      ],
+      "ev": 1,
+      "d": 1,
+      "eff": [
+        -1,
+        1,
+        1,
+        1
+      ],
+      "ask": [
+        0,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Vadide TAVŞAN sayısı arttı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Ot → Tavşan → Yılan → Kartal.",
+    "correctAnswer": "Ot azalır, Yılan artar, Kartal artar",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 139, 142",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "pop",
+    "prompt": "Vadide MISIR KURDU sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Mısır",
+          "e": "🌽"
+        },
+        {
+          "n": "Mısır kurdu",
+          "e": "🐛"
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦"
+        },
+        {
+          "n": "Leylek",
+          "e": "🦢"
+        }
+      ],
+      "ev": 1,
+      "d": -1,
+      "eff": [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "ask": [
+        0,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Vadide MISIR KURDU sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Mısır → Mısır kurdu → Serçe → Leylek.",
+    "correctAnswer": "Mısır artar, Serçe azalır, Leylek azalır",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 134, 139",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "pop",
+    "prompt": "Vadide KUŞ sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kuş",
+          "e": "🐦"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "ev": 2,
+      "d": -1,
+      "eff": [
+        null,
+        1,
+        -1,
+        -1
+      ],
+      "ask": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Vadide KUŞ sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Ot → Çekirge → Kuş → Tilki.",
+    "correctAnswer": "Çekirge artar, Tilki azalır",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 139",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "pop",
+    "prompt": "Vadide KIRPI sayısı arttı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Çimen",
+          "e": "🌱"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "ev": 2,
+      "d": 1,
+      "eff": [
+        null,
+        -1,
+        1,
+        1
+      ],
+      "ask": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Vadide KIRPI sayısı arttı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Çimen → Çekirge → Kirpi → Tilki.",
+    "correctAnswer": "Çekirge azalır, Tilki artar",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138–139",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "pop",
+    "prompt": "Vadide SAZAN sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Su yosunu",
+          "e": "🟢"
+        },
+        {
+          "n": "Böcek larvası",
+          "e": "🪱"
+        },
+        {
+          "n": "Sazan",
+          "e": "🐟"
+        },
+        {
+          "n": "Turna balığı",
+          "e": "🐠"
+        }
+      ],
+      "ev": 2,
+      "d": -1,
+      "eff": [
+        null,
+        1,
+        -1,
+        -1
+      ],
+      "ask": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Vadide SAZAN sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Su yosunu → Böcek larvası → Sazan → Turna balığı.",
+    "correctAnswer": "Böcek larvası artar, Turna balığı azalır",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 132, 139",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "pop",
+    "prompt": "Vadide TIRTIL sayısı arttı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Yaprak",
+          "e": "🍃"
+        },
+        {
+          "n": "Tırtıl",
+          "e": "🐛"
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦"
+        }
+      ],
+      "ev": 1,
+      "d": 1,
+      "eff": [
+        -1,
+        1,
+        1
+      ],
+      "ask": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Vadide TIRTIL sayısı arttı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Yaprak → Tırtıl → Serçe.",
+    "correctAnswer": "Yaprak azalır, Serçe artar",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-22"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 133–134",
+    "difficulty": "kolay",
+    "group": "zincir",
+    "rank": 1,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “ÜRETİCİ” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "ÜRETİCİ",
+      "items": [
+        {
+          "t": "Ot",
+          "e": "🌿",
+          "a": 1
+        },
+        {
+          "t": "Tavşan",
+          "e": "🐇",
+          "a": 0
+        },
+        {
+          "t": "Domates",
+          "e": "🍅",
+          "a": 1
+        },
+        {
+          "t": "Mantar",
+          "e": "🍄",
+          "a": 0
+        },
+        {
+          "t": "Yonca",
+          "e": "☘️",
+          "a": 1
+        },
+        {
+          "t": "Tilki",
+          "e": "🦊",
+          "a": 0
+        },
+        {
+          "t": "Mısır",
+          "e": "🌽",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “ÜRETİCİ” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Ot, Tavşan, Domates, Mantar, Yonca, Tilki, Mısır.",
+    "correctAnswer": "Yakalanacaklar: Ot, Domates, Yonca, Mısır",
+    "explanation": "Bitkiler, bazı alg ve bakteriler Güneş’ten aldıkları ışık enerjisini kullanarak kendi besinlerini üretir; bunlar üreticidir. Tüketiciler üreticilerle ya da üreticilerle beslenen canlılarla beslenir. Bazı mantar ve bakteriler ayrıştırıcıdır (çürükçül): atıkları ve ölü organizmaları çürüterek maddelerin ekosisteme dönmesini sağlar.",
+    "questionId": "fen7u7-zincir-23"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 133–134, 141",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “AYRIŞTIRICI” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "AYRIŞTIRICI",
+      "items": [
+        {
+          "t": "Bazı bakteriler",
+          "e": "🦠",
+          "a": 1
+        },
+        {
+          "t": "Çekirge",
+          "e": "🦗",
+          "a": 0
+        },
+        {
+          "t": "Bazı mantarlar",
+          "e": "🍄",
+          "a": 1
+        },
+        {
+          "t": "Yonca",
+          "e": "☘️",
+          "a": 0
+        },
+        {
+          "t": "Kurbağa",
+          "e": "🐸",
+          "a": 0
+        },
+        {
+          "t": "Çürükçül bakteri",
+          "e": "🦠",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “AYRIŞTIRICI” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Bazı bakteriler, Çekirge, Bazı mantarlar, Yonca, Kurbağa, Çürükçül bakteri.",
+    "correctAnswer": "Yakalanacaklar: Bazı bakteriler, Bazı mantarlar, Çürükçül bakteri",
+    "explanation": "Bitkiler, bazı alg ve bakteriler Güneş’ten aldıkları ışık enerjisini kullanarak kendi besinlerini üretir; bunlar üreticidir. Tüketiciler üreticilerle ya da üreticilerle beslenen canlılarla beslenir. Bazı mantar ve bakteriler ayrıştırıcıdır (çürükçül): atıkları ve ölü organizmaları çürüterek maddelerin ekosisteme dönmesini sağlar.",
+    "questionId": "fen7u7-zincir-24"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 134",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “BİRİNCİL TÜKETİCİ” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "BİRİNCİL TÜKETİCİ",
+      "items": [
+        {
+          "t": "Çekirge",
+          "e": "🦗",
+          "a": 1
+        },
+        {
+          "t": "Tilki",
+          "e": "🦊",
+          "a": 0
+        },
+        {
+          "t": "İnek",
+          "e": "🐄",
+          "a": 1
+        },
+        {
+          "t": "Ot",
+          "e": "🌿",
+          "a": 0
+        },
+        {
+          "t": "Tavşan",
+          "e": "🐇",
+          "a": 1
+        },
+        {
+          "t": "Kartal",
+          "e": "🦅",
+          "a": 0
+        },
+        {
+          "t": "Kuzu",
+          "e": "🐑",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “BİRİNCİL TÜKETİCİ” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Çekirge, Tilki, İnek, Ot, Tavşan, Kartal, Kuzu.",
+    "correctAnswer": "Yakalanacaklar: Çekirge, İnek, Tavşan, Kuzu",
+    "explanation": "Doğrudan üreticiden beslenen otçul canlılar birincil tüketicidir (çekirge, inek, tavşan, kuzu). Birincil tüketicilerle beslenen etçil ya da hepçil canlılar ikincil, üçüncül tüketicidir.",
+    "questionId": "fen7u7-zincir-25"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 157",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “Charles Elton’ın çalışma konusu” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "Charles Elton’ın çalışma konusu",
+      "items": [
+        {
+          "t": "Besin zinciri",
+          "e": "🔗",
+          "a": 1
+        },
+        {
+          "t": "Su ayak izi",
+          "e": "👣",
+          "a": 0
+        },
+        {
+          "t": "Ekoloji piramidi",
+          "e": "🔺",
+          "a": 1
+        },
+        {
+          "t": "Kırk Çeşme Su Tesisi",
+          "e": "⛲",
+          "a": 0
+        },
+        {
+          "t": "Besin ağı",
+          "e": "🕸️",
+          "a": 1
+        },
+        {
+          "t": "Sessiz Bahar kitabı",
+          "e": "📕",
+          "a": 0
+        },
+        {
+          "t": "Biyolojik istilalar",
+          "e": "🦎",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “Charles Elton’ın çalışma konusu” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Besin zinciri, Su ayak izi, Ekoloji piramidi, Kırk Çeşme Su Tesisi, Besin ağı, Sessiz Bahar kitabı, Biyolojik istilalar.",
+    "correctAnswer": "Yakalanacaklar: Besin zinciri, Ekoloji piramidi, Besin ağı, Biyolojik istilalar",
+    "explanation": "Charles Elton hayvan ekolojisinin öncüsüdür; besin zinciri, besin ağı, ekoloji piramidi gibi kavramlar üzerinde çalıştı, biyolojik istilalar üzerine kitap yazdı. Su ayak izini Hoekstra geliştirdi; Sessiz Bahar Rachel Carson’ın, Kırk Çeşme Mimar Sinan’ın eseridir.",
+    "questionId": "fen7u7-zincir-26"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138, 141",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Ot, Tavşan, Yılan.",
+    "correctAnswer": "Alttan üste: Ot, Tavşan, Yılan",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141, 159",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Çiçek",
+          "e": "🌸"
+        },
+        {
+          "n": "Kelebek",
+          "e": "🦋"
+        },
+        {
+          "n": "Kurbağa",
+          "e": "🐸"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Çiçek, Kelebek, Kurbağa.",
+    "correctAnswer": "Alttan üste: Çiçek, Kelebek, Kurbağa",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 132, 141",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Arpa",
+          "e": "🌾"
+        },
+        {
+          "n": "Tavuk",
+          "e": "🐔"
+        },
+        {
+          "n": "Kedi",
+          "e": "🐈"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Arpa, Tavuk, Kedi.",
+    "correctAnswer": "Alttan üste: Arpa, Tavuk, Kedi",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138, 141",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        },
+        {
+          "n": "Kartal",
+          "e": "🦅"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Ot, Tavşan, Yılan, Kartal.",
+    "correctAnswer": "Alttan üste: Ot, Tavşan, Yılan, Kartal",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 139, 141",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Çimen",
+          "e": "🌱"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Çimen, Çekirge, Kirpi, Tilki.",
+    "correctAnswer": "Alttan üste: Çimen, Çekirge, Kirpi, Tilki",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141–142",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Mısır",
+          "e": "🌽"
+        },
+        {
+          "n": "Mısır kurdu",
+          "e": "🐛"
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦"
+        },
+        {
+          "n": "Leylek",
+          "e": "🦢"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Mısır, Mısır kurdu, Serçe, Leylek.",
+    "correctAnswer": "Alttan üste: Mısır, Mısır kurdu, Serçe, Leylek",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 134, 141",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kuş",
+          "e": "🐦"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "dec": null
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz; sonra enerjiyi yukarı akıt. Canlılar: Ot, Çekirge, Kuş, Tilki.",
+    "correctAnswer": "Alttan üste: Ot, Çekirge, Kuş, Tilki",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138, 141",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        },
+        {
+          "n": "Kartal",
+          "e": "🦅"
+        }
+      ],
+      "dec": {
+        "n": "Bakteri",
+        "e": "🦠"
+      }
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt. Canlılar: Ot, Tavşan, Yılan, Kartal, Bakteri.",
+    "correctAnswer": "Alttan üste: Ot, Tavşan, Yılan, Kartal; Bakteri yan yüzeyde (ayrıştırıcı)",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141, 159",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Çiçek",
+          "e": "🌸"
+        },
+        {
+          "n": "Kelebek",
+          "e": "🦋"
+        },
+        {
+          "n": "Kurbağa",
+          "e": "🐸"
+        }
+      ],
+      "dec": {
+        "n": "Mantar",
+        "e": "🍄"
+      }
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt. Canlılar: Çiçek, Kelebek, Kurbağa, Mantar.",
+    "correctAnswer": "Alttan üste: Çiçek, Kelebek, Kurbağa; Mantar yan yüzeyde (ayrıştırıcı)",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 138, 141",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Su yosunu",
+          "e": "🟢"
+        },
+        {
+          "n": "Böcek larvası",
+          "e": "🪱"
+        },
+        {
+          "n": "Sazan",
+          "e": "🐟"
+        },
+        {
+          "n": "Turna balığı",
+          "e": "🐠"
+        }
+      ],
+      "dec": {
+        "n": "Bakteri",
+        "e": "🦠"
+      }
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt. Canlılar: Su yosunu, Böcek larvası, Sazan, Turna balığı, Bakteri.",
+    "correctAnswer": "Alttan üste: Su yosunu, Böcek larvası, Sazan, Turna balığı; Bakteri yan yüzeyde (ayrıştırıcı)",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-piramit-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 132, 141",
+    "difficulty": "zor",
+    "group": "zincir",
+    "rank": 3,
+    "type": "pyr",
+    "prompt": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt.",
+    "data": {
+      "lv": [
+        {
+          "n": "Yaprak",
+          "e": "🍃"
+        },
+        {
+          "n": "Tırtıl",
+          "e": "🐛"
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦"
+        }
+      ],
+      "dec": {
+        "n": "Mantar",
+        "e": "🍄"
+      }
+    },
+    "textPlain": "Ekoloji piramidi kulesini kur! Bloklara dokunarak kuleyi alttan üste diz, ayrıştırıcıyı piramidin yanına koy; sonra enerjiyi yukarı akıt. Canlılar: Yaprak, Tırtıl, Serçe, Mantar.",
+    "correctAnswer": "Alttan üste: Yaprak, Tırtıl, Serçe; Mantar yan yüzeyde (ayrıştırıcı)",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar.",
+    "questionId": "fen7u7-zincir-27"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141–142",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY SAYISI” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        }
+      ],
+      "prop": "sayi",
+      "t": "BİREY SAYISI",
+      "d": -1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY SAYISI” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Ot, Tavşan, Yılan.",
+    "correctAnswer": "BİREY SAYISI alttan üste doğru azalır: en çok Ot, en az Yılan",
+    "explanation": "Yukarı çıkıldıkça birey sayısı azalır; en geniş basamakta en çok bireye sahip üreticiler bulunur. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 142",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Mısır",
+          "e": "🌽"
+        },
+        {
+          "n": "Mısır kurdu",
+          "e": "🐛"
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦"
+        }
+      ],
+      "prop": "birikim",
+      "t": "ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)",
+      "d": 1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Mısır, Mısır kurdu, Serçe.",
+    "correctAnswer": "ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM) alttan üste doğru artar: en çok Serçe, en az Mısır",
+    "explanation": "Zararlı maddelerin bir kısmı canlının yapısında birikir (biyolojik birikim); bu nedenle piramitte yukarı çıkıldıkça zehirli madde miktarı artar. En üstteki canlılar (ör. gökdoğan) en çok etkilenir. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “AKTARILAN ENERJİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kuş",
+          "e": "🐦"
+        }
+      ],
+      "prop": "enerji",
+      "t": "AKTARILAN ENERJİ",
+      "d": -1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “AKTARILAN ENERJİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Ot, Çekirge, Kuş.",
+    "correctAnswer": "AKTARILAN ENERJİ alttan üste doğru azalır: en çok Ot, en az Kuş",
+    "explanation": "Canlı, beslenmeyle aldığı enerjinin çok büyük kısmını yaşamsal faaliyetlerinde harcar, çok azı bir üst basamağa aktarılır; bu yüzden yukarı çıkıldıkça aktarılan enerji azalır. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY VÜCUT BÜYÜKLÜĞÜ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Çimen",
+          "e": "🌱"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔"
+        }
+      ],
+      "prop": "boyut",
+      "t": "BİREY VÜCUT BÜYÜKLÜĞÜ",
+      "d": 1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY VÜCUT BÜYÜKLÜĞÜ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Çimen, Çekirge, Kirpi.",
+    "correctAnswer": "BİREY VÜCUT BÜYÜKLÜĞÜ alttan üste doğru artar: en çok Kirpi, en az Çimen",
+    "explanation": "Yukarı çıkıldıkça genellikle birey vücut büyüklüğü artar. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 142",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Mısır",
+          "e": "🌽"
+        },
+        {
+          "n": "Mısır kurdu",
+          "e": "🐛"
+        },
+        {
+          "n": "Serçe",
+          "e": "🐦"
+        },
+        {
+          "n": "Leylek",
+          "e": "🦢"
+        }
+      ],
+      "prop": "birikim",
+      "t": "ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)",
+      "d": 1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Mısır, Mısır kurdu, Serçe, Leylek.",
+    "correctAnswer": "ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM) alttan üste doğru artar: en çok Leylek, en az Mısır",
+    "explanation": "Zararlı maddelerin bir kısmı canlının yapısında birikir (biyolojik birikim); bu nedenle piramitte yukarı çıkıldıkça zehirli madde miktarı artar. En üstteki canlılar (ör. gökdoğan) en çok etkilenir. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141–142",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “TOPLAM CANLI KÜTLESİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        },
+        {
+          "n": "Kartal",
+          "e": "🦅"
+        }
+      ],
+      "prop": "kutle",
+      "t": "TOPLAM CANLI KÜTLESİ",
+      "d": -1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “TOPLAM CANLI KÜTLESİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Ot, Tavşan, Yılan, Kartal.",
+    "correctAnswer": "TOPLAM CANLI KÜTLESİ alttan üste doğru azalır: en çok Ot, en az Kartal",
+    "explanation": "Yukarı çıkıldıkça toplam canlı kütlesi azalır. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141–142",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “AKTARILAN ENERJİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Çimen",
+          "e": "🌱"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "prop": "enerji",
+      "t": "AKTARILAN ENERJİ",
+      "d": -1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “AKTARILAN ENERJİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Çimen, Çekirge, Kirpi, Tilki.",
+    "correctAnswer": "AKTARILAN ENERJİ alttan üste doğru azalır: en çok Çimen, en az Tilki",
+    "explanation": "Canlı, beslenmeyle aldığı enerjinin çok büyük kısmını yaşamsal faaliyetlerinde harcar, çok azı bir üst basamağa aktarılır; bu yüzden yukarı çıkıldıkça aktarılan enerji azalır. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141–142",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY VÜCUT BÜYÜKLÜĞÜ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Ot",
+          "e": "🌿"
+        },
+        {
+          "n": "Tavşan",
+          "e": "🐇"
+        },
+        {
+          "n": "Yılan",
+          "e": "🐍"
+        },
+        {
+          "n": "Kartal",
+          "e": "🦅"
+        }
+      ],
+      "prop": "boyut",
+      "t": "BİREY VÜCUT BÜYÜKLÜĞÜ",
+      "d": 1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY VÜCUT BÜYÜKLÜĞÜ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Ot, Tavşan, Yılan, Kartal.",
+    "correctAnswer": "BİREY VÜCUT BÜYÜKLÜĞÜ alttan üste doğru artar: en çok Kartal, en az Ot",
+    "explanation": "Yukarı çıkıldıkça genellikle birey vücut büyüklüğü artar. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 142",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Su yosunu",
+          "e": "🟢"
+        },
+        {
+          "n": "Böcek larvası",
+          "e": "🪱"
+        },
+        {
+          "n": "Sazan",
+          "e": "🐟"
+        },
+        {
+          "n": "Turna balığı",
+          "e": "🐠"
+        }
+      ],
+      "prop": "birikim",
+      "t": "ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)",
+      "d": 1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM)” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Su yosunu, Böcek larvası, Sazan, Turna balığı.",
+    "correctAnswer": "ZEHİRLİ MADDE (BİYOLOJİK BİRİKİM) alttan üste doğru artar: en çok Turna balığı, en az Su yosunu",
+    "explanation": "Zararlı maddelerin bir kısmı canlının yapısında birikir (biyolojik birikim); bu nedenle piramitte yukarı çıkıldıkça zehirli madde miktarı artar. En üstteki canlılar (ör. gökdoğan) en çok etkilenir. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-19"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 139, 141",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY SAYISI” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Çimen",
+          "e": "🌱"
+        },
+        {
+          "n": "Çekirge",
+          "e": "🦗"
+        },
+        {
+          "n": "Kirpi",
+          "e": "🦔"
+        },
+        {
+          "n": "Tilki",
+          "e": "🦊"
+        }
+      ],
+      "prop": "sayi",
+      "t": "BİREY SAYISI",
+      "d": -1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “BİREY SAYISI” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Çimen, Çekirge, Kirpi, Tilki.",
+    "correctAnswer": "BİREY SAYISI alttan üste doğru azalır: en çok Çimen, en az Tilki",
+    "explanation": "Yukarı çıkıldıkça birey sayısı azalır; en geniş basamakta en çok bireye sahip üreticiler bulunur. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-20"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "gauge",
+    "prompt": "Ölçüm istasyonu: Piramitteki her basamağın “AKTARILAN ENERJİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat!",
+    "data": {
+      "lv": [
+        {
+          "n": "Su yosunu",
+          "e": "🟢"
+        },
+        {
+          "n": "Böcek larvası",
+          "e": "🪱"
+        },
+        {
+          "n": "Sazan",
+          "e": "🐟"
+        },
+        {
+          "n": "Turna balığı",
+          "e": "🐠"
+        }
+      ],
+      "prop": "enerji",
+      "t": "AKTARILAN ENERJİ",
+      "d": -1
+    },
+    "textPlain": "Ölçüm istasyonu: Piramitteki her basamağın “AKTARILAN ENERJİ” çubuğunu sürükleyerek uzat ya da kısalt, sonra ölçümü başlat! Piramit (alttan üste): Su yosunu, Böcek larvası, Sazan, Turna balığı.",
+    "correctAnswer": "AKTARILAN ENERJİ alttan üste doğru azalır: en çok Su yosunu, en az Turna balığı",
+    "explanation": "Canlı, beslenmeyle aldığı enerjinin çok büyük kısmını yaşamsal faaliyetlerinde harcar, çok azı bir üst basamağa aktarılır; bu yüzden yukarı çıkıldıkça aktarılan enerji azalır. Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur.",
+    "questionId": "fen7u7-piramit-21"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141–143",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “ekoloji piramidinde YUKARI çıkıldıkça AZALAN” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "ekoloji piramidinde YUKARI çıkıldıkça AZALAN",
+      "items": [
+        {
+          "t": "Birey sayısı",
+          "e": "👥",
+          "a": 1
+        },
+        {
+          "t": "Biyolojik birikim",
+          "e": "☠️",
+          "a": 0
+        },
+        {
+          "t": "Aktarılan enerji",
+          "e": "⚡",
+          "a": 1
+        },
+        {
+          "t": "Birey vücut büyüklüğü",
+          "e": "🐘",
+          "a": 0
+        },
+        {
+          "t": "Toplam canlı kütlesi",
+          "e": "⚖️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “ekoloji piramidinde YUKARI çıkıldıkça AZALAN” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Birey sayısı, Biyolojik birikim, Aktarılan enerji, Birey vücut büyüklüğü, Toplam canlı kütlesi.",
+    "correctAnswer": "Yakalanacaklar: Birey sayısı, Aktarılan enerji, Toplam canlı kütlesi",
+    "explanation": "Yukarı çıkıldıkça birey sayısı azalır; en geniş basamakta en çok bireye sahip üreticiler bulunur. Canlı, beslenmeyle aldığı enerjinin çok büyük kısmını yaşamsal faaliyetlerinde harcar, çok azı bir üst basamağa aktarılır; bu yüzden yukarı çıkıldıkça aktarılan enerji azalır. Buna karşılık biyolojik birikim ve birey vücut büyüklüğü yukarı doğru artar.",
+    "questionId": "fen7u7-piramit-22"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 157",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “Rachel Carson ile ilgili” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "Rachel Carson ile ilgili",
+      "items": [
+        {
+          "t": "Sessiz Bahar kitabı",
+          "e": "📕",
+          "a": 1
+        },
+        {
+          "t": "Pestisit zararları",
+          "e": "🧪",
+          "a": 1
+        },
+        {
+          "t": "Su ayak izi kavramı",
+          "e": "👣",
+          "a": 0
+        },
+        {
+          "t": "DDT’nin yasaklanması",
+          "e": "🚫",
+          "a": 1
+        },
+        {
+          "t": "Kırk Çeşme Su Tesisi",
+          "e": "⛲",
+          "a": 0
+        },
+        {
+          "t": "Biyolojik birikimin yaygınlaşması",
+          "e": "☠️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “Rachel Carson ile ilgili” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Sessiz Bahar kitabı, Pestisit zararları, Su ayak izi kavramı, DDT’nin yasaklanması, Kırk Çeşme Su Tesisi, Biyolojik birikimin yaygınlaşması.",
+    "correctAnswer": "Yakalanacaklar: Sessiz Bahar kitabı, Pestisit zararları, DDT’nin yasaklanması, Biyolojik birikimin yaygınlaşması",
+    "explanation": "Rachel Carson, Sessiz Bahar kitabıyla tarımda kullanılan kimyasal pestisitlerin doğaya ve insan sağlığına zararlarını ortaya koydu; kitap DDT’nin yasaklanmasına ve EPA’nın kurulmasına öncülük etti, biyolojik birikim kavramının yaygınlaşmasına katkı sağladı. Su ayak izi Hoekstra’nın, Kırk Çeşme Mimar Sinan’ın eseridir.",
+    "questionId": "fen7u7-piramit-23"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "pour",
+    "prompt": "Kum saati deneyi: Dünya’daki suyun ne kadarı TATLI su? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Dünya’daki tüm su = 100",
+      "g": [
+        {
+          "n": "Tatlı su",
+          "v": 2.5,
+          "lo": 0.5,
+          "hi": 7
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Kum saati deneyi: Dünya’daki suyun ne kadarı TATLI su? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Dünya’daki tüm su = 100.",
+    "correctAnswer": "Tatlı su: yaklaşık 2,5%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "pour",
+    "prompt": "Dünya’daki suyun ne kadarı TUZLU su (okyanus ve denizler)? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Dünya’daki tüm su = 100",
+      "g": [
+        {
+          "n": "Tuzlu su",
+          "v": 97.5,
+          "lo": 91,
+          "hi": 100
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Dünya’daki suyun ne kadarı TUZLU su (okyanus ve denizler)? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Dünya’daki tüm su = 100.",
+    "correctAnswer": "Tuzlu su: yaklaşık 97,5%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "pour",
+    "prompt": "Tatlı suyun ne kadarı BUZULLAR ve buz dağlarındadır? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Tatlı suyun tamamı = 100",
+      "g": [
+        {
+          "n": "Buzullar ve buz dağları",
+          "v": 69,
+          "lo": 61,
+          "hi": 77
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Tatlı suyun ne kadarı BUZULLAR ve buz dağlarındadır? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Tatlı suyun tamamı = 100.",
+    "correctAnswer": "Buzullar ve buz dağları: yaklaşık 69%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "pour",
+    "prompt": "Tatlı suyun ne kadarı YER ALTI SUYUDUR? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Tatlı suyun tamamı = 100",
+      "g": [
+        {
+          "n": "Yer altı suyu",
+          "v": 30,
+          "lo": 23,
+          "hi": 37
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Tatlı suyun ne kadarı YER ALTI SUYUDUR? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Tatlı suyun tamamı = 100.",
+    "correctAnswer": "Yer altı suyu: yaklaşık 30%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "pour",
+    "prompt": "Yüzey sularının ne kadarı GÖLLERDEDİR? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Yüzey sularının tamamı = 100",
+      "g": [
+        {
+          "n": "Göller",
+          "v": 87,
+          "lo": 80,
+          "hi": 94
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Yüzey sularının ne kadarı GÖLLERDEDİR? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Yüzey sularının tamamı = 100.",
+    "correctAnswer": "Göller: yaklaşık 87%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "pour",
+    "prompt": "Üç bardağı sırayla doldur: tatlı su buzullara, yer altına ve yüzeye nasıl dağılmış? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Tatlı suyun tamamı = 100",
+      "g": [
+        {
+          "n": "Buzullar",
+          "v": 69,
+          "lo": 61,
+          "hi": 77
+        },
+        {
+          "n": "Yer altı",
+          "v": 30,
+          "lo": 23,
+          "hi": 37
+        },
+        {
+          "n": "Yüzey",
+          "v": 1,
+          "lo": 0.2,
+          "hi": 5
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Üç bardağı sırayla doldur: tatlı su buzullara, yer altına ve yüzeye nasıl dağılmış? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Tatlı suyun tamamı = 100.",
+    "correctAnswer": "Buzullar: yaklaşık 69%; Yer altı: yaklaşık 30%; Yüzey: yaklaşık 1%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "pour",
+    "prompt": "Üç bardağı sırayla doldur: yüzey suları göl, bataklık ve diğerlerine nasıl dağılmış? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Yüzey sularının tamamı = 100",
+      "g": [
+        {
+          "n": "Göller",
+          "v": 87,
+          "lo": 80,
+          "hi": 94
+        },
+        {
+          "n": "Bataklıklar",
+          "v": 11,
+          "lo": 6,
+          "hi": 17
+        },
+        {
+          "n": "Diğer",
+          "v": 2,
+          "lo": 0.4,
+          "hi": 6
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "Üç bardağı sırayla doldur: yüzey suları göl, bataklık ve diğerlerine nasıl dağılmış? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Yüzey sularının tamamı = 100.",
+    "correctAnswer": "Göller: yaklaşık 87%; Bataklıklar: yaklaşık 11%; Diğer: yaklaşık 2%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "pour",
+    "prompt": "İki bardağı sırayla doldur: Dünya’daki su tuzlu ve tatlı olarak nasıl paylaşılmış? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Dünya’daki tüm su = 100",
+      "g": [
+        {
+          "n": "Tuzlu",
+          "v": 97.5,
+          "lo": 91,
+          "hi": 100
+        },
+        {
+          "n": "Tatlı",
+          "v": 2.5,
+          "lo": 0.5,
+          "hi": 7
+        }
+      ],
+      "u": "%",
+      "mx": 100
+    },
+    "textPlain": "İki bardağı sırayla doldur: Dünya’daki su tuzlu ve tatlı olarak nasıl paylaşılmış? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Dünya’daki tüm su = 100.",
+    "correctAnswer": "Tuzlu: yaklaşık 97,5%; Tatlı: yaklaşık 2,5%",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "kolay",
+    "group": "iz",
+    "rank": 1,
+    "type": "pour",
+    "prompt": "Matarayı doldur: Bir insan günde yaklaşık kaç litre su İÇMELİ? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Günlük içme suyu",
+      "g": [
+        {
+          "n": "İçilecek su",
+          "v": 2,
+          "lo": 1.6,
+          "hi": 2.5
+        }
+      ],
+      "u": "L",
+      "mx": 5
+    },
+    "textPlain": "Matarayı doldur: Bir insan günde yaklaşık kaç litre su İÇMELİ? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Günlük içme suyu.",
+    "correctAnswer": "İçilecek su: yaklaşık 2 L",
+    "explanation": "Vücudumuzdaki suyun bir kısmını solunum, terleme ve boşaltımla kaybederiz; bunu yerine koymak için günde yaklaşık 2 litre su içmeliyiz. Banyo, lavabo, tuvalet, mutfak gibi alanlarda günde ortalama 150–200 litre su tüketiriz. Ürünlerin üretimindeki dolaylı su da sayıldığında bir kişinin günlük toplam su tüketimi ortalama 7000 litreyi bulur.",
+    "questionId": "fen7u7-iz-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "pour",
+    "prompt": "Ev deposunu doldur: Bir kişi evde günde ortalama kaç litre su tüketir? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Evde günlük doğrudan su kullanımı",
+      "g": [
+        {
+          "n": "Banyo, lavabo, tuvalet, mutfak",
+          "v": 175,
+          "lo": 145,
+          "hi": 210
+        }
+      ],
+      "u": "L",
+      "mx": 300
+    },
+    "textPlain": "Ev deposunu doldur: Bir kişi evde günde ortalama kaç litre su tüketir? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Evde günlük doğrudan su kullanımı.",
+    "correctAnswer": "Banyo, lavabo, tuvalet, mutfak: yaklaşık 175 L",
+    "explanation": "Vücudumuzdaki suyun bir kısmını solunum, terleme ve boşaltımla kaybederiz; bunu yerine koymak için günde yaklaşık 2 litre su içmeliyiz. Banyo, lavabo, tuvalet, mutfak gibi alanlarda günde ortalama 150–200 litre su tüketiriz. Ürünlerin üretimindeki dolaylı su da sayıldığında bir kişinin günlük toplam su tüketimi ortalama 7000 litreyi bulur.",
+    "questionId": "fen7u7-iz-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "zor",
+    "group": "iz",
+    "rank": 3,
+    "type": "pour",
+    "prompt": "Büyük su kulesini doldur: Dolaylı su da sayılınca bir kişinin günlük toplam su tüketimi kaç litre? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak!",
+    "data": {
+      "title": "Bir kişinin günlük TOPLAM su tüketimi (dolaylı dâhil)",
+      "g": [
+        {
+          "n": "Toplam",
+          "v": 7000,
+          "lo": 6000,
+          "hi": 8000
+        }
+      ],
+      "u": "L",
+      "mx": 10000
+    },
+    "textPlain": "Büyük su kulesini doldur: Dolaylı su da sayılınca bir kişinin günlük toplam su tüketimi kaç litre? Musluğa BASILI TUT, su dolsun; doğru çizgide bırak! Bir kişinin günlük TOPLAM su tüketimi (dolaylı dâhil).",
+    "correctAnswer": "Toplam: yaklaşık 7000 L",
+    "explanation": "Vücudumuzdaki suyun bir kısmını solunum, terleme ve boşaltımla kaybederiz; bunu yerine koymak için günde yaklaşık 2 litre su içmeliyiz. Banyo, lavabo, tuvalet, mutfak gibi alanlarda günde ortalama 150–200 litre su tüketiriz. Ürünlerin üretimindeki dolaylı su da sayıldığında bir kişinin günlük toplam su tüketimi ortalama 7000 litreyi bulur.",
+    "questionId": "fen7u7-iz-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “TATLI SU kaynağı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "TATLI SU kaynağı",
+      "items": [
+        {
+          "t": "Göl",
+          "e": "🏞️",
+          "a": 1
+        },
+        {
+          "t": "Okyanus",
+          "e": "🌊",
+          "a": 0
+        },
+        {
+          "t": "Nehir",
+          "e": "🏞️",
+          "a": 1
+        },
+        {
+          "t": "Deniz",
+          "e": "⛵",
+          "a": 0
+        },
+        {
+          "t": "Buzul",
+          "e": "🧊",
+          "a": 1
+        },
+        {
+          "t": "Yer altı suyu",
+          "e": "💧",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “TATLI SU kaynağı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Göl, Okyanus, Nehir, Deniz, Buzul, Yer altı suyu.",
+    "correctAnswer": "Yakalanacaklar: Göl, Nehir, Buzul, Yer altı suyu",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “YÜZEY SUYU” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "YÜZEY SUYU",
+      "items": [
+        {
+          "t": "Göl",
+          "e": "🏞️",
+          "a": 1
+        },
+        {
+          "t": "Kuyu suyu (yer altı)",
+          "e": "🪣",
+          "a": 0
+        },
+        {
+          "t": "Bataklık",
+          "e": "🌾",
+          "a": 1
+        },
+        {
+          "t": "Buz dağı",
+          "e": "🧊",
+          "a": 0
+        },
+        {
+          "t": "Nehir",
+          "e": "🌊",
+          "a": 1
+        },
+        {
+          "t": "Okyanus",
+          "e": "🐋",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “YÜZEY SUYU” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Göl, Kuyu suyu (yer altı), Bataklık, Buz dağı, Nehir, Okyanus.",
+    "correctAnswer": "Yakalanacaklar: Göl, Bataklık, Nehir",
+    "explanation": "Dünya’daki suyun yaklaşık %97,5’i tuzlu (okyanus, deniz), %2,5’i tatlıdır. Tatlı suyun %69’u buzullar ve buz dağları, %30’u yer altı suyu, %1’i yüzey suyudur. Yüzey sularının %87’si göller, %11’i bataklıklar, %2’si diğer kaynaklardır. Kullanılabilir suyun çoğu nehir ve göl gibi yüzey sularından, daha az kısmı yer altı sularından sağlanır.",
+    "questionId": "fen7u7-kaynak-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 146–147",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “Mimar Sinan’ın su yapısı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "Mimar Sinan’ın su yapısı",
+      "items": [
+        {
+          "t": "Su kemeri",
+          "e": "🌉",
+          "a": 1
+        },
+        {
+          "t": "Bent",
+          "e": "🧱",
+          "a": 1
+        },
+        {
+          "t": "Lazer yazıcı",
+          "e": "🖨️",
+          "a": 0
+        },
+        {
+          "t": "Çeşme",
+          "e": "⛲",
+          "a": 1
+        },
+        {
+          "t": "Sessiz Bahar",
+          "e": "📕",
+          "a": 0
+        },
+        {
+          "t": "Sebil",
+          "e": "🏛️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “Mimar Sinan’ın su yapısı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Su kemeri, Bent, Lazer yazıcı, Çeşme, Sessiz Bahar, Sebil.",
+    "correctAnswer": "Yakalanacaklar: Su kemeri, Bent, Çeşme, Sebil",
+    "explanation": "Mimar Sinan, hamam, su kemeri, köprü, bent, çeşme, sebil gibi yapılarla İstanbul’un su sorununu çözmeye odaklandı. Kırk Çeşme Su Tesisi ile İstanbul’a 55 km uzaktan su ulaştırdı; Mağlova Kemeri su taşımacılığındaki ustalığını gösterir.",
+    "questionId": "fen7u7-kaynak-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 157",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “Kerecî’nin çalışma alanı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "Kerecî’nin çalışma alanı",
+      "items": [
+        {
+          "t": "Yer altı su yolları",
+          "e": "🕳️",
+          "a": 1
+        },
+        {
+          "t": "Su kaldırma cihazları",
+          "e": "⚙️",
+          "a": 1
+        },
+        {
+          "t": "DDT yasağı",
+          "e": "🚫",
+          "a": 0
+        },
+        {
+          "t": "Suların sertlik derecesi",
+          "e": "💎",
+          "a": 1
+        },
+        {
+          "t": "Ekoloji piramidi",
+          "e": "🔺",
+          "a": 0
+        },
+        {
+          "t": "Cebir ve aritmetik",
+          "e": "➗",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “Kerecî’nin çalışma alanı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Yer altı su yolları, Su kaldırma cihazları, DDT yasağı, Suların sertlik derecesi, Ekoloji piramidi, Cebir ve aritmetik.",
+    "correctAnswer": "Yakalanacaklar: Yer altı su yolları, Su kaldırma cihazları, Suların sertlik derecesi, Cebir ve aritmetik",
+    "explanation": "Kerecî (953–1029) matematikçi, mühendis ve bilim insanıdır; cebir, aritmetik, hidrolik mühendisliği ve yer altı su sistemleri üzerine çalıştı. Yer altı su yolları, kanallar ve su kaldırma cihazları üzerinde çalıştı, suların farklı sertlik derecelerinin nedenlerini açıklamaya çalıştı.",
+    "questionId": "fen7u7-kaynak-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 147",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “SARNIÇ” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "SARNIÇ",
+      "items": [
+        {
+          "t": "Yerebatan",
+          "e": "🏛️",
+          "a": 1
+        },
+        {
+          "t": "Binbirdirek",
+          "e": "🏛️",
+          "a": 1
+        },
+        {
+          "t": "Mağlova",
+          "e": "🌉",
+          "a": 0
+        },
+        {
+          "t": "Şerefiye",
+          "e": "🏛️",
+          "a": 1
+        },
+        {
+          "t": "Selimiye",
+          "e": "🕌",
+          "a": 0
+        },
+        {
+          "t": "Aspar",
+          "e": "🏛️",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “SARNIÇ” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Yerebatan, Binbirdirek, Mağlova, Şerefiye, Selimiye, Aspar.",
+    "correctAnswer": "Yakalanacaklar: Yerebatan, Binbirdirek, Şerefiye, Aspar",
+    "explanation": "Sarnıç, su yollarından ve yağmur suyundan biriktirilen suların depolandığı alanlardır. Yerebatan, Binbirdirek ve Şerefiye kapalı; Aetius ve Aspar açık sarnıç örnekleridir. Mağlova bir su kemeri, Selimiye bir camidir.",
+    "questionId": "fen7u7-kaynak-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "pipe",
+    "prompt": "Boru ustası: Kullanılmış kızartma yağını DOĞRU yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Kızartma yağı",
+        "🍳"
+      ],
+      "d": [
+        [
+          "Lavabo",
+          "🚰"
+        ],
+        [
+          "Atık yağ toplama",
+          "🛢️"
+        ],
+        [
+          "Dere",
+          "🏞️"
+        ]
+      ],
+      "ok": 1,
+      "sz": 3
+    },
+    "textPlain": "Boru ustası: Kullanılmış kızartma yağını DOĞRU yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Kızartma yağı. Gidebileceği yerler: Lavabo, Atık yağ toplama, Dere.",
+    "correctAnswer": "Atık yağ toplama",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-01"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "pipe",
+    "prompt": "Boru ustası: Evden çıkan atık suyu doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Evsel atık su",
+        "🏠"
+      ],
+      "d": [
+        [
+          "Atık su arıtma tesisi",
+          "🏭"
+        ],
+        [
+          "Dere",
+          "🏞️"
+        ],
+        [
+          "Tarla",
+          "🌾"
+        ]
+      ],
+      "ok": 0,
+      "sz": 3
+    },
+    "textPlain": "Boru ustası: Evden çıkan atık suyu doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Evsel atık su. Gidebileceği yerler: Atık su arıtma tesisi, Dere, Tarla.",
+    "correctAnswer": "Atık su arıtma tesisi",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-02"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "pipe",
+    "prompt": "Boru ustası: Arıtma tesisinde temizlenen suyu döngüyü tamamlayacak yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Arıtılmış su",
+        "💧"
+      ],
+      "d": [
+        [
+          "Lavabo",
+          "🚰"
+        ],
+        [
+          "Atık yağ toplama",
+          "🛢️"
+        ],
+        [
+          "Akarsu (doğaya dönüş)",
+          "🏞️"
+        ]
+      ],
+      "ok": 2,
+      "sz": 3
+    },
+    "textPlain": "Boru ustası: Arıtma tesisinde temizlenen suyu döngüyü tamamlayacak yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Arıtılmış su. Gidebileceği yerler: Lavabo, Atık yağ toplama, Akarsu (doğaya dönüş).",
+    "correctAnswer": "Akarsu (doğaya dönüş)",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-03"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pipe",
+    "prompt": "Boru ustası: Fabrikanın kimyasallı atık suyunu doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Fabrika atık suyu",
+        "🏭"
+      ],
+      "d": [
+        [
+          "Nehir",
+          "🏞️"
+        ],
+        [
+          "Kirletici ayrıştırma (özel arıtma)",
+          "⚗️"
+        ],
+        [
+          "Göl",
+          "🏞️"
+        ]
+      ],
+      "ok": 1,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: Fabrikanın kimyasallı atık suyunu doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Fabrika atık suyu. Gidebileceği yerler: Nehir, Kirletici ayrıştırma (özel arıtma), Göl.",
+    "correctAnswer": "Kirletici ayrıştırma (özel arıtma)",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pipe",
+    "prompt": "Boru ustası: Pestisit ve suni gübre karışmış suyu doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Gübre-ilaç karışmış tarla suyu",
+        "🌾"
+      ],
+      "d": [
+        [
+          "Doğrudan göle",
+          "🏞️"
+        ],
+        [
+          "Kanal ile denize",
+          "🌊"
+        ],
+        [
+          "Arıtma tesisi",
+          "🏭"
+        ]
+      ],
+      "ok": 2,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: Pestisit ve suni gübre karışmış suyu doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Gübre-ilaç karışmış tarla suyu. Gidebileceği yerler: Doğrudan göle, Kanal ile denize, Arıtma tesisi.",
+    "correctAnswer": "Arıtma tesisi",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "pipe",
+    "prompt": "Boru ustası: Evlere gidecek baraj suyunu önce doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Baraj gölü suyu",
+        "🏞️"
+      ],
+      "d": [
+        [
+          "İçme suyu arıtma tesisi",
+          "🏭"
+        ],
+        [
+          "Atık yağ toplama",
+          "🛢️"
+        ],
+        [
+          "Fabrika bacası",
+          "🏭"
+        ]
+      ],
+      "ok": 0,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: Evlere gidecek baraj suyunu önce doğru yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Baraj gölü suyu. Gidebileceği yerler: İçme suyu arıtma tesisi, Atık yağ toplama, Fabrika bacası.",
+    "correctAnswer": "İçme suyu arıtma tesisi",
+    "explanation": "Sahip olduğumuz su kaynaklarından bazılarının insanlara ulaşmadan ya da doğaya karışmadan önce temizlenmesi gerekir; bu işlem su arıtma tesislerinde yapılır. Arıtma tesisleri de enerji kullanır; daha az su kirleterek hem su hem enerji tasarrufu yaparız.",
+    "questionId": "fen7u7-atik-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 149",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pipe",
+    "prompt": "Boru ustası: Atık sudan ayrılan maddeleri değerlendirileceği yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Arıtma çamuru ve atık su maddeleri",
+        "♻️"
+      ],
+      "d": [
+        [
+          "Biyogaz ve gübre üretimi",
+          "⚡"
+        ],
+        [
+          "Nehre dökme",
+          "🏞️"
+        ],
+        [
+          "Lavabo",
+          "🚰"
+        ]
+      ],
+      "ok": 0,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: Atık sudan ayrılan maddeleri değerlendirileceği yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Arıtma çamuru ve atık su maddeleri. Gidebileceği yerler: Biyogaz ve gübre üretimi, Nehre dökme, Lavabo.",
+    "correctAnswer": "Biyogaz ve gübre üretimi",
+    "explanation": "Atık sulardaki maddelerin geri kazanılması tarımdaki gübre ihtiyacının önemli bir kısmını karşılayabilir ve kirliliği azaltır. Atık suda, arıtılması için gereken enerjiden beş kat fazla enerji bulunur; bu da biyogaz ve elektrik üretimine imkân verir.",
+    "questionId": "fen7u7-atik-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 147",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pipe",
+    "prompt": "Boru ustası: İstanbul’un eski su sistemi gibi yağmur suyunu biriktirileceği yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Yağmur suyu",
+        "🌧️"
+      ],
+      "d": [
+        [
+          "Sarnıç",
+          "🏛️"
+        ],
+        [
+          "Atık yağ toplama",
+          "🛢️"
+        ],
+        [
+          "Fabrika atığı",
+          "🏭"
+        ]
+      ],
+      "ok": 0,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: İstanbul’un eski su sistemi gibi yağmur suyunu biriktirileceği yere ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Yağmur suyu. Gidebileceği yerler: Sarnıç, Atık yağ toplama, Fabrika atığı.",
+    "correctAnswer": "Sarnıç",
+    "explanation": "İstanbul’da şehrin su ihtiyacı bir dönem kuyulardan, açık ve kapalı sarnıçlardan karşılandı. Sarnıç, su yollarından ve yağmur suyundan biriktirilen suların depolandığı alandır (Yerebatan, Binbirdirek, Şerefiye kapalı; Aetius, Aspar açık).",
+    "questionId": "fen7u7-atik-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 147",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pipe",
+    "prompt": "Boru ustası: Mimar Sinan gibi kaynak suyunu şehre ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Kırk Çeşme kaynakları (55 km uzakta)",
+        "⛰️"
+      ],
+      "d": [
+        [
+          "Su kemeri ve bentlerle İstanbul’a",
+          "🌉"
+        ],
+        [
+          "Doğrudan denize",
+          "🌊"
+        ],
+        [
+          "Atık yağ toplama",
+          "🛢️"
+        ]
+      ],
+      "ok": 0,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: Mimar Sinan gibi kaynak suyunu şehre ulaştır! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Kırk Çeşme kaynakları (55 km uzakta). Gidebileceği yerler: Su kemeri ve bentlerle İstanbul’a, Doğrudan denize, Atık yağ toplama.",
+    "correctAnswer": "Su kemeri ve bentlerle İstanbul’a",
+    "explanation": "Kanuni Sultan Süleyman’ın görevlendirdiği Mimar Sinan, Kırk Çeşme Su Tesisi ile İstanbul’a 55 kilometre uzaktan su ulaştırdı; baş havuz, çökeltme havuzları, su kemerleri, bentler ve su dağıtım depoları inşa ederek 16. yüzyıldaki su sorununu çözdü.",
+    "questionId": "fen7u7-atik-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 149",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "pipe",
+    "prompt": "Boru ustası: Tişört üretiminde oluşan atık suyu döngüye doğru şekilde kat! Boru parçalarına dokunarak çevir, sonra vanayı aç.",
+    "data": {
+      "src": [
+        "Pamuk fabrikasının tişört atık suyu",
+        "👕"
+      ],
+      "d": [
+        [
+          "Doğrudan nehre",
+          "🏞️"
+        ],
+        [
+          "Arıtma tesisi, sonra doğaya",
+          "🏭"
+        ],
+        [
+          "Tarlaya sulama",
+          "🌾"
+        ]
+      ],
+      "ok": 1,
+      "sz": 4
+    },
+    "textPlain": "Boru ustası: Tişört üretiminde oluşan atık suyu döngüye doğru şekilde kat! Boru parçalarına dokunarak çevir, sonra vanayı aç. Kaynak: Pamuk fabrikasının tişört atık suyu. Gidebileceği yerler: Doğrudan nehre, Arıtma tesisi, sonra doğaya, Tarlaya sulama.",
+    "correctAnswer": "Arıtma tesisi, sonra doğaya",
+    "explanation": "Pamuk suyunu yağmurdan, yer altı ve yüzey kaynaklarından alır. Fabrikada pamuktan tişört üretilirken atık su oluşur; çevreyi kirletmemesi için arıtma tesisinde arındırılır. Arıtılan su yeniden çevreye yayılır, su kaynaklarını besleyerek döngüyü tamamlar.",
+    "questionId": "fen7u7-atik-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “ATIK SU oluşturan” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "ATIK SU oluşturan",
+      "items": [
+        {
+          "t": "Bulaşık suyu",
+          "e": "🍽️",
+          "a": 1
+        },
+        {
+          "t": "Yağmur damlası",
+          "e": "🌧️",
+          "a": 0
+        },
+        {
+          "t": "Fabrika kimyasallı su",
+          "e": "🏭",
+          "a": 1
+        },
+        {
+          "t": "Kaynak suyu",
+          "e": "⛰️",
+          "a": 0
+        },
+        {
+          "t": "Gübreli tarla suyu",
+          "e": "🌾",
+          "a": 1
+        },
+        {
+          "t": "Banyo suyu",
+          "e": "🛁",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “ATIK SU oluşturan” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Bulaşık suyu, Yağmur damlası, Fabrika kimyasallı su, Kaynak suyu, Gübreli tarla suyu, Banyo suyu.",
+    "correctAnswer": "Yakalanacaklar: Bulaşık suyu, Fabrika kimyasallı su, Gübreli tarla suyu, Banyo suyu",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “EVSEL atık su” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "EVSEL atık su",
+      "items": [
+        {
+          "t": "Çamaşır suyu",
+          "e": "🧺",
+          "a": 1
+        },
+        {
+          "t": "Fabrika boyası",
+          "e": "🏭",
+          "a": 0
+        },
+        {
+          "t": "Bulaşık suyu",
+          "e": "🍽️",
+          "a": 1
+        },
+        {
+          "t": "Pestisitli su",
+          "e": "🌾",
+          "a": 0
+        },
+        {
+          "t": "Duş suyu",
+          "e": "🚿",
+          "a": 1
+        },
+        {
+          "t": "Maden atığı",
+          "e": "⛏️",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “EVSEL atık su” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Çamaşır suyu, Fabrika boyası, Bulaşık suyu, Pestisitli su, Duş suyu, Maden atığı.",
+    "correctAnswer": "Yakalanacaklar: Çamaşır suyu, Bulaşık suyu, Duş suyu",
+    "explanation": "Evsel atık su; banyo, mutfak, çamaşır, tuvalet gibi ev kullanımlarından oluşur ve atık suların çoğunu oluşturur. Endüstriyel atık su fabrikalardaki üretimde, tarımsal atık su ise pestisit, ilaç ve suni gübrelerin suya karışmasıyla oluşur.",
+    "questionId": "fen7u7-atik-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 149",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “ENDÜSTRİYEL atık su” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "ENDÜSTRİYEL atık su",
+      "items": [
+        {
+          "t": "Boya fabrikası çıkışı",
+          "e": "🏭",
+          "a": 1
+        },
+        {
+          "t": "Mutfak lavabosu",
+          "e": "🍽️",
+          "a": 0
+        },
+        {
+          "t": "Tekstil fabrikası suyu",
+          "e": "👕",
+          "a": 1
+        },
+        {
+          "t": "Tarla ilacı",
+          "e": "🌾",
+          "a": 0
+        },
+        {
+          "t": "Kimya tesisi suyu",
+          "e": "⚗️",
+          "a": 1
+        },
+        {
+          "t": "Duş suyu",
+          "e": "🚿",
+          "a": 0
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “ENDÜSTRİYEL atık su” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Boya fabrikası çıkışı, Mutfak lavabosu, Tekstil fabrikası suyu, Tarla ilacı, Kimya tesisi suyu, Duş suyu.",
+    "correctAnswer": "Yakalanacaklar: Boya fabrikası çıkışı, Tekstil fabrikası suyu, Kimya tesisi suyu",
+    "explanation": "Endüstriyel atık su, üretimde kullanılan suların atık kimyasallarla birlikte dışarı atılmasıyla oluşur; doğrudan su kaynaklarına karışması biyoçeşitliliğe çok zararlıdır, kirleticiler özel yöntemlerle ayrıştırılmalıdır.",
+    "questionId": "fen7u7-atik-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150–152",
+    "difficulty": "kolay",
+    "group": "iz",
+    "rank": 1,
+    "type": "path",
+    "prompt": "Gün yolu: Ece okula hazırlanıyor. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Dişini fırçalarken musluğu kapat",
+          "b": "Musluk açık kalsın",
+          "g": 0
+        },
+        {
+          "a": "Uzun banyo yap",
+          "b": "Kısa duş al",
+          "g": 1
+        },
+        {
+          "a": "Bulaşığı makine tam dolunca çalıştır",
+          "b": "Yarım makine çalıştır",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Ece okula hazırlanıyor. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Dişini fırçalarken musluğu kapat / Musluk açık kalsın | Uzun banyo yap / Kısa duş al | Bulaşığı makine tam dolunca çalıştır / Yarım makine çalıştır.",
+    "correctAnswer": "Dişini fırçalarken musluğu kapat; Kısa duş al; Bulaşığı makine tam dolunca çalıştır",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-iz-04"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 155",
+    "difficulty": "kolay",
+    "group": "iz",
+    "rank": 1,
+    "type": "path",
+    "prompt": "Gün yolu: Fatih kot pantolon alışverişinde. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "İhtiyacı yokken yeni kot al",
+          "b": "Söküğü terziye götür",
+          "g": 1
+        },
+        {
+          "a": "Pantolonu dikkatli kullan, uzun giy",
+          "b": "Bir sezon giyip at",
+          "g": 0
+        },
+        {
+          "a": "Küçülen kotu bağışla",
+          "b": "Küçülen kotu çöpe at",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Fatih kot pantolon alışverişinde. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: İhtiyacı yokken yeni kot al / Söküğü terziye götür | Pantolonu dikkatli kullan, uzun giy / Bir sezon giyip at | Küçülen kotu bağışla / Küçülen kotu çöpe at.",
+    "correctAnswer": "Söküğü terziye götür; Pantolonu dikkatli kullan, uzun giy; Küçülen kotu bağışla",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-iz-05"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150, 152",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "path",
+    "prompt": "Gün yolu: Mira’nın market günü. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Gıdayı ihtiyacı kadar al",
+          "b": "Fazla alıp bozulanı at",
+          "g": 0
+        },
+        {
+          "a": "Plastik poşet biriktir",
+          "b": "Bez çanta kullan",
+          "g": 1
+        },
+        {
+          "a": "Ekmeği israf etme",
+          "b": "Bayatlayan ekmeği çöpe at",
+          "g": 0
+        },
+        {
+          "a": "Gereksiz ürün alma",
+          "b": "İndirim var diye fazla al",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Mira’nın market günü. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Gıdayı ihtiyacı kadar al / Fazla alıp bozulanı at | Plastik poşet biriktir / Bez çanta kullan | Ekmeği israf etme / Bayatlayan ekmeği çöpe at | Gereksiz ürün alma / İndirim var diye fazla al.",
+    "correctAnswer": "Gıdayı ihtiyacı kadar al; Bez çanta kullan; Ekmeği israf etme; Gereksiz ürün alma",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-iz-06"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 156",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "path",
+    "prompt": "Gün yolu: Tarık ve Tuna’nın ayı. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Okula yürüyerek git",
+          "b": "Okula otomobille git",
+          "g": 0
+        },
+        {
+          "a": "150 kâğıt peçete kullan",
+          "b": "100 kâğıt peçete kullan",
+          "g": 1
+        },
+        {
+          "a": "Hayvansal besini 2,5 kg tüket",
+          "b": "Hayvansal besini 1,5 kg tüket",
+          "g": 1
+        },
+        {
+          "a": "Temizlikte 3000 L kullan",
+          "b": "Temizlikte 3700 L kullan",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Tarık ve Tuna’nın ayı. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Okula yürüyerek git / Okula otomobille git | 150 kâğıt peçete kullan / 100 kâğıt peçete kullan | Hayvansal besini 2,5 kg tüket / Hayvansal besini 1,5 kg tüket | Temizlikte 3000 L kullan / Temizlikte 3700 L kullan.",
+    "correctAnswer": "Okula yürüyerek git; 100 kâğıt peçete kullan; Hayvansal besini 1,5 kg tüket; Temizlikte 3000 L kullan",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-iz-07"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150, 160",
+    "difficulty": "zor",
+    "group": "iz",
+    "rank": 3,
+    "type": "path",
+    "prompt": "Gün yolu: Bir tişört almak istiyorsun. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Eskiler küçülmediyse almaktan vazgeç",
+          "b": "Beğendin diye hemen al",
+          "g": 0
+        },
+        {
+          "a": "Eski tişörtleri bez yap",
+          "b": "Eski tişörtleri at",
+          "g": 0
+        },
+        {
+          "a": "Yeni almadan önce ihtiyacını sorgula",
+          "b": "Her sezon yenile",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Bir tişört almak istiyorsun. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Eskiler küçülmediyse almaktan vazgeç / Beğendin diye hemen al | Eski tişörtleri bez yap / Eski tişörtleri at | Yeni almadan önce ihtiyacını sorgula / Her sezon yenile.",
+    "correctAnswer": "Eskiler küçülmediyse almaktan vazgeç; Eski tişörtleri bez yap; Yeni almadan önce ihtiyacını sorgula",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz. Bir tişörtün su ayak izi yalnızca tarladaki pamuğa değil; işleme, üretim ve taşımanın her aşamasına harcanan sudan oluşur.",
+    "questionId": "fen7u7-iz-08"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150, 158",
+    "difficulty": "zor",
+    "group": "iz",
+    "rank": 3,
+    "type": "path",
+    "prompt": "Gün yolu: Defter, telefon ve ayakkabı alışverişi. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Telefonu bozulmadıkça yenileme",
+          "b": "Her yıl yeni telefon al",
+          "g": 0
+        },
+        {
+          "a": "Defterin boş sayfalarını kullan",
+          "b": "Yarım defteri at",
+          "g": 0
+        },
+        {
+          "a": "İki çift yeterken beşinci ayakkabıyı al",
+          "b": "Eski ayakkabıyı tamir ettir",
+          "g": 1
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Defter, telefon ve ayakkabı alışverişi. Her yol ayrımında su ayak izini KÜÇÜLTEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Telefonu bozulmadıkça yenileme / Her yıl yeni telefon al | Defterin boş sayfalarını kullan / Yarım defteri at | İki çift yeterken beşinci ayakkabıyı al / Eski ayakkabıyı tamir ettir.",
+    "correctAnswer": "Telefonu bozulmadıkça yenileme; Defterin boş sayfalarını kullan; Eski ayakkabıyı tamir ettir",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz. Akıllı telefonun su ayak izi yaklaşık 12.760 L, bir çift ayakkabınınki 8000 L, tişörtün 2720 L, bir A4 kâğıdının 5 L’dir.",
+    "questionId": "fen7u7-iz-09"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 152, 156",
+    "difficulty": "kolay",
+    "group": "kaynak",
+    "rank": 1,
+    "type": "path",
+    "prompt": "Gün yolu: Bahçe ve saksılar. Her yol ayrımında suyu KORUYAN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Bitkileri öğle sıcağında sula",
+          "b": "Bitkileri akşam serinliğinde sula",
+          "g": 1
+        },
+        {
+          "a": "Yağmur suyunu biriktirip kullan",
+          "b": "Hortumu açık bırak",
+          "g": 0
+        },
+        {
+          "a": "Damla sulama kullan",
+          "b": "Salma sulama yap",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Bahçe ve saksılar. Her yol ayrımında suyu KORUYAN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Bitkileri öğle sıcağında sula / Bitkileri akşam serinliğinde sula | Yağmur suyunu biriktirip kullan / Hortumu açık bırak | Damla sulama kullan / Salma sulama yap.",
+    "correctAnswer": "Bitkileri akşam serinliğinde sula; Yağmur suyunu biriktirip kullan; Damla sulama kullan",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-kaynak-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 152",
+    "difficulty": "orta",
+    "group": "kaynak",
+    "rank": 2,
+    "type": "path",
+    "prompt": "Gün yolu: Evde su tasarrufu haftası. Her yol ayrımında suyu KORUYAN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Damlayan musluğu tamir et",
+          "b": "Damlasın, az zaten",
+          "g": 0
+        },
+        {
+          "a": "Sebzeyi akan suda yıka",
+          "b": "Sebzeyi kapta yıka",
+          "g": 1
+        },
+        {
+          "a": "Çamaşır makinesini tam doldur",
+          "b": "Her gün yarım yıka",
+          "g": 0
+        },
+        {
+          "a": "Arabayı hortumla yıka",
+          "b": "Arabayı kova ile sil",
+          "g": 1
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Evde su tasarrufu haftası. Her yol ayrımında suyu KORUYAN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Damlayan musluğu tamir et / Damlasın, az zaten | Sebzeyi akan suda yıka / Sebzeyi kapta yıka | Çamaşır makinesini tam doldur / Her gün yarım yıka | Arabayı hortumla yıka / Arabayı kova ile sil.",
+    "correctAnswer": "Damlayan musluğu tamir et; Sebzeyi kapta yıka; Çamaşır makinesini tam doldur; Arabayı kova ile sil",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-kaynak-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Dünya’daki su kaynakları",
+    "outcome": "Su kaynaklarını sınıflandırır ve kaynakların tasarruflu kullanımının önemini sorgular.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 154",
+    "difficulty": "zor",
+    "group": "kaynak",
+    "rank": 3,
+    "type": "path",
+    "prompt": "Gün yolu: 22 Mart Dünya Su Günü projesi. Her yol ayrımında suyu KORUYAN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Buzul suyu bol, tasarrufa gerek yok",
+          "b": "Kullanılabilir su çok az, tasarruf et",
+          "g": 1
+        },
+        {
+          "a": "Okulda su tasarrufu afişi as",
+          "b": "Konuyu geç",
+          "g": 0
+        },
+        {
+          "a": "Ailene su faturasını birlikte incelemeyi öner",
+          "b": "Faturayı önemseme",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: 22 Mart Dünya Su Günü projesi. Her yol ayrımında suyu KORUYAN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Buzul suyu bol, tasarrufa gerek yok / Kullanılabilir su çok az, tasarruf et | Okulda su tasarrufu afişi as / Konuyu geç | Ailene su faturasını birlikte incelemeyi öner / Faturayı önemseme.",
+    "correctAnswer": "Kullanılabilir su çok az, tasarruf et; Okulda su tasarrufu afişi as; Ailene su faturasını birlikte incelemeyi öner",
+    "explanation": "Su döngüsüyle sürekli çevrim hâlindedir ama temiz, erişilebilir, kullanılabilir su sınırlıdır; tatlı suyun büyük kısmı buzullardadır ve kullanımı kısıtlıdır. Dünya’daki suyun 333 bardak olduğu düşünülürse yalnızca yaklaşık 1 bardağı kullanılabilir. 22 Mart Dünya Su Günü bu farkındalık için kutlanır.",
+    "questionId": "fen7u7-kaynak-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148, 160",
+    "difficulty": "kolay",
+    "group": "atik",
+    "rank": 1,
+    "type": "path",
+    "prompt": "Gün yolu: Akşam yemeğinden sonra. Her yol ayrımında suyu KİRLETMEYEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Kızartma yağını lavaboya dök",
+          "b": "Yağı şişede biriktir",
+          "g": 1
+        },
+        {
+          "a": "Biriken yağı atık yağ noktasına götür",
+          "b": "Yağı çöpe dök",
+          "g": 0
+        },
+        {
+          "a": "Tabaklardaki yağı peçeteyle sil",
+          "b": "Yağlı tabağı doğrudan lavaboda yıka",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Akşam yemeğinden sonra. Her yol ayrımında suyu KİRLETMEYEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Kızartma yağını lavaboya dök / Yağı şişede biriktir | Biriken yağı atık yağ noktasına götür / Yağı çöpe dök | Tabaklardaki yağı peçeteyle sil / Yağlı tabağı doğrudan lavaboda yıka.",
+    "correctAnswer": "Yağı şişede biriktir; Biriken yağı atık yağ noktasına götür; Tabaklardaki yağı peçeteyle sil",
+    "explanation": "Evsel, endüstriyel, tarımsal ve diğer kullanımlar sonucunda kirlenmiş ya da özellikleri değişmiş sulara atık su denir. Atık suların çoğu evlerde oluşur. Kullanılmış yağlar lavaboya dökülmez; biriktirilip atık yağ toplama merkezlerine bırakılır. Endüstriyel atık sulardaki kirleticiler çevreye bırakılmadan önce özel yöntemlerle ayrıştırılmalıdır. Arıtılan su yeniden çevreye verilerek su kaynaklarını besler.",
+    "questionId": "fen7u7-atik-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 148–149, 160",
+    "difficulty": "orta",
+    "group": "atik",
+    "rank": 2,
+    "type": "path",
+    "prompt": "Gün yolu: Derya arıtma tesisi gezisinde. Her yol ayrımında suyu KİRLETMEYEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Daha az su kirlet, enerji de tasarruf et",
+          "b": "Arıtma her şeyi temizler, fark etmez",
+          "g": 0
+        },
+        {
+          "a": "Atık sudan biyogaz üretimini öğren",
+          "b": "Çamuru nehre dök",
+          "g": 0
+        },
+        {
+          "a": "İlaçları lavaboya at",
+          "b": "İlaçları eczaneye götür",
+          "g": 1
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Derya arıtma tesisi gezisinde. Her yol ayrımında suyu KİRLETMEYEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Daha az su kirlet, enerji de tasarruf et / Arıtma her şeyi temizler, fark etmez | Atık sudan biyogaz üretimini öğren / Çamuru nehre dök | İlaçları lavaboya at / İlaçları eczaneye götür.",
+    "correctAnswer": "Daha az su kirlet, enerji de tasarruf et; Atık sudan biyogaz üretimini öğren; İlaçları eczaneye götür",
+    "explanation": "Tüm tesisler gibi su arıtma tesisleri de enerji kullanır; ihtiyacımızdan az su kirletirsek hem su hem enerji tasarrufu yaparız. Atık sudaki maddeler geri kazanılabilir; atık sudan biyogaz ve elektrik üretilebilir.",
+    "questionId": "fen7u7-atik-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Atık su ve su arıtma",
+    "outcome": "Atık suyun oluşumunu ve arıtılmasının önemini açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 149, 142",
+    "difficulty": "zor",
+    "group": "atik",
+    "rank": 3,
+    "type": "path",
+    "prompt": "Gün yolu: Tarlada ilaçlama zamanı. Her yol ayrımında suyu KİRLETMEYEN tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Gübreyi ihtiyaçtan fazla kullan",
+          "b": "Gübreyi ölçülü kullan",
+          "g": 1
+        },
+        {
+          "a": "İlacı derenin hemen yanında karıştır",
+          "b": "İlacı dereden uzakta hazırla",
+          "g": 1
+        },
+        {
+          "a": "Tarım atık suyunun arıtılmasını iste",
+          "b": "Atık suyu kanala sal",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Tarlada ilaçlama zamanı. Her yol ayrımında suyu KİRLETMEYEN tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Gübreyi ihtiyaçtan fazla kullan / Gübreyi ölçülü kullan | İlacı derenin hemen yanında karıştır / İlacı dereden uzakta hazırla | Tarım atık suyunun arıtılmasını iste / Atık suyu kanala sal.",
+    "correctAnswer": "Gübreyi ölçülü kullan; İlacı dereden uzakta hazırla; Tarım atık suyunun arıtılmasını iste",
+    "explanation": "Tarımda kullanılan pestisit, ilaç ve suni gübreler su kaynaklarına karışarak atık su oluşturur ve çevreyi tehdit eder; bu maddeler besin zinciriyle canlılarda birikebilir (biyolojik birikim).",
+    "questionId": "fen7u7-atik-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "kolay",
+    "group": "iz",
+    "rank": 1,
+    "type": "dial",
+    "prompt": "Su sayacı: Bir A4 kâğıdı üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur!",
+    "data": {
+      "item": "Bir A4 kâğıdı",
+      "e": "📄",
+      "v": 5,
+      "lo": 4,
+      "hi": 7
+    },
+    "textPlain": "Su sayacı: Bir A4 kâğıdı üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur! Ürün: Bir A4 kâğıdı.",
+    "correctAnswer": "Yaklaşık 5 L",
+    "explanation": "Su ayak izi bir kişiye, ürüne, bölgeye veya ülkeye ait olabilir ve üretimde kullanılan “görünmez” suyu ortaya koyar. Ders kitabındaki yaklaşık değerler: akıllı telefon 12.760 L, bir çift ayakkabı 8000 L, tişört 2720 L, A4 kâğıdı 5 L; bir kot pantolon yaklaşık 10.000 L.",
+    "questionId": "fen7u7-iz-10"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "kolay",
+    "group": "iz",
+    "rank": 1,
+    "type": "dial",
+    "prompt": "Su sayacı: Bir tişört üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur!",
+    "data": {
+      "item": "Bir tişört",
+      "e": "👕",
+      "v": 2720,
+      "lo": 2015,
+      "hi": 3672
+    },
+    "textPlain": "Su sayacı: Bir tişört üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur! Ürün: Bir tişört.",
+    "correctAnswer": "Yaklaşık 2.720 L",
+    "explanation": "Su ayak izi bir kişiye, ürüne, bölgeye veya ülkeye ait olabilir ve üretimde kullanılan “görünmez” suyu ortaya koyar. Ders kitabındaki yaklaşık değerler: akıllı telefon 12.760 L, bir çift ayakkabı 8000 L, tişört 2720 L, A4 kâğıdı 5 L; bir kot pantolon yaklaşık 10.000 L.",
+    "questionId": "fen7u7-iz-11"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "dial",
+    "prompt": "Su sayacı: Bir çift ayakkabı üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur!",
+    "data": {
+      "item": "Bir çift ayakkabı",
+      "e": "👟",
+      "v": 8000,
+      "lo": 5926,
+      "hi": 10800
+    },
+    "textPlain": "Su sayacı: Bir çift ayakkabı üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur! Ürün: Bir çift ayakkabı.",
+    "correctAnswer": "Yaklaşık 8.000 L",
+    "explanation": "Su ayak izi bir kişiye, ürüne, bölgeye veya ülkeye ait olabilir ve üretimde kullanılan “görünmez” suyu ortaya koyar. Ders kitabındaki yaklaşık değerler: akıllı telefon 12.760 L, bir çift ayakkabı 8000 L, tişört 2720 L, A4 kâğıdı 5 L; bir kot pantolon yaklaşık 10.000 L.",
+    "questionId": "fen7u7-iz-12"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150, 158",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "dial",
+    "prompt": "Su sayacı: Bir akıllı telefon üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur!",
+    "data": {
+      "item": "Bir akıllı telefon",
+      "e": "📱",
+      "v": 12760,
+      "lo": 9452,
+      "hi": 17226
+    },
+    "textPlain": "Su sayacı: Bir akıllı telefon üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur! Ürün: Bir akıllı telefon.",
+    "correctAnswer": "Yaklaşık 12.760 L",
+    "explanation": "Su ayak izi bir kişiye, ürüne, bölgeye veya ülkeye ait olabilir ve üretimde kullanılan “görünmez” suyu ortaya koyar. Ders kitabındaki yaklaşık değerler: akıllı telefon 12.760 L, bir çift ayakkabı 8000 L, tişört 2720 L, A4 kâğıdı 5 L; bir kot pantolon yaklaşık 10.000 L.",
+    "questionId": "fen7u7-iz-13"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 155",
+    "difficulty": "zor",
+    "group": "iz",
+    "rank": 3,
+    "type": "dial",
+    "prompt": "Su sayacı: Bir kot pantolon üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur!",
+    "data": {
+      "item": "Bir kot pantolon",
+      "e": "👖",
+      "v": 10000,
+      "lo": 7407,
+      "hi": 13500
+    },
+    "textPlain": "Su sayacı: Bir kot pantolon üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur! Ürün: Bir kot pantolon.",
+    "correctAnswer": "Yaklaşık 10.000 L",
+    "explanation": "Su ayak izi bir kişiye, ürüne, bölgeye veya ülkeye ait olabilir ve üretimde kullanılan “görünmez” suyu ortaya koyar. Ders kitabındaki yaklaşık değerler: akıllı telefon 12.760 L, bir çift ayakkabı 8000 L, tişört 2720 L, A4 kâğıdı 5 L; bir kot pantolon yaklaşık 10.000 L.",
+    "questionId": "fen7u7-iz-14"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "dial",
+    "prompt": "Su sayacı: Bir insanın günlük içme suyu üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur!",
+    "data": {
+      "item": "Bir insanın günlük içme suyu",
+      "e": "🥤",
+      "v": 2,
+      "lo": 1,
+      "hi": 3
+    },
+    "textPlain": "Su sayacı: Bir insanın günlük içme suyu üretmek için yaklaşık kaç litre su harcanır? Sayaç kolunu çevirerek tahmin et, sonra tankı doldur! Ürün: Bir insanın günlük içme suyu.",
+    "correctAnswer": "Yaklaşık 2 L",
+    "explanation": "Su ayak izi bir kişiye, ürüne, bölgeye veya ülkeye ait olabilir ve üretimde kullanılan “görünmez” suyu ortaya koyar. Ders kitabındaki yaklaşık değerler: akıllı telefon 12.760 L, bir çift ayakkabı 8000 L, tişört 2720 L, A4 kâğıdı 5 L; bir kot pantolon yaklaşık 10.000 L.",
+    "questionId": "fen7u7-iz-15"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150, 152",
+    "difficulty": "kolay",
+    "group": "iz",
+    "rank": 1,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “su ayak izini KÜÇÜLTEN davranış” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "su ayak izini KÜÇÜLTEN davranış",
+      "items": [
+        {
+          "t": "Musluğu kapatmak",
+          "e": "🚰",
+          "a": 1
+        },
+        {
+          "t": "Yemek israfı",
+          "e": "🗑️",
+          "a": 0
+        },
+        {
+          "t": "Kısa duş",
+          "e": "🚿",
+          "a": 1
+        },
+        {
+          "t": "Gereksiz alışveriş",
+          "e": "🛍️",
+          "a": 0
+        },
+        {
+          "t": "Bez çanta",
+          "e": "👜",
+          "a": 1
+        },
+        {
+          "t": "Tamir ettirmek",
+          "e": "🧵",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “su ayak izini KÜÇÜLTEN davranış” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Musluğu kapatmak, Yemek israfı, Kısa duş, Gereksiz alışveriş, Bez çanta, Tamir ettirmek.",
+    "correctAnswer": "Yakalanacaklar: Musluğu kapatmak, Kısa duş, Bez çanta, Tamir ettirmek",
+    "explanation": "Su ayak izi; mal üretimi ve iş yapımında tüketilen doğrudan ve dolaylı su miktarını birlikte ele alarak gerçek su tüketimini gösteren ölçüttür. İhtiyacımız kadar eşya alır, gıdayı israf etmez, enerjiyi verimli kullanır, evde su tasarrufu yaparsak su ayak izimiz küçülür ve daha az atık su oluştururuz.",
+    "questionId": "fen7u7-iz-16"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 150–151",
+    "difficulty": "orta",
+    "group": "iz",
+    "rank": 2,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “DOLAYLI su kullanımı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "DOLAYLI su kullanımı",
+      "items": [
+        {
+          "t": "Tişört üretimi",
+          "e": "👕",
+          "a": 1
+        },
+        {
+          "t": "Su içmek",
+          "e": "🥤",
+          "a": 0
+        },
+        {
+          "t": "Ekmekteki buğday sulaması",
+          "e": "🍞",
+          "a": 1
+        },
+        {
+          "t": "Duş almak",
+          "e": "🚿",
+          "a": 0
+        },
+        {
+          "t": "Defter üretimi",
+          "e": "📓",
+          "a": 1
+        },
+        {
+          "t": "Okul sırası yapımı",
+          "e": "🪑",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “DOLAYLI su kullanımı” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Tişört üretimi, Su içmek, Ekmekteki buğday sulaması, Duş almak, Defter üretimi, Okul sırası yapımı.",
+    "correctAnswer": "Yakalanacaklar: Tişört üretimi, Ekmekteki buğday sulaması, Defter üretimi, Okul sırası yapımı",
+    "explanation": "Doğrudan su kullanımı içme, temizlik, mutfak gibi kullanımlardır. Giydiğimiz tişörtün pamuğunun yetiştirilmesi, ekmekteki buğdayın sulanması, defterin ve oturduğumuz sıranın üretimi dolaylı su kullanımıdır; ikisi birlikte su ayak izini oluşturur.",
+    "questionId": "fen7u7-iz-17"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Su ayak izi ve kaynakların tasarruflu kullanımı",
+    "outcome": "Su ayak izini açıklar ve kaynakların tasarruflu kullanımına yönelik çözümler üretir.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 157",
+    "difficulty": "zor",
+    "group": "iz",
+    "rank": 3,
+    "type": "catch",
+    "prompt": "Yağmur oyunu: Gökten düşenlerden yalnızca “Arjen Hoekstra ile ilgili” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun.",
+    "data": {
+      "title": "Arjen Hoekstra ile ilgili",
+      "items": [
+        {
+          "t": "Su ayak izi kavramı",
+          "e": "👣",
+          "a": 1
+        },
+        {
+          "t": "Ülkeler arası su bağımlılığı",
+          "e": "🌍",
+          "a": 1
+        },
+        {
+          "t": "Ekoloji piramidi",
+          "e": "🔺",
+          "a": 0
+        },
+        {
+          "t": "Sürdürülebilir su yönetimi",
+          "e": "💧",
+          "a": 1
+        },
+        {
+          "t": "Kırk Çeşme",
+          "e": "⛲",
+          "a": 0
+        },
+        {
+          "t": "Suyun küresel kaynak olması",
+          "e": "🌐",
+          "a": 1
+        }
+      ]
+    },
+    "textPlain": "Yağmur oyunu: Gökten düşenlerden yalnızca “Arjen Hoekstra ile ilgili” olanları sepetle yakala, diğerlerinden kaç! Sepeti sürükle ya da şeride dokun. Düşenler: Su ayak izi kavramı, Ülkeler arası su bağımlılığı, Ekoloji piramidi, Sürdürülebilir su yönetimi, Kırk Çeşme, Suyun küresel kaynak olması.",
+    "correctAnswer": "Yakalanacaklar: Su ayak izi kavramı, Ülkeler arası su bağımlılığı, Sürdürülebilir su yönetimi, Suyun küresel kaynak olması",
+    "explanation": "Hollandalı su uzmanı Arjen Y. Hoekstra (1967–2019) su ayak izi kavramını geliştirdi; suyun yalnız yerel değil küresel bir kaynak olduğunu vurgulayıp ülkeler arası su bağımlılıklarını görünür kıldı; yöntemleri sürdürülebilir su yönetiminde hâlâ kullanılır.",
+    "questionId": "fen7u7-iz-18"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 134",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "path",
+    "prompt": "Gün yolu: Öğle yemeğinde kuzu etli türlü ve ayran var. Her yol ayrımında DOĞRU bilgiyi taşıyan tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Domates: üretici",
+          "b": "Domates: tüketici",
+          "g": 0
+        },
+        {
+          "a": "Kuzu: üretici",
+          "b": "Kuzu: tüketici",
+          "g": 1
+        },
+        {
+          "a": "Kuzu etiyle insan: ikincil tüketici",
+          "b": "Kuzu etiyle insan: üretici",
+          "g": 0
+        },
+        {
+          "a": "Ayran veren inek: otla beslenir",
+          "b": "İnek: etle beslenir",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Öğle yemeğinde kuzu etli türlü ve ayran var. Her yol ayrımında DOĞRU bilgiyi taşıyan tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Domates: üretici / Domates: tüketici | Kuzu: üretici / Kuzu: tüketici | Kuzu etiyle insan: ikincil tüketici / Kuzu etiyle insan: üretici | Ayran veren inek: otla beslenir / İnek: etle beslenir.",
+    "correctAnswer": "Domates: üretici; Kuzu: tüketici; Kuzu etiyle insan: ikincil tüketici; Ayran veren inek: otla beslenir",
+    "explanation": "Domates, kabak, patlıcan, pirinç üreticidir. Kuzu arpa, yonca gibi bitkilerle beslenen bir tüketicidir; ayranın kaynağı inek otla beslenir. İnsan, yediği besine göre bazen birincil, bazen ikincil tüketicidir.",
+    "questionId": "fen7u7-zincir-28"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 142",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "path",
+    "prompt": "Gün yolu: Gökdoğan araştırması. Her yol ayrımında DOĞRU bilgiyi taşıyan tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Gökdoğan piramidin en üstünde",
+          "b": "Gökdoğan en alt basamakta",
+          "g": 0
+        },
+        {
+          "a": "Birikim en az gökdoğanda",
+          "b": "Birikim en çok gökdoğanda",
+          "g": 1
+        },
+        {
+          "a": "Kirleticiler bağışıklığı zayıflatır",
+          "b": "Kirleticiler gökdoğanı güçlendirir",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Gökdoğan araştırması. Her yol ayrımında DOĞRU bilgiyi taşıyan tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Gökdoğan piramidin en üstünde / Gökdoğan en alt basamakta | Birikim en az gökdoğanda / Birikim en çok gökdoğanda | Kirleticiler bağışıklığı zayıflatır / Kirleticiler gökdoğanı güçlendirir.",
+    "correctAnswer": "Gökdoğan piramidin en üstünde; Birikim en çok gökdoğanda; Kirleticiler bağışıklığı zayıflatır",
+    "explanation": "Gökdoğan ekoloji piramidinin en üstünde olduğundan biyolojik birikimin en fazla olduğu basamaktadır. Tarım ve sanayiden gelen ağır metaller, kimyasallar besin zinciriyle vücudunda birikerek bağışıklığını zayıflatır, üremesini azaltır; bu yüzden çevre kirliliğinin izlenmesinde önemli bir türdür.",
+    "questionId": "fen7u7-piramit-24"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Ekoloji piramidi, enerji aktarımı ve biyolojik birikim",
+    "outcome": "Ekoloji piramidinde birey sayısı, enerji aktarımı ve biyolojik birikimi açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 141",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "path",
+    "prompt": "Gün yolu: Piramitte yukarı tırmanış. Her yol ayrımında DOĞRU bilgiyi taşıyan tabelaya dokunarak ilerle, sonra vadiye ulaş!",
+    "data": {
+      "f": [
+        {
+          "a": "Yukarıda birey sayısı artar",
+          "b": "Yukarıda birey sayısı azalır",
+          "g": 1
+        },
+        {
+          "a": "Ayrıştırıcılar yan yüzeyde",
+          "b": "Ayrıştırıcılar en üstte",
+          "g": 0
+        },
+        {
+          "a": "Enerjinin çoğu yaşam için harcanır",
+          "b": "Enerjinin tamamı üste geçer",
+          "g": 0
+        },
+        {
+          "a": "Yukarıda vücut büyüklüğü artar",
+          "b": "Yukarıda vücut büyüklüğü azalır",
+          "g": 0
+        }
+      ]
+    },
+    "textPlain": "Gün yolu: Piramitte yukarı tırmanış. Her yol ayrımında DOĞRU bilgiyi taşıyan tabelaya dokunarak ilerle, sonra vadiye ulaş! Yol ayrımları: Yukarıda birey sayısı artar / Yukarıda birey sayısı azalır | Ayrıştırıcılar yan yüzeyde / Ayrıştırıcılar en üstte | Enerjinin çoğu yaşam için harcanır / Enerjinin tamamı üste geçer | Yukarıda vücut büyüklüğü artar / Yukarıda vücut büyüklüğü azalır.",
+    "correctAnswer": "Yukarıda birey sayısı azalır; Ayrıştırıcılar yan yüzeyde; Enerjinin çoğu yaşam için harcanır; Yukarıda vücut büyüklüğü artar",
+    "explanation": "Ekoloji piramidinde en altta, en geniş basamakta üreticiler; üst basamaklarda sırayla birincil, ikincil, üçüncül tüketiciler bulunur. Mantar ve bakteri gibi ayrıştırıcılar her basamakta bulunduğu için piramidin yan yüzeyinde gösterilir. Yukarı çıkıldıkça birey sayısı ve toplam kütle azalır, birey vücut büyüklüğü artar. Canlı, beslenmeyle aldığı enerjinin çok büyük kısmını yaşamsal faaliyetlerinde harcar, çok azı bir üst basamağa aktarılır; bu yüzden yukarı çıkıldıkça aktarılan enerji azalır.",
+    "questionId": "fen7u7-piramit-25"
+  },
+  {
+    "grade": 7,
+    "subject": "Fen Bilimleri",
+    "unit": "7. Ünite: Sürdürülebilir Yaşam ve Enerji",
+    "topic": "Besin zinciri ve besin ağı",
+    "outcome": "Besin zincirindeki canlılar arasındaki ilişkileri ve besin ağını açıklar.",
+    "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Enerji”, s. 132, 139",
+    "difficulty": "orta",
+    "group": "zincir",
+    "rank": 2,
+    "type": "pop",
+    "prompt": "Vadide TAVUK sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar.",
+    "data": {
+      "orgs": [
+        {
+          "n": "Arpa",
+          "e": "🌾"
+        },
+        {
+          "n": "Tavuk",
+          "e": "🐔"
+        },
+        {
+          "n": "Kedi",
+          "e": "🐈"
+        }
+      ],
+      "ev": 1,
+      "d": -1,
+      "eff": [
+        1,
+        -1,
+        -1
+      ],
+      "ask": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Vadide TAVUK sayısı azaldı! Diğer canlıların sayı çubuklarını yukarı (artar) ya da aşağı (azalır) sürükleyerek tahmin et, sonra bir yıl ileri sar. Besin zinciri: Arpa → Tavuk → Kedi.",
+    "correctAnswer": "Arpa artar, Kedi azalır",
+    "explanation": "Besin zincirindeki canlılar birbirine bağlıdır. Bir canlının sayısı azalırsa onunla beslenen canlılar besin bulamaz ve azalır; onun besini olan canlı ise daha az tüketildiği için artar. Ekoloji piramidinde çekirge azalınca çimen artar, kirpi ve tilki azalır.",
+    "questionId": "fen7u7-zincir-29"
+  }
+]
