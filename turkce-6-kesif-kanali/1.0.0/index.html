@@ -126,7 +126,13 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 @media (max-height:700px){.cap p{font-size:14px}.emo{font-size:min(24vw,20vh)}.slot,.chip{height:38px;font-size:16px}.it{padding:5px 8px;font-size:13px}.pc{font-size:12.5px;min-height:40px;padding:5px 7px}.share,.next{height:42px;font-size:15px}.side{gap:8px}.side span{font-size:23px}.side .av{width:34px;height:34px}.txt .para{font-size:14px}#lock .clk{font-size:60px}}
 @media (max-width:360px){.logo{font-size:14px}.pill{font-size:11.5px;padding:3px 6px}.cap{right:56px}}
-</style></head><body>
+</style><style id="yp-sade">
+#intro .panel>:not(#start):not(#reconnect):not(h1):not(svg):not(.heroBoxes):not(#introStatus):not(#mode){display:none!important}
+#chipGroup,#chipLevel,#chipType{display:none!important}
+#intro .panel h1{font-size:clamp(30px,9vw,42px)!important;line-height:1.1!important}
+#intro #start{min-height:56px;font-size:clamp(18px,5vw,22px)!important}
+</style>
+</head><body>
 <div id="app">
  <div id="feed" aria-live="polite"></div>
  <div id="top"><div id="bars" aria-hidden="true"></div><div id="hdr"><div class="logo">🔬 Keşif <b>Kanalı</b></div><span class="pill pt" id="pP" aria-label="Beğeni">❤ <span id="nP">0</span></span><span class="pill" aria-label="Doğru / yanlış">✓<span id="nO">0</span> ✗<span id="nX">0</span></span><button id="sound" aria-label="Sesi kapat" aria-pressed="true">🔊</button></div></div>
@@ -181,7 +187,7 @@ function receive(raw){let m;try{m=typeof raw==='string'?JSON.parse(raw):raw;}cat
  if(m.type==='app.init'){
   if(!['waiting','completed'].includes(state)||usedRuns.has(m.runId))return false;
   if(!validInit(m)){if(state==='waiting'){$('introStatus').textContent='Oyun oturumu doğrulanamadı. Uygulamadan yeniden açmayı dene.';$('start').disabled=true;$('reconnect').classList.remove('hidden');}return false;}
-  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('feed').replaceChildren();reel=null;$('lock').className='';$('app').classList.remove('off');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent=`${CONFIG.subjectName} · ${GRADES[0]}. sınıf`;$('introStatus').textContent='Akış hazır, 10 yeni video seni bekliyor!';}return true;}
+  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('feed').replaceChildren();reel=null;$('lock').className='';$('app').classList.remove('off');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent='';$('introStatus').textContent='Akış hazır, 10 yeni video seni bekliyor!';}return true;}
  if(!result||m.bridgeVersion!=='1.0'||m.runId!==ctx?.runId||m.nonce!==ctx?.nonce||m.replyTo!==result.messageId||state!=='completed')return false;
  if(m.type==='app.ack'&&m.payload?.status==='saved'){received.add(m.messageId);saved=true;const s=$('saveStatus');if(s)s.textContent='Sonucun kaydedildi. Yeniden oynamak veya çıkmak için uygulamanın sonuç ekranını kullan.';return true;}
  if(m.type==='app.error'&&!saved){received.add(m.messageId);const s=$('saveStatus');if(s)s.textContent=m.payload?.code==='SAVE_FAILED'&&m.payload?.retryable===true?'Sonuç kaydedilemedi. Uygulamanın “Kaydetmeyi Tekrar Dene” düğmesini kullan.':'Sonuç doğrulanamadı. Uygulamadan yeni bir oyun başlat.';return true;}
@@ -249,8 +255,8 @@ function makeReel(q){const r=div('reel');const pal=PAL[pos%PAL.length];
  const v=div('vid');v.style.setProperty('--g1',pal[0]);v.style.setProperty('--g2',pal[1]);v.style.setProperty('--g3',pal[2]);
  for(let i=0;i<6;i++){const o=div('orb');const s=10+rnd()*40;o.style.cssText=`width:${s}px;height:${s}px;left:${(rnd()*90).toFixed(0)}%;bottom:-60px;--t:${(5+rnd()*6).toFixed(1)}s;animation-delay:${(-rnd()*6).toFixed(1)}s`;v.append(o);}
  const e=div('emo',q.emoji||'🔬');v.append(e);
- const cap=div('cap');const who=div('who');who.innerHTML=`<span>@kesifkanali</span>`;const lv=document.createElement('i');lv.className='r'+q.rank;lv.textContent=`${LEVEL[q.rank]} · ${pos+1}/10`;who.append(lv);cap.append(who);
- const p=document.createElement('p');p.textContent=q.prompt;cap.append(p);const tg=div('tags',`${TYPE_LABEL[q.questionType]} · ${TAGS[q.group]}`);cap.append(tg);
+ const cap=div('cap');const who=div('who');who.innerHTML=`<span>@kesifkanali</span>`;const lv=document.createElement('i');lv.className='r'+q.rank;lv.textContent=`${pos+1}/10`;who.append(lv);cap.append(who);
+ const p=document.createElement('p');p.textContent=q.prompt;cap.append(p);const tg=div('tags',`${TYPE_LABEL[q.questionType]} · ${TAGS[q.group]}`);
  if(q.para){const mb=bt('mini','📄 Metni göster');mb.onclick=()=>{if(['playing','review'].includes(state)){sfx('tap');setReading(true);}};cap.append(mb);}
  v.append(cap);
  const side=div('side');side.innerHTML=`<div><div class="av">🔬</div></div><div class="like"><span>🤍</span><b class="lk">${(1+Math.floor(rnd()*9))*100+Math.floor(rnd()*99)}</b></div><div><span>💬</span><b>${3+Math.floor(rnd()*40)}</b></div><div><span>↗️</span><b>Paylaş</b></div>`;v.append(side);
@@ -332,4 +338,11 @@ $('reconnect').onclick=()=>{if(state==='waiting')handshake();};
 $('start').onclick=()=>{unlockAudio();if(state==='waiting'&&!nativeMode&&!demoInit())return;if(state==='ready')start();};
 handshake();
 })();
-</script></body></html>
+</script><script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
+</body></html>

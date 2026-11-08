@@ -80,7 +80,12 @@ main{position:relative;z-index:1}
 @media (min-height:760px){.scene-wrap{margin-bottom:2px}.tile{min-height:60px}}
 @media (orientation:landscape) and (max-height:500px){.moon{width:90px;height:90px}.intro{gap:8px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.snow{display:none}}
-</style></head><body>
+</style><style id="yp-sade">
+header .brand{display:none!important}
+#intro .kicker,#intro>p:not(#introStatus),#intro .facts,#intro .how,.footer,#chipGroup,#chipLevel{display:none!important}
+#start{min-height:56px!important;font-size:clamp(18px,5vw,21px)!important;padding-left:30px!important;padding-right:30px!important}
+</style>
+</head><body>
 <div class="snow" id="snow" aria-hidden="true"></div>
 <div class="shell">
 <header><div class="brand"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 3.5a8.5 8.5 0 1 0 0 17a11 11 0 0 1 0-17z" fill="#c8102e"/><path d="M17.6 9.3l.9 2.3 2.4.1-1.9 1.5.7 2.3-2.1-1.4-2 1.4.7-2.3-1.9-1.5 2.4-.1z" fill="#fff"/></svg>YILDIZ PEŞİNDE</div><div class="hr"><span class="mode" id="mode">Oturum hazırlanıyor</span><button class="btn" id="sound" aria-pressed="true" aria-label="Sesi kapat">♫ Açık</button></div></header>
@@ -243,4 +248,11 @@ $('start').onclick=()=>{unlockAudio();if(state==='waiting'&&!nativeMode&&!demoIn
 buildStops();placeCart(0,0);renderLoad();
 handshake();
 })();
-</script></body></html>
+</script><script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
+</body></html>

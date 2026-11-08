@@ -297,6 +297,10 @@ html.pv .cardg{width:30%;min-width:0}
 html.pv .vsl.xs{min-width:66px}
 html.pv .designT{width:34%;height:42%;min-height:120px}
 </style>
+<style id="yp-sade">
+#scStart .card>p,#scStart .card>ul{display:none!important}
+#btnStart{min-height:54px!important;min-width:180px!important;font-size:20px!important}
+</style>
 </head>
 <body>
 <div id="bg" aria-hidden="true"></div>
@@ -1396,5 +1400,12 @@ if(document.readyState === 'loading') document.addEventListener('DOMContentLoade
 
 })();
 </script>
+<script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
 </body>
 </html>

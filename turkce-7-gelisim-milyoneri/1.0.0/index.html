@@ -74,7 +74,12 @@ h2.question{font-size:clamp(16px,4.4vw,20px);font-weight:600;line-height:1.5;mar
 @media (orientation:landscape) and (min-width:820px){.shell{max-width:760px}.question-frame{max-height:30svh}}
 @media (orientation:landscape) and (max-height:520px){.intro{flex-direction:row;flex-wrap:wrap;text-align:left;gap:10px}.emblem{display:none}.question-frame{max-height:28svh}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
-</style></head><body>
+</style><style id="yp-sade">
+header .brand{display:none!important}
+#intro .eyebrow,#intro>p:not(#introStatus),#intro .facts,#intro .ladder-legend,.footer,.q-meta,#qCat,#qDiff{display:none!important}
+#start{min-height:56px!important;font-size:clamp(18px,5vw,21px)!important;padding-left:30px!important;padding-right:30px!important}
+</style>
+</head><body>
 <div class="shell">
 <header><div class="brand"><b aria-hidden="true">✦</b> YILDIZ PEŞİNDE</div><div class="header-right"><span class="mode" id="mode">Oturum hazırlanıyor</span><button class="sound quiet" id="sound" aria-pressed="true" aria-label="Sesi kapat">♫ Açık</button></div></header>
 <main id="intro" class="intro">
@@ -182,4 +187,11 @@ window.addEventListener('pagehide',()=>{clearInterval(tickHandle);clearInterval(
 handshake();
 })();
 </script>
+<script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
 </body></html>

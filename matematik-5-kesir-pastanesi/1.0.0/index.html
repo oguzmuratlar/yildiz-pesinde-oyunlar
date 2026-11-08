@@ -90,7 +90,13 @@ header{display:flex;align-items:center;gap:8px;padding:10px 12px 4px;min-width:0
 @media (max-height:690px){#shelf{height:54px}#qtext{font-size:15.5px}.opt{padding:7px 10px;font-size:15px;min-height:42px}#model{max-height:28vh}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .rm *,.rm *::before,.rm *::after{animation:none!important;transition:none!important}
-</style></head><body>
+</style><style id="yp-sade">
+#intro .panel>:not(#start):not(#reconnect):not(h1):not(svg):not(.heroBoxes):not(#introStatus):not(#mode){display:none!important}
+#chipGroup,#chipLevel,#chipType{display:none!important}
+#intro .panel h1{font-size:clamp(30px,9vw,42px)!important;line-height:1.1!important}
+#intro #start{min-height:56px;font-size:clamp(18px,5vw,22px)!important}
+</style>
+</head><body>
 <div id="app">
  <header><div class="logo">🧁 Kesir <b>Pastanesi</b></div><div id="dots" aria-label="İlerleme"></div><button class="pill" id="sound" aria-pressed="true" aria-label="Sesi kapat">♫ Açık</button></header>
  <div id="vitrin"><svg id="shelf" viewBox="0 0 300 70" role="img" aria-label="Pastane vitrini"></svg></div>
@@ -149,7 +155,7 @@ function receive(raw){let m;try{m=typeof raw==='string'?JSON.parse(raw):raw;}cat
  if(m.type==='app.init'){
   if(!['waiting','completed'].includes(state)||usedRuns.has(m.runId))return false;
   if(!validInit(m)){if(state==='waiting'){$('introStatus').textContent='Oyun oturumu doğrulanamadı. Uygulamadan yeniden açmayı dene.';$('start').disabled=true;$('reconnect').classList.remove('hidden');}return false;}
-  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('card').classList.add('hidden');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent='Matematik · 5. sınıf';$('introStatus').textContent='Fırın ısındı, siparişler geliyor!';}return true;}
+  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('card').classList.add('hidden');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent='';$('introStatus').textContent='Fırın ısındı, siparişler geliyor!';}return true;}
  if(!result||m.bridgeVersion!=='1.0'||m.runId!==ctx?.runId||m.nonce!==ctx?.nonce||m.replyTo!==result.messageId||state!=='completed')return false;
  if(m.type==='app.ack'&&m.payload?.status==='saved'){received.add(m.messageId);saved=true;const s=$('saveStatus');if(s)s.textContent='Sonucun kaydedildi. Yeniden oynamak veya çıkmak için uygulamanın sonuç ekranını kullan.';return true;}
  if(m.type==='app.error'&&!saved){received.add(m.messageId);const s=$('saveStatus');if(s)s.textContent=m.payload?.code==='SAVE_FAILED'&&m.payload?.retryable===true?'Sonuç kaydedilemedi. Uygulamanın “Kaydetmeyi Tekrar Dene” düğmesini kullan. Vitrinin korunuyor.':'Sonuç doğrulanamadı. Uygulamadan yeni bir oyun başlat.';return true;}
@@ -287,4 +293,11 @@ $('start').onclick=()=>{unlockAudio();if(state==='waiting'&&!nativeMode&&!demoIn
 renderWorld();
 handshake();
 })();
-</script></body></html>
+</script><script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
+</body></html>

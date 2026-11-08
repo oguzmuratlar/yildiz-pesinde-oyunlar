@@ -206,7 +206,13 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
 @media (max-height:700px){#prompt{font-size:14px}.chips{margin-bottom:3px}#go{height:44px;font-size:16px}#track{height:30px}.stepc{min-height:34px;font-size:11.5px;padding:4px 6px 4px 29px}.stepc i{width:19px;height:19px;margin-top:-9.5px;font-size:11px;line-height:15px}.tok{font-size:12.5px;padding:5px 9px}.dish{min-height:84px}.bld{min-height:70px}.bld .ft{font-size:11px}.stp .sl{min-height:30px}.evb{padding:5px 3px;font-size:11.5px}.pickc{padding:7px 4px;font-size:13px}.q2{font-size:13px;padding:5px 8px}.jb,.brush{padding:5px 3px;font-size:12px}}
 @media (max-height:620px){.chips{display:none}#card{padding:6px 10px 7px}#prompt{font-size:13.5px}#stage{gap:4px}.panel{padding:10px 12px 12px}.panel h2{font-size:21px}.panel p{font-size:13px;margin:4px 0}.howto{gap:4px;margin:4px 0}.howto div{padding:3px 8px}.howto p{font-size:12px}.primary{padding:11px}.cards{gap:4px}.stepc{min-height:31px}.cell{padding:12px 10px}.cell.animal{padding:14px 18px}.bld{min-height:62px;padding:4px 5px}.bld .rf span{font-size:16px}.bld .sl{min-height:26px}.stp{padding:2px 5px}.stp .sl{min-height:27px}.stp .sl .tok,.bld .sl .tok{font-size:11.5px;padding:3px 7px}.dish{min-height:72px;padding:6px 4px 8px}}
 @media (max-width:360px){.logo{font-size:15px}.pill{font-size:11.5px;padding:3px 5px;gap:2px}#sound{width:30px}#card{margin:4px 6px}#stage{padding:2px 6px 4px}#dock{padding:4px 6px 7px}.stp .lv{min-width:62px;font-size:11.5px}}
-</style></head><body>
+</style><style id="yp-sade">
+#intro .panel>:not(#start):not(#reconnect):not(h1):not(svg):not(.heroBoxes):not(#introStatus):not(#mode){display:none!important}
+#chipGroup,#chipLevel,#chipType{display:none!important}
+#intro .panel h1{font-size:clamp(30px,9vw,42px)!important;line-height:1.1!important}
+#intro #start{min-height:56px;font-size:clamp(18px,5vw,22px)!important}
+</style>
+</head><body>
 <div id="app">
  <header><div class="logo">Mikro <b>Dalış</b></div><span class="pill gold" id="pP" aria-label="Enerji">⚡ <span id="nP">0</span></span><span class="pill" aria-label="Doğru / yanlış">🌟<span id="nO">0</span> 🫧<span id="nX">0</span></span><button id="sound" aria-label="Sesi kapat" aria-pressed="true">🔊</button></header>
  <div id="track" aria-hidden="true"><svg id="trackSvg" viewBox="0 0 360 38" preserveAspectRatio="none"></svg></div>
@@ -218,7 +224,7 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
  <div class="labbg"></div><div class="lamp"></div>
  <div class="shelf">🧪<span>⚗️</span><span>🧫</span><span>🌡️</span><span>🧪</span></div>
  <div class="shelf b"><span>📘</span><span>🦴</span><span>🧬</span><span>🪴</span></div>
- <div class="titleb"><b>MİKRO DALIŞ</b><span>FEN BİLİMLERİ · 5. SINIF</span></div>
+ <div class="titleb"><b>MİKRO DALIŞ</b></div>
  <div class="scopebox" id="gScope"><svg viewBox="0 0 170 220"></svg><div class="beam"></div><div class="subm"></div></div>
  <div class="dark"></div>
 </div>
@@ -278,7 +284,7 @@ function receive(raw){let m;try{m=typeof raw==='string'?JSON.parse(raw):raw;}cat
  if(m.type==='app.init'){
   if(!['waiting','completed'].includes(state)||usedRuns.has(m.runId))return false;
   if(!validInit(m)){if(state==='waiting'){$('introStatus').textContent='Oyun oturumu doğrulanamadı. Uygulamadan yeniden açmayı dene.';$('start').disabled=true;$('reconnect').classList.remove('hidden');}return false;}
-  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('card').classList.add('hidden');$('stage').classList.add('hidden');$('dock').classList.add('hidden');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent=`${CONFIG.subjectName} · ${GRADES[0]}. sınıf`;$('introStatus').textContent='Denizaltı hazır, mikroskop ayarlandı!';}return true;}
+  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('card').classList.add('hidden');$('stage').classList.add('hidden');$('dock').classList.add('hidden');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent='';$('introStatus').textContent='Denizaltı hazır, mikroskop ayarlandı!';}return true;}
  if(!result||m.bridgeVersion!=='1.0'||m.runId!==ctx?.runId||m.nonce!==ctx?.nonce||m.replyTo!==result.messageId||state!=='completed')return false;
  if(m.type==='app.ack'&&m.payload?.status==='saved'){received.add(m.messageId);saved=true;const s=$('saveStatus');if(s)s.textContent='Sonucun kaydedildi. Yeniden oynamak veya çıkmak için uygulamanın sonuç ekranını kullan.';return true;}
  if(m.type==='app.error'&&!saved){received.add(m.messageId);const s=$('saveStatus');if(s)s.textContent=m.payload?.code==='SAVE_FAILED'&&m.payload?.retryable===true?'Sonuç kaydedilemedi. Uygulamanın “Kaydetmeyi Tekrar Dene” düğmesini kullan.':'Sonuç doğrulanamadı. Uygulamadan yeni bir oyun başlat.';return true;}
@@ -659,7 +665,7 @@ function complete(){if(sent||result||answers.length!==TOTAL)return;state='comple
  result={bridgeVersion:'1.0',type:'game.completed',messageId:uid('result'),runId:ctx.runId,nonce:ctx.nonce,payload:{gameId:ctx.gameId,gameVersion:ctx.gameVersion,grade:ctx.grade,gameName:GAME_NAME,subjectId:ctx.subjectId,subjectName:ctx.subjectName,stars:stars(n),correctCount:n,wrongCount:TOTAL-n,durationMs:Math.max(0,Math.round(activeMs)),answers:structuredClone(answers)}};
  const title=n===TOTAL?'Efsane mikro kaşif!':n>=9?'Baş bilim kaptanı!':n>=7?'Usta hücre dalgıcı!':n>=5?'Cesur çaylak kaşif!':'Yeni bir dalışa hazırlan!';
  const ports=`<div class="ports" aria-hidden="true">${answers.map(a=>`<i>${a.isCorrect?'🌟':'🫧'}</i>`).join('')}</div>`;
- const body=`<div class="ct">DALIŞ SERTİFİKASI</div><div class="sub">CANLILARIN YAPISINA YOLCULUK</div><div style="font-size:50px;line-height:1">🔬</div><h2 id="sheetTitle">${title}</h2>${ports}<div class="reward">⚡ ${points} ENERJİ</div><p style="font-size:14px;margin:4px 0">${n} durakta yıldız topladın, ${TOTAL-n} durakta kabarcık çıktı.</p>`;
+ const body=`<div class="ct">DALIŞ SERTİFİKASI</div><div class="sub">MİKRO DALIŞ</div><div style="font-size:50px;line-height:1">🔬</div><h2 id="sheetTitle">${title}</h2>${ports}<div class="reward">⚡ ${points} ENERJİ</div><p style="font-size:14px;margin:4px 0">${n} durakta yıldız topladın, ${TOTAL-n} durakta kabarcık çıktı.</p>`;
  if(nativeMode){openSheet(body+`<p id="saveStatus" class="status" role="status">Sonucun uygulamaya iletiliyor…</p><p class="fine">Yıldızların ve yeniden oynama seçenekleri uygulamanın sonuç ekranında gösterilir.</p>`);if(!sent)sent=send(result);if(!sent)$('saveStatus').textContent='Sonuç uygulamaya iletilemedi. Uygulamadan oyunu yeniden açmayı dene.';}
  else{sent=true;const st=stars(n);openSheet(body+`<div class="stars3" aria-label="${st} yıldız">${[0,1,2].map(i=>`<span class="${i<st?'':'off'}" style="animation-delay:${.15+i*.18}s">★</span>`).join('')}</div><div class="stats"><div><b>${n}/10</b><span>doğru</span></div><div><b>${Math.round(activeMs/1000)} sn</b><span>süre</span></div></div><p id="saveStatus" class="fine">Deneme modu: Sonuç uygulamaya kaydedilmedi.</p><button class="primary" id="retry">YENİ DALIŞ 🫧</button>`);$('retry').onclick=()=>{unlockAudio();closeSheet();if(demoInit())start();};}}
 function openSheet(html){$('outro').classList.remove('stamp');$('sheetIn').innerHTML=html;$('sheet').classList.remove('hidden');$('sheet').focus({preventScroll:true});}
@@ -672,4 +678,11 @@ $('start').onclick=()=>{unlockAudio();if(state==='waiting'&&!nativeMode&&!demoIn
 ['gScope','oScope'].forEach(id=>{const S=scope($(id).querySelector('svg'));S.light(true);S.setObj(1,0);const sub=$(id).querySelector('.subm');const ss=el('svg',{viewBox:'-30 -22 60 36'});subShape(ss,0,0,1);sub.append(ss);});
 drawTrack();attract();handshake();
 })();
-</script></body></html>
+</script><script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
+</body></html>

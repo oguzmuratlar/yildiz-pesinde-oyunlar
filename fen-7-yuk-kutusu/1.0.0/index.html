@@ -235,7 +235,13 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
 .sbtns{display:flex;gap:6px}.sbtns .opt{flex:1 1 0;padding:9px 4px;font-size:13px}
 @media (max-height:700px){.bgrid{gap:6px;width:min(100%,300px)}.swp{min-height:130px}.scard2{min-height:84px;font-size:12.5px}.goal{padding:4px 7px;font-size:12px}}
 @media (max-height:620px){.bgrid{gap:5px;width:min(100%,260px)}.swp{min-height:112px}.scard2{min-height:70px;font-size:11.5px;padding:5px}.pchip{font-size:9px;padding:2px 3px}.goal{font-size:11px;padding:3px 6px}.hint{font-size:11px}.sbtns .opt{padding:7px 3px;font-size:12px}}
-</style></head><body>
+</style><style id="yp-sade">
+#intro .panel>:not(#start):not(#reconnect):not(h1):not(svg):not(.heroBoxes):not(#introStatus):not(#mode){display:none!important}
+#chipGroup,#chipLevel,#chipType{display:none!important}
+#intro .panel h1{font-size:clamp(30px,9vw,42px)!important;line-height:1.1!important}
+#intro #start{min-height:56px;font-size:clamp(18px,5vw,22px)!important}
+</style>
+</head><body>
 <div id="app">
  <header><div class="logo">Yük <b>Kutusu</b></div><span class="pill gold" id="pP" aria-label="Puan">⚡ <span id="nP">0</span></span><span class="pill" aria-label="Doğru / yanlış">📦<span id="nO">0</span> ✕<span id="nX">0</span></span><button id="sound" aria-label="Sesi kapat" aria-pressed="true">🔊</button></header>
  <div id="track" aria-hidden="true"><svg id="trackSvg" viewBox="0 0 360 38" preserveAspectRatio="none"></svg></div>
@@ -247,7 +253,7 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
  <i class="st" style="left:37.1%;top:38.0%;animation-delay:0.40s"></i><i class="st" style="left:29.7%;top:16.7%;animation-delay:0.47s"></i><i class="st" style="left:30.1%;top:33.6%;animation-delay:0.98s"></i><i class="st" style="left:8.3%;top:33.9%;animation-delay:0.45s"></i><i class="st" style="left:78.9%;top:2.4%;animation-delay:1.32s"></i><i class="st" style="left:59.0%;top:24.3%;animation-delay:1.96s"></i><i class="st" style="left:74.3%;top:13.3%;animation-delay:0.91s"></i><i class="st" style="left:6.4%;top:25.2%;animation-delay:0.81s"></i><i class="st" style="left:10.0%;top:25.4%;animation-delay:1.53s"></i><i class="st" style="left:8.8%;top:28.5%;animation-delay:1.36s"></i><i class="st" style="left:10.5%;top:29.2%;animation-delay:0.21s"></i><i class="st" style="left:2.0%;top:32.1%;animation-delay:1.80s"></i><i class="st" style="left:49.9%;top:38.7%;animation-delay:1.20s"></i><i class="st" style="left:88.2%;top:17.8%;animation-delay:0.87s"></i><i class="st" style="left:92.7%;top:22.8%;animation-delay:0.95s"></i><i class="st" style="left:88.4%;top:30.0%;animation-delay:1.56s"></i><i class="st" style="left:36.1%;top:37.9%;animation-delay:1.12s"></i><i class="st" style="left:18.2%;top:23.5%;animation-delay:1.14s"></i><i class="st" style="left:13.5%;top:5.0%;animation-delay:1.22s"></i><i class="st" style="left:59.9%;top:3.7%;animation-delay:1.04s"></i><i class="st" style="left:37.7%;top:29.3%;animation-delay:1.39s"></i><i class="st" style="left:4.4%;top:22.3%;animation-delay:0.11s"></i><i class="st" style="left:6.5%;top:8.8%;animation-delay:1.78s"></i><i class="st" style="left:78.7%;top:24.8%;animation-delay:0.61s"></i><i class="st" style="left:76.0%;top:3.5%;animation-delay:1.00s"></i><i class="st" style="left:8.6%;top:2.1%;animation-delay:1.91s"></i><i class="st" style="left:32.1%;top:4.0%;animation-delay:0.86s"></i><i class="st" style="left:90.9%;top:26.5%;animation-delay:0.13s"></i><i class="st" style="left:42.4%;top:38.7%;animation-delay:0.81s"></i><i class="st" style="left:44.7%;top:24.6%;animation-delay:1.87s"></i><i class="st" style="left:83.4%;top:11.5%;animation-delay:1.26s"></i><i class="st" style="left:53.6%;top:9.2%;animation-delay:0.24s"></i><i class="st" style="left:23.4%;top:7.7%;animation-delay:0.61s"></i><i class="st" style="left:80.2%;top:6.3%;animation-delay:1.03s"></i><i class="st" style="left:99.8%;top:33.1%;animation-delay:0.89s"></i><i class="st" style="left:0.5%;top:21.7%;animation-delay:1.40s"></i><div class="spot l"></div><div class="spot r"></div><div class="floor"></div>
  <div class="gboxes"><i class="gbx" style="--d:0.00s"><b>1</b></i><i class="gbx" style="--d:0.09s"><b>2</b></i><i class="gbx" style="--d:0.18s"><b>3</b></i><i class="gbx" style="--d:0.27s"><b>4</b></i><i class="gbx" style="--d:0.36s"><b>5</b></i><i class="gbx" style="--d:0.45s"><b>6</b></i><i class="gbx" style="--d:0.54s"><b>7</b></i><i class="gbx" style="--d:0.63s"><b>8</b></i><i class="gbx" style="--d:0.72s"><b>9</b></i><i class="gbx" style="--d:0.81s"><b>10</b></i></div>
  <div class="sbolt"></div>
- <div class="sign8"><b>YÜK <em>⚡</em> KUTUSU</b><span>FEN BİLİMLERİ · 7. SINIF · 6. ÜNİTE</span></div>
+ <div class="sign8"><b>YÜK <em>⚡</em> KUTUSU</b></div>
 </div>
 <div class="pflash" id="pflash"></div>
 <div class="overlay" id="intro">
@@ -299,7 +305,7 @@ function receive(raw){let m;try{m=typeof raw==='string'?JSON.parse(raw):raw;}cat
  if(m.type==='app.init'){
   if(!['waiting','completed'].includes(state)||usedRuns.has(m.runId))return false;
   if(!validInit(m)){if(state==='waiting'){$('introStatus').textContent='Oyun oturumu doğrulanamadı. Uygulamadan yeniden açmayı dene.';$('start').disabled=true;$('reconnect').classList.remove('hidden');}return false;}
-  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('card').classList.add('hidden');$('stage').classList.add('hidden');$('dock').classList.add('hidden');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent=`${CONFIG.subjectName} · ${GRADES[0]}. sınıf`;$('introStatus').textContent='Stüdyo hazır, kutular mühürlendi!';}return true;}
+  received.add(m.messageId);usedRuns.add(m.runId);ctx={...CONFIG,...m.payload,runId:m.runId,nonce:m.nonce};clearTimeout(readyTimer);result=null;sent=false;saved=false;state='ready';closeSheet();$('card').classList.add('hidden');$('stage').classList.add('hidden');$('dock').classList.add('hidden');$('intro').classList.remove('hidden');$('start').disabled=false;$('reconnect').classList.add('hidden');if(nativeMode){$('mode').textContent='';$('introStatus').textContent='Stüdyo hazır, kutular mühürlendi!';}return true;}
  if(!result||m.bridgeVersion!=='1.0'||m.runId!==ctx?.runId||m.nonce!==ctx?.nonce||m.replyTo!==result.messageId||state!=='completed')return false;
  if(m.type==='app.ack'&&m.payload?.status==='saved'){received.add(m.messageId);saved=true;const s=$('saveStatus');if(s)s.textContent='Sonucun kaydedildi. Yeniden oynamak veya çıkmak için uygulamanın sonuç ekranını kullan.';return true;}
  if(m.type==='app.error'&&!saved){received.add(m.messageId);const s=$('saveStatus');if(s)s.textContent=m.payload?.code==='SAVE_FAILED'&&m.payload?.retryable===true?'Sonuç kaydedilemedi. Uygulamanın “Kaydetmeyi Tekrar Dene” düğmesini kullan.':'Sonuç doğrulanamadı. Uygulamadan yeni bir oyun başlat.';return true;}
@@ -652,7 +658,7 @@ function complete(){if(sent||result||answers.length!==TOTAL)return;state='comple
  result={bridgeVersion:'1.0',type:'game.completed',messageId:uid('result'),runId:ctx.runId,nonce:ctx.nonce,payload:{gameId:ctx.gameId,gameVersion:ctx.gameVersion,grade:ctx.grade,gameName:GAME_NAME,subjectId:ctx.subjectId,subjectName:ctx.subjectName,stars:stars(n),correctCount:n,wrongCount:TOTAL-n,durationMs:Math.max(0,Math.round(activeMs)),answers:structuredClone(answers)}};
  const title=n===TOTAL?'Bütün kutular senin!':n>=9?'Büyük ikramiye!':n>=7?'Harika bir şov!':n>=5?'Kasayı doldurdun!':'Bir sonraki şovda şansın açık!';
  const ports=`<div class="ports" aria-hidden="true">${answers.map(a=>`<i>${a.isCorrect?'⚡':'✕'}</i>`).join('')}</div>`;
- const body=`<div class="ct">YÜK KUTUSU</div><div class="sub">YARIŞMA KARNESİ · 6. ÜNİTE</div><div style="font-size:48px;line-height:1">📦</div><h2 id="sheetTitle">${title}</h2>${ports}<div class="reward">⚡ ${points} KASA</div><p style="font-size:14px;margin:4px 0">${n} deneyi başarıyla kurdun, ${TOTAL-n} kutunun ödülü yandı.</p>`;
+ const body=`<div class="ct">YÜK KUTUSU</div><div class="sub">YARIŞMA KARNESİ</div><div style="font-size:48px;line-height:1">📦</div><h2 id="sheetTitle">${title}</h2>${ports}<div class="reward">⚡ ${points} KASA</div><p style="font-size:14px;margin:4px 0">${n} deneyi başarıyla kurdun, ${TOTAL-n} kutunun ödülü yandı.</p>`;
  if(nativeMode){openSheet(body+`<p id="saveStatus" class="status" role="status">Sonucun uygulamaya iletiliyor…</p><p class="fine">Yıldızların ve yeniden oynama seçenekleri uygulamanın sonuç ekranında gösterilir.</p>`);if(!sent)sent=send(result);if(!sent)$('saveStatus').textContent='Sonuç uygulamaya iletilemedi. Uygulamadan oyunu yeniden açmayı dene.';}
  else{sent=true;const st=stars(n);openSheet(body+`<div class="stars3" aria-label="${st} yıldız">${[0,1,2].map(i=>`<span class="${i<st?'':'off'}" style="animation-delay:${.15+i*.18}s">★</span>`).join('')}</div><div class="stats"><div><b>${n}/10</b><span>doğru</span></div><div><b>${Math.round(activeMs/1000)} sn</b><span>süre</span></div></div><p id="saveStatus" class="fine">Deneme modu: Sonuç uygulamaya kaydedilmedi.</p><button class="primary" id="retry">YENİ ŞOV 🎬</button>`);$('retry').onclick=()=>{unlockAudio();closeSheet();if(demoInit())start();};}}
 function openSheet(html){$('outro').classList.remove('stamp');$('sheetIn').innerHTML=html;$('sheet').classList.remove('hidden');$('sheet').focus({preventScroll:true});}
@@ -664,4 +670,11 @@ $('reconnect').onclick=()=>{if(state==='waiting')handshake();};
 $('start').onclick=()=>{unlockAudio();if(state==='waiting'&&!nativeMode&&!demoInit())return;if(state==='ready')start();};
 drawTrack();attract();handshake();
 })();
-</script></body></html>
+</script><script id="yp-sade-js">(function(){function g(i){return document.getElementById(i);}
+var st=g('introStatus')||g('initStatus'),rc=g('reconnect'),md=g('mode');
+function set(e,v){if(e.style.getPropertyValue('display')!==v||e.style.getPropertyPriority('display')!=='important')e.style.setProperty('display',v,'important');}
+function f(){if(st)set(st,(rc&&!rc.hidden&&!rc.classList.contains('hidden'))?'block':'none');
+if(md)set(md,/Deneme|kay\u0131t yok/i.test(md.textContent||'')?'inline-block':'none');}
+f();var mo=new MutationObserver(f);if(rc)mo.observe(rc,{attributes:true,attributeFilter:['class','hidden']});
+[st,md].forEach(function(x){if(x)mo.observe(x,{childList:true,characterData:true,subtree:true});});})();</script>
+</body></html>
