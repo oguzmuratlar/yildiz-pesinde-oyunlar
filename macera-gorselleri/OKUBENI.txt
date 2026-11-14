@@ -1,0 +1,30 @@
+YILDIZ PEŞİNDE — MACERA MODU GÖRSEL PAKETİ (14.11.2026)
+
+ortak/  → uygulama paketine girer (durak zeminleri gri tonlu; uygulama arena rengine boyar)
+aNN/    → admin panelinden arenaya yüklenir
+  bg_path.webp       1080x4320  yol arka planı (alt alta döşenebilir)
+  arena_card.webp    1024x1024
+  arena_badge.png    512x512 şeffaf
+  boss_idle.png      768x768 şeffaf
+  boss_defeated.png  768x768 şeffaf
+  path_deco_1..6.png 128x128 şeffaf (isteğe bağlı süs)
+
+Önerilen durak rengi (nodeRing) ve kullanılmaması önerilen süsler:
+a01 Mercan Resifi        #FF7F6B
+a02 Batık Gemi           #B5562B
+a03 Derin Deniz Mağarası #3CF0D0
+a04 Su Üstü              #FFD54A
+a05 Tropik Ada           #FF6B5B
+a06 Yağmur Ormanı        #FF4FA3
+a07 Nehir Vadisi         #FF8A3D
+a08 Çöl Kervanı          #1FB5AC
+a09 Dağ Yamacı           #4CC26A
+a10 Karlı Zirve          #1E4E8C   süs: yalnız eldiven ve çam dalı önerilir (diğerleri karda soluk)
+a11 Bulutların Üstü      #1E4E8C   süs: pembe bulut kullanılmasın
+a12 Kuzey Işıkları       #FFD54A
+a13 Atmosferin Sınırı    #FFD54A   süs: lacivert bulut kullanılmasın
+a14 Ay Üssü              #FF8A3D   süs: bayrak kullanılmasın (gerçek ülke bayrağına benziyor)
+a15 Gezegenler           #F5C451
+a16 Yıldızlar            #FFD54A
+
+f00_yedek/ → yedek tema (arena görseli inmezse kullanılır; uygulama paketine girer). Önerilen durak rengi #FFD54A.
