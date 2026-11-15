@@ -1,0 +1,3203 @@
+[
+ {
+  "questionId": "boss-a11-f5-01",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Atomun yapısı",
+  "outcome": "Atomun yapısını ve atom modellerinin gelişimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 47–49",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Atomun çekirdeğinde bulunan pozitif (+) yüklü tanecik hangisidir?",
+  "data": {
+   "options": [
+    "Proton",
+    "Elektron",
+    "Nötron"
+   ]
+  },
+  "textPlain": "Atomun çekirdeğinde bulunan pozitif (+) yüklü tanecik hangisidir? Seçenekler: Proton / Elektron / Nötron",
+  "correctAnswer": "Proton",
+  "explanation": "Çekirdekte pozitif yüklü protonlar ve yüksüz nötronlar bulunur; elektronlar çekirdeğin çevresindedir ve negatif yüklüdür."
+ },
+ {
+  "questionId": "boss-a11-f5-02",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Element",
+  "outcome": "Saf maddeleri element ve bileşik olarak sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 59–61",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Element, tek cins atomdan oluşan saf maddedir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Element, tek cins atomdan oluşan saf maddedir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Elementler aynı cins atomlardan oluşur; bileşikler en az iki farklı elementten oluşur."
+ },
+ {
+  "questionId": "boss-a11-f5-03",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Formül",
+  "outcome": "Saf maddeleri element ve bileşik olarak sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 59–61",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Suyun formülü hangisidir?",
+  "data": {
+   "options": [
+    "H₂O",
+    "HO₂",
+    "H₂O₂"
+   ]
+  },
+  "textPlain": "Suyun formülü hangisidir? Seçenekler: H₂O / HO₂ / H₂O₂",
+  "correctAnswer": "H₂O",
+  "explanation": "Su molekülünde 2 hidrojen ve 1 oksijen atomu vardır: H₂O."
+ },
+ {
+  "questionId": "boss-a11-f5-04",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Çözelti",
+  "outcome": "Karışımları sınıflandırır ve çözünme hızını etkileyen faktörleri belirler.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 84–88",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Tuzlu su ne tür bir maddedir?",
+  "data": {
+   "options": [
+    "Homojen karışım (çözelti)",
+    "Element",
+    "Bileşik"
+   ]
+  },
+  "textPlain": "Tuzlu su ne tür bir maddedir? Seçenekler: Homojen karışım (çözelti) / Element / Bileşik",
+  "correctAnswer": "Homojen karışım (çözelti)",
+  "explanation": "Tuz suda çözünür ve her yerde aynı görünür; tuzlu su homojen bir karışımdır, yani çözeltidir."
+ },
+ {
+  "questionId": "boss-a11-f5-05",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Element ve bileşik",
+  "outcome": "Saf maddeleri element ve bileşik olarak sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 59–61",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Maddeleri element ve bileşik diye ayır.",
+  "data": {
+   "bins": [
+    "Element",
+    "Bileşik"
+   ],
+   "items": [
+    [
+     "Demir (Fe)",
+     0
+    ],
+    [
+     "Oksijen (O₂)",
+     0
+    ],
+    [
+     "Altın (Au)",
+     0
+    ],
+    [
+     "Su (H₂O)",
+     1
+    ],
+    [
+     "Karbon dioksit (CO₂)",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Maddeleri element ve bileşik diye ayır. (Element / Bileşik) Kartlar: Demir (Fe); Oksijen (O₂); Altın (Au); Su (H₂O); Karbon dioksit (CO₂).",
+  "correctAnswer": "Element: Demir (Fe), Oksijen (O₂), Altın (Au). Bileşik: Su (H₂O), Karbon dioksit (CO₂).",
+  "explanation": "Fe, O₂ ve Au tek cins atom içerir (element); H₂O ve CO₂ farklı atomlardan oluşur (bileşik)."
+ },
+ {
+  "questionId": "boss-a11-f5-06",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Ayırma hunisi",
+  "outcome": "Karışımları ayırmak için uygun yöntemi seçer.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 90–94",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Zeytinyağı ile su karışımını ayırmak için hangi yöntem kullanılır?",
+  "data": {
+   "options": [
+    "Ayırma hunisi",
+    "Mıknatısla ayırma",
+    "Buharlaştırma"
+   ]
+  },
+  "textPlain": "Zeytinyağı ile su karışımını ayırmak için hangi yöntem kullanılır? Seçenekler: Ayırma hunisi / Mıknatısla ayırma / Buharlaştırma",
+  "correctAnswer": "Ayırma hunisi",
+  "explanation": "Birbiri içinde çözünmeyen sıvılar yoğunluk farkıyla ayırma hunisinde ayrılır."
+ },
+ {
+  "questionId": "boss-a11-f5-07",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Semboller",
+  "outcome": "Saf maddeleri element ve bileşik olarak sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 59–61",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Her sembolü element adıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Na",
+     "Sodyum"
+    ],
+    [
+     "Ca",
+     "Kalsiyum"
+    ],
+    [
+     "Cl",
+     "Klor"
+    ]
+   ]
+  },
+  "textPlain": "Her sembolü element adıyla eşleştir. Sol: Na; Ca; Cl. Sağ: Sodyum; Kalsiyum; Klor.",
+  "correctAnswer": "Na = Sodyum; Ca = Kalsiyum; Cl = Klor",
+  "explanation": "Na sodyum, Ca kalsiyum, Cl klor elementinin sembolüdür."
+ },
+ {
+  "questionId": "boss-a11-f5-08",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Elektron sayısı",
+  "outcome": "Elementlerin elektron dizilimi ile periyodik tablodaki yeri arasında ilişki kurar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 67–68",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Elektron dizilimi 2-8-3 olan nötr bir atomun toplam kaç elektronu vardır?",
+  "data": {
+   "answer": 13,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Elektron dizilimi 2-8-3 olan nötr bir atomun toplam kaç elektronu vardır?",
+  "correctAnswer": "13",
+  "explanation": "2 + 8 + 3 = 13 elektron."
+ },
+ {
+  "questionId": "boss-a11-f5-09",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Periyot",
+  "outcome": "Elementlerin elektron dizilimi ile periyodik tablodaki yeri arasında ilişki kurar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 67–68",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Elektron dizilimi 2-8-5 olan bir element periyodik tablonun kaçıncı periyodundadır?",
+  "data": {
+   "options": [
+    "3. periyot",
+    "5. periyot",
+    "2. periyot"
+   ]
+  },
+  "textPlain": "Elektron dizilimi 2-8-5 olan bir element periyodik tablonun kaçıncı periyodundadır? Seçenekler: 3. periyot / 5. periyot / 2. periyot",
+  "correctAnswer": "3. periyot",
+  "explanation": "Katman sayısı periyot numarasını verir: 3 katman → 3. periyot."
+ },
+ {
+  "questionId": "boss-a11-f5-10",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Atom modelleri",
+  "outcome": "Atomun yapısını ve atom modellerinin gelişimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 47–49",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Atom modellerini ortaya konuş sırasına göre ESKİDEN YENİYE sırala.",
+  "data": {
+   "items": [
+    "Dalton",
+    "Thomson",
+    "Rutherford",
+    "Bohr"
+   ]
+  },
+  "textPlain": "Atom modellerini ortaya konuş sırasına göre ESKİDEN YENİYE sırala. Kartlar: Bohr; Rutherford; Thomson; Dalton.",
+  "correctAnswer": "Dalton → Thomson → Rutherford → Bohr",
+  "explanation": "Dalton (1805), Thomson (1897), Rutherford (1911) ve Bohr (1913) modelleri sırayla ortaya konmuştur."
+ },
+ {
+  "questionId": "boss-a11-f5-11",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Çözünme hızı",
+  "outcome": "Karışımları sınıflandırır ve çözünme hızını etkileyen faktörleri belirler.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 84–88",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Şekerin suda daha HIZLI çözünmesi isteniyor. Aşağıdakilerden hangisi YAPILMAMALIDIR?",
+  "data": {
+   "options": [
+    "Daha soğuk su kullanmak",
+    "Karışımı karıştırmak",
+    "Küp şeker yerine toz şeker kullanmak"
+   ]
+  },
+  "textPlain": "Şekerin suda daha HIZLI çözünmesi isteniyor. Aşağıdakilerden hangisi YAPILMAMALIDIR? Seçenekler: Daha soğuk su kullanmak / Karışımı karıştırmak / Küp şeker yerine toz şeker kullanmak",
+  "correctAnswer": "Daha soğuk su kullanmak",
+  "explanation": "Sıcaklık, karıştırma ve temas yüzeyi çözünmeyi hızlandırır; soğuk su çözünmeyi yavaşlatır."
+ },
+ {
+  "questionId": "boss-a11-f5-12",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Molekül",
+  "outcome": "Saf maddeleri element ve bileşik olarak sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 59–61",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "CO₂ molekülünde 1 karbon ve 2 oksijen atomu bulunur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? CO₂ molekülünde 1 karbon ve 2 oksijen atomu bulunur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sembolün sağ altındaki sayı o atomdan kaç tane olduğunu gösterir; sayı yoksa 1 tanedir."
+ },
+ {
+  "questionId": "boss-a11-f5-13",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "İyon",
+  "outcome": "Elementlerin elektron dizilimi ile periyodik tablodaki yeri arasında ilişki kurar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 67–68",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Klor atomunun elektron dizilimi 2-8-7’dir. Klor kararlı hâle gelirken ne olur?",
+  "data": {
+   "options": [
+    "1 elektron alır, (−) yüklü iyon olur.",
+    "1 elektron verir, (+) yüklü iyon olur.",
+    "7 elektron verir, (+) yüklü iyon olur."
+   ]
+  },
+  "textPlain": "Klor atomunun elektron dizilimi 2-8-7’dir. Klor kararlı hâle gelirken ne olur? Seçenekler: 1 elektron alır, (−) yüklü iyon olur. / 1 elektron verir, (+) yüklü iyon olur. / 7 elektron verir, (+) yüklü iyon olur.",
+  "correctAnswer": "1 elektron alır, (−) yüklü iyon olur.",
+  "explanation": "Son katmanı 8’e tamamlamak için 1 elektron alır; elektron alan atom (−) yüklü iyon olur."
+ },
+ {
+  "questionId": "boss-a11-f5-14",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Karışım türleri",
+  "outcome": "Karışımları sınıflandırır ve çözünme hızını etkileyen faktörleri belirler.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 84–88",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Karışımları homojen ve heterojen diye ayır.",
+  "data": {
+   "bins": [
+    "Homojen",
+    "Heterojen"
+   ],
+   "items": [
+    [
+     "Şekerli su",
+     0
+    ],
+    [
+     "Tuzlu su",
+     0
+    ],
+    [
+     "Hava",
+     0
+    ],
+    [
+     "Kum ve su",
+     1
+    ],
+    [
+     "Zeytinyağı ve su",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Karışımları homojen ve heterojen diye ayır. (Homojen / Heterojen) Kartlar: Şekerli su; Tuzlu su; Hava; Kum ve su; Zeytinyağı ve su.",
+  "correctAnswer": "Homojen: Şekerli su, Tuzlu su, Hava. Heterojen: Kum ve su, Zeytinyağı ve su.",
+  "explanation": "Her yerinde aynı görünen karışımlar homojen, bileşenleri ayırt edilebilenler heterojendir."
+ },
+ {
+  "questionId": "boss-a11-f5-15",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Atom sayısı",
+  "outcome": "Saf maddeleri element ve bileşik olarak sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 59–61",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "H₂SO₄ formülündeki bir molekülde toplam kaç atom vardır?",
+  "data": {
+   "answer": 7,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "H₂SO₄ formülündeki bir molekülde toplam kaç atom vardır?",
+  "correctAnswer": "7",
+  "explanation": "2 hidrojen + 1 kükürt + 4 oksijen = 7 atom."
+ },
+ {
+  "questionId": "boss-a11-f5-16",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Rutherford",
+  "outcome": "Atomun yapısını ve atom modellerinin gelişimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 47–49",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Rutherford atom modelini öncekilerden ayıran düşünce hangisidir?",
+  "data": {
+   "options": [
+    "Atomun kütlesinin büyük kısmı merkezdeki küçük bir çekirdektedir.",
+    "Atom, içi tamamen dolu ve hiçbir şekilde parçalanamayan berk bir küre gibidir.",
+    "Elektronlar çekirdek çevresinde belirli katmanlarda düzenli olarak dolanır."
+   ]
+  },
+  "textPlain": "Rutherford atom modelini öncekilerden ayıran düşünce hangisidir? Seçenekler: Atomun kütlesinin büyük kısmı merkezdeki küçük bir çekirdektedir. / Atom, içi tamamen dolu ve hiçbir şekilde parçalanamayan berk bir küre gibidir. / Elektronlar çekirdek çevresinde belirli katmanlarda düzenli olarak dolanır.",
+  "correctAnswer": "Atomun kütlesinin büyük kısmı merkezdeki küçük bir çekirdektedir.",
+  "explanation": "Rutherford çekirdeği keşfetti. İçi dolu küre Dalton’un, katmanlar Bohr’un düşüncesidir."
+ },
+ {
+  "questionId": "boss-a11-f5-17",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Grup",
+  "outcome": "Elementlerin elektron dizilimi ile periyodik tablodaki yeri arasında ilişki kurar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 67–68",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Elektron dizilimi 2-1 olan lityum, periyodik tablonun kaçıncı grubundadır?",
+  "data": {
+   "options": [
+    "1. grup",
+    "2. grup",
+    "3. grup"
+   ]
+  },
+  "textPlain": "Elektron dizilimi 2-1 olan lityum, periyodik tablonun kaçıncı grubundadır? Seçenekler: 1. grup / 2. grup / 3. grup",
+  "correctAnswer": "1. grup",
+  "explanation": "Son katmandaki elektron sayısı grup numarasını verir: son katmanda 1 elektron → 1. grup."
+ },
+ {
+  "questionId": "boss-a11-f5-18",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Ayırma sırası",
+  "outcome": "Karışımları ayırmak için uygun yöntemi seçer.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 90–94",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Demir tozu, tuz ve sudan oluşan bir karışımdan önce demir tozu, sonra tuz elde edilecek. Sırasıyla hangi yöntemler kullanılmalıdır?",
+  "data": {
+   "options": [
+    "Mıknatısla ayırma, sonra buharlaştırma",
+    "Buharlaştırma, sonra ayırma hunisi",
+    "Ayırma hunisi, sonra mıknatısla ayırma"
+   ]
+  },
+  "textPlain": "Demir tozu, tuz ve sudan oluşan bir karışımdan önce demir tozu, sonra tuz elde edilecek. Sırasıyla hangi yöntemler kullanılmalıdır? Seçenekler: Mıknatısla ayırma, sonra buharlaştırma / Buharlaştırma, sonra ayırma hunisi / Ayırma hunisi, sonra mıknatısla ayırma",
+  "correctAnswer": "Mıknatısla ayırma, sonra buharlaştırma",
+  "explanation": "Demir mıknatısla çekilir; kalan tuzlu sudaki su buharlaştırılınca tuz kalır."
+ },
+ {
+  "questionId": "boss-a11-f5-19",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Bilim insanları",
+  "outcome": "Atomun yapısını ve atom modellerinin gelişimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 47–49",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Her bilim insanını çalışmasıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Câbir bin Hayyân",
+     "İlk kimya laboratuvarını kurdu, damıtma imbiğini icat etti"
+    ],
+    [
+     "Dalton",
+     "Atomu içi dolu, parçalanamayan kürelere benzetti"
+    ],
+    [
+     "Thomson",
+     "Elektronları keşfetti"
+    ]
+   ]
+  },
+  "textPlain": "Her bilim insanını çalışmasıyla eşleştir. Sol: Câbir bin Hayyân; Dalton; Thomson. Sağ: İlk kimya laboratuvarını kurdu, damıtma imbiğini icat etti; Atomu içi dolu, parçalanamayan kürelere benzetti; Elektronları keşfetti.",
+  "correctAnswer": "Câbir bin Hayyân = İlk kimya laboratuvarını kurdu, damıtma imbiğini icat etti; Dalton = Atomu içi dolu, parçalanamayan kürelere benzetti; Thomson = Elektronları keşfetti",
+  "explanation": "Câbir bin Hayyân ilk kimya laboratuvarını kurdu; Dalton atomu berk küreye benzetti; Thomson elektronu keşfetti."
+ },
+ {
+  "questionId": "boss-a11-f5-20",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğasına Yolculuk",
+  "topic": "Magnezyum iyonu",
+  "outcome": "Elementlerin elektron dizilimi ile periyodik tablodaki yeri arasında ilişki kurar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Doğasına Yolculuk”, s. 67–68",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Elektron dizilimi 2-8-2 olan magnezyum atomu kararlı hâle gelirken oluşan iyonun yükü nedir?",
+  "data": {
+   "options": [
+    "2+",
+    "2−",
+    "6−"
+   ]
+  },
+  "textPlain": "Elektron dizilimi 2-8-2 olan magnezyum atomu kararlı hâle gelirken oluşan iyonun yükü nedir? Seçenekler: 2+ / 2− / 6−",
+  "correctAnswer": "2+",
+  "explanation": "Son katmandaki 2 elektronu verir; 2 elektron veren atom 2+ yüklü iyon olur."
+ },
+ {
+  "questionId": "boss-a11-f6-01",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Aynı yükler",
+  "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Aynı cins elektrik yüküyle yüklü iki cisim birbirini çeker.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Aynı cins elektrik yüküyle yüklü iki cisim birbirini çeker.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Aynı yüklü cisimler birbirini iter, zıt yüklü cisimler birbirini çeker."
+ },
+ {
+  "questionId": "boss-a11-f6-02",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Yer değiştiren yük",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Cisimler elektriklenirken hangi tanecikler bir cisimden diğerine geçer?",
+  "data": {
+   "options": [
+    "Elektronlar (negatif yükler)",
+    "Protonlar (pozitif yükler)",
+    "Nötronlar (yüksüz tanecikler)"
+   ]
+  },
+  "textPlain": "Cisimler elektriklenirken hangi tanecikler bir cisimden diğerine geçer? Seçenekler: Elektronlar (negatif yükler) / Protonlar (pozitif yükler) / Nötronlar (yüksüz tanecikler)",
+  "correctAnswer": "Elektronlar (negatif yükler)",
+  "explanation": "Elektriklenme, negatif yüklü elektronların yer değiştirmesiyle olur."
+ },
+ {
+  "questionId": "boss-a11-f6-03",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Şimşek",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "İki bulut arasındaki elektrik yükü aktarımıyla oluşan olaya ne ad verilir?",
+  "data": {
+   "options": [
+    "Şimşek",
+    "Yıldırım",
+    "Gökkuşağı"
+   ]
+  },
+  "textPlain": "İki bulut arasındaki elektrik yükü aktarımıyla oluşan olaya ne ad verilir? Seçenekler: Şimşek / Yıldırım / Gökkuşağı",
+  "correctAnswer": "Şimşek",
+  "explanation": "Bulutlar arasındaki yük aktarımı şimşek, bulut ile yeryüzü arasındaki yük aktarımı yıldırımdır."
+ },
+ {
+  "questionId": "boss-a11-f6-04",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Paratoner",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Binaları yıldırımın zararından korumak için binaların tepesine yerleştirilen araç hangisidir?",
+  "data": {
+   "options": [
+    "Paratoner",
+    "Televizyon anteni",
+    "Güneş paneli"
+   ]
+  },
+  "textPlain": "Binaları yıldırımın zararından korumak için binaların tepesine yerleştirilen araç hangisidir? Seçenekler: Paratoner / Televizyon anteni / Güneş paneli",
+  "correctAnswer": "Paratoner",
+  "explanation": "Paratoner yıldırımın yükünü güvenli bir şekilde toprağa iletir."
+ },
+ {
+  "questionId": "boss-a11-f6-05",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Yük etkileşimi",
+  "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Her cisim çiftini aralarındaki etkileşimle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "(+) ile (+)",
+     "Birbirini iter"
+    ],
+    [
+     "(+) ile (−)",
+     "Birbirini çeker"
+    ],
+    [
+     "Nötr ile (−)",
+     "Nötr cisim çekilir"
+    ]
+   ]
+  },
+  "textPlain": "Her cisim çiftini aralarındaki etkileşimle eşleştir. Sol: (+) ile (+); (+) ile (−); Nötr ile (−). Sağ: Birbirini iter; Birbirini çeker; Nötr cisim çekilir.",
+  "correctAnswer": "(+) ile (+) = Birbirini iter; (+) ile (−) = Birbirini çeker; Nötr ile (−) = Nötr cisim çekilir",
+  "explanation": "Aynı yükler iter, zıt yükler çeker; yüklü cisim nötr cismi de çeker."
+ },
+ {
+  "questionId": "boss-a11-f6-06",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Teknolojide elektriklenme",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Araçları çalışmasında elektriklenmeden yararlanılıp yararlanılmamasına göre ayır.",
+  "data": {
+   "bins": [
+    "Yararlanılır",
+    "Yararlanılmaz"
+   ],
+   "items": [
+    [
+     "Lazer yazıcı",
+     0
+    ],
+    [
+     "Elektrostatik baca filtresi",
+     0
+    ],
+    [
+     "Sanayide boya püskürtme",
+     0
+    ],
+    [
+     "Bisiklet freni",
+     1
+    ],
+    [
+     "Cam termometre",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Araçları çalışmasında elektriklenmeden yararlanılıp yararlanılmamasına göre ayır. (Yararlanılır / Yararlanılmaz) Kartlar: Lazer yazıcı; Elektrostatik baca filtresi; Sanayide boya püskürtme; Bisiklet freni; Cam termometre.",
+  "correctAnswer": "Yararlanılır: Lazer yazıcı, Elektrostatik baca filtresi, Sanayide boya püskürtme. Yararlanılmaz: Bisiklet freni, Cam termometre.",
+  "explanation": "Lazer yazıcı, baca filtresi ve elektrostatik boyamada elektriklenmeden yararlanılır; bisiklet freni ve termometre başka ilkelerle çalışır."
+ },
+ {
+  "questionId": "boss-a11-f6-07",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Tarak",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kuru saça sürtülen plastik tarak, küçük kâğıt parçalarını çekebilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kuru saça sürtülen plastik tarak, küçük kâğıt parçalarını çekebilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Tarak sürtünmeyle elektriklenir; yüklü cisim nötr kâğıt parçalarını çeker."
+ },
+ {
+  "questionId": "boss-a11-f6-08",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Yünün yükü",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Plastik çubuk yün kumaşa sürtülünce çubuk (−) yükleniyor. Yün kumaş için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "(+) yüklenir, çünkü elektron kaybetmiştir.",
+    "(−) yüklenir, çünkü elektron kazanmıştır.",
+    "Nötr kalır, çünkü yük alışverişi olmaz."
+   ]
+  },
+  "textPlain": "Plastik çubuk yün kumaşa sürtülünce çubuk (−) yükleniyor. Yün kumaş için hangisi doğrudur? Seçenekler: (+) yüklenir, çünkü elektron kaybetmiştir. / (−) yüklenir, çünkü elektron kazanmıştır. / Nötr kalır, çünkü yük alışverişi olmaz.",
+  "correctAnswer": "(+) yüklenir, çünkü elektron kaybetmiştir.",
+  "explanation": "Yündeki bazı elektronlar çubuğa geçer; elektron kaybeden yün (+) yüklenir."
+ },
+ {
+  "questionId": "boss-a11-f6-09",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Dokunma",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "(−) yüklü bir iletken küre, nötr bir iletken küreye dokunduruluyor ve ayrılıyor. Kürelerin son durumu nedir?",
+  "data": {
+   "options": [
+    "İkisi de (−) yüklüdür.",
+    "İkisi de nötrdür.",
+    "Biri (+), diğeri (−) yüklüdür."
+   ]
+  },
+  "textPlain": "(−) yüklü bir iletken küre, nötr bir iletken küreye dokunduruluyor ve ayrılıyor. Kürelerin son durumu nedir? Seçenekler: İkisi de (−) yüklüdür. / İkisi de nötrdür. / Biri (+), diğeri (−) yüklüdür.",
+  "correctAnswer": "İkisi de (−) yüklüdür.",
+  "explanation": "Dokunma ile elektriklenmede yük paylaşılır; iki küre de aynı cins (−) yükle yüklenir."
+ },
+ {
+  "questionId": "boss-a11-f6-10",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Yıldırım",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Yıldırım nasıl oluşur?",
+  "data": {
+   "options": [
+    "Bulut ile yeryüzü arasındaki yük aktarımıyla",
+    "İki bulut arasındaki yük aktarımıyla",
+    "Bulutların çarpışmasından çıkan sesle"
+   ]
+  },
+  "textPlain": "Yıldırım nasıl oluşur? Seçenekler: Bulut ile yeryüzü arasındaki yük aktarımıyla / İki bulut arasındaki yük aktarımıyla / Bulutların çarpışmasından çıkan sesle",
+  "correctAnswer": "Bulut ile yeryüzü arasındaki yük aktarımıyla",
+  "explanation": "Bulutlarla yeryüzü arasındaki yük aktarımıyla yıldırım oluşur."
+ },
+ {
+  "questionId": "boss-a11-f6-11",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Balon deneyi",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Sürtünme ile elektriklenmeyi gözlemlemek için deneyin adımlarını sırala.",
+  "data": {
+   "items": [
+    "Balonu yün kumaşa sürt.",
+    "Balonu küçük kâğıt parçalarına yaklaştır.",
+    "Kâğıtların balona çekildiğini gözle."
+   ]
+  },
+  "textPlain": "Sürtünme ile elektriklenmeyi gözlemlemek için deneyin adımlarını sırala. Kartlar: Balonu küçük kâğıt parçalarına yaklaştır.; Kâğıtların balona çekildiğini gözle.; Balonu yün kumaşa sürt..",
+  "correctAnswer": "Balonu yün kumaşa sürt. → Balonu küçük kâğıt parçalarına yaklaştır. → Kâğıtların balona çekildiğini gözle.",
+  "explanation": "Önce balon sürtünmeyle elektriklenir, sonra nötr kâğıtlara yaklaştırılınca onları çeker."
+ },
+ {
+  "questionId": "boss-a11-f6-12",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Etki ile elektriklenme",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Etki ile (temassız) elektriklenmede cisimler birbirine dokunmaz.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Etki ile (temassız) elektriklenmede cisimler birbirine dokunmaz.",
+  "correctAnswer": "Doğru",
+  "explanation": "Etki ile elektriklenmede yüklü cisim yalnızca yaklaştırılır; yükler cismin içinde yer değiştirir."
+ },
+ {
+  "questionId": "boss-a11-f6-13",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Elektrik kelimesi",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Elektrik” kelimesi, Yunancada hangi anlama gelen “elektron” sözcüğünden türemiştir?",
+  "data": {
+   "options": [
+    "Kehribar",
+    "Şimşek",
+    "Mıknatıs"
+   ]
+  },
+  "textPlain": "“Elektrik” kelimesi, Yunancada hangi anlama gelen “elektron” sözcüğünden türemiştir? Seçenekler: Kehribar / Şimşek / Mıknatıs",
+  "correctAnswer": "Kehribar",
+  "explanation": "Thales yüne sürtülen kehribarın kırıntıları çektiğini gözledi; elektrik kelimesi kehribar anlamındaki “elektron”dan gelir."
+ },
+ {
+  "questionId": "boss-a11-f6-14",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Çeker mi iter mi",
+  "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Cisim çiftlerini birbirini çekenler ve itenler diye ayır.",
+  "data": {
+   "bins": [
+    "Çeker",
+    "İter"
+   ],
+   "items": [
+    [
+     "(+) ile (−)",
+     0
+    ],
+    [
+     "Nötr ile (+)",
+     0
+    ],
+    [
+     "Nötr ile (−)",
+     0
+    ],
+    [
+     "(−) ile (−)",
+     1
+    ],
+    [
+     "(+) ile (+)",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Cisim çiftlerini birbirini çekenler ve itenler diye ayır. (Çeker / İter) Kartlar: (+) ile (−); Nötr ile (+); Nötr ile (−); (−) ile (−); (+) ile (+).",
+  "correctAnswer": "Çeker: (+) ile (−), Nötr ile (+), Nötr ile (−). İter: (−) ile (−), (+) ile (+).",
+  "explanation": "Zıt yükler ve yüklü-nötr çiftleri çeker; aynı yükler iter."
+ },
+ {
+  "questionId": "boss-a11-f6-15",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Etki ile yük dağılımı",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 118–119",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Nötr bir iletken küreye (+) yüklü bir çubuk dokundurulmadan yaklaştırılıyor. Kürenin çubuğa yakın tarafı için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Negatif yükler bu tarafa toplanır, burası (−) olur.",
+    "Pozitif yükler çubuğa doğru akar, burası (+) olur.",
+    "Hiçbir yük hareket etmez, küre her yerde nötr kalır."
+   ]
+  },
+  "textPlain": "Nötr bir iletken küreye (+) yüklü bir çubuk dokundurulmadan yaklaştırılıyor. Kürenin çubuğa yakın tarafı için hangisi doğrudur? Seçenekler: Negatif yükler bu tarafa toplanır, burası (−) olur. / Pozitif yükler çubuğa doğru akar, burası (+) olur. / Hiçbir yük hareket etmez, küre her yerde nötr kalır.",
+  "correctAnswer": "Negatif yükler bu tarafa toplanır, burası (−) olur.",
+  "explanation": "(+) çubuk küredeki negatif yükleri (elektronları) kendine yakın tarafa çeker."
+ },
+ {
+  "questionId": "boss-a11-f6-16",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Franklin",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Benjamin Franklin’in elektriklenmeyle ilgili çalışması hangisidir?",
+  "data": {
+   "options": [
+    "Uçurtma deneyiyle yıldırımın elektrik olduğunu gösterip paratoneri buldu.",
+    "Kehribarı yüne sürterek kıl ve kırıntıları çektiğini ilk kez gözlemledi.",
+    "Atomun çekirdeğini keşfedip atom modelini yeniden çizdi ve elektronu buldu."
+   ]
+  },
+  "textPlain": "Benjamin Franklin’in elektriklenmeyle ilgili çalışması hangisidir? Seçenekler: Uçurtma deneyiyle yıldırımın elektrik olduğunu gösterip paratoneri buldu. / Kehribarı yüne sürterek kıl ve kırıntıları çektiğini ilk kez gözlemledi. / Atomun çekirdeğini keşfedip atom modelini yeniden çizdi ve elektronu buldu.",
+  "correctAnswer": "Uçurtma deneyiyle yıldırımın elektrik olduğunu gösterip paratoneri buldu.",
+  "explanation": "Franklin uçurtma deneyiyle yıldırımın yük ilettiğini doğruladı ve paratoneri icat etti. Kehribar gözlemi Thales’e aittir."
+ },
+ {
+  "questionId": "boss-a11-f6-17",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Paratonerin yapısı",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 114, 120, 122",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Paratoner için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Binanın en yüksek yerine konur ve toprağa bağlanır.",
+    "Binanın bodrumuna konur ve toprakla hiçbir bağlantısı olmaz.",
+    "Bulutlara sürekli yük göndererek yıldırımı başka bir yere iter."
+   ]
+  },
+  "textPlain": "Paratoner için hangisi doğrudur? Seçenekler: Binanın en yüksek yerine konur ve toprağa bağlanır. / Binanın bodrumuna konur ve toprakla hiçbir bağlantısı olmaz. / Bulutlara sürekli yük göndererek yıldırımı başka bir yere iter.",
+  "correctAnswer": "Binanın en yüksek yerine konur ve toprağa bağlanır.",
+  "explanation": "Paratoner binanın tepesine konur ve yıldırımın yükünü toprağa iletmek için toprağa bağlanır."
+ },
+ {
+  "questionId": "boss-a11-f6-18",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Yük çıkarımı",
+  "outcome": "Cisimlerin yük durumlarını ve yüklü cisimler arasındaki itme-çekme etkileşimini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–119",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A cismi B’yi itiyor, B cismi C’yi çekiyor. A’nın (+) yüklü olduğu biliniyorsa C için kesin olarak ne söylenebilir?",
+  "data": {
+   "options": [
+    "(+) yüklü değildir.",
+    "Kesinlikle (−) yüklüdür.",
+    "Kesinlikle nötrdür."
+   ]
+  },
+  "textPlain": "A cismi B’yi itiyor, B cismi C’yi çekiyor. A’nın (+) yüklü olduğu biliniyorsa C için kesin olarak ne söylenebilir? Seçenekler: (+) yüklü değildir. / Kesinlikle (−) yüklüdür. / Kesinlikle nötrdür.",
+  "correctAnswer": "(+) yüklü değildir.",
+  "explanation": "A, B’yi ittiği için B de (+)’dır. B, C’yi çektiğine göre C ya (−) ya da nötrdür; kesin olan (+) olmadığıdır."
+ },
+ {
+  "questionId": "boss-a11-f6-19",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Baca filtresi",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 109, 124",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Elektrostatik baca filtreleri, dumandaki parçacıkları elektriklenme sayesinde tutar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Elektrostatik baca filtreleri, dumandaki parçacıkları elektriklenme sayesinde tutar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Parçacıklar yüklenir ve zıt yüklü levhalarda tutulur; hava daha temiz çıkar."
+ },
+ {
+  "questionId": "boss-a11-f6-20",
+  "grade": 7,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriklenme",
+  "topic": "Elektron alışverişi",
+  "outcome": "Elektriklenme çeşitlerini ve elektriklenmenin teknolojideki kullanımını deney yaparak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 7. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriklenme”, s. 116–117",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Nötr bir cam çubuk ipek kumaşa sürtülünce 5 elektron kaybediyor. Başlangıçta nötr olan ipek kumaş kaç elektron kazanmıştır?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": "elektron"
+  },
+  "textPlain": "Nötr bir cam çubuk ipek kumaşa sürtülünce 5 elektron kaybediyor. Başlangıçta nötr olan ipek kumaş kaç elektron kazanmıştır?",
+  "correctAnswer": "5 elektron",
+  "explanation": "Elektronlar yok olmaz; çubuğun kaybettiği 5 elektron kumaşa geçer."
+ },
+ {
+  "questionId": "boss-a11-m6-01",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Oran",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 69",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir sınıfta 12 kız ve 8 erkek öğrenci vardır. Kızların sayısının erkeklerin sayısına oranı hangisidir?",
+  "data": {
+   "options": [
+    "{3/2}",
+    "{2/3}",
+    "{8/12}"
+   ]
+  },
+  "textPlain": "Bir sınıfta 12 kız ve 8 erkek öğrenci vardır. Kızların sayısının erkeklerin sayısına oranı hangisidir? Seçenekler: {3/2} / {2/3} / {8/12}",
+  "correctAnswer": "{3/2}",
+  "explanation": "Kız ÷ erkek = {12/8} = {3/2}."
+ },
+ {
+  "questionId": "boss-a11-m6-02",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Birim fiyat",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 70 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "5 kg elma 150 TL’dir. 1 kg elma kaç TL’dir?",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "TL"
+  },
+  "textPlain": "5 kg elma 150 TL’dir. 1 kg elma kaç TL’dir?",
+  "correctAnswer": "30 TL",
+  "explanation": "150 ÷ 5 = 30 TL."
+ },
+ {
+  "questionId": "boss-a11-m6-03",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Doğru orantı",
+  "outcome": "Orantılı durumları yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 58 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Sabit hızla giden bir aracın aldığı yol ile harcadığı yakıt doğru orantılıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Sabit hızla giden bir aracın aldığı yol ile harcadığı yakıt doğru orantılıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Yol arttıkça yakıt da aynı oranda artar; bu doğru orantıdır."
+ },
+ {
+  "questionId": "boss-a11-m6-04",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Denk oran",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 47–48",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi {2/5} oranına denktir?",
+  "data": {
+   "options": [
+    "{6/15}",
+    "{4/15}",
+    "{5/2}"
+   ]
+  },
+  "textPlain": "Hangisi {2/5} oranına denktir? Seçenekler: {6/15} / {4/15} / {5/2}",
+  "correctAnswer": "{6/15}",
+  "explanation": "{2/5} oranının pay ve paydası 3 ile genişletilirse {6/15} elde edilir."
+ },
+ {
+  "questionId": "boss-a11-m6-05",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Birimli oran",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 69",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "120 km yolu 2 saatte alan bir aracın saatteki hızı kaç km’dir?",
+  "data": {
+   "options": [
+    "60 km",
+    "240 km",
+    "122 km"
+   ]
+  },
+  "textPlain": "120 km yolu 2 saatte alan bir aracın saatteki hızı kaç km’dir? Seçenekler: 60 km / 240 km / 122 km",
+  "correctAnswer": "60 km",
+  "explanation": "120 ÷ 2 = 60 km/sa."
+ },
+ {
+  "questionId": "boss-a11-m6-06",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Doğru orantı",
+  "outcome": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 62",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "3 defter 45 TL ise aynı defterlerden 7 tanesi kaç TL’dir?",
+  "data": {
+   "answer": 105,
+   "digits": 3,
+   "unit": "TL"
+  },
+  "textPlain": "3 defter 45 TL ise aynı defterlerden 7 tanesi kaç TL’dir?",
+  "correctAnswer": "105 TL",
+  "explanation": "Bir defter 45 ÷ 3 = 15 TL; 7 defter 7 × 15 = 105 TL."
+ },
+ {
+  "questionId": "boss-a11-m6-07",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Orantı türü",
+  "outcome": "Orantılı durumları yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 58 (veri/şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Çokluk çiftlerini doğru orantılı ve ters orantılı diye ayır.",
+  "data": {
+   "bins": [
+    "Doğru orantı",
+    "Ters orantı"
+   ],
+   "items": [
+    [
+     "Alınan ekmek sayısı ve ödenen para",
+     0
+    ],
+    [
+     "Gidilen yol ve harcanan yakıt",
+     0
+    ],
+    [
+     "Çalışılan saat ve saatlik ücretle kazanılan para",
+     0
+    ],
+    [
+     "İşçi sayısı ve işin bitme süresi",
+     1
+    ],
+    [
+     "Aracın hızı ve varış süresi",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Çokluk çiftlerini doğru orantılı ve ters orantılı diye ayır. (Doğru orantı / Ters orantı) Kartlar: Alınan ekmek sayısı ve ödenen para; Gidilen yol ve harcanan yakıt; Çalışılan saat ve saatlik ücretle kazanılan para; İşçi sayısı ve işin bitme süresi; Aracın hızı ve varış süresi.",
+  "correctAnswer": "Doğru orantı: Alınan ekmek sayısı ve ödenen para, Gidilen yol ve harcanan yakıt, Çalışılan saat ve saatlik ücretle kazanılan para. Ters orantı: İşçi sayısı ve işin bitme süresi, Aracın hızı ve varış süresi.",
+  "explanation": "Biri artarken diğeri aynı oranda artıyorsa doğru, azalıyorsa ters orantıdır."
+ },
+ {
+  "questionId": "boss-a11-m6-08",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Ters orantı",
+  "outcome": "Orantılı durumları yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 58 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "4 işçi bir işi 6 günde bitiriyor. Aynı hızda çalışan 8 işçi bu işi kaç günde bitirir?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": "gün"
+  },
+  "textPlain": "4 işçi bir işi 6 günde bitiriyor. Aynı hızda çalışan 8 işçi bu işi kaç günde bitirir?",
+  "correctAnswer": "3 gün",
+  "explanation": "İşçi sayısı 2 katına çıkınca süre yarıya iner: 6 ÷ 2 = 3 gün."
+ },
+ {
+  "questionId": "boss-a11-m6-09",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "En ekonomik",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 70 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aynı peynir üç farklı pakette satılıyor. Hangisi en ekonomiktir?",
+  "data": {
+   "options": [
+    "1 kg’lık paket 70 TL",
+    "500 g’lık paket 40 TL",
+    "250 g’lık paket 22 TL"
+   ]
+  },
+  "textPlain": "Aynı peynir üç farklı pakette satılıyor. Hangisi en ekonomiktir? Seçenekler: 1 kg’lık paket 70 TL / 500 g’lık paket 40 TL / 250 g’lık paket 22 TL",
+  "correctAnswer": "1 kg’lık paket 70 TL",
+  "explanation": "1 kg’ın fiyatı: 70 TL; 500 g’lık ile 80 TL; 250 g’lık ile 88 TL. En ucuzu 1 kg’lık pakettir."
+ },
+ {
+  "questionId": "boss-a11-m6-10",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Tarif",
+  "outcome": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 62",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir kek tarifinde 2 su bardağı una 3 yumurta konuyor. 8 su bardağı un kullanılırsa kaç yumurta gerekir?",
+  "data": {
+   "answer": 12,
+   "digits": 2,
+   "unit": "yumurta"
+  },
+  "textPlain": "Bir kek tarifinde 2 su bardağı una 3 yumurta konuyor. 8 su bardağı un kullanılırsa kaç yumurta gerekir?",
+  "correctAnswer": "12 yumurta",
+  "explanation": "Un 4 katına çıkmıştır; yumurta da 4 katına çıkar: 3 × 4 = 12."
+ },
+ {
+  "questionId": "boss-a11-m6-11",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Orantıda bilinmeyen",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 47–48",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "{3/4} = {x/20} orantısında x kaçtır?",
+  "data": {
+   "answer": 15,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "{3/4} = {x/20} orantısında x kaçtır?",
+  "correctAnswer": "15",
+  "explanation": "Payda 4’ten 20’ye 5 katına çıkmıştır; pay da 5 katına çıkar: x = 15."
+ },
+ {
+  "questionId": "boss-a11-m6-12",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Ters orantı",
+  "outcome": "Orantılı durumları yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 58 (veri/şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Ters orantılı iki çokluktan biri 2 katına çıkarken diğeri de 2 katına çıkar.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Ters orantılı iki çokluktan biri 2 katına çıkarken diğeri de 2 katına çıkar.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Ters orantıda biri 2 katına çıkarken diğeri yarıya iner."
+ },
+ {
+  "questionId": "boss-a11-m6-13",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Sadeleştirme",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 47–48",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her oranı en sade biçimiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "10 : 15",
+     "2 : 3"
+    ],
+    [
+     "12 : 4",
+     "3 : 1"
+    ],
+    [
+     "9 : 12",
+     "3 : 4"
+    ]
+   ]
+  },
+  "textPlain": "Her oranı en sade biçimiyle eşleştir. Sol: 10 : 15; 12 : 4; 9 : 12. Sağ: 2 : 3; 3 : 1; 3 : 4.",
+  "correctAnswer": "10 : 15 = 2 : 3; 12 : 4 = 3 : 1; 9 : 12 = 3 : 4",
+  "explanation": "Oranlar ortak bölenlerine bölünerek sadeleştirilir."
+ },
+ {
+  "questionId": "boss-a11-m6-14",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Karışım oranı",
+  "outcome": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 62",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir boya karışımında kırmızı ve beyaz boya 1 : 4 oranında kullanılıyor. 20 kutu beyaz boyaya kaç kutu kırmızı boya gerekir?",
+  "data": {
+   "options": [
+    "5 kutu",
+    "80 kutu",
+    "16 kutu"
+   ]
+  },
+  "textPlain": "Bir boya karışımında kırmızı ve beyaz boya 1 : 4 oranında kullanılıyor. 20 kutu beyaz boyaya kaç kutu kırmızı boya gerekir? Seçenekler: 5 kutu / 80 kutu / 16 kutu",
+  "correctAnswer": "5 kutu",
+  "explanation": "Beyaz kırmızının 4 katıdır: 20 ÷ 4 = 5 kutu kırmızı."
+ },
+ {
+  "questionId": "boss-a11-m6-15",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Oranla paylaştırma",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 69",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "18 m’lik bir kumaş kırmızı ve beyaz kısımlara 2 : 1 oranında ayrılıyor. Kırmızı kısım kaç metredir?",
+  "data": {
+   "answer": 12,
+   "digits": 2,
+   "unit": "m"
+  },
+  "textPlain": "18 m’lik bir kumaş kırmızı ve beyaz kısımlara 2 : 1 oranında ayrılıyor. Kırmızı kısım kaç metredir?",
+  "correctAnswer": "12 m",
+  "explanation": "Toplam 3 parça; bir parça 18 ÷ 3 = 6 m. Kırmızı 2 parça: 12 m."
+ },
+ {
+  "questionId": "boss-a11-m6-16",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Musluk",
+  "outcome": "Orantılı durumları yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 58 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir musluk boş bir havuzu 12 saatte dolduruyor. Aynı akışa sahip 3 musluk birlikte bu havuzu kaç saatte doldurur?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": "saat"
+  },
+  "textPlain": "Bir musluk boş bir havuzu 12 saatte dolduruyor. Aynı akışa sahip 3 musluk birlikte bu havuzu kaç saatte doldurur?",
+  "correctAnswer": "4 saat",
+  "explanation": "Musluk sayısı 3 katına çıkınca süre üçte birine iner: 12 ÷ 3 = 4 saat."
+ },
+ {
+  "questionId": "boss-a11-m6-17",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Tablodan orantı",
+  "outcome": "Orantılı durumları yorumlayabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 58 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Tabloda x ve y çokluklarının aldığı değerler verilmiştir. Bu çokluklar için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Ters orantılıdır; çarpımları hep 24’tür.",
+    "Doğru orantılıdır; oranları sabittir.",
+    "Orantılı değildir; değerler rastgeledir."
+   ],
+   "fig": {
+    "k": "table",
+    "h": [
+     "x",
+     "y"
+    ],
+    "r": [
+     [
+      "2",
+      "12"
+     ],
+     [
+      "4",
+      "6"
+     ],
+     [
+      "6",
+      "4"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: x = 2, 4, 6 iken y = 12, 6, 4] Tabloda x ve y çokluklarının aldığı değerler verilmiştir. Bu çokluklar için hangisi doğrudur? Seçenekler: Ters orantılıdır; çarpımları hep 24’tür. / Doğru orantılıdır; oranları sabittir. / Orantılı değildir; değerler rastgeledir.",
+  "correctAnswer": "Ters orantılıdır; çarpımları hep 24’tür.",
+  "explanation": "2 × 12 = 4 × 6 = 6 × 4 = 24. Çarpım sabit olduğu için ters orantılıdır."
+ },
+ {
+  "questionId": "boss-a11-m6-18",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Hız problemi",
+  "outcome": "Gerçek yaşam durumları üzerinden doğru orantılı durumlara ilişkin problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 62",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir araç sabit hızla 3 saatte 240 km yol alıyor. Aynı hızla 5 saatte kaç km yol alır?",
+  "data": {
+   "answer": 400,
+   "digits": 3,
+   "unit": "km"
+  },
+  "textPlain": "Bir araç sabit hızla 3 saatte 240 km yol alıyor. Aynı hızla 5 saatte kaç km yol alır?",
+  "correctAnswer": "400 km",
+  "explanation": "Saatte 240 ÷ 3 = 80 km; 5 saatte 5 × 80 = 400 km."
+ },
+ {
+  "questionId": "boss-a11-m6-19",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Paket karşılaştırma",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 70 (veri/şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "200 mL’lik süt 24 TL, 1 L’lik süt 100 TL’dir. 1 L süt almak isteyen biri için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "1 L’lik paketi almak 20 TL daha ucuzdur.",
+    "200 mL’lik beş paket almak 20 TL daha ucuzdur.",
+    "İki seçenek de aynı tutardadır."
+   ]
+  },
+  "textPlain": "200 mL’lik süt 24 TL, 1 L’lik süt 100 TL’dir. 1 L süt almak isteyen biri için hangisi doğrudur? Seçenekler: 1 L’lik paketi almak 20 TL daha ucuzdur. / 200 mL’lik beş paket almak 20 TL daha ucuzdur. / İki seçenek de aynı tutardadır.",
+  "correctAnswer": "1 L’lik paketi almak 20 TL daha ucuzdur.",
+  "explanation": "200 mL’likten 5 tane: 5 × 24 = 120 TL. 1 L’lik paket 100 TL; fark 20 TL."
+ },
+ {
+  "questionId": "boss-a11-m6-20",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Oranla paylaşma",
+  "outcome": "Gerçek yaşam bağlamları üzerinden oran ilişkilerine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sayılar ve Nicelikler (2)”, s. 69",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Ayşe ile Can 640 TL’yi 3 : 5 oranında paylaşıyor. Can kaç TL alır?",
+  "data": {
+   "answer": 400,
+   "digits": 3,
+   "unit": "TL"
+  },
+  "textPlain": "Ayşe ile Can 640 TL’yi 3 : 5 oranında paylaşıyor. Can kaç TL alır?",
+  "correctAnswer": "400 TL",
+  "explanation": "Toplam 8 parça; bir parça 640 ÷ 8 = 80 TL. Can 5 parça: 400 TL."
+ },
+ {
+  "questionId": "boss-a11-m7-01",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Örnek uzay",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 75 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir zar atıldığında örnek uzayın elemanları hangileridir?",
+  "data": {
+   "options": [
+    "1, 2, 3, 4, 5, 6",
+    "1, 2, 3, 4, 5",
+    "0, 1, 2, 3, 4, 5, 6"
+   ]
+  },
+  "textPlain": "Bir zar atıldığında örnek uzayın elemanları hangileridir? Seçenekler: 1, 2, 3, 4, 5, 6 / 1, 2, 3, 4, 5 / 0, 1, 2, 3, 4, 5, 6",
+  "correctAnswer": "1, 2, 3, 4, 5, 6",
+  "explanation": "Zarın yüzlerinde 1’den 6’ya kadar sayılar vardır; örnek uzay bu 6 çıktıdır."
+ },
+ {
+  "questionId": "boss-a11-m7-02",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Çıktı sayısı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 75 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Madeni bir para bir kez atıldığında kaç farklı çıktı olabilir?",
+  "data": {
+   "answer": 2,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Madeni bir para bir kez atıldığında kaç farklı çıktı olabilir?",
+  "correctAnswer": "2",
+  "explanation": "Yazı ya da tura: 2 çıktı."
+ },
+ {
+  "questionId": "boss-a11-m7-03",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir torbada 3 kırmızı ve 5 mavi top vardır. Rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "{3/8}",
+    "{3/5}",
+    "{5/8}"
+   ]
+  },
+  "textPlain": "Bir torbada 3 kırmızı ve 5 mavi top vardır. Rastgele çekilen bir topun kırmızı olma olasılığı kaçtır? Seçenekler: {3/8} / {3/5} / {5/8}",
+  "correctAnswer": "{3/8}",
+  "explanation": "İstenen çıktı 3, tüm çıktılar 8: {3/8}."
+ },
+ {
+  "questionId": "boss-a11-m7-04",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık aralığı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir olayın olasılığı 0 ile 1 arasında (0 ve 1 dâhil) bir değerdir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir olayın olasılığı 0 ile 1 arasında (0 ve 1 dâhil) bir değerdir.",
+  "correctAnswer": "Doğru",
+  "explanation": "İmkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir; diğerleri arasındadır."
+ },
+ {
+  "questionId": "boss-a11-m7-05",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Kesin olay",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kesin olan bir olayın olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "1",
+    "0",
+    "{1/2}"
+   ]
+  },
+  "textPlain": "Kesin olan bir olayın olasılığı kaçtır? Seçenekler: 1 / 0 / {1/2}",
+  "correctAnswer": "1",
+  "explanation": "Kesin olayın olasılığı 1’dir."
+ },
+ {
+  "questionId": "boss-a11-m7-06",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Tek sayı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir zar atıldığında tek sayı gelme olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "{1/2}",
+    "{1/3}",
+    "{1/6}"
+   ]
+  },
+  "textPlain": "Bir zar atıldığında tek sayı gelme olasılığı kaçtır? Seçenekler: {1/2} / {1/3} / {1/6}",
+  "correctAnswer": "{1/2}",
+  "explanation": "Tek sayılar 1, 3, 5: 3 çıktı. {3/6} = {1/2}."
+ },
+ {
+  "questionId": "boss-a11-m7-07",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Kesin ve imkânsız",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Olayları kesin ve imkânsız diye ayır.",
+  "data": {
+   "bins": [
+    "Kesin olay",
+    "İmkânsız olay"
+   ],
+   "items": [
+    [
+     "Zarda 6 ya da daha küçük bir sayı gelmesi",
+     0
+    ],
+    [
+     "Yalnızca mavi top olan torbadan mavi top çekilmesi",
+     0
+    ],
+    [
+     "Bir haftanın 7 günden oluşması",
+     0
+    ],
+    [
+     "Zarda 7 gelmesi",
+     1
+    ],
+    [
+     "Yalnızca mavi top olan torbadan kırmızı top çekilmesi",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Olayları kesin ve imkânsız diye ayır. (Kesin olay / İmkânsız olay) Kartlar: Zarda 6 ya da daha küçük bir sayı gelmesi; Yalnızca mavi top olan torbadan mavi top çekilmesi; Bir haftanın 7 günden oluşması; Zarda 7 gelmesi; Yalnızca mavi top olan torbadan kırmızı top çekilmesi.",
+  "correctAnswer": "Kesin olay: Zarda 6 ya da daha küçük bir sayı gelmesi, Yalnızca mavi top olan torbadan mavi top çekilmesi, Bir haftanın 7 günden oluşması. İmkânsız olay: Zarda 7 gelmesi, Yalnızca mavi top olan torbadan kırmızı top çekilmesi.",
+  "explanation": "Her zaman gerçekleşen olay kesin, hiç gerçekleşemeyen olay imkânsız olaydır."
+ },
+ {
+  "questionId": "boss-a11-m7-08",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Tümleyen",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 79 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir torbadan kırmızı top çekme olasılığı {2/7}’dir. Kırmızı top ÇEKMEME olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "{5/7}",
+    "{2/7}",
+    "{7/2}"
+   ]
+  },
+  "textPlain": "Bir torbadan kırmızı top çekme olasılığı {2/7}’dir. Kırmızı top ÇEKMEME olasılığı kaçtır? Seçenekler: {5/7} / {2/7} / {7/2}",
+  "correctAnswer": "{5/7}",
+  "explanation": "Bir olay ile tümleyeninin olasılıkları toplamı 1’dir: 1 − {2/7} = {5/7}."
+ },
+ {
+  "questionId": "boss-a11-m7-09",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Çark",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Eş 8 parçaya bölünmüş bir çarkın 3 parçası sarıdır. Çark çevrildiğinde sarı gelme olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "{3/8}",
+    "{5/8}",
+    "{3/5}"
+   ]
+  },
+  "textPlain": "Eş 8 parçaya bölünmüş bir çarkın 3 parçası sarıdır. Çark çevrildiğinde sarı gelme olasılığı kaçtır? Seçenekler: {3/8} / {5/8} / {3/5}",
+  "correctAnswer": "{3/8}",
+  "explanation": "Sarı 3 parça, toplam 8 parça: {3/8}."
+ },
+ {
+  "questionId": "boss-a11-m7-10",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Eşit olasılık",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 82 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir zar atıldığında 2 gelmesi ile 5 gelmesi eşit olasılıklı olaylardır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir zar atıldığında 2 gelmesi ile 5 gelmesi eşit olasılıklı olaylardır.",
+  "correctAnswer": "Doğru",
+  "explanation": "İkisinin de olasılığı {1/6}’dır."
+ },
+ {
+  "questionId": "boss-a11-m7-11",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Ayrık olaylar",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 85 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir zar atılıyor. “Tek sayı gelmesi” ile “çift sayı gelmesi” olayları için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Ayrık olaylardır; ortak çıktıları yoktur.",
+    "Ayrık değildir; ortak çıktıları vardır.",
+    "Biri kesin, diğeri imkânsız olaydır."
+   ]
+  },
+  "textPlain": "Bir zar atılıyor. “Tek sayı gelmesi” ile “çift sayı gelmesi” olayları için hangisi doğrudur? Seçenekler: Ayrık olaylardır; ortak çıktıları yoktur. / Ayrık değildir; ortak çıktıları vardır. / Biri kesin, diğeri imkânsız olaydır.",
+  "correctAnswer": "Ayrık olaylardır; ortak çıktıları yoktur.",
+  "explanation": "Hiçbir sayı hem tek hem çift olamaz; ortak çıktı olmadığı için ayrıktırlar."
+ },
+ {
+  "questionId": "boss-a11-m7-12",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olayın çıktıları",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 75 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "1’den 20’ye kadar numaralanmış kartlardan biri çekiliyor. “5’in katı olan bir kart çekme” olayının kaç çıktısı vardır?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "1’den 20’ye kadar numaralanmış kartlardan biri çekiliyor. “5’in katı olan bir kart çekme” olayının kaç çıktısı vardır?",
+  "correctAnswer": "4",
+  "explanation": "5, 10, 15 ve 20: 4 çıktı."
+ },
+ {
+  "questionId": "boss-a11-m7-13",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Zar olasılıkları",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Bir zar atılıyor. Her olayı olasılığıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "3 gelmesi",
+     "{1/6}"
+    ],
+    [
+     "Çift sayı gelmesi",
+     "{1/2}"
+    ],
+    [
+     "4’ten büyük gelmesi",
+     "{1/3}"
+    ]
+   ]
+  },
+  "textPlain": "Bir zar atılıyor. Her olayı olasılığıyla eşleştir. Sol: 3 gelmesi; Çift sayı gelmesi; 4’ten büyük gelmesi. Sağ: {1/6}; {1/2}; {1/3}.",
+  "correctAnswer": "3 gelmesi = {1/6}; Çift sayı gelmesi = {1/2}; 4’ten büyük gelmesi = {1/3}",
+  "explanation": "3: tek çıktı {1/6}; çift: 2, 4, 6 → {1/2}; 4’ten büyük: 5, 6 → {1/3}."
+ },
+ {
+  "questionId": "boss-a11-m7-14",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Eşit olasılıklı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 82 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir torbada 4 kırmızı, 4 mavi ve 2 sarı top vardır. Hangi iki olay eşit olasılıklıdır?",
+  "data": {
+   "options": [
+    "Kırmızı ve mavi top çekme",
+    "Kırmızı ve sarı top çekme",
+    "Mavi ve sarı top çekme"
+   ]
+  },
+  "textPlain": "Bir torbada 4 kırmızı, 4 mavi ve 2 sarı top vardır. Hangi iki olay eşit olasılıklıdır? Seçenekler: Kırmızı ve mavi top çekme / Kırmızı ve sarı top çekme / Mavi ve sarı top çekme",
+  "correctAnswer": "Kırmızı ve mavi top çekme",
+  "explanation": "Kırmızı ve mavinin 4’er çıktısı vardır: ikisinin olasılığı da {4/10}."
+ },
+ {
+  "questionId": "boss-a11-m7-15",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Yüzdeyle tümleyen",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 79 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir olayın gerçekleşme olasılığı %30’dur. Bu olayın gerçekleşmeme olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "%70",
+    "%30",
+    "%130"
+   ]
+  },
+  "textPlain": "Bir olayın gerçekleşme olasılığı %30’dur. Bu olayın gerçekleşmeme olasılığı kaçtır? Seçenekler: %70 / %30 / %130",
+  "correctAnswer": "%70",
+  "explanation": "Toplam %100’dür: 100 − 30 = %70."
+ },
+ {
+  "questionId": "boss-a11-m7-16",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Asal sayı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "1’den 10’a kadar numaralanmış kartlardan biri çekiliyor. Asal sayı çekme olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "{2/5}",
+    "{1/2}",
+    "{3/10}"
+   ]
+  },
+  "textPlain": "1’den 10’a kadar numaralanmış kartlardan biri çekiliyor. Asal sayı çekme olasılığı kaçtır? Seçenekler: {2/5} / {1/2} / {3/10}",
+  "correctAnswer": "{2/5}",
+  "explanation": "Asal sayılar 2, 3, 5, 7: 4 çıktı. {4/10} = {2/5}."
+ },
+ {
+  "questionId": "boss-a11-m7-17",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Ayrık olmayan",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 85 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "1’den 10’a kadar numaralı kartlardan biri çekiliyor. “Çift sayı çekme” ile “asal sayı çekme” olayları için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Ayrık değildir; 2 ortak çıktıdır.",
+    "Ayrıktır; ortak çıktıları yoktur.",
+    "Eşit olasılıklı ve ayrık olaylardır."
+   ]
+  },
+  "textPlain": "1’den 10’a kadar numaralı kartlardan biri çekiliyor. “Çift sayı çekme” ile “asal sayı çekme” olayları için hangisi doğrudur? Seçenekler: Ayrık değildir; 2 ortak çıktıdır. / Ayrıktır; ortak çıktıları yoktur. / Eşit olasılıklı ve ayrık olaylardır.",
+  "correctAnswer": "Ayrık değildir; 2 ortak çıktıdır.",
+  "explanation": "2 hem çift hem asaldır; ortak çıktı olduğu için olaylar ayrık değildir."
+ },
+ {
+  "questionId": "boss-a11-m7-18",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Top sayısı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir torbada 12 top vardır. Rastgele çekilen bir topun mavi olma olasılığı {1/4} ise torbada kaç mavi top vardır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Bir torbada 12 top vardır. Rastgele çekilen bir topun mavi olma olasılığı {1/4} ise torbada kaç mavi top vardır?",
+  "correctAnswer": "3",
+  "explanation": "12 × {1/4} = 3 mavi top."
+ },
+ {
+  "questionId": "boss-a11-m7-19",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Değişen olasılık",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 78 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Torbada 5 kırmızı ve 3 mavi top vardır. Torbadan 2 kırmızı top çıkarılıyor ve geri konmuyor. Şimdi çekilecek bir topun kırmızı olma olasılığı kaçtır?",
+  "data": {
+   "options": [
+    "{1/2}",
+    "{5/8}",
+    "{3/8}"
+   ]
+  },
+  "textPlain": "Torbada 5 kırmızı ve 3 mavi top vardır. Torbadan 2 kırmızı top çıkarılıyor ve geri konmuyor. Şimdi çekilecek bir topun kırmızı olma olasılığı kaçtır? Seçenekler: {1/2} / {5/8} / {3/8}",
+  "correctAnswer": "{1/2}",
+  "explanation": "Kalan: 3 kırmızı, 3 mavi, toplam 6. {3/6} = {1/2}."
+ },
+ {
+  "questionId": "boss-a11-m7-20",
+  "grade": 7,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Tümleyen toplamı",
+  "outcome": "Ayrık olan ve ayrık olmayan olayları, eşit olasılıklı ve eşit olasılıklı olmayan olayları, tümleyen olay kavramlarını ve bu olayların olasılıklarını teorik olasılıkla inceleyebilme.",
+  "sourceRef": "MEB Matematik 7. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 79 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir olayın olasılığı ile tümleyeninin olasılığının toplamı her zaman 1’dir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir olayın olasılığı ile tümleyeninin olasılığının toplamı her zaman 1’dir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Olay ya gerçekleşir ya gerçekleşmez; bu iki durumun olasılıkları toplamı 1’dir."
+ },
+ {
+  "questionId": "boss-a11-t4-01",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Karagöz",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Karagöz ne tür bir oyundur?",
+  "data": {
+   "options": [
+    "Gölge oyunu",
+    "Kukla oyunu",
+    "Ortaoyunu"
+   ]
+  },
+  "textPlain": "Karagöz ne tür bir oyundur? Seçenekler: Gölge oyunu / Kukla oyunu / Ortaoyunu",
+  "correctAnswer": "Gölge oyunu",
+  "explanation": "Karagöz, deriden yapılmış tasvirlerin perdeye yansıtılmasıyla oynanan bir gölge oyunudur."
+ },
+ {
+  "questionId": "boss-a11-t4-02",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Meddah",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kalabalık önünde tek başına, elindeki mendil ve değnekle hikâyeler anlatan sanatçıya ne ad verilir?",
+  "data": {
+   "options": [
+    "Meddah",
+    "Hacivat",
+    "Pişekâr"
+   ]
+  },
+  "textPlain": "Kalabalık önünde tek başına, elindeki mendil ve değnekle hikâyeler anlatan sanatçıya ne ad verilir? Seçenekler: Meddah / Hacivat / Pişekâr",
+  "correctAnswer": "Meddah",
+  "explanation": "Meddah tek başına hikâye anlatan sanatçıdır; kıssahan diye de anılır."
+ },
+ {
+  "questionId": "boss-a11-t4-03",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Kök boya",
+  "outcome": "Metinlerden ve görsellerden geleneksel Türk sanatlarına ilişkin önemli bilgileri belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 14, s. 54",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kilim ve halıların renkleri geleneksel olarak kök boyalardan elde edilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kilim ve halıların renkleri geleneksel olarak kök boyalardan elde edilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Geleneksel dokumalarda bitkilerden elde edilen kök boyalar kullanılır."
+ },
+ {
+  "questionId": "boss-a11-t4-04",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Ebru",
+  "outcome": "Metinlerden ve görsellerden geleneksel Türk sanatlarına ilişkin önemli bilgileri belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 14, s. 54",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Özel bir su üzerine boyalarla desen yapılıp bu desenin kâğıda aktarıldığı sanat hangisidir?",
+  "data": {
+   "options": [
+    "Ebru",
+    "Çini",
+    "Minyatür"
+   ]
+  },
+  "textPlain": "Özel bir su üzerine boyalarla desen yapılıp bu desenin kâğıda aktarıldığı sanat hangisidir? Seçenekler: Ebru / Çini / Minyatür",
+  "correctAnswer": "Ebru",
+  "explanation": "Ebru, su yüzeyindeki boyaların kâğıda aktarılmasıyla yapılır."
+ },
+ {
+  "questionId": "boss-a11-t4-05",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "El sanatları",
+  "outcome": "Metinlerden ve görsellerden geleneksel Türk sanatlarına ilişkin önemli bilgileri belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 14, s. 54",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Her sanatı açıklamasıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Çini",
+     "Desenli, sırlı seramik karo"
+    ],
+    [
+     "Minyatür",
+     "Geleneksel küçük resim sanatı"
+    ],
+    [
+     "Oya",
+     "İğneyle yapılan ince süsleme"
+    ]
+   ]
+  },
+  "textPlain": "Her sanatı açıklamasıyla eşleştir. Sol: Çini; Minyatür; Oya. Sağ: Desenli, sırlı seramik karo; Geleneksel küçük resim sanatı; İğneyle yapılan ince süsleme.",
+  "correctAnswer": "Çini = Desenli, sırlı seramik karo; Minyatür = Geleneksel küçük resim sanatı; Oya = İğneyle yapılan ince süsleme",
+  "explanation": "Çini sırlı seramik, minyatür geleneksel resim, oya iğneyle yapılan süslemedir."
+ },
+ {
+  "questionId": "boss-a11-t4-06",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Zıtlık",
+  "outcome": "Zıtlık işlevli söz varlıklarını ve noktalama işaretlerini işlevlerine uygun kullanır; söz sanatlarını, metin yapılarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 32, s. 44, s. 52",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Çok çalıştı … sınavı kazanamadı.” cümlesindeki boşluğa hangisi gelmelidir?",
+  "data": {
+   "options": [
+    "ama",
+    "çünkü",
+    "bu yüzden"
+   ]
+  },
+  "textPlain": "“Çok çalıştı … sınavı kazanamadı.” cümlesindeki boşluğa hangisi gelmelidir? Seçenekler: ama / çünkü / bu yüzden",
+  "correctAnswer": "ama",
+  "explanation": "Beklenenin tersi bir sonuç olduğu için zıtlık bildiren “ama” gelmelidir."
+ },
+ {
+  "questionId": "boss-a11-t4-07",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Tiyatro ve müzik",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kavramları geleneksel Türk tiyatrosu ve Türk müziği çalgısı diye ayır.",
+  "data": {
+   "bins": [
+    "Geleneksel tiyatro",
+    "Çalgı"
+   ],
+   "items": [
+    [
+     "Karagöz",
+     0
+    ],
+    [
+     "Meddah",
+     0
+    ],
+    [
+     "Ortaoyunu",
+     0
+    ],
+    [
+     "Kanun",
+     1
+    ],
+    [
+     "Bağlama",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Kavramları geleneksel Türk tiyatrosu ve Türk müziği çalgısı diye ayır. (Geleneksel tiyatro / Çalgı) Kartlar: Karagöz; Meddah; Ortaoyunu; Kanun; Bağlama.",
+  "correctAnswer": "Geleneksel tiyatro: Karagöz, Meddah, Ortaoyunu. Çalgı: Kanun, Bağlama.",
+  "explanation": "Karagöz, meddah ve ortaoyunu geleneksel tiyatro türleridir; kanun ve bağlama çalgıdır."
+ },
+ {
+  "questionId": "boss-a11-t4-08",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Mimar Sinan",
+  "outcome": "Metnin önemli bilgilerini belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 24, s. 25 (metin ekranda verilir)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aşağıdakilerden hangisi Mimar Sinan’ın eseridir?",
+  "data": {
+   "options": [
+    "Süleymaniye Camisi",
+    "Galata Kulesi",
+    "Ayasofya"
+   ]
+  },
+  "textPlain": "Aşağıdakilerden hangisi Mimar Sinan’ın eseridir? Seçenekler: Süleymaniye Camisi / Galata Kulesi / Ayasofya",
+  "correctAnswer": "Süleymaniye Camisi",
+  "explanation": "Süleymaniye Camisi Mimar Sinan’ın en önemli eserlerindendir."
+ },
+ {
+  "questionId": "boss-a11-t4-09",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Meğerse",
+  "outcome": "Zıtlık işlevli söz varlıklarını ve noktalama işaretlerini işlevlerine uygun kullanır; söz sanatlarını, metin yapılarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 32, s. 44, s. 52",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Bütün gün onu bekledim; meğerse o da beni bekliyormuş.” cümlesinde “meğerse” ne bildirir?",
+  "data": {
+   "options": [
+    "Sonradan öğrenilen, beklenmedik bir durumu",
+    "Bekleme olayının gerçekleşme sebebini",
+    "Bekleme olayının tam olarak ne zaman olduğunu"
+   ]
+  },
+  "textPlain": "“Bütün gün onu bekledim; meğerse o da beni bekliyormuş.” cümlesinde “meğerse” ne bildirir? Seçenekler: Sonradan öğrenilen, beklenmedik bir durumu / Bekleme olayının gerçekleşme sebebini / Bekleme olayının tam olarak ne zaman olduğunu",
+  "correctAnswer": "Sonradan öğrenilen, beklenmedik bir durumu",
+  "explanation": "“Meğerse” sonradan öğrenilen ve beklenenin tersi olan bir durumu bildirir."
+ },
+ {
+  "questionId": "boss-a11-t4-10",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Ortaoyunu",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Ortaoyunu canlı oyuncularla oynanan bir geleneksel tiyatro türüdür.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Ortaoyunu canlı oyuncularla oynanan bir geleneksel tiyatro türüdür.",
+  "correctAnswer": "Doğru",
+  "explanation": "Ortaoyunu, açık alanda canlı oyuncularla sergilenir."
+ },
+ {
+  "questionId": "boss-a11-t4-11",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Benzetme",
+  "outcome": "Kelimelerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 25–26, s. 39, s. 47–48",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde kilim neye benzetilmiştir?",
+  "data": {
+   "options": [
+    "Okunmayı bekleyen bir mektuba",
+    "Çiçeklerle dolu bir bahçeye",
+    "Duvarda asılı bir tabloya"
+   ],
+   "passage": "Anadolu’da kilim dokuyan kadınlar duygularını ve dileklerini desenlere işlerdi. Kimi motif bereketi, kimi motif gücü anlatırdı. Bu yüzden her kilim, okunmayı bekleyen renkli bir mektup gibidir."
+  },
+  "textPlain": "Metin: Anadolu’da kilim dokuyan kadınlar duygularını ve dileklerini desenlere işlerdi. Kimi motif bereketi, kimi motif gücü anlatırdı. Bu yüzden her kilim, okunmayı bekleyen renkli bir mektup gibidir. Soru: Yukarıdaki metinde kilim neye benzetilmiştir? Seçenekler: Okunmayı bekleyen bir mektuba / Çiçeklerle dolu bir bahçeye / Duvarda asılı bir tabloya",
+  "correctAnswer": "Okunmayı bekleyen bir mektuba",
+  "explanation": "“Okunmayı bekleyen renkli bir mektup gibidir” ifadesiyle kilim mektuba benzetilmiştir."
+ },
+ {
+  "questionId": "boss-a11-t4-12",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Zıtlık bildirmeyen",
+  "outcome": "Zıtlık işlevli söz varlıklarını ve noktalama işaretlerini işlevlerine uygun kullanır; söz sanatlarını, metin yapılarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 32, s. 44, s. 52",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aşağıdaki bağlayıcı ifadelerden hangisi zıtlık BİLDİRMEZ?",
+  "data": {
+   "options": [
+    "çünkü",
+    "oysa",
+    "ama"
+   ]
+  },
+  "textPlain": "Aşağıdaki bağlayıcı ifadelerden hangisi zıtlık BİLDİRMEZ? Seçenekler: çünkü / oysa / ama",
+  "correctAnswer": "çünkü",
+  "explanation": "“Oysa” ve “ama” zıt durumları bağlar; “çünkü” sebep bildirir."
+ },
+ {
+  "questionId": "boss-a11-t4-13",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Zıtlık ifadeleri",
+  "outcome": "Zıtlık işlevli söz varlıklarını ve noktalama işaretlerini işlevlerine uygun kullanır; söz sanatlarını, metin yapılarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 32, s. 44, s. 52",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "İfadeleri zıtlık bildirenler ve bildirmeyenler diye ayır.",
+  "data": {
+   "bins": [
+    "Zıtlık bildirir",
+    "Zıtlık bildirmez"
+   ],
+   "items": [
+    [
+     "ama",
+     0
+    ],
+    [
+     "oysa",
+     0
+    ],
+    [
+     "fakat",
+     0
+    ],
+    [
+     "çünkü",
+     1
+    ],
+    [
+     "bu yüzden",
+     1
+    ]
+   ]
+  },
+  "textPlain": "İfadeleri zıtlık bildirenler ve bildirmeyenler diye ayır. (Zıtlık bildirir / Zıtlık bildirmez) Kartlar: ama; oysa; fakat; çünkü; bu yüzden.",
+  "correctAnswer": "Zıtlık bildirir: ama, oysa, fakat. Zıtlık bildirmez: çünkü, bu yüzden.",
+  "explanation": "“Ama, oysa, fakat” zıtlık bildirir; “çünkü” sebep, “bu yüzden” sonuç bildirir."
+ },
+ {
+  "questionId": "boss-a11-t4-14",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Kukla",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Kukla, tasvirlerin iplerle ya da elle oynatıldığı bir gösteri sanatıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kukla, tasvirlerin iplerle ya da elle oynatıldığı bir gösteri sanatıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Kuklada bebekler iple ya da elle hareket ettirilir."
+ },
+ {
+  "questionId": "boss-a11-t4-15",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Metinden bilgi",
+  "outcome": "Metnin önemli bilgilerini belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 24, s. 25 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre dehlizlerin amacı nedir?",
+  "data": {
+   "options": [
+    "Topraktaki nemi dışarı atarak yapıyı korumak",
+    "Savaş zamanları için gizli kaçış yolları oluşturmak",
+    "Yağmur suyunu depolayıp yapının temizliğinde kullanmak"
+   ],
+   "passage": "Mimar Sinan, Süleymaniye’yi yaparken yapının altına dehlizler açtırdı. Bu dehlizler topraktaki nemi dışarı atarak binanın yüzyıllar boyunca sağlam kalmasına yardım etti."
+  },
+  "textPlain": "Metin: Mimar Sinan, Süleymaniye’yi yaparken yapının altına dehlizler açtırdı. Bu dehlizler topraktaki nemi dışarı atarak binanın yüzyıllar boyunca sağlam kalmasına yardım etti. Soru: Yukarıdaki metne göre dehlizlerin amacı nedir? Seçenekler: Topraktaki nemi dışarı atarak yapıyı korumak / Savaş zamanları için gizli kaçış yolları oluşturmak / Yağmur suyunu depolayıp yapının temizliğinde kullanmak",
+  "correctAnswer": "Topraktaki nemi dışarı atarak yapıyı korumak",
+  "explanation": "Metinde dehlizlerin nemi dışarı atarak binanın sağlam kalmasına yardım ettiği söyleniyor."
+ },
+ {
+  "questionId": "boss-a11-t4-16",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Kişileştirme",
+  "outcome": "Kelimelerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 25–26, s. 39, s. 47–48",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aşağıdaki cümlelerin hangisinde kişileştirme vardır?",
+  "data": {
+   "options": [
+    "Eski kilim, onu dokuyan elleri hâlâ hatırlıyordu.",
+    "Kilim, çiçek bahçesi gibi rengârenkti.",
+    "Bu kilimi dokumak tam iki yıl sürdü."
+   ]
+  },
+  "textPlain": "Aşağıdaki cümlelerin hangisinde kişileştirme vardır? Seçenekler: Eski kilim, onu dokuyan elleri hâlâ hatırlıyordu. / Kilim, çiçek bahçesi gibi rengârenkti. / Bu kilimi dokumak tam iki yıl sürdü.",
+  "correctAnswer": "Eski kilim, onu dokuyan elleri hâlâ hatırlıyordu.",
+  "explanation": "Hatırlamak insana özgüdür; kilime bu özellik verilmiştir."
+ },
+ {
+  "questionId": "boss-a11-t4-17",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Tekerleme",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ortaoyununda Kavuklu’nun, başından geçmiş gibi anlattığı hayalî ve eğlenceli olaylardan oluşan bölüme ne ad verilir?",
+  "data": {
+   "options": [
+    "Tekerleme",
+    "Perde gazeli",
+    "Bitiş"
+   ]
+  },
+  "textPlain": "Ortaoyununda Kavuklu’nun, başından geçmiş gibi anlattığı hayalî ve eğlenceli olaylardan oluşan bölüme ne ad verilir? Seçenekler: Tekerleme / Perde gazeli / Bitiş",
+  "correctAnswer": "Tekerleme",
+  "explanation": "Kavuklu’nun anlattığı bu bölüme tekerleme denir."
+ },
+ {
+  "questionId": "boss-a11-t4-18",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Örneklendirme",
+  "outcome": "Kelimelerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 25–26, s. 39, s. 47–48",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Kilim yalnızca bir yer örtüsü değildir. Örneğin göçebe çadırında hem kapı hem duvar olur, çeyiz sandığını da süsler.” Bu metinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Örneklendirme",
+    "Tanık gösterme",
+    "Karşılaştırma"
+   ]
+  },
+  "textPlain": "“Kilim yalnızca bir yer örtüsü değildir. Örneğin göçebe çadırında hem kapı hem duvar olur, çeyiz sandığını da süsler.” Bu metinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Örneklendirme / Tanık gösterme / Karşılaştırma",
+  "correctAnswer": "Örneklendirme",
+  "explanation": "“Örneğin” ile kilimin farklı kullanımları örneklerle anlatılmıştır."
+ },
+ {
+  "questionId": "boss-a11-t4-19",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Yay ayraç",
+  "outcome": "Zıtlık işlevli söz varlıklarını ve noktalama işaretlerini işlevlerine uygun kullanır; söz sanatlarını, metin yapılarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 32, s. 44, s. 52",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aşağıdaki cümlelerin hangisinde yay ayraç doğum ve ölüm yıllarını göstermek için kullanılmıştır?",
+  "data": {
+   "options": [
+    "Halı ustası Ahmet Usta (1920-1995) desenler üzerine bir kitap yazdı.",
+    "Kilim (yün ipliklerle dokunan yer örtüsü) evin baş köşesine serildi.",
+    "Halı sergisi yarın (pazartesi) öğleden sonra açılacak."
+   ]
+  },
+  "textPlain": "Aşağıdaki cümlelerin hangisinde yay ayraç doğum ve ölüm yıllarını göstermek için kullanılmıştır? Seçenekler: Halı ustası Ahmet Usta (1920-1995) desenler üzerine bir kitap yazdı. / Kilim (yün ipliklerle dokunan yer örtüsü) evin baş köşesine serildi. / Halı sergisi yarın (pazartesi) öğleden sonra açılacak.",
+  "correctAnswer": "Halı ustası Ahmet Usta (1920-1995) desenler üzerine bir kitap yazdı.",
+  "explanation": "Yay ayraç doğum-ölüm yıllarını ve açıklamaları göstermek için kullanılır; ilk cümlede yıllar verilmiştir."
+ },
+ {
+  "questionId": "boss-a11-t4-20",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Türk Sanatı",
+  "topic": "Çalgılar",
+  "outcome": "Geleneksel Türk tiyatrosu ve müziğine ilişkin bilgileri karşılaştırır ve sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Türk Sanatı”, s. 23, s. 25",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Her çalgıyı türüyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Kanun",
+     "Telli çalgı"
+    ],
+    [
+     "Davul",
+     "Vurmalı çalgı"
+    ],
+    [
+     "Zurna",
+     "Üflemeli çalgı"
+    ]
+   ]
+  },
+  "textPlain": "Her çalgıyı türüyle eşleştir. Sol: Kanun; Davul; Zurna. Sağ: Telli çalgı; Vurmalı çalgı; Üflemeli çalgı.",
+  "correctAnswer": "Kanun = Telli çalgı; Davul = Vurmalı çalgı; Zurna = Üflemeli çalgı",
+  "explanation": "Kanun telleriyle, davul vurularak, zurna üflenerek çalınır."
+ },
+ {
+  "questionId": "boss-a11-t5-01",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Zaman zarfı",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Yarın kütüphaneye gideceğim.” cümlesinde zaman bildiren zarf hangisidir?",
+  "data": {
+   "options": [
+    "Yarın",
+    "kütüphaneye",
+    "gideceğim"
+   ]
+  },
+  "textPlain": "“Yarın kütüphaneye gideceğim.” cümlesinde zaman bildiren zarf hangisidir? Seçenekler: Yarın / kütüphaneye / gideceğim",
+  "correctAnswer": "Yarın",
+  "explanation": "“Yarın”, eylemin ne zaman yapılacağını bildiren zaman zarfıdır."
+ },
+ {
+  "questionId": "boss-a11-t5-02",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Sayıların yazımı",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Birden çok kelimeden oluşan sayılar ayrı yazılır: “iki yüz elli”.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Birden çok kelimeden oluşan sayılar ayrı yazılır: “iki yüz elli”.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sayı kelimeleri ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a11-t5-03",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Tırnak işareti",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Başkasının sözü aynen aktarılırken hangi işaret kullanılır?",
+  "data": {
+   "options": [
+    "Tırnak işareti",
+    "Yay ayraç",
+    "Kısa çizgi"
+   ]
+  },
+  "textPlain": "Başkasının sözü aynen aktarılırken hangi işaret kullanılır? Seçenekler: Tırnak işareti / Yay ayraç / Kısa çizgi",
+  "correctAnswer": "Tırnak işareti",
+  "explanation": "Aynen aktarılan sözler tırnak içine alınır."
+ },
+ {
+  "questionId": "boss-a11-t5-04",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Üleştirme sayıları",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Birer, ikişer, üçer” gibi üleştirme sayıları nasıl yazılır?",
+  "data": {
+   "options": [
+    "Yazıyla",
+    "Rakamla",
+    "Romen rakamıyla"
+   ]
+  },
+  "textPlain": "“Birer, ikişer, üçer” gibi üleştirme sayıları nasıl yazılır? Seçenekler: Yazıyla / Rakamla / Romen rakamıyla",
+  "correctAnswer": "Yazıyla",
+  "explanation": "Üleştirme sayıları rakamla değil yazıyla yazılır."
+ },
+ {
+  "questionId": "boss-a11-t5-05",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Durum zarfı",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kitabını sessizce okudu.” cümlesindeki “sessizce” hangi tür zarftır?",
+  "data": {
+   "options": [
+    "Durum zarfı",
+    "Zaman zarfı",
+    "Yer-yön zarfı"
+   ]
+  },
+  "textPlain": "“Kitabını sessizce okudu.” cümlesindeki “sessizce” hangi tür zarftır? Seçenekler: Durum zarfı / Zaman zarfı / Yer-yön zarfı",
+  "correctAnswer": "Durum zarfı",
+  "explanation": "“Sessizce” işin nasıl yapıldığını bildirir; durum zarfıdır."
+ },
+ {
+  "questionId": "boss-a11-t5-06",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Zarf türleri",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Her zarfı türüyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "akşamleyin",
+     "Zaman zarfı"
+    ],
+    [
+     "içeri",
+     "Yer-yön zarfı"
+    ],
+    [
+     "pek",
+     "Miktar zarfı"
+    ]
+   ]
+  },
+  "textPlain": "Her zarfı türüyle eşleştir. Sol: akşamleyin; içeri; pek. Sağ: Zaman zarfı; Yer-yön zarfı; Miktar zarfı.",
+  "correctAnswer": "akşamleyin = Zaman zarfı; içeri = Yer-yön zarfı; pek = Miktar zarfı",
+  "explanation": "“Akşamleyin” zaman, “içeri” yer-yön, “pek” miktar zarfıdır."
+ },
+ {
+  "questionId": "boss-a11-t5-07",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Bağlamdan anlam",
+  "outcome": "Kelimelerin anlamlarını bağlamdan ve sözlükten belirler, eş anlamlılarını bulur.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 70, 91, 100, 109",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“İyi bir kitabı okurken sanki bir efsuna kapılırız; saatlerin nasıl geçtiğini anlamayız.” cümlesinde “efsun” sözcüğünün anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Büyü",
+    "Sıkıntı",
+    "Uyku"
+   ]
+  },
+  "textPlain": "“İyi bir kitabı okurken sanki bir efsuna kapılırız; saatlerin nasıl geçtiğini anlamayız.” cümlesinde “efsun” sözcüğünün anlamı hangisidir? Seçenekler: Büyü / Sıkıntı / Uyku",
+  "correctAnswer": "Büyü",
+  "explanation": "Kendimizi kaptırıp zamanı unutmamız anlatılıyor; efsun büyü demektir."
+ },
+ {
+  "questionId": "boss-a11-t5-08",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Zaman ve yer-yön",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Zarfları zaman zarfı ve yer-yön zarfı diye ayır.",
+  "data": {
+   "bins": [
+    "Zaman zarfı",
+    "Yer-yön zarfı"
+   ],
+   "items": [
+    [
+     "hemen",
+     0
+    ],
+    [
+     "yarın",
+     0
+    ],
+    [
+     "akşamleyin",
+     0
+    ],
+    [
+     "yukarı",
+     1
+    ],
+    [
+     "geri",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Zarfları zaman zarfı ve yer-yön zarfı diye ayır. (Zaman zarfı / Yer-yön zarfı) Kartlar: hemen; yarın; akşamleyin; yukarı; geri.",
+  "correctAnswer": "Zaman zarfı: hemen, yarın, akşamleyin. Yer-yön zarfı: yukarı, geri.",
+  "explanation": "“Hemen, yarın, akşamleyin” zaman; “yukarı, geri” yer-yön zarfıdır."
+ },
+ {
+  "questionId": "boss-a11-t5-09",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Yay ayraç",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“TDK (Türk Dil Kurumu) yeni sözlüğünü yayımladı.” cümlesinde yay ayraç hangi amaçla kullanılmıştır?",
+  "data": {
+   "options": [
+    "Kısaltmanın açıklamasını vermek için",
+    "Cümledeki bir sözü özellikle vurgulamak için",
+    "Okura bir soru sormak için"
+   ]
+  },
+  "textPlain": "“TDK (Türk Dil Kurumu) yeni sözlüğünü yayımladı.” cümlesinde yay ayraç hangi amaçla kullanılmıştır? Seçenekler: Kısaltmanın açıklamasını vermek için / Cümledeki bir sözü özellikle vurgulamak için / Okura bir soru sormak için",
+  "correctAnswer": "Kısaltmanın açıklamasını vermek için",
+  "explanation": "Kısaltmanın açılımı açıklama olarak yay ayraç içine yazılır."
+ },
+ {
+  "questionId": "boss-a11-t5-10",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Köşeli ayraç",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Köşeli ayraç hangi durumda kullanılır?",
+  "data": {
+   "options": [
+    "Ayraç içinde yeniden ayraç kullanmak gerektiğinde",
+    "Başkasının sözünü hiç değiştirmeden aynen aktarırken",
+    "Dört basamaklı sayıları üçlü gruplara ayırırken"
+   ]
+  },
+  "textPlain": "Köşeli ayraç hangi durumda kullanılır? Seçenekler: Ayraç içinde yeniden ayraç kullanmak gerektiğinde / Başkasının sözünü hiç değiştirmeden aynen aktarırken / Dört basamaklı sayıları üçlü gruplara ayırırken",
+  "correctAnswer": "Ayraç içinde yeniden ayraç kullanmak gerektiğinde",
+  "explanation": "İç içe açıklamalarda, yay ayraç içinde yeniden ayraç gerekiyorsa köşeli ayraç kullanılır."
+ },
+ {
+  "questionId": "boss-a11-t5-11",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Soru zarfı",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aşağıdaki cümlelerin hangisinde soru zarfı vardır?",
+  "data": {
+   "options": [
+    "Kütüphaneye niçin gitmedin?",
+    "Hangi kitabı okudun?",
+    "Kim kitabını unuttu?"
+   ]
+  },
+  "textPlain": "Aşağıdaki cümlelerin hangisinde soru zarfı vardır? Seçenekler: Kütüphaneye niçin gitmedin? / Hangi kitabı okudun? / Kim kitabını unuttu?",
+  "correctAnswer": "Kütüphaneye niçin gitmedin?",
+  "explanation": "“Niçin” eylemin sebebini sorar; soru zarfıdır. “Hangi” sıfat, “kim” zamir görevindedir."
+ },
+ {
+  "questionId": "boss-a11-t5-12",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Sıra sayısı",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "“19.” biçiminde yazılan sayı “on dokuzuncu” diye okunur ve sıra sayısıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “19.” biçiminde yazılan sayı “on dokuzuncu” diye okunur ve sıra sayısıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Rakamdan sonra konan nokta sıra bildirir: on dokuzuncu."
+ },
+ {
+  "questionId": "boss-a11-t5-13",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Eleştirel yazma",
+  "outcome": "Eleştirel yazma aşamalarını, söz sanatlarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 75–77",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Eleştirel yazmanın aşamalarını sırala.",
+  "data": {
+   "items": [
+    "Sorgulanacak durumu ortaya koy.",
+    "Durumu bir ölçütle karşılaştır.",
+    "Olumlu ya da olumsuz bir yargıya var."
+   ]
+  },
+  "textPlain": "Eleştirel yazmanın aşamalarını sırala. Kartlar: Olumlu ya da olumsuz bir yargıya var.; Sorgulanacak durumu ortaya koy.; Durumu bir ölçütle karşılaştır..",
+  "correctAnswer": "Sorgulanacak durumu ortaya koy. → Durumu bir ölçütle karşılaştır. → Olumlu ya da olumsuz bir yargıya var.",
+  "explanation": "Eleştirel yazı sorgulanan durumla başlar, bir ölçütle karşılaştırılır ve bir yargıyla biter."
+ },
+ {
+  "questionId": "boss-a11-t5-14",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Miktar zarfı",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aşağıdaki cümlelerin hangisinde miktar zarfı vardır?",
+  "data": {
+   "options": [
+    "Bu kitabı çok beğendim.",
+    "Kitabı dikkatle okudum.",
+    "Kitabı yarın getireceğim."
+   ]
+  },
+  "textPlain": "Aşağıdaki cümlelerin hangisinde miktar zarfı vardır? Seçenekler: Bu kitabı çok beğendim. / Kitabı dikkatle okudum. / Kitabı yarın getireceğim.",
+  "correctAnswer": "Bu kitabı çok beğendim.",
+  "explanation": "“Çok” beğenmenin derecesini bildirir; miktar zarfıdır."
+ },
+ {
+  "questionId": "boss-a11-t5-15",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Medya okuryazarlığı",
+  "outcome": "Metindeki bilgileri belirli bir ölçüte göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 68–69 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki habere eleştirel bir okur nasıl yaklaşmalıdır?",
+  "data": {
+   "options": [
+    "Kaynağını ve kanıtını sorgulamadan habere güvenmemelidir.",
+    "Başlık dikkat çekici olduğu için habere hemen inanmalıdır.",
+    "Haberi doğrulamadan hemen arkadaşlarıyla paylaşmalıdır."
+   ],
+   "passage": "Bir haber sitesinde “Yeni bir araştırmaya göre çikolata yemek zekâyı iki kat artırıyor!” başlığı yer aldı. Haberde araştırmayı kimin yaptığı ve kaç kişiyle yürütüldüğü yazmıyordu."
+  },
+  "textPlain": "Metin: Bir haber sitesinde “Yeni bir araştırmaya göre çikolata yemek zekâyı iki kat artırıyor!” başlığı yer aldı. Haberde araştırmayı kimin yaptığı ve kaç kişiyle yürütüldüğü yazmıyordu. Soru: Yukarıdaki habere eleştirel bir okur nasıl yaklaşmalıdır? Seçenekler: Kaynağını ve kanıtını sorgulamadan habere güvenmemelidir. / Başlık dikkat çekici olduğu için habere hemen inanmalıdır. / Haberi doğrulamadan hemen arkadaşlarıyla paylaşmalıdır.",
+  "correctAnswer": "Kaynağını ve kanıtını sorgulamadan habere güvenmemelidir.",
+  "explanation": "Kaynağı ve kanıtı belirsiz haberler sorgulanmalı, doğrulanmadan paylaşılmamalıdır."
+ },
+ {
+  "questionId": "boss-a11-t5-16",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Tırnağın işlevi",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aşağıdaki cümlelerin hangisinde tırnak işaretinin kullanılma amacı diğerlerinden FARKLIDIR?",
+  "data": {
+   "options": [
+    "“Çalıkuşu” adlı romanı bir haftada okudum.",
+    "Öğretmenimiz “Her gün okuyun.” dedi.",
+    "Annem “Kitabını bitirdin mi?” diye sordu."
+   ]
+  },
+  "textPlain": "Aşağıdaki cümlelerin hangisinde tırnak işaretinin kullanılma amacı diğerlerinden FARKLIDIR? Seçenekler: “Çalıkuşu” adlı romanı bir haftada okudum. / Öğretmenimiz “Her gün okuyun.” dedi. / Annem “Kitabını bitirdin mi?” diye sordu.",
+  "correctAnswer": "“Çalıkuşu” adlı romanı bir haftada okudum.",
+  "explanation": "İlk cümlede tırnak eser adını göstermektedir; diğerlerinde başkasının sözü aynen aktarılmıştır."
+ },
+ {
+  "questionId": "boss-a11-t5-17",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Benzetme",
+  "outcome": "Eleştirel yazma aşamalarını, söz sanatlarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 75–77",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Kitaplar, karanlık odaları aydınlatan birer güneştir.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Benzetme",
+    "Kişileştirme",
+    "Abartma"
+   ]
+  },
+  "textPlain": "“Kitaplar, karanlık odaları aydınlatan birer güneştir.” cümlesinde hangi söz sanatı vardır? Seçenekler: Benzetme / Kişileştirme / Abartma",
+  "correctAnswer": "Benzetme",
+  "explanation": "Kitaplar güneşe benzetilmiştir."
+ },
+ {
+  "questionId": "boss-a11-t5-18",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Abartma",
+  "outcome": "Eleştirel yazma aşamalarını, söz sanatlarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 75–77",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Bu kitabı bin kere okusam yine sıkılmam.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Abartma",
+    "Kişileştirme",
+    "Benzetme"
+   ]
+  },
+  "textPlain": "“Bu kitabı bin kere okusam yine sıkılmam.” cümlesinde hangi söz sanatı vardır? Seçenekler: Abartma / Kişileştirme / Benzetme",
+  "correctAnswer": "Abartma",
+  "explanation": "“Bin kere” sözüyle durum abartılmıştır."
+ },
+ {
+  "questionId": "boss-a11-t5-19",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "“En” sözcüğü",
+  "outcome": "Zarfların cümleye kattığı anlamı belirler ve zarfları türlerine göre sınıflandırır.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 73",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aşağıdaki cümlelerin hangisinde “en” sözcüğü miktar (derece) zarfı olarak kullanılmıştır?",
+  "data": {
+   "options": [
+    "En sevdiğim kitap bu.",
+    "Kumaşın eni bir metreydi.",
+    "Odanın enini ve boyunu ölçtük."
+   ]
+  },
+  "textPlain": "Aşağıdaki cümlelerin hangisinde “en” sözcüğü miktar (derece) zarfı olarak kullanılmıştır? Seçenekler: En sevdiğim kitap bu. / Kumaşın eni bir metreydi. / Odanın enini ve boyunu ölçtük.",
+  "correctAnswer": "En sevdiğim kitap bu.",
+  "explanation": "İlk cümlede “en” sevme derecesini bildirir; diğerlerinde genişlik anlamında isimdir."
+ },
+ {
+  "questionId": "boss-a11-t5-20",
+  "grade": 7,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Okuma Kültürü",
+  "topic": "Noktalama",
+  "outcome": "Sayıların yazımına ilişkin kuralları uygular; noktalama işaretlerinin işlevlerini belirler.",
+  "sourceRef": "MEB Türkçe 7. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Okuma Kültürü”, s. 98",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Her işareti kullanım amacıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Yay ayraç",
+     "Açıklama ve kısaltmanın açılımı"
+    ],
+    [
+     "Köşeli ayraç",
+     "Ayraç içinde yeniden ayraç gerektiğinde"
+    ],
+    [
+     "Tırnak işareti",
+     "Aynen aktarılan söz"
+    ]
+   ]
+  },
+  "textPlain": "Her işareti kullanım amacıyla eşleştir. Sol: Yay ayraç; Köşeli ayraç; Tırnak işareti. Sağ: Açıklama ve kısaltmanın açılımı; Ayraç içinde yeniden ayraç gerektiğinde; Aynen aktarılan söz.",
+  "correctAnswer": "Yay ayraç = Açıklama ve kısaltmanın açılımı; Köşeli ayraç = Ayraç içinde yeniden ayraç gerektiğinde; Tırnak işareti = Aynen aktarılan söz",
+  "explanation": "Yay ayraç açıklama, köşeli ayraç iç içe ayraç, tırnak aynen aktarma için kullanılır."
+ }
+]

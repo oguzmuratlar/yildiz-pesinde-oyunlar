@@ -40,6 +40,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Kum Fırtınası Akrebi (Macera canavarı · Arena 8) | macera-6-kum-firtinasi-akrebi | 1.0.0 | Karışık | 6 | Dikey | `/macera-6-kum-firtinasi-akrebi/1.0.0/index.html` |
 | Taş Dev (Macera canavarı · Arena 9) | macera-7-tas-dev | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-tas-dev/1.0.0/index.html` |
 | Kar Yetisi (Macera canavarı · Arena 10) | macera-7-kar-yetisi | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-kar-yetisi/1.0.0/index.html` |
+| Şimşek Kuşu (Macera canavarı · Arena 11) | macera-7-simsek-kusu | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-simsek-kusu/1.0.0/index.html` |
 
 ## Uyumluluk
 
