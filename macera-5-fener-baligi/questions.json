@@ -1,0 +1,3367 @@
+[
+ {
+  "questionId": "boss-a03-f5-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Tanecikli yapı",
+  "outcome": "Maddeleri tanecikli, boşluklu ve hareketli yapısına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 57–58",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi hâldeki maddenin tanecikleri arasındaki boşluk en fazladır?",
+  "data": {
+   "options": [
+    "Gaz",
+    "Sıvı",
+    "Katı"
+   ]
+  },
+  "textPlain": "Hangi hâldeki maddenin tanecikleri arasındaki boşluk en fazladır? Seçenekler: Gaz / Sıvı / Katı",
+  "correctAnswer": "Gaz",
+  "explanation": "Tanecikler arasındaki boşluk katılarda en az, gazlarda en fazladır."
+ },
+ {
+  "questionId": "boss-a03-f5-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Katı ve sıvı",
+  "outcome": "Maddeleri tanecikli, boşluklu ve hareketli yapısına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 57–58",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Her özelliği ait olduğu maddenin kutusuna koy.",
+  "data": {
+   "bins": [
+    "Katı",
+    "Sıvı"
+   ],
+   "items": [
+    [
+     "Tanecikleri yalnızca titreşir",
+     0
+    ],
+    [
+     "Akışkandır, kabın şeklini alır",
+     1
+    ],
+    [
+     "Belirli bir şekli vardır",
+     0
+    ],
+    [
+     "Tanecikleri öteleme hareketi de yapar",
+     1
+    ],
+    [
+     "Tanecikleri düzenli dizilmiştir",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Her özelliği ait olduğu maddenin kutusuna koy. (Katı / Sıvı) Kartlar: Tanecikleri yalnızca titreşir; Akışkandır, kabın şeklini alır; Belirli bir şekli vardır; Tanecikleri öteleme hareketi de yapar; Tanecikleri düzenli dizilmiştir.",
+  "correctAnswer": "Katı: Tanecikleri yalnızca titreşir, Belirli bir şekli vardır, Tanecikleri düzenli dizilmiştir. Sıvı: Akışkandır, kabın şeklini alır, Tanecikleri öteleme hareketi de yapar.",
+  "explanation": "Katının tanecikleri düzenli dizilir ve yalnız titreşir; belirli şekli vardır. Sıvılar akışkandır, tanecikleri titreşim, dönme ve öteleme yapar."
+ },
+ {
+  "questionId": "boss-a03-f5-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Sıcaklık",
+  "outcome": "Isı ve sıcaklık kavramlarını karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 67–69",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir maddenin sıcaklığı hangi araçla ölçülür?",
+  "data": {
+   "options": [
+    "Termometre",
+    "Dinamometre",
+    "Cetvel"
+   ]
+  },
+  "textPlain": "Bir maddenin sıcaklığı hangi araçla ölçülür? Seçenekler: Termometre / Dinamometre / Cetvel",
+  "correctAnswer": "Termometre",
+  "explanation": "Sıcaklık termometreyle ölçülür, birimi derece Celsius’tur (°C). Dinamometre kuvveti, cetvel uzunluğu ölçer."
+ },
+ {
+  "questionId": "boss-a03-f5-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı ve sıcaklık",
+  "outcome": "Isı ve sıcaklık kavramlarını karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 67–69",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Isı bir enerji türüdür; sıcaklık ise bir enerji türü değildir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Isı bir enerji türüdür; sıcaklık ise bir enerji türü değildir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Isı, sıcaklıkları farklı maddeler arasında aktarılan enerjidir. Sıcaklık ise termometreyle ölçülen bir büyüklüktür, enerji değildir."
+ },
+ {
+  "questionId": "boss-a03-f5-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Hâl değişimi",
+  "outcome": "Maddenin ısı etkisiyle hâl değiştirebileceğini bilimsel gözleme dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 79–84",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Buzun eriyerek suya dönüşmesi hangi hâl değişimidir?",
+  "data": {
+   "options": [
+    "Erime",
+    "Donma",
+    "Yoğuşma"
+   ]
+  },
+  "textPlain": "Buzun eriyerek suya dönüşmesi hangi hâl değişimidir? Seçenekler: Erime / Donma / Yoğuşma",
+  "correctAnswer": "Erime",
+  "explanation": "Katı maddenin ısı alarak sıvı hâle geçmesine erime denir."
+ },
+ {
+  "questionId": "boss-a03-f5-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı iletkenliği",
+  "outcome": "Maddeleri ısı iletimi bakımından sınıflandırır ve ısı yalıtımını gösteren bir model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 86–94",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi ısıyı iyi ileten bir maddeden yapılmıştır?",
+  "data": {
+   "options": [
+    "Metal tava",
+    "Tahta kaşık",
+    "Yün eldiven"
+   ]
+  },
+  "textPlain": "Hangisi ısıyı iyi ileten bir maddeden yapılmıştır? Seçenekler: Metal tava / Tahta kaşık / Yün eldiven",
+  "correctAnswer": "Metal tava",
+  "explanation": "Metaller ısıyı iyi iletir. Tahta ve yün ısıyı az iletir, yalıtkandır."
+ },
+ {
+  "questionId": "boss-a03-f5-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı alışverişi",
+  "outcome": "Sıcaklığı farklı olan sıvıların karıştırılması sonucu ısı alışverişi olduğuna yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 70–73",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Isı, sıcaklığı yüksek olan maddeden sıcaklığı düşük olan maddeye doğru aktarılır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Isı, sıcaklığı yüksek olan maddeden sıcaklığı düşük olan maddeye doğru aktarılır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Isı her zaman sıcaklığı yüksek olandan düşük olana doğru akar; sıcaklıklar eşitlenince alışveriş biter."
+ },
+ {
+  "questionId": "boss-a03-f5-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Hâl değişimleri",
+  "outcome": "Maddenin ısı etkisiyle hâl değiştirebileceğini bilimsel gözleme dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 79–84",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her hâl değişimini doğru tanımıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Buharlaşma",
+     "Sıvının gaz hâline geçmesi"
+    ],
+    [
+     "Yoğuşma",
+     "Gazın sıvı hâline geçmesi"
+    ],
+    [
+     "Donma",
+     "Sıvının katı hâline geçmesi"
+    ]
+   ]
+  },
+  "textPlain": "Her hâl değişimini doğru tanımıyla eşleştir. Sol: Buharlaşma; Yoğuşma; Donma. Sağ: Sıvının gaz hâline geçmesi; Gazın sıvı hâline geçmesi; Sıvının katı hâline geçmesi.",
+  "correctAnswer": "Buharlaşma = Sıvının gaz hâline geçmesi; Yoğuşma = Gazın sıvı hâline geçmesi; Donma = Sıvının katı hâline geçmesi",
+  "explanation": "Buharlaşma sıvı→gaz, yoğuşma gaz→sıvı, donma sıvı→katı geçişidir."
+ },
+ {
+  "questionId": "boss-a03-f5-09",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı alarak ve vererek",
+  "outcome": "Maddenin ısı etkisiyle hâl değiştirebileceğini bilimsel gözleme dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 79–84",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Hâl değişimlerini ısı alarak ve ısı vererek olanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Isı alarak",
+    "Isı vererek"
+   ],
+   "items": [
+    [
+     "Erime",
+     0
+    ],
+    [
+     "Donma",
+     1
+    ],
+    [
+     "Buharlaşma",
+     0
+    ],
+    [
+     "Yoğuşma",
+     1
+    ],
+    [
+     "Süblimleşme",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Hâl değişimlerini ısı alarak ve ısı vererek olanlar diye ayır. (Isı alarak / Isı vererek) Kartlar: Erime; Donma; Buharlaşma; Yoğuşma; Süblimleşme.",
+  "correctAnswer": "Isı alarak: Erime, Buharlaşma, Süblimleşme. Isı vererek: Donma, Yoğuşma.",
+  "explanation": "Erime, buharlaşma ve süblimleşme ısı alarak; donma ve yoğuşma ısı vererek gerçekleşir."
+ },
+ {
+  "questionId": "boss-a03-f5-10",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Karışımın sıcaklığı",
+  "outcome": "Sıcaklığı farklı olan sıvıların karıştırılması sonucu ısı alışverişi olduğuna yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 70–73",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "40 °C’lik su ile 20 °C’lik su eşit miktarda karıştırılıyor. Karışımın son sıcaklığı hangisi olabilir?",
+  "data": {
+   "options": [
+    "30 °C",
+    "60 °C",
+    "10 °C"
+   ]
+  },
+  "textPlain": "40 °C’lik su ile 20 °C’lik su eşit miktarda karıştırılıyor. Karışımın son sıcaklığı hangisi olabilir? Seçenekler: 30 °C / 60 °C / 10 °C",
+  "correctAnswer": "30 °C",
+  "explanation": "Isı alışverişinden sonra son sıcaklık iki sıcaklığın arasında bir değer olur; eşit miktarlarda yaklaşık 30 °C’tir."
+ },
+ {
+  "questionId": "boss-a03-f5-11",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isının birimi",
+  "outcome": "Isı ve sıcaklık kavramlarını karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 67–69",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Isının birimi hangisidir?",
+  "data": {
+   "options": [
+    "Joule",
+    "Derece Celsius",
+    "Newton"
+   ]
+  },
+  "textPlain": "Isının birimi hangisidir? Seçenekler: Joule / Derece Celsius / Newton",
+  "correctAnswer": "Joule",
+  "explanation": "Isının birimi joule (J), sıcaklığın birimi derece Celsius (°C), kuvvetin birimi newtondur (N)."
+ },
+ {
+  "questionId": "boss-a03-f5-12",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Termometre okuma",
+  "outcome": "Isı ve sıcaklık kavramlarını karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 67–69",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Şekildeki termometre kaç derece Celsius gösteriyor? Kadranları ayarla.",
+  "data": {
+   "answer": 24,
+   "digits": 2,
+   "unit": "°C",
+   "fig": {
+    "k": "thermo",
+    "v": 24,
+    "min": 0,
+    "max": 50
+   }
+  },
+  "textPlain": "[Şekil: 0–50 °C termometre, sıvı 24 çizgisinde] Şekildeki termometre kaç derece Celsius gösteriyor? Kadranları ayarla.",
+  "correctAnswer": "24 °C",
+  "explanation": "Sıvının ulaştığı çizgi 20 ile 30 arasındaki 4. çizgidir: 24 °C."
+ },
+ {
+  "questionId": "boss-a03-f5-13",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı yalıtımı",
+  "outcome": "Maddeleri ısı iletimi bakımından sınıflandırır ve ısı yalıtımını gösteren bir model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 86–94",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Evlerin dış duvarları yalıtım malzemesiyle kaplanıyor. Bunun temel amacı nedir?",
+  "data": {
+   "options": [
+    "Isı kaybını azaltmak",
+    "Evi daha ağır yapmak",
+    "Işığı yansıtmak"
+   ]
+  },
+  "textPlain": "Evlerin dış duvarları yalıtım malzemesiyle kaplanıyor. Bunun temel amacı nedir? Seçenekler: Isı kaybını azaltmak / Evi daha ağır yapmak / Işığı yansıtmak",
+  "correctAnswer": "Isı kaybını azaltmak",
+  "explanation": "Yalıtım malzemeleri ısıyı az iletir; kışın içerideki ısının dışarı kaçmasını, yazın dışarıdaki ısının içeri girmesini azaltır."
+ },
+ {
+  "questionId": "boss-a03-f5-14",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Sıkıştırılabilirlik",
+  "outcome": "Maddeleri tanecikli, boşluklu ve hareketli yapısına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 57–58",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Ucu kapatılmış bir şırınganın pistonu itiliyor. Şırıngada hangisi varsa piston en çok ilerler?",
+  "data": {
+   "options": [
+    "Hava",
+    "Su",
+    "Zeytinyağı"
+   ]
+  },
+  "textPlain": "Ucu kapatılmış bir şırınganın pistonu itiliyor. Şırıngada hangisi varsa piston en çok ilerler? Seçenekler: Hava / Su / Zeytinyağı",
+  "correctAnswer": "Hava",
+  "explanation": "Gaz taneciklerinin arasında çok boşluk olduğu için gazlar sıkıştırılabilir. Sıvılar sıkıştırılamaz."
+ },
+ {
+  "questionId": "boss-a03-f5-15",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Tanecikler arası boşluk",
+  "outcome": "Maddeleri tanecikli, boşluklu ve hareketli yapısına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 57–58",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Maddenin hâllerini tanecikler arasındaki boşluk AZDAN ÇOĞA olacak şekilde sırala.",
+  "data": {
+   "items": [
+    "Katı",
+    "Sıvı",
+    "Gaz"
+   ]
+  },
+  "textPlain": "Maddenin hâllerini tanecikler arasındaki boşluk AZDAN ÇOĞA olacak şekilde sırala. Kartlar: Katı; Gaz; Sıvı.",
+  "correctAnswer": "Katı → Sıvı → Gaz",
+  "explanation": "Tanecikler arası boşluk katılarda en az, sıvılarda katılardan fazla, gazlarda en fazladır."
+ },
+ {
+  "questionId": "boss-a03-f5-16",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Yoğuşma",
+  "outcome": "Maddenin ısı etkisiyle hâl değiştirebileceğini bilimsel gözleme dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 79–84",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Buzdolabından çıkan soğuk şişenin dış yüzeyinde su damlacıkları oluşuyor. Bu hangi hâl değişimidir?",
+  "data": {
+   "options": [
+    "Yoğuşma",
+    "Buharlaşma",
+    "Erime"
+   ]
+  },
+  "textPlain": "Buzdolabından çıkan soğuk şişenin dış yüzeyinde su damlacıkları oluşuyor. Bu hangi hâl değişimidir? Seçenekler: Yoğuşma / Buharlaşma / Erime",
+  "correctAnswer": "Yoğuşma",
+  "explanation": "Havadaki su buharı soğuk yüzeye değince ısı vererek sıvıya dönüşür; bu yoğuşmadır."
+ },
+ {
+  "questionId": "boss-a03-f5-17",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Kaynama",
+  "outcome": "Maddenin ısı etkisiyle hâl değiştirebileceğini bilimsel gözleme dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 79–84",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Kaynamakta olan suyun sıcaklığı, su kaynadığı sürece nasıl değişir?",
+  "data": {
+   "options": [
+    "Sabit kalır.",
+    "Sürekli artar.",
+    "Sürekli azalır."
+   ]
+  },
+  "textPlain": "Kaynamakta olan suyun sıcaklığı, su kaynadığı sürece nasıl değişir? Seçenekler: Sabit kalır. / Sürekli artar. / Sürekli azalır.",
+  "correctAnswer": "Sabit kalır.",
+  "explanation": "Saf maddelerin sıcaklığı erime, donma ve kaynama süresince sabit kalır; su 100 °C’ta kaynar."
+ },
+ {
+  "questionId": "boss-a03-f5-18",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı alışverişi",
+  "outcome": "Sıcaklığı farklı olan sıvıların karıştırılması sonucu ısı alışverişi olduğuna yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 70–73",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "50 °C’lik demir bilye 20 °C’lik suya atılıyor. Isı alışverişi ne zaman sona erer?",
+  "data": {
+   "options": [
+    "Bilye ile suyun sıcaklığı eşitlenince",
+    "Bilyenin sıcaklığı 0 °C olunca",
+    "Suyun sıcaklığı 50 °C olunca"
+   ]
+  },
+  "textPlain": "50 °C’lik demir bilye 20 °C’lik suya atılıyor. Isı alışverişi ne zaman sona erer? Seçenekler: Bilye ile suyun sıcaklığı eşitlenince / Bilyenin sıcaklığı 0 °C olunca / Suyun sıcaklığı 50 °C olunca",
+  "correctAnswer": "Bilye ile suyun sıcaklığı eşitlenince",
+  "explanation": "Isı bilyeden suya akar; bilye soğur, su ısınır. Sıcaklıklar eşitlenince ısı alışverişi biter."
+ },
+ {
+  "questionId": "boss-a03-f5-19",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "İletken ve yalıtkan",
+  "outcome": "Maddeleri ısı iletimi bakımından sınıflandırır ve ısı yalıtımını gösteren bir model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 86–94",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Her tasarımı nedeniyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Tencere sapının plastikten olması",
+     "Isıyı az iletir, el yanmaz"
+    ],
+    [
+     "Tencere gövdesinin metalden olması",
+     "Isıyı iyi iletir, yemek çabuk pişer"
+    ],
+    [
+     "Termosun çift cidarlı olması",
+     "Isı alışverişini azaltır"
+    ]
+   ]
+  },
+  "textPlain": "Her tasarımı nedeniyle eşleştir. Sol: Tencere sapının plastikten olması; Tencere gövdesinin metalden olması; Termosun çift cidarlı olması. Sağ: Isıyı az iletir, el yanmaz; Isıyı iyi iletir, yemek çabuk pişer; Isı alışverişini azaltır.",
+  "correctAnswer": "Tencere sapının plastikten olması = Isıyı az iletir, el yanmaz; Tencere gövdesinin metalden olması = Isıyı iyi iletir, yemek çabuk pişer; Termosun çift cidarlı olması = Isı alışverişini azaltır",
+  "explanation": "Metal iyi iletkendir; plastik ve iki cidar arasındaki boşluk ısıyı az iletir, yalıtım sağlar."
+ },
+ {
+  "questionId": "boss-a03-f5-20",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Doğası",
+  "topic": "Isı iletimi",
+  "outcome": "Maddeleri ısı iletimi bakımından sınıflandırır ve ısı yalıtımını gösteren bir model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 5. Ünite “Maddenin Doğası”, s. 86–94",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Sıcak çorbaya konan metal kaşığın sapı bir süre sonra ısınıyor. Bunun nedeni nedir?",
+  "data": {
+   "options": [
+    "Isı çorbadan kaşığa, kaşık boyunca da sapa iletildi.",
+    "Kaşık soğuğu çorbaya verdi.",
+    "Kaşık kendi kendine ısındı."
+   ]
+  },
+  "textPlain": "Sıcak çorbaya konan metal kaşığın sapı bir süre sonra ısınıyor. Bunun nedeni nedir? Seçenekler: Isı çorbadan kaşığa, kaşık boyunca da sapa iletildi. / Kaşık soğuğu çorbaya verdi. / Kaşık kendi kendine ısındı.",
+  "correctAnswer": "Isı çorbadan kaşığa, kaşık boyunca da sapa iletildi.",
+  "explanation": "Metal iyi bir ısı iletkenidir; çorbadan aldığı ısıyı kaşığın sapına kadar iletir."
+ },
+ {
+  "questionId": "boss-a03-f6-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Semboller",
+  "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Şekildeki sembol hangi devre elemanını gösterir?",
+  "data": {
+   "options": [
+    "Ampul",
+    "Pil",
+    "Anahtar"
+   ],
+   "fig": {
+    "k": "sym",
+    "s": "bulb"
+   }
+  },
+  "textPlain": "[Şekil: içinde çarpı olan daire sembolü] Şekildeki sembol hangi devre elemanını gösterir? Seçenekler: Ampul / Pil / Anahtar",
+  "correctAnswer": "Ampul",
+  "explanation": "İçinde çarpı olan daire ampulün sembolüdür."
+ },
+ {
+  "questionId": "boss-a03-f6-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Semboller",
+  "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Devre elemanlarını sembolü olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Sembolü var",
+    "Sembolü yok"
+   ],
+   "items": [
+    [
+     "Pil",
+     0
+    ],
+    [
+     "Ampul",
+     0
+    ],
+    [
+     "Anahtar",
+     0
+    ],
+    [
+     "Pil yatağı",
+     1
+    ],
+    [
+     "Duy",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Devre elemanlarını sembolü olanlar ve olmayanlar diye ayır. (Sembolü var / Sembolü yok) Kartlar: Pil; Ampul; Anahtar; Pil yatağı; Duy.",
+  "correctAnswer": "Sembolü var: Pil, Ampul, Anahtar. Sembolü yok: Pil yatağı, Duy.",
+  "explanation": "Pil, ampul, anahtar ve bağlantı kablosunun sembolü vardır. Pil yatağı ve duyun sembolü yoktur."
+ },
+ {
+  "questionId": "boss-a03-f6-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devrenin çalışması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir devrede ampulün ışık vermesi için anahtar hangi durumda olmalıdır?",
+  "data": {
+   "options": [
+    "Kapalı",
+    "Açık",
+    "Fark etmez"
+   ]
+  },
+  "textPlain": "Bir devrede ampulün ışık vermesi için anahtar hangi durumda olmalıdır? Seçenekler: Kapalı / Açık / Fark etmez",
+  "correctAnswer": "Kapalı",
+  "explanation": "Anahtar kapalıyken devre tamamlanır ve ampul yanar; açıkken devre kesilir."
+ },
+ {
+  "questionId": "boss-a03-f6-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Pil sayısı",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Ampul sayısı değiştirilmeden devreye özdeş pil eklenirse ampul daha parlak yanar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Ampul sayısı değiştirilmeden devreye özdeş pil eklenirse ampul daha parlak yanar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Ampul sayısı aynı kalırken pil sayısı artırılırsa ampul daha parlak yanar."
+ },
+ {
+  "questionId": "boss-a03-f6-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Semboller",
+  "outcome": "Bir elektrik devresindeki elemanları sembollerinin olup olmamasına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 108–112",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Şekildeki sembol hangi devre elemanını gösterir?",
+  "data": {
+   "options": [
+    "Pil",
+    "Ampul",
+    "Bağlantı kablosu"
+   ],
+   "fig": {
+    "k": "sym",
+    "s": "cell"
+   }
+  },
+  "textPlain": "[Şekil: biri uzun biri kısa iki paralel çizgi] Şekildeki sembol hangi devre elemanını gösterir? Seçenekler: Pil / Ampul / Bağlantı kablosu",
+  "correctAnswer": "Pil",
+  "explanation": "Biri uzun, biri kısa iki paralel çizgi pilin sembolüdür."
+ },
+ {
+  "questionId": "boss-a03-f6-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devrenin çalışması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi bir devrede ampulün yanmamasına neden olur?",
+  "data": {
+   "options": [
+    "Kablonun bir yerden kopuk olması",
+    "Pilin yeni olması",
+    "Anahtarın kapalı olması"
+   ]
+  },
+  "textPlain": "Hangisi bir devrede ampulün yanmamasına neden olur? Seçenekler: Kablonun bir yerden kopuk olması / Pilin yeni olması / Anahtarın kapalı olması",
+  "correctAnswer": "Kablonun bir yerden kopuk olması",
+  "explanation": "Kablo kopuksa elektrik akımının yolu kesilir ve ampul yanmaz."
+ },
+ {
+  "questionId": "boss-a03-f6-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devre şeması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Pil yatağı ve duy, devre şemasında sembolle gösterilmez.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Pil yatağı ve duy, devre şemasında sembolle gösterilmez.",
+  "correctAnswer": "Doğru",
+  "explanation": "Pil yatağı ve duy düzenekte bulunur ama belirli bir sembolleri olmadığı için şemada çizilmez."
+ },
+ {
+  "questionId": "boss-a03-f6-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devrenin çalışması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Şekildeki devrede ampul neden yanmıyor?",
+  "data": {
+   "options": [
+    "Anahtar açık olduğu için",
+    "Pil olmadığı için",
+    "Ampul sayısı fazla olduğu için"
+   ],
+   "fig": {
+    "k": "circuit",
+    "c": 1,
+    "b": 1,
+    "sw": "open"
+   }
+  },
+  "textPlain": "[Devre şeması: 1 pil, 1 ampul, açık anahtar] Şekildeki devrede ampul neden yanmıyor? Seçenekler: Anahtar açık olduğu için / Pil olmadığı için / Ampul sayısı fazla olduğu için",
+  "correctAnswer": "Anahtar açık olduğu için",
+  "explanation": "Şemadaki anahtar açıktır; devre tamamlanmadığı için ampul yanmaz."
+ },
+ {
+  "questionId": "boss-a03-f6-09",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Pil sayısı ve parlaklık",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Özdeş malzemelerle kurulan devreleri ampul parlaklığına göre ÇOKTAN AZA sırala.",
+  "data": {
+   "items": [
+    "1 ampul ve 3 pil",
+    "1 ampul ve 2 pil",
+    "1 ampul ve 1 pil"
+   ]
+  },
+  "textPlain": "Özdeş malzemelerle kurulan devreleri ampul parlaklığına göre ÇOKTAN AZA sırala. Kartlar: 1 ampul ve 1 pil; 1 ampul ve 2 pil; 1 ampul ve 3 pil.",
+  "correctAnswer": "1 ampul ve 3 pil → 1 ampul ve 2 pil → 1 ampul ve 1 pil",
+  "explanation": "Ampul sayısı aynıyken pil sayısı arttıkça ampul daha parlak yanar."
+ },
+ {
+  "questionId": "boss-a03-f6-10",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Bağımsız değişken",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Pil sayısının ampul parlaklığına etkisi araştırılıyor. Bu deneyde bağımsız değişken hangisidir?",
+  "data": {
+   "options": [
+    "Pil sayısı",
+    "Ampul parlaklığı",
+    "Ampul sayısı"
+   ]
+  },
+  "textPlain": "Pil sayısının ampul parlaklığına etkisi araştırılıyor. Bu deneyde bağımsız değişken hangisidir? Seçenekler: Pil sayısı / Ampul parlaklığı / Ampul sayısı",
+  "correctAnswer": "Pil sayısı",
+  "explanation": "Bağımsız değişken araştırmacının değiştirdiği değişkendir: pil sayısı."
+ },
+ {
+  "questionId": "boss-a03-f6-11",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Bağımlı değişken",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Pil sayısının ampul parlaklığına etkisi araştırılıyor. Bu deneyde bağımlı değişken hangisidir?",
+  "data": {
+   "options": [
+    "Ampul parlaklığı",
+    "Pil sayısı",
+    "Kablo uzunluğu"
+   ]
+  },
+  "textPlain": "Pil sayısının ampul parlaklığına etkisi araştırılıyor. Bu deneyde bağımlı değişken hangisidir? Seçenekler: Ampul parlaklığı / Pil sayısı / Kablo uzunluğu",
+  "correctAnswer": "Ampul parlaklığı",
+  "explanation": "Bağımlı değişken, bağımsız değişkene göre değişen ve ölçülen sonuçtur: ampul parlaklığı."
+ },
+ {
+  "questionId": "boss-a03-f6-12",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devre şeması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Şekildeki devre şemasında bağlantı kabloları dışında toplam kaç devre elemanı vardır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "circuit",
+    "c": 2,
+    "b": 3,
+    "sw": "closed"
+   }
+  },
+  "textPlain": "[Devre şeması: 2 pil, 3 ampul, kapalı anahtar] Şekildeki devre şemasında bağlantı kabloları dışında toplam kaç devre elemanı vardır?",
+  "correctAnswer": "6",
+  "explanation": "Şemada 2 pil, 3 ampul ve 1 anahtar vardır: 2 + 3 + 1 = 6."
+ },
+ {
+  "questionId": "boss-a03-f6-13",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Ampul sayısı",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Pil sayısı değiştirilmeden devreye özdeş bir ampul daha eklenirse ampullerin parlaklığı nasıl değişir?",
+  "data": {
+   "options": [
+    "Azalır.",
+    "Artar.",
+    "Değişmez."
+   ]
+  },
+  "textPlain": "Pil sayısı değiştirilmeden devreye özdeş bir ampul daha eklenirse ampullerin parlaklığı nasıl değişir? Seçenekler: Azalır. / Artar. / Değişmez.",
+  "correctAnswer": "Azalır.",
+  "explanation": "Pil sayısı aynıyken ampul sayısı artırılırsa ampullerin parlaklığı azalır."
+ },
+ {
+  "questionId": "boss-a03-f6-14",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devrenin çalışması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 105, 114–115",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Her durumda ampul yanar mı? Kartları ayır.",
+  "data": {
+   "bins": [
+    "Ampul yanar",
+    "Ampul yanmaz"
+   ],
+   "items": [
+    [
+     "Pil ve ampul var, anahtar kapalı, kablolar sağlam",
+     0
+    ],
+    [
+     "Anahtar açık",
+     1
+    ],
+    [
+     "Kablo bir yerden kopuk",
+     1
+    ],
+    [
+     "Devrede pil yok",
+     1
+    ],
+    [
+     "İki pil ve bir ampul, anahtar kapalı",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Her durumda ampul yanar mı? Kartları ayır. (Ampul yanar / Ampul yanmaz) Kartlar: Pil ve ampul var, anahtar kapalı, kablolar sağlam; Anahtar açık; Kablo bir yerden kopuk; Devrede pil yok; İki pil ve bir ampul, anahtar kapalı.",
+  "correctAnswer": "Ampul yanar: Pil ve ampul var, anahtar kapalı, kablolar sağlam, İki pil ve bir ampul, anahtar kapalı. Ampul yanmaz: Anahtar açık, Kablo bir yerden kopuk, Devrede pil yok.",
+  "explanation": "Ampulün yanması için devrede pil bulunmalı, anahtar kapalı olmalı ve kablolar kesintisiz olmalıdır."
+ },
+ {
+  "questionId": "boss-a03-f6-15",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Parlaklık karşılaştırma",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Özdeş pil ve ampullerle iki devre kuruluyor. K devresinde 2 pil ve 2 ampul, L devresinde 2 pil ve 1 ampul var. Hangisinde ampul daha parlak yanar?",
+  "data": {
+   "options": [
+    "L devresinde",
+    "K devresinde",
+    "İkisinde eşit"
+   ]
+  },
+  "textPlain": "Özdeş pil ve ampullerle iki devre kuruluyor. K devresinde 2 pil ve 2 ampul, L devresinde 2 pil ve 1 ampul var. Hangisinde ampul daha parlak yanar? Seçenekler: L devresinde / K devresinde / İkisinde eşit",
+  "correctAnswer": "L devresinde",
+  "explanation": "Pil sayıları eşittir; ampul sayısı az olan L devresinde ampul daha parlak yanar."
+ },
+ {
+  "questionId": "boss-a03-f6-16",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Hipotez",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ece deneyden önce “Pil sayısı arttıkça ampulün parlaklığı artar.” diyor. Ece’nin bu ifadesi nedir?",
+  "data": {
+   "options": [
+    "Hipotez",
+    "Sonuç",
+    "Kontrol edilen değişken"
+   ]
+  },
+  "textPlain": "Ece deneyden önce “Pil sayısı arttıkça ampulün parlaklığı artar.” diyor. Ece’nin bu ifadesi nedir? Seçenekler: Hipotez / Sonuç / Kontrol edilen değişken",
+  "correctAnswer": "Hipotez",
+  "explanation": "Deneyden önce test edilmek üzere ileri sürülen tahmine hipotez denir."
+ },
+ {
+  "questionId": "boss-a03-f6-17",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Kontrol edilen değişken",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ampul sayısının parlaklığa etkisini araştıran bir deneyde hangisi sabit tutulmalıdır?",
+  "data": {
+   "options": [
+    "Pil sayısı",
+    "Ampul sayısı",
+    "Ampul parlaklığı"
+   ]
+  },
+  "textPlain": "Ampul sayısının parlaklığa etkisini araştıran bir deneyde hangisi sabit tutulmalıdır? Seçenekler: Pil sayısı / Ampul sayısı / Ampul parlaklığı",
+  "correctAnswer": "Pil sayısı",
+  "explanation": "Değiştirilen değişken ampul sayısı, ölçülen ampul parlaklığıdır. Pil sayısı kontrol edilen değişkendir ve sabit tutulur."
+ },
+ {
+  "questionId": "boss-a03-f6-18",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Değişkenler",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 121, 126–127, 130",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Pil sayısının ampul parlaklığına etkisi araştırılıyor. Her değişkeni türüyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Pil sayısı",
+     "Bağımsız değişken"
+    ],
+    [
+     "Ampul parlaklığı",
+     "Bağımlı değişken"
+    ],
+    [
+     "Ampul sayısı",
+     "Kontrol edilen değişken"
+    ]
+   ]
+  },
+  "textPlain": "Pil sayısının ampul parlaklığına etkisi araştırılıyor. Her değişkeni türüyle eşleştir. Sol: Pil sayısı; Ampul parlaklığı; Ampul sayısı. Sağ: Bağımsız değişken; Bağımlı değişken; Kontrol edilen değişken.",
+  "correctAnswer": "Pil sayısı = Bağımsız değişken; Ampul parlaklığı = Bağımlı değişken; Ampul sayısı = Kontrol edilen değişken",
+  "explanation": "Değiştirilen pil sayısı bağımsız, ölçülen parlaklık bağımlı, sabit tutulan ampul sayısı kontrol edilen değişkendir."
+ },
+ {
+  "questionId": "boss-a03-f6-19",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Devre şeması",
+  "outcome": "Şemasını çizdiği elektrik devresine uygun deney düzeneği kurar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 114–119",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir düzenekte 2 pil, 1 ampul ve açık bir anahtar var. Bu düzeneğin devre şemasında hangileri bulunmalıdır?",
+  "data": {
+   "options": [
+    "2 pil, 1 ampul ve açık anahtar sembolü",
+    "1 pil, 1 ampul ve kapalı anahtar sembolü",
+    "2 pil, 2 ampul ve açık anahtar sembolü"
+   ]
+  },
+  "textPlain": "Bir düzenekte 2 pil, 1 ampul ve açık bir anahtar var. Bu düzeneğin devre şemasında hangileri bulunmalıdır? Seçenekler: 2 pil, 1 ampul ve açık anahtar sembolü / 1 pil, 1 ampul ve kapalı anahtar sembolü / 2 pil, 2 ampul ve açık anahtar sembolü",
+  "correctAnswer": "2 pil, 1 ampul ve açık anahtar sembolü",
+  "explanation": "Şemadaki eleman sayıları ve anahtarın durumu düzenektekiyle aynı olmalıdır."
+ },
+ {
+  "questionId": "boss-a03-f6-20",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Yaşamımızdaki Elektrik",
+  "topic": "Parlaklık",
+  "outcome": "Bir elektrik devresindeki ampul parlaklığını etkileyen değişkenlerin neler olduğuna ilişkin hipotez oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 6. Ünite “Yaşamımızdaki Elektrik”, s. 124–127",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Elinde 3 özdeş pil ve 3 özdeş ampul var. Tek bir ampulü en parlak yakmak için devreyi nasıl kurarsın?",
+  "data": {
+   "options": [
+    "3 pil ve 1 ampulle",
+    "1 pil ve 3 ampulle",
+    "1 pil ve 1 ampulle"
+   ]
+  },
+  "textPlain": "Elinde 3 özdeş pil ve 3 özdeş ampul var. Tek bir ampulü en parlak yakmak için devreyi nasıl kurarsın? Seçenekler: 3 pil ve 1 ampulle / 1 pil ve 3 ampulle / 1 pil ve 1 ampulle",
+  "correctAnswer": "3 pil ve 1 ampulle",
+  "explanation": "Ampul sayısı en az, pil sayısı en çok olduğunda ampul en parlak yanar."
+ },
+ {
+  "questionId": "boss-a03-m5-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma sorusu",
+  "outcome": "Kategorik veriye dayanan betimleme veya karşılaştırma gerektiren istatistiksel araştırma sorusu oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 63",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi istatistiksel araştırma sorusudur?",
+  "data": {
+   "options": [
+    "Sınıfımızdaki öğrencilerin en sevdiği meyve hangisidir?",
+    "Benim en sevdiğim meyve hangisidir?",
+    "Muz hangi renktir?"
+   ]
+  },
+  "textPlain": "Hangisi istatistiksel araştırma sorusudur? Seçenekler: Sınıfımızdaki öğrencilerin en sevdiği meyve hangisidir? / Benim en sevdiğim meyve hangisidir? / Muz hangi renktir?",
+  "correctAnswer": "Sınıfımızdaki öğrencilerin en sevdiği meyve hangisidir?",
+  "explanation": "İstatistiksel araştırma sorusu bir gruptan veri toplamayı gerektirir ve cevapları farklılık gösterebilir."
+ },
+ {
+  "questionId": "boss-a03-m5-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Sütun grafiği",
+  "outcome": "Tablo ve grafiklerde sunulan kategorik verileri okuyup özetleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 71 (veri ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Grafiğe göre en çok sevilen meyve hangisidir?",
+  "data": {
+   "options": [
+    "Çilek",
+    "Elma",
+    "Muz"
+   ],
+   "fig": {
+    "k": "bar",
+    "t": "En sevilen meyve",
+    "l": [
+     "Elma",
+     "Muz",
+     "Çilek",
+     "Portakal"
+    ],
+    "v": [
+     6,
+     4,
+     8,
+     3
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: En sevilen meyve — Elma 6, Muz 4, Çilek 8, Portakal 3 öğrenci] Grafiğe göre en çok sevilen meyve hangisidir? Seçenekler: Çilek / Elma / Muz",
+  "correctAnswer": "Çilek",
+  "explanation": "En uzun sütun çileğindir (8 öğrenci)."
+ },
+ {
+  "questionId": "boss-a03-m5-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Sütun grafiği",
+  "outcome": "Tablo ve grafiklerde sunulan kategorik verileri okuyup özetleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 71 (veri ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Grafiğe göre elmayı seven kaç öğrenci vardır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "bar",
+    "t": "En sevilen meyve",
+    "l": [
+     "Elma",
+     "Muz",
+     "Çilek",
+     "Portakal"
+    ],
+    "v": [
+     6,
+     4,
+     8,
+     3
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: En sevilen meyve — Elma 6, Muz 4, Çilek 8, Portakal 3 öğrenci] Grafiğe göre elmayı seven kaç öğrenci vardır?",
+  "correctAnswer": "6",
+  "explanation": "Elma sütununun ucu 6 çizgisine ulaşıyor: 6 öğrenci."
+ },
+ {
+  "questionId": "boss-a03-m5-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çetele",
+  "outcome": "Araştırma sorusuna uygun verileri toplayıp çetele ve sıklık tablosuyla analize hazırlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 67",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Şekildeki çetele kaç veriyi gösteriyor?",
+  "data": {
+   "answer": 7,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "tally",
+    "rows": [
+     [
+      "",
+      7
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Çetele: bir 5’li grup ve 2 çizgi] Şekildeki çetele kaç veriyi gösteriyor?",
+  "correctAnswer": "7",
+  "explanation": "Çetelede her dört çizgiyi çapraz bir çizgi keser ve 5’li grup oluşur: 5 + 2 = 7."
+ },
+ {
+  "questionId": "boss-a03-m5-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Gizlilik",
+  "outcome": "Araştırma sorusuna uygun verileri toplayıp çetele ve sıklık tablosuyla analize hazırlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 66",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir anket sonucunu sınıfa sunarken katılımcıların adlarını ve cevaplarını açıkça yazmak doğrudur.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir anket sonucunu sınıfa sunarken katılımcıların adlarını ve cevaplarını açıkça yazmak doğrudur.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Ankete katılanların kişisel bilgileri gizli tutulmalıdır; sonuçlar ad verilmeden sunulur."
+ },
+ {
+  "questionId": "boss-a03-m5-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Kategorik veri",
+  "outcome": "Araştırma sorusuna uygun verileri toplayıp çetele ve sıklık tablosuyla analize hazırlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 67",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi kategorik veridir?",
+  "data": {
+   "options": [
+    "Öğrencilerin tuttuğu takım",
+    "Öğrencilerin boy uzunlukları",
+    "Öğrencilerin kütleleri"
+   ]
+  },
+  "textPlain": "Hangisi kategorik veridir? Seçenekler: Öğrencilerin tuttuğu takım / Öğrencilerin boy uzunlukları / Öğrencilerin kütleleri",
+  "correctAnswer": "Öğrencilerin tuttuğu takım",
+  "explanation": "Kategorik veri sayıyla değil, ad ya da gruplarla ifade edilir (takım, renk, meyve gibi)."
+ },
+ {
+  "questionId": "boss-a03-m5-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma sorusu",
+  "outcome": "Kategorik veriye dayanan betimleme veya karşılaştırma gerektiren istatistiksel araştırma sorusu oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 63",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Soruları istatistiksel araştırma sorusu olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Araştırma sorusu",
+    "Araştırma sorusu değil"
+   ],
+   "items": [
+    [
+     "Sınıfımızdaki öğrenciler en çok hangi sporu yapıyor?",
+     0
+    ],
+    [
+     "Türkiye’nin başkenti neresidir?",
+     1
+    ],
+    [
+     "Öğretmenlerimiz okula en çok hangi araçla geliyor?",
+     0
+    ],
+    [
+     "Bugün haftanın hangi günü?",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Soruları istatistiksel araştırma sorusu olanlar ve olmayanlar diye ayır. (Araştırma sorusu / Araştırma sorusu değil) Kartlar: Sınıfımızdaki öğrenciler en çok hangi sporu yapıyor?; Türkiye’nin başkenti neresidir?; Öğretmenlerimiz okula en çok hangi araçla geliyor?; Bugün haftanın hangi günü?.",
+  "correctAnswer": "Araştırma sorusu: Sınıfımızdaki öğrenciler en çok hangi sporu yapıyor?, Öğretmenlerimiz okula en çok hangi araçla geliyor?. Araştırma sorusu değil: Türkiye’nin başkenti neresidir?, Bugün haftanın hangi günü?.",
+  "explanation": "Araştırma sorusunun cevabı bir gruptan toplanan verilerle bulunur ve cevaplar farklı olabilir. Tek, kesin cevabı olan sorular araştırma sorusu değildir."
+ },
+ {
+  "questionId": "boss-a03-m5-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Sıklık tablosu",
+  "outcome": "Araştırma sorusuna uygun verileri toplayıp çetele ve sıklık tablosuyla analize hazırlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 67 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Sıklık tablosuna göre ankete toplam kaç öğrenci katılmıştır?",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "table",
+    "h": [
+     "Ulaşım",
+     "Öğrenci sayısı"
+    ],
+    "r": [
+     [
+      "Yürüyerek",
+      "9"
+     ],
+     [
+      "Servis",
+      "12"
+     ],
+     [
+      "Otobüs",
+      "5"
+     ],
+     [
+      "Araba",
+      "4"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: Yürüyerek 9, Servis 12, Otobüs 5, Araba 4] Sıklık tablosuna göre ankete toplam kaç öğrenci katılmıştır?",
+  "correctAnswer": "30",
+  "explanation": "Sıklıklar toplanır: 9 + 12 + 5 + 4 = 30."
+ },
+ {
+  "questionId": "boss-a03-m5-09",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Nokta grafiği",
+  "outcome": "Tablo ve grafiklerde sunulan kategorik verileri okuyup özetleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 86 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Nokta grafiğine göre kediyi seçenler, kuşu seçenlerden kaç kişi fazladır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "dot",
+    "t": "En sevilen evcil hayvan",
+    "l": [
+     "Kedi",
+     "Köpek",
+     "Kuş",
+     "Balık"
+    ],
+    "v": [
+     5,
+     3,
+     2,
+     6
+    ]
+   }
+  },
+  "textPlain": "[Nokta grafiği: Kedi 5, Köpek 3, Kuş 2, Balık 6] Nokta grafiğine göre kediyi seçenler, kuşu seçenlerden kaç kişi fazladır?",
+  "correctAnswer": "3",
+  "explanation": "Kedi 5 nokta, kuş 2 nokta: 5 − 2 = 3."
+ },
+ {
+  "questionId": "boss-a03-m5-10",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Daire grafiği",
+  "outcome": "Tablo ve grafiklerde sunulan kategorik verileri okuyup özetleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 88 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Daire grafiğine göre öğrencilerin yarısı hangi sporu seçmiştir?",
+  "data": {
+   "options": [
+    "Futbol",
+    "Basketbol",
+    "Voleybol"
+   ],
+   "fig": {
+    "k": "pie",
+    "l": [
+     "Futbol",
+     "Basketbol",
+     "Voleybol"
+    ],
+    "v": [
+     2,
+     1,
+     1
+    ]
+   }
+  },
+  "textPlain": "[Daire grafiği: Futbol yarım daire, Basketbol ve Voleybol çeyrek daire] Daire grafiğine göre öğrencilerin yarısı hangi sporu seçmiştir? Seçenekler: Futbol / Basketbol / Voleybol",
+  "correctAnswer": "Futbol",
+  "explanation": "Daireyi yarı yarıya kaplayan dilim futbolundur."
+ },
+ {
+  "questionId": "boss-a03-m5-11",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Araştırma adımları",
+  "outcome": "Araştırma sorusuna uygun verileri toplayıp çetele ve sıklık tablosuyla analize hazırlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 62",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "order",
+  "prompt": "İstatistiksel araştırma sürecinin adımlarını sırala.",
+  "data": {
+   "items": [
+    "Araştırma sorusunu belirle",
+    "Verileri topla",
+    "Verileri tablo ve grafikle düzenle",
+    "Sonuçları yorumla"
+   ]
+  },
+  "textPlain": "İstatistiksel araştırma sürecinin adımlarını sırala. Kartlar: Sonuçları yorumla; Verileri topla; Araştırma sorusunu belirle; Verileri tablo ve grafikle düzenle.",
+  "correctAnswer": "Araştırma sorusunu belirle → Verileri topla → Verileri tablo ve grafikle düzenle → Sonuçları yorumla",
+  "explanation": "Önce soru belirlenir, sonra veri toplanır, veriler düzenlenip görselleştirilir ve en son yorumlanır."
+ },
+ {
+  "questionId": "boss-a03-m5-12",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Değişkenlik",
+  "outcome": "Kategorik veriye dayanan betimleme veya karşılaştırma gerektiren istatistiksel araştırma sorusu oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 63",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir araştırma sorusunun verilerinde değişkenlik olmalıdır. Bu ne demektir?",
+  "data": {
+   "options": [
+    "Gruptaki kişilerin cevaplarının farklı olabilmesi",
+    "Herkesin aynı cevabı vermesi",
+    "Sorunun tek bir cevabının olması"
+   ]
+  },
+  "textPlain": "Bir araştırma sorusunun verilerinde değişkenlik olmalıdır. Bu ne demektir? Seçenekler: Gruptaki kişilerin cevaplarının farklı olabilmesi / Herkesin aynı cevabı vermesi / Sorunun tek bir cevabının olması",
+  "correctAnswer": "Gruptaki kişilerin cevaplarının farklı olabilmesi",
+  "explanation": "Verilerde değişkenlik, gruptaki kişilerin farklı cevaplar verebilmesidir."
+ },
+ {
+  "questionId": "boss-a03-m5-13",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Grafik dönüştürme",
+  "outcome": "Kategorik veriyi nokta, sütun ve daire grafiğiyle görselleştirebilme; grafikleri birbirine dönüştürebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 113",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Sütun grafiğinde “Çilek” sütunu 8’i gösteriyor. Aynı veriler nokta grafiğine dönüştürülürse çilek için kaç nokta konur?",
+  "data": {
+   "options": [
+    "8",
+    "4",
+    "16"
+   ]
+  },
+  "textPlain": "Sütun grafiğinde “Çilek” sütunu 8’i gösteriyor. Aynı veriler nokta grafiğine dönüştürülürse çilek için kaç nokta konur? Seçenekler: 8 / 4 / 16",
+  "correctAnswer": "8",
+  "explanation": "Nokta grafiğinde her veri bir noktayla gösterilir; 8 veri için 8 nokta konur."
+ },
+ {
+  "questionId": "boss-a03-m5-14",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Grafik türleri",
+  "outcome": "Kategorik veriyi nokta, sütun ve daire grafiğiyle görselleştirebilme; grafikleri birbirine dönüştürebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 113",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her grafik türünü tarifiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Sütun grafiği",
+     "Veriler dikdörtgen sütunlarla gösterilir"
+    ],
+    [
+     "Nokta grafiği",
+     "Her veri bir noktayla gösterilir"
+    ],
+    [
+     "Daire grafiği",
+     "Bütün daire dilimlere ayrılır"
+    ]
+   ]
+  },
+  "textPlain": "Her grafik türünü tarifiyle eşleştir. Sol: Sütun grafiği; Nokta grafiği; Daire grafiği. Sağ: Veriler dikdörtgen sütunlarla gösterilir; Her veri bir noktayla gösterilir; Bütün daire dilimlere ayrılır.",
+  "correctAnswer": "Sütun grafiği = Veriler dikdörtgen sütunlarla gösterilir; Nokta grafiği = Her veri bir noktayla gösterilir; Daire grafiği = Bütün daire dilimlere ayrılır",
+  "explanation": "Kategorik veriler sütun, nokta ve daire grafiğiyle gösterilebilir; grafikler birbirine dönüştürülebilir."
+ },
+ {
+  "questionId": "boss-a03-m5-15",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yorumu değerlendirme",
+  "outcome": "Araştırma sonuçlarını yorumlayabilme; başkalarının oluşturduğu grafik, sonuç ve yorumları değerlendirebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 106 (veri ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Grafiğe göre hangi yorum doğrudur?",
+  "data": {
+   "options": [
+    "Öğrencilerin yarısı romanı seçmiştir.",
+    "En çok öğrenci şiiri seçmiştir.",
+    "Masalı seçenler romanı seçenlerden fazladır."
+   ],
+   "fig": {
+    "k": "bar",
+    "t": "En sevilen kitap türü",
+    "l": [
+     "Roman",
+     "Masal",
+     "Şiir"
+    ],
+    "v": [
+     10,
+     6,
+     4
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: Roman 10, Masal 6, Şiir 4] Grafiğe göre hangi yorum doğrudur? Seçenekler: Öğrencilerin yarısı romanı seçmiştir. / En çok öğrenci şiiri seçmiştir. / Masalı seçenler romanı seçenlerden fazladır.",
+  "correctAnswer": "Öğrencilerin yarısı romanı seçmiştir.",
+  "explanation": "Toplam 10 + 6 + 4 = 20 öğrencinin 10’u romanı seçmiş; bu, yarısıdır."
+ },
+ {
+  "questionId": "boss-a03-m5-16",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yanıltıcı grafik",
+  "outcome": "Araştırma sonuçlarını yorumlayabilme; başkalarının oluşturduğu grafik, sonuç ve yorumları değerlendirebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 98 (veri ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir sütun grafiğinde dikey eksen 0’dan değil 90’dan başlıyor. Bu yüzden 92 ve 96 değerlerinin sütunları çok farklı görünüyor. Bu grafik için ne söylenebilir?",
+  "data": {
+   "options": [
+    "Farkı olduğundan büyük gösterdiği için yanıltıcıdır.",
+    "Verileri doğru ve açık gösterir.",
+    "Değerleri olduğundan küçük gösterir ama yanıltmaz."
+   ]
+  },
+  "textPlain": "Bir sütun grafiğinde dikey eksen 0’dan değil 90’dan başlıyor. Bu yüzden 92 ve 96 değerlerinin sütunları çok farklı görünüyor. Bu grafik için ne söylenebilir? Seçenekler: Farkı olduğundan büyük gösterdiği için yanıltıcıdır. / Verileri doğru ve açık gösterir. / Değerleri olduğundan küçük gösterir ama yanıltmaz.",
+  "correctAnswer": "Farkı olduğundan büyük gösterdiği için yanıltıcıdır.",
+  "explanation": "Eksen 0’dan başlamazsa küçük farklar büyük görünür; grafik yanıltıcı olur."
+ },
+ {
+  "questionId": "boss-a03-m5-17",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Daire grafiği",
+  "outcome": "Kategorik veriyi nokta, sütun ve daire grafiğiyle görselleştirebilme; grafikleri birbirine dönüştürebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 88",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Ankete 40 öğrenci katıldı. Daire grafiğinde futbol yarım daireyi kaplıyor. Futbolu kaç öğrenci seçmiştir?",
+  "data": {
+   "answer": 20,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "pie",
+    "l": [
+     "Futbol",
+     "Basketbol",
+     "Voleybol"
+    ],
+    "v": [
+     2,
+     1,
+     1
+    ]
+   }
+  },
+  "textPlain": "[Daire grafiği: Futbol yarım daire, Basketbol ve Voleybol çeyrek daire] Ankete 40 öğrenci katıldı. Daire grafiğinde futbol yarım daireyi kaplıyor. Futbolu kaç öğrenci seçmiştir?",
+  "correctAnswer": "20",
+  "explanation": "Yarım daire bütünün yarısıdır: 40 ÷ 2 = 20 öğrenci."
+ },
+ {
+  "questionId": "boss-a03-m5-18",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Veriye dayalı karar",
+  "outcome": "Araştırma sonuçlarını yorumlayabilme; başkalarının oluşturduğu grafik, sonuç ve yorumları değerlendirebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 76 (veri ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Kantin sahibi, haftada en çok satılan üründen daha fazla almak istiyor. Tabloya göre hangi ürünü almalıdır?",
+  "data": {
+   "options": [
+    "Simit",
+    "Tost",
+    "Poğaça"
+   ],
+   "fig": {
+    "k": "table",
+    "h": [
+     "Ürün",
+     "Haftalık satış"
+    ],
+    "r": [
+     [
+      "Tost",
+      "18"
+     ],
+     [
+      "Simit",
+      "25"
+     ],
+     [
+      "Poğaça",
+      "12"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: Tost 18, Simit 25, Poğaça 12] Kantin sahibi, haftada en çok satılan üründen daha fazla almak istiyor. Tabloya göre hangi ürünü almalıdır? Seçenekler: Simit / Tost / Poğaça",
+  "correctAnswer": "Simit",
+  "explanation": "Tabloda en büyük sıklık simidindir (25); karar veriye dayanarak verilir."
+ },
+ {
+  "questionId": "boss-a03-m5-19",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Uygun grup",
+  "outcome": "Kategorik veriye dayanan betimleme veya karşılaştırma gerektiren istatistiksel araştırma sorusu oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 63",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Okulumuzdaki öğrenciler en çok hangi kitap türünü seviyor?” sorusu için veriler kimlerden toplanmalıdır?",
+  "data": {
+   "options": [
+    "Okulumuzdaki öğrencilerden",
+    "Yalnızca kendi ailemizden",
+    "Başka bir şehirdeki yetişkinlerden"
+   ]
+  },
+  "textPlain": "“Okulumuzdaki öğrenciler en çok hangi kitap türünü seviyor?” sorusu için veriler kimlerden toplanmalıdır? Seçenekler: Okulumuzdaki öğrencilerden / Yalnızca kendi ailemizden / Başka bir şehirdeki yetişkinlerden",
+  "correctAnswer": "Okulumuzdaki öğrencilerden",
+  "explanation": "Veri, araştırma sorusunun ilgilendiği gruptan toplanmalıdır: okuldaki öğrenciler."
+ },
+ {
+  "questionId": "boss-a03-m5-20",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Çetele",
+  "outcome": "Araştırma sorusuna uygun verileri toplayıp çetele ve sıklık tablosuyla analize hazırlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İstatistiksel Araştırma Süreci”, s. 67",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Çeteleye göre maviyi seçenler kırmızıyı seçenlerden kaç kişi fazladır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "tally",
+    "rows": [
+     [
+      "Mavi",
+      11
+     ],
+     [
+      "Kırmızı",
+      8
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Çetele: Mavi 11, Kırmızı 8] Çeteleye göre maviyi seçenler kırmızıyı seçenlerden kaç kişi fazladır?",
+  "correctAnswer": "3",
+  "explanation": "Mavi: 5 + 5 + 1 = 11, kırmızı: 5 + 3 = 8; 11 − 8 = 3."
+ },
+ {
+  "questionId": "boss-a03-m6-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Eşitliğin korunumu",
+  "outcome": "Eşitliğin korunumuna yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 121",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Terazi dengededir. “?” ile gösterilen ağırlık kaç kilogramdır?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": "kg",
+   "fig": {
+    "k": "scale",
+    "l": [
+     "8 kg",
+     "5 kg"
+    ],
+    "r": [
+     "9 kg",
+     "?"
+    ]
+   }
+  },
+  "textPlain": "[Terazi: sol kefede 8 kg ve 5 kg, sağ kefede 9 kg ve ?] Terazi dengededir. “?” ile gösterilen ağırlık kaç kilogramdır?",
+  "correctAnswer": "4 kg",
+  "explanation": "Sol kefe 8 + 5 = 13 kg; sağda 9 kg var, 13 − 9 = 4 kg."
+ },
+ {
+  "questionId": "boss-a03-m6-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Değişme özelliği",
+  "outcome": "Toplama ve çarpma işlemlerinin değişme, birleşme ve dağılma özelliklerine yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 125",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "24 + 37 = 37 + 24 eşitliği hangi özelliği gösterir?",
+  "data": {
+   "options": [
+    "Toplamada değişme özelliği",
+    "Toplamada birleşme özelliği",
+    "Çarpmanın dağılma özelliği"
+   ]
+  },
+  "textPlain": "24 + 37 = 37 + 24 eşitliği hangi özelliği gösterir? Seçenekler: Toplamada değişme özelliği / Toplamada birleşme özelliği / Çarpmanın dağılma özelliği",
+  "correctAnswer": "Toplamada değişme özelliği",
+  "explanation": "Toplananların yerleri değişince toplam değişmez; bu değişme özelliğidir."
+ },
+ {
+  "questionId": "boss-a03-m6-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Üslü ifadeler",
+  "outcome": "Birden fazla işlem içeren ifadelerde (üslü ifadeler dahil) işlem önceliğini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 131",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "2³ ifadesinin değeri kaçtır?",
+  "data": {
+   "answer": 8,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "2³ ifadesinin değeri kaçtır?",
+  "correctAnswer": "8",
+  "explanation": "2³ = 2 × 2 × 2 = 8 (ikinin küpü)."
+ },
+ {
+  "questionId": "boss-a03-m6-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "İşlem önceliği",
+  "outcome": "Birden fazla işlem içeren ifadelerde (üslü ifadeler dahil) işlem önceliğini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 135",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "6 + 4 × 3 işleminin sonucu kaçtır?",
+  "data": {
+   "options": [
+    "18",
+    "30",
+    "13"
+   ]
+  },
+  "textPlain": "6 + 4 × 3 işleminin sonucu kaçtır? Seçenekler: 18 / 30 / 13",
+  "correctAnswer": "18",
+  "explanation": "Önce çarpma yapılır: 4 × 3 = 12; sonra 6 + 12 = 18."
+ },
+ {
+  "questionId": "boss-a03-m6-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Sayı örüntüsü",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını belirleyip istenen adımı oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 138",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "5, 9, 13, 17, … örüntüsünde bir sonraki terim kaçtır?",
+  "data": {
+   "answer": 21,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "5, 9, 13, 17, … örüntüsünde bir sonraki terim kaçtır?",
+  "correctAnswer": "21",
+  "explanation": "Örüntü 4’er artıyor: 17 + 4 = 21."
+ },
+ {
+  "questionId": "boss-a03-m6-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Akış şeması",
+  "outcome": "Temel aritmetik işlemler içeren durumlarda süreci algoritma ve akış şemasıyla yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 157 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Akış şemalarında karşılaştırma ve karar adımları baklava dilimi biçimindeki şekle yazılır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Akış şemalarında karşılaştırma ve karar adımları baklava dilimi biçimindeki şekle yazılır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Karar adımı baklava dilimi şekline yazılır; sonuca göre akış ayrılır."
+ },
+ {
+  "questionId": "boss-a03-m6-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Eşitliğin korunumu",
+  "outcome": "Eşitliğin korunumuna yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 121",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "15 + 6 = 12 + □ eşitliğinde □ yerine hangi sayı gelmelidir?",
+  "data": {
+   "options": [
+    "9",
+    "21",
+    "3"
+   ]
+  },
+  "textPlain": "15 + 6 = 12 + □ eşitliğinde □ yerine hangi sayı gelmelidir? Seçenekler: 9 / 21 / 3",
+  "correctAnswer": "9",
+  "explanation": "Sol taraf 21’dir; 12 + 9 = 21 olduğundan □ = 9."
+ },
+ {
+  "questionId": "boss-a03-m6-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Dağılma özelliği",
+  "outcome": "Toplama ve çarpma işlemlerinin değişme, birleşme ve dağılma özelliklerine yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 129",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Can 8 × 23 işlemini 8 × 20 + 8 × 3 biçiminde yapıyor. Sonuç kaçtır?",
+  "data": {
+   "answer": 184,
+   "digits": 3,
+   "unit": ""
+  },
+  "textPlain": "Can 8 × 23 işlemini 8 × 20 + 8 × 3 biçiminde yapıyor. Sonuç kaçtır?",
+  "correctAnswer": "184",
+  "explanation": "Dağılma özelliği: 8 × 20 = 160, 8 × 3 = 24; 160 + 24 = 184."
+ },
+ {
+  "questionId": "boss-a03-m6-09",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "İşlem önceliği",
+  "outcome": "Birden fazla işlem içeren ifadelerde (üslü ifadeler dahil) işlem önceliğini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 135",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "(18 − 6) ÷ 3 + 5 işleminin sonucu kaçtır?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "(18 − 6) ÷ 3 + 5 işleminin sonucu kaçtır?",
+  "correctAnswer": "9",
+  "explanation": "Önce parantez: 12; sonra bölme: 12 ÷ 3 = 4; en son toplama: 4 + 5 = 9."
+ },
+ {
+  "questionId": "boss-a03-m6-10",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Üslü ifadeler",
+  "outcome": "Birden fazla işlem içeren ifadelerde (üslü ifadeler dahil) işlem önceliğini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 131",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "3² + 4 işleminin sonucu kaçtır?",
+  "data": {
+   "answer": 13,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "3² + 4 işleminin sonucu kaçtır?",
+  "correctAnswer": "13",
+  "explanation": "Önce üslü ifade: 3² = 9; sonra 9 + 4 = 13."
+ },
+ {
+  "questionId": "boss-a03-m6-11",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Birleşme özelliği",
+  "outcome": "Toplama ve çarpma işlemlerinin değişme, birleşme ve dağılma özelliklerine yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 125",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "(25 × 4) × 7 = 25 × (4 × 7) eşitliği hangi özelliği gösterir?",
+  "data": {
+   "options": [
+    "Çarpmada birleşme özelliği",
+    "Çarpmada değişme özelliği",
+    "Toplamada dağılma özelliği"
+   ]
+  },
+  "textPlain": "(25 × 4) × 7 = 25 × (4 × 7) eşitliği hangi özelliği gösterir? Seçenekler: Çarpmada birleşme özelliği / Çarpmada değişme özelliği / Toplamada dağılma özelliği",
+  "correctAnswer": "Çarpmada birleşme özelliği",
+  "explanation": "Çarpanlar farklı biçimde gruplandırılınca sonuç değişmez; bu birleşme özelliğidir."
+ },
+ {
+  "questionId": "boss-a03-m6-12",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Şekil örüntüsü",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını belirleyip istenen adımı oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 146 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Şekildeki örüntünün 5. adımında kaç kare olur?",
+  "data": {
+   "answer": 11,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "pat",
+    "s": [
+     3,
+     5,
+     7
+    ]
+   }
+  },
+  "textPlain": "[Şekil örüntüsü: 1. adım 3 kare, 2. adım 5 kare, 3. adım 7 kare] Şekildeki örüntünün 5. adımında kaç kare olur?",
+  "correctAnswer": "11",
+  "explanation": "Her adımda 2 kare ekleniyor: 3, 5, 7, 9, 11."
+ },
+ {
+  "questionId": "boss-a03-m6-13",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "İşlem önceliği",
+  "outcome": "Birden fazla işlem içeren ifadelerde (üslü ifadeler dahil) işlem önceliğini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 135",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "order",
+  "prompt": "20 − 2 × (3 + 4) işleminin adımlarını yapılış sırasına diz.",
+  "data": {
+   "items": [
+    "3 + 4 = 7",
+    "2 × 7 = 14",
+    "20 − 14 = 6"
+   ]
+  },
+  "textPlain": "20 − 2 × (3 + 4) işleminin adımlarını yapılış sırasına diz. Kartlar: 2 × 7 = 14; 20 − 14 = 6; 3 + 4 = 7.",
+  "correctAnswer": "3 + 4 = 7 → 2 × 7 = 14 → 20 − 14 = 6",
+  "explanation": "Önce parantez içi, sonra çarpma, en son çıkarma yapılır."
+ },
+ {
+  "questionId": "boss-a03-m6-14",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Eşitliğin korunumu",
+  "outcome": "Eşitliğin korunumuna yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 121",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Eşitlikleri doğru ve yanlış olanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Eşitlik doğru",
+    "Eşitlik yanlış"
+   ],
+   "items": [
+    [
+     "9 + 7 = 8 + 8",
+     0
+    ],
+    [
+     "5 × 4 = 10 + 10",
+     0
+    ],
+    [
+     "12 − 5 = 6 + 2",
+     1
+    ],
+    [
+     "3 × 6 = 9 + 8",
+     1
+    ],
+    [
+     "30 ÷ 5 = 2 × 3",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Eşitlikleri doğru ve yanlış olanlar diye ayır. (Eşitlik doğru / Eşitlik yanlış) Kartlar: 9 + 7 = 8 + 8; 5 × 4 = 10 + 10; 12 − 5 = 6 + 2; 3 × 6 = 9 + 8; 30 ÷ 5 = 2 × 3.",
+  "correctAnswer": "Eşitlik doğru: 9 + 7 = 8 + 8, 5 × 4 = 10 + 10, 30 ÷ 5 = 2 × 3. Eşitlik yanlış: 12 − 5 = 6 + 2, 3 × 6 = 9 + 8.",
+  "explanation": "Eşitliğin iki tarafı aynı değeri vermelidir: 16 = 16, 20 = 20, 6 = 6 doğru; 7 ≠ 8 ve 18 ≠ 17 yanlış."
+ },
+ {
+  "questionId": "boss-a03-m6-15",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Örüntünün kuralı",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını belirleyip istenen adımı oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 142",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kuralı “adım sayısının 4 katının 1 eksiği” olan örüntünün 10. adımı kaçtır?",
+  "data": {
+   "answer": 39,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Kuralı “adım sayısının 4 katının 1 eksiği” olan örüntünün 10. adımı kaçtır?",
+  "correctAnswer": "39",
+  "explanation": "10 × 4 = 40; 40 − 1 = 39."
+ },
+ {
+  "questionId": "boss-a03-m6-16",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Akış şeması",
+  "outcome": "Temel aritmetik işlemler içeren durumlarda süreci algoritma ve akış şemasıyla yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 157 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Akış şeması: Başla → Sayıyı al (3) → Sayıyı 4 ile çarp → Sonuca 5 ekle → Sonucu yaz → Bitir. Yazılan sonuç kaçtır?",
+  "data": {
+   "answer": 17,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Akış şeması: Başla → Sayıyı al (3) → Sayıyı 4 ile çarp → Sonuca 5 ekle → Sonucu yaz → Bitir. Yazılan sonuç kaçtır?",
+  "correctAnswer": "17",
+  "explanation": "3 × 4 = 12; 12 + 5 = 17."
+ },
+ {
+  "questionId": "boss-a03-m6-17",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Dağılma özelliği",
+  "outcome": "Toplama ve çarpma işlemlerinin değişme, birleşme ve dağılma özelliklerine yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 129",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "6 × 47 + 6 × 53 işleminin en kolay yapılışı hangisidir?",
+  "data": {
+   "options": [
+    "6 × (47 + 53) = 600",
+    "6 × 47 × 53",
+    "(6 + 47) × 53"
+   ]
+  },
+  "textPlain": "6 × 47 + 6 × 53 işleminin en kolay yapılışı hangisidir? Seçenekler: 6 × (47 + 53) = 600 / 6 × 47 × 53 / (6 + 47) × 53",
+  "correctAnswer": "6 × (47 + 53) = 600",
+  "explanation": "Ortak çarpan 6 dışarı alınır: 6 × (47 + 53) = 6 × 100 = 600."
+ },
+ {
+  "questionId": "boss-a03-m6-18",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Eşitliğin korunumu",
+  "outcome": "Eşitliğin korunumuna yönelik çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 121",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Terazi dengededir. “?” ile gösterilen ağırlık kaç kilogramdır?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": "kg",
+   "fig": {
+    "k": "scale",
+    "l": [
+     "12 kg",
+     "?"
+    ],
+    "r": [
+     "10 kg",
+     "7 kg",
+     "4 kg"
+    ]
+   }
+  },
+  "textPlain": "[Terazi: sol kefede 12 kg ve ?, sağ kefede 10 kg, 7 kg ve 4 kg] Terazi dengededir. “?” ile gösterilen ağırlık kaç kilogramdır?",
+  "correctAnswer": "9 kg",
+  "explanation": "Sağ kefe 10 + 7 + 4 = 21 kg; 21 − 12 = 9 kg."
+ },
+ {
+  "questionId": "boss-a03-m6-19",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Algoritma",
+  "outcome": "Temel aritmetik işlemler içeren durumlarda süreci algoritma ve akış şemasıyla yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 150",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "47 bilye, her torbaya 6’şar bilye konarak dağıtılıyor. Torbalara dağıtıldıktan sonra kaç bilye artar?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "47 bilye, her torbaya 6’şar bilye konarak dağıtılıyor. Torbalara dağıtıldıktan sonra kaç bilye artar?",
+  "correctAnswer": "5",
+  "explanation": "47 ÷ 6 işleminde bölüm 7, kalan 5’tir (6 × 7 = 42; 47 − 42 = 5)."
+ },
+ {
+  "questionId": "boss-a03-m6-20",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme",
+  "topic": "Şekil örüntüsü",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını belirleyip istenen adımı oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme”, s. 146 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kibrit çöpleriyle yan yana kareler yapılıyor: 1 kare için 4, 2 kare için 7, 3 kare için 10 çöp gerekiyor. 6 kare için kaç çöp gerekir?",
+  "data": {
+   "answer": 19,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Kibrit çöpleriyle yan yana kareler yapılıyor: 1 kare için 4, 2 kare için 7, 3 kare için 10 çöp gerekiyor. 6 kare için kaç çöp gerekir?",
+  "correctAnswer": "19",
+  "explanation": "Her yeni kare için 3 çöp eklenir: 4, 7, 10, 13, 16, 19."
+ },
+ {
+  "questionId": "boss-a03-t4-01",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Eş anlam",
+  "outcome": "Kelimelerin bağlamdaki ve sözlükteki anlamlarını belirler; eş ve zıt anlamlı kelimeleri ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 16",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Misafir” kelimesinin eş anlamlısı hangisidir?",
+  "data": {
+   "options": [
+    "Konuk",
+    "Komşu",
+    "Akraba"
+   ]
+  },
+  "textPlain": "“Misafir” kelimesinin eş anlamlısı hangisidir? Seçenekler: Konuk / Komşu / Akraba",
+  "correctAnswer": "Konuk",
+  "explanation": "Misafir ve konuk aynı anlamdadır."
+ },
+ {
+  "questionId": "boss-a03-t4-02",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Zıt anlam",
+  "outcome": "Kelimelerin bağlamdaki ve sözlükteki anlamlarını belirler; eş ve zıt anlamlı kelimeleri ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 16",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Eski” kelimesinin zıt anlamlısı hangisidir?",
+  "data": {
+   "options": [
+    "Yeni",
+    "Kırık",
+    "Büyük"
+   ]
+  },
+  "textPlain": "“Eski” kelimesinin zıt anlamlısı hangisidir? Seçenekler: Yeni / Kırık / Büyük",
+  "correctAnswer": "Yeni",
+  "explanation": "“Eski” kelimesinin zıt anlamlısı “yeni”dir."
+ },
+ {
+  "questionId": "boss-a03-t4-03",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Kalıplaşmış söz",
+  "outcome": "Deyim ve kalıplaşmış sözlerin anlamlarını belirler ve uygun durumlarda kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 25",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Hoş geldiniz.” sözüne karşılık genellikle hangisi söylenir?",
+  "data": {
+   "options": [
+    "Hoş bulduk.",
+    "Afiyet olsun.",
+    "Geçmiş olsun."
+   ]
+  },
+  "textPlain": "“Hoş geldiniz.” sözüne karşılık genellikle hangisi söylenir? Seçenekler: Hoş bulduk. / Afiyet olsun. / Geçmiş olsun.",
+  "correctAnswer": "Hoş bulduk.",
+  "explanation": "Kalıplaşmış sözler belirli durumlarda kullanılır; “Hoş geldiniz.”e “Hoş bulduk.” diye karşılık verilir."
+ },
+ {
+  "questionId": "boss-a03-t4-04",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Gerçek ve mecaz anlam",
+  "outcome": "Kelimelerin bağlamdaki ve sözlükteki anlamlarını belirler; eş ve zıt anlamlı kelimeleri ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 16",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cümlelerdeki “sıcak, taş, tatlı” kelimeleri gerçek mi, mecaz mı kullanılmış? Kartları ayır.",
+  "data": {
+   "bins": [
+    "Gerçek anlam",
+    "Mecaz anlam"
+   ],
+   "items": [
+    [
+     "Sıcak çay içtik.",
+     0
+    ],
+    [
+     "Bize çok sıcak davrandı.",
+     1
+    ],
+    [
+     "Taş duvara çarptı.",
+     0
+    ],
+    [
+     "Çok tatlı konuşuyor.",
+     1
+    ],
+    [
+     "Tatlı bir kurabiye yedik.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümlelerdeki “sıcak, taş, tatlı” kelimeleri gerçek mi, mecaz mı kullanılmış? Kartları ayır. (Gerçek anlam / Mecaz anlam) Kartlar: Sıcak çay içtik.; Bize çok sıcak davrandı.; Taş duvara çarptı.; Çok tatlı konuşuyor.; Tatlı bir kurabiye yedik..",
+  "correctAnswer": "Gerçek anlam: Sıcak çay içtik., Taş duvara çarptı., Tatlı bir kurabiye yedik.. Mecaz anlam: Bize çok sıcak davrandı., Çok tatlı konuşuyor..",
+  "explanation": "Kelime ilk ve temel anlamıyla kullanılırsa gerçek, bu anlamdan uzaklaşırsa mecaz anlamdadır."
+ },
+ {
+  "questionId": "boss-a03-t4-05",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Kesme işareti",
+  "outcome": "Sayıların yazımına, büyük harflerin, kesme işaretinin ve üç noktanın kullanımına ilişkin kuralları uygular.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 27",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede kesme işareti doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Ayşe’nin dedesi Konya’da yaşıyor.",
+    "Ayşenin dedesi Konya’da yaşıyor.",
+    "Ayşe’nin dedesi Konyada yaşıyor."
+   ]
+  },
+  "textPlain": "Hangi cümlede kesme işareti doğru kullanılmıştır? Seçenekler: Ayşe’nin dedesi Konya’da yaşıyor. / Ayşenin dedesi Konya’da yaşıyor. / Ayşe’nin dedesi Konyada yaşıyor.",
+  "correctAnswer": "Ayşe’nin dedesi Konya’da yaşıyor.",
+  "explanation": "Özel isimlere getirilen ekler kesme işaretiyle ayrılır: Ayşe’nin, Konya’da."
+ },
+ {
+  "questionId": "boss-a03-t4-06",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Üç nokta",
+  "outcome": "Sayıların yazımına, büyük harflerin, kesme işaretinin ve üç noktanın kullanımına ilişkin kuralları uygular.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 27",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Üç nokta (…) tamamlanmamış cümlelerin sonuna konabilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Üç nokta (…) tamamlanmamış cümlelerin sonuna konabilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Üç nokta, tamamlanmamış cümlelerin sonunda ve sözün bir kısmının söylenmediği yerlerde kullanılır."
+ },
+ {
+  "questionId": "boss-a03-t4-07",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Karşılaştırma",
+  "outcome": "Karşılaştırma, benzerlik ve farklılık bildiren dil yapılarını; isimlerin yerini tutan sözcükleri; öncelik-sonralık ve özet bildiren ifadeleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 55",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede karşılaştırma yapılmıştır?",
+  "data": {
+   "options": [
+    "Kardeşim benden daha uzun.",
+    "Kardeşim okula gitti.",
+    "Kardeşim kitap okuyor."
+   ]
+  },
+  "textPlain": "Hangi cümlede karşılaştırma yapılmıştır? Seçenekler: Kardeşim benden daha uzun. / Kardeşim okula gitti. / Kardeşim kitap okuyor.",
+  "correctAnswer": "Kardeşim benden daha uzun.",
+  "explanation": "“Benden daha uzun” ifadesi iki kişiyi boy bakımından karşılaştırır."
+ },
+ {
+  "questionId": "boss-a03-t4-08",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Deyim",
+  "outcome": "Deyim ve kalıplaşmış sözlerin anlamlarını belirler ve uygun durumlarda kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 25",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Gözü yolda kalmak” deyiminin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Birinin gelmesini merakla beklemek",
+    "Yolda kaybolmak",
+    "Çok uykusu gelmek"
+   ]
+  },
+  "textPlain": "“Gözü yolda kalmak” deyiminin anlamı hangisidir? Seçenekler: Birinin gelmesini merakla beklemek / Yolda kaybolmak / Çok uykusu gelmek",
+  "correctAnswer": "Birinin gelmesini merakla beklemek",
+  "explanation": "Deyimler gerçek anlamlarından farklı bir anlam taşır; “gözü yolda kalmak” birini özlemle beklemektir."
+ },
+ {
+  "questionId": "boss-a03-t4-09",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Sıralı metin",
+  "outcome": "Sıralı-kronolojik metin yapısını, tanıtma paragrafının ve şiirin özelliklerini belirler; metnin anlamını yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 34",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Bayram sabahını anlatan cümleleri olayların oluş sırasına diz.",
+  "data": {
+   "items": [
+    "Önce erkenden uyanıp bayramlıklarımızı giydik.",
+    "Ardından büyüklerimizin ellerini öptük.",
+    "Daha sonra akrabaları ziyarete gittik.",
+    "Son olarak akşam bayram sofrasında buluştuk."
+   ]
+  },
+  "textPlain": "Bayram sabahını anlatan cümleleri olayların oluş sırasına diz. Kartlar: Son olarak akşam bayram sofrasında buluştuk.; Daha sonra akrabaları ziyarete gittik.; Önce erkenden uyanıp bayramlıklarımızı giydik.; Ardından büyüklerimizin ellerini öptük..",
+  "correctAnswer": "Önce erkenden uyanıp bayramlıklarımızı giydik. → Ardından büyüklerimizin ellerini öptük. → Daha sonra akrabaları ziyarete gittik. → Son olarak akşam bayram sofrasında buluştuk.",
+  "explanation": "“Önce, ardından, daha sonra, son olarak” ifadeleri öncelik-sonralık bildirir ve olayların sırasını gösterir."
+ },
+ {
+  "questionId": "boss-a03-t4-10",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "İsimlerin yerini tutan sözcükler",
+  "outcome": "Karşılaştırma, benzerlik ve farklılık bildiren dil yapılarını; isimlerin yerini tutan sözcükleri; öncelik-sonralık ve özet bildiren ifadeleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 55",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Ali ile Elif çarşıya gittiler. Onlar orada halı dokuyan bir usta gördü.” cümlelerinde “onlar” kimin yerine kullanılmıştır?",
+  "data": {
+   "options": [
+    "Ali ile Elif’in",
+    "Ustanın",
+    "Halının"
+   ]
+  },
+  "textPlain": "“Ali ile Elif çarşıya gittiler. Onlar orada halı dokuyan bir usta gördü.” cümlelerinde “onlar” kimin yerine kullanılmıştır? Seçenekler: Ali ile Elif’in / Ustanın / Halının",
+  "correctAnswer": "Ali ile Elif’in",
+  "explanation": "“Onlar” sözcüğü önceki cümlede geçen Ali ile Elif’in yerini tutar."
+ },
+ {
+  "questionId": "boss-a03-t4-11",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Sayıların yazımı",
+  "outcome": "Sayıların yazımına, büyük harflerin, kesme işaretinin ve üç noktanın kullanımına ilişkin kuralları uygular.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 27",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede sayının yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Çocuklara üçer ceviz verdi.",
+    "Çocuklara 3’er ceviz verdi.",
+    "Çocuklara 3er ceviz verdi."
+   ]
+  },
+  "textPlain": "Hangi cümlede sayının yazımı doğrudur? Seçenekler: Çocuklara üçer ceviz verdi. / Çocuklara 3’er ceviz verdi. / Çocuklara 3er ceviz verdi.",
+  "correctAnswer": "Çocuklara üçer ceviz verdi.",
+  "explanation": "Üleştirme sayıları (birer, üçer, beşer) yazıyla yazılır."
+ },
+ {
+  "questionId": "boss-a03-t4-12",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Bağlantı ifadeleri",
+  "outcome": "Karşılaştırma, benzerlik ve farklılık bildiren dil yapılarını; isimlerin yerini tutan sözcükleri; öncelik-sonralık ve özet bildiren ifadeleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 55",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her ifadeyi bildirdiği anlamla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Önce, ardından",
+     "Öncelik-sonralık"
+    ],
+    [
+     "Her ikisi de",
+     "Benzerlik"
+    ],
+    [
+     "Buna karşılık",
+     "Farklılık"
+    ]
+   ]
+  },
+  "textPlain": "Her ifadeyi bildirdiği anlamla eşleştir. Sol: Önce, ardından; Her ikisi de; Buna karşılık. Sağ: Öncelik-sonralık; Benzerlik; Farklılık.",
+  "correctAnswer": "Önce, ardından = Öncelik-sonralık; Her ikisi de = Benzerlik; Buna karşılık = Farklılık",
+  "explanation": "“Önce, ardından” sıra; “her ikisi de” benzerlik; “buna karşılık” farklılık bildirir."
+ },
+ {
+  "questionId": "boss-a03-t4-13",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Tanıtma paragrafı",
+  "outcome": "Sıralı-kronolojik metin yapısını, tanıtma paragrafının ve şiirin özelliklerini belirler; metnin anlamını yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 34",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir yeri, yemeği ya da geleneği okura tanıtmak amacıyla yazılan paragrafa ne ad verilir?",
+  "data": {
+   "options": [
+    "Tanıtma paragrafı",
+    "Şiir",
+    "Mektup"
+   ]
+  },
+  "textPlain": "Bir yeri, yemeği ya da geleneği okura tanıtmak amacıyla yazılan paragrafa ne ad verilir? Seçenekler: Tanıtma paragrafı / Şiir / Mektup",
+  "correctAnswer": "Tanıtma paragrafı",
+  "explanation": "Bir şeyi özellikleriyle okura tanıtan paragrafa tanıtma paragrafı denir."
+ },
+ {
+  "questionId": "boss-a03-t4-14",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Mecaz anlam",
+  "outcome": "Kelimelerin bağlamdaki ve sözlükteki anlamlarını belirler; eş ve zıt anlamlı kelimeleri ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 16",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede “ağır” kelimesi mecaz anlamda kullanılmıştır?",
+  "data": {
+   "options": [
+    "Bu söz bana çok ağır geldi.",
+    "Bavul çok ağırdı.",
+    "Ağır taşı kaldıramadı."
+   ]
+  },
+  "textPlain": "Hangi cümlede “ağır” kelimesi mecaz anlamda kullanılmıştır? Seçenekler: Bu söz bana çok ağır geldi. / Bavul çok ağırdı. / Ağır taşı kaldıramadı.",
+  "correctAnswer": "Bu söz bana çok ağır geldi.",
+  "explanation": "“Ağır gelmek” üzmek, kırmak anlamındadır; diğerlerinde ağırlık bildirir."
+ },
+ {
+  "questionId": "boss-a03-t4-15",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Sıralı metin",
+  "outcome": "Sıralı-kronolojik metin yapısını, tanıtma paragrafının ve şiirin özelliklerini belirler; metnin anlamını yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 34",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre desenin kâğıda geçmesi için EN SON ne yapılır?",
+  "data": {
+   "options": [
+    "Kâğıt suyun üzerine konup kaldırılır.",
+    "Boyalar suyun yüzeyine serpilir.",
+    "Boyalar çubukla dalgalandırılır."
+   ],
+   "passage": "Ebru, su üzerine resim yapma sanatıdır. Sanatçı önce kitreli suyun yüzeyine fırçayla boyaları serper. Ardından ince bir çubukla boyaları dalgalandırarak desen oluşturur. Son olarak kâğıdı suyun üzerine dikkatlice koyar ve kaldırır. Böylece desen kâğıda geçer."
+  },
+  "textPlain": "Metin: Ebru, su üzerine resim yapma sanatıdır. Sanatçı önce kitreli suyun yüzeyine fırçayla boyaları serper. Ardından ince bir çubukla boyaları dalgalandırarak desen oluşturur. Son olarak kâğıdı suyun üzerine dikkatlice koyar ve kaldırır. Böylece desen kâğıda geçer. Soru: Yukarıdaki metne göre desenin kâğıda geçmesi için EN SON ne yapılır? Seçenekler: Kâğıt suyun üzerine konup kaldırılır. / Boyalar suyun yüzeyine serpilir. / Boyalar çubukla dalgalandırılır.",
+  "correctAnswer": "Kâğıt suyun üzerine konup kaldırılır.",
+  "explanation": "Metinde “son olarak” ifadesiyle kâğıdın suya konup kaldırıldığı anlatılır."
+ },
+ {
+  "questionId": "boss-a03-t4-16",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Metin yapısı",
+  "outcome": "Sıralı-kronolojik metin yapısını, tanıtma paragrafının ve şiirin özelliklerini belirler; metnin anlamını yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 34",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metin hangi yapıda yazılmıştır?",
+  "data": {
+   "options": [
+    "Sıralı (kronolojik) yapı",
+    "Soru-cevap yapısı",
+    "Karşılaştırma yapısı"
+   ],
+   "passage": "Ebru, su üzerine resim yapma sanatıdır. Sanatçı önce kitreli suyun yüzeyine fırçayla boyaları serper. Ardından ince bir çubukla boyaları dalgalandırarak desen oluşturur. Son olarak kâğıdı suyun üzerine dikkatlice koyar ve kaldırır. Böylece desen kâğıda geçer."
+  },
+  "textPlain": "Metin: Ebru, su üzerine resim yapma sanatıdır. Sanatçı önce kitreli suyun yüzeyine fırçayla boyaları serper. Ardından ince bir çubukla boyaları dalgalandırarak desen oluşturur. Son olarak kâğıdı suyun üzerine dikkatlice koyar ve kaldırır. Böylece desen kâğıda geçer. Soru: Yukarıdaki metin hangi yapıda yazılmıştır? Seçenekler: Sıralı (kronolojik) yapı / Soru-cevap yapısı / Karşılaştırma yapısı",
+  "correctAnswer": "Sıralı (kronolojik) yapı",
+  "explanation": "Metin ebru yapımının adımlarını “önce, ardından, son olarak” ifadeleriyle sırasıyla anlatır."
+ },
+ {
+  "questionId": "boss-a03-t4-17",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Atasözü",
+  "outcome": "Deyim ve kalıplaşmış sözlerin anlamlarını belirler ve uygun durumlarda kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 25",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Bir fincan kahvenin kırk yıl hatırı vardır.” atasözü neyi anlatır?",
+  "data": {
+   "options": [
+    "Küçük bir iyiliğin bile uzun süre unutulmaması gerektiğini",
+    "Kahvenin çok değerli bir içecek olduğunu",
+    "Misafirin uzun süre kalmaması gerektiğini"
+   ]
+  },
+  "textPlain": "“Bir fincan kahvenin kırk yıl hatırı vardır.” atasözü neyi anlatır? Seçenekler: Küçük bir iyiliğin bile uzun süre unutulmaması gerektiğini / Kahvenin çok değerli bir içecek olduğunu / Misafirin uzun süre kalmaması gerektiğini",
+  "correctAnswer": "Küçük bir iyiliğin bile uzun süre unutulmaması gerektiğini",
+  "explanation": "Atasözü, görülen küçük bir iyiliğin bile uzun yıllar hatırlanması gerektiğini anlatır."
+ },
+ {
+  "questionId": "boss-a03-t4-18",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Büyük harf",
+  "outcome": "Sayıların yazımına, büyük harflerin, kesme işaretinin ve üç noktanın kullanımına ilişkin kuralları uygular.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 27",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede büyük harfler doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Dedem Erzurum’dan bize mektup yazdı.",
+    "dedem Erzurum’dan bize mektup yazdı.",
+    "Dedem erzurum’dan bize mektup yazdı."
+   ]
+  },
+  "textPlain": "Hangi cümlede büyük harfler doğru kullanılmıştır? Seçenekler: Dedem Erzurum’dan bize mektup yazdı. / dedem Erzurum’dan bize mektup yazdı. / Dedem erzurum’dan bize mektup yazdı.",
+  "correctAnswer": "Dedem Erzurum’dan bize mektup yazdı.",
+  "explanation": "Cümle büyük harfle başlar; şehir adları gibi özel isimler büyük harfle yazılır."
+ },
+ {
+  "questionId": "boss-a03-t4-19",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Özet ifadesi",
+  "outcome": "Karşılaştırma, benzerlik ve farklılık bildiren dil yapılarını; isimlerin yerini tutan sözcükleri; öncelik-sonralık ve özet bildiren ifadeleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 55",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir metnin sonunda anlatılanları kısaca toparlamak için hangi ifade kullanılır?",
+  "data": {
+   "options": [
+    "Kısacası",
+    "Örneğin",
+    "Ardından"
+   ]
+  },
+  "textPlain": "Bir metnin sonunda anlatılanları kısaca toparlamak için hangi ifade kullanılır? Seçenekler: Kısacası / Örneğin / Ardından",
+  "correctAnswer": "Kısacası",
+  "explanation": "“Kısacası, özetle” ifadeleri özet bildirir; “örneğin” örnek, “ardından” sıra bildirir."
+ },
+ {
+  "questionId": "boss-a03-t4-20",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: Geleneklerimiz",
+  "topic": "Bağlamda anlam",
+  "outcome": "Kelimelerin bağlamdaki ve sözlükteki anlamlarını belirler; eş ve zıt anlamlı kelimeleri ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Geleneklerimiz”, s. 16",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Halının yüzü çok yumuşaktı.” cümlesinde “yüz” kelimesi hangi anlamda kullanılmıştır?",
+  "data": {
+   "options": [
+    "Bir şeyin üst, dış tarafı",
+    "Bir sayı",
+    "İnsanın yüzü"
+   ]
+  },
+  "textPlain": "“Halının yüzü çok yumuşaktı.” cümlesinde “yüz” kelimesi hangi anlamda kullanılmıştır? Seçenekler: Bir şeyin üst, dış tarafı / Bir sayı / İnsanın yüzü",
+  "correctAnswer": "Bir şeyin üst, dış tarafı",
+  "explanation": "Kelimenin anlamı cümleden anlaşılır: burada halının üst yüzeyidir."
+ },
+ {
+  "questionId": "boss-a03-t5-01",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Empati",
+  "outcome": "Etkili iletişim, empati, beden dili ve dijital ortamda bilgi güvenliği konularında uygun davranışları belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78, 101",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kendini başkasının yerine koyarak onun duygu ve düşüncelerini anlamaya ne denir?",
+  "data": {
+   "options": [
+    "Empati",
+    "Eleştiri",
+    "Övgü"
+   ]
+  },
+  "textPlain": "Kendini başkasının yerine koyarak onun duygu ve düşüncelerini anlamaya ne denir? Seçenekler: Empati / Eleştiri / Övgü",
+  "correctAnswer": "Empati",
+  "explanation": "Kendini karşındakinin yerine koyarak onu anlamaya empati denir."
+ },
+ {
+  "questionId": "boss-a03-t5-02",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Dijital güvenlik",
+  "outcome": "Etkili iletişim, empati, beden dili ve dijital ortamda bilgi güvenliği konularında uygun davranışları belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78, 101",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Dijital ortamdaki davranışları güvenli ve güvenli değil diye ayır.",
+  "data": {
+   "bins": [
+    "Güvenli",
+    "Güvenli değil"
+   ],
+   "items": [
+    [
+     "Şifremi kimseyle paylaşmam.",
+     0
+    ],
+    [
+     "Tanımadığım kişinin gönderdiği bağlantıya tıklamam.",
+     0
+    ],
+    [
+     "Ev adresimi oyun sohbetinde yazarım.",
+     1
+    ],
+    [
+     "Okulumun adını ve fotoğrafımı herkese açık paylaşırım.",
+     1
+    ],
+    [
+     "Bir sorun yaşarsam ailemle konuşurum.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Dijital ortamdaki davranışları güvenli ve güvenli değil diye ayır. (Güvenli / Güvenli değil) Kartlar: Şifremi kimseyle paylaşmam.; Tanımadığım kişinin gönderdiği bağlantıya tıklamam.; Ev adresimi oyun sohbetinde yazarım.; Okulumun adını ve fotoğrafımı herkese açık paylaşırım.; Bir sorun yaşarsam ailemle konuşurum..",
+  "correctAnswer": "Güvenli: Şifremi kimseyle paylaşmam., Tanımadığım kişinin gönderdiği bağlantıya tıklamam., Bir sorun yaşarsam ailemle konuşurum.. Güvenli değil: Ev adresimi oyun sohbetinde yazarım., Okulumun adını ve fotoğrafımı herkese açık paylaşırım..",
+  "explanation": "Kişisel bilgiler (şifre, adres, okul, fotoğraf) paylaşılmaz; şüpheli bağlantılara tıklanmaz, sorun olunca büyüklere haber verilir."
+ },
+ {
+  "questionId": "boss-a03-t5-03",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Tırnak işareti",
+  "outcome": "Büyük harflerin, tırnak işaretinin ve kesme işaretinin kullanıldığı yerleri belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Tırnak işareti hangi durumda kullanılır?",
+  "data": {
+   "options": [
+    "Başkasının sözünü aynen aktarırken",
+    "Cümlenin bittiğini gösterirken",
+    "Sıralanan kelimeleri ayırırken"
+   ]
+  },
+  "textPlain": "Tırnak işareti hangi durumda kullanılır? Seçenekler: Başkasının sözünü aynen aktarırken / Cümlenin bittiğini gösterirken / Sıralanan kelimeleri ayırırken",
+  "correctAnswer": "Başkasının sözünü aynen aktarırken",
+  "explanation": "Başkasından aynen aktarılan sözler tırnak içine alınır."
+ },
+ {
+  "questionId": "boss-a03-t5-04",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Sesteş kelimeler",
+  "outcome": "Kelimelerin bağlamdaki anlamlarını belirler; gerçek, mecaz ve sesteş anlamları ayırt eder; deyim ve atasözlerini yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 83",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Yaz geldi, denize gideceğiz.” ve “Adını deftere yaz.” cümlelerindeki “yaz” kelimeleri için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Yazılışları aynı, anlamları farklıdır.",
+    "Anlamları aynıdır.",
+    "Zıt anlamlıdırlar."
+   ]
+  },
+  "textPlain": "“Yaz geldi, denize gideceğiz.” ve “Adını deftere yaz.” cümlelerindeki “yaz” kelimeleri için hangisi doğrudur? Seçenekler: Yazılışları aynı, anlamları farklıdır. / Anlamları aynıdır. / Zıt anlamlıdırlar.",
+  "correctAnswer": "Yazılışları aynı, anlamları farklıdır.",
+  "explanation": "Yazılışı aynı, anlamı farklı kelimelere sesteş kelime denir: mevsim olan “yaz” ve yazmak eylemi."
+ },
+ {
+  "questionId": "boss-a03-t5-05",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Beden dili",
+  "outcome": "Etkili iletişim, empati, beden dili ve dijital ortamda bilgi güvenliği konularında uygun davranışları belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78, 101",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Konuşurken karşımızdakinin gözlerine bakmak, onu dinlediğimizi gösteren bir beden dilidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Konuşurken karşımızdakinin gözlerine bakmak, onu dinlediğimizi gösteren bir beden dilidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Göz teması, baş sallama gibi hareketler karşımızdakini dinlediğimizi gösterir."
+ },
+ {
+  "questionId": "boss-a03-t5-06",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Sonlandırma ifadesi",
+  "outcome": "Etkili iletişim, empati, beden dili ve dijital ortamda bilgi güvenliği konularında uygun davranışları belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78, 101",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir mektubu bitirirken hangisi sonlandırma ifadesi olarak kullanılır?",
+  "data": {
+   "options": [
+    "Sevgiyle kal.",
+    "Merhaba sevgili dostum,",
+    "Nasılsın?"
+   ]
+  },
+  "textPlain": "Bir mektubu bitirirken hangisi sonlandırma ifadesi olarak kullanılır? Seçenekler: Sevgiyle kal. / Merhaba sevgili dostum, / Nasılsın?",
+  "correctAnswer": "Sevgiyle kal.",
+  "explanation": "Mektuplar selamla başlar, “Sevgiyle kal.” gibi sonlandırma ifadeleriyle biter."
+ },
+ {
+  "questionId": "boss-a03-t5-07",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Zıt anlam",
+  "outcome": "Kelimelerin bağlamdaki anlamlarını belirler; gerçek, mecaz ve sesteş anlamları ayırt eder; deyim ve atasözlerini yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 83",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kırıcı” kelimesinin zıt anlamlısı hangisidir?",
+  "data": {
+   "options": [
+    "Nazik",
+    "Sert",
+    "Kaba"
+   ]
+  },
+  "textPlain": "“Kırıcı” kelimesinin zıt anlamlısı hangisidir? Seçenekler: Nazik / Sert / Kaba",
+  "correctAnswer": "Nazik",
+  "explanation": "“Sert” ve “kaba” kırıcıyla yakın anlamlıdır; zıt anlamlısı “nazik”tir."
+ },
+ {
+  "questionId": "boss-a03-t5-08",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Örtük ifade",
+  "outcome": "Açık ve örtük ifadeleri ayırt eder; bağlantı ifadelerini ve isimlerin yerini tutan sözcükleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 92–93",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede istek örtük (dolaylı) olarak anlatılmıştır?",
+  "data": {
+   "options": [
+    "Sanırım burası biraz üşüttü, pencere açık kalmış.",
+    "Lütfen pencereyi kapat.",
+    "Pencereyi kapatmanı istiyorum."
+   ]
+  },
+  "textPlain": "Hangi cümlede istek örtük (dolaylı) olarak anlatılmıştır? Seçenekler: Sanırım burası biraz üşüttü, pencere açık kalmış. / Lütfen pencereyi kapat. / Pencereyi kapatmanı istiyorum.",
+  "correctAnswer": "Sanırım burası biraz üşüttü, pencere açık kalmış.",
+  "explanation": "Birinci cümlede pencerenin kapatılması istendiği doğrudan söylenmez, sezdirilir; bu örtük ifadedir."
+ },
+ {
+  "questionId": "boss-a03-t5-09",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Bağlantı ifadesi",
+  "outcome": "Açık ve örtük ifadeleri ayırt eder; bağlantı ifadelerini ve isimlerin yerini tutan sözcükleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 92–93",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Yağmur başladı, ___ şemsiyemi açtım.” cümlesindeki boşluğa hangisi gelmelidir?",
+  "data": {
+   "options": [
+    "bu yüzden",
+    "ama",
+    "oysa"
+   ]
+  },
+  "textPlain": "“Yağmur başladı, ___ şemsiyemi açtım.” cümlesindeki boşluğa hangisi gelmelidir? Seçenekler: bu yüzden / ama / oysa",
+  "correctAnswer": "bu yüzden",
+  "explanation": "Şemsiyeyi açmak yağmurun sonucudur; sebep-sonuç ilişkisini “bu yüzden” kurar."
+ },
+ {
+  "questionId": "boss-a03-t5-10",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Gönül deyimleri",
+  "outcome": "Kelimelerin bağlamdaki anlamlarını belirler; gerçek, mecaz ve sesteş anlamları ayırt eder; deyim ve atasözlerini yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 83",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her deyimi anlamıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Gönül almak",
+     "Kırılan birini sevindirmek"
+    ],
+    [
+     "Gönlü kalmak",
+     "İstediği olmadığı için üzülmek"
+    ],
+    [
+     "Gönül vermek",
+     "Bir şeyi çok sevmek"
+    ]
+   ]
+  },
+  "textPlain": "Her deyimi anlamıyla eşleştir. Sol: Gönül almak; Gönlü kalmak; Gönül vermek. Sağ: Kırılan birini sevindirmek; İstediği olmadığı için üzülmek; Bir şeyi çok sevmek.",
+  "correctAnswer": "Gönül almak = Kırılan birini sevindirmek; Gönlü kalmak = İstediği olmadığı için üzülmek; Gönül vermek = Bir şeyi çok sevmek",
+  "explanation": "“Gönül almak” kırılan birinin gönlünü hoş etmek, “gönlü kalmak” isteği gerçekleşmediği için üzülmek, “gönül vermek” çok sevmektir."
+ },
+ {
+  "questionId": "boss-a03-t5-11",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Kesme işareti",
+  "outcome": "Büyük harflerin, tırnak işaretinin ve kesme işaretinin kullanıldığı yerleri belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede yazım doğrudur?",
+  "data": {
+   "options": [
+    "Mektubu 15 Mayıs’ta yazdım.",
+    "Mektubu 15 Mayısta yazdım.",
+    "Mektubu 15 mayıs’ta yazdım."
+   ]
+  },
+  "textPlain": "Hangi cümlede yazım doğrudur? Seçenekler: Mektubu 15 Mayıs’ta yazdım. / Mektubu 15 Mayısta yazdım. / Mektubu 15 mayıs’ta yazdım.",
+  "correctAnswer": "Mektubu 15 Mayıs’ta yazdım.",
+  "explanation": "Belirli tarihlerde ay adı büyük harfle başlar ve ek kesme işaretiyle ayrılır: 15 Mayıs’ta."
+ },
+ {
+  "questionId": "boss-a03-t5-12",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Söz sanatları",
+  "outcome": "Metindeki önemli ve önemsiz bilgileri ayırt eder, metinden çıkarım yapar, söz sanatlarını ve metin türlerini belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 85",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Ağaç, rüzgâra ‘Beni bu kadar sallama!’ dedi.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Konuşturma",
+    "Benzetme",
+    "Karşılaştırma"
+   ]
+  },
+  "textPlain": "“Ağaç, rüzgâra ‘Beni bu kadar sallama!’ dedi.” cümlesinde hangi söz sanatı vardır? Seçenekler: Konuşturma / Benzetme / Karşılaştırma",
+  "correctAnswer": "Konuşturma",
+  "explanation": "İnsan dışındaki bir varlığın konuşturulmasına konuşturma denir."
+ },
+ {
+  "questionId": "boss-a03-t5-13",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Metin türü",
+  "outcome": "Metindeki önemli ve önemsiz bilgileri ayırt eder, metinden çıkarım yapar, söz sanatlarını ve metin türlerini belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 85",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Okura bir konu hakkında bilgi vermek amacıyla yazılan metin hangisidir?",
+  "data": {
+   "options": [
+    "Bilgilendirici metin",
+    "Öyküleyici metin",
+    "Şiir"
+   ]
+  },
+  "textPlain": "Okura bir konu hakkında bilgi vermek amacıyla yazılan metin hangisidir? Seçenekler: Bilgilendirici metin / Öyküleyici metin / Şiir",
+  "correctAnswer": "Bilgilendirici metin",
+  "explanation": "Bilgilendirici metin bir konu hakkında bilgi verir; öyküleyici metin kişilerin başından geçen olayları anlatır."
+ },
+ {
+  "questionId": "boss-a03-t5-14",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "İsimlerin yerini tutan sözcükler",
+  "outcome": "Açık ve örtük ifadeleri ayırt eder; bağlantı ifadelerini ve isimlerin yerini tutan sözcükleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 92–93",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Mektubu postacıya verdim. O da mektubu hemen götürdü.” cümlelerinde “O” kimi gösterir?",
+  "data": {
+   "options": [
+    "Postacıyı",
+    "Mektubu",
+    "Anlatıcıyı"
+   ]
+  },
+  "textPlain": "“Mektubu postacıya verdim. O da mektubu hemen götürdü.” cümlelerinde “O” kimi gösterir? Seçenekler: Postacıyı / Mektubu / Anlatıcıyı",
+  "correctAnswer": "Postacıyı",
+  "explanation": "“O” sözcüğü önceki cümlede geçen postacının yerini tutar."
+ },
+ {
+  "questionId": "boss-a03-t5-15",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Önemli ve önemsiz bilgi",
+  "outcome": "Metindeki önemli ve önemsiz bilgileri ayırt eder, metinden çıkarım yapar, söz sanatlarını ve metin türlerini belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 85",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde hangisi metnin konusu için ÖNEMSİZ bir ayrıntıdır?",
+  "data": {
+   "options": [
+    "Masanın üstünde mavi bir lamba olması",
+    "Ali’nin Can’a mektup yazması",
+    "Ali’nin oyunlarını özlemesi"
+   ],
+   "passage": "Ali, uzun zamandır görmediği arkadaşı Can’a mektup yazmak istiyordu. Bir akşam masasının başına geçti; masanın üstünde mavi bir lamba vardı. Mektubunda taşındığı şehirdeki yeni okulunu, öğretmenlerini ve en çok Can’la birlikte oynadıkları oyunları özlediğini anlattı."
+  },
+  "textPlain": "Metin: Ali, uzun zamandır görmediği arkadaşı Can’a mektup yazmak istiyordu. Bir akşam masasının başına geçti; masanın üstünde mavi bir lamba vardı. Mektubunda taşındığı şehirdeki yeni okulunu, öğretmenlerini ve en çok Can’la birlikte oynadıkları oyunları özlediğini anlattı. Soru: Yukarıdaki metinde hangisi metnin konusu için ÖNEMSİZ bir ayrıntıdır? Seçenekler: Masanın üstünde mavi bir lamba olması / Ali’nin Can’a mektup yazması / Ali’nin oyunlarını özlemesi",
+  "correctAnswer": "Masanın üstünde mavi bir lamba olması",
+  "explanation": "Metnin konusu Ali’nin Can’a yazdığı mektuptur; lambanın rengi konuyu etkilemeyen bir ayrıntıdır."
+ },
+ {
+  "questionId": "boss-a03-t5-16",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Çıkarım",
+  "outcome": "Metindeki önemli ve önemsiz bilgileri ayırt eder, metinden çıkarım yapar, söz sanatlarını ve metin türlerini belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 85",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinden hangi çıkarım yapılabilir?",
+  "data": {
+   "options": [
+    "Ali ile Can artık farklı şehirlerde yaşıyor.",
+    "Can, Ali’nin öğretmenidir.",
+    "Ali yeni okulunu hiç sevmedi."
+   ],
+   "passage": "Ali, uzun zamandır görmediği arkadaşı Can’a mektup yazmak istiyordu. Bir akşam masasının başına geçti; masanın üstünde mavi bir lamba vardı. Mektubunda taşındığı şehirdeki yeni okulunu, öğretmenlerini ve en çok Can’la birlikte oynadıkları oyunları özlediğini anlattı."
+  },
+  "textPlain": "Metin: Ali, uzun zamandır görmediği arkadaşı Can’a mektup yazmak istiyordu. Bir akşam masasının başına geçti; masanın üstünde mavi bir lamba vardı. Mektubunda taşındığı şehirdeki yeni okulunu, öğretmenlerini ve en çok Can’la birlikte oynadıkları oyunları özlediğini anlattı. Soru: Yukarıdaki metinden hangi çıkarım yapılabilir? Seçenekler: Ali ile Can artık farklı şehirlerde yaşıyor. / Can, Ali’nin öğretmenidir. / Ali yeni okulunu hiç sevmedi.",
+  "correctAnswer": "Ali ile Can artık farklı şehirlerde yaşıyor.",
+  "explanation": "Ali’nin taşındığı şehirdeki yeni okulunu anlatması ve Can’ı özlemesi, artık farklı şehirlerde yaşadıklarını gösterir."
+ },
+ {
+  "questionId": "boss-a03-t5-17",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Etkili dinleme",
+  "outcome": "Etkili iletişim, empati, beden dili ve dijital ortamda bilgi güvenliği konularında uygun davranışları belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78, 101",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Üzgün olan arkadaşın derdini anlatırken hangi davranış etkili dinlemeye uygundur?",
+  "data": {
+   "options": [
+    "Sözünü kesmeden dinleyip onu anladığını söylemek",
+    "Bir yandan telefonla ilgilenmek",
+    "Hemen kendi sorununu anlatmaya başlamak"
+   ]
+  },
+  "textPlain": "Üzgün olan arkadaşın derdini anlatırken hangi davranış etkili dinlemeye uygundur? Seçenekler: Sözünü kesmeden dinleyip onu anladığını söylemek / Bir yandan telefonla ilgilenmek / Hemen kendi sorununu anlatmaya başlamak",
+  "correctAnswer": "Sözünü kesmeden dinleyip onu anladığını söylemek",
+  "explanation": "Etkili dinlemede söz kesilmez, dikkat karşıdakine verilir ve duygusunu anladığımızı gösteririz."
+ },
+ {
+  "questionId": "boss-a03-t5-18",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Mecaz anlam",
+  "outcome": "Kelimelerin bağlamdaki anlamlarını belirler; gerçek, mecaz ve sesteş anlamları ayırt eder; deyim ve atasözlerini yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 83",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede “sıcak” kelimesi mecaz anlamda kullanılmıştır?",
+  "data": {
+   "options": [
+    "Öğretmenimiz bizi sıcak bir gülümsemeyle karşıladı.",
+    "Sıcak çorbayı yavaşça içti.",
+    "Bugün hava çok sıcak."
+   ]
+  },
+  "textPlain": "Hangi cümlede “sıcak” kelimesi mecaz anlamda kullanılmıştır? Seçenekler: Öğretmenimiz bizi sıcak bir gülümsemeyle karşıladı. / Sıcak çorbayı yavaşça içti. / Bugün hava çok sıcak.",
+  "correctAnswer": "Öğretmenimiz bizi sıcak bir gülümsemeyle karşıladı.",
+  "explanation": "“Sıcak gülümseme” içten, samimi anlamındadır; diğerlerinde sıcaklık bildirir."
+ },
+ {
+  "questionId": "boss-a03-t5-19",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Bağlantı ifadesi",
+  "outcome": "Açık ve örtük ifadeleri ayırt eder; bağlantı ifadelerini ve isimlerin yerini tutan sözcükleri işlevine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 92–93",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Kardeşim mektup yazmayı sever; ___ ben telefonla konuşmayı tercih ederim.” cümlesindeki boşluğa hangisi gelmelidir?",
+  "data": {
+   "options": [
+    "buna karşılık",
+    "bu yüzden",
+    "örneğin"
+   ]
+  },
+  "textPlain": "“Kardeşim mektup yazmayı sever; ___ ben telefonla konuşmayı tercih ederim.” cümlesindeki boşluğa hangisi gelmelidir? Seçenekler: buna karşılık / bu yüzden / örneğin",
+  "correctAnswer": "buna karşılık",
+  "explanation": "İki kişinin farklı tercihleri karşılaştırılıyor; farklılığı “buna karşılık” bildirir."
+ },
+ {
+  "questionId": "boss-a03-t5-20",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Büyük harf",
+  "outcome": "Büyük harflerin, tırnak işaretinin ve kesme işaretinin kullanıldığı yerleri belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 5. Tema “İletişim ve Sosyal İlişkiler”, s. 78",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede büyük harf kullanımı doğrudur?",
+  "data": {
+   "options": [
+    "Mektubu Türkçe öğretmenimize verdik.",
+    "Mektubu türkçe öğretmenimize verdik.",
+    "mektubu Türkçe Öğretmenimize verdik."
+   ]
+  },
+  "textPlain": "Hangi cümlede büyük harf kullanımı doğrudur? Seçenekler: Mektubu Türkçe öğretmenimize verdik. / Mektubu türkçe öğretmenimize verdik. / mektubu Türkçe Öğretmenimize verdik.",
+  "correctAnswer": "Mektubu Türkçe öğretmenimize verdik.",
+  "explanation": "Dil adları büyük harfle başlar (Türkçe); cümle de büyük harfle başlar."
+ }
+]
