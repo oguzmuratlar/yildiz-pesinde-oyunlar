@@ -1,0 +1,3143 @@
+[
+ {
+  "questionId": "boss-a07-f5-01",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Genleşme",
+  "outcome": "Isı etkisiyle maddelerin genleşip büzülmesine yönelik bilimsel gözleme dayalı tahminler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 24",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Isıtılan bir metal çubuğun boyu nasıl değişir?",
+  "data": {
+   "options": [
+    "Uzar.",
+    "Kısalır.",
+    "Değişmez."
+   ]
+  },
+  "textPlain": "Isıtılan bir metal çubuğun boyu nasıl değişir? Seçenekler: Uzar. / Kısalır. / Değişmez.",
+  "correctAnswer": "Uzar.",
+  "explanation": "Maddeler ısı alınca genleşir; metal çubuk ısıtılınca uzar."
+ },
+ {
+  "questionId": "boss-a07-f5-02",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Donma noktası",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 28, 35",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Saf suyun donma noktası kaç °C’tur?",
+  "data": {
+   "options": [
+    "0",
+    "100",
+    "−10"
+   ]
+  },
+  "textPlain": "Saf suyun donma noktası kaç °C’tur? Seçenekler: 0 / 100 / −10",
+  "correctAnswer": "0",
+  "explanation": "Saf su 0 °C’ta donar, 100 °C’ta kaynar."
+ },
+ {
+  "questionId": "boss-a07-f5-03",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Erime ve donma noktası",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 28, 35",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Aynı saf maddenin erime noktası ile donma noktası aynı sıcaklıktır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Aynı saf maddenin erime noktası ile donma noktası aynı sıcaklıktır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Aynı saf maddenin erime ve donma noktaları eşittir."
+ },
+ {
+  "questionId": "boss-a07-f5-04",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Yoğunluk",
+  "outcome": "Yoğunluğa ilişkin hesaplamalar yaparak bilimsel veriye dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 48",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir maddenin yoğunluğu nasıl hesaplanır?",
+  "data": {
+   "options": [
+    "Kütle ÷ Hacim",
+    "Kütle × Hacim",
+    "Hacim ÷ Kütle"
+   ]
+  },
+  "textPlain": "Bir maddenin yoğunluğu nasıl hesaplanır? Seçenekler: Kütle ÷ Hacim / Kütle × Hacim / Hacim ÷ Kütle",
+  "correctAnswer": "Kütle ÷ Hacim",
+  "explanation": "Yoğunluk, birim hacimdeki madde miktarıdır: kütle ÷ hacim."
+ },
+ {
+  "questionId": "boss-a07-f5-05",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Batma ve yüzme",
+  "outcome": "Deneyler sonucunda çeşitli maddelerin yoğunluklarına ilişkin tümdengelimsel akıl yürütür; suyun katı ve sıvı hâllerinin yoğunluklarını karşılaştırarak canlılar için önemi hakkında bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 50–51, 59",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cisimleri suda batanlar ve yüzenler diye ayır.",
+  "data": {
+   "bins": [
+    "Suda batar",
+    "Suda yüzer"
+   ],
+   "items": [
+    [
+     "Demir çivi",
+     0
+    ],
+    [
+     "Mantar tıpa",
+     1
+    ],
+    [
+     "Taş",
+     0
+    ],
+    [
+     "Tahta parçası",
+     1
+    ],
+    [
+     "Bozuk para",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cisimleri suda batanlar ve yüzenler diye ayır. (Suda batar / Suda yüzer) Kartlar: Demir çivi; Mantar tıpa; Taş; Tahta parçası; Bozuk para.",
+  "correctAnswer": "Suda batar: Demir çivi, Taş, Bozuk para. Suda yüzer: Mantar tıpa, Tahta parçası.",
+  "explanation": "Yoğunluğu sudan büyük olan cisimler batar, küçük olanlar yüzer."
+ },
+ {
+  "questionId": "boss-a07-f5-06",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Genleşme",
+  "outcome": "Isı etkisiyle maddelerin genleşip büzülmesine yönelik bilimsel gözleme dayalı tahminler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 24",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Yaz aylarında elektrik tellerinin sarkmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Isınan tellerin genleşip uzaması",
+    "Tellerin soğuyup büzülmesi",
+    "Rüzgârın telleri çekmesi"
+   ]
+  },
+  "textPlain": "Yaz aylarında elektrik tellerinin sarkmasının nedeni nedir? Seçenekler: Isınan tellerin genleşip uzaması / Tellerin soğuyup büzülmesi / Rüzgârın telleri çekmesi",
+  "correctAnswer": "Isınan tellerin genleşip uzaması",
+  "explanation": "Sıcakta teller genleşip uzadığı için sarkar."
+ },
+ {
+  "questionId": "boss-a07-f5-07",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Kaynama noktası",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 34",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Saf su deniz seviyesinde kaç °C’ta kaynar?",
+  "data": {
+   "options": [
+    "100",
+    "0",
+    "50"
+   ]
+  },
+  "textPlain": "Saf su deniz seviyesinde kaç °C’ta kaynar? Seçenekler: 100 / 0 / 50",
+  "correctAnswer": "100",
+  "explanation": "Saf suyun deniz seviyesindeki kaynama noktası 100 °C’tur."
+ },
+ {
+  "questionId": "boss-a07-f5-08",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Yoğunluk hesabı",
+  "outcome": "Yoğunluğa ilişkin hesaplamalar yaparak bilimsel veriye dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 48",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Kütlesi 60 g, hacmi 20 cm³ olan bir maddenin yoğunluğu kaç g/cm³’tür?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": "g/cm³"
+  },
+  "textPlain": "Kütlesi 60 g, hacmi 20 cm³ olan bir maddenin yoğunluğu kaç g/cm³’tür?",
+  "correctAnswer": "3 g/cm³",
+  "explanation": "Yoğunluk = 60 ÷ 20 = 3 g/cm³."
+ },
+ {
+  "questionId": "boss-a07-f5-09",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Sıvı katmanları",
+  "outcome": "Deneyler sonucunda çeşitli maddelerin yoğunluklarına ilişkin tümdengelimsel akıl yürütür; suyun katı ve sıvı hâllerinin yoğunluklarını karşılaştırarak canlılar için önemi hakkında bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 50–51, 59",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Birbiri içinde çözünmeyen sıvılar aynı kaba konulursa yoğunluğu en büyük olan nerede bulunur?",
+  "data": {
+   "options": [
+    "En altta",
+    "En üstte",
+    "Ortada"
+   ]
+  },
+  "textPlain": "Birbiri içinde çözünmeyen sıvılar aynı kaba konulursa yoğunluğu en büyük olan nerede bulunur? Seçenekler: En altta / En üstte / Ortada",
+  "correctAnswer": "En altta",
+  "explanation": "Yoğunluğu büyük olan sıvı altta, küçük olan üstte konumlanır."
+ },
+ {
+  "questionId": "boss-a07-f5-10",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Erime",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 28, 35",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir saf madde erimeye devam ettiği sürece sıcaklığı nasıl değişir?",
+  "data": {
+   "options": [
+    "Sabit kalır.",
+    "Sürekli artar.",
+    "Sürekli azalır."
+   ]
+  },
+  "textPlain": "Bir saf madde erimeye devam ettiği sürece sıcaklığı nasıl değişir? Seçenekler: Sabit kalır. / Sürekli artar. / Sürekli azalır.",
+  "correctAnswer": "Sabit kalır.",
+  "explanation": "Saf maddenin sıcaklığı erime ve donma süresince sabit kalır."
+ },
+ {
+  "questionId": "boss-a07-f5-11",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Maddenin hâli",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 34",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Erime noktası −10 °C, kaynama noktası 80 °C olan bir saf madde 25 °C’ta hangi hâldedir?",
+  "data": {
+   "options": [
+    "Sıvı",
+    "Katı",
+    "Gaz"
+   ]
+  },
+  "textPlain": "Erime noktası −10 °C, kaynama noktası 80 °C olan bir saf madde 25 °C’ta hangi hâldedir? Seçenekler: Sıvı / Katı / Gaz",
+  "correctAnswer": "Sıvı",
+  "explanation": "Erime noktası ile kaynama noktası arasındaki sıcaklıklarda saf madde sıvı hâldedir."
+ },
+ {
+  "questionId": "boss-a07-f5-12",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Genleşme",
+  "outcome": "Isı etkisiyle maddelerin genleşip büzülmesine yönelik bilimsel gözleme dayalı tahminler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 24",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Demir yolu raylarının arasında küçük boşluklar bırakılmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Sıcakta genleşen rayların eğrilmemesi",
+    "Trenin daha hızlı gitmesi",
+    "Rayların daha hafif olması"
+   ]
+  },
+  "textPlain": "Demir yolu raylarının arasında küçük boşluklar bırakılmasının nedeni nedir? Seçenekler: Sıcakta genleşen rayların eğrilmemesi / Trenin daha hızlı gitmesi / Rayların daha hafif olması",
+  "correctAnswer": "Sıcakta genleşen rayların eğrilmemesi",
+  "explanation": "Raylar sıcakta genleşir; boşluklar uzamaya yer açar ve rayların eğrilmesini önler."
+ },
+ {
+  "questionId": "boss-a07-f5-13",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Sıvı katmanları",
+  "outcome": "Deneyler sonucunda çeşitli maddelerin yoğunluklarına ilişkin tümdengelimsel akıl yürütür; suyun katı ve sıvı hâllerinin yoğunluklarını karşılaştırarak canlılar için önemi hakkında bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 50–51, 59",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Yoğunlukları zeytinyağı 0,9; su 1; bal 1,4 g/cm³’tür. Aynı kaba konulduklarında oluşan katmanları ÜSTTEN ALTA sırala.",
+  "data": {
+   "items": [
+    "Zeytinyağı",
+    "Su",
+    "Bal"
+   ]
+  },
+  "textPlain": "Yoğunlukları zeytinyağı 0,9; su 1; bal 1,4 g/cm³’tür. Aynı kaba konulduklarında oluşan katmanları ÜSTTEN ALTA sırala. Kartlar: Su; Bal; Zeytinyağı.",
+  "correctAnswer": "Zeytinyağı → Su → Bal",
+  "explanation": "Yoğunluğu en küçük olan en üstte, en büyük olan en altta bulunur."
+ },
+ {
+  "questionId": "boss-a07-f5-14",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Ayırt edici özellikler",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 34",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kavramı tanımıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Erime noktası",
+     "Katının sıvılaşmaya başladığı sıcaklık"
+    ],
+    [
+     "Kaynama noktası",
+     "Sıvının kaynamaya başladığı sıcaklık"
+    ],
+    [
+     "Ayırt edici özellik",
+     "Bir maddeyi diğerlerinden ayıran özellik"
+    ]
+   ]
+  },
+  "textPlain": "Her kavramı tanımıyla eşleştir. Sol: Erime noktası; Kaynama noktası; Ayırt edici özellik. Sağ: Katının sıvılaşmaya başladığı sıcaklık; Sıvının kaynamaya başladığı sıcaklık; Bir maddeyi diğerlerinden ayıran özellik.",
+  "correctAnswer": "Erime noktası = Katının sıvılaşmaya başladığı sıcaklık; Kaynama noktası = Sıvının kaynamaya başladığı sıcaklık; Ayırt edici özellik = Bir maddeyi diğerlerinden ayıran özellik",
+  "explanation": "Erime ve kaynama noktaları ile yoğunluk, saf maddeler için ayırt edici özelliklerdir."
+ },
+ {
+  "questionId": "boss-a07-f5-15",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Askıda kalma",
+  "outcome": "Deneyler sonucunda çeşitli maddelerin yoğunluklarına ilişkin tümdengelimsel akıl yürütür; suyun katı ve sıvı hâllerinin yoğunluklarını karşılaştırarak canlılar için önemi hakkında bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 50–51, 59",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yoğunluğu 1 g/cm³ olan bir cisim, yoğunluğu 1 g/cm³ olan suya bırakılırsa ne olur?",
+  "data": {
+   "options": [
+    "Askıda kalır.",
+    "Batar.",
+    "Yüzer."
+   ]
+  },
+  "textPlain": "Yoğunluğu 1 g/cm³ olan bir cisim, yoğunluğu 1 g/cm³ olan suya bırakılırsa ne olur? Seçenekler: Askıda kalır. / Batar. / Yüzer.",
+  "correctAnswer": "Askıda kalır.",
+  "explanation": "Cismin yoğunluğu sıvınınkine eşitse cisim sıvı içinde askıda kalır."
+ },
+ {
+  "questionId": "boss-a07-f5-16",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Kütle hesabı",
+  "outcome": "Yoğunluğa ilişkin hesaplamalar yaparak bilimsel veriye dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 48",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Yoğunluğu 2,5 g/cm³ olan bir taşın hacmi 8 cm³’tür. Taşın kütlesi kaç gramdır?",
+  "data": {
+   "answer": 20,
+   "digits": 2,
+   "unit": "g"
+  },
+  "textPlain": "Yoğunluğu 2,5 g/cm³ olan bir taşın hacmi 8 cm³’tür. Taşın kütlesi kaç gramdır?",
+  "correctAnswer": "20 g",
+  "explanation": "Kütle = yoğunluk × hacim = 2,5 × 8 = 20 g."
+ },
+ {
+  "questionId": "boss-a07-f5-17",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Madde tanıma",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 34",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir sıvının 78 °C’ta kaynamaya başladığı gözleniyor. Bu sıvının hangi madde olduğu nasıl anlaşılabilir?",
+  "data": {
+   "options": [
+    "Kaynama noktası, maddelerin kaynama noktası tablosuyla karşılaştırılarak",
+    "Rengine bakılarak",
+    "Kütlesi ölçülerek"
+   ]
+  },
+  "textPlain": "Bir sıvının 78 °C’ta kaynamaya başladığı gözleniyor. Bu sıvının hangi madde olduğu nasıl anlaşılabilir? Seçenekler: Kaynama noktası, maddelerin kaynama noktası tablosuyla karşılaştırılarak / Rengine bakılarak / Kütlesi ölçülerek",
+  "correctAnswer": "Kaynama noktası, maddelerin kaynama noktası tablosuyla karşılaştırılarak",
+  "explanation": "Kaynama noktası saf maddeler için ayırt edici bir özelliktir; ölçülen değer tablodaki değerlerle karşılaştırılır."
+ },
+ {
+  "questionId": "boss-a07-f5-18",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Yoğunluk karşılaştırma",
+  "outcome": "Deneyler sonucunda çeşitli maddelerin yoğunluklarına ilişkin tümdengelimsel akıl yürütür; suyun katı ve sıvı hâllerinin yoğunluklarını karşılaştırarak canlılar için önemi hakkında bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 50–51, 59",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hacimleri eşit iki sıvıdan kütlesi fazla olanın yoğunluğu için ne söylenebilir?",
+  "data": {
+   "options": [
+    "Daha büyüktür.",
+    "Daha küçüktür.",
+    "Eşittir."
+   ]
+  },
+  "textPlain": "Hacimleri eşit iki sıvıdan kütlesi fazla olanın yoğunluğu için ne söylenebilir? Seçenekler: Daha büyüktür. / Daha küçüktür. / Eşittir.",
+  "correctAnswer": "Daha büyüktür.",
+  "explanation": "Hacimler eşitse kütlesi fazla olanın yoğunluğu daha büyüktür."
+ },
+ {
+  "questionId": "boss-a07-f5-19",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Suyun donması",
+  "outcome": "Isı etkisiyle maddelerin genleşip büzülmesine yönelik bilimsel gözleme dayalı tahminler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 24",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ağzına kadar suyla doldurulup kapatılan cam şişe dondurucuda neden çatlayabilir?",
+  "data": {
+   "options": [
+    "Su donarken hacmi arttığı için",
+    "Cam soğukta genleştiği için",
+    "Su buharlaştığı için"
+   ]
+  },
+  "textPlain": "Ağzına kadar suyla doldurulup kapatılan cam şişe dondurucuda neden çatlayabilir? Seçenekler: Su donarken hacmi arttığı için / Cam soğukta genleştiği için / Su buharlaştığı için",
+  "correctAnswer": "Su donarken hacmi arttığı için",
+  "explanation": "Su donarken hacmi artar; şişeye sığmayan buz camı çatlatabilir."
+ },
+ {
+  "questionId": "boss-a07-f5-20",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Maddenin Ayırt Edici Özellikleri",
+  "topic": "Erime noktası",
+  "outcome": "Maddelerin erime, donma ve kaynama noktası ile ilgili deneyler yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 5. Ünite “Maddenin Ayırt Edici Özellikleri”, s. 28, 35",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Erime noktası 327 °C olan kurşun 300 °C’ta hangi hâldedir?",
+  "data": {
+   "options": [
+    "Katı",
+    "Sıvı",
+    "Gaz"
+   ]
+  },
+  "textPlain": "Erime noktası 327 °C olan kurşun 300 °C’ta hangi hâldedir? Seçenekler: Katı / Sıvı / Gaz",
+  "correctAnswer": "Katı",
+  "explanation": "Sıcaklık erime noktasının altında olduğundan kurşun katıdır."
+ },
+ {
+  "questionId": "boss-a07-f6-01",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "İletken ve yalıtkan",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Maddeleri elektriği iletenler ve iletmeyenler diye ayır.",
+  "data": {
+   "bins": [
+    "İletken",
+    "Yalıtkan"
+   ],
+   "items": [
+    [
+     "Bakır tel",
+     0
+    ],
+    [
+     "Plastik cetvel",
+     1
+    ],
+    [
+     "Alüminyum folyo",
+     0
+    ],
+    [
+     "Tahta kalem",
+     1
+    ],
+    [
+     "Cam bardak",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Maddeleri elektriği iletenler ve iletmeyenler diye ayır. (İletken / Yalıtkan) Kartlar: Bakır tel; Plastik cetvel; Alüminyum folyo; Tahta kalem; Cam bardak.",
+  "correctAnswer": "İletken: Bakır tel, Alüminyum folyo. Yalıtkan: Plastik cetvel, Tahta kalem, Cam bardak.",
+  "explanation": "Metaller iletkendir; plastik, tahta ve cam yalıtkandır."
+ },
+ {
+  "questionId": "boss-a07-f6-02",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Yalıtkan",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Elektrik kablolarının dışının plastikle kaplanmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Plastik yalıtkan olduğu için çarpılmayı önlemesi",
+    "Plastiğin iletken olması",
+    "Kablonun daha hafif olması"
+   ]
+  },
+  "textPlain": "Elektrik kablolarının dışının plastikle kaplanmasının nedeni nedir? Seçenekler: Plastik yalıtkan olduğu için çarpılmayı önlemesi / Plastiğin iletken olması / Kablonun daha hafif olması",
+  "correctAnswer": "Plastik yalıtkan olduğu için çarpılmayı önlemesi",
+  "explanation": "Plastik elektriği iletmez; çarpılmayı önler."
+ },
+ {
+  "questionId": "boss-a07-f6-03",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Sıvıların iletkenliği",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi sıvı elektriği iletir?",
+  "data": {
+   "options": [
+    "Tuzlu su",
+    "Şekerli su",
+    "Zeytinyağı"
+   ]
+  },
+  "textPlain": "Hangi sıvı elektriği iletir? Seçenekler: Tuzlu su / Şekerli su / Zeytinyağı",
+  "correctAnswer": "Tuzlu su",
+  "explanation": "Tuzlu su, sirke, limon suyu iletkendir; şekerli su ve zeytinyağı yalıtkandır."
+ },
+ {
+  "questionId": "boss-a07-f6-04",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Elektrik güvenliği",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Islak elle elektrikli aletlere dokunmak tehlikelidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Islak elle elektrikli aletlere dokunmak tehlikelidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Su elektriği iletebilir; ıslak elle çarpılma tehlikesi artar."
+ },
+ {
+  "questionId": "boss-a07-f6-05",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Direnç ve uzunluk",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "İletken bir telin uzunluğu artırılırsa direnci nasıl değişir?",
+  "data": {
+   "options": [
+    "Artar.",
+    "Azalır.",
+    "Değişmez."
+   ]
+  },
+  "textPlain": "İletken bir telin uzunluğu artırılırsa direnci nasıl değişir? Seçenekler: Artar. / Azalır. / Değişmez.",
+  "correctAnswer": "Artar.",
+  "explanation": "Uzun telin direnci kısa telden fazladır."
+ },
+ {
+  "questionId": "boss-a07-f6-06",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Reosta",
+  "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Direnci ayarlanabilen devre elemanına ne ad verilir?",
+  "data": {
+   "options": [
+    "Reosta",
+    "Pil",
+    "Anahtar"
+   ]
+  },
+  "textPlain": "Direnci ayarlanabilen devre elemanına ne ad verilir? Seçenekler: Reosta / Pil / Anahtar",
+  "correctAnswer": "Reosta",
+  "explanation": "Ayarlanabilir dirence reosta denir."
+ },
+ {
+  "questionId": "boss-a07-f6-07",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "İletken metal",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi elektriği ileten bir maddedir?",
+  "data": {
+   "options": [
+    "Gümüş",
+    "Tahta",
+    "Lastik"
+   ]
+  },
+  "textPlain": "Hangisi elektriği ileten bir maddedir? Seçenekler: Gümüş / Tahta / Lastik",
+  "correctAnswer": "Gümüş",
+  "explanation": "Bakır, alüminyum, gümüş, altın gibi metaller iletkendir."
+ },
+ {
+  "questionId": "boss-a07-f6-08",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Direnç ve kalınlık",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aynı uzunlukta ve aynı maddeden yapılmış ince ve kalın tellerden hangisinin direnci daha büyüktür?",
+  "data": {
+   "options": [
+    "İnce tel",
+    "Kalın tel",
+    "İkisi eşit"
+   ]
+  },
+  "textPlain": "Aynı uzunlukta ve aynı maddeden yapılmış ince ve kalın tellerden hangisinin direnci daha büyüktür? Seçenekler: İnce tel / Kalın tel / İkisi eşit",
+  "correctAnswer": "İnce tel",
+  "explanation": "İnce telin direnci kalın telden fazladır."
+ },
+ {
+  "questionId": "boss-a07-f6-09",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Direnç",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Aynı maddeden yapılmış telleri direnci KÜÇÜKTEN BÜYÜĞE sırala.",
+  "data": {
+   "items": [
+    "Kısa ve kalın tel",
+    "Uzun ve kalın tel",
+    "Uzun ve ince tel"
+   ]
+  },
+  "textPlain": "Aynı maddeden yapılmış telleri direnci KÜÇÜKTEN BÜYÜĞE sırala. Kartlar: Uzun ve kalın tel; Kısa ve kalın tel; Uzun ve ince tel.",
+  "correctAnswer": "Kısa ve kalın tel → Uzun ve kalın tel → Uzun ve ince tel",
+  "explanation": "Telin uzunluğu arttıkça ve kalınlığı azaldıkça direnci artar."
+ },
+ {
+  "questionId": "boss-a07-f6-10",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Reosta",
+  "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Reostanın devredeki direnci artırılırsa ampulün parlaklığı nasıl değişir?",
+  "data": {
+   "options": [
+    "Azalır.",
+    "Artar.",
+    "Değişmez."
+   ]
+  },
+  "textPlain": "Reostanın devredeki direnci artırılırsa ampulün parlaklığı nasıl değişir? Seçenekler: Azalır. / Artar. / Değişmez.",
+  "correctAnswer": "Azalır.",
+  "explanation": "Direnç arttıkça ampulün parlaklığı azalır."
+ },
+ {
+  "questionId": "boss-a07-f6-11",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Kontrol edilen değişken",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Telin cinsinin dirence etkisini araştıran deneyde hangileri aynı tutulmalıdır?",
+  "data": {
+   "options": [
+    "Telin uzunluğu ve kalınlığı",
+    "Telin cinsi",
+    "Ampulün parlaklığı"
+   ]
+  },
+  "textPlain": "Telin cinsinin dirence etkisini araştıran deneyde hangileri aynı tutulmalıdır? Seçenekler: Telin uzunluğu ve kalınlığı / Telin cinsi / Ampulün parlaklığı",
+  "correctAnswer": "Telin uzunluğu ve kalınlığı",
+  "explanation": "Yalnızca araştırılan değişken (cins) farklı olmalı; uzunluk ve kalınlık sabit tutulmalıdır."
+ },
+ {
+  "questionId": "boss-a07-f6-12",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Direnç",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Elektriksel direnç hangisine BAĞLI DEĞİLDİR?",
+  "data": {
+   "options": [
+    "Telin rengine",
+    "Telin uzunluğuna",
+    "Telin kalınlığına"
+   ]
+  },
+  "textPlain": "Elektriksel direnç hangisine BAĞLI DEĞİLDİR? Seçenekler: Telin rengine / Telin uzunluğuna / Telin kalınlığına",
+  "correctAnswer": "Telin rengine",
+  "explanation": "Direnç telin uzunluğuna, dik kesit alanına (kalınlığına) ve cinsine bağlıdır; rengine bağlı değildir."
+ },
+ {
+  "questionId": "boss-a07-f6-13",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Değişkenler",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Telin uzunluğunun ampul parlaklığına etkisi araştırılıyor. Her değişkeni türüyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Telin uzunluğu",
+     "Bağımsız değişken"
+    ],
+    [
+     "Ampulün parlaklığı",
+     "Bağımlı değişken"
+    ],
+    [
+     "Telin cinsi ve kalınlığı",
+     "Kontrol edilen değişken"
+    ]
+   ]
+  },
+  "textPlain": "Telin uzunluğunun ampul parlaklığına etkisi araştırılıyor. Her değişkeni türüyle eşleştir. Sol: Telin uzunluğu; Ampulün parlaklığı; Telin cinsi ve kalınlığı. Sağ: Bağımsız değişken; Bağımlı değişken; Kontrol edilen değişken.",
+  "correctAnswer": "Telin uzunluğu = Bağımsız değişken; Ampulün parlaklığı = Bağımlı değişken; Telin cinsi ve kalınlığı = Kontrol edilen değişken",
+  "explanation": "Değiştirilen uzunluk bağımsız, ölçülen parlaklık bağımlı, sabit tutulan cins ve kalınlık kontrol edilen değişkendir."
+ },
+ {
+  "questionId": "boss-a07-f6-14",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Sıvı testi",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Test devresinin iki ucu iletken bir sıvıya daldırılırsa ne gözlenir?",
+  "data": {
+   "options": [
+    "Ampul ışık verir.",
+    "Ampul söner.",
+    "Sıvı donar."
+   ]
+  },
+  "textPlain": "Test devresinin iki ucu iletken bir sıvıya daldırılırsa ne gözlenir? Seçenekler: Ampul ışık verir. / Ampul söner. / Sıvı donar.",
+  "correctAnswer": "Ampul ışık verir.",
+  "explanation": "İletken sıvı devreyi tamamlar ve ampul yanar."
+ },
+ {
+  "questionId": "boss-a07-f6-15",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Deney tasarımı",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 78–84",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ece, telin kalınlığının dirence etkisini araştırıyor. Hangi iki teli seçmelidir?",
+  "data": {
+   "options": [
+    "Aynı cins ve uzunlukta, kalınlıkları farklı iki tel",
+    "Farklı cins ve uzunlukta iki tel",
+    "Aynı kalınlıkta, uzunlukları farklı iki tel"
+   ]
+  },
+  "textPlain": "Ece, telin kalınlığının dirence etkisini araştırıyor. Hangi iki teli seçmelidir? Seçenekler: Aynı cins ve uzunlukta, kalınlıkları farklı iki tel / Farklı cins ve uzunlukta iki tel / Aynı kalınlıkta, uzunlukları farklı iki tel",
+  "correctAnswer": "Aynı cins ve uzunlukta, kalınlıkları farklı iki tel",
+  "explanation": "Yalnızca kalınlık farklı, diğer değişkenler aynı olmalıdır."
+ },
+ {
+  "questionId": "boss-a07-f6-16",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Reosta kullanımı",
+  "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bazı lambalarda ışığın parlaklığını ayarlayan düğmenin içinde hangi devre elemanı bulunur?",
+  "data": {
+   "options": [
+    "Reosta (ayarlanabilir direnç)",
+    "Pil",
+    "Sigorta"
+   ]
+  },
+  "textPlain": "Bazı lambalarda ışığın parlaklığını ayarlayan düğmenin içinde hangi devre elemanı bulunur? Seçenekler: Reosta (ayarlanabilir direnç) / Pil / Sigorta",
+  "correctAnswer": "Reosta (ayarlanabilir direnç)",
+  "explanation": "Reosta direnci değiştirerek ampulün parlaklığını ayarlar."
+ },
+ {
+  "questionId": "boss-a07-f6-17",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Direnç ve cins",
+  "outcome": "Elektrik devresindeki ampulün parlaklığının bağlı olduğu değişkenlerin neler olduğunu belirlemeye yönelik deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 77–83",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aynı boyutlardaki demir ve bakır tellerle iki özdeş devre kuruluyor. Hangisinde ampul daha parlak yanar?",
+  "data": {
+   "options": [
+    "Bakır telli devrede",
+    "Demir telli devrede",
+    "İkisinde eşit"
+   ]
+  },
+  "textPlain": "Aynı boyutlardaki demir ve bakır tellerle iki özdeş devre kuruluyor. Hangisinde ampul daha parlak yanar? Seçenekler: Bakır telli devrede / Demir telli devrede / İkisinde eşit",
+  "correctAnswer": "Bakır telli devrede",
+  "explanation": "Aynı boyutlarda demir telin direnci bakır telden fazladır; direnci az olan bakırlı devrede ampul daha parlak yanar."
+ },
+ {
+  "questionId": "boss-a07-f6-18",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Elektrik güvenliği",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 70–72",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Banyoda saç kurutma makinesi kullanılmamasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Su elektriği iletebildiği için çarpılma tehlikesi olması",
+    "Makinenin çok ısınması",
+    "Banyonun küçük olması"
+   ]
+  },
+  "textPlain": "Banyoda saç kurutma makinesi kullanılmamasının nedeni nedir? Seçenekler: Su elektriği iletebildiği için çarpılma tehlikesi olması / Makinenin çok ısınması / Banyonun küçük olması",
+  "correctAnswer": "Su elektriği iletebildiği için çarpılma tehlikesi olması",
+  "explanation": "Islak ortamda su elektriği iletebilir; çarpılma tehlikesi oluşur."
+ },
+ {
+  "questionId": "boss-a07-f6-19",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "İletkenlik testi",
+  "outcome": "Maddelerin elektriği iletme durumlarını gösteren deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 69–72",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Test devresinin uçları arasına konan bir madde ampulü yaktı. Bu madde için ne söylenebilir?",
+  "data": {
+   "options": [
+    "İletkendir.",
+    "Yalıtkandır.",
+    "Sıvıdır."
+   ]
+  },
+  "textPlain": "Test devresinin uçları arasına konan bir madde ampulü yaktı. Bu madde için ne söylenebilir? Seçenekler: İletkendir. / Yalıtkandır. / Sıvıdır.",
+  "correctAnswer": "İletkendir.",
+  "explanation": "Ampul yandığına göre madde devreyi tamamlamıştır; iletkendir."
+ },
+ {
+  "questionId": "boss-a07-f6-20",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Elektriğin İletimi ve Direnç",
+  "topic": "Reosta",
+  "outcome": "Ayarlanabilir direncin ampulün parlaklığına etkilerine yönelik bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 6. Ünite “Elektriğin İletimi ve Direnç”, s. 86–91",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Reostanın sürgüsü kaydırılarak devreye giren telin uzunluğu artırılıyor. Ne olur?",
+  "data": {
+   "options": [
+    "Direnç artar, ampul sönükleşir.",
+    "Direnç azalır, ampul parlar.",
+    "Hiçbir şey değişmez."
+   ]
+  },
+  "textPlain": "Reostanın sürgüsü kaydırılarak devreye giren telin uzunluğu artırılıyor. Ne olur? Seçenekler: Direnç artar, ampul sönükleşir. / Direnç azalır, ampul parlar. / Hiçbir şey değişmez.",
+  "correctAnswer": "Direnç artar, ampul sönükleşir.",
+  "explanation": "Telin uzunluğu artınca direnç artar ve ampulün parlaklığı azalır."
+ },
+ {
+  "questionId": "boss-a07-m5-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Üçgenin iç açıları",
+  "outcome": "Üçgenin iç ve dış açılarının özelliklerine dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 24 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir üçgenin iç açılarının ölçüleri toplamı kaç derecedir?",
+  "data": {
+   "options": [
+    "180",
+    "360",
+    "90"
+   ]
+  },
+  "textPlain": "Bir üçgenin iç açılarının ölçüleri toplamı kaç derecedir? Seçenekler: 180 / 360 / 90",
+  "correctAnswer": "180",
+  "explanation": "Üçgenin iç açılarının toplamı 180°’dir."
+ },
+ {
+  "questionId": "boss-a07-m5-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Dörtgenin iç açıları",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 26 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir dörtgenin iç açılarının ölçüleri toplamı kaç derecedir?",
+  "data": {
+   "options": [
+    "360",
+    "180",
+    "540"
+   ]
+  },
+  "textPlain": "Bir dörtgenin iç açılarının ölçüleri toplamı kaç derecedir? Seçenekler: 360 / 180 / 540",
+  "correctAnswer": "360",
+  "explanation": "Dörtgenin iç açılarının toplamı 360°’dir."
+ },
+ {
+  "questionId": "boss-a07-m5-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Paralelkenar",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 29 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "İki çift karşılıklı kenarı paralel olan dörtgen hangisidir?",
+  "data": {
+   "options": [
+    "Paralelkenar",
+    "Yamuk",
+    "Üçgen"
+   ]
+  },
+  "textPlain": "İki çift karşılıklı kenarı paralel olan dörtgen hangisidir? Seçenekler: Paralelkenar / Yamuk / Üçgen",
+  "correctAnswer": "Paralelkenar",
+  "explanation": "Paralelkenarda iki çift karşılıklı kenar paraleldir; yamukta en az bir çift."
+ },
+ {
+  "questionId": "boss-a07-m5-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Yöndeş açılar",
+  "outcome": "Düzlemde iki paralel doğru ve bir kesenle oluşan açıları (yöndeş, iç ters, dış ters, bütünler) sınıflandırabilme ve ölçülerini bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 19 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Paralel iki doğru bir kesenle kesildiğinde oluşan yöndeş açıların ölçüleri eşittir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Paralel iki doğru bir kesenle kesildiğinde oluşan yöndeş açıların ölçüleri eşittir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Paralel doğrular ve kesende yöndeş açılar eştir."
+ },
+ {
+  "questionId": "boss-a07-m5-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Üçgenin iç açıları",
+  "outcome": "Üçgenin iç ve dış açılarının özelliklerine dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 24 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Bir üçgenin iki iç açısı 50° ve 60°’dir. Üçüncü iç açısı kaç derecedir?",
+  "data": {
+   "answer": 70,
+   "digits": 2,
+   "unit": "°"
+  },
+  "textPlain": "Bir üçgenin iki iç açısı 50° ve 60°’dir. Üçüncü iç açısı kaç derecedir?",
+  "correctAnswer": "70°",
+  "explanation": "180 − (50 + 60) = 70°."
+ },
+ {
+  "questionId": "boss-a07-m5-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Köşegenler",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 47",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Köşegenleri eşit uzunlukta ve birbirine dik olan dörtgen hangisidir?",
+  "data": {
+   "options": [
+    "Kare",
+    "Paralelkenar",
+    "Yamuk"
+   ]
+  },
+  "textPlain": "Köşegenleri eşit uzunlukta ve birbirine dik olan dörtgen hangisidir? Seçenekler: Kare / Paralelkenar / Yamuk",
+  "correctAnswer": "Kare",
+  "explanation": "Karenin köşegenleri eşittir, birbirini dik keser ve ortalar."
+ },
+ {
+  "questionId": "boss-a07-m5-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Düzgün çokgen",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 35 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Şekilleri düzgün çokgen olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Düzgün çokgen",
+    "Düzgün değil"
+   ],
+   "items": [
+    [
+     "Kare",
+     0
+    ],
+    [
+     "Eşkenar üçgen",
+     0
+    ],
+    [
+     "Uzun kenarlı dikdörtgen",
+     1
+    ],
+    [
+     "Bütün kenar ve açıları eşit altıgen",
+     0
+    ],
+    [
+     "Yamuk",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Şekilleri düzgün çokgen olanlar ve olmayanlar diye ayır. (Düzgün çokgen / Düzgün değil) Kartlar: Kare; Eşkenar üçgen; Uzun kenarlı dikdörtgen; Bütün kenar ve açıları eşit altıgen; Yamuk.",
+  "correctAnswer": "Düzgün çokgen: Kare, Eşkenar üçgen, Bütün kenar ve açıları eşit altıgen. Düzgün değil: Uzun kenarlı dikdörtgen, Yamuk.",
+  "explanation": "Bütün kenarları ve bütün açıları eşit olan çokgenler düzgün çokgendir."
+ },
+ {
+  "questionId": "boss-a07-m5-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Dış ters açılar",
+  "outcome": "Düzlemde iki paralel doğru ve bir kesenle oluşan açıları (yöndeş, iç ters, dış ters, bütünler) sınıflandırabilme ve ölçülerini bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 17 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "d₁ ∥ d₂ olduğuna göre şekildeki x kaç derecedir?",
+  "data": {
+   "answer": 65,
+   "digits": 2,
+   "unit": "°",
+   "fig": {
+    "k": "parallel",
+    "a": {
+     "TR": "65°",
+     "bl": "x"
+    }
+   }
+  },
+  "textPlain": "[Şekil: paralel d₁ ve d₂ doğrularını bir kesen kesiyor; üst kesişimde sağ üstte 65°, alt kesişimde sol altta x] d₁ ∥ d₂ olduğuna göre şekildeki x kaç derecedir?",
+  "correctAnswer": "65°",
+  "explanation": "Şekildeki açılar dış ters açılardır; paralel doğrularda dış ters açılar eşittir: x = 65°."
+ },
+ {
+  "questionId": "boss-a07-m5-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Üçgenin dış açısı",
+  "outcome": "Üçgenin iç ve dış açılarının özelliklerine dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 25 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir üçgenin iki iç açısı 40° ve 75°’dir. Bu açılara komşu olmayan dış açı kaç derecedir?",
+  "data": {
+   "answer": 115,
+   "digits": 3,
+   "unit": "°"
+  },
+  "textPlain": "Bir üçgenin iki iç açısı 40° ve 75°’dir. Bu açılara komşu olmayan dış açı kaç derecedir?",
+  "correctAnswer": "115°",
+  "explanation": "Bir dış açı, kendisine komşu olmayan iki iç açının toplamına eşittir: 40 + 75 = 115°."
+ },
+ {
+  "questionId": "boss-a07-m5-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Çokgenin iç açıları",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 34 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir beşgenin iç açılarının ölçüleri toplamı kaç derecedir?",
+  "data": {
+   "answer": 540,
+   "digits": 3,
+   "unit": "°"
+  },
+  "textPlain": "Bir beşgenin iç açılarının ölçüleri toplamı kaç derecedir?",
+  "correctAnswer": "540°",
+  "explanation": "Beşgen 3 üçgene ayrılır: 3 × 180 = 540°."
+ },
+ {
+  "questionId": "boss-a07-m5-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Düzgün çokgen",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 37 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Düzgün altıgenin bir dış açısı kaç derecedir?",
+  "data": {
+   "answer": 60,
+   "digits": 2,
+   "unit": "°"
+  },
+  "textPlain": "Düzgün altıgenin bir dış açısı kaç derecedir?",
+  "correctAnswer": "60°",
+  "explanation": "Dış açılar toplamı 360°’dir: 360 ÷ 6 = 60°."
+ },
+ {
+  "questionId": "boss-a07-m5-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Paralelkenar",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 29 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir paralelkenarın bir açısı 70°’dir. Bu açıya komşu olan açı kaç derecedir?",
+  "data": {
+   "options": [
+    "110",
+    "70",
+    "290"
+   ]
+  },
+  "textPlain": "Bir paralelkenarın bir açısı 70°’dir. Bu açıya komşu olan açı kaç derecedir? Seçenekler: 110 / 70 / 290",
+  "correctAnswer": "110",
+  "explanation": "Paralelkenarda ardışık açılar bütünlerdir: 180 − 70 = 110°."
+ },
+ {
+  "questionId": "boss-a07-m5-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Dörtgenler",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 32",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her dörtgeni özelliğiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Yamuk",
+     "En az bir çift karşılıklı kenarı paraleldir"
+    ],
+    [
+     "Eşkenar dörtgen",
+     "Dört kenarı eşittir"
+    ],
+    [
+     "Dikdörtgen",
+     "Dört açısı da dik açıdır"
+    ]
+   ]
+  },
+  "textPlain": "Her dörtgeni özelliğiyle eşleştir. Sol: Yamuk; Eşkenar dörtgen; Dikdörtgen. Sağ: En az bir çift karşılıklı kenarı paraleldir; Dört kenarı eşittir; Dört açısı da dik açıdır.",
+  "correctAnswer": "Yamuk = En az bir çift karşılıklı kenarı paraleldir; Eşkenar dörtgen = Dört kenarı eşittir; Dikdörtgen = Dört açısı da dik açıdır",
+  "explanation": "Yamukta en az bir çift kenar paralel, eşkenar dörtgende dört kenar eşit, dikdörtgende dört açı diktir."
+ },
+ {
+  "questionId": "boss-a07-m5-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Köşegenler",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 47",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Köşegenleri birbirini ortalayan ancak eşit olmayan ve dik kesişmeyen dörtgen hangisidir?",
+  "data": {
+   "options": [
+    "Paralelkenar",
+    "Kare",
+    "Eşkenar dörtgen"
+   ]
+  },
+  "textPlain": "Köşegenleri birbirini ortalayan ancak eşit olmayan ve dik kesişmeyen dörtgen hangisidir? Seçenekler: Paralelkenar / Kare / Eşkenar dörtgen",
+  "correctAnswer": "Paralelkenar",
+  "explanation": "Paralelkenarın köşegenleri birbirini ortalar; karede eşit ve dik, eşkenar dörtgende diktir."
+ },
+ {
+  "questionId": "boss-a07-m5-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Dörtgenin iç açıları",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 26 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir dörtgenin üç iç açısı 90°, 85° ve 110°’dir. Dördüncü açısı kaç derecedir?",
+  "data": {
+   "answer": 75,
+   "digits": 2,
+   "unit": "°"
+  },
+  "textPlain": "Bir dörtgenin üç iç açısı 90°, 85° ve 110°’dir. Dördüncü açısı kaç derecedir?",
+  "correctAnswer": "75°",
+  "explanation": "360 − (90 + 85 + 110) = 75°."
+ },
+ {
+  "questionId": "boss-a07-m5-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Düzgün çokgen",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 34 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Düzgün sekizgenin bir iç açısı kaç derecedir?",
+  "data": {
+   "answer": 135,
+   "digits": 3,
+   "unit": "°"
+  },
+  "textPlain": "Düzgün sekizgenin bir iç açısı kaç derecedir?",
+  "correctAnswer": "135°",
+  "explanation": "Bir dış açı 360 ÷ 8 = 45°; iç ve dış açı bütünler: 180 − 45 = 135°."
+ },
+ {
+  "questionId": "boss-a07-m5-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Çokgenin dış açıları",
+  "outcome": "Yamuk, paralelkenar, eşkenar dörtgen, dikdörtgen ve karenin kenar, açı ve köşegen özelliklerini ifade edebilme; üçgen ve dörtgenlerle ilgili problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 37 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir çokgenin dış açılarının ölçüleri toplamı kaç derecedir?",
+  "data": {
+   "options": [
+    "360",
+    "180",
+    "Kenar sayısına göre değişir"
+   ]
+  },
+  "textPlain": "Bir çokgenin dış açılarının ölçüleri toplamı kaç derecedir? Seçenekler: 360 / 180 / Kenar sayısına göre değişir",
+  "correctAnswer": "360",
+  "explanation": "Her çokgenin dış açılarının toplamı 360°’dir."
+ },
+ {
+  "questionId": "boss-a07-m5-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Üçgenin dış açısı",
+  "outcome": "Üçgenin iç ve dış açılarının özelliklerine dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 25 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir üçgenin bir dış açısı 130°’dir. Bu açıya komşu olmayan iç açılardan biri 55° ise diğeri kaç derecedir?",
+  "data": {
+   "answer": 75,
+   "digits": 2,
+   "unit": "°"
+  },
+  "textPlain": "Bir üçgenin bir dış açısı 130°’dir. Bu açıya komşu olmayan iç açılardan biri 55° ise diğeri kaç derecedir?",
+  "correctAnswer": "75°",
+  "explanation": "Dış açı komşu olmayan iki iç açının toplamıdır: 130 − 55 = 75°."
+ },
+ {
+  "questionId": "boss-a07-m5-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Üçgenin iç açıları",
+  "outcome": "Üçgenin iç ve dış açılarının özelliklerine dair çıkarım yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 24 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "İç açılarından biri 100° olan bir üçgen için hangisi kesinlikle doğrudur?",
+  "data": {
+   "options": [
+    "Diğer iki açısı dar açıdır.",
+    "Diğer açılarından biri de geniş açıdır.",
+    "Üçgen eşkenardır."
+   ]
+  },
+  "textPlain": "İç açılarından biri 100° olan bir üçgen için hangisi kesinlikle doğrudur? Seçenekler: Diğer iki açısı dar açıdır. / Diğer açılarından biri de geniş açıdır. / Üçgen eşkenardır.",
+  "correctAnswer": "Diğer iki açısı dar açıdır.",
+  "explanation": "Kalan iki açının toplamı 80°’dir; ikisi de 90°’den küçüktür. İki geniş açının toplamı 180°’yi geçeceği için ikinci bir geniş açı olamaz."
+ },
+ {
+  "questionId": "boss-a07-m5-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Tema: Geometrik Şekiller",
+  "topic": "Bütünler açılar",
+  "outcome": "Düzlemde iki paralel doğru ve bir kesenle oluşan açıları (yöndeş, iç ters, dış ters, bütünler) sınıflandırabilme ve ölçülerini bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Geometrik Şekiller”, s. 15 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "d₁ ∥ d₂ olduğuna göre şekildeki x kaç derecedir?",
+  "data": {
+   "answer": 108,
+   "digits": 3,
+   "unit": "°",
+   "fig": {
+    "k": "parallel",
+    "a": {
+     "BR": "72°",
+     "tr": "x"
+    }
+   }
+  },
+  "textPlain": "[Şekil: paralel d₁ ve d₂ doğrularını bir kesen kesiyor; üst kesişimde sağ altta 72°, alt kesişimde sağ üstte x] d₁ ∥ d₂ olduğuna göre şekildeki x kaç derecedir?",
+  "correctAnswer": "108°",
+  "explanation": "Kesenin aynı tarafında, paralel doğruların arasında kalan iç açılar bütünlerdir: 180 − 72 = 108°."
+ },
+ {
+  "questionId": "boss-a07-m6-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Cebirsel ifade",
+  "outcome": "Gerçek yaşam durumlarındaki bilinmeyen nicelikleri değişkenle temsil ederek sözel ifadelere uygun cebirsel ifadeler yazabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 68",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Bir sayının 3 fazlası” ifadesinin cebirsel gösterimi hangisidir?",
+  "data": {
+   "options": [
+    "n + 3",
+    "3n",
+    "n − 3"
+   ]
+  },
+  "textPlain": "“Bir sayının 3 fazlası” ifadesinin cebirsel gösterimi hangisidir? Seçenekler: n + 3 / 3n / n − 3",
+  "correctAnswer": "n + 3",
+  "explanation": "Bir sayıya n dersek 3 fazlası n + 3 olur."
+ },
+ {
+  "questionId": "boss-a07-m6-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Katsayı",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 65",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "5n + 2 ifadesinde değişkenin katsayısı hangisidir?",
+  "data": {
+   "options": [
+    "5",
+    "2",
+    "n"
+   ]
+  },
+  "textPlain": "5n + 2 ifadesinde değişkenin katsayısı hangisidir? Seçenekler: 5 / 2 / n",
+  "correctAnswer": "5",
+  "explanation": "Değişkenin çarpıldığı sayı katsayıdır: 5."
+ },
+ {
+  "questionId": "boss-a07-m6-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Sabit terim",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 65",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "3x + 8 ifadesindeki sabit terim hangisidir?",
+  "data": {
+   "options": [
+    "8",
+    "3",
+    "x"
+   ]
+  },
+  "textPlain": "3x + 8 ifadesindeki sabit terim hangisidir? Seçenekler: 8 / 3 / x",
+  "correctAnswer": "8",
+  "explanation": "Değişken içermeyen terim sabit terimdir: 8."
+ },
+ {
+  "questionId": "boss-a07-m6-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "İfadenin değeri",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 73",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "n = 4 için 3n + 5 ifadesinin değeri kaçtır?",
+  "data": {
+   "answer": 17,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "n = 4 için 3n + 5 ifadesinin değeri kaçtır?",
+  "correctAnswer": "17",
+  "explanation": "3 × 4 + 5 = 17."
+ },
+ {
+  "questionId": "boss-a07-m6-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Örüntü kuralı",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını cebirsel ifadeyle yazabilme ve istenen adımdaki terimi bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 83",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "3, 6, 9, 12, … örüntüsünün kuralı hangisidir? (n: terim sırası)",
+  "data": {
+   "options": [
+    "3n",
+    "n + 3",
+    "2n + 1"
+   ]
+  },
+  "textPlain": "3, 6, 9, 12, … örüntüsünün kuralı hangisidir? (n: terim sırası) Seçenekler: 3n / n + 3 / 2n + 1",
+  "correctAnswer": "3n",
+  "explanation": "Her terim sırasının 3 katıdır: 3n."
+ },
+ {
+  "questionId": "boss-a07-m6-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Akış şeması",
+  "outcome": "Cebirsel ifadeler içeren durumlardaki algoritmaları (sözde kod, akış şeması, döngü) yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 56 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Akış şemasında başla ve bitir adımları oval blokla gösterilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Akış şemasında başla ve bitir adımları oval blokla gösterilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Başla ve bitir adımları oval (yuvarlak köşeli) bloklarla gösterilir."
+ },
+ {
+  "questionId": "boss-a07-m6-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Değişken",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 66",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Her gün x sayfa kitap okuyan Elif’in 5 günde okuduğu sayfa sayısı hangi ifadeyle gösterilir?",
+  "data": {
+   "options": [
+    "5x",
+    "x + 5",
+    "x − 5"
+   ]
+  },
+  "textPlain": "Her gün x sayfa kitap okuyan Elif’in 5 günde okuduğu sayfa sayısı hangi ifadeyle gösterilir? Seçenekler: 5x / x + 5 / x − 5",
+  "correctAnswer": "5x",
+  "explanation": "5 gün boyunca x’er sayfa: 5 · x = 5x."
+ },
+ {
+  "questionId": "boss-a07-m6-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Örüntüde terim",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını cebirsel ifadeyle yazabilme ve istenen adımdaki terimi bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 83",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Kuralı 4n + 1 olan örüntünün 10. terimi kaçtır?",
+  "data": {
+   "answer": 41,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Kuralı 4n + 1 olan örüntünün 10. terimi kaçtır?",
+  "correctAnswer": "41",
+  "explanation": "4 × 10 + 1 = 41."
+ },
+ {
+  "questionId": "boss-a07-m6-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Cebirsel ifade",
+  "outcome": "Gerçek yaşam durumlarındaki bilinmeyen nicelikleri değişkenle temsil ederek sözel ifadelere uygun cebirsel ifadeler yazabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 68",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her sözel ifadeyi cebirsel ifadesiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Bir sayının 2 katı",
+     "2n"
+    ],
+    [
+     "Bir sayının 5 eksiği",
+     "n − 5"
+    ],
+    [
+     "Bir sayının 4 katının 1 fazlası",
+     "4n + 1"
+    ]
+   ]
+  },
+  "textPlain": "Her sözel ifadeyi cebirsel ifadesiyle eşleştir. Sol: Bir sayının 2 katı; Bir sayının 5 eksiği; Bir sayının 4 katının 1 fazlası. Sağ: 2n; n − 5; 4n + 1.",
+  "correctAnswer": "Bir sayının 2 katı = 2n; Bir sayının 5 eksiği = n − 5; Bir sayının 4 katının 1 fazlası = 4n + 1",
+  "explanation": "Katı çarpma, eksiği çıkarma, fazlası toplama ile gösterilir."
+ },
+ {
+  "questionId": "boss-a07-m6-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Örüntü kuralı",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını cebirsel ifadeyle yazabilme ve istenen adımdaki terimi bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 83",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "5, 9, 13, 17, … örüntüsünün kuralı hangisidir?",
+  "data": {
+   "options": [
+    "4n + 1",
+    "5n",
+    "n + 4"
+   ]
+  },
+  "textPlain": "5, 9, 13, 17, … örüntüsünün kuralı hangisidir? Seçenekler: 4n + 1 / 5n / n + 4",
+  "correctAnswer": "4n + 1",
+  "explanation": "Terimler 4’er artıyor; 1. terim 4 × 1 + 1 = 5: kural 4n + 1."
+ },
+ {
+  "questionId": "boss-a07-m6-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Problem",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 70",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir kalem a TL’dir. 6 kalem ve 10 TL’lik bir defter için ödenen tutar 6a + 10 ile gösteriliyor. a = 15 ise toplam kaç TL ödenir?",
+  "data": {
+   "answer": 100,
+   "digits": 3,
+   "unit": "TL"
+  },
+  "textPlain": "Bir kalem a TL’dir. 6 kalem ve 10 TL’lik bir defter için ödenen tutar 6a + 10 ile gösteriliyor. a = 15 ise toplam kaç TL ödenir?",
+  "correctAnswer": "100 TL",
+  "explanation": "6 × 15 + 10 = 100 TL."
+ },
+ {
+  "questionId": "boss-a07-m6-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Algoritma",
+  "outcome": "Cebirsel ifadeler içeren durumlardaki algoritmaları (sözde kod, akış şeması, döngü) yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 84",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Algoritma nedir?",
+  "data": {
+   "options": [
+    "Bir problemi çözmek için izlenen adımların sıralı listesi",
+    "Bir tür grafik",
+    "Bir ölçü birimi"
+   ]
+  },
+  "textPlain": "Algoritma nedir? Seçenekler: Bir problemi çözmek için izlenen adımların sıralı listesi / Bir tür grafik / Bir ölçü birimi",
+  "correctAnswer": "Bir problemi çözmek için izlenen adımların sıralı listesi",
+  "explanation": "Algoritma, bir işi yapmak için izlenen sıralı adımlardır."
+ },
+ {
+  "questionId": "boss-a07-m6-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Algoritma",
+  "outcome": "Cebirsel ifadeler içeren durumlardaki algoritmaları (sözde kod, akış şeması, döngü) yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 84",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "order",
+  "prompt": "n = 3 için 2n + 4 ifadesinin değerini bulan algoritmanın adımlarını sırala.",
+  "data": {
+   "items": [
+    "n’nin değerini al (3)",
+    "n’yi 2 ile çarp (6)",
+    "Sonuca 4 ekle (10)",
+    "Sonucu yaz"
+   ]
+  },
+  "textPlain": "n = 3 için 2n + 4 ifadesinin değerini bulan algoritmanın adımlarını sırala. Kartlar: Sonuca 4 ekle (10); n’yi 2 ile çarp (6); n’nin değerini al (3); Sonucu yaz.",
+  "correctAnswer": "n’nin değerini al (3) → n’yi 2 ile çarp (6) → Sonuca 4 ekle (10) → Sonucu yaz",
+  "explanation": "Önce değer alınır, sonra işlem önceliğine göre çarpma, ardından toplama yapılır ve sonuç yazılır."
+ },
+ {
+  "questionId": "boss-a07-m6-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "İfadenin değeri",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 73",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "n = 2 için ifadeleri değeri 8 olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Değeri 8",
+    "Değeri 8 değil"
+   ],
+   "items": [
+    [
+     "4n",
+     0
+    ],
+    [
+     "n + 6",
+     0
+    ],
+    [
+     "3n + 2",
+     0
+    ],
+    [
+     "2n + 3",
+     1
+    ],
+    [
+     "5n",
+     1
+    ]
+   ]
+  },
+  "textPlain": "n = 2 için ifadeleri değeri 8 olanlar ve olmayanlar diye ayır. (Değeri 8 / Değeri 8 değil) Kartlar: 4n; n + 6; 3n + 2; 2n + 3; 5n.",
+  "correctAnswer": "Değeri 8: 4n, n + 6, 3n + 2. Değeri 8 değil: 2n + 3, 5n.",
+  "explanation": "n = 2 için: 4n = 8, n + 6 = 8, 3n + 2 = 8; 2n + 3 = 7, 5n = 10."
+ },
+ {
+  "questionId": "boss-a07-m6-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Örüntüde terim",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını cebirsel ifadeyle yazabilme ve istenen adımdaki terimi bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 83",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kuralı 6n − 2 olan bir örüntünün kaçıncı terimi 52’dir?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Kuralı 6n − 2 olan bir örüntünün kaçıncı terimi 52’dir?",
+  "correctAnswer": "9",
+  "explanation": "6n − 2 = 52 ise 6n = 54, n = 9."
+ },
+ {
+  "questionId": "boss-a07-m6-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Problem",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 70",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ali’nin yaşı x’tir. Ablası Ali’den 4 yaş büyük, babası ise ablasının 3 katı yaşındadır. Babasının yaşı hangi ifadeyle gösterilir?",
+  "data": {
+   "options": [
+    "3(x + 4)",
+    "3x + 4",
+    "x + 12"
+   ]
+  },
+  "textPlain": "Ali’nin yaşı x’tir. Ablası Ali’den 4 yaş büyük, babası ise ablasının 3 katı yaşındadır. Babasının yaşı hangi ifadeyle gösterilir? Seçenekler: 3(x + 4) / 3x + 4 / x + 12",
+  "correctAnswer": "3(x + 4)",
+  "explanation": "Ablanın yaşı x + 4; babanın yaşı bunun 3 katı: 3(x + 4)."
+ },
+ {
+  "questionId": "boss-a07-m6-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Döngü",
+  "outcome": "Cebirsel ifadeler içeren durumlardaki algoritmaları (sözde kod, akış şeması, döngü) yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 97 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Algoritma: Sayı = 1 al. Sayı 20’den küçük olduğu sürece sayıyı 2 ile çarp. Döngü bittiğinde sayı kaç olur?",
+  "data": {
+   "answer": 32,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Algoritma: Sayı = 1 al. Sayı 20’den küçük olduğu sürece sayıyı 2 ile çarp. Döngü bittiğinde sayı kaç olur?",
+  "correctAnswer": "32",
+  "explanation": "1 → 2 → 4 → 8 → 16 → 32; 32, 20’den küçük olmadığı için döngü biter."
+ },
+ {
+  "questionId": "boss-a07-m6-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Örüntü",
+  "outcome": "Sayı ve şekil örüntülerinin kuralını cebirsel ifadeyle yazabilme ve istenen adımdaki terimi bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 83",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Kuralı 2n + 3 olan örüntünün ilk üç terimi hangisidir?",
+  "data": {
+   "options": [
+    "5, 7, 9",
+    "2, 3, 4",
+    "3, 5, 7"
+   ]
+  },
+  "textPlain": "Kuralı 2n + 3 olan örüntünün ilk üç terimi hangisidir? Seçenekler: 5, 7, 9 / 2, 3, 4 / 3, 5, 7",
+  "correctAnswer": "5, 7, 9",
+  "explanation": "n = 1, 2, 3 için: 5, 7, 9."
+ },
+ {
+  "questionId": "boss-a07-m6-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Problem",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 70",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir otoparkın ücreti ilk saat 20 TL, sonraki her saat 15 TL’dir. 5 saat park eden kişi kaç TL öder?",
+  "data": {
+   "answer": 80,
+   "digits": 2,
+   "unit": "TL"
+  },
+  "textPlain": "Bir otoparkın ücreti ilk saat 20 TL, sonraki her saat 15 TL’dir. 5 saat park eden kişi kaç TL öder?",
+  "correctAnswer": "80 TL",
+  "explanation": "İlk saat 20 TL, kalan 4 saat 4 × 15 = 60 TL; toplam 80 TL."
+ },
+ {
+  "questionId": "boss-a07-m6-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Tema: İşlemlerle Cebirsel Düşünme ve Değişimler",
+  "topic": "Cebirsel ifade",
+  "outcome": "Cebirsel ifadelerin anlamına (değişken, katsayı, sabit terim) yönelik çıkarımda bulunabilme ve değişkenin değerine göre ifadenin değerini hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “İşlemlerle Cebirsel Düşünme ve Değişimler”, s. 65",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "2 · (3n + 1) ifadesi hangisine eşittir?",
+  "data": {
+   "options": [
+    "6n + 2",
+    "6n + 1",
+    "5n + 2"
+   ]
+  },
+  "textPlain": "2 · (3n + 1) ifadesi hangisine eşittir? Seçenekler: 6n + 2 / 6n + 1 / 5n + 2",
+  "correctAnswer": "6n + 2",
+  "explanation": "2 parantezin içindeki iki terimle de çarpılır: 6n + 2."
+ },
+ {
+  "questionId": "boss-a07-t4-01",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Kalıp ifade",
+  "outcome": "Kalıp ifadeleri, deyim ve atasözlerini anlamına ve iletişim durumuna uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 14",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir işle uğraşan komşumuza hangi kalıp ifadeyi söyleriz?",
+  "data": {
+   "options": [
+    "Kolay gelsin.",
+    "Afiyet olsun.",
+    "Geçmiş olsun."
+   ]
+  },
+  "textPlain": "Bir işle uğraşan komşumuza hangi kalıp ifadeyi söyleriz? Seçenekler: Kolay gelsin. / Afiyet olsun. / Geçmiş olsun.",
+  "correctAnswer": "Kolay gelsin.",
+  "explanation": "Bir iş yapan kişiye “Kolay gelsin.” denir."
+ },
+ {
+  "questionId": "boss-a07-t4-02",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Atasözü",
+  "outcome": "Kalıp ifadeleri, deyim ve atasözlerini anlamına ve iletişim durumuna uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 14",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Ev alma, komşu al.” atasözü neyi anlatır?",
+  "data": {
+   "options": [
+    "İyi bir komşunun evden bile değerli olduğunu",
+    "Ev almanın kolay olduğunu",
+    "Komşularla görüşmemek gerektiğini"
+   ]
+  },
+  "textPlain": "“Ev alma, komşu al.” atasözü neyi anlatır? Seçenekler: İyi bir komşunun evden bile değerli olduğunu / Ev almanın kolay olduğunu / Komşularla görüşmemek gerektiğini",
+  "correctAnswer": "İyi bir komşunun evden bile değerli olduğunu",
+  "explanation": "Atasözü, iyi komşuluğun önemini vurgular."
+ },
+ {
+  "questionId": "boss-a07-t4-03",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Ben dili",
+  "outcome": "İletişimle ilgili kavramları tanır ve açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 23",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi “ben dili” ile kurulmuş bir cümledir?",
+  "data": {
+   "options": [
+    "Sözüm kesildiğinde kendimi değersiz hissediyorum.",
+    "Sen hep sözümü kesiyorsun!",
+    "Zaten hiç dinlemiyorsun."
+   ]
+  },
+  "textPlain": "Hangisi “ben dili” ile kurulmuş bir cümledir? Seçenekler: Sözüm kesildiğinde kendimi değersiz hissediyorum. / Sen hep sözümü kesiyorsun! / Zaten hiç dinlemiyorsun.",
+  "correctAnswer": "Sözüm kesildiğinde kendimi değersiz hissediyorum.",
+  "explanation": "Ben dili, karşıdakini suçlamadan kendi duygumuzu anlatmaktır."
+ },
+ {
+  "questionId": "boss-a07-t4-04",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Beden dili",
+  "outcome": "İletişimle ilgili kavramları tanır ve açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 23",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Beden dili; jest, mimik ve duruşla kurulan sözsüz iletişimdir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Beden dili; jest, mimik ve duruşla kurulan sözsüz iletişimdir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Jest, mimik ve duruş sözsüz iletişimin, yani beden dilinin parçalarıdır."
+ },
+ {
+  "questionId": "boss-a07-t4-05",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Düzeltme işareti",
+  "outcome": "Ses olaylarına uğrayan kelimeleri doğru yazar; düzeltme işaretini ve noktalama işaretlerini kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 20",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi kelimenin yazımı doğrudur?",
+  "data": {
+   "options": [
+    "kâğıt",
+    "kağıt",
+    "kâğid"
+   ]
+  },
+  "textPlain": "Hangi kelimenin yazımı doğrudur? Seçenekler: kâğıt / kağıt / kâğid",
+  "correctAnswer": "kâğıt",
+  "explanation": "Düzeltme işareti ince “k” ve “g” sesinden sonra gelen “a” üzerine konur: kâğıt."
+ },
+ {
+  "questionId": "boss-a07-t4-06",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Bağlantı ifadesi",
+  "outcome": "Söz sanatlarını, metin yapılarını, geçiş ve bağlantı ifadelerini, işlevli söz varlıklarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 22",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Önce mahalleyi gezdik, ___ yeni komşularımızla tanıştık.” cümlesindeki boşluğa hangisi gelmelidir?",
+  "data": {
+   "options": [
+    "ardından",
+    "ama",
+    "çünkü"
+   ]
+  },
+  "textPlain": "“Önce mahalleyi gezdik, ___ yeni komşularımızla tanıştık.” cümlesindeki boşluğa hangisi gelmelidir? Seçenekler: ardından / ama / çünkü",
+  "correctAnswer": "ardından",
+  "explanation": "“Önce … ardından” sıralama bildirir."
+ },
+ {
+  "questionId": "boss-a07-t4-07",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Deyim",
+  "outcome": "Kalıp ifadeleri, deyim ve atasözlerini anlamına ve iletişim durumuna uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 14",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kulak vermek” deyiminin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Dikkatle dinlemek",
+    "Kulağını tıkamak",
+    "Fısıldamak"
+   ]
+  },
+  "textPlain": "“Kulak vermek” deyiminin anlamı hangisidir? Seçenekler: Dikkatle dinlemek / Kulağını tıkamak / Fısıldamak",
+  "correctAnswer": "Dikkatle dinlemek",
+  "explanation": "“Kulak vermek” söyleneni dikkatle dinlemektir."
+ },
+ {
+  "questionId": "boss-a07-t4-08",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Empati",
+  "outcome": "İletişimle ilgili kavramları tanır ve açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 23",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Üzgün arkadaşına “Seni anlıyorum, bu gerçekten zor olmalı.” diyen birinin davranışı hangisine örnektir?",
+  "data": {
+   "options": [
+    "Empati kurmaya",
+    "Sen diline",
+    "Eleştirmeye"
+   ]
+  },
+  "textPlain": "Üzgün arkadaşına “Seni anlıyorum, bu gerçekten zor olmalı.” diyen birinin davranışı hangisine örnektir? Seçenekler: Empati kurmaya / Sen diline / Eleştirmeye",
+  "correctAnswer": "Empati kurmaya",
+  "explanation": "Kendini karşındakinin yerine koyup onu anlamak empatidir."
+ },
+ {
+  "questionId": "boss-a07-t4-09",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Ben dili ve sen dili",
+  "outcome": "İletişimle ilgili kavramları tanır ve açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 23",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Cümleleri ben dili ve sen dili olarak ayır.",
+  "data": {
+   "bins": [
+    "Ben dili",
+    "Sen dili"
+   ],
+   "items": [
+    [
+     "Ödevimi yetiştiremediğim için endişeliyim.",
+     0
+    ],
+    [
+     "Hep geç kalıyorsun!",
+     1
+    ],
+    [
+     "Gürültü olunca derse odaklanamıyorum.",
+     0
+    ],
+    [
+     "Sen hiç düzenli değilsin.",
+     1
+    ],
+    [
+     "Bu söz beni kırdı.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri ben dili ve sen dili olarak ayır. (Ben dili / Sen dili) Kartlar: Ödevimi yetiştiremediğim için endişeliyim.; Hep geç kalıyorsun!; Gürültü olunca derse odaklanamıyorum.; Sen hiç düzenli değilsin.; Bu söz beni kırdı..",
+  "correctAnswer": "Ben dili: Ödevimi yetiştiremediğim için endişeliyim., Gürültü olunca derse odaklanamıyorum., Bu söz beni kırdı.. Sen dili: Hep geç kalıyorsun!, Sen hiç düzenli değilsin..",
+  "explanation": "Ben dili kendi duygu ve düşüncemizi anlatır; sen dili karşıdakini suçlar ya da yargılar."
+ },
+ {
+  "questionId": "boss-a07-t4-10",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Ses olayı",
+  "outcome": "Ses olaylarına uğrayan kelimeleri doğru yazar; düzeltme işaretini ve noktalama işaretlerini kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 20",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Kitapçı” kelimesinde hangi ses olayı vardır?",
+  "data": {
+   "options": [
+    "Ünsüz benzeşmesi",
+    "Ünsüz yumuşaması",
+    "Ünlü düşmesi"
+   ]
+  },
+  "textPlain": "“Kitapçı” kelimesinde hangi ses olayı vardır? Seçenekler: Ünsüz benzeşmesi / Ünsüz yumuşaması / Ünlü düşmesi",
+  "correctAnswer": "Ünsüz benzeşmesi",
+  "explanation": "Sert ünsüzden (p) sonra gelen “c” sertleşerek “ç” olur: ünsüz benzeşmesi."
+ },
+ {
+  "questionId": "boss-a07-t4-11",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Kişileştirme",
+  "outcome": "Söz sanatlarını, metin yapılarını, geçiş ve bağlantı ifadelerini, işlevli söz varlıklarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 22",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Sokak lambaları her gece mahalleyi bekler.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Kişileştirme",
+    "Benzetme",
+    "Abartma"
+   ]
+  },
+  "textPlain": "“Sokak lambaları her gece mahalleyi bekler.” cümlesinde hangi söz sanatı vardır? Seçenekler: Kişileştirme / Benzetme / Abartma",
+  "correctAnswer": "Kişileştirme",
+  "explanation": "Lambalara “beklemek” gibi insana ait bir davranış verilmiştir."
+ },
+ {
+  "questionId": "boss-a07-t4-12",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Hikâye yapısı",
+  "outcome": "Söz sanatlarını, metin yapılarını, geçiş ve bağlantı ifadelerini, işlevli söz varlıklarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 22",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hikâyede sorunun ortaya çıktığı ve olayların düğümlendiği bölüm hangisidir?",
+  "data": {
+   "options": [
+    "Düğüm",
+    "Serim",
+    "Çözüm"
+   ]
+  },
+  "textPlain": "Hikâyede sorunun ortaya çıktığı ve olayların düğümlendiği bölüm hangisidir? Seçenekler: Düğüm / Serim / Çözüm",
+  "correctAnswer": "Düğüm",
+  "explanation": "Hikâye serim, düğüm ve çözüm bölümlerinden oluşur; sorun düğümde ortaya çıkar."
+ },
+ {
+  "questionId": "boss-a07-t4-13",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Kalıp ifadeler",
+  "outcome": "Kalıp ifadeleri, deyim ve atasözlerini anlamına ve iletişim durumuna uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 14",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kalıp ifadeyi kullanıldığı durumla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Geçmiş olsun.",
+     "Hasta birini ziyaret ederken"
+    ],
+    [
+     "Güle güle oturun.",
+     "Yeni eve taşınana"
+    ],
+    [
+     "Hayırlı olsun.",
+     "Yeni bir işe başlayana"
+    ]
+   ]
+  },
+  "textPlain": "Her kalıp ifadeyi kullanıldığı durumla eşleştir. Sol: Geçmiş olsun.; Güle güle oturun.; Hayırlı olsun.. Sağ: Hasta birini ziyaret ederken; Yeni eve taşınana; Yeni bir işe başlayana.",
+  "correctAnswer": "Geçmiş olsun. = Hasta birini ziyaret ederken; Güle güle oturun. = Yeni eve taşınana; Hayırlı olsun. = Yeni bir işe başlayana",
+  "explanation": "Kalıp ifadeler belirli durumlarda kullanılır."
+ },
+ {
+  "questionId": "boss-a07-t4-14",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Soru işareti",
+  "outcome": "Ses olaylarına uğrayan kelimeleri doğru yazar; düzeltme işaretini ve noktalama işaretlerini kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 20",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlenin sonuna soru işareti konmalıdır?",
+  "data": {
+   "options": [
+    "Yeni mahallenize alıştınız mı",
+    "Yeni mahallemize alıştık",
+    "Ne güzel bir mahalle"
+   ]
+  },
+  "textPlain": "Hangi cümlenin sonuna soru işareti konmalıdır? Seçenekler: Yeni mahallenize alıştınız mı / Yeni mahallemize alıştık / Ne güzel bir mahalle",
+  "correctAnswer": "Yeni mahallenize alıştınız mı",
+  "explanation": "Soru bildiren cümlelerin sonuna soru işareti konur."
+ },
+ {
+  "questionId": "boss-a07-t4-15",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Metnin amacı",
+  "outcome": "Okuduğu metindeki önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 24 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metnin amacı nedir?",
+  "data": {
+   "options": [
+    "Yeni mahalleye alışmak için öneriler vermek",
+    "Bir eczaneyi tanıtmak",
+    "Çöp toplama saatlerini değiştirmek"
+   ],
+   "passage": "Yeni bir mahalleye taşındığınızda önce çevreyi tanıyın. En yakın eczaneyi, okulu ve parkı öğrenin. Komşularınıza kendinizi tanıtın; küçük bir ikram tanışmayı kolaylaştırır. Mahallenin kurallarına, örneğin çöp çıkarma saatlerine uyun."
+  },
+  "textPlain": "Metin: Yeni bir mahalleye taşındığınızda önce çevreyi tanıyın. En yakın eczaneyi, okulu ve parkı öğrenin. Komşularınıza kendinizi tanıtın; küçük bir ikram tanışmayı kolaylaştırır. Mahallenin kurallarına, örneğin çöp çıkarma saatlerine uyun. Soru: Yukarıdaki metnin amacı nedir? Seçenekler: Yeni mahalleye alışmak için öneriler vermek / Bir eczaneyi tanıtmak / Çöp toplama saatlerini değiştirmek",
+  "correctAnswer": "Yeni mahalleye alışmak için öneriler vermek",
+  "explanation": "Metin yeni bir mahalleye uyum sağlamak için öneriler sıralar."
+ },
+ {
+  "questionId": "boss-a07-t4-16",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Önemli bilgi",
+  "outcome": "Okuduğu metindeki önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 24 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre komşularla tanışmayı ne kolaylaştırır?",
+  "data": {
+   "options": [
+    "Küçük bir ikram",
+    "Çöp saatlerine uymak",
+    "Parka gitmek"
+   ],
+   "passage": "Yeni bir mahalleye taşındığınızda önce çevreyi tanıyın. En yakın eczaneyi, okulu ve parkı öğrenin. Komşularınıza kendinizi tanıtın; küçük bir ikram tanışmayı kolaylaştırır. Mahallenin kurallarına, örneğin çöp çıkarma saatlerine uyun."
+  },
+  "textPlain": "Metin: Yeni bir mahalleye taşındığınızda önce çevreyi tanıyın. En yakın eczaneyi, okulu ve parkı öğrenin. Komşularınıza kendinizi tanıtın; küçük bir ikram tanışmayı kolaylaştırır. Mahallenin kurallarına, örneğin çöp çıkarma saatlerine uyun. Soru: Yukarıdaki metne göre komşularla tanışmayı ne kolaylaştırır? Seçenekler: Küçük bir ikram / Çöp saatlerine uymak / Parka gitmek",
+  "correctAnswer": "Küçük bir ikram",
+  "explanation": "Metinde “küçük bir ikram tanışmayı kolaylaştırır” denir."
+ },
+ {
+  "questionId": "boss-a07-t4-17",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Ben dili",
+  "outcome": "İletişimle ilgili kavramları tanır ve açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 23",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Etkili iletişimde “sen dili” yerine “ben dili” kullanmanın yararı nedir?",
+  "data": {
+   "options": [
+    "Karşıdakini suçlamadan duyguyu anlatmak",
+    "Karşıdakini eleştirmek",
+    "Konuşmayı kısa kesmek"
+   ]
+  },
+  "textPlain": "Etkili iletişimde “sen dili” yerine “ben dili” kullanmanın yararı nedir? Seçenekler: Karşıdakini suçlamadan duyguyu anlatmak / Karşıdakini eleştirmek / Konuşmayı kısa kesmek",
+  "correctAnswer": "Karşıdakini suçlamadan duyguyu anlatmak",
+  "explanation": "Ben dili karşıdakini savunmaya geçirmeden duygumuzu anlatmamızı sağlar."
+ },
+ {
+  "questionId": "boss-a07-t4-18",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Atasözü",
+  "outcome": "Kalıp ifadeleri, deyim ve atasözlerini anlamına ve iletişim durumuna uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 14",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Tatlı dil yılanı deliğinden çıkarır.” atasözü neyi anlatır?",
+  "data": {
+   "options": [
+    "Güzel ve nazik sözlerle herkesin gönlünün kazanılabileceğini",
+    "Yılanların tatlıyı sevdiğini",
+    "Az konuşmak gerektiğini"
+   ]
+  },
+  "textPlain": "“Tatlı dil yılanı deliğinden çıkarır.” atasözü neyi anlatır? Seçenekler: Güzel ve nazik sözlerle herkesin gönlünün kazanılabileceğini / Yılanların tatlıyı sevdiğini / Az konuşmak gerektiğini",
+  "correctAnswer": "Güzel ve nazik sözlerle herkesin gönlünün kazanılabileceğini",
+  "explanation": "Atasözü, yumuşak ve güzel sözün en zor durumda bile etkili olduğunu anlatır."
+ },
+ {
+  "questionId": "boss-a07-t4-19",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Geçiş ifadesi",
+  "outcome": "Söz sanatlarını, metin yapılarını, geçiş ve bağlantı ifadelerini, işlevli söz varlıklarını ve düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 22",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi ifade metinde sonuca geçildiğini bildirir?",
+  "data": {
+   "options": [
+    "Sonuç olarak",
+    "Örneğin",
+    "İlk olarak"
+   ]
+  },
+  "textPlain": "Hangi ifade metinde sonuca geçildiğini bildirir? Seçenekler: Sonuç olarak / Örneğin / İlk olarak",
+  "correctAnswer": "Sonuç olarak",
+  "explanation": "“Sonuç olarak, kısacası” sonuca geçişi bildirir."
+ },
+ {
+  "questionId": "boss-a07-t4-20",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "4. Tema: İletişim ve Sosyal İlişkiler",
+  "topic": "Yazım",
+  "outcome": "Ses olaylarına uğrayan kelimeleri doğru yazar; düzeltme işaretini ve noktalama işaretlerini kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 4. Tema “İletişim ve Sosyal İlişkiler”, s. 20",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlenin yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Komşumuz da bize çay getirdi.",
+    "Komşumuzda bize çay getirdi.",
+    "Komşumuz’da bize çay getirdi."
+   ]
+  },
+  "textPlain": "Hangi cümlenin yazımı doğrudur? Seçenekler: Komşumuz da bize çay getirdi. / Komşumuzda bize çay getirdi. / Komşumuz’da bize çay getirdi.",
+  "correctAnswer": "Komşumuz da bize çay getirdi.",
+  "explanation": "“Da” bağlacı “dahi” anlamı katar ve ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a07-t5-01",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Kelime anlamı",
+  "outcome": "Kelimelerin ve deyimlerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 82, 94–98, 105",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“İcat” kelimesinin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Daha önce olmayan bir şeyi bulma, buluş",
+    "Eski bir eşya",
+    "Bir tür hastalık"
+   ]
+  },
+  "textPlain": "“İcat” kelimesinin anlamı hangisidir? Seçenekler: Daha önce olmayan bir şeyi bulma, buluş / Eski bir eşya / Bir tür hastalık",
+  "correctAnswer": "Daha önce olmayan bir şeyi bulma, buluş",
+  "explanation": "İcat, daha önce olmayan bir şeyi bulup ortaya koymaktır."
+ },
+ {
+  "questionId": "boss-a07-t5-02",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Kısaltma",
+  "outcome": "Kısaltmalara ekleri doğru getirir; kısa çizgi ve eğik çizgiyi işlevine uygun kullanır; özne-yüklem uyumuna ve şart işlevli söz varlıklarına dikkat eder.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 83",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisinde kısaltmaya getirilen ek doğru yazılmıştır?",
+  "data": {
+   "options": [
+    "TBMM’ye",
+    "TBMM’ya",
+    "TBMMye"
+   ]
+  },
+  "textPlain": "Hangisinde kısaltmaya getirilen ek doğru yazılmıştır? Seçenekler: TBMM’ye / TBMM’ya / TBMMye",
+  "correctAnswer": "TBMM’ye",
+  "explanation": "Kısaltmaya gelen ek, kısaltmanın okunuşuna uyar ve kesmeyle ayrılır: TBMM’ye (te-be-me-me)."
+ },
+ {
+  "questionId": "boss-a07-t5-03",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Biyomimetik",
+  "outcome": "Bilgilendirici metinlerdeki önemli bilgileri belirler; bilim ve teknolojiyle ilgili bilgileri ilişkilendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 84–93, 110",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Doğadaki canlılardan ilham alınarak yapılan buluşları inceleyen bilim dalına ne ad verilir?",
+  "data": {
+   "options": [
+    "Biyomimetik",
+    "Astronomi",
+    "Jeoloji"
+   ]
+  },
+  "textPlain": "Doğadaki canlılardan ilham alınarak yapılan buluşları inceleyen bilim dalına ne ad verilir? Seçenekler: Biyomimetik / Astronomi / Jeoloji",
+  "correctAnswer": "Biyomimetik",
+  "explanation": "Doğayı taklit eden teknolojilere biyomimetik denir."
+ },
+ {
+  "questionId": "boss-a07-t5-04",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Eğik çizgi",
+  "outcome": "Kısaltmalara ekleri doğru getirir; kısa çizgi ve eğik çizgiyi işlevine uygun kullanır; özne-yüklem uyumuna ve şart işlevli söz varlıklarına dikkat eder.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 83",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Eğik çizgi (/) adres yazarken apartman numarası ile daire numarasını ayırmak için kullanılabilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Eğik çizgi (/) adres yazarken apartman numarası ile daire numarasını ayırmak için kullanılabilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Örneğin “Çiçek Sokak No: 25/9” yazımında eğik çizgi kullanılır."
+ },
+ {
+  "questionId": "boss-a07-t5-05",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Yapay zekâ",
+  "outcome": "Bilgilendirici metinlerdeki önemli bilgileri belirler; bilim ve teknolojiyle ilgili bilgileri ilişkilendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 84–93, 110",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Yapay zekâ nedir?",
+  "data": {
+   "options": [
+    "İnsanın düşünme ve öğrenme yeteneğini taklit eden bilgisayar sistemleri",
+    "Bir uzay aracı",
+    "Bir tür pil"
+   ]
+  },
+  "textPlain": "Yapay zekâ nedir? Seçenekler: İnsanın düşünme ve öğrenme yeteneğini taklit eden bilgisayar sistemleri / Bir uzay aracı / Bir tür pil",
+  "correctAnswer": "İnsanın düşünme ve öğrenme yeteneğini taklit eden bilgisayar sistemleri",
+  "explanation": "Yapay zekâ, öğrenebilen ve karar verebilen bilgisayar sistemleridir."
+ },
+ {
+  "questionId": "boss-a07-t5-06",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Kişileştirme",
+  "outcome": "Söz sanatlarını ve düşünceyi geliştirme yollarını belirler, metne katkısını açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 69, 102",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Robot, her sabah bize gülümseyerek günaydın der.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Kişileştirme",
+    "Benzetme",
+    "Abartma"
+   ]
+  },
+  "textPlain": "“Robot, her sabah bize gülümseyerek günaydın der.” cümlesinde hangi söz sanatı vardır? Seçenekler: Kişileştirme / Benzetme / Abartma",
+  "correctAnswer": "Kişileştirme",
+  "explanation": "Robota gülümsemek, günaydın demek gibi insana ait özellikler verilmiştir."
+ },
+ {
+  "questionId": "boss-a07-t5-07",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Kısa çizgi",
+  "outcome": "Kısaltmalara ekleri doğru getirir; kısa çizgi ve eğik çizgiyi işlevine uygun kullanır; özne-yüklem uyumuna ve şart işlevli söz varlıklarına dikkat eder.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 83",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede kısa çizgi doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Ankara-İstanbul hızlı treni çok hızlıdır.",
+    "Ankara İstanbul-hızlı treni çok hızlıdır.",
+    "Ankara-İstanbul-hızlı treni çok hızlıdır."
+   ]
+  },
+  "textPlain": "Hangi cümlede kısa çizgi doğru kullanılmıştır? Seçenekler: Ankara-İstanbul hızlı treni çok hızlıdır. / Ankara İstanbul-hızlı treni çok hızlıdır. / Ankara-İstanbul-hızlı treni çok hızlıdır.",
+  "correctAnswer": "Ankara-İstanbul hızlı treni çok hızlıdır.",
+  "explanation": "Kısa çizgi “arasında, ile” anlamında iki yer adı arasına konur."
+ },
+ {
+  "questionId": "boss-a07-t5-08",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Biyomimetik",
+  "outcome": "Bilgilendirici metinlerdeki önemli bilgileri belirler; bilim ve teknolojiyle ilgili bilgileri ilişkilendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 84–93, 110",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Yalıçapkını kuşunun gagasından esinlenerek hangi taşıtın burun kısmı tasarlanmıştır?",
+  "data": {
+   "options": [
+    "Hızlı tren",
+    "Helikopter",
+    "Bisiklet"
+   ]
+  },
+  "textPlain": "Yalıçapkını kuşunun gagasından esinlenerek hangi taşıtın burun kısmı tasarlanmıştır? Seçenekler: Hızlı tren / Helikopter / Bisiklet",
+  "correctAnswer": "Hızlı tren",
+  "explanation": "Hızlı trenlerin burnu, suya sessizce dalan yalıçapkınının gagasından esinlenerek tasarlanmıştır."
+ },
+ {
+  "questionId": "boss-a07-t5-09",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Açık anlatım",
+  "outcome": "Söz sanatlarını ve düşünceyi geliştirme yollarını belirler, metne katkısını açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 69, 102",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede düşünce açıkça (doğrudan) anlatılmıştır?",
+  "data": {
+   "options": [
+    "Teknolojiyi bilinçli kullanmalıyız.",
+    "Ekrana bakarken saatlerin nasıl geçtiğini fark etmiyoruz.",
+    "Gözlerimiz bazen bize bir şey söylemek ister."
+   ]
+  },
+  "textPlain": "Hangi cümlede düşünce açıkça (doğrudan) anlatılmıştır? Seçenekler: Teknolojiyi bilinçli kullanmalıyız. / Ekrana bakarken saatlerin nasıl geçtiğini fark etmiyoruz. / Gözlerimiz bazen bize bir şey söylemek ister.",
+  "correctAnswer": "Teknolojiyi bilinçli kullanmalıyız.",
+  "explanation": "Birinci cümlede düşünce doğrudan söylenir; diğerlerinde dolaylı yoldan sezdirilir."
+ },
+ {
+  "questionId": "boss-a07-t5-10",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Tanımlama",
+  "outcome": "Söz sanatlarını ve düşünceyi geliştirme yollarını belirler, metne katkısını açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 69, 102",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Robot, belirli görevleri kendi kendine yapabilen makinedir.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Tanımlama",
+    "Karşılaştırma",
+    "Tanık gösterme"
+   ]
+  },
+  "textPlain": "“Robot, belirli görevleri kendi kendine yapabilen makinedir.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Tanımlama / Karşılaştırma / Tanık gösterme",
+  "correctAnswer": "Tanımlama",
+  "explanation": "Bir kavramın ne olduğunu açıklamak tanımlamadır."
+ },
+ {
+  "questionId": "boss-a07-t5-11",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Özne-yüklem uyumu",
+  "outcome": "Kısaltmalara ekleri doğru getirir; kısa çizgi ve eğik çizgiyi işlevine uygun kullanır; özne-yüklem uyumuna ve şart işlevli söz varlıklarına dikkat eder.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 83",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Cümleleri özne-yüklem uyumu doğru ve yanlış olanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Uyum doğru",
+    "Uyum yanlış"
+   ],
+   "items": [
+    [
+     "Bilim insanları yeni bir gezegen keşfetti.",
+     0
+    ],
+    [
+     "Öğrenciler deneye başladık.",
+     1
+    ],
+    [
+     "Ben bir robot yaptım.",
+     0
+    ],
+    [
+     "Sen bu soruyu çözdük.",
+     1
+    ],
+    [
+     "Biz uzay müzesini gezdik.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri özne-yüklem uyumu doğru ve yanlış olanlar diye ayır. (Uyum doğru / Uyum yanlış) Kartlar: Bilim insanları yeni bir gezegen keşfetti.; Öğrenciler deneye başladık.; Ben bir robot yaptım.; Sen bu soruyu çözdük.; Biz uzay müzesini gezdik..",
+  "correctAnswer": "Uyum doğru: Bilim insanları yeni bir gezegen keşfetti., Ben bir robot yaptım., Biz uzay müzesini gezdik.. Uyum yanlış: Öğrenciler deneye başladık., Sen bu soruyu çözdük..",
+  "explanation": "Özne ile yüklem kişi bakımından uyumlu olmalıdır: biz … -dık, ben … -dım."
+ },
+ {
+  "questionId": "boss-a07-t5-12",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Deyim",
+  "outcome": "Kelimelerin ve deyimlerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 82, 94–98, 105",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Kafa yormak” deyiminin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Bir konu üzerinde çok düşünmek",
+    "Başı ağrımak",
+    "Uyumak"
+   ]
+  },
+  "textPlain": "“Kafa yormak” deyiminin anlamı hangisidir? Seçenekler: Bir konu üzerinde çok düşünmek / Başı ağrımak / Uyumak",
+  "correctAnswer": "Bir konu üzerinde çok düşünmek",
+  "explanation": "“Kafa yormak” bir konuyu çözmek için çok düşünmektir."
+ },
+ {
+  "questionId": "boss-a07-t5-13",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Kısaltmalara gelen ekler",
+  "outcome": "Kısaltmalara ekleri doğru getirir; kısa çizgi ve eğik çizgiyi işlevine uygun kullanır; özne-yüklem uyumuna ve şart işlevli söz varlıklarına dikkat eder.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 83",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kısaltmayı doğru ekli biçimiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "TDK",
+     "TDK’ye"
+    ],
+    [
+     "NASA",
+     "NASA’ya"
+    ],
+    [
+     "cm",
+     "cm’den"
+    ]
+   ]
+  },
+  "textPlain": "Her kısaltmayı doğru ekli biçimiyle eşleştir. Sol: TDK; NASA; cm. Sağ: TDK’ye; NASA’ya; cm’den.",
+  "correctAnswer": "TDK = TDK’ye; NASA = NASA’ya; cm = cm’den",
+  "explanation": "Ek, kısaltmanın okunuşuna uyar: te-de-ke’ye, NASA’ya, santimetreden → cm’den."
+ },
+ {
+  "questionId": "boss-a07-t5-14",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Tanık gösterme",
+  "outcome": "Söz sanatlarını ve düşünceyi geliştirme yollarını belirler, metne katkısını açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 69, 102",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Bilim insanı Einstein’ın da dediği gibi hayal gücü bilgiden daha önemlidir.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Tanık gösterme",
+    "Sayısal verilerden yararlanma",
+    "Benzetme"
+   ]
+  },
+  "textPlain": "“Bilim insanı Einstein’ın da dediği gibi hayal gücü bilgiden daha önemlidir.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Tanık gösterme / Sayısal verilerden yararlanma / Benzetme",
+  "correctAnswer": "Tanık gösterme",
+  "explanation": "Düşünceyi desteklemek için tanınmış bir kişinin sözüne başvurmak tanık göstermedir."
+ },
+ {
+  "questionId": "boss-a07-t5-15",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Önemli bilgi",
+  "outcome": "Metindeki olayları sıralar, önemli bilgileri belirler ve metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 109 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre cırt cırt bandın icadına ne ilham olmuştur?",
+  "data": {
+   "options": [
+    "Dulavratotu tohumlarındaki küçük kancalar",
+    "Köpeğin tüyleri",
+    "Ayakkabı bağcıkları"
+   ],
+   "passage": "Bir mühendis, yürüyüşten döndüğünde giysilerine ve köpeğinin tüylerine yapışan dulavratotu tohumlarını mikroskopla inceledi. Tohumların üzerinde çok küçük kancalar gördü. Bu kancalardan esinlenerek cırt cırt bandı icat etti. Bugün ayakkabılardan çantalara kadar pek çok eşyada bu bant kullanılıyor."
+  },
+  "textPlain": "Metin: Bir mühendis, yürüyüşten döndüğünde giysilerine ve köpeğinin tüylerine yapışan dulavratotu tohumlarını mikroskopla inceledi. Tohumların üzerinde çok küçük kancalar gördü. Bu kancalardan esinlenerek cırt cırt bandı icat etti. Bugün ayakkabılardan çantalara kadar pek çok eşyada bu bant kullanılıyor. Soru: Yukarıdaki metne göre cırt cırt bandın icadına ne ilham olmuştur? Seçenekler: Dulavratotu tohumlarındaki küçük kancalar / Köpeğin tüyleri / Ayakkabı bağcıkları",
+  "correctAnswer": "Dulavratotu tohumlarındaki küçük kancalar",
+  "explanation": "Metinde mühendisin tohumlardaki küçük kancalardan esinlendiği açıkça söylenir."
+ },
+ {
+  "questionId": "boss-a07-t5-16",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Olay sırası",
+  "outcome": "Metindeki olayları sıralar, önemli bilgileri belirler ve metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 109 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre hangisi EN SON gerçekleşmiştir?",
+  "data": {
+   "options": [
+    "Bandın pek çok eşyada kullanılması",
+    "Tohumların mikroskopla incelenmesi",
+    "Kancaların görülmesi"
+   ],
+   "passage": "Bir mühendis, yürüyüşten döndüğünde giysilerine ve köpeğinin tüylerine yapışan dulavratotu tohumlarını mikroskopla inceledi. Tohumların üzerinde çok küçük kancalar gördü. Bu kancalardan esinlenerek cırt cırt bandı icat etti. Bugün ayakkabılardan çantalara kadar pek çok eşyada bu bant kullanılıyor."
+  },
+  "textPlain": "Metin: Bir mühendis, yürüyüşten döndüğünde giysilerine ve köpeğinin tüylerine yapışan dulavratotu tohumlarını mikroskopla inceledi. Tohumların üzerinde çok küçük kancalar gördü. Bu kancalardan esinlenerek cırt cırt bandı icat etti. Bugün ayakkabılardan çantalara kadar pek çok eşyada bu bant kullanılıyor. Soru: Yukarıdaki metne göre hangisi EN SON gerçekleşmiştir? Seçenekler: Bandın pek çok eşyada kullanılması / Tohumların mikroskopla incelenmesi / Kancaların görülmesi",
+  "correctAnswer": "Bandın pek çok eşyada kullanılması",
+  "explanation": "Olaylar sırasıyla: inceleme, kancaların görülmesi, icat ve en son yaygın kullanım."
+ },
+ {
+  "questionId": "boss-a07-t5-17",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Uzay teknolojisi",
+  "outcome": "Bilgilendirici metinlerdeki önemli bilgileri belirler; bilim ve teknolojiyle ilgili bilgileri ilişkilendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 84–93, 110",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Dünya’nın çevresinde dolanarak iletişim ve hava durumu bilgilerini ileten araçlara ne ad verilir?",
+  "data": {
+   "options": [
+    "Yapay uydu",
+    "Teleskop",
+    "Meteor"
+   ]
+  },
+  "textPlain": "Dünya’nın çevresinde dolanarak iletişim ve hava durumu bilgilerini ileten araçlara ne ad verilir? Seçenekler: Yapay uydu / Teleskop / Meteor",
+  "correctAnswer": "Yapay uydu",
+  "explanation": "Yapay uydular iletişim, hava durumu, konum gibi bilgiler sağlar."
+ },
+ {
+  "questionId": "boss-a07-t5-18",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Benzetme",
+  "outcome": "Söz sanatlarını ve düşünceyi geliştirme yollarını belirler, metne katkısını açıklar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 69, 102",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Bilgisayarlar adeta bir insan beyni gibi çalışır.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Benzetme",
+    "Kişileştirme",
+    "Abartma"
+   ]
+  },
+  "textPlain": "“Bilgisayarlar adeta bir insan beyni gibi çalışır.” cümlesinde hangi söz sanatı vardır? Seçenekler: Benzetme / Kişileştirme / Abartma",
+  "correctAnswer": "Benzetme",
+  "explanation": "“Gibi” ile bilgisayar insan beynine benzetilmiştir."
+ },
+ {
+  "questionId": "boss-a07-t5-19",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Özne-yüklem uyumu",
+  "outcome": "Kısaltmalara ekleri doğru getirir; kısa çizgi ve eğik çizgiyi işlevine uygun kullanır; özne-yüklem uyumuna ve şart işlevli söz varlıklarına dikkat eder.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 83",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede özne-yüklem uyumu doğrudur?",
+  "data": {
+   "options": [
+    "Siz bu deneyi çok iyi yaptınız.",
+    "Siz bu deneyi çok iyi yaptık.",
+    "Siz bu deneyi çok iyi yaptım."
+   ]
+  },
+  "textPlain": "Hangi cümlede özne-yüklem uyumu doğrudur? Seçenekler: Siz bu deneyi çok iyi yaptınız. / Siz bu deneyi çok iyi yaptık. / Siz bu deneyi çok iyi yaptım.",
+  "correctAnswer": "Siz bu deneyi çok iyi yaptınız.",
+  "explanation": "“Siz” öznesiyle yüklem “-nız” ekini alır: yaptınız."
+ },
+ {
+  "questionId": "boss-a07-t5-20",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "5. Tema: Bilim ve Teknoloji",
+  "topic": "Çıkarım",
+  "outcome": "Metindeki olayları sıralar, önemli bilgileri belirler ve metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 5. Tema “Bilim ve Teknoloji”, s. 109 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Eski insanlar “Kuşlar alçaktan uçuyorsa yağmur yağacak.” gibi gözlemlerden yararlanırdı. Bu durumdan hangi çıkarım yapılabilir?",
+  "data": {
+   "options": [
+    "Doğayı dikkatle gözlemleyerek bilgi edinmişlerdir.",
+    "Teknolojiyi çok iyi kullanmışlardır.",
+    "Hiç gözlem yapmamışlardır."
+   ]
+  },
+  "textPlain": "Eski insanlar “Kuşlar alçaktan uçuyorsa yağmur yağacak.” gibi gözlemlerden yararlanırdı. Bu durumdan hangi çıkarım yapılabilir? Seçenekler: Doğayı dikkatle gözlemleyerek bilgi edinmişlerdir. / Teknolojiyi çok iyi kullanmışlardır. / Hiç gözlem yapmamışlardır.",
+  "correctAnswer": "Doğayı dikkatle gözlemleyerek bilgi edinmişlerdir.",
+  "explanation": "Bu sözler, doğanın dikkatle gözlemlenmesinden doğmuştur."
+ }
+]
