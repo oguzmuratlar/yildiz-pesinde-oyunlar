@@ -1,0 +1,1368 @@
+[
+ {
+  "questionId": "boss-a01-f1-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Ay’ın özellikleri",
+  "outcome": "Ay’ın yapısı, özellikleri ve hareketleri ile ilgili bilgilere ulaşma ve bu bilgileri kaydetme.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 32",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Ay geceleri parlak görünür. Bu ışığın asıl kaynağı hangisidir?",
+  "data": {
+   "options": [
+    "Güneş",
+    "Ay’ın kendisi",
+    "Dünya"
+   ]
+  },
+  "textPlain": "Ay geceleri parlak görünür. Bu ışığın asıl kaynağı hangisidir? Seçenekler: Güneş / Ay’ın kendisi / Dünya",
+  "correctAnswer": "Güneş",
+  "explanation": "Ay ışık kaynağı değildir; Güneş’ten aldığı ışığı yansıttığı için parlak görünür."
+ },
+ {
+  "questionId": "boss-a01-f1-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Ay’ın evreleri",
+  "outcome": "Ay’ın evrelerini gözlemleyerek temsil eden bilimsel model oluşturma.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 38–40",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "order",
+  "prompt": "Ay’ın dört ana evresini yeni aydan başlayarak sırayla diz.",
+  "data": {
+   "items": [
+    "Yeni ay",
+    "İlk dördün",
+    "Dolunay",
+    "Son dördün"
+   ]
+  },
+  "textPlain": "Ay’ın dört ana evresini yeni aydan başlayarak sırala: Dolunay, Yeni ay, Son dördün, İlk dördün.",
+  "correctAnswer": "Yeni ay → İlk dördün → Dolunay → Son dördün",
+  "explanation": "Ana evreler sırasıyla yeni ay, ilk dördün, dolunay ve son dördündür; hilal ve şişkin ay ara evrelerdir."
+ },
+ {
+  "questionId": "boss-a01-f1-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Güneş, Dünya ve Ay’ın hareketleri",
+  "outcome": "Güneş, Dünya ve Ay’ın birbirine göre hareketlerini ve hacimsel büyüklüklerini temsil eden model oluşturma.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 37, 47",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her hareketi tamamlanma süresiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Dünya’nın kendi ekseni etrafında bir tur dönmesi",
+     "24 saat"
+    ],
+    [
+     "Dünya’nın Güneş etrafında bir tur dolanması",
+     "365 gün 6 saat"
+    ],
+    [
+     "Ay’ın evrelerinin bir kez tamamlanması",
+     "29,5 gün"
+    ]
+   ]
+  },
+  "textPlain": "Hareketleri süreleriyle eşleştir: Dünya’nın kendi ekseni etrafında dönmesi; Dünya’nın Güneş etrafında dolanması; Ay evrelerinin tamamlanması. Süreler: 24 saat, 365 gün 6 saat, 29,5 gün.",
+  "correctAnswer": "Dünya’nın dönmesi = 24 saat; Dünya’nın Güneş etrafında dolanması = 365 gün 6 saat; Ay evreleri = 29,5 gün",
+  "explanation": "Dünya kendi ekseni etrafında 24 saatte döner, Güneş etrafındaki dolanmasını yaklaşık 365 gün 6 saatte tamamlar. Ay’ın evreleri yaklaşık 29,5 günde tamamlanır."
+ },
+ {
+  "questionId": "boss-a01-f1-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Güneş ve Ay",
+  "outcome": "Ay’ın yapısı, özellikleri ve hareketleri ile ilgili bilgilere ulaşma ve bu bilgileri kaydetme.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 22–33",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Her bilgi kartını ait olduğu gök cisminin kutusuna koy.",
+  "data": {
+   "bins": [
+    "Güneş",
+    "Ay"
+   ],
+   "items": [
+    [
+     "Bir ışık kaynağıdır",
+     0
+    ],
+    [
+     "Yüzeyinde çok sayıda krater vardır",
+     1
+    ],
+    [
+     "Sıcak gazlardan ve katmanlardan oluşur",
+     0
+    ],
+    [
+     "Atmosferi yok denecek kadar incedir",
+     1
+    ],
+    [
+     "Dünya’nın doğal uydusudur",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Kartları Güneş ve Ay olarak ayır: Bir ışık kaynağıdır; Yüzeyinde çok sayıda krater vardır; Sıcak gazlardan ve katmanlardan oluşur; Atmosferi yok denecek kadar incedir; Dünya’nın doğal uydusudur.",
+  "correctAnswer": "Güneş: ışık kaynağıdır, sıcak gazlardan ve katmanlardan oluşur. Ay: krater vardır, atmosferi çok incedir, Dünya’nın doğal uydusudur.",
+  "explanation": "Güneş sıcak gazlardan oluşan bir yıldızdır ve ışık kaynağıdır. Ay, Dünya’nın uydusudur; atmosferi çok ince olduğu için yüzeyinde çok sayıda krater bulunur."
+ },
+ {
+  "questionId": "boss-a01-f1-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Güneş’in dönme hareketi",
+  "outcome": "Güneş’in yapısı ve dönme hareketi ile ilgili bilgilere ulaşma ve bu bilgileri kaydetme.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 24",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir gözlemci, Güneş lekelerinin günler içinde hep aynı yöne kaydığını görüyor. Bu gözlem, Güneş’in kendi ekseni etrafında döndüğünü gösterir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Güneş lekelerinin günler içinde aynı yöne kayması, Güneş’in kendi ekseni etrafında döndüğünü gösterir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Lekelerin düzenli olarak aynı yöne kayması, Güneş’in kendi ekseni etrafında döndüğünün kanıtıdır."
+ },
+ {
+  "questionId": "boss-a01-f1-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Ay’ın evreleri",
+  "outcome": "Ay’ın evrelerini gözlemleyerek temsil eden bilimsel model oluşturma.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 39–40",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Şekilde Ay’ın dolunay evresi görülüyor. Yaklaşık bir hafta sonra gözlenecek ana evre hangisidir?",
+  "data": {
+   "options": [
+    "Son dördün",
+    "İlk dördün",
+    "Yeni ay"
+   ],
+   "fig": {
+    "k": "phase",
+    "p": "dolunay"
+   }
+  },
+  "textPlain": "[Şekil: Dolunay evresindeki Ay] Dolunaydan yaklaşık bir hafta sonra gözlenecek ana evre hangisidir? Seçenekler: Son dördün / İlk dördün / Yeni ay",
+  "correctAnswer": "Son dördün",
+  "explanation": "Ana evreler yaklaşık birer hafta arayla gelir: yeni ay → ilk dördün → dolunay → son dördün."
+ },
+ {
+  "questionId": "boss-a01-f1-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Ay’ın özellikleri",
+  "outcome": "Ay’ın yapısı, özellikleri ve hareketleri ile ilgili bilgilere ulaşma ve bu bilgileri kaydetme.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 33",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ay’a bırakılan ayak izleri yıllar sonra bile bozulmadan durabilir. Bunun nedeni nedir?",
+  "data": {
+   "options": [
+    "Ay’da rüzgâr ve yağış olmaması",
+    "Ay yüzeyinin buzla kaplı olması",
+    "Ay’ın kendi ekseni etrafında hiç dönmemesi"
+   ]
+  },
+  "textPlain": "Ay’daki ayak izleri yıllarca bozulmadan durabilir. Nedeni nedir? Seçenekler: Ay’da rüzgâr ve yağış olmaması / Ay yüzeyinin buzla kaplı olması / Ay’ın kendi ekseni etrafında hiç dönmemesi",
+  "correctAnswer": "Ay’da rüzgâr ve yağış olmaması",
+  "explanation": "Ay’ın atmosferi çok ince olduğu için rüzgâr ve yağış olmaz; izleri silecek bir etki yoktur."
+ },
+ {
+  "questionId": "boss-a01-f1-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Gökyüzündeki Komşularımız ve Biz",
+  "topic": "Güneş’in yapısı",
+  "outcome": "Güneş’in yapısı ve dönme hareketi ile ilgili bilgilere ulaşma ve bu bilgileri kaydetme.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı 1. Kitap, 1. Ünite “Gökyüzündeki Komşularımız ve Biz”, s. 23",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aynı büyüklükteki iki toptan biri yakına, diğeri çok uzağa konuyor. Uzaktaki top daha küçük görünüyor. Bu etkinlik hangi durumu açıklamak için kullanılır?",
+  "data": {
+   "options": [
+    "Güneş’in Dünya’dan çok büyük olduğu hâlde küçük görünmesini",
+    "Ay’ın evrelerinin oluşmasını",
+    "Güneş lekelerinin yer değiştirmesini"
+   ]
+  },
+  "textPlain": "İki eş toptan uzaktaki daha küçük görünüyor. Bu etkinlik neyi açıklar? Seçenekler: Güneş’in büyük olduğu hâlde küçük görünmesini / Ay’ın evrelerinin oluşmasını / Güneş lekelerinin yer değiştirmesini",
+  "correctAnswer": "Güneş’in Dünya’dan çok büyük olduğu hâlde küçük görünmesini",
+  "explanation": "Güneş Dünya’dan çok daha büyüktür ama bize çok uzak olduğu için küçük görünür."
+ },
+ {
+  "questionId": "boss-a01-f2-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Kuvvetin etkileri",
+  "outcome": "Kuvvetin büyüklüğünü belirleyip buna göre kuvveti tanımlar; kuvvetin cisimler üzerindeki etkilerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 59–63",
+  "difficulty": "kolay",
+  "group": "f2",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Her olayda kuvvet neyi değiştiriyor? Kartları doğru kutuya koy.",
+  "data": {
+   "bins": [
+    "Şeklini değiştirir",
+    "Hareketini değiştirir"
+   ],
+   "items": [
+    [
+     "Oyun hamurunu sıkmak",
+     0
+    ],
+    [
+     "Kalecinin topun yönünü değiştirmesi",
+     1
+    ],
+    [
+     "Süngeri parmakla ezmek",
+     0
+    ],
+    [
+     "Duran bisikleti itip harekete geçirmek",
+     1
+    ],
+    [
+     "Yayı germek",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Olayları kuvvetin etkisine göre ayır (şekil / hareket): Oyun hamurunu sıkmak; Kalecinin topun yönünü değiştirmesi; Süngeri ezmek; Duran bisikleti itmek; Yayı germek.",
+  "correctAnswer": "Şekil: hamuru sıkmak, süngeri ezmek, yayı germek. Hareket: topun yönünü değiştirmek, duran bisikleti harekete geçirmek.",
+  "explanation": "Kuvvet cisimlerin şeklini değiştirebilir; ayrıca harekete geçirebilir, hızını ya da yönünü değiştirebilir."
+ },
+ {
+  "questionId": "boss-a01-f2-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Kuvvetin birimi",
+  "outcome": "Kuvvetin büyüklüğünü dinamometre ile ölçer; basit araç gereçlerle dinamometre modeli tasarlar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 63–64",
+  "difficulty": "kolay",
+  "group": "f2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kuvvetin büyüklüğü hangi birimle ifade edilir?",
+  "data": {
+   "options": [
+    "Newton (N)",
+    "Kilogram (kg)",
+    "Metre (m)"
+   ]
+  },
+  "textPlain": "Kuvvetin büyüklüğü hangi birimle ifade edilir? Seçenekler: Newton (N) / Kilogram (kg) / Metre (m)",
+  "correctAnswer": "Newton (N)",
+  "explanation": "Kuvvetin birimi newtondur ve N ile gösterilir. Kilogram kütlenin, metre uzunluğun birimidir."
+ },
+ {
+  "questionId": "boss-a01-f2-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Dinamometre",
+  "outcome": "Kuvvetin büyüklüğünü dinamometre ile ölçer; basit araç gereçlerle dinamometre modeli tasarlar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 63–64",
+  "difficulty": "orta",
+  "group": "f2",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Şekildeki dinamometrenin gösterdiği değeri kadranlarla ayarla.",
+  "data": {
+   "answer": 7,
+   "digits": 2,
+   "unit": "N",
+   "fig": {
+    "k": "dyn",
+    "v": 7,
+    "max": 10
+   }
+  },
+  "textPlain": "[Şekil: 0–10 N ölçekli dinamometre, gösterge 7 çizgisinde] Dinamometre kaç newton gösteriyor?",
+  "correctAnswer": "7 N",
+  "explanation": "Göstergenin hizasındaki sayı okunur: dinamometre 7 N gösteriyor."
+ },
+ {
+  "questionId": "boss-a01-f2-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Kütle ve ağırlık",
+  "outcome": "Kütleye etki eden yer çekimi kuvvetini ağırlık olarak tanımlar; kütle ve ağırlığı karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 72–75",
+  "difficulty": "orta",
+  "group": "f2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Kütlesi 30 kg olan bir astronot Ay’a gidiyor. Hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Kütlesi aynı kalır, ağırlığı azalır.",
+    "Kütlesi azalır, ağırlığı aynı kalır.",
+    "Kütlesi de ağırlığı da aynı kalır."
+   ]
+  },
+  "textPlain": "Kütlesi 30 kg olan astronot Ay’a gidiyor. Hangisi doğrudur? Seçenekler: Kütlesi aynı, ağırlığı azalır / Kütlesi azalır, ağırlığı aynı / İkisi de aynı",
+  "correctAnswer": "Kütlesi aynı kalır, ağırlığı azalır.",
+  "explanation": "Kütle madde miktarıdır, yer değiştirince değişmez. Ay’ın çekim kuvveti Dünya’nınkinden az olduğu için ağırlık azalır."
+ },
+ {
+  "questionId": "boss-a01-f2-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Kütle ve ağırlık",
+  "outcome": "Kütleye etki eden yer çekimi kuvvetini ağırlık olarak tanımlar; kütle ve ağırlığı karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 72–75",
+  "difficulty": "orta",
+  "group": "f2",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her aracı ya da kavramı doğru açıklamasıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Eşit kollu terazi",
+     "Kütleyi ölçer"
+    ],
+    [
+     "Dinamometre",
+     "Ağırlığı ölçer"
+    ],
+    [
+     "Newton",
+     "Kuvvetin birimidir"
+    ]
+   ]
+  },
+  "textPlain": "Eşleştir: Eşit kollu terazi, Dinamometre, Newton — Kütleyi ölçer, Ağırlığı ölçer, Kuvvetin birimidir.",
+  "correctAnswer": "Eşit kollu terazi = kütleyi ölçer; Dinamometre = ağırlığı ölçer; Newton = kuvvetin birimidir",
+  "explanation": "Kütle eşit kollu teraziyle, ağırlık bir kuvvet olduğu için dinamometreyle ölçülür. Kuvvetin birimi newtondur."
+ },
+ {
+  "questionId": "boss-a01-f2-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Sürtünme kuvveti",
+  "outcome": "Sürtünme kuvvetinin çeşitli ortamlardaki etkilerine yönelik akıl yürütür; sürtünmeyi artırma ve azaltmaya yönelik model tasarlar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 80, 86",
+  "difficulty": "zor",
+  "group": "f2",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Her önlem sürtünmeyi artırır mı, azaltır mı? Kartları ayır.",
+  "data": {
+   "bins": [
+    "Sürtünmeyi artırır",
+    "Sürtünmeyi azaltır"
+   ],
+   "items": [
+    [
+     "Kışın tekerleklere zincir takmak",
+     0
+    ],
+    [
+     "Gıcırdayan menteşeyi yağlamak",
+     1
+    ],
+    [
+     "Buzlu yola kum dökmek",
+     0
+    ],
+    [
+     "Kızağın altını cilalamak",
+     1
+    ],
+    [
+     "Ayakkabı tabanını tırtıklı yapmak",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Önlemleri sürtünmeyi artıran / azaltan diye ayır: Tekerleğe zincir; Menteşeyi yağlamak; Buzlu yola kum; Kızağı cilalamak; Tırtıklı taban.",
+  "correctAnswer": "Artırır: zincir, kum, tırtıklı taban. Azaltır: menteşeyi yağlamak, kızağı cilalamak.",
+  "explanation": "Yüzeyi pürüzlü hâle getirmek sürtünmeyi artırır; yağlamak ve cilalamak yüzeyi kayganlaştırıp sürtünmeyi azaltır."
+ },
+ {
+  "questionId": "boss-a01-f2-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Hava direnci",
+  "outcome": "Hava ve su direncinin cisimlerin hareketine etkisini açıklar; araç tasarımlarıyla ilişkilendirir.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 88",
+  "difficulty": "zor",
+  "group": "f2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir paraşütçü yere daha yavaş inmek istiyor. Hangi değişiklik işine yarar?",
+  "data": {
+   "options": [
+    "Daha geniş yüzeyli bir paraşüt kullanmak",
+    "Daha dar yüzeyli bir paraşüt kullanmak",
+    "Paraşütün rengini değiştirmek"
+   ]
+  },
+  "textPlain": "Paraşütçü daha yavaş inmek istiyor. Hangisi işe yarar? Seçenekler: Daha geniş paraşüt / Daha dar paraşüt / Rengini değiştirmek",
+  "correctAnswer": "Daha geniş yüzeyli bir paraşüt kullanmak",
+  "explanation": "Yüzey genişledikçe hava direnci artar; paraşüt daha yavaş düşer. Renk hava direncini etkilemez."
+ },
+ {
+  "questionId": "boss-a01-f2-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "2. Ünite: Kuvveti Tanıyalım",
+  "topic": "Su direnci",
+  "outcome": "Hava ve su direncinin cisimlerin hareketine etkisini açıklar; araç tasarımlarıyla ilişkilendirir.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 2. Ünite “Kuvveti Tanıyalım”, s. 88",
+  "difficulty": "zor",
+  "group": "f2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Balıkların ve denizaltıların önünün sivri, gövdesinin akıcı biçimde olmasının yararı nedir?",
+  "data": {
+   "options": [
+    "Su direncini azaltıp kolay ilerlemek",
+    "Su direncini artırıp hızlanmak",
+    "Ağırlıklarını artırıp batmak"
+   ]
+  },
+  "textPlain": "Balık ve denizaltının sivri, akıcı biçiminin yararı nedir? Seçenekler: Su direncini azaltmak / Su direncini artırmak / Ağırlığı artırmak",
+  "correctAnswer": "Su direncini azaltıp kolay ilerlemek",
+  "explanation": "Sivri ve akıcı biçim suyun karşı koymasını, yani su direncini azaltır; böylece daha kolay ve hızlı ilerlenir."
+ },
+ {
+  "questionId": "boss-a01-m1-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Açı çeşitleri",
+  "outcome": "Açıları standart birimle (derece) ölçebilme ve açı çeşitlerini belirleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 43",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Şekildeki açı hangi açı çeşididir?",
+  "data": {
+   "options": [
+    "Geniş açı",
+    "Dar açı",
+    "Dik açı"
+   ],
+   "fig": {
+    "k": "angle",
+    "d": 125
+   }
+  },
+  "textPlain": "[Şekil: ölçüsü 90°’den büyük, 180°’den küçük bir açı (125°)] Şekildeki açı hangi açı çeşididir? Seçenekler: Geniş açı / Dar açı / Dik açı",
+  "correctAnswer": "Geniş açı",
+  "explanation": "Ölçüsü 90°’den büyük, 180°’den küçük açılar geniş açıdır."
+ },
+ {
+  "questionId": "boss-a01-m1-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Temel geometrik çizimler",
+  "outcome": "Temel geometrik çizimleri (nokta, doğru, doğru parçası, ışın, çember, dikme) tanıyıp gösterimlerini kullanabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 18 (şekil ekranda çizilir)",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir başlangıç noktası olan ve bir yönde sınırsız uzayan çizgiye ne ad verilir?",
+  "data": {
+   "options": [
+    "Işın",
+    "Doğru parçası",
+    "Doğru"
+   ],
+   "fig": {
+    "k": "ray"
+   }
+  },
+  "textPlain": "[Şekil: A noktasından başlayıp bir yönde ok ile uzayan çizgi] Bir başlangıç noktası olan ve bir yönde sınırsız uzayan çizgiye ne denir? Seçenekler: Işın / Doğru parçası / Doğru",
+  "correctAnswer": "Işın",
+  "explanation": "Işının bir başlangıç noktası vardır ve tek yönde sınırsız uzar. Doğru iki yönde, doğru parçası ise iki uç nokta arasında sınırlıdır."
+ },
+ {
+  "questionId": "boss-a01-m1-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Tümler açılar",
+  "outcome": "Düzlemde iki ve üç doğrunun birbirine göre durumlarını ve oluşan açıları (ters, komşu, tümler, bütünler) belirleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 52",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Ölçüsü 28° olan bir açının tümleri kaç derecedir? Kadranları ayarla.",
+  "data": {
+   "answer": 62,
+   "digits": 2,
+   "unit": "°"
+  },
+  "textPlain": "Ölçüsü 28° olan bir açının tümleri kaç derecedir?",
+  "correctAnswer": "62°",
+  "explanation": "Tümler açıların ölçüleri toplamı 90°’dir: 90 − 28 = 62."
+ },
+ {
+  "questionId": "boss-a01-m1-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "İç açılar toplamı",
+  "outcome": "Üçgenleri açılarına ve kenarlarına göre sınıflandırabilme, iç açılarını ilişkilendirebilme ve kesişen çemberlerle üçgen inşa edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 73",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir üçgenin iki iç açısı 70° ve 45°’dir. Üçüncü iç açısı kaç derecedir?",
+  "data": {
+   "answer": 65,
+   "digits": 2,
+   "unit": "°",
+   "fig": {
+    "k": "tri",
+    "a": [
+     70,
+     45
+    ]
+   }
+  },
+  "textPlain": "[Şekil: iki açısı 70° ve 45° olarak verilmiş üçgen, üçüncü açı “?”] Üçüncü iç açı kaç derecedir?",
+  "correctAnswer": "65°",
+  "explanation": "Üçgenin iç açılarının ölçüleri toplamı 180°’dir: 180 − (70 + 45) = 65."
+ },
+ {
+  "questionId": "boss-a01-m1-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Açı çeşitleri",
+  "outcome": "Açıları standart birimle (derece) ölçebilme ve açı çeşitlerini belirleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 43",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Ölçüsü verilen açıları dar açı ve geniş açı olarak ayır.",
+  "data": {
+   "bins": [
+    "Dar açı",
+    "Geniş açı"
+   ],
+   "items": [
+    [
+     "40°",
+     0
+    ],
+    [
+     "120°",
+     1
+    ],
+    [
+     "89°",
+     0
+    ],
+    [
+     "91°",
+     1
+    ],
+    [
+     "175°",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Açıları dar / geniş diye ayır: 40°, 120°, 89°, 91°, 175°.",
+  "correctAnswer": "Dar: 40°, 89°. Geniş: 91°, 120°, 175°.",
+  "explanation": "Ölçüsü 90°’den küçük açılar dar, 90° ile 180° arasındaki açılar geniş açıdır."
+ },
+ {
+  "questionId": "boss-a01-m1-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Komşu açılar",
+  "outcome": "Düzlemde iki ve üç doğrunun birbirine göre durumlarını ve oluşan açıları (ters, komşu, tümler, bütünler) belirleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 50 (şekil ekranda çizilir)",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kesişen iki doğrunun oluşturduğu açılardan biri 130°’dir. Şekilde x ile gösterilen komşu açı kaç derecedir?",
+  "data": {
+   "answer": 50,
+   "digits": 2,
+   "unit": "°",
+   "fig": {
+    "k": "cross",
+    "a": 130
+   }
+  },
+  "textPlain": "[Şekil: kesişen iki doğru; bir açı 130°, ona komşu açı x] x kaç derecedir?",
+  "correctAnswer": "50°",
+  "explanation": "Bir doğru üzerindeki komşu açıların toplamı 180°’dir: 180 − 130 = 50."
+ },
+ {
+  "questionId": "boss-a01-m1-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Köşegen",
+  "outcome": "Çokgenlerin temel elemanlarını (kenar, köşe, iç açı, dış açı, köşegen) ve düzgün çokgeni belirleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 69 (şekil ekranda çizilir)",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Şekildeki altıgenin bir köşesinden kaç köşegen çizilebilir?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "poly",
+    "n": 6
+   }
+  },
+  "textPlain": "[Şekil: düzgün altıgen, bir köşesi işaretli] Bir köşesinden kaç köşegen çizilebilir?",
+  "correctAnswer": "3",
+  "explanation": "Bir köşe kendisiyle ve iki komşu köşesiyle köşegen oluşturamaz: 6 − 3 = 3 köşegen çizilir."
+ },
+ {
+  "questionId": "boss-a01-m1-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Geometrik Şekiller",
+  "topic": "Kenarlarına göre üçgenler",
+  "outcome": "Üçgenleri açılarına ve kenarlarına göre sınıflandırabilme, iç açılarını ilişkilendirebilme ve kesişen çemberlerle üçgen inşa edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Geometrik Şekiller”, s. 74",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Kenar uzunlukları verilen üçgenleri çeşitleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "5 cm, 5 cm, 5 cm",
+     "Eşkenar üçgen"
+    ],
+    [
+     "4 cm, 4 cm, 6 cm",
+     "İkizkenar üçgen"
+    ],
+    [
+     "3 cm, 4 cm, 6 cm",
+     "Çeşitkenar üçgen"
+    ]
+   ]
+  },
+  "textPlain": "Eşleştir: 5-5-5 cm, 4-4-6 cm, 3-4-6 cm — Eşkenar, İkizkenar, Çeşitkenar üçgen.",
+  "correctAnswer": "5-5-5 = Eşkenar; 4-4-6 = İkizkenar; 3-4-6 = Çeşitkenar",
+  "explanation": "Üç kenarı eşitse eşkenar, iki kenarı eşitse ikizkenar, kenarlarının hepsi farklıysa çeşitkenar üçgendir."
+ },
+ {
+  "questionId": "boss-a01-m2-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Sayıları okuma",
+  "outcome": "Çok basamaklı doğal sayıları okuyup yazabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 94",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "4 205 316 sayısının okunuşu hangisidir?",
+  "data": {
+   "options": [
+    "Dört milyon iki yüz beş bin üç yüz on altı",
+    "Dört milyon yirmi beş bin üç yüz on altı",
+    "Dört yüz yirmi milyon beş bin üç yüz on altı"
+   ]
+  },
+  "textPlain": "4 205 316 sayısının okunuşu hangisidir?",
+  "correctAnswer": "Dört milyon iki yüz beş bin üç yüz on altı",
+  "explanation": "Bölükler sağdan üçer basamak ayrılır: 4 | 205 | 316 → dört milyon iki yüz beş bin üç yüz on altı."
+ },
+ {
+  "questionId": "boss-a01-m2-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Sayıları yazma",
+  "outcome": "Çok basamaklı doğal sayıları okuyup yazabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 94",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Okunuşu “üç milyon kırk bin altı yüz” olan sayıyı kadranlarla yaz.",
+  "data": {
+   "answer": 3040600,
+   "digits": 7,
+   "unit": ""
+  },
+  "textPlain": "Okunuşu “üç milyon kırk bin altı yüz” olan sayıyı yaz.",
+  "correctAnswer": "3 040 600",
+  "explanation": "Milyonlar bölüğü 3, binler bölüğü 040, birler bölüğü 600: 3 040 600."
+ },
+ {
+  "questionId": "boss-a01-m2-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Basamak değeri",
+  "outcome": "Doğal sayılarda bölük, basamak ve basamak değerini belirleyip sayıları çözümleyebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 102",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "7 482 935 sayısında 8 rakamının basamak değeri kaçtır?",
+  "data": {
+   "options": [
+    "80 000",
+    "8 000",
+    "800 000"
+   ]
+  },
+  "textPlain": "7 482 935 sayısında 8 rakamının basamak değeri kaçtır? Seçenekler: 80 000 / 8 000 / 800 000",
+  "correctAnswer": "80 000",
+  "explanation": "8 rakamı on binler basamağındadır; basamak değeri 8 × 10 000 = 80 000’dir."
+ },
+ {
+  "questionId": "boss-a01-m2-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Karşılaştırma",
+  "outcome": "Çok basamaklı doğal sayıları karşılaştırıp sıralayabilme; yuvarlama ve tahmin yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 107",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Sayıları küçükten büyüğe doğru sırala.",
+  "data": {
+   "items": [
+    "2 045 300",
+    "2 405 300",
+    "2 450 030",
+    "2 450 300"
+   ]
+  },
+  "textPlain": "Sayıları küçükten büyüğe sırala: 2 450 300; 2 405 300; 2 450 030; 2 045 300.",
+  "correctAnswer": "2 045 300 < 2 405 300 < 2 450 030 < 2 450 300",
+  "explanation": "Basamak sayıları eşit olduğunda en büyük basamaktan başlayarak karşılaştırılır; ilk farklı basamaktaki rakamı büyük olan sayı büyüktür."
+ },
+ {
+  "questionId": "boss-a01-m2-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Kısa yoldan çarpma",
+  "outcome": "Doğal sayılarla zihinden ve kısa yoldan dört işlem yapabilme; işlemde verilmeyen terimi bulabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 123",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "num",
+  "prompt": "345 × 100 işleminin sonucunu kadranlarla yaz.",
+  "data": {
+   "answer": 34500,
+   "digits": 5,
+   "unit": ""
+  },
+  "textPlain": "345 × 100 işleminin sonucu kaçtır?",
+  "correctAnswer": "34 500",
+  "explanation": "Bir sayıyı 100 ile çarparken sayının sağına iki sıfır yazılır: 34 500."
+ },
+ {
+  "questionId": "boss-a01-m2-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Eksik terim",
+  "outcome": "Doğal sayılarla zihinden ve kısa yoldan dört işlem yapabilme; işlemde verilmeyen terimi bulabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 130",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "num",
+  "prompt": "□ ÷ 8 = 125 işleminde □ yerine hangi sayı gelmelidir?",
+  "data": {
+   "answer": 1000,
+   "digits": 4,
+   "unit": ""
+  },
+  "textPlain": "□ ÷ 8 = 125 işleminde □ kaçtır?",
+  "correctAnswer": "1000",
+  "explanation": "Bölünen = bölüm × bölen: 125 × 8 = 1000."
+ },
+ {
+  "questionId": "boss-a01-m2-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Yuvarlama",
+  "outcome": "Çok basamaklı doğal sayıları karşılaştırıp sıralayabilme; yuvarlama ve tahmin yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 120",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "6 748 sayısının en yakın yüzlüğe yuvarlanmış hâli hangisidir?",
+  "data": {
+   "options": [
+    "6 700",
+    "6 800",
+    "7 000"
+   ]
+  },
+  "textPlain": "6 748 sayısı en yakın yüzlüğe yuvarlanırsa kaç olur? Seçenekler: 6 700 / 6 800 / 7 000",
+  "correctAnswer": "6 700",
+  "explanation": "Onlar basamağındaki rakam 4’tür (5’ten küçük); yüzler basamağı değişmez: 6 700."
+ },
+ {
+  "questionId": "boss-a01-m2-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Problem çözme",
+  "outcome": "Doğal sayılarla dört işlem gerektiren gerçek yaşam problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Sayılar ve Nicelikler (1): Doğal Sayılar ve İşlemler”, s. 132",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir geziye 6 otobüs gidiyor; her otobüste 45 öğrenci var. Ayrıca 30 öğrenci servisle geliyor. Geziye toplam kaç öğrenci katılıyor?",
+  "data": {
+   "answer": 300,
+   "digits": 3,
+   "unit": ""
+  },
+  "textPlain": "6 otobüste 45’er öğrenci ve servisle 30 öğrenci geziye katılıyor. Toplam kaç öğrenci?",
+  "correctAnswer": "300",
+  "explanation": "6 × 45 = 270 öğrenci otobüsle gelir; 270 + 30 = 300."
+ },
+ {
+  "questionId": "boss-a01-t1-01",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Zıt anlam",
+  "outcome": "Metinde geçen söz varlığı unsurlarının anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 14",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Neşeli” kelimesinin zıt anlamlısı hangisidir?",
+  "data": {
+   "options": [
+    "Üzgün",
+    "Mutlu",
+    "Sevinçli"
+   ]
+  },
+  "textPlain": "“Neşeli” kelimesinin zıt anlamlısı hangisidir? Seçenekler: Üzgün / Mutlu / Sevinçli",
+  "correctAnswer": "Üzgün",
+  "explanation": "“Mutlu” ve “sevinçli” neşeliyle yakın anlamlıdır; zıt anlamlısı “üzgün”dür."
+ },
+ {
+  "questionId": "boss-a01-t1-02",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "İsim ve fiil",
+  "outcome": "Dil yapılarını tanıyıp metin içinde kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 42",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kelimeleri isim ve fiil olarak ayır.",
+  "data": {
+   "bins": [
+    "İsim",
+    "Fiil"
+   ],
+   "items": [
+    [
+     "top",
+     0
+    ],
+    [
+     "koşmak",
+     1
+    ],
+    [
+     "ip",
+     0
+    ],
+    [
+     "saklanmak",
+     1
+    ],
+    [
+     "mendil",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kelimeleri isim / fiil diye ayır: top, koşmak, ip, saklanmak, mendil.",
+  "correctAnswer": "İsim: top, ip, mendil. Fiil: koşmak, saklanmak.",
+  "explanation": "Varlıklara verilen adlar isimdir; iş, oluş ve hareket bildiren kelimeler fiildir."
+ },
+ {
+  "questionId": "boss-a01-t1-03",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Kısa çizgi",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 41",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“saklambaç” kelimesi satır sonuna sığmadı. Hangisinde doğru bölünmüştür?",
+  "data": {
+   "options": [
+    "sak-lambaç",
+    "sa-klambaç",
+    "sakl-ambaç"
+   ]
+  },
+  "textPlain": "“saklambaç” kelimesi satır sonunda hangisinde doğru bölünmüştür? Seçenekler: sak-lambaç / sa-klambaç / sakl-ambaç",
+  "correctAnswer": "sak-lambaç",
+  "explanation": "Satır sonunda kelime hece sınırından bölünür ve kısa çizgi konur: sak-lam-baç."
+ },
+ {
+  "questionId": "boss-a01-t1-04",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Nokta",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 30",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlenin sonuna nokta konmalıdır?",
+  "data": {
+   "options": [
+    "Çocuklar bahçede yakan top oynadı",
+    "Oyuna kim başlayacak",
+    "Eyvah, top kaçtı"
+   ]
+  },
+  "textPlain": "Hangi cümlenin sonuna nokta konmalıdır? Seçenekler: Çocuklar bahçede yakan top oynadı / Oyuna kim başlayacak / Eyvah, top kaçtı",
+  "correctAnswer": "Çocuklar bahçede yakan top oynadı",
+  "explanation": "Tamamlanmış bir bildirme cümlesinin sonuna nokta konur; soru cümlesine soru işareti, heyecan bildiren cümleye ünlem konur."
+ },
+ {
+  "questionId": "boss-a01-t1-05",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Eş sesli kelime",
+  "outcome": "Metinde geçen söz varlığı unsurlarının anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 14",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede “yüz” kelimesi sayı anlamında kullanılmıştır?",
+  "data": {
+   "options": [
+    "Okulumuzun bahçesinde yüz fidan var.",
+    "Yüzünü soğuk suyla yıkadı.",
+    "Yastığın yüzü çok yumuşak."
+   ]
+  },
+  "textPlain": "Hangi cümlede “yüz” sayı anlamındadır? Seçenekler: Okulumuzun bahçesinde yüz fidan var. / Yüzünü soğuk suyla yıkadı. / Yastığın yüzü çok yumuşak.",
+  "correctAnswer": "Okulumuzun bahçesinde yüz fidan var.",
+  "explanation": "Yazılışı aynı, anlamı farklı kelimelere eş sesli kelime denir. “Yüz fidan”da yüz, 100 sayısını bildirir."
+ },
+ {
+  "questionId": "boss-a01-t1-06",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Tahmin işlevli söz varlığı",
+  "outcome": "Dil yapılarını tanıyıp metin içinde kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 56",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede tahmin bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Yarın galiba yağmur yağacak.",
+    "Dün parkta ip atladık.",
+    "Körebe en sevdiğim oyundur."
+   ]
+  },
+  "textPlain": "Hangi cümlede tahmin bildiren ifade vardır? Seçenekler: Yarın galiba yağmur yağacak. / Dün parkta ip atladık. / Körebe en sevdiğim oyundur.",
+  "correctAnswer": "Yarın galiba yağmur yağacak.",
+  "explanation": "“Galiba” kesin bilinmeyen bir durumu tahmin ettiğimizi gösterir."
+ },
+ {
+  "questionId": "boss-a01-t1-07",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Okuma (metin soruda verilir)",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "Özgün soru; MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası” öğrenme çıktılarına göre hazırlandı (metin soruda verilir)",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre sıranın Mert’e geçmesinin sebebi nedir?",
+  "data": {
+   "options": [
+    "Elif’in taşı çizginin üstüne düştü.",
+    "Elif oyundan sıkıldı.",
+    "Teneffüs bitmek üzereydi."
+   ],
+   "passage": "Elif ve arkadaşları teneffüste seksek oynamaya karar verdi. Tebeşirle yere kareler çizdiler. İlk taşı Elif attı ama taş çizginin tam üstüne düştü. Kurala göre çizgiye düşen taş geçersiz sayılıyordu. Elif gülümseyerek taşı Mert’e uzattı."
+  },
+  "textPlain": "Metin: Elif ve arkadaşları teneffüste seksek oynamaya karar verdi. Tebeşirle yere kareler çizdiler. İlk taşı Elif attı ama taş çizginin tam üstüne düştü. Kurala göre çizgiye düşen taş geçersiz sayılıyordu. Elif gülümseyerek taşı Mert’e uzattı. Soru: Sıranın Mert’e geçmesinin sebebi nedir?",
+  "correctAnswer": "Elif’in taşı çizginin üstüne düştü.",
+  "explanation": "Metinde çizgiye düşen taşın geçersiz sayıldığı yazıyor; Elif’in taşı çizgiye düştüğü için sıra Mert’e geçti."
+ },
+ {
+  "questionId": "boss-a01-t1-08",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Oyun Dünyası",
+  "topic": "Gerçek ve hayal",
+  "outcome": "Dil yapılarını tanıyıp metin içinde kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Oyun Dünyası”, s. 30",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümle hayal ürünü bir olayı anlatır?",
+  "data": {
+   "options": [
+    "Topumuz kanat çırpıp bulutların arasına saklandı.",
+    "Uçurtmamız rüzgârla gökyüzüne yükseldi.",
+    "Mahalledeki çocuklar akşama kadar körebe oynadı."
+   ]
+  },
+  "textPlain": "Hangi cümle hayal ürünüdür? Seçenekler: Topumuz kanat çırpıp bulutlara saklandı. / Uçurtmamız rüzgârla yükseldi. / Çocuklar akşama kadar körebe oynadı.",
+  "correctAnswer": "Topumuz kanat çırpıp bulutların arasına saklandı.",
+  "explanation": "Topun kanat çırpması gerçek hayatta olamaz; diğer iki olay gerçekte yaşanabilir."
+ },
+ {
+  "questionId": "boss-a01-t2-01",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Büyük harf",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 116",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede büyük harfler doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Atatürk, 1881 yılında Selanik’te doğdu.",
+    "atatürk, 1881 yılında Selanik’te doğdu.",
+    "Atatürk, 1881 yılında selanik’te doğdu."
+   ]
+  },
+  "textPlain": "Hangi cümlede büyük harfler doğrudur? Seçenekler: Atatürk, 1881 yılında Selanik’te doğdu. / atatürk, ... Selanik’te / Atatürk, ... selanik’te",
+  "correctAnswer": "Atatürk, 1881 yılında Selanik’te doğdu.",
+  "explanation": "Cümle büyük harfle başlar; kişi ve yer adları gibi özel isimler de büyük harfle yazılır."
+ },
+ {
+  "questionId": "boss-a01-t2-02",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Soru işareti",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 72",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlenin sonuna soru işareti konmalıdır?",
+  "data": {
+   "options": [
+    "Atatürk hangi şehirde doğmuştur",
+    "Atatürk Selanik’te doğmuştur",
+    "Atatürk’ü çok seviyoruz"
+   ]
+  },
+  "textPlain": "Hangi cümlenin sonuna soru işareti konmalıdır? Seçenekler: Atatürk hangi şehirde doğmuştur / Atatürk Selanik’te doğmuştur / Atatürk’ü çok seviyoruz",
+  "correctAnswer": "Atatürk hangi şehirde doğmuştur",
+  "explanation": "Soru bildiren cümlelerin sonuna soru işareti konur."
+ },
+ {
+  "questionId": "boss-a01-t2-03",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Niteleyen ve belirten kelimeler",
+  "outcome": "Dil yapılarını tanıyıp metin içinde kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 88",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Her kelime grubundaki ilk kelime ismi niteliyor mu, belirtiyor mu? Kartları ayır.",
+  "data": {
+   "bins": [
+    "Niteleyen",
+    "Belirten"
+   ],
+   "items": [
+    [
+     "çalışkan öğrenci",
+     0
+    ],
+    [
+     "üç kitap",
+     1
+    ],
+    [
+     "bu bayrak",
+     1
+    ],
+    [
+     "yeşil çiftlik",
+     0
+    ],
+    [
+     "birkaç fidan",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Kelime gruplarındaki ilk kelimeyi niteleyen / belirten diye ayır: çalışkan öğrenci, üç kitap, bu bayrak, yeşil çiftlik, birkaç fidan.",
+  "correctAnswer": "Niteleyen: çalışkan, yeşil. Belirten: üç, bu, birkaç.",
+  "explanation": "Niteleyen kelimeler ismin nasıl olduğunu (rengini, durumunu) anlatır; belirten kelimeler ismin sayısını gösterir ya da onu işaret eder."
+ },
+ {
+  "questionId": "boss-a01-t2-04",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Benzetme",
+  "outcome": "Şiirin biçim özelliklerini ve söz sanatlarını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 95",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Bayrağımız gelincik gibi kırmızıydı.” cümlesinde bayrak neye benzetilmiştir?",
+  "data": {
+   "options": [
+    "Gelinciğe",
+    "Kırmızı renge",
+    "Rüzgâra"
+   ]
+  },
+  "textPlain": "“Bayrağımız gelincik gibi kırmızıydı.” cümlesinde bayrak neye benzetilmiştir?",
+  "correctAnswer": "Gelinciğe",
+  "explanation": "“Gibi” kelimesiyle bayrak, rengi bakımından gelincik çiçeğine benzetilmiştir."
+ },
+ {
+  "questionId": "boss-a01-t2-05",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Virgül",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 73",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede virgül doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Çiftlikte inek, koyun ve tavuk vardı.",
+    "Çiftlikte, inek koyun ve tavuk vardı.",
+    "Çiftlikte inek koyun, ve tavuk vardı."
+   ]
+  },
+  "textPlain": "Hangi cümlede virgül doğrudur? Seçenekler: Çiftlikte inek, koyun ve tavuk vardı. / Çiftlikte, inek koyun ve tavuk vardı. / Çiftlikte inek koyun, ve tavuk vardı.",
+  "correctAnswer": "Çiftlikte inek, koyun ve tavuk vardı.",
+  "explanation": "Sıralanan eş görevli kelimeler arasına virgül konur; “ve” bağlacından önce virgül kullanılmaz."
+ },
+ {
+  "questionId": "boss-a01-t2-06",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Bağlantı ifadeleri",
+  "outcome": "Dil yapılarını tanıyıp metin içinde kullanabilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 81",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Atatürk tarıma çok önem verirdi, ___ Ankara’da örnek bir çiftlik kurdu.” Boşluğa hangisi gelmelidir?",
+  "data": {
+   "options": [
+    "bu yüzden",
+    "ama",
+    "yine de"
+   ]
+  },
+  "textPlain": "“Atatürk tarıma çok önem verirdi, ___ Ankara’da örnek bir çiftlik kurdu.” Boşluğa hangisi gelmeli? Seçenekler: bu yüzden / ama / yine de",
+  "correctAnswer": "bu yüzden",
+  "explanation": "İkinci cümle birincinin sonucudur; sebep-sonuç ilişkisini “bu yüzden” kurar. “Ama” ve “yine de” karşıtlık bildirir."
+ },
+ {
+  "questionId": "boss-a01-t2-07",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Atatürk’ün hayatı (bilgi soruda verilir)",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "Özgün soru; MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak” öğrenme çıktılarına göre hazırlandı (metin soruda verilir)",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre Atatürk’e “Başöğretmen” denmesinin sebebi nedir?",
+  "data": {
+   "options": [
+    "Yeni harfleri halka kendisinin öğretmesi",
+    "Bir okulda müdürlük yapması",
+    "Ankara’da örnek bir çiftlik kurması"
+   ],
+   "passage": "1928 yılında Yeni Türk harfleri kabul edildi. Atatürk, yeni harfleri halka öğretmek için yurdun pek çok yerini gezdi. Kara tahtanın başına geçip harfleri kendisi tanıttı. Bu çalışmaları nedeniyle ona “Başöğretmen” denildi."
+  },
+  "textPlain": "Metin: 1928 yılında Yeni Türk harfleri kabul edildi. Atatürk, yeni harfleri halka öğretmek için yurdun pek çok yerini gezdi. Kara tahtanın başına geçip harfleri kendisi tanıttı. Bu çalışmaları nedeniyle ona “Başöğretmen” denildi. Soru: Atatürk’e “Başöğretmen” denmesinin sebebi nedir?",
+  "correctAnswer": "Yeni harfleri halka kendisinin öğretmesi",
+  "explanation": "Metne göre Atatürk kara tahtanın başına geçip yeni harfleri halka kendisi öğretmiştir."
+ },
+ {
+  "questionId": "boss-a01-t2-08",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Atatürk’ü Tanımak",
+  "topic": "Kişileştirme",
+  "outcome": "Şiirin biçim özelliklerini ve söz sanatlarını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Atatürk’ü Tanımak”, s. 116",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede kişileştirme yapılmıştır?",
+  "data": {
+   "options": [
+    "Rüzgâr, bayrağın kulağına bir şarkı fısıldadı.",
+    "Bayrak rüzgârda hızla dalgalandı.",
+    "Bayrak sabah törenle direğe çekildi."
+   ]
+  },
+  "textPlain": "Hangi cümlede kişileştirme vardır? Seçenekler: Rüzgâr bayrağın kulağına şarkı fısıldadı. / Bayrak rüzgârda dalgalandı. / Bayrak törenle direğe çekildi.",
+  "correctAnswer": "Rüzgâr, bayrağın kulağına bir şarkı fısıldadı.",
+  "explanation": "Rüzgâra fısıldamak, bayrağa kulak gibi insana ait özellikler verilmiştir; bu kişileştirmedir."
+ }
+]
