@@ -1,0 +1,2728 @@
+[
+ {
+  "questionId": "boss-a05-f1-01",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Güneş’e yakınlık",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Güneş’e en yakın gezegen hangisidir?",
+  "data": {
+   "options": [
+    "Merkür",
+    "Venüs",
+    "Mars"
+   ]
+  },
+  "textPlain": "Güneş’e en yakın gezegen hangisidir? Seçenekler: Merkür / Venüs / Mars",
+  "correctAnswer": "Merkür",
+  "explanation": "Güneş’e yakınlık sırası: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün."
+ },
+ {
+  "questionId": "boss-a05-f1-02",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Hacim",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hacmi en büyük gezegen hangisidir?",
+  "data": {
+   "options": [
+    "Jüpiter",
+    "Satürn",
+    "Dünya"
+   ]
+  },
+  "textPlain": "Hacmi en büyük gezegen hangisidir? Seçenekler: Jüpiter / Satürn / Dünya",
+  "correctAnswer": "Jüpiter",
+  "explanation": "Hacimce büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür."
+ },
+ {
+  "questionId": "boss-a05-f1-03",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Karasal ve gazsal",
+  "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Gezegenleri karasal ve gazsal olarak ayır.",
+  "data": {
+   "bins": [
+    "Karasal",
+    "Gazsal"
+   ],
+   "items": [
+    [
+     "Mars",
+     0
+    ],
+    [
+     "Jüpiter",
+     1
+    ],
+    [
+     "Venüs",
+     0
+    ],
+    [
+     "Neptün",
+     1
+    ],
+    [
+     "Merkür",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Gezegenleri karasal ve gazsal olarak ayır. (Karasal / Gazsal) Kartlar: Mars; Jüpiter; Venüs; Neptün; Merkür.",
+  "correctAnswer": "Karasal: Mars, Venüs, Merkür. Gazsal: Jüpiter, Neptün.",
+  "explanation": "Merkür, Venüs, Dünya ve Mars karasal; Jüpiter, Satürn, Uranüs ve Neptün gazsal gezegenlerdir."
+ },
+ {
+  "questionId": "boss-a05-f1-04",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Uydular",
+  "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Merkür ve Venüs’ün uydusu yoktur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Merkür ve Venüs’ün uydusu yoktur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Merkür ve Venüs’ün uydusu yoktur; diğer gezegenlerin uydusu vardır."
+ },
+ {
+  "questionId": "boss-a05-f1-05",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Asteroit kuşağı",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Mars ile Jüpiter arasında bulunan, çok sayıda kaya parçasından oluşan bölgeye ne ad verilir?",
+  "data": {
+   "options": [
+    "Asteroit kuşağı",
+    "Gezegen halkası",
+    "Meteor"
+   ]
+  },
+  "textPlain": "Mars ile Jüpiter arasında bulunan, çok sayıda kaya parçasından oluşan bölgeye ne ad verilir? Seçenekler: Asteroit kuşağı / Gezegen halkası / Meteor",
+  "correctAnswer": "Asteroit kuşağı",
+  "explanation": "Mars ile Jüpiter arasında asteroit kuşağı bulunur."
+ },
+ {
+  "questionId": "boss-a05-f1-06",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Güneş tutulması",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Güneş tutulmasında hangi gök cismi Güneş ile Dünya’nın arasına girer?",
+  "data": {
+   "options": [
+    "Ay",
+    "Dünya",
+    "Jüpiter"
+   ]
+  },
+  "textPlain": "Güneş tutulmasında hangi gök cismi Güneş ile Dünya’nın arasına girer? Seçenekler: Ay / Dünya / Jüpiter",
+  "correctAnswer": "Ay",
+  "explanation": "Güneş tutulmasında Ay, Güneş ile Dünya’nın arasına girer ve Ay’ın gölgesi Dünya’ya düşer."
+ },
+ {
+  "questionId": "boss-a05-f1-07",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Güvenli gözlem",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+  "difficulty": "kolay",
+  "group": "f1",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Güneş tutulması izlenirken Güneş’e çıplak gözle bakılmamalıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Güneş tutulması izlenirken Güneş’e çıplak gözle bakılmamalıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Güneş’e çıplak gözle bakmak gözlere zarar verir; tutulma özel gözlüklerle izlenmelidir."
+ },
+ {
+  "questionId": "boss-a05-f1-08",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Güneş’e yakınlık",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "order",
+  "prompt": "İlk dört gezegeni Güneş’e en yakından başlayarak sırala.",
+  "data": {
+   "items": [
+    "Merkür",
+    "Venüs",
+    "Dünya",
+    "Mars"
+   ]
+  },
+  "textPlain": "İlk dört gezegeni Güneş’e en yakından başlayarak sırala. Kartlar: Mars; Dünya; Venüs; Merkür.",
+  "correctAnswer": "Merkür → Venüs → Dünya → Mars",
+  "explanation": "Güneş’e yakınlık sırası Merkür, Venüs, Dünya, Mars biçiminde başlar."
+ },
+ {
+  "questionId": "boss-a05-f1-09",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Gök taşları",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kavramı tanımıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Gök taşı",
+     "Uzaydaki küçük kaya parçası"
+    ],
+    [
+     "Meteor",
+     "Atmosfere girip yanan gök taşı"
+    ],
+    [
+     "Meteorit",
+     "Yeryüzüne ulaşan gök taşı"
+    ]
+   ]
+  },
+  "textPlain": "Her kavramı tanımıyla eşleştir. Sol: Gök taşı; Meteor; Meteorit. Sağ: Uzaydaki küçük kaya parçası; Atmosfere girip yanan gök taşı; Yeryüzüne ulaşan gök taşı.",
+  "correctAnswer": "Gök taşı = Uzaydaki küçük kaya parçası; Meteor = Atmosfere girip yanan gök taşı; Meteorit = Yeryüzüne ulaşan gök taşı",
+  "explanation": "Uzaydaki küçük kaya parçaları gök taşıdır; atmosfere girenler meteor, yeryüzüne ulaşanlar meteorittir."
+ },
+ {
+  "questionId": "boss-a05-f1-10",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Ay tutulması",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Ay tutulması Ay’ın hangi evresinde gerçekleşir?",
+  "data": {
+   "options": [
+    "Dolunay",
+    "Yeni ay",
+    "İlk dördün"
+   ]
+  },
+  "textPlain": "Ay tutulması Ay’ın hangi evresinde gerçekleşir? Seçenekler: Dolunay / Yeni ay / İlk dördün",
+  "correctAnswer": "Dolunay",
+  "explanation": "Ay tutulması gece ve dolunay evresinde gözlemlenir."
+ },
+ {
+  "questionId": "boss-a05-f1-11",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Güneş tutulması",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Güneş tutulması Ay’ın hangi evresinde gerçekleşir?",
+  "data": {
+   "options": [
+    "Yeni ay",
+    "Dolunay",
+    "Son dördün"
+   ]
+  },
+  "textPlain": "Güneş tutulması Ay’ın hangi evresinde gerçekleşir? Seçenekler: Yeni ay / Dolunay / Son dördün",
+  "correctAnswer": "Yeni ay",
+  "explanation": "Güneş tutulması Ay’ın Güneş ile Dünya arasında olduğu yeni ay evresinde gerçekleşir."
+ },
+ {
+  "questionId": "boss-a05-f1-12",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Halkalar",
+  "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Halkaları en belirgin olan gezegen hangisidir?",
+  "data": {
+   "options": [
+    "Satürn",
+    "Mars",
+    "Venüs"
+   ]
+  },
+  "textPlain": "Halkaları en belirgin olan gezegen hangisidir? Seçenekler: Satürn / Mars / Venüs",
+  "correctAnswer": "Satürn",
+  "explanation": "Halkası olan gezegenler gazsal gezegenlerdir; halkaları en belirgin olan Satürn’dür."
+ },
+ {
+  "questionId": "boss-a05-f1-13",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Tutulmaların karşılaştırılması",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Her özelliği ait olduğu tutulmanın kutusuna koy.",
+  "data": {
+   "bins": [
+    "Güneş tutulması",
+    "Ay tutulması"
+   ],
+   "items": [
+    [
+     "Gündüz gözlemlenir",
+     0
+    ],
+    [
+     "Gece gözlemlenir",
+     1
+    ],
+    [
+     "Ay, Dünya’nın gölgesinde kalır",
+     1
+    ],
+    [
+     "Ay’ın gölgesi Dünya’ya düşer",
+     0
+    ],
+    [
+     "Dolunay evresinde olur",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Her özelliği ait olduğu tutulmanın kutusuna koy. (Güneş tutulması / Ay tutulması) Kartlar: Gündüz gözlemlenir; Gece gözlemlenir; Ay, Dünya’nın gölgesinde kalır; Ay’ın gölgesi Dünya’ya düşer; Dolunay evresinde olur.",
+  "correctAnswer": "Güneş tutulması: Gündüz gözlemlenir, Ay’ın gölgesi Dünya’ya düşer. Ay tutulması: Gece gözlemlenir, Ay, Dünya’nın gölgesinde kalır, Dolunay evresinde olur.",
+  "explanation": "Güneş tutulması gündüz, yeni ay evresinde, Ay’ın gölgesi Dünya’ya düşünce olur. Ay tutulması gece, dolunayda, Ay Dünya’nın gölgesine girince olur."
+ },
+ {
+  "questionId": "boss-a05-f1-14",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Hacim",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+  "difficulty": "orta",
+  "group": "f1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Gezegenler hacimce büyükten küçüğe sıralandığında Dünya’dan hemen sonra hangisi gelir?",
+  "data": {
+   "options": [
+    "Venüs",
+    "Mars",
+    "Merkür"
+   ]
+  },
+  "textPlain": "Gezegenler hacimce büyükten küçüğe sıralandığında Dünya’dan hemen sonra hangisi gelir? Seçenekler: Venüs / Mars / Merkür",
+  "correctAnswer": "Venüs",
+  "explanation": "Hacimce büyükten küçüğe: Jüpiter, Satürn, Uranüs, Neptün, Dünya, Venüs, Mars, Merkür."
+ },
+ {
+  "questionId": "boss-a05-f1-15",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Gözlem alanı",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ay tutulması, Güneş tutulmasından daha geniş bir alanda gözlemlenir. Bunun nedeni nedir?",
+  "data": {
+   "options": [
+    "Dünya’nın gece yaşanan tarafındaki herkesin Ay’ı görebilmesi",
+    "Ay’ın Güneş’ten büyük olması",
+    "Ay tutulmasının gündüz gerçekleşmesi"
+   ]
+  },
+  "textPlain": "Ay tutulması, Güneş tutulmasından daha geniş bir alanda gözlemlenir. Bunun nedeni nedir? Seçenekler: Dünya’nın gece yaşanan tarafındaki herkesin Ay’ı görebilmesi / Ay’ın Güneş’ten büyük olması / Ay tutulmasının gündüz gerçekleşmesi",
+  "correctAnswer": "Dünya’nın gece yaşanan tarafındaki herkesin Ay’ı görebilmesi",
+  "explanation": "Ay tutulması gece olur; Dünya’nın gece yaşanan tarafındaki herkes Ay’ı görebildiği için tutulmayı izleyebilir."
+ },
+ {
+  "questionId": "boss-a05-f1-16",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Gözlem alanı",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34–35",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Güneş tutulması neden Dünya’nın her yerinden aynı anda görülmez?",
+  "data": {
+   "options": [
+    "Ay’ın gölgesi Dünya’nın yalnızca küçük bir bölgesine düştüğü için",
+    "Güneş çok küçük olduğu için",
+    "Tutulma gece gerçekleştiği için"
+   ]
+  },
+  "textPlain": "Güneş tutulması neden Dünya’nın her yerinden aynı anda görülmez? Seçenekler: Ay’ın gölgesi Dünya’nın yalnızca küçük bir bölgesine düştüğü için / Güneş çok küçük olduğu için / Tutulma gece gerçekleştiği için",
+  "correctAnswer": "Ay’ın gölgesi Dünya’nın yalnızca küçük bir bölgesine düştüğü için",
+  "explanation": "Güneş tutulması yalnızca Ay’ın gölgesinin düştüğü dar bölgede gözlemlenir."
+ },
+ {
+  "questionId": "boss-a05-f1-17",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Gazsal gezegenlerin hacmi",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 20–23",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Gazsal gezegenleri hacimce BÜYÜKTEN KÜÇÜĞE sırala.",
+  "data": {
+   "items": [
+    "Jüpiter",
+    "Satürn",
+    "Uranüs",
+    "Neptün"
+   ]
+  },
+  "textPlain": "Gazsal gezegenleri hacimce BÜYÜKTEN KÜÇÜĞE sırala. Kartlar: Jüpiter; Uranüs; Satürn; Neptün.",
+  "correctAnswer": "Jüpiter → Satürn → Uranüs → Neptün",
+  "explanation": "Gazsal gezegenler hacimce Jüpiter, Satürn, Uranüs, Neptün sırasıyla küçülür."
+ },
+ {
+  "questionId": "boss-a05-f1-18",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Meteorit çukuru",
+  "outcome": "Güneş sistemi ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 23",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yeryüzündeki büyük, yuvarlak bir çukurun meteorit çukuru olduğu düşünülüyor. Bu çukur nasıl oluşmuş olabilir?",
+  "data": {
+   "options": [
+    "Atmosferde tamamen yanmayan bir gök taşının yere çarpmasıyla",
+    "Güneş tutulması sırasında",
+    "Ay’ın gölgesinin düşmesiyle"
+   ]
+  },
+  "textPlain": "Yeryüzündeki büyük, yuvarlak bir çukurun meteorit çukuru olduğu düşünülüyor. Bu çukur nasıl oluşmuş olabilir? Seçenekler: Atmosferde tamamen yanmayan bir gök taşının yere çarpmasıyla / Güneş tutulması sırasında / Ay’ın gölgesinin düşmesiyle",
+  "correctAnswer": "Atmosferde tamamen yanmayan bir gök taşının yere çarpmasıyla",
+  "explanation": "Atmosferde yanıp bitmeyen gök taşları (meteoritler) yeryüzüne çarparak çukurlar oluşturur."
+ },
+ {
+  "questionId": "boss-a05-f1-19",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Gezegen bulmaca",
+  "outcome": "Güneş sistemindeki gezegenleri niteliklerine göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 21, 25",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Gazsal yapıdadır, uyduları ve halkası vardır, Güneş’e yakınlıkta beşinci sıradadır.” Bu gezegen hangisidir?",
+  "data": {
+   "options": [
+    "Jüpiter",
+    "Satürn",
+    "Mars"
+   ]
+  },
+  "textPlain": "“Gazsal yapıdadır, uyduları ve halkası vardır, Güneş’e yakınlıkta beşinci sıradadır.” Bu gezegen hangisidir? Seçenekler: Jüpiter / Satürn / Mars",
+  "correctAnswer": "Jüpiter",
+  "explanation": "Güneş’e yakınlıkta beşinci gezegen Jüpiter’dir; gazsal yapıdadır, uyduları ve halkası vardır."
+ },
+ {
+  "questionId": "boss-a05-f1-20",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "1. Ünite: Güneş Sistemi ve Tutulmalar",
+  "topic": "Hizalanma",
+  "outcome": "Güneş ve Ay tutulması ile ilgili bilimsel model oluşturur.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 1. Ünite “Güneş Sistemi ve Tutulmalar”, s. 34",
+  "difficulty": "zor",
+  "group": "f1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Güneş, Dünya ve Ay bu sırayla aynı doğru üzerinde dizildiğinde hangi olay gerçekleşebilir?",
+  "data": {
+   "options": [
+    "Ay tutulması",
+    "Güneş tutulması",
+    "Yeni ay"
+   ]
+  },
+  "textPlain": "Güneş, Dünya ve Ay bu sırayla aynı doğru üzerinde dizildiğinde hangi olay gerçekleşebilir? Seçenekler: Ay tutulması / Güneş tutulması / Yeni ay",
+  "correctAnswer": "Ay tutulması",
+  "explanation": "Dünya, Güneş ile Ay’ın arasına girerse Ay Dünya’nın gölgesinde kalır; Ay tutulması olur."
+ },
+ {
+  "questionId": "boss-a05-m1-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Çarpanlar",
+  "outcome": "Problem durumlarında bir doğal sayının çarpan ve kat ilişkisine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 18",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Sayıları 24’ün çarpanı olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "24’ün çarpanı",
+    "24’ün çarpanı değil"
+   ],
+   "items": [
+    [
+     "6",
+     0
+    ],
+    [
+     "8",
+     0
+    ],
+    [
+     "5",
+     1
+    ],
+    [
+     "12",
+     0
+    ],
+    [
+     "9",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Sayıları 24’ün çarpanı olanlar ve olmayanlar diye ayır. (24’ün çarpanı / 24’ün çarpanı değil) Kartlar: 6; 8; 5; 12; 9.",
+  "correctAnswer": "24’ün çarpanı: 6, 8, 12. 24’ün çarpanı değil: 5, 9.",
+  "explanation": "24 = 1 × 24 = 2 × 12 = 3 × 8 = 4 × 6; 5 ve 9, 24’ü kalansız bölmez."
+ },
+ {
+  "questionId": "boss-a05-m1-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Katlar",
+  "outcome": "Problem durumlarında bir doğal sayının çarpan ve kat ilişkisine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 23",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi 7’nin katıdır?",
+  "data": {
+   "options": [
+    "42",
+    "32",
+    "27"
+   ]
+  },
+  "textPlain": "Hangisi 7’nin katıdır? Seçenekler: 42 / 32 / 27",
+  "correctAnswer": "42",
+  "explanation": "7 × 6 = 42; 32 ve 27, 7’ye kalansız bölünmez."
+ },
+ {
+  "questionId": "boss-a05-m1-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "10 ile bölünebilme",
+  "outcome": "Bölünebilme kriterlerine (2, 3, 4, 5, 6, 9, 10) ilişkin çıkarımda bulunabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 31",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi sayı 10 ile kalansız bölünür?",
+  "data": {
+   "options": [
+    "470",
+    "405",
+    "1 001"
+   ]
+  },
+  "textPlain": "Hangi sayı 10 ile kalansız bölünür? Seçenekler: 470 / 405 / 1 001",
+  "correctAnswer": "470",
+  "explanation": "Birler basamağı 0 olan sayılar 10 ile kalansız bölünür."
+ },
+ {
+  "questionId": "boss-a05-m1-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Asal sayılar",
+  "outcome": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 39",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi asal sayıdır?",
+  "data": {
+   "options": [
+    "13",
+    "15",
+    "21"
+   ]
+  },
+  "textPlain": "Hangisi asal sayıdır? Seçenekler: 13 / 15 / 21",
+  "correctAnswer": "13",
+  "explanation": "13’ün yalnızca iki böleni vardır: 1 ve 13. 15 = 3 × 5, 21 = 3 × 7."
+ },
+ {
+  "questionId": "boss-a05-m1-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Asal sayılar",
+  "outcome": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 39",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "1 bir asal sayıdır.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? 1 bir asal sayıdır.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Asal sayıların yalnızca iki farklı böleni vardır: 1 ve kendisi. 1’in tek böleni olduğundan asal değildir."
+ },
+ {
+  "questionId": "boss-a05-m1-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Bölenler",
+  "outcome": "Problem durumlarında bir doğal sayının çarpan ve kat ilişkisine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 19",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "num",
+  "prompt": "18’in kaç tane böleni vardır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "18’in kaç tane böleni vardır?",
+  "correctAnswer": "6",
+  "explanation": "18’in bölenleri: 1, 2, 3, 6, 9, 18 (6 tane)."
+ },
+ {
+  "questionId": "boss-a05-m1-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "9 ile bölünebilme",
+  "outcome": "Bölünebilme kriterlerine (2, 3, 4, 5, 6, 9, 10) ilişkin çıkarımda bulunabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 33",
+  "difficulty": "kolay",
+  "group": "m1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi 9 ile kalansız bölünür?",
+  "data": {
+   "options": [
+    "4 518",
+    "4 517",
+    "4 519"
+   ]
+  },
+  "textPlain": "Hangisi 9 ile kalansız bölünür? Seçenekler: 4 518 / 4 517 / 4 519",
+  "correctAnswer": "4 518",
+  "explanation": "Rakamları toplamı 9’un katı olan sayılar 9 ile bölünür: 4 + 5 + 1 + 8 = 18."
+ },
+ {
+  "questionId": "boss-a05-m1-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Çarpanlar",
+  "outcome": "Problem durumlarında bir doğal sayının çarpan ve kat ilişkisine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 18",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "num",
+  "prompt": "36’nın kaç tane çarpanı vardır?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "36’nın kaç tane çarpanı vardır?",
+  "correctAnswer": "9",
+  "explanation": "36’nın çarpanları: 1, 2, 3, 4, 6, 9, 12, 18, 36 (9 tane)."
+ },
+ {
+  "questionId": "boss-a05-m1-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "4 ile bölünebilme",
+  "outcome": "Bölünebilme kriterlerine (2, 3, 4, 5, 6, 9, 10) ilişkin çıkarımda bulunabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 35",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi 4 ile kalansız bölünür?",
+  "data": {
+   "options": [
+    "1 316",
+    "1 318",
+    "1 322"
+   ]
+  },
+  "textPlain": "Hangisi 4 ile kalansız bölünür? Seçenekler: 1 316 / 1 318 / 1 322",
+  "correctAnswer": "1 316",
+  "explanation": "Son iki basamağı 4’ün katı olan sayılar 4 ile bölünür: 16, 4’ün katıdır."
+ },
+ {
+  "questionId": "boss-a05-m1-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "6 ile bölünebilme",
+  "outcome": "Bölünebilme kriterlerine (2, 3, 4, 5, 6, 9, 10) ilişkin çıkarımda bulunabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 34",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi 6 ile kalansız bölünür?",
+  "data": {
+   "options": [
+    "114",
+    "116",
+    "117"
+   ]
+  },
+  "textPlain": "Hangisi 6 ile kalansız bölünür? Seçenekler: 114 / 116 / 117",
+  "correctAnswer": "114",
+  "explanation": "6 ile bölünen sayı hem 2 hem 3 ile bölünmelidir: 114 çifttir ve rakamları toplamı 6’dır."
+ },
+ {
+  "questionId": "boss-a05-m1-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Asal çarpanlar",
+  "outcome": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 43",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "60 sayısının asal çarpanları hangileridir?",
+  "data": {
+   "options": [
+    "2, 3 ve 5",
+    "2, 3, 5 ve 6",
+    "3, 4 ve 5"
+   ]
+  },
+  "textPlain": "60 sayısının asal çarpanları hangileridir? Seçenekler: 2, 3 ve 5 / 2, 3, 5 ve 6 / 3, 4 ve 5",
+  "correctAnswer": "2, 3 ve 5",
+  "explanation": "60 = 2 × 2 × 3 × 5; asal çarpanları 2, 3 ve 5’tir. 4 ve 6 asal değildir."
+ },
+ {
+  "questionId": "boss-a05-m1-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Ortak bölen",
+  "outcome": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 53",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "num",
+  "prompt": "12 ile 18’in ortak bölenlerinin en büyüğü kaçtır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "12 ile 18’in ortak bölenlerinin en büyüğü kaçtır?",
+  "correctAnswer": "6",
+  "explanation": "12’nin bölenleri 1, 2, 3, 4, 6, 12; 18’in bölenleri 1, 2, 3, 6, 9, 18. Ortak bölenlerin en büyüğü 6’dır."
+ },
+ {
+  "questionId": "boss-a05-m1-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Ortak kat",
+  "outcome": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 51",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "num",
+  "prompt": "4 ile 6’nın ortak katlarının en küçüğü kaçtır?",
+  "data": {
+   "answer": 12,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "4 ile 6’nın ortak katlarının en küçüğü kaçtır?",
+  "correctAnswer": "12",
+  "explanation": "4’ün katları 4, 8, 12…; 6’nın katları 6, 12…; ortak katların en küçüğü 12’dir."
+ },
+ {
+  "questionId": "boss-a05-m1-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Asal sayılar",
+  "outcome": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 39",
+  "difficulty": "orta",
+  "group": "m1",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Sayıları asal olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Asal",
+    "Asal değil"
+   ],
+   "items": [
+    [
+     "2",
+     0
+    ],
+    [
+     "9",
+     1
+    ],
+    [
+     "17",
+     0
+    ],
+    [
+     "27",
+     1
+    ],
+    [
+     "31",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Sayıları asal olanlar ve olmayanlar diye ayır. (Asal / Asal değil) Kartlar: 2; 9; 17; 27; 31.",
+  "correctAnswer": "Asal: 2, 17, 31. Asal değil: 9, 27.",
+  "explanation": "2, 17 ve 31’in yalnızca iki böleni vardır. 9 = 3 × 3 ve 27 = 3 × 9 asal değildir."
+ },
+ {
+  "questionId": "boss-a05-m1-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Ortak kat",
+  "outcome": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 51",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir otobüs 15 dakikada bir, diğeri 20 dakikada bir duraktan kalkıyor. İkisi 09.00’da birlikte kalktı. En az kaç dakika sonra yine birlikte kalkarlar?",
+  "data": {
+   "answer": 60,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Bir otobüs 15 dakikada bir, diğeri 20 dakikada bir duraktan kalkıyor. İkisi 09.00’da birlikte kalktı. En az kaç dakika sonra yine birlikte kalkarlar?",
+  "correctAnswer": "60",
+  "explanation": "15 ile 20’nin ortak katlarının en küçüğü 60’tır."
+ },
+ {
+  "questionId": "boss-a05-m1-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Ortak bölen",
+  "outcome": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 53",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "num",
+  "prompt": "24 elma ve 36 armut, her tabakta eşit sayıda elma ve eşit sayıda armut olacak şekilde en çok kaç tabağa paylaştırılabilir?",
+  "data": {
+   "answer": 12,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "24 elma ve 36 armut, her tabakta eşit sayıda elma ve eşit sayıda armut olacak şekilde en çok kaç tabağa paylaştırılabilir?",
+  "correctAnswer": "12",
+  "explanation": "Tabak sayısı 24 ile 36’nın ortak böleni olmalı; en büyüğü 12’dir."
+ },
+ {
+  "questionId": "boss-a05-m1-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Aralarında asal",
+  "outcome": "Günlük hayat problemleri ya da matematiksel durumlar üzerinden ortak kat ve ortak böleni yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 55",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi sayı çifti aralarında asaldır?",
+  "data": {
+   "options": [
+    "8 ve 15",
+    "6 ve 9",
+    "10 ve 25"
+   ]
+  },
+  "textPlain": "Hangi sayı çifti aralarında asaldır? Seçenekler: 8 ve 15 / 6 ve 9 / 10 ve 25",
+  "correctAnswer": "8 ve 15",
+  "explanation": "8 ve 15’in 1’den başka ortak böleni yoktur. 6 ve 9’un ortak böleni 3, 10 ve 25’in ortak böleni 5’tir."
+ },
+ {
+  "questionId": "boss-a05-m1-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Eksik rakam",
+  "outcome": "Bölünebilme kriterlerine (2, 3, 4, 5, 6, 9, 10) ilişkin çıkarımda bulunabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 33",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "num",
+  "prompt": "4▢2 üç basamaklı sayısı 9 ile kalansız bölünüyor. ▢ yerine gelen rakam kaçtır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "4▢2 üç basamaklı sayısı 9 ile kalansız bölünüyor. ▢ yerine gelen rakam kaçtır?",
+  "correctAnswer": "3",
+  "explanation": "Rakamları toplamı 9’un katı olmalı: 4 + ▢ + 2 = 9 için ▢ = 3."
+ },
+ {
+  "questionId": "boss-a05-m1-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Asal çarpanlar",
+  "outcome": "Bir doğal sayının asal olma durumunu ve asal çarpanlarını çözümleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 43",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "num",
+  "prompt": "20 ile 30 arasında olup asal çarpanları yalnızca 2 ve 3 olan sayı kaçtır?",
+  "data": {
+   "answer": 24,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "20 ile 30 arasında olup asal çarpanları yalnızca 2 ve 3 olan sayı kaçtır?",
+  "correctAnswer": "24",
+  "explanation": "24 = 2 × 2 × 2 × 3; asal çarpanları 2 ve 3’tür. Bu aralıkta başka böyle bir sayı yoktur."
+ },
+ {
+  "questionId": "boss-a05-m1-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "1. Tema: Sayılar ve Nicelikler (1)",
+  "topic": "Katlar",
+  "outcome": "Problem durumlarında bir doğal sayının çarpan ve kat ilişkisine yönelik muhakeme yapabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Sayılar ve Nicelikler (1)”, s. 23",
+  "difficulty": "zor",
+  "group": "m1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir sınıftaki öğrenciler 4’erli ya da 6’şarlı gruplara ayrılınca hiç öğrenci artmıyor. Sınıfta 20’den fazla, 30’dan az öğrenci varsa kaç öğrenci vardır?",
+  "data": {
+   "options": [
+    "24",
+    "26",
+    "28"
+   ]
+  },
+  "textPlain": "Bir sınıftaki öğrenciler 4’erli ya da 6’şarlı gruplara ayrılınca hiç öğrenci artmıyor. Sınıfta 20’den fazla, 30’dan az öğrenci varsa kaç öğrenci vardır? Seçenekler: 24 / 26 / 28",
+  "correctAnswer": "24",
+  "explanation": "Öğrenci sayısı 4 ile 6’nın ortak katı olmalı: 12, 24, 36… Aralıktaki tek sayı 24’tür."
+ },
+ {
+  "questionId": "boss-a05-m2-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Çıktılar",
+  "outcome": "Deney, çıktı ve olay kavramlarını örnekler üzerinden ayırt edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 64",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir zar atma deneyinin çıktıları hangileridir?",
+  "data": {
+   "options": [
+    "1, 2, 3, 4, 5, 6",
+    "Yazı ve tura",
+    "1, 2, 3"
+   ]
+  },
+  "textPlain": "Bir zar atma deneyinin çıktıları hangileridir? Seçenekler: 1, 2, 3, 4, 5, 6 / Yazı ve tura / 1, 2, 3",
+  "correctAnswer": "1, 2, 3, 4, 5, 6",
+  "explanation": "Zarın altı yüzündeki sayıların her biri bir çıktıdır."
+ },
+ {
+  "questionId": "boss-a05-m2-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Çıktı sayısı",
+  "outcome": "Deney, çıktı ve olay kavramlarını örnekler üzerinden ayırt edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 64",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir madenî para atma deneyinde kaç farklı çıktı vardır?",
+  "data": {
+   "options": [
+    "2",
+    "1",
+    "6"
+   ]
+  },
+  "textPlain": "Bir madenî para atma deneyinde kaç farklı çıktı vardır? Seçenekler: 2 / 1 / 6",
+  "correctAnswer": "2",
+  "explanation": "Para atıldığında yazı ya da tura gelir; 2 çıktı vardır."
+ },
+ {
+  "questionId": "boss-a05-m2-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deney",
+  "outcome": "Deney, çıktı ve olay kavramlarını örnekler üzerinden ayırt edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 64",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir deney tekrarlandığında her seferinde aynı sonuç elde edilmek zorundadır.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir deney tekrarlandığında her seferinde aynı sonuç elde edilmek zorundadır.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Para ya da zar atmak gibi deneylerde sonuçlar her seferinde değişebilir."
+ },
+ {
+  "questionId": "boss-a05-m2-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Sıklık tablosu",
+  "outcome": "Deney sonuçlarını çetele, sıklık tablosu ve grafiklerle düzenleyip okuyabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 67 (veri ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Bir zar 20 kez atıldı. Tabloya göre 4 kaç kez gelmiştir?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "table",
+    "h": [
+     "Sayı",
+     "Sıklık"
+    ],
+    "r": [
+     [
+      "1",
+      "3"
+     ],
+     [
+      "2",
+      "4"
+     ],
+     [
+      "3",
+      "2"
+     ],
+     [
+      "4",
+      "5"
+     ],
+     [
+      "5",
+      "3"
+     ],
+     [
+      "6",
+      "3"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Sıklık tablosu: 1→3, 2→4, 3→2, 4→5, 5→3, 6→3] Bir zar 20 kez atıldı. Tabloya göre 4 kaç kez gelmiştir?",
+  "correctAnswer": "5",
+  "explanation": "Tabloda 4’ün sıklığı 5’tir."
+ },
+ {
+  "questionId": "boss-a05-m2-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Olay",
+  "outcome": "Deney, çıktı ve olay kavramlarını örnekler üzerinden ayırt edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 64",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Zar atma deneyinde “çift sayı gelmesi” olayının çıktıları hangileridir?",
+  "data": {
+   "options": [
+    "2, 4, 6",
+    "1, 3, 5",
+    "Yalnızca 6"
+   ]
+  },
+  "textPlain": "Zar atma deneyinde “çift sayı gelmesi” olayının çıktıları hangileridir? Seçenekler: 2, 4, 6 / 1, 3, 5 / Yalnızca 6",
+  "correctAnswer": "2, 4, 6",
+  "explanation": "Zardaki çift sayılar 2, 4 ve 6’dır."
+ },
+ {
+  "questionId": "boss-a05-m2-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Yüzde",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 76",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "{1/4} kesrinin yüzde olarak karşılığı hangisidir?",
+  "data": {
+   "options": [
+    "%25",
+    "%14",
+    "%40"
+   ]
+  },
+  "textPlain": "{1/4} kesrinin yüzde olarak karşılığı hangisidir? Seçenekler: %25 / %14 / %40",
+  "correctAnswer": "%25",
+  "explanation": "{1/4} = {25/100} = %25."
+ },
+ {
+  "questionId": "boss-a05-m2-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deney ve çıktı",
+  "outcome": "Deney, çıktı ve olay kavramlarını örnekler üzerinden ayırt edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 64",
+  "difficulty": "kolay",
+  "group": "m2",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kartları deney ve çıktı olarak ayır.",
+  "data": {
+   "bins": [
+    "Deney",
+    "Çıktı"
+   ],
+   "items": [
+    [
+     "Zar atmak",
+     0
+    ],
+    [
+     "Zarda 3 gelmesi",
+     1
+    ],
+    [
+     "Para atmak",
+     0
+    ],
+    [
+     "Paranın tura gelmesi",
+     1
+    ],
+    [
+     "Torbadan top çekmek",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kartları deney ve çıktı olarak ayır. (Deney / Çıktı) Kartlar: Zar atmak; Zarda 3 gelmesi; Para atmak; Paranın tura gelmesi; Torbadan top çekmek.",
+  "correctAnswer": "Deney: Zar atmak, Para atmak, Torbadan top çekmek. Çıktı: Zarda 3 gelmesi, Paranın tura gelmesi.",
+  "explanation": "Yapılan işlem deney, deneyin olası sonuçlarından her biri çıktıdır."
+ },
+ {
+  "questionId": "boss-a05-m2-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deneysel olasılık",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 80",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir para 50 kez atıldı ve 20 kez yazı geldi. Yazı gelmesinin deneysel olasılığı yüzde kaçtır?",
+  "data": {
+   "answer": 40,
+   "digits": 2,
+   "unit": "%"
+  },
+  "textPlain": "Bir para 50 kez atıldı ve 20 kez yazı geldi. Yazı gelmesinin deneysel olasılığı yüzde kaçtır?",
+  "correctAnswer": "%40",
+  "explanation": "{20/50} = {40/100} = %40."
+ },
+ {
+  "questionId": "boss-a05-m2-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deneysel olasılık",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 80",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Torbadan 40 kez top çekilip geri atıldı. Tabloya göre deneysel olasılığı en yüksek olan renk hangisidir?",
+  "data": {
+   "options": [
+    "Kırmızı",
+    "Mavi",
+    "Yeşil"
+   ],
+   "fig": {
+    "k": "table",
+    "h": [
+     "Renk",
+     "Çekilme sayısı"
+    ],
+    "r": [
+     [
+      "Kırmızı",
+      "18"
+     ],
+     [
+      "Mavi",
+      "12"
+     ],
+     [
+      "Yeşil",
+      "10"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: Kırmızı 18, Mavi 12, Yeşil 10 (toplam 40 çekiliş)] Torbadan 40 kez top çekilip geri atıldı. Tabloya göre deneysel olasılığı en yüksek olan renk hangisidir? Seçenekler: Kırmızı / Mavi / Yeşil",
+  "correctAnswer": "Kırmızı",
+  "explanation": "En çok çekilen renk en yüksek deneysel olasılığa sahiptir: kırmızı (18/40)."
+ },
+ {
+  "questionId": "boss-a05-m2-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Yüzde olarak olasılık",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 76",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Torbadan 40 kez top çekildi. Tabloya göre mavi top çekilmesinin deneysel olasılığı yüzde kaçtır?",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "%",
+   "fig": {
+    "k": "table",
+    "h": [
+     "Renk",
+     "Çekilme sayısı"
+    ],
+    "r": [
+     [
+      "Kırmızı",
+      "18"
+     ],
+     [
+      "Mavi",
+      "12"
+     ],
+     [
+      "Yeşil",
+      "10"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: Kırmızı 18, Mavi 12, Yeşil 10 (toplam 40 çekiliş)] Torbadan 40 kez top çekildi. Tabloya göre mavi top çekilmesinin deneysel olasılığı yüzde kaçtır?",
+  "correctAnswer": "%30",
+  "explanation": "{12/40} = {30/100} = %30."
+ },
+ {
+  "questionId": "boss-a05-m2-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Göreli sıklık",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 69",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir okçu 20 atışta 15 isabet yaptı. İsabetin göreli sıklığı hangisidir?",
+  "data": {
+   "options": [
+    "{15/20}",
+    "{5/20}",
+    "{20/15}"
+   ]
+  },
+  "textPlain": "Bir okçu 20 atışta 15 isabet yaptı. İsabetin göreli sıklığı hangisidir? Seçenekler: {15/20} / {5/20} / {20/15}",
+  "correctAnswer": "{15/20}",
+  "explanation": "Göreli sıklık = olayın sıklığı ÷ toplam deneme sayısı = {15/20}."
+ },
+ {
+  "questionId": "boss-a05-m2-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deney sayısı",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 80",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Deneysel olasılığın daha güvenilir olması için ne yapılmalıdır?",
+  "data": {
+   "options": [
+    "Deney sayısı artırılmalıdır.",
+    "Deney yalnızca bir kez yapılmalıdır.",
+    "Sonuçlar tahmin edilmelidir."
+   ]
+  },
+  "textPlain": "Deneysel olasılığın daha güvenilir olması için ne yapılmalıdır? Seçenekler: Deney sayısı artırılmalıdır. / Deney yalnızca bir kez yapılmalıdır. / Sonuçlar tahmin edilmelidir.",
+  "correctAnswer": "Deney sayısı artırılmalıdır.",
+  "explanation": "Az sayıda deneyde sonuçlar çok değişebilir; deney sayısı arttıkça sonuçlar daha güvenilir olur."
+ },
+ {
+  "questionId": "boss-a05-m2-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Yüzde",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 76",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kesri eşit olduğu yüzdeyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "{3/5}",
+     "%60"
+    ],
+    [
+     "{7/10}",
+     "%70"
+    ],
+    [
+     "{9/20}",
+     "%45"
+    ]
+   ]
+  },
+  "textPlain": "Her kesri eşit olduğu yüzdeyle eşleştir. Sol: {3/5}; {7/10}; {9/20}. Sağ: %60; %70; %45.",
+  "correctAnswer": "{3/5} = %60; {7/10} = %70; {9/20} = %45",
+  "explanation": "Paydayı 100’e genişlet: {3/5} = {60/100}, {7/10} = {70/100}, {9/20} = {45/100}."
+ },
+ {
+  "questionId": "boss-a05-m2-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Nokta grafiği",
+  "outcome": "Deney sonuçlarını çetele, sıklık tablosu ve grafiklerle düzenleyip okuyabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 67 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir zar 17 kez atıldı. Nokta grafiğine göre en çok gelen sayı hangisidir?",
+  "data": {
+   "options": [
+    "3",
+    "5",
+    "2"
+   ],
+   "fig": {
+    "k": "dot",
+    "t": "Zar atma sonuçları",
+    "l": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "v": [
+     2,
+     3,
+     5,
+     2,
+     4,
+     1
+    ]
+   }
+  },
+  "textPlain": "[Nokta grafiği: 1→2, 2→3, 3→5, 4→2, 5→4, 6→1] Bir zar 17 kez atıldı. Nokta grafiğine göre en çok gelen sayı hangisidir? Seçenekler: 3 / 5 / 2",
+  "correctAnswer": "3",
+  "explanation": "En çok noktanın bulunduğu sayı 3’tür (5 kez)."
+ },
+ {
+  "questionId": "boss-a05-m2-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Eksik değer",
+  "outcome": "Deneysel olasılıkları karşılaştırarak çıkarım yapabilme ve deney sayısının etkisini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 74",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir zar 30 kez atıldı. 1, 2, 3, 4 ve 5 sırasıyla 4, 6, 5, 7 ve 3 kez geldi. 6 kaç kez gelmiştir?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Bir zar 30 kez atıldı. 1, 2, 3, 4 ve 5 sırasıyla 4, 6, 5, 7 ve 3 kez geldi. 6 kaç kez gelmiştir?",
+  "correctAnswer": "5",
+  "explanation": "Gelen toplam: 4 + 6 + 5 + 7 + 3 = 25; 30 − 25 = 5."
+ },
+ {
+  "questionId": "boss-a05-m2-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Karşılaştırma",
+  "outcome": "Deneysel olasılıkları karşılaştırarak çıkarım yapabilme ve deney sayısının etkisini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 63",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ali 20 atışta 12, Ece 25 atışta 14 isabet yaptı. İsabet etmenin deneysel olasılığı kimde daha yüksektir?",
+  "data": {
+   "options": [
+    "Ali",
+    "Ece",
+    "İkisinde eşit"
+   ]
+  },
+  "textPlain": "Ali 20 atışta 12, Ece 25 atışta 14 isabet yaptı. İsabet etmenin deneysel olasılığı kimde daha yüksektir? Seçenekler: Ali / Ece / İkisinde eşit",
+  "correctAnswer": "Ali",
+  "explanation": "Ali: {12/20} = %60; Ece: {14/25} = {56/100} = %56. Ali’nin olasılığı daha yüksektir."
+ },
+ {
+  "questionId": "boss-a05-m2-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deneysel olasılık",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 80",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir çark 100 kez çevrildi ve 52 kez kırmızı geldi. Hangisi söylenebilir?",
+  "data": {
+   "options": [
+    "Çarkın yaklaşık yarısı kırmızı olabilir.",
+    "Çarkın tamamı kırmızıdır.",
+    "Çarkta hiç kırmızı bölge yoktur."
+   ]
+  },
+  "textPlain": "Bir çark 100 kez çevrildi ve 52 kez kırmızı geldi. Hangisi söylenebilir? Seçenekler: Çarkın yaklaşık yarısı kırmızı olabilir. / Çarkın tamamı kırmızıdır. / Çarkta hiç kırmızı bölge yoktur.",
+  "correctAnswer": "Çarkın yaklaşık yarısı kırmızı olabilir.",
+  "explanation": "Kırmızının deneysel olasılığı %52’dir; bu, çarkın yaklaşık yarısının kırmızı olabileceğini düşündürür."
+ },
+ {
+  "questionId": "boss-a05-m2-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Yüzde olarak olasılık",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 76",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir torbadan 80 kez top çekildi. Sarı topun deneysel olasılığı %25 bulundu. Sarı top kaç kez çekilmiştir?",
+  "data": {
+   "answer": 20,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Bir torbadan 80 kez top çekildi. Sarı topun deneysel olasılığı %25 bulundu. Sarı top kaç kez çekilmiştir?",
+  "correctAnswer": "20",
+  "explanation": "%25 = {1/4}; 80’in dörtte biri 20’dir."
+ },
+ {
+  "questionId": "boss-a05-m2-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Karşılaştırma",
+  "outcome": "Deneysel olasılıkları karşılaştırarak çıkarım yapabilme ve deney sayısının etkisini yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 63",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Deneysel olasılıkları KÜÇÜKTEN BÜYÜĞE sırala.",
+  "data": {
+   "items": [
+    "%35",
+    "{2/5}",
+    "0,5",
+    "{3/4}"
+   ]
+  },
+  "textPlain": "Deneysel olasılıkları KÜÇÜKTEN BÜYÜĞE sırala. Kartlar: %35; {3/4}; {2/5}; 0,5.",
+  "correctAnswer": "%35 → {2/5} → 0,5 → {3/4}",
+  "explanation": "Hepsini yüzdeye çevir: %35, {2/5} = %40, 0,5 = %50, {3/4} = %75."
+ },
+ {
+  "questionId": "boss-a05-m2-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "2. Tema: Veriden Olasılığa",
+  "topic": "Deney sayısı",
+  "outcome": "Bir olayın göreli sıklığını ve deneysel olasılığını kesir ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Veriden Olasılığa”, s. 80",
+  "difficulty": "zor",
+  "group": "m2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir zar 6 kez atıldı ve hiç 6 gelmedi. Hangisi söylenebilir?",
+  "data": {
+   "options": [
+    "Deney sayısı az olduğundan 6 gelmesinin imkânsız olduğu söylenemez.",
+    "6 gelmesi imkânsızdır.",
+    "Bir sonraki atışta kesinlikle 6 gelir."
+   ]
+  },
+  "textPlain": "Bir zar 6 kez atıldı ve hiç 6 gelmedi. Hangisi söylenebilir? Seçenekler: Deney sayısı az olduğundan 6 gelmesinin imkânsız olduğu söylenemez. / 6 gelmesi imkânsızdır. / Bir sonraki atışta kesinlikle 6 gelir.",
+  "correctAnswer": "Deney sayısı az olduğundan 6 gelmesinin imkânsız olduğu söylenemez.",
+  "explanation": "Az sayıda deneyde bazı çıktılar hiç görülmeyebilir; deney sayısı artırılırsa 6 da gelecektir."
+ },
+ {
+  "questionId": "boss-a05-t1-01",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Türkçe karşılık",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 31",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Hobi” kelimesinin Türkçe karşılığı hangisidir?",
+  "data": {
+   "options": [
+    "Uğraş",
+    "Meslek",
+    "Ödev"
+   ]
+  },
+  "textPlain": "“Hobi” kelimesinin Türkçe karşılığı hangisidir? Seçenekler: Uğraş / Meslek / Ödev",
+  "correctAnswer": "Uğraş",
+  "explanation": "Dilimizde karşılığı olan yabancı kelimeler yerine Türkçelerini kullanmalıyız: hobi – uğraş."
+ },
+ {
+  "questionId": "boss-a05-t1-02",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "da/de bağlacı",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 33",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede “de” doğru yazılmıştır?",
+  "data": {
+   "options": [
+    "Ben de sizinle geleceğim.",
+    "Bende sizinle geleceğim.",
+    "Ben’de sizinle geleceğim."
+   ]
+  },
+  "textPlain": "Hangi cümlede “de” doğru yazılmıştır? Seçenekler: Ben de sizinle geleceğim. / Bende sizinle geleceğim. / Ben’de sizinle geleceğim.",
+  "correctAnswer": "Ben de sizinle geleceğim.",
+  "explanation": "“Da/de” bağlacı “dahi, bile, ayrıca” anlamı katar ve ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a05-t1-03",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "mi soru eki",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 47",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede “mi” soru eki doğru yazılmıştır?",
+  "data": {
+   "options": [
+    "Kitabı okudun mu?",
+    "Kitabı okudunmu?",
+    "Kitabı okudun-mu?"
+   ]
+  },
+  "textPlain": "Hangi cümlede “mi” soru eki doğru yazılmıştır? Seçenekler: Kitabı okudun mu? / Kitabı okudunmu? / Kitabı okudun-mu?",
+  "correctAnswer": "Kitabı okudun mu?",
+  "explanation": "Soru eki “mi” kendinden önceki kelimeden ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a05-t1-04",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "ki",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 57",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "“ki”nin yazımına göre ayır.",
+  "data": {
+   "bins": [
+    "Bitişik yazılan ki",
+    "Ayrı yazılan ki"
+   ],
+   "items": [
+    [
+     "Evdeki çiçekler",
+     0
+    ],
+    [
+     "Bil ki seni özledim.",
+     1
+    ],
+    [
+     "Yarınki maç",
+     0
+    ],
+    [
+     "Öyle yorgunum ki…",
+     1
+    ],
+    [
+     "Seninki daha güzel",
+     0
+    ]
+   ]
+  },
+  "textPlain": "“ki”nin yazımına göre ayır. (Bitişik yazılan ki / Ayrı yazılan ki) Kartlar: Evdeki çiçekler; Bil ki seni özledim.; Yarınki maç; Öyle yorgunum ki…; Seninki daha güzel.",
+  "correctAnswer": "Bitişik yazılan ki: Evdeki çiçekler, Yarınki maç, Seninki daha güzel. Ayrı yazılan ki: Bil ki seni özledim., Öyle yorgunum ki….",
+  "explanation": "Ek olan “-ki” (evdeki, yarınki, seninki) bitişik; bağlaç olan “ki” ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a05-t1-05",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Atasözü",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 65",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Damlaya damlaya göl olur.” atasözü ne anlatır?",
+  "data": {
+   "options": [
+    "Küçük birikimlerin zamanla büyük sonuçlar doğurduğunu",
+    "Yağmur sularının göl oluşturduğunu",
+    "Suyu boşa harcamamak gerektiğini"
+   ]
+  },
+  "textPlain": "“Damlaya damlaya göl olur.” atasözü ne anlatır? Seçenekler: Küçük birikimlerin zamanla büyük sonuçlar doğurduğunu / Yağmur sularının göl oluşturduğunu / Suyu boşa harcamamak gerektiğini",
+  "correctAnswer": "Küçük birikimlerin zamanla büyük sonuçlar doğurduğunu",
+  "explanation": "Atasözü, küçük küçük biriktirilen şeylerin zamanla büyük bir varlığa dönüştüğünü anlatır."
+ },
+ {
+  "questionId": "boss-a05-t1-06",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Kalıp sözler",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 58",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Yemekten sonra ev sahibine hangi kalıp söz söylenir?",
+  "data": {
+   "options": [
+    "Elinize sağlık.",
+    "Geçmiş olsun.",
+    "Güle güle oturun."
+   ]
+  },
+  "textPlain": "Yemekten sonra ev sahibine hangi kalıp söz söylenir? Seçenekler: Elinize sağlık. / Geçmiş olsun. / Güle güle oturun.",
+  "correctAnswer": "Elinize sağlık.",
+  "explanation": "Kalıp sözler belirli durumlarda söylenir; yemek sonrası “Elinize sağlık.” denir."
+ },
+ {
+  "questionId": "boss-a05-t1-07",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Virgül",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 22",
+  "difficulty": "kolay",
+  "group": "t1",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Sıralanan eş görevli kelimelerin arasına virgül konur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Sıralanan eş görevli kelimelerin arasına virgül konur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sıralanan eş görevli kelimeler virgülle ayrılır."
+ },
+ {
+  "questionId": "boss-a05-t1-08",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Deyimler",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 46",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Ağzı kulaklarına varmak” deyiminin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Çok sevinmek",
+    "Çok konuşmak",
+    "Çok acıkmak"
+   ]
+  },
+  "textPlain": "“Ağzı kulaklarına varmak” deyiminin anlamı hangisidir? Seçenekler: Çok sevinmek / Çok konuşmak / Çok acıkmak",
+  "correctAnswer": "Çok sevinmek",
+  "explanation": "Deyim, çok sevinçli olmayı anlatır."
+ },
+ {
+  "questionId": "boss-a05-t1-09",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Virgül",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 22",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede virgül doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Kitap, defter ve kalemimi çantama koydum.",
+    "Kitap defter, ve kalemimi çantama koydum.",
+    "Kitap defter ve, kalemimi çantama koydum."
+   ]
+  },
+  "textPlain": "Hangi cümlede virgül doğru kullanılmıştır? Seçenekler: Kitap, defter ve kalemimi çantama koydum. / Kitap defter, ve kalemimi çantama koydum. / Kitap defter ve, kalemimi çantama koydum.",
+  "correctAnswer": "Kitap, defter ve kalemimi çantama koydum.",
+  "explanation": "Sıralanan kelimeler virgülle ayrılır; “ve” bağlacından önce virgül konmaz."
+ },
+ {
+  "questionId": "boss-a05-t1-10",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "İkileme",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 46",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede ikileme vardır?",
+  "data": {
+   "options": [
+    "Çocuklar koşa koşa bahçeye çıktı.",
+    "Çocuklar bahçeye çıktı.",
+    "Çocuklar hızlıca koştu."
+   ]
+  },
+  "textPlain": "Hangi cümlede ikileme vardır? Seçenekler: Çocuklar koşa koşa bahçeye çıktı. / Çocuklar bahçeye çıktı. / Çocuklar hızlıca koştu.",
+  "correctAnswer": "Çocuklar koşa koşa bahçeye çıktı.",
+  "explanation": "Anlamı güçlendirmek için bir kelimenin tekrarlanmasına ikileme denir: koşa koşa."
+ },
+ {
+  "questionId": "boss-a05-t1-11",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Atasözleri",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 65",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her atasözünü anlamıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Sakla samanı, gelir zamanı.",
+     "Gereksiz görülen şey bir gün işe yarayabilir."
+    ],
+    [
+     "Bir elin nesi var, iki elin sesi var.",
+     "Birlikte çalışmak başarı getirir."
+    ],
+    [
+     "Ağaç yaşken eğilir.",
+     "Eğitim küçük yaşta başlar."
+    ]
+   ]
+  },
+  "textPlain": "Her atasözünü anlamıyla eşleştir. Sol: Sakla samanı, gelir zamanı.; Bir elin nesi var, iki elin sesi var.; Ağaç yaşken eğilir.. Sağ: Gereksiz görülen şey bir gün işe yarayabilir.; Birlikte çalışmak başarı getirir.; Eğitim küçük yaşta başlar..",
+  "correctAnswer": "Sakla samanı, gelir zamanı. = Gereksiz görülen şey bir gün işe yarayabilir.; Bir elin nesi var, iki elin sesi var. = Birlikte çalışmak başarı getirir.; Ağaç yaşken eğilir. = Eğitim küçük yaşta başlar.",
+  "explanation": "Atasözleri, uzun deneyimlere dayanan öğütler verir."
+ },
+ {
+  "questionId": "boss-a05-t1-12",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "mi eki",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 47",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede “mi” soru anlamı katmayıp anlamı pekiştirmiştir?",
+  "data": {
+   "options": [
+    "Güzel mi güzel bir gündü.",
+    "Yarın gelecek misin?",
+    "Ödevini yaptın mı?"
+   ]
+  },
+  "textPlain": "Hangi cümlede “mi” soru anlamı katmayıp anlamı pekiştirmiştir? Seçenekler: Güzel mi güzel bir gündü. / Yarın gelecek misin? / Ödevini yaptın mı?",
+  "correctAnswer": "Güzel mi güzel bir gündü.",
+  "explanation": "“Güzel mi güzel” yapısında “mi” soru sormaz, anlamı pekiştirir."
+ },
+ {
+  "questionId": "boss-a05-t1-13",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Açıklayıcı metin",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 35",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Okura bir konuda bilgi vermek amacıyla yazılan, açık ve anlaşılır bir dille oluşturulan metin hangisidir?",
+  "data": {
+   "options": [
+    "Açıklayıcı metin",
+    "Şiir",
+    "Masal"
+   ]
+  },
+  "textPlain": "Okura bir konuda bilgi vermek amacıyla yazılan, açık ve anlaşılır bir dille oluşturulan metin hangisidir? Seçenekler: Açıklayıcı metin / Şiir / Masal",
+  "correctAnswer": "Açıklayıcı metin",
+  "explanation": "Açıklayıcı (bilgilendirici) metinler okuru bir konuda bilgilendirir."
+ },
+ {
+  "questionId": "boss-a05-t1-14",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Söz varlığı",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 17",
+  "difficulty": "orta",
+  "group": "t1",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Söz varlığı” ne demektir?",
+  "data": {
+   "options": [
+    "Bir dildeki kelime, deyim, atasözü ve kalıp sözlerin tümü",
+    "Bir kitaptaki sayfa sayısı",
+    "Bir şiirdeki dize sayısı"
+   ]
+  },
+  "textPlain": "“Söz varlığı” ne demektir? Seçenekler: Bir dildeki kelime, deyim, atasözü ve kalıp sözlerin tümü / Bir kitaptaki sayfa sayısı / Bir şiirdeki dize sayısı",
+  "correctAnswer": "Bir dildeki kelime, deyim, atasözü ve kalıp sözlerin tümü",
+  "explanation": "Söz varlığı, bir dilin kelime, deyim, atasözü ve kalıp sözlerden oluşan hazinesidir."
+ },
+ {
+  "questionId": "boss-a05-t1-15",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Halk edebiyatı",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 10",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangisi halk edebiyatı ürünüdür?",
+  "data": {
+   "options": [
+    "Mani",
+    "Haber yazısı",
+    "Reklam metni"
+   ]
+  },
+  "textPlain": "Hangisi halk edebiyatı ürünüdür? Seçenekler: Mani / Haber yazısı / Reklam metni",
+  "correctAnswer": "Mani",
+  "explanation": "Mani, türkü, ninni ve masal halk edebiyatı ürünleridir."
+ },
+ {
+  "questionId": "boss-a05-t1-16",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Ana fikir",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 41 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metnin ana fikri nedir?",
+  "data": {
+   "options": [
+    "Türkçeyi özenle kullanarak zenginliğini korumalıyız.",
+    "Türkçe yalnızca bir bölgede konuşulur.",
+    "Kelimelerin anlamları birbirinin aynısıdır."
+   ],
+   "passage": "Türkçe, tarih boyunca farklı coğrafyalarda konuşulmuş ve binlerce yıllık birikimiyle zenginleşmiş bir dildir. Bir duyguyu anlatmak için birbirinden ince anlam farkları olan pek çok kelimemiz vardır. Bu zenginliği korumak için dilimizi doğru ve özenle kullanmalıyız."
+  },
+  "textPlain": "Metin: Türkçe, tarih boyunca farklı coğrafyalarda konuşulmuş ve binlerce yıllık birikimiyle zenginleşmiş bir dildir. Bir duyguyu anlatmak için birbirinden ince anlam farkları olan pek çok kelimemiz vardır. Bu zenginliği korumak için dilimizi doğru ve özenle kullanmalıyız. Soru: Yukarıdaki metnin ana fikri nedir? Seçenekler: Türkçeyi özenle kullanarak zenginliğini korumalıyız. / Türkçe yalnızca bir bölgede konuşulur. / Kelimelerin anlamları birbirinin aynısıdır.",
+  "correctAnswer": "Türkçeyi özenle kullanarak zenginliğini korumalıyız.",
+  "explanation": "Metin Türkçenin zenginliğini anlatır ve bu zenginliği korumak için dilimizi özenle kullanmamız gerektiğini vurgular."
+ },
+ {
+  "questionId": "boss-a05-t1-17",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Yüzey anlam",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 53 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre Türkçenin zengin bir dil olmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Binlerce yıllık birikime ve ince anlam farklı çok sayıda kelimeye sahip olması",
+    "Yeni ortaya çıkmış bir dil olması",
+    "Az sayıda kelimesinin olması"
+   ],
+   "passage": "Türkçe, tarih boyunca farklı coğrafyalarda konuşulmuş ve binlerce yıllık birikimiyle zenginleşmiş bir dildir. Bir duyguyu anlatmak için birbirinden ince anlam farkları olan pek çok kelimemiz vardır. Bu zenginliği korumak için dilimizi doğru ve özenle kullanmalıyız."
+  },
+  "textPlain": "Metin: Türkçe, tarih boyunca farklı coğrafyalarda konuşulmuş ve binlerce yıllık birikimiyle zenginleşmiş bir dildir. Bir duyguyu anlatmak için birbirinden ince anlam farkları olan pek çok kelimemiz vardır. Bu zenginliği korumak için dilimizi doğru ve özenle kullanmalıyız. Soru: Yukarıdaki metne göre Türkçenin zengin bir dil olmasının nedeni nedir? Seçenekler: Binlerce yıllık birikime ve ince anlam farklı çok sayıda kelimeye sahip olması / Yeni ortaya çıkmış bir dil olması / Az sayıda kelimesinin olması",
+  "correctAnswer": "Binlerce yıllık birikime ve ince anlam farklı çok sayıda kelimeye sahip olması",
+  "explanation": "Metne göre Türkçe binlerce yıllık birikimle zenginleşmiştir ve ince anlam farkları olan pek çok kelimesi vardır."
+ },
+ {
+  "questionId": "boss-a05-t1-18",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "ki",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 57",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede “ki” doğru yazılmıştır?",
+  "data": {
+   "options": [
+    "Duydum ki yarın kar yağacakmış.",
+    "Duydumki yarın kar yağacakmış.",
+    "Duydum-ki yarın kar yağacakmış."
+   ]
+  },
+  "textPlain": "Hangi cümlede “ki” doğru yazılmıştır? Seçenekler: Duydum ki yarın kar yağacakmış. / Duydumki yarın kar yağacakmış. / Duydum-ki yarın kar yağacakmış.",
+  "correctAnswer": "Duydum ki yarın kar yağacakmış.",
+  "explanation": "Bağlaç olan “ki” ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a05-t1-19",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "-da/-de eki",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 33",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede “-de/-da” bir ektir ve bitişik yazılmalıdır?",
+  "data": {
+   "options": [
+    "Kitaplar masada duruyor.",
+    "Ben de kitap okuyorum.",
+    "Kardeşim de geldi."
+   ]
+  },
+  "textPlain": "Hangi cümlede “-de/-da” bir ektir ve bitişik yazılmalıdır? Seçenekler: Kitaplar masada duruyor. / Ben de kitap okuyorum. / Kardeşim de geldi.",
+  "correctAnswer": "Kitaplar masada duruyor.",
+  "explanation": "Bulunma bildiren “-da/-de” eki kelimeye bitişik yazılır (masada); bağlaç olan “de” ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a05-t1-20",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "1. Tema: Dilimizin Zenginliği",
+  "topic": "Şiir bilgisi",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 1. Tema “Dilimizin Zenginliği”, s. 44",
+  "difficulty": "zor",
+  "group": "t1",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Şiirde dize sonlarındaki ses benzerliğine ne ad verilir?",
+  "data": {
+   "options": [
+    "Kafiye (uyak)",
+    "Dörtlük",
+    "Başlık"
+   ]
+  },
+  "textPlain": "Şiirde dize sonlarındaki ses benzerliğine ne ad verilir? Seçenekler: Kafiye (uyak) / Dörtlük / Başlık",
+  "correctAnswer": "Kafiye (uyak)",
+  "explanation": "Dize sonlarındaki ses benzerliği kafiyedir."
+ },
+ {
+  "questionId": "boss-a05-t2-01",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Kök",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 95",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Gözlükçüler” kelimesinin kökü hangisidir?",
+  "data": {
+   "options": [
+    "göz",
+    "gözlük",
+    "gözlükçü"
+   ]
+  },
+  "textPlain": "“Gözlükçüler” kelimesinin kökü hangisidir? Seçenekler: göz / gözlük / gözlükçü",
+  "correctAnswer": "göz",
+  "explanation": "Kök, kelimenin anlamlı en küçük parçasıdır: göz + -lük + -çü + -ler."
+ },
+ {
+  "questionId": "boss-a05-t2-02",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Çekim eki",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 95",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kitaplar” kelimesindeki “-lar” eki ne tür bir ektir?",
+  "data": {
+   "options": [
+    "Çekim eki",
+    "Yapım eki",
+    "Kök"
+   ]
+  },
+  "textPlain": "“Kitaplar” kelimesindeki “-lar” eki ne tür bir ektir? Seçenekler: Çekim eki / Yapım eki / Kök",
+  "correctAnswer": "Çekim eki",
+  "explanation": "“-lar” çoğul eki kelimenin anlamını değiştirmez; çekim ekidir."
+ },
+ {
+  "questionId": "boss-a05-t2-03",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Kelime anlamı",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 72",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Cephe” kelimesinin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Savaşın yapıldığı yer",
+    "Bayram töreni",
+    "Bir tür silah"
+   ]
+  },
+  "textPlain": "“Cephe” kelimesinin anlamı hangisidir? Seçenekler: Savaşın yapıldığı yer / Bayram töreni / Bir tür silah",
+  "correctAnswer": "Savaşın yapıldığı yer",
+  "explanation": "Cephe, savaşın sürdüğü bölgedir."
+ },
+ {
+  "questionId": "boss-a05-t2-04",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Benzetme",
+  "outcome": "Söz sanatlarını belirleyip anlama katkısını açıklayabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 82",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Benzetmede bir varlık, ortak bir özelliği bakımından başka bir varlığa benzetilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Benzetmede bir varlık, ortak bir özelliği bakımından başka bir varlığa benzetilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Benzetme; ortak özellik bakımından güçsüz olanın güçlüye benzetilmesidir."
+ },
+ {
+  "questionId": "boss-a05-t2-05",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Millî bayramlar",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 107",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "23 Nisan hangi bayram olarak kutlanır?",
+  "data": {
+   "options": [
+    "Ulusal Egemenlik ve Çocuk Bayramı",
+    "Cumhuriyet Bayramı",
+    "Zafer Bayramı"
+   ]
+  },
+  "textPlain": "23 Nisan hangi bayram olarak kutlanır? Seçenekler: Ulusal Egemenlik ve Çocuk Bayramı / Cumhuriyet Bayramı / Zafer Bayramı",
+  "correctAnswer": "Ulusal Egemenlik ve Çocuk Bayramı",
+  "explanation": "23 Nisan 1920’de Türkiye Büyük Millet Meclisi açılmıştır; bu gün Ulusal Egemenlik ve Çocuk Bayramı’dır."
+ },
+ {
+  "questionId": "boss-a05-t2-06",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Kişileştirme",
+  "outcome": "Söz sanatlarını belirleyip anlama katkısını açıklayabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 68",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede kişileştirme vardır?",
+  "data": {
+   "options": [
+    "Dağlar, kahraman askerleri sessizce selamladı.",
+    "Askerler dağları aştı.",
+    "Dağlar karla kaplıydı."
+   ]
+  },
+  "textPlain": "Hangi cümlede kişileştirme vardır? Seçenekler: Dağlar, kahraman askerleri sessizce selamladı. / Askerler dağları aştı. / Dağlar karla kaplıydı.",
+  "correctAnswer": "Dağlar, kahraman askerleri sessizce selamladı.",
+  "explanation": "Dağlara selamlamak gibi insana ait bir davranış verilmiştir; bu kişileştirmedir."
+ },
+ {
+  "questionId": "boss-a05-t2-07",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Kesme işareti",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 88",
+  "difficulty": "kolay",
+  "group": "t2",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisinin yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Sakarya’da",
+    "Sakaryada",
+    "sakarya’da"
+   ]
+  },
+  "textPlain": "Hangisinin yazımı doğrudur? Seçenekler: Sakarya’da / Sakaryada / sakarya’da",
+  "correctAnswer": "Sakarya’da",
+  "explanation": "Özel isimlere gelen ekler kesme işaretiyle ayrılır ve özel isim büyük harfle başlar."
+ },
+ {
+  "questionId": "boss-a05-t2-08",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Yapım eki",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 95",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi kelimede yapım eki vardır?",
+  "data": {
+   "options": [
+    "Kalemlik",
+    "Kalemler",
+    "Kalemi"
+   ]
+  },
+  "textPlain": "Hangi kelimede yapım eki vardır? Seçenekler: Kalemlik / Kalemler / Kalemi",
+  "correctAnswer": "Kalemlik",
+  "explanation": "“-lik” eki yeni bir kelime türetir; yapım ekidir. “-ler” ve “-i” çekim ekidir."
+ },
+ {
+  "questionId": "boss-a05-t2-09",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Ek sırası",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 95",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "order",
+  "prompt": "“Tuzluklar” kelimesinin parçalarını sırayla diz.",
+  "data": {
+   "items": [
+    "tuz (kök)",
+    "-luk (yapım eki)",
+    "-lar (çekim eki)"
+   ]
+  },
+  "textPlain": "“Tuzluklar” kelimesinin parçalarını sırayla diz. Kartlar: -lar (çekim eki); -luk (yapım eki); tuz (kök).",
+  "correctAnswer": "tuz (kök) → -luk (yapım eki) → -lar (çekim eki)",
+  "explanation": "Kelimede önce kök, sonra yapım eki, en son çekim eki gelir."
+ },
+ {
+  "questionId": "boss-a05-t2-10",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Abartma",
+  "outcome": "Söz sanatlarını belirleyip anlama katkısını açıklayabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 89",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede abartma vardır?",
+  "data": {
+   "options": [
+    "Öyle çok ağladı ki gözyaşları sel oldu.",
+    "Çok üzüldüğü için ağladı.",
+    "Gözleri biraz yaşardı."
+   ]
+  },
+  "textPlain": "Hangi cümlede abartma vardır? Seçenekler: Öyle çok ağladı ki gözyaşları sel oldu. / Çok üzüldüğü için ağladı. / Gözleri biraz yaşardı.",
+  "correctAnswer": "Öyle çok ağladı ki gözyaşları sel oldu.",
+  "explanation": "Bir durumu olduğundan çok büyük göstermek abartmadır: gözyaşlarının sel olması."
+ },
+ {
+  "questionId": "boss-a05-t2-11",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Karşıtlık",
+  "outcome": "Söz sanatlarını belirleyip anlama katkısını açıklayabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 89",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Zor da olsa kolay da olsa bu yolu birlikte yürüyeceğiz.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Karşıtlık",
+    "Benzetme",
+    "Kişileştirme"
+   ]
+  },
+  "textPlain": "“Zor da olsa kolay da olsa bu yolu birlikte yürüyeceğiz.” cümlesinde hangi söz sanatı vardır? Seçenekler: Karşıtlık / Benzetme / Kişileştirme",
+  "correctAnswer": "Karşıtlık",
+  "explanation": "Zıt anlamlı kavramların (zor – kolay) bir arada kullanılması karşıtlıktır."
+ },
+ {
+  "questionId": "boss-a05-t2-12",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Hikâye unsurları",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 74",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hikâyede olayların geçtiği yere ne ad verilir?",
+  "data": {
+   "options": [
+    "Mekân",
+    "Zaman",
+    "Kişi"
+   ]
+  },
+  "textPlain": "Hikâyede olayların geçtiği yere ne ad verilir? Seçenekler: Mekân / Zaman / Kişi",
+  "correctAnswer": "Mekân",
+  "explanation": "Hikâyenin unsurları olay, kişi, zaman ve mekândır; olayın geçtiği yer mekândır."
+ },
+ {
+  "questionId": "boss-a05-t2-13",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Yapım ve çekim eki",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 95",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Kısa çizgiyle ayrılmış ekleri yapım eki ve çekim eki olarak ayır.",
+  "data": {
+   "bins": [
+    "Yapım eki",
+    "Çekim eki"
+   ],
+   "items": [
+    [
+     "kitap-lık",
+     0
+    ],
+    [
+     "ev-ler",
+     1
+    ],
+    [
+     "simit-çi",
+     0
+    ],
+    [
+     "okul-da",
+     1
+    ],
+    [
+     "Ankara-lı",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kısa çizgiyle ayrılmış ekleri yapım eki ve çekim eki olarak ayır. (Yapım eki / Çekim eki) Kartlar: kitap-lık; ev-ler; simit-çi; okul-da; Ankara-lı.",
+  "correctAnswer": "Yapım eki: kitap-lık, simit-çi, Ankara-lı. Çekim eki: ev-ler, okul-da.",
+  "explanation": "Yeni kelime türeten ekler (-lık, -çi, -lı) yapım eki; kelimenin anlamını değiştirmeyen ekler (-ler, -da) çekim ekidir."
+ },
+ {
+  "questionId": "boss-a05-t2-14",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Karşılaştırma",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 98",
+  "difficulty": "orta",
+  "group": "t2",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede karşılaştırma ifadesi kullanılmıştır?",
+  "data": {
+   "options": [
+    "Bu yol öncekinden daha uzundu.",
+    "Yol çok uzundu.",
+    "Yolda saatlerce yürüdük."
+   ]
+  },
+  "textPlain": "Hangi cümlede karşılaştırma ifadesi kullanılmıştır? Seçenekler: Bu yol öncekinden daha uzundu. / Yol çok uzundu. / Yolda saatlerce yürüdük.",
+  "correctAnswer": "Bu yol öncekinden daha uzundu.",
+  "explanation": "“Öncekinden daha uzun” iki yolu karşılaştırır."
+ },
+ {
+  "questionId": "boss-a05-t2-15",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Olay örgüsü",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 74 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre Şerife Bacı yorganını neden sandıkların üstüne örttü?",
+  "data": {
+   "options": [
+    "Cephane ıslanmasın diye",
+    "Kendisi üşüdüğü için",
+    "Kağnıyı süslemek için"
+   ],
+   "passage": "Kış ortasıydı. Köylü kadınlar kağnılarla cephaneyi cepheye taşıyordu. Yollar karla kaplıydı; kağnıların tekerlekleri buz tutmuştu. Şerife Bacı, cephane sandıklarının ıslanmaması için kendi yorganını sandıkların üstüne örttü ve yoluna devam etti."
+  },
+  "textPlain": "Metin: Kış ortasıydı. Köylü kadınlar kağnılarla cephaneyi cepheye taşıyordu. Yollar karla kaplıydı; kağnıların tekerlekleri buz tutmuştu. Şerife Bacı, cephane sandıklarının ıslanmaması için kendi yorganını sandıkların üstüne örttü ve yoluna devam etti. Soru: Yukarıdaki metne göre Şerife Bacı yorganını neden sandıkların üstüne örttü? Seçenekler: Cephane ıslanmasın diye / Kendisi üşüdüğü için / Kağnıyı süslemek için",
+  "correctAnswer": "Cephane ıslanmasın diye",
+  "explanation": "Metinde yorganın, cephane sandıkları ıslanmasın diye örtüldüğü açıkça söylenir."
+ },
+ {
+  "questionId": "boss-a05-t2-16",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Hikâye unsurları",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 74",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde olayların geçtiği zaman hangisidir?",
+  "data": {
+   "options": [
+    "Kış mevsimi",
+    "Yaz mevsimi",
+    "İlkbahar"
+   ],
+   "passage": "Kış ortasıydı. Köylü kadınlar kağnılarla cephaneyi cepheye taşıyordu. Yollar karla kaplıydı; kağnıların tekerlekleri buz tutmuştu. Şerife Bacı, cephane sandıklarının ıslanmaması için kendi yorganını sandıkların üstüne örttü ve yoluna devam etti."
+  },
+  "textPlain": "Metin: Kış ortasıydı. Köylü kadınlar kağnılarla cephaneyi cepheye taşıyordu. Yollar karla kaplıydı; kağnıların tekerlekleri buz tutmuştu. Şerife Bacı, cephane sandıklarının ıslanmaması için kendi yorganını sandıkların üstüne örttü ve yoluna devam etti. Soru: Yukarıdaki metinde olayların geçtiği zaman hangisidir? Seçenekler: Kış mevsimi / Yaz mevsimi / İlkbahar",
+  "correctAnswer": "Kış mevsimi",
+  "explanation": "Metin “Kış ortasıydı.” cümlesiyle başlar; yollar karla kaplıdır."
+ },
+ {
+  "questionId": "boss-a05-t2-17",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Özetleme",
+  "outcome": "Okuma, dinleme ve yazma stratejilerini kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 103",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir metni özetlerken hangisi yapılmalıdır?",
+  "data": {
+   "options": [
+    "Ana düşünce ve önemli olaylar kısaca yazılmalıdır.",
+    "Bütün ayrıntılar aynen yazılmalıdır.",
+    "Metne yeni olaylar eklenmelidir."
+   ]
+  },
+  "textPlain": "Bir metni özetlerken hangisi yapılmalıdır? Seçenekler: Ana düşünce ve önemli olaylar kısaca yazılmalıdır. / Bütün ayrıntılar aynen yazılmalıdır. / Metne yeni olaylar eklenmelidir.",
+  "correctAnswer": "Ana düşünce ve önemli olaylar kısaca yazılmalıdır.",
+  "explanation": "Özet, metnin ana düşüncesini ve önemli olaylarını kısaca ve kendi cümlelerimizle anlatır."
+ },
+ {
+  "questionId": "boss-a05-t2-18",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Ek sırası",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 95",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Kitaplıklarımızda” kelimesinde kökten sonra gelen İLK ek hangisidir?",
+  "data": {
+   "options": [
+    "-lık",
+    "-lar",
+    "-da"
+   ]
+  },
+  "textPlain": "“Kitaplıklarımızda” kelimesinde kökten sonra gelen İLK ek hangisidir? Seçenekler: -lık / -lar / -da",
+  "correctAnswer": "-lık",
+  "explanation": "kitap + -lık (yapım) + -lar + -ımız + -da (çekim): kökten hemen sonra yapım eki gelir."
+ },
+ {
+  "questionId": "boss-a05-t2-19",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Benzetme",
+  "outcome": "Söz sanatlarını belirleyip anlama katkısını açıklayabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 82",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Askerler aslan gibi savaştı.” cümlesinde askerler aslana hangi yönden benzetilmiştir?",
+  "data": {
+   "options": [
+    "Cesaret ve güç",
+    "Renk",
+    "Boy"
+   ]
+  },
+  "textPlain": "“Askerler aslan gibi savaştı.” cümlesinde askerler aslana hangi yönden benzetilmiştir? Seçenekler: Cesaret ve güç / Renk / Boy",
+  "correctAnswer": "Cesaret ve güç",
+  "explanation": "“Aslan gibi” benzetmesi cesaret ve gücü anlatır."
+ },
+ {
+  "questionId": "boss-a05-t2-20",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "2. Tema: Bağımsızlık Yolu",
+  "topic": "Kesme işareti",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 2. Tema “Bağımsızlık Yolu”, s. 88",
+  "difficulty": "zor",
+  "group": "t2",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlenin yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Atatürk’ün Samsun’a çıkışı 19 Mayıs 1919’dadır.",
+    "Atatürkün Samsuna çıkışı 19 Mayıs 1919’dadır.",
+    "Atatürk’ün Samsun’a çıkışı 19 mayıs 1919’dadır."
+   ]
+  },
+  "textPlain": "Hangi cümlenin yazımı doğrudur? Seçenekler: Atatürk’ün Samsun’a çıkışı 19 Mayıs 1919’dadır. / Atatürkün Samsuna çıkışı 19 Mayıs 1919’dadır. / Atatürk’ün Samsun’a çıkışı 19 mayıs 1919’dadır.",
+  "correctAnswer": "Atatürk’ün Samsun’a çıkışı 19 Mayıs 1919’dadır.",
+  "explanation": "Özel isimlere gelen ekler kesmeyle ayrılır; belirli tarihlerde ay adı büyük harfle yazılır."
+ }
+]
