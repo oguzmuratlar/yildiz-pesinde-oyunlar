@@ -11,7 +11,7 @@
 | Oyun türü | Macera canavarı (bölüm sonu karma tekrar) |
 | Soru sayısı | 12 — Fen 5 (bir üniteden 3, diğerinden 2; her denemede rastgele), Matematik 4 (2 + 2), Türkçe 3; 4 kolay → 4 orta → 4 zor; art arda aynı ders gelmez |
 | Yıldız | 10–12 doğru 3★ (canavar yenilir) · 8–9 2★ · 6–7 1★ · 0–5 0★ |
-| Havuz | 45 görev |
+| Havuz | 100 görev |
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
@@ -24,23 +24,23 @@ Paslı Çapa Golemi batık gemiyi 10 halkalı paslı bir zincirle bekliyor. Her 
 ## Görev türleri
 | Tür | Mekanik | Adet |
 |---|---|---|
-| choice | 3 seçenekten birini seç (şekil veya metin olabilir) | 26 |
-| num | Rakam kadranlarını ▲▼ ile ayarla | 6 |
-| sort2 | Kartı seç, iki kutudan birine koy | 4 |
-| order | Kartlara sırayla dokunarak diz | 4 |
-| match | Sol satıra sağdaki kartı yerleştir | 3 |
-| tf | Doğru / Yanlış | 2 |
+| choice | 3 seçenekten birini seç (şekil veya metin olabilir) | 58 |
+| num | Rakam kadranlarını ▲▼ ile ayarla | 16 |
+| tf | Doğru / Yanlış | 9 |
+| sort2 | Kartı seç, iki kutudan birine koy | 7 |
+| match | Sol satıra sağdaki kartı yerleştir | 5 |
+| order | Kartlara sırayla dokunarak diz | 5 |
 
 Her destede en az 4 farklı tür bulunur; seçmeli görev sayısı sınırlanır. Kesirler ekranda alt alta gösterilir, kayıtta düz metin yazılır (“3/8”, “2 tam 3/4”).
 
 ## Soru havuzu
 | Ünite/Tema | Adet | Konular |
 |---|---|---|
-| Fen Ü3 Canlıların Yapısına Yolculuk | 9 | Bitki ve hayvan hücresi, Eklemler, Hücreden organizmaya, Kas çeşitleri, Kıkırdak, Mikroskop, Mikroskop kullanımı, Organellerin görevleri |
-| Fen Ü4 Işığın Dünyası | 9 | Gölge büyüklüğü, Gölgenin şekli, Işık geçirgenliği, Işık geçirgenliğinin kullanımı, Işığın yayılması, Kalınlığın etkisi, Tam gölge |
-| Mat T3 Geometrik Nicelikler | 9 | Alan, Alan birimi, Birim kare, Birleşik şekil, Eksik kenar, En büyük alan, Karenin çevresi, Yüzey kaplama, Çevre uzunluğu |
-| Mat T4 Kesirler | 9 | Birim kesir, Denk kesir, Farklı gösterimler, Karşılaştırma, Kesir modeli, Ondalık gösterim, Sadeleştirme, Tam sayılı kesir, Yüzde |
-| Türkçe T3 Duygularımı Tanıyorum | 9 | Amaç bildiren ifadeler, Deyim, Duygu bildiren ifadeler, Düşünceyi geliştirme yolları, Hikâye unsurları, Somut ve soyut isimler, Topluluk ismi, Uzun çizgi, Ünlem |
+| Fen Ü3 Canlıların Yapısına Yolculuk | 20 | Bitki ve hayvan hücresi, Destek ve hareket, Eklemler, Hücre, Hücreden organizmaya, Kas çeşitleri, Kıkırdak, Mikroskop, Mikroskop kullanımı, Organellerin görevleri |
+| Fen Ü4 Işığın Dünyası | 20 | Gölge büyüklüğü, Gölgenin şekli, Görme, Işık geçirgenliği, Işık geçirgenliğinin kullanımı, Işık kaynakları, Işığın yayılması, Kalınlığın etkisi, Tam gölge |
+| Mat T3 Geometrik Nicelikler | 20 | Alan, Alan birimi, Alandan çevre, Birim kare, Birleşik şekil, Eksik kenar, En büyük alan, Karenin çevresi, Problem, Yüzey kaplama, Çevre uzunluğu, Çevre ve alan |
+| Mat T4 Kesirler | 20 | Bir çokluğun kesri, Birim kesir, Birim kesirleri sıralama, Denk kesir, Farklı gösterimler, Kalan kısım, Karşılaştırma, Kesir modeli, Ondalık gösterim, Sadeleştirme, Tam sayılı kesir, Yüzde |
+| Türkçe T3 Duygularımı Tanıyorum | 20 | Amaç bildiren ifadeler, Deyim, Duygu bildiren ifadeler, Düşünceyi geliştirme yolları, Hikâye unsurları, Somut ve soyut isimler, Topluluk ismi, Uzun çizgi, Ünlem |
 
 Sorular oyunlarda kullanılanların kopyası değildir; aynı kazanımlara göre yeniden yazılmıştır. Paragraflar özgündür ve soruda verilir.
 
