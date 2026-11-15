@@ -1,0 +1,1303 @@
+[
+ {
+  "questionId": "boss-a02-f3-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Mikroskop",
+  "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Mikroskopta incelediğimiz cisme gözümüzü yaklaştırarak baktığımız mercek hangisidir?",
+  "data": {
+   "options": [
+    "Oküler",
+    "Objektif",
+    "Tabla"
+   ]
+  },
+  "textPlain": "Mikroskopta gözümüzü yaklaştırdığımız mercek hangisidir? Seçenekler: Oküler / Objektif / Tabla",
+  "correctAnswer": "Oküler",
+  "explanation": "Göz, mikroskobun üst kısmındaki oküler merceğe yaklaştırılır. Objektif mercekler preparata yakın olan merceklerdir; tabla ise preparatın konduğu yerdir."
+ },
+ {
+  "questionId": "boss-a02-f3-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Bitki ve hayvan hücresi",
+  "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Her yapıyı doğru kutuya koy.",
+  "data": {
+   "bins": [
+    "Yalnız bitki hücresinde",
+    "Her iki hücrede de"
+   ],
+   "items": [
+    [
+     "Hücre duvarı",
+     0
+    ],
+    [
+     "Kloroplast",
+     0
+    ],
+    [
+     "Hücre zarı",
+     1
+    ],
+    [
+     "Çekirdek",
+     1
+    ],
+    [
+     "Mitokondri",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Yapıları ayır (yalnız bitki hücresinde / her iki hücrede): Hücre duvarı, Kloroplast, Hücre zarı, Çekirdek, Mitokondri.",
+  "correctAnswer": "Yalnız bitki hücresinde: hücre duvarı, kloroplast. Her ikisinde: hücre zarı, çekirdek, mitokondri.",
+  "explanation": "Hücre duvarı ve kloroplast bitki hücresine özgüdür. Hücre zarı, çekirdek ve mitokondri hem bitki hem hayvan hücresinde bulunur."
+ },
+ {
+  "questionId": "boss-a02-f3-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Eklemler",
+  "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kafatası kemikleri birbirine oynamaz eklemlerle bağlanmıştır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kafatası kemikleri birbirine oynamaz eklemlerle bağlanmıştır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Kafatası kemikleri arasındaki eklemler hareket etmez; bu eklemlere oynamaz eklem denir."
+ },
+ {
+  "questionId": "boss-a02-f3-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Organellerin görevleri",
+  "outcome": "Hücrenin yapı ve organellerinin görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 103, 107, 109",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her yapıyı göreviyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Çekirdek",
+     "Hücredeki olayları yönetir"
+    ],
+    [
+     "Mitokondri",
+     "Hücrenin ihtiyacı olan enerjiyi üretir"
+    ],
+    [
+     "Ribozom",
+     "Hücrenin ihtiyacı olan proteini üretir"
+    ]
+   ]
+  },
+  "textPlain": "Eşleştir: Çekirdek, Mitokondri, Ribozom — olayları yönetir, enerji üretir, protein üretir.",
+  "correctAnswer": "Çekirdek = olayları yönetir; Mitokondri = enerji üretir; Ribozom = protein üretir",
+  "explanation": "Çekirdek hücredeki olayları yönetir, mitokondri enerji, ribozom ise protein üretir."
+ },
+ {
+  "questionId": "boss-a02-f3-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Hücreden organizmaya",
+  "outcome": "Hücre, doku, organ, sistem ve organizma kavramlarını açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 111–115",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Yapıları basitten karmaşığa doğru sırala.",
+  "data": {
+   "items": [
+    "Hücre",
+    "Doku",
+    "Organ",
+    "Sistem",
+    "Organizma"
+   ]
+  },
+  "textPlain": "Basitten karmaşığa sırala: Organ, Hücre, Organizma, Doku, Sistem.",
+  "correctAnswer": "Hücre → Doku → Organ → Sistem → Organizma",
+  "explanation": "Benzer hücreler dokuyu, dokular organı, organlar sistemi, sistemler de organizmayı oluşturur."
+ },
+ {
+  "questionId": "boss-a02-f3-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Kas çeşitleri",
+  "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Yalnızca kalpte bulunan ve ömür boyu durmadan çalışan kas hangisidir?",
+  "data": {
+   "options": [
+    "Kalp kası",
+    "Çizgili kas",
+    "Düz kas"
+   ]
+  },
+  "textPlain": "Yalnızca kalpte bulunan ve durmadan çalışan kas hangisidir? Seçenekler: Kalp kası / Çizgili kas / Düz kas",
+  "correctAnswer": "Kalp kası",
+  "explanation": "Kalp kası yalnızca kalpte bulunur ve sürekli çalışır. Çizgili kaslar iskeleti sarar, düz kaslar mide ve bağırsak gibi iç organlardadır."
+ },
+ {
+  "questionId": "boss-a02-f3-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Mikroskop kullanımı",
+  "outcome": "Mikroskobu doğru kullanarak hücreleri gözlemler.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 99",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Soğan zarı preparatını incelemek için adımları doğru sıraya diz.",
+  "data": {
+   "items": [
+    "Işık kaynağını aç",
+    "Preparatı tablaya yerleştir",
+    "En küçük büyütmeli objektifi seç",
+    "Kaba ayar vidasıyla görüntüyü bul"
+   ]
+  },
+  "textPlain": "Mikroskop adımlarını sırala: Kaba ayar vidasıyla görüntüyü bul; Işık kaynağını aç; En küçük büyütmeli objektifi seç; Preparatı tablaya yerleştir.",
+  "correctAnswer": "Işık kaynağını aç → Preparatı tablaya yerleştir → En küçük büyütmeli objektifi seç → Kaba ayar vidasıyla görüntüyü bul",
+  "explanation": "Önce ışık açılır ve preparat tablaya konur; gözleme en küçük büyütmeli objektifle başlanır, görüntü kaba ayarla bulunup ince ayarla netleştirilir."
+ },
+ {
+  "questionId": "boss-a02-f3-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Bitki ve hayvan hücresi",
+  "outcome": "Bitki ve hayvan hücrelerini temel kısımları ve özellikleri açısından karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 104–109",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Mikroskopta incelenen bir hücrede hücre duvarı ve kloroplast görülüyor. Bu hücre için hangisi söylenebilir?",
+  "data": {
+   "options": [
+    "Bir bitki hücresidir.",
+    "Bir hayvan hücresidir.",
+    "Bir kemik hücresidir."
+   ]
+  },
+  "textPlain": "Hücre duvarı ve kloroplast görülen hücre için hangisi söylenebilir? Seçenekler: Bitki hücresidir / Hayvan hücresidir / Kemik hücresidir",
+  "correctAnswer": "Bir bitki hücresidir.",
+  "explanation": "Hücre duvarı ve kloroplast yalnızca bitki hücresinde bulunur; hayvan hücresinde (kemik hücresi de bir hayvan hücresidir) bulunmaz."
+ },
+ {
+  "questionId": "boss-a02-f3-09",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlıların Yapısına Yolculuk",
+  "topic": "Kıkırdak",
+  "outcome": "Destek ve hareket sistemine ait yapıları sınıflandırır; sistemin sağlığı için yapılması gerekenlerle ilgili bilgi toplar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 3. Ünite “Canlıların Yapısına Yolculuk”, s. 121–123",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Burun, kulak kepçesi ve uzun kemiklerin uçlarında bulunan, kemikten yumuşak ve esnek yapı hangisidir?",
+  "data": {
+   "options": [
+    "Kıkırdak",
+    "Kemik iliği",
+    "Düz kas"
+   ]
+  },
+  "textPlain": "Burun, kulak kepçesi ve kemik uçlarında bulunan yumuşak, esnek yapı hangisidir? Seçenekler: Kıkırdak / Kemik iliği / Düz kas",
+  "correctAnswer": "Kıkırdak",
+  "explanation": "Kıkırdak kemikten daha yumuşak ve esnektir; burun, kulak kepçesi, soluk borusu ve kemik uçlarında bulunur, kemik uçlarında sürtünmeyi önler."
+ },
+ {
+  "questionId": "boss-a02-f4-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Işık geçirgenliği",
+  "outcome": "Maddeleri ışığı geçirme durumlarına göre sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 25–26",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Maddeleri ışığı geçirme durumlarına göre ayır.",
+  "data": {
+   "bins": [
+    "Saydam",
+    "Yarı saydam"
+   ],
+   "items": [
+    [
+     "Pencere camı",
+     0
+    ],
+    [
+     "Buzlu cam",
+     1
+    ],
+    [
+     "Hava",
+     0
+    ],
+    [
+     "Yağlı kâğıt",
+     1
+    ],
+    [
+     "Temiz su",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Maddeleri saydam / yarı saydam diye ayır: Pencere camı, Buzlu cam, Hava, Yağlı kâğıt, Temiz su.",
+  "correctAnswer": "Saydam: pencere camı, hava, temiz su. Yarı saydam: buzlu cam, yağlı kâğıt.",
+  "explanation": "Saydam maddeler ışığın çoğunu geçirir ve arkaları net görünür; yarı saydam maddeler ışığın bir kısmını geçirir, arkaları bulanık görünür."
+ },
+ {
+  "questionId": "boss-a02-f4-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Işığın yayılması",
+  "outcome": "Bir kaynaktan çıkan ışığın her yöne doğrusal bir yol izlediğini gözlemler.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 23",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir ışık kaynağından çıkan ışık nasıl yayılır?",
+  "data": {
+   "options": [
+    "Her yöne doğrusal olarak",
+    "Yalnızca aşağıya doğru",
+    "Kıvrılarak tek bir yöne"
+   ]
+  },
+  "textPlain": "Işık kaynağından çıkan ışık nasıl yayılır? Seçenekler: Her yöne doğrusal / Yalnızca aşağıya / Kıvrılarak tek yöne",
+  "correctAnswer": "Her yöne doğrusal olarak",
+  "explanation": "Işık, kaynaktan çıktıktan sonra her yöne doğrusal bir yol izleyerek yayılır."
+ },
+ {
+  "questionId": "boss-a02-f4-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Tam gölge",
+  "outcome": "Tam gölgenin nasıl oluştuğunu gözlemleyerek açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 36, 39",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Tam gölge, ışığı geçirmeyen (saydam olmayan) bir cismin arkasında oluşur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Tam gölge, ışığı geçirmeyen bir cismin arkasında oluşur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Saydam olmayan cisim ışığın yolunu keser; arkasında ışık ulaşmayan karanlık bölge, yani tam gölge oluşur."
+ },
+ {
+  "questionId": "boss-a02-f4-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Işığın yayılması",
+  "outcome": "Bir kaynaktan çıkan ışığın her yöne doğrusal bir yol izlediğini gözlemler.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 23",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Delikleri aynı hizada olan üç kartonun arkasındaki mum, deliklerden bakınca görünüyor. Ortadaki karton biraz kaydırılınca mum görünmüyor. Bu deney neyi gösterir?",
+  "data": {
+   "options": [
+    "Işığın doğrusal bir yol izlediğini",
+    "Işığın kartonlardan geçebildiğini",
+    "Mumun ışığının zamanla azaldığını"
+   ]
+  },
+  "textPlain": "Hizalı deliklerden görünen mum, ortadaki karton kayınca görünmüyor. Deney neyi gösterir? Seçenekler: Işığın doğrusal yol izlediğini / Kartonlardan geçtiğini / Mum ışığının azaldığını",
+  "correctAnswer": "Işığın doğrusal bir yol izlediğini",
+  "explanation": "Delikler aynı doğru üzerinde değilken ışık gözümüze ulaşamaz; çünkü ışık doğrusal bir yol izler."
+ },
+ {
+  "questionId": "boss-a02-f4-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Gölge büyüklüğü",
+  "outcome": "Gölge büyüklüğünün cismin büyüklüğüne ve ışık kaynağı ile cisim arasındaki uzaklığa bağlı olduğunu açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 37, 41–42",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Cisim ve perde sabit. El feneri farklı uzaklıklara konuyor. Oluşan gölgeleri BÜYÜKTEN KÜÇÜĞE sırala.",
+  "data": {
+   "items": [
+    "Fener cisimden 10 cm uzakta",
+    "Fener cisimden 20 cm uzakta",
+    "Fener cisimden 40 cm uzakta"
+   ]
+  },
+  "textPlain": "Cisim ve perde sabit; fener cisimden 20, 40 ve 10 cm uzakta. Gölgeleri büyükten küçüğe sırala.",
+  "correctAnswer": "10 cm → 20 cm → 40 cm",
+  "explanation": "Işık kaynağı cisme yaklaştıkça gölge büyür, uzaklaştıkça küçülür."
+ },
+ {
+  "questionId": "boss-a02-f4-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Işık geçirgenliğinin kullanımı",
+  "outcome": "Maddelerin ışık geçirgenliğinin günlük yaşamdaki kullanımına örnekler verir.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 29, 46, 48–49",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Banyo pencerelerinde buzlu (yarı saydam) cam kullanılmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Işığı geçirip içerinin net görünmesini engellemesi",
+    "Işığı hiç geçirmemesi",
+    "Odayı tamamen karanlık yapması"
+   ]
+  },
+  "textPlain": "Banyo penceresinde buzlu cam kullanılmasının nedeni nedir? Seçenekler: Işığı geçirip içerinin net görünmesini engeller / Işığı hiç geçirmez / Odayı karanlık yapar",
+  "correctAnswer": "Işığı geçirip içerinin net görünmesini engellemesi",
+  "explanation": "Yarı saydam buzlu cam ışığın bir kısmını geçirir; içerisi aydınlanır ama dışarıdan net görünmez."
+ },
+ {
+  "questionId": "boss-a02-f4-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Gölgenin şekli",
+  "outcome": "Tam gölgenin nasıl oluştuğunu gözlemleyerek açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 36, 39",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cismin perdeye düşen gölgesi, cisim nasıl döndürülürse döndürülsün hep daire şeklindedir?",
+  "data": {
+   "options": [
+    "Top",
+    "Kitap",
+    "Silindir biçimli bardak"
+   ]
+  },
+  "textPlain": "Hangi cismin gölgesi her konumda daire şeklindedir? Seçenekler: Top / Kitap / Silindir biçimli bardak",
+  "correctAnswer": "Top",
+  "explanation": "Küre biçimli topun her yönden görünüşü dairedir; kitap ve bardağın gölgesi konumlarına göre farklı şekiller alır."
+ },
+ {
+  "questionId": "boss-a02-f4-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Kalınlığın etkisi",
+  "outcome": "Maddelerin ışık geçirgenliğinin günlük yaşamdaki kullanımına örnekler verir.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 29, 46, 48–49",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aynı yarı saydam kâğıttan yapraklar el fenerinin önüne üst üste eklendikçe ne olur?",
+  "data": {
+   "options": [
+    "Geçen ışık miktarı azalır.",
+    "Geçen ışık miktarı artar.",
+    "Geçen ışık miktarı değişmez."
+   ]
+  },
+  "textPlain": "Yarı saydam kâğıt yaprakları üst üste eklendikçe ne olur? Seçenekler: Geçen ışık azalır / artar / değişmez",
+  "correctAnswer": "Geçen ışık miktarı azalır.",
+  "explanation": "Maddenin kalınlığı arttıkça içinden geçen ışık miktarı azalır."
+ },
+ {
+  "questionId": "boss-a02-f4-09",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Dünyası",
+  "topic": "Gölge büyüklüğü",
+  "outcome": "Gölge büyüklüğünün cismin büyüklüğüne ve ışık kaynağı ile cisim arasındaki uzaklığa bağlı olduğunu açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 4. Ünite “Işığın Dünyası”, s. 37, 41–42",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Işık kaynağı ve perde yerinde duruyor. Cisim, kaynaktan uzaklaştırılıp perdeye yaklaştırılırsa gölgesi nasıl değişir?",
+  "data": {
+   "options": [
+    "Küçülür",
+    "Büyür",
+    "Değişmez"
+   ]
+  },
+  "textPlain": "Kaynak ve perde sabitken cisim perdeye yaklaştırılırsa gölge nasıl değişir? Seçenekler: Küçülür / Büyür / Değişmez",
+  "correctAnswer": "Küçülür",
+  "explanation": "Cisim ışık kaynağından uzaklaşıp perdeye yaklaştıkça gölgesi küçülür."
+ },
+ {
+  "questionId": "boss-a02-m3-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Çevre uzunluğu",
+  "outcome": "Dikdörtgen ve karenin çevre uzunluğunu hesaplayabilme ve yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 142 (şekil ekranda çizilir)",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Şekildeki dikdörtgenin çevre uzunluğu kaç cm’dir?",
+  "data": {
+   "answer": 26,
+   "digits": 2,
+   "unit": "cm",
+   "fig": {
+    "k": "rect",
+    "w": 8,
+    "h": 5,
+    "u": "cm"
+   }
+  },
+  "textPlain": "[Şekil: kenarları 8 cm ve 5 cm olan dikdörtgen] Çevre uzunluğu kaç cm’dir?",
+  "correctAnswer": "26 cm",
+  "explanation": "Çevre, bütün kenarların toplamıdır: 8 + 5 + 8 + 5 = 26 cm."
+ },
+ {
+  "questionId": "boss-a02-m3-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Birim kare",
+  "outcome": "Dikdörtgenin alanını birim kareler ve ardışık kenar uzunlukları ile hesaplayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 146 (şekil ekranda çizilir)",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Şekildeki dikdörtgen kaç birim kareden oluşur?",
+  "data": {
+   "answer": 24,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "grid",
+    "w": 6,
+    "h": 4
+   }
+  },
+  "textPlain": "[Şekil: 6 sütun ve 4 satır birim kareden oluşan dikdörtgen] Kaç birim kareden oluşur?",
+  "correctAnswer": "24",
+  "explanation": "Her satırda 6 birim kare, 4 satır var: 6 × 4 = 24 birim kare."
+ },
+ {
+  "questionId": "boss-a02-m3-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Karenin çevresi",
+  "outcome": "Dikdörtgen ve karenin çevre uzunluğunu hesaplayabilme ve yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 143",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir kenarı 7 cm olan karenin çevre uzunluğu kaç cm’dir?",
+  "data": {
+   "options": [
+    "28",
+    "14",
+    "49"
+   ]
+  },
+  "textPlain": "Bir kenarı 7 cm olan karenin çevresi kaç cm’dir? Seçenekler: 28 / 14 / 49",
+  "correctAnswer": "28",
+  "explanation": "Karenin dört kenarı eşittir: 4 × 7 = 28 cm. (49, alanın değeridir.)"
+ },
+ {
+  "questionId": "boss-a02-m3-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Eksik kenar",
+  "outcome": "Dikdörtgen ve karenin çevre uzunluğunu hesaplayabilme ve yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 142",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Çevre uzunluğu 30 cm olan bir dikdörtgenin uzun kenarı 9 cm’dir. Kısa kenarı kaç cm’dir?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Çevresi 30 cm, uzun kenarı 9 cm olan dikdörtgenin kısa kenarı kaç cm’dir?",
+  "correctAnswer": "6 cm",
+  "explanation": "İki kenarın toplamı çevrenin yarısıdır: 30 ÷ 2 = 15; 15 − 9 = 6 cm."
+ },
+ {
+  "questionId": "boss-a02-m3-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Alan",
+  "outcome": "Dikdörtgenin alanını birim kareler ve ardışık kenar uzunlukları ile hesaplayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 146",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Kenar uzunlukları 12 m ve 7 m olan dikdörtgen biçimli bahçenin alanı kaç m²’dir?",
+  "data": {
+   "answer": 84,
+   "digits": 2,
+   "unit": "m²"
+  },
+  "textPlain": "Kenarları 12 m ve 7 m olan dikdörtgen bahçenin alanı kaç m²’dir?",
+  "correctAnswer": "84 m²",
+  "explanation": "Dikdörtgenin alanı ardışık iki kenarın çarpımıdır: 12 × 7 = 84 m²."
+ },
+ {
+  "questionId": "boss-a02-m3-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Alan birimi",
+  "outcome": "Dikdörtgenin alanını birim kareler ve ardışık kenar uzunlukları ile hesaplayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 138",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her yüzeyi ölçmek için en uygun alan birimiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Defter kapağı",
+     "cm²"
+    ],
+    [
+     "Sınıfın tabanı",
+     "m²"
+    ],
+    [
+     "Bir şehrin yüzölçümü",
+     "km²"
+    ]
+   ]
+  },
+  "textPlain": "Eşleştir: Defter kapağı, Sınıfın tabanı, Şehrin yüzölçümü — cm², m², km².",
+  "correctAnswer": "Defter kapağı = cm²; Sınıfın tabanı = m²; Şehrin yüzölçümü = km²",
+  "explanation": "Küçük yüzeyler santimetrekare, sınıf gibi yüzeyler metrekare, çok büyük alanlar kilometrekare ile ölçülür."
+ },
+ {
+  "questionId": "boss-a02-m3-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Birleşik şekil",
+  "outcome": "Dikdörtgenin alanını birim kareler ve ardışık kenar uzunlukları ile hesaplayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 147 (şekil ekranda çizilir)",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Şekildeki birim karelerden oluşan şeklin alanı kaç birim karedir?",
+  "data": {
+   "answer": 14,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "cells",
+    "w": 5,
+    "h": 4,
+    "cells": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      2
+     ],
+     [
+      3,
+      2
+     ],
+     [
+      4,
+      2
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      4,
+      3
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Şekil: L biçiminde birleşik şekil; üstte 2×2, altta 5×2 birim kare] Alanı kaç birim karedir?",
+  "correctAnswer": "14",
+  "explanation": "Şekli dikdörtgenlere ayır: üstteki 2 × 2 = 4, alttaki 5 × 2 = 10; toplam 14 birim kare."
+ },
+ {
+  "questionId": "boss-a02-m3-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "En büyük alan",
+  "outcome": "Dikdörtgenlerde çevre uzunluğu ile alan arasındaki ilişkiyi yorumlayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 165",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Kenar uzunlukları doğal sayı olan ve çevresi 16 cm olan dikdörtgenlerden alanı EN BÜYÜK olanın kenarları hangisidir?",
+  "data": {
+   "options": [
+    "4 cm ve 4 cm",
+    "2 cm ve 6 cm",
+    "1 cm ve 7 cm"
+   ]
+  },
+  "textPlain": "Çevresi 16 cm olan dikdörtgenlerden alanı en büyük olanın kenarları? Seçenekler: 4 ve 4 / 2 ve 6 / 1 ve 7",
+  "correctAnswer": "4 cm ve 4 cm",
+  "explanation": "Kenarlar toplamı 8’dir. Alanlar: 4 × 4 = 16, 2 × 6 = 12, 1 × 7 = 7. Kenarlar birbirine yaklaştıkça alan büyür."
+ },
+ {
+  "questionId": "boss-a02-m3-09",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Geometrik Nicelikler",
+  "topic": "Yüzey kaplama",
+  "outcome": "Dikdörtgenin çevre uzunluğu ve alanı ile ilgili gerçek yaşam problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Geometrik Nicelikler”, s. 145",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "num",
+  "prompt": "6 m’ye 4 m’lik odanın tabanı 1 m²’lik karolarla kaplanacak. Karolar 4’lü kutularda satılıyor. Kaç kutu gerekir?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "6 m × 4 m oda 1 m²’lik karolarla kaplanacak, karolar 4’lü kutuda. Kaç kutu gerekir?",
+  "correctAnswer": "6",
+  "explanation": "Oda alanı 6 × 4 = 24 m², yani 24 karo gerekir; 24 ÷ 4 = 6 kutu."
+ },
+ {
+  "questionId": "boss-a02-m4-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Kesir modeli",
+  "outcome": "Kesirleri model, sayı doğrusu, bileşik ve tam sayılı kesir biçiminde temsil edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 17",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Şekilde boyalı kısmı gösteren kesir hangisidir?",
+  "data": {
+   "options": [
+    "{3/8}",
+    "{5/8}",
+    "{3/5}"
+   ],
+   "fig": {
+    "k": "frac",
+    "n": 3,
+    "d": 8
+   }
+  },
+  "textPlain": "[Şekil: 8 eş parçaya bölünmüş şeridin 3 parçası boyalı] Boyalı kısmı gösteren kesir hangisidir? Seçenekler: 3/8 / 5/8 / 3/5",
+  "correctAnswer": "{3/8}",
+  "explanation": "Bütün 8 eş parçaya bölünmüş, 3 parçası boyalıdır: 3/8."
+ },
+ {
+  "questionId": "boss-a02-m4-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Birim kesir",
+  "outcome": "Kesirleri model, sayı doğrusu, bileşik ve tam sayılı kesir biçiminde temsil edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 14",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kesirleri birim kesir olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Birim kesir",
+    "Birim kesir değil"
+   ],
+   "items": [
+    [
+     "{1/4}",
+     0
+    ],
+    [
+     "{2/5}",
+     1
+    ],
+    [
+     "{1/9}",
+     0
+    ],
+    [
+     "{3/3}",
+     1
+    ],
+    [
+     "{1/2}",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kesirleri ayır (birim kesir / değil): 1/4, 2/5, 1/9, 3/3, 1/2.",
+  "correctAnswer": "Birim kesir: 1/4, 1/9, 1/2. Değil: 2/5, 3/3.",
+  "explanation": "Payı 1 olan kesirlere birim kesir denir."
+ },
+ {
+  "questionId": "boss-a02-m4-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Ondalık gösterim",
+  "outcome": "Paydası 10 ve 100 olan kesirleri ondalık gösterimle yazıp okuyabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 24",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "{7/10} kesrinin ondalık gösterimi hangisidir?",
+  "data": {
+   "options": [
+    "0,7",
+    "7,10",
+    "0,07"
+   ]
+  },
+  "textPlain": "7/10 kesrinin ondalık gösterimi hangisidir? Seçenekler: 0,7 / 7,10 / 0,07",
+  "correctAnswer": "0,7",
+  "explanation": "Paydası 10 olan kesir ondalık gösterimde virgülden sonra bir basamakla yazılır: 7/10 = 0,7."
+ },
+ {
+  "questionId": "boss-a02-m4-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Denk kesir",
+  "outcome": "Denk kesirleri genişletme ve sadeleştirme ile oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 14",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "{2/3} kesrine denk olan kesir hangisidir?",
+  "data": {
+   "options": [
+    "{8/12}",
+    "{4/9}",
+    "{3/2}"
+   ]
+  },
+  "textPlain": "2/3 kesrine denk olan kesir hangisidir? Seçenekler: 8/12 / 4/9 / 3/2",
+  "correctAnswer": "{8/12}",
+  "explanation": "2/3’ün payı ve paydası 4 ile genişletilirse 8/12 elde edilir."
+ },
+ {
+  "questionId": "boss-a02-m4-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Yüzde",
+  "outcome": "Kesir, ondalık ve yüzde gösterimleri arasında dönüşüm yapabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 28",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kesri eşit olduğu yüzdeyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "{1/2}",
+     "%50"
+    ],
+    [
+     "{1/4}",
+     "%25"
+    ],
+    [
+     "{3/10}",
+     "%30"
+    ]
+   ]
+  },
+  "textPlain": "Eşleştir: 1/2, 1/4, 3/10 — %50, %25, %30.",
+  "correctAnswer": "1/2 = %50; 1/4 = %25; 3/10 = %30",
+  "explanation": "Kesri paydası 100 olacak biçimde genişlet: 1/2 = 50/100, 1/4 = 25/100, 3/10 = 30/100."
+ },
+ {
+  "questionId": "boss-a02-m4-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Tam sayılı kesir",
+  "outcome": "Kesirleri model, sayı doğrusu, bileşik ve tam sayılı kesir biçiminde temsil edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 18",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "{11/4} bileşik kesrinin tam sayılı kesir olarak yazılışı hangisidir?",
+  "data": {
+   "options": [
+    "2{3/4}",
+    "3{1/4}",
+    "2{1/4}"
+   ]
+  },
+  "textPlain": "11/4 bileşik kesrinin tam sayılı kesir olarak yazılışı? Seçenekler: 2 tam 3/4 / 3 tam 1/4 / 2 tam 1/4",
+  "correctAnswer": "2{3/4}",
+  "explanation": "11’in içinde 2 tane 4 vardır (8), 3 dörtte bir artar: 2 tam 3/4."
+ },
+ {
+  "questionId": "boss-a02-m4-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Farklı gösterimler",
+  "outcome": "Kesirlerin farklı gösterimlerini karşılaştırıp sıralayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 45",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Sayıları küçükten büyüğe doğru sırala.",
+  "data": {
+   "items": [
+    "0,3",
+    "{1/2}",
+    "%65",
+    "0,8"
+   ]
+  },
+  "textPlain": "Küçükten büyüğe sırala: %65, 0,8, 0,3, 1/2.",
+  "correctAnswer": "0,3 → 1/2 → %65 → 0,8",
+  "explanation": "Hepsini aynı gösterime çevir: 0,3 = %30; 1/2 = %50; %65; 0,8 = %80."
+ },
+ {
+  "questionId": "boss-a02-m4-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Sadeleştirme",
+  "outcome": "Denk kesirleri genişletme ve sadeleştirme ile oluşturabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 16",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "{18/24} kesrinin en sade hâli hangisidir?",
+  "data": {
+   "options": [
+    "{3/4}",
+    "{9/12}",
+    "{6/8}"
+   ]
+  },
+  "textPlain": "18/24 kesrinin en sade hâli hangisidir? Seçenekler: 3/4 / 9/12 / 6/8",
+  "correctAnswer": "{3/4}",
+  "explanation": "Pay ve payda 6’ya bölünür: 18 ÷ 6 = 3, 24 ÷ 6 = 4. 9/12 ve 6/8 denktir ama daha da sadeleşir."
+ },
+ {
+  "questionId": "boss-a02-m4-09",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: Sayılar ve Nicelikler (2): Kesirler",
+  "topic": "Karşılaştırma",
+  "outcome": "Kesirlerin farklı gösterimlerini karşılaştırıp sıralayabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 4. Tema “Kesirler”, s. 38",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Üç arkadaş eşit miktarda harçlık aldı. Ece harçlığının {1/4}’ünü, Can %30’unu, Deniz 0,2’sini harcadı. En çok kim harcadı?",
+  "data": {
+   "options": [
+    "Can",
+    "Ece",
+    "Deniz"
+   ]
+  },
+  "textPlain": "Eşit harçlıktan Ece 1/4’ünü, Can %30’unu, Deniz 0,2’sini harcadı. En çok kim harcadı? Seçenekler: Can / Ece / Deniz",
+  "correctAnswer": "Can",
+  "explanation": "Hepsini yüzdeye çevir: 1/4 = %25, %30, 0,2 = %20. En büyüğü %30 olduğundan en çok Can harcadı."
+ },
+ {
+  "questionId": "boss-a02-t3-01",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Somut ve soyut isimler",
+  "outcome": "Okuduğu metindeki isimleri tür özelliklerine göre ayırt eder; isimleri tür özelliklerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 131",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "İsimleri somut ve soyut olarak ayır.",
+  "data": {
+   "bins": [
+    "Somut",
+    "Soyut"
+   ],
+   "items": [
+    [
+     "masa",
+     0
+    ],
+    [
+     "sevgi",
+     1
+    ],
+    [
+     "yağmur",
+     0
+    ],
+    [
+     "korku",
+     1
+    ],
+    [
+     "umut",
+     1
+    ]
+   ]
+  },
+  "textPlain": "İsimleri ayır (somut / soyut): masa, sevgi, yağmur, korku, umut.",
+  "correctAnswer": "Somut: masa, yağmur. Soyut: sevgi, korku, umut.",
+  "explanation": "Duyu organlarıyla algılanan varlıkların adları somut, zihnimizde var olan kavramların adları soyut isimdir."
+ },
+ {
+  "questionId": "boss-a02-t3-02",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Topluluk ismi",
+  "outcome": "Okuduğu metindeki isimleri tür özelliklerine göre ayırt eder; isimleri tür özelliklerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 131",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi topluluk ismidir?",
+  "data": {
+   "options": [
+    "sürü",
+    "kuzular",
+    "kuzu"
+   ]
+  },
+  "textPlain": "Hangisi topluluk ismidir? Seçenekler: sürü / kuzular / kuzu",
+  "correctAnswer": "sürü",
+  "explanation": "Çoğul eki almadığı hâlde birden çok varlığı anlatan isimlere topluluk ismi denir. “Kuzular” çoğul, “kuzu” tekil isimdir."
+ },
+ {
+  "questionId": "boss-a02-t3-03",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Duygu bildiren ifadeler",
+  "outcome": "Duygu (istek, şaşırma, merak, memnuniyet, üzüntü, pişmanlık, küçümseme) ve amaç bildiren ifadeleri anlamına uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 163–164",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Keşke o sözü arkadaşıma söylemeseydim.” cümlesinde hangi duygu vardır?",
+  "data": {
+   "options": [
+    "Pişmanlık",
+    "Merak",
+    "Memnuniyet"
+   ]
+  },
+  "textPlain": "“Keşke o sözü arkadaşıma söylemeseydim.” cümlesinde hangi duygu vardır? Seçenekler: Pişmanlık / Merak / Memnuniyet",
+  "correctAnswer": "Pişmanlık",
+  "explanation": "“Keşke … -seydim” yapısı yapılan bir şeyden duyulan pişmanlığı anlatır."
+ },
+ {
+  "questionId": "boss-a02-t3-04",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Deyim",
+  "outcome": "Metinde geçen kelime ve kelime gruplarının anlamlarını bağlamdan tahmin eder; deyim, atasözü ve kalıp sözlerin anlamını belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 136",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Gözden düşmek” deyimi hangi anlamda kullanılır?",
+  "data": {
+   "options": [
+    "Sevgisini, değerini yitirmek",
+    "Gözleri bozulmak",
+    "Çok uykusu gelmek"
+   ]
+  },
+  "textPlain": "“Gözden düşmek” deyiminin anlamı nedir? Seçenekler: Sevgisini, değerini yitirmek / Gözleri bozulmak / Çok uykusu gelmek",
+  "correctAnswer": "Sevgisini, değerini yitirmek",
+  "explanation": "Deyimler gerçek anlamlarından farklı bir anlam taşır; “gözden düşmek” eskisi kadar sevilmemek, değer görmemek demektir."
+ },
+ {
+  "questionId": "boss-a02-t3-05",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Amaç bildiren ifadeler",
+  "outcome": "Duygu (istek, şaşırma, merak, memnuniyet, üzüntü, pişmanlık, küçümseme) ve amaç bildiren ifadeleri anlamına uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 163–164",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede amaç bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Sınavı kazanmak için her gün düzenli çalışıyor.",
+    "Yağmur yağınca sokaklar ıslandı.",
+    "Kardeşim çok neşeli bir çocuktur."
+   ]
+  },
+  "textPlain": "Hangi cümlede amaç bildiren ifade vardır? Seçenekler: Sınavı kazanmak için her gün çalışıyor. / Yağmur yağınca sokaklar ıslandı. / Kardeşim çok neşeli bir çocuktur.",
+  "correctAnswer": "Sınavı kazanmak için her gün düzenli çalışıyor.",
+  "explanation": "“Kazanmak için” ifadesi çalışmanın amacını bildirir."
+ },
+ {
+  "questionId": "boss-a02-t3-06",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Ünlem",
+  "outcome": "Büyük harflerin ve noktalama işaretlerinin (ünlem, uzun çizgi) kullanıldığı yerleri belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 148",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlenin sonuna ünlem işareti konmalıdır?",
+  "data": {
+   "options": [
+    "Eyvah, otobüsü kaçırdık",
+    "Otobüs saat dokuzda kalkıyor",
+    "Otobüs ne zaman gelecek"
+   ]
+  },
+  "textPlain": "Hangi cümlenin sonuna ünlem konmalıdır? Seçenekler: Eyvah, otobüsü kaçırdık / Otobüs saat dokuzda kalkıyor / Otobüs ne zaman gelecek",
+  "correctAnswer": "Eyvah, otobüsü kaçırdık",
+  "explanation": "Şaşırma, korku, heyecan gibi duyguları anlatan cümlelerin sonuna ünlem işareti konur."
+ },
+ {
+  "questionId": "boss-a02-t3-07",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Uzun çizgi",
+  "outcome": "Büyük harflerin ve noktalama işaretlerinin (ünlem, uzun çizgi) kullanıldığı yerleri belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 148",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Uzun çizgi (—) yazıda hangi amaçla kullanılır?",
+  "data": {
+   "options": [
+    "Karşılıklı konuşmaları göstermek için",
+    "Satır sonunda kelimeyi bölmek için",
+    "Cümlenin bittiğini göstermek için"
+   ]
+  },
+  "textPlain": "Uzun çizgi (—) hangi amaçla kullanılır? Seçenekler: Karşılıklı konuşmaları göstermek / Satır sonunda kelimeyi bölmek / Cümlenin bittiğini göstermek",
+  "correctAnswer": "Karşılıklı konuşmaları göstermek için",
+  "explanation": "Yazıda karşılıklı konuşmalarda konuşan kişinin sözü uzun çizgiyle başlatılır. Satır sonunda kelimeyi bölmek için kısa çizgi kullanılır."
+ },
+ {
+  "questionId": "boss-a02-t3-08",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Hikâye unsurları",
+  "outcome": "Metnin bölümlerini, hikâye unsurlarını, söz sanatlarını ve düşünceyi geliştirme yollarını belirler; metnin anlamını yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 138",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde olayların geçtiği yer (mekân) neresidir?",
+  "data": {
+   "options": [
+    "Dedesinin köydeki bahçesi",
+    "Okulun kütüphanesi",
+    "Şehirdeki apartman dairesi"
+   ],
+   "passage": "Yağmurlu bir sonbahar sabahı Defne, köydeki dedesinin bahçesinde kayıp kedisini arıyordu. Elmaların arasından küçük bir miyavlama duydu. Sesin geldiği yere koştu; kedisi, bahçenin köşesindeki saman yığınının üstünde uyuyordu. Defne’nin içi sevinçle doldu."
+  },
+  "textPlain": "Metin: Yağmurlu bir sonbahar sabahı Defne, köydeki dedesinin bahçesinde kayıp kedisini arıyordu. Elmaların arasından küçük bir miyavlama duydu. Sesin geldiği yere koştu; kedisi, bahçenin köşesindeki saman yığınının üstünde uyuyordu. Defne’nin içi sevinçle doldu. Soru: Olayların geçtiği yer (mekân) neresidir?",
+  "correctAnswer": "Dedesinin köydeki bahçesi",
+  "explanation": "Hikâyede olayın geçtiği yer mekândır. Metne göre Defne kedisini dedesinin köydeki bahçesinde arar ve bulur."
+ },
+ {
+  "questionId": "boss-a02-t3-09",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Duygularımı Tanıyorum",
+  "topic": "Düşünceyi geliştirme yolları",
+  "outcome": "Metnin bölümlerini, hikâye unsurlarını, söz sanatlarını ve düşünceyi geliştirme yollarını belirler; metnin anlamını yorumlar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı, 3. Tema “Duygularımı Tanıyorum”, s. 138",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde düşünceyi geliştirmek için hangi yol kullanılmıştır?",
+  "data": {
+   "options": [
+    "Örneklendirme",
+    "Karşılaştırma",
+    "Tanımlama"
+   ],
+   "passage": "Öfkelendiğimizde bu duyguyu kimseyi incitmeden gösterebiliriz. Örneğin derin bir nefes alıp ona kadar sayabilir, duygumuzu güvendiğimiz bir arkadaşımıza anlatabilir ya da kısa bir yürüyüşe çıkabiliriz."
+  },
+  "textPlain": "Metin: Öfkelendiğimizde bu duyguyu kimseyi incitmeden gösterebiliriz. Örneğin derin bir nefes alıp ona kadar sayabilir, duygumuzu güvendiğimiz bir arkadaşımıza anlatabilir ya da kısa bir yürüyüşe çıkabiliriz. Soru: Hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "correctAnswer": "Örneklendirme",
+  "explanation": "Yazar düşüncesini “örneğin” diyerek somut davranışlarla açıklamıştır; bu örneklendirmedir."
+ }
+]

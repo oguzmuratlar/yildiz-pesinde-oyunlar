@@ -31,6 +31,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Kimya Ligi: Potaya Tepki! | kimya-ligi | 1.0.0 | Fen Bilimleri | 8 | Dikey | `/kimya-ligi/1.0.0/index.html` |
 | Buz & Ateş Laboratuvarı | fen-8-isi-buz-ates-laboratuvari | 1.0.0 | Fen Bilimleri | 8 | Dikey | `/fen-8-isi-buz-ates-laboratuvari/1.0.0/index.html` |
 | Dev Ahtapot (Macera canavarı · Arena 1) | macera-5-dev-ahtapot | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-dev-ahtapot/1.0.0/index.html` |
+| Paslı Çapa Golemi (Macera canavarı · Arena 2) | macera-5-pasli-capa-golemi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-pasli-capa-golemi/1.0.0/index.html` |
 
 ## Uyumluluk
 
