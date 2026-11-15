@@ -38,6 +38,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Dev Bukalemun (Macera canavarı · Arena 6) | macera-6-dev-bukalemun | 1.0.0 | Karışık | 6 | Dikey | `/macera-6-dev-bukalemun/1.0.0/index.html` |
 | Kunduz Kral (Macera canavarı · Arena 7) | macera-6-kunduz-kral | 1.0.0 | Karışık | 6 | Dikey | `/macera-6-kunduz-kral/1.0.0/index.html` |
 | Kum Fırtınası Akrebi (Macera canavarı · Arena 8) | macera-6-kum-firtinasi-akrebi | 1.0.0 | Karışık | 6 | Dikey | `/macera-6-kum-firtinasi-akrebi/1.0.0/index.html` |
+| Taş Dev (Macera canavarı · Arena 9) | macera-7-tas-dev | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-tas-dev/1.0.0/index.html` |
 
 ## Uyumluluk
 
