@@ -1,0 +1,1708 @@
+[
+ {
+  "questionId": "boss-a04-f7-01",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Atık kutuları",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Boş bir gazete hangi geri dönüşüm kutusuna atılmalıdır?",
+  "data": {
+   "options": [
+    "Kâğıt",
+    "Cam",
+    "Metal"
+   ]
+  },
+  "textPlain": "Boş bir gazete hangi geri dönüşüm kutusuna atılmalıdır? Seçenekler: Kâğıt / Cam / Metal",
+  "correctAnswer": "Kâğıt",
+  "explanation": "Gazete, defter, karton gibi atıklar kâğıt toplama kutusuna atılır."
+ },
+ {
+  "questionId": "boss-a04-f7-02",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Atık kutuları",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Her atığı doğru kutuya koy.",
+  "data": {
+   "bins": [
+    "Plastik",
+    "Cam"
+   ],
+   "items": [
+    [
+     "Su şişesi (pet)",
+     0
+    ],
+    [
+     "Reçel kavanozu",
+     1
+    ],
+    [
+     "Deterjan bidonu",
+     0
+    ],
+    [
+     "Kırılmamış cam şişe",
+     1
+    ],
+    [
+     "Plastik kova",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Her atığı doğru kutuya koy. (Plastik / Cam) Kartlar: Su şişesi (pet); Reçel kavanozu; Deterjan bidonu; Kırılmamış cam şişe; Plastik kova.",
+  "correctAnswer": "Plastik: Su şişesi (pet), Deterjan bidonu, Plastik kova. Cam: Reçel kavanozu, Kırılmamış cam şişe.",
+  "explanation": "Pet şişe, bidon ve kova plastik kutusuna; kırılmamış cam şişe ve kavanoz cam kutusuna atılır."
+ },
+ {
+  "questionId": "boss-a04-f7-03",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Atık pil",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kullanılmış piller nereye atılmalıdır?",
+  "data": {
+   "options": [
+    "Atık pil toplama kutusuna",
+    "Kâğıt kutusuna",
+    "Çöp kutusuna"
+   ]
+  },
+  "textPlain": "Kullanılmış piller nereye atılmalıdır? Seçenekler: Atık pil toplama kutusuna / Kâğıt kutusuna / Çöp kutusuna",
+  "correctAnswer": "Atık pil toplama kutusuna",
+  "explanation": "Piller doğaya zarar veren maddeler içerir; atık pil toplama kutularına atılmalıdır."
+ },
+ {
+  "questionId": "boss-a04-f7-04",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Geri dönüşüm",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kırılmamış cam şişeler geri dönüştürülebilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kırılmamış cam şişeler geri dönüştürülebilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Cam şişe ve kavanozlar geri dönüştürülebilen evsel atıklardır."
+ },
+ {
+  "questionId": "boss-a04-f7-05",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Sıfır atık",
+  "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi atık oluşmasını önleyen bir davranıştır?",
+  "data": {
+   "options": [
+    "Alışverişe bez torbayla gitmek",
+    "Her alışverişte yeni poşet almak",
+    "Tek kullanımlık bardak kullanmak"
+   ]
+  },
+  "textPlain": "Hangisi atık oluşmasını önleyen bir davranıştır? Seçenekler: Alışverişe bez torbayla gitmek / Her alışverişte yeni poşet almak / Tek kullanımlık bardak kullanmak",
+  "correctAnswer": "Alışverişe bez torbayla gitmek",
+  "explanation": "Sıfır atığın ilk adımı atık oluşumunu önlemektir; bez torba tekrar tekrar kullanılır."
+ },
+ {
+  "questionId": "boss-a04-f7-06",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Yeniden kullanım",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Boş bir reçel kavanozunu yıkayıp kalem kutusu olarak kullanmak hangisine örnektir?",
+  "data": {
+   "options": [
+    "Yeniden kullanım",
+    "Geri dönüşüm",
+    "Kompost"
+   ]
+  },
+  "textPlain": "Boş bir reçel kavanozunu yıkayıp kalem kutusu olarak kullanmak hangisine örnektir? Seçenekler: Yeniden kullanım / Geri dönüşüm / Kompost",
+  "correctAnswer": "Yeniden kullanım",
+  "explanation": "Bir eşyayı işlemden geçirmeden yeniden kullanmak yeniden kullanımdır."
+ },
+ {
+  "questionId": "boss-a04-f7-07",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Doğal kaynaklar",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kâğıt geri dönüştürülürse daha az ağaç kesilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kâğıt geri dönüştürülürse daha az ağaç kesilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Geri dönüşüm ham madde ihtiyacını azaltır; kâğıt için daha az ağaç kesilir."
+ },
+ {
+  "questionId": "boss-a04-f7-08",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Geri dönüşüm süreci",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Geri dönüşüm sürecinin adımlarını sırala.",
+  "data": {
+   "items": [
+    "Atıklar toplanır",
+    "Türlerine göre ayrıştırılır",
+    "Ham maddeye dönüştürülür",
+    "Yeni ürün üretilir"
+   ]
+  },
+  "textPlain": "Geri dönüşüm sürecinin adımlarını sırala. Kartlar: Ham maddeye dönüştürülür; Atıklar toplanır; Türlerine göre ayrıştırılır; Yeni ürün üretilir.",
+  "correctAnswer": "Atıklar toplanır → Türlerine göre ayrıştırılır → Ham maddeye dönüştürülür → Yeni ürün üretilir",
+  "explanation": "Geri dönüşüm atıkların toplanmasıyla başlar; ayrıştırılan atıklar ham maddeye dönüştürülür ve yeni ürünlerin üretiminde kullanılır."
+ },
+ {
+  "questionId": "boss-a04-f7-09",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "İleri dönüşüm",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Eski bir kot pantolondan sırt çantası dikmek hangisine örnektir?",
+  "data": {
+   "options": [
+    "İleri dönüşüm",
+    "Geri dönüşüm",
+    "Atık oluşturma"
+   ]
+  },
+  "textPlain": "Eski bir kot pantolondan sırt çantası dikmek hangisine örnektir? Seçenekler: İleri dönüşüm / Geri dönüşüm / Atık oluşturma",
+  "correctAnswer": "İleri dönüşüm",
+  "explanation": "Atık bir ürünü daha değerli ya da farklı amaçlı yeni bir ürüne dönüştürmek ileri dönüşümdür."
+ },
+ {
+  "questionId": "boss-a04-f7-10",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Evsel atıklar",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Atıkları geri dönüştürülebilen ve geri dönüştürülemeyen diye ayır.",
+  "data": {
+   "bins": [
+    "Geri dönüştürülebilir",
+    "Geri dönüştürülemez"
+   ],
+   "items": [
+    [
+     "Karton kutu",
+     0
+    ],
+    [
+     "Kullanılmış kâğıt havlu",
+     1
+    ],
+    [
+     "Metal içecek kutusu",
+     0
+    ],
+    [
+     "Kırık ayna",
+     1
+    ],
+    [
+     "Gazete",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Atıkları geri dönüştürülebilen ve geri dönüştürülemeyen diye ayır. (Geri dönüştürülebilir / Geri dönüştürülemez) Kartlar: Karton kutu; Kullanılmış kâğıt havlu; Metal içecek kutusu; Kırık ayna; Gazete.",
+  "correctAnswer": "Geri dönüştürülebilir: Karton kutu, Metal içecek kutusu, Gazete. Geri dönüştürülemez: Kullanılmış kâğıt havlu, Kırık ayna.",
+  "explanation": "Karton, metal kutu ve gazete geri dönüştürülebilir. Kirli kâğıt havlu ve kırık ayna geri dönüştürülemez."
+ },
+ {
+  "questionId": "boss-a04-f7-11",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Kaynakların korunması",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Metal kutuların geri dönüştürülmesinin en önemli yararı hangisidir?",
+  "data": {
+   "options": [
+    "Maden kaynaklarının ve enerjinin korunması",
+    "Daha çok çöp oluşması",
+    "Kutuların ağırlaşması"
+   ]
+  },
+  "textPlain": "Metal kutuların geri dönüştürülmesinin en önemli yararı hangisidir? Seçenekler: Maden kaynaklarının ve enerjinin korunması / Daha çok çöp oluşması / Kutuların ağırlaşması",
+  "correctAnswer": "Maden kaynaklarının ve enerjinin korunması",
+  "explanation": "Geri dönüşüm ham madde ve enerji tasarrufu sağlar, doğal kaynakları korur."
+ },
+ {
+  "questionId": "boss-a04-f7-12",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Dönüşüm türleri",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her örneği doğru kavramla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Su şişesini doldurup tekrar kullanmak",
+     "Yeniden kullanım"
+    ],
+    [
+     "Eski lastikten bahçe saksısı yapmak",
+     "İleri dönüşüm"
+    ],
+    [
+     "Kullanılmış kâğıttan yeni defter üretmek",
+     "Geri dönüşüm"
+    ]
+   ]
+  },
+  "textPlain": "Her örneği doğru kavramla eşleştir. Sol: Su şişesini doldurup tekrar kullanmak; Eski lastikten bahçe saksısı yapmak; Kullanılmış kâğıttan yeni defter üretmek. Sağ: Yeniden kullanım; İleri dönüşüm; Geri dönüşüm.",
+  "correctAnswer": "Su şişesini doldurup tekrar kullanmak = Yeniden kullanım; Eski lastikten bahçe saksısı yapmak = İleri dönüşüm; Kullanılmış kâğıttan yeni defter üretmek = Geri dönüşüm",
+  "explanation": "Aynı eşyayı tekrar kullanmak yeniden kullanım, farklı ve değerli bir ürün yapmak ileri dönüşüm, ham maddeye çevirip yeni ürün yapmak geri dönüşümdür."
+ },
+ {
+  "questionId": "boss-a04-f7-13",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Atık yönetimi",
+  "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Okulda sıfır atık için hangisi yapılabilir?",
+  "data": {
+   "options": [
+    "Sınıflara ayrı geri dönüşüm kutuları koymak",
+    "Bütün atıkları tek kutuda toplamak",
+    "Kâğıtları tek yüzünü kullanıp atmak"
+   ]
+  },
+  "textPlain": "Okulda sıfır atık için hangisi yapılabilir? Seçenekler: Sınıflara ayrı geri dönüşüm kutuları koymak / Bütün atıkları tek kutuda toplamak / Kâğıtları tek yüzünü kullanıp atmak",
+  "correctAnswer": "Sınıflara ayrı geri dönüşüm kutuları koymak",
+  "explanation": "Atıkların kaynağında ayrıştırılması için sınıflara ayrı kutular konur; kâğıdın iki yüzü de kullanılır."
+ },
+ {
+  "questionId": "boss-a04-f7-14",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Cam kutusu",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi cam geri dönüşüm kutusuna ATILMAZ?",
+  "data": {
+   "options": [
+    "Kırık pencere camı",
+    "Boş meyve suyu şişesi",
+    "Turşu kavanozu"
+   ]
+  },
+  "textPlain": "Hangisi cam geri dönüşüm kutusuna ATILMAZ? Seçenekler: Kırık pencere camı / Boş meyve suyu şişesi / Turşu kavanozu",
+  "correctAnswer": "Kırık pencere camı",
+  "explanation": "Cam kutusuna kırılmamış şişe ve kavanozlar atılır; kırık camlar bu kutuya atılmaz."
+ },
+ {
+  "questionId": "boss-a04-f7-15",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Kaynakların etkili kullanımı",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 146",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir okulda öğrenciler bir ayda 200 kg kâğıdı geri dönüşüme gönderdi. Bunun doğaya en önemli katkısı nedir?",
+  "data": {
+   "options": [
+    "Ağaçların kesilmesinin ve enerji kullanımının azalması",
+    "Okulun daha çok kâğıt alması",
+    "Çöp kamyonunun daha sık gelmesi"
+   ]
+  },
+  "textPlain": "Bir okulda öğrenciler bir ayda 200 kg kâğıdı geri dönüşüme gönderdi. Bunun doğaya en önemli katkısı nedir? Seçenekler: Ağaçların kesilmesinin ve enerji kullanımının azalması / Okulun daha çok kâğıt alması / Çöp kamyonunun daha sık gelmesi",
+  "correctAnswer": "Ağaçların kesilmesinin ve enerji kullanımının azalması",
+  "explanation": "Geri dönüştürülen kâğıt yeni kâğıt üretiminde ham madde olur; ağaç kesimi ve enerji tüketimi azalır."
+ },
+ {
+  "questionId": "boss-a04-f7-16",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Sıfır atık",
+  "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Sıfır atık yaklaşımında İLK adım hangisidir?",
+  "data": {
+   "options": [
+    "Atık oluşmasını önlemek",
+    "Atıkları yakmak",
+    "Atıkları toprağa gömmek"
+   ]
+  },
+  "textPlain": "Sıfır atık yaklaşımında İLK adım hangisidir? Seçenekler: Atık oluşmasını önlemek / Atıkları yakmak / Atıkları toprağa gömmek",
+  "correctAnswer": "Atık oluşmasını önlemek",
+  "explanation": "Sıfır atığın ilk adımı israfı ve atık oluşumunu önlemektir; sonra atıklar kaynağında ayrıştırılıp geri kazanılır."
+ },
+ {
+  "questionId": "boss-a04-f7-17",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Evsel atıklar",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 141–142",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ali’nin ailesi bir haftada 12 plastik şişe, 6 cam kavanoz ve 3 kâğıt poşet biriktirdi. Bunların hepsi doğru kutulara atılırsa ne olur?",
+  "data": {
+   "options": [
+    "Hepsi geri dönüştürülüp ham maddeye kazandırılabilir.",
+    "Hepsi çöp olarak gömülür.",
+    "Yalnızca kâğıt poşetler değerlendirilebilir."
+   ]
+  },
+  "textPlain": "Ali’nin ailesi bir haftada 12 plastik şişe, 6 cam kavanoz ve 3 kâğıt poşet biriktirdi. Bunların hepsi doğru kutulara atılırsa ne olur? Seçenekler: Hepsi geri dönüştürülüp ham maddeye kazandırılabilir. / Hepsi çöp olarak gömülür. / Yalnızca kâğıt poşetler değerlendirilebilir.",
+  "correctAnswer": "Hepsi geri dönüştürülüp ham maddeye kazandırılabilir.",
+  "explanation": "Plastik, cam ve kâğıt geri dönüştürülebilen atıklardır; doğru kutuya atılırsa ham madde olarak geri kazanılır."
+ },
+ {
+  "questionId": "boss-a04-f7-18",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Sıfır atık",
+  "outcome": "Yakın çevresinde atık yönetiminin uygulanabilirliğine ilişkin deneyimlerini yansıtır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 142, 147–148",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Davranışları atığı azaltan ve atığı artıran diye ayır.",
+  "data": {
+   "bins": [
+    "Atığı azaltır",
+    "Atığı artırır"
+   ],
+   "items": [
+    [
+     "Matarayla su içmek",
+     0
+    ],
+    [
+     "Tek kullanımlık çatal kullanmak",
+     1
+    ],
+    [
+     "Kırılan oyuncağı tamir etmek",
+     0
+    ],
+    [
+     "Yemek artıklarını kompost yapmak",
+     0
+    ],
+    [
+     "Her gün yeni pet şişe almak",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Davranışları atığı azaltan ve atığı artıran diye ayır. (Atığı azaltır / Atığı artırır) Kartlar: Matarayla su içmek; Tek kullanımlık çatal kullanmak; Kırılan oyuncağı tamir etmek; Yemek artıklarını kompost yapmak; Her gün yeni pet şişe almak.",
+  "correctAnswer": "Atığı azaltır: Matarayla su içmek, Kırılan oyuncağı tamir etmek, Yemek artıklarını kompost yapmak. Atığı artırır: Tek kullanımlık çatal kullanmak, Her gün yeni pet şişe almak.",
+  "explanation": "Tekrar kullanılan ürünler, tamir ve kompost atığı azaltır; tek kullanımlık ürünler atığı artırır."
+ },
+ {
+  "questionId": "boss-a04-f7-19",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Geri dönüşüm süreci",
+  "outcome": "Geri dönüşümün kaynakların etkili kullanımında önemli olduğu çıkarımını yapar.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 149–151, 158",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Toplanan karışık atıkların fabrikada ayrıştırılmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Her atık türünün farklı biçimde ham maddeye dönüştürülmesi",
+    "Atıkların daha hızlı yakılması",
+    "Atıkların daha ağır olması"
+   ]
+  },
+  "textPlain": "Toplanan karışık atıkların fabrikada ayrıştırılmasının nedeni nedir? Seçenekler: Her atık türünün farklı biçimde ham maddeye dönüştürülmesi / Atıkların daha hızlı yakılması / Atıkların daha ağır olması",
+  "correctAnswer": "Her atık türünün farklı biçimde ham maddeye dönüştürülmesi",
+  "explanation": "Plastik, cam, kâğıt ve metal farklı işlemlerle ham maddeye dönüşür; bu yüzden türlerine göre ayrılır."
+ },
+ {
+  "questionId": "boss-a04-f7-20",
+  "grade": 5,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Geri Dönüşüm",
+  "topic": "Atık kutuları",
+  "outcome": "Evsel atıklarda geri dönüştürülebilen ve dönüştürülemeyen maddeleri sınıflandırır.",
+  "sourceRef": "MEB Fen Bilimleri 5. Sınıf Ders Kitabı, 7. Ünite “Sürdürülebilir Yaşam ve Geri Dönüşüm”, s. 140–143",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "match",
+  "prompt": "Her atığı atılacağı kutuyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Gazoz kutusu",
+     "Metal"
+    ],
+    [
+     "Yoğurt kabı",
+     "Plastik"
+    ],
+    [
+     "Eski defter",
+     "Kâğıt"
+    ]
+   ]
+  },
+  "textPlain": "Her atığı atılacağı kutuyla eşleştir. Sol: Gazoz kutusu; Yoğurt kabı; Eski defter. Sağ: Metal; Plastik; Kâğıt.",
+  "correctAnswer": "Gazoz kutusu = Metal; Yoğurt kabı = Plastik; Eski defter = Kâğıt",
+  "explanation": "Gazoz kutusu metal, yoğurt kabı plastik, defter kâğıt kutusuna atılır."
+ },
+ {
+  "questionId": "boss-a04-m7-01",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "İmkânsız olay",
+  "outcome": "Kesin, imkânsız ve olası olayları ayırt edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 171",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi imkânsız bir olaydır?",
+  "data": {
+   "options": [
+    "Bir haftanın 9 gün olması",
+    "Yarın yağmur yağması",
+    "Zar atınca 4 gelmesi"
+   ]
+  },
+  "textPlain": "Hangisi imkânsız bir olaydır? Seçenekler: Bir haftanın 9 gün olması / Yarın yağmur yağması / Zar atınca 4 gelmesi",
+  "correctAnswer": "Bir haftanın 9 gün olması",
+  "explanation": "Bir hafta 7 gündür; 9 gün olması asla gerçekleşmez, imkânsızdır."
+ },
+ {
+  "questionId": "boss-a04-m7-02",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Kesin olay",
+  "outcome": "Kesin, imkânsız ve olası olayları ayırt edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 171",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi kesin bir olaydır?",
+  "data": {
+   "options": [
+    "Ocak ayından sonra şubat ayının gelmesi",
+    "Atılan paranın yazı gelmesi",
+    "Okulda bugün sınav olması"
+   ]
+  },
+  "textPlain": "Hangisi kesin bir olaydır? Seçenekler: Ocak ayından sonra şubat ayının gelmesi / Atılan paranın yazı gelmesi / Okulda bugün sınav olması",
+  "correctAnswer": "Ocak ayından sonra şubat ayının gelmesi",
+  "explanation": "Mutlaka gerçekleşecek olaylar kesin olaylardır; şubat her yıl ocaktan sonra gelir."
+ },
+ {
+  "questionId": "boss-a04-m7-03",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Kesin ve imkânsız",
+  "outcome": "Kesin, imkânsız ve olası olayları ayırt edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 171",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Olayları kesin ve imkânsız olarak ayır.",
+  "data": {
+   "bins": [
+    "Kesin",
+    "İmkânsız"
+   ],
+   "items": [
+    [
+     "Güneşin doğudan doğması",
+     0
+    ],
+    [
+     "Bir zarda 7 gelmesi",
+     1
+    ],
+    [
+     "Pazartesiden sonra salı gelmesi",
+     0
+    ],
+    [
+     "Taşın kendi kendine uçması",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Olayları kesin ve imkânsız olarak ayır. (Kesin / İmkânsız) Kartlar: Güneşin doğudan doğması; Bir zarda 7 gelmesi; Pazartesiden sonra salı gelmesi; Taşın kendi kendine uçması.",
+  "correctAnswer": "Kesin: Güneşin doğudan doğması, Pazartesiden sonra salı gelmesi. İmkânsız: Bir zarda 7 gelmesi, Taşın kendi kendine uçması.",
+  "explanation": "Mutlaka gerçekleşen olay kesin, hiç gerçekleşmeyecek olay imkânsızdır."
+ },
+ {
+  "questionId": "boss-a04-m7-04",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık değeri",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 169",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "İmkânsız bir olayın olasılık değeri kaçtır?",
+  "data": {
+   "options": [
+    "0",
+    "1",
+    "{1/2}"
+   ]
+  },
+  "textPlain": "İmkânsız bir olayın olasılık değeri kaçtır? Seçenekler: 0 / 1 / {1/2}",
+  "correctAnswer": "0",
+  "explanation": "İmkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+ },
+ {
+  "questionId": "boss-a04-m7-05",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Torba",
+  "outcome": "Olayların olasılıklarını az veya çok olasılıklı şeklinde ortaya koyabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 174 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Torbada 8 kırmızı ve 2 mavi top var. Bakmadan çekilen topun hangi renk olması daha olasıdır?",
+  "data": {
+   "options": [
+    "Kırmızı",
+    "Mavi",
+    "İkisi eşit olasılıklı"
+   ],
+   "fig": {
+    "k": "bag",
+    "c": [
+     [
+      "#e2425c",
+      8
+     ],
+     [
+      "#2f6fe0",
+      2
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Torba: 8 kırmızı, 2 mavi top] Torbada 8 kırmızı ve 2 mavi top var. Bakmadan çekilen topun hangi renk olması daha olasıdır? Seçenekler: Kırmızı / Mavi / İkisi eşit olasılıklı",
+  "correctAnswer": "Kırmızı",
+  "explanation": "Kırmızı top sayısı daha fazla olduğundan kırmızı çekmek daha olasıdır."
+ },
+ {
+  "questionId": "boss-a04-m7-06",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık değeri",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 169",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir olayın olasılık değeri 1’den büyük olabilir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir olayın olasılık değeri 1’den büyük olabilir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Olasılık değeri 0 ile 1 arasındadır (0 ve 1 dâhil); 1’den büyük olamaz."
+ },
+ {
+  "questionId": "boss-a04-m7-07",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olası olay",
+  "outcome": "Kesin, imkânsız ve olası olayları ayırt edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 169",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Atılan bir madenî paranın tura gelmesi nasıl bir olaydır?",
+  "data": {
+   "options": [
+    "Olası (eşit olasılıklı)",
+    "Kesin",
+    "İmkânsız"
+   ]
+  },
+  "textPlain": "Atılan bir madenî paranın tura gelmesi nasıl bir olaydır? Seçenekler: Olası (eşit olasılıklı) / Kesin / İmkânsız",
+  "correctAnswer": "Olası (eşit olasılıklı)",
+  "explanation": "Para yazı ya da tura gelebilir; tura gelmesi olası bir olaydır ve yazıyla eşit olasılıklıdır."
+ },
+ {
+  "questionId": "boss-a04-m7-08",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Eşit olasılık",
+  "outcome": "Olayların olasılıklarını az veya çok olasılıklı şeklinde ortaya koyabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 174 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Çark 4 eş parçaya bölünmüş: 2 parça sarı, 1 parça yeşil, 1 parça mor. Hangi iki rengin gelme olasılığı eşittir?",
+  "data": {
+   "options": [
+    "Yeşil ve mor",
+    "Sarı ve yeşil",
+    "Sarı ve mor"
+   ],
+   "fig": {
+    "k": "spin",
+    "s": [
+     [
+      "#ffcf3f",
+      "Sarı"
+     ],
+     [
+      "#ffcf3f",
+      "Sarı"
+     ],
+     [
+      "#1fa37a",
+      "Yeşil"
+     ],
+     [
+      "#9b59d0",
+      "Mor"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Çark: 4 eş parça; 2 sarı, 1 yeşil, 1 mor] Çark 4 eş parçaya bölünmüş: 2 parça sarı, 1 parça yeşil, 1 parça mor. Hangi iki rengin gelme olasılığı eşittir? Seçenekler: Yeşil ve mor / Sarı ve yeşil / Sarı ve mor",
+  "correctAnswer": "Yeşil ve mor",
+  "explanation": "Yeşil ve morun her biri 1 parça kapladığı için gelme olasılıkları eşittir."
+ },
+ {
+  "questionId": "boss-a04-m7-09",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık spektrumu",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 170",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Olayları olasılığı EN AZDAN EN ÇOĞA doğru sırala.",
+  "data": {
+   "items": [
+    "Zar atınca 7 gelmesi",
+    "Zar atınca 6 gelmesi",
+    "Zar atınca 6’dan küçük bir sayı gelmesi",
+    "Zar atınca 7’den küçük bir sayı gelmesi"
+   ]
+  },
+  "textPlain": "Olayları olasılığı EN AZDAN EN ÇOĞA doğru sırala. Kartlar: Zar atınca 7’den küçük bir sayı gelmesi; Zar atınca 6’dan küçük bir sayı gelmesi; Zar atınca 6 gelmesi; Zar atınca 7 gelmesi.",
+  "correctAnswer": "Zar atınca 7 gelmesi → Zar atınca 6 gelmesi → Zar atınca 6’dan küçük bir sayı gelmesi → Zar atınca 7’den küçük bir sayı gelmesi",
+  "explanation": "7 gelmesi imkânsız (0); 6 gelmesi az olası; 6’dan küçük gelmesi (1–5) çok olası; 7’den küçük gelmesi kesindir (1)."
+ },
+ {
+  "questionId": "boss-a04-m7-10",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık değeri",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 169",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Kesin bir olayın olasılığı yüzde olarak nasıl gösterilir?",
+  "data": {
+   "options": [
+    "%100",
+    "%50",
+    "%0"
+   ]
+  },
+  "textPlain": "Kesin bir olayın olasılığı yüzde olarak nasıl gösterilir? Seçenekler: %100 / %50 / %0",
+  "correctAnswer": "%100",
+  "explanation": "Kesin olayın olasılığı 1’dir; bu %100’e eşittir."
+ },
+ {
+  "questionId": "boss-a04-m7-11",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık spektrumu",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 170",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir olayın olasılığı {1/2}’dir. Bu olasılık yüzde kaçtır?",
+  "data": {
+   "answer": 50,
+   "digits": 2,
+   "unit": "%"
+  },
+  "textPlain": "Bir olayın olasılığı {1/2}’dir. Bu olasılık yüzde kaçtır?",
+  "correctAnswer": "%50",
+  "explanation": "{1/2} = 50/100 = %50."
+ },
+ {
+  "questionId": "boss-a04-m7-12",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Az olası",
+  "outcome": "Olayların olasılıklarını az veya çok olasılıklı şeklinde ortaya koyabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 174 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Torbada 1 yeşil ve 9 sarı bilye var. Bakmadan çekilen bilyenin yeşil olması için hangisi söylenebilir?",
+  "data": {
+   "options": [
+    "Az olasıdır.",
+    "Kesindir.",
+    "İmkânsızdır."
+   ],
+   "fig": {
+    "k": "bag",
+    "c": [
+     [
+      "#1fa37a",
+      1
+     ],
+     [
+      "#ffcf3f",
+      9
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Torba: 1 yeşil, 9 sarı bilye] Torbada 1 yeşil ve 9 sarı bilye var. Bakmadan çekilen bilyenin yeşil olması için hangisi söylenebilir? Seçenekler: Az olasıdır. / Kesindir. / İmkânsızdır.",
+  "correctAnswer": "Az olasıdır.",
+  "explanation": "Yeşil bilye sayısı çok az olduğu için yeşil çekmek az olasıdır ama imkânsız değildir."
+ },
+ {
+  "questionId": "boss-a04-m7-13",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık ifadeleri",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 170",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her olayı olasılığıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Zarda 0 gelmesi",
+     "İmkânsız"
+    ],
+    [
+     "Parada yazı gelmesi",
+     "Eşit olasılıklı"
+    ],
+    [
+     "Zarda 6’dan küçük gelmesi",
+     "Çok olası"
+    ]
+   ]
+  },
+  "textPlain": "Her olayı olasılığıyla eşleştir. Sol: Zarda 0 gelmesi; Parada yazı gelmesi; Zarda 6’dan küçük gelmesi. Sağ: İmkânsız; Eşit olasılıklı; Çok olası.",
+  "correctAnswer": "Zarda 0 gelmesi = İmkânsız; Parada yazı gelmesi = Eşit olasılıklı; Zarda 6’dan küçük gelmesi = Çok olası",
+  "explanation": "Zarda 0 yoktur (imkânsız); parada yazı ve tura eşittir; zarda 1–5 gelmesi 6 durumun 5’i olduğu için çok olasıdır."
+ },
+ {
+  "questionId": "boss-a04-m7-14",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Adil oyun",
+  "outcome": "Adil olan ve adil olmayan oyunları olasılık yönünden değerlendirebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 175 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Ece ile Can zar atıyor. Çift sayı gelirse Ece, tek sayı gelirse Can kazanıyor. Bu oyun için ne söylenebilir?",
+  "data": {
+   "options": [
+    "Adildir; ikisinin kazanma olasılığı eşittir.",
+    "Ece’nin kazanma olasılığı daha fazladır.",
+    "Can’ın kazanma olasılığı daha fazladır."
+   ]
+  },
+  "textPlain": "Ece ile Can zar atıyor. Çift sayı gelirse Ece, tek sayı gelirse Can kazanıyor. Bu oyun için ne söylenebilir? Seçenekler: Adildir; ikisinin kazanma olasılığı eşittir. / Ece’nin kazanma olasılığı daha fazladır. / Can’ın kazanma olasılığı daha fazladır.",
+  "correctAnswer": "Adildir; ikisinin kazanma olasılığı eşittir.",
+  "explanation": "Zarda 3 çift (2, 4, 6) ve 3 tek (1, 3, 5) sayı vardır; kazanma olasılıkları eşit olduğundan oyun adildir."
+ },
+ {
+  "questionId": "boss-a04-m7-15",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Adil oyun",
+  "outcome": "Adil olan ve adil olmayan oyunları olasılık yönünden değerlendirebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 175 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Çark 4 eş parçalı: 3 parça mavi, 1 parça kırmızı. Mavi gelirse Ali, kırmızı gelirse Ayşe kazanıyor. Oyunu adil yapmak için ne yapılmalıdır?",
+  "data": {
+   "options": [
+    "Çarkı 2 mavi, 2 kırmızı parça olacak şekilde boyamak",
+    "Mavi parçaları daha koyu boyamak",
+    "Çarkı daha hızlı çevirmek"
+   ],
+   "fig": {
+    "k": "spin",
+    "s": [
+     [
+      "#2f6fe0",
+      "Mavi"
+     ],
+     [
+      "#2f6fe0",
+      "Mavi"
+     ],
+     [
+      "#2f6fe0",
+      "Mavi"
+     ],
+     [
+      "#e2425c",
+      "Kırmızı"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Çark: 3 mavi, 1 kırmızı eş parça] Çark 4 eş parçalı: 3 parça mavi, 1 parça kırmızı. Mavi gelirse Ali, kırmızı gelirse Ayşe kazanıyor. Oyunu adil yapmak için ne yapılmalıdır? Seçenekler: Çarkı 2 mavi, 2 kırmızı parça olacak şekilde boyamak / Mavi parçaları daha koyu boyamak / Çarkı daha hızlı çevirmek",
+  "correctAnswer": "Çarkı 2 mavi, 2 kırmızı parça olacak şekilde boyamak",
+  "explanation": "Oyunun adil olması için iki oyuncunun kazanma olasılığı eşit olmalıdır; parça sayıları eşitlenmelidir."
+ },
+ {
+  "questionId": "boss-a04-m7-16",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Veriye dayalı tahmin",
+  "outcome": "Verilere ve gerekçelere dayanarak olasılık tahmininde bulunabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 178 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Tabloya göre haziran ayında yağmur yağma olasılığı en yüksek olan şehir hangisidir?",
+  "data": {
+   "options": [
+    "Rize",
+    "Konya",
+    "İzmir"
+   ],
+   "fig": {
+    "k": "table",
+    "h": [
+     "Şehir",
+     "Hazirandaki yağışlı gün (ort.)"
+    ],
+    "r": [
+     [
+      "Rize",
+      "14"
+     ],
+     [
+      "Konya",
+      "5"
+     ],
+     [
+      "İzmir",
+      "2"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: Haziranda ortalama yağışlı gün — Rize 14, Konya 5, İzmir 2] Tabloya göre haziran ayında yağmur yağma olasılığı en yüksek olan şehir hangisidir? Seçenekler: Rize / Konya / İzmir",
+  "correctAnswer": "Rize",
+  "explanation": "Geçmiş yıllarda yağışlı gün sayısı en fazla olan Rize’dir; tahmin veriye dayanır."
+ },
+ {
+  "questionId": "boss-a04-m7-17",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Veriye dayalı tahmin",
+  "outcome": "Verilere ve gerekçelere dayanarak olasılık tahmininde bulunabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 178 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir basketbolcu son 20 atışının 18’ini sayıya çevirdi. Bir sonraki atış için hangisi söylenebilir?",
+  "data": {
+   "options": [
+    "Sayı olması çok olasıdır.",
+    "Sayı olması kesindir.",
+    "Sayı olması imkânsızdır."
+   ]
+  },
+  "textPlain": "Bir basketbolcu son 20 atışının 18’ini sayıya çevirdi. Bir sonraki atış için hangisi söylenebilir? Seçenekler: Sayı olması çok olasıdır. / Sayı olması kesindir. / Sayı olması imkânsızdır.",
+  "correctAnswer": "Sayı olması çok olasıdır.",
+  "explanation": "Önceki veriler isabetin çok sık olduğunu gösterir; yine de kesin değildir."
+ },
+ {
+  "questionId": "boss-a04-m7-18",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Torba",
+  "outcome": "Olayların olasılıklarını az veya çok olasılıklı şeklinde ortaya koyabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 174 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Torbada 5 kırmızı, 3 mavi ve 1 sarı top var. Renkleri bakmadan çekilme olasılığına göre EN ÇOKTAN EN AZA sırala.",
+  "data": {
+   "items": [
+    "Kırmızı",
+    "Mavi",
+    "Sarı"
+   ]
+  },
+  "textPlain": "Torbada 5 kırmızı, 3 mavi ve 1 sarı top var. Renkleri bakmadan çekilme olasılığına göre EN ÇOKTAN EN AZA sırala. Kartlar: Kırmızı; Sarı; Mavi.",
+  "correctAnswer": "Kırmızı → Mavi → Sarı",
+  "explanation": "Sayısı en çok olan rengi çekmek en olasıdır: 5 kırmızı > 3 mavi > 1 sarı."
+ },
+ {
+  "questionId": "boss-a04-m7-19",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Öznel olasılık",
+  "outcome": "Verilere ve gerekçelere dayanarak olasılık tahmininde bulunabilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 171",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Bence yarınki maçı kesinlikle biz kazanacağız.” diyen birinin ifadesi için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Kişisel bir tahmindir; maçın sonucu kesin değildir.",
+    "Kesin bir olaydır.",
+    "İmkânsız bir olaydır."
+   ]
+  },
+  "textPlain": "“Bence yarınki maçı kesinlikle biz kazanacağız.” diyen birinin ifadesi için hangisi doğrudur? Seçenekler: Kişisel bir tahmindir; maçın sonucu kesin değildir. / Kesin bir olaydır. / İmkânsız bir olaydır.",
+  "correctAnswer": "Kişisel bir tahmindir; maçın sonucu kesin değildir.",
+  "explanation": "Kişinin duygu ve düşüncesine dayanan tahmin öznel olasılıktır; maç sonucu kesin olarak bilinemez."
+ },
+ {
+  "questionId": "boss-a04-m7-20",
+  "grade": 5,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Veriden Olasılığa",
+  "topic": "Olasılık spektrumu",
+  "outcome": "Bir olayın olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu yorumlayabilme; olasılığı kesir, ondalık ve yüzde ile ifade edebilme.",
+  "sourceRef": "MEB Matematik 5. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Veriden Olasılığa”, s. 170",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Olasılık çizgisinde 0 ile 1’in tam ortasındaki {1/2}, eşit olasılığı gösterir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Olasılık çizgisinde 0 ile 1’in tam ortasındaki {1/2}, eşit olasılığı gösterir.",
+  "correctAnswer": "Doğru",
+  "explanation": "0 imkânsız, 1 kesin olayı gösterir; tam ortadaki {1/2} eşit olasılıktır."
+ },
+ {
+  "questionId": "boss-a04-t6-01",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Eş anlam",
+  "outcome": "Eş ve zıt anlamlı kelimeleri, yabancı kelimelerin Türkçe karşılıklarını, deyim ve atasözlerini bağlama uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 117",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Deneyim” kelimesinin eş anlamlısı hangisidir?",
+  "data": {
+   "options": [
+    "Tecrübe",
+    "Merak",
+    "Hayal"
+   ]
+  },
+  "textPlain": "“Deneyim” kelimesinin eş anlamlısı hangisidir? Seçenekler: Tecrübe / Merak / Hayal",
+  "correctAnswer": "Tecrübe",
+  "explanation": "Deneyim, yaşayarak öğrenilen bilgidir; eş anlamlısı tecrübedir."
+ },
+ {
+  "questionId": "boss-a04-t6-02",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Yabancı kelime",
+  "outcome": "Eş ve zıt anlamlı kelimeleri, yabancı kelimelerin Türkçe karşılıklarını, deyim ve atasözlerini bağlama uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 117",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Selfie” yerine hangi Türkçe karşılık kullanılmalıdır?",
+  "data": {
+   "options": [
+    "Özçekim",
+    "Fotoğraf makinesi",
+    "Kartpostal"
+   ]
+  },
+  "textPlain": "“Selfie” yerine hangi Türkçe karşılık kullanılmalıdır? Seçenekler: Özçekim / Fotoğraf makinesi / Kartpostal",
+  "correctAnswer": "Özçekim",
+  "explanation": "“Selfie” yabancı bir sözdür; Türkçe karşılığı “özçekim”dir."
+ },
+ {
+  "questionId": "boss-a04-t6-03",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Zıt anlam",
+  "outcome": "Eş ve zıt anlamlı kelimeleri, yabancı kelimelerin Türkçe karşılıklarını, deyim ve atasözlerini bağlama uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 117",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Sağlıklı” kelimesinin zıt anlamlısı hangisidir?",
+  "data": {
+   "options": [
+    "Sağlıksız",
+    "Dinç",
+    "Zinde"
+   ]
+  },
+  "textPlain": "“Sağlıklı” kelimesinin zıt anlamlısı hangisidir? Seçenekler: Sağlıksız / Dinç / Zinde",
+  "correctAnswer": "Sağlıksız",
+  "explanation": "“Dinç” ve “zinde” sağlıklıyla yakın anlamlıdır; zıt anlamlısı “sağlıksız”dır."
+ },
+ {
+  "questionId": "boss-a04-t6-04",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Sayıların yazımı",
+  "outcome": "Noktalama işaretlerini, büyük harfleri ve sayıların yazımını kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 144",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede sayının yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Yürüyüşe yirmi beş kişi katıldı.",
+    "Yürüyüşe yirmibeş kişi katıldı.",
+    "Yürüyüşe yirmi-beş kişi katıldı."
+   ]
+  },
+  "textPlain": "Hangi cümlede sayının yazımı doğrudur? Seçenekler: Yürüyüşe yirmi beş kişi katıldı. / Yürüyüşe yirmibeş kişi katıldı. / Yürüyüşe yirmi-beş kişi katıldı.",
+  "correctAnswer": "Yürüyüşe yirmi beş kişi katıldı.",
+  "explanation": "Yazıyla yazılan birden çok kelimeli sayılar ayrı yazılır: yirmi beş."
+ },
+ {
+  "questionId": "boss-a04-t6-05",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Sağlıklı yaşam",
+  "outcome": "Bilgilendirici ve öyküleyici metinlerde önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 115 (metin ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Davranışları sağlığa yararlı ve sağlığa zararlı diye ayır.",
+  "data": {
+   "bins": [
+    "Yararlı",
+    "Zararlı"
+   ],
+   "items": [
+    [
+     "Düzenli spor yapmak",
+     0
+    ],
+    [
+     "Gece geç saatlere kadar ekrana bakmak",
+     1
+    ],
+    [
+     "Bol su içmek",
+     0
+    ],
+    [
+     "Kahvaltıyı atlamak",
+     1
+    ],
+    [
+     "Meyve ve sebze yemek",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Davranışları sağlığa yararlı ve sağlığa zararlı diye ayır. (Yararlı / Zararlı) Kartlar: Düzenli spor yapmak; Gece geç saatlere kadar ekrana bakmak; Bol su içmek; Kahvaltıyı atlamak; Meyve ve sebze yemek.",
+  "correctAnswer": "Yararlı: Düzenli spor yapmak, Bol su içmek, Meyve ve sebze yemek. Zararlı: Gece geç saatlere kadar ekrana bakmak, Kahvaltıyı atlamak.",
+  "explanation": "Düzenli spor, su içmek ve dengeli beslenmek sağlığa yararlıdır; uykusuzluk ve öğün atlamak zararlıdır."
+ },
+ {
+  "questionId": "boss-a04-t6-06",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Soru işareti",
+  "outcome": "Noktalama işaretlerini, büyük harfleri ve sayıların yazımını kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 144",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Spor yapmayı seviyor musun?” cümlesinin sonuna soru işareti konur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Spor yapmayı seviyor musun?” cümlesinin sonuna soru işareti konur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Soru bildiren cümlelerin sonuna soru işareti konur."
+ },
+ {
+  "questionId": "boss-a04-t6-07",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Kelime anlamı",
+  "outcome": "Kelimelerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 124, 126",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Rota” kelimesinin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Gidilecek yolun önceden belirlenmiş çizgisi",
+    "Dağın en yüksek yeri",
+    "Yürüyüşte kullanılan ayakkabı"
+   ]
+  },
+  "textPlain": "“Rota” kelimesinin anlamı hangisidir? Seçenekler: Gidilecek yolun önceden belirlenmiş çizgisi / Dağın en yüksek yeri / Yürüyüşte kullanılan ayakkabı",
+  "correctAnswer": "Gidilecek yolun önceden belirlenmiş çizgisi",
+  "explanation": "Rota, gidilecek yolun önceden belirlenmiş çizgisidir."
+ },
+ {
+  "questionId": "boss-a04-t6-08",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Karşılaştırma",
+  "outcome": "Düşünceyi geliştirme yollarını, karşılaştırma ve örnekleme ifadelerini, niteleyen ve ismin yerini tutan kelimeleri belirler; metin türlerini ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 145",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede karşılaştırma bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Yürüyüş, koşu kadar faydalı bir egzersizdir.",
+    "Her sabah parkta yürüyoruz.",
+    "Yürüyüş ayakkabılarımı aldım."
+   ]
+  },
+  "textPlain": "Hangi cümlede karşılaştırma bildiren bir ifade vardır? Seçenekler: Yürüyüş, koşu kadar faydalı bir egzersizdir. / Her sabah parkta yürüyoruz. / Yürüyüş ayakkabılarımı aldım.",
+  "correctAnswer": "Yürüyüş, koşu kadar faydalı bir egzersizdir.",
+  "explanation": "“Kadar” sözcüğü iki şeyi karşılaştırır ve eşitlik bildirir."
+ },
+ {
+  "questionId": "boss-a04-t6-09",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Örnek bildiren ifade",
+  "outcome": "Düşünceyi geliştirme yollarını, karşılaştırma ve örnekleme ifadelerini, niteleyen ve ismin yerini tutan kelimeleri belirler; metin türlerini ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 145",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede örnek bildiren bir ifade kullanılmıştır?",
+  "data": {
+   "options": [
+    "Kış meyvelerini, örneğin portakal ve mandalinayı, bol bol yemeliyiz.",
+    "Kışın meyve yemeliyiz.",
+    "Kış meyveleri çok sağlıklıdır."
+   ]
+  },
+  "textPlain": "Hangi cümlede örnek bildiren bir ifade kullanılmıştır? Seçenekler: Kış meyvelerini, örneğin portakal ve mandalinayı, bol bol yemeliyiz. / Kışın meyve yemeliyiz. / Kış meyveleri çok sağlıklıdır.",
+  "correctAnswer": "Kış meyvelerini, örneğin portakal ve mandalinayı, bol bol yemeliyiz.",
+  "explanation": "“Örneğin” ifadesi düşünceyi örneklerle destekler."
+ },
+ {
+  "questionId": "boss-a04-t6-10",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Deyim",
+  "outcome": "Eş ve zıt anlamlı kelimeleri, yabancı kelimelerin Türkçe karşılıklarını, deyim ve atasözlerini bağlama uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 117",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Kaşla göz arasında” deyiminin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Çok kısa bir sürede, kimse fark etmeden",
+    "Yüzün ortasında",
+    "Çok uzun bir zamanda"
+   ]
+  },
+  "textPlain": "“Kaşla göz arasında” deyiminin anlamı hangisidir? Seçenekler: Çok kısa bir sürede, kimse fark etmeden / Yüzün ortasında / Çok uzun bir zamanda",
+  "correctAnswer": "Çok kısa bir sürede, kimse fark etmeden",
+  "explanation": "Deyim, çok kısa bir süre içinde ve fark ettirmeden yapılan işleri anlatır."
+ },
+ {
+  "questionId": "boss-a04-t6-11",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Yabancı kelimeler",
+  "outcome": "Eş ve zıt anlamlı kelimeleri, yabancı kelimelerin Türkçe karşılıklarını, deyim ve atasözlerini bağlama uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 117",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her yabancı kelimeyi Türkçe karşılığıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Fast food",
+     "Hazır yemek"
+    ],
+    [
+     "Online",
+     "Çevrim içi"
+    ],
+    [
+     "Mouse",
+     "Fare"
+    ]
+   ]
+  },
+  "textPlain": "Her yabancı kelimeyi Türkçe karşılığıyla eşleştir. Sol: Fast food; Online; Mouse. Sağ: Hazır yemek; Çevrim içi; Fare.",
+  "correctAnswer": "Fast food = Hazır yemek; Online = Çevrim içi; Mouse = Fare",
+  "explanation": "Yabancı kelimeler yerine Türkçe karşılıkları kullanılmalıdır: fast food – hazır yemek, online – çevrim içi, mouse – fare."
+ },
+ {
+  "questionId": "boss-a04-t6-12",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Niteleyen kelime",
+  "outcome": "Düşünceyi geliştirme yollarını, karşılaştırma ve örnekleme ifadelerini, niteleyen ve ismin yerini tutan kelimeleri belirler; metin türlerini ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 145",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Taze sebzeler vücudumuza güç verir.” cümlesinde ismi niteleyen kelime hangisidir?",
+  "data": {
+   "options": [
+    "taze",
+    "sebzeler",
+    "güç"
+   ]
+  },
+  "textPlain": "“Taze sebzeler vücudumuza güç verir.” cümlesinde ismi niteleyen kelime hangisidir? Seçenekler: taze / sebzeler / güç",
+  "correctAnswer": "taze",
+  "explanation": "“Taze” kelimesi sebzelerin nasıl olduğunu anlatır; ismi niteler."
+ },
+ {
+  "questionId": "boss-a04-t6-13",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Tırnak işareti",
+  "outcome": "Noktalama işaretlerini, büyük harfleri ve sayıların yazımını kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 144",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede noktalama doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Doktor “Her gün meyve yiyin.” dedi.",
+    "Doktor Her gün meyve yiyin dedi.",
+    "Doktor, “her gün meyve yiyin” dedi?"
+   ]
+  },
+  "textPlain": "Hangi cümlede noktalama doğru kullanılmıştır? Seçenekler: Doktor “Her gün meyve yiyin.” dedi. / Doktor Her gün meyve yiyin dedi. / Doktor, “her gün meyve yiyin” dedi?",
+  "correctAnswer": "Doktor “Her gün meyve yiyin.” dedi.",
+  "explanation": "Aynen aktarılan söz tırnak içine alınır ve büyük harfle başlar."
+ },
+ {
+  "questionId": "boss-a04-t6-14",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Metin türü",
+  "outcome": "Düşünceyi geliştirme yollarını, karşılaştırma ve örnekleme ifadelerini, niteleyen ve ismin yerini tutan kelimeleri belirler; metin türlerini ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 145",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Sağlıklı beslenme hakkında bilgi vermek için yazılan bir metin öyküleyici metindir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Sağlıklı beslenme hakkında bilgi vermek için yazılan bir metin öyküleyici metindir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Bir konu hakkında bilgi veren metin bilgilendirici metindir; öyküleyici metin kişilerin başından geçen olayları anlatır."
+ },
+ {
+  "questionId": "boss-a04-t6-15",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Önemli bilgi",
+  "outcome": "Bilgilendirici ve öyküleyici metinlerde önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 115 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre ciritin oyunculara katkısı nedir?",
+  "data": {
+   "options": [
+    "Bedeni ve dikkati güçlendirmesi",
+    "Oyuncuları zengin yapması",
+    "Atları yorması"
+   ],
+   "passage": "Cirit, atlı oyuncuların karşılıklı iki takım hâlinde oynadığı geleneksel bir sporumuzdur. Oyuncular, rakip takımdaki bir oyuncuya ucu yuvarlatılmış tahta çubuğu fırlatır. Çubuktan kaçmak ve onu yakalamak hem çeviklik hem de dikkat ister. Bu nedenle cirit, binicilerin hem bedenini hem de dikkatini güçlendirir."
+  },
+  "textPlain": "Metin: Cirit, atlı oyuncuların karşılıklı iki takım hâlinde oynadığı geleneksel bir sporumuzdur. Oyuncular, rakip takımdaki bir oyuncuya ucu yuvarlatılmış tahta çubuğu fırlatır. Çubuktan kaçmak ve onu yakalamak hem çeviklik hem de dikkat ister. Bu nedenle cirit, binicilerin hem bedenini hem de dikkatini güçlendirir. Soru: Yukarıdaki metne göre ciritin oyunculara katkısı nedir? Seçenekler: Bedeni ve dikkati güçlendirmesi / Oyuncuları zengin yapması / Atları yorması",
+  "correctAnswer": "Bedeni ve dikkati güçlendirmesi",
+  "explanation": "Metnin son cümlesinde ciritin binicilerin bedenini ve dikkatini güçlendirdiği belirtilir."
+ },
+ {
+  "questionId": "boss-a04-t6-16",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Çıkarım",
+  "outcome": "Bilgilendirici ve öyküleyici metinlerde önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 115 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinden hangi çıkarım yapılabilir?",
+  "data": {
+   "options": [
+    "Cirit oynamak için ata binmeyi bilmek gerekir.",
+    "Cirit yalnızca tek kişiyle oynanır.",
+    "Ciritte demir çubuk kullanılır."
+   ],
+   "passage": "Cirit, atlı oyuncuların karşılıklı iki takım hâlinde oynadığı geleneksel bir sporumuzdur. Oyuncular, rakip takımdaki bir oyuncuya ucu yuvarlatılmış tahta çubuğu fırlatır. Çubuktan kaçmak ve onu yakalamak hem çeviklik hem de dikkat ister. Bu nedenle cirit, binicilerin hem bedenini hem de dikkatini güçlendirir."
+  },
+  "textPlain": "Metin: Cirit, atlı oyuncuların karşılıklı iki takım hâlinde oynadığı geleneksel bir sporumuzdur. Oyuncular, rakip takımdaki bir oyuncuya ucu yuvarlatılmış tahta çubuğu fırlatır. Çubuktan kaçmak ve onu yakalamak hem çeviklik hem de dikkat ister. Bu nedenle cirit, binicilerin hem bedenini hem de dikkatini güçlendirir. Soru: Yukarıdaki metinden hangi çıkarım yapılabilir? Seçenekler: Cirit oynamak için ata binmeyi bilmek gerekir. / Cirit yalnızca tek kişiyle oynanır. / Ciritte demir çubuk kullanılır.",
+  "correctAnswer": "Cirit oynamak için ata binmeyi bilmek gerekir.",
+  "explanation": "Metinde oyuncuların atlı olduğu söylenir; bu yüzden ata binmeyi bilmek gerekir. Oyun iki takımla ve tahta çubukla oynanır."
+ },
+ {
+  "questionId": "boss-a04-t6-17",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Düşünceyi geliştirme",
+  "outcome": "Düşünceyi geliştirme yollarını, karşılaştırma ve örnekleme ifadelerini, niteleyen ve ismin yerini tutan kelimeleri belirler; metin türlerini ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 145",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde düşünceyi geliştirmek için hangi yol kullanılmıştır?",
+  "data": {
+   "options": [
+    "Örneklendirme",
+    "Tanık gösterme",
+    "Benzetme"
+   ],
+   "passage": "Şeker, kısa sürede enerji veren bir besindir. Ancak fazla şeker tüketmek dişlerimize ve sağlığımıza zarar verir. Örneğin gazlı içecekler ve paketli tatlılar çok şeker içerir. Bunların yerine meyve yemek hem tatlı ihtiyacımızı karşılar hem de vücudumuza vitamin kazandırır."
+  },
+  "textPlain": "Metin: Şeker, kısa sürede enerji veren bir besindir. Ancak fazla şeker tüketmek dişlerimize ve sağlığımıza zarar verir. Örneğin gazlı içecekler ve paketli tatlılar çok şeker içerir. Bunların yerine meyve yemek hem tatlı ihtiyacımızı karşılar hem de vücudumuza vitamin kazandırır. Soru: Yukarıdaki metinde düşünceyi geliştirmek için hangi yol kullanılmıştır? Seçenekler: Örneklendirme / Tanık gösterme / Benzetme",
+  "correctAnswer": "Örneklendirme",
+  "explanation": "Yazar “örneğin” diyerek çok şeker içeren yiyeceklerden örnekler vermiştir."
+ },
+ {
+  "questionId": "boss-a04-t6-18",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Ana fikir",
+  "outcome": "Bilgilendirici ve öyküleyici metinlerde önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 115 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metnin asıl anlatmak istediği nedir?",
+  "data": {
+   "options": [
+    "Fazla şekerden kaçınıp meyveyi tercih etmeliyiz.",
+    "Gazlı içecekler en iyi enerji kaynağıdır.",
+    "Meyvelerde hiç şeker yoktur."
+   ],
+   "passage": "Şeker, kısa sürede enerji veren bir besindir. Ancak fazla şeker tüketmek dişlerimize ve sağlığımıza zarar verir. Örneğin gazlı içecekler ve paketli tatlılar çok şeker içerir. Bunların yerine meyve yemek hem tatlı ihtiyacımızı karşılar hem de vücudumuza vitamin kazandırır."
+  },
+  "textPlain": "Metin: Şeker, kısa sürede enerji veren bir besindir. Ancak fazla şeker tüketmek dişlerimize ve sağlığımıza zarar verir. Örneğin gazlı içecekler ve paketli tatlılar çok şeker içerir. Bunların yerine meyve yemek hem tatlı ihtiyacımızı karşılar hem de vücudumuza vitamin kazandırır. Soru: Yukarıdaki metnin asıl anlatmak istediği nedir? Seçenekler: Fazla şekerden kaçınıp meyveyi tercih etmeliyiz. / Gazlı içecekler en iyi enerji kaynağıdır. / Meyvelerde hiç şeker yoktur.",
+  "correctAnswer": "Fazla şekerden kaçınıp meyveyi tercih etmeliyiz.",
+  "explanation": "Metin fazla şekerin zararlarını anlatıp tatlı ihtiyacı için meyveyi önerir."
+ },
+ {
+  "questionId": "boss-a04-t6-19",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "İsmin yerini tutan kelime",
+  "outcome": "Düşünceyi geliştirme yollarını, karşılaştırma ve örnekleme ifadelerini, niteleyen ve ismin yerini tutan kelimeleri belirler; metin türlerini ayırt eder.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 145",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Elif ile Mert her sabah koşar. Onlar bunu bir alışkanlık hâline getirdi.” cümlelerinde “bunu” sözcüğü neyin yerini tutar?",
+  "data": {
+   "options": [
+    "Her sabah koşmanın",
+    "Elif ile Mert’in",
+    "Alışkanlığın"
+   ]
+  },
+  "textPlain": "“Elif ile Mert her sabah koşar. Onlar bunu bir alışkanlık hâline getirdi.” cümlelerinde “bunu” sözcüğü neyin yerini tutar? Seçenekler: Her sabah koşmanın / Elif ile Mert’in / Alışkanlığın",
+  "correctAnswer": "Her sabah koşmanın",
+  "explanation": "“Bunu” sözcüğü önceki cümlede anlatılan her sabah koşma işinin yerini tutar."
+ },
+ {
+  "questionId": "boss-a04-t6-20",
+  "grade": 5,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Sağlıklı Yaşıyorum",
+  "topic": "Büyük harf ve sayı",
+  "outcome": "Noktalama işaretlerini, büyük harfleri ve sayıların yazımını kurallara uygun kullanır.",
+  "sourceRef": "MEB Türkçe 5. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Sağlıklı Yaşıyorum”, s. 144",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede yazım doğrudur?",
+  "data": {
+   "options": [
+    "Dünya Sağlık Günü her yıl 7 Nisan’da kutlanır.",
+    "Dünya sağlık günü her yıl 7 nisanda kutlanır.",
+    "dünya Sağlık Günü her yıl 7 Nisanda kutlanır."
+   ]
+  },
+  "textPlain": "Hangi cümlede yazım doğrudur? Seçenekler: Dünya Sağlık Günü her yıl 7 Nisan’da kutlanır. / Dünya sağlık günü her yıl 7 nisanda kutlanır. / dünya Sağlık Günü her yıl 7 Nisanda kutlanır.",
+  "correctAnswer": "Dünya Sağlık Günü her yıl 7 Nisan’da kutlanır.",
+  "explanation": "Özel adlar büyük harfle başlar; belirli tarihlerde ay adı büyük harfle yazılır ve ek kesmeyle ayrılır."
+ }
+]
