@@ -1,0 +1,1564 @@
+[
+ {
+  "questionId": "boss-a08-f7-01",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Endemik canlı",
+  "outcome": "Biyoçeşitliliğin doğal yaşam için önemini sorgular.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 100–101",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Yeryüzünün yalnızca belirli bir bölgesinde yaşayan canlı türlerine ne ad verilir?",
+  "data": {
+   "options": [
+    "Endemik",
+    "Göçmen",
+    "Evcil"
+   ]
+  },
+  "textPlain": "Yeryüzünün yalnızca belirli bir bölgesinde yaşayan canlı türlerine ne ad verilir? Seçenekler: Endemik / Göçmen / Evcil",
+  "correctAnswer": "Endemik",
+  "explanation": "Yalnızca belirli bir bölgede yaşayan türlere endemik tür denir."
+ },
+ {
+  "questionId": "boss-a08-f7-02",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Biyoçeşitlilik",
+  "outcome": "Biyoçeşitliliğin doğal yaşam için önemini sorgular.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 100–101",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir bölgedeki farklı canlı türlerinin zenginliğine ne ad verilir?",
+  "data": {
+   "options": [
+    "Biyoçeşitlilik",
+    "Nüfus",
+    "İklim"
+   ]
+  },
+  "textPlain": "Bir bölgedeki farklı canlı türlerinin zenginliğine ne ad verilir? Seçenekler: Biyoçeşitlilik / Nüfus / İklim",
+  "correctAnswer": "Biyoçeşitlilik",
+  "explanation": "Bir bölgedeki canlı çeşidinin zenginliğine biyoçeşitlilik denir."
+ },
+ {
+  "questionId": "boss-a08-f7-03",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Biyoçeşitliliği etkileyenler",
+  "outcome": "Biyoçeşitliliği tehdit eden faktörleri araştırma verilerine dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 125–126",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Davranışları biyoçeşitliliği tehdit edenler ve koruyanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Tehdit eder",
+    "Korur"
+   ],
+   "items": [
+    [
+     "Kaçak avcılık",
+     0
+    ],
+    [
+     "Ağaçlandırma",
+     1
+    ],
+    [
+     "Bilinçsiz tarım ilacı kullanımı",
+     0
+    ],
+    [
+     "Millî park kurmak",
+     1
+    ],
+    [
+     "Plansız şehirleşme",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Davranışları biyoçeşitliliği tehdit edenler ve koruyanlar diye ayır. (Tehdit eder / Korur) Kartlar: Kaçak avcılık; Ağaçlandırma; Bilinçsiz tarım ilacı kullanımı; Millî park kurmak; Plansız şehirleşme.",
+  "correctAnswer": "Tehdit eder: Kaçak avcılık, Bilinçsiz tarım ilacı kullanımı, Plansız şehirleşme. Korur: Ağaçlandırma, Millî park kurmak.",
+  "explanation": "Kaçak avcılık, bilinçsiz ilaç kullanımı ve plansız şehirleşme biyoçeşitliliği azaltır; ağaçlandırma ve millî parklar korur."
+ },
+ {
+  "questionId": "boss-a08-f7-04",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Karbon monoksit",
+  "outcome": "Isınma amaçlı yakıt kullanımının insan ve çevre üzerine etkilerini tartışır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 116–118",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Karbon monoksit renksiz ve kokusuz bir gazdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Karbon monoksit renksiz ve kokusuz bir gazdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Karbon monoksit renksiz ve kokusuz olduğu için fark edilmesi zordur ve çok tehlikelidir."
+ },
+ {
+  "questionId": "boss-a08-f7-05",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Su kirliliği",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 119–121",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Fabrika atıklarının arıtılmadan nehirlere verilmesi hangi kirliliğe yol açar?",
+  "data": {
+   "options": [
+    "Su kirliliği",
+    "Ses kirliliği",
+    "Işık kirliliği"
+   ]
+  },
+  "textPlain": "Fabrika atıklarının arıtılmadan nehirlere verilmesi hangi kirliliğe yol açar? Seçenekler: Su kirliliği / Ses kirliliği / Işık kirliliği",
+  "correctAnswer": "Su kirliliği",
+  "explanation": "Arıtılmamış atıklar nehir suyunu kirletir."
+ },
+ {
+  "questionId": "boss-a08-f7-06",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Orman yangınları",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 112, 120, 125–126",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Orman yangınlarını önlemek için hangisi yapılmalıdır?",
+  "data": {
+   "options": [
+    "Ormanda ateş yakmamak ve cam şişe bırakmamak",
+    "Ormanda piknik ateşi yakıp bırakmak",
+    "Kuru dalları yakmak"
+   ]
+  },
+  "textPlain": "Orman yangınlarını önlemek için hangisi yapılmalıdır? Seçenekler: Ormanda ateş yakmamak ve cam şişe bırakmamak / Ormanda piknik ateşi yakıp bırakmak / Kuru dalları yakmak",
+  "correctAnswer": "Ormanda ateş yakmamak ve cam şişe bırakmamak",
+  "explanation": "Ormanda yakılan ateş ve güneş ışığını toplayan cam atıklar yangına yol açabilir."
+ },
+ {
+  "questionId": "boss-a08-f7-07",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Endemik canlı",
+  "outcome": "Biyoçeşitliliğin doğal yaşam için önemini sorgular.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 100–101",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Yalnızca Türkiye’de yetişen bir çiçek türü için hangisi söylenebilir?",
+  "data": {
+   "options": [
+    "Endemik bir türdür.",
+    "Göçmen bir türdür.",
+    "Nesli tükenmiştir."
+   ]
+  },
+  "textPlain": "Yalnızca Türkiye’de yetişen bir çiçek türü için hangisi söylenebilir? Seçenekler: Endemik bir türdür. / Göçmen bir türdür. / Nesli tükenmiştir.",
+  "correctAnswer": "Endemik bir türdür.",
+  "explanation": "Yalnızca belirli bir bölgede yaşayan türler endemiktir."
+ },
+ {
+  "questionId": "boss-a08-f7-08",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Neslin tükenmesi",
+  "outcome": "Biyoçeşitliliği tehdit eden faktörleri araştırma verilerine dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 125–126",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir türün bütün bireylerinin yeryüzünden tamamen yok olmasına ne ad verilir?",
+  "data": {
+   "options": [
+    "Neslinin tükenmesi",
+    "Göç",
+    "Biyoçeşitliliğin artması"
+   ]
+  },
+  "textPlain": "Bir türün bütün bireylerinin yeryüzünden tamamen yok olmasına ne ad verilir? Seçenekler: Neslinin tükenmesi / Göç / Biyoçeşitliliğin artması",
+  "correctAnswer": "Neslinin tükenmesi",
+  "explanation": "Bir türün son bireyi de yok olursa o türün nesli tükenmiş olur."
+ },
+ {
+  "questionId": "boss-a08-f7-09",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Karbon monoksit",
+  "outcome": "Isınma amaçlı yakıt kullanımının insan ve çevre üzerine etkilerini tartışır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 116–118",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Karbon monoksit zehirlenmesini önlemek için hangisi yapılmalıdır?",
+  "data": {
+   "options": [
+    "Soba ve bacaları düzenli kontrol ettirmek, odayı havalandırmak",
+    "Pencereleri hep kapalı tutmak",
+    "Sobayı geceleri kısıp yanık bırakmak"
+   ]
+  },
+  "textPlain": "Karbon monoksit zehirlenmesini önlemek için hangisi yapılmalıdır? Seçenekler: Soba ve bacaları düzenli kontrol ettirmek, odayı havalandırmak / Pencereleri hep kapalı tutmak / Sobayı geceleri kısıp yanık bırakmak",
+  "correctAnswer": "Soba ve bacaları düzenli kontrol ettirmek, odayı havalandırmak",
+  "explanation": "Baca ve sobaların bakımı yapılmalı, ortam havalandırılmalı; soba gece kısılıp bırakılmamalıdır."
+ },
+ {
+  "questionId": "boss-a08-f7-10",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Kirlilik türleri",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 119–121",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her kirlilik türünü örneğiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Hava kirliliği",
+     "Fabrika bacalarından çıkan duman"
+    ],
+    [
+     "Su kirliliği",
+     "Denize dökülen atık yağ"
+    ],
+    [
+     "Toprak kirliliği",
+     "Aşırı gübre ve tarım ilacı"
+    ]
+   ]
+  },
+  "textPlain": "Her kirlilik türünü örneğiyle eşleştir. Sol: Hava kirliliği; Su kirliliği; Toprak kirliliği. Sağ: Fabrika bacalarından çıkan duman; Denize dökülen atık yağ; Aşırı gübre ve tarım ilacı.",
+  "correctAnswer": "Hava kirliliği = Fabrika bacalarından çıkan duman; Su kirliliği = Denize dökülen atık yağ; Toprak kirliliği = Aşırı gübre ve tarım ilacı",
+  "explanation": "Duman havayı, atık yağ suyu, aşırı gübre ve ilaç toprağı kirletir."
+ },
+ {
+  "questionId": "boss-a08-f7-11",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Çölleşme",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 112, 120, 125–126",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Çölleşmeyi azaltmak için hangisi yapılmalıdır?",
+  "data": {
+   "options": [
+    "Ağaçlandırma yapmak ve aşırı otlatmayı önlemek",
+    "Ormanları kesmek",
+    "Su kaynaklarını kurutmak"
+   ]
+  },
+  "textPlain": "Çölleşmeyi azaltmak için hangisi yapılmalıdır? Seçenekler: Ağaçlandırma yapmak ve aşırı otlatmayı önlemek / Ormanları kesmek / Su kaynaklarını kurutmak",
+  "correctAnswer": "Ağaçlandırma yapmak ve aşırı otlatmayı önlemek",
+  "explanation": "Ağaçlandırma, aşırı otlatmanın önlenmesi ve su kaynaklarının korunması çölleşmeyi azaltır."
+ },
+ {
+  "questionId": "boss-a08-f7-12",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Habitat",
+  "outcome": "Biyoçeşitliliğin doğal yaşam için önemini sorgular.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 100–101",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir canlının yaşadığı, beslendiği ve barındığı doğal ortama ne ad verilir?",
+  "data": {
+   "options": [
+    "Habitat",
+    "Tür",
+    "İklim"
+   ]
+  },
+  "textPlain": "Bir canlının yaşadığı, beslendiği ve barındığı doğal ortama ne ad verilir? Seçenekler: Habitat / Tür / İklim",
+  "correctAnswer": "Habitat",
+  "explanation": "Canlının yaşadığı doğal ortam habitatıdır."
+ },
+ {
+  "questionId": "boss-a08-f7-13",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Yakıtlar",
+  "outcome": "Isınma amaçlı yakıt kullanımının insan ve çevre üzerine etkilerini tartışır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 116–118",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Isınmada kullanılan yakıtları katı ve gaz yakıt olarak ayır.",
+  "data": {
+   "bins": [
+    "Katı yakıt",
+    "Gaz yakıt"
+   ],
+   "items": [
+    [
+     "Kömür",
+     0
+    ],
+    [
+     "Doğal gaz",
+     1
+    ],
+    [
+     "Odun",
+     0
+    ],
+    [
+     "Tüp gazı",
+     1
+    ],
+    [
+     "Tezek",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Isınmada kullanılan yakıtları katı ve gaz yakıt olarak ayır. (Katı yakıt / Gaz yakıt) Kartlar: Kömür; Doğal gaz; Odun; Tüp gazı; Tezek.",
+  "correctAnswer": "Katı yakıt: Kömür, Odun, Tezek. Gaz yakıt: Doğal gaz, Tüp gazı.",
+  "explanation": "Kömür, odun ve tezek katı; doğal gaz ve tüp gazı gaz yakıtlardır."
+ },
+ {
+  "questionId": "boss-a08-f7-14",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Tehlike altındaki canlılar",
+  "outcome": "Biyoçeşitliliği tehdit eden faktörleri araştırma verilerine dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 125–126",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi nesli tehlike altındaki hayvanların korunmasına yardım eder?",
+  "data": {
+   "options": [
+    "Avlanma yasaklarına uymak",
+    "Yaşam alanlarından yol geçirmek",
+    "Yuvalarına zarar vermek"
+   ]
+  },
+  "textPlain": "Hangisi nesli tehlike altındaki hayvanların korunmasına yardım eder? Seçenekler: Avlanma yasaklarına uymak / Yaşam alanlarından yol geçirmek / Yuvalarına zarar vermek",
+  "correctAnswer": "Avlanma yasaklarına uymak",
+  "explanation": "Avlanma yasaklarına uymak ve yaşam alanlarını korumak bu canlıların neslini sürdürmesine yardım eder."
+ },
+ {
+  "questionId": "boss-a08-f7-15",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Biyoçeşitlilik",
+  "outcome": "Biyoçeşitliliğin doğal yaşam için önemini sorgular.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 100–101",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Birinci bahçede 30 papatya var. İkinci bahçede 5 papatya, 4 gül, 6 lale ve 3 menekşe var. Hangi bahçenin biyoçeşitliliği daha fazladır?",
+  "data": {
+   "options": [
+    "İkinci bahçenin",
+    "Birinci bahçenin",
+    "İkisi eşittir"
+   ]
+  },
+  "textPlain": "Birinci bahçede 30 papatya var. İkinci bahçede 5 papatya, 4 gül, 6 lale ve 3 menekşe var. Hangi bahçenin biyoçeşitliliği daha fazladır? Seçenekler: İkinci bahçenin / Birinci bahçenin / İkisi eşittir",
+  "correctAnswer": "İkinci bahçenin",
+  "explanation": "Biyoçeşitliliği birey sayısı değil, farklı tür sayısı belirler; ikinci bahçede 4 tür vardır."
+ },
+ {
+  "questionId": "boss-a08-f7-16",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Kirliliğin sağlığa etkisi",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 119–121",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hava kirliliğinin insan sağlığına etkisi hangisidir?",
+  "data": {
+   "options": [
+    "Solunum yolu hastalıklarına yol açması",
+    "Kemikleri güçlendirmesi",
+    "Görmeyi keskinleştirmesi"
+   ]
+  },
+  "textPlain": "Hava kirliliğinin insan sağlığına etkisi hangisidir? Seçenekler: Solunum yolu hastalıklarına yol açması / Kemikleri güçlendirmesi / Görmeyi keskinleştirmesi",
+  "correctAnswer": "Solunum yolu hastalıklarına yol açması",
+  "explanation": "Kirli hava solunum yolu hastalıklarına neden olur."
+ },
+ {
+  "questionId": "boss-a08-f7-17",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Karbon monoksit",
+  "outcome": "Isınma amaçlı yakıt kullanımının insan ve çevre üzerine etkilerini tartışır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 116–118",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Sobalı bir evde baca iyi çekmediğinde odada birikerek baş ağrısı ve baş dönmesine yol açan zehirli gaz hangisidir?",
+  "data": {
+   "options": [
+    "Karbon monoksit",
+    "Oksijen",
+    "Su buharı"
+   ]
+  },
+  "textPlain": "Sobalı bir evde baca iyi çekmediğinde odada birikerek baş ağrısı ve baş dönmesine yol açan zehirli gaz hangisidir? Seçenekler: Karbon monoksit / Oksijen / Su buharı",
+  "correctAnswer": "Karbon monoksit",
+  "explanation": "Yakıtların iyi yanmaması sonucu oluşan karbon monoksit zehirlenmeye yol açar."
+ },
+ {
+  "questionId": "boss-a08-f7-18",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Çözüm üretme",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 112, 120, 125–126",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir çevre sorununa çözüm üretmek için atılacak ilk adım hangisidir?",
+  "data": {
+   "options": [
+    "Sorunun nedenlerini araştırmak",
+    "Sorunu görmezden gelmek",
+    "Sorunu başkalarına bırakmak"
+   ]
+  },
+  "textPlain": "Bir çevre sorununa çözüm üretmek için atılacak ilk adım hangisidir? Seçenekler: Sorunun nedenlerini araştırmak / Sorunu görmezden gelmek / Sorunu başkalarına bırakmak",
+  "correctAnswer": "Sorunun nedenlerini araştırmak",
+  "explanation": "Çözüm üretmek için önce sorunun nedenleri araştırılır."
+ },
+ {
+  "questionId": "boss-a08-f7-19",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Tarım ilaçları",
+  "outcome": "Biyoçeşitliliği tehdit eden faktörleri araştırma verilerine dayalı tahmin eder.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 125–126",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Tarım ilaçlarının aşırı kullanımı biyoçeşitliliğe nasıl zarar verir?",
+  "data": {
+   "options": [
+    "İlaçlar besinler yoluyla pek çok canlıya ulaşıp onlara zarar verir.",
+    "Bitkilerin daha hızlı büyümesini sağlar.",
+    "Kuşların sayısını artırır."
+   ]
+  },
+  "textPlain": "Tarım ilaçlarının aşırı kullanımı biyoçeşitliliğe nasıl zarar verir? Seçenekler: İlaçlar besinler yoluyla pek çok canlıya ulaşıp onlara zarar verir. / Bitkilerin daha hızlı büyümesini sağlar. / Kuşların sayısını artırır.",
+  "correctAnswer": "İlaçlar besinler yoluyla pek çok canlıya ulaşıp onlara zarar verir.",
+  "explanation": "Aşırı ilaç yalnızca zararlı böcekleri değil, besin yoluyla diğer canlıları da etkiler."
+ },
+ {
+  "questionId": "boss-a08-f7-20",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Sürdürülebilir Yaşam ve Etkileşim",
+  "topic": "Çevre bilinci",
+  "outcome": "Yakın çevresindeki veya ülkemizdeki bir çevre problemini çözer.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (2. kitap), 7. Ünite “Sürdürülebilir Yaşam ve Etkileşim”, s. 112, 120, 125–126",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "5 Haziran her yıl hangi gün olarak kutlanır?",
+  "data": {
+   "options": [
+    "Dünya Çevre Günü",
+    "Dünya Su Günü",
+    "Ağaç Bayramı"
+   ]
+  },
+  "textPlain": "5 Haziran her yıl hangi gün olarak kutlanır? Seçenekler: Dünya Çevre Günü / Dünya Su Günü / Ağaç Bayramı",
+  "correctAnswer": "Dünya Çevre Günü",
+  "explanation": "5 Haziran Dünya Çevre Günü’dür."
+ },
+ {
+  "questionId": "boss-a08-m7-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Alan birimleri",
+  "outcome": "Alan ölçme birimlerini tanıyabilme, birbirine dönüştürebilme ve alan problemlerinde kullanabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 107",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "1 m² kaç dm²’dir?",
+  "data": {
+   "options": [
+    "100",
+    "10",
+    "1 000"
+   ]
+  },
+  "textPlain": "1 m² kaç dm²’dir? Seçenekler: 100 / 10 / 1 000",
+  "correctAnswer": "100",
+  "explanation": "Alan birimleri arasında her basamakta 100 ile çarpılır: 1 m² = 100 dm²."
+ },
+ {
+  "questionId": "boss-a08-m7-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Paralelkenarın alanı",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 140 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Şekildeki paralelkenarın alanı kaç cm²’dir?",
+  "data": {
+   "answer": 40,
+   "digits": 2,
+   "unit": "cm²",
+   "fig": {
+    "k": "para",
+    "b": 8,
+    "h": 5
+   }
+  },
+  "textPlain": "[Şekil: tabanı 8 cm, bu tabana ait yüksekliği 5 cm olan paralelkenar] Şekildeki paralelkenarın alanı kaç cm²’dir?",
+  "correctAnswer": "40 cm²",
+  "explanation": "Alan = taban × o tabana ait yükseklik = 8 × 5 = 40 cm²."
+ },
+ {
+  "questionId": "boss-a08-m7-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Üçgenin alanı",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 114 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Tabanı 10 cm, bu tabana ait yüksekliği 6 cm olan üçgenin alanı kaç cm²’dir?",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "cm²"
+  },
+  "textPlain": "Tabanı 10 cm, bu tabana ait yüksekliği 6 cm olan üçgenin alanı kaç cm²’dir?",
+  "correctAnswer": "30 cm²",
+  "explanation": "Alan = (taban × yükseklik) ÷ 2 = (10 × 6) ÷ 2 = 30 cm²."
+ },
+ {
+  "questionId": "boss-a08-m7-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Pi sayısı",
+  "outcome": "Çemberin uzunluğu ile çapı arasındaki ilişkiyi (pi sayısı) kullanarak çemberin uzunluğunu ve yarıçapını hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 143",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir çemberin uzunluğunun çapına oranı hangisiyle gösterilir?",
+  "data": {
+   "options": [
+    "π (pi sayısı)",
+    "Yarıçap",
+    "Merkez açı"
+   ]
+  },
+  "textPlain": "Bir çemberin uzunluğunun çapına oranı hangisiyle gösterilir? Seçenekler: π (pi sayısı) / Yarıçap / Merkez açı",
+  "correctAnswer": "π (pi sayısı)",
+  "explanation": "Çemberin uzunluğu ÷ çapı = π’dir."
+ },
+ {
+  "questionId": "boss-a08-m7-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Çap ve yarıçap",
+  "outcome": "Çemberin uzunluğu ile çapı arasındaki ilişkiyi (pi sayısı) kullanarak çemberin uzunluğunu ve yarıçapını hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 150 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir çemberin çapı, yarıçapının iki katıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir çemberin çapı, yarıçapının iki katıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Çap, yarıçapın iki katıdır."
+ },
+ {
+  "questionId": "boss-a08-m7-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Çemberin uzunluğu",
+  "outcome": "Çemberin uzunluğu ile çapı arasındaki ilişkiyi (pi sayısı) kullanarak çemberin uzunluğunu ve yarıçapını hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 143 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Yarıçapı 5 cm olan çemberin uzunluğu kaç cm’dir? (π = 3 alınız.)",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Yarıçapı 5 cm olan çemberin uzunluğu kaç cm’dir? (π = 3 alınız.)",
+  "correctAnswer": "30 cm",
+  "explanation": "Çemberin uzunluğu = 2 × π × r = 2 × 3 × 5 = 30 cm."
+ },
+ {
+  "questionId": "boss-a08-m7-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Tam açı",
+  "outcome": "Merkez açının ölçüsü ile gördüğü yayın uzunluğu arasındaki ilişkiyi kullanarak problem çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 154 (şekil ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir çemberin merkezindeki tam açı kaç derecedir?",
+  "data": {
+   "options": [
+    "360",
+    "180",
+    "90"
+   ]
+  },
+  "textPlain": "Bir çemberin merkezindeki tam açı kaç derecedir? Seçenekler: 360 / 180 / 90",
+  "correctAnswer": "360",
+  "explanation": "Çemberin merkezindeki tam açı 360°’dir."
+ },
+ {
+  "questionId": "boss-a08-m7-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Alan birimleri",
+  "outcome": "Alan ölçme birimlerini tanıyabilme, birbirine dönüştürebilme ve alan problemlerinde kullanabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 107",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "3 m² kaç cm²’dir?",
+  "data": {
+   "answer": 30000,
+   "digits": 5,
+   "unit": "cm²"
+  },
+  "textPlain": "3 m² kaç cm²’dir?",
+  "correctAnswer": "30000 cm²",
+  "explanation": "1 m² = 10 000 cm²; 3 × 10 000 = 30 000 cm²."
+ },
+ {
+  "questionId": "boss-a08-m7-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Yükseklik",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 140 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Alanı 48 cm² olan bir paralelkenarın bir tabanı 8 cm’dir. Bu tabana ait yükseklik kaç cm’dir?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Alanı 48 cm² olan bir paralelkenarın bir tabanı 8 cm’dir. Bu tabana ait yükseklik kaç cm’dir?",
+  "correctAnswer": "6 cm",
+  "explanation": "48 ÷ 8 = 6 cm."
+ },
+ {
+  "questionId": "boss-a08-m7-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Çemberin uzunluğu",
+  "outcome": "Çemberin uzunluğu ile çapı arasındaki ilişkiyi (pi sayısı) kullanarak çemberin uzunluğunu ve yarıçapını hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 143 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Çapı 14 cm olan çemberin uzunluğu kaç cm’dir? (π = 3 alınız.)",
+  "data": {
+   "answer": 42,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Çapı 14 cm olan çemberin uzunluğu kaç cm’dir? (π = 3 alınız.)",
+  "correctAnswer": "42 cm",
+  "explanation": "Çemberin uzunluğu = π × çap = 3 × 14 = 42 cm."
+ },
+ {
+  "questionId": "boss-a08-m7-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Merkez açı ve yay",
+  "outcome": "Merkez açının ölçüsü ile gördüğü yayın uzunluğu arasındaki ilişkiyi kullanarak problem çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 154 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Uzunluğu 36 cm olan bir çemberde 90°’lik merkez açının gördüğü yay kaç cm’dir?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Uzunluğu 36 cm olan bir çemberde 90°’lik merkez açının gördüğü yay kaç cm’dir?",
+  "correctAnswer": "9 cm",
+  "explanation": "90°, 360°’nin dörtte biridir: 36 ÷ 4 = 9 cm."
+ },
+ {
+  "questionId": "boss-a08-m7-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Yükseklik",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 114 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir üçgende bir kenara ait yükseklik nasıl çizilir?",
+  "data": {
+   "options": [
+    "Karşı köşeden o kenara (ya da uzantısına) dik olarak",
+    "Kenarın orta noktasından karşı köşeye",
+    "İki köşeyi birleştirerek"
+   ]
+  },
+  "textPlain": "Bir üçgende bir kenara ait yükseklik nasıl çizilir? Seçenekler: Karşı köşeden o kenara (ya da uzantısına) dik olarak / Kenarın orta noktasından karşı köşeye / İki köşeyi birleştirerek",
+  "correctAnswer": "Karşı köşeden o kenara (ya da uzantısına) dik olarak",
+  "explanation": "Yükseklik, karşı köşeden kenara ya da kenarın uzantısına çizilen dik doğru parçasıdır."
+ },
+ {
+  "questionId": "boss-a08-m7-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Alan bağıntıları",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 134 (şekil ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her şekli alan bağıntısıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Paralelkenar",
+     "taban × yükseklik"
+    ],
+    [
+     "Üçgen",
+     "(taban × yükseklik) ÷ 2"
+    ],
+    [
+     "Dikdörtgen",
+     "uzun kenar × kısa kenar"
+    ]
+   ]
+  },
+  "textPlain": "Her şekli alan bağıntısıyla eşleştir. Sol: Paralelkenar; Üçgen; Dikdörtgen. Sağ: taban × yükseklik; (taban × yükseklik) ÷ 2; uzun kenar × kısa kenar.",
+  "correctAnswer": "Paralelkenar = taban × yükseklik; Üçgen = (taban × yükseklik) ÷ 2; Dikdörtgen = uzun kenar × kısa kenar",
+  "explanation": "Üçgenin alanı, aynı taban ve yükseklikteki paralelkenarın yarısıdır."
+ },
+ {
+  "questionId": "boss-a08-m7-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Alan birimleri",
+  "outcome": "Alan ölçme birimlerini tanıyabilme, birbirine dönüştürebilme ve alan problemlerinde kullanabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 107",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Alan ölçme birimlerini BÜYÜKTEN KÜÇÜĞE sırala.",
+  "data": {
+   "items": [
+    "km²",
+    "m²",
+    "dm²",
+    "cm²"
+   ]
+  },
+  "textPlain": "Alan ölçme birimlerini BÜYÜKTEN KÜÇÜĞE sırala. Kartlar: dm²; cm²; m²; km².",
+  "correctAnswer": "km² → m² → dm² → cm²",
+  "explanation": "Büyükten küçüğe: km², (hm², dam²), m², dm², cm²."
+ },
+ {
+  "questionId": "boss-a08-m7-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Merkez açı",
+  "outcome": "Merkez açının ölçüsü ile gördüğü yayın uzunluğu arasındaki ilişkiyi kullanarak problem çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 154 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Uzunluğu 48 cm olan bir çemberde 12 cm’lik yayı gören merkez açı kaç derecedir?",
+  "data": {
+   "answer": 90,
+   "digits": 2,
+   "unit": "°"
+  },
+  "textPlain": "Uzunluğu 48 cm olan bir çemberde 12 cm’lik yayı gören merkez açı kaç derecedir?",
+  "correctAnswer": "90°",
+  "explanation": "12 cm, 48 cm’nin dörtte biridir; 360 ÷ 4 = 90°."
+ },
+ {
+  "questionId": "boss-a08-m7-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Alan problemi",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 134 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Tabanı 12 m, bu tabana ait yüksekliği 7 m olan paralelkenar biçimli bahçenin yarısına çim ekilecek. Kaç m² alana çim ekilir?",
+  "data": {
+   "answer": 42,
+   "digits": 2,
+   "unit": "m²"
+  },
+  "textPlain": "Tabanı 12 m, bu tabana ait yüksekliği 7 m olan paralelkenar biçimli bahçenin yarısına çim ekilecek. Kaç m² alana çim ekilir?",
+  "correctAnswer": "42 m²",
+  "explanation": "Bahçenin alanı 12 × 7 = 84 m²; yarısı 42 m²."
+ },
+ {
+  "questionId": "boss-a08-m7-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Yarıçap",
+  "outcome": "Çemberin uzunluğu ile çapı arasındaki ilişkiyi (pi sayısı) kullanarak çemberin uzunluğunu ve yarıçapını hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 143 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Uzunluğu 54 cm olan çemberin yarıçapı kaç cm’dir? (π = 3 alınız.)",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Uzunluğu 54 cm olan çemberin yarıçapı kaç cm’dir? (π = 3 alınız.)",
+  "correctAnswer": "9 cm",
+  "explanation": "2 × 3 × r = 54 ise 6r = 54, r = 9 cm."
+ },
+ {
+  "questionId": "boss-a08-m7-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Yükseklik",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 114 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Geniş açılı bir üçgende dar açılı köşeden çizilen yükseklik nerede kalabilir?",
+  "data": {
+   "options": [
+    "Üçgenin dışında",
+    "Her zaman üçgenin içinde",
+    "Kenarın tam ortasında"
+   ]
+  },
+  "textPlain": "Geniş açılı bir üçgende dar açılı köşeden çizilen yükseklik nerede kalabilir? Seçenekler: Üçgenin dışında / Her zaman üçgenin içinde / Kenarın tam ortasında",
+  "correctAnswer": "Üçgenin dışında",
+  "explanation": "Geniş açılı üçgende bazı yükseklikler kenarın uzantısına iner ve üçgenin dışında kalır."
+ },
+ {
+  "questionId": "boss-a08-m7-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Üçgenin alanı",
+  "outcome": "Bir kenara ait yüksekliği belirleyerek paralelkenar ve üçgenin alanını hesaplayabilme; alan problemlerini çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 114 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Alanı 24 cm² olan bir üçgenin bir tabanı 8 cm’dir. Bu tabana ait yükseklik kaç cm’dir?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Alanı 24 cm² olan bir üçgenin bir tabanı 8 cm’dir. Bu tabana ait yükseklik kaç cm’dir?",
+  "correctAnswer": "6 cm",
+  "explanation": "(8 × h) ÷ 2 = 24 ise 8 × h = 48, h = 6 cm."
+ },
+ {
+  "questionId": "boss-a08-m7-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Tema: Geometrik Nicelikler",
+  "topic": "Çemberin uzunluğu",
+  "outcome": "Çemberin uzunluğu ile çapı arasındaki ilişkiyi (pi sayısı) kullanarak çemberin uzunluğunu ve yarıçapını hesaplayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 2. Kitap, 7. Tema “Geometrik Nicelikler”, s. 143 (şekil ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Yarıçapı 30 cm olan bir bisiklet tekerleği 10 tam tur dönüyor. Bisiklet kaç cm yol alır? (π = 3 alınız.)",
+  "data": {
+   "answer": 1800,
+   "digits": 4,
+   "unit": "cm"
+  },
+  "textPlain": "Yarıçapı 30 cm olan bir bisiklet tekerleği 10 tam tur dönüyor. Bisiklet kaç cm yol alır? (π = 3 alınız.)",
+  "correctAnswer": "1800 cm",
+  "explanation": "Bir turda 2 × 3 × 30 = 180 cm; 10 turda 1 800 cm."
+ },
+ {
+  "questionId": "boss-a08-t6-01",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Azim",
+  "outcome": "Metinlerdeki kişilerin liderlik özelliklerini belirler ve değerlendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 112",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Zorluklara rağmen hedefinden vazgeçmeyen bir kişinin en belirgin özelliği hangisidir?",
+  "data": {
+   "options": [
+    "Azim",
+    "Kıskançlık",
+    "Tembellik"
+   ]
+  },
+  "textPlain": "Zorluklara rağmen hedefinden vazgeçmeyen bir kişinin en belirgin özelliği hangisidir? Seçenekler: Azim / Kıskançlık / Tembellik",
+  "correctAnswer": "Azim",
+  "explanation": "Hedefinden vazgeçmeden çalışmak azimdir."
+ },
+ {
+  "questionId": "boss-a08-t6-02",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Deyim",
+  "outcome": "Kelimelerin ve deyimlerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 139",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Dümen kırmak” deyiminin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Yön değiştirmek",
+    "Gemiyi batırmak",
+    "Gemiyi tamir etmek"
+   ]
+  },
+  "textPlain": "“Dümen kırmak” deyiminin anlamı hangisidir? Seçenekler: Yön değiştirmek / Gemiyi batırmak / Gemiyi tamir etmek",
+  "correctAnswer": "Yön değiştirmek",
+  "explanation": "“Dümen kırmak” bir yönden başka bir yöne dönmek demektir."
+ },
+ {
+  "questionId": "boss-a08-t6-03",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Olumsuzluk",
+  "outcome": "Olumsuzluk ve benzerlik işlevli söz varlıklarını belirler; noktalama işaretlerini işlevlerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 121",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede olumsuzluk bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Yarıştan asla vazgeçmedi.",
+    "Yarışı birinci bitirdi.",
+    "Her gün düzenli çalıştı."
+   ]
+  },
+  "textPlain": "Hangi cümlede olumsuzluk bildiren bir ifade vardır? Seçenekler: Yarıştan asla vazgeçmedi. / Yarışı birinci bitirdi. / Her gün düzenli çalıştı.",
+  "correctAnswer": "Yarıştan asla vazgeçmedi.",
+  "explanation": "“Vazgeçmedi” fiili olumsuzluk eki “-me” almıştır."
+ },
+ {
+  "questionId": "boss-a08-t6-04",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Hoşgörü",
+  "outcome": "Metinlerdeki kişilerin liderlik özelliklerini belirler ve değerlendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 112",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Hoşgörülü bir lider farklı düşüncelere saygı gösterir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Hoşgörülü bir lider farklı düşüncelere saygı gösterir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Hoşgörü, farklı düşüncelere anlayışla yaklaşmaktır."
+ },
+ {
+  "questionId": "boss-a08-t6-05",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Piri Reis",
+  "outcome": "Metinlerde tanıtılan kişilerin başarılarını ve topluma katkılarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 155",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Piri Reis hangi alandaki çalışmalarıyla tanınır?",
+  "data": {
+   "options": [
+    "Denizcilik ve haritacılık",
+    "Resim",
+    "Tıp"
+   ]
+  },
+  "textPlain": "Piri Reis hangi alandaki çalışmalarıyla tanınır? Seçenekler: Denizcilik ve haritacılık / Resim / Tıp",
+  "correctAnswer": "Denizcilik ve haritacılık",
+  "explanation": "Piri Reis denizci ve haritacıdır; dünya haritasıyla tanınır."
+ },
+ {
+  "questionId": "boss-a08-t6-06",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Benzerlik",
+  "outcome": "Olumsuzluk ve benzerlik işlevli söz varlıklarını belirler; noktalama işaretlerini işlevlerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 121",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede benzerlik bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Kardeşi de onun gibi çok çalışkandı.",
+    "Kardeşi çok çalışkandı.",
+    "Kardeşi hiç çalışmadı."
+   ]
+  },
+  "textPlain": "Hangi cümlede benzerlik bildiren bir ifade vardır? Seçenekler: Kardeşi de onun gibi çok çalışkandı. / Kardeşi çok çalışkandı. / Kardeşi hiç çalışmadı.",
+  "correctAnswer": "Kardeşi de onun gibi çok çalışkandı.",
+  "explanation": "“Onun gibi” benzerlik bildirir."
+ },
+ {
+  "questionId": "boss-a08-t6-07",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Kelime anlamı",
+  "outcome": "Kelimelerin ve deyimlerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 139",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Arkeolog” kimdir?",
+  "data": {
+   "options": [
+    "Eski uygarlıklardan kalan eserleri kazı yaparak inceleyen bilim insanı",
+    "Gemi kaptanı",
+    "Yıldızları inceleyen bilim insanı"
+   ]
+  },
+  "textPlain": "“Arkeolog” kimdir? Seçenekler: Eski uygarlıklardan kalan eserleri kazı yaparak inceleyen bilim insanı / Gemi kaptanı / Yıldızları inceleyen bilim insanı",
+  "correctAnswer": "Eski uygarlıklardan kalan eserleri kazı yaparak inceleyen bilim insanı",
+  "explanation": "Arkeolog, kazılarla geçmiş uygarlıkları inceler."
+ },
+ {
+  "questionId": "boss-a08-t6-08",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Liderlik özellikleri",
+  "outcome": "Metinlerdeki kişilerin liderlik özelliklerini belirler ve değerlendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 112",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Davranışları liderlik özelliği olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Liderlik özelliği",
+    "Liderlik özelliği değil"
+   ],
+   "items": [
+    [
+     "Sorumluluk almak",
+     0
+    ],
+    [
+     "Başkalarını dinlemek",
+     0
+    ],
+    [
+     "Kimseye söz hakkı vermemek",
+     1
+    ],
+    [
+     "Girişken olmak",
+     0
+    ],
+    [
+     "Hatalarını başkasına yüklemek",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Davranışları liderlik özelliği olanlar ve olmayanlar diye ayır. (Liderlik özelliği / Liderlik özelliği değil) Kartlar: Sorumluluk almak; Başkalarını dinlemek; Kimseye söz hakkı vermemek; Girişken olmak; Hatalarını başkasına yüklemek.",
+  "correctAnswer": "Liderlik özelliği: Sorumluluk almak, Başkalarını dinlemek, Girişken olmak. Liderlik özelliği değil: Kimseye söz hakkı vermemek, Hatalarını başkasına yüklemek.",
+  "explanation": "İyi bir lider sorumluluk alır, dinler, girişkendir; başkalarını susturmaz ve hatalarını üstlenir."
+ },
+ {
+  "questionId": "boss-a08-t6-09",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Kesme işareti",
+  "outcome": "Olumsuzluk ve benzerlik işlevli söz varlıklarını belirler; noktalama işaretlerini işlevlerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 121",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede kesme işareti doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "İbni Sina’nın eserleri pek çok dile çevrildi.",
+    "İbni Sinanın eserleri pek çok dile çevrildi.",
+    "İbni sina’nın eserleri pek çok dile çevrildi."
+   ]
+  },
+  "textPlain": "Hangi cümlede kesme işareti doğru kullanılmıştır? Seçenekler: İbni Sina’nın eserleri pek çok dile çevrildi. / İbni Sinanın eserleri pek çok dile çevrildi. / İbni sina’nın eserleri pek çok dile çevrildi.",
+  "correctAnswer": "İbni Sina’nın eserleri pek çok dile çevrildi.",
+  "explanation": "Özel isimlere gelen ekler kesmeyle ayrılır; özel isimler büyük harfle başlar."
+ },
+ {
+  "questionId": "boss-a08-t6-10",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "İbni Sina",
+  "outcome": "Metinlerde tanıtılan kişilerin başarılarını ve topluma katkılarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 155",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "İbni Sina daha çok hangi alanda yaptığı çalışmalarla tanınır?",
+  "data": {
+   "options": [
+    "Tıp",
+    "Denizcilik",
+    "Spor"
+   ]
+  },
+  "textPlain": "İbni Sina daha çok hangi alanda yaptığı çalışmalarla tanınır? Seçenekler: Tıp / Denizcilik / Spor",
+  "correctAnswer": "Tıp",
+  "explanation": "İbni Sina çok yönlü bir bilim insanıdır; en çok tıp alanındaki eserleriyle tanınır."
+ },
+ {
+  "questionId": "boss-a08-t6-11",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Deyimler",
+  "outcome": "Kelimelerin ve deyimlerin anlamlarını bağlamdan ve sözlükten belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 139",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her deyimi anlamıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Göze girmek",
+     "Beğenilip sevilmek"
+    ],
+    [
+     "Ter dökmek",
+     "Çok emek harcamak"
+    ],
+    [
+     "Pes etmek",
+     "Vazgeçmek, yenilgiyi kabul etmek"
+    ]
+   ]
+  },
+  "textPlain": "Her deyimi anlamıyla eşleştir. Sol: Göze girmek; Ter dökmek; Pes etmek. Sağ: Beğenilip sevilmek; Çok emek harcamak; Vazgeçmek, yenilgiyi kabul etmek.",
+  "correctAnswer": "Göze girmek = Beğenilip sevilmek; Ter dökmek = Çok emek harcamak; Pes etmek = Vazgeçmek, yenilgiyi kabul etmek",
+  "explanation": "Deyimler gerçek anlamlarından farklı, kalıplaşmış anlamlar taşır."
+ },
+ {
+  "questionId": "boss-a08-t6-12",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Atasözü",
+  "outcome": "Metinlerdeki kişilerin liderlik özelliklerini belirler ve değerlendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 112",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Sabırla koruk helva olur.” atasözü hangi özelliği vurgular?",
+  "data": {
+   "options": [
+    "Sabır",
+    "Cesaret",
+    "Cömertlik"
+   ]
+  },
+  "textPlain": "“Sabırla koruk helva olur.” atasözü hangi özelliği vurgular? Seçenekler: Sabır / Cesaret / Cömertlik",
+  "correctAnswer": "Sabır",
+  "explanation": "Sabırla beklenirse zor işler de güzel sonuçlanır."
+ },
+ {
+  "questionId": "boss-a08-t6-13",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Yazım",
+  "outcome": "Olumsuzluk ve benzerlik işlevli söz varlıklarını belirler; noktalama işaretlerini işlevlerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 121",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlenin yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Ödülü alınca o da çok sevindi.",
+    "Ödülü alınca oda çok sevindi.",
+    "Ödülü alınca o’da çok sevindi."
+   ]
+  },
+  "textPlain": "Hangi cümlenin yazımı doğrudur? Seçenekler: Ödülü alınca o da çok sevindi. / Ödülü alınca oda çok sevindi. / Ödülü alınca o’da çok sevindi.",
+  "correctAnswer": "Ödülü alınca o da çok sevindi.",
+  "explanation": "“Da” bağlacı ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a08-t6-14",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Biyografi",
+  "outcome": "Metinlerde tanıtılan kişilerin başarılarını ve topluma katkılarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 155",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir kişinin hayatını, başarılarını ve topluma katkılarını anlatan metne ne ad verilir?",
+  "data": {
+   "options": [
+    "Biyografi",
+    "Masal",
+    "Fıkra"
+   ]
+  },
+  "textPlain": "Bir kişinin hayatını, başarılarını ve topluma katkılarını anlatan metne ne ad verilir? Seçenekler: Biyografi / Masal / Fıkra",
+  "correctAnswer": "Biyografi",
+  "explanation": "Bir kişinin hayatını anlatan metinlere biyografi denir."
+ },
+ {
+  "questionId": "boss-a08-t6-15",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Önemli bilgi",
+  "outcome": "Okuduğu metindeki önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 149 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre Elif’in başarısının nedeni nedir?",
+  "data": {
+   "options": [
+    "Vazgeçmeden düzenli çalışması",
+    "Hiç ıskalamaması",
+    "Antrenmanlara gitmemesi"
+   ],
+   "passage": "Elif, küçük yaşta okçulukla tanıştı. İlk yıllarında oklarının çoğu hedefi ıskaladı ama o her gün antrenmana gitti. Antrenörü ona sık sık “Ok yaydan çıkmadan önce zihninde hedefe ulaşmalı.” derdi. Yıllar sonra Elif, uluslararası bir yarışmada altın madalya kazandı."
+  },
+  "textPlain": "Metin: Elif, küçük yaşta okçulukla tanıştı. İlk yıllarında oklarının çoğu hedefi ıskaladı ama o her gün antrenmana gitti. Antrenörü ona sık sık “Ok yaydan çıkmadan önce zihninde hedefe ulaşmalı.” derdi. Yıllar sonra Elif, uluslararası bir yarışmada altın madalya kazandı. Soru: Yukarıdaki metne göre Elif’in başarısının nedeni nedir? Seçenekler: Vazgeçmeden düzenli çalışması / Hiç ıskalamaması / Antrenmanlara gitmemesi",
+  "correctAnswer": "Vazgeçmeden düzenli çalışması",
+  "explanation": "Metinde Elif’in ilk yıllarda ıskalamasına rağmen her gün antrenmana gittiği anlatılır."
+ },
+ {
+  "questionId": "boss-a08-t6-16",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Derin anlam",
+  "outcome": "Okuduğu metindeki önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 149 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde antrenörün sözü neyi anlatmaktadır?",
+  "data": {
+   "options": [
+    "Atıştan önce odaklanmanın önemini",
+    "Okların pahalı olduğunu",
+    "Antrenmanın gereksiz olduğunu"
+   ],
+   "passage": "Elif, küçük yaşta okçulukla tanıştı. İlk yıllarında oklarının çoğu hedefi ıskaladı ama o her gün antrenmana gitti. Antrenörü ona sık sık “Ok yaydan çıkmadan önce zihninde hedefe ulaşmalı.” derdi. Yıllar sonra Elif, uluslararası bir yarışmada altın madalya kazandı."
+  },
+  "textPlain": "Metin: Elif, küçük yaşta okçulukla tanıştı. İlk yıllarında oklarının çoğu hedefi ıskaladı ama o her gün antrenmana gitti. Antrenörü ona sık sık “Ok yaydan çıkmadan önce zihninde hedefe ulaşmalı.” derdi. Yıllar sonra Elif, uluslararası bir yarışmada altın madalya kazandı. Soru: Yukarıdaki metinde antrenörün sözü neyi anlatmaktadır? Seçenekler: Atıştan önce odaklanmanın önemini / Okların pahalı olduğunu / Antrenmanın gereksiz olduğunu",
+  "correctAnswer": "Atıştan önce odaklanmanın önemini",
+  "explanation": "Okun önce “zihinde” hedefe ulaşması, atıştan önce odaklanmayı anlatır."
+ },
+ {
+  "questionId": "boss-a08-t6-17",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Öncü kadınlar",
+  "outcome": "Metinlerde tanıtılan kişilerin başarılarını ve topluma katkılarını belirler.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 155",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Jale İnan, ülkemizin ilk kadın arkeoloğudur. Bu bilgiye göre Jale İnan hangi alanda öncüdür?",
+  "data": {
+   "options": [
+    "Arkeoloji",
+    "Tıp",
+    "Denizcilik"
+   ]
+  },
+  "textPlain": "Jale İnan, ülkemizin ilk kadın arkeoloğudur. Bu bilgiye göre Jale İnan hangi alanda öncüdür? Seçenekler: Arkeoloji / Tıp / Denizcilik",
+  "correctAnswer": "Arkeoloji",
+  "explanation": "Soruda verilen bilgiye göre Jale İnan arkeoloji alanında öncüdür."
+ },
+ {
+  "questionId": "boss-a08-t6-18",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Girişkenlik",
+  "outcome": "Metinlerdeki kişilerin liderlik özelliklerini belirler ve değerlendirir.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 112",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Okulda geri dönüşüm kulübü kurmak için ilk adımı atan öğrencinin bu davranışı hangi özelliğini gösterir?",
+  "data": {
+   "options": [
+    "Girişkenlik",
+    "Çekingenlik",
+    "Kıskançlık"
+   ]
+  },
+  "textPlain": "Okulda geri dönüşüm kulübü kurmak için ilk adımı atan öğrencinin bu davranışı hangi özelliğini gösterir? Seçenekler: Girişkenlik / Çekingenlik / Kıskançlık",
+  "correctAnswer": "Girişkenlik",
+  "explanation": "Bir işi başlatmak için ilk adımı atmak girişkenliktir."
+ },
+ {
+  "questionId": "boss-a08-t6-19",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Olumsuzluk",
+  "outcome": "Olumsuzluk ve benzerlik işlevli söz varlıklarını belirler; noktalama işaretlerini işlevlerine uygun kullanır.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 121",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Başarı tesadüf değildir.” cümlesinde olumsuzluğu sağlayan kelime hangisidir?",
+  "data": {
+   "options": [
+    "değildir",
+    "başarı",
+    "tesadüf"
+   ]
+  },
+  "textPlain": "“Başarı tesadüf değildir.” cümlesinde olumsuzluğu sağlayan kelime hangisidir? Seçenekler: değildir / başarı / tesadüf",
+  "correctAnswer": "değildir",
+  "explanation": "“Değil” kelimesi cümleye olumsuzluk anlamı katar."
+ },
+ {
+  "questionId": "boss-a08-t6-20",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "6. Tema: Lider Ruhlar",
+  "topic": "Çıkarım",
+  "outcome": "Okuduğu metindeki önemli bilgileri belirler, metinden çıkarım yapar.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 2. Kitap, 6. Tema “Lider Ruhlar”, s. 149 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Piri Reis haritasını hazırlarken pek çok eski haritadan ve denizcilerin anlattıklarından yararlanmıştır. Bu bilgiden hangi çıkarım yapılabilir?",
+  "data": {
+   "options": [
+    "Bilgi toplamaya ve araştırmaya önem vermiştir.",
+    "Hiç denize açılmamıştır.",
+    "Haritaları yalnızca ezberlemiştir."
+   ]
+  },
+  "textPlain": "Piri Reis haritasını hazırlarken pek çok eski haritadan ve denizcilerin anlattıklarından yararlanmıştır. Bu bilgiden hangi çıkarım yapılabilir? Seçenekler: Bilgi toplamaya ve araştırmaya önem vermiştir. / Hiç denize açılmamıştır. / Haritaları yalnızca ezberlemiştir.",
+  "correctAnswer": "Bilgi toplamaya ve araştırmaya önem vermiştir.",
+  "explanation": "Farklı kaynaklardan yararlanmak araştırmaya önem verdiğini gösterir."
+ }
+]
