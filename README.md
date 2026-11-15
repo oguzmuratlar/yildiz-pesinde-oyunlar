@@ -35,6 +35,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Fener Balığı (Macera canavarı · Arena 3) | macera-5-fener-baligi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-fener-baligi/1.0.0/index.html` |
 | Kraken (Macera canavarı · Arena 4) | macera-5-kraken | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-kraken/1.0.0/index.html` |
 | Hindistan Cevizi Yengeci (Macera canavarı · Arena 5) | macera-6-hindistan-cevizi-yengeci | 1.0.0 | Karışık | 6 | Dikey | `/macera-6-hindistan-cevizi-yengeci/1.0.0/index.html` |
+| Dev Bukalemun (Macera canavarı · Arena 6) | macera-6-dev-bukalemun | 1.0.0 | Karışık | 6 | Dikey | `/macera-6-dev-bukalemun/1.0.0/index.html` |
 
 ## Uyumluluk
 

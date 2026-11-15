@@ -1,0 +1,2634 @@
+[
+ {
+  "questionId": "boss-a06-f3-01",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Eşeyli üreme",
+  "outcome": "Canlılarda eşeyli ve eşeysiz üremeyi karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 83–86",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Dişi ve erkek üreme hücrelerinin birleşmesiyle gerçekleşen üreme hangisidir?",
+  "data": {
+   "options": [
+    "Eşeyli üreme",
+    "Eşeysiz üreme",
+    "Rejenerasyon ile üreme"
+   ]
+  },
+  "textPlain": "Dişi ve erkek üreme hücrelerinin birleşmesiyle gerçekleşen üreme hangisidir? Seçenekler: Eşeyli üreme / Eşeysiz üreme / Rejenerasyon ile üreme",
+  "correctAnswer": "Eşeyli üreme",
+  "explanation": "Dişi ve erkek üreme hücrelerinin birleşmesiyle gerçekleşen üremeye eşeyli üreme denir; eşeysiz üremede üreme hücreleri görev almaz."
+ },
+ {
+  "questionId": "boss-a06-f3-02",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Eşeysiz üreme çeşitleri",
+  "outcome": "Canlılarda eşeyli ve eşeysiz üremeyi karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 84–85",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Her canlıyı görülen eşeysiz üreme çeşidiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Çilek",
+     "Vejetatif üreme"
+    ],
+    [
+     "Amip",
+     "Bölünme ile üreme"
+    ],
+    [
+     "Maya mantarı",
+     "Tomurcuklanma ile üreme"
+    ]
+   ]
+  },
+  "textPlain": "Her canlıyı görülen eşeysiz üreme çeşidiyle eşleştir. Sol: Çilek; Amip; Maya mantarı. Sağ: Vejetatif üreme; Bölünme ile üreme; Tomurcuklanma ile üreme.",
+  "correctAnswer": "Çilek = Vejetatif üreme; Amip = Bölünme ile üreme; Maya mantarı = Tomurcuklanma ile üreme",
+  "explanation": "Çilekte kök/gövdeden yeni bitki oluşur (vejetatif), amip ikiye bölünür, maya mantarında tomurcuk oluşur."
+ },
+ {
+  "questionId": "boss-a06-f3-03",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Eşeysiz üreme",
+  "outcome": "Canlılarda eşeyli ve eşeysiz üremeyi karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 86",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Eşeysiz üreme sonucu oluşan bireyler ana canlıyla aynı kalıtsal yapıdadır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Eşeysiz üreme sonucu oluşan bireyler ana canlıyla aynı kalıtsal yapıdadır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Eşeysiz üremede üreme hücreleri görev almadığından oluşan bireyler ana canlıyla aynı kalıtsal yapıdadır."
+ },
+ {
+  "questionId": "boss-a06-f3-04",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Çimlenme",
+  "outcome": "Tohumun çimlenmesine etki eden faktörlere ilişkin deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 94–96",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Tohumun çimlenmesi için hangisine İHTİYAÇ YOKTUR?",
+  "data": {
+   "options": [
+    "Işık",
+    "Su",
+    "Uygun sıcaklık"
+   ]
+  },
+  "textPlain": "Tohumun çimlenmesi için hangisine İHTİYAÇ YOKTUR? Seçenekler: Işık / Su / Uygun sıcaklık",
+  "correctAnswer": "Işık",
+  "explanation": "Su, oksijen ve sıcaklık çimlenmeye etki eder; tohumun çimlenmesi için ışığa ihtiyaç yoktur."
+ },
+ {
+  "questionId": "boss-a06-f3-05",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Merkezî sinir sistemi",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 111",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Merkezî sinir sistemi hangi yapılardan oluşur?",
+  "data": {
+   "options": [
+    "Beyin ve omurilik",
+    "Kalp ve damarlar",
+    "Mide ve bağırsak"
+   ]
+  },
+  "textPlain": "Merkezî sinir sistemi hangi yapılardan oluşur? Seçenekler: Beyin ve omurilik / Kalp ve damarlar / Mide ve bağırsak",
+  "correctAnswer": "Beyin ve omurilik",
+  "explanation": "Merkezî sinir sistemi beyin ve omurilikten oluşur."
+ },
+ {
+  "questionId": "boss-a06-f3-06",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Başkalaşım",
+  "outcome": "Bitki ve hayvanlarda üreme, büyüme ve gelişme süreçlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 100–101",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi hayvan gelişimi sırasında başkalaşım geçirir?",
+  "data": {
+   "options": [
+    "Kurbağa",
+    "Kedi",
+    "Tavuk"
+   ]
+  },
+  "textPlain": "Hangi hayvan gelişimi sırasında başkalaşım geçirir? Seçenekler: Kurbağa / Kedi / Tavuk",
+  "correctAnswer": "Kurbağa",
+  "explanation": "Kurbağa ve kelebek gibi hayvanlar gelişirken farklı evrelerden geçer; bu olaya başkalaşım denir."
+ },
+ {
+  "questionId": "boss-a06-f3-07",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "İç salgı bezleri",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 115",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kandaki şeker oranını azaltan insülin hormonunu hangi bez salgılar?",
+  "data": {
+   "options": [
+    "Pankreas",
+    "Tiroit bezi",
+    "Hipofiz bezi"
+   ]
+  },
+  "textPlain": "Kandaki şeker oranını azaltan insülin hormonunu hangi bez salgılar? Seçenekler: Pankreas / Tiroit bezi / Hipofiz bezi",
+  "correctAnswer": "Pankreas",
+  "explanation": "Pankreas insülin ve glukagon salgılar; insülin kandaki şeker oranını azaltır."
+ },
+ {
+  "questionId": "boss-a06-f3-08",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Eşeyli ve eşeysiz üreme",
+  "outcome": "Canlılarda eşeyli ve eşeysiz üremeyi karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 86",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Her özelliği doğru üreme çeşidinin kutusuna koy.",
+  "data": {
+   "bins": [
+    "Eşeyli üreme",
+    "Eşeysiz üreme"
+   ],
+   "items": [
+    [
+     "Eşe ihtiyaç duyulur",
+     0
+    ],
+    [
+     "Üreme hücreleri görev almaz",
+     1
+    ],
+    [
+     "Bireyler ana canlıyla aynı kalıtsal yapıdadır",
+     1
+    ],
+    [
+     "Dişi ve erkek üreme hücreleri birleşir",
+     0
+    ],
+    [
+     "Planaryanın kopan parçasından yeni birey oluşur",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Her özelliği doğru üreme çeşidinin kutusuna koy. (Eşeyli üreme / Eşeysiz üreme) Kartlar: Eşe ihtiyaç duyulur; Üreme hücreleri görev almaz; Bireyler ana canlıyla aynı kalıtsal yapıdadır; Dişi ve erkek üreme hücreleri birleşir; Planaryanın kopan parçasından yeni birey oluşur.",
+  "correctAnswer": "Eşeyli üreme: Eşe ihtiyaç duyulur, Dişi ve erkek üreme hücreleri birleşir. Eşeysiz üreme: Üreme hücreleri görev almaz, Bireyler ana canlıyla aynı kalıtsal yapıdadır, Planaryanın kopan parçasından yeni birey oluşur.",
+  "explanation": "Eşeyli üremede eşe ihtiyaç vardır ve üreme hücreleri birleşir. Eşeysiz üremede üreme hücreleri görev almaz; rejenerasyon bunun bir çeşididir."
+ },
+ {
+  "questionId": "boss-a06-f3-09",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Tozlaşma ve döllenme",
+  "outcome": "Bitki ve hayvanlarda üreme, büyüme ve gelişme süreçlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 91–93",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Çiçekli bir bitkide eşeyli üremenin aşamalarını sırala.",
+  "data": {
+   "items": [
+    "Polenler erkek organda oluşur.",
+    "Polen dişicik tepesine taşınır (tozlaşma).",
+    "Üreme hücrelerinin çekirdekleri birleşir (döllenme).",
+    "Tohum ve meyve oluşur."
+   ]
+  },
+  "textPlain": "Çiçekli bir bitkide eşeyli üremenin aşamalarını sırala. Kartlar: Polen dişicik tepesine taşınır (tozlaşma).; Üreme hücrelerinin çekirdekleri birleşir (döllenme).; Tohum ve meyve oluşur.; Polenler erkek organda oluşur..",
+  "correctAnswer": "Polenler erkek organda oluşur. → Polen dişicik tepesine taşınır (tozlaşma). → Üreme hücrelerinin çekirdekleri birleşir (döllenme). → Tohum ve meyve oluşur.",
+  "explanation": "Önce polen dişicik tepesine ulaşır (tozlaşma), sonra üreme hücreleri birleşir (döllenme); ardından tohum ve meyve oluşur."
+ },
+ {
+  "questionId": "boss-a06-f3-10",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Beynin bölümleri",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 111",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her yapıyı göreviyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Beyin",
+     "Öğrenme, hafıza ve yönetim merkezidir"
+    ],
+    [
+     "Beyincik",
+     "Denge ve hareket merkezidir"
+    ],
+    [
+     "Omurilik soğanı",
+     "Solunum ve dolaşımı düzenler"
+    ]
+   ]
+  },
+  "textPlain": "Her yapıyı göreviyle eşleştir. Sol: Beyin; Beyincik; Omurilik soğanı. Sağ: Öğrenme, hafıza ve yönetim merkezidir; Denge ve hareket merkezidir; Solunum ve dolaşımı düzenler.",
+  "correctAnswer": "Beyin = Öğrenme, hafıza ve yönetim merkezidir; Beyincik = Denge ve hareket merkezidir; Omurilik soğanı = Solunum ve dolaşımı düzenler",
+  "explanation": "Beyin öğrenme ve hafıza merkezidir; beyincik dengeyi, omurilik soğanı solunum, dolaşım gibi sistemlerin çalışmasını düzenler."
+ },
+ {
+  "questionId": "boss-a06-f3-11",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Refleks",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 110–111",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Elimizi sıcak bir yüzeye değince hemen geri çekmemiz bir reflekstir. Refleks davranışlarını hangi yapı yönetir?",
+  "data": {
+   "options": [
+    "Omurilik",
+    "Beyincik",
+    "Tiroit bezi"
+   ]
+  },
+  "textPlain": "Elimizi sıcak bir yüzeye değince hemen geri çekmemiz bir reflekstir. Refleks davranışlarını hangi yapı yönetir? Seçenekler: Omurilik / Beyincik / Tiroit bezi",
+  "correctAnswer": "Omurilik",
+  "explanation": "Refleks davranışları omurilik tarafından yönetilir."
+ },
+ {
+  "questionId": "boss-a06-f3-12",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Refleks",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 110",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi sonradan kazanılan bir reflekstir?",
+  "data": {
+   "options": [
+    "Limon görünce ağzın sulanması",
+    "Diz kapağı refleksi",
+    "Bebeklerdeki emme refleksi"
+   ]
+  },
+  "textPlain": "Hangisi sonradan kazanılan bir reflekstir? Seçenekler: Limon görünce ağzın sulanması / Diz kapağı refleksi / Bebeklerdeki emme refleksi",
+  "correctAnswer": "Limon görünce ağzın sulanması",
+  "explanation": "Diz kapağı ve emme refleksleri doğuştan gelir; limon görünce ağzın sulanması sonradan kazanılır."
+ },
+ {
+  "questionId": "boss-a06-f3-13",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Hipofiz bezi",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 115",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Diğer iç salgı bezlerinin çalışmasını denetleyen ve büyüme hormonu salgılayan bez hangisidir?",
+  "data": {
+   "options": [
+    "Hipofiz bezi",
+    "Pankreas",
+    "Böbrek üstü bezi"
+   ]
+  },
+  "textPlain": "Diğer iç salgı bezlerinin çalışmasını denetleyen ve büyüme hormonu salgılayan bez hangisidir? Seçenekler: Hipofiz bezi / Pankreas / Böbrek üstü bezi",
+  "correctAnswer": "Hipofiz bezi",
+  "explanation": "Hipofiz bezi büyüme hormonu salgılar ve diğer iç salgı bezlerini denetleyip düzenler."
+ },
+ {
+  "questionId": "boss-a06-f3-14",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Çimlenme deneyi",
+  "outcome": "Tohumun çimlenmesine etki eden faktörlere ilişkin deney yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 94–96",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Özdeş iki fasulye tohumundan biri ıslak, diğeri kuru pamuğa konuyor; diğer bütün koşullar aynı. Bu deneyde hangi faktörün çimlenmeye etkisi araştırılıyor?",
+  "data": {
+   "options": [
+    "Su (nem)",
+    "Işık",
+    "Sıcaklık"
+   ]
+  },
+  "textPlain": "Özdeş iki fasulye tohumundan biri ıslak, diğeri kuru pamuğa konuyor; diğer bütün koşullar aynı. Bu deneyde hangi faktörün çimlenmeye etkisi araştırılıyor? Seçenekler: Su (nem) / Işık / Sıcaklık",
+  "correctAnswer": "Su (nem)",
+  "explanation": "İki düzenek arasında yalnızca su (nem) farklıdır; araştırılan faktör sudur."
+ },
+ {
+  "questionId": "boss-a06-f3-15",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Adrenalin",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 115",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Korktuğumuzda kalbimizin hızlı çarpmasını ve solunumun hızlanmasını sağlayan hormon hangisidir?",
+  "data": {
+   "options": [
+    "Adrenalin",
+    "İnsülin",
+    "Büyüme hormonu"
+   ]
+  },
+  "textPlain": "Korktuğumuzda kalbimizin hızlı çarpmasını ve solunumun hızlanmasını sağlayan hormon hangisidir? Seçenekler: Adrenalin / İnsülin / Büyüme hormonu",
+  "correctAnswer": "Adrenalin",
+  "explanation": "Böbrek üstü bezinin salgıladığı adrenalin korku, öfke, stres anında kalp atışını ve solunumu hızlandırır."
+ },
+ {
+  "questionId": "boss-a06-f3-16",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Ergen sağlığı",
+  "outcome": "Ergenlik dönemindeki değişimleri ve bu dönemde sağlığı korumak için yapılması gerekenleri açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 125–127",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ergenlik döneminde sağlığı korumak için hangisi doğru bir davranıştır?",
+  "data": {
+   "options": [
+    "Dengeli beslenmek, düzenli uyumak ve spor yapmak",
+    "Öğün atlamak",
+    "Geç saatlere kadar ekran başında kalmak"
+   ]
+  },
+  "textPlain": "Ergenlik döneminde sağlığı korumak için hangisi doğru bir davranıştır? Seçenekler: Dengeli beslenmek, düzenli uyumak ve spor yapmak / Öğün atlamak / Geç saatlere kadar ekran başında kalmak",
+  "correctAnswer": "Dengeli beslenmek, düzenli uyumak ve spor yapmak",
+  "explanation": "Dengeli beslenme, yeterli uyku ve düzenli spor ergenlik döneminde sağlığı korur."
+ },
+ {
+  "questionId": "boss-a06-f3-17",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Ergenlik",
+  "outcome": "Ergenlik dönemindeki değişimleri ve bu dönemde sağlığı korumak için yapılması gerekenleri açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 115, 119",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ergenlik döneminde dişi ve erkeğe özgü özelliklerin oluşmasını sağlayan hormonları hangi bezler salgılar?",
+  "data": {
+   "options": [
+    "Eşeysel bezler",
+    "Pankreas",
+    "Tiroit bezi"
+   ]
+  },
+  "textPlain": "Ergenlik döneminde dişi ve erkeğe özgü özelliklerin oluşmasını sağlayan hormonları hangi bezler salgılar? Seçenekler: Eşeysel bezler / Pankreas / Tiroit bezi",
+  "correctAnswer": "Eşeysel bezler",
+  "explanation": "Eşeysel bezlerin salgıladığı eşeysel hormonlar ergenlikte görülen değişimleri sağlar."
+ },
+ {
+  "questionId": "boss-a06-f3-18",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Çevresel sinir sistemi",
+  "outcome": "Denetleyici ve düzenleyici sistemlerin (sinir sistemi, iç salgı bezleri) görevlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 112",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Çevresel sinir sisteminin görevi nedir?",
+  "data": {
+   "options": [
+    "Merkezî sinir sistemi ile vücut organları arasında iletişimi sağlamak",
+    "Kandaki şeker oranını azaltmak",
+    "Kemikleri bir arada tutmak"
+   ]
+  },
+  "textPlain": "Çevresel sinir sisteminin görevi nedir? Seçenekler: Merkezî sinir sistemi ile vücut organları arasında iletişimi sağlamak / Kandaki şeker oranını azaltmak / Kemikleri bir arada tutmak",
+  "correctAnswer": "Merkezî sinir sistemi ile vücut organları arasında iletişimi sağlamak",
+  "explanation": "Çevresel sinir sistemi tüm vücuda dağılan sinir ağıdır; merkezî sinir sistemi ile organlar arasındaki iletişimi sağlar."
+ },
+ {
+  "questionId": "boss-a06-f3-19",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Çiçeğin kısımları",
+  "outcome": "Bitki ve hayvanlarda üreme, büyüme ve gelişme süreçlerini açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 88–91",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Rengi ve kokusuyla arı, kelebek gibi canlıları kendine çekerek tozlaşmaya yardımcı olan çiçek kısmı hangisidir?",
+  "data": {
+   "options": [
+    "Taç yaprak",
+    "Çanak yaprak",
+    "Dişi organ"
+   ]
+  },
+  "textPlain": "Rengi ve kokusuyla arı, kelebek gibi canlıları kendine çekerek tozlaşmaya yardımcı olan çiçek kısmı hangisidir? Seçenekler: Taç yaprak / Çanak yaprak / Dişi organ",
+  "correctAnswer": "Taç yaprak",
+  "explanation": "Taç yapraklar rengi ve kokusuyla canlıları çiçeğe çekerek tozlaşmaya yardımcı olur."
+ },
+ {
+  "questionId": "boss-a06-f3-20",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Canlılarda Sistemler",
+  "topic": "Eşeysiz üreme",
+  "outcome": "Canlılarda eşeyli ve eşeysiz üremeyi karşılaştırır.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 3. Ünite “Canlılarda Sistemler”, s. 84–86",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir çiftçi, yetiştireceği bütün çilek bitkilerinin ana bitkiyle aynı özellikte olmasını istiyor. Hangi yolu seçmelidir?",
+  "data": {
+   "options": [
+    "Vejetatif (eşeysiz) üreme",
+    "Tohumla (eşeyli) üreme",
+    "Tozlaşmayı engellemek"
+   ]
+  },
+  "textPlain": "Bir çiftçi, yetiştireceği bütün çilek bitkilerinin ana bitkiyle aynı özellikte olmasını istiyor. Hangi yolu seçmelidir? Seçenekler: Vejetatif (eşeysiz) üreme / Tohumla (eşeyli) üreme / Tozlaşmayı engellemek",
+  "correctAnswer": "Vejetatif (eşeysiz) üreme",
+  "explanation": "Eşeysiz üremeyle oluşan bireyler ana bitkiyle aynı kalıtsal yapıdadır."
+ },
+ {
+  "questionId": "boss-a06-f4-01",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Düzgün yansıma",
+  "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi yüzeyde düzgün yansıma olur?",
+  "data": {
+   "options": [
+    "Ayna",
+    "Halı",
+    "Buruşturulmuş folyo"
+   ]
+  },
+  "textPlain": "Hangi yüzeyde düzgün yansıma olur? Seçenekler: Ayna / Halı / Buruşturulmuş folyo",
+  "correctAnswer": "Ayna",
+  "explanation": "Ayna gibi düzgün ve parlak yüzeylerde ışınlar paralel yansır; bu düzgün yansımadır."
+ },
+ {
+  "questionId": "boss-a06-f4-02",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Yansıma kanunu",
+  "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Yansıma kanununa göre gelme açısı ile yansıma açısı arasındaki ilişki nedir?",
+  "data": {
+   "options": [
+    "Eşittir.",
+    "Gelme açısı her zaman büyüktür.",
+    "Yansıma açısı gelme açısının iki katıdır."
+   ]
+  },
+  "textPlain": "Yansıma kanununa göre gelme açısı ile yansıma açısı arasındaki ilişki nedir? Seçenekler: Eşittir. / Gelme açısı her zaman büyüktür. / Yansıma açısı gelme açısının iki katıdır.",
+  "correctAnswer": "Eşittir.",
+  "explanation": "Yansıma kanununa göre gelme açısı yansıma açısına eşittir."
+ },
+ {
+  "questionId": "boss-a06-f4-03",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Düzgün ve dağınık yansıma",
+  "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Yüzeyleri düzgün yansıma ve dağınık yansıma yapanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Düzgün yansıma",
+    "Dağınık yansıma"
+   ],
+   "items": [
+    [
+     "Durgun göl yüzeyi",
+     0
+    ],
+    [
+     "Dalgalı deniz",
+     1
+    ],
+    [
+     "Parlak metal tepsi",
+     0
+    ],
+    [
+     "Çimen",
+     1
+    ],
+    [
+     "Kâğıt",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Yüzeyleri düzgün yansıma ve dağınık yansıma yapanlar diye ayır. (Düzgün yansıma / Dağınık yansıma) Kartlar: Durgun göl yüzeyi; Dalgalı deniz; Parlak metal tepsi; Çimen; Kâğıt.",
+  "correctAnswer": "Düzgün yansıma: Durgun göl yüzeyi, Parlak metal tepsi. Dağınık yansıma: Dalgalı deniz, Çimen, Kâğıt.",
+  "explanation": "Düzgün ve parlak yüzeyler düzgün, pürüzlü yüzeyler dağınık yansıma yapar."
+ },
+ {
+  "questionId": "boss-a06-f4-04",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Beyaz cisim",
+  "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Beyaz bir cisim, üzerine gelen beyaz ışığa ne yapar?",
+  "data": {
+   "options": [
+    "Bütün renkleri yansıtır.",
+    "Bütün renkleri soğurur.",
+    "Yalnızca kırmızıyı yansıtır."
+   ]
+  },
+  "textPlain": "Beyaz bir cisim, üzerine gelen beyaz ışığa ne yapar? Seçenekler: Bütün renkleri yansıtır. / Bütün renkleri soğurur. / Yalnızca kırmızıyı yansıtır.",
+  "correctAnswer": "Bütün renkleri yansıtır.",
+  "explanation": "Beyaz cisim üzerine gelen bütün renkleri yansıtır; siyah cisim hepsini soğurur."
+ },
+ {
+  "questionId": "boss-a06-f4-05",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Soğurma",
+  "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Koyu renkli cisimler üzerine düşen ışığın büyük kısmını soğurur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Koyu renkli cisimler ışığın çoğunu soğurur ve daha çok ısınır."
+ },
+ {
+  "questionId": "boss-a06-f4-06",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Tümsek ayna",
+  "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Arabaların yan aynası olarak hangi ayna kullanılır?",
+  "data": {
+   "options": [
+    "Tümsek ayna",
+    "Çukur ayna",
+    "Düz ayna"
+   ]
+  },
+  "textPlain": "Arabaların yan aynası olarak hangi ayna kullanılır? Seçenekler: Tümsek ayna / Çukur ayna / Düz ayna",
+  "correctAnswer": "Tümsek ayna",
+  "explanation": "Tümsek aynalar geniş bir alanı gösterdiği için araba yan aynası olarak kullanılır."
+ },
+ {
+  "questionId": "boss-a06-f4-07",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Cisimlerin rengi",
+  "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kırmızı bir elma beyaz ışık altında neden kırmızı görünür?",
+  "data": {
+   "options": [
+    "Kırmızı ışığı yansıtıp diğer renkleri soğurduğu için",
+    "Kırmızı ışığı soğurduğu için",
+    "Kendisi kırmızı ışık ürettiği için"
+   ]
+  },
+  "textPlain": "Kırmızı bir elma beyaz ışık altında neden kırmızı görünür? Seçenekler: Kırmızı ışığı yansıtıp diğer renkleri soğurduğu için / Kırmızı ışığı soğurduğu için / Kendisi kırmızı ışık ürettiği için",
+  "correctAnswer": "Kırmızı ışığı yansıtıp diğer renkleri soğurduğu için",
+  "explanation": "Cisimler yansıttıkları ışığın renginde görünür."
+ },
+ {
+  "questionId": "boss-a06-f4-08",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Yansıma kanunu",
+  "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Gelen ışın ile ayna yüzeyi arasındaki açı 50°’dir. Yansıma açısı kaç derecedir?",
+  "data": {
+   "answer": 40,
+   "digits": 2,
+   "unit": "°",
+   "fig": {
+    "k": "mirror",
+    "s": 50
+   }
+  },
+  "textPlain": "[Şekil: düz ayna, yüzey normali kesikli; gelen ışın ile ayna yüzeyi arasındaki açı 50°] Gelen ışın ile ayna yüzeyi arasındaki açı 50°’dir. Yansıma açısı kaç derecedir?",
+  "correctAnswer": "40°",
+  "explanation": "Gelme açısı ışın ile yüzey normali arasındaki açıdır: 90 − 50 = 40°. Yansıma açısı gelme açısına eşittir: 40°."
+ },
+ {
+  "questionId": "boss-a06-f4-09",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Ayna çeşitleri",
+  "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her ayna çeşidini görüntü özelliğiyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Düz ayna",
+     "Görüntü cisimle aynı boydadır"
+    ],
+    [
+     "Tümsek ayna",
+     "Geniş alan gösterir, görüntü küçüktür"
+    ],
+    [
+     "Çukur ayna",
+     "Yakındaki cismi büyük gösterir"
+    ]
+   ]
+  },
+  "textPlain": "Her ayna çeşidini görüntü özelliğiyle eşleştir. Sol: Düz ayna; Tümsek ayna; Çukur ayna. Sağ: Görüntü cisimle aynı boydadır; Geniş alan gösterir, görüntü küçüktür; Yakındaki cismi büyük gösterir.",
+  "correctAnswer": "Düz ayna = Görüntü cisimle aynı boydadır; Tümsek ayna = Geniş alan gösterir, görüntü küçüktür; Çukur ayna = Yakındaki cismi büyük gösterir",
+  "explanation": "Düz aynada görüntü aynı boyda, tümsek aynada küçük; çukur aynada yakın cismin görüntüsü büyüktür."
+ },
+ {
+  "questionId": "boss-a06-f4-10",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Ana renkler",
+  "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Işıkta ana renkler hangileridir?",
+  "data": {
+   "options": [
+    "Kırmızı, yeşil, mavi",
+    "Sarı, kırmızı, mavi",
+    "Beyaz, siyah, gri"
+   ]
+  },
+  "textPlain": "Işıkta ana renkler hangileridir? Seçenekler: Kırmızı, yeşil, mavi / Sarı, kırmızı, mavi / Beyaz, siyah, gri",
+  "correctAnswer": "Kırmızı, yeşil, mavi",
+  "explanation": "Beyaz ışığı oluşturan renklerden kırmızı, yeşil ve mavi ana renklerdir."
+ },
+ {
+  "questionId": "boss-a06-f4-11",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Renklerin karışımı",
+  "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Kırmızı ve yeşil ışık beyaz bir perdede üst üste düşürülürse hangi renk görülür?",
+  "data": {
+   "options": [
+    "Sarı",
+    "Mor",
+    "Siyah"
+   ]
+  },
+  "textPlain": "Kırmızı ve yeşil ışık beyaz bir perdede üst üste düşürülürse hangi renk görülür? Seçenekler: Sarı / Mor / Siyah",
+  "correctAnswer": "Sarı",
+  "explanation": "Kırmızı ve yeşil ışığın üst üste geldiği yerde sarı görülür."
+ },
+ {
+  "questionId": "boss-a06-f4-12",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Çukur ayna",
+  "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Diş hekimlerinin dişleri büyük ve ayrıntılı görmek için kullandığı ayna hangisidir?",
+  "data": {
+   "options": [
+    "Çukur ayna",
+    "Tümsek ayna",
+    "Düz ayna"
+   ]
+  },
+  "textPlain": "Diş hekimlerinin dişleri büyük ve ayrıntılı görmek için kullandığı ayna hangisidir? Seçenekler: Çukur ayna / Tümsek ayna / Düz ayna",
+  "correctAnswer": "Çukur ayna",
+  "explanation": "Çukur aynalar yakındaki cisimlerin büyük görüntüsünü verir."
+ },
+ {
+  "questionId": "boss-a06-f4-13",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Güneş enerjisi",
+  "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Güneş enerjili su ısıtıcılarındaki toplaçların koyu renkli yapılmasının nedeni nedir?",
+  "data": {
+   "options": [
+    "Işığı daha çok soğurup daha çok ısınmaları",
+    "Işığı daha çok yansıtmaları",
+    "Daha hafif olmaları"
+   ]
+  },
+  "textPlain": "Güneş enerjili su ısıtıcılarındaki toplaçların koyu renkli yapılmasının nedeni nedir? Seçenekler: Işığı daha çok soğurup daha çok ısınmaları / Işığı daha çok yansıtmaları / Daha hafif olmaları",
+  "correctAnswer": "Işığı daha çok soğurup daha çok ısınmaları",
+  "explanation": "Koyu renkler ışığı daha çok soğurur; soğurulan ışık enerjisi ısıya dönüşür."
+ },
+ {
+  "questionId": "boss-a06-f4-14",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Görme",
+  "outcome": "Işığın farklı yüzeylerdeki yansıma olaylarına ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 137–144",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Işık kaynağı olmayan cisimleri görebilmemizin nedeni nedir?",
+  "data": {
+   "options": [
+    "Cisimlerden yansıyan ışığın gözümüze gelmesi",
+    "Gözümüzden çıkan ışığın cisme çarpması",
+    "Bütün cisimlerin ışık kaynağı olması"
+   ]
+  },
+  "textPlain": "Işık kaynağı olmayan cisimleri görebilmemizin nedeni nedir? Seçenekler: Cisimlerden yansıyan ışığın gözümüze gelmesi / Gözümüzden çıkan ışığın cisme çarpması / Bütün cisimlerin ışık kaynağı olması",
+  "correctAnswer": "Cisimlerden yansıyan ışığın gözümüze gelmesi",
+  "explanation": "Işık kaynağı olmayan cisimleri, üzerlerinden yansıyan ışık gözümüze ulaştığı için görürüz."
+ },
+ {
+  "questionId": "boss-a06-f4-15",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Renkli ışık",
+  "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yeşil bir yaprağa yalnızca kırmızı ışık gönderilirse yaprak hangi renkte görünür?",
+  "data": {
+   "options": [
+    "Siyah",
+    "Yeşil",
+    "Kırmızı"
+   ]
+  },
+  "textPlain": "Yeşil bir yaprağa yalnızca kırmızı ışık gönderilirse yaprak hangi renkte görünür? Seçenekler: Siyah / Yeşil / Kırmızı",
+  "correctAnswer": "Siyah",
+  "explanation": "Yeşil yaprak yalnızca yeşil ışığı yansıtır; kırmızı ışığı soğurduğu için siyah görünür."
+ },
+ {
+  "questionId": "boss-a06-f4-16",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Düz ayna",
+  "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ambulansların önündeki “AMBULANS” yazısı neden ters yazılır?",
+  "data": {
+   "options": [
+    "Öndeki sürücünün dikiz aynasında yazıyı düz okuyabilmesi için",
+    "Süs olsun diye",
+    "Tümsek aynada büyük görünsün diye"
+   ]
+  },
+  "textPlain": "Ambulansların önündeki “AMBULANS” yazısı neden ters yazılır? Seçenekler: Öndeki sürücünün dikiz aynasında yazıyı düz okuyabilmesi için / Süs olsun diye / Tümsek aynada büyük görünsün diye",
+  "correctAnswer": "Öndeki sürücünün dikiz aynasında yazıyı düz okuyabilmesi için",
+  "explanation": "Düz aynada görüntü simetriktir; ters yazılan yazı aynada düz okunur."
+ },
+ {
+  "questionId": "boss-a06-f4-17",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Dik gelen ışın",
+  "outcome": "Işığın yansımasında gelen ışın, yansıyan ışın ve yüzeyin normali arasındaki ilişkiyi kanıt kullanarak açıklar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 146–150",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Aynaya dik olarak gelen bir ışın nasıl yansır?",
+  "data": {
+   "options": [
+    "Geldiği doğrultuda geri yansır.",
+    "Aynaya paralel gider.",
+    "Yansımaz, tamamen soğurulur."
+   ]
+  },
+  "textPlain": "Aynaya dik olarak gelen bir ışın nasıl yansır? Seçenekler: Geldiği doğrultuda geri yansır. / Aynaya paralel gider. / Yansımaz, tamamen soğurulur.",
+  "correctAnswer": "Geldiği doğrultuda geri yansır.",
+  "explanation": "Yüzeye dik gelen ışının gelme açısı 0°’dir; yansıma açısı da 0° olur ve ışın geldiği yoldan geri döner."
+ },
+ {
+  "questionId": "boss-a06-f4-18",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Soğurma",
+  "outcome": "Işığın madde ile etkileşimi sonucunda soğurulabileceğini bilimsel olarak gözlemler; güneş enerjisinin günlük hayat ve teknolojideki uygulamalarına ilişkin eleştirel düşünür.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 166",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "order",
+  "prompt": "Aynı sürede güneşte bekletilen tişörtleri sıcaklığı EN YÜKSEKTEN EN DÜŞÜĞE sırala.",
+  "data": {
+   "items": [
+    "Siyah tişört",
+    "Gri tişört",
+    "Beyaz tişört"
+   ]
+  },
+  "textPlain": "Aynı sürede güneşte bekletilen tişörtleri sıcaklığı EN YÜKSEKTEN EN DÜŞÜĞE sırala. Kartlar: Beyaz tişört; Gri tişört; Siyah tişört.",
+  "correctAnswer": "Siyah tişört → Gri tişört → Beyaz tişört",
+  "explanation": "Koyu renk ışığı en çok soğurur ve en çok ısınır; beyaz en az soğurur."
+ },
+ {
+  "questionId": "boss-a06-f4-19",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Düz ayna",
+  "outcome": "Günlük hayattaki ayna çeşitlerine ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 156–160",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Düz aynanın 2 metre önünde duran bir çocuğun görüntüsü aynanın kaç metre arkasında oluşur?",
+  "data": {
+   "answer": 2,
+   "digits": 1,
+   "unit": "m"
+  },
+  "textPlain": "Düz aynanın 2 metre önünde duran bir çocuğun görüntüsü aynanın kaç metre arkasında oluşur?",
+  "correctAnswer": "2 m",
+  "explanation": "Düz aynada görüntünün aynaya uzaklığı cismin aynaya uzaklığına eşittir: 2 m."
+ },
+ {
+  "questionId": "boss-a06-f4-20",
+  "grade": 6,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Işığın Yansıması ve Renkler",
+  "topic": "Renkli ışık",
+  "outcome": "Cisimlerin siyah, beyaz ve renkli görünmesini bilimsel olarak gözlemler; beyaz ışığın tüm ışık renklerinin bileşiminden oluştuğuna ilişkin bilimsel çıkarım yapar.",
+  "sourceRef": "MEB Fen Bilimleri 6. Sınıf Ders Kitabı (1. kitap), 4. Ünite “Işığın Yansıması ve Renkler”, s. 169",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Beyaz bir tişört mavi ışıkla aydınlatılırsa hangi renkte görünür?",
+  "data": {
+   "options": [
+    "Mavi",
+    "Beyaz",
+    "Siyah"
+   ]
+  },
+  "textPlain": "Beyaz bir tişört mavi ışıkla aydınlatılırsa hangi renkte görünür? Seçenekler: Mavi / Beyaz / Siyah",
+  "correctAnswer": "Mavi",
+  "explanation": "Beyaz cisim üzerine gelen bütün renkleri yansıtır; yalnızca mavi ışık geldiği için mavi görünür."
+ },
+ {
+  "questionId": "boss-a06-m3-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Basamak değeri",
+  "outcome": "Gerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme (sıralama ve yuvarlama dâhil).",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 92",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "4,72 sayısında 7 rakamı hangi basamaktadır?",
+  "data": {
+   "options": [
+    "Onda birler",
+    "Yüzde birler",
+    "Birler"
+   ]
+  },
+  "textPlain": "4,72 sayısında 7 rakamı hangi basamaktadır? Seçenekler: Onda birler / Yüzde birler / Birler",
+  "correctAnswer": "Onda birler",
+  "explanation": "Virgülden sonraki ilk basamak onda birler basamağıdır."
+ },
+ {
+  "questionId": "boss-a06-m3-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Ondalık toplama",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 129",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "num",
+  "prompt": "3,25 + 1,4 işleminin sonucunu kadranlarla yaz.",
+  "data": {
+   "answer": 465,
+   "digits": 3,
+   "unit": "",
+   "dec": 2
+  },
+  "textPlain": "3,25 + 1,4 işleminin sonucunu kadranlarla yaz.",
+  "correctAnswer": "4,65",
+  "explanation": "Virgüller alt alta gelecek şekilde toplanır: 3,25 + 1,40 = 4,65."
+ },
+ {
+  "questionId": "boss-a06-m3-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Kesir ve bölme",
+  "outcome": "Kesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme (sonlu ve devirli ondalık gösterimler).",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 100",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "{3/4} kesrinin ondalık gösterimi hangisidir?",
+  "data": {
+   "options": [
+    "0,75",
+    "0,34",
+    "3,4"
+   ]
+  },
+  "textPlain": "{3/4} kesrinin ondalık gösterimi hangisidir? Seçenekler: 0,75 / 0,34 / 3,4",
+  "correctAnswer": "0,75",
+  "explanation": "Kesir çizgisi bölme anlamı taşır: 3 ÷ 4 = 0,75."
+ },
+ {
+  "questionId": "boss-a06-m3-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Uzunluk birimleri",
+  "outcome": "Günlük hayat ya da matematiksel durumlarda uzunluk ölçme birimlerini inceleyerek değerlendirebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 155",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "1 metre kaç santimetredir?",
+  "data": {
+   "options": [
+    "100",
+    "10",
+    "1 000"
+   ]
+  },
+  "textPlain": "1 metre kaç santimetredir? Seçenekler: 100 / 10 / 1 000",
+  "correctAnswer": "100",
+  "explanation": "1 m = 10 dm = 100 cm."
+ },
+ {
+  "questionId": "boss-a06-m3-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Yuvarlama",
+  "outcome": "Gerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme (sıralama ve yuvarlama dâhil).",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 95",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "6,48 sayısının onda birler basamağına yuvarlanmış hâli hangisidir?",
+  "data": {
+   "options": [
+    "6,5",
+    "6,4",
+    "7"
+   ]
+  },
+  "textPlain": "6,48 sayısının onda birler basamağına yuvarlanmış hâli hangisidir? Seçenekler: 6,5 / 6,4 / 7",
+  "correctAnswer": "6,5",
+  "explanation": "Yüzde birler basamağındaki 8, 5’ten büyük olduğundan onda birler 1 artar: 6,5."
+ },
+ {
+  "questionId": "boss-a06-m3-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Kısa yoldan çarpma",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 137",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "num",
+  "prompt": "2,35 × 100 işleminin sonucunu yaz.",
+  "data": {
+   "answer": 235,
+   "digits": 3,
+   "unit": ""
+  },
+  "textPlain": "2,35 × 100 işleminin sonucunu yaz.",
+  "correctAnswer": "235",
+  "explanation": "100 ile çarpınca virgül iki basamak sağa kayar: 235."
+ },
+ {
+  "questionId": "boss-a06-m3-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Devirli ondalık gösterim",
+  "outcome": "Kesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme (sonlu ve devirli ondalık gösterimler).",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 104",
+  "difficulty": "kolay",
+  "group": "m3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "{1/3} kesrinin ondalık gösterimi devirlidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? {1/3} kesrinin ondalık gösterimi devirlidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "1 ÷ 3 = 0,333… olur; 3 rakamı sürekli tekrar ettiği için devirlidir."
+ },
+ {
+  "questionId": "boss-a06-m3-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Kesirlerle toplama",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 116",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "{2/5} + {1/5} işleminin sonucu hangisidir?",
+  "data": {
+   "options": [
+    "{3/5}",
+    "{3/10}",
+    "{2/25}"
+   ]
+  },
+  "textPlain": "{2/5} + {1/5} işleminin sonucu hangisidir? Seçenekler: {3/5} / {3/10} / {2/25}",
+  "correctAnswer": "{3/5}",
+  "explanation": "Paydaları eşit kesirlerde paylar toplanır, payda aynı kalır: {3/5}."
+ },
+ {
+  "questionId": "boss-a06-m3-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Doğal sayı ile kesir çarpımı",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 119",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "12 × {3/4} işleminin sonucu kaçtır?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "12 × {3/4} işleminin sonucu kaçtır?",
+  "correctAnswer": "9",
+  "explanation": "12’nin {3/4}’ü: 12 ÷ 4 = 3; 3 × 3 = 9."
+ },
+ {
+  "questionId": "boss-a06-m3-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Birim dönüştürme",
+  "outcome": "Günlük hayat ya da matematiksel durumlarda uzunluk ölçme birimlerini inceleyerek değerlendirebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 158",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "3,5 km kaç metredir?",
+  "data": {
+   "answer": 3500,
+   "digits": 4,
+   "unit": "m"
+  },
+  "textPlain": "3,5 km kaç metredir?",
+  "correctAnswer": "3500 m",
+  "explanation": "1 km = 1 000 m; 3,5 × 1 000 = 3 500 m."
+ },
+ {
+  "questionId": "boss-a06-m3-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "İki kesrin çarpımı",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 123",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "{2/3} × {3/5} işleminin sonucu hangisidir?",
+  "data": {
+   "options": [
+    "{2/5}",
+    "{5/15}",
+    "{9/10}"
+   ]
+  },
+  "textPlain": "{2/3} × {3/5} işleminin sonucu hangisidir? Seçenekler: {2/5} / {5/15} / {9/10}",
+  "correctAnswer": "{2/5}",
+  "explanation": "Paylar ve paydalar çarpılır: {6/15} = {2/5}."
+ },
+ {
+  "questionId": "boss-a06-m3-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Ondalık çarpma",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 136",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "1,2 × 3 işleminin sonucunu kadranlarla yaz.",
+  "data": {
+   "answer": 36,
+   "digits": 2,
+   "unit": "",
+   "dec": 1
+  },
+  "textPlain": "1,2 × 3 işleminin sonucunu kadranlarla yaz.",
+  "correctAnswer": "3,6",
+  "explanation": "12 × 3 = 36; çarpanda bir ondalık basamak olduğu için sonuç 3,6’dır."
+ },
+ {
+  "questionId": "boss-a06-m3-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Sıralama",
+  "outcome": "Gerçek yaşam durumlarında ondalık gösterimlerin basamak değerlerini kesirlerden yararlanarak yorumlayabilme (sıralama ve yuvarlama dâhil).",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 95 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Ondalık gösterimleri KÜÇÜKTEN BÜYÜĞE sırala.",
+  "data": {
+   "items": [
+    "0,07",
+    "0,7",
+    "0,705",
+    "0,75"
+   ]
+  },
+  "textPlain": "Ondalık gösterimleri KÜÇÜKTEN BÜYÜĞE sırala. Kartlar: 0,7; 0,07; 0,705; 0,75.",
+  "correctAnswer": "0,07 → 0,7 → 0,705 → 0,75",
+  "explanation": "Basamak sayılarını eşitle: 0,070 < 0,700 < 0,705 < 0,750."
+ },
+ {
+  "questionId": "boss-a06-m3-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Yüzde",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 147",
+  "difficulty": "orta",
+  "group": "m3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "240 TL’lik bir ayakkabıya %25 indirim yapıldı. İndirimli fiyat kaç TL’dir?",
+  "data": {
+   "answer": 180,
+   "digits": 3,
+   "unit": "TL"
+  },
+  "textPlain": "240 TL’lik bir ayakkabıya %25 indirim yapıldı. İndirimli fiyat kaç TL’dir?",
+  "correctAnswer": "180 TL",
+  "explanation": "240’ın %25’i 60’tır; 240 − 60 = 180 TL."
+ },
+ {
+  "questionId": "boss-a06-m3-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Kesirle kesrin bölümü",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 126",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "num",
+  "prompt": "{3/4} ÷ {1/8} işleminin sonucu kaçtır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "{3/4} ÷ {1/8} işleminin sonucu kaçtır?",
+  "correctAnswer": "6",
+  "explanation": "Bölen kesir ters çevrilip çarpılır: {3/4} × {8/1} = {24/4} = 6."
+ },
+ {
+  "questionId": "boss-a06-m3-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Kesir problemi",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 116",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir su deposunun {2/5}’i dolu. Depoya, deponun {1/4}’ü kadar su eklenirse deponun kaçta kaçı dolu olur?",
+  "data": {
+   "options": [
+    "{13/20}",
+    "{3/9}",
+    "{3/20}"
+   ]
+  },
+  "textPlain": "Bir su deposunun {2/5}’i dolu. Depoya, deponun {1/4}’ü kadar su eklenirse deponun kaçta kaçı dolu olur? Seçenekler: {13/20} / {3/9} / {3/20}",
+  "correctAnswer": "{13/20}",
+  "explanation": "Paydaları eşitle: {8/20} + {5/20} = {13/20}."
+ },
+ {
+  "questionId": "boss-a06-m3-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Birim dönüştürme",
+  "outcome": "Günlük hayat ya da matematiksel durumlarda uzunluk ölçme birimlerini inceleyerek değerlendirebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 158",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir koşu pisti 400 m’dir. Ece pistin etrafında 6 tur koştu. Ece kaç kilometre koştu?",
+  "data": {
+   "answer": 24,
+   "digits": 2,
+   "unit": "km",
+   "dec": 1
+  },
+  "textPlain": "Bir koşu pisti 400 m’dir. Ece pistin etrafında 6 tur koştu. Ece kaç kilometre koştu?",
+  "correctAnswer": "2,4 km",
+  "explanation": "400 × 6 = 2 400 m; 2 400 m = 2,4 km."
+ },
+ {
+  "questionId": "boss-a06-m3-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Devirli ondalık gösterim",
+  "outcome": "Kesir ve bölme işlemi arasındaki ilişkiye yönelik tümevarımsal akıl yürütebilme (sonlu ve devirli ondalık gösterimler).",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 104",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi kesrin ondalık gösterimi sonludur (devirli değildir)?",
+  "data": {
+   "options": [
+    "{3/8}",
+    "{2/3}",
+    "{5/9}"
+   ]
+  },
+  "textPlain": "Hangi kesrin ondalık gösterimi sonludur (devirli değildir)? Seçenekler: {3/8} / {2/3} / {5/9}",
+  "correctAnswer": "{3/8}",
+  "explanation": "3 ÷ 8 = 0,375 sonludur; {2/3} ve {5/9} devirlidir."
+ },
+ {
+  "questionId": "boss-a06-m3-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Ondalık bölme",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 141",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "num",
+  "prompt": "7,2 ÷ 0,8 işleminin sonucu kaçtır?",
+  "data": {
+   "answer": 9,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "7,2 ÷ 0,8 işleminin sonucu kaçtır?",
+  "correctAnswer": "9",
+  "explanation": "Bölen ve bölünen 10 ile çarpılır: 72 ÷ 8 = 9."
+ },
+ {
+  "questionId": "boss-a06-m3-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "3. Tema: Sayılar ve Nicelikler (2)",
+  "topic": "Yüzde",
+  "outcome": "Kesir, ondalık gösterim ve yüzde ile ilgili dört işlem gerektiren problemleri çözebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Sayılar ve Nicelikler (2)”, s. 147",
+  "difficulty": "zor",
+  "group": "m3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir sınıftaki öğrencilerin 0,35’i gözlüklüdür. Bu oran yüzde kaçtır?",
+  "data": {
+   "options": [
+    "%35",
+    "%3,5",
+    "%0,35"
+   ]
+  },
+  "textPlain": "Bir sınıftaki öğrencilerin 0,35’i gözlüklüdür. Bu oran yüzde kaçtır? Seçenekler: %35 / %3,5 / %0,35",
+  "correctAnswer": "%35",
+  "explanation": "0,35 = {35/100} = %35."
+ },
+ {
+  "questionId": "boss-a06-m4-01",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Nicel veri",
+  "outcome": "Kategorik veya nicel (kesikli) veriye dayalı, karşılaştırma gerektiren araştırma soruları oluşturabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi nicel veridir?",
+  "data": {
+   "options": [
+    "Öğrencilerin kardeş sayısı",
+    "Öğrencilerin göz rengi",
+    "Öğrencilerin tuttuğu takım"
+   ]
+  },
+  "textPlain": "Hangisi nicel veridir? Seçenekler: Öğrencilerin kardeş sayısı / Öğrencilerin göz rengi / Öğrencilerin tuttuğu takım",
+  "correctAnswer": "Öğrencilerin kardeş sayısı",
+  "explanation": "Sayıyla ifade edilen veriler nicel veridir."
+ },
+ {
+  "questionId": "boss-a06-m4-02",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Aritmetik ortalama",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 184 (veri ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "num",
+  "prompt": "4, 6 ve 8 sayılarının aritmetik ortalaması kaçtır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "4, 6 ve 8 sayılarının aritmetik ortalaması kaçtır?",
+  "correctAnswer": "6",
+  "explanation": "(4 + 6 + 8) ÷ 3 = 18 ÷ 3 = 6."
+ },
+ {
+  "questionId": "boss-a06-m4-03",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Tepe değer",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 188 (veri ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "num",
+  "prompt": "3, 5, 5, 7, 5, 2 veri grubunun tepe değeri kaçtır?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "3, 5, 5, 7, 5, 2 veri grubunun tepe değeri kaçtır?",
+  "correctAnswer": "5",
+  "explanation": "En çok tekrar eden değer tepe değerdir: 5 (üç kez)."
+ },
+ {
+  "questionId": "boss-a06-m4-04",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Ortanca",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 186 (veri ekranda verilir)",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "num",
+  "prompt": "2, 9, 4, 7, 5 veri grubunun ortancası kaçtır?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "2, 9, 4, 7, 5 veri grubunun ortancası kaçtır?",
+  "correctAnswer": "5",
+  "explanation": "Veriler sıralanır: 2, 4, 5, 7, 9; ortadaki değer 5’tir."
+ },
+ {
+  "questionId": "boss-a06-m4-05",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Kategorik ve nicel veri",
+  "outcome": "Kategorik veya nicel (kesikli) veriye dayalı, karşılaştırma gerektiren araştırma soruları oluşturabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 166",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Verileri kategorik ve nicel olarak ayır.",
+  "data": {
+   "bins": [
+    "Kategorik",
+    "Nicel"
+   ],
+   "items": [
+    [
+     "Ayakkabı numarası",
+     1
+    ],
+    [
+     "En sevilen renk",
+     0
+    ],
+    [
+     "Boy uzunluğu",
+     1
+    ],
+    [
+     "Doğum yeri",
+     0
+    ],
+    [
+     "Okunan kitap sayısı",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Verileri kategorik ve nicel olarak ayır. (Kategorik / Nicel) Kartlar: Ayakkabı numarası; En sevilen renk; Boy uzunluğu; Doğum yeri; Okunan kitap sayısı.",
+  "correctAnswer": "Kategorik: En sevilen renk, Doğum yeri. Nicel: Ayakkabı numarası, Boy uzunluğu, Okunan kitap sayısı.",
+  "explanation": "Sayıyla ifade edilen veriler nicel, ad ya da grup olarak ifade edilen veriler kategoriktir."
+ },
+ {
+  "questionId": "boss-a06-m4-06",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yanlı sorular",
+  "outcome": "İstatistiksel araştırma sürecini planlayabilme; ölçütlere uygun ve yanlı olmayan araştırma/anket soruları ile uygun veri kaynaklarını belirleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 205",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Sağlıksız cipsi mi yoksa sağlıklı meyveyi mi tercih edersin?” yanlı bir anket sorusudur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Sağlıksız cipsi mi yoksa sağlıklı meyveyi mi tercih edersin?” yanlı bir anket sorusudur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Soru, cevaplayanı belirli bir seçeneğe yönlendirdiği için yanlıdır."
+ },
+ {
+  "questionId": "boss-a06-m4-07",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Açıklık",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 186",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "num",
+  "prompt": "12, 7, 20, 15 veri grubunun açıklığı kaçtır?",
+  "data": {
+   "answer": 13,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "12, 7, 20, 15 veri grubunun açıklığı kaçtır?",
+  "correctAnswer": "13",
+  "explanation": "Açıklık = en büyük değer − en küçük değer = 20 − 7 = 13."
+ },
+ {
+  "questionId": "boss-a06-m4-08",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Kök-yaprak",
+  "outcome": "Nicel (kesikli) verileri kök-yaprak gösterimiyle özetleyip yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 182 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Kök-yaprak gösteriminde “2 | 1 4 7” satırı hangi verileri gösterir?",
+  "data": {
+   "options": [
+    "21, 24, 27",
+    "2, 1, 4, 7",
+    "12, 42, 72"
+   ]
+  },
+  "textPlain": "Kök-yaprak gösteriminde “2 | 1 4 7” satırı hangi verileri gösterir? Seçenekler: 21, 24, 27 / 2, 1, 4, 7 / 12, 42, 72",
+  "correctAnswer": "21, 24, 27",
+  "explanation": "Birler basamağı yaprak, diğer basamaklar köktür: 21, 24, 27."
+ },
+ {
+  "questionId": "boss-a06-m4-09",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Kök-yaprak",
+  "outcome": "Nicel (kesikli) verileri kök-yaprak gösterimiyle özetleyip yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 182 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Kök-yaprak gösterimindeki verilerin tepe değeri kaçtır?",
+  "data": {
+   "answer": 22,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "stemleaf",
+    "r": [
+     [
+      "1",
+      "3 5 8"
+     ],
+     [
+      "2",
+      "0 2 2 6"
+     ],
+     [
+      "3",
+      "1 4"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Kök-yaprak: 1 | 3 5 8; 2 | 0 2 2 6; 3 | 1 4] Kök-yaprak gösterimindeki verilerin tepe değeri kaçtır?",
+  "correctAnswer": "22",
+  "explanation": "2 | 0 2 2 6 satırında 22 iki kez geçer; en çok tekrar eden değer 22’dir."
+ },
+ {
+  "questionId": "boss-a06-m4-10",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Aritmetik ortalama",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 184 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Ali’nin beş sınavdaki puanları 70, 80, 90, 60 ve 100’dür. Puanlarının aritmetik ortalaması kaçtır?",
+  "data": {
+   "answer": 80,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Ali’nin beş sınavdaki puanları 70, 80, 90, 60 ve 100’dür. Puanlarının aritmetik ortalaması kaçtır?",
+  "correctAnswer": "80",
+  "explanation": "(70 + 80 + 90 + 60 + 100) ÷ 5 = 400 ÷ 5 = 80."
+ },
+ {
+  "questionId": "boss-a06-m4-11",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Ortanca",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 186 (veri ekranda verilir)",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "3, 8, 5, 10 veri grubunun ortancası kaçtır?",
+  "data": {
+   "answer": 65,
+   "digits": 2,
+   "unit": "",
+   "dec": 1
+  },
+  "textPlain": "3, 8, 5, 10 veri grubunun ortancası kaçtır?",
+  "correctAnswer": "6,5",
+  "explanation": "Sıralı veri: 3, 5, 8, 10. Veri sayısı çift olduğundan ortadaki iki değerin ortalaması alınır: (5 + 8) ÷ 2 = 6,5."
+ },
+ {
+  "questionId": "boss-a06-m4-12",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Karşılaştırma sorusu",
+  "outcome": "Kategorik veya nicel (kesikli) veriye dayalı, karşılaştırma gerektiren araştırma soruları oluşturabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 169",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi karşılaştırma gerektiren bir istatistiksel araştırma sorusudur?",
+  "data": {
+   "options": [
+    "6. ve 7. sınıf öğrencilerinin haftalık kitap okuma süreleri arasında fark var mıdır?",
+    "Okulumuzun adı nedir?",
+    "Benim boyum kaç santimetredir?"
+   ]
+  },
+  "textPlain": "Hangisi karşılaştırma gerektiren bir istatistiksel araştırma sorusudur? Seçenekler: 6. ve 7. sınıf öğrencilerinin haftalık kitap okuma süreleri arasında fark var mıdır? / Okulumuzun adı nedir? / Benim boyum kaç santimetredir?",
+  "correctAnswer": "6. ve 7. sınıf öğrencilerinin haftalık kitap okuma süreleri arasında fark var mıdır?",
+  "explanation": "İki grubun verilerini karşılaştırmayı gerektiren ve farklı cevapları olabilen soru istatistiksel araştırma sorusudur."
+ },
+ {
+  "questionId": "boss-a06-m4-13",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Planlama",
+  "outcome": "İstatistiksel araştırma sürecini planlayabilme; ölçütlere uygun ve yanlı olmayan araştırma/anket soruları ile uygun veri kaynaklarını belirleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 174",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir istatistiksel araştırma planlanırken ilk yapılması gereken nedir?",
+  "data": {
+   "options": [
+    "Araştırma sorusunu belirlemek",
+    "Grafik çizmek",
+    "Sonucu yazmak"
+   ]
+  },
+  "textPlain": "Bir istatistiksel araştırma planlanırken ilk yapılması gereken nedir? Seçenekler: Araştırma sorusunu belirlemek / Grafik çizmek / Sonucu yazmak",
+  "correctAnswer": "Araştırma sorusunu belirlemek",
+  "explanation": "Araştırma, soru belirlenerek başlar; veri toplama ve analiz bundan sonra gelir."
+ },
+ {
+  "questionId": "boss-a06-m4-14",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Merkezî eğilim ölçüleri",
+  "outcome": "Veri setini en iyi temsil eden merkezî eğilim ölçüsünü seçebilme; sonuç ve yorumları veriye dayanarak tartışabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 189",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her ölçüyü tanımıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Tepe değer",
+     "En çok tekrar eden değer"
+    ],
+    [
+     "Ortanca",
+     "Sıralı verinin ortasındaki değer"
+    ],
+    [
+     "Aritmetik ortalama",
+     "Veri toplamının veri sayısına bölümü"
+    ]
+   ]
+  },
+  "textPlain": "Her ölçüyü tanımıyla eşleştir. Sol: Tepe değer; Ortanca; Aritmetik ortalama. Sağ: En çok tekrar eden değer; Sıralı verinin ortasındaki değer; Veri toplamının veri sayısına bölümü.",
+  "correctAnswer": "Tepe değer = En çok tekrar eden değer; Ortanca = Sıralı verinin ortasındaki değer; Aritmetik ortalama = Veri toplamının veri sayısına bölümü",
+  "explanation": "Tepe değer en sık görülen değer; ortanca sıralı verinin ortası; aritmetik ortalama toplamın veri sayısına bölümüdür."
+ },
+ {
+  "questionId": "boss-a06-m4-15",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Uygun ölçü",
+  "outcome": "Veri setini en iyi temsil eden merkezî eğilim ölçüsünü seçebilme; sonuç ve yorumları veriye dayanarak tartışabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 189",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir sokaktaki 5 evin aylık su faturaları 300, 320, 310, 330 ve 2 000 TL’dir. Verileri en iyi temsil eden ölçü hangisidir?",
+  "data": {
+   "options": [
+    "Ortanca",
+    "Aritmetik ortalama",
+    "Açıklık"
+   ]
+  },
+  "textPlain": "Bir sokaktaki 5 evin aylık su faturaları 300, 320, 310, 330 ve 2 000 TL’dir. Verileri en iyi temsil eden ölçü hangisidir? Seçenekler: Ortanca / Aritmetik ortalama / Açıklık",
+  "correctAnswer": "Ortanca",
+  "explanation": "2 000 TL’lik uç değer ortalamayı çok büyütür; uç değer varken ortanca daha iyi temsil eder."
+ },
+ {
+  "questionId": "boss-a06-m4-16",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Aritmetik ortalama",
+  "outcome": "Aritmetik ortalama, ortanca, tepe değer ve açıklığı bulabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 184 (veri ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Dört sayının aritmetik ortalaması 15’tir. Sayılardan üçü 10, 12 ve 20 ise dördüncü sayı kaçtır?",
+  "data": {
+   "answer": 18,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Dört sayının aritmetik ortalaması 15’tir. Sayılardan üçü 10, 12 ve 20 ise dördüncü sayı kaçtır?",
+  "correctAnswer": "18",
+  "explanation": "Dört sayının toplamı 15 × 4 = 60; 60 − (10 + 12 + 20) = 18."
+ },
+ {
+  "questionId": "boss-a06-m4-17",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Yanlı sorular",
+  "outcome": "İstatistiksel araştırma sürecini planlayabilme; ölçütlere uygun ve yanlı olmayan araştırma/anket soruları ile uygun veri kaynaklarını belirleyebilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 205",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangisi yanlı olmayan (tarafsız) bir anket sorusudur?",
+  "data": {
+   "options": [
+    "Hafta sonu en çok hangi etkinliği yaparsın?",
+    "Herkesin sevdiği futbolu sen de sever misin?",
+    "Sıkıcı ders çalışmayı mı, eğlenceli oyunu mu seçersin?"
+   ]
+  },
+  "textPlain": "Hangisi yanlı olmayan (tarafsız) bir anket sorusudur? Seçenekler: Hafta sonu en çok hangi etkinliği yaparsın? / Herkesin sevdiği futbolu sen de sever misin? / Sıkıcı ders çalışmayı mı, eğlenceli oyunu mu seçersin?",
+  "correctAnswer": "Hafta sonu en çok hangi etkinliği yaparsın?",
+  "explanation": "Tarafsız soru, cevaplayanı herhangi bir seçeneğe yönlendirmez."
+ },
+ {
+  "questionId": "boss-a06-m4-18",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Uygun ölçü",
+  "outcome": "Veri setini en iyi temsil eden merkezî eğilim ölçüsünü seçebilme; sonuç ve yorumları veriye dayanarak tartışabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 189",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir sınıfta en çok tercih edilen meyve araştırılıyor. Hangi ölçü kullanılmalıdır?",
+  "data": {
+   "options": [
+    "Tepe değer",
+    "Aritmetik ortalama",
+    "Ortanca"
+   ]
+  },
+  "textPlain": "Bir sınıfta en çok tercih edilen meyve araştırılıyor. Hangi ölçü kullanılmalıdır? Seçenekler: Tepe değer / Aritmetik ortalama / Ortanca",
+  "correctAnswer": "Tepe değer",
+  "explanation": "Meyve kategorik bir veridir; kategorik veride en çok tercih edileni tepe değer gösterir."
+ },
+ {
+  "questionId": "boss-a06-m4-19",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Sonuçları yorumlama",
+  "outcome": "Veri setini en iyi temsil eden merkezî eğilim ölçüsünü seçebilme; sonuç ve yorumları veriye dayanarak tartışabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 191 (veri ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Tabloya göre hangisi doğrudur?",
+  "data": {
+   "options": [
+    "6/B’nin puanları birbirine daha yakındır.",
+    "6/A’nın ortalaması daha yüksektir.",
+    "İki sınıfın bütün puanları aynıdır."
+   ],
+   "fig": {
+    "k": "table",
+    "h": [
+     "Sınıf",
+     "Ort. · Açıklık"
+    ],
+    "r": [
+     [
+      "6/A",
+      "72 · 40"
+     ],
+     [
+      "6/B",
+      "72 · 10"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Tablo: 6/A ortalama 72, açıklık 40; 6/B ortalama 72, açıklık 10] Tabloya göre hangisi doğrudur? Seçenekler: 6/B’nin puanları birbirine daha yakındır. / 6/A’nın ortalaması daha yüksektir. / İki sınıfın bütün puanları aynıdır.",
+  "correctAnswer": "6/B’nin puanları birbirine daha yakındır.",
+  "explanation": "Ortalamalar eşittir; açıklığı küçük olan 6/B’nin puanları birbirine daha yakındır."
+ },
+ {
+  "questionId": "boss-a06-m4-20",
+  "grade": 6,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Tema: İstatistiksel Araştırma Süreci",
+  "topic": "Kök-yaprak",
+  "outcome": "Nicel (kesikli) verileri kök-yaprak gösterimiyle özetleyip yorumlayabilme.",
+  "sourceRef": "MEB Matematik 6. Sınıf Ders Kitabı 1. Kitap, 4. Tema “İstatistiksel Araştırma Süreci”, s. 182 (veri ekranda verilir)",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kök-yaprak gösterimindeki verilerin ortancası kaçtır?",
+  "data": {
+   "answer": 53,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "stemleaf",
+    "r": [
+     [
+      "4",
+      "2 5"
+     ],
+     [
+      "5",
+      "0 3 8"
+     ],
+     [
+      "6",
+      "1 7"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Kök-yaprak: 4 | 2 5; 5 | 0 3 8; 6 | 1 7] Kök-yaprak gösterimindeki verilerin ortancası kaçtır?",
+  "correctAnswer": "53",
+  "explanation": "Veriler: 42, 45, 50, 53, 58, 61, 67. Yedi verinin ortasındaki (4.) değer 53’tür."
+ },
+ {
+  "questionId": "boss-a06-t3-01",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Ünsüz yumuşaması",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 141",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kitap” kelimesine “-ı” eki gelince “kitabı” olur. Burada hangi ses olayı vardır?",
+  "data": {
+   "options": [
+    "Ünsüz yumuşaması",
+    "Ünlü düşmesi",
+    "Ünlü daralması"
+   ]
+  },
+  "textPlain": "“Kitap” kelimesine “-ı” eki gelince “kitabı” olur. Burada hangi ses olayı vardır? Seçenekler: Ünsüz yumuşaması / Ünlü düşmesi / Ünlü daralması",
+  "correctAnswer": "Ünsüz yumuşaması",
+  "explanation": "Sert ünsüzle (p) biten kelimeye ünlüyle başlayan ek gelince ünsüz yumuşar (b): ünsüz yumuşaması."
+ },
+ {
+  "questionId": "boss-a06-t3-02",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Ünlü düşmesi",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 129",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi kelimede ünlü düşmesi vardır?",
+  "data": {
+   "options": [
+    "burnu",
+    "kitabı",
+    "gelmiyor"
+   ]
+  },
+  "textPlain": "Hangi kelimede ünlü düşmesi vardır? Seçenekler: burnu / kitabı / gelmiyor",
+  "correctAnswer": "burnu",
+  "explanation": "“Burun + u” birleşince ikinci hecedeki “u” düşer: burnu."
+ },
+ {
+  "questionId": "boss-a06-t3-03",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "İki nokta",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 140",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede iki nokta doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Çantama şunları koydum: kitap, defter, kalem.",
+    "Çantama: şunları koydum kitap, defter, kalem.",
+    "Çantama şunları: koydum kitap, defter, kalem."
+   ]
+  },
+  "textPlain": "Hangi cümlede iki nokta doğru kullanılmıştır? Seçenekler: Çantama şunları koydum: kitap, defter, kalem. / Çantama: şunları koydum kitap, defter, kalem. / Çantama şunları: koydum kitap, defter, kalem.",
+  "correctAnswer": "Çantama şunları koydum: kitap, defter, kalem.",
+  "explanation": "Açıklama yapılacak sözden önce, sıralanacak örneklerden önce iki nokta konur."
+ },
+ {
+  "questionId": "boss-a06-t3-04",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Nesnel yargı",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 137",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Türkiye’nin başkenti Ankara’dır.” cümlesi nesnel bir yargıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Türkiye’nin başkenti Ankara’dır.” cümlesi nesnel bir yargıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Kanıtlanabilen, kişiden kişiye değişmeyen yargılar nesneldir."
+ },
+ {
+  "questionId": "boss-a06-t3-05",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Zıtlık",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 150",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede zıtlık bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Hava soğuktu ama denize girdik.",
+    "Hava soğuk olduğu için denize girmedik.",
+    "Hava güzeldi ve denize girdik."
+   ]
+  },
+  "textPlain": "Hangi cümlede zıtlık bildiren bir ifade vardır? Seçenekler: Hava soğuktu ama denize girdik. / Hava soğuk olduğu için denize girmedik. / Hava güzeldi ve denize girdik.",
+  "correctAnswer": "Hava soğuktu ama denize girdik.",
+  "explanation": "“Ama” bağlacı zıtlık bildirir."
+ },
+ {
+  "questionId": "boss-a06-t3-06",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "mi soru eki",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 151",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlede “mi” doğru yazılmıştır?",
+  "data": {
+   "options": [
+    "Bu şehir senin de hoşuna gitti mi?",
+    "Bu şehir senin de hoşuna gittimi?",
+    "Bu şehir senin de hoşuna gitti-mi?"
+   ]
+  },
+  "textPlain": "Hangi cümlede “mi” doğru yazılmıştır? Seçenekler: Bu şehir senin de hoşuna gitti mi? / Bu şehir senin de hoşuna gittimi? / Bu şehir senin de hoşuna gitti-mi?",
+  "correctAnswer": "Bu şehir senin de hoşuna gitti mi?",
+  "explanation": "Soru eki “mi” ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a06-t3-07",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Kelime anlamı",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 145",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Gelenek” kelimesinin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Kuşaktan kuşağa aktarılan alışkanlık ve davranışlar",
+    "Yeni yapılmış bir buluş",
+    "Bir tür yemek"
+   ]
+  },
+  "textPlain": "“Gelenek” kelimesinin anlamı hangisidir? Seçenekler: Kuşaktan kuşağa aktarılan alışkanlık ve davranışlar / Yeni yapılmış bir buluş / Bir tür yemek",
+  "correctAnswer": "Kuşaktan kuşağa aktarılan alışkanlık ve davranışlar",
+  "explanation": "Gelenek, bir toplumda kuşaktan kuşağa aktarılan alışkanlıklardır."
+ },
+ {
+  "questionId": "boss-a06-t3-08",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Ses olayları",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 161",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Kelimeleri içerdikleri ses olayına göre ayır.",
+  "data": {
+   "bins": [
+    "Ünsüz yumuşaması",
+    "Ünsüz benzeşmesi"
+   ],
+   "items": [
+    [
+     "kitabı",
+     0
+    ],
+    [
+     "balıkçı",
+     1
+    ],
+    [
+     "ağacı",
+     0
+    ],
+    [
+     "sokakta",
+     1
+    ],
+    [
+     "dolabı",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kelimeleri içerdikleri ses olayına göre ayır. (Ünsüz yumuşaması / Ünsüz benzeşmesi) Kartlar: kitabı; balıkçı; ağacı; sokakta; dolabı.",
+  "correctAnswer": "Ünsüz yumuşaması: kitabı, ağacı, dolabı. Ünsüz benzeşmesi: balıkçı, sokakta.",
+  "explanation": "Kitap→kitabı, ağaç→ağacı, dolap→dolabı yumuşamadır; balık+cı→balıkçı, sokak+da→sokakta benzeşmedir."
+ },
+ {
+  "questionId": "boss-a06-t3-09",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Ünlü daralması",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 139",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi kelimede ünlü daralması vardır?",
+  "data": {
+   "options": [
+    "bekliyor",
+    "beklemek",
+    "bekledi"
+   ]
+  },
+  "textPlain": "Hangi kelimede ünlü daralması vardır? Seçenekler: bekliyor / beklemek / bekledi",
+  "correctAnswer": "bekliyor",
+  "explanation": "“Bekle-” kelimesine “-yor” gelince “e” daralıp “i” olur: bekliyor."
+ },
+ {
+  "questionId": "boss-a06-t3-10",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Yardımcı ünsüz",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 128",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Kapı” kelimesine “-ı” eki getirildiğinde “kapıyı” olur. Araya giren “y” sesine ne denir?",
+  "data": {
+   "options": [
+    "Yardımcı ünsüz (kaynaştırma)",
+    "Ünsüz yumuşaması",
+    "Ünlü düşmesi"
+   ]
+  },
+  "textPlain": "“Kapı” kelimesine “-ı” eki getirildiğinde “kapıyı” olur. Araya giren “y” sesine ne denir? Seçenekler: Yardımcı ünsüz (kaynaştırma) / Ünsüz yumuşaması / Ünlü düşmesi",
+  "correctAnswer": "Yardımcı ünsüz (kaynaştırma)",
+  "explanation": "Ünlüyle biten kelimeye ünlüyle başlayan ek gelince araya yardımcı ünsüz girer."
+ },
+ {
+  "questionId": "boss-a06-t3-11",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Sebep",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 123",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede sebep bildiren bir ifade vardır?",
+  "data": {
+   "options": [
+    "Yağmur yağdığı için maç ertelendi.",
+    "Yağmur yağdı ama maç oynandı.",
+    "Yağmur yağsa da maç oynandı."
+   ]
+  },
+  "textPlain": "Hangi cümlede sebep bildiren bir ifade vardır? Seçenekler: Yağmur yağdığı için maç ertelendi. / Yağmur yağdı ama maç oynandı. / Yağmur yağsa da maç oynandı.",
+  "correctAnswer": "Yağmur yağdığı için maç ertelendi.",
+  "explanation": "“-dığı için” sebep bildirir."
+ },
+ {
+  "questionId": "boss-a06-t3-12",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Öznel yargı",
+  "outcome": "Dil yapılarını (kök, yapım ve çekim ekleri, karşılaştırma ifadeleri) tanıyabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 137",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi öznel bir yargıdır?",
+  "data": {
+   "options": [
+    "İstanbul dünyanın en güzel şehridir.",
+    "İstanbul Marmara Bölgesi’ndedir.",
+    "İstanbul Boğazı iki kıtayı ayırır."
+   ]
+  },
+  "textPlain": "Hangisi öznel bir yargıdır? Seçenekler: İstanbul dünyanın en güzel şehridir. / İstanbul Marmara Bölgesi’ndedir. / İstanbul Boğazı iki kıtayı ayırır.",
+  "correctAnswer": "İstanbul dünyanın en güzel şehridir.",
+  "explanation": "“En güzel” kişiden kişiye değişen bir değerlendirmedir; öznel yargıdır."
+ },
+ {
+  "questionId": "boss-a06-t3-13",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Metnin bölümleri",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 148",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "match",
+  "prompt": "Her bölümü işleviyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Giriş",
+     "Konu tanıtılır"
+    ],
+    [
+     "Gelişme",
+     "Konu ayrıntılandırılır"
+    ],
+    [
+     "Sonuç",
+     "Konu bir sonuca bağlanır"
+    ]
+   ]
+  },
+  "textPlain": "Her bölümü işleviyle eşleştir. Sol: Giriş; Gelişme; Sonuç. Sağ: Konu tanıtılır; Konu ayrıntılandırılır; Konu bir sonuca bağlanır.",
+  "correctAnswer": "Giriş = Konu tanıtılır; Gelişme = Konu ayrıntılandırılır; Sonuç = Konu bir sonuca bağlanır",
+  "explanation": "Girişte konu tanıtılır, gelişmede ayrıntılandırılır, sonuçta bir sonuca bağlanır."
+ },
+ {
+  "questionId": "boss-a06-t3-14",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Ünsüz türemesi",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 151",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi kelimede ünsüz türemesi vardır?",
+  "data": {
+   "options": [
+    "hakkı",
+    "kitabı",
+    "burnu"
+   ]
+  },
+  "textPlain": "Hangi kelimede ünsüz türemesi vardır? Seçenekler: hakkı / kitabı / burnu",
+  "correctAnswer": "hakkı",
+  "explanation": "“Hak + ı” birleşince “k” ünsüzü ikileşir: hakkı."
+ },
+ {
+  "questionId": "boss-a06-t3-15",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Düşünceyi geliştirme",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 120",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Karşılaştırma",
+    "Tanık gösterme",
+    "Benzetme"
+   ],
+   "passage": "Japonya’da insanlar evlerine girerken ayakkabılarını çıkarır. Bu gelenek ülkemizde de yaygındır. Ancak Japonya’da evin içinde giyilen terliklerden ayrı olarak tuvalet için de özel terlikler bulunur."
+  },
+  "textPlain": "Metin: Japonya’da insanlar evlerine girerken ayakkabılarını çıkarır. Bu gelenek ülkemizde de yaygındır. Ancak Japonya’da evin içinde giyilen terliklerden ayrı olarak tuvalet için de özel terlikler bulunur. Soru: Yukarıdaki metinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Karşılaştırma / Tanık gösterme / Benzetme",
+  "correctAnswer": "Karşılaştırma",
+  "explanation": "Japonya ile Türkiye’deki gelenekler benzer ve farklı yönleriyle karşılaştırılmıştır."
+ },
+ {
+  "questionId": "boss-a06-t3-16",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Yüzey anlam",
+  "outcome": "Metnin yüzey anlamını belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 130 (metin ekranda verilir)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yukarıdaki metne göre hangisi Japonya’ya özgü olarak anlatılmıştır?",
+  "data": {
+   "options": [
+    "Tuvalet için ayrı terlik giyilmesi",
+    "Eve girerken ayakkabı çıkarılması",
+    "Misafire çay ikram edilmesi"
+   ],
+   "passage": "Japonya’da insanlar evlerine girerken ayakkabılarını çıkarır. Bu gelenek ülkemizde de yaygındır. Ancak Japonya’da evin içinde giyilen terliklerden ayrı olarak tuvalet için de özel terlikler bulunur."
+  },
+  "textPlain": "Metin: Japonya’da insanlar evlerine girerken ayakkabılarını çıkarır. Bu gelenek ülkemizde de yaygındır. Ancak Japonya’da evin içinde giyilen terliklerden ayrı olarak tuvalet için de özel terlikler bulunur. Soru: Yukarıdaki metne göre hangisi Japonya’ya özgü olarak anlatılmıştır? Seçenekler: Tuvalet için ayrı terlik giyilmesi / Eve girerken ayakkabı çıkarılması / Misafire çay ikram edilmesi",
+  "correctAnswer": "Tuvalet için ayrı terlik giyilmesi",
+  "explanation": "Ayakkabı çıkarmanın ülkemizde de yaygın olduğu söylenir; tuvalet için ayrı terlik ise Japonya’ya özgü anlatılır."
+ },
+ {
+  "questionId": "boss-a06-t3-17",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Sayısal veri",
+  "outcome": "Metin türlerinin ve metin yapılarının özelliklerini belirleyebilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 120",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Hollanda’da yaklaşık 18 milyon kişi yaşıyor ve ülkede 23 milyondan fazla bisiklet bulunuyor.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Sayısal verilerden yararlanma",
+    "Benzetme",
+    "Tanımlama"
+   ]
+  },
+  "textPlain": "“Hollanda’da yaklaşık 18 milyon kişi yaşıyor ve ülkede 23 milyondan fazla bisiklet bulunuyor.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Sayısal verilerden yararlanma / Benzetme / Tanımlama",
+  "correctAnswer": "Sayısal verilerden yararlanma",
+  "explanation": "Düşünce, sayısal bilgilerle desteklenmiştir."
+ },
+ {
+  "questionId": "boss-a06-t3-18",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Yazım",
+  "outcome": "Yazım kurallarını ve noktalama işaretlerini doğru kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 151",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlenin yazımı doğrudur?",
+  "data": {
+   "options": [
+    "Masadaki haritayı sen de gördün mü?",
+    "Masada ki haritayı sende gördünmü?",
+    "Masadaki haritayı sende gördün mü?"
+   ]
+  },
+  "textPlain": "Hangi cümlenin yazımı doğrudur? Seçenekler: Masadaki haritayı sen de gördün mü? / Masada ki haritayı sende gördünmü? / Masadaki haritayı sende gördün mü?",
+  "correctAnswer": "Masadaki haritayı sen de gördün mü?",
+  "explanation": "“-ki” eki bitişik (masadaki), “de” bağlacı ve “mi” soru eki ayrı yazılır."
+ },
+ {
+  "questionId": "boss-a06-t3-19",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Yapım ekleri",
+  "outcome": "Ses olaylarını tanıyıp kelimeleri ses olaylarına uygun yazabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 162",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Gezgin” kelimesindeki yapım eki hangisidir?",
+  "data": {
+   "options": [
+    "-gin",
+    "-ler",
+    "-de"
+   ]
+  },
+  "textPlain": "“Gezgin” kelimesindeki yapım eki hangisidir? Seçenekler: -gin / -ler / -de",
+  "correctAnswer": "-gin",
+  "explanation": "“Gez-” köküne “-gin” yapım eki gelerek yeni bir kelime türemiştir."
+ },
+ {
+  "questionId": "boss-a06-t3-20",
+  "grade": 6,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "3. Tema: Farklı Dünyalar",
+  "topic": "Kelime anlamı",
+  "outcome": "Söz varlığı unsurlarının (kelime, deyim, atasözü, kalıp söz) anlamını belirleyip bağlama uygun kullanabilme.",
+  "sourceRef": "MEB Türkçe 6. Sınıf Ders Kitabı 1. Kitap, 3. Tema “Farklı Dünyalar”, s. 145",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Kültür” kelimesinin anlamı hangisidir?",
+  "data": {
+   "options": [
+    "Bir toplumun dil, gelenek, sanat gibi maddi ve manevi değerlerinin bütünü",
+    "Bir ülkenin yüzölçümü",
+    "Bir tür el sanatı"
+   ]
+  },
+  "textPlain": "“Kültür” kelimesinin anlamı hangisidir? Seçenekler: Bir toplumun dil, gelenek, sanat gibi maddi ve manevi değerlerinin bütünü / Bir ülkenin yüzölçümü / Bir tür el sanatı",
+  "correctAnswer": "Bir toplumun dil, gelenek, sanat gibi maddi ve manevi değerlerinin bütünü",
+  "explanation": "Kültür, bir toplumun maddi ve manevi değerlerinin tamamıdır."
+ }
+]
