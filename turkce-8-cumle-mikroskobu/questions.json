@@ -1,0 +1,3458 @@
+[
+  {
+    "questionId": "tr8u2-neden-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "neden",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Yağmur",
+        "yağdığı",
+        "için",
+        "maç",
+        "ertelendi."
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ],
+      "A": [
+        0,
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4
+      ]
+    },
+    "textPlain": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Yağmur yağdığı için maç ertelendi.”",
+    "correctAnswer": "neden: Yağmur yağdığı için · sonuç: maç ertelendi.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "neden",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Çok",
+        "çalıştığından",
+        "yarışmayı",
+        "kazandı."
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ],
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        2,
+        3
+      ]
+    },
+    "textPlain": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Çok çalıştığından yarışmayı kazandı.”",
+    "correctAnswer": "neden: Çok çalıştığından · sonuç: yarışmayı kazandı.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Lamı boya: amaç bölümünü mavi, eylem bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Treni",
+        "yakalamak",
+        "için",
+        "hızla",
+        "koştu."
+      ],
+      "c": [
+        "amaç",
+        "eylem"
+      ],
+      "A": [
+        0,
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4
+      ]
+    },
+    "textPlain": "Lamı boya: amaç bölümünü mavi, eylem bölümünü turuncu boyayla işaretle. Cümle: “Treni yakalamak için hızla koştu.”",
+    "correctAnswer": "amaç: Treni yakalamak için · eylem: hızla koştu.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Dün",
+        "gece",
+        "uyuyamadım,",
+        "çünkü",
+        "sokak",
+        "çok",
+        "gürültülüydü."
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ],
+      "A": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "B": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Dün gece uyuyamadım, çünkü sokak çok gürültülüydü.”",
+    "correctAnswer": "neden: çünkü sokak çok gürültülüydü. · sonuç: gece uyuyamadım,",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir. “Çünkü” bağlacından sonra gelen bölüm nedendir."
+  },
+  {
+    "questionId": "tr8u2-neden-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "neden",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Lamı boya: amaç bölümünü mavi, eylem bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Kardeşini",
+        "sevindirmek",
+        "amacıyla",
+        "ona",
+        "sürpriz",
+        "bir",
+        "parti",
+        "hazırladı."
+      ],
+      "c": [
+        "amaç",
+        "eylem"
+      ],
+      "A": [
+        0,
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "textPlain": "Lamı boya: amaç bölümünü mavi, eylem bölümünü turuncu boyayla işaretle. Cümle: “Kardeşini sevindirmek amacıyla ona sürpriz bir parti hazırladı.”",
+    "correctAnswer": "amaç: Kardeşini sevindirmek amacıyla · eylem: ona sürpriz bir parti hazırladı.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "neden",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Yollar",
+        "buz",
+        "tuttuğundan",
+        "okullar",
+        "bugün",
+        "tatil",
+        "edildi."
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ],
+      "A": [
+        0,
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "textPlain": "Lamı boya: neden bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Yollar buz tuttuğundan okullar bugün tatil edildi.”",
+    "correctAnswer": "neden: Yollar buz tuttuğundan · sonuç: okullar bugün tatil edildi.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Lamı boya: amaç bölümünü mavi, eylem bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Kitabı",
+        "zamanında",
+        "bitireyim",
+        "diye",
+        "her",
+        "gece",
+        "okudu."
+      ],
+      "c": [
+        "amaç",
+        "eylem"
+      ],
+      "A": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "B": [
+        4,
+        5,
+        6
+      ]
+    },
+    "textPlain": "Lamı boya: amaç bölümünü mavi, eylem bölümünü turuncu boyayla işaretle. Cümle: “Kitabı zamanında bitireyim diye her gece okudu.”",
+    "correctAnswer": "amaç: Kitabı zamanında bitireyim diye · eylem: her gece okudu.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.” “diye” burada amaç bildirir."
+  },
+  {
+    "questionId": "tr8u2-neden-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "neden",
+    "rank": 1,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi neden ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Hava",
+        "çok",
+        "sıcak",
+        "olduğu",
+        "için",
+        "dondurma",
+        "yedik."
+      ],
+      "k": [
+        5
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi neden ve sonuç olarak iki parçaya ayır. Cümle: “Hava çok sıcak olduğu için dondurma yedik.”",
+    "correctAnswer": "Hava çok sıcak olduğu için | dondurma yedik.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi amaç ve eylem olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Fidanları",
+        "korumak",
+        "için",
+        "bahçenin",
+        "etrafına",
+        "çit",
+        "çektiler."
+      ],
+      "k": [
+        3
+      ],
+      "c": [
+        "amaç",
+        "eylem"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi amaç ve eylem olarak iki parçaya ayır. Cümle: “Fidanları korumak için bahçenin etrafına çit çektiler.”",
+    "correctAnswer": "Fidanları korumak için | bahçenin etrafına çit çektiler.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi neden ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Arkadaşı",
+        "geç",
+        "kaldığından",
+        "otobüsü",
+        "kaçırdılar."
+      ],
+      "k": [
+        3
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi neden ve sonuç olarak iki parçaya ayır. Cümle: “Arkadaşı geç kaldığından otobüsü kaçırdılar.”",
+    "correctAnswer": "Arkadaşı geç kaldığından | otobüsü kaçırdılar.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "neden",
+    "rank": 3,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi amaç ve eylem olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Kütüphaneye",
+        "yeni",
+        "kitaplar",
+        "alınsın",
+        "diye",
+        "okul",
+        "kermes",
+        "düzenledi."
+      ],
+      "k": [
+        5
+      ],
+      "c": [
+        "amaç",
+        "eylem"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi amaç ve eylem olarak iki parçaya ayır. Cümle: “Kütüphaneye yeni kitaplar alınsın diye okul kermes düzenledi.”",
+    "correctAnswer": "Kütüphaneye yeni kitaplar alınsın diye | okul kermes düzenledi.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "neden",
+    "rank": 3,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi neden ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Toplantıya",
+        "katılacakların",
+        "çoğu",
+        "hastalandığından",
+        "toplantı",
+        "bir",
+        "hafta",
+        "ertelendi."
+      ],
+      "k": [
+        4
+      ],
+      "c": [
+        "neden",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi neden ve sonuç olarak iki parçaya ayır. Cümle: “Toplantıya katılacakların çoğu hastalandığından toplantı bir hafta ertelendi.”",
+    "correctAnswer": "Toplantıya katılacakların çoğu hastalandığından | toplantı bir hafta ertelendi.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "neden",
+    "rank": 1,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Babam yorgun olduğu için erkenden uyudu.",
+      "o": [
+        "neden-sonuç",
+        "koşul-sonuç",
+        "karşılaştırma",
+        "amaç-sonuç"
+      ],
+      "a": 0
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Babam yorgun olduğu için erkenden uyudu.” Mercekler: neden-sonuç, koşul-sonuç, karşılaştırma, amaç-sonuç.",
+    "correctAnswer": "neden-sonuç",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "neden",
+    "rank": 1,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Babam dinlenmek için erkenden yattı.",
+      "o": [
+        "koşul-sonuç",
+        "karşılaştırma",
+        "neden-sonuç",
+        "amaç-sonuç"
+      ],
+      "a": 3
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Babam dinlenmek için erkenden yattı.” Mercekler: koşul-sonuç, karşılaştırma, neden-sonuç, amaç-sonuç.",
+    "correctAnswer": "amaç-sonuç",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Elif, sesi daha iyi duyulsun diye mikrofona yaklaştı.",
+      "o": [
+        "koşul-sonuç",
+        "karşılaştırma",
+        "neden-sonuç",
+        "amaç-sonuç"
+      ],
+      "a": 3
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Elif, sesi daha iyi duyulsun diye mikrofona yaklaştı.” Mercekler: koşul-sonuç, karşılaştırma, neden-sonuç, amaç-sonuç.",
+    "correctAnswer": "amaç-sonuç",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "neden",
+    "rank": 3,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Bilgisayarın şarjı bittiğinden ödevi kaydedemedi.",
+      "o": [
+        "amaç-sonuç",
+        "neden-sonuç",
+        "koşul-sonuç",
+        "karşılaştırma"
+      ],
+      "a": 1
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Bilgisayarın şarjı bittiğinden ödevi kaydedemedi.” Mercekler: amaç-sonuç, neden-sonuç, koşul-sonuç, karşılaştırma.",
+    "correctAnswer": "neden-sonuç",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "neden",
+    "rank": 1,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle neden-sonuç ilişkisi kursun.",
+    "data": {
+      "a": "Kar çok yağdı,",
+      "b": "yollar kapandı.",
+      "o": [
+        "yoksa",
+        "ama",
+        "bu yüzden"
+      ],
+      "k": 2,
+      "rel": "neden-sonuç"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle neden-sonuç ilişkisi kursun. Parçalar: “Kar çok yağdı, … yollar kapandı.” Pipetler: yoksa, ama, bu yüzden.",
+    "correctAnswer": "Kar çok yağdı, bu yüzden yollar kapandı.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir. “Bu yüzden” sonuç bildirir."
+  },
+  {
+    "questionId": "tr8u2-neden-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle amaç-sonuç ilişkisi kursun.",
+    "data": {
+      "a": "Kalabalığa yakalanmamak",
+      "b": "erkenden yola çıktık.",
+      "o": [
+        "rağmen",
+        "için",
+        "gibi"
+      ],
+      "k": 1,
+      "rel": "amaç-sonuç"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle amaç-sonuç ilişkisi kursun. Parçalar: “Kalabalığa yakalanmamak … erkenden yola çıktık.” Pipetler: rağmen, için, gibi.",
+    "correctAnswer": "Kalabalığa yakalanmamak için erkenden yola çıktık.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.”"
+  },
+  {
+    "questionId": "tr8u2-neden-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "neden",
+    "rank": 2,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle neden-sonuç ilişkisi kursun.",
+    "data": {
+      "a": "Saksıdaki çiçek su",
+      "b": "kurudu.",
+      "o": [
+        "alırken",
+        "alsa",
+        "almadığından"
+      ],
+      "k": 2,
+      "rel": "neden-sonuç"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle neden-sonuç ilişkisi kursun. Parçalar: “Saksıdaki çiçek su … kurudu.” Pipetler: alırken, alsa, almadığından.",
+    "correctAnswer": "Saksıdaki çiçek su almadığından kurudu.",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-neden-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Neden-sonuç ve amaç-sonuç ilişkisi",
+    "outcome": "Cümlede sebep-sonuç ve amaç-sonuç ilişkilerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "neden",
+    "rank": 3,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle amaç-sonuç ilişkisi kursun.",
+    "data": {
+      "a": "Herkes rahatça duysun",
+      "b": "sesini yükseltti.",
+      "o": [
+        "ise",
+        "çünkü",
+        "diye"
+      ],
+      "k": 2,
+      "rel": "amaç-sonuç"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle amaç-sonuç ilişkisi kursun. Parçalar: “Herkes rahatça duysun … sesini yükseltti.” Pipetler: ise, çünkü, diye.",
+    "correctAnswer": "Herkes rahatça duysun diye sesini yükseltti.",
+    "explanation": "Amaç-sonuç cümlesinde amaç, eylem yapılırken henüz gerçekleşmemiştir: “Treni yakalamak için koştu.” “diye” amaç bildirir."
+  },
+  {
+    "questionId": "tr8u2-kosul-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "kosul",
+    "rank": 1,
+    "type": "paint",
+    "prompt": "Lamı boya: koşul bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Erken",
+        "kalkarsan",
+        "güneşin",
+        "doğuşunu",
+        "görürsün."
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ],
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        2,
+        3,
+        4
+      ]
+    },
+    "textPlain": "Lamı boya: koşul bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Erken kalkarsan güneşin doğuşunu görürsün.”",
+    "correctAnswer": "koşul: Erken kalkarsan · sonuç: güneşin doğuşunu görürsün.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Lamı boya: koşul bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Düzenli",
+        "kitap",
+        "okudukça",
+        "söz",
+        "varlığın",
+        "zenginleşir."
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ],
+      "A": [
+        0,
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4,
+        5
+      ]
+    },
+    "textPlain": "Lamı boya: koşul bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Düzenli kitap okudukça söz varlığın zenginleşir.”",
+    "correctAnswer": "koşul: Düzenli kitap okudukça · sonuç: söz varlığın zenginleşir.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”). “-dıkça” koşul bildirir."
+  },
+  {
+    "questionId": "tr8u2-kosul-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Lamı boya: koşul bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Emek",
+        "vermeden",
+        "başarıya",
+        "ulaşamazsın."
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ],
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        2,
+        3
+      ]
+    },
+    "textPlain": "Lamı boya: koşul bölümünü mavi, sonuç bölümünü turuncu boyayla işaretle. Cümle: “Emek vermeden başarıya ulaşamazsın.”",
+    "correctAnswer": "koşul: Emek vermeden · sonuç: başarıya ulaşamazsın.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”). “-madan” bu cümlede koşul bildirir."
+  },
+  {
+    "questionId": "tr8u2-kosul-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "paint",
+    "prompt": "Lamı boya: karşılaştırılan iki öğeyi mavi ve turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Kardeşim,",
+        "benden",
+        "daha",
+        "hızlı",
+        "koşar."
+      ],
+      "c": [
+        "1. karşılaştırılan",
+        "2. karşılaştırılan"
+      ],
+      "A": [
+        0
+      ],
+      "B": [
+        1
+      ]
+    },
+    "textPlain": "Lamı boya: karşılaştırılan iki öğeyi mavi ve turuncu boyayla işaretle. Cümle: “Kardeşim, benden daha hızlı koşar.”",
+    "correctAnswer": "1. karşılaştırılan: Kardeşim, · 2. karşılaştırılan: benden",
+    "explanation": "Karşılaştırma cümlesinde iki ya da daha çok varlık, durum, kavram ortak ya da farklı yönleriyle ele alınır (“-den daha”, “kadar”, “gibi”, “en”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "paint",
+    "prompt": "Lamı boya: karşılaştırılan iki öğeyi mavi ve turuncu boyayla işaretle.",
+    "data": {
+      "s": [
+        "Bu",
+        "yılki",
+        "hasat",
+        "geçen",
+        "yılınki",
+        "kadar",
+        "bereketli",
+        "değil."
+      ],
+      "c": [
+        "1. karşılaştırılan",
+        "2. karşılaştırılan"
+      ],
+      "A": [
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4
+      ]
+    },
+    "textPlain": "Lamı boya: karşılaştırılan iki öğeyi mavi ve turuncu boyayla işaretle. Cümle: “Bu yılki hasat geçen yılınki kadar bereketli değil.”",
+    "correctAnswer": "1. karşılaştırılan: yılki hasat · 2. karşılaştırılan: geçen yılınki",
+    "explanation": "Karşılaştırma cümlesinde iki ya da daha çok varlık, durum, kavram ortak ya da farklı yönleriyle ele alınır (“-den daha”, “kadar”, “gibi”, “en”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "kosul",
+    "rank": 1,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Bu",
+        "ilacı",
+        "düzenli",
+        "içersen",
+        "çabuk",
+        "iyileşirsin."
+      ],
+      "k": [
+        4
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır. Cümle: “Bu ilacı düzenli içersen çabuk iyileşirsin.”",
+    "correctAnswer": "Bu ilacı düzenli içersen | çabuk iyileşirsin.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Su",
+        "sıfır",
+        "derecenin",
+        "altına",
+        "inerse",
+        "donar."
+      ],
+      "k": [
+        5
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır. Cümle: “Su sıfır derecenin altına inerse donar.”",
+    "correctAnswer": "Su sıfır derecenin altına inerse | donar.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Herkes",
+        "kendi",
+        "payına",
+        "düşeni",
+        "yaptıkça",
+        "şehrimiz",
+        "daha",
+        "temiz",
+        "olur."
+      ],
+      "k": [
+        5
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır. Cümle: “Herkes kendi payına düşeni yaptıkça şehrimiz daha temiz olur.”",
+    "correctAnswer": "Herkes kendi payına düşeni yaptıkça | şehrimiz daha temiz olur.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "cut",
+    "prompt": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır.",
+    "data": {
+      "s": [
+        "Biletini",
+        "önceden",
+        "almazsan",
+        "konsere",
+        "giremezsin."
+      ],
+      "k": [
+        3
+      ],
+      "c": [
+        "koşul",
+        "sonuç"
+      ]
+    },
+    "textPlain": "Neşteri vur: cümleyi koşul ve sonuç olarak iki parçaya ayır. Cümle: “Biletini önceden almazsan konsere giremezsin.”",
+    "correctAnswer": "Biletini önceden almazsan | konsere giremezsin.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "kosul",
+    "rank": 1,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Ödevlerini bitirirsen parka gidebiliriz.",
+      "o": [
+        "karşılaştırma",
+        "neden-sonuç",
+        "amaç-sonuç",
+        "koşul-sonuç"
+      ],
+      "a": 3
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Ödevlerini bitirirsen parka gidebiliriz.” Mercekler: karşılaştırma, neden-sonuç, amaç-sonuç, koşul-sonuç.",
+    "correctAnswer": "koşul-sonuç",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "kosul",
+    "rank": 1,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Fil, zürafadan daha ağırdır.",
+      "o": [
+        "amaç-sonuç",
+        "koşul-sonuç",
+        "neden-sonuç",
+        "karşılaştırma"
+      ],
+      "a": 3
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Fil, zürafadan daha ağırdır.” Mercekler: amaç-sonuç, koşul-sonuç, neden-sonuç, karşılaştırma.",
+    "correctAnswer": "karşılaştırma",
+    "explanation": "Karşılaştırma cümlesinde iki ya da daha çok varlık, durum, kavram ortak ya da farklı yönleriyle ele alınır (“-den daha”, “kadar”, “gibi”, “en”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Antrenmanlara katılmazsan takıma giremezsin.",
+      "o": [
+        "neden-sonuç",
+        "koşul-sonuç",
+        "karşılaştırma",
+        "amaç-sonuç"
+      ],
+      "a": 1
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Antrenmanlara katılmazsan takıma giremezsin.” Mercekler: neden-sonuç, koşul-sonuç, karşılaştırma, amaç-sonuç.",
+    "correctAnswer": "koşul-sonuç",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Yeni kitabı, ilk kitabı kadar akıcı değil.",
+      "o": [
+        "karşılaştırma",
+        "amaç-sonuç",
+        "koşul-sonuç",
+        "neden-sonuç"
+      ],
+      "a": 0
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Yeni kitabı, ilk kitabı kadar akıcı değil.” Mercekler: karşılaştırma, amaç-sonuç, koşul-sonuç, neden-sonuç.",
+    "correctAnswer": "karşılaştırma",
+    "explanation": "Karşılaştırma cümlesinde iki ya da daha çok varlık, durum, kavram ortak ya da farklı yönleriyle ele alınır (“-den daha”, “kadar”, “gibi”, “en”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç.",
+    "data": {
+      "s": "Sabah sisli olduğu için uçak kalkamadı.",
+      "o": [
+        "neden-sonuç",
+        "koşul-sonuç",
+        "amaç-sonuç",
+        "karşılaştırma"
+      ],
+      "a": 0
+    },
+    "textPlain": "Objektifi çevir: cümledeki anlam ilişkisini gösteren merceği seç. Cümle: “Sabah sisli olduğu için uçak kalkamadı.” Mercekler: neden-sonuç, koşul-sonuç, amaç-sonuç, karşılaştırma.",
+    "correctAnswer": "neden-sonuç",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir."
+  },
+  {
+    "questionId": "tr8u2-kosul-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "kosul",
+    "rank": 1,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle koşul-sonuç ilişkisi kursun.",
+    "data": {
+      "a": "Bu yolu takip",
+      "b": "köye ulaşırsınız.",
+      "o": [
+        "ederseniz",
+        "ederken",
+        "ettiğiniz için"
+      ],
+      "k": 0,
+      "rel": "koşul-sonuç"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle koşul-sonuç ilişkisi kursun. Parçalar: “Bu yolu takip … köye ulaşırsınız.” Pipetler: ederseniz, ederken, ettiğiniz için.",
+    "correctAnswer": "Bu yolu takip ederseniz köye ulaşırsınız.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle koşul-sonuç ilişkisi kursun.",
+    "data": {
+      "a": "Kurallara",
+      "b": "oyun herkes için eğlenceli olur.",
+      "o": [
+        "uyarsak",
+        "uyduğumuz için",
+        "uymak için"
+      ],
+      "k": 0,
+      "rel": "koşul-sonuç"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle koşul-sonuç ilişkisi kursun. Parçalar: “Kurallara … oyun herkes için eğlenceli olur.” Pipetler: uyarsak, uyduğumuz için, uymak için.",
+    "correctAnswer": "Kurallara uyarsak oyun herkes için eğlenceli olur.",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "merge",
+    "prompt": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle karşılaştırma (üstünlük) ilişkisi kursun.",
+    "data": {
+      "a": "Bu dağ, ülkemizin",
+      "b": "yüksek dağıdır.",
+      "o": [
+        "kadar",
+        "daha",
+        "en"
+      ],
+      "k": 2,
+      "rel": "karşılaştırma (üstünlük)"
+    },
+    "textPlain": "Pipetteki bağlayıcıyı iki parçanın arasına damlat: cümle karşılaştırma (üstünlük) ilişkisi kursun. Parçalar: “Bu dağ, ülkemizin … yüksek dağıdır.” Pipetler: kadar, daha, en.",
+    "correctAnswer": "Bu dağ, ülkemizin en yüksek dağıdır.",
+    "explanation": "Karşılaştırma cümlesinde iki ya da daha çok varlık, durum, kavram ortak ya da farklı yönleriyle ele alınır (“-den daha”, “kadar”, “gibi”, “en”). “En” bir varlığı bütün benzerleri arasında öne çıkarır."
+  },
+  {
+    "questionId": "tr8u2-kosul-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "kosul",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Cümleleri lam kutularına ayır.",
+    "data": {
+      "L": [
+        "⚖️ Koşul-sonuç",
+        "🔍 Karşılaştırma"
+      ],
+      "r": [
+        [
+          "Yağmur yağarsa evde kalırız.",
+          0
+        ],
+        [
+          "Deniz, gölden daha tuzludur.",
+          1
+        ],
+        [
+          "Az yersen hafiflersin.",
+          0
+        ],
+        [
+          "Kedi, köpek kadar sadık değildir.",
+          1
+        ],
+        [
+          "Çalışmadan kazanamazsın.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri lam kutularına ayır. Bölmeler: Koşul-sonuç, Karşılaştırma. Kartlar: Yağmur yağarsa evde kalırız. / Deniz, gölden daha tuzludur. / Az yersen hafiflersin. / Kedi, köpek kadar sadık değildir. / Çalışmadan kazanamazsın..",
+    "correctAnswer": "Yağmur yağarsa evde kalırız. → Koşul-sonuç | Deniz, gölden daha tuzludur. → Karşılaştırma | Az yersen hafiflersin. → Koşul-sonuç | Kedi, köpek kadar sadık değildir. → Karşılaştırma | Çalışmadan kazanamazsın. → Koşul-sonuç",
+    "explanation": "Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”). Karşılaştırma cümlesinde iki ya da daha çok varlık, durum, kavram ortak ya da farklı yönleriyle ele alınır (“-den daha”, “kadar”, “gibi”, “en”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "kosul",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Cümleleri ilişki türüne göre ayır.",
+    "data": {
+      "L": [
+        "🔗 Neden-sonuç",
+        "🎯 Amaç-sonuç",
+        "⚖️ Koşul-sonuç"
+      ],
+      "r": [
+        [
+          "Uykusu geldiği için kitabı bıraktı.",
+          0
+        ],
+        [
+          "Uyumak için ışıkları kapattı.",
+          1
+        ],
+        [
+          "Işıkları kapatırsan uyuyabilirim.",
+          2
+        ],
+        [
+          "Yorulduğundan erkenden yattı.",
+          0
+        ],
+        [
+          "Dinç uyanayım diye erkenden yattı.",
+          1
+        ],
+        [
+          "Erken yatarsan dinç uyanırsın.",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri ilişki türüne göre ayır. Bölmeler: Neden-sonuç, Amaç-sonuç, Koşul-sonuç. Kartlar: Uykusu geldiği için kitabı bıraktı. / Uyumak için ışıkları kapattı. / Işıkları kapatırsan uyuyabilirim. / Yorulduğundan erkenden yattı. / Dinç uyanayım diye erkenden yattı. / Erken yatarsan dinç uyanırsın..",
+    "correctAnswer": "Uykusu geldiği için kitabı bıraktı. → Neden-sonuç | Uyumak için ışıkları kapattı. → Amaç-sonuç | Işıkları kapatırsan uyuyabilirim. → Koşul-sonuç | Yorulduğundan erkenden yattı. → Neden-sonuç | Dinç uyanayım diye erkenden yattı. → Amaç-sonuç | Erken yatarsan dinç uyanırsın. → Koşul-sonuç",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir. Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”)."
+  },
+  {
+    "questionId": "tr8u2-kosul-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Koşul-sonuç ilişkisi ve karşılaştırma",
+    "outcome": "Cümlede koşul-sonuç ilişkisini ve karşılaştırmaları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "kosul",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Cümleleri ilişki türüne göre ayır.",
+    "data": {
+      "L": [
+        "🔗 Neden-sonuç",
+        "🎯 Amaç-sonuç",
+        "⚖️ Koşul-sonuç"
+      ],
+      "r": [
+        [
+          "Sınırları aşmak için sürekli çalıştı.",
+          1
+        ],
+        [
+          "Hava açınca dışarı çıktık.",
+          2
+        ],
+        [
+          "Başı ağrıdığından derse katılamadı.",
+          0
+        ],
+        [
+          "Kimse üşümesin diye pencereyi kapattı.",
+          1
+        ],
+        [
+          "Bu kadar çalışırsan başarırsın.",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri ilişki türüne göre ayır. Bölmeler: Neden-sonuç, Amaç-sonuç, Koşul-sonuç. Kartlar: Sınırları aşmak için sürekli çalıştı. / Hava açınca dışarı çıktık. / Başı ağrıdığından derse katılamadı. / Kimse üşümesin diye pencereyi kapattı. / Bu kadar çalışırsan başarırsın..",
+    "correctAnswer": "Sınırları aşmak için sürekli çalıştı. → Amaç-sonuç | Hava açınca dışarı çıktık. → Koşul-sonuç | Başı ağrıdığından derse katılamadı. → Neden-sonuç | Kimse üşümesin diye pencereyi kapattı. → Amaç-sonuç | Bu kadar çalışırsan başarırsın. → Koşul-sonuç",
+    "explanation": "Neden-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme sebebidir (“-dığı için”, “-den dolayı”, “-dığından”). Amaç-sonuç cümlesinde eylem bir amaca ulaşmak için yapılır (“için”, “diye”, “-mek üzere”); amaç henüz gerçekleşmemiştir. Koşul-sonuç cümlesinde bir yargı başka bir yargının gerçekleşme şartıdır (“-se/-sa”, “-dıkça”, “-madan”). “-ınca” bu cümlede koşul anlamı katar."
+  },
+  {
+    "questionId": "tr8u2-yargi-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yargi",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at.",
+    "data": {
+      "L": [
+        "Nesnel",
+        "Öznel"
+      ],
+      "r": [
+        [
+          "Su yüz derecede kaynar.",
+          0
+        ],
+        [
+          "Bu çorba harika olmuş.",
+          1
+        ],
+        [
+          "Kitap 240 sayfadır.",
+          0
+        ],
+        [
+          "En güzel mevsim sonbahardır.",
+          1
+        ],
+        [
+          "Güneş doğudan doğar.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at. Kartlar: Su yüz derecede kaynar. / Bu çorba harika olmuş. / Kitap 240 sayfadır. / En güzel mevsim sonbahardır. / Güneş doğudan doğar.. Sol: Nesnel, sağ: Öznel.",
+    "correctAnswer": "Su yüz derecede kaynar. → Nesnel | Bu çorba harika olmuş. → Öznel | Kitap 240 sayfadır. → Nesnel | En güzel mevsim sonbahardır. → Öznel | Güneş doğudan doğar. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yargi",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at.",
+    "data": {
+      "L": [
+        "Nesnel",
+        "Öznel"
+      ],
+      "r": [
+        [
+          "Okulumuzda 24 derslik var.",
+          0
+        ],
+        [
+          "Bu film çok sıkıcıydı.",
+          1
+        ],
+        [
+          "Türkiye’de yedi coğrafi bölge vardır.",
+          0
+        ],
+        [
+          "Çikolatalı pasta en lezzetli tatlıdır.",
+          1
+        ],
+        [
+          "Dağın zirvesi karla kaplıydı.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at. Kartlar: Okulumuzda 24 derslik var. / Bu film çok sıkıcıydı. / Türkiye’de yedi coğrafi bölge vardır. / Çikolatalı pasta en lezzetli tatlıdır. / Dağın zirvesi karla kaplıydı.. Sol: Nesnel, sağ: Öznel.",
+    "correctAnswer": "Okulumuzda 24 derslik var. → Nesnel | Bu film çok sıkıcıydı. → Öznel | Türkiye’de yedi coğrafi bölge vardır. → Nesnel | Çikolatalı pasta en lezzetli tatlıdır. → Öznel | Dağın zirvesi karla kaplıydı. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at.",
+    "data": {
+      "L": [
+        "Nesnel",
+        "Öznel"
+      ],
+      "r": [
+        [
+          "Şair, bu kitabında doğayı anlatıyor.",
+          0
+        ],
+        [
+          "Şair doğayı çok etkileyici anlatmış.",
+          1
+        ],
+        [
+          "Roman 1950’de yayımlandı.",
+          0
+        ],
+        [
+          "Romanın sonu gereksiz yere uzatılmış.",
+          1
+        ],
+        [
+          "Kitapta on iki öykü bulunuyor.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at. Kartlar: Şair, bu kitabında doğayı anlatıyor. / Şair doğayı çok etkileyici anlatmış. / Roman 1950’de yayımlandı. / Romanın sonu gereksiz yere uzatılmış. / Kitapta on iki öykü bulunuyor.. Sol: Nesnel, sağ: Öznel.",
+    "correctAnswer": "Şair, bu kitabında doğayı anlatıyor. → Nesnel | Şair doğayı çok etkileyici anlatmış. → Öznel | Roman 1950’de yayımlandı. → Nesnel | Romanın sonu gereksiz yere uzatılmış. → Öznel | Kitapta on iki öykü bulunuyor. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at.",
+    "data": {
+      "L": [
+        "Nesnel",
+        "Öznel"
+      ],
+      "r": [
+        [
+          "Bu müze her gün ziyarete açıktır.",
+          0
+        ],
+        [
+          "Müzenin en ilgi çekici bölümü taş eserler.",
+          1
+        ],
+        [
+          "Kütüphanede iki bin kitap var.",
+          0
+        ],
+        [
+          "Kütüphanenin havası insana huzur veriyor.",
+          1
+        ],
+        [
+          "Konser saat sekizde başlayacak.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at. Kartlar: Bu müze her gün ziyarete açıktır. / Müzenin en ilgi çekici bölümü taş eserler. / Kütüphanede iki bin kitap var. / Kütüphanenin havası insana huzur veriyor. / Konser saat sekizde başlayacak.. Sol: Nesnel, sağ: Öznel.",
+    "correctAnswer": "Bu müze her gün ziyarete açıktır. → Nesnel | Müzenin en ilgi çekici bölümü taş eserler. → Öznel | Kütüphanede iki bin kitap var. → Nesnel | Kütüphanenin havası insana huzur veriyor. → Öznel | Konser saat sekizde başlayacak. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yargi",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at.",
+    "data": {
+      "L": [
+        "Nesnel",
+        "Öznel"
+      ],
+      "r": [
+        [
+          "Yazar, eserlerinde çocukluk anılarına sıkça yer verir.",
+          0
+        ],
+        [
+          "Yazarın dili sade ve son derece akıcıdır.",
+          1
+        ],
+        [
+          "Bu türün ilk örnekleri on dokuzuncu yüzyılda verildi.",
+          0
+        ],
+        [
+          "Bence bu tür, gençlere hitap etmiyor.",
+          1
+        ],
+        [
+          "Kitabın her bölümü bir şiirle başlıyor.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at. Kartlar: Yazar, eserlerinde çocukluk anılarına sıkça yer verir. / Yazarın dili sade ve son derece akıcıdır. / Bu türün ilk örnekleri on dokuzuncu yüzyılda verildi. / Bence bu tür, gençlere hitap etmiyor. / Kitabın her bölümü bir şiirle başlıyor.. Sol: Nesnel, sağ: Öznel.",
+    "correctAnswer": "Yazar, eserlerinde çocukluk anılarına sıkça yer verir. → Nesnel | Yazarın dili sade ve son derece akıcıdır. → Öznel | Bu türün ilk örnekleri on dokuzuncu yüzyılda verildi. → Nesnel | Bence bu tür, gençlere hitap etmiyor. → Öznel | Kitabın her bölümü bir şiirle başlıyor. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yargi",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at.",
+    "data": {
+      "L": [
+        "Nesnel",
+        "Öznel"
+      ],
+      "r": [
+        [
+          "Köprünün uzunluğu yaklaşık bir kilometredir.",
+          0
+        ],
+        [
+          "Köprü, şehrin en büyüleyici yapısıdır.",
+          1
+        ],
+        [
+          "Kalenin surları taştan örülmüştür.",
+          0
+        ],
+        [
+          "Kalenin manzarası insanı mest ediyor.",
+          1
+        ],
+        [
+          "Kale ziyarete her gün açıktır.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: nesnel yargıları sola, öznel yargıları sağa at. Kartlar: Köprünün uzunluğu yaklaşık bir kilometredir. / Köprü, şehrin en büyüleyici yapısıdır. / Kalenin surları taştan örülmüştür. / Kalenin manzarası insanı mest ediyor. / Kale ziyarete her gün açıktır.. Sol: Nesnel, sağ: Öznel.",
+    "correctAnswer": "Köprünün uzunluğu yaklaşık bir kilometredir. → Nesnel | Köprü, şehrin en büyüleyici yapısıdır. → Öznel | Kalenin surları taştan örülmüştür. → Nesnel | Kalenin manzarası insanı mest ediyor. → Öznel | Kale ziyarete her gün açıktır. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yargi",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Bu",
+        "kitap",
+        "sürükleyici",
+        "bir",
+        "dille",
+        "yazılmış."
+      ],
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir. Cümle: “Bu kitap sürükleyici bir dille yazılmış.”",
+    "correctAnswer": "sürükleyici",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”). “Sürükleyici” kişisel bir değerlendirmedir."
+  },
+  {
+    "questionId": "tr8u2-yargi-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Yeni",
+        "açılan",
+        "park,",
+        "şehrin",
+        "en",
+        "güzel",
+        "yeri",
+        "oldu."
+      ],
+      "a": [
+        4,
+        5
+      ]
+    },
+    "textPlain": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir. Cümle: “Yeni açılan park, şehrin en güzel yeri oldu.”",
+    "correctAnswer": "en / güzel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Kırk",
+        "yıllık",
+        "köprü,",
+        "etkileyici",
+        "mimarisiyle",
+        "dikkat",
+        "çekiyor."
+      ],
+      "a": [
+        3
+      ]
+    },
+    "textPlain": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir. Cümle: “Kırk yıllık köprü, etkileyici mimarisiyle dikkat çekiyor.”",
+    "correctAnswer": "etkileyici",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yargi",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Merceği cümleyi öznel yapan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Toplantı",
+        "iki",
+        "saat",
+        "sürdü",
+        "ama",
+        "gereksiz",
+        "konularla",
+        "geçti."
+      ],
+      "a": [
+        5
+      ]
+    },
+    "textPlain": "Merceği cümleyi öznel yapan sözcüğe getir. Cümle: “Toplantı iki saat sürdü ama gereksiz konularla geçti.”",
+    "correctAnswer": "gereksiz",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”). Toplantının süresi nesneldir; “gereksiz” değerlendirmesi özneldir."
+  },
+  {
+    "questionId": "tr8u2-yargi-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yargi",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları ayır.",
+    "data": {
+      "L": [
+        "📏 Nesnel",
+        "💭 Öznel"
+      ],
+      "r": [
+        [
+          "Ders 40 dakikadır.",
+          0
+        ],
+        [
+          "Bu ders çok eğlenceli.",
+          1
+        ],
+        [
+          "Elma bir meyvedir.",
+          0
+        ],
+        [
+          "Elmanın en tatlısı kırmızı olanıdır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları ayır. Bölmeler: Nesnel, Öznel. Kartlar: Ders 40 dakikadır. / Bu ders çok eğlenceli. / Elma bir meyvedir. / Elmanın en tatlısı kırmızı olanıdır..",
+    "correctAnswer": "Ders 40 dakikadır. → Nesnel | Bu ders çok eğlenceli. → Öznel | Elma bir meyvedir. → Nesnel | Elmanın en tatlısı kırmızı olanıdır. → Öznel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları ayır.",
+    "data": {
+      "L": [
+        "📏 Nesnel",
+        "💭 Öznel"
+      ],
+      "r": [
+        [
+          "Ünlü ressam bu tabloyu genç yaşta yaptı.",
+          0
+        ],
+        [
+          "Tablodaki renkler insanın içini ısıtıyor.",
+          1
+        ],
+        [
+          "Tablo iki metre genişliğindedir.",
+          0
+        ],
+        [
+          "Ressamın en başarılı eseri budur.",
+          1
+        ],
+        [
+          "Tablo şu an müzede sergileniyor.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları ayır. Bölmeler: Nesnel, Öznel. Kartlar: Ünlü ressam bu tabloyu genç yaşta yaptı. / Tablodaki renkler insanın içini ısıtıyor. / Tablo iki metre genişliğindedir. / Ressamın en başarılı eseri budur. / Tablo şu an müzede sergileniyor..",
+    "correctAnswer": "Ünlü ressam bu tabloyu genç yaşta yaptı. → Nesnel | Tablodaki renkler insanın içini ısıtıyor. → Öznel | Tablo iki metre genişliğindedir. → Nesnel | Ressamın en başarılı eseri budur. → Öznel | Tablo şu an müzede sergileniyor. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yargi",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Yargıları ayır.",
+    "data": {
+      "L": [
+        "📏 Nesnel",
+        "💭 Öznel"
+      ],
+      "r": [
+        [
+          "Bu şiir on dört dizeden oluşur.",
+          0
+        ],
+        [
+          "Şiirdeki imgeler çok başarılı.",
+          1
+        ],
+        [
+          "Şair bu şiiri annesine ithaf etmiştir.",
+          0
+        ],
+        [
+          "Bu şiiri okuyan herkes duygulanır.",
+          1
+        ],
+        [
+          "Şiirde uyak düzeni abab biçimindedir.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları ayır. Bölmeler: Nesnel, Öznel. Kartlar: Bu şiir on dört dizeden oluşur. / Şiirdeki imgeler çok başarılı. / Şair bu şiiri annesine ithaf etmiştir. / Bu şiiri okuyan herkes duygulanır. / Şiirde uyak düzeni abab biçimindedir..",
+    "correctAnswer": "Bu şiir on dört dizeden oluşur. → Nesnel | Şiirdeki imgeler çok başarılı. → Öznel | Şair bu şiiri annesine ithaf etmiştir. → Nesnel | Bu şiiri okuyan herkes duygulanır. → Öznel | Şiirde uyak düzeni abab biçimindedir. → Nesnel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”). “Okuyan herkes duygulanır” kanıtlanamaz, öznel bir genellemedir."
+  },
+  {
+    "questionId": "tr8u2-yargi-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları ayır.",
+    "data": {
+      "L": [
+        "📏 Nesnel",
+        "💭 Öznel"
+      ],
+      "r": [
+        [
+          "Bu yıl okula yeni bir spor salonu yapıldı.",
+          0
+        ],
+        [
+          "Spor salonu okulun en güzel yeri olmuş.",
+          1
+        ],
+        [
+          "Salonda iki basketbol potası var.",
+          0
+        ],
+        [
+          "Basketbol en zevkli spordur.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları ayır. Bölmeler: Nesnel, Öznel. Kartlar: Bu yıl okula yeni bir spor salonu yapıldı. / Spor salonu okulun en güzel yeri olmuş. / Salonda iki basketbol potası var. / Basketbol en zevkli spordur..",
+    "correctAnswer": "Bu yıl okula yeni bir spor salonu yapıldı. → Nesnel | Spor salonu okulun en güzel yeri olmuş. → Öznel | Salonda iki basketbol potası var. → Nesnel | Basketbol en zevkli spordur. → Öznel",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yargi",
+    "rank": 1,
+    "type": "complete",
+    "prompt": "Cümleyi nesnel bir yargıyla tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Kitabın konusu bir köyde geçen bir kış hikâyesi olup",
+      "o": [
+        "en güzel kitaptır.",
+        "iki yüz sayfadan oluşuyor.",
+        "okurken insanı çok sıkıyor."
+      ],
+      "a": 1
+    },
+    "textPlain": "Cümleyi nesnel bir yargıyla tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Kitabın konusu bir köyde geçen bir kış hikâyesi olup …” Kartlar: en güzel kitaptır. / iki yüz sayfadan oluşuyor. / okurken insanı çok sıkıyor..",
+    "correctAnswer": "Kitabın konusu bir köyde geçen bir kış hikâyesi olup iki yüz sayfadan oluşuyor.",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "complete",
+    "prompt": "Cümleyi nesnel bir yargıyla tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Bu film, geçen yıl çekilmiş bir belgesel olup",
+      "o": [
+        "kırk beş dakika sürüyor.",
+        "izleyenleri büyülüyor.",
+        "şimdiye kadar izlediğim en iyi filmdir."
+      ],
+      "a": 0
+    },
+    "textPlain": "Cümleyi nesnel bir yargıyla tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Bu film, geçen yıl çekilmiş bir belgesel olup …” Kartlar: kırk beş dakika sürüyor. / izleyenleri büyülüyor. / şimdiye kadar izlediğim en iyi filmdir..",
+    "correctAnswer": "Bu film, geçen yıl çekilmiş bir belgesel olup kırk beş dakika sürüyor.",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yargi",
+    "rank": 2,
+    "type": "complete",
+    "prompt": "Cümleyi nesnel bir yargıyla tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Gezdiğimiz şehir, tarihî yapılarıyla",
+      "o": [
+        "insana huzur veriyor.",
+        "bence ülkenin en güzel şehri.",
+        "bilinen bir şehir."
+      ],
+      "a": 2
+    },
+    "textPlain": "Cümleyi nesnel bir yargıyla tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Gezdiğimiz şehir, tarihî yapılarıyla …” Kartlar: insana huzur veriyor. / bence ülkenin en güzel şehri. / bilinen bir şehir..",
+    "correctAnswer": "Gezdiğimiz şehir, tarihî yapılarıyla bilinen bir şehir.",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”). “Tarihî yapılarıyla bilinen” kanıtlanabilir bir bilgidir."
+  },
+  {
+    "questionId": "tr8u2-yargi-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yargi",
+    "rank": 3,
+    "type": "complete",
+    "prompt": "Cümleyi öznel bir yargıyla tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Konserde çalınan eserler",
+      "o": [
+        "dinleyenleri derinden etkiledi.",
+        "on iki parçadan oluşuyordu.",
+        "saat dokuzda başladı."
+      ],
+      "a": 0
+    },
+    "textPlain": "Cümleyi öznel bir yargıyla tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Konserde çalınan eserler …” Kartlar: dinleyenleri derinden etkiledi. / on iki parçadan oluşuyordu. / saat dokuzda başladı..",
+    "correctAnswer": "Konserde çalınan eserler dinleyenleri derinden etkiledi.",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”). “Derinden etkiledi” kişisel bir yorumdur."
+  },
+  {
+    "questionId": "tr8u2-yargi-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yargi",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Dün",
+        "izlediğimiz",
+        "tiyatro",
+        "oyunu",
+        "çok",
+        "eğlenceliydi."
+      ],
+      "a": [
+        5
+      ]
+    },
+    "textPlain": "Merceği cümlenin öznel olmasını sağlayan sözcüğe getir. Cümle: “Dün izlediğimiz tiyatro oyunu çok eğlenceliydi.”",
+    "correctAnswer": "eğlenceliydi.",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”)."
+  },
+  {
+    "questionId": "tr8u2-yargi-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Öznel ve nesnel yargı",
+    "outcome": "Metindeki öznel ve nesnel yargıları ayırt eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yargi",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Merceği cümleyi öznel yapan sözcüklere getir.",
+    "data": {
+      "s": [
+        "Müzedeki",
+        "eserler",
+        "beş",
+        "yüz",
+        "yıllık",
+        "olup",
+        "göz",
+        "alıcı",
+        "bir",
+        "güzellikte."
+      ],
+      "a": [
+        6,
+        7
+      ]
+    },
+    "textPlain": "Merceği cümleyi öznel yapan sözcüklere getir. Cümle: “Müzedeki eserler beş yüz yıllık olup göz alıcı bir güzellikte.”",
+    "correctAnswer": "göz / alıcı",
+    "explanation": "Nesnel yargı kanıtlanabilir, kişiden kişiye değişmez (“Ankara Türkiye’nin başkentidir.”). Öznel yargı kişisel görüş, duygu ya da beğeni bildirir; kanıtlanamaz (“Ankara çok güzel bir şehir.”). Eserlerin yaşı nesneldir; “göz alıcı” kişisel değerlendirmedir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "ortuk",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Ali",
+        "bugün",
+        "de",
+        "okula",
+        "geç",
+        "kaldı."
+      ],
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Ali bugün de okula geç kaldı.”",
+    "correctAnswer": "de",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “De” Ali’nin daha önce de geç kaldığını gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "ortuk",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Kardeşim",
+        "artık",
+        "sebze",
+        "yiyor."
+      ],
+      "a": [
+        1
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Kardeşim artık sebze yiyor.”",
+    "correctAnswer": "artık",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Artık” daha önce sebze yemediğini gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Bu",
+        "soruyu",
+        "küçük",
+        "kardeşim",
+        "bile",
+        "çözdü."
+      ],
+      "a": [
+        4
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Bu soruyu küçük kardeşim bile çözdü.”",
+    "correctAnswer": "bile",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Bile” sorunun kolay olduğunu ya da beklenmedik bir durumu gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Saat",
+        "onu",
+        "geçti,",
+        "misafirler",
+        "hâlâ",
+        "gelmedi."
+      ],
+      "a": [
+        4
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Saat onu geçti, misafirler hâlâ gelmedi.”",
+    "correctAnswer": "hâlâ",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Hâlâ” misafirlerin daha önce gelmesinin beklendiğini gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Ödevini",
+        "ancak",
+        "akşam",
+        "bitirebildi."
+      ],
+      "a": [
+        1
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Ödevini ancak akşam bitirebildi.”",
+    "correctAnswer": "ancak",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Ancak” ödevin beklenenden geç bittiğini gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Bu",
+        "yıl",
+        "yine",
+        "bahçedeki",
+        "elmalar",
+        "erken",
+        "olgunlaştı."
+      ],
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Bu yıl yine bahçedeki elmalar erken olgunlaştı.”",
+    "correctAnswer": "yine",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Yine” bunun daha önce de olduğunu gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Bu",
+        "sefer",
+        "kazanan",
+        "da",
+        "bizim",
+        "takım",
+        "oldu."
+      ],
+      "a": [
+        3
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Bu sefer kazanan da bizim takım oldu.”",
+    "correctAnswer": "da",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Da” takımın daha önce de kazandığını gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Kalabalık",
+        "salonda",
+        "tek",
+        "boş",
+        "sandalye",
+        "bulabildik."
+      ],
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Kalabalık salonda tek boş sandalye bulabildik.”",
+    "correctAnswer": "tek",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Tek” salonun neredeyse tamamen dolu olduğunu gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "ortuk",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "“Ali bugün de okula geç kaldı.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at.",
+    "data": {
+      "L": [
+        "Çıkarılabilir",
+        "Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Ali daha önce de geç kalmış.",
+          0
+        ],
+        [
+          "Ali okula hiç geç kalmaz.",
+          1
+        ],
+        [
+          "Ali’nin geç kalması alışılmış bir durum.",
+          0
+        ],
+        [
+          "Ali bugün okula gitmedi.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "“Ali bugün de okula geç kaldı.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at. Kartlar: Ali daha önce de geç kalmış. / Ali okula hiç geç kalmaz. / Ali’nin geç kalması alışılmış bir durum. / Ali bugün okula gitmedi.. Sol: Çıkarılabilir, sağ: Çıkarılamaz.",
+    "correctAnswer": "Ali daha önce de geç kalmış. → Çıkarılabilir | Ali okula hiç geç kalmaz. → Çıkarılamaz | Ali’nin geç kalması alışılmış bir durum. → Çıkarılabilir | Ali bugün okula gitmedi. → Çıkarılamaz",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "“Mert artık kitap okuyor.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at.",
+    "data": {
+      "L": [
+        "Çıkarılabilir",
+        "Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Mert eskiden kitap okumazdı.",
+          0
+        ],
+        [
+          "Mert şimdi kitap okuyor.",
+          0
+        ],
+        [
+          "Mert hiç kitap okumamış.",
+          1
+        ],
+        [
+          "Mert’in kitap sevgisi azaldı.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "“Mert artık kitap okuyor.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at. Kartlar: Mert eskiden kitap okumazdı. / Mert şimdi kitap okuyor. / Mert hiç kitap okumamış. / Mert’in kitap sevgisi azaldı.. Sol: Çıkarılabilir, sağ: Çıkarılamaz.",
+    "correctAnswer": "Mert eskiden kitap okumazdı. → Çıkarılabilir | Mert şimdi kitap okuyor. → Çıkarılabilir | Mert hiç kitap okumamış. → Çıkarılamaz | Mert’in kitap sevgisi azaldı. → Çıkarılamaz",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "“Bu bulmacayı küçük kardeşim bile çözdü.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at.",
+    "data": {
+      "L": [
+        "Çıkarılabilir",
+        "Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Kardeşi küçüktür.",
+          0
+        ],
+        [
+          "Bulmaca kolaydır ya da kardeş çok yeteneklidir.",
+          0
+        ],
+        [
+          "Bulmacayı kimse çözemedi.",
+          1
+        ],
+        [
+          "Kardeşi bulmacadan nefret eder.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "“Bu bulmacayı küçük kardeşim bile çözdü.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at. Kartlar: Kardeşi küçüktür. / Bulmaca kolaydır ya da kardeş çok yeteneklidir. / Bulmacayı kimse çözemedi. / Kardeşi bulmacadan nefret eder.. Sol: Çıkarılabilir, sağ: Çıkarılamaz.",
+    "correctAnswer": "Kardeşi küçüktür. → Çıkarılabilir | Bulmaca kolaydır ya da kardeş çok yeteneklidir. → Çıkarılabilir | Bulmacayı kimse çözemedi. → Çıkarılamaz | Kardeşi bulmacadan nefret eder. → Çıkarılamaz",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "“Toplantıya yalnızca Ayşe geldi.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at.",
+    "data": {
+      "L": [
+        "Çıkarılabilir",
+        "Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Toplantıya katılım azdı.",
+          0
+        ],
+        [
+          "Ayşe toplantıya katıldı.",
+          0
+        ],
+        [
+          "Toplantı hiç yapılmadı.",
+          1
+        ],
+        [
+          "Ayşe toplantıyı düzenledi.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "“Toplantıya yalnızca Ayşe geldi.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at. Kartlar: Toplantıya katılım azdı. / Ayşe toplantıya katıldı. / Toplantı hiç yapılmadı. / Ayşe toplantıyı düzenledi.. Sol: Çıkarılabilir, sağ: Çıkarılamaz.",
+    "correctAnswer": "Toplantıya katılım azdı. → Çıkarılabilir | Ayşe toplantıya katıldı. → Çıkarılabilir | Toplantı hiç yapılmadı. → Çıkarılamaz | Ayşe toplantıyı düzenledi. → Çıkarılamaz",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Yalnızca” katılımın az olduğunu gösterir; Ayşe’nin toplantıyı düzenlediği söylenmemiştir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "“Kitabın ancak yarısını okuyabildim.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at.",
+    "data": {
+      "L": [
+        "Çıkarılabilir",
+        "Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Kitabın yarısı okundu.",
+          0
+        ],
+        [
+          "Kitap henüz bitmedi.",
+          0
+        ],
+        [
+          "Kitabı hiç açmadı.",
+          1
+        ],
+        [
+          "Kitabı arkadaşına verdi.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "“Kitabın ancak yarısını okuyabildim.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at. Kartlar: Kitabın yarısı okundu. / Kitap henüz bitmedi. / Kitabı hiç açmadı. / Kitabı arkadaşına verdi.. Sol: Çıkarılabilir, sağ: Çıkarılamaz.",
+    "correctAnswer": "Kitabın yarısı okundu. → Çıkarılabilir | Kitap henüz bitmedi. → Çıkarılabilir | Kitabı hiç açmadı. → Çıkarılamaz | Kitabı arkadaşına verdi. → Çıkarılamaz",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "ortuk",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "“Misafirler hâlâ gelmedi.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at.",
+    "data": {
+      "L": [
+        "Çıkarılabilir",
+        "Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Misafirler gelecekti.",
+          0
+        ],
+        [
+          "Misafirler henüz gelmedi.",
+          0
+        ],
+        [
+          "Misafirler erkenden geldi.",
+          1
+        ],
+        [
+          "Misafirler hiç davet edilmedi.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "“Misafirler hâlâ gelmedi.” cümlesine bak. Kartları kaydır: çıkarılabilenleri sola, çıkarılamayanları sağa at. Kartlar: Misafirler gelecekti. / Misafirler henüz gelmedi. / Misafirler erkenden geldi. / Misafirler hiç davet edilmedi.. Sol: Çıkarılabilir, sağ: Çıkarılamaz.",
+    "correctAnswer": "Misafirler gelecekti. → Çıkarılabilir | Misafirler henüz gelmedi. → Çıkarılabilir | Misafirler erkenden geldi. → Çıkarılamaz | Misafirler hiç davet edilmedi. → Çıkarılamaz",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Cümleleri ayır.",
+    "data": {
+      "L": [
+        "🔎 Örtülü anlam var",
+        "➖ Yok"
+      ],
+      "r": [
+        [
+          "O da geldi.",
+          0
+        ],
+        [
+          "O geldi.",
+          1
+        ],
+        [
+          "Yağmur yine yağdı.",
+          0
+        ],
+        [
+          "Yağmur yağdı.",
+          1
+        ],
+        [
+          "Artık erken kalkıyor.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri ayır. Bölmeler: Örtülü anlam var, Yok. Kartlar: O da geldi. / O geldi. / Yağmur yine yağdı. / Yağmur yağdı. / Artık erken kalkıyor..",
+    "correctAnswer": "O da geldi. → Örtülü anlam var | O geldi. → Yok | Yağmur yine yağdı. → Örtülü anlam var | Yağmur yağdı. → Yok | Artık erken kalkıyor. → Örtülü anlam var",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Cümleleri ayır.",
+    "data": {
+      "L": [
+        "🔎 Örtülü anlam var",
+        "➖ Yok"
+      ],
+      "r": [
+        [
+          "Babam bile bu filmde ağladı.",
+          0
+        ],
+        [
+          "Babam bu filmi izledi.",
+          1
+        ],
+        [
+          "Kardeşim hâlâ uyuyor.",
+          0
+        ],
+        [
+          "Kardeşim saat dokuzda uyandı.",
+          1
+        ],
+        [
+          "Bu kez sen de gel.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri ayır. Bölmeler: Örtülü anlam var, Yok. Kartlar: Babam bile bu filmde ağladı. / Babam bu filmi izledi. / Kardeşim hâlâ uyuyor. / Kardeşim saat dokuzda uyandı. / Bu kez sen de gel..",
+    "correctAnswer": "Babam bile bu filmde ağladı. → Örtülü anlam var | Babam bu filmi izledi. → Yok | Kardeşim hâlâ uyuyor. → Örtülü anlam var | Kardeşim saat dokuzda uyandı. → Yok | Bu kez sen de gel. → Örtülü anlam var",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır."
+  },
+  {
+    "questionId": "tr8u2-ortuk-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "ortuk",
+    "rank": 2,
+    "type": "complete",
+    "prompt": "Cümleyi anlamca tutarlı tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Her yıl olduğu gibi bu yıl",
+      "o": [
+        "bilim şenliği hiç yapılmadı.",
+        "da okulumuzda bilim şenliği yapıldı.",
+        "okulumuzda ilk kez bilim şenliği yapıldı."
+      ],
+      "a": 1
+    },
+    "textPlain": "Cümleyi anlamca tutarlı tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Her yıl olduğu gibi bu yıl …” Kartlar: bilim şenliği hiç yapılmadı. / da okulumuzda bilim şenliği yapıldı. / okulumuzda ilk kez bilim şenliği yapıldı..",
+    "correctAnswer": "Her yıl olduğu gibi bu yıl da okulumuzda bilim şenliği yapıldı.",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Her yıl olduğu gibi” ile “ilk kez” çelişir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "ortuk",
+    "rank": 3,
+    "type": "complete",
+    "prompt": "Cümleyi anlamca tutarlı tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Daha önce hiç deniz görmemişti;",
+      "o": [
+        "yine denize gidip yüzdü.",
+        "bu yüzden denizi ilk kez görünce çok heyecanlandı.",
+        "her yaz olduğu gibi tatile gitti."
+      ],
+      "a": 1
+    },
+    "textPlain": "Cümleyi anlamca tutarlı tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Daha önce hiç deniz görmemişti; …” Kartlar: yine denize gidip yüzdü. / bu yüzden denizi ilk kez görünce çok heyecanlandı. / her yaz olduğu gibi tatile gitti..",
+    "correctAnswer": "Daha önce hiç deniz görmemişti; bu yüzden denizi ilk kez görünce çok heyecanlandı.",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Yine” ve “her yaz olduğu gibi” önceki deneyimi gerektirir; bu, cümlenin başıyla çelişir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "ortuk",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Merceği örtülü anlam yaratan sözcüğe getir.",
+    "data": {
+      "s": [
+        "Ayşe",
+        "bu",
+        "yarışmada",
+        "yine",
+        "birinci",
+        "oldu."
+      ],
+      "a": [
+        3
+      ]
+    },
+    "textPlain": "Merceği örtülü anlam yaratan sözcüğe getir. Cümle: “Ayşe bu yarışmada yine birinci oldu.”",
+    "correctAnswer": "yine",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “Yine” Ayşe’nin daha önce de birinci olduğunu gösterir."
+  },
+  {
+    "questionId": "tr8u2-ortuk-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Örtülü anlam ve çıkarım",
+    "outcome": "Metinde örtülü anlamları ve metinden çıkarılabilecek yargıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "ortuk",
+    "rank": 1,
+    "type": "complete",
+    "prompt": "Cümleyi anlamca tutarlı tamamlayan kartı lamın üstüne bırak.",
+    "data": {
+      "s": "Kardeşim bu yaz ilk kez yüzmeyi öğrendi;",
+      "o": [
+        "artık havuzda rahatça yüzebiliyor.",
+        "yine yüzme yarışmasını kazandı.",
+        "her yıl olduğu gibi denizde yüzdü."
+      ],
+      "a": 0
+    },
+    "textPlain": "Cümleyi anlamca tutarlı tamamlayan kartı lamın üstüne bırak. Cümlenin başı: “Kardeşim bu yaz ilk kez yüzmeyi öğrendi; …” Kartlar: artık havuzda rahatça yüzebiliyor. / yine yüzme yarışmasını kazandı. / her yıl olduğu gibi denizde yüzdü..",
+    "correctAnswer": "Kardeşim bu yaz ilk kez yüzmeyi öğrendi; artık havuzda rahatça yüzebiliyor.",
+    "explanation": "Örtülü anlam, cümlede açıkça söylenmeyen ama bir sözcük ya da ekten çıkarılan anlamdır: “Bu sefer de geç kaldı.” → daha önce de geç kalmıştır. “de/da, bile, yine, artık, hâlâ, ancak” gibi sözcükler örtülü anlam yaratır. “İlk kez” ile “yine” ve “her yıl olduğu gibi” çelişir."
+  },
+  {
+    "questionId": "tr8u2-yorum-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Çok çalıştı",
+      "o": [
+        "ama çalışmayı sevdi.",
+        "ama çok çalıştı.",
+        "ama istediği sonucu alamadı."
+      ],
+      "a": 2
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Çok çalıştı …” Kartlar: ama çalışmayı sevdi. / ama çok çalıştı. / ama istediği sonucu alamadı..",
+    "correctAnswer": "Çok çalıştı ama istediği sonucu alamadı.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır. “Ama” karşıtlık bildirir; ikinci bölüm beklenenin tersini anlatmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Hava çok soğuk olduğu için",
+      "o": [
+        "kalın giyindik.",
+        "denize girdik.",
+        "tişörtle çıktık."
+      ],
+      "a": 0
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Hava çok soğuk olduğu için …” Kartlar: kalın giyindik. / denize girdik. / tişörtle çıktık..",
+    "correctAnswer": "Hava çok soğuk olduğu için kalın giyindik.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Bilgi paylaştıkça",
+      "o": [
+        "unutulur.",
+        "azalır.",
+        "çoğalır."
+      ],
+      "a": 2
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Bilgi paylaştıkça …” Kartlar: unutulur. / azalır. / çoğalır..",
+    "correctAnswer": "Bilgi paylaştıkça çoğalır.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Ne kadar acele edersen",
+      "o": [
+        "hiç yorulmazsın.",
+        "o kadar çok hata yaparsın.",
+        "o kadar az hata yaparsın."
+      ],
+      "a": 1
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Ne kadar acele edersen …” Kartlar: hiç yorulmazsın. / o kadar çok hata yaparsın. / o kadar az hata yaparsın..",
+    "correctAnswer": "Ne kadar acele edersen o kadar çok hata yaparsın.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Yalnızca dinlemekle yetinmedi,",
+      "o": [
+        "hiç not almadı.",
+        "notlar da aldı.",
+        "sessizce dinledi."
+      ],
+      "a": 1
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Yalnızca dinlemekle yetinmedi, …” Kartlar: hiç not almadı. / notlar da aldı. / sessizce dinledi..",
+    "correctAnswer": "Yalnızca dinlemekle yetinmedi, notlar da aldı.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır. “Yetinmedi” yapılan işe bir şey eklendiğini gösterir."
+  },
+  {
+    "questionId": "tr8u2-yorum-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Yazar, karakterlerini anlatmaz; onları konuşturarak",
+      "o": [
+        "okurun tanımasını sağlar.",
+        "okurdan gizler.",
+        "uzun uzun betimler."
+      ],
+      "a": 0
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Yazar, karakterlerini anlatmaz; onları konuşturarak …” Kartlar: okurun tanımasını sağlar. / okurdan gizler. / uzun uzun betimler..",
+    "correctAnswer": "Yazar, karakterlerini anlatmaz; onları konuşturarak okurun tanımasını sağlar.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "İnsan, bir şeyin değerini çoğu zaman",
+      "o": [
+        "hiç anlamaz.",
+        "onu kaybedince anlar.",
+        "ona sahipken anlar."
+      ],
+      "a": 1
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “İnsan, bir şeyin değerini çoğu zaman …” Kartlar: hiç anlamaz. / onu kaybedince anlar. / ona sahipken anlar..",
+    "correctAnswer": "İnsan, bir şeyin değerini çoğu zaman onu kaybedince anlar.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "complete",
+    "prompt": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın.",
+    "data": {
+      "s": "Kitaplar, insana farklı hayatları yaşama fırsatı verir;",
+      "o": [
+        "ama kitap okumak zordur.",
+        "bu yüzden okumak gereksizdir.",
+        "bu yüzden okumak, ufku genişletir."
+      ],
+      "a": 2
+    },
+    "textPlain": "Uygun sonu sürükleyip lamın üstüne bırak: cümle anlamlı ve kurala uygun tamamlansın. Cümlenin başı: “Kitaplar, insana farklı hayatları yaşama fırsatı verir; …” Kartlar: ama kitap okumak zordur. / bu yüzden okumak gereksizdir. / bu yüzden okumak, ufku genişletir..",
+    "correctAnswer": "Kitaplar, insana farklı hayatları yaşama fırsatı verir; bu yüzden okumak, ufku genişletir.",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at.",
+    "data": {
+      "L": [
+        "Aynı anlam",
+        "Farklı anlam"
+      ],
+      "r": [
+        [
+          "Damlaya damlaya göl olur. ↔ Küçük birikimler zamanla büyür.",
+          0
+        ],
+        [
+          "Erken kalkan yol alır. ↔ Geç kalkmak hiç zarar vermez.",
+          1
+        ],
+        [
+          "Bilgi paylaştıkça çoğalır. ↔ Bildiklerini anlattıkça bilgi artar.",
+          0
+        ],
+        [
+          "Az olsun, öz olsun. ↔ Çok olsun, uzun olsun.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at. Kartlar: Damlaya damlaya göl olur. ↔ Küçük birikimler zamanla büyür. / Erken kalkan yol alır. ↔ Geç kalkmak hiç zarar vermez. / Bilgi paylaştıkça çoğalır. ↔ Bildiklerini anlattıkça bilgi artar. / Az olsun, öz olsun. ↔ Çok olsun, uzun olsun.. Sol: Aynı anlam, sağ: Farklı anlam.",
+    "correctAnswer": "Damlaya damlaya göl olur. ↔ Küçük birikimler zamanla büyür. → Aynı anlam | Erken kalkan yol alır. ↔ Geç kalkmak hiç zarar vermez. → Farklı anlam | Bilgi paylaştıkça çoğalır. ↔ Bildiklerini anlattıkça bilgi artar. → Aynı anlam | Az olsun, öz olsun. ↔ Çok olsun, uzun olsun. → Farklı anlam",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at.",
+    "data": {
+      "L": [
+        "Aynı anlam",
+        "Farklı anlam"
+      ],
+      "r": [
+        [
+          "Kitap okumayı çok severim. ↔ Kitap okumaktan büyük keyif alırım.",
+          0
+        ],
+        [
+          "Ona güveniyorum. ↔ Ondan şüpheleniyorum.",
+          1
+        ],
+        [
+          "Sınırlarını zorladı. ↔ Elinden gelenin en iyisini yapmaya çalıştı.",
+          0
+        ],
+        [
+          "Bu iş kolay değil. ↔ Bu iş çocuk oyuncağı.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at. Kartlar: Kitap okumayı çok severim. ↔ Kitap okumaktan büyük keyif alırım. / Ona güveniyorum. ↔ Ondan şüpheleniyorum. / Sınırlarını zorladı. ↔ Elinden gelenin en iyisini yapmaya çalıştı. / Bu iş kolay değil. ↔ Bu iş çocuk oyuncağı.. Sol: Aynı anlam, sağ: Farklı anlam.",
+    "correctAnswer": "Kitap okumayı çok severim. ↔ Kitap okumaktan büyük keyif alırım. → Aynı anlam | Ona güveniyorum. ↔ Ondan şüpheleniyorum. → Farklı anlam | Sınırlarını zorladı. ↔ Elinden gelenin en iyisini yapmaya çalıştı. → Aynı anlam | Bu iş kolay değil. ↔ Bu iş çocuk oyuncağı. → Farklı anlam",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at.",
+    "data": {
+      "L": [
+        "Aynı anlam",
+        "Farklı anlam"
+      ],
+      "r": [
+        [
+          "Bu kararı vermesi kolay olmadı. ↔ Bu kararı zorlukla verdi.",
+          0
+        ],
+        [
+          "Söylediklerini hiç dikkate almadı. ↔ Söylediklerini kulak ardı etti.",
+          0
+        ],
+        [
+          "Yardıma koştu. ↔ Yardımdan kaçtı.",
+          1
+        ],
+        [
+          "Hep aynı hatayı yapıyor. ↔ Hatalarından ders alıyor.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at. Kartlar: Bu kararı vermesi kolay olmadı. ↔ Bu kararı zorlukla verdi. / Söylediklerini hiç dikkate almadı. ↔ Söylediklerini kulak ardı etti. / Yardıma koştu. ↔ Yardımdan kaçtı. / Hep aynı hatayı yapıyor. ↔ Hatalarından ders alıyor.. Sol: Aynı anlam, sağ: Farklı anlam.",
+    "correctAnswer": "Bu kararı vermesi kolay olmadı. ↔ Bu kararı zorlukla verdi. → Aynı anlam | Söylediklerini hiç dikkate almadı. ↔ Söylediklerini kulak ardı etti. → Aynı anlam | Yardıma koştu. ↔ Yardımdan kaçtı. → Farklı anlam | Hep aynı hatayı yapıyor. ↔ Hatalarından ders alıyor. → Farklı anlam",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at.",
+    "data": {
+      "L": [
+        "Aynı anlam",
+        "Farklı anlam"
+      ],
+      "r": [
+        [
+          "Elinden geleni yaptı. ↔ Bütün gücüyle çalıştı.",
+          0
+        ],
+        [
+          "Haberi duyunca çok şaşırdı. ↔ Haberi duyunca küçük dilini yuttu.",
+          0
+        ],
+        [
+          "Eve erken geldi. ↔ Eve çok geç geldi.",
+          1
+        ],
+        [
+          "Sözünü tuttu. ↔ Sözünden döndü.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at. Kartlar: Elinden geleni yaptı. ↔ Bütün gücüyle çalıştı. / Haberi duyunca çok şaşırdı. ↔ Haberi duyunca küçük dilini yuttu. / Eve erken geldi. ↔ Eve çok geç geldi. / Sözünü tuttu. ↔ Sözünden döndü.. Sol: Aynı anlam, sağ: Farklı anlam.",
+    "correctAnswer": "Elinden geleni yaptı. ↔ Bütün gücüyle çalıştı. → Aynı anlam | Haberi duyunca çok şaşırdı. ↔ Haberi duyunca küçük dilini yuttu. → Aynı anlam | Eve erken geldi. ↔ Eve çok geç geldi. → Farklı anlam | Sözünü tuttu. ↔ Sözünden döndü. → Farklı anlam",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at.",
+    "data": {
+      "L": [
+        "Aynı anlam",
+        "Farklı anlam"
+      ],
+      "r": [
+        [
+          "Hava çok sıcaktı. ↔ Sıcaktan bunalmıştık.",
+          0
+        ],
+        [
+          "Çok yorgundu. ↔ Dinç ve enerjikti.",
+          1
+        ],
+        [
+          "Kapıyı açık bıraktı. ↔ Kapıyı kapatmayı unuttu.",
+          0
+        ],
+        [
+          "Sessizce oturdu. ↔ Durmadan konuştu.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at. Kartlar: Hava çok sıcaktı. ↔ Sıcaktan bunalmıştık. / Çok yorgundu. ↔ Dinç ve enerjikti. / Kapıyı açık bıraktı. ↔ Kapıyı kapatmayı unuttu. / Sessizce oturdu. ↔ Durmadan konuştu.. Sol: Aynı anlam, sağ: Farklı anlam.",
+    "correctAnswer": "Hava çok sıcaktı. ↔ Sıcaktan bunalmıştık. → Aynı anlam | Çok yorgundu. ↔ Dinç ve enerjikti. → Farklı anlam | Kapıyı açık bıraktı. ↔ Kapıyı kapatmayı unuttu. → Aynı anlam | Sessizce oturdu. ↔ Durmadan konuştu. → Farklı anlam",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "swipe",
+    "prompt": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at.",
+    "data": {
+      "L": [
+        "Aynı anlam",
+        "Farklı anlam"
+      ],
+      "r": [
+        [
+          "Çok okuyan değil, çok gezen bilir. ↔ Deneyim, okumaktan daha öğreticidir.",
+          0
+        ],
+        [
+          "Söz uçar, yazı kalır. ↔ Yazılı belge, sözden kalıcıdır.",
+          0
+        ],
+        [
+          "Sabır acıdır, meyvesi tatlıdır. ↔ Beklemek hiçbir şey kazandırmaz.",
+          1
+        ],
+        [
+          "Her şey yerli yerindeydi. ↔ Ortalık darmadağındı.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları kaydır: aynı anlamı taşıyan çiftleri sola, farklı anlamdakileri sağa at. Kartlar: Çok okuyan değil, çok gezen bilir. ↔ Deneyim, okumaktan daha öğreticidir. / Söz uçar, yazı kalır. ↔ Yazılı belge, sözden kalıcıdır. / Sabır acıdır, meyvesi tatlıdır. ↔ Beklemek hiçbir şey kazandırmaz. / Her şey yerli yerindeydi. ↔ Ortalık darmadağındı.. Sol: Aynı anlam, sağ: Farklı anlam.",
+    "correctAnswer": "Çok okuyan değil, çok gezen bilir. ↔ Deneyim, okumaktan daha öğreticidir. → Aynı anlam | Söz uçar, yazı kalır. ↔ Yazılı belge, sözden kalıcıdır. → Aynı anlam | Sabır acıdır, meyvesi tatlıdır. ↔ Beklemek hiçbir şey kazandırmaz. → Farklı anlam | Her şey yerli yerindeydi. ↔ Ortalık darmadağındı. → Farklı anlam",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümlenin anlatım özelliğini gösteren merceği seç.",
+    "data": {
+      "s": "Kitap, insanı başka dünyalara taşıyan bir gemidir.",
+      "o": [
+        "benzetme",
+        "karşılaştırma",
+        "neden-sonuç",
+        "koşul-sonuç"
+      ],
+      "a": 0
+    },
+    "textPlain": "Objektifi çevir: cümlenin anlatım özelliğini gösteren merceği seç. Cümle: “Kitap, insanı başka dünyalara taşıyan bir gemidir.” Mercekler: benzetme, karşılaştırma, neden-sonuç, koşul-sonuç.",
+    "correctAnswer": "benzetme",
+    "explanation": "Benzetmede bir varlık, ortak bir özellik nedeniyle başka bir varlığa benzetilir (kitap → gemi)."
+  },
+  {
+    "questionId": "tr8u2-yorum-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümlenin anlatım özelliğini gösteren merceği seç.",
+    "data": {
+      "s": "Sabah kalktığımda dışarısı, bir pamuk tarlası gibi bembeyazdı.",
+      "o": [
+        "koşul-sonuç",
+        "amaç-sonuç",
+        "karşılaştırma",
+        "benzetme"
+      ],
+      "a": 3
+    },
+    "textPlain": "Objektifi çevir: cümlenin anlatım özelliğini gösteren merceği seç. Cümle: “Sabah kalktığımda dışarısı, bir pamuk tarlası gibi bembeyazdı.” Mercekler: koşul-sonuç, amaç-sonuç, karşılaştırma, benzetme.",
+    "correctAnswer": "benzetme",
+    "explanation": "Benzetmede bir varlık, ortak bir özellik nedeniyle başka bir varlığa benzetilir; “gibi” sözcüğü benzetmeyi kurar."
+  },
+  {
+    "questionId": "tr8u2-yorum-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "turret",
+    "prompt": "Objektifi çevir: cümlenin anlatım özelliğini gösteren merceği seç.",
+    "data": {
+      "s": "Annemin sesi, kış gecesinde yanan bir soba gibi içimi ısıtırdı.",
+      "o": [
+        "benzetme",
+        "koşul-sonuç",
+        "neden-sonuç",
+        "amaç-sonuç"
+      ],
+      "a": 0
+    },
+    "textPlain": "Objektifi çevir: cümlenin anlatım özelliğini gösteren merceği seç. Cümle: “Annemin sesi, kış gecesinde yanan bir soba gibi içimi ısıtırdı.” Mercekler: benzetme, koşul-sonuç, neden-sonuç, amaç-sonuç.",
+    "correctAnswer": "benzetme",
+    "explanation": "Annenin sesi, ısıtma yönüyle yanan bir sobaya benzetiliyor."
+  },
+  {
+    "questionId": "tr8u2-yorum-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Cümleleri ayır.",
+    "data": {
+      "L": [
+        "🧩 Benzetme",
+        "🔍 Karşılaştırma"
+      ],
+      "r": [
+        [
+          "Gözleri yıldız gibi parlıyordu.",
+          0
+        ],
+        [
+          "Ayşe, Elif’ten daha uzundur.",
+          1
+        ],
+        [
+          "Sesi bülbül gibi güzeldi.",
+          0
+        ],
+        [
+          "Bu yol, öbür yoldan daha kısa.",
+          1
+        ],
+        [
+          "Yanakları elma gibi kırmızıydı.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri ayır. Bölmeler: Benzetme, Karşılaştırma. Kartlar: Gözleri yıldız gibi parlıyordu. / Ayşe, Elif’ten daha uzundur. / Sesi bülbül gibi güzeldi. / Bu yol, öbür yoldan daha kısa. / Yanakları elma gibi kırmızıydı..",
+    "correctAnswer": "Gözleri yıldız gibi parlıyordu. → Benzetme | Ayşe, Elif’ten daha uzundur. → Karşılaştırma | Sesi bülbül gibi güzeldi. → Benzetme | Bu yol, öbür yoldan daha kısa. → Karşılaştırma | Yanakları elma gibi kırmızıydı. → Benzetme",
+    "explanation": "Benzetmede bir varlık başka bir varlığa benzetilir; karşılaştırmada iki varlık bir yönden ölçülür (“daha”, “kadar”, “en”)."
+  },
+  {
+    "questionId": "tr8u2-yorum-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Cümleleri anlamca tutarlı olup olmadıklarına göre ayır.",
+    "data": {
+      "L": [
+        "✅ Anlamca tutarlı",
+        "❌ Çelişkili"
+      ],
+      "r": [
+        [
+          "Hiç yorulmadan tüm gün yürüdük, akşam bitkin düştük.",
+          1
+        ],
+        [
+          "Çok yağmur yağdı, toprak iyice ıslandı.",
+          0
+        ],
+        [
+          "Kimseye haber vermeden gitti, herkes nereye gittiğini biliyordu.",
+          1
+        ],
+        [
+          "Sınıfın en kısası olduğu için ön sırada oturdu.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri anlamca tutarlı olup olmadıklarına göre ayır. Bölmeler: Anlamca tutarlı, Çelişkili. Kartlar: Hiç yorulmadan tüm gün yürüdük, akşam bitkin düştük. / Çok yağmur yağdı, toprak iyice ıslandı. / Kimseye haber vermeden gitti, herkes nereye gittiğini biliyordu. / Sınıfın en kısası olduğu için ön sırada oturdu..",
+    "correctAnswer": "Hiç yorulmadan tüm gün yürüdük, akşam bitkin düştük. → Çelişkili | Çok yağmur yağdı, toprak iyice ıslandı. → Anlamca tutarlı | Kimseye haber vermeden gitti, herkes nereye gittiğini biliyordu. → Çelişkili | Sınıfın en kısası olduğu için ön sırada oturdu. → Anlamca tutarlı",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  },
+  {
+    "questionId": "tr8u2-yorum-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Cümlede Anlam",
+    "topic": "Cümle yorumlama ve cümle tamamlama",
+    "outcome": "Cümlenin anlamını yorumlar; anlamca yakın cümleleri ve uygun cümle tamamlamalarını belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (cümlede anlam)",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Cümleleri anlamca tutarlı olup olmadıklarına göre ayır.",
+    "data": {
+      "L": [
+        "✅ Anlamca tutarlı",
+        "❌ Çelişkili"
+      ],
+      "r": [
+        [
+          "Hava güneşliydi, şemsiyeyi açtık çünkü yağmur yağıyordu.",
+          1
+        ],
+        [
+          "Çok acıktığı için iki tabak yemek yedi.",
+          0
+        ],
+        [
+          "Odasını topladı, her yer tertemiz oldu.",
+          0
+        ],
+        [
+          "Hiç uyumadı, sabaha kadar mışıl mışıl uyudu.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Cümleleri anlamca tutarlı olup olmadıklarına göre ayır. Bölmeler: Anlamca tutarlı, Çelişkili. Kartlar: Hava güneşliydi, şemsiyeyi açtık çünkü yağmur yağıyordu. / Çok acıktığı için iki tabak yemek yedi. / Odasını topladı, her yer tertemiz oldu. / Hiç uyumadı, sabaha kadar mışıl mışıl uyudu..",
+    "correctAnswer": "Hava güneşliydi, şemsiyeyi açtık çünkü yağmur yağıyordu. → Çelişkili | Çok acıktığı için iki tabak yemek yedi. → Anlamca tutarlı | Odasını topladı, her yer tertemiz oldu. → Anlamca tutarlı | Hiç uyumadı, sabaha kadar mışıl mışıl uyudu. → Çelişkili",
+    "explanation": "Anlamca yakın cümleler aynı yargıyı farklı sözcüklerle anlatır. Cümle tamamlarken başta kurulan anlam ilişkisi (karşıtlık, sonuç, koşul) sonda da korunmalıdır."
+  }
+]

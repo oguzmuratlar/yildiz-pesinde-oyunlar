@@ -47,6 +47,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Harita Ölçeği | matematik-8-harita-olcegi | 1.0.0 | Matematik | 8 | Dikey | `/matematik-8-harita-olcegi/1.0.0/index.html` |
 | Ambalaj Fabrikası | matematik-8-ambalaj | 1.0.0 | Matematik | 8 | Dikey | `/matematik-8-ambalaj/1.0.0/index.html` |
 | Sözlük Kâşifi | turkce-8-sozluk-kasifi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-sozluk-kasifi/1.0.0/index.html` |
+| Cümle Mikroskobu | turkce-8-cumle-mikroskobu | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-cumle-mikroskobu/1.0.0/index.html` |
 | Dev Ahtapot (Macera canavarı · Arena 1) | macera-5-dev-ahtapot | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-dev-ahtapot/1.0.0/index.html` |
 | Paslı Çapa Golemi (Macera canavarı · Arena 2) | macera-5-pasli-capa-golemi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-pasli-capa-golemi/1.0.0/index.html` |
 | Fener Balığı (Macera canavarı · Arena 3) | macera-5-fener-baligi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-fener-baligi/1.0.0/index.html` |
