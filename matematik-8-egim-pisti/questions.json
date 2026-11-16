@@ -1,0 +1,3008 @@
+[
+  {
+    "questionId": "mat8u7-denklem-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "denklem",
+    "rank": 1,
+    "type": "solve",
+    "prompt": "x + 5 = 12 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        1,
+        5
+      ],
+      "R": [
+        0,
+        12
+      ],
+      "x": 7
+    },
+    "textPlain": "x + 5 = 12 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: x + 5 = 12.",
+    "correctAnswer": "x = 7",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "denklem",
+    "rank": 1,
+    "type": "solve",
+    "prompt": "3x = 21 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        3,
+        0
+      ],
+      "R": [
+        0,
+        21
+      ],
+      "x": 7
+    },
+    "textPlain": "3x = 21 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 3x = 21.",
+    "correctAnswer": "x = 7",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "denklem",
+    "rank": 1,
+    "type": "solve",
+    "prompt": "2x + 3 = 11 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        2,
+        3
+      ],
+      "R": [
+        0,
+        11
+      ],
+      "x": 4
+    },
+    "textPlain": "2x + 3 = 11 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 2x + 3 = 11.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "denklem",
+    "rank": 1,
+    "type": "solve",
+    "prompt": "x − 4 = 6 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        1,
+        -4
+      ],
+      "R": [
+        0,
+        6
+      ],
+      "x": 10
+    },
+    "textPlain": "x − 4 = 6 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: x − 4 = 6.",
+    "correctAnswer": "x = 10",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "solve",
+    "prompt": "5x − 7 = 18 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        5,
+        -7
+      ],
+      "R": [
+        0,
+        18
+      ],
+      "x": 5
+    },
+    "textPlain": "5x − 7 = 18 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 5x − 7 = 18.",
+    "correctAnswer": "x = 5",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "solve",
+    "prompt": "3x + 4 = x + 12 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        3,
+        4
+      ],
+      "R": [
+        1,
+        12
+      ],
+      "x": 4
+    },
+    "textPlain": "3x + 4 = x + 12 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 3x + 4 = x + 12.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "solve",
+    "prompt": "4x + 1 = 2x + 9 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        4,
+        1
+      ],
+      "R": [
+        2,
+        9
+      ],
+      "x": 4
+    },
+    "textPlain": "4x + 1 = 2x + 9 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 4x + 1 = 2x + 9.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "solve",
+    "prompt": "−2x + 10 = 4 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        -2,
+        10
+      ],
+      "R": [
+        0,
+        4
+      ],
+      "x": 3
+    },
+    "textPlain": "−2x + 10 = 4 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: −2x + 10 = 4.",
+    "correctAnswer": "x = 3",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "denklem",
+    "rank": 3,
+    "type": "solve",
+    "prompt": "6x − 5 = 2x + 11 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        6,
+        -5
+      ],
+      "R": [
+        2,
+        11
+      ],
+      "x": 4
+    },
+    "textPlain": "6x − 5 = 2x + 11 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 6x − 5 = 2x + 11.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "denklem",
+    "rank": 3,
+    "type": "solve",
+    "prompt": "5x + 3 = 8x − 9 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        5,
+        3
+      ],
+      "R": [
+        8,
+        -9
+      ],
+      "x": 4
+    },
+    "textPlain": "5x + 3 = 8x − 9 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 5x + 3 = 8x − 9.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "denklem",
+    "rank": 3,
+    "type": "solve",
+    "prompt": "−3x + 7 = 2x − 13 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        -3,
+        7
+      ],
+      "R": [
+        2,
+        -13
+      ],
+      "x": 4
+    },
+    "textPlain": "−3x + 7 = 2x − 13 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: −3x + 7 = 2x − 13.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "denklem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "x/3 = 5 ise x kaçtır?",
+    "data": {
+      "a": 15,
+      "u": ""
+    },
+    "textPlain": "x/3 = 5 ise x kaçtır?",
+    "correctAnswer": "15",
+    "explanation": "İki taraf 3 ile çarpılır: x = 15."
+  },
+  {
+    "questionId": "mat8u7-denklem-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "2(x − 1) = 14 ise x kaçtır?",
+    "data": {
+      "a": 8,
+      "u": ""
+    },
+    "textPlain": "2(x − 1) = 14 ise x kaçtır?",
+    "correctAnswer": "8",
+    "explanation": "Parantez açılır: 2x − 2 = 14 → 2x = 16 → x = 8."
+  },
+  {
+    "questionId": "mat8u7-denklem-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "(x + 4)/2 = 7 ise x kaçtır?",
+    "data": {
+      "a": 10,
+      "u": ""
+    },
+    "textPlain": "(x + 4)/2 = 7 ise x kaçtır?",
+    "correctAnswer": "10",
+    "explanation": "İki taraf 2 ile çarpılır: x + 4 = 14 → x = 10."
+  },
+  {
+    "questionId": "mat8u7-denklem-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "denklem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "3(x + 2) − 4 = 2x + 9 ise x kaçtır?",
+    "data": {
+      "a": 7,
+      "u": ""
+    },
+    "textPlain": "3(x + 2) − 4 = 2x + 9 ise x kaçtır?",
+    "correctAnswer": "7",
+    "explanation": "3x + 6 − 4 = 2x + 9 → 3x + 2 = 2x + 9 → x = 7."
+  },
+  {
+    "questionId": "mat8u7-denklem-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "denklem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Ardışık üç doğal sayının toplamı 48 ise en büyüğü kaçtır?",
+    "data": {
+      "a": 17,
+      "u": ""
+    },
+    "textPlain": "Ardışık üç doğal sayının toplamı 48 ise en büyüğü kaçtır?",
+    "correctAnswer": "17",
+    "explanation": "x + (x + 1) + (x + 2) = 48 → 3x + 3 = 48 → x = 15; en büyüğü 17."
+  },
+  {
+    "questionId": "mat8u7-koordinat-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "A",
+          2,
+          3
+        ],
+        [
+          "B",
+          -1,
+          4
+        ],
+        [
+          "C",
+          3,
+          -2
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: A(2, 3), B(−1, 4), C(3, −2).",
+    "correctAnswer": "Doğru yerleşim: A(2, 3), B(−1, 4), C(3, −2)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "A",
+          0,
+          4
+        ],
+        [
+          "B",
+          -3,
+          0
+        ],
+        [
+          "C",
+          5,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: A(0, 4), B(−3, 0), C(5, 1).",
+    "correctAnswer": "Doğru yerleşim: A(0, 4), B(−3, 0), C(5, 1)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "A",
+          -4,
+          -2
+        ],
+        [
+          "B",
+          2,
+          -5
+        ],
+        [
+          "C",
+          -2,
+          3
+        ],
+        [
+          "D",
+          0,
+          -3
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: A(−4, −2), B(2, −5), C(−2, 3), D(0, −3).",
+    "correctAnswer": "Doğru yerleşim: A(−4, −2), B(2, −5), C(−2, 3), D(0, −3)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "K",
+          5,
+          -1
+        ],
+        [
+          "L",
+          -5,
+          -1
+        ],
+        [
+          "M",
+          1,
+          5
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: K(5, −1), L(−5, −1), M(1, 5).",
+    "correctAnswer": "Doğru yerleşim: K(5, −1), L(−5, −1), M(1, 5)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "koordinat",
+    "rank": 3,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar bir dikdörtgenin köşeleri.",
+    "data": {
+      "P": [
+        [
+          "A",
+          -3,
+          -4
+        ],
+        [
+          "B",
+          4,
+          -4
+        ],
+        [
+          "C",
+          4,
+          2
+        ],
+        [
+          "D",
+          -3,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar bir dikdörtgenin köşeleri. Noktalar: A(−3, −4), B(4, −4), C(4, 2), D(−3, 2).",
+    "correctAnswer": "Doğru yerleşim: A(−3, −4), B(4, −4), C(4, 2), D(−3, 2)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "koordinat",
+    "rank": 3,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "P",
+          -2,
+          5
+        ],
+        [
+          "R",
+          5,
+          -2
+        ],
+        [
+          "S",
+          -5,
+          -5
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: P(−2, 5), R(5, −2), S(−5, −5).",
+    "correctAnswer": "Doğru yerleşim: P(−2, 5), R(5, −2), S(−5, −5)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Noktaları bulundukları bölgeye yerleştir.",
+    "data": {
+      "L": [
+        "1️⃣ I. bölge",
+        "2️⃣ II. bölge",
+        "3️⃣ III. bölge",
+        "4️⃣ IV. bölge"
+      ],
+      "r": [
+        [
+          "(3, 5)",
+          0
+        ],
+        [
+          "(−2, 4)",
+          1
+        ],
+        [
+          "(−1, −6)",
+          2
+        ],
+        [
+          "(4, −3)",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Noktaları bulundukları bölgeye yerleştir. Bölmeler: I. bölge, II. bölge, III. bölge, IV. bölge. Kartlar: (3, 5), (−2, 4), (−1, −6), (4, −3).",
+    "correctAnswer": "(3, 5) → I. bölge | (−2, 4) → II. bölge | (−1, −6) → III. bölge | (4, −3) → IV. bölge",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır. I. bölge (+, +), II. bölge (−, +), III. bölge (−, −), IV. bölge (+, −)."
+  },
+  {
+    "questionId": "mat8u7-koordinat-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Noktaları bulundukları bölgeye yerleştir.",
+    "data": {
+      "L": [
+        "1️⃣ I. bölge",
+        "2️⃣ II. bölge",
+        "3️⃣ III. bölge",
+        "4️⃣ IV. bölge"
+      ],
+      "r": [
+        [
+          "(−5, 1)",
+          1
+        ],
+        [
+          "(7, 2)",
+          0
+        ],
+        [
+          "(2, −7)",
+          3
+        ],
+        [
+          "(−3, −3)",
+          2
+        ],
+        [
+          "(−1, 8)",
+          1
+        ],
+        [
+          "(6, −1)",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Noktaları bulundukları bölgeye yerleştir. Bölmeler: I. bölge, II. bölge, III. bölge, IV. bölge. Kartlar: (−5, 1), (7, 2), (2, −7), (−3, −3), (−1, 8), (6, −1).",
+    "correctAnswer": "(−5, 1) → II. bölge | (7, 2) → I. bölge | (2, −7) → IV. bölge | (−3, −3) → III. bölge | (−1, 8) → II. bölge | (6, −1) → IV. bölge",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır. I. bölge (+, +), II. bölge (−, +), III. bölge (−, −), IV. bölge (+, −)."
+  },
+  {
+    "questionId": "mat8u7-koordinat-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "koordinat",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Noktaları ayır (başlangıç noktası x ekseni bölmesine).",
+    "data": {
+      "L": [
+        "↔️ x ekseni üzerinde",
+        "↕️ y ekseni üzerinde",
+        "🗺️ Bir bölgede"
+      ],
+      "r": [
+        [
+          "(4, 0)",
+          0
+        ],
+        [
+          "(0, −3)",
+          1
+        ],
+        [
+          "(0, 0)",
+          0
+        ],
+        [
+          "(−2, 0)",
+          0
+        ],
+        [
+          "(0, 5)",
+          1
+        ],
+        [
+          "(1, −1)",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Noktaları ayır (başlangıç noktası x ekseni bölmesine). Bölmeler: x ekseni üzerinde, y ekseni üzerinde, Bir bölgede. Kartlar: (4, 0), (0, −3), (0, 0), (−2, 0), (0, 5), (1, −1).",
+    "correctAnswer": "(4, 0) → x ekseni üzerinde | (0, −3) → y ekseni üzerinde | (0, 0) → x ekseni üzerinde | (−2, 0) → x ekseni üzerinde | (0, 5) → y ekseni üzerinde | (1, −1) → Bir bölgede",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır. y’si 0 olan noktalar x ekseni üzerindedir; x’i 0 olanlar y ekseni üzerindedir. Başlangıç noktası (0, 0) iki eksenin üzerindedir; burada x eksenine konmuştur."
+  },
+  {
+    "questionId": "mat8u7-koordinat-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "key",
+    "prompt": "A(1, 2) noktası 4 birim sağa, 3 birim yukarı ötelenirse yeni noktanın x ve y koordinatlarının toplamı kaçtır?",
+    "data": {
+      "a": 10,
+      "u": ""
+    },
+    "textPlain": "A(1, 2) noktası 4 birim sağa, 3 birim yukarı ötelenirse yeni noktanın x ve y koordinatlarının toplamı kaçtır?",
+    "correctAnswer": "10",
+    "explanation": "(1 + 4, 2 + 3) = (5, 5); 5 + 5 = 10."
+  },
+  {
+    "questionId": "mat8u7-koordinat-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "koordinat",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Köşeleri A(−3, −4), B(4, −4), C(4, 2), D(−3, 2) olan dikdörtgenin alanı kaç birimkaredir?",
+    "data": {
+      "a": 42,
+      "u": ""
+    },
+    "textPlain": "Köşeleri A(−3, −4), B(4, −4), C(4, 2), D(−3, 2) olan dikdörtgenin alanı kaç birimkaredir?",
+    "correctAnswer": "42",
+    "explanation": "Kenarlar 4 − (−3) = 7 ve 2 − (−4) = 6; alan 7 · 6 = 42."
+  },
+  {
+    "questionId": "mat8u7-iliski-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "table",
+    "prompt": "y = 2x + 1 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        2,
+        1
+      ],
+      "n": 1,
+      "xs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ys": [
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    "textPlain": "y = 2x + 1 için tablodaki y değerlerini ayarla. x değerleri: 0, 1, 2, 3.",
+    "correctAnswer": "y değerleri: 1, 3, 5, 7",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "table",
+    "prompt": "y = x − 3 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        1,
+        1
+      ],
+      "n": -3,
+      "xs": [
+        -1,
+        0,
+        2,
+        4
+      ],
+      "ys": [
+        -4,
+        -3,
+        -1,
+        1
+      ]
+    },
+    "textPlain": "y = x − 3 için tablodaki y değerlerini ayarla. x değerleri: -1, 0, 2, 4.",
+    "correctAnswer": "y değerleri: -4, -3, -1, 1",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "table",
+    "prompt": "y = −2x + 4 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        -2,
+        1
+      ],
+      "n": 4,
+      "xs": [
+        -1,
+        0,
+        1,
+        3
+      ],
+      "ys": [
+        6,
+        4,
+        2,
+        -2
+      ]
+    },
+    "textPlain": "y = −2x + 4 için tablodaki y değerlerini ayarla. x değerleri: -1, 0, 1, 3.",
+    "correctAnswer": "y değerleri: 6, 4, 2, -2",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "table",
+    "prompt": "y = 3x − 2 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        3,
+        1
+      ],
+      "n": -2,
+      "xs": [
+        -1,
+        0,
+        1,
+        2
+      ],
+      "ys": [
+        -5,
+        -2,
+        1,
+        4
+      ]
+    },
+    "textPlain": "y = 3x − 2 için tablodaki y değerlerini ayarla. x değerleri: -1, 0, 1, 2.",
+    "correctAnswer": "y değerleri: -5, -2, 1, 4",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "iliski",
+    "rank": 3,
+    "type": "table",
+    "prompt": "y = 1/2x + 1 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        1,
+        2
+      ],
+      "n": 1,
+      "xs": [
+        -4,
+        -2,
+        0,
+        2
+      ],
+      "ys": [
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "y = 1/2x + 1 için tablodaki y değerlerini ayarla. x değerleri: -4, -2, 0, 2.",
+    "correctAnswer": "y değerleri: -1, 0, 1, 2",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "iliski",
+    "rank": 3,
+    "type": "table",
+    "prompt": "y = −3/2x + 2 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        -3,
+        2
+      ],
+      "n": 2,
+      "xs": [
+        -2,
+        0,
+        2,
+        4
+      ],
+      "ys": [
+        5,
+        2,
+        -1,
+        -4
+      ]
+    },
+    "textPlain": "y = −3/2x + 2 için tablodaki y değerlerini ayarla. x değerleri: -2, 0, 2, 4.",
+    "correctAnswer": "y değerleri: 5, 2, -1, -4",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "line",
+    "prompt": "y = x + 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        1,
+        1
+      ],
+      "n": 2
+    },
+    "textPlain": "y = x + 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, 2) ve (1, 3)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "line",
+    "prompt": "y = 2x doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        2,
+        1
+      ],
+      "n": 0
+    },
+    "textPlain": "y = 2x doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, 0) ve (1, 2)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "line",
+    "prompt": "y = −x + 3 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        -1,
+        1
+      ],
+      "n": 3
+    },
+    "textPlain": "y = −x + 3 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, 3) ve (1, 2)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "line",
+    "prompt": "y = 2x − 3 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        2,
+        1
+      ],
+      "n": -3
+    },
+    "textPlain": "y = 2x − 3 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, −3) ve (1, −1)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "iliski",
+    "rank": 3,
+    "type": "line",
+    "prompt": "y = 1/2x − 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        1,
+        2
+      ],
+      "n": -2
+    },
+    "textPlain": "y = 1/2x − 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, −2) ve (2, −1)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "iliski",
+    "rank": 3,
+    "type": "line",
+    "prompt": "y = −2/3x + 1 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        -2,
+        3
+      ],
+      "n": 1
+    },
+    "textPlain": "y = −2/3x + 1 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, 1) ve (3, −1)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Denklemleri ayır.",
+    "data": {
+      "L": [
+        "✅ Doğrusal",
+        "❌ Doğrusal değil"
+      ],
+      "r": [
+        [
+          "y = 3x − 1",
+          0
+        ],
+        [
+          "y = x²",
+          1
+        ],
+        [
+          "y = −x + 4",
+          0
+        ],
+        [
+          "xy = 6",
+          1
+        ],
+        [
+          "y = 5",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Denklemleri ayır. Bölmeler: Doğrusal, Doğrusal değil. Kartlar: y = 3x − 1, y = x², y = −x + 4, xy = 6, y = 5.",
+    "correctAnswer": "y = 3x − 1 → Doğrusal | y = x² → Doğrusal değil | y = −x + 4 → Doğrusal | xy = 6 → Doğrusal değil | y = 5 → Doğrusal",
+    "explanation": "Grafiği doğru olan, x’in birinci dereceden olduğu ilişkiler doğrusaldır (y = mx + n). x² ya da x·y içeren ilişkiler doğrusal değildir."
+  },
+  {
+    "questionId": "mat8u7-egim-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "egim",
+    "rank": 1,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 1 olan pisti kur.",
+    "data": {
+      "s": [
+        1,
+        1
+      ],
+      "A": [
+        -3,
+        -2
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 1 olan pisti kur. A(−3, −2).",
+    "correctAnswer": "Örnek bitiş: (−2, −1)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "egim",
+    "rank": 1,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 2 olan pisti kur.",
+    "data": {
+      "s": [
+        2,
+        1
+      ],
+      "A": [
+        -2,
+        -4
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 2 olan pisti kur. A(−2, −4).",
+    "correctAnswer": "Örnek bitiş: (−1, −2)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "egim",
+    "rank": 1,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −1 olan pisti kur.",
+    "data": {
+      "s": [
+        -1,
+        1
+      ],
+      "A": [
+        -3,
+        3
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −1 olan pisti kur. A(−3, 3).",
+    "correctAnswer": "Örnek bitiş: (−2, 2)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 1/2 olan pisti kur.",
+    "data": {
+      "s": [
+        1,
+        2
+      ],
+      "A": [
+        -4,
+        -2
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 1/2 olan pisti kur. A(−4, −2).",
+    "correctAnswer": "Örnek bitiş: (−2, −1)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −2 olan pisti kur.",
+    "data": {
+      "s": [
+        -2,
+        1
+      ],
+      "A": [
+        -1,
+        4
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −2 olan pisti kur. A(−1, 4).",
+    "correctAnswer": "Örnek bitiş: (0, 2)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −1/3 olan pisti kur.",
+    "data": {
+      "s": [
+        -1,
+        3
+      ],
+      "A": [
+        -4,
+        2
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −1/3 olan pisti kur. A(−4, 2).",
+    "correctAnswer": "Örnek bitiş: (−1, 1)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "egim",
+    "rank": 3,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 3/2 olan pisti kur.",
+    "data": {
+      "s": [
+        3,
+        2
+      ],
+      "A": [
+        -4,
+        -4
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 3/2 olan pisti kur. A(−4, −4).",
+    "correctAnswer": "Örnek bitiş: (−2, −1)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "egim",
+    "rank": 3,
+    "type": "ramp",
+    "prompt": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −3/4 olan pisti kur.",
+    "data": {
+      "s": [
+        -3,
+        4
+      ],
+      "A": [
+        -4,
+        3
+      ]
+    },
+    "textPlain": "Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi −3/4 olan pisti kur. A(−4, 3).",
+    "correctAnswer": "Örnek bitiş: (0, 0)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "egim",
+    "rank": 3,
+    "type": "ramp",
+    "prompt": "Düz kayak yolu yapılacak. Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 0 olan pisti kur.",
+    "data": {
+      "s": [
+        0,
+        1
+      ],
+      "A": [
+        -3,
+        1
+      ]
+    },
+    "textPlain": "Düz kayak yolu yapılacak. Pistin başı A noktasında. Bitiş bayrağını sürükleyerek eğimi 0 olan pisti kur. A(−3, 1).",
+    "correctAnswer": "Örnek bitiş: (−2, 1)",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "egim",
+    "rank": 1,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "s": [
+        2,
+        1
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (0, 0) ve (2, 4) noktalarından geçiyor.",
+    "correctAnswer": "Eğim 2",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "egim",
+    "rank": 1,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          -2,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "s": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (−2, 1) ve (2, 1) noktalarından geçiyor.",
+    "correctAnswer": "Eğim 0",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          -3,
+          4
+        ],
+        [
+          3,
+          -2
+        ]
+      ],
+      "s": [
+        -1,
+        1
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (−3, 4) ve (3, −2) noktalarından geçiyor.",
+    "correctAnswer": "Eğim −1",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          -4,
+          -1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "s": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (−4, −1) ve (2, 2) noktalarından geçiyor.",
+    "correctAnswer": "Eğim 1/2",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "egim",
+    "rank": 3,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          -3,
+          5
+        ],
+        [
+          3,
+          -4
+        ]
+      ],
+      "s": [
+        -3,
+        2
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (−3, 5) ve (3, −4) noktalarından geçiyor.",
+    "correctAnswer": "Eğim −3/2",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "egim",
+    "rank": 3,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          -5,
+          -2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "s": [
+        2,
+        3
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (−5, −2) ve (1, 2) noktalarından geçiyor.",
+    "correctAnswer": "Eğim 2/3",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-egim-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Doğruları eğimlerinin işaretine göre ayır.",
+    "data": {
+      "L": [
+        "📈 Pozitif eğim",
+        "📉 Negatif eğim",
+        "➖ Eğim 0"
+      ],
+      "r": [
+        [
+          "y = 2x + 1",
+          0
+        ],
+        [
+          "y = −x + 3",
+          1
+        ],
+        [
+          "y = 4",
+          2
+        ],
+        [
+          "y = −3x",
+          1
+        ],
+        [
+          "y = x/2 − 5",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Doğruları eğimlerinin işaretine göre ayır. Bölmeler: Pozitif eğim, Negatif eğim, Eğim 0. Kartlar: y = 2x + 1, y = −x + 3, y = 4, y = −3x, y = x/2 − 5.",
+    "correctAnswer": "y = 2x + 1 → Pozitif eğim | y = −x + 3 → Negatif eğim | y = 4 → Eğim 0 | y = −3x → Negatif eğim | y = x/2 − 5 → Pozitif eğim",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir. y = mx + n doğrusunun eğimi m’dir."
+  },
+  {
+    "questionId": "mat8u7-egim-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "egim",
+    "rank": 1,
+    "type": "gmatch",
+    "prompt": "y = 2x + 1 denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          -2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          -1
+        ]
+      ],
+      "a": 1,
+      "e": "y = 2x + 1"
+    },
+    "textPlain": "y = 2x + 1 denkleminin grafiğine dokun. Seçenekler: y = 2x + 1, y = −2x + 1, y = 2x − 1 grafikleri.",
+    "correctAnswer": "B grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-egim-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "gmatch",
+    "prompt": "y = −x − 2 denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          -1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          -2
+        ],
+        [
+          -1,
+          1,
+          -2
+        ]
+      ],
+      "a": 2,
+      "e": "y = −x − 2"
+    },
+    "textPlain": "y = −x − 2 denkleminin grafiğine dokun. Seçenekler: y = −x − 2, y = x − 2, y = −x + 2 grafikleri.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-egim-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "egim",
+    "rank": 3,
+    "type": "gmatch",
+    "prompt": "y = 1/3x + 2 denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          -1,
+          3,
+          2
+        ]
+      ],
+      "a": 1,
+      "e": "y = 1/3x + 2"
+    },
+    "textPlain": "y = 1/3x + 2 denkleminin grafiğine dokun. Seçenekler: y = 1/3x + 2, y = 3x + 2, y = −1/3x + 2 grafikleri.",
+    "correctAnswer": "B grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "gmatch",
+    "prompt": "y = x denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "a": 2,
+      "e": "y = x"
+    },
+    "textPlain": "y = x denkleminin grafiğine dokun. Seçenekler: y = x, y = −x, y = x + 3 grafikleri.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "iliski",
+    "rank": 3,
+    "type": "gmatch",
+    "prompt": "y = −1/2x − 1 denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          -1,
+          2,
+          -1
+        ],
+        [
+          -2,
+          1,
+          -1
+        ],
+        [
+          1,
+          2,
+          -1
+        ]
+      ],
+      "a": 0,
+      "e": "y = −1/2x − 1"
+    },
+    "textPlain": "y = −1/2x − 1 denkleminin grafiğine dokun. Seçenekler: y = −1/2x − 1, y = 1/2x − 1, y = −2x − 1 grafikleri.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-problem-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "model",
+    "prompt": "Taksimetre açılışta 15 TL yazıyor ve her kilometrede 6 TL artıyor. y: ücret, x: km. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": 6,
+      "n": 15
+    },
+    "textPlain": "Taksimetre açılışta 15 TL yazıyor ve her kilometrede 6 TL artıyor. y: ücret, x: km. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = 6x + 15 (örnek: x = 10 için y = 75)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "model",
+    "prompt": "Bir fidan şu an 20 cm ve her hafta 3 cm uzuyor. y: boy, x: hafta. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": 3,
+      "n": 20
+    },
+    "textPlain": "Bir fidan şu an 20 cm ve her hafta 3 cm uzuyor. y: boy, x: hafta. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = 3x + 20 (örnek: x = 4 için y = 32)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "model",
+    "prompt": "Deposunda 50 litre yakıt olan araç her saat 4 litre harcıyor. y: kalan yakıt, x: saat. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": -4,
+      "n": 50
+    },
+    "textPlain": "Deposunda 50 litre yakıt olan araç her saat 4 litre harcıyor. y: kalan yakıt, x: saat. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = −4x + 50 (örnek: x = 5 için y = 30)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "model",
+    "prompt": "Bir kayak teleferiği zirveden 12 m/dk hızla iniyor; başlangıç yüksekliği 60 m. y: yükseklik, x: dakika. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": -12,
+      "n": 60
+    },
+    "textPlain": "Bir kayak teleferiği zirveden 12 m/dk hızla iniyor; başlangıç yüksekliği 60 m. y: yükseklik, x: dakika. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = −12x + 60 (örnek: x = 3 için y = 24)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "model",
+    "prompt": "Bir telefon tarifesinde aylık sabit ücret 40 TL ve her GB için 8 TL ödeniyor. y: fatura, x: GB. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": 8,
+      "n": 40
+    },
+    "textPlain": "Bir telefon tarifesinde aylık sabit ücret 40 TL ve her GB için 8 TL ödeniyor. y: fatura, x: GB. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = 8x + 40 (örnek: x = 5 için y = 80)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "model",
+    "prompt": "Pistte kayan bir sporcu 600 m yükseklikten başlıyor ve her saniye 15 m alçalıyor. y: yükseklik, x: saniye. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": -15,
+      "n": 600
+    },
+    "textPlain": "Pistte kayan bir sporcu 600 m yükseklikten başlıyor ve her saniye 15 m alçalıyor. y: yükseklik, x: saniye. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = −15x + 600 (örnek: x = 10 için y = 450)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Taksi ücreti y = 5x + 20 (x: km). 8 km giden yolcu kaç TL öder?",
+    "data": {
+      "a": 60,
+      "u": "TL"
+    },
+    "textPlain": "Taksi ücreti y = 5x + 20 (x: km). 8 km giden yolcu kaç TL öder?",
+    "correctAnswer": "60 TL",
+    "explanation": "y = 5 · 8 + 20 = 60."
+  },
+  {
+    "questionId": "mat8u7-problem-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Bir havuzda 200 litre su var ve her dakika 25 litre boşaltılıyor. Havuz kaç dakikada tamamen boşalır?",
+    "data": {
+      "a": 8,
+      "u": "dakika"
+    },
+    "textPlain": "Bir havuzda 200 litre su var ve her dakika 25 litre boşaltılıyor. Havuz kaç dakikada tamamen boşalır?",
+    "correctAnswer": "8 dakika",
+    "explanation": "200 − 25x = 0 → x = 8."
+  },
+  {
+    "questionId": "mat8u7-problem-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "y = 4x + 7 doğrusunun y eksenini kestiği noktanın y koordinatı kaçtır?",
+    "data": {
+      "a": 7,
+      "u": ""
+    },
+    "textPlain": "y = 4x + 7 doğrusunun y eksenini kestiği noktanın y koordinatı kaçtır?",
+    "correctAnswer": "7",
+    "explanation": "x = 0 iken y = 7."
+  },
+  {
+    "questionId": "mat8u7-problem-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Bir kayak kiralama dükkânında günlük ücret 120 TL, kask için tek seferlik 30 TL ödeniyor. Toplam 630 TL ödeyen kişi kaç gün kiralamıştır?",
+    "data": {
+      "a": 5,
+      "u": "gün"
+    },
+    "textPlain": "Bir kayak kiralama dükkânında günlük ücret 120 TL, kask için tek seferlik 30 TL ödeniyor. Toplam 630 TL ödeyen kişi kaç gün kiralamıştır?",
+    "correctAnswer": "5 gün",
+    "explanation": "120x + 30 = 630 → 120x = 600 → x = 5."
+  },
+  {
+    "questionId": "mat8u7-problem-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "A(1, 3) ve B(4, 12) noktalarından geçen doğrunun eğimi kaçtır?",
+    "data": {
+      "a": 3,
+      "u": ""
+    },
+    "textPlain": "A(1, 3) ve B(4, 12) noktalarından geçen doğrunun eğimi kaçtır?",
+    "correctAnswer": "3",
+    "explanation": "(12 − 3) ÷ (4 − 1) = 9 ÷ 3 = 3."
+  },
+  {
+    "questionId": "mat8u7-problem-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "table",
+    "prompt": "Bir kayak okulu kayıt ücreti 50 TL, her ders 25 TL. y = 25x + 50 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        25,
+        1
+      ],
+      "n": 50,
+      "xs": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "ys": [
+        50,
+        75,
+        100,
+        150
+      ]
+    },
+    "textPlain": "Bir kayak okulu kayıt ücreti 50 TL, her ders 25 TL. y = 25x + 50 için tablodaki y değerlerini ayarla. x değerleri: 0, 1, 2, 4.",
+    "correctAnswer": "y değerleri: 50, 75, 100, 150",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-problem-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "table",
+    "prompt": "Bir telesiyej 300 m yükseklikten her dakika 30 m alçalıyor. y = −30x + 300 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        -30,
+        1
+      ],
+      "n": 300,
+      "xs": [
+        0,
+        2,
+        5,
+        10
+      ],
+      "ys": [
+        300,
+        240,
+        150,
+        0
+      ]
+    },
+    "textPlain": "Bir telesiyej 300 m yükseklikten her dakika 30 m alçalıyor. y = −30x + 300 için tablodaki y değerlerini ayarla. x değerleri: 0, 2, 5, 10.",
+    "correctAnswer": "y değerleri: 300, 240, 150, 0",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-denklem-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "denklem",
+    "rank": 1,
+    "type": "solve",
+    "prompt": "x + 9 = 4 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        1,
+        9
+      ],
+      "R": [
+        0,
+        4
+      ],
+      "x": -5
+    },
+    "textPlain": "x + 9 = 4 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: x + 9 = 4.",
+    "correctAnswer": "x = -5",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "solve",
+    "prompt": "7x = 3x + 20 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        7,
+        0
+      ],
+      "R": [
+        3,
+        20
+      ],
+      "x": 5
+    },
+    "textPlain": "7x = 3x + 20 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 7x = 3x + 20.",
+    "correctAnswer": "x = 5",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "denklem",
+    "rank": 3,
+    "type": "solve",
+    "prompt": "4x − 9 = −2x + 15 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        4,
+        -9
+      ],
+      "R": [
+        -2,
+        15
+      ],
+      "x": 4
+    },
+    "textPlain": "4x − 9 = −2x + 15 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: 4x − 9 = −2x + 15.",
+    "correctAnswer": "x = 4",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-denklem-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Birinci dereceden bir bilinmeyenli denklemler",
+    "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "denklem",
+    "rank": 2,
+    "type": "solve",
+    "prompt": "−x + 8 = x − 2 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak.",
+    "data": {
+      "L": [
+        -1,
+        8
+      ],
+      "R": [
+        1,
+        -2
+      ],
+      "x": 5
+    },
+    "textPlain": "−x + 8 = x − 2 denklemini terazide çöz: işlemi seç ve iki tarafa birden uygula, x’i yalnız bırak. Denklem: −x + 8 = x − 2.",
+    "correctAnswer": "x = 5",
+    "explanation": "Denklemin iki tarafına aynı sayı eklenir, çıkarılır; iki taraf aynı (sıfırdan farklı) sayıyla çarpılır ya da bölünürse eşitlik bozulmaz. Amaç x’i tek başına bırakmaktır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "A",
+          1,
+          1
+        ],
+        [
+          "B",
+          -4,
+          2
+        ],
+        [
+          "C",
+          -2,
+          -5
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: A(1, 1), B(−4, 2), C(−2, −5).",
+    "correctAnswer": "Doğru yerleşim: A(1, 1), B(−4, 2), C(−2, −5)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "D",
+          6,
+          0
+        ],
+        [
+          "E",
+          0,
+          -6
+        ],
+        [
+          "F",
+          -6,
+          6
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: D(6, 0), E(0, −6), F(−6, 6).",
+    "correctAnswer": "Doğru yerleşim: D(6, 0), E(0, −6), F(−6, 6)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar bir karenin köşeleri.",
+    "data": {
+      "P": [
+        [
+          "A",
+          3,
+          3
+        ],
+        [
+          "B",
+          -3,
+          3
+        ],
+        [
+          "C",
+          -3,
+          -3
+        ],
+        [
+          "D",
+          3,
+          -3
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar bir karenin köşeleri. Noktalar: A(3, 3), B(−3, 3), C(−3, −3), D(3, −3).",
+    "correctAnswer": "Doğru yerleşim: A(3, 3), B(−3, 3), C(−3, −3), D(3, −3)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "koordinat",
+    "rank": 3,
+    "type": "pts",
+    "prompt": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun.",
+    "data": {
+      "P": [
+        [
+          "M",
+          -1,
+          -6
+        ],
+        [
+          "N",
+          6,
+          4
+        ],
+        [
+          "R",
+          -6,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Noktaları sırayla koordinat düzlemine yerleştir: ızgaradaki kesişim noktasına dokun. Noktalar: M(−1, −6), N(6, 4), R(−6, 1).",
+    "correctAnswer": "Doğru yerleşim: M(−1, −6), N(6, 4), R(−6, 1)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "cread",
+    "prompt": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla.",
+    "data": {
+      "P": [
+        [
+          "A",
+          3,
+          2
+        ],
+        [
+          "B",
+          -2,
+          4
+        ]
+      ]
+    },
+    "textPlain": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla. Grafikte noktalar işaretli.",
+    "correctAnswer": "A(3, 2), B(−2, 4)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "koordinat",
+    "rank": 1,
+    "type": "cread",
+    "prompt": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla.",
+    "data": {
+      "P": [
+        [
+          "A",
+          -3,
+          -1
+        ],
+        [
+          "B",
+          5,
+          0
+        ]
+      ]
+    },
+    "textPlain": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla. Grafikte noktalar işaretli.",
+    "correctAnswer": "A(−3, −1), B(5, 0)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "cread",
+    "prompt": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla.",
+    "data": {
+      "P": [
+        [
+          "K",
+          0,
+          -4
+        ],
+        [
+          "L",
+          -5,
+          3
+        ],
+        [
+          "M",
+          2,
+          -6
+        ]
+      ]
+    },
+    "textPlain": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla. Grafikte noktalar işaretli.",
+    "correctAnswer": "K(0, −4), L(−5, 3), M(2, −6)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "koordinat",
+    "rank": 3,
+    "type": "cread",
+    "prompt": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla.",
+    "data": {
+      "P": [
+        [
+          "P",
+          -6,
+          -2
+        ],
+        [
+          "R",
+          4,
+          -5
+        ],
+        [
+          "S",
+          -1,
+          6
+        ]
+      ]
+    },
+    "textPlain": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla. Grafikte noktalar işaretli.",
+    "correctAnswer": "P(−6, −2), R(4, −5), S(−1, 6)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-koordinat-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Koordinat sistemi ve sıralı ikililer",
+    "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "koordinat",
+    "rank": 2,
+    "type": "cread",
+    "prompt": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla.",
+    "data": {
+      "P": [
+        [
+          "A",
+          6,
+          6
+        ],
+        [
+          "B",
+          -4,
+          -4
+        ]
+      ]
+    },
+    "textPlain": "Düzlemdeki noktaların koordinatlarını oku ve x, y değerlerini ayarla. Grafikte noktalar işaretli.",
+    "correctAnswer": "A(6, 6), B(−4, −4)",
+    "explanation": "Sıralı ikili (x, y) biçiminde yazılır: önce yatay eksendeki (x), sonra dikey eksendeki (y) değer okunur. Eksenler düzlemi dört bölgeye ayırır."
+  },
+  {
+    "questionId": "mat8u7-iliski-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "table",
+    "prompt": "y = −x + 2 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        -1,
+        1
+      ],
+      "n": 2,
+      "xs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ys": [
+        2,
+        1,
+        0,
+        -1
+      ]
+    },
+    "textPlain": "y = −x + 2 için tablodaki y değerlerini ayarla. x değerleri: 0, 1, 2, 3.",
+    "correctAnswer": "y değerleri: 2, 1, 0, -1",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "table",
+    "prompt": "y = 4x − 1 için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        4,
+        1
+      ],
+      "n": -1,
+      "xs": [
+        -1,
+        0,
+        1,
+        2
+      ],
+      "ys": [
+        -5,
+        -1,
+        3,
+        7
+      ]
+    },
+    "textPlain": "y = 4x − 1 için tablodaki y değerlerini ayarla. x değerleri: -1, 0, 1, 2.",
+    "correctAnswer": "y değerleri: -5, -1, 3, 7",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-iliski-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "iliski",
+    "rank": 1,
+    "type": "line",
+    "prompt": "y = −2x + 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        -2,
+        1
+      ],
+      "n": 2
+    },
+    "textPlain": "y = −2x + 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, 2) ve (1, 0)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "line",
+    "prompt": "y = 3x − 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle.",
+    "data": {
+      "m": [
+        3,
+        1
+      ],
+      "n": -2
+    },
+    "textPlain": "y = 3x − 2 doğrusunu çiz: iki tutamacı denklemi sağlayan noktalara sürükle. Izgara −6 ile 6 arası.",
+    "correctAnswer": "Örnek noktalar: (0, −2) ve (1, 1)",
+    "explanation": "Bir doğruyu çizmek için denklemi sağlayan iki nokta yeterlidir; genellikle x = 0 ve y = 0 noktaları (eksenleri kestiği yerler) kullanılır."
+  },
+  {
+    "questionId": "mat8u7-iliski-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişkiler: tablo, grafik ve denklem",
+    "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "iliski",
+    "rank": 2,
+    "type": "gmatch",
+    "prompt": "y = 3x − 1 denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          -3,
+          1,
+          -1
+        ],
+        [
+          3,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          -1
+        ]
+      ],
+      "a": 2,
+      "e": "y = 3x − 1"
+    },
+    "textPlain": "y = 3x − 1 denkleminin grafiğine dokun. Seçenekler: y = 3x − 1, y = −3x − 1, y = 3x + 1 grafikleri.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-egim-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrunun eğimi",
+    "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "egim",
+    "rank": 2,
+    "type": "slope",
+    "prompt": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir).",
+    "data": {
+      "P": [
+        [
+          -6,
+          -3
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "s": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Grafikteki doğrunun eğimini pay ve paydayla kur (işaret düğmesiyle eksi yapılabilir). Doğru (−6, −3) ve (6, 3) noktalarından geçiyor.",
+    "correctAnswer": "Eğim 1/2",
+    "explanation": "Eğim = dikey değişim ÷ yatay değişim. Soldan sağa yükselen doğrunun eğimi pozitif, alçalanın negatiftir; yatay doğrunun eğimi 0’dır. Eğimin mutlak değeri büyüdükçe doğru dikleşir."
+  },
+  {
+    "questionId": "mat8u7-problem-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "model",
+    "prompt": "Kumbarada 30 TL var; her gün 5 TL ekleniyor. y: para, x: gün. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": 5,
+      "n": 30
+    },
+    "textPlain": "Kumbarada 30 TL var; her gün 5 TL ekleniyor. y: para, x: gün. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = 5x + 30 (örnek: x = 6 için y = 60)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "model",
+    "prompt": "Telefonun şarjı %100 ve her saat %8 azalıyor. y: şarj, x: saat. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": -8,
+      "n": 100
+    },
+    "textPlain": "Telefonun şarjı %100 ve her saat %8 azalıyor. y: şarj, x: saat. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = −8x + 100 (örnek: x = 5 için y = 60)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "model",
+    "prompt": "Bir mumun boyu 24 cm ve her saat 2 cm kısalıyor. y: boy, x: saat. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "data": {
+      "m": -2,
+      "n": 24
+    },
+    "textPlain": "Bir mumun boyu 24 cm ve her saat 2 cm kısalıyor. y: boy, x: saat. Denklemi kur: eğimi (m) ve başlangıç değerini (n) ayarla.",
+    "correctAnswer": "y = −2x + 24 (örnek: x = 6 için y = 12)",
+    "explanation": "Sabit bir başlangıç değeri ve birim başına düzgün artış/azalış olan durumlar y = mx + n ile modellenir: m birim başına değişim (eğim), n başlangıç değeridir."
+  },
+  {
+    "questionId": "mat8u7-problem-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "gmatch",
+    "prompt": "y = 2x − 2 denkleminin grafiğine dokun.",
+    "data": {
+      "o": [
+        [
+          2,
+          1,
+          -2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          -2,
+          1,
+          -2
+        ]
+      ],
+      "a": 0,
+      "e": "y = 2x − 2"
+    },
+    "textPlain": "y = 2x − 2 denkleminin grafiğine dokun. Seçenekler: y = 2x − 2, y = −2x − 2, y = 2x + 2 grafikleri.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Grafik seçilirken doğrunun y eksenini kestiği nokta (n) ve eğimi (m) denklemle karşılaştırılır."
+  },
+  {
+    "questionId": "mat8u7-problem-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "table",
+    "prompt": "Bir kayakçı saniyede 10 m ilerliyor. y = 10x için tablodaki y değerlerini ayarla.",
+    "data": {
+      "m": [
+        10,
+        1
+      ],
+      "n": 0,
+      "xs": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "ys": [
+        10,
+        20,
+        30,
+        50
+      ]
+    },
+    "textPlain": "Bir kayakçı saniyede 10 m ilerliyor. y = 10x için tablodaki y değerlerini ayarla. x değerleri: 1, 2, 3, 5.",
+    "correctAnswer": "y değerleri: 10, 20, 30, 50",
+    "explanation": "Doğrusal denklemde x yerine verilen değer konarak y bulunur; bulunan sıralı ikililer koordinat düzleminde bir doğru üzerinde sıralanır."
+  },
+  {
+    "questionId": "mat8u7-problem-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Bir otopark ilk saat için 20 TL, sonraki her saat için 10 TL alıyor: y = 10x + 20 (x: ek saat). 3 ek saat için kaç TL ödenir?",
+    "data": {
+      "a": 50,
+      "u": "TL"
+    },
+    "textPlain": "Bir otopark ilk saat için 20 TL, sonraki her saat için 10 TL alıyor: y = 10x + 20 (x: ek saat). 3 ek saat için kaç TL ödenir?",
+    "correctAnswer": "50 TL",
+    "explanation": "y = 10 · 3 + 20 = 50."
+  },
+  {
+    "questionId": "mat8u7-problem-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "7. Ünite: Doğrusal Denklemler",
+    "topic": "Doğrusal ilişki içeren gerçek hayat durumları",
+    "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "y = −2x + 10 doğrusunun x eksenini kestiği noktanın x koordinatı kaçtır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "y = −2x + 10 doğrusunun x eksenini kestiği noktanın x koordinatı kaçtır?",
+    "correctAnswer": "5",
+    "explanation": "y = 0 → −2x + 10 = 0 → x = 5."
+  }
+]
