@@ -1,0 +1,4021 @@
+[
+  {
+    "questionId": "mat8u10-oteleme-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "oteleme",
+    "rank": 1,
+    "type": "trans",
+    "prompt": "Adayı 3 birim sağa ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "v": [
+        3,
+        0
+      ]
+    },
+    "textPlain": "Adayı 3 birim sağa ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(0, 0), B(2, 0), C(1, 2) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(3, 0), B'(5, 0), C'(4, 2)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "oteleme",
+    "rank": 1,
+    "type": "trans",
+    "prompt": "Adayı 3 birim yukarı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "v": [
+        0,
+        3
+      ]
+    },
+    "textPlain": "Adayı 3 birim yukarı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(−1, −1), B(1, −1), C(1, 1), D(−1, 1) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−1, 2), B'(1, 2), C'(1, 4), D'(−1, 4)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "oteleme",
+    "rank": 1,
+    "type": "trans",
+    "prompt": "Adayı 2 birim sağa, 1 birim aşağı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "v": [
+        2,
+        -1
+      ]
+    },
+    "textPlain": "Adayı 2 birim sağa, 1 birim aşağı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(−2, 1), B(1, 1), C(−2, 3) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(0, 0), B'(3, 0), C'(0, 2)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "trans",
+    "prompt": "Adayı 4 birim sola, 1 birim yukarı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "v": [
+        -4,
+        1
+      ]
+    },
+    "textPlain": "Adayı 4 birim sola, 1 birim yukarı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(0, 0), B(3, 0), C(2, 2), D(0, 2) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−4, 1), B'(−1, 1), C'(−2, 3), D'(−4, 3)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "trans",
+    "prompt": "Adayı 3 birim sola, 4 birim aşağı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "v": [
+        -3,
+        -4
+      ]
+    },
+    "textPlain": "Adayı 3 birim sola, 4 birim aşağı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(1, 2), B(4, 1), C(3, 4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−2, −2), B'(1, −3), C'(0, 0)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "trans",
+    "prompt": "Adayı 3 birim sağa, 2 birim yukarı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          -1,
+          -2
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "v": [
+        3,
+        2
+      ]
+    },
+    "textPlain": "Adayı 3 birim sağa, 2 birim yukarı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(−1, −2), B(2, −3), C(0, 1) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(2, 0), B'(5, −1), C'(3, 3)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "oteleme",
+    "rank": 3,
+    "type": "trans",
+    "prompt": "Adayı 5 birim sağa, 3 birim yukarı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          -3,
+          -2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -2,
+          0
+        ]
+      ],
+      "v": [
+        5,
+        3
+      ]
+    },
+    "textPlain": "Adayı 5 birim sağa, 3 birim yukarı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(−3, −2), B(−1, −3), C(0, −1), D(−2, 0) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(2, 1), B'(4, 0), C'(5, 2), D'(3, 3)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "oteleme",
+    "rank": 3,
+    "type": "trans",
+    "prompt": "Adayı 3 birim sola, 3 birim aşağı ötele: şekli sürükleyip yeni yerine bırak.",
+    "data": {
+      "P": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "v": [
+        -3,
+        -3
+      ]
+    },
+    "textPlain": "Adayı 3 birim sola, 3 birim aşağı ötele: şekli sürükleyip yeni yerine bırak. [Şekil: koordinat düzleminde A(0, 0), B(2, −1), C(3, 1), D(1, 3), E(−1, 2) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−3, −3), B'(−1, −4), C'(0, −2), D'(−2, 0), E'(−4, −1)",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "oteleme",
+    "rank": 1,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "v": [
+        -3,
+        2
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(0, 0), B(2, 0), C(1, 2) köşeli şekil ve A'(−3, 2), B'(−1, 2), C'(−2, 4) köşeli görüntüsü.]",
+    "correctAnswer": "3 birim sola, 2 birim yukarı",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "oteleme",
+    "rank": 1,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          1
+        ]
+      ],
+      "v": [
+        4,
+        0
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(−1, −1), B(1, −1), C(1, 1), D(−1, 1) köşeli şekil ve A'(3, −1), B'(5, −1), C'(5, 1), D'(3, 1) köşeli görüntüsü.]",
+    "correctAnswer": "4 birim sağa",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "v": [
+        -5,
+        1
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(1, 2), B(4, 1), C(3, 4) köşeli şekil ve A'(−4, 3), B'(−1, 2), C'(−2, 5) köşeli görüntüsü.]",
+    "correctAnswer": "5 birim sola, 1 birim yukarı",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "v": [
+        1,
+        -4
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(0, 0), B(3, 0), C(2, 2), D(0, 2) köşeli şekil ve A'(1, −4), B'(4, −4), C'(3, −2), D'(1, −2) köşeli görüntüsü.]",
+    "correctAnswer": "1 birim sağa, 4 birim aşağı",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          -2,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "v": [
+        3,
+        -3
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(−2, 1), B(1, 1), C(−2, 3) köşeli şekil ve A'(1, −2), B'(4, −2), C'(1, 0) köşeli görüntüsü.]",
+    "correctAnswer": "3 birim sağa, 3 birim aşağı",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "oteleme",
+    "rank": 3,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          -3,
+          -2
+        ],
+        [
+          -1,
+          -3
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          -2,
+          0
+        ]
+      ],
+      "v": [
+        4,
+        5
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(−3, −2), B(−1, −3), C(0, −1), D(−2, 0) köşeli şekil ve A'(1, 3), B'(3, 2), C'(4, 4), D'(2, 5) köşeli görüntüsü.]",
+    "correctAnswer": "4 birim sağa, 5 birim yukarı",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "oteleme",
+    "rank": 3,
+    "type": "tvec",
+    "prompt": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla.",
+    "data": {
+      "P": [
+        [
+          -1,
+          -2
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "v": [
+        -4,
+        3
+      ]
+    },
+    "textPlain": "Ada, kesikli görüntüsüne ötelenmiş. Öteleme okunu kur: yatay ve dikey kaymayı ayarla. [Şekil: A(−1, −2), B(2, −3), C(0, 1) köşeli şekil ve A'(−5, 1), B'(−2, 0), C'(−4, 4) köşeli görüntüsü.]",
+    "correctAnswer": "4 birim sola, 3 birim yukarı",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "oteleme",
+    "rank": 1,
+    "type": "key",
+    "prompt": "A(2, 3) noktası 4 birim sağa ötelenirse görüntüsünün apsisi (x) kaç olur?",
+    "data": {
+      "a": 6,
+      "u": ""
+    },
+    "textPlain": "A(2, 3) noktası 4 birim sağa ötelenirse görüntüsünün apsisi (x) kaç olur?",
+    "correctAnswer": "6",
+    "explanation": "Sağa öteleme x’i artırır: 2 + 4 = 6."
+  },
+  {
+    "questionId": "mat8u10-oteleme-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "key",
+    "prompt": "A(−1, 5) noktası 3 birim sola ve 7 birim aşağı ötelenirse görüntüsünün ordinatı (y) −k ise k kaçtır?",
+    "data": {
+      "a": 2,
+      "u": ""
+    },
+    "textPlain": "A(−1, 5) noktası 3 birim sola ve 7 birim aşağı ötelenirse görüntüsünün ordinatı (y) −k ise k kaçtır?",
+    "correctAnswer": "2",
+    "explanation": "y: 5 − 7 = −2 → k = 2."
+  },
+  {
+    "questionId": "mat8u10-oteleme-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "oteleme",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Bir karenin köşesi A(1, 1) ötelenince A’(6, −2) oluyor. Aynı ötelemede B(−3, 4) noktasının görüntüsünün apsisi kaçtır?",
+    "data": {
+      "a": 2,
+      "u": ""
+    },
+    "textPlain": "Bir karenin köşesi A(1, 1) ötelenince A’(6, −2) oluyor. Aynı ötelemede B(−3, 4) noktasının görüntüsünün apsisi kaçtır?",
+    "correctAnswer": "2",
+    "explanation": "Öteleme: 5 sağa, 3 aşağı. B’ = (−3 + 5, 4 − 3) = (2, 1)."
+  },
+  {
+    "questionId": "mat8u10-oteleme-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "oteleme",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Ötelemede neyin değişip neyin değişmediğini ayır.",
+    "data": {
+      "L": [
+        "✅ Değişmez",
+        "🔄 Değişir"
+      ],
+      "r": [
+        [
+          "Kenar uzunlukları",
+          0
+        ],
+        [
+          "Açı ölçüleri",
+          0
+        ],
+        [
+          "Köşelerin koordinatları",
+          1
+        ],
+        [
+          "Alan",
+          0
+        ],
+        [
+          "Şeklin konumu",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Ötelemede neyin değişip neyin değişmediğini ayır. Bölmeler: Değişmez, Değişir. Kartlar: Kenar uzunlukları, Açı ölçüleri, Köşelerin koordinatları, Alan, Şeklin konumu.",
+    "correctAnswer": "Kenar uzunlukları → Değişmez | Açı ölçüleri → Değişmez | Köşelerin koordinatları → Değişir | Alan → Değişmez | Şeklin konumu → Değişir",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-oteleme-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Öteleme",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "oteleme",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Nokta dönüşümlerini türüne göre ayır.",
+    "data": {
+      "L": [
+        "➡️ Öteleme",
+        "🪞 Yansıma"
+      ],
+      "r": [
+        [
+          "(2, 3) → (5, 3)",
+          0
+        ],
+        [
+          "(2, 3) → (2, −3)",
+          1
+        ],
+        [
+          "(−1, 4) → (1, 4)",
+          1
+        ],
+        [
+          "(−1, 4) → (−1, 0)",
+          0
+        ],
+        [
+          "(3, −2) → (−3, −2)",
+          1
+        ],
+        [
+          "(3, −2) → (1, −5)",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Nokta dönüşümlerini türüne göre ayır. Bölmeler: Öteleme, Yansıma. Kartlar: (2, 3) → (5, 3), (2, 3) → (2, −3), (−1, 4) → (1, 4), (−1, 4) → (−1, 0), (3, −2) → (−3, −2), (3, −2) → (1, −5).",
+    "correctAnswer": "(2, 3) → (5, 3) → Öteleme | (2, 3) → (2, −3) → Yansıma | (−1, 4) → (1, 4) → Yansıma | (−1, 4) → (−1, 0) → Öteleme | (3, −2) → (−3, −2) → Yansıma | (3, −2) → (1, −5) → Öteleme",
+    "explanation": "Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "refl",
+    "prompt": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "R": [
+        [
+          1,
+          -1
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          2,
+          -3
+        ]
+      ],
+      "ops": [
+        "x"
+      ]
+    },
+    "textPlain": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(1, 1), B(4, 1), C(2, 3) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(1, −1), B'(4, −1), C'(2, −3)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "refl",
+    "prompt": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "R": [
+        [
+          -1,
+          2
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          -4,
+          1
+        ]
+      ],
+      "ops": [
+        "y"
+      ]
+    },
+    "textPlain": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(1, 2), B(3, 4), C(4, 1) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−1, 2), B'(−3, 4), C'(−4, 1)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "refl",
+    "prompt": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          4
+        ]
+      ],
+      "R": [
+        [
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -4
+        ]
+      ],
+      "ops": [
+        "x"
+      ]
+    },
+    "textPlain": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−3, 1), B(−1, 1), C(−1, 4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−3, −1), B'(−1, −1), C'(−1, −4)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "refl",
+    "prompt": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          2,
+          -1
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          3,
+          -4
+        ]
+      ],
+      "R": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ],
+      "ops": [
+        "y"
+      ]
+    },
+    "textPlain": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(2, −1), B(5, −2), C(3, −4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−2, −1), B'(−5, −2), C'(−3, −4)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "refl",
+    "prompt": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -4,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -2,
+          5
+        ]
+      ],
+      "R": [
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "ops": [
+        "y"
+      ]
+    },
+    "textPlain": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−4, 2), B(−1, 3), C(−2, 5) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(4, 2), B'(1, 3), C'(2, 5)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "refl",
+    "prompt": "ABCD şeklinin x eksenine göre yansımasını çiz: A', B', C', D' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          1,
+          -2
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          4,
+          -5
+        ],
+        [
+          1,
+          -4
+        ]
+      ],
+      "R": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "ops": [
+        "x"
+      ]
+    },
+    "textPlain": "ABCD şeklinin x eksenine göre yansımasını çiz: A', B', C', D' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(1, −2), B(4, −2), C(4, −5), D(1, −4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(1, 2), B'(4, 2), C'(4, 5), D'(1, 4)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "refl",
+    "prompt": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -3,
+          -1
+        ],
+        [
+          0,
+          -3
+        ],
+        [
+          -2,
+          -5
+        ]
+      ],
+      "R": [
+        [
+          -3,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          -2,
+          5
+        ]
+      ],
+      "ops": [
+        "x"
+      ]
+    },
+    "textPlain": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−3, −1), B(0, −3), C(−2, −5) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−3, 1), B'(0, 3), C'(−2, 5)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "refl",
+    "prompt": "ABCD şeklinin y eksenine göre yansımasını çiz: A', B', C', D' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "R": [
+        [
+          -2,
+          0
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -1,
+          3
+        ]
+      ],
+      "ops": [
+        "y"
+      ]
+    },
+    "textPlain": "ABCD şeklinin y eksenine göre yansımasını çiz: A', B', C', D' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(2, 0), B(5, 2), C(3, 5), D(1, 3) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−2, 0), B'(−5, 2), C'(−3, 5), D'(−1, 3)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "refl",
+    "prompt": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -1,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "R": [
+        [
+          1,
+          1
+        ],
+        [
+          -3,
+          2
+        ],
+        [
+          -2,
+          5
+        ]
+      ],
+      "ops": [
+        "y"
+      ]
+    },
+    "textPlain": "ABC şeklinin y eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−1, 1), B(3, 2), C(2, 5) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(1, 1), B'(−3, 2), C'(−2, 5)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "refl",
+    "prompt": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -4,
+          -2
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          -2,
+          3
+        ]
+      ],
+      "R": [
+        [
+          -4,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -2,
+          -3
+        ]
+      ],
+      "ops": [
+        "x"
+      ]
+    },
+    "textPlain": "ABC şeklinin x eksenine göre yansımasını çiz: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−4, −2), B(−1, −1), C(−2, 3) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−4, 2), B'(−1, 1), C'(−2, −3)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "gsel",
+    "prompt": "Mavi şeklin y eksenine göre yansıması hangi haritada? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "o": [
+        [
+          [
+            -1,
+            1
+          ],
+          [
+            -4,
+            2
+          ],
+          [
+            -2,
+            4
+          ]
+        ],
+        [
+          [
+            -1,
+            -1
+          ],
+          [
+            -4,
+            -2
+          ],
+          [
+            -2,
+            -4
+          ]
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            4,
+            -2
+          ],
+          [
+            2,
+            -4
+          ]
+        ]
+      ],
+      "a": 0
+    },
+    "textPlain": "Mavi şeklin y eksenine göre yansıması hangi haritada? Doğru haritaya dokun. [Şekil: A(1, 1), B(4, 2), C(2, 4) köşeli şekil; üç harita seçeneği: A: A'(−1, 1), B'(−4, 2), C'(−2, 4); B: A'(−1, −1), B'(−4, −2), C'(−2, −4); C: A'(1, −1), B'(4, −2), C'(2, −4).]",
+    "correctAnswer": "A haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "gsel",
+    "prompt": "Mavi şeklin x eksenine göre yansıması hangi haritada? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "o": [
+        [
+          [
+            -3,
+            -1
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            -2,
+            -4
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            -1
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -4
+          ]
+        ]
+      ],
+      "a": 0
+    },
+    "textPlain": "Mavi şeklin x eksenine göre yansıması hangi haritada? Doğru haritaya dokun. [Şekil: A(−3, 1), B(−1, 2), C(−2, 4) köşeli şekil; üç harita seçeneği: A: A'(−3, −1), B'(−1, −2), C'(−2, −4); B: A'(3, 1), B'(1, 2), C'(2, 4); C: A'(3, −1), B'(1, −2), C'(2, −4).]",
+    "correctAnswer": "A haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "gsel",
+    "prompt": "Mavi şeklin x eksenine göre yansıması hangi haritada? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          1,
+          -1
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          -3
+        ],
+        [
+          2,
+          -4
+        ]
+      ],
+      "o": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        [
+          [
+            -1,
+            -1
+          ],
+          [
+            -4,
+            -1
+          ],
+          [
+            -4,
+            -3
+          ],
+          [
+            -2,
+            -4
+          ]
+        ],
+        [
+          [
+            -1,
+            1
+          ],
+          [
+            -4,
+            1
+          ],
+          [
+            -4,
+            3
+          ],
+          [
+            -2,
+            4
+          ]
+        ]
+      ],
+      "a": 0
+    },
+    "textPlain": "Mavi şeklin x eksenine göre yansıması hangi haritada? Doğru haritaya dokun. [Şekil: A(1, −1), B(4, −1), C(4, −3), D(2, −4) köşeli şekil; üç harita seçeneği: A: A'(1, 1), B'(4, 1), C'(4, 3), D'(2, 4); B: A'(−1, −1), B'(−4, −1), C'(−4, −3), D'(−2, −4); C: A'(−1, 1), B'(−4, 1), C'(−4, 3), D'(−2, 4).]",
+    "correctAnswer": "A haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "gsel",
+    "prompt": "Mavi şeklin y eksenine göre yansıması hangi haritada? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          -4,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -3,
+          -4
+        ]
+      ],
+      "o": [
+        [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            4,
+            -1
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            3,
+            -4
+          ]
+        ],
+        [
+          [
+            -4,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            -3,
+            4
+          ]
+        ]
+      ],
+      "a": 1
+    },
+    "textPlain": "Mavi şeklin y eksenine göre yansıması hangi haritada? Doğru haritaya dokun. [Şekil: A(−4, −1), B(−1, −2), C(−3, −4) köşeli şekil; üç harita seçeneği: A: A'(4, 1), B'(1, 2), C'(3, 4); B: A'(4, −1), B'(1, −2), C'(3, −4); C: A'(−4, 1), B'(−1, 2), C'(−3, 4).]",
+    "correctAnswer": "B haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "gsel",
+    "prompt": "Mavi şeklin y eksenine göre yansıması hangi haritada? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "o": [
+        [
+          [
+            -2,
+            -1
+          ],
+          [
+            -5,
+            -3
+          ],
+          [
+            -3,
+            -5
+          ],
+          [
+            -1,
+            -4
+          ]
+        ],
+        [
+          [
+            -2,
+            1
+          ],
+          [
+            -5,
+            3
+          ],
+          [
+            -3,
+            5
+          ],
+          [
+            -1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            -1
+          ],
+          [
+            5,
+            -3
+          ],
+          [
+            3,
+            -5
+          ],
+          [
+            1,
+            -4
+          ]
+        ]
+      ],
+      "a": 1
+    },
+    "textPlain": "Mavi şeklin y eksenine göre yansıması hangi haritada? Doğru haritaya dokun. [Şekil: A(2, 1), B(5, 3), C(3, 5), D(1, 4) köşeli şekil; üç harita seçeneği: A: A'(−2, −1), B'(−5, −3), C'(−3, −5), D'(−1, −4); B: A'(−2, 1), B'(−5, 3), C'(−3, 5), D'(−1, 4); C: A'(2, −1), B'(5, −3), C'(3, −5), D'(1, −4).]",
+    "correctAnswer": "B haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "gsel",
+    "prompt": "Mavi şeklin x eksenine göre yansıması hangi haritada? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          -2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          -1,
+          5
+        ]
+      ],
+      "o": [
+        [
+          [
+            -2,
+            -2
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            -1,
+            -5
+          ]
+        ],
+        [
+          [
+            2,
+            -2
+          ],
+          [
+            -1,
+            -3
+          ],
+          [
+            1,
+            -5
+          ]
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            1,
+            5
+          ]
+        ]
+      ],
+      "a": 0
+    },
+    "textPlain": "Mavi şeklin x eksenine göre yansıması hangi haritada? Doğru haritaya dokun. [Şekil: A(−2, 2), B(1, 3), C(−1, 5) köşeli şekil; üç harita seçeneği: A: A'(−2, −2), B'(1, −3), C'(−1, −5); B: A'(2, −2), B'(−1, −3), C'(1, −5); C: A'(2, 2), B'(−1, 3), C'(1, 5).]",
+    "correctAnswer": "A haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yansımaları eksenine göre ayır.",
+    "data": {
+      "L": [
+        "↕️ x eksenine göre",
+        "↔️ y eksenine göre"
+      ],
+      "r": [
+        [
+          "(3, 2) → (3, −2)",
+          0
+        ],
+        [
+          "(3, 2) → (−3, 2)",
+          1
+        ],
+        [
+          "(−4, −1) → (−4, 1)",
+          0
+        ],
+        [
+          "(−4, −1) → (4, −1)",
+          1
+        ],
+        [
+          "(0, 5) → (0, −5)",
+          0
+        ],
+        [
+          "(5, 0) → (−5, 0)",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yansımaları eksenine göre ayır. Bölmeler: x eksenine göre, y eksenine göre. Kartlar: (3, 2) → (3, −2), (3, 2) → (−3, 2), (−4, −1) → (−4, 1), (−4, −1) → (4, −1), (0, 5) → (0, −5), (5, 0) → (−5, 0).",
+    "correctAnswer": "(3, 2) → (3, −2) → x eksenine göre | (3, 2) → (−3, 2) → y eksenine göre | (−4, −1) → (−4, 1) → x eksenine göre | (−4, −1) → (4, −1) → y eksenine göre | (0, 5) → (0, −5) → x eksenine göre | (5, 0) → (−5, 0) → y eksenine göre",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "yansima",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "İfadeleri ayır.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Yansımada şeklin boyutu değişmez",
+          0
+        ],
+        [
+          "x eksenine göre yansımada x değişir",
+          1
+        ],
+        [
+          "Eksen üzerindeki nokta yansıyınca yerinde kalır",
+          0
+        ],
+        [
+          "Yansıma şeklin yönünü ters çevirir",
+          0
+        ],
+        [
+          "y eksenine göre yansımada y işaret değiştirir",
+          1
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri ayır. Bölmeler: Doğru, Yanlış. Kartlar: Yansımada şeklin boyutu değişmez, x eksenine göre yansımada x değişir, Eksen üzerindeki nokta yansıyınca yerinde kalır, Yansıma şeklin yönünü ters çevirir, y eksenine göre yansımada y işaret değiştirir.",
+    "correctAnswer": "Yansımada şeklin boyutu değişmez → Doğru | x eksenine göre yansımada x değişir → Yanlış | Eksen üzerindeki nokta yansıyınca yerinde kalır → Doğru | Yansıma şeklin yönünü ters çevirir → Doğru | y eksenine göre yansımada y işaret değiştirir → Yanlış",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır."
+  },
+  {
+    "questionId": "mat8u10-yansima-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "yansima",
+    "rank": 1,
+    "type": "key",
+    "prompt": "A(3, −5) noktasının x eksenine göre yansımasının ordinatı (y) kaçtır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "A(3, −5) noktasının x eksenine göre yansımasının ordinatı (y) kaçtır?",
+    "correctAnswer": "5",
+    "explanation": "(x, y) → (x, −y): −(−5) = 5."
+  },
+  {
+    "questionId": "mat8u10-yansima-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Eksenlere göre yansıma",
+    "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "yansima",
+    "rank": 2,
+    "type": "key",
+    "prompt": "A(−6, 2) noktası ile y eksenine göre yansıması arasındaki uzaklık kaç birimdir?",
+    "data": {
+      "a": 12,
+      "u": "birim"
+    },
+    "textPlain": "A(−6, 2) noktası ile y eksenine göre yansıması arasındaki uzaklık kaç birimdir?",
+    "correctAnswer": "12 birim",
+    "explanation": "Yansıma (6, 2): aradaki uzaklık 6 + 6 = 12."
+  },
+  {
+    "questionId": "mat8u10-ardisik-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "ardisik",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "ax": "y",
+      "v": [
+        0,
+        2
+      ],
+      "R": [
+        [
+          -1,
+          3
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -2,
+          5
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(1, 1), B(3, 1), C(2, 3) köşeli şekil ve A'(−1, 3), B'(−3, 3), C'(−2, 5) köşeli görüntüsü.]",
+    "correctAnswer": "y eksenine göre yansıma, sonra 2 birim yukarı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "ardisik",
+    "rank": 1,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "ax": "x",
+      "v": [
+        -2,
+        0
+      ],
+      "R": [
+        [
+          -1,
+          -2
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          1,
+          -4
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(1, 2), B(4, 2), C(3, 4) köşeli şekil ve A'(−1, −2), B'(2, −2), C'(1, −4) köşeli görüntüsü.]",
+    "correctAnswer": "x eksenine göre yansıma, sonra 2 birim sola öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -3,
+          3
+        ]
+      ],
+      "ax": "x",
+      "v": [
+        3,
+        1
+      ],
+      "R": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          0,
+          -2
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(−3, 1), B(−1, 1), C(−1, 3), D(−3, 3) köşeli şekil ve A'(0, 0), B'(2, 0), C'(2, −2), D'(0, −2) köşeli görüntüsü.]",
+    "correctAnswer": "x eksenine göre yansıma, sonra 3 birim sağa, 1 birim yukarı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          2,
+          -1
+        ],
+        [
+          4,
+          -2
+        ],
+        [
+          3,
+          -4
+        ]
+      ],
+      "ax": "y",
+      "v": [
+        -1,
+        3
+      ],
+      "R": [
+        [
+          -3,
+          2
+        ],
+        [
+          -5,
+          1
+        ],
+        [
+          -4,
+          -1
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(2, −1), B(4, −2), C(3, −4) köşeli şekil ve A'(−3, 2), B'(−5, 1), C'(−4, −1) köşeli görüntüsü.]",
+    "correctAnswer": "y eksenine göre yansıma, sonra 1 birim sola, 3 birim yukarı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          -2,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "ax": "x",
+      "v": [
+        2,
+        -1
+      ],
+      "R": [
+        [
+          0,
+          -3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          2,
+          -6
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(−2, 2), B(1, 3), C(0, 5) köşeli şekil ve A'(0, −3), B'(3, −4), C'(2, −6) köşeli görüntüsü.]",
+    "correctAnswer": "x eksenine göre yansıma, sonra 2 birim sağa, 1 birim aşağı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "ax": "y",
+      "v": [
+        -2,
+        -3
+      ],
+      "R": [
+        [
+          -3,
+          -3
+        ],
+        [
+          -5,
+          -2
+        ],
+        [
+          -4,
+          1
+        ],
+        [
+          -2,
+          0
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(1, 0), B(3, 1), C(2, 4), D(0, 3) köşeli şekil ve A'(−3, −3), B'(−5, −2), C'(−4, 1), D'(−2, 0) köşeli görüntüsü.]",
+    "correctAnswer": "y eksenine göre yansıma, sonra 2 birim sola, 3 birim aşağı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          -4,
+          -1
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          -3
+        ]
+      ],
+      "ax": "x",
+      "v": [
+        4,
+        -2
+      ],
+      "R": [
+        [
+          0,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(−4, −1), B(−2, −1), C(−1, −3) köşeli şekil ve A'(0, −1), B'(2, −1), C'(3, 1) köşeli görüntüsü.]",
+    "correctAnswer": "x eksenine göre yansıma, sonra 4 birim sağa, 2 birim aşağı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "chain",
+    "prompt": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır.",
+    "data": {
+      "P": [
+        [
+          2,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "ax": "y",
+      "v": [
+        3,
+        -4
+      ],
+      "R": [
+        [
+          1,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Mavi şekil önce bir eksene göre yansıtılmış, sonra ötelenmiş ve kesikli görüntü oluşmuş. Ekseni seç, öteleme okunu kur ve çalıştır. [Şekil: A(2, 2), B(5, 3), C(3, 5) köşeli şekil ve A'(1, −2), B'(−2, −1), C'(0, 1) köşeli görüntüsü.]",
+    "correctAnswer": "y eksenine göre yansıma, sonra 3 birim sağa, 4 birim aşağı öteleme",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "ardisik",
+    "rank": 1,
+    "type": "refl",
+    "prompt": "ABC şeklini önce x eksenine göre yansıt, sonra 2 birim sağa ötele: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "R": [
+        [
+          3,
+          -1
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          3,
+          -3
+        ]
+      ],
+      "ops": [
+        "x",
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "textPlain": "ABC şeklini önce x eksenine göre yansıt, sonra 2 birim sağa ötele: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(1, 1), B(3, 1), C(1, 3) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(3, −1), B'(5, −1), C'(3, −3)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. İşlemler verilen sırayla uygulanır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "refl",
+    "prompt": "ABC şeklini önce y eksenine göre yansıt, sonra 3 birim aşağı ötele: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          4
+        ]
+      ],
+      "R": [
+        [
+          2,
+          -2
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "ops": [
+        "y",
+        [
+          0,
+          -3
+        ]
+      ]
+    },
+    "textPlain": "ABC şeklini önce y eksenine göre yansıt, sonra 3 birim aşağı ötele: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−2, 1), B(0, 2), C(−1, 4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(2, −2), B'(0, −1), C'(1, 1)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. İşlemler verilen sırayla uygulanır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "refl",
+    "prompt": "ABCD şeklini önce 4 birim sola ötele, sonra x eksenine göre yansıt: A', B', C', D' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          1,
+          -1
+        ],
+        [
+          3,
+          -1
+        ],
+        [
+          3,
+          -3
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "R": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -3,
+          2
+        ]
+      ],
+      "ops": [
+        [
+          -4,
+          0
+        ],
+        "x"
+      ]
+    },
+    "textPlain": "ABCD şeklini önce 4 birim sola ötele, sonra x eksenine göre yansıt: A', B', C', D' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(1, −1), B(3, −1), C(3, −3), D(1, −2) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−3, 1), B'(−1, 1), C'(−1, 3), D'(−3, 2)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. İşlemler verilen sırayla uygulanır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "refl",
+    "prompt": "ABC şeklini önce y eksenine göre yansıt, sonra x eksenine göre yansıt: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          2,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "R": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -4,
+          -2
+        ],
+        [
+          -2,
+          -4
+        ]
+      ],
+      "ops": [
+        "y",
+        "x"
+      ]
+    },
+    "textPlain": "ABC şeklini önce y eksenine göre yansıt, sonra x eksenine göre yansıt: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(2, 1), B(4, 2), C(2, 4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(−2, −1), B'(−4, −2), C'(−2, −4)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. İşlemler verilen sırayla uygulanır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "refl",
+    "prompt": "ABC şeklini önce 2 birim sağa, 3 birim yukarı ötele, sonra y eksenine göre yansıt: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          -3,
+          -1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -2,
+          -4
+        ]
+      ],
+      "R": [
+        [
+          1,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "ops": [
+        [
+          2,
+          3
+        ],
+        "y"
+      ]
+    },
+    "textPlain": "ABC şeklini önce 2 birim sağa, 3 birim yukarı ötele, sonra y eksenine göre yansıt: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(−3, −1), B(−1, −2), C(−2, −4) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(1, 2), B'(−1, 1), C'(0, −1)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. İşlemler verilen sırayla uygulanır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "ardisik",
+    "rank": 1,
+    "type": "refl",
+    "prompt": "ABC şeklini önce 4 birim aşağı ötele, sonra y eksenine göre yansıt: A', B', C' noktalarını sırayla ızgaraya koy.",
+    "data": {
+      "P": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "R": [
+        [
+          0,
+          -3
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "ops": [
+        [
+          0,
+          -4
+        ],
+        "y"
+      ]
+    },
+    "textPlain": "ABC şeklini önce 4 birim aşağı ötele, sonra y eksenine göre yansıt: A', B', C' noktalarını sırayla ızgaraya koy. [Şekil: koordinat düzleminde A(0, 1), B(2, 1), C(1, 3) köşeli şekil.]",
+    "correctAnswer": "Görüntü: A'(0, −3), B'(−2, −3), C'(−1, −1)",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır. İşlemler verilen sırayla uygulanır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "gsel",
+    "prompt": "Mavi şekil önce y eksenine göre yansıtılıp sonra 2 birim aşağı ötelenirse hangi haritadaki görüntü oluşur? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "o": [
+        [
+          [
+            -1,
+            1
+          ],
+          [
+            -3,
+            1
+          ],
+          [
+            -3,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            -1
+          ],
+          [
+            3,
+            -1
+          ],
+          [
+            3,
+            -3
+          ]
+        ],
+        [
+          [
+            -1,
+            -1
+          ],
+          [
+            -3,
+            -1
+          ],
+          [
+            -3,
+            1
+          ]
+        ]
+      ],
+      "a": 2
+    },
+    "textPlain": "Mavi şekil önce y eksenine göre yansıtılıp sonra 2 birim aşağı ötelenirse hangi haritadaki görüntü oluşur? Doğru haritaya dokun. [Şekil: A(1, 1), B(3, 1), C(3, 3) köşeli şekil; üç harita seçeneği: A: A'(−1, 1), B'(−3, 1), C'(−3, 3); B: A'(1, −1), B'(3, −1), C'(3, −3); C: A'(−1, −1), B'(−3, −1), C'(−3, 1).]",
+    "correctAnswer": "C haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "gsel",
+    "prompt": "Mavi şekil önce x eksenine göre yansıtılıp sonra 3 birim sağa ötelenirse hangi haritadaki görüntü oluşur? Doğru haritaya dokun.",
+    "data": {
+      "P": [
+        [
+          -3,
+          1
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "o": [
+        [
+          [
+            -3,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -2,
+            -4
+          ]
+        ],
+        [
+          [
+            0,
+            -1
+          ],
+          [
+            2,
+            -1
+          ],
+          [
+            1,
+            -4
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "a": 1
+    },
+    "textPlain": "Mavi şekil önce x eksenine göre yansıtılıp sonra 3 birim sağa ötelenirse hangi haritadaki görüntü oluşur? Doğru haritaya dokun. [Şekil: A(−3, 1), B(−1, 1), C(−2, 4) köşeli şekil; üç harita seçeneği: A: A'(−3, −1), B'(−1, −1), C'(−2, −4); B: A'(0, −1), B'(2, −1), C'(1, −4); C: A'(3, 1), B'(1, 1), C'(2, 4).]",
+    "correctAnswer": "B haritası",
+    "explanation": "x eksenine göre yansımada (x, y) noktası (x, −y) olur; y eksenine göre yansımada (x, y) noktası (−x, y) olur. Görüntü eksene aynı uzaklıktadır. Ötelemede şeklin bütün noktaları aynı yönde, aynı miktarda kayar; şeklin boyutu ve yönü değişmez. Sağa öteleme x’i artırır, yukarı öteleme y’yi artırır."
+  },
+  {
+    "questionId": "mat8u10-ardisik-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "kolay",
+    "group": "ardisik",
+    "rank": 1,
+    "type": "key",
+    "prompt": "A(2, 4) önce y eksenine göre yansıtılıp sonra 5 birim sağa ötelenirse görüntünün apsisi kaçtır?",
+    "data": {
+      "a": 3,
+      "u": ""
+    },
+    "textPlain": "A(2, 4) önce y eksenine göre yansıtılıp sonra 5 birim sağa ötelenirse görüntünün apsisi kaçtır?",
+    "correctAnswer": "3",
+    "explanation": "(2, 4) → (−2, 4) → (3, 4)."
+  },
+  {
+    "questionId": "mat8u10-ardisik-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "orta",
+    "group": "ardisik",
+    "rank": 2,
+    "type": "key",
+    "prompt": "A(−1, 3) önce x eksenine göre yansıtılıp sonra 6 birim yukarı ötelenirse görüntünün ordinatı kaçtır?",
+    "data": {
+      "a": 3,
+      "u": ""
+    },
+    "textPlain": "A(−1, 3) önce x eksenine göre yansıtılıp sonra 6 birim yukarı ötelenirse görüntünün ordinatı kaçtır?",
+    "correctAnswer": "3",
+    "explanation": "(−1, 3) → (−1, −3) → (−1, 3)."
+  },
+  {
+    "questionId": "mat8u10-ardisik-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "key",
+    "prompt": "A(4, −2) önce 3 birim sola ötelenip sonra y eksenine göre yansıtılırsa görüntünün apsisi −k ise k kaçtır?",
+    "data": {
+      "a": 1,
+      "u": ""
+    },
+    "textPlain": "A(4, −2) önce 3 birim sola ötelenip sonra y eksenine göre yansıtılırsa görüntünün apsisi −k ise k kaçtır?",
+    "correctAnswer": "1",
+    "explanation": "(4, −2) → (1, −2) → (−1, −2): k = 1."
+  },
+  {
+    "questionId": "mat8u10-ardisik-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "11. Ünite: Dönüşüm Geometrisi",
+    "topic": "Ardışık öteleme ve yansıma",
+    "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+    "difficulty": "zor",
+    "group": "ardisik",
+    "rank": 3,
+    "type": "key",
+    "prompt": "A(3, 1) önce x eksenine, sonra y eksenine göre yansıtılırsa görüntü ile A arasındaki uzaklığın karesi kaçtır?",
+    "data": {
+      "a": 40,
+      "u": ""
+    },
+    "textPlain": "A(3, 1) önce x eksenine, sonra y eksenine göre yansıtılırsa görüntü ile A arasındaki uzaklığın karesi kaçtır?",
+    "correctAnswer": "40",
+    "explanation": "(3, 1) → (3, −1) → (−3, −1). Fark 6 ve 2: 36 + 4 = 40."
+  },
+  {
+    "questionId": "mat8u10-oran-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "enlarge",
+    "prompt": "Haritadaki dikdörtgen parsel (yatay 2, dikey 3 birim) için benzerlik oranı 2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "rect",
+      "a": 2,
+      "b": 3,
+      "n": 2,
+      "d": 1,
+      "w": 4,
+      "h": 6
+    },
+    "textPlain": "Haritadaki dikdörtgen parsel (yatay 2, dikey 3 birim) için benzerlik oranı 2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 4, dikey 6 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 2 × 2 = 4, 3 × 2 = 6."
+  },
+  {
+    "questionId": "mat8u10-oran-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "enlarge",
+    "prompt": "Haritadaki dik üçgen parsel (yatay 3, dikey 2 birim) için benzerlik oranı 2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "tri",
+      "a": 3,
+      "b": 2,
+      "n": 2,
+      "d": 1,
+      "w": 6,
+      "h": 4
+    },
+    "textPlain": "Haritadaki dik üçgen parsel (yatay 3, dikey 2 birim) için benzerlik oranı 2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 6, dikey 4 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 3 × 2 = 6, 2 × 2 = 4."
+  },
+  {
+    "questionId": "mat8u10-oran-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "enlarge",
+    "prompt": "Haritadaki dikdörtgen parsel (yatay 4, dikey 2 birim) için benzerlik oranı 1/2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "rect",
+      "a": 4,
+      "b": 2,
+      "n": 1,
+      "d": 2,
+      "w": 2,
+      "h": 1
+    },
+    "textPlain": "Haritadaki dikdörtgen parsel (yatay 4, dikey 2 birim) için benzerlik oranı 1/2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 2, dikey 1 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 4 × 1/2 = 2, 2 × 1/2 = 1."
+  },
+  {
+    "questionId": "mat8u10-oran-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "enlarge",
+    "prompt": "Haritadaki dikdörtgen parsel (yatay 3, dikey 2 birim) için benzerlik oranı 3 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "rect",
+      "a": 3,
+      "b": 2,
+      "n": 3,
+      "d": 1,
+      "w": 9,
+      "h": 6
+    },
+    "textPlain": "Haritadaki dikdörtgen parsel (yatay 3, dikey 2 birim) için benzerlik oranı 3 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 9, dikey 6 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 3 × 3 = 9, 2 × 3 = 6."
+  },
+  {
+    "questionId": "mat8u10-oran-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "enlarge",
+    "prompt": "Haritadaki dik üçgen parsel (yatay 4, dikey 2 birim) için benzerlik oranı 3/2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "tri",
+      "a": 4,
+      "b": 2,
+      "n": 3,
+      "d": 2,
+      "w": 6,
+      "h": 3
+    },
+    "textPlain": "Haritadaki dik üçgen parsel (yatay 4, dikey 2 birim) için benzerlik oranı 3/2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 6, dikey 3 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 4 × 3/2 = 6, 2 × 3/2 = 3."
+  },
+  {
+    "questionId": "mat8u10-oran-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "enlarge",
+    "prompt": "Haritadaki dikdörtgen parsel (yatay 6, dikey 4 birim) için benzerlik oranı 3/2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "rect",
+      "a": 6,
+      "b": 4,
+      "n": 3,
+      "d": 2,
+      "w": 9,
+      "h": 6
+    },
+    "textPlain": "Haritadaki dikdörtgen parsel (yatay 6, dikey 4 birim) için benzerlik oranı 3/2 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 9, dikey 6 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 6 × 3/2 = 9, 4 × 3/2 = 6."
+  },
+  {
+    "questionId": "mat8u10-oran-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "oran",
+    "rank": 3,
+    "type": "enlarge",
+    "prompt": "Haritadaki dik üçgen parsel (yatay 6, dikey 9 birim) için benzerlik oranı 2/3 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "tri",
+      "a": 6,
+      "b": 9,
+      "n": 2,
+      "d": 3,
+      "w": 4,
+      "h": 6
+    },
+    "textPlain": "Haritadaki dik üçgen parsel (yatay 6, dikey 9 birim) için benzerlik oranı 2/3 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 4, dikey 6 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 6 × 2/3 = 4, 9 × 2/3 = 6."
+  },
+  {
+    "questionId": "mat8u10-oran-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "oran",
+    "rank": 3,
+    "type": "enlarge",
+    "prompt": "Haritadaki dikdörtgen parsel (yatay 8, dikey 4 birim) için benzerlik oranı 3/4 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "rect",
+      "a": 8,
+      "b": 4,
+      "n": 3,
+      "d": 4,
+      "w": 6,
+      "h": 3
+    },
+    "textPlain": "Haritadaki dikdörtgen parsel (yatay 8, dikey 4 birim) için benzerlik oranı 3/4 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 6, dikey 3 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 8 × 3/4 = 6, 4 × 3/4 = 3."
+  },
+  {
+    "questionId": "mat8u10-esbenz-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "esbenz",
+    "rank": 1,
+    "type": "enlarge",
+    "prompt": "Haritadaki dik üçgen parsele (yatay 2, dikey 4 birim) eş bir parsel çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "tri",
+      "a": 2,
+      "b": 4,
+      "n": 1,
+      "d": 1,
+      "w": 2,
+      "h": 4
+    },
+    "textPlain": "Haritadaki dik üçgen parsele (yatay 2, dikey 4 birim) eş bir parsel çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 2, dikey 4 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 2 × 1 = 2, 4 × 1 = 4."
+  },
+  {
+    "questionId": "mat8u10-esbenz-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "enlarge",
+    "prompt": "Haritadaki dikdörtgen parsele (yatay 5, dikey 3 birim) eş bir parsel çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "rect",
+      "a": 5,
+      "b": 3,
+      "n": 1,
+      "d": 1,
+      "w": 5,
+      "h": 3
+    },
+    "textPlain": "Haritadaki dikdörtgen parsele (yatay 5, dikey 3 birim) eş bir parsel çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 5, dikey 3 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 5 × 1 = 5, 3 × 1 = 3."
+  },
+  {
+    "questionId": "mat8u10-esbenz-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "enlarge",
+    "prompt": "Haritadaki dik üçgen parsel (yatay 2, dikey 3 birim) için benzerlik oranı 3 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "data": {
+      "k": "tri",
+      "a": 2,
+      "b": 3,
+      "n": 3,
+      "d": 1,
+      "w": 6,
+      "h": 9
+    },
+    "textPlain": "Haritadaki dik üçgen parsel (yatay 2, dikey 3 birim) için benzerlik oranı 3 olan yeni parseli çiz: köşe tutamacını sürükle.",
+    "correctAnswer": "Yatay 6, dikey 9 birim",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. 2 × 3 = 6, 3 × 3 = 9."
+  },
+  {
+    "questionId": "mat8u10-oran-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        3,
+        4,
+        5
+      ],
+      "B": [
+        6,
+        8,
+        10
+      ],
+      "i": 2
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 3, 4, 5; turuncu üçgen karşılık gelen kenarları 6, 8, x.]",
+    "correctAnswer": "x = 10",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 6/3; x = 5 × oran = 10."
+  },
+  {
+    "questionId": "mat8u10-oran-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "missing",
+    "prompt": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "rect",
+      "A": [
+        2,
+        5
+      ],
+      "B": [
+        6,
+        15
+      ],
+      "i": 1
+    },
+    "textPlain": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla. [Şekil: mavi dikdörtgen kenarları 2, 5; turuncu dikdörtgen karşılık gelen kenarları 6, x.]",
+    "correctAnswer": "x = 15",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 6/2; x = 5 × oran = 15."
+  },
+  {
+    "questionId": "mat8u10-oran-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        4,
+        6,
+        8
+      ],
+      "B": [
+        6,
+        9,
+        12
+      ],
+      "i": 0
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 4, 6, 8; turuncu üçgen karşılık gelen kenarları x, 9, 12.]",
+    "correctAnswer": "x = 6",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 9/6; x = 4 × oran = 6."
+  },
+  {
+    "questionId": "mat8u10-oran-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "missing",
+    "prompt": "Haritadaki iki yamuk benzerdir. Turuncu yamuğun x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "trap",
+      "A": [
+        2,
+        3,
+        4,
+        3
+      ],
+      "B": [
+        4,
+        6,
+        8,
+        6
+      ],
+      "i": 2
+    },
+    "textPlain": "Haritadaki iki yamuk benzerdir. Turuncu yamuğun x ile gösterilen kenarını ayarla. [Şekil: mavi yamuk kenarları 2, 3, 4, 3; turuncu yamuk karşılık gelen kenarları 4, 6, x, 6.]",
+    "correctAnswer": "x = 8",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 4/2; x = 4 × oran = 8."
+  },
+  {
+    "questionId": "mat8u10-oran-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "oran",
+    "rank": 3,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        6,
+        9,
+        12
+      ],
+      "B": [
+        4,
+        6,
+        8
+      ],
+      "i": 2
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 6, 9, 12; turuncu üçgen karşılık gelen kenarları 4, 6, x.]",
+    "correctAnswer": "x = 8",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 4/6; x = 12 × oran = 8."
+  },
+  {
+    "questionId": "mat8u10-oran-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "oran",
+    "rank": 3,
+    "type": "missing",
+    "prompt": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "rect",
+      "A": [
+        9,
+        6
+      ],
+      "B": [
+        6,
+        4
+      ],
+      "i": 0
+    },
+    "textPlain": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla. [Şekil: mavi dikdörtgen kenarları 9, 6; turuncu dikdörtgen karşılık gelen kenarları x, 4.]",
+    "correctAnswer": "x = 6",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 4/6; x = 9 × oran = 6."
+  },
+  {
+    "questionId": "mat8u10-esbenz-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "esbenz",
+    "rank": 1,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        2,
+        3,
+        4
+      ],
+      "B": [
+        4,
+        6,
+        8
+      ],
+      "i": 1
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 2, 3, 4; turuncu üçgen karşılık gelen kenarları 4, x, 8.]",
+    "correctAnswer": "x = 6",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 4/2; x = 3 × oran = 6."
+  },
+  {
+    "questionId": "mat8u10-esbenz-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "esbenz",
+    "rank": 1,
+    "type": "missing",
+    "prompt": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "rect",
+      "A": [
+        3,
+        4
+      ],
+      "B": [
+        9,
+        12
+      ],
+      "i": 1
+    },
+    "textPlain": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla. [Şekil: mavi dikdörtgen kenarları 3, 4; turuncu dikdörtgen karşılık gelen kenarları 9, x.]",
+    "correctAnswer": "x = 12",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 9/3; x = 4 × oran = 12."
+  },
+  {
+    "questionId": "mat8u10-esbenz-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        5,
+        5,
+        8
+      ],
+      "B": [
+        10,
+        10,
+        16
+      ],
+      "i": 2
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 5, 5, 8; turuncu üçgen karşılık gelen kenarları 10, 10, x.]",
+    "correctAnswer": "x = 16",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 10/5; x = 8 × oran = 16."
+  },
+  {
+    "questionId": "mat8u10-esbenz-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "missing",
+    "prompt": "Haritadaki iki yamuk benzerdir. Turuncu yamuğun x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "trap",
+      "A": [
+        3,
+        4,
+        6,
+        4
+      ],
+      "B": [
+        6,
+        8,
+        12,
+        8
+      ],
+      "i": 3
+    },
+    "textPlain": "Haritadaki iki yamuk benzerdir. Turuncu yamuğun x ile gösterilen kenarını ayarla. [Şekil: mavi yamuk kenarları 3, 4, 6, 4; turuncu yamuk karşılık gelen kenarları 6, 8, 12, x.]",
+    "correctAnswer": "x = 8",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 6/3; x = 4 × oran = 8."
+  },
+  {
+    "questionId": "mat8u10-esbenz-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "esbenz",
+    "rank": 3,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        4,
+        5,
+        6
+      ],
+      "B": [
+        10,
+        12.5,
+        15
+      ],
+      "i": 2
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 4, 5, 6; turuncu üçgen karşılık gelen kenarları 10, 12,5, x.]",
+    "correctAnswer": "x = 15",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 10/4; x = 6 × oran = 15."
+  },
+  {
+    "questionId": "mat8u10-esbenz-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "esbenz",
+    "rank": 3,
+    "type": "missing",
+    "prompt": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "rect",
+      "A": [
+        4,
+        10
+      ],
+      "B": [
+        6,
+        15
+      ],
+      "i": 0
+    },
+    "textPlain": "Haritadaki iki dikdörtgen benzerdir. Turuncu dikdörtgenin x ile gösterilen kenarını ayarla. [Şekil: mavi dikdörtgen kenarları 4, 10; turuncu dikdörtgen karşılık gelen kenarları x, 15.]",
+    "correctAnswer": "x = 6",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 15/10; x = 4 × oran = 6."
+  },
+  {
+    "questionId": "mat8u10-esbenz-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "missing",
+    "prompt": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla.",
+    "data": {
+      "k": "tri",
+      "A": [
+        3,
+        4,
+        5
+      ],
+      "B": [
+        3,
+        4,
+        5
+      ],
+      "i": 2
+    },
+    "textPlain": "Haritadaki iki üçgen benzerdir. Turuncu üçgenin x ile gösterilen kenarını ayarla. [Şekil: mavi üçgen kenarları 3, 4, 5; turuncu üçgen karşılık gelen kenarları 3, 4, x.]",
+    "correctAnswer": "x = 5",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Oran 3/3; x = 5 × oran = 5."
+  },
+  {
+    "questionId": "mat8u10-oran-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Benzer iki üçgenden küçüğünün bir kenarı 4 cm, büyüğünde karşılık gelen kenar 12 cm’dir. Benzerlik oranı (büyük/küçük) kaçtır?",
+    "data": {
+      "a": 3,
+      "u": ""
+    },
+    "textPlain": "Benzer iki üçgenden küçüğünün bir kenarı 4 cm, büyüğünde karşılık gelen kenar 12 cm’dir. Benzerlik oranı (büyük/küçük) kaçtır?",
+    "correctAnswer": "3",
+    "explanation": "12 ÷ 4 = 3."
+  },
+  {
+    "questionId": "mat8u10-oran-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Benzerlik oranı 5/2 olan iki dikdörtgenden küçüğünün kısa kenarı 4 cm ise büyüğünün kısa kenarı kaç cm’dir?",
+    "data": {
+      "a": 10,
+      "u": "cm"
+    },
+    "textPlain": "Benzerlik oranı 5/2 olan iki dikdörtgenden küçüğünün kısa kenarı 4 cm ise büyüğünün kısa kenarı kaç cm’dir?",
+    "correctAnswer": "10 cm",
+    "explanation": "4 × 5/2 = 10."
+  },
+  {
+    "questionId": "mat8u10-oran-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "oran",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Bir harita parseli 1 : 3 oranında büyütülüyor. Küçük parselin çevresi 14 birim ise büyüğünün çevresi kaç birimdir?",
+    "data": {
+      "a": 42,
+      "u": "birim"
+    },
+    "textPlain": "Bir harita parseli 1 : 3 oranında büyütülüyor. Küçük parselin çevresi 14 birim ise büyüğünün çevresi kaç birimdir?",
+    "correctAnswer": "42 birim",
+    "explanation": "Benzer çokgenlerde çevreler de aynı oranda büyür: 14 × 3 = 42."
+  },
+  {
+    "questionId": "mat8u10-oran-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "oran",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Kenarları 6, 8, 10 cm olan üçgene benzer üçgenin en kısa kenarı 9 cm ise en uzun kenarı kaç cm’dir?",
+    "data": {
+      "a": 15,
+      "u": "cm"
+    },
+    "textPlain": "Kenarları 6, 8, 10 cm olan üçgene benzer üçgenin en kısa kenarı 9 cm ise en uzun kenarı kaç cm’dir?",
+    "correctAnswer": "15 cm",
+    "explanation": "Oran 9/6 = 3/2: 10 × 3/2 = 15."
+  },
+  {
+    "questionId": "mat8u10-oran-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "oran",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Benzer iki karenin kenarları 3 cm ve 6 cm’dir. Büyük karenin alanı küçük karenin alanının kaç katıdır?",
+    "data": {
+      "a": 4,
+      "u": "kat"
+    },
+    "textPlain": "Benzer iki karenin kenarları 3 cm ve 6 cm’dir. Büyük karenin alanı küçük karenin alanının kaç katıdır?",
+    "correctAnswer": "4 kat",
+    "explanation": "Alanlar 9 ve 36: 36 ÷ 9 = 4."
+  },
+  {
+    "questionId": "mat8u10-oran-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Benzerlik oranı, eş ve benzer çokgen oluşturma",
+    "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "oran",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Eş iki üçgenin benzerlik oranı kaçtır?",
+    "data": {
+      "a": 1,
+      "u": ""
+    },
+    "textPlain": "Eş iki üçgenin benzerlik oranı kaçtır?",
+    "correctAnswer": "1",
+    "explanation": "Eş şekiller, benzerlik oranı 1 olan benzer şekillerdir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "esbenz",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Şekil çiftlerini ayır.",
+    "data": {
+      "L": [
+        "🟰 Eş",
+        "🔍 Benzer (eş değil)",
+        "❌ Benzer değil"
+      ],
+      "r": [
+        [
+          "3×4 ile 3×4 dikdörtgen",
+          0
+        ],
+        [
+          "2×3 ile 4×6 dikdörtgen",
+          1
+        ],
+        [
+          "2×3 ile 3×4 dikdörtgen",
+          2
+        ],
+        [
+          "Kenarı 5 ile kenarı 2 olan kare",
+          1
+        ],
+        [
+          "Kenarı 4 olan iki kare",
+          0
+        ],
+        [
+          "3×5 ile 6×8 dikdörtgen",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Şekil çiftlerini ayır. Bölmeler: Eş, Benzer (eş değil), Benzer değil. Kartlar: 3×4 ile 3×4 dikdörtgen, 2×3 ile 4×6 dikdörtgen, 2×3 ile 3×4 dikdörtgen, Kenarı 5 ile kenarı 2 olan kare, Kenarı 4 olan iki kare, 3×5 ile 6×8 dikdörtgen.",
+    "correctAnswer": "3×4 ile 3×4 dikdörtgen → Eş | 2×3 ile 4×6 dikdörtgen → Benzer (eş değil) | 2×3 ile 3×4 dikdörtgen → Benzer değil | Kenarı 5 ile kenarı 2 olan kare → Benzer (eş değil) | Kenarı 4 olan iki kare → Eş | 3×5 ile 6×8 dikdörtgen → Benzer değil",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Şekil çiftlerini ayır.",
+    "data": {
+      "L": [
+        "✅ Her zaman benzer",
+        "❓ Her zaman değil"
+      ],
+      "r": [
+        [
+          "İki kare",
+          0
+        ],
+        [
+          "İki eşkenar üçgen",
+          0
+        ],
+        [
+          "İki dikdörtgen",
+          1
+        ],
+        [
+          "İki ikizkenar üçgen",
+          1
+        ],
+        [
+          "İki çember",
+          0
+        ],
+        [
+          "İki eşkenar dörtgen",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Şekil çiftlerini ayır. Bölmeler: Her zaman benzer, Her zaman değil. Kartlar: İki kare, İki eşkenar üçgen, İki dikdörtgen, İki ikizkenar üçgen, İki çember, İki eşkenar dörtgen.",
+    "correctAnswer": "İki kare → Her zaman benzer | İki eşkenar üçgen → Her zaman benzer | İki dikdörtgen → Her zaman değil | İki ikizkenar üçgen → Her zaman değil | İki çember → Her zaman benzer | İki eşkenar dörtgen → Her zaman değil",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir. Kareler, eşkenar üçgenler ve çemberler her zaman benzerdir; dikdörtgenlerin kenar oranı farklı olabilir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "esbenz",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "İfadeleri ayır.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Eş şekiller aynı zamanda benzerdir",
+          0
+        ],
+        [
+          "Benzer şekiller her zaman eştir",
+          1
+        ],
+        [
+          "Benzer şekillerde karşılıklı açılar eştir",
+          0
+        ],
+        [
+          "Benzer şekillerin alanları eşittir",
+          1
+        ],
+        [
+          "Benzerlik oranı 1 olan şekiller eştir",
+          0
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri ayır. Bölmeler: Doğru, Yanlış. Kartlar: Eş şekiller aynı zamanda benzerdir, Benzer şekiller her zaman eştir, Benzer şekillerde karşılıklı açılar eştir, Benzer şekillerin alanları eşittir, Benzerlik oranı 1 olan şekiller eştir.",
+    "correctAnswer": "Eş şekiller aynı zamanda benzerdir → Doğru | Benzer şekiller her zaman eştir → Yanlış | Benzer şekillerde karşılıklı açılar eştir → Doğru | Benzer şekillerin alanları eşittir → Yanlış | Benzerlik oranı 1 olan şekiller eştir → Doğru",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Benzer ve eş şekillerdeki karşılıklı elemanları ayır.",
+    "data": {
+      "L": [
+        "📏 Orantılı",
+        "📐 Eş"
+      ],
+      "r": [
+        [
+          "Benzer üçgenlerde karşılıklı kenarlar",
+          0
+        ],
+        [
+          "Benzer üçgenlerde karşılıklı açılar",
+          1
+        ],
+        [
+          "Eş üçgenlerde karşılıklı kenarlar",
+          1
+        ],
+        [
+          "Benzer dikdörtgenlerde kısa ve uzun kenarlar",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Benzer ve eş şekillerdeki karşılıklı elemanları ayır. Bölmeler: Orantılı, Eş. Kartlar: Benzer üçgenlerde karşılıklı kenarlar, Benzer üçgenlerde karşılıklı açılar, Eş üçgenlerde karşılıklı kenarlar, Benzer dikdörtgenlerde kısa ve uzun kenarlar.",
+    "correctAnswer": "Benzer üçgenlerde karşılıklı kenarlar → Orantılı | Benzer üçgenlerde karşılıklı açılar → Eş | Eş üçgenlerde karşılıklı kenarlar → Eş | Benzer dikdörtgenlerde kısa ve uzun kenarlar → Orantılı",
+    "explanation": "Benzer çokgenlerde karşılıklı açılar eş, karşılıklı kenarlar orantılıdır. Benzerlik oranı = karşılık gelen kenarların oranı. Benzerlik oranı 1 ise şekiller eştir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "esbenz",
+    "rank": 1,
+    "type": "key",
+    "prompt": "ABC ve DEF üçgenleri benzerdir (A↔D). m(∠A) = 48° ise m(∠D) kaç derecedir?",
+    "data": {
+      "a": 48,
+      "u": "derece"
+    },
+    "textPlain": "ABC ve DEF üçgenleri benzerdir (A↔D). m(∠A) = 48° ise m(∠D) kaç derecedir?",
+    "correctAnswer": "48 derece",
+    "explanation": "Benzer şekillerde karşılıklı açılar eştir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "key",
+    "prompt": "ABCD ve EFGH dikdörtgenleri eştir. |AB| = 7 cm ise |EF| kaç cm’dir?",
+    "data": {
+      "a": 7,
+      "u": "cm"
+    },
+    "textPlain": "ABCD ve EFGH dikdörtgenleri eştir. |AB| = 7 cm ise |EF| kaç cm’dir?",
+    "correctAnswer": "7 cm",
+    "explanation": "Eş şekillerde karşılıklı kenarlar eşittir."
+  },
+  {
+    "questionId": "mat8u10-esbenz-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "orta",
+    "group": "esbenz",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Benzer iki üçgenin birinde açılar 40° ve 75° ise diğerinin en büyük açısı kaç derecedir?",
+    "data": {
+      "a": 75,
+      "u": "derece"
+    },
+    "textPlain": "Benzer iki üçgenin birinde açılar 40° ve 75° ise diğerinin en büyük açısı kaç derecedir?",
+    "correctAnswer": "75 derece",
+    "explanation": "Üçüncü açı 65°; açılar eş olduğundan en büyük açı 75°."
+  },
+  {
+    "questionId": "mat8u10-esbenz-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "esbenz",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Kenarları 4 ve 6 cm olan dikdörtgene benzer dikdörtgenin uzun kenarı 15 cm ise çevresi kaç cm’dir?",
+    "data": {
+      "a": 50,
+      "u": "cm"
+    },
+    "textPlain": "Kenarları 4 ve 6 cm olan dikdörtgene benzer dikdörtgenin uzun kenarı 15 cm ise çevresi kaç cm’dir?",
+    "correctAnswer": "50 cm",
+    "explanation": "Oran 15/6 = 5/2; kısa kenar 10; çevre 2 × (10 + 15) = 50."
+  },
+  {
+    "questionId": "mat8u10-esbenz-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "zor",
+    "group": "esbenz",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Benzer iki çokgenin çevreleri 18 cm ve 27 cm’dir. Küçük çokgende 6 cm olan kenara karşılık gelen kenar kaç cm’dir?",
+    "data": {
+      "a": 9,
+      "u": "cm"
+    },
+    "textPlain": "Benzer iki çokgenin çevreleri 18 cm ve 27 cm’dir. Küçük çokgende 6 cm olan kenara karşılık gelen kenar kaç cm’dir?",
+    "correctAnswer": "9 cm",
+    "explanation": "Oran 27/18 = 3/2: 6 × 3/2 = 9."
+  },
+  {
+    "questionId": "mat8u10-esbenz-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "10. Ünite: Eşlik ve Benzerlik",
+    "topic": "Eşlik ve benzerlik",
+    "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+    "difficulty": "kolay",
+    "group": "esbenz",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Eş iki karenin birinin çevresi 20 cm ise diğerinin bir kenarı kaç cm’dir?",
+    "data": {
+      "a": 5,
+      "u": "cm"
+    },
+    "textPlain": "Eş iki karenin birinin çevresi 20 cm ise diğerinin bir kenarı kaç cm’dir?",
+    "correctAnswer": "5 cm",
+    "explanation": "Eş kareler aynıdır: 20 ÷ 4 = 5."
+  }
+]
