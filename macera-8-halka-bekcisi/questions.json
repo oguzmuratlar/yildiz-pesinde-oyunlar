@@ -1,0 +1,4308 @@
+[
+ {
+  "questionId": "boss-a15-f5-01",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "İş kolaylığı",
+  "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Basit makineler bize ne sağlar?",
+  "data": {
+   "options": [
+    "İşi kolaylaştırır ama yapılan işi azaltmaz.",
+    "Yapılan iş miktarını azaltır.",
+    "Kendiliğinden enerji üretir ve bu enerjiyi depolar."
+   ]
+  },
+  "textPlain": "Basit makineler bize ne sağlar? Seçenekler: İşi kolaylaştırır ama yapılan işi azaltmaz. / Yapılan iş miktarını azaltır. / Kendiliğinden enerji üretir ve bu enerjiyi depolar.",
+  "correctAnswer": "İşi kolaylaştırır ama yapılan işi azaltmaz.",
+  "explanation": "Basit makineler kuvvetin yönünü ya da büyüklüğünü değiştirerek işi kolaylaştırır; iş ve enerjiden kazanç sağlamaz."
+ },
+ {
+  "questionId": "boss-a15-f5-02",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Sabit makara",
+  "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Sabit makara kuvvetten kazanç sağlamaz, yalnızca kuvvetin yönünü değiştirir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Sabit makara kuvvetten kazanç sağlamaz, yalnızca kuvvetin yönünü değiştirir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sabit makarada kuvvet yüke eşittir (makara ağırlığı ve sürtünme ihmal); yalnızca yön değişir."
+ },
+ {
+  "questionId": "boss-a15-f5-03",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Kaldıraç türleri",
+  "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kaldıraçları desteğin ve yükün yerine göre ayır.",
+  "data": {
+   "bins": [
+    "Destek ortada",
+    "Yük ortada"
+   ],
+   "items": [
+    [
+     "Tahterevalli",
+     0
+    ],
+    [
+     "Makas",
+     0
+    ],
+    [
+     "El arabası",
+     1
+    ],
+    [
+     "Ceviz kıracağı",
+     1
+    ],
+    [
+     "Pense",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kaldıraçları desteğin ve yükün yerine göre ayır. (Destek ortada / Yük ortada) Kartlar: Tahterevalli; Makas; El arabası; Ceviz kıracağı; Pense.",
+  "correctAnswer": "Destek ortada: Tahterevalli, Makas, Pense. Yük ortada: El arabası, Ceviz kıracağı.",
+  "explanation": "Tahterevalli, makas ve pensede destek ortadadır; el arabası ve ceviz kıracağında yük destek ile kuvvet arasındadır."
+ },
+ {
+  "questionId": "boss-a15-f5-04",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Vida",
+  "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Vida hangi basit makinenin özel bir biçimidir?",
+  "data": {
+   "options": [
+    "Eğik düzlem",
+    "Makara",
+    "Çıkrık"
+   ]
+  },
+  "textPlain": "Vida hangi basit makinenin özel bir biçimidir? Seçenekler: Eğik düzlem / Makara / Çıkrık",
+  "correctAnswer": "Eğik düzlem",
+  "explanation": "Vida, bir silindirin çevresine sarılmış eğik düzlemdir."
+ },
+ {
+  "questionId": "boss-a15-f5-05",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Kuvvet ve yol",
+  "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Basit makinelerde kuvvetten kazanç sağlanırsa yoldan kayıp olur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Basit makinelerde kuvvetten kazanç sağlanırsa yoldan kayıp olur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Daha az kuvvet uygulamak için daha uzun yol boyunca kuvvet uygulamak gerekir; iş değişmez."
+ },
+ {
+  "questionId": "boss-a15-f5-06",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Çıkrık",
+  "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi bir çıkrık örneğidir?",
+  "data": {
+   "options": [
+    "Kuyudan su çekilen kollu düzenek",
+    "Yükleme rampası",
+    "Bahçede dal budamak için kullanılan büyük makas"
+   ]
+  },
+  "textPlain": "Hangisi bir çıkrık örneğidir? Seçenekler: Kuyudan su çekilen kollu düzenek / Yükleme rampası / Bahçede dal budamak için kullanılan büyük makas",
+  "correctAnswer": "Kuyudan su çekilen kollu düzenek",
+  "explanation": "Çıkrık, büyük yarıçaplı kol ile küçük yarıçaplı silindirin aynı eksende dönmesidir; kuyu düzeneği buna örnektir."
+ },
+ {
+  "questionId": "boss-a15-f5-07",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Günlük yaşam",
+  "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "kolay",
+  "group": "f5",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Araçları basit makine türüyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Yükleme rampası",
+     "Eğik düzlem"
+    ],
+    [
+     "Bayrak direğindeki makara",
+     "Sabit makara"
+    ],
+    [
+     "Kapı tokmağı",
+     "Çıkrık"
+    ]
+   ]
+  },
+  "textPlain": "Araçları basit makine türüyle eşleştir. Sol: Yükleme rampası; Bayrak direğindeki makara; Kapı tokmağı. Sağ: Eğik düzlem; Sabit makara; Çıkrık.",
+  "correctAnswer": "Yükleme rampası = Eğik düzlem; Bayrak direğindeki makara = Sabit makara; Kapı tokmağı = Çıkrık",
+  "explanation": "Rampa eğik düzlem, bayrak direği makarası sabit makara, kapı tokmağı çıkrıktır."
+ },
+ {
+  "questionId": "boss-a15-f5-08",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Kaldıraç dengesi",
+  "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Destek ortada olan bir kaldıraçta 300 N’luk yük, destekten 1 m uzakta. Kuvvet destekten 3 m uzaktan uygulanırsa denge için kaç N kuvvet gerekir?",
+  "data": {
+   "answer": 100,
+   "digits": 3,
+   "unit": "N"
+  },
+  "textPlain": "Destek ortada olan bir kaldıraçta 300 N’luk yük, destekten 1 m uzakta. Kuvvet destekten 3 m uzaktan uygulanırsa denge için kaç N kuvvet gerekir?",
+  "correctAnswer": "100 N",
+  "explanation": "Yük × yük kolu = kuvvet × kuvvet kolu: 300 · 1 = F · 3 → F = 100 N."
+ },
+ {
+  "questionId": "boss-a15-f5-09",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Hareketli makara",
+  "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Ağırlığı önemsiz bir hareketli makarayla 200 N’luk yük dengede tutuluyor. Uygulanan kuvvet kaç N’dur?",
+  "data": {
+   "answer": 100,
+   "digits": 3,
+   "unit": "N"
+  },
+  "textPlain": "Ağırlığı önemsiz bir hareketli makarayla 200 N’luk yük dengede tutuluyor. Uygulanan kuvvet kaç N’dur?",
+  "correctAnswer": "100 N",
+  "explanation": "Hareketli makarada yük iki ipe paylaştırılır: 200 ÷ 2 = 100 N."
+ },
+ {
+  "questionId": "boss-a15-f5-10",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Dişliler",
+  "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Birbirine geçmiş iki dişliden biri saat yönünde dönerse diğeri nasıl döner?",
+  "data": {
+   "options": [
+    "Saat yönünün tersine",
+    "Saat yönünde",
+    "Hiç dönmez"
+   ]
+  },
+  "textPlain": "Birbirine geçmiş iki dişliden biri saat yönünde dönerse diğeri nasıl döner? Seçenekler: Saat yönünün tersine / Saat yönünde / Hiç dönmez",
+  "correctAnswer": "Saat yönünün tersine",
+  "explanation": "Birbirine geçen dişliler zıt yönde döner."
+ },
+ {
+  "questionId": "boss-a15-f5-11",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Eğik düzlem",
+  "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Aynı yüksekliğe çıkan eğik düzlemlerden hangisinde yükü itmek için daha az kuvvet gerekir?",
+  "data": {
+   "options": [
+    "Daha uzun olanında",
+    "Daha kısa olanında",
+    "Hepsinde aynı kuvvet gerekir"
+   ]
+  },
+  "textPlain": "Aynı yüksekliğe çıkan eğik düzlemlerden hangisinde yükü itmek için daha az kuvvet gerekir? Seçenekler: Daha uzun olanında / Daha kısa olanında / Hepsinde aynı kuvvet gerekir",
+  "correctAnswer": "Daha uzun olanında",
+  "explanation": "Eğik düzlemin boyu uzadıkça (eğim azaldıkça) gereken kuvvet azalır, alınan yol artar."
+ },
+ {
+  "questionId": "boss-a15-f5-12",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Kuvvet kolu",
+  "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir kaldıraçta kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir kaldıraçta kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Kuvvet kolu uzadıkça dengede uygulanması gereken kuvvet azalır."
+ },
+ {
+  "questionId": "boss-a15-f5-13",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Makaralar",
+  "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Aynı yükü kaldırmak için gereken kuvveti BÜYÜKTEN KÜÇÜĞE sırala (makara ağırlıkları önemsiz).",
+  "data": {
+   "items": [
+    "Sabit makara",
+    "Tek hareketli makara",
+    "Yükü dört ipin taşıdığı palanga"
+   ]
+  },
+  "textPlain": "Aynı yükü kaldırmak için gereken kuvveti BÜYÜKTEN KÜÇÜĞE sırala (makara ağırlıkları önemsiz). Kartlar: Sabit makara; Yükü dört ipin taşıdığı palanga; Tek hareketli makara.",
+  "correctAnswer": "Sabit makara → Tek hareketli makara → Yükü dört ipin taşıdığı palanga",
+  "explanation": "Sabit makarada F = yük, hareketli makarada F = yük/2, dört ipli palangada F = yük/4."
+ },
+ {
+  "questionId": "boss-a15-f5-14",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Kazanç",
+  "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "orta",
+  "group": "f5",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Basit makineleri sağladıkları kolaylığa göre ayır.",
+  "data": {
+   "bins": [
+    "Kuvvetten kazanç sağlar",
+    "Yalnızca yön değiştirir"
+   ],
+   "items": [
+    [
+     "Hareketli makara",
+     0
+    ],
+    [
+     "Sabit makara",
+     1
+    ],
+    [
+     "Eğik düzlem",
+     0
+    ],
+    [
+     "Bayrak direği makarası",
+     1
+    ],
+    [
+     "Vida",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Basit makineleri sağladıkları kolaylığa göre ayır. (Kuvvetten kazanç sağlar / Yalnızca yön değiştirir) Kartlar: Hareketli makara; Sabit makara; Eğik düzlem; Bayrak direği makarası; Vida.",
+  "correctAnswer": "Kuvvetten kazanç sağlar: Hareketli makara, Eğik düzlem, Vida. Yalnızca yön değiştirir: Sabit makara, Bayrak direği makarası.",
+  "explanation": "Sabit makara yalnızca kuvvetin yönünü değiştirir; hareketli makara, eğik düzlem ve vida kuvvetten kazanç sağlar."
+ },
+ {
+  "questionId": "boss-a15-f5-15",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Yük kolu",
+  "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Destek ortada olan bir kaldıraçta kuvvet kolu 2 m, uygulanan kuvvet 150 N ve yük 600 N’dur. Denge için yük kolu kaç cm olmalıdır?",
+  "data": {
+   "answer": 50,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Destek ortada olan bir kaldıraçta kuvvet kolu 2 m, uygulanan kuvvet 150 N ve yük 600 N’dur. Denge için yük kolu kaç cm olmalıdır?",
+  "correctAnswer": "50 cm",
+  "explanation": "150 · 200 cm = 600 · x → x = 50 cm."
+ },
+ {
+  "questionId": "boss-a15-f5-16",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Palanga",
+  "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Yükü dört ipin taşıdığı bir palangada 480 N’luk yük dengede tutuluyor. Uygulanan kuvvet kaç N’dur? (Makara ağırlıkları önemsiz)",
+  "data": {
+   "answer": 120,
+   "digits": 3,
+   "unit": "N"
+  },
+  "textPlain": "Yükü dört ipin taşıdığı bir palangada 480 N’luk yük dengede tutuluyor. Uygulanan kuvvet kaç N’dur? (Makara ağırlıkları önemsiz)",
+  "correctAnswer": "120 N",
+  "explanation": "480 ÷ 4 = 120 N."
+ },
+ {
+  "questionId": "boss-a15-f5-17",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Dişli turları",
+  "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yarıçapları 10 cm ve 30 cm olan iki dişli birbirine geçmiştir. Küçük dişli 9 tur atarsa büyük dişli kaç tur atar?",
+  "data": {
+   "options": [
+    "3",
+    "27",
+    "9"
+   ]
+  },
+  "textPlain": "Yarıçapları 10 cm ve 30 cm olan iki dişli birbirine geçmiştir. Küçük dişli 9 tur atarsa büyük dişli kaç tur atar? Seçenekler: 3 / 27 / 9",
+  "correctAnswer": "3",
+  "explanation": "Dişlerin yaptığı yol eşittir: 10 · 9 = 30 · x → x = 3 tur."
+ },
+ {
+  "questionId": "boss-a15-f5-18",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Bileşik makine",
+  "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangisi birden fazla basit makineden oluşan bileşik bir makinedir?",
+  "data": {
+   "options": [
+    "Bisiklet",
+    "Yükleme rampası",
+    "Bayrak direği makarası"
+   ]
+  },
+  "textPlain": "Hangisi birden fazla basit makineden oluşan bileşik bir makinedir? Seçenekler: Bisiklet / Yükleme rampası / Bayrak direği makarası",
+  "correctAnswer": "Bisiklet",
+  "explanation": "Bisiklette dişli, çıkrık ve kaldıraç gibi birçok basit makine birlikte çalışır."
+ },
+ {
+  "questionId": "boss-a15-f5-19",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "Vida adımı",
+  "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir vidanın adımı (iki diş arası uzaklık) küçüldükçe vidayı döndürmek için gereken kuvvet azalır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir vidanın adımı (iki diş arası uzaklık) küçüldükçe vidayı döndürmek için gereken kuvvet azalır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Adım küçüldükçe vida daha uzun bir eğik düzlem gibi davranır; kuvvet azalır, tur sayısı artar."
+ },
+ {
+  "questionId": "boss-a15-f5-20",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "5. Ünite: Basit Makineler",
+  "topic": "El arabası",
+  "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+  "difficulty": "zor",
+  "group": "f5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "El arabasıyla yük taşırken yük tekerleğe (desteğe) yaklaştırılırsa ne olur?",
+  "data": {
+   "options": [
+    "Kaldırmak için daha az kuvvet gerekir.",
+    "Kaldırmak için daha çok kuvvet gerekir.",
+    "Gereken kuvvette hiçbir değişiklik olmaz."
+   ]
+  },
+  "textPlain": "El arabasıyla yük taşırken yük tekerleğe (desteğe) yaklaştırılırsa ne olur? Seçenekler: Kaldırmak için daha az kuvvet gerekir. / Kaldırmak için daha çok kuvvet gerekir. / Gereken kuvvette hiçbir değişiklik olmaz.",
+  "correctAnswer": "Kaldırmak için daha az kuvvet gerekir.",
+  "explanation": "Yük desteğe yaklaşınca yük kolu kısalır; kuvvet kolu aynı kaldığı için gereken kuvvet azalır."
+ },
+ {
+  "questionId": "boss-a15-f6-01",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Fotosentezin ürünleri",
+  "outcome": "Fotosentezin önemini ve fotosentez hızını etkileyen faktörleri deneyerek açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Fotosentez sonucunda hangileri oluşur?",
+  "data": {
+   "options": [
+    "Besin (glikoz) ve oksijen",
+    "Karbondioksit ve su",
+    "Azot gazı, su buharı ve bir miktar karbondioksit"
+   ]
+  },
+  "textPlain": "Fotosentez sonucunda hangileri oluşur? Seçenekler: Besin (glikoz) ve oksijen / Karbondioksit ve su / Azot gazı, su buharı ve bir miktar karbondioksit",
+  "correctAnswer": "Besin (glikoz) ve oksijen",
+  "explanation": "Bitkiler karbondioksit ve suyu ışık enerjisiyle besine dönüştürür; oksijen açığa çıkar."
+ },
+ {
+  "questionId": "boss-a15-f6-02",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Solunum",
+  "outcome": "Canlılarda oksijenli ve oksijensiz solunumu açıklar; fotosentez ile solunum arasındaki ilişkiyi kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Solunum yalnızca hayvanlarda gerçekleşir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Solunum yalnızca hayvanlarda gerçekleşir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Bitkiler de dahil bütün canlılar solunumla besinlerdeki enerjiyi açığa çıkarır."
+ },
+ {
+  "questionId": "boss-a15-f6-03",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Besin zinciri",
+  "outcome": "Besin zincirindeki üretici, tüketici ve ayrıştırıcılara örnek verir; enerji akışını ve biyolojik birikimi açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "order",
+  "prompt": "Canlıları besin zincirinde ÜRETİCİDEN başlayarak sırala.",
+  "data": {
+   "items": [
+    "Ot",
+    "Çekirge",
+    "Serçe",
+    "Atmaca"
+   ]
+  },
+  "textPlain": "Canlıları besin zincirinde ÜRETİCİDEN başlayarak sırala. Kartlar: Atmaca; Serçe; Çekirge; Ot.",
+  "correctAnswer": "Ot → Çekirge → Serçe → Atmaca",
+  "explanation": "Enerji üreticiden (ot) birincil, ikincil ve üçüncül tüketicilere aktarılır."
+ },
+ {
+  "questionId": "boss-a15-f6-04",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Küresel ısınma",
+  "outcome": "Küresel iklim değişikliğinin nedenlerini ve sonuçlarını tartışır; sürdürülebilir yaşam için çözüm önerir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Küresel ısınmanın en önemli nedeni hangisidir?",
+  "data": {
+   "options": [
+    "Fosil yakıtların aşırı kullanılması",
+    "Ağaçlandırma çalışmaları",
+    "Rüzgâr ve güneş enerjisinin daha çok kullanılması"
+   ]
+  },
+  "textPlain": "Küresel ısınmanın en önemli nedeni hangisidir? Seçenekler: Fosil yakıtların aşırı kullanılması / Ağaçlandırma çalışmaları / Rüzgâr ve güneş enerjisinin daha çok kullanılması",
+  "correctAnswer": "Fosil yakıtların aşırı kullanılması",
+  "explanation": "Fosil yakıtlar yandıkça atmosferdeki karbondioksit artar; sera etkisi güçlenir."
+ },
+ {
+  "questionId": "boss-a15-f6-05",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Fotosentez denklemi",
+  "outcome": "Fotosentezin önemini ve fotosentez hızını etkileyen faktörleri deneyerek açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Maddeleri fotosentezde kullanılanlar ve oluşanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Kullanılır",
+    "Oluşur"
+   ],
+   "items": [
+    [
+     "Karbondioksit",
+     0
+    ],
+    [
+     "Su",
+     0
+    ],
+    [
+     "Işık enerjisi",
+     0
+    ],
+    [
+     "Oksijen",
+     1
+    ],
+    [
+     "Besin (glikoz)",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Maddeleri fotosentezde kullanılanlar ve oluşanlar diye ayır. (Kullanılır / Oluşur) Kartlar: Karbondioksit; Su; Işık enerjisi; Oksijen; Besin (glikoz).",
+  "correctAnswer": "Kullanılır: Karbondioksit, Su, Işık enerjisi. Oluşur: Oksijen, Besin (glikoz).",
+  "explanation": "Karbondioksit + su + ışık → besin + oksijen."
+ },
+ {
+  "questionId": "boss-a15-f6-06",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Su döngüsü",
+  "outcome": "Madde döngülerini şema üzerinde açıklar ve döngülerin önemini sorgular.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Su döngüsünde Güneş enerjisiyle buharlaşan su, yoğuşarak bulutları oluşturur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Su döngüsünde Güneş enerjisiyle buharlaşan su, yoğuşarak bulutları oluşturur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Buharlaşma, yoğuşma ve yağış su döngüsünün temel aşamalarıdır."
+ },
+ {
+  "questionId": "boss-a15-f6-07",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Nerede gerçekleşir",
+  "outcome": "Canlılarda oksijenli ve oksijensiz solunumu açıklar; fotosentez ile solunum arasındaki ilişkiyi kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "kolay",
+  "group": "f6",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Olayları doğru açıklamayla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Fotosentez",
+     "Kloroplastta gerçekleşir"
+    ],
+    [
+     "Oksijenli solunum",
+     "Mitokondride gerçekleşir"
+    ],
+    [
+     "Oksijensiz solunum",
+     "Mayanın hamuru kabartmasını sağlar"
+    ]
+   ]
+  },
+  "textPlain": "Olayları doğru açıklamayla eşleştir. Sol: Fotosentez; Oksijenli solunum; Oksijensiz solunum. Sağ: Kloroplastta gerçekleşir; Mitokondride gerçekleşir; Mayanın hamuru kabartmasını sağlar.",
+  "correctAnswer": "Fotosentez = Kloroplastta gerçekleşir; Oksijenli solunum = Mitokondride gerçekleşir; Oksijensiz solunum = Mayanın hamuru kabartmasını sağlar",
+  "explanation": "Fotosentez kloroplastta, oksijenli solunum mitokondride olur; maya oksijensiz solunumla hamuru kabartır."
+ },
+ {
+  "questionId": "boss-a15-f6-08",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Fotosentez hızı",
+  "outcome": "Fotosentezin önemini ve fotosentez hızını etkileyen faktörleri deneyerek açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi fotosentez hızını artırmaz?",
+  "data": {
+   "options": [
+    "Ortamdaki oksijen miktarının artırılması",
+    "Işık şiddetinin belirli bir düzeye kadar artırılması",
+    "Karbondioksit miktarının belirli bir düzeye kadar artırılması"
+   ]
+  },
+  "textPlain": "Hangisi fotosentez hızını artırmaz? Seçenekler: Ortamdaki oksijen miktarının artırılması / Işık şiddetinin belirli bir düzeye kadar artırılması / Karbondioksit miktarının belirli bir düzeye kadar artırılması",
+  "correctAnswer": "Ortamdaki oksijen miktarının artırılması",
+  "explanation": "Işık ve karbondioksit fotosentezin girdileridir; oksijen ise ürünüdür, hızı artırmaz."
+ },
+ {
+  "questionId": "boss-a15-f6-09",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Enerji akışı",
+  "outcome": "Besin zincirindeki üretici, tüketici ve ayrıştırıcılara örnek verir; enerji akışını ve biyolojik birikimi açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Besin zincirinde basamaklar arasında enerji nasıl aktarılır?",
+  "data": {
+   "options": [
+    "Üst basamağa geçtikçe azalarak",
+    "Üst basamağa geçtikçe artarak",
+    "Her basamakta hiç değişmeden aynı miktarda kalarak"
+   ]
+  },
+  "textPlain": "Besin zincirinde basamaklar arasında enerji nasıl aktarılır? Seçenekler: Üst basamağa geçtikçe azalarak / Üst basamağa geçtikçe artarak / Her basamakta hiç değişmeden aynı miktarda kalarak",
+  "correctAnswer": "Üst basamağa geçtikçe azalarak",
+  "explanation": "Her basamakta enerjinin bir kısmı yaşamsal faaliyetlerde kullanılır; üst basamağa daha az enerji geçer."
+ },
+ {
+  "questionId": "boss-a15-f6-10",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Solunum türleri",
+  "outcome": "Canlılarda oksijenli ve oksijensiz solunumu açıklar; fotosentez ile solunum arasındaki ilişkiyi kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Oksijenli solunumda, oksijensiz solunuma göre daha fazla enerji açığa çıkar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Oksijenli solunumda, oksijensiz solunuma göre daha fazla enerji açığa çıkar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Oksijenli solunumda besin tamamen parçalanır; açığa çıkan enerji çok daha fazladır."
+ },
+ {
+  "questionId": "boss-a15-f6-11",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Ekolojik ayak izi",
+  "outcome": "Küresel iklim değişikliğinin nedenlerini ve sonuçlarını tartışır; sürdürülebilir yaşam için çözüm önerir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Davranışları ekolojik ayak izini azaltanlar ve artıranlar diye ayır.",
+  "data": {
+   "bins": [
+    "Azaltır",
+    "Artırır"
+   ],
+   "items": [
+    [
+     "Toplu taşıma kullanmak",
+     0
+    ],
+    [
+     "Gereksiz ışıkları açık bırakmak",
+     1
+    ],
+    [
+     "Atıkları geri dönüşüme ayırmak",
+     0
+    ],
+    [
+     "Tek kullanımlık plastik tüketmek",
+     1
+    ],
+    [
+     "Yerel ürünleri tercih etmek",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Davranışları ekolojik ayak izini azaltanlar ve artıranlar diye ayır. (Azaltır / Artırır) Kartlar: Toplu taşıma kullanmak; Gereksiz ışıkları açık bırakmak; Atıkları geri dönüşüme ayırmak; Tek kullanımlık plastik tüketmek; Yerel ürünleri tercih etmek.",
+  "correctAnswer": "Azaltır: Toplu taşıma kullanmak, Atıkları geri dönüşüme ayırmak, Yerel ürünleri tercih etmek. Artırır: Gereksiz ışıkları açık bırakmak, Tek kullanımlık plastik tüketmek.",
+  "explanation": "Kaynakları tasarruflu kullanan davranışlar ekolojik ayak izini azaltır."
+ },
+ {
+  "questionId": "boss-a15-f6-12",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Azot döngüsü",
+  "outcome": "Madde döngülerini şema üzerinde açıklar ve döngülerin önemini sorgular.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bitkiler havadaki azotu hangi canlıların yardımıyla kullanılabilir hâle getirir?",
+  "data": {
+   "options": [
+    "Bakterilerin",
+    "Kuşların",
+    "Böceklerin"
+   ]
+  },
+  "textPlain": "Bitkiler havadaki azotu hangi canlıların yardımıyla kullanılabilir hâle getirir? Seçenekler: Bakterilerin / Kuşların / Böceklerin",
+  "correctAnswer": "Bakterilerin",
+  "explanation": "Topraktaki azot bağlayıcı bakteriler havadaki azotu bitkilerin kullanabileceği bileşiklere dönüştürür."
+ },
+ {
+  "questionId": "boss-a15-f6-13",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Biyolojik birikim",
+  "outcome": "Besin zincirindeki üretici, tüketici ve ayrıştırıcılara örnek verir; enerji akışını ve biyolojik birikimi açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir göle karışan zehirli bir madde besin zinciri boyunca aktarılıyor. Bu madde en çok hangi canlıda birikir?",
+  "data": {
+   "options": [
+    "Zincirin en üstündeki tüketicide",
+    "Göldeki üretici su bitkilerinde",
+    "Planktonla beslenen küçük balıklarda"
+   ]
+  },
+  "textPlain": "Bir göle karışan zehirli bir madde besin zinciri boyunca aktarılıyor. Bu madde en çok hangi canlıda birikir? Seçenekler: Zincirin en üstündeki tüketicide / Göldeki üretici su bitkilerinde / Planktonla beslenen küçük balıklarda",
+  "correctAnswer": "Zincirin en üstündeki tüketicide",
+  "explanation": "Zehirli maddeler her basamakta birikerek artar; en çok en üst basamaktaki tüketicide bulunur."
+ },
+ {
+  "questionId": "boss-a15-f6-14",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Karbon döngüsü",
+  "outcome": "Madde döngülerini şema üzerinde açıklar ve döngülerin önemini sorgular.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "orta",
+  "group": "f6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Atmosferdeki karbondioksit miktarını azaltan olay hangisidir?",
+  "data": {
+   "options": [
+    "Fotosentez",
+    "Solunum",
+    "Fosil yakıtların yanması"
+   ]
+  },
+  "textPlain": "Atmosferdeki karbondioksit miktarını azaltan olay hangisidir? Seçenekler: Fotosentez / Solunum / Fosil yakıtların yanması",
+  "correctAnswer": "Fotosentez",
+  "explanation": "Fotosentezde karbondioksit kullanılır; solunum ve yanma ise karbondioksit açığa çıkarır."
+ },
+ {
+  "questionId": "boss-a15-f6-15",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Deney değişkeni",
+  "outcome": "Fotosentezin önemini ve fotosentez hızını etkileyen faktörleri deneyerek açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Su bitkisinin bulunduğu bir düzenekte lamba bitkiye yaklaştırıldıkça çıkan gaz kabarcıklarının sayısı artıyor. Bu deneyde değiştirilen (bağımsız) değişken hangisidir?",
+  "data": {
+   "options": [
+    "Işık şiddeti",
+    "Suyun sıcaklığı",
+    "Bitkinin türü"
+   ]
+  },
+  "textPlain": "Su bitkisinin bulunduğu bir düzenekte lamba bitkiye yaklaştırıldıkça çıkan gaz kabarcıklarının sayısı artıyor. Bu deneyde değiştirilen (bağımsız) değişken hangisidir? Seçenekler: Işık şiddeti / Suyun sıcaklığı / Bitkinin türü",
+  "correctAnswer": "Işık şiddeti",
+  "explanation": "Lambanın uzaklığı değiştirilerek bitkiye ulaşan ışık şiddeti değiştirilmiştir."
+ },
+ {
+  "questionId": "boss-a15-f6-16",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Fotosentez ve solunum",
+  "outcome": "Canlılarda oksijenli ve oksijensiz solunumu açıklar; fotosentez ile solunum arasındaki ilişkiyi kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Fotosentez ve oksijenli solunumda birinin ürünleri diğerinin girdileridir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Fotosentez ve oksijenli solunumda birinin ürünleri diğerinin girdileridir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Fotosentezin ürünleri (besin, oksijen) solunumun girdileri; solunumun ürünleri (karbondioksit, su) fotosentezin girdileridir."
+ },
+ {
+  "questionId": "boss-a15-f6-17",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Sürdürülebilirlik",
+  "outcome": "Küresel iklim değişikliğinin nedenlerini ve sonuçlarını tartışır; sürdürülebilir yaşam için çözüm önerir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Sürdürülebilir kalkınma ne demektir?",
+  "data": {
+   "options": [
+    "Kaynakları gelecek kuşakların ihtiyaçlarını tehlikeye atmadan kullanmak",
+    "Ekonomi büyüsün diye doğal kaynakları olabildiğince hızlı ve çok tüketmek",
+    "Yalnızca bugünün ihtiyaçlarını düşünüp kaynakları kullanmak"
+   ]
+  },
+  "textPlain": "Sürdürülebilir kalkınma ne demektir? Seçenekler: Kaynakları gelecek kuşakların ihtiyaçlarını tehlikeye atmadan kullanmak / Ekonomi büyüsün diye doğal kaynakları olabildiğince hızlı ve çok tüketmek / Yalnızca bugünün ihtiyaçlarını düşünüp kaynakları kullanmak",
+  "correctAnswer": "Kaynakları gelecek kuşakların ihtiyaçlarını tehlikeye atmadan kullanmak",
+  "explanation": "Sürdürülebilirlik, bugünün ihtiyaçlarını karşılarken gelecek kuşakların kaynaklarını korumaktır."
+ },
+ {
+  "questionId": "boss-a15-f6-18",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Zincirden çıkarma",
+  "outcome": "Besin zincirindeki üretici, tüketici ve ayrıştırıcılara örnek verir; enerji akışını ve biyolojik birikimi açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ot → fare → yılan → kartal zincirinde yılanlar avlanarak yok edilirse kısa sürede ilk olarak ne olur?",
+  "data": {
+   "options": [
+    "Farelerin sayısı artar.",
+    "Otların sayısı artar.",
+    "Kartalların sayısı artar."
+   ]
+  },
+  "textPlain": "Ot → fare → yılan → kartal zincirinde yılanlar avlanarak yok edilirse kısa sürede ilk olarak ne olur? Seçenekler: Farelerin sayısı artar. / Otların sayısı artar. / Kartalların sayısı artar.",
+  "correctAnswer": "Farelerin sayısı artar.",
+  "explanation": "Yılanlar fareleri yiyemeyince fareler çoğalır; kartallar besin bulamayıp azalır."
+ },
+ {
+  "questionId": "boss-a15-f6-19",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Karbondioksit",
+  "outcome": "Madde döngülerini şema üzerinde açıklar ve döngülerin önemini sorgular.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Olayları atmosfere karbondioksit ekleyenler ve atmosferden karbondioksit alanlar diye ayır.",
+  "data": {
+   "bins": [
+    "CO₂ ekler",
+    "CO₂ alır"
+   ],
+   "items": [
+    [
+     "Solunum",
+     0
+    ],
+    [
+     "Fotosentez",
+     1
+    ],
+    [
+     "Fosil yakıtların yanması",
+     0
+    ],
+    [
+     "Ayrıştırıcıların ölü canlıları ayrıştırması",
+     0
+    ],
+    [
+     "Okyanusların karbondioksit çözmesi",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Olayları atmosfere karbondioksit ekleyenler ve atmosferden karbondioksit alanlar diye ayır. (CO₂ ekler / CO₂ alır) Kartlar: Solunum; Fotosentez; Fosil yakıtların yanması; Ayrıştırıcıların ölü canlıları ayrıştırması; Okyanusların karbondioksit çözmesi.",
+  "correctAnswer": "CO₂ ekler: Solunum, Fosil yakıtların yanması, Ayrıştırıcıların ölü canlıları ayrıştırması. CO₂ alır: Fotosentez, Okyanusların karbondioksit çözmesi.",
+  "explanation": "Solunum, yanma ve ayrıştırma CO₂ açığa çıkarır; fotosentez ve okyanuslar CO₂’i atmosferden uzaklaştırır."
+ },
+ {
+  "questionId": "boss-a15-f6-20",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "6. Ünite: Enerji Dönüşümleri ve Çevre Bilimi",
+  "topic": "Oksijensiz solunum",
+  "outcome": "Canlılarda oksijenli ve oksijensiz solunumu açıklar; fotosentez ile solunum arasındaki ilişkiyi kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Enerji Dönüşümleri ve Çevre Bilimi”",
+  "difficulty": "zor",
+  "group": "f6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hamurun mayalanmasında görev alan ve oksijensiz solunum yapabilen canlı hangisidir?",
+  "data": {
+   "options": [
+    "Maya mantarı",
+    "Kartal",
+    "Çam ağacı"
+   ]
+  },
+  "textPlain": "Hamurun mayalanmasında görev alan ve oksijensiz solunum yapabilen canlı hangisidir? Seçenekler: Maya mantarı / Kartal / Çam ağacı",
+  "correctAnswer": "Maya mantarı",
+  "explanation": "Maya mantarı oksijensiz solunumla karbondioksit üretir; hamur bu gazla kabarır."
+ },
+ {
+  "questionId": "boss-a15-m7-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Denklem",
+  "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "num",
+  "prompt": "2x + 5 = 17 denkleminde x kaçtır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "2x + 5 = 17 denkleminde x kaçtır?",
+  "correctAnswer": "6",
+  "explanation": "2x = 12 → x = 6."
+ },
+ {
+  "questionId": "boss-a15-m7-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Bölgeler",
+  "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "A(3, −2) noktası koordinat sisteminin hangi bölgesindedir?",
+  "data": {
+   "options": [
+    "IV. bölge",
+    "II. bölge",
+    "I. bölge"
+   ]
+  },
+  "textPlain": "A(3, −2) noktası koordinat sisteminin hangi bölgesindedir? Seçenekler: IV. bölge / II. bölge / I. bölge",
+  "correctAnswer": "IV. bölge",
+  "explanation": "x pozitif, y negatif olan noktalar IV. bölgededir."
+ },
+ {
+  "questionId": "boss-a15-m7-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Eksen üzerinde",
+  "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "(0, 5) noktası y ekseni üzerindedir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? (0, 5) noktası y ekseni üzerindedir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Apsisi 0 olan noktalar y ekseni üzerindedir."
+ },
+ {
+  "questionId": "boss-a15-m7-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Bölme",
+  "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "num",
+  "prompt": "x/3 = 7 denkleminde x kaçtır?",
+  "data": {
+   "answer": 21,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "x/3 = 7 denkleminde x kaçtır?",
+  "correctAnswer": "21",
+  "explanation": "x = 7 · 3 = 21."
+ },
+ {
+  "questionId": "boss-a15-m7-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Değer bulma",
+  "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "y = 2x denkleminde x = 4 iken y kaçtır?",
+  "data": {
+   "options": [
+    "8",
+    "6",
+    "2"
+   ]
+  },
+  "textPlain": "y = 2x denkleminde x = 4 iken y kaçtır? Seçenekler: 8 / 6 / 2",
+  "correctAnswer": "8",
+  "explanation": "y = 2 · 4 = 8."
+ },
+ {
+  "questionId": "boss-a15-m7-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Hangi eksen",
+  "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Noktaları bulundukları eksene göre ayır.",
+  "data": {
+   "bins": [
+    "x ekseni üzerinde",
+    "y ekseni üzerinde"
+   ],
+   "items": [
+    [
+     "(4, 0)",
+     0
+    ],
+    [
+     "(0, −3)",
+     1
+    ],
+    [
+     "(−2, 0)",
+     0
+    ],
+    [
+     "(0, 7)",
+     1
+    ],
+    [
+     "(9, 0)",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Noktaları bulundukları eksene göre ayır. (x ekseni üzerinde / y ekseni üzerinde) Kartlar: (4, 0); (0, −3); (−2, 0); (0, 7); (9, 0).",
+  "correctAnswer": "x ekseni üzerinde: (4, 0), (−2, 0), (9, 0). y ekseni üzerinde: (0, −3), (0, 7).",
+  "explanation": "Ordinatı 0 olan noktalar x ekseninde, apsisi 0 olanlar y ekseninde bulunur."
+ },
+ {
+  "questionId": "boss-a15-m7-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Eğimin işareti",
+  "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "kolay",
+  "group": "m7",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Doğruları eğimleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Sağa doğru yükselen doğru",
+     "Pozitif eğim"
+    ],
+    [
+     "Sağa doğru alçalan doğru",
+     "Negatif eğim"
+    ],
+    [
+     "x eksenine paralel doğru",
+     "Sıfır eğim"
+    ]
+   ]
+  },
+  "textPlain": "Doğruları eğimleriyle eşleştir. Sol: Sağa doğru yükselen doğru; Sağa doğru alçalan doğru; x eksenine paralel doğru. Sağ: Pozitif eğim; Negatif eğim; Sıfır eğim.",
+  "correctAnswer": "Sağa doğru yükselen doğru = Pozitif eğim; Sağa doğru alçalan doğru = Negatif eğim; x eksenine paralel doğru = Sıfır eğim",
+  "explanation": "Sağa yükselen doğrunun eğimi pozitif, alçalanınki negatif, yatay doğrununki sıfırdır."
+ },
+ {
+  "questionId": "boss-a15-m7-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Parantezli denklem",
+  "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "3(x − 2) = 2x + 4 denkleminde x kaçtır?",
+  "data": {
+   "answer": 10,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "3(x − 2) = 2x + 4 denkleminde x kaçtır?",
+  "correctAnswer": "10",
+  "explanation": "3x − 6 = 2x + 4 → x = 10."
+ },
+ {
+  "questionId": "boss-a15-m7-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Eğim",
+  "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "(1, 2) ve (3, 8) noktalarından geçen doğrunun eğimi kaçtır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "(1, 2) ve (3, 8) noktalarından geçen doğrunun eğimi kaçtır?",
+  "correctAnswer": "3",
+  "explanation": "Eğim = (8 − 2) ÷ (3 − 1) = 6 ÷ 2 = 3."
+ },
+ {
+  "questionId": "boss-a15-m7-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Tablodan denklem",
+  "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir doğrusal ilişkide x = 1, 2, 3 için y = 5, 7, 9’dur. Bu ilişkinin denklemi hangisidir?",
+  "data": {
+   "options": [
+    "y = 2x + 3",
+    "y = 3x + 2",
+    "y = x + 4"
+   ]
+  },
+  "textPlain": "Bir doğrusal ilişkide x = 1, 2, 3 için y = 5, 7, 9’dur. Bu ilişkinin denklemi hangisidir? Seçenekler: y = 2x + 3 / y = 3x + 2 / y = x + 4",
+  "correctAnswer": "y = 2x + 3",
+  "explanation": "x 1 artınca y 2 artıyor; y = 2x + b, 5 = 2 + b → b = 3."
+ },
+ {
+  "questionId": "boss-a15-m7-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Eğim okuma",
+  "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "y = −3x + 1 doğrusunun eğimi −3’tür.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? y = −3x + 1 doğrusunun eğimi −3’tür.",
+  "correctAnswer": "Doğru",
+  "explanation": "y = mx + n biçimindeki doğrunun eğimi x’in katsayısı m’dir."
+ },
+ {
+  "questionId": "boss-a15-m7-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Taksi ücreti",
+  "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir taksinin açılış ücreti 20 TL, kilometre başına ücreti 10 TL’dir. x km yol için ödenen y TL’yi gösteren denklem hangisidir?",
+  "data": {
+   "options": [
+    "y = 10x + 20",
+    "y = 20x + 10",
+    "y = 30x"
+   ]
+  },
+  "textPlain": "Bir taksinin açılış ücreti 20 TL, kilometre başına ücreti 10 TL’dir. x km yol için ödenen y TL’yi gösteren denklem hangisidir? Seçenekler: y = 10x + 20 / y = 20x + 10 / y = 30x",
+  "correctAnswer": "y = 10x + 20",
+  "explanation": "Her km için 10 TL değişken, 20 TL sabit ücrettir: y = 10x + 20."
+ },
+ {
+  "questionId": "boss-a15-m7-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Taksi hesabı",
+  "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Açılış ücreti 20 TL, kilometre başına 10 TL olan taksiyle 15 km yol giden biri kaç TL öder?",
+  "data": {
+   "answer": 170,
+   "digits": 3,
+   "unit": "TL"
+  },
+  "textPlain": "Açılış ücreti 20 TL, kilometre başına 10 TL olan taksiyle 15 km yol giden biri kaç TL öder?",
+  "correctAnswer": "170 TL",
+  "explanation": "10 · 15 + 20 = 170 TL."
+ },
+ {
+  "questionId": "boss-a15-m7-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "y eksenini kesme",
+  "outcome": "Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "orta",
+  "group": "m7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "y = x + 2 doğrusu y eksenini hangi noktada keser?",
+  "data": {
+   "options": [
+    "(0, 2)",
+    "(2, 0)",
+    "(0, −2)"
+   ]
+  },
+  "textPlain": "y = x + 2 doğrusu y eksenini hangi noktada keser? Seçenekler: (0, 2) / (2, 0) / (0, −2)",
+  "correctAnswer": "(0, 2)",
+  "explanation": "x = 0 için y = 2: (0, 2)."
+ },
+ {
+  "questionId": "boss-a15-m7-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Kesirli denklem",
+  "outcome": "Birinci dereceden bir bilinmeyenli denklemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "(x + 4)/2 = (2x − 1)/3 denkleminde x kaçtır?",
+  "data": {
+   "answer": 14,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "(x + 4)/2 = (2x − 1)/3 denkleminde x kaçtır?",
+  "correctAnswer": "14",
+  "explanation": "İçler-dışlar: 3x + 12 = 4x − 2 → x = 14."
+ },
+ {
+  "questionId": "boss-a15-m7-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "x eksenini kesme",
+  "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "y = 2x − 4 doğrusu x eksenini hangi noktada keser?",
+  "data": {
+   "options": [
+    "(2, 0)",
+    "(0, −4)",
+    "(−2, 0)"
+   ]
+  },
+  "textPlain": "y = 2x − 4 doğrusu x eksenini hangi noktada keser? Seçenekler: (2, 0) / (0, −4) / (−2, 0)",
+  "correctAnswer": "(2, 0)",
+  "explanation": "y = 0 için 2x − 4 = 0 → x = 2."
+ },
+ {
+  "questionId": "boss-a15-m7-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Mum",
+  "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "24 cm boyundaki bir mum yandıkça her saat 3 cm kısalıyor. Kaç saat sonra mumun boyu 9 cm olur?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": "saat"
+  },
+  "textPlain": "24 cm boyundaki bir mum yandıkça her saat 3 cm kısalıyor. Kaç saat sonra mumun boyu 9 cm olur?",
+  "correctAnswer": "5 saat",
+  "explanation": "24 − 3t = 9 → t = 5 saat."
+ },
+ {
+  "questionId": "boss-a15-m7-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Değişim oranı",
+  "outcome": "Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve grafikle gösterir; doğrusal denklemlerin grafiğini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir doğrusal ilişkide x her 1 arttığında y 4 azalıyorsa bu doğrunun eğimi −4’tür.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir doğrusal ilişkide x her 1 arttığında y 4 azalıyorsa bu doğrunun eğimi −4’tür.",
+  "correctAnswer": "Doğru",
+  "explanation": "Eğim, x’teki 1 birimlik değişime karşılık y’deki değişimdir: −4."
+ },
+ {
+  "questionId": "boss-a15-m7-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "İki noktadan eğim",
+  "outcome": "Doğrunun eğimini modellerle açıklar; doğrusal denklemlerin grafiğini eğimle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A(−1, 3) ve B(2, −3) noktalarından geçen doğrunun eğimi kaçtır?",
+  "data": {
+   "options": [
+    "−2",
+    "2",
+    "−{1/2}"
+   ]
+  },
+  "textPlain": "A(−1, 3) ve B(2, −3) noktalarından geçen doğrunun eğimi kaçtır? Seçenekler: −2 / 2 / −{1/2}",
+  "correctAnswer": "−2",
+  "explanation": "Eğim = (−3 − 3) ÷ (2 − (−1)) = −6 ÷ 3 = −2."
+ },
+ {
+  "questionId": "boss-a15-m7-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "7. Ünite: Doğrusal Denklemler",
+  "topic": "Doğrusal mı",
+  "outcome": "Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Doğrusal Denklemler”",
+  "difficulty": "zor",
+  "group": "m7",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Durumları doğrusal ilişki olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Doğrusal",
+    "Doğrusal değil"
+   ],
+   "items": [
+    [
+     "Her ay aynı miktar biriktirilen paranın toplamı",
+     0
+    ],
+    [
+     "Karenin kenar uzunluğu ile alanı",
+     1
+    ],
+    [
+     "Sabit hızla giden aracın süre-yol ilişkisi",
+     0
+    ],
+    [
+     "Karenin kenar uzunluğu ile çevresi",
+     0
+    ],
+    [
+     "Bir sayı ile o sayının karesi",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Durumları doğrusal ilişki olanlar ve olmayanlar diye ayır. (Doğrusal / Doğrusal değil) Kartlar: Her ay aynı miktar biriktirilen paranın toplamı; Karenin kenar uzunluğu ile alanı; Sabit hızla giden aracın süre-yol ilişkisi; Karenin kenar uzunluğu ile çevresi; Bir sayı ile o sayının karesi.",
+  "correctAnswer": "Doğrusal: Her ay aynı miktar biriktirilen paranın toplamı, Sabit hızla giden aracın süre-yol ilişkisi, Karenin kenar uzunluğu ile çevresi. Doğrusal değil: Karenin kenar uzunluğu ile alanı, Bir sayı ile o sayının karesi.",
+  "explanation": "Eşit artışlara eşit artışlar karşılık geliyorsa ilişki doğrusaldır; alan ve kare alma doğrusal değildir."
+ },
+ {
+  "questionId": "boss-a15-m8-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Sayı doğrusu",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "x > 3 eşitsizliği sayı doğrusunda nasıl gösterilir?",
+  "data": {
+   "options": [
+    "3’te içi boş daire, sağa doğru ok",
+    "3’te içi dolu daire, sağa doğru ok",
+    "3’te içi boş daire, sola doğru ok"
+   ]
+  },
+  "textPlain": "x > 3 eşitsizliği sayı doğrusunda nasıl gösterilir? Seçenekler: 3’te içi boş daire, sağa doğru ok / 3’te içi dolu daire, sağa doğru ok / 3’te içi boş daire, sola doğru ok",
+  "correctAnswer": "3’te içi boş daire, sağa doğru ok",
+  "explanation": "3 dahil olmadığı için içi boş daire; 3’ten büyük sayılar için sağa ok."
+ },
+ {
+  "questionId": "boss-a15-m8-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Sağlar mı",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "5 sayısı x ≤ 5 eşitsizliğini sağlar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? 5 sayısı x ≤ 5 eşitsizliğini sağlar.",
+  "correctAnswer": "Doğru",
+  "explanation": "“≤” eşitliği de kapsar; 5 ≤ 5 doğrudur."
+ },
+ {
+  "questionId": "boss-a15-m8-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Asansör",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Asansöre en fazla 8 kişi binebilir.” durumunu gösteren eşitsizlik hangisidir? (x: kişi sayısı)",
+  "data": {
+   "options": [
+    "x ≤ 8",
+    "x < 8",
+    "x ≥ 8"
+   ]
+  },
+  "textPlain": "“Asansöre en fazla 8 kişi binebilir.” durumunu gösteren eşitsizlik hangisidir? (x: kişi sayısı) Seçenekler: x ≤ 8 / x < 8 / x ≥ 8",
+  "correctAnswer": "x ≤ 8",
+  "explanation": "“En fazla 8” → 8 ve 8’den az: x ≤ 8."
+ },
+ {
+  "questionId": "boss-a15-m8-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Çözüm",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "num",
+  "prompt": "x + 4 < 10 eşitsizliğinin çözümü x < a ise a kaçtır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "x + 4 < 10 eşitsizliğinin çözümü x < a ise a kaçtır?",
+  "correctAnswer": "6",
+  "explanation": "İki taraftan 4 çıkarılır: x < 6."
+ },
+ {
+  "questionId": "boss-a15-m8-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "x > −2",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Sayıları x > −2 eşitsizliğini sağlayanlar ve sağlamayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Sağlar",
+    "Sağlamaz"
+   ],
+   "items": [
+    [
+     "0",
+     0
+    ],
+    [
+     "−2",
+     1
+    ],
+    [
+     "3",
+     0
+    ],
+    [
+     "−5",
+     1
+    ],
+    [
+     "−1",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Sayıları x > −2 eşitsizliğini sağlayanlar ve sağlamayanlar diye ayır. (Sağlar / Sağlamaz) Kartlar: 0; −2; 3; −5; −1.",
+  "correctAnswer": "Sağlar: 0, 3, −1. Sağlamaz: −2, −5.",
+  "explanation": "−2’den büyük sayılar sağlar; −2 eşitsizliğe dahil değildir."
+ },
+ {
+  "questionId": "boss-a15-m8-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Yaş sınırı",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Bu filmi izlemek için en az 13 yaşında olmak gerekir.” durumunu gösteren eşitsizlik hangisidir? (y: yaş)",
+  "data": {
+   "options": [
+    "y ≥ 13",
+    "y > 13",
+    "y ≤ 13"
+   ]
+  },
+  "textPlain": "“Bu filmi izlemek için en az 13 yaşında olmak gerekir.” durumunu gösteren eşitsizlik hangisidir? (y: yaş) Seçenekler: y ≥ 13 / y > 13 / y ≤ 13",
+  "correctAnswer": "y ≥ 13",
+  "explanation": "“En az 13” → 13 ve 13’ten büyük: y ≥ 13."
+ },
+ {
+  "questionId": "boss-a15-m8-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Gösterimler",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "kolay",
+  "group": "m8",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Eşitsizlikleri sayı doğrusundaki gösterimleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "x ≥ 2",
+     "2’de dolu daire, sağa ok"
+    ],
+    [
+     "x < 2",
+     "2’de boş daire, sola ok"
+    ],
+    [
+     "x ≤ 2",
+     "2’de dolu daire, sola ok"
+    ]
+   ]
+  },
+  "textPlain": "Eşitsizlikleri sayı doğrusundaki gösterimleriyle eşleştir. Sol: x ≥ 2; x < 2; x ≤ 2. Sağ: 2’de dolu daire, sağa ok; 2’de boş daire, sola ok; 2’de dolu daire, sola ok.",
+  "correctAnswer": "x ≥ 2 = 2’de dolu daire, sağa ok; x < 2 = 2’de boş daire, sola ok; x ≤ 2 = 2’de dolu daire, sola ok",
+  "explanation": "≥ ve ≤ dolu daire, > ve < boş daireyle gösterilir; ok büyükse sağa, küçükse sola gider."
+ },
+ {
+  "questionId": "boss-a15-m8-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Çözüm",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "num",
+  "prompt": "3x − 5 ≥ 10 eşitsizliğinin çözümü x ≥ a ise a kaçtır?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "3x − 5 ≥ 10 eşitsizliğinin çözümü x ≥ a ise a kaçtır?",
+  "correctAnswer": "5",
+  "explanation": "3x ≥ 15 → x ≥ 5."
+ },
+ {
+  "questionId": "boss-a15-m8-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Negatifle bölme",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "−2x > 8 eşitsizliğinin çözümü hangisidir?",
+  "data": {
+   "options": [
+    "x < −4",
+    "x > −4",
+    "x < 4"
+   ]
+  },
+  "textPlain": "−2x > 8 eşitsizliğinin çözümü hangisidir? Seçenekler: x < −4 / x > −4 / x < 4",
+  "correctAnswer": "x < −4",
+  "explanation": "İki taraf −2’ye bölününce eşitsizlik yön değiştirir: x < −4."
+ },
+ {
+  "questionId": "boss-a15-m8-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Tam sayılar",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "num",
+  "prompt": "−3 < x ≤ 2 eşitsizliğini kaç tam sayı sağlar?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "−3 < x ≤ 2 eşitsizliğini kaç tam sayı sağlar?",
+  "correctAnswer": "5",
+  "explanation": "−2, −1, 0, 1, 2 → 5 tam sayı."
+ },
+ {
+  "questionId": "boss-a15-m8-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Yön değişimi",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir eşitsizliğin iki tarafı negatif bir sayıyla çarpılırsa eşitsizlik yön değiştirir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir eşitsizliğin iki tarafı negatif bir sayıyla çarpılırsa eşitsizlik yön değiştirir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Örneğin 2 < 3 iken −2 > −3’tür."
+ },
+ {
+  "questionId": "boss-a15-m8-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Kamyon",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir kamyon en fazla 2000 kg taşıyabiliyor. 150 kg’lık sürücü bindikten sonra kamyona 50 kg’lık kutulardan en fazla kaç tane yüklenebilir?",
+  "data": {
+   "options": [
+    "37",
+    "40",
+    "38"
+   ]
+  },
+  "textPlain": "Bir kamyon en fazla 2000 kg taşıyabiliyor. 150 kg’lık sürücü bindikten sonra kamyona 50 kg’lık kutulardan en fazla kaç tane yüklenebilir? Seçenekler: 37 / 40 / 38",
+  "correctAnswer": "37",
+  "explanation": "50x + 150 ≤ 2000 → 50x ≤ 1850 → x ≤ 37."
+ },
+ {
+  "questionId": "boss-a15-m8-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Aralık",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Sayı doğrusunda −1’de içi dolu, 4’te içi boş daire olan ve aralarının boyandığı gösterim hangi eşitsizliktir?",
+  "data": {
+   "options": [
+    "−1 ≤ x < 4",
+    "−1 < x ≤ 4",
+    "−1 ≤ x ≤ 4"
+   ]
+  },
+  "textPlain": "Sayı doğrusunda −1’de içi dolu, 4’te içi boş daire olan ve aralarının boyandığı gösterim hangi eşitsizliktir? Seçenekler: −1 ≤ x < 4 / −1 < x ≤ 4 / −1 ≤ x ≤ 4",
+  "correctAnswer": "−1 ≤ x < 4",
+  "explanation": "Dolu daire dahil (≤), boş daire dahil değil (<) demektir."
+ },
+ {
+  "questionId": "boss-a15-m8-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "En büyük tam sayı",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "orta",
+  "group": "m8",
+  "rank": 2,
+  "type": "num",
+  "prompt": "2x − 1 < 9 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "2x − 1 < 9 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+  "correctAnswer": "4",
+  "explanation": "2x < 10 → x < 5; en büyük tam sayı 4."
+ },
+ {
+  "questionId": "boss-a15-m8-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Fatura",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "zor",
+  "group": "m8",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir telefon tarifesinde aylık sabit ücret 60 TL, konuşma ücreti dakikası 2 TL’dir. Faturanın 200 TL’yi geçmemesi için en çok kaç dakika konuşulabilir?",
+  "data": {
+   "answer": 70,
+   "digits": 2,
+   "unit": "dk"
+  },
+  "textPlain": "Bir telefon tarifesinde aylık sabit ücret 60 TL, konuşma ücreti dakikası 2 TL’dir. Faturanın 200 TL’yi geçmemesi için en çok kaç dakika konuşulabilir?",
+  "correctAnswer": "70 dk",
+  "explanation": "60 + 2x ≤ 200 → 2x ≤ 140 → x ≤ 70."
+ },
+ {
+  "questionId": "boss-a15-m8-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "İki tarafta bilinmeyen",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "zor",
+  "group": "m8",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "5 − 3x ≤ 2x − 10 eşitsizliğinin çözümü hangisidir?",
+  "data": {
+   "options": [
+    "x ≥ 3",
+    "x ≤ 3",
+    "x ≥ −3"
+   ]
+  },
+  "textPlain": "5 − 3x ≤ 2x − 10 eşitsizliğinin çözümü hangisidir? Seçenekler: x ≥ 3 / x ≤ 3 / x ≥ −3",
+  "correctAnswer": "x ≥ 3",
+  "explanation": "15 ≤ 5x → x ≥ 3."
+ },
+ {
+  "questionId": "boss-a15-m8-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Çift eşitsizlik",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "zor",
+  "group": "m8",
+  "rank": 3,
+  "type": "num",
+  "prompt": "−7 ≤ 2x + 1 < 9 eşitsizliğini kaç tam sayı sağlar?",
+  "data": {
+   "answer": 8,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "−7 ≤ 2x + 1 < 9 eşitsizliğini kaç tam sayı sağlar?",
+  "correctAnswer": "8",
+  "explanation": "−8 ≤ 2x < 8 → −4 ≤ x < 4: −4, −3, −2, −1, 0, 1, 2, 3 → 8 tam sayı."
+ },
+ {
+  "questionId": "boss-a15-m8-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "En az, en fazla",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "zor",
+  "group": "m8",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "“Bir kutuya en az 6, en fazla 10 kalem konabilir.” durumu 6 ≤ x ≤ 10 ile gösterilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Bir kutuya en az 6, en fazla 10 kalem konabilir.” durumu 6 ≤ x ≤ 10 ile gösterilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "“En az 6” → x ≥ 6, “en fazla 10” → x ≤ 10."
+ },
+ {
+  "questionId": "boss-a15-m8-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "Defterler",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "zor",
+  "group": "m8",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ece’nin 120 TL’si var. Tanesi 15 TL olan defterlerden alıp elinde en az 30 TL kalmasını istiyor. En çok kaç defter alabilir?",
+  "data": {
+   "options": [
+    "6",
+    "8",
+    "7"
+   ]
+  },
+  "textPlain": "Ece’nin 120 TL’si var. Tanesi 15 TL olan defterlerden alıp elinde en az 30 TL kalmasını istiyor. En çok kaç defter alabilir? Seçenekler: 6 / 8 / 7",
+  "correctAnswer": "6",
+  "explanation": "120 − 15x ≥ 30 → 15x ≤ 90 → x ≤ 6."
+ },
+ {
+  "questionId": "boss-a15-m8-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "8. Ünite: Eşitsizlikler",
+  "topic": "İki koşul",
+  "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+  "difficulty": "zor",
+  "group": "m8",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Sayıları “x ≥ −1 ve x < 3” koşulunun ikisini birden sağlayanlar ve sağlamayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Sağlar",
+    "Sağlamaz"
+   ],
+   "items": [
+    [
+     "−1",
+     0
+    ],
+    [
+     "3",
+     1
+    ],
+    [
+     "0",
+     0
+    ],
+    [
+     "2",
+     0
+    ],
+    [
+     "−2",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Sayıları “x ≥ −1 ve x < 3” koşulunun ikisini birden sağlayanlar ve sağlamayanlar diye ayır. (Sağlar / Sağlamaz) Kartlar: −1; 3; 0; 2; −2.",
+  "correctAnswer": "Sağlar: −1, 0, 2. Sağlamaz: 3, −2.",
+  "explanation": "−1 dahil, 3 dahil değildir: −1, 0, 1, 2 sağlar."
+ },
+ {
+  "questionId": "boss-a15-m9-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Pisagor",
+  "outcome": "Pisagor bağıntısını oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Dik kenarları 3 cm ve 4 cm olan bir dik üçgenin hipotenüsü kaç cm’dir?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Dik kenarları 3 cm ve 4 cm olan bir dik üçgenin hipotenüsü kaç cm’dir?",
+  "correctAnswer": "5 cm",
+  "explanation": "3² + 4² = 9 + 16 = 25 → √25 = 5 cm."
+ },
+ {
+  "questionId": "boss-a15-m9-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Üçgen eşitsizliği",
+  "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kenar uzunlukları 2 cm, 3 cm ve 7 cm olan bir üçgen çizilebilir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Kenar uzunlukları 2 cm, 3 cm ve 7 cm olan bir üçgen çizilebilir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Bir kenar diğer ikisinin toplamından küçük olmalıdır: 2 + 3 = 5 < 7 olduğu için üçgen çizilemez."
+ },
+ {
+  "questionId": "boss-a15-m9-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Kenarortay",
+  "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir köşeyi karşı kenarın orta noktasına birleştiren doğru parçasına ne denir?",
+  "data": {
+   "options": [
+    "Kenarortay",
+    "Açıortay",
+    "Yükseklik"
+   ]
+  },
+  "textPlain": "Bir köşeyi karşı kenarın orta noktasına birleştiren doğru parçasına ne denir? Seçenekler: Kenarortay / Açıortay / Yükseklik",
+  "correctAnswer": "Kenarortay",
+  "explanation": "Kenarortay karşı kenarı iki eş parçaya ayırır."
+ },
+ {
+  "questionId": "boss-a15-m9-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Kenar-açı",
+  "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir üçgende en uzun kenarın karşısındaki açı için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "En büyük açıdır.",
+    "En küçük açıdır.",
+    "Her zaman 90°’dir."
+   ]
+  },
+  "textPlain": "Bir üçgende en uzun kenarın karşısındaki açı için hangisi doğrudur? Seçenekler: En büyük açıdır. / En küçük açıdır. / Her zaman 90°’dir.",
+  "correctAnswer": "En büyük açıdır.",
+  "explanation": "Üçgende büyük kenar karşısında büyük açı bulunur."
+ },
+ {
+  "questionId": "boss-a15-m9-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Yardımcı elemanlar",
+  "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Tanımları adlarıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Açıyı iki eş parçaya ayıran ışın",
+     "Açıortay"
+    ],
+    [
+     "Köşeden karşı kenara dik inen doğru parçası",
+     "Yükseklik"
+    ],
+    [
+     "Köşeyi karşı kenarın orta noktasına birleştiren doğru parçası",
+     "Kenarortay"
+    ]
+   ]
+  },
+  "textPlain": "Tanımları adlarıyla eşleştir. Sol: Açıyı iki eş parçaya ayıran ışın; Köşeden karşı kenara dik inen doğru parçası; Köşeyi karşı kenarın orta noktasına birleştiren doğru parçası. Sağ: Açıortay; Yükseklik; Kenarortay.",
+  "correctAnswer": "Açıyı iki eş parçaya ayıran ışın = Açıortay; Köşeden karşı kenara dik inen doğru parçası = Yükseklik; Köşeyi karşı kenarın orta noktasına birleştiren doğru parçası = Kenarortay",
+  "explanation": "Açıortay açıyı, kenarortay kenarı ikiye böler; yükseklik karşı kenara diktir."
+ },
+ {
+  "questionId": "boss-a15-m9-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Üçgen olur mu",
+  "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kenar uzunluklarını (cm) üçgen oluşturanlar ve oluşturmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Üçgen olur",
+    "Üçgen olmaz"
+   ],
+   "items": [
+    [
+     "3, 4, 5",
+     0
+    ],
+    [
+     "1, 2, 3",
+     1
+    ],
+    [
+     "5, 5, 8",
+     0
+    ],
+    [
+     "2, 4, 7",
+     1
+    ],
+    [
+     "6, 7, 12",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kenar uzunluklarını (cm) üçgen oluşturanlar ve oluşturmayanlar diye ayır. (Üçgen olur / Üçgen olmaz) Kartlar: 3, 4, 5; 1, 2, 3; 5, 5, 8; 2, 4, 7; 6, 7, 12.",
+  "correctAnswer": "Üçgen olur: 3, 4, 5, 5, 5, 8, 6, 7, 12. Üçgen olmaz: 1, 2, 3, 2, 4, 7.",
+  "explanation": "En uzun kenar diğer iki kenarın toplamından küçük olmalıdır."
+ },
+ {
+  "questionId": "boss-a15-m9-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Hipotenüs",
+  "outcome": "Pisagor bağıntısını oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "kolay",
+  "group": "m9",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Dik kenarları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsü kaç cm’dir?",
+  "data": {
+   "answer": 10,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Dik kenarları 6 cm ve 8 cm olan bir dik üçgenin hipotenüsü kaç cm’dir?",
+  "correctAnswer": "10 cm",
+  "explanation": "36 + 64 = 100 → √100 = 10 cm."
+ },
+ {
+  "questionId": "boss-a15-m9-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Dik kenar",
+  "outcome": "Pisagor bağıntısını oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Hipotenüsü 13 cm, bir dik kenarı 5 cm olan dik üçgenin diğer dik kenarı kaç cm’dir?",
+  "data": {
+   "answer": 12,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Hipotenüsü 13 cm, bir dik kenarı 5 cm olan dik üçgenin diğer dik kenarı kaç cm’dir?",
+  "correctAnswer": "12 cm",
+  "explanation": "169 − 25 = 144 → √144 = 12 cm."
+ },
+ {
+  "questionId": "boss-a15-m9-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Üçüncü kenar",
+  "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Kenarlarından ikisi 4 cm ve 9 cm olan bir üçgenin üçüncü kenarı hangisi olabilir?",
+  "data": {
+   "options": [
+    "8 cm",
+    "5 cm",
+    "13 cm"
+   ]
+  },
+  "textPlain": "Kenarlarından ikisi 4 cm ve 9 cm olan bir üçgenin üçüncü kenarı hangisi olabilir? Seçenekler: 8 cm / 5 cm / 13 cm",
+  "correctAnswer": "8 cm",
+  "explanation": "9 − 4 < x < 9 + 4 → 5 < x < 13; yalnızca 8 cm uygundur."
+ },
+ {
+  "questionId": "boss-a15-m9-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "En kısa kenar",
+  "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "ABC üçgeninde m(Â) = 70°, m(B̂) = 50°’dir. Üçgenin en kısa kenarı hangisidir?",
+  "data": {
+   "options": [
+    "AC",
+    "AB",
+    "BC"
+   ]
+  },
+  "textPlain": "ABC üçgeninde m(Â) = 70°, m(B̂) = 50°’dir. Üçgenin en kısa kenarı hangisidir? Seçenekler: AC / AB / BC",
+  "correctAnswer": "AC",
+  "explanation": "m(Ĉ) = 60°. En küçük açı B’dir; karşısındaki kenar AC en kısadır."
+ },
+ {
+  "questionId": "boss-a15-m9-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Dik üçgen mi",
+  "outcome": "Pisagor bağıntısını oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Kenar uzunlukları 5 cm, 12 cm ve 13 cm olan üçgen dik üçgendir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kenar uzunlukları 5 cm, 12 cm ve 13 cm olan üçgen dik üçgendir.",
+  "correctAnswer": "Doğru",
+  "explanation": "5² + 12² = 25 + 144 = 169 = 13²; Pisagor bağıntısı sağlanır."
+ },
+ {
+  "questionId": "boss-a15-m9-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Merdiven",
+  "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Bir merdiven 6 m yüksekliğindeki duvarın tepesine dayanmıştır. Merdivenin ayağı duvardan 8 m uzakta ise merdivenin boyu kaç m’dir?",
+  "data": {
+   "answer": 10,
+   "digits": 2,
+   "unit": "m"
+  },
+  "textPlain": "Bir merdiven 6 m yüksekliğindeki duvarın tepesine dayanmıştır. Merdivenin ayağı duvardan 8 m uzakta ise merdivenin boyu kaç m’dir?",
+  "correctAnswer": "10 m",
+  "explanation": "6² + 8² = 100 → √100 = 10 m."
+ },
+ {
+  "questionId": "boss-a15-m9-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Yükseklik",
+  "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir üçgendeki yükseklik için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Köşeden karşı kenara ya da uzantısına dik olarak çizilir.",
+    "Her üçgende mutlaka üçgenin iç bölgesinde kalır.",
+    "Karşı kenarı her durumda iki eşit uzunlukta parçaya ayırır ve ona diktir."
+   ]
+  },
+  "textPlain": "Bir üçgendeki yükseklik için hangisi doğrudur? Seçenekler: Köşeden karşı kenara ya da uzantısına dik olarak çizilir. / Her üçgende mutlaka üçgenin iç bölgesinde kalır. / Karşı kenarı her durumda iki eşit uzunlukta parçaya ayırır ve ona diktir.",
+  "correctAnswer": "Köşeden karşı kenara ya da uzantısına dik olarak çizilir.",
+  "explanation": "Yükseklik karşı kenara (ya da uzantısına) diktir; geniş açılı üçgende dışarıda kalabilir."
+ },
+ {
+  "questionId": "boss-a15-m9-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Kenarları sırala",
+  "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "orta",
+  "group": "m9",
+  "rank": 2,
+  "type": "order",
+  "prompt": "ABC üçgeninde m(Â) = 80°, m(B̂) = 40°, m(Ĉ) = 60°’dir. Kenarları KISADAN UZUNA sırala.",
+  "data": {
+   "items": [
+    "AC",
+    "AB",
+    "BC"
+   ]
+  },
+  "textPlain": "ABC üçgeninde m(Â) = 80°, m(B̂) = 40°, m(Ĉ) = 60°’dir. Kenarları KISADAN UZUNA sırala. Kartlar: BC; AB; AC.",
+  "correctAnswer": "AC → AB → BC",
+  "explanation": "Küçük açının karşısında kısa kenar bulunur: B (40°) → AC, C (60°) → AB, A (80°) → BC."
+ },
+ {
+  "questionId": "boss-a15-m9-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Kaç değer",
+  "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "zor",
+  "group": "m9",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kenarlarından ikisi 3 cm ve 8 cm olan bir üçgenin üçüncü kenarı tam sayı ise kaç farklı değer alabilir?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Kenarlarından ikisi 3 cm ve 8 cm olan bir üçgenin üçüncü kenarı tam sayı ise kaç farklı değer alabilir?",
+  "correctAnswer": "5",
+  "explanation": "5 < x < 11 → 6, 7, 8, 9, 10 → 5 değer."
+ },
+ {
+  "questionId": "boss-a15-m9-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Ekran köşegeni",
+  "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "zor",
+  "group": "m9",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Dikdörtgen biçimindeki bir ekranın eni 48 cm, boyu 36 cm’dir. Ekranın köşegeni kaç cm’dir?",
+  "data": {
+   "answer": 60,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Dikdörtgen biçimindeki bir ekranın eni 48 cm, boyu 36 cm’dir. Ekranın köşegeni kaç cm’dir?",
+  "correctAnswer": "60 cm",
+  "explanation": "48² + 36² = 2304 + 1296 = 3600 → √3600 = 60 cm."
+ },
+ {
+  "questionId": "boss-a15-m9-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Kareköklü hipotenüs",
+  "outcome": "Pisagor bağıntısını oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "zor",
+  "group": "m9",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Dik kenarları 1 birim ve 2 birim olan bir dik üçgenin hipotenüsü kaç birimdir?",
+  "data": {
+   "options": [
+    "√5",
+    "3",
+    "√3"
+   ]
+  },
+  "textPlain": "Dik kenarları 1 birim ve 2 birim olan bir dik üçgenin hipotenüsü kaç birimdir? Seçenekler: √5 / 3 / √3",
+  "correctAnswer": "√5",
+  "explanation": "1² + 2² = 5 → hipotenüs √5."
+ },
+ {
+  "questionId": "boss-a15-m9-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "İkizkenar",
+  "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "zor",
+  "group": "m9",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir üçgende iki açının ölçüleri eşitse bu açıların karşısındaki kenarların uzunlukları da eşittir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir üçgende iki açının ölçüleri eşitse bu açıların karşısındaki kenarların uzunlukları da eşittir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Eşit açıların karşısında eşit kenarlar bulunur (ikizkenar üçgen)."
+ },
+ {
+  "questionId": "boss-a15-m9-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "Kuş uçuşu",
+  "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "zor",
+  "group": "m9",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir çocuk bir noktadan 9 m doğuya, sonra 12 m kuzeye yürüyor. Başlangıç noktasına kuş uçuşu uzaklığı kaç m’dir?",
+  "data": {
+   "answer": 15,
+   "digits": 2,
+   "unit": "m"
+  },
+  "textPlain": "Bir çocuk bir noktadan 9 m doğuya, sonra 12 m kuzeye yürüyor. Başlangıç noktasına kuş uçuşu uzaklığı kaç m’dir?",
+  "correctAnswer": "15 m",
+  "explanation": "9² + 12² = 81 + 144 = 225 → √225 = 15 m."
+ },
+ {
+  "questionId": "boss-a15-m9-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "9. Ünite: Üçgenler",
+  "topic": "En büyük açı",
+  "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+  "difficulty": "zor",
+  "group": "m9",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Kenar uzunlukları 5 cm, 7 cm ve 9 cm olan üçgenin en büyük açısı hangi kenarın karşısındadır?",
+  "data": {
+   "options": [
+    "9 cm’lik kenarın",
+    "5 cm’lik kenarın",
+    "7 cm’lik kenarın"
+   ]
+  },
+  "textPlain": "Kenar uzunlukları 5 cm, 7 cm ve 9 cm olan üçgenin en büyük açısı hangi kenarın karşısındadır? Seçenekler: 9 cm’lik kenarın / 5 cm’lik kenarın / 7 cm’lik kenarın",
+  "correctAnswer": "9 cm’lik kenarın",
+  "explanation": "En uzun kenarın karşısındaki açı en büyüktür."
+ },
+ {
+  "questionId": "boss-a15-t5-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "İsim-fiil",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Okumak en sevdiğim etkinliktir.” cümlesindeki “okumak” hangi fiilimsidir?",
+  "data": {
+   "options": [
+    "İsim-fiil",
+    "Sıfat-fiil",
+    "Zarf-fiil"
+   ]
+  },
+  "textPlain": "“Okumak en sevdiğim etkinliktir.” cümlesindeki “okumak” hangi fiilimsidir? Seçenekler: İsim-fiil / Sıfat-fiil / Zarf-fiil",
+  "correctAnswer": "İsim-fiil",
+  "explanation": "-mak/-mek eki isim-fiil ekidir."
+ },
+ {
+  "questionId": "boss-a15-t5-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Sıfat-fiil",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Koşan çocuk birden düştü.” cümlesindeki “koşan” hangi fiilimsidir?",
+  "data": {
+   "options": [
+    "Sıfat-fiil",
+    "İsim-fiil",
+    "Zarf-fiil"
+   ]
+  },
+  "textPlain": "“Koşan çocuk birden düştü.” cümlesindeki “koşan” hangi fiilimsidir? Seçenekler: Sıfat-fiil / İsim-fiil / Zarf-fiil",
+  "correctAnswer": "Sıfat-fiil",
+  "explanation": "“koşan” sözcüğü “çocuk” ismini niteler; -an eki sıfat-fiil ekidir."
+ },
+ {
+  "questionId": "boss-a15-t5-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Zarf-fiil",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Eve gelince yemek yedi.” cümlesindeki “gelince” hangi fiilimsidir?",
+  "data": {
+   "options": [
+    "Zarf-fiil",
+    "Sıfat-fiil",
+    "İsim-fiil"
+   ]
+  },
+  "textPlain": "“Eve gelince yemek yedi.” cümlesindeki “gelince” hangi fiilimsidir? Seçenekler: Zarf-fiil / Sıfat-fiil / İsim-fiil",
+  "correctAnswer": "Zarf-fiil",
+  "explanation": "-ince eki zarf-fiil ekidir; eylemin zamanını bildirir."
+ },
+ {
+  "questionId": "boss-a15-t5-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Fiilimsi nedir",
+  "outcome": "Fiilimsileri çekimli fiillerden ve kalıcı isim olmuş sözcüklerden ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Fiilimsiler fiil kök ya da gövdelerine getirilen eklerle oluşur ve cümlede isim, sıfat ya da zarf görevinde kullanılır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Fiilimsiler fiil kök ya da gövdelerine getirilen eklerle oluşur ve cümlede isim, sıfat ya da zarf görevinde kullanılır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Fiilimsiler fiilden türeyen ama çekimli fiil olmayan sözcüklerdir."
+ },
+ {
+  "questionId": "boss-a15-t5-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Fiilimsi var mı",
+  "outcome": "Fiilimsileri çekimli fiillerden ve kalıcı isim olmuş sözcüklerden ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cümleleri fiilimsi bulunanlar ve bulunmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Fiilimsi var",
+    "Fiilimsi yok"
+   ],
+   "items": [
+    [
+     "Gülerek içeri girdi.",
+     0
+    ],
+    [
+     "Bahçe çok güzeldi.",
+     1
+    ],
+    [
+     "Yazdığı mektubu okudu.",
+     0
+    ],
+    [
+     "Kitap masadaydı.",
+     1
+    ],
+    [
+     "Yüzmeyi çok severim.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri fiilimsi bulunanlar ve bulunmayanlar diye ayır. (Fiilimsi var / Fiilimsi yok) Kartlar: Gülerek içeri girdi.; Bahçe çok güzeldi.; Yazdığı mektubu okudu.; Kitap masadaydı.; Yüzmeyi çok severim..",
+  "correctAnswer": "Fiilimsi var: Gülerek içeri girdi., Yazdığı mektubu okudu., Yüzmeyi çok severim.. Fiilimsi yok: Bahçe çok güzeldi., Kitap masadaydı..",
+  "explanation": "“gülerek”, “yazdığı”, “yüzmeyi” fiilimsidir; diğer cümlelerde fiilimsi yoktur."
+ },
+ {
+  "questionId": "boss-a15-t5-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Ekler",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Ekleri fiilimsi türüyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "-mak, -ma, -ış",
+     "İsim-fiil ekleri"
+    ],
+    [
+     "-an, -ası, -mez, -ar, -dik, -ecek, -miş",
+     "Sıfat-fiil ekleri"
+    ],
+    [
+     "-ip, -ince, -arak, -meden",
+     "Zarf-fiil ekleri"
+    ]
+   ]
+  },
+  "textPlain": "Ekleri fiilimsi türüyle eşleştir. Sol: -mak, -ma, -ış; -an, -ası, -mez, -ar, -dik, -ecek, -miş; -ip, -ince, -arak, -meden. Sağ: İsim-fiil ekleri; Sıfat-fiil ekleri; Zarf-fiil ekleri.",
+  "correctAnswer": "-mak, -ma, -ış = İsim-fiil ekleri; -an, -ası, -mez, -ar, -dik, -ecek, -miş = Sıfat-fiil ekleri; -ip, -ince, -arak, -meden = Zarf-fiil ekleri",
+  "explanation": "İsim-fiil üç, sıfat-fiil yedi ekle yapılır; zarf-fiil eklerinin sayısı daha fazladır."
+ },
+ {
+  "questionId": "boss-a15-t5-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "-arak",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "kolay",
+  "group": "t5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Koşarak” sözcüğündeki “-arak” eki zarf-fiil ekidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Koşarak” sözcüğündeki “-arak” eki zarf-fiil ekidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "-arak/-erek eki eylemin nasıl yapıldığını bildiren zarf-fiil ekidir."
+ },
+ {
+  "questionId": "boss-a15-t5-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "İsim-fiil bul",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede isim-fiil vardır?",
+  "data": {
+   "options": [
+    "Erken kalkmak bana iyi geliyor.",
+    "Erken kalkan çocuk bahçeye koştu.",
+    "Erken kalkınca bahçeye koştu."
+   ]
+  },
+  "textPlain": "Hangi cümlede isim-fiil vardır? Seçenekler: Erken kalkmak bana iyi geliyor. / Erken kalkan çocuk bahçeye koştu. / Erken kalkınca bahçeye koştu.",
+  "correctAnswer": "Erken kalkmak bana iyi geliyor.",
+  "explanation": "“kalkmak” isim-fiildir; “kalkan” sıfat-fiil, “kalkınca” zarf-fiildir."
+ },
+ {
+  "questionId": "boss-a15-t5-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Sıfat-fiil bul",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede sıfat-fiil vardır?",
+  "data": {
+   "options": [
+    "Okunacak kitapları masaya bıraktı.",
+    "Her akşam yatmadan önce kitap okumayı çok sever.",
+    "Kitabı okuyunca uyudu."
+   ]
+  },
+  "textPlain": "Hangi cümlede sıfat-fiil vardır? Seçenekler: Okunacak kitapları masaya bıraktı. / Her akşam yatmadan önce kitap okumayı çok sever. / Kitabı okuyunca uyudu.",
+  "correctAnswer": "Okunacak kitapları masaya bıraktı.",
+  "explanation": "“okunacak” sözcüğü “kitapları” niteler; -acak sıfat-fiil ekidir."
+ },
+ {
+  "questionId": "boss-a15-t5-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "İsim-fiil ve sıfat-fiil",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Fiilimsileri türlerine göre ayır.",
+  "data": {
+   "bins": [
+    "İsim-fiil",
+    "Sıfat-fiil"
+   ],
+   "items": [
+    [
+     "Bilmemek ayıp değildir.",
+     0
+    ],
+    [
+     "Bilinmeyen yollara saptık.",
+     1
+    ],
+    [
+     "Gülüşü çok güzeldi.",
+     0
+    ],
+    [
+     "Gülen yüzler gördüm.",
+     1
+    ],
+    [
+     "Yazılacak mektup hazır.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Fiilimsileri türlerine göre ayır. (İsim-fiil / Sıfat-fiil) Kartlar: Bilmemek ayıp değildir.; Bilinmeyen yollara saptık.; Gülüşü çok güzeldi.; Gülen yüzler gördüm.; Yazılacak mektup hazır..",
+  "correctAnswer": "İsim-fiil: Bilmemek ayıp değildir., Gülüşü çok güzeldi.. Sıfat-fiil: Bilinmeyen yollara saptık., Gülen yüzler gördüm., Yazılacak mektup hazır..",
+  "explanation": "“bilmemek”, “gülüş” isim-fiil; “bilinmeyen”, “gülen”, “yazılacak” ismi niteleyen sıfat-fiildir."
+ },
+ {
+  "questionId": "boss-a15-t5-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Adlaşma",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Sıfat-fiiller bazen nitelediği ismin yerine geçerek isim gibi kullanılır: “Gelenler çok yorgundu.”",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Sıfat-fiiller bazen nitelediği ismin yerine geçerek isim gibi kullanılır: “Gelenler çok yorgundu.”",
+  "correctAnswer": "Doğru",
+  "explanation": "“Gelenler” sözcüğünde nitelenen isim (insanlar) düşmüş, sıfat-fiil adlaşmıştır."
+ },
+ {
+  "questionId": "boss-a15-t5-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Zaman bildiren",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede zarf-fiil eylemin zamanını bildirmektedir?",
+  "data": {
+   "options": [
+    "Güneş batınca eve döndük.",
+    "Koşarak eve döndük.",
+    "Gülerek eve döndük."
+   ]
+  },
+  "textPlain": "Hangi cümlede zarf-fiil eylemin zamanını bildirmektedir? Seçenekler: Güneş batınca eve döndük. / Koşarak eve döndük. / Gülerek eve döndük.",
+  "correctAnswer": "Güneş batınca eve döndük.",
+  "explanation": "“batınca” ne zaman sorusuna cevap verir; diğerleri durum (nasıl) bildirir."
+ },
+ {
+  "questionId": "boss-a15-t5-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Kalıcı isim",
+  "outcome": "Fiilimsileri çekimli fiillerden ve kalıcı isim olmuş sözcüklerden ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümledeki “-ma/-me” ekli sözcük kalıcı ad olmuştur (fiilimsi değildir)?",
+  "data": {
+   "options": [
+    "Dondurma yemeyi çok severim.",
+    "Kitap okuma saatimiz başladı.",
+    "Erken yatma alışkanlığı kazandı."
+   ]
+  },
+  "textPlain": "Hangi cümledeki “-ma/-me” ekli sözcük kalıcı ad olmuştur (fiilimsi değildir)? Seçenekler: Dondurma yemeyi çok severim. / Kitap okuma saatimiz başladı. / Erken yatma alışkanlığı kazandı.",
+  "correctAnswer": "Dondurma yemeyi çok severim.",
+  "explanation": "“Dondurma” bir yiyeceğin adıdır; kalıcı isim olduğu için fiilimsi sayılmaz."
+ },
+ {
+  "questionId": "boss-a15-t5-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Tür belirleme",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "orta",
+  "group": "t5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Duyduğum haberler beni çok sevindirdi.” cümlesindeki fiilimsi ve türü hangisidir?",
+  "data": {
+   "options": [
+    "Duyduğum – sıfat-fiil",
+    "Duyduğum – isim-fiil",
+    "Sevindirdi – zarf-fiil"
+   ]
+  },
+  "textPlain": "“Duyduğum haberler beni çok sevindirdi.” cümlesindeki fiilimsi ve türü hangisidir? Seçenekler: Duyduğum – sıfat-fiil / Duyduğum – isim-fiil / Sevindirdi – zarf-fiil",
+  "correctAnswer": "Duyduğum – sıfat-fiil",
+  "explanation": "“duyduğum” sözcüğü “haberler” ismini niteler; -dık ekiyle yapılmış sıfat-fiildir."
+ },
+ {
+  "questionId": "boss-a15-t5-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Sıfat-fiil ve zarf-fiil",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Fiilimsileri türlerine göre ayır.",
+  "data": {
+   "bins": [
+    "Sıfat-fiil",
+    "Zarf-fiil"
+   ],
+   "items": [
+    [
+     "Görünce hemen tanıdı.",
+     1
+    ],
+    [
+     "Görülen manzara büyüleyiciydi.",
+     0
+    ],
+    [
+     "Bakmadan geçti.",
+     1
+    ],
+    [
+     "Bakılacak işler var.",
+     0
+    ],
+    [
+     "Yorulunca dinlendi.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Fiilimsileri türlerine göre ayır. (Sıfat-fiil / Zarf-fiil) Kartlar: Görünce hemen tanıdı.; Görülen manzara büyüleyiciydi.; Bakmadan geçti.; Bakılacak işler var.; Yorulunca dinlendi..",
+  "correctAnswer": "Sıfat-fiil: Görülen manzara büyüleyiciydi., Bakılacak işler var.. Zarf-fiil: Görünce hemen tanıdı., Bakmadan geçti., Yorulunca dinlendi..",
+  "explanation": "İsmi niteleyenler sıfat-fiil, eylemi zaman ya da durum yönünden belirtenler zarf-fiildir."
+ },
+ {
+  "questionId": "boss-a15-t5-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Özne olan isim-fiil",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede isim-fiil cümlenin öznesidir?",
+  "data": {
+   "options": [
+    "Yüzmek sağlığa yararlıdır.",
+    "Yüzmeyi çok severim.",
+    "Yüzmeye gidiyoruz."
+   ]
+  },
+  "textPlain": "Hangi cümlede isim-fiil cümlenin öznesidir? Seçenekler: Yüzmek sağlığa yararlıdır. / Yüzmeyi çok severim. / Yüzmeye gidiyoruz.",
+  "correctAnswer": "Yüzmek sağlığa yararlıdır.",
+  "explanation": "“Yararlı olan ne?” → yüzmek. Diğerlerinde isim-fiil nesne ve dolaylı tümleçtir."
+ },
+ {
+  "questionId": "boss-a15-t5-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Durum bildiren",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede zarf-fiil eylemin nasıl yapıldığını (durum) bildirmektedir?",
+  "data": {
+   "options": [
+    "Sınıfa koşarak girdi.",
+    "Ders bitince dışarı çıktı.",
+    "Yemekten önce ellerini yıkadı."
+   ]
+  },
+  "textPlain": "Hangi cümlede zarf-fiil eylemin nasıl yapıldığını (durum) bildirmektedir? Seçenekler: Sınıfa koşarak girdi. / Ders bitince dışarı çıktı. / Yemekten önce ellerini yıkadı.",
+  "correctAnswer": "Sınıfa koşarak girdi.",
+  "explanation": "“Nasıl girdi?” → koşarak. “bitince” zaman bildirir; üçüncü cümlede zarf-fiil yoktur."
+ },
+ {
+  "questionId": "boss-a15-t5-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "İki fiilimsi",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "“Bitmek bilmeyen yağmur” öbeğinde iki fiilimsi vardır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Bitmek bilmeyen yağmur” öbeğinde iki fiilimsi vardır.",
+  "correctAnswer": "Doğru",
+  "explanation": "“bitmek” isim-fiil, “bilmeyen” sıfat-fiildir."
+ },
+ {
+  "questionId": "boss-a15-t5-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Üç tür bir arada",
+  "outcome": "Fiilimsilerin cümledeki işlevlerini kavrar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede üç fiilimsi türü de bulunmaktadır?",
+  "data": {
+   "options": [
+    "Okula gelince, sevdiği arkadaşına koşmayı düşündü.",
+    "Kitap okumayı her şeyden çok sever, her akşam en az bir saat okurum.",
+    "Gelen misafirler salona oturdu."
+   ]
+  },
+  "textPlain": "Hangi cümlede üç fiilimsi türü de bulunmaktadır? Seçenekler: Okula gelince, sevdiği arkadaşına koşmayı düşündü. / Kitap okumayı her şeyden çok sever, her akşam en az bir saat okurum. / Gelen misafirler salona oturdu.",
+  "correctAnswer": "Okula gelince, sevdiği arkadaşına koşmayı düşündü.",
+  "explanation": "“gelince” zarf-fiil, “sevdiği” sıfat-fiil, “koşmayı” isim-fiildir."
+ },
+ {
+  "questionId": "boss-a15-t5-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Fiilimsiler",
+  "topic": "Fiilimsi sayısı",
+  "outcome": "Fiilimsileri çekimli fiillerden ve kalıcı isim olmuş sözcüklerden ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Fiilimsiler (isim-fiil, sıfat-fiil, zarf-fiil)",
+  "difficulty": "zor",
+  "group": "t5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "“Gülerek gelen çocuk, oynamak için bahçeye koştu.” cümlesinde kaç fiilimsi vardır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "“Gülerek gelen çocuk, oynamak için bahçeye koştu.” cümlesinde kaç fiilimsi vardır?",
+  "correctAnswer": "3",
+  "explanation": "“gülerek” (zarf-fiil), “gelen” (sıfat-fiil), “oynamak” (isim-fiil) → 3."
+ },
+ {
+  "questionId": "boss-a15-t6-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Yüklem",
+  "outcome": "Cümlenin ögelerini (yüklem) belirler; yüklemin türüne göre cümleleri ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kardeşim bahçede top oynuyor.” cümlesinin yüklemi hangisidir?",
+  "data": {
+   "options": [
+    "oynuyor",
+    "Kardeşim",
+    "top"
+   ]
+  },
+  "textPlain": "“Kardeşim bahçede top oynuyor.” cümlesinin yüklemi hangisidir? Seçenekler: oynuyor / Kardeşim / top",
+  "correctAnswer": "oynuyor",
+  "explanation": "Yüklem işi, oluşu bildiren temel ögedir: oynuyor."
+ },
+ {
+  "questionId": "boss-a15-t6-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Özne",
+  "outcome": "Cümlenin ögelerini (özne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Dün akşam babam eve geç geldi.” cümlesinin öznesi hangisidir?",
+  "data": {
+   "options": [
+    "babam",
+    "eve",
+    "Dün akşam"
+   ]
+  },
+  "textPlain": "“Dün akşam babam eve geç geldi.” cümlesinin öznesi hangisidir? Seçenekler: babam / eve / Dün akşam",
+  "correctAnswer": "babam",
+  "explanation": "“Gelen kim?” → babam."
+ },
+ {
+  "questionId": "boss-a15-t6-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Gizli özne",
+  "outcome": "Cümlenin ögelerini (özne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Okula erkenden gittik.” cümlesinin öznesi gizli öznedir (biz).",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Okula erkenden gittik.” cümlesinin öznesi gizli öznedir (biz).",
+  "correctAnswer": "Doğru",
+  "explanation": "Özne cümlede söylenmemiş, yüklemdeki kişi ekinden (-k: biz) anlaşılmaktadır."
+ },
+ {
+  "questionId": "boss-a15-t6-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Nesne",
+  "outcome": "Cümlenin ögelerini (nesne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Annem çiçekleri suladı.” cümlesinin nesnesi hangisidir?",
+  "data": {
+   "options": [
+    "çiçekleri",
+    "Annem",
+    "suladı"
+   ]
+  },
+  "textPlain": "“Annem çiçekleri suladı.” cümlesinin nesnesi hangisidir? Seçenekler: çiçekleri / Annem / suladı",
+  "correctAnswer": "çiçekleri",
+  "explanation": "“Neyi suladı?” → çiçekleri (belirtili nesne)."
+ },
+ {
+  "questionId": "boss-a15-t6-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Nesne türü",
+  "outcome": "Cümlenin ögelerini (nesne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cümleleri nesnelerinin türüne göre ayır.",
+  "data": {
+   "bins": [
+    "Belirtili nesne",
+    "Belirtisiz nesne"
+   ],
+   "items": [
+    [
+     "Kitabı okudum.",
+     0
+    ],
+    [
+     "Kitap okudum.",
+     1
+    ],
+    [
+     "Kapıyı kapattı.",
+     0
+    ],
+    [
+     "Çay içtik.",
+     1
+    ],
+    [
+     "Mektubu yazdı.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri nesnelerinin türüne göre ayır. (Belirtili nesne / Belirtisiz nesne) Kartlar: Kitabı okudum.; Kitap okudum.; Kapıyı kapattı.; Çay içtik.; Mektubu yazdı..",
+  "correctAnswer": "Belirtili nesne: Kitabı okudum., Kapıyı kapattı., Mektubu yazdı.. Belirtisiz nesne: Kitap okudum., Çay içtik..",
+  "explanation": "Belirtili nesne “-ı/-i” ekini alır (neyi?); belirtisiz nesne ek almaz (ne?)."
+ },
+ {
+  "questionId": "boss-a15-t6-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Dolaylı tümleç",
+  "outcome": "Cümlenin ögelerini (dolaylı tümleç, zarf tümleci) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Ali okula yürüyerek gitti.” cümlesinde “okula” hangi ögedir?",
+  "data": {
+   "options": [
+    "Dolaylı tümleç",
+    "Zarf tümleci",
+    "Nesne"
+   ]
+  },
+  "textPlain": "“Ali okula yürüyerek gitti.” cümlesinde “okula” hangi ögedir? Seçenekler: Dolaylı tümleç / Zarf tümleci / Nesne",
+  "correctAnswer": "Dolaylı tümleç",
+  "explanation": "“Nereye gitti?” → okula: yönelme eki almış dolaylı tümleç."
+ },
+ {
+  "questionId": "boss-a15-t6-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Soru ve öge",
+  "outcome": "Cümlenin ögelerini (dolaylı tümleç, zarf tümleci) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t6",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Yükleme sorulan soruları buldurdukları ögeyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Kim? / Ne?",
+     "Özne"
+    ],
+    [
+     "Neyi? / Kimi?",
+     "Belirtili nesne"
+    ],
+    [
+     "Nereye? / Nerede?",
+     "Dolaylı tümleç"
+    ]
+   ]
+  },
+  "textPlain": "Yükleme sorulan soruları buldurdukları ögeyle eşleştir. Sol: Kim? / Ne?; Neyi? / Kimi?; Nereye? / Nerede?. Sağ: Özne; Belirtili nesne; Dolaylı tümleç.",
+  "correctAnswer": "Kim? / Ne? = Özne; Neyi? / Kimi? = Belirtili nesne; Nereye? / Nerede? = Dolaylı tümleç",
+  "explanation": "Ögeler yükleme sorulan sorularla bulunur."
+ },
+ {
+  "questionId": "boss-a15-t6-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Zarf tümleci",
+  "outcome": "Cümlenin ögelerini (dolaylı tümleç, zarf tümleci) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Yarın sabah erkenden yola çıkacağız.” cümlesinde “Yarın sabah” hangi ögedir?",
+  "data": {
+   "options": [
+    "Zarf tümleci",
+    "Dolaylı tümleç",
+    "Özne"
+   ]
+  },
+  "textPlain": "“Yarın sabah erkenden yola çıkacağız.” cümlesinde “Yarın sabah” hangi ögedir? Seçenekler: Zarf tümleci / Dolaylı tümleç / Özne",
+  "correctAnswer": "Zarf tümleci",
+  "explanation": "“Ne zaman?” sorusunun cevabı zarf tümlecidir."
+ },
+ {
+  "questionId": "boss-a15-t6-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Öge sayısı",
+  "outcome": "Cümlenin ögelerini (yüklem) belirler; yüklemin türüne göre cümleleri ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "“Öğretmenimiz sınıfta bize ilginç bir deney gösterdi.” cümlesi kaç ögeden oluşur?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "“Öğretmenimiz sınıfta bize ilginç bir deney gösterdi.” cümlesi kaç ögeden oluşur?",
+  "correctAnswer": "5",
+  "explanation": "Öğretmenimiz (özne) / sınıfta (dolaylı tümleç) / bize (dolaylı tümleç) / ilginç bir deney (nesne) / gösterdi (yüklem) → 5 öge."
+ },
+ {
+  "questionId": "boss-a15-t6-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "İsim cümlesi",
+  "outcome": "Cümlenin ögelerini (yüklem) belirler; yüklemin türüne göre cümleleri ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi isim cümlesidir?",
+  "data": {
+   "options": [
+    "Bu kitap çok güzel.",
+    "Kardeşim okula gitti.",
+    "Rüzgâr bütün gece esti."
+   ]
+  },
+  "textPlain": "Hangisi isim cümlesidir? Seçenekler: Bu kitap çok güzel. / Kardeşim okula gitti. / Rüzgâr bütün gece esti.",
+  "correctAnswer": "Bu kitap çok güzel.",
+  "explanation": "Yüklemi isim soylu sözcük olan cümle isim cümlesidir: “çok güzel”."
+ },
+ {
+  "questionId": "boss-a15-t6-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Belirtisiz nesne",
+  "outcome": "Cümlenin ögelerini (nesne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "“Babam gazete okuyor.” cümlesindeki nesne belirtisiz nesnedir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Babam gazete okuyor.” cümlesindeki nesne belirtisiz nesnedir.",
+  "correctAnswer": "Doğru",
+  "explanation": "“gazete” ek almamıştır; “Ne okuyor?” sorusuyla bulunur."
+ },
+ {
+  "questionId": "boss-a15-t6-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Tümleçler",
+  "outcome": "Cümlenin ögelerini (dolaylı tümleç, zarf tümleci) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Sözcükleri cümledeki görevlerine göre ayır.",
+  "data": {
+   "bins": [
+    "Dolaylı tümleç",
+    "Zarf tümleci"
+   ],
+   "items": [
+    [
+     "eve (Eve döndü.)",
+     0
+    ],
+    [
+     "hızlıca (Hızlıca koştu.)",
+     1
+    ],
+    [
+     "okuldan (Okuldan geldi.)",
+     0
+    ],
+    [
+     "akşamleyin (Akşamleyin uyudu.)",
+     1
+    ],
+    [
+     "masada (Masada bekliyor.)",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Sözcükleri cümledeki görevlerine göre ayır. (Dolaylı tümleç / Zarf tümleci) Kartlar: eve (Eve döndü.); hızlıca (Hızlıca koştu.); okuldan (Okuldan geldi.); akşamleyin (Akşamleyin uyudu.); masada (Masada bekliyor.).",
+  "correctAnswer": "Dolaylı tümleç: eve (Eve döndü.), okuldan (Okuldan geldi.), masada (Masada bekliyor.). Zarf tümleci: hızlıca (Hızlıca koştu.), akşamleyin (Akşamleyin uyudu.).",
+  "explanation": "-e, -de, -den hâl ekli “nereye, nerede, nereden” cevapları dolaylı tümleç; “nasıl, ne zaman” cevapları zarf tümlecidir."
+ },
+ {
+  "questionId": "boss-a15-t6-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Gizli özne bulma",
+  "outcome": "Cümlenin ögelerini (özne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Gelecek hafta İstanbul’a gideceksiniz.” cümlesinin öznesi hangisidir?",
+  "data": {
+   "options": [
+    "Gizli özne (siz)",
+    "İstanbul’a",
+    "Gelecek hafta"
+   ]
+  },
+  "textPlain": "“Gelecek hafta İstanbul’a gideceksiniz.” cümlesinin öznesi hangisidir? Seçenekler: Gizli özne (siz) / İstanbul’a / Gelecek hafta",
+  "correctAnswer": "Gizli özne (siz)",
+  "explanation": "Yüklemdeki “-siniz” eki özneyi (siz) gösterir."
+ },
+ {
+  "questionId": "boss-a15-t6-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Durum bildiren",
+  "outcome": "Cümlenin ögelerini (dolaylı tümleç, zarf tümleci) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Kitabı rafa özenle yerleştirdim.” cümlesinde “özenle” hangi ögedir?",
+  "data": {
+   "options": [
+    "Zarf tümleci",
+    "Dolaylı tümleç",
+    "Nesne"
+   ]
+  },
+  "textPlain": "“Kitabı rafa özenle yerleştirdim.” cümlesinde “özenle” hangi ögedir? Seçenekler: Zarf tümleci / Dolaylı tümleç / Nesne",
+  "correctAnswer": "Zarf tümleci",
+  "explanation": "“Nasıl yerleştirdim?” → özenle."
+ },
+ {
+  "questionId": "boss-a15-t6-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Öbek hâlinde özne",
+  "outcome": "Cümlenin ögelerini (özne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Bahçedeki yaşlı çınar ağacı fırtınada devrildi.” cümlesinin öznesi hangisidir?",
+  "data": {
+   "options": [
+    "Bahçedeki yaşlı çınar ağacı",
+    "çınar ağacı",
+    "Bahçedeki yaşlı çınar ağacı fırtınada"
+   ]
+  },
+  "textPlain": "“Bahçedeki yaşlı çınar ağacı fırtınada devrildi.” cümlesinin öznesi hangisidir? Seçenekler: Bahçedeki yaşlı çınar ağacı / çınar ağacı / Bahçedeki yaşlı çınar ağacı fırtınada",
+  "correctAnswer": "Bahçedeki yaşlı çınar ağacı",
+  "explanation": "Özne bir sözcük öbeği olabilir: “Devrilen ne?” → bahçedeki yaşlı çınar ağacı."
+ },
+ {
+  "questionId": "boss-a15-t6-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Nesnesiz cümle",
+  "outcome": "Cümlenin ögelerini (nesne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede nesne yoktur?",
+  "data": {
+   "options": [
+    "Kuşlar sabah erkenden öttü.",
+    "Kuşlar yemleri yedi.",
+    "Kuşlar bahar gelince ağaca yeni bir yuva yaptı."
+   ]
+  },
+  "textPlain": "Hangi cümlede nesne yoktur? Seçenekler: Kuşlar sabah erkenden öttü. / Kuşlar yemleri yedi. / Kuşlar bahar gelince ağaca yeni bir yuva yaptı.",
+  "correctAnswer": "Kuşlar sabah erkenden öttü.",
+  "explanation": "“öttü” yüklemi nesne almaz; diğerlerinde “yemleri” ve “yuva” nesnedir."
+ },
+ {
+  "questionId": "boss-a15-t6-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Neden",
+  "outcome": "Cümlenin ögelerini (dolaylı tümleç, zarf tümleci) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "“Neden geç kaldın?” cümlesinde “Neden” sözcüğü zarf tümlecidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Neden geç kaldın?” cümlesinde “Neden” sözcüğü zarf tümlecidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sebep bildiren soru sözcükleri zarf tümleci görevindedir."
+ },
+ {
+  "questionId": "boss-a15-t6-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Öge sayısı",
+  "outcome": "Cümlenin ögelerini (yüklem) belirler; yüklemin türüne göre cümleleri ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "“Annem dün pazardan taze sebzeler aldı.” cümlesi kaç ögeden oluşur?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "“Annem dün pazardan taze sebzeler aldı.” cümlesi kaç ögeden oluşur?",
+  "correctAnswer": "5",
+  "explanation": "Annem (özne) / dün (zarf tümleci) / pazardan (dolaylı tümleç) / taze sebzeler (nesne) / aldı (yüklem) → 5."
+ },
+ {
+  "questionId": "boss-a15-t6-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "İsim soylu yüklem",
+  "outcome": "Cümlenin ögelerini (yüklem) belirler; yüklemin türüne göre cümleleri ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlenin yüklemi isim soylu bir sözcüktür?",
+  "data": {
+   "options": [
+    "Bu işi yapacak kişi sensin.",
+    "Bu işi sen yapacaksın.",
+    "Bu işi sen yaptın."
+   ]
+  },
+  "textPlain": "Hangi cümlenin yüklemi isim soylu bir sözcüktür? Seçenekler: Bu işi yapacak kişi sensin. / Bu işi sen yapacaksın. / Bu işi sen yaptın.",
+  "correctAnswer": "Bu işi yapacak kişi sensin.",
+  "explanation": "“sensin” zamirin ek fiil almış biçimidir; cümle isim cümlesidir."
+ },
+ {
+  "questionId": "boss-a15-t6-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümlenin Ögeleri ve Fiilde Çatı",
+  "topic": "Gizli ve açık özne",
+  "outcome": "Cümlenin ögelerini (özne) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t6",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Cümleleri öznelerine göre ayır.",
+  "data": {
+   "bins": [
+    "Gizli özne",
+    "Açık özne"
+   ],
+   "items": [
+    [
+     "Dün sinemaya gittik.",
+     0
+    ],
+    [
+     "Kuşlar göç etti.",
+     1
+    ],
+    [
+     "Kitabı bitirdim.",
+     0
+    ],
+    [
+     "Annem çay demledi.",
+     1
+    ],
+    [
+     "Erkenden yola çıktınız.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri öznelerine göre ayır. (Gizli özne / Açık özne) Kartlar: Dün sinemaya gittik.; Kuşlar göç etti.; Kitabı bitirdim.; Annem çay demledi.; Erkenden yola çıktınız..",
+  "correctAnswer": "Gizli özne: Dün sinemaya gittik., Kitabı bitirdim., Erkenden yola çıktınız.. Açık özne: Kuşlar göç etti., Annem çay demledi..",
+  "explanation": "Özne cümlede yazılmamışsa ve kişi ekinden anlaşılıyorsa gizli öznedir."
+ },
+ {
+  "questionId": "boss-a15-t7-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Devrik cümle",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Geldi sonunda beklenen bahar.” cümlesi yüklemin yerine göre nasıl bir cümledir?",
+  "data": {
+   "options": [
+    "Devrik cümle",
+    "Kurallı cümle",
+    "Soru cümlesi"
+   ]
+  },
+  "textPlain": "“Geldi sonunda beklenen bahar.” cümlesi yüklemin yerine göre nasıl bir cümledir? Seçenekler: Devrik cümle / Kurallı cümle / Soru cümlesi",
+  "correctAnswer": "Devrik cümle",
+  "explanation": "Yüklem (geldi) sonda değil, başta olduğu için cümle devriktir."
+ },
+ {
+  "questionId": "boss-a15-t7-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Olumlu ve olumsuz",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cümleleri anlamına göre ayır.",
+  "data": {
+   "bins": [
+    "Olumlu",
+    "Olumsuz"
+   ],
+   "items": [
+    [
+     "Hiç yorulmadık.",
+     1
+    ],
+    [
+     "Kitabı bitirdim.",
+     0
+    ],
+    [
+     "Bize haber vermedin.",
+     1
+    ],
+    [
+     "Bahçede çiçekler açtı.",
+     0
+    ],
+    [
+     "Bu yaz tatile gitmeyeceğiz.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri anlamına göre ayır. (Olumlu / Olumsuz) Kartlar: Hiç yorulmadık.; Kitabı bitirdim.; Bize haber vermedin.; Bahçede çiçekler açtı.; Bu yaz tatile gitmeyeceğiz..",
+  "correctAnswer": "Olumlu: Kitabı bitirdim., Bahçede çiçekler açtı.. Olumsuz: Hiç yorulmadık., Bize haber vermedin., Bu yaz tatile gitmeyeceğiz..",
+  "explanation": "Yüklemi olumsuzluk eki (-ma/-me) almış cümleler olumsuzdur."
+ },
+ {
+  "questionId": "boss-a15-t7-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Bağlaç de",
+  "outcome": "Yazım kurallarını uygular (bitişik ve ayrı yazılan sözcükler).",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Sen de gel.” cümlesindeki “de” bağlaçtır ve ayrı yazılır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Sen de gel.” cümlesindeki “de” bağlaçtır ve ayrı yazılır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Bağlaç olan “de” her zaman ayrı yazılır; cümleden çıkarılınca cümle bozulmaz."
+ },
+ {
+  "questionId": "boss-a15-t7-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Soru işareti",
+  "outcome": "Noktalama işaretlerini işlevine uygun olarak kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangi cümlenin sonuna soru işareti konmalıdır?",
+  "data": {
+   "options": [
+    "Yarın bize gelecek misin",
+    "Yarın bize mutlaka gel",
+    "Yarın size geleceğim"
+   ]
+  },
+  "textPlain": "Hangi cümlenin sonuna soru işareti konmalıdır? Seçenekler: Yarın bize gelecek misin / Yarın bize mutlaka gel / Yarın size geleceğim",
+  "correctAnswer": "Yarın bize gelecek misin",
+  "explanation": "Soru eki (mi) taşıyan, soru bildiren cümlenin sonuna soru işareti konur."
+ },
+ {
+  "questionId": "boss-a15-t7-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Kesme işareti",
+  "outcome": "Yazım kurallarını uygular (büyük harf, kesme işareti).",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi doğru yazılmıştır?",
+  "data": {
+   "options": [
+    "Ankara’da yaşıyorum.",
+    "Ankarada yaşıyorum.",
+    "ankara’da yaşıyorum."
+   ]
+  },
+  "textPlain": "Hangisi doğru yazılmıştır? Seçenekler: Ankara’da yaşıyorum. / Ankarada yaşıyorum. / ankara’da yaşıyorum.",
+  "correctAnswer": "Ankara’da yaşıyorum.",
+  "explanation": "Özel adlar büyük harfle başlar; özel adlara gelen ekler kesmeyle ayrılır."
+ },
+ {
+  "questionId": "boss-a15-t7-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Kurallı cümle",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Yüklemi sonda olan cümleler kurallı cümledir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Yüklemi sonda olan cümleler kurallı cümledir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Türkçede kurallı cümlede yüklem sondadır; başta ya da ortadaysa cümle devriktir."
+ },
+ {
+  "questionId": "boss-a15-t7-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Noktalama",
+  "outcome": "Noktalama işaretlerini işlevine uygun olarak kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "kolay",
+  "group": "t7",
+  "rank": 1,
+  "type": "match",
+  "prompt": "İşaretleri kullanıldıkları yerle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Nokta",
+     "Tamamlanmış cümlenin sonu"
+    ],
+    [
+     "Soru işareti",
+     "Soru bildiren cümlenin sonu"
+    ],
+    [
+     "Ünlem",
+     "Duygu ve seslenme bildiren cümlenin sonu"
+    ]
+   ]
+  },
+  "textPlain": "İşaretleri kullanıldıkları yerle eşleştir. Sol: Nokta; Soru işareti; Ünlem. Sağ: Tamamlanmış cümlenin sonu; Soru bildiren cümlenin sonu; Duygu ve seslenme bildiren cümlenin sonu.",
+  "correctAnswer": "Nokta = Tamamlanmış cümlenin sonu; Soru işareti = Soru bildiren cümlenin sonu; Ünlem = Duygu ve seslenme bildiren cümlenin sonu",
+  "explanation": "Cümle sonuna, cümlenin anlamına uygun işaret konur."
+ },
+ {
+  "questionId": "boss-a15-t7-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Birleşik cümle",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi yapısına göre birleşik bir cümledir?",
+  "data": {
+   "options": [
+    "Yağmur yağarsa maça gitmeyiz.",
+    "Kar yağdı, yollar kapandı.",
+    "Kar bütün gece yağdı ve sabaha doğru yollar kapandı."
+   ]
+  },
+  "textPlain": "Hangisi yapısına göre birleşik bir cümledir? Seçenekler: Yağmur yağarsa maça gitmeyiz. / Kar yağdı, yollar kapandı. / Kar bütün gece yağdı ve sabaha doğru yollar kapandı.",
+  "correctAnswer": "Yağmur yağarsa maça gitmeyiz.",
+  "explanation": "“Yağmur yağarsa” şart bildiren bir yan cümleciktir; diğerleri sıralı ve bağlı cümlelerdir."
+ },
+ {
+  "questionId": "boss-a15-t7-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Yazım yanlışı",
+  "outcome": "Yazım kurallarını uygular; sık karıştırılan sözcükleri doğru yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede yazım yanlışı vardır?",
+  "data": {
+   "options": [
+    "Herkez bu konuda haklı.",
+    "Yalnız kalmak istiyorum.",
+    "Yanlış cevabı düzelttim."
+   ]
+  },
+  "textPlain": "Hangi cümlede yazım yanlışı vardır? Seçenekler: Herkez bu konuda haklı. / Yalnız kalmak istiyorum. / Yanlış cevabı düzelttim.",
+  "correctAnswer": "Herkez bu konuda haklı.",
+  "explanation": "Doğrusu “herkes”tir."
+ },
+ {
+  "questionId": "boss-a15-t7-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Bitişik ve ayrı",
+  "outcome": "Yazım kurallarını uygular (bitişik ve ayrı yazılan sözcükler).",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Sözcükleri yazımına göre ayır.",
+  "data": {
+   "bins": [
+    "Ayrı yazılır",
+    "Bitişik yazılır"
+   ],
+   "items": [
+    [
+     "her şey",
+     0
+    ],
+    [
+     "birçok",
+     1
+    ],
+    [
+     "hiçbir",
+     1
+    ],
+    [
+     "bir şey",
+     0
+    ],
+    [
+     "herkes",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Sözcükleri yazımına göre ayır. (Ayrı yazılır / Bitişik yazılır) Kartlar: her şey; birçok; hiçbir; bir şey; herkes.",
+  "correctAnswer": "Ayrı yazılır: her şey, bir şey. Bitişik yazılır: birçok, hiçbir, herkes.",
+  "explanation": "“Bir şey, her şey” ayrı; “birçok, hiçbir, herkes” bitişik yazılır."
+ },
+ {
+  "questionId": "boss-a15-t7-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Virgül ve ve",
+  "outcome": "Noktalama işaretlerini işlevine uygun olarak kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "“Ali, Veli, ve Can geldi.” cümlesinde noktalama doğru kullanılmıştır.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? “Ali, Veli, ve Can geldi.” cümlesinde noktalama doğru kullanılmıştır.",
+  "correctAnswer": "Yanlış",
+  "explanation": "“ve” bağlacından önce virgül konmaz: Ali, Veli ve Can geldi."
+ },
+ {
+  "questionId": "boss-a15-t7-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Sıralı cümle",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi sıralı bir cümledir?",
+  "data": {
+   "options": [
+    "Kapıyı açtı, içeri girdi.",
+    "Kapıyı açtı ve içeri girdi.",
+    "Kapıyı açınca içeri girdi."
+   ]
+  },
+  "textPlain": "Hangisi sıralı bir cümledir? Seçenekler: Kapıyı açtı, içeri girdi. / Kapıyı açtı ve içeri girdi. / Kapıyı açınca içeri girdi.",
+  "correctAnswer": "Kapıyı açtı, içeri girdi.",
+  "explanation": "Virgülle bağlanan bağımsız cümleler sıralı cümle; “ve” ile bağlananlar bağlı cümledir."
+ },
+ {
+  "questionId": "boss-a15-t7-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Kısaltmaya ek",
+  "outcome": "Yazım kurallarını uygular; sık karıştırılan sözcükleri doğru yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“TBMM” kısaltmasına “-e” eki nasıl getirilir?",
+  "data": {
+   "options": [
+    "TBMM’ye",
+    "TBMM’ne",
+    "TBMMye"
+   ]
+  },
+  "textPlain": "“TBMM” kısaltmasına “-e” eki nasıl getirilir? Seçenekler: TBMM’ye / TBMM’ne / TBMMye",
+  "correctAnswer": "TBMM’ye",
+  "explanation": "Kısaltmaya gelen ek kesmeyle ayrılır ve okunuşa uyar: te-be-me-me’ye."
+ },
+ {
+  "questionId": "boss-a15-t7-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Büyük harf",
+  "outcome": "Yazım kurallarını uygular (büyük harf, kesme işareti).",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "orta",
+  "group": "t7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede büyük harf yanlış kullanılmıştır?",
+  "data": {
+   "options": [
+    "Toplantı Salı günü yapılacak.",
+    "29 Ekim günü bayramı kutladık.",
+    "Ali Bey bize uğradı."
+   ]
+  },
+  "textPlain": "Hangi cümlede büyük harf yanlış kullanılmıştır? Seçenekler: Toplantı Salı günü yapılacak. / 29 Ekim günü bayramı kutladık. / Ali Bey bize uğradı.",
+  "correctAnswer": "Toplantı Salı günü yapılacak.",
+  "explanation": "Belirli bir tarih bildirmeyen gün adları küçük harfle başlar: salı."
+ },
+ {
+  "questionId": "boss-a15-t7-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Biçim ve anlam",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Gelmez olur mu hiç!” cümlesi için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Biçimce olumsuz, anlamca olumludur.",
+    "Biçimce de anlamca da olumsuzdur.",
+    "Biçimce olumlu, anlamca ise kesinlikle olumsuzdur."
+   ]
+  },
+  "textPlain": "“Gelmez olur mu hiç!” cümlesi için hangisi doğrudur? Seçenekler: Biçimce olumsuz, anlamca olumludur. / Biçimce de anlamca da olumsuzdur. / Biçimce olumlu, anlamca ise kesinlikle olumsuzdur.",
+  "correctAnswer": "Biçimce olumsuz, anlamca olumludur.",
+  "explanation": "Cümle “mutlaka gelir” anlamındadır; biçimce olumsuz görünse de anlamca olumludur."
+ },
+ {
+  "questionId": "boss-a15-t7-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Saat yazımı",
+  "outcome": "Noktalama işaretlerini işlevine uygun olarak kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "zor",
+  "group": "t7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Saat 14 _ 30’da buluşalım.” cümlesinde boşluğa hangi işaret gelmelidir?",
+  "data": {
+   "options": [
+    "Nokta (.)",
+    "İki nokta (:)",
+    "Virgül (,)"
+   ]
+  },
+  "textPlain": "“Saat 14 _ 30’da buluşalım.” cümlesinde boşluğa hangi işaret gelmelidir? Seçenekler: Nokta (.) / İki nokta (:) / Virgül (,)",
+  "correctAnswer": "Nokta (.)",
+  "explanation": "Saat ve dakika gösterilirken nokta kullanılır: 14.30."
+ },
+ {
+  "questionId": "boss-a15-t7-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Kurallı ve devrik",
+  "outcome": "Cümleleri yüklemin türüne, yerine, anlamına ve yapısına göre ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Dil Bilgisi: Cümlenin ögeleri, cümle türleri",
+  "difficulty": "zor",
+  "group": "t7",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Cümleleri yüklemin yerine göre ayır.",
+  "data": {
+   "bins": [
+    "Kurallı",
+    "Devrik"
+   ],
+   "items": [
+    [
+     "Duydum ki geliyormuşsun.",
+     1
+    ],
+    [
+     "Bu işi en iyi yapacak kişi sensin.",
+     0
+    ],
+    [
+     "Gitti mi bütün misafirler?",
+     1
+    ],
+    [
+     "Neden bize haber vermedin?",
+     0
+    ],
+    [
+     "Okudum o kitabı bir gecede.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri yüklemin yerine göre ayır. (Kurallı / Devrik) Kartlar: Duydum ki geliyormuşsun.; Bu işi en iyi yapacak kişi sensin.; Gitti mi bütün misafirler?; Neden bize haber vermedin?; Okudum o kitabı bir gecede..",
+  "correctAnswer": "Kurallı: Bu işi en iyi yapacak kişi sensin., Neden bize haber vermedin?. Devrik: Duydum ki geliyormuşsun., Gitti mi bütün misafirler?, Okudum o kitabı bir gecede..",
+  "explanation": "Yüklemi sonda olanlar kurallı, başta ya da ortada olanlar devriktir."
+ },
+ {
+  "questionId": "boss-a15-t7-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "-ki eki",
+  "outcome": "Yazım kurallarını uygular (bitişik ve ayrı yazılan sözcükler).",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "zor",
+  "group": "t7",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "“Masadaki kitabı uzat.” cümlesindeki “-ki” ayrı yazılmalıdır.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? “Masadaki kitabı uzat.” cümlesindeki “-ki” ayrı yazılmalıdır.",
+  "correctAnswer": "Yanlış",
+  "explanation": "“Masadaki” sözcüğündeki “-ki” sıfat yapan ektir; bitişik yazılır."
+ },
+ {
+  "questionId": "boss-a15-t7-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Noktalı virgül",
+  "outcome": "Noktalama işaretlerini işlevine uygun olarak kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "zor",
+  "group": "t7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede noktalı virgül doğru kullanılmıştır?",
+  "data": {
+   "options": [
+    "Yazın Bodrum’a, Kaş’a; kışın Erzurum’a, Kars’a gideceğiz.",
+    "Bugün hava; çok güzel ve güneşli olduğu için hepimiz dışarı çıktık.",
+    "Kitabı aldım; ve bütün akşam boyunca hiç ara vermeden okudum."
+   ]
+  },
+  "textPlain": "Hangi cümlede noktalı virgül doğru kullanılmıştır? Seçenekler: Yazın Bodrum’a, Kaş’a; kışın Erzurum’a, Kars’a gideceğiz. / Bugün hava; çok güzel ve güneşli olduğu için hepimiz dışarı çıktık. / Kitabı aldım; ve bütün akşam boyunca hiç ara vermeden okudum.",
+  "correctAnswer": "Yazın Bodrum’a, Kaş’a; kışın Erzurum’a, Kars’a gideceğiz.",
+  "explanation": "Noktalı virgül, ögeleri virgülle ayrılmış eş görevli öbekleri ayırır."
+ },
+ {
+  "questionId": "boss-a15-t7-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Cümle Türleri ve Yazım-Noktalama",
+  "topic": "Kesme yanlışı",
+  "outcome": "Yazım kurallarını uygular (büyük harf, kesme işareti).",
+  "sourceRef": "8. Sınıf Öğretim Programı, Yazım ve Noktalama; Anlatım Bozuklukları",
+  "difficulty": "zor",
+  "group": "t7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangi cümlede kesme işareti yanlış kullanılmıştır?",
+  "data": {
+   "options": [
+    "Fransızca’yı çok iyi konuşuyor.",
+    "NATO’ya katıldı.",
+    "İstanbul’da yaşıyor."
+   ]
+  },
+  "textPlain": "Hangi cümlede kesme işareti yanlış kullanılmıştır? Seçenekler: Fransızca’yı çok iyi konuşuyor. / NATO’ya katıldı. / İstanbul’da yaşıyor.",
+  "correctAnswer": "Fransızca’yı çok iyi konuşuyor.",
+  "explanation": "-ca ekiyle kurulan dil adlarına gelen ekler kesmeyle ayrılmaz: Fransızcayı."
+ }
+]
