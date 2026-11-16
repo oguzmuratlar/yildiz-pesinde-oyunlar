@@ -1,0 +1,2599 @@
+[
+  {
+    "questionId": "mat8u9-yardimci-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "yardimci",
+    "rank": 1,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        5,
+        8
+      ],
+      "n": 14,
+      "k": "kenarortay",
+      "t": 7.0
+    },
+    "textPlain": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(14, 0), A(5, 8) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 7, DC = 7 olan nokta",
+    "explanation": "Kenarortay, köşeyi karşı kenarın orta noktasına birleştirir: BD = DC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "yardimci",
+    "rank": 1,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        4,
+        6
+      ],
+      "n": 10,
+      "k": "yükseklik",
+      "t": 4
+    },
+    "textPlain": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(10, 0), A(4, 6) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 4, DC = 6 olan nokta",
+    "explanation": "Yükseklik, köşeden karşı kenara dik inen doğru parçasıdır: ∠ADC = 90° olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "yardimci",
+    "rank": 1,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        6,
+        8
+      ],
+      "n": 12,
+      "k": "kenarortay",
+      "t": 6.0
+    },
+    "textPlain": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(12, 0), A(6, 8) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 6, DC = 6 olan nokta",
+    "explanation": "Kenarortay, köşeyi karşı kenarın orta noktasına birleştirir: BD = DC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        2,
+        7
+      ],
+      "n": 12,
+      "k": "açıortay",
+      "t": 4.5
+    },
+    "textPlain": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(12, 0), A(2, 7) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 4,5, DC = 7,5 olan nokta",
+    "explanation": "Açıortay, köşedeki açıyı iki eş parçaya böler: ∠BAD = ∠DAC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        3,
+        7
+      ],
+      "n": 11,
+      "k": "yükseklik",
+      "t": 3
+    },
+    "textPlain": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(11, 0), A(3, 7) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 3, DC = 8 olan nokta",
+    "explanation": "Yükseklik, köşeden karşı kenara dik inen doğru parçasıdır: ∠ADC = 90° olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        10,
+        7
+      ],
+      "n": 13,
+      "k": "açıortay",
+      "t": 8.0
+    },
+    "textPlain": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(13, 0), A(10, 7) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 8, DC = 5 olan nokta",
+    "explanation": "Açıortay, köşedeki açıyı iki eş parçaya böler: ∠BAD = ∠DAC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        2,
+        5
+      ],
+      "n": 9,
+      "k": "kenarortay",
+      "t": 4.5
+    },
+    "textPlain": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(9, 0), A(2, 5) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 4,5, DC = 4,5 olan nokta",
+    "explanation": "Kenarortay, köşeyi karşı kenarın orta noktasına birleştirir: BD = DC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        7,
+        6
+      ],
+      "n": 10,
+      "k": "yükseklik",
+      "t": 7
+    },
+    "textPlain": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(10, 0), A(7, 6) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 7, DC = 3 olan nokta",
+    "explanation": "Yükseklik, köşeden karşı kenara dik inen doğru parçasıdır: ∠ADC = 90° olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        2,
+        6
+      ],
+      "n": 14,
+      "k": "açıortay",
+      "t": 4.5
+    },
+    "textPlain": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(14, 0), A(2, 6) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 4,5, DC = 9,5 olan nokta",
+    "explanation": "Açıortay, köşedeki açıyı iki eş parçaya böler: ∠BAD = ∠DAC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        8,
+        5
+      ],
+      "n": 9,
+      "k": "kenarortay",
+      "t": 4.5
+    },
+    "textPlain": "A köşesinden BC kenarına kenarortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(9, 0), A(8, 5) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 4,5, DC = 4,5 olan nokta",
+    "explanation": "Kenarortay, köşeyi karşı kenarın orta noktasına birleştirir: BD = DC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "yardimci",
+    "rank": 1,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        3,
+        7
+      ],
+      "n": 13,
+      "k": "açıortay",
+      "t": 5.0
+    },
+    "textPlain": "A köşesinden BC kenarına açıortay çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(13, 0), A(3, 7) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 5, DC = 8 olan nokta",
+    "explanation": "Açıortay, köşedeki açıyı iki eş parçaya böler: ∠BAD = ∠DAC olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "cevian",
+    "prompt": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak.",
+    "data": {
+      "A": [
+        10,
+        7
+      ],
+      "n": 12,
+      "k": "yükseklik",
+      "t": 10
+    },
+    "textPlain": "A köşesinden BC kenarına yükseklik çiz: D noktasını BC üzerinde kaydır, ölçülere bakarak doğru yerde bırak. [Şekil: B(0, 0), C(12, 0), A(10, 7) köşeli üçgen; D, BC üzerinde 0,5 birim adımlarla kayıyor; BD, DC, ∠BAD, ∠DAC ve ∠ADC ölçüleri görünüyor.]",
+    "correctAnswer": "BD = 10, DC = 2 olan nokta",
+    "explanation": "Yükseklik, köşeden karşı kenara dik inen doğru parçasıdır: ∠ADC = 90° olur."
+  },
+  {
+    "questionId": "mat8u9-yardimci-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "yardimci",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Özellikleri doğru yardımcı elemana yerleştir.",
+    "data": {
+      "L": [
+        "📍 Kenarortay",
+        "📐 Açıortay",
+        "⬇️ Yükseklik"
+      ],
+      "r": [
+        [
+          "Karşı kenarı iki eş parçaya ayırır",
+          0
+        ],
+        [
+          "Köşedeki açıyı iki eş açıya ayırır",
+          1
+        ],
+        [
+          "Karşı kenara dik iner",
+          2
+        ],
+        [
+          "Alan hesabında kullanılır",
+          2
+        ],
+        [
+          "BD = DC",
+          0
+        ],
+        [
+          "∠BAD = ∠DAC",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Özellikleri doğru yardımcı elemana yerleştir. Bölmeler: Kenarortay, Açıortay, Yükseklik. Kartlar: Karşı kenarı iki eş parçaya ayırır, Köşedeki açıyı iki eş açıya ayırır, Karşı kenara dik iner, Alan hesabında kullanılır, BD = DC, ∠BAD = ∠DAC.",
+    "correctAnswer": "Karşı kenarı iki eş parçaya ayırır → Kenarortay | Köşedeki açıyı iki eş açıya ayırır → Açıortay | Karşı kenara dik iner → Yükseklik | Alan hesabında kullanılır → Yükseklik | BD = DC → Kenarortay | ∠BAD = ∠DAC → Açıortay",
+    "explanation": "Kenarortay kenarı, açıortay açıyı ortadan böler; yükseklik karşı kenara diktir ve alan = taban × yükseklik ÷ 2 hesabında kullanılır."
+  },
+  {
+    "questionId": "mat8u9-yardimci-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Verilenlerle üçgenin tek türlü çizilip çizilemeyeceğini ayır.",
+    "data": {
+      "L": [
+        "✅ Tek türlü çizilir",
+        "❌ Tek türlü çizilmez"
+      ],
+      "r": [
+        [
+          "Üç kenar: 5, 6, 7 cm",
+          0
+        ],
+        [
+          "İki kenar ve aradaki açı",
+          0
+        ],
+        [
+          "Bir kenar ve iki ucundaki açılar",
+          0
+        ],
+        [
+          "Üç açı: 50°, 60°, 70°",
+          1
+        ],
+        [
+          "Yalnızca iki kenar: 4 ve 6 cm",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Verilenlerle üçgenin tek türlü çizilip çizilemeyeceğini ayır. Bölmeler: Tek türlü çizilir, Tek türlü çizilmez. Kartlar: Üç kenar: 5, 6, 7 cm, İki kenar ve aradaki açı, Bir kenar ve iki ucundaki açılar, Üç açı: 50°, 60°, 70°, Yalnızca iki kenar: 4 ve 6 cm.",
+    "correctAnswer": "Üç kenar: 5, 6, 7 cm → Tek türlü çizilir | İki kenar ve aradaki açı → Tek türlü çizilir | Bir kenar ve iki ucundaki açılar → Tek türlü çizilir | Üç açı: 50°, 60°, 70° → Tek türlü çizilmez | Yalnızca iki kenar: 4 ve 6 cm → Tek türlü çizilmez",
+    "explanation": "Bir üçgen; üç kenarı, iki kenarı ve aradaki açısı ya da bir kenarı ve bu kenarın iki ucundaki açıları verilince tek türlü çizilir. Yalnızca açılar verilirse aynı biçimde farklı büyüklükte üçgenler çizilir."
+  },
+  {
+    "questionId": "mat8u9-yardimci-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Ölçüleri verilen üçgenlerin çizilip çizilemeyeceğini ayır.",
+    "data": {
+      "L": [
+        "✅ Çizilebilir",
+        "❌ Çizilemez"
+      ],
+      "r": [
+        [
+          "Kenarlar 3, 4, 5 cm",
+          0
+        ],
+        [
+          "Kenarlar 2, 3, 6 cm",
+          1
+        ],
+        [
+          "Açılar 90°, 60°, 30°",
+          0
+        ],
+        [
+          "Açılar 100°, 50°, 40°",
+          1
+        ],
+        [
+          "Kenarlar 4, 4, 7 cm",
+          0
+        ],
+        [
+          "Kenarlar 5, 5, 10 cm",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Ölçüleri verilen üçgenlerin çizilip çizilemeyeceğini ayır. Bölmeler: Çizilebilir, Çizilemez. Kartlar: Kenarlar 3, 4, 5 cm, Kenarlar 2, 3, 6 cm, Açılar 90°, 60°, 30°, Açılar 100°, 50°, 40°, Kenarlar 4, 4, 7 cm, Kenarlar 5, 5, 10 cm.",
+    "correctAnswer": "Kenarlar 3, 4, 5 cm → Çizilebilir | Kenarlar 2, 3, 6 cm → Çizilemez | Açılar 90°, 60°, 30° → Çizilebilir | Açılar 100°, 50°, 40° → Çizilemez | Kenarlar 4, 4, 7 cm → Çizilebilir | Kenarlar 5, 5, 10 cm → Çizilemez",
+    "explanation": "Kenarlarda her kenar diğer ikisinin toplamından küçük olmalıdır; açılarda iç açıların toplamı 180° olmalıdır."
+  },
+  {
+    "questionId": "mat8u9-yardimci-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "yardimci",
+    "rank": 1,
+    "type": "key",
+    "prompt": "ABC üçgeninde AD kenarortaydır. BC = 18 cm ise BD kaç cm’dir?",
+    "data": {
+      "a": 9,
+      "u": "cm"
+    },
+    "textPlain": "ABC üçgeninde AD kenarortaydır. BC = 18 cm ise BD kaç cm’dir?",
+    "correctAnswer": "9 cm",
+    "explanation": "Kenarortay BC’yi iki eş parçaya ayırır: 18 ÷ 2 = 9."
+  },
+  {
+    "questionId": "mat8u9-yardimci-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "key",
+    "prompt": "ABC üçgeninde AD açıortaydır. m(∠BAC) = 76° ise m(∠BAD) kaç derecedir?",
+    "data": {
+      "a": 38,
+      "u": "derece"
+    },
+    "textPlain": "ABC üçgeninde AD açıortaydır. m(∠BAC) = 76° ise m(∠BAD) kaç derecedir?",
+    "correctAnswer": "38 derece",
+    "explanation": "Açıortay açıyı iki eş parçaya böler: 76 ÷ 2 = 38."
+  },
+  {
+    "questionId": "mat8u9-yardimci-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "yardimci",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Tabanı 12 cm olan üçgenin bu tabana ait yüksekliği 7 cm’dir. Alanı kaç cm²’dir?",
+    "data": {
+      "a": 42,
+      "u": "cm²"
+    },
+    "textPlain": "Tabanı 12 cm olan üçgenin bu tabana ait yüksekliği 7 cm’dir. Alanı kaç cm²’dir?",
+    "correctAnswer": "42 cm²",
+    "explanation": "Alan = taban × yükseklik ÷ 2 = 12 × 7 ÷ 2 = 42."
+  },
+  {
+    "questionId": "mat8u9-yardimci-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Alanı 60 cm² olan üçgenin 15 cm’lik kenarına ait yüksekliği kaç cm’dir?",
+    "data": {
+      "a": 8,
+      "u": "cm"
+    },
+    "textPlain": "Alanı 60 cm² olan üçgenin 15 cm’lik kenarına ait yüksekliği kaç cm’dir?",
+    "correctAnswer": "8 cm",
+    "explanation": "15 × h ÷ 2 = 60 → h = 8."
+  },
+  {
+    "questionId": "mat8u9-yardimci-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenarortay, açıortay, yükseklik ve üçgen çizimi",
+    "outcome": "Üçgende kenarortay, açıortay ve yüksekliği inşa eder; yeterli sayıda elemanının ölçüleri verilen üçgeni çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "yardimci",
+    "rank": 3,
+    "type": "key",
+    "prompt": "ABC üçgeninde AH yüksekliktir, H noktası BC üzerindedir. m(∠B) = 58° ise m(∠BAH) kaç derecedir?",
+    "data": {
+      "a": 32,
+      "u": "derece"
+    },
+    "textPlain": "ABC üçgeninde AH yüksekliktir, H noktası BC üzerindedir. m(∠B) = 58° ise m(∠BAH) kaç derecedir?",
+    "correctAnswer": "32 derece",
+    "explanation": "ABH dik üçgeninde ∠AHB = 90°: 180 − 90 − 58 = 32."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "esitsizlik",
+    "rank": 1,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        2,
+        3,
+        7,
+        9,
+        4
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 2, 3, 7, 9, 4.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 2 · 3 · 4 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "esitsizlik",
+    "rank": 1,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        1,
+        5,
+        8,
+        10,
+        3
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 1, 5, 8, 10, 3.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 5 · 8 · 10 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        2,
+        4,
+        6,
+        11,
+        5
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 2, 4, 6, 11, 5.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 2 · 4 · 5 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        3,
+        3,
+        7,
+        12,
+        1
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 3, 3, 7, 12, 1.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 3 · 3 · 1 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        6,
+        2,
+        14,
+        9,
+        4
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 6, 2, 14, 9, 4.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 6 · 14 · 9 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        1,
+        2,
+        4,
+        8,
+        15,
+        6
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 1, 2, 4, 8, 15, 6.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 4 · 8 · 6 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "rods",
+    "prompt": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur.",
+    "data": {
+      "L": [
+        5,
+        10,
+        2,
+        16,
+        3,
+        20
+      ]
+    },
+    "textPlain": "Çubuk rafından üç çubuk seç ve köprü iskelesini üçgen olarak kur. Çubuk uzunlukları (cm): 5, 10, 2, 16, 3, 20.",
+    "correctAnswer": "Üçgen kuran herhangi bir üçlü; ör. 5 · 16 · 20 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "esitsizlik",
+    "rank": 1,
+    "type": "rod3",
+    "prompt": "İki çubuk 4 cm ve 7 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en uzun üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 4,
+      "b": 7,
+      "k": "max",
+      "v": 10
+    },
+    "textPlain": "İki çubuk 4 cm ve 7 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en uzun üçüncü çubuğu ayarla.",
+    "correctAnswer": "10 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 3 < x < 11 → x en çok 10."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "esitsizlik",
+    "rank": 1,
+    "type": "rod3",
+    "prompt": "İki çubuk 5 cm ve 9 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 5,
+      "b": 9,
+      "k": "min",
+      "v": 5
+    },
+    "textPlain": "İki çubuk 5 cm ve 9 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "correctAnswer": "5 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 4 < x < 14 → x en az 5."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "rod3",
+    "prompt": "İki çubuk 6 cm ve 11 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en uzun üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 6,
+      "b": 11,
+      "k": "max",
+      "v": 16
+    },
+    "textPlain": "İki çubuk 6 cm ve 11 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en uzun üçüncü çubuğu ayarla.",
+    "correctAnswer": "16 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 5 < x < 17 → x en çok 16."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "rod3",
+    "prompt": "İki çubuk 8 cm ve 3 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 8,
+      "b": 3,
+      "k": "min",
+      "v": 6
+    },
+    "textPlain": "İki çubuk 8 cm ve 3 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "correctAnswer": "6 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 5 < x < 11 → x en az 6."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "rod3",
+    "prompt": "İki çubuk 12 cm ve 7 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 12,
+      "b": 7,
+      "k": "min",
+      "v": 6
+    },
+    "textPlain": "İki çubuk 12 cm ve 7 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "correctAnswer": "6 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 5 < x < 19 → x en az 6."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "rod3",
+    "prompt": "İki çubuk 15 cm ve 9 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en uzun üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 15,
+      "b": 9,
+      "k": "max",
+      "v": 23
+    },
+    "textPlain": "İki çubuk 15 cm ve 9 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en uzun üçüncü çubuğu ayarla.",
+    "correctAnswer": "23 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 6 < x < 24 → x en çok 23."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "rod3",
+    "prompt": "İki çubuk 13 cm ve 20 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "data": {
+      "a": 13,
+      "b": 20,
+      "k": "min",
+      "v": 8
+    },
+    "textPlain": "İki çubuk 13 cm ve 20 cm. Üçüncü çubuğun uzunluğu tam sayı olacak. Üçgen kurulabilen en kısa üçüncü çubuğu ayarla.",
+    "correctAnswer": "8 cm",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 7 < x < 33 → x en az 8."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "esitsizlik",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Kenar uzunluklarına göre üçlüleri ayır.",
+    "data": {
+      "L": [
+        "🔺 Üçgen olur",
+        "🚫 Üçgen olmaz"
+      ],
+      "r": [
+        [
+          "3, 4, 5",
+          0
+        ],
+        [
+          "2, 2, 5",
+          1
+        ],
+        [
+          "6, 6, 6",
+          0
+        ],
+        [
+          "1, 4, 5",
+          1
+        ],
+        [
+          "7, 8, 14",
+          0
+        ],
+        [
+          "3, 9, 4",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre üçlüleri ayır. Bölmeler: Üçgen olur, Üçgen olmaz. Kartlar: 3, 4, 5, 2, 2, 5, 6, 6, 6, 1, 4, 5, 7, 8, 14, 3, 9, 4.",
+    "correctAnswer": "3, 4, 5 → Üçgen olur | 2, 2, 5 → Üçgen olmaz | 6, 6, 6 → Üçgen olur | 1, 4, 5 → Üçgen olmaz | 7, 8, 14 → Üçgen olur | 3, 9, 4 → Üçgen olmaz",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. En uzun kenar diğer ikisinin toplamından küçükse yeterlidir."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Üçüncü kenar uzunluklarının olup olamayacağını ayır.",
+    "data": {
+      "L": [
+        "✅ Olabilir",
+        "❌ Olamaz"
+      ],
+      "r": [
+        [
+          "Kenarlar 5 ve 8 iken üçüncü 4",
+          0
+        ],
+        [
+          "Kenarlar 5 ve 8 iken üçüncü 3",
+          1
+        ],
+        [
+          "Kenarlar 5 ve 8 iken üçüncü 12",
+          0
+        ],
+        [
+          "Kenarlar 5 ve 8 iken üçüncü 13",
+          1
+        ],
+        [
+          "Kenarlar 10 ve 10 iken üçüncü 1",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Üçüncü kenar uzunluklarının olup olamayacağını ayır. Bölmeler: Olabilir, Olamaz. Kartlar: Kenarlar 5 ve 8 iken üçüncü 4, Kenarlar 5 ve 8 iken üçüncü 3, Kenarlar 5 ve 8 iken üçüncü 12, Kenarlar 5 ve 8 iken üçüncü 13, Kenarlar 10 ve 10 iken üçüncü 1.",
+    "correctAnswer": "Kenarlar 5 ve 8 iken üçüncü 4 → Olabilir | Kenarlar 5 ve 8 iken üçüncü 3 → Olamaz | Kenarlar 5 ve 8 iken üçüncü 12 → Olabilir | Kenarlar 5 ve 8 iken üçüncü 13 → Olamaz | Kenarlar 10 ve 10 iken üçüncü 1 → Olabilir",
+    "explanation": "Üçgende her kenar, diğer iki kenarın farkından büyük, toplamından küçüktür: |a − b| < c < a + b. 5 ve 8 için 3 < x < 13."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "esitsizlik",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Kenarları 5 cm ve 9 cm olan bir üçgenin üçüncü kenarı tam sayıdır. En uzun kaç cm olabilir?",
+    "data": {
+      "a": 13,
+      "u": "cm"
+    },
+    "textPlain": "Kenarları 5 cm ve 9 cm olan bir üçgenin üçüncü kenarı tam sayıdır. En uzun kaç cm olabilir?",
+    "correctAnswer": "13 cm",
+    "explanation": "4 < x < 14 → en çok 13."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "esitsizlik",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Kenarları 6 cm ve 10 cm olan üçgenin üçüncü kenarı kaç farklı tam sayı değeri alabilir?",
+    "data": {
+      "a": 11,
+      "u": "değer"
+    },
+    "textPlain": "Kenarları 6 cm ve 10 cm olan üçgenin üçüncü kenarı kaç farklı tam sayı değeri alabilir?",
+    "correctAnswer": "11 değer",
+    "explanation": "4 < x < 16 → 5, 6, …, 15 → 11 değer."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Kenarları 7 cm ve 12 cm olan üçgenin üçüncü kenarı tam sayıdır. Çevresi en çok kaç cm olabilir?",
+    "data": {
+      "a": 37,
+      "u": "cm"
+    },
+    "textPlain": "Kenarları 7 cm ve 12 cm olan üçgenin üçüncü kenarı tam sayıdır. Çevresi en çok kaç cm olabilir?",
+    "correctAnswer": "37 cm",
+    "explanation": "5 < x < 19 → x en çok 18; çevre 7 + 12 + 18 = 37."
+  },
+  {
+    "questionId": "mat8u9-esitsizlik-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Üçgen eşitsizliği",
+    "outcome": "Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "esitsizlik",
+    "rank": 3,
+    "type": "key",
+    "prompt": "İkizkenar bir üçgenin iki kenarı 4 cm ve 9 cm’dir. Çevresi kaç cm’dir?",
+    "data": {
+      "a": 22,
+      "u": "cm"
+    },
+    "textPlain": "İkizkenar bir üçgenin iki kenarı 4 cm ve 9 cm’dir. Çevresi kaç cm’dir?",
+    "correctAnswer": "22 cm",
+    "explanation": "Kenarlar 4, 4, 9 olamaz (4 + 4 < 9). Kenarlar 9, 9, 4 olur: çevre 22."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "kenaraci",
+    "rank": 1,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        80,
+        60,
+        40
+      ],
+      "h": null
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = 80°, m(∠B) = 60°, m(∠C) = 40°.]",
+    "correctAnswer": "BC > AC > AB",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "kenaraci",
+    "rank": 1,
+    "type": "angside",
+    "prompt": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun.",
+    "data": {
+      "m": "side",
+      "v": [
+        5,
+        7,
+        9
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); |BC| = 5 cm, |AC| = 7 cm, |AB| = 9 cm.]",
+    "correctAnswer": "∠C > ∠B > ∠A",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "kenaraci",
+    "rank": 1,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        30,
+        100,
+        50
+      ],
+      "h": null
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = 30°, m(∠B) = 100°, m(∠C) = 50°.]",
+    "correctAnswer": "AC > AB > BC",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        55,
+        45,
+        80
+      ],
+      "h": 2
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = 55°, m(∠B) = 45°, m(∠C) = ?.]",
+    "correctAnswer": "AB > BC > AC",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur. Gizli açı 180° − diğerleri = 80°."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "angside",
+    "prompt": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun.",
+    "data": {
+      "m": "side",
+      "v": [
+        11,
+        6,
+        8
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); |BC| = 11 cm, |AC| = 6 cm, |AB| = 8 cm.]",
+    "correctAnswer": "∠A > ∠C > ∠B",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        72,
+        38,
+        70
+      ],
+      "h": 0
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = ?, m(∠B) = 38°, m(∠C) = 70°.]",
+    "correctAnswer": "BC > AB > AC",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur. Gizli açı 180° − diğerleri = 72°."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "angside",
+    "prompt": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun.",
+    "data": {
+      "m": "side",
+      "v": [
+        4,
+        9,
+        7
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); |BC| = 4 cm, |AC| = 9 cm, |AB| = 7 cm.]",
+    "correctAnswer": "∠B > ∠C > ∠A",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        64,
+        51,
+        65
+      ],
+      "h": 1
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = 64°, m(∠B) = ?, m(∠C) = 65°.]",
+    "correctAnswer": "AB > BC > AC",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur. Gizli açı 180° − diğerleri = 51°."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "angside",
+    "prompt": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun.",
+    "data": {
+      "m": "side",
+      "v": [
+        13,
+        12,
+        5
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); |BC| = 13 cm, |AC| = 12 cm, |AB| = 5 cm.]",
+    "correctAnswer": "∠A > ∠B > ∠C",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        91,
+        44,
+        45
+      ],
+      "h": 0
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = ?, m(∠B) = 44°, m(∠C) = 45°.]",
+    "correctAnswer": "BC > AB > AC",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur. Gizli açı 180° − diğerleri = 91°."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "kenaraci",
+    "rank": 1,
+    "type": "angside",
+    "prompt": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun.",
+    "data": {
+      "m": "side",
+      "v": [
+        10,
+        6,
+        8
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre açılara büyükten küçüğe doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); |BC| = 10 cm, |AC| = 6 cm, |AB| = 8 cm.]",
+    "correctAnswer": "∠A > ∠C > ∠B",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "angside",
+    "prompt": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun.",
+    "data": {
+      "m": "ang",
+      "v": [
+        35,
+        89,
+        56
+      ],
+      "h": 2
+    },
+    "textPlain": "Açı ölçülerine göre kenarlara uzundan kısaya doğru sırayla dokun. [Şekil: ABC üçgeni (ölçekli değil); m(∠A) = 35°, m(∠B) = 89°, m(∠C) = ?.]",
+    "correctAnswer": "AC > AB > BC",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur. Gizli açı 180° − diğerleri = 56°."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "📏 En uzun kenar",
+        "📐 En büyük açı"
+      ],
+      "r": [
+        [
+          "90°’nin karşısındaki kenar",
+          0
+        ],
+        [
+          "Dik üçgende hipotenüs",
+          0
+        ],
+        [
+          "9 cm’lik kenarın karşısındaki açı (kenarlar 5, 7, 9)",
+          1
+        ],
+        [
+          "Kenarları 3, 4, 6 olan üçgende 6’nın karşısı",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: En uzun kenar, En büyük açı. Kartlar: 90°’nin karşısındaki kenar, Dik üçgende hipotenüs, 9 cm’lik kenarın karşısındaki açı (kenarlar 5, 7, 9), Kenarları 3, 4, 6 olan üçgende 6’nın karşısı.",
+    "correctAnswer": "90°’nin karşısındaki kenar → En uzun kenar | Dik üçgende hipotenüs → En uzun kenar | 9 cm’lik kenarın karşısındaki açı (kenarlar 5, 7, 9) → En büyük açı | Kenarları 3, 4, 6 olan üçgende 6’nın karşısı → En büyük açı",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "İfadeleri doğru ya da yanlış olarak ayır.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Eşkenar üçgende açılar eşittir",
+          0
+        ],
+        [
+          "İkizkenar üçgende eş kenarların karşısındaki açılar eştir",
+          0
+        ],
+        [
+          "Dik üçgende en uzun kenar dik kenarlardan biridir",
+          1
+        ],
+        [
+          "Kısa kenarın karşısında büyük açı olur",
+          1
+        ],
+        [
+          "Geniş açının karşısındaki kenar en uzundur",
+          0
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri doğru ya da yanlış olarak ayır. Bölmeler: Doğru, Yanlış. Kartlar: Eşkenar üçgende açılar eşittir, İkizkenar üçgende eş kenarların karşısındaki açılar eştir, Dik üçgende en uzun kenar dik kenarlardan biridir, Kısa kenarın karşısında büyük açı olur, Geniş açının karşısındaki kenar en uzundur.",
+    "correctAnswer": "Eşkenar üçgende açılar eşittir → Doğru | İkizkenar üçgende eş kenarların karşısındaki açılar eştir → Doğru | Dik üçgende en uzun kenar dik kenarlardan biridir → Yanlış | Kısa kenarın karşısında büyük açı olur → Yanlış | Geniş açının karşısındaki kenar en uzundur → Doğru",
+    "explanation": "Üçgende büyük açının karşısında uzun kenar, küçük açının karşısında kısa kenar bulunur. Eş kenarların karşısında eş açılar bulunur."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "kenaraci",
+    "rank": 1,
+    "type": "key",
+    "prompt": "ABC üçgeninde m(∠A) = 70°, m(∠B) = 45° ise m(∠C) kaç derecedir?",
+    "data": {
+      "a": 65,
+      "u": "derece"
+    },
+    "textPlain": "ABC üçgeninde m(∠A) = 70°, m(∠B) = 45° ise m(∠C) kaç derecedir?",
+    "correctAnswer": "65 derece",
+    "explanation": "180 − 70 − 45 = 65."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "key",
+    "prompt": "ABC üçgeninde |AB| = |AC| ve m(∠B) = 52° ise m(∠A) kaç derecedir?",
+    "data": {
+      "a": 76,
+      "u": "derece"
+    },
+    "textPlain": "ABC üçgeninde |AB| = |AC| ve m(∠B) = 52° ise m(∠A) kaç derecedir?",
+    "correctAnswer": "76 derece",
+    "explanation": "Eş kenarların karşısındaki açılar eşittir: ∠C = 52°; ∠A = 180 − 104 = 76."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "kenaraci",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Kenarları 6, 8 ve 11 cm olan üçgenin en büyük açısı hangi kenarın karşısındadır? Uzunluğunu yaz.",
+    "data": {
+      "a": 11,
+      "u": "cm"
+    },
+    "textPlain": "Kenarları 6, 8 ve 11 cm olan üçgenin en büyük açısı hangi kenarın karşısındadır? Uzunluğunu yaz.",
+    "correctAnswer": "11 cm",
+    "explanation": "En büyük açı en uzun kenarın (11 cm) karşısındadır."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "key",
+    "prompt": "ABC üçgeninde m(∠A) = 2x, m(∠B) = 3x, m(∠C) = 4x ise en uzun kenarın karşısındaki açı kaç derecedir?",
+    "data": {
+      "a": 80,
+      "u": "derece"
+    },
+    "textPlain": "ABC üçgeninde m(∠A) = 2x, m(∠B) = 3x, m(∠C) = 4x ise en uzun kenarın karşısındaki açı kaç derecedir?",
+    "correctAnswer": "80 derece",
+    "explanation": "9x = 180 → x = 20; en büyük açı 4x = 80°, en uzun kenarın karşısındadır."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "kenaraci",
+    "rank": 3,
+    "type": "key",
+    "prompt": "İkizkenar üçgende tepe açısı 40° ise taban açılarından biri kaç derecedir?",
+    "data": {
+      "a": 70,
+      "u": "derece"
+    },
+    "textPlain": "İkizkenar üçgende tepe açısı 40° ise taban açılarından biri kaç derecedir?",
+    "correctAnswer": "70 derece",
+    "explanation": "(180 − 40) ÷ 2 = 70."
+  },
+  {
+    "questionId": "mat8u9-kenaraci-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Kenar uzunlukları ile açı ölçüleri arasındaki ilişki",
+    "outcome": "Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "kenaraci",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Eşkenar üçgenin bir iç açısı kaç derecedir?",
+    "data": {
+      "a": 60,
+      "u": "derece"
+    },
+    "textPlain": "Eşkenar üçgenin bir iç açısı kaç derecedir?",
+    "correctAnswer": "60 derece",
+    "explanation": "180 ÷ 3 = 60."
+  },
+  {
+    "questionId": "mat8u9-pisagor-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "pisagor",
+    "rank": 1,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        3,
+        4,
+        5
+      ],
+      "m": 2
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi 9 birimkare, 2. dik kenar karesi 16 birimkare, hipotenüs karesi ?.]",
+    "correctAnswer": "Kenar 5, alan 25 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "pisagor",
+    "rank": 1,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        6,
+        8,
+        10
+      ],
+      "m": 2
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi 36 birimkare, 2. dik kenar karesi 64 birimkare, hipotenüs karesi ?.]",
+    "correctAnswer": "Kenar 10, alan 100 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "pisagor",
+    "rank": 1,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        5,
+        12,
+        13
+      ],
+      "m": 2
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi 25 birimkare, 2. dik kenar karesi 144 birimkare, hipotenüs karesi ?.]",
+    "correctAnswer": "Kenar 13, alan 169 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        8,
+        15,
+        17
+      ],
+      "m": 2
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi 64 birimkare, 2. dik kenar karesi 225 birimkare, hipotenüs karesi ?.]",
+    "correctAnswer": "Kenar 17, alan 289 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        9,
+        12,
+        15
+      ],
+      "m": 0
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi ?, 2. dik kenar karesi 144 birimkare, hipotenüs karesi 225 birimkare.]",
+    "correctAnswer": "Kenar 9, alan 81 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        7,
+        24,
+        25
+      ],
+      "m": 1
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi 49 birimkare, 2. dik kenar karesi ?, hipotenüs karesi 625 birimkare.]",
+    "correctAnswer": "Kenar 24, alan 576 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        12,
+        16,
+        20
+      ],
+      "m": 0
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi ?, 2. dik kenar karesi 256 birimkare, hipotenüs karesi 400 birimkare.]",
+    "correctAnswer": "Kenar 12, alan 144 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        20,
+        21,
+        29
+      ],
+      "m": 1
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi 400 birimkare, 2. dik kenar karesi ?, hipotenüs karesi 841 birimkare.]",
+    "correctAnswer": "Kenar 21, alan 441 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "squares",
+    "prompt": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap.",
+    "data": {
+      "s": [
+        10,
+        24,
+        26
+      ],
+      "m": 0
+    },
+    "textPlain": "Dik üçgenin kenarlarına kareler kurulmuş. Eksik karenin kenarını ayarlayarak karenin alanını doğru yap. [Şekil: dik üçgen ve kenarlarındaki kareler; 1. dik kenar karesi ?, 2. dik kenar karesi 576 birimkare, hipotenüs karesi 676 birimkare.]",
+    "correctAnswer": "Kenar 10, alan 100 birimkare",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "pisagor",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Kenar uzunluklarına göre üçlüleri ayır.",
+    "data": {
+      "L": [
+        "📐 Dik üçgen",
+        "🔺 Dik değil"
+      ],
+      "r": [
+        [
+          "3, 4, 5",
+          0
+        ],
+        [
+          "5, 12, 13",
+          0
+        ],
+        [
+          "4, 5, 6",
+          1
+        ],
+        [
+          "6, 8, 10",
+          0
+        ],
+        [
+          "7, 8, 9",
+          1
+        ],
+        [
+          "8, 15, 17",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kenar uzunluklarına göre üçlüleri ayır. Bölmeler: Dik üçgen, Dik değil. Kartlar: 3, 4, 5, 5, 12, 13, 4, 5, 6, 6, 8, 10, 7, 8, 9, 8, 15, 17.",
+    "correctAnswer": "3, 4, 5 → Dik üçgen | 5, 12, 13 → Dik üçgen | 4, 5, 6 → Dik değil | 6, 8, 10 → Dik üçgen | 7, 8, 9 → Dik değil | 8, 15, 17 → Dik üçgen",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c². En uzun kenarın karesi diğer iki karenin toplamına eşitse üçgen diktir."
+  },
+  {
+    "questionId": "mat8u9-pisagor-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Kenarları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "📐 Hipotenüs",
+        "📏 Dik kenar"
+      ],
+      "r": [
+        [
+          "Dik açının karşısındaki kenar",
+          0
+        ],
+        [
+          "Dik açıyı oluşturan kenar",
+          1
+        ],
+        [
+          "Dik üçgenin en uzun kenarı",
+          0
+        ],
+        [
+          "6, 8, 10 üçgeninde 8",
+          1
+        ],
+        [
+          "5, 12, 13 üçgeninde 13",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kenarları doğru bölmeye yerleştir. Bölmeler: Hipotenüs, Dik kenar. Kartlar: Dik açının karşısındaki kenar, Dik açıyı oluşturan kenar, Dik üçgenin en uzun kenarı, 6, 8, 10 üçgeninde 8, 5, 12, 13 üçgeninde 13.",
+    "correctAnswer": "Dik açının karşısındaki kenar → Hipotenüs | Dik açıyı oluşturan kenar → Dik kenar | Dik üçgenin en uzun kenarı → Hipotenüs | 6, 8, 10 üçgeninde 8 → Dik kenar | 5, 12, 13 üçgeninde 13 → Hipotenüs",
+    "explanation": "Dik üçgende dik kenarlar üzerine kurulan karelerin alanları toplamı, hipotenüs üzerine kurulan karenin alanına eşittir: a² + b² = c²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "pisagor",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Dik kenarları 6 cm ve 8 cm olan dik üçgenin hipotenüsü kaç cm’dir?",
+    "data": {
+      "a": 10,
+      "u": "cm"
+    },
+    "textPlain": "Dik kenarları 6 cm ve 8 cm olan dik üçgenin hipotenüsü kaç cm’dir?",
+    "correctAnswer": "10 cm",
+    "explanation": "6² + 8² = 36 + 64 = 100 → 10."
+  },
+  {
+    "questionId": "mat8u9-pisagor-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "pisagor",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Dik kenar üzerindeki kareler 9 ve 16 birimkare ise hipotenüs üzerindeki kare kaç birimkaredir?",
+    "data": {
+      "a": 25,
+      "u": "birimkare"
+    },
+    "textPlain": "Dik kenar üzerindeki kareler 9 ve 16 birimkare ise hipotenüs üzerindeki kare kaç birimkaredir?",
+    "correctAnswer": "25 birimkare",
+    "explanation": "9 + 16 = 25."
+  },
+  {
+    "questionId": "mat8u9-pisagor-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Hipotenüsü 13 cm, bir dik kenarı 5 cm olan dik üçgenin diğer dik kenarı kaç cm’dir?",
+    "data": {
+      "a": 12,
+      "u": "cm"
+    },
+    "textPlain": "Hipotenüsü 13 cm, bir dik kenarı 5 cm olan dik üçgenin diğer dik kenarı kaç cm’dir?",
+    "correctAnswer": "12 cm",
+    "explanation": "13² − 5² = 169 − 25 = 144 → 12."
+  },
+  {
+    "questionId": "mat8u9-pisagor-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Hipotenüsü 17 cm, bir dik kenarı 8 cm olan dik üçgenin alanı kaç cm²’dir?",
+    "data": {
+      "a": 60,
+      "u": "cm²"
+    },
+    "textPlain": "Hipotenüsü 17 cm, bir dik kenarı 8 cm olan dik üçgenin alanı kaç cm²’dir?",
+    "correctAnswer": "60 cm²",
+    "explanation": "Diğer dik kenar √(289 − 64) = 15; alan 8 × 15 ÷ 2 = 60."
+  },
+  {
+    "questionId": "mat8u9-pisagor-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Kenarı 12 cm olan karenin köşegeninin karesi kaç cm²’dir?",
+    "data": {
+      "a": 288,
+      "u": "cm²"
+    },
+    "textPlain": "Kenarı 12 cm olan karenin köşegeninin karesi kaç cm²’dir?",
+    "correctAnswer": "288 cm²",
+    "explanation": "12² + 12² = 288."
+  },
+  {
+    "questionId": "mat8u9-pisagor-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Dik kenarları 9 ve 12 cm olan dik üçgende hipotenüse ait yükseklik kaç cm’dir? (Sonuç ondalıklı ise 10 katını yaz.)",
+    "data": {
+      "a": 72,
+      "u": ""
+    },
+    "textPlain": "Dik kenarları 9 ve 12 cm olan dik üçgende hipotenüse ait yükseklik kaç cm’dir? (Sonuç ondalıklı ise 10 katını yaz.)",
+    "correctAnswer": "72",
+    "explanation": "Hipotenüs 15; alan 54 = 15 × h ÷ 2 → h = 7,2 → 10 katı 72."
+  },
+  {
+    "questionId": "mat8u9-pisagor-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Kenar uzunlukları 2 cm ve 3 cm olan dikdörtgenin köşegeninin karesi kaç cm²’dir?",
+    "data": {
+      "a": 13,
+      "u": "cm²"
+    },
+    "textPlain": "Kenar uzunlukları 2 cm ve 3 cm olan dikdörtgenin köşegeninin karesi kaç cm²’dir?",
+    "correctAnswer": "13 cm²",
+    "explanation": "2² + 3² = 13."
+  },
+  {
+    "questionId": "mat8u9-problem-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "ladder",
+    "prompt": "Pencere 4 m yükseklikte, merdivenin ayağı duvardan 3 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "data": {
+      "b": 3,
+      "h": 4,
+      "c": 5,
+      "k": "c"
+    },
+    "textPlain": "Pencere 4 m yükseklikte, merdivenin ayağı duvardan 3 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "correctAnswer": "Merdiven 5 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "ladder",
+    "prompt": "Pencere 8 m yükseklikte, merdivenin ayağı duvardan 6 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "data": {
+      "b": 6,
+      "h": 8,
+      "c": 10,
+      "k": "c"
+    },
+    "textPlain": "Pencere 8 m yükseklikte, merdivenin ayağı duvardan 6 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "correctAnswer": "Merdiven 10 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "ladder",
+    "prompt": "Pencere 12 m yükseklikte, merdivenin ayağı duvardan 5 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "data": {
+      "b": 5,
+      "h": 12,
+      "c": 13,
+      "k": "c"
+    },
+    "textPlain": "Pencere 12 m yükseklikte, merdivenin ayağı duvardan 5 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "correctAnswer": "Merdiven 13 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Merdiven 10 m, pencere 6 m yükseklikte. Merdivenin ayağını duvardan doğru uzaklığa yerleştir.",
+    "data": {
+      "b": 8,
+      "h": 6,
+      "c": 10,
+      "k": "b"
+    },
+    "textPlain": "Merdiven 10 m, pencere 6 m yükseklikte. Merdivenin ayağını duvardan doğru uzaklığa yerleştir.",
+    "correctAnswer": "Ayak 8 m uzakta",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Merdiven 15 m, ayağı duvardan 9 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "data": {
+      "b": 9,
+      "h": 12,
+      "c": 15,
+      "k": "h"
+    },
+    "textPlain": "Merdiven 15 m, ayağı duvardan 9 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "correctAnswer": "Yükseklik 12 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Merdiven 13 m, pencere 12 m yükseklikte. Merdivenin ayağını duvardan doğru uzaklığa yerleştir.",
+    "data": {
+      "b": 5,
+      "h": 12,
+      "c": 13,
+      "k": "b"
+    },
+    "textPlain": "Merdiven 13 m, pencere 12 m yükseklikte. Merdivenin ayağını duvardan doğru uzaklığa yerleştir.",
+    "correctAnswer": "Ayak 5 m uzakta",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Merdiven 25 m, ayağı duvardan 7 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "data": {
+      "b": 7,
+      "h": 24,
+      "c": 25,
+      "k": "h"
+    },
+    "textPlain": "Merdiven 25 m, ayağı duvardan 7 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "correctAnswer": "Yükseklik 24 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Merdiven 17 m, pencere 15 m yükseklikte. Merdivenin ayağını duvardan doğru uzaklığa yerleştir.",
+    "data": {
+      "b": 8,
+      "h": 15,
+      "c": 17,
+      "k": "b"
+    },
+    "textPlain": "Merdiven 17 m, pencere 15 m yükseklikte. Merdivenin ayağını duvardan doğru uzaklığa yerleştir.",
+    "correctAnswer": "Ayak 8 m uzakta",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Pencere 9 m yükseklikte, merdivenin ayağı duvardan 12 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "data": {
+      "b": 12,
+      "h": 9,
+      "c": 15,
+      "k": "c"
+    },
+    "textPlain": "Pencere 9 m yükseklikte, merdivenin ayağı duvardan 12 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "correctAnswer": "Merdiven 15 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Merdiven 10 m, ayağı duvardan 6 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "data": {
+      "b": 6,
+      "h": 8,
+      "c": 10,
+      "k": "h"
+    },
+    "textPlain": "Merdiven 10 m, ayağı duvardan 6 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "correctAnswer": "Yükseklik 8 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "pisagor",
+    "rank": 2,
+    "type": "ladder",
+    "prompt": "Merdiven 5 m, ayağı duvardan 4 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "data": {
+      "b": 4,
+      "h": 3,
+      "c": 5,
+      "k": "h"
+    },
+    "textPlain": "Merdiven 5 m, ayağı duvardan 4 m uzakta. Merdivenin ucunun değdiği yüksekliğe kurtarma işaretini koy.",
+    "correctAnswer": "Yükseklik 3 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-pisagor-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı",
+    "outcome": "Pisagor bağıntısını oluşturur.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "pisagor",
+    "rank": 3,
+    "type": "ladder",
+    "prompt": "Pencere 8 m yükseklikte, merdivenin ayağı duvardan 15 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "data": {
+      "b": 15,
+      "h": 8,
+      "c": 17,
+      "k": "c"
+    },
+    "textPlain": "Pencere 8 m yükseklikte, merdivenin ayağı duvardan 15 m uzakta. Merdiveni pencereye tam yetişecek kadar uzat.",
+    "correctAnswer": "Merdiven 17 m",
+    "explanation": "Duvar, yer ve merdiven bir dik üçgen oluşturur; merdiven hipotenüstür: (ayak uzaklığı)² + (yükseklik)² = (merdiven)²."
+  },
+  {
+    "questionId": "mat8u9-problem-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "grid",
+    "prompt": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla.",
+    "data": {
+      "P": [
+        1,
+        1
+      ],
+      "Q": [
+        4,
+        5
+      ],
+      "d": 5
+    },
+    "textPlain": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla. [Şekil: kareli harita; musluklar (1, 1) ve (4, 5) noktalarında; her kare 1 birim.]",
+    "correctAnswer": "Köşe (4, 1) ya da (1, 5); hortum 5 birim",
+    "explanation": "Yatay fark 3, dikey fark 4: 3² + 4² = 25 → 5."
+  },
+  {
+    "questionId": "mat8u9-problem-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "grid",
+    "prompt": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla.",
+    "data": {
+      "P": [
+        2,
+        6
+      ],
+      "Q": [
+        6,
+        3
+      ],
+      "d": 5
+    },
+    "textPlain": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla. [Şekil: kareli harita; musluklar (2, 6) ve (6, 3) noktalarında; her kare 1 birim.]",
+    "correctAnswer": "Köşe (6, 6) ya da (2, 3); hortum 5 birim",
+    "explanation": "Yatay fark 4, dikey fark 3: 4² + 3² = 25 → 5."
+  },
+  {
+    "questionId": "mat8u9-problem-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "grid",
+    "prompt": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla.",
+    "data": {
+      "P": [
+        0,
+        0
+      ],
+      "Q": [
+        6,
+        8
+      ],
+      "d": 10
+    },
+    "textPlain": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla. [Şekil: kareli harita; musluklar (0, 0) ve (6, 8) noktalarında; her kare 1 birim.]",
+    "correctAnswer": "Köşe (6, 0) ya da (0, 8); hortum 10 birim",
+    "explanation": "Yatay fark 6, dikey fark 8: 6² + 8² = 100 → 10."
+  },
+  {
+    "questionId": "mat8u9-problem-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "grid",
+    "prompt": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla.",
+    "data": {
+      "P": [
+        1,
+        9
+      ],
+      "Q": [
+        9,
+        3
+      ],
+      "d": 10
+    },
+    "textPlain": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla. [Şekil: kareli harita; musluklar (1, 9) ve (9, 3) noktalarında; her kare 1 birim.]",
+    "correctAnswer": "Köşe (9, 9) ya da (1, 3); hortum 10 birim",
+    "explanation": "Yatay fark 8, dikey fark 6: 8² + 6² = 100 → 10."
+  },
+  {
+    "questionId": "mat8u9-problem-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "grid",
+    "prompt": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla.",
+    "data": {
+      "P": [
+        1,
+        0
+      ],
+      "Q": [
+        6,
+        12
+      ],
+      "d": 13
+    },
+    "textPlain": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla. [Şekil: kareli harita; musluklar (1, 0) ve (6, 12) noktalarında; her kare 1 birim.]",
+    "correctAnswer": "Köşe (6, 0) ya da (1, 12); hortum 13 birim",
+    "explanation": "Yatay fark 5, dikey fark 12: 5² + 12² = 169 → 13."
+  },
+  {
+    "questionId": "mat8u9-problem-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "grid",
+    "prompt": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla.",
+    "data": {
+      "P": [
+        12,
+        2
+      ],
+      "Q": [
+        4,
+        8
+      ],
+      "d": 10
+    },
+    "textPlain": "Haritada iki yangın musluğu var. Dik üçgenin köşesini ızgaraya yerleştir, sonra iki musluk arasındaki hortum uzunluğunu ayarla. [Şekil: kareli harita; musluklar (12, 2) ve (4, 8) noktalarında; her kare 1 birim.]",
+    "correctAnswer": "Köşe (4, 2) ya da (12, 8); hortum 10 birim",
+    "explanation": "Yatay fark 8, dikey fark 6: 8² + 6² = 100 → 10."
+  },
+  {
+    "questionId": "mat8u9-problem-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Dikdörtgen bir bahçenin kenarları 30 m ve 40 m’dir. Köşegen boyunca yürüyen biri kaç m yol alır?",
+    "data": {
+      "a": 50,
+      "u": "m"
+    },
+    "textPlain": "Dikdörtgen bir bahçenin kenarları 30 m ve 40 m’dir. Köşegen boyunca yürüyen biri kaç m yol alır?",
+    "correctAnswer": "50 m",
+    "explanation": "30² + 40² = 2500 → 50."
+  },
+  {
+    "questionId": "mat8u9-problem-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Bir uçurtmanın ipi 25 m’dir. Uçurtma, ipi tutan kişinin 7 m ilerisinin tam üstündeyse yerden kaç m yüksektedir?",
+    "data": {
+      "a": 24,
+      "u": "m"
+    },
+    "textPlain": "Bir uçurtmanın ipi 25 m’dir. Uçurtma, ipi tutan kişinin 7 m ilerisinin tam üstündeyse yerden kaç m yüksektedir?",
+    "correctAnswer": "24 m",
+    "explanation": "25² − 7² = 625 − 49 = 576 → 24."
+  },
+  {
+    "questionId": "mat8u9-problem-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Bir gemi 9 km doğuya, sonra 12 km kuzeye gidiyor. Başladığı noktaya kuş uçuşu uzaklığı kaç km’dir?",
+    "data": {
+      "a": 15,
+      "u": "km"
+    },
+    "textPlain": "Bir gemi 9 km doğuya, sonra 12 km kuzeye gidiyor. Başladığı noktaya kuş uçuşu uzaklığı kaç km’dir?",
+    "correctAnswer": "15 km",
+    "explanation": "9² + 12² = 225 → 15."
+  },
+  {
+    "questionId": "mat8u9-problem-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "9. Ünite: Üçgenler",
+    "topic": "Pisagor bağıntısı ile gerçek hayat problemleri",
+    "outcome": "Pisagor bağıntısı ile ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 9. Ünite “Üçgenler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Ekranın köşegeni 50 cm, genişliği 40 cm’dir. Yüksekliği kaç cm’dir?",
+    "data": {
+      "a": 30,
+      "u": "cm"
+    },
+    "textPlain": "Ekranın köşegeni 50 cm, genişliği 40 cm’dir. Yüksekliği kaç cm’dir?",
+    "correctAnswer": "30 cm",
+    "explanation": "50² − 40² = 900 → 30."
+  }
+]
