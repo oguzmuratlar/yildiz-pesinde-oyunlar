@@ -1,0 +1,3737 @@
+[
+  {
+    "questionId": "fen8u2-yapi-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat.",
+    "data": {
+      "t": "ATGC",
+      "b": "????",
+      "st": "ATGC",
+      "sb": "TACG"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Üst zincir: A T G C / alt zincir: ? ? ? ? (? = boş diş).",
+    "correctAnswer": "Üst zincir ATGC, alt zincir TACG",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat.",
+    "data": {
+      "t": "GATTC",
+      "b": "?????",
+      "st": "GATTC",
+      "sb": "CTAAG"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Üst zincir: G A T T C / alt zincir: ? ? ? ? ? (? = boş diş).",
+    "correctAnswer": "Üst zincir GATTC, alt zincir CTAAG",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat.",
+    "data": {
+      "t": "CCATG",
+      "b": "?????",
+      "st": "CCATG",
+      "sb": "GGTAC"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Üst zincir: C C A T G / alt zincir: ? ? ? ? ? (? = boş diş).",
+    "correctAnswer": "Üst zincir CCATG, alt zincir GGTAC",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "yapi",
+    "rank": 2,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat.",
+    "data": {
+      "t": "A?G?TC",
+      "b": "?A?C??",
+      "st": "ATGGTC",
+      "sb": "TACCAG"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Üst zincir: A ? G ? T C / alt zincir: ? A ? C ? ? (? = boş diş).",
+    "correctAnswer": "Üst zincir ATGGTC, alt zincir TACCAG",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2020-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "yapi",
+    "rank": 2,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat.",
+    "data": {
+      "t": "?TG??AC",
+      "b": "T??AT??",
+      "st": "ATGTAAC",
+      "sb": "TACATTG"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Üst zincir: ? T G ? ? A C / alt zincir: T ? ? A T ? ? (? = boş diş).",
+    "correctAnswer": "Üst zincir ATGTAAC, alt zincir TACATTG",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2020-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "yapi",
+    "rank": 3,
+    "type": "zip",
+    "prompt": "Numaralı dişlere doğru bazları tak, sonra fermuarı kapat. Aynı numaralı dişler aynı çeşit bazdır. İpucu: I numaralı baz timin, III numaralı baz sitozindir.",
+    "data": {
+      "t": "TCAGT",
+      "b": "AGTCA",
+      "n": {
+        "I": "T",
+        "II": "A",
+        "III": "C",
+        "IV": "G"
+      },
+      "h": "İpucu: I numaralı baz timin, III numaralı baz sitozindir.",
+      "gv": [
+        "I",
+        "III"
+      ],
+      "lab": [
+        [
+          "I",
+          "II"
+        ],
+        [
+          "III",
+          "IV"
+        ],
+        [
+          "II",
+          "I"
+        ],
+        [
+          "IV",
+          "III"
+        ],
+        [
+          "I",
+          "II"
+        ]
+      ]
+    },
+    "textPlain": "Numaralı dişlere doğru bazları tak, sonra fermuarı kapat. Aynı numaralı dişler aynı çeşit bazdır. İpucu: I numaralı baz timin, III numaralı baz sitozindir. Üst zincir: I III II IV I / alt zincir: II IV I III II.",
+    "correctAnswer": "Üst zincir TCAGT, alt zincir AGTCA (I = timin, II = adenin, III = sitozin, IV = guanin)",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2023-S3"
+  },
+  {
+    "questionId": "fen8u2-yapi-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "yapi",
+    "rank": 3,
+    "type": "zip",
+    "prompt": "Numaralı dişlere doğru bazları tak, sonra fermuarı kapat. Aynı numaralı dişler aynı çeşit bazdır. İpucu: I numaralı baz guanin, IV numaralı baz timindir.",
+    "data": {
+      "t": "CGTATC",
+      "b": "GCATAG",
+      "n": {
+        "I": "G",
+        "II": "C",
+        "III": "A",
+        "IV": "T"
+      },
+      "h": "İpucu: I numaralı baz guanin, IV numaralı baz timindir.",
+      "gv": [
+        "I",
+        "IV"
+      ],
+      "lab": [
+        [
+          "II",
+          "I"
+        ],
+        [
+          "I",
+          "II"
+        ],
+        [
+          "IV",
+          "III"
+        ],
+        [
+          "III",
+          "IV"
+        ],
+        [
+          "IV",
+          "III"
+        ],
+        [
+          "II",
+          "I"
+        ]
+      ]
+    },
+    "textPlain": "Numaralı dişlere doğru bazları tak, sonra fermuarı kapat. Aynı numaralı dişler aynı çeşit bazdır. İpucu: I numaralı baz guanin, IV numaralı baz timindir. Üst zincir: II I IV III IV II / alt zincir: I II III IV III I.",
+    "correctAnswer": "Üst zincir CGTATC, alt zincir GCATAG (I = guanin, II = sitozin, III = adenin, IV = timin)",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2023-S3"
+  },
+  {
+    "questionId": "fen8u2-eslenme-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Ayrılan zincirin karşısına yeni zincir kuruluyor.",
+    "data": {
+      "t": "TACG",
+      "b": "????",
+      "st": "TACG",
+      "sb": "ATGC"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Ayrılan zincirin karşısına yeni zincir kuruluyor. Üst zincir: T A C G / alt zincir: ? ? ? ? (? = boş diş).",
+    "correctAnswer": "Üst zincir TACG, alt zincir ATGC",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Eski alt zincirin karşısına yeni üst zincir kuruluyor.",
+    "data": {
+      "t": "??????",
+      "b": "GCATTA",
+      "st": "CGTAAT",
+      "sb": "GCATTA"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Eski alt zincirin karşısına yeni üst zincir kuruluyor. Üst zincir: ? ? ? ? ? ? / alt zincir: G C A T T A (? = boş diş).",
+    "correctAnswer": "Üst zincir CGTAAT, alt zincir GCATTA",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2025-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Eşleme yarıda kalmış; eksik dişleri tamamla.",
+    "data": {
+      "t": "AC??GT?",
+      "b": "??TA??G",
+      "st": "ACATGTC",
+      "sb": "TGTACAG"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Eşleme yarıda kalmış; eksik dişleri tamamla. Üst zincir: A C ? ? G T ? / alt zincir: ? ? T A ? ? G (? = boş diş).",
+    "correctAnswer": "Üst zincir ACATGTC, alt zincir TGTACAG",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2025-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "zip",
+    "prompt": "Numaralı dişlere doğru bazları tak, sonra fermuarı kapat. Aynı numaralı dişler aynı çeşit bazdır. İpucu: II numaralı baz timin, IV numaralı baz sitozindir.",
+    "data": {
+      "t": "ATGACGT",
+      "b": "TACTGCA",
+      "n": {
+        "I": "A",
+        "II": "T",
+        "III": "G",
+        "IV": "C"
+      },
+      "h": "İpucu: II numaralı baz timin, IV numaralı baz sitozindir.",
+      "gv": [
+        "II",
+        "IV"
+      ],
+      "lab": [
+        [
+          "I",
+          "II"
+        ],
+        [
+          "II",
+          "I"
+        ],
+        [
+          "III",
+          "IV"
+        ],
+        [
+          "I",
+          "II"
+        ],
+        [
+          "IV",
+          "III"
+        ],
+        [
+          "III",
+          "IV"
+        ],
+        [
+          "II",
+          "I"
+        ]
+      ]
+    },
+    "textPlain": "Numaralı dişlere doğru bazları tak, sonra fermuarı kapat. Aynı numaralı dişler aynı çeşit bazdır. İpucu: II numaralı baz timin, IV numaralı baz sitozindir. Üst zincir: I II III I IV III II / alt zincir: II I IV II III IV I.",
+    "correctAnswer": "Üst zincir ATGACGT, alt zincir TACTGCA (I = adenin, II = timin, III = guanin, IV = sitozin)",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2023-S3"
+  },
+  {
+    "questionId": "fen8u2-eslenme-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Kendini hatasız eşleyen bir DNA’nın bir bölgesi.",
+    "data": {
+      "t": "?G?A?T?C",
+      "b": "A?G?C?T?",
+      "st": "TGCAGTAC",
+      "sb": "ACGTCATG"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Kendini hatasız eşleyen bir DNA’nın bir bölgesi. Üst zincir: ? G ? A ? T ? C / alt zincir: A ? G ? C ? T ? (? = boş diş).",
+    "correctAnswer": "Üst zincir TGCAGTAC, alt zincir ACGTCATG",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": "2025-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "parts",
+    "prompt": "Etiketleri modeldeki numaralı yerlere sürükle.",
+    "data": {
+      "v": "nuk",
+      "a": [
+        "Fosfat",
+        "Şeker",
+        "Organik baz"
+      ],
+      "chips": [
+        "Fosfat",
+        "Şeker",
+        "Organik baz",
+        "Gen"
+      ]
+    },
+    "textPlain": "Etiketleri modeldeki numaralı yerlere sürükle. Bir nükleotit modeli: 1 numaralı yuvarlak parça 2 numaralı beşgen parçaya, 2 numaralı parça da harf taşıyan 3 numaralı dikdörtgen parçaya bağlı. Etiketler: Fosfat, Şeker, Organik baz, Gen.",
+    "correctAnswer": "1 → Fosfat, 2 → Şeker, 3 → Organik baz",
+    "explanation": "Nükleotit fosfat, şeker ve organik bazdan oluşur. Şeker ortadadır; hem fosfata hem organik baza bağlanır.",
+    "twin": "2026-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "parts",
+    "prompt": "Etiketleri modeldeki numaralı yerlere sürükle.",
+    "data": {
+      "v": "hier",
+      "a": [
+        "Kromozom",
+        "DNA",
+        "Gen",
+        "Nükleotit"
+      ],
+      "chips": [
+        "Kromozom",
+        "DNA",
+        "Gen",
+        "Nükleotit",
+        "Hücre zarı"
+      ]
+    },
+    "textPlain": "Etiketleri modeldeki numaralı yerlere sürükle. Hücre çekirdeğinden yakınlaştırma: 1 X biçimli yapı, 2 bu yapıdan açılan sarmal iplik, 3 sarmalın işaretli bir bölümü, 4 sarmalın tek bir birimi. Etiketler: Kromozom, DNA, Gen, Nükleotit, Hücre zarı.",
+    "correctAnswer": "1 → Kromozom, 2 → DNA, 3 → Gen, 4 → Nükleotit",
+    "explanation": "Kromozom, DNA ve proteinlerden oluşur. DNA üzerindeki belirli nükleotit dizileri genleri oluşturur; DNA’nın yapı birimi nükleotittir.",
+    "twin": "2023-S2"
+  },
+  {
+    "questionId": "fen8u2-yapi-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "yapi",
+    "rank": 2,
+    "type": "parts",
+    "prompt": "Hem ▲ hem ● sembolüne bağlı olan ■ sembolüne kesinlikle doğru olan etiketi sürükle.",
+    "data": {
+      "v": "mid",
+      "a": [
+        "Şeker"
+      ],
+      "chips": [
+        "Şeker",
+        "Fosfat",
+        "Organik baz",
+        "Adenin"
+      ]
+    },
+    "textPlain": "Hem ▲ hem ● sembolüne bağlı olan ■ sembolüne kesinlikle doğru olan etiketi sürükle. Nükleotit modelinde üç farklı sembol var; ■ sembolü hem ▲ hem ● sembolüne bağlı, ▲ ile ● birbirine bağlı değil. Etiketler: Şeker, Fosfat, Organik baz, Adenin.",
+    "correctAnswer": "■ → Şeker",
+    "explanation": "Nükleotitte şeker hem fosfata hem organik baza bağlanır; fosfat ile organik baz birbirine doğrudan bağlanmaz. Bu yüzden ikisine de bağlı olan sembol kesinlikle şekerdir.",
+    "twin": "2026-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "yapi",
+    "rank": 2,
+    "type": "parts",
+    "prompt": "Etiketleri modeldeki numaralı yerlere sürükle.",
+    "data": {
+      "v": "dna",
+      "a": [
+        "Fosfat",
+        "Şeker",
+        "Organik baz",
+        "Nükleotit"
+      ],
+      "chips": [
+        "Fosfat",
+        "Şeker",
+        "Organik baz",
+        "Nükleotit",
+        "Gen",
+        "Kromozom"
+      ]
+    },
+    "textPlain": "Etiketleri modeldeki numaralı yerlere sürükle. İki zincirli DNA modeli: 1 kenardaki yuvarlak, 2 kenardaki beşgen, 3 ortadaki harfli basamak yarısı, 4 bir yuvarlak-beşgen-basamak grubunu çevreleyen çerçeve. Etiketler: Fosfat, Şeker, Organik baz, Nükleotit, Gen, Kromozom.",
+    "correctAnswer": "1 → Fosfat, 2 → Şeker, 3 → Organik baz, 4 → Nükleotit",
+    "explanation": "DNA’nın kenarlarında fosfat ve şeker sıralanır, basamakları organik bazlar oluşturur. Bir fosfat, bir şeker ve bir organik baz birlikte bir nükleotittir.",
+    "twin": "2021-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "yapi",
+    "rank": 2,
+    "type": "parts",
+    "prompt": "Etiketleri modeldeki numaralı yerlere sürükle.",
+    "data": {
+      "v": "hier",
+      "a": [
+        "Kromozom",
+        "DNA",
+        "Gen",
+        "Nükleotit"
+      ],
+      "chips": [
+        "Kromozom",
+        "DNA",
+        "Gen",
+        "Nükleotit",
+        "Organik baz",
+        "Hücre zarı"
+      ]
+    },
+    "textPlain": "Etiketleri modeldeki numaralı yerlere sürükle. Hücre çekirdeğinden yakınlaştırma: 1 X biçimli yapı, 2 bu yapıdan açılan sarmal iplik, 3 sarmalın işaretli bir bölümü, 4 sarmalın tek bir birimi. Etiketler: Kromozom, DNA, Gen, Nükleotit, Organik baz, Hücre zarı.",
+    "correctAnswer": "1 → Kromozom, 2 → DNA, 3 → Gen, 4 → Nükleotit",
+    "explanation": "Kromozom, DNA ve proteinlerden oluşur. DNA üzerindeki belirli nükleotit dizileri genleri oluşturur; DNA’nın yapı birimi nükleotittir.",
+    "twin": "2024-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "yapi",
+    "rank": 3,
+    "type": "parts",
+    "prompt": "Etiketleri modeldeki numaralı yerlere sürükle.",
+    "data": {
+      "v": "hier5",
+      "a": [
+        "Kromozom",
+        "DNA",
+        "Gen",
+        "Nükleotit",
+        "Organik baz"
+      ],
+      "chips": [
+        "Kromozom",
+        "DNA",
+        "Gen",
+        "Nükleotit",
+        "Organik baz",
+        "Fosfat",
+        "Hücre zarı"
+      ]
+    },
+    "textPlain": "Etiketleri modeldeki numaralı yerlere sürükle. Hücre çekirdeğinden yakınlaştırma: 1 X biçimli yapı, 2 sarmal iplik, 3 sarmalın işaretli bir bölümü, 4 sarmalın tek bir birimi, 5 bu birimdeki harf taşıyan parça. Etiketler: Kromozom, DNA, Gen, Nükleotit, Organik baz, Fosfat, Hücre zarı.",
+    "correctAnswer": "1 → Kromozom, 2 → DNA, 3 → Gen, 4 → Nükleotit, 5 → Organik baz",
+    "explanation": "Büyükten küçüğe: kromozom ⊃ DNA ⊃ gen ⊃ nükleotit ⊃ organik baz (fosfat ve şekerle birlikte). Genler hücrede kromozomlarla taşınır.",
+    "twin": "2024-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "yapi",
+    "rank": 3,
+    "type": "parts",
+    "prompt": "Etiketleri modeldeki numaralı yerlere sürükle.",
+    "data": {
+      "v": "dna",
+      "a": [
+        "Fosfat",
+        "Şeker",
+        "Organik baz",
+        "Nükleotit"
+      ],
+      "chips": [
+        "Fosfat",
+        "Şeker",
+        "Organik baz",
+        "Nükleotit",
+        "Gen",
+        "Kromozom",
+        "Adenin"
+      ]
+    },
+    "textPlain": "Etiketleri modeldeki numaralı yerlere sürükle. İki zincirli DNA modeli: 1 kenardaki yuvarlak, 2 kenardaki beşgen, 3 ortadaki harfli basamak yarısı, 4 bir yuvarlak-beşgen-basamak grubunu çevreleyen çerçeve. Etiketler: Fosfat, Şeker, Organik baz, Nükleotit, Gen, Kromozom, Adenin.",
+    "correctAnswer": "1 → Fosfat, 2 → Şeker, 3 → Organik baz, 4 → Nükleotit",
+    "explanation": "DNA’nın kenarlarında fosfat ve şeker sıralanır, basamakları organik bazlar oluşturur. Bir fosfat, bir şeker ve bir organik baz birlikte bir nükleotittir.",
+    "twin": "2021-S1"
+  },
+  {
+    "questionId": "fen8u2-yapi-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 24 adenin var."
+      ],
+      "r": [
+        [
+          "Timin",
+          24
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 24 adenin var.",
+    "correctAnswer": "Timin: 24",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "yapi",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 40 nükleotit var."
+      ],
+      "r": [
+        [
+          "Şeker",
+          40
+        ],
+        [
+          "Fosfat",
+          40
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 40 nükleotit var.",
+    "correctAnswer": "Şeker: 40, Fosfat: 40",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "yapi",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 100 nükleotit var.",
+        "Bunların 30’u adenin."
+      ],
+      "r": [
+        [
+          "Timin",
+          30
+        ],
+        [
+          "Guanin",
+          20
+        ],
+        [
+          "Sitozin",
+          20
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 100 nükleotit var. Bunların 30’u adenin.",
+    "correctAnswer": "Timin: 30, Guanin: 20, Sitozin: 20",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 18 guanin var."
+      ],
+      "r": [
+        [
+          "Sitozin",
+          18
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 18 guanin var.",
+    "correctAnswer": "Sitozin: 18",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 60 nükleotit var.",
+        "Bunların 12’si sitozin."
+      ],
+      "r": [
+        [
+          "Guanin",
+          12
+        ],
+        [
+          "Adenin",
+          18
+        ],
+        [
+          "Timin",
+          18
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 60 nükleotit var. Bunların 12’si sitozin.",
+    "correctAnswer": "Guanin: 12, Adenin: 18, Timin: 18",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Bir DNA’nın 1. zincirinde 7 A, 5 T, 4 G, 9 C var."
+      ],
+      "r": [
+        [
+          "2. zincirde A",
+          5
+        ],
+        [
+          "2. zincirde T",
+          7
+        ],
+        [
+          "2. zincirde G",
+          9
+        ],
+        [
+          "2. zincirde C",
+          4
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Bir DNA’nın 1. zincirinde 7 A, 5 T, 4 G, 9 C var.",
+    "correctAnswer": "2. zincirde A: 5, 2. zincirde T: 7, 2. zincirde G: 9, 2. zincirde C: 4",
+    "explanation": "Karşılıklı zincirlerde A’nın karşısına T, G’nin karşısına C gelir. Bu yüzden 1. zincirdeki A sayısı 2. zincirdeki T sayısına, 1. zincirdeki G sayısı 2. zincirdeki C sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA kendini bir kez eşliyor.",
+        "Başlangıçtaki DNA’da 15 A ve 25 G var."
+      ],
+      "r": [
+        [
+          "Yeni DNA sayısı",
+          2
+        ],
+        [
+          "Her yeni DNA’da A",
+          15
+        ],
+        [
+          "Her yeni DNA’da C",
+          25
+        ],
+        [
+          "Kullanılan yeni nükleotit",
+          80
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA kendini bir kez eşliyor. Başlangıçtaki DNA’da 15 A ve 25 G var.",
+    "correctAnswer": "Yeni DNA sayısı: 2, Her yeni DNA’da A: 15, Her yeni DNA’da C: 25, Kullanılan yeni nükleotit: 80",
+    "explanation": "Eşleme sonunda başlangıçtakiyle aynı iki DNA oluşur; her birinde 15 A ve 25 G (dolayısıyla 25 C) bulunur. Başlangıçtaki DNA’da 2×(15+25) = 80 nükleotit vardır; eşlemede her eski zincirin karşısına yeni zincir kurulduğu için 80 yeni nükleotit kullanılır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Bir DNA’nın 1. zincirinde 10 A ve 6 G var; 2. zincirinde 8 A ve 12 G var."
+      ],
+      "r": [
+        [
+          "DNA’daki toplam T",
+          18
+        ],
+        [
+          "DNA’daki toplam C",
+          18
+        ],
+        [
+          "Toplam nükleotit",
+          72
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Bir DNA’nın 1. zincirinde 10 A ve 6 G var; 2. zincirinde 8 A ve 12 G var.",
+    "correctAnswer": "DNA’daki toplam T: 18, DNA’daki toplam C: 18, Toplam nükleotit: 72",
+    "explanation": "DNA’daki toplam A = 10 + 8 = 18, toplam T de 18’dir. Toplam G = 6 + 12 = 18, toplam C de 18’dir. Toplam nükleotit 18 + 18 + 18 + 18 = 72.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "yapi",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 50 adenin ve 70 sitozin var."
+      ],
+      "r": [
+        [
+          "Timin",
+          50
+        ],
+        [
+          "Guanin",
+          70
+        ],
+        [
+          "Nükleotit",
+          240
+        ],
+        [
+          "Fosfat",
+          240
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 50 adenin ve 70 sitozin var.",
+    "correctAnswer": "Timin: 50, Guanin: 70, Nükleotit: 240, Fosfat: 240",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "ATGC",
+      "c": [
+        "TACG",
+        "ATGC",
+        "TTGC"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir ATGC, alt zincir TACG. Yeni zincir kartları: TACG, ATGC, TTGC.",
+    "correctAnswer": "Üst eski zincirin (ATGC) karşısına TACG; alt eski zincirin (TACG) karşısına ATGC",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2022-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "GGAT",
+      "c": [
+        "CCTA",
+        "GGAT",
+        "CCTT"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir GGAT, alt zincir CCTA. Yeni zincir kartları: CCTA, GGAT, CCTT.",
+    "correctAnswer": "Üst eski zincirin (GGAT) karşısına CCTA; alt eski zincirin (CCTA) karşısına GGAT",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2020-S3"
+  },
+  {
+    "questionId": "fen8u2-eslenme-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "TACGA",
+      "c": [
+        "ATGCT",
+        "TACGA",
+        "ATCCT",
+        "AGCAT"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir TACGA, alt zincir ATGCT. Yeni zincir kartları: ATGCT, TACGA, ATCCT, AGCAT.",
+    "correctAnswer": "Üst eski zincirin (TACGA) karşısına ATGCT; alt eski zincirin (ATGCT) karşısına TACGA",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2022-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "CGATT",
+      "c": [
+        "GCTAA",
+        "CGATT",
+        "CGATA",
+        "TTAGC"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir CGATT, alt zincir GCTAA. Yeni zincir kartları: GCTAA, CGATT, CGATA, TTAGC.",
+    "correctAnswer": "Üst eski zincirin (CGATT) karşısına GCTAA; alt eski zincirin (GCTAA) karşısına CGATT",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2020-S3"
+  },
+  {
+    "questionId": "fen8u2-eslenme-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "eslenme",
+    "rank": 2,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "AACTG",
+      "c": [
+        "TTGAC",
+        "AACTG",
+        "ATGAC",
+        "GTCAA"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir AACTG, alt zincir TTGAC. Yeni zincir kartları: TTGAC, AACTG, ATGAC, GTCAA.",
+    "correctAnswer": "Üst eski zincirin (AACTG) karşısına TTGAC; alt eski zincirin (TTGAC) karşısına AACTG",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2025-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "GATCCA",
+      "c": [
+        "CTAGGT",
+        "GATCCA",
+        "CTACGT",
+        "GTTCCA",
+        "ACCTAG"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir GATCCA, alt zincir CTAGGT. Yeni zincir kartları: CTAGGT, GATCCA, CTACGT, GTTCCA, ACCTAG.",
+    "correctAnswer": "Üst eski zincirin (GATCCA) karşısına CTAGGT; alt eski zincirin (CTAGGT) karşısına GATCCA",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2025-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "TGCAAT",
+      "c": [
+        "ACGTTA",
+        "TGCAAT",
+        "ACGTTT",
+        "TGGAAT",
+        "TAACGT"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir TGCAAT, alt zincir ACGTTA. Yeni zincir kartları: ACGTTA, TGCAAT, ACGTTT, TGGAAT, TAACGT.",
+    "correctAnswer": "Üst eski zincirin (TGCAAT) karşısına ACGTTA; alt eski zincirin (ACGTTA) karşısına TGCAAT",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2020-S3"
+  },
+  {
+    "questionId": "fen8u2-eslenme-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "eslenme",
+    "rank": 3,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "CATGGA",
+      "c": [
+        "GTACCT",
+        "CATGGA",
+        "GTACGT",
+        "AGGTAC",
+        "GATGGA"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir CATGGA, alt zincir GTACCT. Yeni zincir kartları: GTACCT, CATGGA, GTACGT, AGGTAC, GATGGA.",
+    "correctAnswer": "Üst eski zincirin (CATGGA) karşısına GTACCT; alt eski zincirin (GTACCT) karşısına CATGGA",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2022-S1"
+  },
+  {
+    "questionId": "fen8u2-kalitim-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "cross",
+    "prompt": "Çiçek rengi için M baskın (mor), m çekinik (beyaz). Ebeveynleri ayarla: hem mor hem beyaz yavrular çıksın.",
+    "data": {
+      "t": "cr",
+      "P": [
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "has",
+        "dr"
+      ]
+    },
+    "textPlain": "Çiçek rengi için M baskın (mor), m çekinik (beyaz). Ebeveynleri ayarla: hem mor hem beyaz yavrular çıksın. 1. ebeveyn: genotipi seçilecek; 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: Mm × Mm (başka uygun seçimler de kabul edilir)",
+    "explanation": "M baskın alel olduğundan MM ve Mm bireyler mor, mm bireyler beyaz olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2023-S1"
+  },
+  {
+    "questionId": "fen8u2-kalitim-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "cross",
+    "prompt": "Tohum rengi için S baskın (sarı), s çekinik (yeşil). Ebeveynleri ayarla: yavruların hepsi sarı olsun. İkinci ebeveyn yeşil tohumlu.",
+    "data": {
+      "t": "tr",
+      "P": [
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ],
+        [
+          "aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          4,
+          0
+        ]
+      ]
+    },
+    "textPlain": "Tohum rengi için S baskın (sarı), s çekinik (yeşil). Ebeveynleri ayarla: yavruların hepsi sarı olsun. İkinci ebeveyn yeşil tohumlu. 1. ebeveyn: genotipi seçilecek; 2. ebeveyn: ss (yeşil).",
+    "correctAnswer": "Uygun bir çaprazlama: SS × ss",
+    "explanation": "S baskın alel olduğundan SS ve Ss bireyler sarı, ss bireyler yeşil olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-kalitim-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "cross",
+    "prompt": "Tohum şekli için D baskın (düzgün), d çekinik (buruşuk). Ebeveynleri ayarla: yavruların hepsi buruşuk olsun.",
+    "data": {
+      "t": "ts",
+      "P": [
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "textPlain": "Tohum şekli için D baskın (düzgün), d çekinik (buruşuk). Ebeveynleri ayarla: yavruların hepsi buruşuk olsun. 1. ebeveyn: genotipi seçilecek; 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: dd × dd",
+    "explanation": "D baskın alel olduğundan DD ve Dd bireyler düzgün, dd bireyler buruşuk olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-kalitim-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "cross",
+    "prompt": "Boy için E baskın (uzun), e çekinik (kısa). Ebeveynleri ayarla: yavruların yarısı uzun, yarısı kısa olsun.",
+    "data": {
+      "t": "by",
+      "P": [
+        [
+          "aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Boy için E baskın (uzun), e çekinik (kısa). Ebeveynleri ayarla: yavruların yarısı uzun, yarısı kısa olsun. 1. ebeveyn: ee (kısa); 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: ee × Ee",
+    "explanation": "E baskın alel olduğundan EE ve Ee bireyler uzun, ee bireyler kısa olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-kalitim-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "cross",
+    "prompt": "Çiçek rengi için M baskın (mor), m çekinik (beyaz). Ebeveynleri ayarla: yavruların yarısı mor, yarısı beyaz olsun. Mor çiçekli ebeveynin genotipini seç.",
+    "data": {
+      "t": "cr",
+      "P": [
+        [
+          "aa"
+        ],
+        [
+          "AA",
+          "Aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Çiçek rengi için M baskın (mor), m çekinik (beyaz). Ebeveynleri ayarla: yavruların yarısı mor, yarısı beyaz olsun. Mor çiçekli ebeveynin genotipini seç. 1. ebeveyn: mm (beyaz); 2. ebeveyn: mor (genotipi seçilecek).",
+    "correctAnswer": "Uygun bir çaprazlama: mm × Mm",
+    "explanation": "M baskın alel olduğundan MM ve Mm bireyler mor, mm bireyler beyaz olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2020-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "cross",
+    "prompt": "Tohum rengi için S baskın (sarı), s çekinik (yeşil). Ebeveynleri ayarla: yavruların dörtte üçü sarı, dörtte biri yeşil olsun. İki ebeveyn de sarı tohumlu.",
+    "data": {
+      "t": "tr",
+      "P": [
+        [
+          "AA",
+          "Aa"
+        ],
+        [
+          "AA",
+          "Aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Tohum rengi için S baskın (sarı), s çekinik (yeşil). Ebeveynleri ayarla: yavruların dörtte üçü sarı, dörtte biri yeşil olsun. İki ebeveyn de sarı tohumlu. 1. ebeveyn: sarı (genotipi seçilecek); 2. ebeveyn: sarı (genotipi seçilecek).",
+    "correctAnswer": "Uygun bir çaprazlama: Ss × Ss",
+    "explanation": "S baskın alel olduğundan SS ve Ss bireyler sarı, ss bireyler yeşil olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2021-S3"
+  },
+  {
+    "questionId": "fen8u2-kalitim-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "cross",
+    "prompt": "Tohum şekli için D baskın (düzgün), d çekinik (buruşuk). Ebeveynleri ayarla: hem düzgün hem buruşuk yavrular çıksın. İki ebeveyn de düzgün tohumlu; buruşuk tohumlu yavrular da çıkabildiğini göster.",
+    "data": {
+      "t": "ts",
+      "P": [
+        [
+          "AA",
+          "Aa"
+        ],
+        [
+          "AA",
+          "Aa"
+        ]
+      ],
+      "g": [
+        "has",
+        "dr"
+      ]
+    },
+    "textPlain": "Tohum şekli için D baskın (düzgün), d çekinik (buruşuk). Ebeveynleri ayarla: hem düzgün hem buruşuk yavrular çıksın. İki ebeveyn de düzgün tohumlu; buruşuk tohumlu yavrular da çıkabildiğini göster. 1. ebeveyn: düzgün (genotipi seçilecek); 2. ebeveyn: düzgün (genotipi seçilecek).",
+    "correctAnswer": "Uygun bir çaprazlama: Dd × Dd",
+    "explanation": "D baskın alel olduğundan DD ve Dd bireyler düzgün, dd bireyler buruşuk olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2020-S4"
+  },
+  {
+    "questionId": "fen8u2-kalitim-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "cross",
+    "prompt": "Meyve şekli için B baskın (düzgün), b çekinik (boğumlu). Ebeveynleri ayarla: yavruların yarısı düzgün, yarısı boğumlu olsun. Birinci ebeveyn melez.",
+    "data": {
+      "t": "ms",
+      "P": [
+        [
+          "Aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Meyve şekli için B baskın (düzgün), b çekinik (boğumlu). Ebeveynleri ayarla: yavruların yarısı düzgün, yarısı boğumlu olsun. Birinci ebeveyn melez. 1. ebeveyn: Bb (düzgün); 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: Bb × bb",
+    "explanation": "B baskın alel olduğundan BB ve Bb bireyler düzgün, bb bireyler boğumlu olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2021-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "cross",
+    "prompt": "Çiçek rengi için M baskın (mor), m çekinik (beyaz). Ebeveynleri ayarla: yavruların hepsi mor olsun ama aralarında melez (heterozigot) yavrular bulunsun. İki ebeveyn de mor çiçekli.",
+    "data": {
+      "t": "cr",
+      "P": [
+        [
+          "AA",
+          "Aa"
+        ],
+        [
+          "AA",
+          "Aa"
+        ]
+      ],
+      "g": [
+        "het"
+      ]
+    },
+    "textPlain": "Çiçek rengi için M baskın (mor), m çekinik (beyaz). Ebeveynleri ayarla: yavruların hepsi mor olsun ama aralarında melez (heterozigot) yavrular bulunsun. İki ebeveyn de mor çiçekli. 1. ebeveyn: mor (genotipi seçilecek); 2. ebeveyn: mor (genotipi seçilecek).",
+    "correctAnswer": "Uygun bir çaprazlama: MM × Mm (başka uygun seçimler de kabul edilir)",
+    "explanation": "M baskın alel olduğundan MM ve Mm bireyler mor, mm bireyler beyaz olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2023-S4"
+  },
+  {
+    "questionId": "fen8u2-kalitim-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "cross",
+    "prompt": "Boy için E baskın (uzun), e çekinik (kısa). Ebeveynleri ayarla: yavruların hepsi saf döl (homozigot) olsun. Birinci ebeveyn uzun boylu.",
+    "data": {
+      "t": "by",
+      "P": [
+        [
+          "AA",
+          "Aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "pure"
+      ]
+    },
+    "textPlain": "Boy için E baskın (uzun), e çekinik (kısa). Ebeveynleri ayarla: yavruların hepsi saf döl (homozigot) olsun. Birinci ebeveyn uzun boylu. 1. ebeveyn: uzun (genotipi seçilecek); 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: EE × EE",
+    "explanation": "E baskın alel olduğundan EE ve Ee bireyler uzun, ee bireyler kısa olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2022-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "cross",
+    "prompt": "Tohum rengi için S baskın (sarı), s çekinik (yeşil). Ebeveynleri ayarla: yavruların dörtte üçü sarı, dörtte biri yeşil olsun. Birinci ebeveyn melez sarı tohumlu.",
+    "data": {
+      "t": "tr",
+      "P": [
+        [
+          "Aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Tohum rengi için S baskın (sarı), s çekinik (yeşil). Ebeveynleri ayarla: yavruların dörtte üçü sarı, dörtte biri yeşil olsun. Birinci ebeveyn melez sarı tohumlu. 1. ebeveyn: Ss (sarı); 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: Ss × Ss",
+    "explanation": "S baskın alel olduğundan SS ve Ss bireyler sarı, ss bireyler yeşil olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2026-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "cross",
+    "prompt": "Tohum şekli için D baskın (düzgün), d çekinik (buruşuk). Ebeveynleri ayarla: yavruların hepsi düzgün olsun. Birinci ebeveyn buruşuk tohumlu.",
+    "data": {
+      "t": "ts",
+      "P": [
+        [
+          "aa"
+        ],
+        [
+          "AA",
+          "Aa",
+          "aa"
+        ]
+      ],
+      "g": [
+        "ratio",
+        [
+          4,
+          0
+        ]
+      ]
+    },
+    "textPlain": "Tohum şekli için D baskın (düzgün), d çekinik (buruşuk). Ebeveynleri ayarla: yavruların hepsi düzgün olsun. Birinci ebeveyn buruşuk tohumlu. 1. ebeveyn: dd (buruşuk); 2. ebeveyn: genotipi seçilecek.",
+    "correctAnswer": "Uygun bir çaprazlama: dd × DD",
+    "explanation": "D baskın alel olduğundan DD ve Dd bireyler düzgün, dd bireyler buruşuk olur. Her ebeveyn yavruya alellerinden birini verir; 2×2 tablo dört eşit olasılıklı yavruyu gösterir. Melez × melez → 3:1, melez × çekinik → 1:1, saf baskın × herhangi → hepsi baskın.",
+    "twin": "2021-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "punnett",
+    "prompt": "Çiçek rengi çaprazlaması: MM × mm. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "cr",
+      "a": "MM",
+      "b": "mm",
+      "cells": [
+        "Mm",
+        "Mm",
+        "Mm",
+        "Mm"
+      ]
+    },
+    "textPlain": "Çiçek rengi çaprazlaması: MM × mm. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: M, M; 2. ebeveynin alelleri: m, m.",
+    "correctAnswer": "Kutular: Mm, Mm, Mm, Mm → 4/4 mor, 0/4 beyaz",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (M) bulunan her yavru mor, iki çekinik alel taşıyan (mm) yavru beyaz olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-kalitim-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "punnett",
+    "prompt": "Tohum rengi çaprazlaması: Ss × ss. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "tr",
+      "a": "Ss",
+      "b": "ss",
+      "cells": [
+        "Ss",
+        "ss",
+        "Ss",
+        "ss"
+      ]
+    },
+    "textPlain": "Tohum rengi çaprazlaması: Ss × ss. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: S, s; 2. ebeveynin alelleri: s, s.",
+    "correctAnswer": "Kutular: Ss, ss, Ss, ss → 2/4 sarı, 2/4 yeşil",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (S) bulunan her yavru sarı, iki çekinik alel taşıyan (ss) yavru yeşil olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-kalitim-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "kalitim",
+    "rank": 1,
+    "type": "punnett",
+    "prompt": "Boy çaprazlaması: EE × Ee. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "by",
+      "a": "EE",
+      "b": "Ee",
+      "cells": [
+        "EE",
+        "EE",
+        "Ee",
+        "Ee"
+      ]
+    },
+    "textPlain": "Boy çaprazlaması: EE × Ee. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: E, E; 2. ebeveynin alelleri: E, e.",
+    "correctAnswer": "Kutular: EE, EE, Ee, Ee → 4/4 uzun, 0/4 kısa",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (E) bulunan her yavru uzun, iki çekinik alel taşıyan (ee) yavru kısa olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-kalitim-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "punnett",
+    "prompt": "Tohum şekli çaprazlaması: Dd × Dd. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "ts",
+      "a": "Dd",
+      "b": "Dd",
+      "cells": [
+        "DD",
+        "Dd",
+        "Dd",
+        "dd"
+      ]
+    },
+    "textPlain": "Tohum şekli çaprazlaması: Dd × Dd. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: D, d; 2. ebeveynin alelleri: D, d.",
+    "correctAnswer": "Kutular: DD, Dd, Dd, dd → 3/4 düzgün, 1/4 buruşuk",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (D) bulunan her yavru düzgün, iki çekinik alel taşıyan (dd) yavru buruşuk olur.",
+    "twin": "2021-S3"
+  },
+  {
+    "questionId": "fen8u2-kalitim-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "punnett",
+    "prompt": "Meyve şekli çaprazlaması: Bb × bb. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "ms",
+      "a": "Bb",
+      "b": "bb",
+      "cells": [
+        "Bb",
+        "bb",
+        "Bb",
+        "bb"
+      ]
+    },
+    "textPlain": "Meyve şekli çaprazlaması: Bb × bb. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: B, b; 2. ebeveynin alelleri: b, b.",
+    "correctAnswer": "Kutular: Bb, bb, Bb, bb → 2/4 düzgün, 2/4 boğumlu",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (B) bulunan her yavru düzgün, iki çekinik alel taşıyan (bb) yavru boğumlu olur.",
+    "twin": "2021-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "kalitim",
+    "rank": 2,
+    "type": "punnett",
+    "prompt": "Çiçek rengi çaprazlaması: Mm × MM. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "cr",
+      "a": "Mm",
+      "b": "MM",
+      "cells": [
+        "MM",
+        "Mm",
+        "MM",
+        "Mm"
+      ]
+    },
+    "textPlain": "Çiçek rengi çaprazlaması: Mm × MM. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: M, m; 2. ebeveynin alelleri: M, M.",
+    "correctAnswer": "Kutular: MM, Mm, MM, Mm → 4/4 mor, 0/4 beyaz",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (M) bulunan her yavru mor, iki çekinik alel taşıyan (mm) yavru beyaz olur.",
+    "twin": "2024-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "punnett",
+    "prompt": "Tohum rengi çaprazlaması: Ss × Ss. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "tr",
+      "a": "Ss",
+      "b": "Ss",
+      "cells": [
+        "SS",
+        "Ss",
+        "Ss",
+        "ss"
+      ]
+    },
+    "textPlain": "Tohum rengi çaprazlaması: Ss × Ss. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: S, s; 2. ebeveynin alelleri: S, s.",
+    "correctAnswer": "Kutular: SS, Ss, Ss, ss → 3/4 sarı, 1/4 yeşil",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (S) bulunan her yavru sarı, iki çekinik alel taşıyan (ss) yavru yeşil olur.",
+    "twin": "2025-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "punnett",
+    "prompt": "Boy çaprazlaması: Ee × ee. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "by",
+      "a": "Ee",
+      "b": "ee",
+      "cells": [
+        "Ee",
+        "ee",
+        "Ee",
+        "ee"
+      ]
+    },
+    "textPlain": "Boy çaprazlaması: Ee × ee. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: E, e; 2. ebeveynin alelleri: e, e.",
+    "correctAnswer": "Kutular: Ee, ee, Ee, ee → 2/4 uzun, 2/4 kısa",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (E) bulunan her yavru uzun, iki çekinik alel taşıyan (ee) yavru kısa olur.",
+    "twin": "2026-S2"
+  },
+  {
+    "questionId": "fen8u2-kalitim-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Kalıtım: Mendel çaprazlamaları, baskın-çekinik, genotip-fenotip, saf döl-melez",
+    "outcome": "Kalıtımla ilgili kavramları kullanarak tek karakter çaprazlamalarının sonuçlarını tahmin eder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "kalitim",
+    "rank": 3,
+    "type": "punnett",
+    "prompt": "Çiçek rengi çaprazlaması: Mm × Mm. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla.",
+    "data": {
+      "t": "cr",
+      "a": "Mm",
+      "b": "Mm",
+      "cells": [
+        "MM",
+        "Mm",
+        "Mm",
+        "mm"
+      ]
+    },
+    "textPlain": "Çiçek rengi çaprazlaması: Mm × Mm. Tablonun her kutusuna dokunarak yavrunun genotipini ayarla. 1. ebeveynin alelleri: M, m; 2. ebeveynin alelleri: M, m.",
+    "correctAnswer": "Kutular: MM, Mm, Mm, mm → 3/4 mor, 1/4 beyaz",
+    "explanation": "Her kutuda satırdaki ve sütundaki aleller birleşir. Baskın alel (M) bulunan her yavru mor, iki çekinik alel taşıyan (mm) yavru beyaz olur.",
+    "twin": "2026-S2"
+  },
+  {
+    "questionId": "fen8u2-degisim-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "env",
+    "prompt": "Bu arı türünün yumurtaları farklı sıcaklıklarda yetiştirilince arıların vücut rengi değişiyor. Deney ortamını ayarla: “Açık” sonucunu elde et.",
+    "data": {
+      "o": "ari",
+      "g": [
+        "make",
+        2
+      ],
+      "s": null
+    },
+    "textPlain": "Bu arı türünün yumurtaları farklı sıcaklıklarda yetiştirilince arıların vücut rengi değişiyor. Deney ortamını ayarla: “Açık” sonucunu elde et. Bu arı türünün yumurtaları farklı sıcaklıklarda yetiştirilince arıların vücut rengi değişiyor. Ortamlar ve sonuçlar: 16 °C → Çok koyu, 30 °C → Biraz koyu, 35 °C → Açık.",
+    "correctAnswer": "Ortam: 35 °C",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "env",
+    "prompt": "Ortanca bitkisinin çiçek rengi toprağın asitliğine göre değişiyor. Deney ortamını ayarla: “Mavi” sonucunu elde et.",
+    "data": {
+      "o": "ortanca",
+      "g": [
+        "make",
+        0
+      ],
+      "s": null
+    },
+    "textPlain": "Ortanca bitkisinin çiçek rengi toprağın asitliğine göre değişiyor. Deney ortamını ayarla: “Mavi” sonucunu elde et. Ortanca bitkisinin çiçek rengi toprağın asitliğine göre değişiyor. Ortamlar ve sonuçlar: Asidik toprak → Mavi, Bazik toprak → Pembe.",
+    "correctAnswer": "Ortam: Asidik toprak",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "env",
+    "prompt": "Bu tavşan türünde siyah kürk geni yalnızca 35 °C’un altındaki deri bölgelerinde etkin; vücudun geri kalanı 35 °C’un üstünde olduğundan beyaz kürk çıkar. Sırttaki tüyler tıraş ediliyor. Deney ortamını ayarla: “Sırtta siyah kürk” sonucunu elde et.",
+    "data": {
+      "o": "tavsan",
+      "g": [
+        "make",
+        0
+      ],
+      "s": null
+    },
+    "textPlain": "Bu tavşan türünde siyah kürk geni yalnızca 35 °C’un altındaki deri bölgelerinde etkin; vücudun geri kalanı 35 °C’un üstünde olduğundan beyaz kürk çıkar. Sırttaki tüyler tıraş ediliyor. Deney ortamını ayarla: “Sırtta siyah kürk” sonucunu elde et. Bu tavşan türünde siyah kürk geni yalnızca 35 °C’un altındaki deri bölgelerinde etkin; vücudun geri kalanı 35 °C’un üstünde olduğundan beyaz kürk çıkar. Sırttaki tüyler tıraş ediliyor. Ortamlar ve sonuçlar: Sırta buz torbası → Sırtta siyah kürk, Buz torbası yok → Sırtta beyaz kürk.",
+    "correctAnswer": "Ortam: Sırta buz torbası",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": "2020-S5"
+  },
+  {
+    "questionId": "fen8u2-degisim-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "env",
+    "prompt": "Bu bitkinin çelikleri farklı sıcaklıklarda yetiştirilince çiçek rengi değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın.",
+    "data": {
+      "o": "cicek",
+      "g": [
+        "prove"
+      ],
+      "s": [
+        [
+          "1. bitki",
+          0
+        ],
+        [
+          "2. bitki",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Bu bitkinin çelikleri farklı sıcaklıklarda yetiştirilince çiçek rengi değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın. Bu bitkinin çelikleri farklı sıcaklıklarda yetiştirilince çiçek rengi değişiyor. Ortamlar ve sonuçlar: Düşük sıcaklık → Kırmızı, Yüksek sıcaklık → Beyaz. Örnekler: 1. bitki (Düşük sıcaklık ortamında gelişmiş bireyden), 2. bitki (Yüksek sıcaklık ortamında gelişmiş bireyden).",
+    "correctAnswer": "Örneği, geldiği ortamdan FARKLI bir ortamda yetiştir; örneğin 1. bitki örneğini Yüksek sıcaklık ortamında",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": "2021-S4"
+  },
+  {
+    "questionId": "fen8u2-degisim-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "env",
+    "prompt": "Bir su bitkisinin aynı genlere sahip parçalarından yetiştirilen yeni bitkilerin yaprak biçimi ortama göre değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın.",
+    "data": {
+      "o": "yaprak",
+      "g": [
+        "prove"
+      ],
+      "s": [
+        [
+          "Havadaki yaprak",
+          0
+        ],
+        [
+          "Sudaki yaprak",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Bir su bitkisinin aynı genlere sahip parçalarından yetiştirilen yeni bitkilerin yaprak biçimi ortama göre değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın. Bir su bitkisinin aynı genlere sahip parçalarından yetiştirilen yeni bitkilerin yaprak biçimi ortama göre değişiyor. Ortamlar ve sonuçlar: Hava ortamı → Geniş, düz yaprak, Su ortamı → İnce, şeritli yaprak. Örnekler: Havadaki yaprak (Hava ortamı ortamında gelişmiş bireyden), Sudaki yaprak (Su ortamı ortamında gelişmiş bireyden).",
+    "correctAnswer": "Örneği, geldiği ortamdan FARKLI bir ortamda yetiştir; örneğin Havadaki yaprak örneğini Su ortamı ortamında",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": "2026-S3"
+  },
+  {
+    "questionId": "fen8u2-degisim-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "env",
+    "prompt": "Bu arı türünün yumurtaları farklı sıcaklıklarda yetiştirilince arıların vücut rengi değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın.",
+    "data": {
+      "o": "ari",
+      "g": [
+        "prove"
+      ],
+      "s": [
+        [
+          "I. arı",
+          0
+        ],
+        [
+          "II. arı",
+          1
+        ],
+        [
+          "III. arı",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Bu arı türünün yumurtaları farklı sıcaklıklarda yetiştirilince arıların vücut rengi değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın. Bu arı türünün yumurtaları farklı sıcaklıklarda yetiştirilince arıların vücut rengi değişiyor. Ortamlar ve sonuçlar: 16 °C → Çok koyu, 30 °C → Biraz koyu, 35 °C → Açık. Örnekler: I. arı (16 °C ortamında gelişmiş bireyden), II. arı (30 °C ortamında gelişmiş bireyden), III. arı (35 °C ortamında gelişmiş bireyden).",
+    "correctAnswer": "Örneği, geldiği ortamdan FARKLI bir ortamda yetiştir; örneğin I. arı örneğini 30 °C ortamında",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": "2023-S6"
+  },
+  {
+    "questionId": "fen8u2-degisim-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "env",
+    "prompt": "Ortanca bitkisinin çiçek rengi toprağın asitliğine göre değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın.",
+    "data": {
+      "o": "ortanca",
+      "g": [
+        "prove"
+      ],
+      "s": [
+        [
+          "Mavi çiçekli bitki",
+          0
+        ],
+        [
+          "Pembe çiçekli bitki",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Ortanca bitkisinin çiçek rengi toprağın asitliğine göre değişiyor. Bir örnek seç ve ortamı öyle ayarla ki farkın genetik değil çevresel olduğu (modifikasyon) kanıtlansın. Ortanca bitkisinin çiçek rengi toprağın asitliğine göre değişiyor. Ortamlar ve sonuçlar: Asidik toprak → Mavi, Bazik toprak → Pembe. Örnekler: Mavi çiçekli bitki (Asidik toprak ortamında gelişmiş bireyden), Pembe çiçekli bitki (Bazik toprak ortamında gelişmiş bireyden).",
+    "correctAnswer": "Örneği, geldiği ortamdan FARKLI bir ortamda yetiştir; örneğin Mavi çiçekli bitki örneğini Bazik toprak ortamında",
+    "explanation": "Modifikasyon, çevre koşullarının etkisiyle genlerin farklı biçimde ifade edilmesidir; DNA’daki nükleotit dizilimi değişmez ve kalıtsal değildir. Aynı genetik yapıdaki bireyler farklı ortamlarda farklı görünebilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "mutate",
+    "prompt": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun.",
+    "data": {
+      "n": "CTTAGG",
+      "m": "CATAGG",
+      "d": [
+        1
+      ],
+      "ctx": "Hemoglobin geninin bir bölümü; tek bir bazın değişmesi hatalı hemoglobin oluşturuyor."
+    },
+    "textPlain": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Hemoglobin geninin bir bölümü; tek bir bazın değişmesi hatalı hemoglobin oluşturuyor. Normal gen: CTTAGG; değişmiş gen: CATAGG.",
+    "correctAnswer": "Değişen sıra: 2. diş (T → A)",
+    "explanation": "Mutasyon, DNA’nın nükleotit diziliminde meydana gelen kalıcı değişikliktir; radyasyon ve bazı kimyasallar gibi etkenlerle oluşabilir. Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir, vücut hücrelerindekiler aktarılmaz.",
+    "twin": "2023-S5"
+  },
+  {
+    "questionId": "fen8u2-degisim-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "mutate",
+    "prompt": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun.",
+    "data": {
+      "n": "GATTACA",
+      "m": "GATCACA",
+      "d": [
+        3
+      ],
+      "ctx": "Kürk rengi pigmentini üreten enzimin geni; değişiklik pigmentin üretilmemesine yol açıyor."
+    },
+    "textPlain": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Kürk rengi pigmentini üreten enzimin geni; değişiklik pigmentin üretilmemesine yol açıyor. Normal gen: GATTACA; değişmiş gen: GATCACA.",
+    "correctAnswer": "Değişen sıra: 4. diş (T → C)",
+    "explanation": "Mutasyon, DNA’nın nükleotit diziliminde meydana gelen kalıcı değişikliktir; radyasyon ve bazı kimyasallar gibi etkenlerle oluşabilir. Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir, vücut hücrelerindekiler aktarılmaz.",
+    "twin": "2024-S4"
+  },
+  {
+    "questionId": "fen8u2-degisim-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "mutate",
+    "prompt": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla.",
+    "data": {
+      "n": "TTGCAAGT",
+      "m": "TTGCTAGT",
+      "d": [
+        4
+      ],
+      "ctx": "Bir bitkinin çiçek rengi geni.",
+      "cell": "üreme",
+      "ans": true
+    },
+    "textPlain": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla. Bir bitkinin çiçek rengi geni. Normal gen: TTGCAAGT; değişmiş gen: TTGCTAGT. Değişiklik üreme hücresinde.",
+    "correctAnswer": "Değişen sıra: 5. diş (A → T); yavrulara aktarılabilir",
+    "explanation": "Mutasyon, DNA’nın nükleotit diziliminde meydana gelen kalıcı değişikliktir; radyasyon ve bazı kimyasallar gibi etkenlerle oluşabilir. Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir, vücut hücrelerindekiler aktarılmaz.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "mutate",
+    "prompt": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla.",
+    "data": {
+      "n": "ACCGTA",
+      "m": "ACGGTA",
+      "d": [
+        2
+      ],
+      "ctx": "Bir insanın deri hücrelerinde güneş ışınlarındaki zararlı ışınlar etkisiyle değişen bir gen.",
+      "cell": "vücut (deri)",
+      "ans": false
+    },
+    "textPlain": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla. Bir insanın deri hücrelerinde güneş ışınlarındaki zararlı ışınlar etkisiyle değişen bir gen. Normal gen: ACCGTA; değişmiş gen: ACGGTA. Değişiklik vücut (deri) hücresinde.",
+    "correctAnswer": "Değişen sıra: 3. diş (C → G); yavrulara aktarılmaz",
+    "explanation": "Mutasyon, DNA’nın nükleotit diziliminde meydana gelen kalıcı değişikliktir; radyasyon ve bazı kimyasallar gibi etkenlerle oluşabilir. Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir, vücut hücrelerindekiler aktarılmaz.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "mutate",
+    "prompt": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla.",
+    "data": {
+      "n": "GGCTTACA",
+      "m": "GGATTGCA",
+      "d": [
+        2,
+        5
+      ],
+      "ctx": "Radyasyona maruz kalan bir hayvanın üreme hücrelerindeki bir gen.",
+      "cell": "üreme",
+      "ans": true
+    },
+    "textPlain": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla. Radyasyona maruz kalan bir hayvanın üreme hücrelerindeki bir gen. Normal gen: GGCTTACA; değişmiş gen: GGATTGCA. Değişiklik üreme hücresinde.",
+    "correctAnswer": "Değişen sıra: 3. diş (C → A), 6. diş (A → G); yavrulara aktarılabilir",
+    "explanation": "Mutasyon, DNA’nın nükleotit diziliminde meydana gelen kalıcı değişikliktir; radyasyon ve bazı kimyasallar gibi etkenlerle oluşabilir. Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir, vücut hücrelerindekiler aktarılmaz.",
+    "twin": "2024-S4"
+  },
+  {
+    "questionId": "fen8u2-degisim-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "mutate",
+    "prompt": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla.",
+    "data": {
+      "n": "CATGCCAT",
+      "m": "CAAGCCTT",
+      "d": [
+        2,
+        6
+      ],
+      "ctx": "Kimyasal bir maddeye maruz kalan bir bireyin karaciğer hücrelerindeki bir gen.",
+      "cell": "vücut (karaciğer)",
+      "ans": false
+    },
+    "textPlain": "Normal ve değişmiş geni karşılaştır; değişen dişlere dokun. Sonra yavrulara aktarılıp aktarılmayacağını ayarla. Kimyasal bir maddeye maruz kalan bir bireyin karaciğer hücrelerindeki bir gen. Normal gen: CATGCCAT; değişmiş gen: CAAGCCTT. Değişiklik vücut (karaciğer) hücresinde.",
+    "correctAnswer": "Değişen sıra: 3. diş (T → A), 7. diş (A → T); yavrulara aktarılmaz",
+    "explanation": "Mutasyon, DNA’nın nükleotit diziliminde meydana gelen kalıcı değişikliktir; radyasyon ve bazı kimyasallar gibi etkenlerle oluşabilir. Üreme hücrelerindeki mutasyonlar yavrulara aktarılabilir, vücut hücrelerindekiler aktarılmaz.",
+    "twin": "2023-S5"
+  },
+  {
+    "questionId": "fen8u2-degisim-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "select",
+    "prompt": "Fabrika dumanıyla kararmış ağaç gövdelerinde açık ve koyu renkli güveler yaşıyor; kuşlar fark ettikleri güveleri yiyor. Avcının gözünden bak: avcının en kolay yakalayacağı bireylerin hepsine dokun.",
+    "data": {
+      "k": "guve_koyu",
+      "i": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "ask": "eaten"
+    },
+    "textPlain": "Fabrika dumanıyla kararmış ağaç gövdelerinde açık ve koyu renkli güveler yaşıyor; kuşlar fark ettikleri güveleri yiyor. Avcının gözünden bak: avcının en kolay yakalayacağı bireylerin hepsine dokun. Ortamda 9 birey var: 6 tanesi ortama uyumlu, 3 tanesi dezavantajlı.",
+    "correctAnswer": "Dokunulması gereken bireyler: ortama uymayan (dezavantajlı) bireyler (3 birey)",
+    "explanation": "Ortama uyum sağlayan (adaptasyonu olan) bireylerin hayatta kalma ve üreme şansı daha yüksektir; bu bireyler özelliklerini yavrularına aktarır. Nesiller boyunca bu özellik toplumda yaygınlaşır. Buna doğal seçilim denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "select",
+    "prompt": "Kar kaplı bir bölgede beyaz ve kahverengi kürklü tavşanlar yaşıyor; tilkiler fark ettikleri tavşanları avlıyor. Avcının gözünden bak: avcının en kolay yakalayacağı bireylerin hepsine dokun.",
+    "data": {
+      "k": "tavsan_kar",
+      "i": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "ask": "eaten"
+    },
+    "textPlain": "Kar kaplı bir bölgede beyaz ve kahverengi kürklü tavşanlar yaşıyor; tilkiler fark ettikleri tavşanları avlıyor. Avcının gözünden bak: avcının en kolay yakalayacağı bireylerin hepsine dokun. Ortamda 9 birey var: 6 tanesi ortama uyumlu, 3 tanesi dezavantajlı.",
+    "correctAnswer": "Dokunulması gereken bireyler: ortama uymayan (dezavantajlı) bireyler (3 birey)",
+    "explanation": "Ortama uyum sağlayan (adaptasyonu olan) bireylerin hayatta kalma ve üreme şansı daha yüksektir; bu bireyler özelliklerini yavrularına aktarır. Nesiller boyunca bu özellik toplumda yaygınlaşır. Buna doğal seçilim denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "select",
+    "prompt": "Açık renkli likenlerle kaplı ağaç gövdelerinde açık ve koyu renkli güveler yaşıyor; kuşlar fark ettikleri güveleri yiyor. Avcının gözünden bak: birkaç nesil sonra hayatta kalıp çoğalacak bireylerin hepsine dokun.",
+    "data": {
+      "k": "guve_acik",
+      "i": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ask": "survive"
+    },
+    "textPlain": "Açık renkli likenlerle kaplı ağaç gövdelerinde açık ve koyu renkli güveler yaşıyor; kuşlar fark ettikleri güveleri yiyor. Avcının gözünden bak: birkaç nesil sonra hayatta kalıp çoğalacak bireylerin hepsine dokun. Ortamda 10 birey var: 4 tanesi ortama uyumlu, 6 tanesi dezavantajlı.",
+    "correctAnswer": "Dokunulması gereken bireyler: ortama uyumlu bireyler (4 birey)",
+    "explanation": "Ortama uyum sağlayan (adaptasyonu olan) bireylerin hayatta kalma ve üreme şansı daha yüksektir; bu bireyler özelliklerini yavrularına aktarır. Nesiller boyunca bu özellik toplumda yaygınlaşır. Buna doğal seçilim denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "select",
+    "prompt": "Tüy yoğunlukları farklı soya baklaları, baklalarla beslenen böceklerin bulunduğu bir ortamda; böcekler tüyü az olan baklalara daha çok zarar veriyor. Avcının gözünden bak: avcının en kolay yakalayacağı bireylerin hepsine dokun.",
+    "data": {
+      "k": "bakla",
+      "i": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "ask": "eaten"
+    },
+    "textPlain": "Tüy yoğunlukları farklı soya baklaları, baklalarla beslenen böceklerin bulunduğu bir ortamda; böcekler tüyü az olan baklalara daha çok zarar veriyor. Avcının gözünden bak: avcının en kolay yakalayacağı bireylerin hepsine dokun. Ortamda 10 birey var: 5 tanesi ortama uyumlu, 5 tanesi dezavantajlı.",
+    "correctAnswer": "Dokunulması gereken bireyler: ortama uymayan (dezavantajlı) bireyler (5 birey)",
+    "explanation": "Ortama uyum sağlayan (adaptasyonu olan) bireylerin hayatta kalma ve üreme şansı daha yüksektir; bu bireyler özelliklerini yavrularına aktarır. Nesiller boyunca bu özellik toplumda yaygınlaşır. Buna doğal seçilim denir.",
+    "twin": "2025-S3"
+  },
+  {
+    "questionId": "fen8u2-degisim-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "select",
+    "prompt": "Denizde yaşayan bir balık türünün dikenli ve dikensiz bireyleri var; avcı balıklar dikensiz bireyleri daha kolay yakalıyor. Avcının gözünden bak: birkaç nesil sonra hayatta kalıp çoğalacak bireylerin hepsine dokun.",
+    "data": {
+      "k": "balik",
+      "i": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "ask": "survive"
+    },
+    "textPlain": "Denizde yaşayan bir balık türünün dikenli ve dikensiz bireyleri var; avcı balıklar dikensiz bireyleri daha kolay yakalıyor. Avcının gözünden bak: birkaç nesil sonra hayatta kalıp çoğalacak bireylerin hepsine dokun. Ortamda 12 birey var: 7 tanesi ortama uyumlu, 5 tanesi dezavantajlı.",
+    "correctAnswer": "Dokunulması gereken bireyler: ortama uyumlu bireyler (7 birey)",
+    "explanation": "Ortama uyum sağlayan (adaptasyonu olan) bireylerin hayatta kalma ve üreme şansı daha yüksektir; bu bireyler özelliklerini yavrularına aktarır. Nesiller boyunca bu özellik toplumda yaygınlaşır. Buna doğal seçilim denir.",
+    "twin": "2022-S3"
+  },
+  {
+    "questionId": "fen8u2-degisim-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "select",
+    "prompt": "Açık renkli kumlu bir çölde açık ve koyu renkli böcekler yaşıyor; kertenkeleler fark ettikleri böcekleri yiyor. Avcının gözünden bak: birkaç nesil sonra hayatta kalıp çoğalacak bireylerin hepsine dokun.",
+    "data": {
+      "k": "bocek_kum",
+      "i": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "ask": "survive"
+    },
+    "textPlain": "Açık renkli kumlu bir çölde açık ve koyu renkli böcekler yaşıyor; kertenkeleler fark ettikleri böcekleri yiyor. Avcının gözünden bak: birkaç nesil sonra hayatta kalıp çoğalacak bireylerin hepsine dokun. Ortamda 12 birey var: 7 tanesi ortama uyumlu, 5 tanesi dezavantajlı.",
+    "correctAnswer": "Dokunulması gereken bireyler: ortama uyumlu bireyler (7 birey)",
+    "explanation": "Ortama uyum sağlayan (adaptasyonu olan) bireylerin hayatta kalma ve üreme şansı daha yüksektir; bu bireyler özelliklerini yavrularına aktarır. Nesiller boyunca bu özellik toplumda yaygınlaşır. Buna doğal seçilim denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "degisim",
+    "rank": 1,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "🧬 Mutasyon",
+        "🌡️ Modifikasyon",
+        "🦎 Adaptasyon"
+      ],
+      "r": [
+        [
+          "Radyasyon etkisiyle bir gende baz değişmesi",
+          0
+        ],
+        [
+          "Güneşte kalan kişinin teninin bronzlaşması",
+          1
+        ],
+        [
+          "Kutup ayısının kalın yağ tabakası",
+          2
+        ],
+        [
+          "Develerin uzun kirpikleri",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: 🧬 Mutasyon, 🌡️ Modifikasyon, 🦎 Adaptasyon. Kartlar: Radyasyon etkisiyle bir gende baz değişmesi | Güneşte kalan kişinin teninin bronzlaşması | Kutup ayısının kalın yağ tabakası | Develerin uzun kirpikleri",
+    "correctAnswer": "Radyasyon etkisiyle bir gende baz değişmesi → 🧬 Mutasyon | Güneşte kalan kişinin teninin bronzlaşması → 🌡️ Modifikasyon | Kutup ayısının kalın yağ tabakası → 🦎 Adaptasyon | Develerin uzun kirpikleri → 🦎 Adaptasyon",
+    "explanation": "Mutasyon DNA’daki kalıcı değişikliktir ve üreme hücresindeyse kalıtsaldır. Modifikasyon çevrenin etkisiyle oluşan, kalıtsal olmayan değişikliktir. Adaptasyon, canlının yaşadığı ortamda hayatta kalma ve üreme şansını artıran kalıtsal özelliklerdir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "degisim",
+    "rank": 2,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "🧬 Mutasyon",
+        "🌡️ Modifikasyon",
+        "🦎 Adaptasyon"
+      ],
+      "r": [
+        [
+          "Aynı genetik yapıdaki ortancaların toprağa göre farklı renkte açması",
+          1
+        ],
+        [
+          "Kaktüslerde yaprakların dikene dönüşmüş olması",
+          2
+        ],
+        [
+          "Kimyasal madde etkisiyle bir hücrede nükleotit diziliminin değişmesi",
+          0
+        ],
+        [
+          "Spor yapan kişinin kaslarının gelişmesi",
+          1
+        ],
+        [
+          "Kar kaplanının kalın, açık renkli kürkü",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: 🧬 Mutasyon, 🌡️ Modifikasyon, 🦎 Adaptasyon. Kartlar: Aynı genetik yapıdaki ortancaların toprağa göre farklı renkte açması | Kaktüslerde yaprakların dikene dönüşmüş olması | Kimyasal madde etkisiyle bir hücrede nükleotit diziliminin değişmesi | Spor yapan kişinin kaslarının gelişmesi | Kar kaplanının kalın, açık renkli kürkü",
+    "correctAnswer": "Aynı genetik yapıdaki ortancaların toprağa göre farklı renkte açması → 🌡️ Modifikasyon | Kaktüslerde yaprakların dikene dönüşmüş olması → 🦎 Adaptasyon | Kimyasal madde etkisiyle bir hücrede nükleotit diziliminin değişmesi → 🧬 Mutasyon | Spor yapan kişinin kaslarının gelişmesi → 🌡️ Modifikasyon | Kar kaplanının kalın, açık renkli kürkü → 🦎 Adaptasyon",
+    "explanation": "Mutasyon DNA’daki kalıcı değişikliktir ve üreme hücresindeyse kalıtsaldır. Modifikasyon çevrenin etkisiyle oluşan, kalıtsal olmayan değişikliktir. Adaptasyon, canlının yaşadığı ortamda hayatta kalma ve üreme şansını artıran kalıtsal özelliklerdir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-degisim-022",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Mutasyon, modifikasyon, adaptasyon ve doğal seçilim",
+    "outcome": "Mutasyon ve modifikasyonu ayırt eder; adaptasyon ve doğal seçilimi örneklerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "degisim",
+    "rank": 3,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "🧬 Mutasyon",
+        "🌡️ Modifikasyon",
+        "🦎 Adaptasyon"
+      ],
+      "r": [
+        [
+          "Ebeveynlerinde görülmeyen, DNA değişikliğinden kaynaklı albinizm",
+          0
+        ],
+        [
+          "Arı yumurtalarının sıcaklığa göre farklı renkte arılar oluşturması",
+          1
+        ],
+        [
+          "Denizde yaşayan dikence balıklarının dikenli yapısı",
+          2
+        ],
+        [
+          "Himalaya tavşanının soğuk bölgelerinde siyah kürk çıkması",
+          1
+        ],
+        [
+          "Çöl tilkisinin büyük kulakları",
+          2
+        ],
+        [
+          "Üreme hücresindeki bir gen değişikliğinin yavrularda görülmesi",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: 🧬 Mutasyon, 🌡️ Modifikasyon, 🦎 Adaptasyon. Kartlar: Ebeveynlerinde görülmeyen, DNA değişikliğinden kaynaklı albinizm | Arı yumurtalarının sıcaklığa göre farklı renkte arılar oluşturması | Denizde yaşayan dikence balıklarının dikenli yapısı | Himalaya tavşanının soğuk bölgelerinde siyah kürk çıkması | Çöl tilkisinin büyük kulakları | Üreme hücresindeki bir gen değişikliğinin yavrularda görülmesi",
+    "correctAnswer": "Ebeveynlerinde görülmeyen, DNA değişikliğinden kaynaklı albinizm → 🧬 Mutasyon | Arı yumurtalarının sıcaklığa göre farklı renkte arılar oluşturması → 🌡️ Modifikasyon | Denizde yaşayan dikence balıklarının dikenli yapısı → 🦎 Adaptasyon | Himalaya tavşanının soğuk bölgelerinde siyah kürk çıkması → 🌡️ Modifikasyon | Çöl tilkisinin büyük kulakları → 🦎 Adaptasyon | Üreme hücresindeki bir gen değişikliğinin yavrularda görülmesi → 🧬 Mutasyon",
+    "explanation": "Mutasyon DNA’daki kalıcı değişikliktir ve üreme hücresindeyse kalıtsaldır. Modifikasyon çevrenin etkisiyle oluşan, kalıtsal olmayan değişikliktir. Adaptasyon, canlının yaşadığı ortamda hayatta kalma ve üreme şansını artıran kalıtsal özelliklerdir.",
+    "twin": "2022-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "🧪 Klonlama",
+        "💉 Gen tedavisi",
+        "🌾 Islah"
+      ],
+      "r": [
+        [
+          "Bir koyunun vücut hücresinin çekirdeğinden kopyasının üretilmesi",
+          0
+        ],
+        [
+          "Hasta bireyin hücrelerine sağlam gen aktarılıp hücrelerin geri verilmesi",
+          1
+        ],
+        [
+          "Çok süt veren ineklerin seçilip birbiriyle çiftleştirilmesi",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: 🧪 Klonlama, 💉 Gen tedavisi, 🌾 Islah. Kartlar: Bir koyunun vücut hücresinin çekirdeğinden kopyasının üretilmesi | Hasta bireyin hücrelerine sağlam gen aktarılıp hücrelerin geri verilmesi | Çok süt veren ineklerin seçilip birbiriyle çiftleştirilmesi",
+    "correctAnswer": "Bir koyunun vücut hücresinin çekirdeğinden kopyasının üretilmesi → 🧪 Klonlama | Hasta bireyin hücrelerine sağlam gen aktarılıp hücrelerin geri verilmesi → 💉 Gen tedavisi | Çok süt veren ineklerin seçilip birbiriyle çiftleştirilmesi → 🌾 Islah",
+    "explanation": "Klonlama bir canlının genetik kopyasının üretilmesidir. Gen tedavisi hastalığa yol açan genin etkisini gidermek için hastaya sağlam gen aktarılmasıdır. Islah, istenen özellikteki canlıların seçilip çaprazlanmasıdır. Gen aktarımında bir canlının geni başka bir canlıya aktarılır (genetiği değiştirilmiş organizma).",
+    "twin": "2022-S4"
+  },
+  {
+    "questionId": "fen8u2-biyotek-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "🧪 Klonlama",
+        "💉 Gen tedavisi",
+        "🌾 Islah",
+        "🔬 Gen aktarımı"
+      ],
+      "r": [
+        [
+          "Ateş böceğinin ışık saçma geninin tütün bitkisine aktarılması",
+          3
+        ],
+        [
+          "Bir orkidenin gövde hücrelerinden aynı orkidenin üretilmesi",
+          0
+        ],
+        [
+          "Uzun boylu ve çok tohumlu mısırların çaprazlanması",
+          2
+        ],
+        [
+          "Pıhtılaşma proteini üretemeyen bireye sağlam genin hücrelerle verilmesi",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: 🧪 Klonlama, 💉 Gen tedavisi, 🌾 Islah, 🔬 Gen aktarımı. Kartlar: Ateş böceğinin ışık saçma geninin tütün bitkisine aktarılması | Bir orkidenin gövde hücrelerinden aynı orkidenin üretilmesi | Uzun boylu ve çok tohumlu mısırların çaprazlanması | Pıhtılaşma proteini üretemeyen bireye sağlam genin hücrelerle verilmesi",
+    "correctAnswer": "Ateş böceğinin ışık saçma geninin tütün bitkisine aktarılması → 🔬 Gen aktarımı | Bir orkidenin gövde hücrelerinden aynı orkidenin üretilmesi → 🧪 Klonlama | Uzun boylu ve çok tohumlu mısırların çaprazlanması → 🌾 Islah | Pıhtılaşma proteini üretemeyen bireye sağlam genin hücrelerle verilmesi → 💉 Gen tedavisi",
+    "explanation": "Klonlama bir canlının genetik kopyasının üretilmesidir. Gen tedavisi hastalığa yol açan genin etkisini gidermek için hastaya sağlam gen aktarılmasıdır. Islah, istenen özellikteki canlıların seçilip çaprazlanmasıdır. Gen aktarımında bir canlının geni başka bir canlıya aktarılır (genetiği değiştirilmiş organizma).",
+    "twin": "2022-S4"
+  },
+  {
+    "questionId": "fen8u2-biyotek-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "biyotek",
+    "rank": 3,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "🧪 Klonlama",
+        "💉 Gen tedavisi",
+        "🌾 Islah",
+        "🔬 Gen aktarımı"
+      ],
+      "r": [
+        [
+          "İnsan insülin geninin bakteriye aktarılıp insülin üretilmesi",
+          3
+        ],
+        [
+          "Zararlı böceğe dayanıklılık geninin mısıra aktarılması",
+          3
+        ],
+        [
+          "Soğuğa dayanıklı ve iri meyveli elma ağaçlarının çaprazlanması",
+          2
+        ],
+        [
+          "Kalıtsal bir göz hastalığında retina hücrelerine sağlam gen verilmesi",
+          1
+        ],
+        [
+          "Nesli tükenmekte olan bir hayvanın vücut hücresinden yeni birey elde edilmesi",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: 🧪 Klonlama, 💉 Gen tedavisi, 🌾 Islah, 🔬 Gen aktarımı. Kartlar: İnsan insülin geninin bakteriye aktarılıp insülin üretilmesi | Zararlı böceğe dayanıklılık geninin mısıra aktarılması | Soğuğa dayanıklı ve iri meyveli elma ağaçlarının çaprazlanması | Kalıtsal bir göz hastalığında retina hücrelerine sağlam gen verilmesi | Nesli tükenmekte olan bir hayvanın vücut hücresinden yeni birey elde edilmesi",
+    "correctAnswer": "İnsan insülin geninin bakteriye aktarılıp insülin üretilmesi → 🔬 Gen aktarımı | Zararlı böceğe dayanıklılık geninin mısıra aktarılması → 🔬 Gen aktarımı | Soğuğa dayanıklı ve iri meyveli elma ağaçlarının çaprazlanması → 🌾 Islah | Kalıtsal bir göz hastalığında retina hücrelerine sağlam gen verilmesi → 💉 Gen tedavisi | Nesli tükenmekte olan bir hayvanın vücut hücresinden yeni birey elde edilmesi → 🧪 Klonlama",
+    "explanation": "Klonlama bir canlının genetik kopyasının üretilmesidir. Gen tedavisi hastalığa yol açan genin etkisini gidermek için hastaya sağlam gen aktarılmasıdır. Islah, istenen özellikteki canlıların seçilip çaprazlanmasıdır. Gen aktarımında bir canlının geni başka bir canlıya aktarılır (genetiği değiştirilmiş organizma).",
+    "twin": "2021-S5"
+  },
+  {
+    "questionId": "fen8u2-biyotek-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "✅ Olası yarar",
+        "⚠️ Olası risk"
+      ],
+      "r": [
+        [
+          "Kuraklığa dayanıklı ürünlerle verimin artması",
+          0
+        ],
+        [
+          "Aktarılan genin yabani türlere geçip ekosistemi etkilemesi",
+          1
+        ],
+        [
+          "İlaç ve aşı üretiminin kolaylaşması",
+          0
+        ],
+        [
+          "Biyolojik çeşitliliğin azalması",
+          1
+        ],
+        [
+          "Kalıtsal hastalıkların tedavi edilebilmesi",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: ✅ Olası yarar, ⚠️ Olası risk. Kartlar: Kuraklığa dayanıklı ürünlerle verimin artması | Aktarılan genin yabani türlere geçip ekosistemi etkilemesi | İlaç ve aşı üretiminin kolaylaşması | Biyolojik çeşitliliğin azalması | Kalıtsal hastalıkların tedavi edilebilmesi",
+    "correctAnswer": "Kuraklığa dayanıklı ürünlerle verimin artması → ✅ Olası yarar | Aktarılan genin yabani türlere geçip ekosistemi etkilemesi → ⚠️ Olası risk | İlaç ve aşı üretiminin kolaylaşması → ✅ Olası yarar | Biyolojik çeşitliliğin azalması → ⚠️ Olası risk | Kalıtsal hastalıkların tedavi edilebilmesi → ✅ Olası yarar",
+    "explanation": "Biyoteknoloji tarım, tıp ve endüstride verimi ve tedaviyi kolaylaştırır; ancak aktarılan genlerin doğaya yayılması, biyolojik çeşitliliğin azalması ve etik sorunlar gibi riskler de taşır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-biyotek-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Kara koyunun klonunu üretmek için doğru vücut hücresinin çekirdeğini yumurtaya sürükle.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Kara koyun",
+          "🐑",
+          "siyah yünlü"
+        ],
+        [
+          "Ak koyun",
+          "🐏",
+          "beyaz yünlü"
+        ],
+        [
+          "Benekli koyun",
+          "🐑",
+          "benekli yünlü"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Ak koyundan)",
+          "🥚",
+          "Ak koyundan alınıp çekirdeği çıkarılmış"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": []
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Kara koyunun klonunu üretmek için doğru vücut hücresinin çekirdeğini yumurtaya sürükle. Bir klonlama laboratuvarı. Kaynaklar: Kara koyun (siyah yünlü), Ak koyun (beyaz yünlü), Benekli koyun (benekli yünlü). Hedefler: Çekirdeksiz yumurta (Ak koyundan) (Ak koyundan alınıp çekirdeği çıkarılmış).",
+    "correctAnswer": "Kara koyun → Çekirdeksiz yumurta (Ak koyundan)",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2024-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Benekli koyunun klonunu üretmek için doğru çekirdeği yumurtaya sürükle.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Kara koyun",
+          "🐑",
+          "siyah yünlü"
+        ],
+        [
+          "Ak koyun",
+          "🐏",
+          "beyaz yünlü"
+        ],
+        [
+          "Benekli koyun",
+          "🐑",
+          "benekli yünlü"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Kara koyundan)",
+          "🥚",
+          "Kara koyundan alınıp çekirdeği çıkarılmış"
+        ]
+      ],
+      "need": [
+        2,
+        0
+      ],
+      "tg": []
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Benekli koyunun klonunu üretmek için doğru çekirdeği yumurtaya sürükle. Bir klonlama laboratuvarı. Kaynaklar: Kara koyun (siyah yünlü), Ak koyun (beyaz yünlü), Benekli koyun (benekli yünlü). Hedefler: Çekirdeksiz yumurta (Kara koyundan) (Kara koyundan alınıp çekirdeği çıkarılmış).",
+    "correctAnswer": "Benekli koyun → Çekirdeksiz yumurta (Kara koyundan)",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2024-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Ak koyunun çekirdeğini yumurtaya aktar; embriyo Kara koyunun rahminde gelişecek. Sonra klonun yününü tahmin et.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Kara koyun",
+          "🐑",
+          "siyah yünlü"
+        ],
+        [
+          "Ak koyun",
+          "🐏",
+          "beyaz yünlü"
+        ],
+        [
+          "Benekli koyun",
+          "🐑",
+          "benekli yünlü"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Benekli koyundan)",
+          "🥚",
+          "Benekli koyundan alınıp çekirdeği çıkarılmış"
+        ]
+      ],
+      "need": [
+        1,
+        0
+      ],
+      "tg": [
+        [
+          "Klonun yünü:",
+          [
+            "Siyah",
+            "Beyaz",
+            "Benekli"
+          ],
+          1
+        ]
+      ]
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Ak koyunun çekirdeğini yumurtaya aktar; embriyo Kara koyunun rahminde gelişecek. Sonra klonun yününü tahmin et. Bir klonlama laboratuvarı. Kaynaklar: Kara koyun (siyah yünlü), Ak koyun (beyaz yünlü), Benekli koyun (benekli yünlü). Hedefler: Çekirdeksiz yumurta (Benekli koyundan) (Benekli koyundan alınıp çekirdeği çıkarılmış). Tahminler: Klonun yünü: [Siyah / Beyaz / Benekli]",
+    "correctAnswer": "Ak koyun → Çekirdeksiz yumurta (Benekli koyundan); Klonun yünü: Beyaz",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2024-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "biyotek",
+    "rank": 3,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Kara koyunun çekirdeğini yumurtaya aktar; embriyo Ak koyunun rahminde gelişecek. Sonra klonu tahmin et.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Kara koyun",
+          "🐑",
+          "siyah yünlü; yünü sonradan maviye boyanmış"
+        ],
+        [
+          "Ak koyun",
+          "🐏",
+          "beyaz yünlü"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Ak koyundan)",
+          "🥚",
+          "Ak koyundan alınmış"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": [
+        [
+          "Klonun yünü:",
+          [
+            "Siyah",
+            "Beyaz",
+            "Mavi"
+          ],
+          0
+        ],
+        [
+          "Klonun hücre çekirdeğindeki aleller:",
+          [
+            "Kara koyununkilerle aynı",
+            "Ak koyununkilerle aynı",
+            "Karışık"
+          ],
+          0
+        ]
+      ]
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Kara koyunun çekirdeğini yumurtaya aktar; embriyo Ak koyunun rahminde gelişecek. Sonra klonu tahmin et. Bir klonlama laboratuvarı. Kaynaklar: Kara koyun (siyah yünlü; yünü sonradan maviye boyanmış), Ak koyun (beyaz yünlü). Hedefler: Çekirdeksiz yumurta (Ak koyundan) (Ak koyundan alınmış). Tahminler: Klonun yünü: [Siyah / Beyaz / Mavi] | Klonun hücre çekirdeğindeki aleller: [Kara koyununkilerle aynı / Ak koyununkilerle aynı / Karışık]",
+    "correctAnswer": "Kara koyun → Çekirdeksiz yumurta (Ak koyundan); Klonun yünü: Siyah; Klonun hücre çekirdeğindeki aleller: Kara koyununkilerle aynı",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2024-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "biyotek",
+    "rank": 3,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Kahverengi atın klonunu üret ve tahmin et.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Kahverengi at",
+          "🐎",
+          "kahverengi; bir yarışta bacağı yaralanıp izi kalmış"
+        ],
+        [
+          "Beyaz at",
+          "🦄",
+          "beyaz"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Beyaz attan)",
+          "🥚",
+          "Beyaz attan alınmış"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": [
+        [
+          "Klonun rengi:",
+          [
+            "Kahverengi",
+            "Beyaz",
+            "Gri"
+          ],
+          0
+        ],
+        [
+          "Bacağındaki yara izi:",
+          [
+            "Olur",
+            "Olmaz"
+          ],
+          1
+        ]
+      ]
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Kahverengi atın klonunu üret ve tahmin et. Bir klonlama laboratuvarı. Kaynaklar: Kahverengi at (kahverengi; bir yarışta bacağı yaralanıp izi kalmış), Beyaz at (beyaz). Hedefler: Çekirdeksiz yumurta (Beyaz attan) (Beyaz attan alınmış). Tahminler: Klonun rengi: [Kahverengi / Beyaz / Gri] | Bacağındaki yara izi: [Olur / Olmaz]",
+    "correctAnswer": "Kahverengi at → Çekirdeksiz yumurta (Beyaz attan); Klonun rengi: Kahverengi; Bacağındaki yara izi: Olmaz",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2018-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "lab",
+    "prompt": "Bir gen aktarımı laboratuvarı. Tütün bitkisinin yapraklarının ışık saçması için doğru geni bitkiye sürükle.",
+    "data": {
+      "m": "gene",
+      "s": [
+        [
+          "Ateş böceği",
+          "🪲",
+          "ışık saçma geni"
+        ],
+        [
+          "Kutup balığı",
+          "🐟",
+          "soğuğa dayanıklılık geni"
+        ],
+        [
+          "Bakteri",
+          "🦠",
+          "böceğe zararlı protein geni"
+        ]
+      ],
+      "t": [
+        [
+          "Tütün bitkisi",
+          "🌿",
+          "yaprakları ışık saçmıyor"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": []
+    },
+    "textPlain": "Bir gen aktarımı laboratuvarı. Tütün bitkisinin yapraklarının ışık saçması için doğru geni bitkiye sürükle. Bir gen aktarımı laboratuvarı. Kaynaklar: Ateş böceği (ışık saçma geni), Kutup balığı (soğuğa dayanıklılık geni), Bakteri (böceğe zararlı protein geni). Hedefler: Tütün bitkisi (yaprakları ışık saçmıyor).",
+    "correctAnswer": "Ateş böceği → Tütün bitkisi",
+    "explanation": "Gen aktarımında istenen özelliği sağlayan gen başka bir canlının DNA’sına aktarılır; canlı bu geni kullanarak yeni özelliği gösterir. Gen üreme hücrelerine (ya da bütün hücrelere) geçmişse yeni özellik yavrulara aktarılabilir. Gen tedavisinde sağlam gen yalnızca hastanın belirli vücut hücrelerine verilir; bu nedenle yavrulara aktarılmaz.",
+    "twin": "2022-S4"
+  },
+  {
+    "questionId": "fen8u2-biyotek-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "lab",
+    "prompt": "Bir gen aktarımı laboratuvarı. Mısırı mısır kurduna karşı korumak için doğru geni mısıra sürükle; sonra sonucu tahmin et.",
+    "data": {
+      "m": "gene",
+      "s": [
+        [
+          "Ateş böceği",
+          "🪲",
+          "ışık saçma geni"
+        ],
+        [
+          "Bakteri",
+          "🦠",
+          "mısır kurduna zararlı protein geni"
+        ],
+        [
+          "İnsan",
+          "🧑",
+          "insülin geni"
+        ]
+      ],
+      "t": [
+        [
+          "Mısır bitkisi",
+          "🌽",
+          "mısır kurdu zarar veriyor"
+        ]
+      ],
+      "need": [
+        1,
+        0
+      ],
+      "tg": [
+        [
+          "Yeni özellik mısırın tohumlarından gelişen bitkilere:",
+          [
+            "Aktarılabilir",
+            "Aktarılamaz"
+          ],
+          0
+        ],
+        [
+          "Mısır kurdunun genetik yapısı:",
+          [
+            "Değişir",
+            "Değişmez"
+          ],
+          1
+        ]
+      ]
+    },
+    "textPlain": "Bir gen aktarımı laboratuvarı. Mısırı mısır kurduna karşı korumak için doğru geni mısıra sürükle; sonra sonucu tahmin et. Bir gen aktarımı laboratuvarı. Kaynaklar: Ateş böceği (ışık saçma geni), Bakteri (mısır kurduna zararlı protein geni), İnsan (insülin geni). Hedefler: Mısır bitkisi (mısır kurdu zarar veriyor). Tahminler: Yeni özellik mısırın tohumlarından gelişen bitkilere: [Aktarılabilir / Aktarılamaz] | Mısır kurdunun genetik yapısı: [Değişir / Değişmez]",
+    "correctAnswer": "Bakteri → Mısır bitkisi; Yeni özellik mısırın tohumlarından gelişen bitkilere: Aktarılabilir; Mısır kurdunun genetik yapısı: Değişmez",
+    "explanation": "Gen aktarımında istenen özelliği sağlayan gen başka bir canlının DNA’sına aktarılır; canlı bu geni kullanarak yeni özelliği gösterir. Gen üreme hücrelerine (ya da bütün hücrelere) geçmişse yeni özellik yavrulara aktarılabilir. Gen tedavisinde sağlam gen yalnızca hastanın belirli vücut hücrelerine verilir; bu nedenle yavrulara aktarılmaz.",
+    "twin": "2021-S5"
+  },
+  {
+    "questionId": "fen8u2-biyotek-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "lab",
+    "prompt": "Bir gen aktarımı laboratuvarı. Şeker hastaları için ilaç (insülin) üreten bakteri elde etmek üzere doğru geni bakteriye sürükle; sonra tahmin et.",
+    "data": {
+      "m": "gene",
+      "s": [
+        [
+          "İnsan",
+          "🧑",
+          "insülin geni"
+        ],
+        [
+          "Ateş böceği",
+          "🪲",
+          "ışık saçma geni"
+        ],
+        [
+          "Kutup balığı",
+          "🐟",
+          "soğuğa dayanıklılık geni"
+        ]
+      ],
+      "t": [
+        [
+          "Bakteri",
+          "🦠",
+          "hızla çoğalıyor"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": [
+        [
+          "Bakteri çoğalınca yeni bakteriler:",
+          [
+            "İnsülin üretir",
+            "İnsülin üretmez"
+          ],
+          0
+        ]
+      ]
+    },
+    "textPlain": "Bir gen aktarımı laboratuvarı. Şeker hastaları için ilaç (insülin) üreten bakteri elde etmek üzere doğru geni bakteriye sürükle; sonra tahmin et. Bir gen aktarımı laboratuvarı. Kaynaklar: İnsan (insülin geni), Ateş böceği (ışık saçma geni), Kutup balığı (soğuğa dayanıklılık geni). Hedefler: Bakteri (hızla çoğalıyor). Tahminler: Bakteri çoğalınca yeni bakteriler: [İnsülin üretir / İnsülin üretmez]",
+    "correctAnswer": "İnsan → Bakteri; Bakteri çoğalınca yeni bakteriler: İnsülin üretir",
+    "explanation": "Gen aktarımında istenen özelliği sağlayan gen başka bir canlının DNA’sına aktarılır; canlı bu geni kullanarak yeni özelliği gösterir. Gen üreme hücrelerine (ya da bütün hücrelere) geçmişse yeni özellik yavrulara aktarılabilir. Gen tedavisinde sağlam gen yalnızca hastanın belirli vücut hücrelerine verilir; bu nedenle yavrulara aktarılmaz.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-biyotek-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "biyotek",
+    "rank": 3,
+    "type": "lab",
+    "prompt": "Bir gen tedavisi uygulaması. Gen tedavisi için doğru geni hasta hücrelere sürükle; hücreler bireye geri verilecek. Sonra sonucu tahmin et.",
+    "data": {
+      "m": "gene",
+      "s": [
+        [
+          "Sağlam pıhtılaşma geni",
+          "🧬",
+          "normal protein üretir"
+        ],
+        [
+          "Mutasyonlu pıhtılaşma geni",
+          "🧬",
+          "protein üretemez"
+        ]
+      ],
+      "t": [
+        [
+          "Hastadan alınan karaciğer hücreleri",
+          "🧫",
+          "pıhtılaşma proteini üretemiyor"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": [
+        [
+          "Bireyin kanında pıhtılaşma proteini:",
+          [
+            "Bulunması beklenir",
+            "Bulunmaz"
+          ],
+          0
+        ],
+        [
+          "Bireyin bütün vücut hücrelerinin DNA’sı:",
+          [
+            "Değişir",
+            "Değişmez"
+          ],
+          1
+        ],
+        [
+          "Bireyin çocuklarına bu tedavi:",
+          [
+            "Aktarılır",
+            "Aktarılmaz"
+          ],
+          1
+        ]
+      ]
+    },
+    "textPlain": "Bir gen tedavisi uygulaması. Gen tedavisi için doğru geni hasta hücrelere sürükle; hücreler bireye geri verilecek. Sonra sonucu tahmin et. Bir gen tedavisi uygulaması. Kaynaklar: Sağlam pıhtılaşma geni (normal protein üretir), Mutasyonlu pıhtılaşma geni (protein üretemez). Hedefler: Hastadan alınan karaciğer hücreleri (pıhtılaşma proteini üretemiyor). Tahminler: Bireyin kanında pıhtılaşma proteini: [Bulunması beklenir / Bulunmaz] | Bireyin bütün vücut hücrelerinin DNA’sı: [Değişir / Değişmez] | Bireyin çocuklarına bu tedavi: [Aktarılır / Aktarılmaz]",
+    "correctAnswer": "Sağlam pıhtılaşma geni → Hastadan alınan karaciğer hücreleri; Bireyin kanında pıhtılaşma proteini: Bulunması beklenir; Bireyin bütün vücut hücrelerinin DNA’sı: Değişmez; Bireyin çocuklarına bu tedavi: Aktarılmaz",
+    "explanation": "Gen aktarımında istenen özelliği sağlayan gen başka bir canlının DNA’sına aktarılır; canlı bu geni kullanarak yeni özelliği gösterir. Gen üreme hücrelerine (ya da bütün hücrelere) geçmişse yeni özellik yavrulara aktarılabilir. Gen tedavisinde sağlam gen yalnızca hastanın belirli vücut hücrelerine verilir; bu nedenle yavrulara aktarılmaz.",
+    "twin": "2023-S7"
+  },
+  {
+    "questionId": "fen8u2-biyotek-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "biyotek",
+    "rank": 3,
+    "type": "lab",
+    "prompt": "Bir gen aktarımı laboratuvarı. Soğuğa dayanıklı domates elde etmek için doğru geni domatese sürükle; sonra tahmin et.",
+    "data": {
+      "m": "gene",
+      "s": [
+        [
+          "Kutup balığı",
+          "🐟",
+          "soğuğa dayanıklılık geni"
+        ],
+        [
+          "Ateş böceği",
+          "🪲",
+          "ışık saçma geni"
+        ],
+        [
+          "Bakteri",
+          "🦠",
+          "böceğe zararlı protein geni"
+        ]
+      ],
+      "t": [
+        [
+          "Domates bitkisi",
+          "🍅",
+          "soğukta donuyor"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": [
+        [
+          "Domatesin türü:",
+          [
+            "Değişir",
+            "Değişmez"
+          ],
+          1
+        ],
+        [
+          "Bu uygulama:",
+          [
+            "Gen aktarımı",
+            "Klonlama"
+          ],
+          0
+        ]
+      ]
+    },
+    "textPlain": "Bir gen aktarımı laboratuvarı. Soğuğa dayanıklı domates elde etmek için doğru geni domatese sürükle; sonra tahmin et. Bir gen aktarımı laboratuvarı. Kaynaklar: Kutup balığı (soğuğa dayanıklılık geni), Ateş böceği (ışık saçma geni), Bakteri (böceğe zararlı protein geni). Hedefler: Domates bitkisi (soğukta donuyor). Tahminler: Domatesin türü: [Değişir / Değişmez] | Bu uygulama: [Gen aktarımı / Klonlama]",
+    "correctAnswer": "Kutup balığı → Domates bitkisi; Domatesin türü: Değişmez; Bu uygulama: Gen aktarımı",
+    "explanation": "Gen aktarımında istenen özelliği sağlayan gen başka bir canlının DNA’sına aktarılır; canlı bu geni kullanarak yeni özelliği gösterir. Gen üreme hücrelerine (ya da bütün hücrelere) geçmişse yeni özellik yavrulara aktarılabilir. Gen tedavisinde sağlam gen yalnızca hastanın belirli vücut hücrelerine verilir; bu nedenle yavrulara aktarılmaz.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-biyotek-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "lab",
+    "prompt": "Bir ikiz araştırması. Tek yumurta ikizleri üzerinde bir uzay araştırması: ikizlerden biri uzayda, diğeri Dünya’da kaldı. Tahminlerini ayarla.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Tek yumurta ikizi A",
+          "🧑‍🚀",
+          "uzayda 1 yıl kaldı"
+        ],
+        [
+          "Tek yumurta ikizi B",
+          "🧑",
+          "Dünya’da kaldı"
+        ]
+      ],
+      "t": [],
+      "need": null,
+      "tg": [
+        [
+          "İkizlerin çekirdekteki genetik yapısı başlangıçta:",
+          [
+            "Aynı",
+            "Farklı"
+          ],
+          0
+        ],
+        [
+          "Araştırmada tek yumurta ikizlerinin seçilme nedeni:",
+          [
+            "Genetik yapının aynı olması",
+            "Cinsiyetlerinin aynı olması"
+          ],
+          0
+        ]
+      ]
+    },
+    "textPlain": "Bir ikiz araştırması. Tek yumurta ikizleri üzerinde bir uzay araştırması: ikizlerden biri uzayda, diğeri Dünya’da kaldı. Tahminlerini ayarla. Bir ikiz araştırması. Kaynaklar: Tek yumurta ikizi A (uzayda 1 yıl kaldı), Tek yumurta ikizi B (Dünya’da kaldı). Hedefler: . Tahminler: İkizlerin çekirdekteki genetik yapısı başlangıçta: [Aynı / Farklı] | Araştırmada tek yumurta ikizlerinin seçilme nedeni: [Genetik yapının aynı olması / Cinsiyetlerinin aynı olması]",
+    "correctAnswer": "İkizlerin çekirdekteki genetik yapısı başlangıçta: Aynı; Araştırmada tek yumurta ikizlerinin seçilme nedeni: Genetik yapının aynı olması",
+    "explanation": "Tek yumurta ikizleri aynı döllenmiş yumurtadan geliştikleri için çekirdeklerindeki genetik yapı aynıdır. Böylece aralarındaki farkların çevreden kaynaklandığı daha güvenle söylenebilir.",
+    "twin": "2018-S3"
+  },
+  {
+    "questionId": "fen8u2-eslenme-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "copy",
+    "prompt": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat.",
+    "data": {
+      "top": "CTAG",
+      "c": [
+        "GATC",
+        "CTAG",
+        "CTAA"
+      ]
+    },
+    "textPlain": "Ayrılan iki eski zincirin her birine uygun yeni zinciri sürükle, sonra eşlemeyi başlat. Eski DNA: üst zincir CTAG, alt zincir GATC. Yeni zincir kartları: GATC, CTAG, CTAA.",
+    "correctAnswer": "Üst eski zincirin (CTAG) karşısına GATC; alt eski zincirin (GATC) karşısına CTAG",
+    "explanation": "DNA kendini eşlerken iki zincir birbirinden ayrılır; her eski zincirin karşısına eşleşme kuralına göre yeni nükleotitler gelir. Oluşan iki DNA’nın her birinde bir eski, bir yeni zincir bulunur ve ikisi de başlangıçtaki DNA ile aynı nükleotit dizilimine sahiptir.",
+    "twin": "2022-S1"
+  },
+  {
+    "questionId": "fen8u2-eslenme-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Ayrılan alt zincirin karşısına yeni üst zincir kuruluyor.",
+    "data": {
+      "t": "?????",
+      "b": "AGCTT",
+      "st": "TCGAA",
+      "sb": "AGCTT"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. Ayrılan alt zincirin karşısına yeni üst zincir kuruluyor. Üst zincir: ? ? ? ? ? / alt zincir: A G C T T (? = boş diş).",
+    "correctAnswer": "Üst zincir TCGAA, alt zincir AGCTT",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-eslenme-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "DNA’nın kendini eşlemesi ve nükleotit sayıları",
+    "outcome": "DNA’nın kendini nasıl eşlediğini ifade eder; baz eşleşme kuralını kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "eslenme",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Bilgilere göre sayaçları doğru sayılara getir.",
+    "data": {
+      "info": [
+        "Çift zincirli bir DNA’da 32 timin var."
+      ],
+      "r": [
+        [
+          "Adenin",
+          32
+        ]
+      ]
+    },
+    "textPlain": "Bilgilere göre sayaçları doğru sayılara getir. Bilgiler: Çift zincirli bir DNA’da 32 timin var.",
+    "correctAnswer": "Adenin: 32",
+    "explanation": "Çift zincirli DNA’da A sayısı T sayısına, G sayısı C sayısına eşittir. Her nükleotitte bir şeker ve bir fosfat bulunduğundan şeker ve fosfat sayısı nükleotit sayısına eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-yapi-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Nükleotit, DNA, gen ve kromozom; DNA’nın yapısı ve baz eşleşmesi",
+    "outcome": "Nükleotit, gen, DNA ve kromozom kavramlarını açıklar ve aralarındaki ilişkiyi model üzerinde gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "zor",
+    "group": "yapi",
+    "rank": 3,
+    "type": "zip",
+    "prompt": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. İki zincirde de boş dişler var.",
+    "data": {
+      "t": "A??C?TG?",
+      "b": "?GA?C??T",
+      "st": "ACTCGTGA",
+      "sb": "TGAGCACT"
+    },
+    "textPlain": "Fermuarın boş dişlerine doğru bazları tak, sonra fermuarı kapat. İki zincirde de boş dişler var. Üst zincir: A ? ? C ? T G ? / alt zincir: ? G A ? C ? ? T (? = boş diş).",
+    "correctAnswer": "Üst zincir ACTCGTGA, alt zincir TGAGCACT",
+    "explanation": "DNA’da organik bazlar karşılıklı olarak belirli bir kurala göre eşleşir: adenin (A) her zaman timin (T) ile, guanin (G) her zaman sitozin (C) ile eşleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-biyotek-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "lab",
+    "prompt": "Bir gen aktarımı laboratuvarı. Soğuğa dayanıklı çilek elde etmek için doğru geni çileğe sürükle.",
+    "data": {
+      "m": "gene",
+      "s": [
+        [
+          "Kutup balığı",
+          "🐟",
+          "soğuğa dayanıklılık geni"
+        ],
+        [
+          "Ateş böceği",
+          "🪲",
+          "ışık saçma geni"
+        ]
+      ],
+      "t": [
+        [
+          "Çilek bitkisi",
+          "🍓",
+          "soğukta donuyor"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": []
+    },
+    "textPlain": "Bir gen aktarımı laboratuvarı. Soğuğa dayanıklı çilek elde etmek için doğru geni çileğe sürükle. Bir gen aktarımı laboratuvarı. Kaynaklar: Kutup balığı (soğuğa dayanıklılık geni), Ateş böceği (ışık saçma geni). Hedefler: Çilek bitkisi (soğukta donuyor).",
+    "correctAnswer": "Kutup balığı → Çilek bitkisi",
+    "explanation": "Gen aktarımında istenen özelliği sağlayan gen başka bir canlının DNA’sına aktarılır; canlı bu geni kullanarak yeni özelliği gösterir. Gen üreme hücrelerine (ya da bütün hücrelere) geçmişse yeni özellik yavrulara aktarılabilir. Gen tedavisinde sağlam gen yalnızca hastanın belirli vücut hücrelerine verilir; bu nedenle yavrulara aktarılmaz.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-biyotek-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Kahverengi keçinin klonunu üretmek için doğru çekirdeği yumurtaya sürükle.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Kahverengi keçi",
+          "🐐",
+          "kahverengi tüylü"
+        ],
+        [
+          "Beyaz keçi",
+          "🐐",
+          "beyaz tüylü"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Beyaz keçiden)",
+          "🥚",
+          "Beyaz keçiden alınmış"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": []
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Kahverengi keçinin klonunu üretmek için doğru çekirdeği yumurtaya sürükle. Bir klonlama laboratuvarı. Kaynaklar: Kahverengi keçi (kahverengi tüylü), Beyaz keçi (beyaz tüylü). Hedefler: Çekirdeksiz yumurta (Beyaz keçiden) (Beyaz keçiden alınmış).",
+    "correctAnswer": "Kahverengi keçi → Çekirdeksiz yumurta (Beyaz keçiden)",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2024-S3"
+  },
+  {
+    "questionId": "fen8u2-biyotek-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "kolay",
+    "group": "biyotek",
+    "rank": 1,
+    "type": "drawer",
+    "prompt": "Kumaş kartlarını doğru çekmeceye yerleştir.",
+    "data": {
+      "L": [
+        "✅ Olası yarar",
+        "⚠️ Olası risk"
+      ],
+      "r": [
+        [
+          "Hastalıklara dayanıklı bitkiler",
+          0
+        ],
+        [
+          "Genetik çeşitliliğin azalması",
+          1
+        ],
+        [
+          "Daha çok ürün alınması",
+          0
+        ],
+        [
+          "Aktarılan genlerin doğaya kontrolsüz yayılması",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kumaş kartlarını doğru çekmeceye yerleştir. Çekmeceler: ✅ Olası yarar, ⚠️ Olası risk. Kartlar: Hastalıklara dayanıklı bitkiler | Genetik çeşitliliğin azalması | Daha çok ürün alınması | Aktarılan genlerin doğaya kontrolsüz yayılması",
+    "correctAnswer": "Hastalıklara dayanıklı bitkiler → ✅ Olası yarar | Genetik çeşitliliğin azalması → ⚠️ Olası risk | Daha çok ürün alınması → ✅ Olası yarar | Aktarılan genlerin doğaya kontrolsüz yayılması → ⚠️ Olası risk",
+    "explanation": "Biyoteknoloji verimi ve tedaviyi kolaylaştırabilir; ama genlerin doğaya yayılması ve genetik çeşitliliğin azalması gibi riskler de vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u2-biyotek-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "2. Ünite: DNA ve Genetik Kod",
+    "topic": "Biyoteknoloji ve genetik mühendisliği: klonlama, gen aktarımı, gen tedavisi, ıslah",
+    "outcome": "Biyoteknoloji uygulamalarını (klonlama, gen aktarımı, gen tedavisi, ıslah) örneklerle açıklar ve olası etkilerini tartışır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 2. Ünite “DNA ve Genetik Kod”",
+    "difficulty": "orta",
+    "group": "biyotek",
+    "rank": 2,
+    "type": "lab",
+    "prompt": "Bir klonlama laboratuvarı. Siyah kedinin çekirdeğini sarı kedinin yumurtasına aktar; yavruyu sarı kedi taşıyacak. Sonra yavruyu tahmin et.",
+    "data": {
+      "m": "clone",
+      "s": [
+        [
+          "Siyah kedi",
+          "🐈‍⬛",
+          "siyah tüylü"
+        ],
+        [
+          "Sarı kedi",
+          "🐈",
+          "sarı tüylü"
+        ]
+      ],
+      "t": [
+        [
+          "Çekirdeksiz yumurta (Sarı kediden)",
+          "🥚",
+          "Sarı kediden alınmış"
+        ]
+      ],
+      "need": [
+        0,
+        0
+      ],
+      "tg": [
+        [
+          "Klon yavrunun tüyü:",
+          [
+            "Siyah",
+            "Sarı",
+            "Siyah-sarı karışık"
+          ],
+          0
+        ]
+      ]
+    },
+    "textPlain": "Bir klonlama laboratuvarı. Siyah kedinin çekirdeğini sarı kedinin yumurtasına aktar; yavruyu sarı kedi taşıyacak. Sonra yavruyu tahmin et. Bir klonlama laboratuvarı. Kaynaklar: Siyah kedi (siyah tüylü), Sarı kedi (sarı tüylü). Hedefler: Çekirdeksiz yumurta (Sarı kediden) (Sarı kediden alınmış). Tahminler: Klon yavrunun tüyü: [Siyah / Sarı / Siyah-sarı karışık]",
+    "correctAnswer": "Siyah kedi → Çekirdeksiz yumurta (Sarı kediden); Klon yavrunun tüyü: Siyah",
+    "explanation": "Klonlamada vücut hücresinin çekirdeği, çekirdeği çıkarılmış yumurta hücresine aktarılır. Kalıtım bilgisi çekirdekte olduğundan klon birey, çekirdeği veren bireyin genetik kopyasıdır; yumurtayı veren ya da yavruyu taşıyan bireye benzemez. Sonradan kazanılan (kalıtsal olmayan) özellikler klona geçmez.",
+    "twin": "2024-S3"
+  }
+]
