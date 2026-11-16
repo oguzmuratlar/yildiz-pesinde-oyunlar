@@ -1,0 +1,3988 @@
+[
+ {
+  "questionId": "boss-a14-f3-01",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Katı basıncının etkenleri",
+  "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Katıların uyguladığı basınç hangi etkenlere bağlıdır?",
+  "data": {
+   "options": [
+    "Cismin ağırlığına ve yüzey alanına",
+    "Cismin rengine ve sıcaklığına",
+    "Yalnızca cismin hacmine ve yapıldığı maddenin cinsine"
+   ]
+  },
+  "textPlain": "Katıların uyguladığı basınç hangi etkenlere bağlıdır? Seçenekler: Cismin ağırlığına ve yüzey alanına / Cismin rengine ve sıcaklığına / Yalnızca cismin hacmine ve yapıldığı maddenin cinsine",
+  "correctAnswer": "Cismin ağırlığına ve yüzey alanına",
+  "explanation": "Katı basıncı, yüzeye dik etki eden kuvvetle (ağırlık) doğru, yüzey alanıyla ters orantılıdır."
+ },
+ {
+  "questionId": "boss-a14-f3-02",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Yüzey alanı",
+  "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Ağırlık aynı kalırken yüzey alanı küçülürse katı basıncı artar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Ağırlık aynı kalırken yüzey alanı küçülürse katı basıncı artar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Aynı kuvvet daha küçük bir alana dağılınca birim alana düşen kuvvet, yani basınç artar."
+ },
+ {
+  "questionId": "boss-a14-f3-03",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Basıncı artır, azalt",
+  "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Örnekleri basıncı artırmaya ve azaltmaya yönelik olanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Basıncı artırır",
+    "Basıncı azaltır"
+   ],
+   "items": [
+    [
+     "Bıçağın bilenmesi",
+     0
+    ],
+    [
+     "Kar ayakkabısının geniş tabanı",
+     1
+    ],
+    [
+     "Çivinin sivri ucu",
+     0
+    ],
+    [
+     "Tırların çok sayıda tekerlekli olması",
+     1
+    ],
+    [
+     "Raptiyenin sivri ucu",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Örnekleri basıncı artırmaya ve azaltmaya yönelik olanlar diye ayır. (Basıncı artırır / Basıncı azaltır) Kartlar: Bıçağın bilenmesi; Kar ayakkabısının geniş tabanı; Çivinin sivri ucu; Tırların çok sayıda tekerlekli olması; Raptiyenin sivri ucu.",
+  "correctAnswer": "Basıncı artırır: Bıçağın bilenmesi, Çivinin sivri ucu, Raptiyenin sivri ucu. Basıncı azaltır: Kar ayakkabısının geniş tabanı, Tırların çok sayıda tekerlekli olması.",
+  "explanation": "Yüzey alanını küçültmek basıncı artırır (bıçak, çivi, raptiye); büyütmek azaltır (kar ayakkabısı, çok tekerlek)."
+ },
+ {
+  "questionId": "boss-a14-f3-04",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Her yöne etki",
+  "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Sıvı basıncı yalnızca kabın tabanına etki eder.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Sıvı basıncı yalnızca kabın tabanına etki eder.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Sıvılar bulundukları kabın tabanına ve yan yüzeylerine, yani her yöne basınç uygular."
+ },
+ {
+  "questionId": "boss-a14-f3-05",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Derinlik",
+  "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir sıvıda derinlik arttıkça sıvı basıncı nasıl değişir?",
+  "data": {
+   "options": [
+    "Artar",
+    "Azalır",
+    "Değişmez"
+   ]
+  },
+  "textPlain": "Bir sıvıda derinlik arttıkça sıvı basıncı nasıl değişir? Seçenekler: Artar / Azalır / Değişmez",
+  "correctAnswer": "Artar",
+  "explanation": "Sıvı basıncı derinlikle doğru orantılıdır; derinlere inildikçe artar."
+ },
+ {
+  "questionId": "boss-a14-f3-06",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Hidrolik sistemler",
+  "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hidrolik fren ve kriko hangi özelliğe dayanarak çalışır?",
+  "data": {
+   "options": [
+    "Sıvıların üzerlerine uygulanan basıncı her yöne aynen iletmesi",
+    "Katıların basıncı yalnızca kuvvet yönünde iletmesi",
+    "Gazların ısınınca genleşip bulundukları kabın her yerine eşit basınç yapması"
+   ]
+  },
+  "textPlain": "Hidrolik fren ve kriko hangi özelliğe dayanarak çalışır? Seçenekler: Sıvıların üzerlerine uygulanan basıncı her yöne aynen iletmesi / Katıların basıncı yalnızca kuvvet yönünde iletmesi / Gazların ısınınca genleşip bulundukları kabın her yerine eşit basınç yapması",
+  "correctAnswer": "Sıvıların üzerlerine uygulanan basıncı her yöne aynen iletmesi",
+  "explanation": "Kapalı kaptaki sıvıya uygulanan basınç, sıvının her noktasına aynen iletilir (Pascal ilkesi)."
+ },
+ {
+  "questionId": "boss-a14-f3-07",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Günlük yaşam",
+  "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "kolay",
+  "group": "f3",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Araçları sağladıkları kolaylıkla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Kar ayakkabısı",
+     "Karın içine batmamak"
+    ],
+    [
+     "Bıçak ağzı",
+     "Kolayca kesmek"
+    ],
+    [
+     "Çantanın geniş askısı",
+     "Omzu daha az acıtmak"
+    ]
+   ]
+  },
+  "textPlain": "Araçları sağladıkları kolaylıkla eşleştir. Sol: Kar ayakkabısı; Bıçak ağzı; Çantanın geniş askısı. Sağ: Karın içine batmamak; Kolayca kesmek; Omzu daha az acıtmak.",
+  "correctAnswer": "Kar ayakkabısı = Karın içine batmamak; Bıçak ağzı = Kolayca kesmek; Çantanın geniş askısı = Omzu daha az acıtmak",
+  "explanation": "Kar ayakkabısı ve geniş askı yüzey alanını büyütüp basıncı azaltır; bıçak ağzı alanı küçültüp basıncı artırır."
+ },
+ {
+  "questionId": "boss-a14-f3-08",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Basınç hesabı",
+  "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Ağırlığı 600 N olan bir kutunun yere temas eden yüzeyi 2 m²’dir. Kutunun yere uyguladığı basınç kaç pascaldır?",
+  "data": {
+   "answer": 300,
+   "digits": 3,
+   "unit": "Pa"
+  },
+  "textPlain": "Ağırlığı 600 N olan bir kutunun yere temas eden yüzeyi 2 m²’dir. Kutunun yere uyguladığı basınç kaç pascaldır?",
+  "correctAnswer": "300 Pa",
+  "explanation": "Basınç = kuvvet ÷ yüzey alanı = 600 N ÷ 2 m² = 300 Pa."
+ },
+ {
+  "questionId": "boss-a14-f3-09",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Derinliğe göre sırala",
+  "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Su dolu bir tankta A noktası 10 cm, B noktası 30 cm, C noktası 20 cm derinliktedir. Noktaları sıvı basıncına göre KÜÇÜKTEN BÜYÜĞE sırala.",
+  "data": {
+   "items": [
+    "A (10 cm)",
+    "C (20 cm)",
+    "B (30 cm)"
+   ]
+  },
+  "textPlain": "Su dolu bir tankta A noktası 10 cm, B noktası 30 cm, C noktası 20 cm derinliktedir. Noktaları sıvı basıncına göre KÜÇÜKTEN BÜYÜĞE sırala. Kartlar: C (20 cm); B (30 cm); A (10 cm).",
+  "correctAnswer": "A (10 cm) → C (20 cm) → B (30 cm)",
+  "explanation": "Aynı sıvıda basınç derinlikle artar: 10 cm < 20 cm < 30 cm."
+ },
+ {
+  "questionId": "boss-a14-f3-10",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Yoğunluk",
+  "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Su (1 g/cm³), zeytinyağı (0,9 g/cm³) ve tuzlu su (1,2 g/cm³) aynı derinlikte inceleniyor. Sıvı basıncı en büyük olan hangisidir?",
+  "data": {
+   "options": [
+    "Tuzlu su",
+    "Su",
+    "Zeytinyağı"
+   ]
+  },
+  "textPlain": "Su (1 g/cm³), zeytinyağı (0,9 g/cm³) ve tuzlu su (1,2 g/cm³) aynı derinlikte inceleniyor. Sıvı basıncı en büyük olan hangisidir? Seçenekler: Tuzlu su / Su / Zeytinyağı",
+  "correctAnswer": "Tuzlu su",
+  "explanation": "Aynı derinlikte yoğunluğu büyük olan sıvının basıncı büyüktür."
+ },
+ {
+  "questionId": "boss-a14-f3-11",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Kap şekli",
+  "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Farklı şekillerdeki kaplarda su aynı yükseklikteyse kapların tabanındaki sıvı basınçları eşittir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Farklı şekillerdeki kaplarda su aynı yükseklikteyse kapların tabanındaki sıvı basınçları eşittir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sıvı basıncı kabın şekline ve sıvı miktarına değil, derinliğe ve sıvının yoğunluğuna bağlıdır."
+ },
+ {
+  "questionId": "boss-a14-f3-12",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Tuğla",
+  "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir tuğla farklı yüzeyleri üzerine konuyor. Tuğlanın yere uyguladığı basınç ne zaman en büyük olur?",
+  "data": {
+   "options": [
+    "En küçük yüzeyi üzerine konduğunda",
+    "En büyük yüzeyi üzerine konduğunda",
+    "Bütün durumlarda aynı olur"
+   ]
+  },
+  "textPlain": "Bir tuğla farklı yüzeyleri üzerine konuyor. Tuğlanın yere uyguladığı basınç ne zaman en büyük olur? Seçenekler: En küçük yüzeyi üzerine konduğunda / En büyük yüzeyi üzerine konduğunda / Bütün durumlarda aynı olur",
+  "correctAnswer": "En küçük yüzeyi üzerine konduğunda",
+  "explanation": "Ağırlık değişmez; yüzey alanı en küçük olduğunda basınç en büyük olur."
+ },
+ {
+  "questionId": "boss-a14-f3-13",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Hangi basınç",
+  "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Örnekleri ilgili oldukları basınç türüne göre ayır.",
+  "data": {
+   "bins": [
+    "Sıvıların basıncı iletmesi",
+    "Katı basıncı"
+   ],
+   "items": [
+    [
+     "Hidrolik kriko",
+     0
+    ],
+    [
+     "Hidrolik fren",
+     0
+    ],
+    [
+     "Berber koltuğu",
+     0
+    ],
+    [
+     "Kar ayakkabısı",
+     1
+    ],
+    [
+     "Bıçağın keskin ağzı",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Örnekleri ilgili oldukları basınç türüne göre ayır. (Sıvıların basıncı iletmesi / Katı basıncı) Kartlar: Hidrolik kriko; Hidrolik fren; Berber koltuğu; Kar ayakkabısı; Bıçağın keskin ağzı.",
+  "correctAnswer": "Sıvıların basıncı iletmesi: Hidrolik kriko, Hidrolik fren, Berber koltuğu. Katı basıncı: Kar ayakkabısı, Bıçağın keskin ağzı.",
+  "explanation": "Kriko, fren ve berber koltuğu sıvıların basıncı iletmesiyle; kar ayakkabısı ve bıçak katı basıncıyla ilgilidir."
+ },
+ {
+  "questionId": "boss-a14-f3-14",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Baraj",
+  "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "orta",
+  "group": "f3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Barajların taban kısmı neden daha kalın yapılır?",
+  "data": {
+   "options": [
+    "Derinlik arttıkça suyun duvara yaptığı basınç artar.",
+    "Su yüzeye yakın yerde daha çok basınç yapar.",
+    "Kalın taban, barajın arkasında daha çok su birikmesini ve depolanmasını sağlar."
+   ]
+  },
+  "textPlain": "Barajların taban kısmı neden daha kalın yapılır? Seçenekler: Derinlik arttıkça suyun duvara yaptığı basınç artar. / Su yüzeye yakın yerde daha çok basınç yapar. / Kalın taban, barajın arkasında daha çok su birikmesini ve depolanmasını sağlar.",
+  "correctAnswer": "Derinlik arttıkça suyun duvara yaptığı basınç artar.",
+  "explanation": "Sıvı basıncı derinlikle arttığı için en büyük basınç barajın tabanındadır."
+ },
+ {
+  "questionId": "boss-a14-f3-15",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Sandık",
+  "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "num",
+  "prompt": "800 N ağırlığındaki bir sandığın tabanı 0,5 m²’dir. Sandığın yere uyguladığı basınç kaç pascaldır?",
+  "data": {
+   "answer": 1600,
+   "digits": 4,
+   "unit": "Pa"
+  },
+  "textPlain": "800 N ağırlığındaki bir sandığın tabanı 0,5 m²’dir. Sandığın yere uyguladığı basınç kaç pascaldır?",
+  "correctAnswer": "1600 Pa",
+  "explanation": "800 N ÷ 0,5 m² = 1600 Pa."
+ },
+ {
+  "questionId": "boss-a14-f3-16",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Tatlı ve tuzlu su",
+  "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A noktası tuzlu suda, B noktası tatlı suda ve ikisi de aynı derinliktedir. Hangisi doğrudur?",
+  "data": {
+   "options": [
+    "A’daki sıvı basıncı B’dekinden büyüktür.",
+    "B’deki sıvı basıncı A’dakinden büyüktür.",
+    "Derinlikleri aynı olduğu için iki noktadaki sıvı basınçları eşittir."
+   ]
+  },
+  "textPlain": "A noktası tuzlu suda, B noktası tatlı suda ve ikisi de aynı derinliktedir. Hangisi doğrudur? Seçenekler: A’daki sıvı basıncı B’dekinden büyüktür. / B’deki sıvı basıncı A’dakinden büyüktür. / Derinlikleri aynı olduğu için iki noktadaki sıvı basınçları eşittir.",
+  "correctAnswer": "A’daki sıvı basıncı B’dekinden büyüktür.",
+  "explanation": "Derinlik aynıyken basınç yoğunluğa bağlıdır; tuzlu suyun yoğunluğu daha büyüktür."
+ },
+ {
+  "questionId": "boss-a14-f3-17",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Kuvvet kazancı",
+  "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Hidrolik bir sistemde küçük pistona uygulanan kuvvet, büyük pistonda daha büyük bir kuvvet oluşturur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Hidrolik bir sistemde küçük pistona uygulanan kuvvet, büyük pistonda daha büyük bir kuvvet oluşturur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Basınç her yere aynen iletilir; büyük pistonun alanı büyük olduğu için ona etki eden kuvvet de büyüktür."
+ },
+ {
+  "questionId": "boss-a14-f3-18",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Fışkıran su",
+  "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Su dolu bir şişenin farklı yüksekliklerine delikler açılıyor. Su en uzağa hangi delikten fışkırır?",
+  "data": {
+   "options": [
+    "En alttaki delikten",
+    "En üstteki delikten",
+    "Ortadaki delikten"
+   ]
+  },
+  "textPlain": "Su dolu bir şişenin farklı yüksekliklerine delikler açılıyor. Su en uzağa hangi delikten fışkırır? Seçenekler: En alttaki delikten / En üstteki delikten / Ortadaki delikten",
+  "correctAnswer": "En alttaki delikten",
+  "explanation": "En alttaki delik en derinde olduğu için oradaki sıvı basıncı en büyüktür."
+ },
+ {
+  "questionId": "boss-a14-f3-19",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Deve",
+  "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Develerin geniş ve yumuşak tabanlı ayakları çölde onlara ne sağlar?",
+  "data": {
+   "options": [
+    "Kuma daha az batmalarını",
+    "Sıcak kumda daha hızlı koşabilmelerini",
+    "Ağırlıklarının artmasını"
+   ]
+  },
+  "textPlain": "Develerin geniş ve yumuşak tabanlı ayakları çölde onlara ne sağlar? Seçenekler: Kuma daha az batmalarını / Sıcak kumda daha hızlı koşabilmelerini / Ağırlıklarının artmasını",
+  "correctAnswer": "Kuma daha az batmalarını",
+  "explanation": "Geniş taban, ağırlığı büyük bir alana yayarak basıncı azaltır; deve kuma batmaz."
+ },
+ {
+  "questionId": "boss-a14-f3-20",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "3. Ünite: Basınç",
+  "topic": "Sıvı basıncını ne değiştirir",
+  "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+  "difficulty": "zor",
+  "group": "f3",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Değişiklikleri sıvı basıncına etkisine göre ayır.",
+  "data": {
+   "bins": [
+    "Basıncı artırır",
+    "Basıncı değiştirmez"
+   ],
+   "items": [
+    [
+     "Derinliğin artması",
+     0
+    ],
+    [
+     "Sıvının yoğunluğunun artması",
+     0
+    ],
+    [
+     "Kabın şeklinin değişmesi",
+     1
+    ],
+    [
+     "Aynı yükseklikte daha geniş kap kullanmak",
+     1
+    ],
+    [
+     "Kabın taban alanının büyümesi (yükseklik aynı)",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Değişiklikleri sıvı basıncına etkisine göre ayır. (Basıncı artırır / Basıncı değiştirmez) Kartlar: Derinliğin artması; Sıvının yoğunluğunun artması; Kabın şeklinin değişmesi; Aynı yükseklikte daha geniş kap kullanmak; Kabın taban alanının büyümesi (yükseklik aynı).",
+  "correctAnswer": "Basıncı artırır: Derinliğin artması, Sıvının yoğunluğunun artması. Basıncı değiştirmez: Kabın şeklinin değişmesi, Aynı yükseklikte daha geniş kap kullanmak, Kabın taban alanının büyümesi (yükseklik aynı).",
+  "explanation": "Sıvı basıncı yalnızca derinliğe ve yoğunluğa bağlıdır; kap şekli ve taban alanı basıncı değiştirmez."
+ },
+ {
+  "questionId": "boss-a14-f4-01",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Metal ve ametal",
+  "outcome": "Elementleri metal, ametal, yarı metal ve soygaz olarak sınıflandırır; periyodik sistemdeki yerlerini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Elementleri metal ve ametal diye ayır.",
+  "data": {
+   "bins": [
+    "Metal",
+    "Ametal"
+   ],
+   "items": [
+    [
+     "Demir",
+     0
+    ],
+    [
+     "Oksijen",
+     1
+    ],
+    [
+     "Bakır",
+     0
+    ],
+    [
+     "Kükürt",
+     1
+    ],
+    [
+     "Alüminyum",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Elementleri metal ve ametal diye ayır. (Metal / Ametal) Kartlar: Demir; Oksijen; Bakır; Kükürt; Alüminyum.",
+  "correctAnswer": "Metal: Demir, Bakır, Alüminyum. Ametal: Oksijen, Kükürt.",
+  "explanation": "Demir, bakır ve alüminyum parlak, ısı ve elektriği iyi ileten metallerdir; oksijen ve kükürt ametaldir."
+ },
+ {
+  "questionId": "boss-a14-f4-02",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Yanma",
+  "outcome": "Fiziksel ve kimyasal değişimleri ayırt eder; kimyasal tepkimelerde kütlenin korunduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Kâğıdın yanması kimyasal bir değişimdir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kâğıdın yanması kimyasal bir değişimdir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Yanma sonucunda kül ve gazlar gibi yeni maddeler oluşur; bu kimyasal değişimdir."
+ },
+ {
+  "questionId": "boss-a14-f4-03",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "pH",
+  "outcome": "Asit ve bazların özelliklerini, pH değerlerini ve günlük yaşamdaki kullanımlarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "pH değeri 7’den küçük olan çözeltiler nasıl adlandırılır?",
+  "data": {
+   "options": [
+    "Asidik",
+    "Bazik",
+    "Nötr"
+   ]
+  },
+  "textPlain": "pH değeri 7’den küçük olan çözeltiler nasıl adlandırılır? Seçenekler: Asidik / Bazik / Nötr",
+  "correctAnswer": "Asidik",
+  "explanation": "pH < 7 asidik, pH = 7 nötr, pH > 7 baziktir."
+ },
+ {
+  "questionId": "boss-a14-f4-04",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Hâl değişimi",
+  "outcome": "Maddelerin ısı alışverişini sıcaklık ve hâl değişimiyle ilişkilendirir; öz ısıyı açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Saf bir madde hâl değiştirirken sıcaklığı nasıl değişir?",
+  "data": {
+   "options": [
+    "Sabit kalır.",
+    "Sürekli artar.",
+    "Sürekli azalır."
+   ]
+  },
+  "textPlain": "Saf bir madde hâl değiştirirken sıcaklığı nasıl değişir? Seçenekler: Sabit kalır. / Sürekli artar. / Sürekli azalır.",
+  "correctAnswer": "Sabit kalır.",
+  "explanation": "Hâl değişimi süresince alınan ya da verilen ısı hâl değişimi için kullanılır; sıcaklık sabit kalır."
+ },
+ {
+  "questionId": "boss-a14-f4-05",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Fiziksel ve kimyasal",
+  "outcome": "Fiziksel ve kimyasal değişimleri ayırt eder; kimyasal tepkimelerde kütlenin korunduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Değişimleri fiziksel ve kimyasal diye ayır.",
+  "data": {
+   "bins": [
+    "Fiziksel",
+    "Kimyasal"
+   ],
+   "items": [
+    [
+     "Buzun erimesi",
+     0
+    ],
+    [
+     "Demirin paslanması",
+     1
+    ],
+    [
+     "Kâğıdın yırtılması",
+     0
+    ],
+    [
+     "Sütün ekşimesi",
+     1
+    ],
+    [
+     "Şekerin suda çözünmesi",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Değişimleri fiziksel ve kimyasal diye ayır. (Fiziksel / Kimyasal) Kartlar: Buzun erimesi; Demirin paslanması; Kâğıdın yırtılması; Sütün ekşimesi; Şekerin suda çözünmesi.",
+  "correctAnswer": "Fiziksel: Buzun erimesi, Kâğıdın yırtılması, Şekerin suda çözünmesi. Kimyasal: Demirin paslanması, Sütün ekşimesi.",
+  "explanation": "Fiziksel değişimde maddenin kimliği değişmez; kimyasal değişimde yeni maddeler oluşur."
+ },
+ {
+  "questionId": "boss-a14-f4-06",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Soygazlar",
+  "outcome": "Elementleri metal, ametal, yarı metal ve soygaz olarak sınıflandırır; periyodik sistemdeki yerlerini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Helyum ve neon gibi soygazlar başka elementlerle kolayca tepkimeye girer.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Helyum ve neon gibi soygazlar başka elementlerle kolayca tepkimeye girer.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Soygazlar kararlı yapıdadır; başka elementlerle neredeyse hiç tepkimeye girmezler."
+ },
+ {
+  "questionId": "boss-a14-f4-07",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Asit, baz, nötr",
+  "outcome": "Asit ve bazların özelliklerini, pH değerlerini ve günlük yaşamdaki kullanımlarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "kolay",
+  "group": "f4",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Maddeleri özellikleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Limon suyu",
+     "Asidik"
+    ],
+    [
+     "Sabunlu su",
+     "Bazik"
+    ],
+    [
+     "Saf su",
+     "Nötr"
+    ]
+   ]
+  },
+  "textPlain": "Maddeleri özellikleriyle eşleştir. Sol: Limon suyu; Sabunlu su; Saf su. Sağ: Asidik; Bazik; Nötr.",
+  "correctAnswer": "Limon suyu = Asidik; Sabunlu su = Bazik; Saf su = Nötr",
+  "explanation": "Limon suyu asidik, sabunlu su bazik, saf su nötrdür."
+ },
+ {
+  "questionId": "boss-a14-f4-08",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Grup",
+  "outcome": "Elementleri metal, ametal, yarı metal ve soygaz olarak sınıflandırır; periyodik sistemdeki yerlerini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Periyodik sistemde dikey sütunlara ne ad verilir?",
+  "data": {
+   "options": [
+    "Grup",
+    "Periyot",
+    "Katman"
+   ]
+  },
+  "textPlain": "Periyodik sistemde dikey sütunlara ne ad verilir? Seçenekler: Grup / Periyot / Katman",
+  "correctAnswer": "Grup",
+  "explanation": "Dikey sütunlar grup, yatay satırlar periyottur."
+ },
+ {
+  "questionId": "boss-a14-f4-09",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Kütlenin korunumu",
+  "outcome": "Fiziksel ve kimyasal değişimleri ayırt eder; kimyasal tepkimelerde kütlenin korunduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "12 g karbon ile 32 g oksijen tamamen tepkimeye girerek karbondioksit oluşturuyor. Kaç gram karbondioksit oluşur?",
+  "data": {
+   "answer": 44,
+   "digits": 2,
+   "unit": "g"
+  },
+  "textPlain": "12 g karbon ile 32 g oksijen tamamen tepkimeye girerek karbondioksit oluşturuyor. Kaç gram karbondioksit oluşur?",
+  "correctAnswer": "44 g",
+  "explanation": "Kimyasal tepkimelerde toplam kütle korunur: 12 + 32 = 44 g."
+ },
+ {
+  "questionId": "boss-a14-f4-10",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Turnusol",
+  "outcome": "Asit ve bazların özelliklerini, pH değerlerini ve günlük yaşamdaki kullanımlarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Mavi turnusol kâğıdı bir asidik çözeltiye batırılınca ne olur?",
+  "data": {
+   "options": [
+    "Kırmızıya döner.",
+    "Yeşile döner.",
+    "Rengi değişmez."
+   ]
+  },
+  "textPlain": "Mavi turnusol kâğıdı bir asidik çözeltiye batırılınca ne olur? Seçenekler: Kırmızıya döner. / Yeşile döner. / Rengi değişmez.",
+  "correctAnswer": "Kırmızıya döner.",
+  "explanation": "Asitler mavi turnusolu kırmızıya, bazlar kırmızı turnusolu maviye çevirir."
+ },
+ {
+  "questionId": "boss-a14-f4-11",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Isı ve sıcaklık",
+  "outcome": "Maddelerin ısı alışverişini sıcaklık ve hâl değişimiyle ilişkilendirir; öz ısıyı açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Isı ve sıcaklık aynı kavramdır.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Isı ve sıcaklık aynı kavramdır.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Isı, sıcaklık farkı nedeniyle aktarılan enerjidir; sıcaklık ise taneciklerin ortalama hareket enerjisinin ölçüsüdür."
+ },
+ {
+  "questionId": "boss-a14-f4-12",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "pH sırası",
+  "outcome": "Asit ve bazların özelliklerini, pH değerlerini ve günlük yaşamdaki kullanımlarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Maddeleri pH değerine göre KÜÇÜKTEN BÜYÜĞE sırala.",
+  "data": {
+   "items": [
+    "Limon suyu",
+    "Saf su",
+    "Sabunlu su",
+    "Çamaşır suyu"
+   ]
+  },
+  "textPlain": "Maddeleri pH değerine göre KÜÇÜKTEN BÜYÜĞE sırala. Kartlar: Limon suyu; Sabunlu su; Saf su; Çamaşır suyu.",
+  "correctAnswer": "Limon suyu → Saf su → Sabunlu su → Çamaşır suyu",
+  "explanation": "Limon suyu asidik (pH ≈ 2), saf su nötr (7), sabunlu su bazik (≈ 10), çamaşır suyu kuvvetli baziktir (≈ 12–13)."
+ },
+ {
+  "questionId": "boss-a14-f4-13",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Öz ısı",
+  "outcome": "Maddelerin ısı alışverişini sıcaklık ve hâl değişimiyle ilişkilendirir; öz ısıyı açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Eşit kütlede su ve zeytinyağı aynı ısıtıcıyla aynı süre ısıtılıyor. Hangisinin sıcaklığı daha çok artar?",
+  "data": {
+   "options": [
+    "Zeytinyağının",
+    "Suyun",
+    "İkisininki de eşit artar"
+   ]
+  },
+  "textPlain": "Eşit kütlede su ve zeytinyağı aynı ısıtıcıyla aynı süre ısıtılıyor. Hangisinin sıcaklığı daha çok artar? Seçenekler: Zeytinyağının / Suyun / İkisininki de eşit artar",
+  "correctAnswer": "Zeytinyağının",
+  "explanation": "Suyun öz ısısı zeytinyağınınkinden büyüktür; aynı ısıyı alan zeytinyağının sıcaklığı daha çok artar."
+ },
+ {
+  "questionId": "boss-a14-f4-14",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Asit ve baz",
+  "outcome": "Asit ve bazların özelliklerini, pH değerlerini ve günlük yaşamdaki kullanımlarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "orta",
+  "group": "f4",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Özellikleri asit ve baz diye ayır.",
+  "data": {
+   "bins": [
+    "Asit",
+    "Baz"
+   ],
+   "items": [
+    [
+     "Tadı ekşidir.",
+     0
+    ],
+    [
+     "Ele kayganlık hissi verir.",
+     1
+    ],
+    [
+     "Mavi turnusolu kırmızıya çevirir.",
+     0
+    ],
+    [
+     "pH değeri 7’den büyüktür.",
+     1
+    ],
+    [
+     "Kırmızı turnusolu maviye çevirir.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Özellikleri asit ve baz diye ayır. (Asit / Baz) Kartlar: Tadı ekşidir.; Ele kayganlık hissi verir.; Mavi turnusolu kırmızıya çevirir.; pH değeri 7’den büyüktür.; Kırmızı turnusolu maviye çevirir..",
+  "correctAnswer": "Asit: Tadı ekşidir., Mavi turnusolu kırmızıya çevirir.. Baz: Ele kayganlık hissi verir., pH değeri 7’den büyüktür., Kırmızı turnusolu maviye çevirir..",
+  "explanation": "Asitlerin tadı ekşidir, pH’ları 7’den küçüktür; bazlar kaygandır, pH’ları 7’den büyüktür."
+ },
+ {
+  "questionId": "boss-a14-f4-15",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Nötrleşme",
+  "outcome": "Asit ve bazların özelliklerini, pH değerlerini ve günlük yaşamdaki kullanımlarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir asit ile bir baz tepkimeye girdiğinde ne oluşur?",
+  "data": {
+   "options": [
+    "Tuz ve su",
+    "Yalnızca bir gaz",
+    "Daha kuvvetli bir asit"
+   ]
+  },
+  "textPlain": "Bir asit ile bir baz tepkimeye girdiğinde ne oluşur? Seçenekler: Tuz ve su / Yalnızca bir gaz / Daha kuvvetli bir asit",
+  "correctAnswer": "Tuz ve su",
+  "explanation": "Asit ve bazın tepkimesine nötrleşme denir; tuz ve su oluşur."
+ },
+ {
+  "questionId": "boss-a14-f4-16",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Kütle korunumu",
+  "outcome": "Fiziksel ve kimyasal değişimleri ayırt eder; kimyasal tepkimelerde kütlenin korunduğunu açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kapalı bir kapta 50 g kalsiyum karbonat ısıtılıyor; 28 g kalsiyum oksit ve bir miktar karbondioksit oluşuyor. Kaç gram karbondioksit oluşur?",
+  "data": {
+   "answer": 22,
+   "digits": 2,
+   "unit": "g"
+  },
+  "textPlain": "Kapalı bir kapta 50 g kalsiyum karbonat ısıtılıyor; 28 g kalsiyum oksit ve bir miktar karbondioksit oluşuyor. Kaç gram karbondioksit oluşur?",
+  "correctAnswer": "22 g",
+  "explanation": "Toplam kütle korunur: 50 − 28 = 22 g karbondioksit."
+ },
+ {
+  "questionId": "boss-a14-f4-17",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Aynı grup",
+  "outcome": "Elementleri metal, ametal, yarı metal ve soygaz olarak sınıflandırır; periyodik sistemdeki yerlerini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Periyodik sistemde aynı grupta bulunan elementler için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Kimyasal özellikleri birbirine benzer.",
+    "Atom kütleleri birbirine eşittir.",
+    "Hepsi oda sıcaklığında katı hâlde bulunan metallerdir."
+   ]
+  },
+  "textPlain": "Periyodik sistemde aynı grupta bulunan elementler için hangisi doğrudur? Seçenekler: Kimyasal özellikleri birbirine benzer. / Atom kütleleri birbirine eşittir. / Hepsi oda sıcaklığında katı hâlde bulunan metallerdir.",
+  "correctAnswer": "Kimyasal özellikleri birbirine benzer.",
+  "explanation": "Aynı gruptaki elementlerin son katmandaki elektron sayıları aynıdır; kimyasal özellikleri benzerdir."
+ },
+ {
+  "questionId": "boss-a14-f4-18",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Sabit sıcaklık",
+  "outcome": "Maddelerin ısı alışverişini sıcaklık ve hâl değişimiyle ilişkilendirir; öz ısıyı açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Isıtılan buzun sıcaklığı 0 °C’de bir süre sabit kalıyor. Bu sürede verilen ısı ne için kullanılır?",
+  "data": {
+   "options": [
+    "Buzun erimesi için",
+    "Buzun sıcaklığını artırmak için",
+    "Hiçbir işe yaramaz, kaybolur"
+   ]
+  },
+  "textPlain": "Isıtılan buzun sıcaklığı 0 °C’de bir süre sabit kalıyor. Bu sürede verilen ısı ne için kullanılır? Seçenekler: Buzun erimesi için / Buzun sıcaklığını artırmak için / Hiçbir işe yaramaz, kaybolur",
+  "correctAnswer": "Buzun erimesi için",
+  "explanation": "Erime sırasında verilen ısı, tanecikler arasındaki çekim kuvvetlerini yenmek için kullanılır; sıcaklık değişmez."
+ },
+ {
+  "questionId": "boss-a14-f4-19",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Kimya endüstrisi",
+  "outcome": "Türkiye’de kimya endüstrisinin önemini ve bu alandaki meslekleri açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Kimya endüstrisinde çevreye daha az zarar veren üretim yöntemlerinin seçilmesi, kaynakların sürdürülebilir kullanımı açısından önemlidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Kimya endüstrisinde çevreye daha az zarar veren üretim yöntemlerinin seçilmesi, kaynakların sürdürülebilir kullanımı açısından önemlidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Kimya endüstrisi ilaçtan gübreye pek çok ürün üretir; çevreye duyarlı üretim kaynakların korunmasını sağlar."
+ },
+ {
+  "questionId": "boss-a14-f4-20",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "4. Ünite: Madde ve Endüstri",
+  "topic": "Isı alır, ısı verir",
+  "outcome": "Maddelerin ısı alışverişini sıcaklık ve hâl değişimiyle ilişkilendirir; öz ısıyı açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Madde ve Endüstri”",
+  "difficulty": "zor",
+  "group": "f4",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Hâl değişimlerini ısı alarak ve ısı vererek gerçekleşenler diye ayır.",
+  "data": {
+   "bins": [
+    "Isı alır",
+    "Isı verir"
+   ],
+   "items": [
+    [
+     "Buzun erimesi",
+     0
+    ],
+    [
+     "Suyun donması",
+     1
+    ],
+    [
+     "Suyun buharlaşması",
+     0
+    ],
+    [
+     "Su buharının yoğuşması",
+     1
+    ],
+    [
+     "Naftalinin süblimleşmesi",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Hâl değişimlerini ısı alarak ve ısı vererek gerçekleşenler diye ayır. (Isı alır / Isı verir) Kartlar: Buzun erimesi; Suyun donması; Suyun buharlaşması; Su buharının yoğuşması; Naftalinin süblimleşmesi.",
+  "correctAnswer": "Isı alır: Buzun erimesi, Suyun buharlaşması, Naftalinin süblimleşmesi. Isı verir: Suyun donması, Su buharının yoğuşması.",
+  "explanation": "Erime, buharlaşma ve süblimleşme ısı alarak; donma ve yoğuşma ısı vererek gerçekleşir."
+ },
+ {
+  "questionId": "boss-a14-m4-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Sütun grafiği",
+  "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Grafiğe göre salı günü kütüphaneden kaç kitap alınmıştır?",
+  "data": {
+   "answer": 12,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "bar",
+    "t": "Kütüphaneden alınan kitap",
+    "l": [
+     "Pzt",
+     "Salı",
+     "Çrş",
+     "Prş"
+    ],
+    "v": [
+     8,
+     12,
+     6,
+     10
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: Pazartesi 8, Salı 12, Çarşamba 6, Perşembe 10 kitap] Grafiğe göre salı günü kütüphaneden kaç kitap alınmıştır?",
+  "correctAnswer": "12",
+  "explanation": "Salı sütununun boyu 12’yi gösterir."
+ },
+ {
+  "questionId": "boss-a14-m4-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Uygun grafik",
+  "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir öğrencinin beş ay boyunca boy uzunluğundaki değişimi göstermek için en uygun grafik hangisidir?",
+  "data": {
+   "options": [
+    "Çizgi grafiği",
+    "Daire grafiği",
+    "Tablo yerine resim"
+   ]
+  },
+  "textPlain": "Bir öğrencinin beş ay boyunca boy uzunluğundaki değişimi göstermek için en uygun grafik hangisidir? Seçenekler: Çizgi grafiği / Daire grafiği / Tablo yerine resim",
+  "correctAnswer": "Çizgi grafiği",
+  "explanation": "Zamana bağlı değişim çizgi grafiğiyle en iyi gösterilir."
+ },
+ {
+  "questionId": "boss-a14-m4-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Daire grafiği",
+  "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Daire grafiğine göre en çok tercih edilen spor hangisidir?",
+  "data": {
+   "options": [
+    "Futbol",
+    "Voleybol",
+    "Basketbol"
+   ],
+   "fig": {
+    "k": "pie",
+    "l": [
+     "Futbol",
+     "Voleybol",
+     "Basketbol"
+    ],
+    "v": [
+     2,
+     1,
+     1
+    ]
+   }
+  },
+  "textPlain": "[Daire grafiği: Futbol yarım daire, Voleybol çeyrek, Basketbol çeyrek] Daire grafiğine göre en çok tercih edilen spor hangisidir? Seçenekler: Futbol / Voleybol / Basketbol",
+  "correctAnswer": "Futbol",
+  "explanation": "En büyük dilim futbola aittir (bütünün yarısı)."
+ },
+ {
+  "questionId": "boss-a14-m4-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Çizgi grafiği",
+  "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Grafiğe göre çarşamba günü sıcaklık bir önceki güne göre azalmıştır.",
+  "data": {
+   "truth": true,
+   "fig": {
+    "k": "line",
+    "t": "Günlük sıcaklık (°C)",
+    "l": [
+     "Pzt",
+     "Salı",
+     "Çrş",
+     "Prş",
+     "Cuma"
+    ],
+    "v": [
+     12,
+     14,
+     10,
+     16,
+     18
+    ]
+   }
+  },
+  "textPlain": "[Çizgi grafiği: Pzt 12, Salı 14, Çrş 10, Prş 16, Cuma 18 °C] Doğru mu yanlış mı? Grafiğe göre çarşamba günü sıcaklık bir önceki güne göre azalmıştır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Salı 14 °C, çarşamba 10 °C’dir; sıcaklık azalmıştır."
+ },
+ {
+  "questionId": "boss-a14-m4-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Merkez açılar",
+  "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir daire grafiğinde bütün dilimlerin merkez açıları toplamı 360°’dir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir daire grafiğinde bütün dilimlerin merkez açıları toplamı 360°’dir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Daire grafiği bütünü temsil eder; merkez açıların toplamı tam açıdır (360°)."
+ },
+ {
+  "questionId": "boss-a14-m4-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Hangi grafik",
+  "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Verileri gösterilmeye en uygun grafiğe göre ayır.",
+  "data": {
+   "bins": [
+    "Çizgi grafiği",
+    "Daire grafiği"
+   ],
+   "items": [
+    [
+     "Bir bebeğin aylara göre kilosu",
+     0
+    ],
+    [
+     "Sınıfın sevdiği renklerin bütün içindeki payı",
+     1
+    ],
+    [
+     "Bir şehrin yıllara göre nüfusu",
+     0
+    ],
+    [
+     "Aile bütçesinin harcama kalemlerine dağılımı",
+     1
+    ],
+    [
+     "Bir haftalık sıcaklık değişimi",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Verileri gösterilmeye en uygun grafiğe göre ayır. (Çizgi grafiği / Daire grafiği) Kartlar: Bir bebeğin aylara göre kilosu; Sınıfın sevdiği renklerin bütün içindeki payı; Bir şehrin yıllara göre nüfusu; Aile bütçesinin harcama kalemlerine dağılımı; Bir haftalık sıcaklık değişimi.",
+  "correctAnswer": "Çizgi grafiği: Bir bebeğin aylara göre kilosu, Bir şehrin yıllara göre nüfusu, Bir haftalık sıcaklık değişimi. Daire grafiği: Sınıfın sevdiği renklerin bütün içindeki payı, Aile bütçesinin harcama kalemlerine dağılımı.",
+  "explanation": "Zamanla değişim çizgi grafiğiyle, bütünün parçalara dağılımı daire grafiğiyle gösterilir."
+ },
+ {
+  "questionId": "boss-a14-m4-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Toplam fidan",
+  "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "kolay",
+  "group": "m4",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Grafiğe göre üç sınıf toplam kaç fidan dikmiştir?",
+  "data": {
+   "answer": 40,
+   "digits": 2,
+   "unit": "",
+   "fig": {
+    "k": "bar",
+    "t": "Sınıfların diktiği fidan",
+    "l": [
+     "8/A",
+     "8/B",
+     "8/C"
+    ],
+    "v": [
+     14,
+     10,
+     16
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: 8/A 14, 8/B 10, 8/C 16 fidan] Grafiğe göre üç sınıf toplam kaç fidan dikmiştir?",
+  "correctAnswer": "40",
+  "explanation": "14 + 10 + 16 = 40."
+ },
+ {
+  "questionId": "boss-a14-m4-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Dilimden sayıya",
+  "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "360 öğrencinin katıldığı bir ankette, daire grafiğinde “kitap okumak” dilimi 90°’dir. Kaç öğrenci kitap okumayı seçmiştir?",
+  "data": {
+   "answer": 90,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "360 öğrencinin katıldığı bir ankette, daire grafiğinde “kitap okumak” dilimi 90°’dir. Kaç öğrenci kitap okumayı seçmiştir?",
+  "correctAnswer": "90",
+  "explanation": "Her 1° bir öğrenciyi gösterir (360 öğrenci ↔ 360°); 90° → 90 öğrenci."
+ },
+ {
+  "questionId": "boss-a14-m4-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Azalan ay",
+  "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Grafiğe göre satışların bir önceki aya göre azaldığı ay hangisidir?",
+  "data": {
+   "options": [
+    "Mart",
+    "Nisan",
+    "Şubat"
+   ],
+   "fig": {
+    "k": "line",
+    "t": "Aylık satış (adet)",
+    "l": [
+     "Oca",
+     "Şub",
+     "Mar",
+     "Nis",
+     "May"
+    ],
+    "v": [
+     20,
+     25,
+     15,
+     30,
+     35
+    ],
+    "max": 35,
+    "step": 5
+   }
+  },
+  "textPlain": "[Çizgi grafiği: Ocak 20, Şubat 25, Mart 15, Nisan 30, Mayıs 35] Grafiğe göre satışların bir önceki aya göre azaldığı ay hangisidir? Seçenekler: Mart / Nisan / Şubat",
+  "correctAnswer": "Mart",
+  "explanation": "Şubat 25, mart 15 adettir; azalma martta olmuştur."
+ },
+ {
+  "questionId": "boss-a14-m4-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Merkez açı",
+  "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "num",
+  "prompt": "30 kişilik bir sınıfta 10 öğrenci gözlük takıyor. Bu durum daire grafiğiyle gösterilirse “gözlüklü” diliminin merkez açısı kaç derece olur?",
+  "data": {
+   "answer": 120,
+   "digits": 3,
+   "unit": "°"
+  },
+  "textPlain": "30 kişilik bir sınıfta 10 öğrenci gözlük takıyor. Bu durum daire grafiğiyle gösterilirse “gözlüklü” diliminin merkez açısı kaç derece olur?",
+  "correctAnswer": "120°",
+  "explanation": "10/30 = 1/3; 360° ÷ 3 = 120°."
+ },
+ {
+  "questionId": "boss-a14-m4-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Grafiği yorumla",
+  "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Grafiğe göre hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Ece ile Nur aynı sayıda kitap okumuştur.",
+    "En az kitabı Ali okumuştur.",
+    "Can, Ali’den daha fazla sayıda kitap okumuştur."
+   ],
+   "fig": {
+    "k": "bar",
+    "t": "Okunan kitap sayısı",
+    "l": [
+     "Ali",
+     "Ece",
+     "Can",
+     "Nur"
+    ],
+    "v": [
+     6,
+     9,
+     4,
+     9
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: Ali 6, Ece 9, Can 4, Nur 9 kitap] Grafiğe göre hangisi doğrudur? Seçenekler: Ece ile Nur aynı sayıda kitap okumuştur. / En az kitabı Ali okumuştur. / Can, Ali’den daha fazla sayıda kitap okumuştur.",
+  "correctAnswer": "Ece ile Nur aynı sayıda kitap okumuştur.",
+  "explanation": "Ece ve Nur 9’ar kitap okumuştur. En az okuyan Can’dır (4)."
+ },
+ {
+  "questionId": "boss-a14-m4-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Tablodan sıralama",
+  "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Bir kantinin haftalık satışları: tost 18, simit 25, poğaça 12, börek 20. Ürünleri satışa göre ÇOKTAN AZA sırala.",
+  "data": {
+   "items": [
+    "Simit",
+    "Börek",
+    "Tost",
+    "Poğaça"
+   ]
+  },
+  "textPlain": "Bir kantinin haftalık satışları: tost 18, simit 25, poğaça 12, börek 20. Ürünleri satışa göre ÇOKTAN AZA sırala. Kartlar: Tost; Simit; Börek; Poğaça.",
+  "correctAnswer": "Simit → Börek → Tost → Poğaça",
+  "explanation": "25 > 20 > 18 > 12."
+ },
+ {
+  "questionId": "boss-a14-m4-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Gösterimler",
+  "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Aynı veri hem sütun grafiğiyle hem de daire grafiğiyle gösterilebilir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Aynı veri hem sütun grafiğiyle hem de daire grafiğiyle gösterilebilir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Kategorilere ayrılmış bir veri hem sütunlarla (karşılaştırma) hem dilimlerle (bütün içindeki pay) gösterilebilir."
+ },
+ {
+  "questionId": "boss-a14-m4-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "İki sınıf",
+  "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "orta",
+  "group": "m4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "8/A sınıfının dört aylık kitap okuma sayıları 12, 15, 18, 21; 8/B sınıfınınki 20, 18, 16, 14’tür. Hangisi doğrudur?",
+  "data": {
+   "options": [
+    "8/A’nın sayıları düzenli artarken 8/B’ninki düzenli azalmıştır.",
+    "İki sınıfın sayıları da her ay artmıştır.",
+    "8/B sınıfı dört ayın her birinde 8/A’dan daha fazla kitap okumuştur."
+   ]
+  },
+  "textPlain": "8/A sınıfının dört aylık kitap okuma sayıları 12, 15, 18, 21; 8/B sınıfınınki 20, 18, 16, 14’tür. Hangisi doğrudur? Seçenekler: 8/A’nın sayıları düzenli artarken 8/B’ninki düzenli azalmıştır. / İki sınıfın sayıları da her ay artmıştır. / 8/B sınıfı dört ayın her birinde 8/A’dan daha fazla kitap okumuştur.",
+  "correctAnswer": "8/A’nın sayıları düzenli artarken 8/B’ninki düzenli azalmıştır.",
+  "explanation": "8/A her ay 3 artmış, 8/B her ay 2 azalmıştır. Son ayda 8/A (21) daha fazladır."
+ },
+ {
+  "questionId": "boss-a14-m4-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Bütçe",
+  "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir ailenin aylık 12 000 TL’lik bütçesi daire grafiğiyle gösterilmiştir. Kira dilimi 120° ise kiraya kaç TL ayrılmıştır?",
+  "data": {
+   "answer": 4000,
+   "digits": 4,
+   "unit": "TL"
+  },
+  "textPlain": "Bir ailenin aylık 12 000 TL’lik bütçesi daire grafiğiyle gösterilmiştir. Kira dilimi 120° ise kiraya kaç TL ayrılmıştır?",
+  "correctAnswer": "4000 TL",
+  "explanation": "120° bütünün 1/3’üdür; 12 000 ÷ 3 = 4000 TL."
+ },
+ {
+  "questionId": "boss-a14-m4-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Kesişen çizgiler",
+  "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A şehrinde pazartesiden perşembeye sıcaklıklar 6, 9, 12, 15 °C; B şehrinde 15, 13, 12, 10 °C’dir. İki çizgi grafiği hangi gün kesişir (sıcaklıklar eşit olur)?",
+  "data": {
+   "options": [
+    "Çarşamba",
+    "Salı",
+    "Perşembe"
+   ]
+  },
+  "textPlain": "A şehrinde pazartesiden perşembeye sıcaklıklar 6, 9, 12, 15 °C; B şehrinde 15, 13, 12, 10 °C’dir. İki çizgi grafiği hangi gün kesişir (sıcaklıklar eşit olur)? Seçenekler: Çarşamba / Salı / Perşembe",
+  "correctAnswer": "Çarşamba",
+  "explanation": "Çarşamba günü iki şehrin sıcaklığı da 12 °C’dir."
+ },
+ {
+  "questionId": "boss-a14-m4-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Eksik sütun",
+  "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir sütun grafiğinde dört haftalık satışlar 12, 18, 15 ve x’tir. Haftalık satışların ortalaması 16 ise x kaçtır?",
+  "data": {
+   "answer": 19,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "Bir sütun grafiğinde dört haftalık satışlar 12, 18, 15 ve x’tir. Haftalık satışların ortalaması 16 ise x kaçtır?",
+  "correctAnswer": "19",
+  "explanation": "Toplam 4 · 16 = 64; 64 − (12 + 18 + 15) = 19."
+ },
+ {
+  "questionId": "boss-a14-m4-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "İki amaç",
+  "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Ece, okuldaki dört kulübün üye sayılarını hem karşılaştırmak hem de her kulübün toplam içindeki payını göstermek istiyor. Hangi iki grafiği kullanmalıdır?",
+  "data": {
+   "options": [
+    "Sütun ve daire grafiği",
+    "Çizgi ve çizgi grafiği",
+    "Yalnızca çizgi grafiği"
+   ]
+  },
+  "textPlain": "Ece, okuldaki dört kulübün üye sayılarını hem karşılaştırmak hem de her kulübün toplam içindeki payını göstermek istiyor. Hangi iki grafiği kullanmalıdır? Seçenekler: Sütun ve daire grafiği / Çizgi ve çizgi grafiği / Yalnızca çizgi grafiği",
+  "correctAnswer": "Sütun ve daire grafiği",
+  "explanation": "Karşılaştırma için sütun, bütün içindeki pay için daire grafiği uygundur."
+ },
+ {
+  "questionId": "boss-a14-m4-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Açıdan yüzde",
+  "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir daire grafiğinde 72°’lik dilim bütünün %20’sini gösterir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir daire grafiğinde 72°’lik dilim bütünün %20’sini gösterir.",
+  "correctAnswer": "Doğru",
+  "explanation": "72 ÷ 360 = 0,2 = %20."
+ },
+ {
+  "questionId": "boss-a14-m4-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "4. Ünite: Veri Analizi",
+  "topic": "Çoklu veri",
+  "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+  "difficulty": "zor",
+  "group": "m4",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Bir kantinde ocak–nisan tost satışları 40, 35, 30, 25; simit satışları 20, 30, 40, 50’dir. İfadeleri doğru ve yanlış diye ayır.",
+  "data": {
+   "bins": [
+    "Doğru",
+    "Yanlış"
+   ],
+   "items": [
+    [
+     "Tost satışları her ay 5 azalmıştır.",
+     0
+    ],
+    [
+     "Simit satışları her ay 10 artmıştır.",
+     0
+    ],
+    [
+     "Şubatta tost, simitten fazla satılmıştır.",
+     0
+    ],
+    [
+     "Martta simit, tosttan az satılmıştır.",
+     1
+    ],
+    [
+     "Nisanda iki ürünün satış toplamı 80’dir.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Bir kantinde ocak–nisan tost satışları 40, 35, 30, 25; simit satışları 20, 30, 40, 50’dir. İfadeleri doğru ve yanlış diye ayır. (Doğru / Yanlış) Kartlar: Tost satışları her ay 5 azalmıştır.; Simit satışları her ay 10 artmıştır.; Şubatta tost, simitten fazla satılmıştır.; Martta simit, tosttan az satılmıştır.; Nisanda iki ürünün satış toplamı 80’dir..",
+  "correctAnswer": "Doğru: Tost satışları her ay 5 azalmıştır., Simit satışları her ay 10 artmıştır., Şubatta tost, simitten fazla satılmıştır.. Yanlış: Martta simit, tosttan az satılmıştır., Nisanda iki ürünün satış toplamı 80’dir..",
+  "explanation": "Martta simit 40, tost 30’dur; nisanda toplam 25 + 50 = 75’tir."
+ },
+ {
+  "questionId": "boss-a14-m5-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Zarın durumları",
+  "outcome": "Bir olaya ait olası durumları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Bir zar atıldığında kaç farklı olası durum vardır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Bir zar atıldığında kaç farklı olası durum vardır?",
+  "correctAnswer": "6",
+  "explanation": "Zarın yüzlerinde 1, 2, 3, 4, 5 ve 6 bulunur: 6 olası durum."
+ },
+ {
+  "questionId": "boss-a14-m5-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Kesin olay",
+  "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir torbada yalnızca kırmızı bilyeler vardır. Torbadan kırmızı bilye çekme olasılığı nedir?",
+  "data": {
+   "options": [
+    "1 (kesin olay)",
+    "0 (imkânsız olay)",
+    "{1/2}"
+   ]
+  },
+  "textPlain": "Bir torbada yalnızca kırmızı bilyeler vardır. Torbadan kırmızı bilye çekme olasılığı nedir? Seçenekler: 1 (kesin olay) / 0 (imkânsız olay) / {1/2}",
+  "correctAnswer": "1 (kesin olay)",
+  "explanation": "Torbadaki bütün bilyeler kırmızı olduğundan kırmızı çekmek kesindir; olasılık 1’dir."
+ },
+ {
+  "questionId": "boss-a14-m5-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Olasılık aralığı",
+  "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir olayın olma olasılığı 1’den büyük olabilir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir olayın olma olasılığı 1’den büyük olabilir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Olasılık 0 ile 1 arasında (0 ve 1 dahil) bir değerdir."
+ },
+ {
+  "questionId": "boss-a14-m5-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Torba",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Torbadan rastgele çekilen bilyenin kırmızı olma olasılığı nedir?",
+  "data": {
+   "options": [
+    "{3/4}",
+    "{1/4}",
+    "{1/3}"
+   ],
+   "fig": {
+    "k": "bag",
+    "c": [
+     [
+      "#e2425c",
+      3
+     ],
+     [
+      "#2f6fe0",
+      1
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Torba: 3 kırmızı, 1 mavi bilye] Torbadan rastgele çekilen bilyenin kırmızı olma olasılığı nedir? Seçenekler: {3/4} / {1/4} / {1/3}",
+  "correctAnswer": "{3/4}",
+  "explanation": "4 bilyenin 3’ü kırmızıdır: 3/4."
+ },
+ {
+  "questionId": "boss-a14-m5-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Kesin ve imkânsız",
+  "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Olayları kesin ve imkânsız diye ayır.",
+  "data": {
+   "bins": [
+    "Kesin olay",
+    "İmkânsız olay"
+   ],
+   "items": [
+    [
+     "Zarda 7 gelmesi",
+     1
+    ],
+    [
+     "Zarda 6 ya da 6’dan küçük bir sayı gelmesi",
+     0
+    ],
+    [
+     "Bir parayla tek atışta hem yazı hem tura gelmesi",
+     1
+    ],
+    [
+     "Yalnızca mavi top bulunan torbadan mavi top çekmek",
+     0
+    ],
+    [
+     "Zarda 0 gelmesi",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Olayları kesin ve imkânsız diye ayır. (Kesin olay / İmkânsız olay) Kartlar: Zarda 7 gelmesi; Zarda 6 ya da 6’dan küçük bir sayı gelmesi; Bir parayla tek atışta hem yazı hem tura gelmesi; Yalnızca mavi top bulunan torbadan mavi top çekmek; Zarda 0 gelmesi.",
+  "correctAnswer": "Kesin olay: Zarda 6 ya da 6’dan küçük bir sayı gelmesi, Yalnızca mavi top bulunan torbadan mavi top çekmek. İmkânsız olay: Zarda 7 gelmesi, Bir parayla tek atışta hem yazı hem tura gelmesi, Zarda 0 gelmesi.",
+  "explanation": "Olasılığı 1 olan olay kesin, 0 olan olay imkânsızdır."
+ },
+ {
+  "questionId": "boss-a14-m5-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Çark",
+  "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Çark çevrildiğinde hangisinin olma olasılığı daha fazladır?",
+  "data": {
+   "options": [
+    "Mavi gelmesi",
+    "Kırmızı gelmesi",
+    "İkisinin olasılığı eşittir"
+   ],
+   "fig": {
+    "k": "spin",
+    "s": [
+     [
+      "#2f6fe0",
+      "Mavi"
+     ],
+     [
+      "#2f6fe0",
+      "Mavi"
+     ],
+     [
+      "#2f6fe0",
+      "Mavi"
+     ],
+     [
+      "#e2425c",
+      "Kırmızı"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Çark: 3 mavi, 1 kırmızı eş dilim] Çark çevrildiğinde hangisinin olma olasılığı daha fazladır? Seçenekler: Mavi gelmesi / Kırmızı gelmesi / İkisinin olasılığı eşittir",
+  "correctAnswer": "Mavi gelmesi",
+  "explanation": "Çarkın 4 eş diliminin 3’ü mavidir."
+ },
+ {
+  "questionId": "boss-a14-m5-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Zar olasılıkları",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "kolay",
+  "group": "m5",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Bir zar atılıyor. Olayları olasılıklarıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Çift sayı gelmesi",
+     "1/2"
+    ],
+    [
+     "5 gelmesi",
+     "1/6"
+    ],
+    [
+     "3’ün katı gelmesi",
+     "1/3"
+    ]
+   ]
+  },
+  "textPlain": "Bir zar atılıyor. Olayları olasılıklarıyla eşleştir. Sol: Çift sayı gelmesi; 5 gelmesi; 3’ün katı gelmesi. Sağ: 1/2; 1/6; 1/3.",
+  "correctAnswer": "Çift sayı gelmesi = 1/2; 5 gelmesi = 1/6; 3’ün katı gelmesi = 1/3",
+  "explanation": "Çift: 2, 4, 6 (3/6 = 1/2). 5: 1/6. 3’ün katı: 3, 6 (2/6 = 1/3)."
+ },
+ {
+  "questionId": "boss-a14-m5-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Öğrenci seçme",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bir sınıfta 12 kız ve 18 erkek öğrenci vardır. Rastgele seçilen bir öğrencinin kız olma olasılığı nedir?",
+  "data": {
+   "options": [
+    "{2/5}",
+    "{3/5}",
+    "{2/3}"
+   ]
+  },
+  "textPlain": "Bir sınıfta 12 kız ve 18 erkek öğrenci vardır. Rastgele seçilen bir öğrencinin kız olma olasılığı nedir? Seçenekler: {2/5} / {3/5} / {2/3}",
+  "correctAnswer": "{2/5}",
+  "explanation": "12/30 = 2/5."
+ },
+ {
+  "questionId": "boss-a14-m5-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Kartlar",
+  "outcome": "Bir olaya ait olası durumları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "1’den 20’ye kadar numaralanmış kartlardan biri çekiliyor. Çekilen kartın 3’ün katı olmasına ait kaç olası durum vardır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "1’den 20’ye kadar numaralanmış kartlardan biri çekiliyor. Çekilen kartın 3’ün katı olmasına ait kaç olası durum vardır?",
+  "correctAnswer": "6",
+  "explanation": "3, 6, 9, 12, 15, 18 → 6 durum."
+ },
+ {
+  "questionId": "boss-a14-m5-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Eşit olasılık",
+  "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir torbada 5 kırmızı ve 5 mavi top varsa kırmızı ve mavi top çekme olasılıkları eşittir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir torbada 5 kırmızı ve 5 mavi top varsa kırmızı ve mavi top çekme olasılıkları eşittir.",
+  "correctAnswer": "Doğru",
+  "explanation": "İki rengin de olasılığı 5/10 = 1/2’dir."
+ },
+ {
+  "questionId": "boss-a14-m5-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Eşit şans",
+  "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisinde olası durumlar eşit şansa sahiptir?",
+  "data": {
+   "options": [
+    "Hilesiz bir paranın yazı ya da tura gelmesi",
+    "3 kırmızı ve 1 mavi topun bulunduğu torbadan renk çekmek",
+    "Dilimleri farklı büyüklükteki bir çarkın renkleri"
+   ]
+  },
+  "textPlain": "Hangisinde olası durumlar eşit şansa sahiptir? Seçenekler: Hilesiz bir paranın yazı ya da tura gelmesi / 3 kırmızı ve 1 mavi topun bulunduğu torbadan renk çekmek / Dilimleri farklı büyüklükteki bir çarkın renkleri",
+  "correctAnswer": "Hilesiz bir paranın yazı ya da tura gelmesi",
+  "explanation": "Hilesiz parada yazı ve turanın olasılığı eşittir (1/2)."
+ },
+ {
+  "questionId": "boss-a14-m5-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Olasılık sırası",
+  "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Torbadan çekilen topun rengine göre olasılıkları KÜÇÜKTEN BÜYÜĞE sırala.",
+  "data": {
+   "items": [
+    "Yeşil",
+    "Mavi",
+    "Kırmızı"
+   ],
+   "fig": {
+    "k": "bag",
+    "c": [
+     [
+      "#e2425c",
+      5
+     ],
+     [
+      "#2f6fe0",
+      3
+     ],
+     [
+      "#1fa37a",
+      2
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Torba: 5 kırmızı, 3 mavi, 2 yeşil top] Torbadan çekilen topun rengine göre olasılıkları KÜÇÜKTEN BÜYÜĞE sırala. Kartlar: Mavi; Kırmızı; Yeşil.",
+  "correctAnswer": "Yeşil → Mavi → Kırmızı",
+  "explanation": "Torbada 2 yeşil, 3 mavi, 5 kırmızı top vardır: 2/10 < 3/10 < 5/10."
+ },
+ {
+  "questionId": "boss-a14-m5-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Top ekleme",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Torbada 4 kırmızı top vardır. Kırmızı top çekme olasılığının 1/3 olması için torbaya kaç mavi top eklenmelidir?",
+  "data": {
+   "answer": 8,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Torbada 4 kırmızı top vardır. Kırmızı top çekme olasılığının 1/3 olması için torbaya kaç mavi top eklenmelidir?",
+  "correctAnswer": "8",
+  "explanation": "4 / (4 + x) = 1/3 → 12 = 4 + x → x = 8."
+ },
+ {
+  "questionId": "boss-a14-m5-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Sekiz dilimli çark",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "orta",
+  "group": "m5",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Çark çevrildiğinde yeşil gelme olasılığı nedir?",
+  "data": {
+   "options": [
+    "{1/4}",
+    "{1/8}",
+    "{3/8}"
+   ],
+   "fig": {
+    "k": "spin",
+    "s": [
+     [
+      "#ffcf3f",
+      "Sarı"
+     ],
+     [
+      "#1fa37a",
+      "Yeşil"
+     ],
+     [
+      "#9b59d0",
+      "Mor"
+     ],
+     [
+      "#ffcf3f",
+      "Sarı"
+     ],
+     [
+      "#9b59d0",
+      "Mor"
+     ],
+     [
+      "#1fa37a",
+      "Yeşil"
+     ],
+     [
+      "#ffcf3f",
+      "Sarı"
+     ],
+     [
+      "#9b59d0",
+      "Mor"
+     ]
+    ]
+   }
+  },
+  "textPlain": "[Çark: 8 eş dilim; 3 sarı, 2 yeşil, 3 mor] Çark çevrildiğinde yeşil gelme olasılığı nedir? Seçenekler: {1/4} / {1/8} / {3/8}",
+  "correctAnswer": "{1/4}",
+  "explanation": "8 eş dilimin 2’si yeşildir: 2/8 = 1/4."
+ },
+ {
+  "questionId": "boss-a14-m5-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Kırmızı ekleme",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Torbada 3 kırmızı ve 5 mavi top vardır. Kırmızı top çekme olasılığının 1/2 olması için torbaya kaç kırmızı top eklenmelidir?",
+  "data": {
+   "answer": 2,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Torbada 3 kırmızı ve 5 mavi top vardır. Kırmızı top çekme olasılığının 1/2 olması için torbaya kaç kırmızı top eklenmelidir?",
+  "correctAnswer": "2",
+  "explanation": "(3 + x) / (8 + x) = 1/2 → 6 + 2x = 8 + x → x = 2."
+ },
+ {
+  "questionId": "boss-a14-m5-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Top eklenince",
+  "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Torbada 6 sarı ve 4 yeşil top vardır. Torbaya 2 yeşil top eklenirse hangisi olur?",
+  "data": {
+   "options": [
+    "Sarı ve yeşil top çekme olasılıkları eşit olur.",
+    "Yeşil top çekme olasılığı sarıdan fazla olur.",
+    "Sarı top çekme olasılığı eklenen toplardan etkilenmez, aynı kalır."
+   ]
+  },
+  "textPlain": "Torbada 6 sarı ve 4 yeşil top vardır. Torbaya 2 yeşil top eklenirse hangisi olur? Seçenekler: Sarı ve yeşil top çekme olasılıkları eşit olur. / Yeşil top çekme olasılığı sarıdan fazla olur. / Sarı top çekme olasılığı eklenen toplardan etkilenmez, aynı kalır.",
+  "correctAnswer": "Sarı ve yeşil top çekme olasılıkları eşit olur.",
+  "explanation": "Yeni durumda 6 sarı, 6 yeşil vardır: ikisi de 6/12. Sarının olasılığı 6/10’dan 6/12’ye düşer."
+ },
+ {
+  "questionId": "boss-a14-m5-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "0–1 aralığı",
+  "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Olasılığı 0 olan olay imkânsız, 1 olan olay kesin olaydır; diğer olayların olasılığı 0 ile 1 arasındadır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Olasılığı 0 olan olay imkânsız, 1 olan olay kesin olaydır; diğer olayların olasılığı 0 ile 1 arasındadır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Olasılık değerleri 0 ≤ P ≤ 1 aralığındadır."
+ },
+ {
+  "questionId": "boss-a14-m5-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Çark tasarımı",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "6 eş dilimli bir çarkta kırmızı gelme olasılığının 1/3 olması için kaç dilim kırmızıya boyanmalıdır?",
+  "data": {
+   "options": [
+    "2",
+    "3",
+    "1"
+   ]
+  },
+  "textPlain": "6 eş dilimli bir çarkta kırmızı gelme olasılığının 1/3 olması için kaç dilim kırmızıya boyanmalıdır? Seçenekler: 2 / 3 / 1",
+  "correctAnswer": "2",
+  "explanation": "6 · 1/3 = 2 dilim."
+ },
+ {
+  "questionId": "boss-a14-m5-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Yeşil olmayan",
+  "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir torbada 2 kırmızı, 3 mavi ve 5 yeşil top vardır. Yeşil olmayan bir top çekme olasılığı a/10 ise a kaçtır?",
+  "data": {
+   "answer": 5,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Bir torbada 2 kırmızı, 3 mavi ve 5 yeşil top vardır. Yeşil olmayan bir top çekme olasılığı a/10 ise a kaçtır?",
+  "correctAnswer": "5",
+  "explanation": "Yeşil olmayan 2 + 3 = 5 top vardır: 5/10."
+ },
+ {
+  "questionId": "boss-a14-m5-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+  "topic": "Yarıdan büyük mü",
+  "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+  "difficulty": "zor",
+  "group": "m5",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Bir zar atılıyor. Olayları olasılıklarına göre ayır.",
+  "data": {
+   "bins": [
+    "1/2’den büyük",
+    "1/2’den büyük değil"
+   ],
+   "items": [
+    [
+     "3’ten büyük gelmesi",
+     1
+    ],
+    [
+     "2’den büyük gelmesi",
+     0
+    ],
+    [
+     "Asal sayı gelmesi",
+     1
+    ],
+    [
+     "6’dan küçük gelmesi",
+     0
+    ],
+    [
+     "5 gelmesi",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Bir zar atılıyor. Olayları olasılıklarına göre ayır. (1/2’den büyük / 1/2’den büyük değil) Kartlar: 3’ten büyük gelmesi; 2’den büyük gelmesi; Asal sayı gelmesi; 6’dan küçük gelmesi; 5 gelmesi.",
+  "correctAnswer": "1/2’den büyük: 2’den büyük gelmesi, 6’dan küçük gelmesi. 1/2’den büyük değil: 3’ten büyük gelmesi, Asal sayı gelmesi, 5 gelmesi.",
+  "explanation": "3’ten büyük: 3/6; 2’den büyük: 4/6; asal (2, 3, 5): 3/6; 6’dan küçük: 5/6; 5 gelmesi: 1/6."
+ },
+ {
+  "questionId": "boss-a14-m6-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Benzer terimler",
+  "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "3x + 5x ifadesinin en sade biçimi hangisidir?",
+  "data": {
+   "options": [
+    "8x",
+    "8x²",
+    "15x"
+   ]
+  },
+  "textPlain": "3x + 5x ifadesinin en sade biçimi hangisidir? Seçenekler: 8x / 8x² / 15x",
+  "correctAnswer": "8x",
+  "explanation": "Benzer terimlerin katsayıları toplanır: (3 + 5)x = 8x."
+ },
+ {
+  "questionId": "boss-a14-m6-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Değer hesaplama",
+  "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "num",
+  "prompt": "x = 4 için 2x + 3 ifadesinin değeri kaçtır?",
+  "data": {
+   "answer": 11,
+   "digits": 2,
+   "unit": ""
+  },
+  "textPlain": "x = 4 için 2x + 3 ifadesinin değeri kaçtır?",
+  "correctAnswer": "11",
+  "explanation": "2 · 4 + 3 = 11."
+ },
+ {
+  "questionId": "boss-a14-m6-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Benzer mi",
+  "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "4a ve 4a² benzer terimlerdir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? 4a ve 4a² benzer terimlerdir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Benzer terimlerde değişkenler ve üsleri aynı olmalıdır; a ile a² farklıdır."
+ },
+ {
+  "questionId": "boss-a14-m6-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Dağılma",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "2(x + 3) ifadesi hangisine eşittir?",
+  "data": {
+   "options": [
+    "2x + 6",
+    "2x + 3",
+    "x + 6"
+   ]
+  },
+  "textPlain": "2(x + 3) ifadesi hangisine eşittir? Seçenekler: 2x + 6 / 2x + 3 / x + 6",
+  "correctAnswer": "2x + 6",
+  "explanation": "2 · x + 2 · 3 = 2x + 6."
+ },
+ {
+  "questionId": "boss-a14-m6-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "5x ile benzer",
+  "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Terimleri 5x ile benzer olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "5x ile benzer",
+    "Benzer değil"
+   ],
+   "items": [
+    [
+     "−2x",
+     0
+    ],
+    [
+     "5x²",
+     1
+    ],
+    [
+     "x",
+     0
+    ],
+    [
+     "5y",
+     1
+    ],
+    [
+     "7x",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Terimleri 5x ile benzer olanlar ve olmayanlar diye ayır. (5x ile benzer / Benzer değil) Kartlar: −2x; 5x²; x; 5y; 7x.",
+  "correctAnswer": "5x ile benzer: −2x, x, 7x. Benzer değil: 5x², 5y.",
+  "explanation": "x’in birinci kuvvetini taşıyan terimler 5x ile benzerdir."
+ },
+ {
+  "questionId": "boss-a14-m6-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Tam kare",
+  "outcome": "Özdeşlikleri modellerle açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "(a + b)² ifadesinin açılımı hangisidir?",
+  "data": {
+   "options": [
+    "a² + 2ab + b²",
+    "a² + b²",
+    "a² + 2ab + 2b²"
+   ]
+  },
+  "textPlain": "(a + b)² ifadesinin açılımı hangisidir? Seçenekler: a² + 2ab + b² / a² + b² / a² + 2ab + 2b²",
+  "correctAnswer": "a² + 2ab + b²",
+  "explanation": "(a + b)² = (a + b)(a + b) = a² + 2ab + b²."
+ },
+ {
+  "questionId": "boss-a14-m6-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Çarpımlar",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "kolay",
+  "group": "m6",
+  "rank": 1,
+  "type": "match",
+  "prompt": "İfadeleri eşitleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "3(x + 2)",
+     "3x + 6"
+    ],
+    [
+     "x(x + 1)",
+     "x² + x"
+    ],
+    [
+     "2(x − 4)",
+     "2x − 8"
+    ]
+   ]
+  },
+  "textPlain": "İfadeleri eşitleriyle eşleştir. Sol: 3(x + 2); x(x + 1); 2(x − 4). Sağ: 3x + 6; x² + x; 2x − 8.",
+  "correctAnswer": "3(x + 2) = 3x + 6; x(x + 1) = x² + x; 2(x − 4) = 2x − 8",
+  "explanation": "Parantezin önündeki terim içerideki her terimle çarpılır."
+ },
+ {
+  "questionId": "boss-a14-m6-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "İki terimli çarpım",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "(x + 2)(x + 3) ifadesi hangisine eşittir?",
+  "data": {
+   "options": [
+    "x² + 5x + 6",
+    "x² + 6x + 5",
+    "x² + 6"
+   ]
+  },
+  "textPlain": "(x + 2)(x + 3) ifadesi hangisine eşittir? Seçenekler: x² + 5x + 6 / x² + 6x + 5 / x² + 6",
+  "correctAnswer": "x² + 5x + 6",
+  "explanation": "x² + 3x + 2x + 6 = x² + 5x + 6."
+ },
+ {
+  "questionId": "boss-a14-m6-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Zihinden kare",
+  "outcome": "Özdeşlikleri modellerle açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "101² sayısının değeri kaçtır? (İpucu: (100 + 1)²)",
+  "data": {
+   "answer": 10201,
+   "digits": 5,
+   "unit": ""
+  },
+  "textPlain": "101² sayısının değeri kaçtır? (İpucu: (100 + 1)²)",
+  "correctAnswer": "10201",
+  "explanation": "(100 + 1)² = 10000 + 200 + 1 = 10201."
+ },
+ {
+  "questionId": "boss-a14-m6-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "İki kare farkı",
+  "outcome": "Özdeşlikleri modellerle açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "(x − 5)(x + 5) ifadesi hangisine eşittir?",
+  "data": {
+   "options": [
+    "x² − 25",
+    "x² + 25",
+    "x² − 10x + 25"
+   ]
+  },
+  "textPlain": "(x − 5)(x + 5) ifadesi hangisine eşittir? Seçenekler: x² − 25 / x² + 25 / x² − 10x + 25",
+  "correctAnswer": "x² − 25",
+  "explanation": "(a − b)(a + b) = a² − b² özdeşliği: x² − 25."
+ },
+ {
+  "questionId": "boss-a14-m6-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Yanılgı",
+  "outcome": "Özdeşlikleri modellerle açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "(a − b)² = a² − b²’dir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? (a − b)² = a² − b²’dir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "(a − b)² = a² − 2ab + b²’dir."
+ },
+ {
+  "questionId": "boss-a14-m6-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Çevre",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Kenarları (x + 3) cm ve 2x cm olan bir dikdörtgenin çevresi hangisidir?",
+  "data": {
+   "options": [
+    "6x + 6",
+    "2x² + 6x",
+    "3x + 3"
+   ]
+  },
+  "textPlain": "Kenarları (x + 3) cm ve 2x cm olan bir dikdörtgenin çevresi hangisidir? Seçenekler: 6x + 6 / 2x² + 6x / 3x + 3",
+  "correctAnswer": "6x + 6",
+  "explanation": "Çevre = 2 · (x + 3 + 2x) = 2 · (3x + 3) = 6x + 6."
+ },
+ {
+  "questionId": "boss-a14-m6-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Çarpanlara ayırma",
+  "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "x² − 9 ifadesinin çarpanlarına ayrılmış biçimi hangisidir?",
+  "data": {
+   "options": [
+    "(x − 3)(x + 3)",
+    "(x − 3)²",
+    "(x − 9)(x + 1)"
+   ]
+  },
+  "textPlain": "x² − 9 ifadesinin çarpanlarına ayrılmış biçimi hangisidir? Seçenekler: (x − 3)(x + 3) / (x − 3)² / (x − 9)(x + 1)",
+  "correctAnswer": "(x − 3)(x + 3)",
+  "explanation": "İki kare farkı: x² − 3² = (x − 3)(x + 3)."
+ },
+ {
+  "questionId": "boss-a14-m6-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Ortak çarpan",
+  "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "orta",
+  "group": "m6",
+  "rank": 2,
+  "type": "num",
+  "prompt": "6x + 9 = 3(2x + a) ise a kaçtır?",
+  "data": {
+   "answer": 3,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "6x + 9 = 3(2x + a) ise a kaçtır?",
+  "correctAnswer": "3",
+  "explanation": "Ortak çarpan 3 parantezine alınırsa 3(2x + 3) olur."
+ },
+ {
+  "questionId": "boss-a14-m6-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Karenin alanı",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bir kenarı (x + 4) cm olan karenin alanı hangisidir?",
+  "data": {
+   "options": [
+    "x² + 8x + 16",
+    "x² + 16",
+    "x² + 4x + 16"
+   ]
+  },
+  "textPlain": "Bir kenarı (x + 4) cm olan karenin alanı hangisidir? Seçenekler: x² + 8x + 16 / x² + 16 / x² + 4x + 16",
+  "correctAnswer": "x² + 8x + 16",
+  "explanation": "(x + 4)² = x² + 8x + 16."
+ },
+ {
+  "questionId": "boss-a14-m6-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Zihinden fark",
+  "outcome": "Özdeşlikleri modellerle açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "52² − 48² işleminin sonucu kaçtır?",
+  "data": {
+   "answer": 400,
+   "digits": 3,
+   "unit": ""
+  },
+  "textPlain": "52² − 48² işleminin sonucu kaçtır?",
+  "correctAnswer": "400",
+  "explanation": "a² − b² = (a − b)(a + b) = 4 · 100 = 400."
+ },
+ {
+  "questionId": "boss-a14-m6-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Tam kare ayırma",
+  "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "x² + 6x + 9 ifadesinin çarpanlarına ayrılmış biçimi hangisidir?",
+  "data": {
+   "options": [
+    "(x + 3)²",
+    "(x + 9)(x + 1)",
+    "(x − 3)²"
+   ]
+  },
+  "textPlain": "x² + 6x + 9 ifadesinin çarpanlarına ayrılmış biçimi hangisidir? Seçenekler: (x + 3)² / (x + 9)(x + 1) / (x − 3)²",
+  "correctAnswer": "(x + 3)²",
+  "explanation": "x² + 2 · 3 · x + 3² = (x + 3)²."
+ },
+ {
+  "questionId": "boss-a14-m6-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Çarpım",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "(2x + 1)(x − 3) = 2x² − 5x − 3’tür.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? (2x + 1)(x − 3) = 2x² − 5x − 3’tür.",
+  "correctAnswer": "Doğru",
+  "explanation": "2x² − 6x + x − 3 = 2x² − 5x − 3."
+ },
+ {
+  "questionId": "boss-a14-m6-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "Dikdörtgen alanı",
+  "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kenarları (x + 2) cm ve (x − 2) cm olan bir dikdörtgenin alanı x² − a ise a kaçtır?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Kenarları (x + 2) cm ve (x − 2) cm olan bir dikdörtgenin alanı x² − a ise a kaçtır?",
+  "correctAnswer": "4",
+  "explanation": "(x + 2)(x − 2) = x² − 4."
+ },
+ {
+  "questionId": "boss-a14-m6-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+  "topic": "(x + 2) çarpanı",
+  "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+  "difficulty": "zor",
+  "group": "m6",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "İfadeleri (x + 2) çarpanını taşıyanlar ve taşımayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "(x + 2) çarpanı var",
+    "(x + 2) çarpanı yok"
+   ],
+   "items": [
+    [
+     "x² − 4",
+     0
+    ],
+    [
+     "x² + 4x + 4",
+     0
+    ],
+    [
+     "x² + 2x",
+     0
+    ],
+    [
+     "x² − 4x + 4",
+     1
+    ],
+    [
+     "x² + 4",
+     1
+    ]
+   ]
+  },
+  "textPlain": "İfadeleri (x + 2) çarpanını taşıyanlar ve taşımayanlar diye ayır. ((x + 2) çarpanı var / (x + 2) çarpanı yok) Kartlar: x² − 4; x² + 4x + 4; x² + 2x; x² − 4x + 4; x² + 4.",
+  "correctAnswer": "(x + 2) çarpanı var: x² − 4, x² + 4x + 4, x² + 2x. (x + 2) çarpanı yok: x² − 4x + 4, x² + 4.",
+  "explanation": "x² − 4 = (x − 2)(x + 2); x² + 4x + 4 = (x + 2)²; x² + 2x = x(x + 2). x² − 4x + 4 = (x − 2)²; x² + 4 çarpanlarına ayrılmaz."
+ },
+ {
+  "questionId": "boss-a14-t3-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Ana düşünce",
+  "outcome": "Metnin ana fikrini/ana duygusunu belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bu paragrafın ana düşüncesi hangisidir?",
+  "data": {
+   "options": [
+    "Okumak, insanın başkalarını anlama yeteneğini geliştirir.",
+    "Kitaplar pahalı olduğu için kütüphaneler önemlidir.",
+    "Çocuklar her gün okuldan sonra en az bir saat kitap okumalıdır."
+   ],
+   "passage": "Kitap okumak yalnızca bilgi edinmek demek değildir. Okuyan kişi farklı hayatlara konuk olur, başka insanların duygularını anlamayı öğrenir. Bu yüzden düzenli okuyan çocuklar çevrelerindeki insanlara karşı daha anlayışlı olur. Okumak, insanın kalbini de büyüten bir alışkanlıktır."
+  },
+  "textPlain": "Metin: Kitap okumak yalnızca bilgi edinmek demek değildir. Okuyan kişi farklı hayatlara konuk olur, başka insanların duygularını anlamayı öğrenir. Bu yüzden düzenli okuyan çocuklar çevrelerindeki insanlara karşı daha anlayışlı olur. Okumak, insanın kalbini de büyüten bir alışkanlıktır. Soru: Bu paragrafın ana düşüncesi hangisidir? Seçenekler: Okumak, insanın başkalarını anlama yeteneğini geliştirir. / Kitaplar pahalı olduğu için kütüphaneler önemlidir. / Çocuklar her gün okuldan sonra en az bir saat kitap okumalıdır.",
+  "correctAnswer": "Okumak, insanın başkalarını anlama yeteneğini geliştirir.",
+  "explanation": "Paragraf, okumanın insanı başkalarına karşı daha anlayışlı yaptığını vurgular."
+ },
+ {
+  "questionId": "boss-a14-t3-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Konu",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bu paragrafın konusu hangisidir?",
+  "data": {
+   "options": [
+    "Arıların tozlaşmadaki önemi",
+    "Bal üretiminin aşamaları",
+    "Sebze yetiştirme yöntemleri"
+   ],
+   "passage": "Arılar yalnızca bal üretmez. Çiçekten çiçeğe konarak bitkilerin tozlaşmasını sağlarlar. Meyve ve sebzelerin önemli bir kısmı bu tozlaşma sayesinde oluşur. Arıların azalması, sofralarımızdaki pek çok yiyeceğin de azalması demektir."
+  },
+  "textPlain": "Metin: Arılar yalnızca bal üretmez. Çiçekten çiçeğe konarak bitkilerin tozlaşmasını sağlarlar. Meyve ve sebzelerin önemli bir kısmı bu tozlaşma sayesinde oluşur. Arıların azalması, sofralarımızdaki pek çok yiyeceğin de azalması demektir. Soru: Bu paragrafın konusu hangisidir? Seçenekler: Arıların tozlaşmadaki önemi / Bal üretiminin aşamaları / Sebze yetiştirme yöntemleri",
+  "correctAnswer": "Arıların tozlaşmadaki önemi",
+  "explanation": "Paragrafta arıların bitkilerin tozlaşmasındaki rolü anlatılmaktadır."
+ },
+ {
+  "questionId": "boss-a14-t3-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Ana düşünce",
+  "outcome": "Metnin ana fikrini/ana duygusunu belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bu paragrafta asıl anlatılmak istenen hangisidir?",
+  "data": {
+   "options": [
+    "Takım sporlarında başarı birlikte hareket etmeye bağlıdır.",
+    "En yetenekli oyuncu her maçı tek başına kazandırır.",
+    "Pas vermek, şut atmaktan çok daha zor ve öğrenilmesi uzun süren bir beceridir."
+   ],
+   "passage": "Takım sporlarında başarı yalnızca en yetenekli oyuncuya bağlı değildir. Oyuncuların birbirine güvenmesi, pas vermesi ve aynı hedefe odaklanması gerekir. Tek başına parlayan bir oyuncu maçı nadiren kazandırır. Asıl güç, birlikte hareket edebilmektir."
+  },
+  "textPlain": "Metin: Takım sporlarında başarı yalnızca en yetenekli oyuncuya bağlı değildir. Oyuncuların birbirine güvenmesi, pas vermesi ve aynı hedefe odaklanması gerekir. Tek başına parlayan bir oyuncu maçı nadiren kazandırır. Asıl güç, birlikte hareket edebilmektir. Soru: Bu paragrafta asıl anlatılmak istenen hangisidir? Seçenekler: Takım sporlarında başarı birlikte hareket etmeye bağlıdır. / En yetenekli oyuncu her maçı tek başına kazandırır. / Pas vermek, şut atmaktan çok daha zor ve öğrenilmesi uzun süren bir beceridir.",
+  "correctAnswer": "Takım sporlarında başarı birlikte hareket etmeye bağlıdır.",
+  "explanation": "Son cümle ana düşünceyi özetler: Asıl güç birlikte hareket edebilmektir."
+ },
+ {
+  "questionId": "boss-a14-t3-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Konu ve ana düşünce",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Paragrafın konusu, üzerinde durulan genel durumdur; ana düşünce ise yazarın okura vermek istediği temel mesajdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Paragrafın konusu, üzerinde durulan genel durumdur; ana düşünce ise yazarın okura vermek istediği temel mesajdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Konu “neyden söz ediliyor?”, ana düşünce “yazar ne demek istiyor?” sorusunun cevabıdır."
+ },
+ {
+  "questionId": "boss-a14-t3-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Konu mu ana düşünce mi",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Kartları konu ve ana düşünce diye ayır.",
+  "data": {
+   "bins": [
+    "Konu",
+    "Ana düşünce"
+   ],
+   "items": [
+    [
+     "Arıların tozlaşmadaki önemi",
+     0
+    ],
+    [
+     "Arıları korumak, besin kaynaklarımızı korumaktır.",
+     1
+    ],
+    [
+     "Takım sporlarında başarı",
+     0
+    ],
+    [
+     "Başarı için birlikte hareket etmek gerekir.",
+     1
+    ],
+    [
+     "Okumanın insana etkisi",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Kartları konu ve ana düşünce diye ayır. (Konu / Ana düşünce) Kartlar: Arıların tozlaşmadaki önemi; Arıları korumak, besin kaynaklarımızı korumaktır.; Takım sporlarında başarı; Başarı için birlikte hareket etmek gerekir.; Okumanın insana etkisi.",
+  "correctAnswer": "Konu: Arıların tozlaşmadaki önemi, Takım sporlarında başarı, Okumanın insana etkisi. Ana düşünce: Arıları korumak, besin kaynaklarımızı korumaktır., Başarı için birlikte hareket etmek gerekir..",
+  "explanation": "Konu çoğunlukla bir ad öbeğidir; ana düşünce bir yargı (cümle) biçimindedir."
+ },
+ {
+  "questionId": "boss-a14-t3-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Ana düşünce",
+  "outcome": "Metnin ana fikrini/ana duygusunu belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bu paragrafın ana düşüncesi hangisidir?",
+  "data": {
+   "options": [
+    "Teknoloji bilinçli kullanılmalıdır.",
+    "Telefonlar zararlıdır, hiç kullanılmamalıdır.",
+    "Uzaktaki insanlarla konuşmak gereksizdir."
+   ],
+   "passage": "Telefonlar hayatımızı kolaylaştırdı; artık uzaktaki biriyle saniyeler içinde konuşabiliyoruz. Ancak ekran başında geçen uzun saatler, yanımızdaki insanlarla konuşmayı unutturabiliyor. Teknolojiyi bilinçli kullanmak, onun yararlarından faydalanıp zararlarından korunmanın tek yoludur."
+  },
+  "textPlain": "Metin: Telefonlar hayatımızı kolaylaştırdı; artık uzaktaki biriyle saniyeler içinde konuşabiliyoruz. Ancak ekran başında geçen uzun saatler, yanımızdaki insanlarla konuşmayı unutturabiliyor. Teknolojiyi bilinçli kullanmak, onun yararlarından faydalanıp zararlarından korunmanın tek yoludur. Soru: Bu paragrafın ana düşüncesi hangisidir? Seçenekler: Teknoloji bilinçli kullanılmalıdır. / Telefonlar zararlıdır, hiç kullanılmamalıdır. / Uzaktaki insanlarla konuşmak gereksizdir.",
+  "correctAnswer": "Teknoloji bilinçli kullanılmalıdır.",
+  "explanation": "Yazar teknolojinin yararını da zararını da anlatıp bilinçli kullanımı önerir."
+ },
+ {
+  "questionId": "boss-a14-t3-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Başlık bul",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t3",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Metinleri en uygun başlıkla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Arıların tozlaşma görevini anlatan metin",
+     "Çiçeklerin Gizli Postacıları"
+    ],
+    [
+     "Takım çalışmasını anlatan metin",
+     "Birlikten Doğan Güç"
+    ],
+    [
+     "Okumanın insana etkisini anlatan metin",
+     "Kalbi Büyüten Alışkanlık"
+    ]
+   ]
+  },
+  "textPlain": "Metinleri en uygun başlıkla eşleştir. Sol: Arıların tozlaşma görevini anlatan metin; Takım çalışmasını anlatan metin; Okumanın insana etkisini anlatan metin. Sağ: Çiçeklerin Gizli Postacıları; Birlikten Doğan Güç; Kalbi Büyüten Alışkanlık.",
+  "correctAnswer": "Arıların tozlaşma görevini anlatan metin = Çiçeklerin Gizli Postacıları; Takım çalışmasını anlatan metin = Birlikten Doğan Güç; Okumanın insana etkisini anlatan metin = Kalbi Büyüten Alışkanlık",
+  "explanation": "Başlık, metnin konusunu ya da ana düşüncesini kısa ve dikkat çekici biçimde yansıtır."
+ },
+ {
+  "questionId": "boss-a14-t3-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Başlık",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragrafa en uygun başlık hangisidir?",
+  "data": {
+   "options": [
+    "Kalbi Büyüten Alışkanlık",
+    "Kütüphanede Bir Gün",
+    "Kitapların Kısa Tarihi"
+   ],
+   "passage": "Kitap okumak yalnızca bilgi edinmek demek değildir. Okuyan kişi farklı hayatlara konuk olur, başka insanların duygularını anlamayı öğrenir. Bu yüzden düzenli okuyan çocuklar çevrelerindeki insanlara karşı daha anlayışlı olur. Okumak, insanın kalbini de büyüten bir alışkanlıktır."
+  },
+  "textPlain": "Metin: Kitap okumak yalnızca bilgi edinmek demek değildir. Okuyan kişi farklı hayatlara konuk olur, başka insanların duygularını anlamayı öğrenir. Bu yüzden düzenli okuyan çocuklar çevrelerindeki insanlara karşı daha anlayışlı olur. Okumak, insanın kalbini de büyüten bir alışkanlıktır. Soru: Bu paragrafa en uygun başlık hangisidir? Seçenekler: Kalbi Büyüten Alışkanlık / Kütüphanede Bir Gün / Kitapların Kısa Tarihi",
+  "correctAnswer": "Kalbi Büyüten Alışkanlık",
+  "explanation": "Paragrafın son cümlesindeki düşünce başlığa en uygun olanıdır."
+ },
+ {
+  "questionId": "boss-a14-t3-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Çıkarım",
+  "outcome": "Okuduğu metinle ilgili çıkarımlarda bulunur; yazarın amacını ve bakış açısını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragraftan hangisi çıkarılabilir?",
+  "data": {
+   "options": [
+    "Arıları korumak, besin kaynaklarımızı korumak demektir.",
+    "Arılar yalnızca bal üretmek için vardır.",
+    "Meyve ve sebzelerin hiçbiri oluşmak için tozlaşmaya ihtiyaç duymaz."
+   ],
+   "passage": "Arılar yalnızca bal üretmez. Çiçekten çiçeğe konarak bitkilerin tozlaşmasını sağlarlar. Meyve ve sebzelerin önemli bir kısmı bu tozlaşma sayesinde oluşur. Arıların azalması, sofralarımızdaki pek çok yiyeceğin de azalması demektir."
+  },
+  "textPlain": "Metin: Arılar yalnızca bal üretmez. Çiçekten çiçeğe konarak bitkilerin tozlaşmasını sağlarlar. Meyve ve sebzelerin önemli bir kısmı bu tozlaşma sayesinde oluşur. Arıların azalması, sofralarımızdaki pek çok yiyeceğin de azalması demektir. Soru: Bu paragraftan hangisi çıkarılabilir? Seçenekler: Arıları korumak, besin kaynaklarımızı korumak demektir. / Arılar yalnızca bal üretmek için vardır. / Meyve ve sebzelerin hiçbiri oluşmak için tozlaşmaya ihtiyaç duymaz.",
+  "correctAnswer": "Arıları korumak, besin kaynaklarımızı korumak demektir.",
+  "explanation": "Arıların azalması yiyeceklerin azalması demek olduğuna göre arıları korumak besinlerimizi korumaktır."
+ },
+ {
+  "questionId": "boss-a14-t3-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Anahtar sözcük",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragrafın anahtar sözcüğü hangisidir?",
+  "data": {
+   "options": [
+    "Birlik",
+    "Yetenek",
+    "Şut"
+   ],
+   "passage": "Takım sporlarında başarı yalnızca en yetenekli oyuncuya bağlı değildir. Oyuncuların birbirine güvenmesi, pas vermesi ve aynı hedefe odaklanması gerekir. Tek başına parlayan bir oyuncu maçı nadiren kazandırır. Asıl güç, birlikte hareket edebilmektir."
+  },
+  "textPlain": "Metin: Takım sporlarında başarı yalnızca en yetenekli oyuncuya bağlı değildir. Oyuncuların birbirine güvenmesi, pas vermesi ve aynı hedefe odaklanması gerekir. Tek başına parlayan bir oyuncu maçı nadiren kazandırır. Asıl güç, birlikte hareket edebilmektir. Soru: Bu paragrafın anahtar sözcüğü hangisidir? Seçenekler: Birlik / Yetenek / Şut",
+  "correctAnswer": "Birlik",
+  "explanation": "Paragraf boyunca birlikte hareket etme düşüncesi işlenmiştir."
+ },
+ {
+  "questionId": "boss-a14-t3-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Yazarın tutumu",
+  "outcome": "Okuduğu metinle ilgili çıkarımlarda bulunur; yazarın amacını ve bakış açısını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragrafta yazarın tutumu nasıldır?",
+  "data": {
+   "options": [
+    "Eleştirel ve uyarıcı",
+    "Övgü dolu ve coşkulu",
+    "Kayıtsız ve ilgisiz"
+   ],
+   "passage": "Şehirlerde yeşil alanlar her geçen gün azalıyor. Parkların yerine yeni binalar yapılıyor. Oysa ağaçlar hem havayı temizler hem de insanlara nefes alacak bir alan sunar. Bu gidişe dur demezsek çocuklarımıza betondan başka bir şey bırakamayacağız."
+  },
+  "textPlain": "Metin: Şehirlerde yeşil alanlar her geçen gün azalıyor. Parkların yerine yeni binalar yapılıyor. Oysa ağaçlar hem havayı temizler hem de insanlara nefes alacak bir alan sunar. Bu gidişe dur demezsek çocuklarımıza betondan başka bir şey bırakamayacağız. Soru: Bu paragrafta yazarın tutumu nasıldır? Seçenekler: Eleştirel ve uyarıcı / Övgü dolu ve coşkulu / Kayıtsız ve ilgisiz",
+  "correctAnswer": "Eleştirel ve uyarıcı",
+  "explanation": "Yazar yeşil alanların azalmasını eleştirir ve geleceğe dair uyarıda bulunur."
+ },
+ {
+  "questionId": "boss-a14-t3-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Başlık",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragrafa en uygun başlık hangisidir?",
+  "data": {
+   "options": [
+    "Ekranın İki Yüzü",
+    "Telefonun İcadı",
+    "Uzaktaki Dostlarımız"
+   ],
+   "passage": "Telefonlar hayatımızı kolaylaştırdı; artık uzaktaki biriyle saniyeler içinde konuşabiliyoruz. Ancak ekran başında geçen uzun saatler, yanımızdaki insanlarla konuşmayı unutturabiliyor. Teknolojiyi bilinçli kullanmak, onun yararlarından faydalanıp zararlarından korunmanın tek yoludur."
+  },
+  "textPlain": "Metin: Telefonlar hayatımızı kolaylaştırdı; artık uzaktaki biriyle saniyeler içinde konuşabiliyoruz. Ancak ekran başında geçen uzun saatler, yanımızdaki insanlarla konuşmayı unutturabiliyor. Teknolojiyi bilinçli kullanmak, onun yararlarından faydalanıp zararlarından korunmanın tek yoludur. Soru: Bu paragrafa en uygun başlık hangisidir? Seçenekler: Ekranın İki Yüzü / Telefonun İcadı / Uzaktaki Dostlarımız",
+  "correctAnswer": "Ekranın İki Yüzü",
+  "explanation": "Paragrafta teknolojinin hem yararı hem zararı (iki yüzü) anlatılır."
+ },
+ {
+  "questionId": "boss-a14-t3-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Konu",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragrafın konusu hangisidir?",
+  "data": {
+   "options": [
+    "Peribacalarının doğa tarafından şekillendirilmesi",
+    "Kapadokya’ya ulaşım yolları",
+    "Heykel sanatının tarihi"
+   ],
+   "passage": "Kapadokya’yı gezerken peribacalarının binlerce yılda rüzgâr ve yağmurla şekillendiğini öğrendim. Doğanın sabırla işlediği bu taşlar, insana zamanın gücünü hatırlatıyor. Bir sanatçının eseri gibi duran bu yapılar, aslında doğanın kendi atölyesinde yapılmış heykellerdir."
+  },
+  "textPlain": "Metin: Kapadokya’yı gezerken peribacalarının binlerce yılda rüzgâr ve yağmurla şekillendiğini öğrendim. Doğanın sabırla işlediği bu taşlar, insana zamanın gücünü hatırlatıyor. Bir sanatçının eseri gibi duran bu yapılar, aslında doğanın kendi atölyesinde yapılmış heykellerdir. Soru: Bu paragrafın konusu hangisidir? Seçenekler: Peribacalarının doğa tarafından şekillendirilmesi / Kapadokya’ya ulaşım yolları / Heykel sanatının tarihi",
+  "correctAnswer": "Peribacalarının doğa tarafından şekillendirilmesi",
+  "explanation": "Paragrafta peribacalarının rüzgâr ve yağmurla oluşumu anlatılır."
+ },
+ {
+  "questionId": "boss-a14-t3-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Başlık",
+  "outcome": "Metnin konusunu belirler; metne uygun başlık belirler; anahtar kavramları belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t3",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir paragrafın başlığı, ana düşünceyi ya da konuyu kısa ve dikkat çekici biçimde yansıtmalıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir paragrafın başlığı, ana düşünceyi ya da konuyu kısa ve dikkat çekici biçimde yansıtmalıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Başlık metnin içeriğiyle uyumlu, kısa ve ilgi çekici olmalıdır."
+ },
+ {
+  "questionId": "boss-a14-t3-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Yazarın amacı",
+  "outcome": "Okuduğu metinle ilgili çıkarımlarda bulunur; yazarın amacını ve bakış açısını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yazarın bu paragrafı yazma amacı hangisidir?",
+  "data": {
+   "options": [
+    "Yeşil alanların korunması gerektiğine dikkat çekmek",
+    "Yeni binaların güzelliğini anlatmak",
+    "Şehirlerde yetişen ağaç türlerini ve özelliklerini okura tanıtmak"
+   ],
+   "passage": "Şehirlerde yeşil alanlar her geçen gün azalıyor. Parkların yerine yeni binalar yapılıyor. Oysa ağaçlar hem havayı temizler hem de insanlara nefes alacak bir alan sunar. Bu gidişe dur demezsek çocuklarımıza betondan başka bir şey bırakamayacağız."
+  },
+  "textPlain": "Metin: Şehirlerde yeşil alanlar her geçen gün azalıyor. Parkların yerine yeni binalar yapılıyor. Oysa ağaçlar hem havayı temizler hem de insanlara nefes alacak bir alan sunar. Bu gidişe dur demezsek çocuklarımıza betondan başka bir şey bırakamayacağız. Soru: Yazarın bu paragrafı yazma amacı hangisidir? Seçenekler: Yeşil alanların korunması gerektiğine dikkat çekmek / Yeni binaların güzelliğini anlatmak / Şehirlerde yetişen ağaç türlerini ve özelliklerini okura tanıtmak",
+  "correctAnswer": "Yeşil alanların korunması gerektiğine dikkat çekmek",
+  "explanation": "Yazar yeşil alanların azalmasını eleştirerek korunmaları gerektiğini vurgular."
+ },
+ {
+  "questionId": "boss-a14-t3-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Değinilmeyen",
+  "outcome": "Okuduğu metinle ilgili çıkarımlarda bulunur; yazarın amacını ve bakış açısını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bu paragrafta hangisine değinilmemiştir?",
+  "data": {
+   "options": [
+    "Telefonların fiyatlarına",
+    "Telefonların iletişimi hızlandırmasına",
+    "Ekran başında geçen sürenin etkilerine"
+   ],
+   "passage": "Telefonlar hayatımızı kolaylaştırdı; artık uzaktaki biriyle saniyeler içinde konuşabiliyoruz. Ancak ekran başında geçen uzun saatler, yanımızdaki insanlarla konuşmayı unutturabiliyor. Teknolojiyi bilinçli kullanmak, onun yararlarından faydalanıp zararlarından korunmanın tek yoludur."
+  },
+  "textPlain": "Metin: Telefonlar hayatımızı kolaylaştırdı; artık uzaktaki biriyle saniyeler içinde konuşabiliyoruz. Ancak ekran başında geçen uzun saatler, yanımızdaki insanlarla konuşmayı unutturabiliyor. Teknolojiyi bilinçli kullanmak, onun yararlarından faydalanıp zararlarından korunmanın tek yoludur. Soru: Bu paragrafta hangisine değinilmemiştir? Seçenekler: Telefonların fiyatlarına / Telefonların iletişimi hızlandırmasına / Ekran başında geçen sürenin etkilerine",
+  "correctAnswer": "Telefonların fiyatlarına",
+  "explanation": "Paragrafta telefon fiyatlarından söz edilmez."
+ },
+ {
+  "questionId": "boss-a14-t3-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Ana düşünce",
+  "outcome": "Metnin ana fikrini/ana duygusunu belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bu paragrafın ana düşüncesi hangisidir?",
+  "data": {
+   "options": [
+    "Doğa, zamanla eşsiz eserler ortaya çıkarır.",
+    "Kapadokya’ya mutlaka sonbaharda gidilmelidir.",
+    "Heykelleri yalnızca sanatçılar yapabilir."
+   ],
+   "passage": "Kapadokya’yı gezerken peribacalarının binlerce yılda rüzgâr ve yağmurla şekillendiğini öğrendim. Doğanın sabırla işlediği bu taşlar, insana zamanın gücünü hatırlatıyor. Bir sanatçının eseri gibi duran bu yapılar, aslında doğanın kendi atölyesinde yapılmış heykellerdir."
+  },
+  "textPlain": "Metin: Kapadokya’yı gezerken peribacalarının binlerce yılda rüzgâr ve yağmurla şekillendiğini öğrendim. Doğanın sabırla işlediği bu taşlar, insana zamanın gücünü hatırlatıyor. Bir sanatçının eseri gibi duran bu yapılar, aslında doğanın kendi atölyesinde yapılmış heykellerdir. Soru: Bu paragrafın ana düşüncesi hangisidir? Seçenekler: Doğa, zamanla eşsiz eserler ortaya çıkarır. / Kapadokya’ya mutlaka sonbaharda gidilmelidir. / Heykelleri yalnızca sanatçılar yapabilir.",
+  "correctAnswer": "Doğa, zamanla eşsiz eserler ortaya çıkarır.",
+  "explanation": "Yazar peribacalarını doğanın sabırla işlediği heykellere benzetir."
+ },
+ {
+  "questionId": "boss-a14-t3-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Ana düşünce",
+  "outcome": "Metnin ana fikrini/ana duygusunu belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bu paragrafın ana düşüncesi hangisidir?",
+  "data": {
+   "options": [
+    "Başarının temelinde emek ve kararlılık vardır.",
+    "Başarı tamamen şansa bağlıdır.",
+    "Başarılı insanların hiçbiri hayatında bir kez bile başarısız olmamıştır."
+   ],
+   "passage": "Bazı insanlar başarıyı şansa bağlar. Oysa başarılı insanların hayatına bakıldığında düzenli çalışmanın ve vazgeçmemenin her zaman ön planda olduğu görülür. Şans bir kapıyı aralayabilir ama o kapıdan geçmek emek ister."
+  },
+  "textPlain": "Metin: Bazı insanlar başarıyı şansa bağlar. Oysa başarılı insanların hayatına bakıldığında düzenli çalışmanın ve vazgeçmemenin her zaman ön planda olduğu görülür. Şans bir kapıyı aralayabilir ama o kapıdan geçmek emek ister. Soru: Bu paragrafın ana düşüncesi hangisidir? Seçenekler: Başarının temelinde emek ve kararlılık vardır. / Başarı tamamen şansa bağlıdır. / Başarılı insanların hiçbiri hayatında bir kez bile başarısız olmamıştır.",
+  "correctAnswer": "Başarının temelinde emek ve kararlılık vardır.",
+  "explanation": "Son cümle ana düşünceyi verir: Kapıdan geçmek emek ister."
+ },
+ {
+  "questionId": "boss-a14-t3-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Karşı çıkılan görüş",
+  "outcome": "Okuduğu metinle ilgili çıkarımlarda bulunur; yazarın amacını ve bakış açısını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yazar hangi düşünceye karşı çıkmaktadır?",
+  "data": {
+   "options": [
+    "Başarının yalnızca şansa bağlı olduğu düşüncesine",
+    "Düzenli çalışmanın önemli olduğu düşüncesine",
+    "Bir işte başarılı olmak için emek vermenin gerekli olduğu düşüncesine"
+   ],
+   "passage": "Bazı insanlar başarıyı şansa bağlar. Oysa başarılı insanların hayatına bakıldığında düzenli çalışmanın ve vazgeçmemenin her zaman ön planda olduğu görülür. Şans bir kapıyı aralayabilir ama o kapıdan geçmek emek ister."
+  },
+  "textPlain": "Metin: Bazı insanlar başarıyı şansa bağlar. Oysa başarılı insanların hayatına bakıldığında düzenli çalışmanın ve vazgeçmemenin her zaman ön planda olduğu görülür. Şans bir kapıyı aralayabilir ama o kapıdan geçmek emek ister. Soru: Yazar hangi düşünceye karşı çıkmaktadır? Seçenekler: Başarının yalnızca şansa bağlı olduğu düşüncesine / Düzenli çalışmanın önemli olduğu düşüncesine / Bir işte başarılı olmak için emek vermenin gerekli olduğu düşüncesine",
+  "correctAnswer": "Başarının yalnızca şansa bağlı olduğu düşüncesine",
+  "explanation": "“Bazı insanlar başarıyı şansa bağlar. Oysa…” ifadesiyle yazar bu görüşe karşı çıkar."
+ },
+ {
+  "questionId": "boss-a14-t3-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf I: Konu, Ana Düşünce, Başlık",
+  "topic": "Ana düşüncenin yeri",
+  "outcome": "Metnin ana fikrini/ana duygusunu belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t3",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Ana düşünce her zaman paragrafın ilk cümlesinde bulunur.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Ana düşünce her zaman paragrafın ilk cümlesinde bulunur.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Ana düşünce paragrafın başında, ortasında ya da sonunda olabilir; bazen hiçbir cümlede açıkça yazmaz."
+ },
+ {
+  "questionId": "boss-a14-t4-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Cümle sıralaması",
+  "outcome": "Paragrafı oluşturan cümleleri anlamlı bir bütün olacak şekilde sıralar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "order",
+  "prompt": "Cümleleri olay sırasına göre diz.",
+  "data": {
+   "items": [
+    "Sabah erkenden kalktım.",
+    "Kahvaltımı yapıp çantamı hazırladım.",
+    "Otobüs durağına yürüdüm.",
+    "Otobüse binip okula gittim."
+   ]
+  },
+  "textPlain": "Cümleleri olay sırasına göre diz. Kartlar: Otobüse binip okula gittim.; Sabah erkenden kalktım.; Otobüs durağına yürüdüm.; Kahvaltımı yapıp çantamı hazırladım..",
+  "correctAnswer": "Sabah erkenden kalktım. → Kahvaltımı yapıp çantamı hazırladım. → Otobüs durağına yürüdüm. → Otobüse binip okula gittim.",
+  "explanation": "Olaylar zaman sırasına göre dizilir."
+ },
+ {
+  "questionId": "boss-a14-t4-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Örnekleme",
+  "outcome": "Metinde kullanılan düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Örneğin, bir kavanoz bal için arıların binlerce çiçeği ziyaret etmesi gerekir.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Örnekleme",
+    "Karşılaştırma",
+    "Tanık gösterme"
+   ]
+  },
+  "textPlain": "“Örneğin, bir kavanoz bal için arıların binlerce çiçeği ziyaret etmesi gerekir.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Örnekleme / Karşılaştırma / Tanık gösterme",
+  "correctAnswer": "Örnekleme",
+  "explanation": "“Örneğin” ifadesiyle bir düşünce somut bir örnekle desteklenmiştir."
+ },
+ {
+  "questionId": "boss-a14-t4-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Tanık gösterme",
+  "outcome": "Metinde kullanılan düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Bir uzmanın ya da tanınmış bir kişinin sözünü aktararak düşünceyi desteklemeye tanık gösterme denir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir uzmanın ya da tanınmış bir kişinin sözünü aktararak düşünceyi desteklemeye tanık gösterme denir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Tanık gösterme, düşünceyi güvenilir bir kişinin sözüyle destekler."
+ },
+ {
+  "questionId": "boss-a14-t4-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Giriş cümlesi",
+  "outcome": "Paragrafın giriş, gelişme ve sonuç bölümlerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi bir paragrafın giriş cümlesi olmaya en uygundur?",
+  "data": {
+   "options": [
+    "Su, canlılığın temel kaynağıdır.",
+    "Bu nedenle suyu tasarruflu kullanmalıyız.",
+    "Üstelik bu oran her geçen gün azalıyor."
+   ]
+  },
+  "textPlain": "Hangisi bir paragrafın giriş cümlesi olmaya en uygundur? Seçenekler: Su, canlılığın temel kaynağıdır. / Bu nedenle suyu tasarruflu kullanmalıyız. / Üstelik bu oran her geçen gün azalıyor.",
+  "correctAnswer": "Su, canlılığın temel kaynağıdır.",
+  "explanation": "Giriş cümlesi kendinden önce bir cümle gerektirmez; “bu nedenle, üstelik” gibi bağlayıcılarla başlamaz."
+ },
+ {
+  "questionId": "boss-a14-t4-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Düşünceyi geliştirme",
+  "outcome": "Metinde kullanılan düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Cümleleri kullanılan düşünceyi geliştirme yoluyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Ali’nin boyu kardeşininkinden uzundur.",
+     "Karşılaştırma"
+    ],
+    [
+     "Uzmanlara göre günde sekiz bardak su içilmelidir.",
+     "Tanık gösterme"
+    ],
+    [
+     "Ülkemizde her yıl yaklaşık üç milyon fidan dikiliyor.",
+     "Sayısal verilerden yararlanma"
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri kullanılan düşünceyi geliştirme yoluyla eşleştir. Sol: Ali’nin boyu kardeşininkinden uzundur.; Uzmanlara göre günde sekiz bardak su içilmelidir.; Ülkemizde her yıl yaklaşık üç milyon fidan dikiliyor.. Sağ: Karşılaştırma; Tanık gösterme; Sayısal verilerden yararlanma.",
+  "correctAnswer": "Ali’nin boyu kardeşininkinden uzundur. = Karşılaştırma; Uzmanlara göre günde sekiz bardak su içilmelidir. = Tanık gösterme; Ülkemizde her yıl yaklaşık üç milyon fidan dikiliyor. = Sayısal verilerden yararlanma",
+  "explanation": "Karşılaştırma iki varlığı kıyaslar; tanık gösterme bir uzmanın sözüne; sayısal veri ise rakamlara dayanır."
+ },
+ {
+  "questionId": "boss-a14-t4-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Betimleme ve öyküleme",
+  "outcome": "Metindeki anlatım biçimlerini (açıklama, tartışma, öyküleme, betimleme) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cümleleri anlatım biçimine göre ayır.",
+  "data": {
+   "bins": [
+    "Betimleme",
+    "Öyküleme"
+   ],
+   "items": [
+    [
+     "Ev, sarmaşıklarla kaplı, yeşil panjurlu küçük bir yapıydı.",
+     0
+    ],
+    [
+     "Kapıyı açtı, içeri girdi ve ışığı yaktı.",
+     1
+    ],
+    [
+     "Gökyüzü pembe ve turuncu tonlara bürünmüştü.",
+     0
+    ],
+    [
+     "Ertesi gün erkenden yola çıktılar.",
+     1
+    ],
+    [
+     "Yaşlı adamın elleri kırış kırıştı.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri anlatım biçimine göre ayır. (Betimleme / Öyküleme) Kartlar: Ev, sarmaşıklarla kaplı, yeşil panjurlu küçük bir yapıydı.; Kapıyı açtı, içeri girdi ve ışığı yaktı.; Gökyüzü pembe ve turuncu tonlara bürünmüştü.; Ertesi gün erkenden yola çıktılar.; Yaşlı adamın elleri kırış kırıştı..",
+  "correctAnswer": "Betimleme: Ev, sarmaşıklarla kaplı, yeşil panjurlu küçük bir yapıydı., Gökyüzü pembe ve turuncu tonlara bürünmüştü., Yaşlı adamın elleri kırış kırıştı.. Öyküleme: Kapıyı açtı, içeri girdi ve ışığı yaktı., Ertesi gün erkenden yola çıktılar..",
+  "explanation": "Betimleme bir şeyi göz önünde canlandırır; öyküleme olayları zaman içinde anlatır."
+ },
+ {
+  "questionId": "boss-a14-t4-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Cümle ekleme",
+  "outcome": "Paragrafın akışına uygun cümleyi belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "kolay",
+  "group": "t4",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Paragraftaki boşluğa ( ) akışa en uygun düşen cümle hangisidir?",
+  "data": {
+   "options": [
+    "Balkonlara konan yem kapları onlara büyük destek olur.",
+    "Yaz aylarında kuşlar çok neşelidir.",
+    "Kuşların tüyleri yaz ve kış aylarında farklı renklerde olabilir."
+   ],
+   "passage": "Kış geldiğinde kuşlar yiyecek bulmakta zorlanır. ( ) Böylece kuşlar soğuk günleri daha kolay atlatır."
+  },
+  "textPlain": "Metin: Kış geldiğinde kuşlar yiyecek bulmakta zorlanır. ( ) Böylece kuşlar soğuk günleri daha kolay atlatır. Soru: Paragraftaki boşluğa ( ) akışa en uygun düşen cümle hangisidir? Seçenekler: Balkonlara konan yem kapları onlara büyük destek olur. / Yaz aylarında kuşlar çok neşelidir. / Kuşların tüyleri yaz ve kış aylarında farklı renklerde olabilir.",
+  "correctAnswer": "Balkonlara konan yem kapları onlara büyük destek olur.",
+  "explanation": "Boşluktan sonra gelen “Böylece” ifadesi, kuşlara yardım eden bir davranışın anlatılmasını gerektirir."
+ },
+ {
+  "questionId": "boss-a14-t4-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Akışı bozan cümle",
+  "outcome": "Metindeki yardımcı fikirleri belirler; paragrafın akışını bozan cümleyi fark eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragrafta hangi cümle düşüncenin akışını bozmaktadır?",
+  "data": {
+   "options": [
+    "III. cümle",
+    "II. cümle",
+    "IV. cümle"
+   ],
+   "passage": "(I) Bisiklet hem çevre dostu hem de sağlıklı bir ulaşım aracıdır. (II) Yakıt kullanmadığı için havayı kirletmez. (III) Bisiklet 19. yüzyılda icat edilmiştir. (IV) Düzenli bisiklet sürmek kalbi ve kasları güçlendirir."
+  },
+  "textPlain": "Metin: (I) Bisiklet hem çevre dostu hem de sağlıklı bir ulaşım aracıdır. (II) Yakıt kullanmadığı için havayı kirletmez. (III) Bisiklet 19. yüzyılda icat edilmiştir. (IV) Düzenli bisiklet sürmek kalbi ve kasları güçlendirir. Soru: Bu paragrafta hangi cümle düşüncenin akışını bozmaktadır? Seçenekler: III. cümle / II. cümle / IV. cümle",
+  "correctAnswer": "III. cümle",
+  "explanation": "Paragraf bisikletin yararlarını anlatır; III. cümle ise bisikletin icat tarihinden söz eder."
+ },
+ {
+  "questionId": "boss-a14-t4-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "İkiye bölme",
+  "outcome": "Paragrafın akışına göre metni bölümlere ayırır; cümleler arasındaki geçişleri sağlayan ifadeleri belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Bu paragraf iki paragrafa ayrılmak istenirse ikinci paragraf hangi cümleyle başlar?",
+  "data": {
+   "options": [
+    "III. cümle",
+    "II. cümle",
+    "IV. cümle"
+   ],
+   "passage": "(I) Çay, Türkiye’de en çok tüketilen içeceklerden biridir. (II) Özellikle Karadeniz Bölgesi’nde yetiştirilir. (III) Kahve ise ülkemize 16. yüzyılda gelmiştir. (IV) Kahvehaneler kısa sürede sohbet mekânlarına dönüşmüştür."
+  },
+  "textPlain": "Metin: (I) Çay, Türkiye’de en çok tüketilen içeceklerden biridir. (II) Özellikle Karadeniz Bölgesi’nde yetiştirilir. (III) Kahve ise ülkemize 16. yüzyılda gelmiştir. (IV) Kahvehaneler kısa sürede sohbet mekânlarına dönüşmüştür. Soru: Bu paragraf iki paragrafa ayrılmak istenirse ikinci paragraf hangi cümleyle başlar? Seçenekler: III. cümle / II. cümle / IV. cümle",
+  "correctAnswer": "III. cümle",
+  "explanation": "I ve II. cümleler çaydan, III ve IV. cümleler kahveden söz eder."
+ },
+ {
+  "questionId": "boss-a14-t4-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Karşılaştırma",
+  "outcome": "Metinde kullanılan düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Kediler, köpeklere göre daha bağımsız hayvanlardır.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Karşılaştırma",
+    "Örnekleme",
+    "Tanımlama"
+   ]
+  },
+  "textPlain": "“Kediler, köpeklere göre daha bağımsız hayvanlardır.” cümlesinde hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Karşılaştırma / Örnekleme / Tanımlama",
+  "correctAnswer": "Karşılaştırma",
+  "explanation": "“-e göre daha” ifadesi iki varlığı kıyaslar."
+ },
+ {
+  "questionId": "boss-a14-t4-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Fidan dikimi",
+  "outcome": "Paragrafı oluşturan cümleleri anlamlı bir bütün olacak şekilde sıralar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "order",
+  "prompt": "Cümleleri anlamlı bir paragraf oluşturacak biçimde sırala.",
+  "data": {
+   "items": [
+    "Önce toprağı belleyip yumuşattık.",
+    "Ardından fidanları çukurlara yerleştirdik.",
+    "Çukurların etrafını toprakla doldurduk.",
+    "Son olarak fidanlara bol su verdik."
+   ]
+  },
+  "textPlain": "Cümleleri anlamlı bir paragraf oluşturacak biçimde sırala. Kartlar: Son olarak fidanlara bol su verdik.; Çukurların etrafını toprakla doldurduk.; Önce toprağı belleyip yumuşattık.; Ardından fidanları çukurlara yerleştirdik..",
+  "correctAnswer": "Önce toprağı belleyip yumuşattık. → Ardından fidanları çukurlara yerleştirdik. → Çukurların etrafını toprakla doldurduk. → Son olarak fidanlara bol su verdik.",
+  "explanation": "“Önce, ardından, son olarak” gibi sözcükler sıralamaya ipucu verir."
+ },
+ {
+  "questionId": "boss-a14-t4-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Sonuç cümlesi",
+  "outcome": "Paragrafın giriş, gelişme ve sonuç bölümlerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangisi bir paragrafın sonuç cümlesi olmaya en uygundur?",
+  "data": {
+   "options": [
+    "Kısacası, sağlıklı yaşamın sırrı dengeli beslenmedir.",
+    "Örneğin, sebzeler vitamin bakımından zengindir.",
+    "Öncelikle beslenmenin ne olduğunu ve neden önemli olduğunu açıklayalım."
+   ]
+  },
+  "textPlain": "Hangisi bir paragrafın sonuç cümlesi olmaya en uygundur? Seçenekler: Kısacası, sağlıklı yaşamın sırrı dengeli beslenmedir. / Örneğin, sebzeler vitamin bakımından zengindir. / Öncelikle beslenmenin ne olduğunu ve neden önemli olduğunu açıklayalım.",
+  "correctAnswer": "Kısacası, sağlıklı yaşamın sırrı dengeli beslenmedir.",
+  "explanation": "“Kısacası” gibi özetleyen ifadeler sonuç cümlesinin özelliğidir."
+ },
+ {
+  "questionId": "boss-a14-t4-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Betimleme",
+  "outcome": "Metindeki anlatım biçimlerini (açıklama, tartışma, öyküleme, betimleme) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir yeri, kişiyi ya da nesneyi okurun gözünde canlandıracak biçimde anlatmaya betimleme denir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir yeri, kişiyi ya da nesneyi okurun gözünde canlandıracak biçimde anlatmaya betimleme denir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Betimlemede duyulara seslenen ayrıntılar kullanılır."
+ },
+ {
+  "questionId": "boss-a14-t4-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Tanımlama ve sayısal veri",
+  "outcome": "Metinde kullanılan düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "orta",
+  "group": "t4",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Cümleleri düşünceyi geliştirme yoluna göre ayır.",
+  "data": {
+   "bins": [
+    "Tanımlama",
+    "Sayısal verilerden yararlanma"
+   ],
+   "items": [
+    [
+     "Fotosentez, bitkilerin ışıkla besin üretmesidir.",
+     0
+    ],
+    [
+     "Türkiye’nin yüzölçümü yaklaşık 780 bin km²’dir.",
+     1
+    ],
+    [
+     "Ozon, oksijenin üç atomlu biçimidir.",
+     0
+    ],
+    [
+     "Dünyadaki suyun yalnızca %3 kadarı tatlı sudur.",
+     1
+    ],
+    [
+     "Kütüphane, kitapların okunmak üzere saklandığı yerdir.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri düşünceyi geliştirme yoluna göre ayır. (Tanımlama / Sayısal verilerden yararlanma) Kartlar: Fotosentez, bitkilerin ışıkla besin üretmesidir.; Türkiye’nin yüzölçümü yaklaşık 780 bin km²’dir.; Ozon, oksijenin üç atomlu biçimidir.; Dünyadaki suyun yalnızca %3 kadarı tatlı sudur.; Kütüphane, kitapların okunmak üzere saklandığı yerdir..",
+  "correctAnswer": "Tanımlama: Fotosentez, bitkilerin ışıkla besin üretmesidir., Ozon, oksijenin üç atomlu biçimidir., Kütüphane, kitapların okunmak üzere saklandığı yerdir.. Sayısal verilerden yararlanma: Türkiye’nin yüzölçümü yaklaşık 780 bin km²’dir., Dünyadaki suyun yalnızca %3 kadarı tatlı sudur..",
+  "explanation": "Tanımlama “… nedir?” sorusuna cevap verir; sayısal veri ise ölçü ve rakamlara dayanır."
+ },
+ {
+  "questionId": "boss-a14-t4-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Cümle ekleme",
+  "outcome": "Paragrafın akışına uygun cümleyi belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Paragraftaki boşluğa ( ) akışa en uygun düşen cümle hangisidir?",
+  "data": {
+   "options": [
+    "Çünkü egzersiz sırasında vücut, insanı rahatlatan maddeler salgılar.",
+    "Futbol, dünyada en çok izlenen spordur.",
+    "Spor yaparken giyilen ayakkabılar bazen çok pahalı olabilir ve herkes alamayabilir."
+   ],
+   "passage": "Spor yapmak yalnızca bedeni değil ruhu da güçlendirir. Düzenli egzersiz yapan kişiler kendilerini daha mutlu hisseder. ( ) Bu yüzden hangi yaşta olursak olalım hayatımızda spora yer açmalıyız."
+  },
+  "textPlain": "Metin: Spor yapmak yalnızca bedeni değil ruhu da güçlendirir. Düzenli egzersiz yapan kişiler kendilerini daha mutlu hisseder. ( ) Bu yüzden hangi yaşta olursak olalım hayatımızda spora yer açmalıyız. Soru: Paragraftaki boşluğa ( ) akışa en uygun düşen cümle hangisidir? Seçenekler: Çünkü egzersiz sırasında vücut, insanı rahatlatan maddeler salgılar. / Futbol, dünyada en çok izlenen spordur. / Spor yaparken giyilen ayakkabılar bazen çok pahalı olabilir ve herkes alamayabilir.",
+  "correctAnswer": "Çünkü egzersiz sırasında vücut, insanı rahatlatan maddeler salgılar.",
+  "explanation": "Boşluk, egzersizin insanı neden mutlu ettiğini açıklayan bir cümle gerektirir."
+ },
+ {
+  "questionId": "boss-a14-t4-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Akışı bozan cümle",
+  "outcome": "Metindeki yardımcı fikirleri belirler; paragrafın akışını bozan cümleyi fark eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bu paragrafta hangi cümle düşüncenin akışını bozmaktadır?",
+  "data": {
+   "options": [
+    "IV. cümle",
+    "III. cümle",
+    "V. cümle"
+   ],
+   "passage": "(I) Deniz kirliliği, canlı yaşamını tehdit eden büyük bir sorundur. (II) Denize atılan plastikler yüzlerce yılda ancak çözünür. (III) Bu plastikleri yiyen balıklar zarar görür. (IV) Yazın deniz kenarında tatil yapmak çok keyiflidir. (V) Kirlilik, sonunda bizim sofralarımıza kadar ulaşır."
+  },
+  "textPlain": "Metin: (I) Deniz kirliliği, canlı yaşamını tehdit eden büyük bir sorundur. (II) Denize atılan plastikler yüzlerce yılda ancak çözünür. (III) Bu plastikleri yiyen balıklar zarar görür. (IV) Yazın deniz kenarında tatil yapmak çok keyiflidir. (V) Kirlilik, sonunda bizim sofralarımıza kadar ulaşır. Soru: Bu paragrafta hangi cümle düşüncenin akışını bozmaktadır? Seçenekler: IV. cümle / III. cümle / V. cümle",
+  "correctAnswer": "IV. cümle",
+  "explanation": "Paragraf deniz kirliliğini anlatır; IV. cümle tatilin keyfinden söz eder."
+ },
+ {
+  "questionId": "boss-a14-t4-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Anlatım biçimi",
+  "outcome": "Metindeki anlatım biçimlerini (açıklama, tartışma, öyküleme, betimleme) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bu paragrafta hangi anlatım biçimi ağır basmaktadır?",
+  "data": {
+   "options": [
+    "Açıklama",
+    "Betimleme",
+    "Öyküleme"
+   ],
+   "passage": "Ozon tabakası, Güneş’ten gelen zararlı ışınları süzen bir kalkandır. Bu tabaka incelirse cilt hastalıkları artar, bitkilerin büyümesi yavaşlar. Bu nedenle ozona zarar veren gazların kullanımı sınırlandırılmıştır."
+  },
+  "textPlain": "Metin: Ozon tabakası, Güneş’ten gelen zararlı ışınları süzen bir kalkandır. Bu tabaka incelirse cilt hastalıkları artar, bitkilerin büyümesi yavaşlar. Bu nedenle ozona zarar veren gazların kullanımı sınırlandırılmıştır. Soru: Bu paragrafta hangi anlatım biçimi ağır basmaktadır? Seçenekler: Açıklama / Betimleme / Öyküleme",
+  "correctAnswer": "Açıklama",
+  "explanation": "Paragraf okura bilgi verir, bir konuyu öğretir: açıklama."
+ },
+ {
+  "questionId": "boss-a14-t4-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Düşünceyi geliştirme",
+  "outcome": "Metinde kullanılan düşünceyi geliştirme yollarını belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafta anlam)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Bu paragrafta hangi düşünceyi geliştirme yolu kullanılmıştır?",
+  "data": {
+   "options": [
+    "Tanık gösterme",
+    "Sayısal verilerden yararlanma",
+    "Karşılaştırma"
+   ],
+   "passage": "Ünlü bir gökbilimci, “Gökyüzüne bakmayı bilen, sorular sormayı da öğrenir.” der. Gerçekten de büyük keşiflerin çoğu, merakla sorulmuş basit bir sorudan doğmuştur."
+  },
+  "textPlain": "Metin: Ünlü bir gökbilimci, “Gökyüzüne bakmayı bilen, sorular sormayı da öğrenir.” der. Gerçekten de büyük keşiflerin çoğu, merakla sorulmuş basit bir sorudan doğmuştur. Soru: Bu paragrafta hangi düşünceyi geliştirme yolu kullanılmıştır? Seçenekler: Tanık gösterme / Sayısal verilerden yararlanma / Karşılaştırma",
+  "correctAnswer": "Tanık gösterme",
+  "explanation": "Düşünce, bir bilim insanının sözü aktarılarak desteklenmiştir."
+ },
+ {
+  "questionId": "boss-a14-t4-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "İkiye bölme",
+  "outcome": "Paragrafın akışına göre metni bölümlere ayırır; cümleler arasındaki geçişleri sağlayan ifadeleri belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir paragraf ikiye bölünürken ikinci paragraf, konunun yön değiştirdiği cümleyle başlar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir paragraf ikiye bölünürken ikinci paragraf, konunun yön değiştirdiği cümleyle başlar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Konu ya da bakış açısı değiştiğinde yeni paragrafa geçilir."
+ },
+ {
+  "questionId": "boss-a14-t4-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Paragraf II: Akış, Cümle Ekleme, Düşünceyi Geliştirme",
+  "topic": "Tartışma ve açıklama",
+  "outcome": "Metindeki anlatım biçimlerini (açıklama, tartışma, öyküleme, betimleme) belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Anlam Bilgisi (paragrafın yapısı, anlatım biçimleri)",
+  "difficulty": "zor",
+  "group": "t4",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Cümleleri anlatım biçimine göre ayır.",
+  "data": {
+   "bins": [
+    "Tartışma",
+    "Açıklama"
+   ],
+   "items": [
+    [
+     "Bazıları ödevin gereksiz olduğunu söyler; oysa ödev öğrenileni pekiştirir.",
+     0
+    ],
+    [
+     "Depremler, yer kabuğundaki kırılmalar sonucu oluşur.",
+     1
+    ],
+    [
+     "Kimileri şehir hayatını över; ben ise köy hayatının daha huzurlu olduğunu düşünüyorum.",
+     0
+    ],
+    [
+     "Mıknatıslar demir, nikel ve kobaltı çeker.",
+     1
+    ],
+    [
+     "Oyunların zararlı olduğunu düşünenler yanılıyor; doğru seçilen oyunlar zekâyı geliştirir.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri anlatım biçimine göre ayır. (Tartışma / Açıklama) Kartlar: Bazıları ödevin gereksiz olduğunu söyler; oysa ödev öğrenileni pekiştirir.; Depremler, yer kabuğundaki kırılmalar sonucu oluşur.; Kimileri şehir hayatını över; ben ise köy hayatının daha huzurlu olduğunu düşünüyorum.; Mıknatıslar demir, nikel ve kobaltı çeker.; Oyunların zararlı olduğunu düşünenler yanılıyor; doğru seçilen oyunlar zekâyı geliştirir..",
+  "correctAnswer": "Tartışma: Bazıları ödevin gereksiz olduğunu söyler; oysa ödev öğrenileni pekiştirir., Kimileri şehir hayatını över; ben ise köy hayatının daha huzurlu olduğunu düşünüyorum., Oyunların zararlı olduğunu düşünenler yanılıyor; doğru seçilen oyunlar zekâyı geliştirir.. Açıklama: Depremler, yer kabuğundaki kırılmalar sonucu oluşur., Mıknatıslar demir, nikel ve kobaltı çeker..",
+  "explanation": "Tartışmada karşıt bir görüş çürütülmeye çalışılır; açıklamada bilgi verilir."
+ }
+]

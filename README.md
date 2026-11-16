@@ -72,6 +72,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Uzman Düellosu | duello-uzman | 1.0.0 | Karışık | 7 | Dikey | `/duello-uzman/1.0.0/index.html` |
 | Efsane Düellosu | duello-efsane | 1.0.0 | Karışık | 8 | Dikey | `/duello-efsane/1.0.0/index.html` |
 | Meteor Muhafızı (Macera canavarı · Arena 13) | macera-8-meteor-muhafizi | 1.0.0 | Karışık | 8 | Dikey | `/macera-8-meteor-muhafizi/1.0.0/index.html` |
+| Ay Robotu (Macera canavarı · Arena 14) | macera-8-ay-robotu | 1.0.0 | Karışık | 8 | Dikey | `/macera-8-ay-robotu/1.0.0/index.html` |
 
 ## Uyumluluk
 
