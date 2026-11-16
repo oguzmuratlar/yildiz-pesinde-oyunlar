@@ -1,0 +1,3107 @@
+[
+  {
+    "questionId": "mat8u8-dogru-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nline",
+    "prompt": "x > 3 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir.",
+    "data": {
+      "c": [
+        [
+          ">",
+          3
+        ]
+      ]
+    },
+    "textPlain": "x > 3 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir. Eşitsizlik: x > 3.",
+    "correctAnswer": "Gösterim: 3 boş daire, ok sağa",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nline",
+    "prompt": "x ≤ −2 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir.",
+    "data": {
+      "c": [
+        [
+          "≤",
+          -2
+        ]
+      ]
+    },
+    "textPlain": "x ≤ −2 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir. Eşitsizlik: x ≤ −2.",
+    "correctAnswer": "Gösterim: −2 dolu daire, ok sola",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nline",
+    "prompt": "x ≥ 0 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          0
+        ]
+      ]
+    },
+    "textPlain": "x ≥ 0 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir. Eşitsizlik: x ≥ 0.",
+    "correctAnswer": "Gösterim: 0 dolu daire, ok sağa",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nline",
+    "prompt": "x < 5 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir.",
+    "data": {
+      "c": [
+        [
+          "<",
+          5
+        ]
+      ]
+    },
+    "textPlain": "x < 5 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir. Eşitsizlik: x < 5.",
+    "correctAnswer": "Gösterim: 5 boş daire, ok sola",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nline",
+    "prompt": "−1 < x ≤ 4 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -1
+        ],
+        [
+          "≤",
+          4
+        ]
+      ]
+    },
+    "textPlain": "−1 < x ≤ 4 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap. Eşitsizlik: −1 < x ≤ 4.",
+    "correctAnswer": "Gösterim: −1 boş daire; 4 dolu daire",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nline",
+    "prompt": "−3 ≤ x < 2 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -3
+        ],
+        [
+          "<",
+          2
+        ]
+      ]
+    },
+    "textPlain": "−3 ≤ x < 2 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap. Eşitsizlik: −3 ≤ x < 2.",
+    "correctAnswer": "Gösterim: −3 dolu daire; 2 boş daire",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "dogru",
+    "rank": 3,
+    "type": "nline",
+    "prompt": "−5 < x < −1 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -5
+        ],
+        [
+          "<",
+          -1
+        ]
+      ]
+    },
+    "textPlain": "−5 < x < −1 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap. Eşitsizlik: −5 < x < −1.",
+    "correctAnswer": "Gösterim: −5 boş daire; −1 boş daire",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "dogru",
+    "rank": 3,
+    "type": "nline",
+    "prompt": "1 ≤ x ≤ 6 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          1
+        ],
+        [
+          "≤",
+          6
+        ]
+      ]
+    },
+    "textPlain": "1 ≤ x ≤ 6 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap. Eşitsizlik: 1 ≤ x ≤ 6.",
+    "correctAnswer": "Gösterim: 1 dolu daire; 6 dolu daire",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          "<",
+          4
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: 4 boş daire, ok sola.",
+    "correctAnswer": "x < 4",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -1
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: −1 dolu daire, ok sağa.",
+    "correctAnswer": "x ≥ −1",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -4
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: −4 boş daire, ok sağa.",
+    "correctAnswer": "x > −4",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -2
+        ],
+        [
+          "≤",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: −2 dolu daire; 3 dolu daire.",
+    "correctAnswer": "−2 ≤ x ≤ 3",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "dogru",
+    "rank": 3,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          ">",
+          0
+        ],
+        [
+          "≤",
+          5
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: 0 boş daire; 5 dolu daire.",
+    "correctAnswer": "0 < x ≤ 5",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "dogru",
+    "rank": 3,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -6
+        ],
+        [
+          "<",
+          -2
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: −6 dolu daire; −2 boş daire.",
+    "correctAnswer": "−6 ≤ x < −2",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-yazma-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "write",
+    "prompt": "Asansör en fazla 8 kişi taşıyabilir. x: kişi sayısı. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Asansör en fazla 8 kişi taşıyabilir. x: kişi sayısı.",
+      "c": [
+        [
+          "≤",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Asansör en fazla 8 kişi taşıyabilir. x: kişi sayısı. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≤ 8",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "write",
+    "prompt": "Lunaparkta bu oyuncağa binmek için boy en az 120 cm olmalıdır. x: boy (cm). Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Lunaparkta bu oyuncağa binmek için boy en az 120 cm olmalıdır. x: boy (cm).",
+      "c": [
+        [
+          "≥",
+          120
+        ]
+      ]
+    },
+    "textPlain": "Lunaparkta bu oyuncağa binmek için boy en az 120 cm olmalıdır. x: boy (cm). Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≥ 120",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "write",
+    "prompt": "Köprüden 20 tondan ağır araçlar geçemez; geçebilecek aracın kütlesi x (t). Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Köprüden 20 tondan ağır araçlar geçemez; geçebilecek aracın kütlesi x (t).",
+      "c": [
+        [
+          "≤",
+          20
+        ]
+      ]
+    },
+    "textPlain": "Köprüden 20 tondan ağır araçlar geçemez; geçebilecek aracın kütlesi x (t). Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≤ 20",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "write",
+    "prompt": "Otoyolda hız 120 km/sa’ten fazla olamaz, 40 km/sa’ten de az olamaz. x: hız. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Otoyolda hız 120 km/sa’ten fazla olamaz, 40 km/sa’ten de az olamaz. x: hız.",
+      "c": [
+        [
+          "≥",
+          40
+        ],
+        [
+          "≤",
+          120
+        ]
+      ]
+    },
+    "textPlain": "Otoyolda hız 120 km/sa’ten fazla olamaz, 40 km/sa’ten de az olamaz. x: hız. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "40 ≤ x ≤ 120",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "write",
+    "prompt": "Kargo firması 30 kg’dan ağır paketleri kabul etmiyor. x: paket kütlesi (kg). Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Kargo firması 30 kg’dan ağır paketleri kabul etmiyor. x: paket kütlesi (kg).",
+      "c": [
+        [
+          "≤",
+          30
+        ]
+      ]
+    },
+    "textPlain": "Kargo firması 30 kg’dan ağır paketleri kabul etmiyor. x: paket kütlesi (kg). Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≤ 30",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "write",
+    "prompt": "Bir yarışmada finale kalmak için 50 puandan fazla almak gerekir. x: puan. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir yarışmada finale kalmak için 50 puandan fazla almak gerekir. x: puan.",
+      "c": [
+        [
+          ">",
+          50
+        ]
+      ]
+    },
+    "textPlain": "Bir yarışmada finale kalmak için 50 puandan fazla almak gerekir. x: puan. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x > 50",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "write",
+    "prompt": "Kamyonun yükü 12 tondan az, 3 tondan fazla olmalıdır. x: yük (t). Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Kamyonun yükü 12 tondan az, 3 tondan fazla olmalıdır. x: yük (t).",
+      "c": [
+        [
+          ">",
+          3
+        ],
+        [
+          "<",
+          12
+        ]
+      ]
+    },
+    "textPlain": "Kamyonun yükü 12 tondan az, 3 tondan fazla olmalıdır. x: yük (t). Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "3 < x < 12",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "write",
+    "prompt": "Bir otoparkta en az 15, en çok 40 araç bulunuyor. x: araç sayısı. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir otoparkta en az 15, en çok 40 araç bulunuyor. x: araç sayısı.",
+      "c": [
+        [
+          "≥",
+          15
+        ],
+        [
+          "≤",
+          40
+        ]
+      ]
+    },
+    "textPlain": "Bir otoparkta en az 15, en çok 40 araç bulunuyor. x: araç sayısı. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "15 ≤ x ≤ 40",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "yazma",
+    "rank": 3,
+    "type": "write",
+    "prompt": "Bir dondurucunun sıcaklığı −18 °C’tan yüksek olmamalıdır. x: sıcaklık. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir dondurucunun sıcaklığı −18 °C’tan yüksek olmamalıdır. x: sıcaklık.",
+      "c": [
+        [
+          "≤",
+          -18
+        ]
+      ]
+    },
+    "textPlain": "Bir dondurucunun sıcaklığı −18 °C’tan yüksek olmamalıdır. x: sıcaklık. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≤ −18",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "yazma",
+    "rank": 3,
+    "type": "write",
+    "prompt": "Kayak yapmak için hava sıcaklığı −10 °C’tan düşük, 2 °C’tan yüksek olmamalı. x: sıcaklık. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Kayak yapmak için hava sıcaklığı −10 °C’tan düşük, 2 °C’tan yüksek olmamalı. x: sıcaklık.",
+      "c": [
+        [
+          "≥",
+          -10
+        ],
+        [
+          "≤",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kayak yapmak için hava sıcaklığı −10 °C’tan düşük, 2 °C’tan yüksek olmamalı. x: sıcaklık. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "−10 ≤ x ≤ 2",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "yazma",
+    "rank": 3,
+    "type": "write",
+    "prompt": "Bir kamyonun boş kütlesi 5 t, köprü sınırı 18 t’dur. Kamyona konulabilecek yükün kütlesi x (t) olsun: x + 5 en çok 18 olabilir; çözülmüş hâlini kur. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir kamyonun boş kütlesi 5 t, köprü sınırı 18 t’dur. Kamyona konulabilecek yükün kütlesi x (t) olsun: x + 5 en çok 18 olabilir; çözülmüş hâlini kur.",
+      "c": [
+        [
+          "≤",
+          13
+        ]
+      ]
+    },
+    "textPlain": "Bir kamyonun boş kütlesi 5 t, köprü sınırı 18 t’dur. Kamyona konulabilecek yükün kütlesi x (t) olsun: x + 5 en çok 18 olabilir; çözülmüş hâlini kur. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≤ 13",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır. x + 5 ≤ 18 → x ≤ 13."
+  },
+  {
+    "questionId": "mat8u8-yazma-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "İfadeleri uygun işarete yerleştir.",
+    "data": {
+      "L": [
+        "≤ En çok",
+        "≥ En az",
+        "< Daha az",
+        "> Daha fazla"
+      ],
+      "r": [
+        [
+          "En fazla 5 kişi",
+          0
+        ],
+        [
+          "En az 18 yaş",
+          1
+        ],
+        [
+          "3 kg’dan hafif",
+          2
+        ],
+        [
+          "100 TL’den pahalı",
+          3
+        ],
+        [
+          "En çok 90 dakika",
+          0
+        ],
+        [
+          "Asgari 2 saat",
+          1
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri uygun işarete yerleştir. Bölmeler: En çok, En az, Daha az, Daha fazla. Kartlar: En fazla 5 kişi, En az 18 yaş, 3 kg’dan hafif, 100 TL’den pahalı, En çok 90 dakika, Asgari 2 saat.",
+    "correctAnswer": "En fazla 5 kişi → En çok | En az 18 yaş → En az | 3 kg’dan hafif → Daha az | 100 TL’den pahalı → Daha fazla | En çok 90 dakika → En çok | Asgari 2 saat → En az",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Değerlerin eşitsizliği sağlayıp sağlamadığını ayır.",
+    "data": {
+      "L": [
+        "✅ Çözüm",
+        "❌ Çözüm değil"
+      ],
+      "r": [
+        [
+          "x ≤ 8 için x = 8",
+          0
+        ],
+        [
+          "x < 8 için x = 8",
+          1
+        ],
+        [
+          "x > −2 için x = −1",
+          0
+        ],
+        [
+          "x ≥ 3 için x = 2,9",
+          1
+        ],
+        [
+          "−1 < x ≤ 4 için x = −1",
+          1
+        ],
+        [
+          "−1 < x ≤ 4 için x = 4",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Değerlerin eşitsizliği sağlayıp sağlamadığını ayır. Bölmeler: Çözüm, Çözüm değil. Kartlar: x ≤ 8 için x = 8, x < 8 için x = 8, x > −2 için x = −1, x ≥ 3 için x = 2,9, −1 < x ≤ 4 için x = −1, −1 < x ≤ 4 için x = 4.",
+    "correctAnswer": "x ≤ 8 için x = 8 → Çözüm | x < 8 için x = 8 → Çözüm değil | x > −2 için x = −1 → Çözüm | x ≥ 3 için x = 2,9 → Çözüm değil | −1 < x ≤ 4 için x = −1 → Çözüm değil | −1 < x ≤ 4 için x = 4 → Çözüm",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-yazma-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "yazma",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Çıkarımların doğru olup olmadığını ayır.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "x > 5 ise 2x > 10",
+          0
+        ],
+        [
+          "x > 5 ise −x > −5",
+          1
+        ],
+        [
+          "x ≤ 3 ise x + 4 ≤ 7",
+          0
+        ],
+        [
+          "x < −2 ise −3x > 6",
+          0
+        ],
+        [
+          "x ≥ 1 ise x/−1 ≥ −1",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Çıkarımların doğru olup olmadığını ayır. Bölmeler: Doğru, Yanlış. Kartlar: x > 5 ise 2x > 10, x > 5 ise −x > −5, x ≤ 3 ise x + 4 ≤ 7, x < −2 ise −3x > 6, x ≥ 1 ise x/−1 ≥ −1.",
+    "correctAnswer": "x > 5 ise 2x > 10 → Doğru | x > 5 ise −x > −5 → Yanlış | x ≤ 3 ise x + 4 ≤ 7 → Doğru | x < −2 ise −3x > 6 → Doğru | x ≥ 1 ise x/−1 ≥ −1 → Yanlış",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "cozum",
+    "rank": 1,
+    "type": "isolve",
+    "prompt": "x + 4 < 9 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 1,
+      "b": 4,
+      "o": "<",
+      "c": 9,
+      "r": [
+        [
+          "<",
+          5
+        ]
+      ]
+    },
+    "textPlain": "x + 4 < 9 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: x + 4 < 9.",
+    "correctAnswer": "x < 5",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "cozum",
+    "rank": 1,
+    "type": "isolve",
+    "prompt": "2x ≥ 10 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 2,
+      "b": 0,
+      "o": "≥",
+      "c": 10,
+      "r": [
+        [
+          "≥",
+          5
+        ]
+      ]
+    },
+    "textPlain": "2x ≥ 10 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: 2x ≥ 10.",
+    "correctAnswer": "x ≥ 5",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "cozum",
+    "rank": 1,
+    "type": "isolve",
+    "prompt": "x − 3 > 2 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 1,
+      "b": -3,
+      "o": ">",
+      "c": 2,
+      "r": [
+        [
+          ">",
+          5
+        ]
+      ]
+    },
+    "textPlain": "x − 3 > 2 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: x − 3 > 2.",
+    "correctAnswer": "x > 5",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "isolve",
+    "prompt": "3x + 2 ≤ 14 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 3,
+      "b": 2,
+      "o": "≤",
+      "c": 14,
+      "r": [
+        [
+          "≤",
+          4
+        ]
+      ]
+    },
+    "textPlain": "3x + 2 ≤ 14 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: 3x + 2 ≤ 14.",
+    "correctAnswer": "x ≤ 4",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "isolve",
+    "prompt": "−2x < 8 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": -2,
+      "b": 0,
+      "o": "<",
+      "c": 8,
+      "r": [
+        [
+          ">",
+          -4
+        ]
+      ]
+    },
+    "textPlain": "−2x < 8 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: −2x < 8.",
+    "correctAnswer": "x > −4",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Burada negatif sayıya bölündüğü için yön değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "isolve",
+    "prompt": "4x − 5 > 7 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 4,
+      "b": -5,
+      "o": ">",
+      "c": 7,
+      "r": [
+        [
+          ">",
+          3
+        ]
+      ]
+    },
+    "textPlain": "4x − 5 > 7 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: 4x − 5 > 7.",
+    "correctAnswer": "x > 3",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "isolve",
+    "prompt": "−x + 6 ≥ 2 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": -1,
+      "b": 6,
+      "o": "≥",
+      "c": 2,
+      "r": [
+        [
+          "≤",
+          4
+        ]
+      ]
+    },
+    "textPlain": "−x + 6 ≥ 2 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: −x + 6 ≥ 2.",
+    "correctAnswer": "x ≤ 4",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Burada negatif sayıya bölündüğü için yön değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "cozum",
+    "rank": 3,
+    "type": "isolve",
+    "prompt": "−3x + 4 > −11 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": -3,
+      "b": 4,
+      "o": ">",
+      "c": -11,
+      "r": [
+        [
+          "<",
+          5
+        ]
+      ]
+    },
+    "textPlain": "−3x + 4 > −11 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: −3x + 4 > −11.",
+    "correctAnswer": "x < 5",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Burada negatif sayıya bölündüğü için yön değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "cozum",
+    "rank": 3,
+    "type": "isolve",
+    "prompt": "5x + 7 ≤ −8 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 5,
+      "b": 7,
+      "o": "≤",
+      "c": -8,
+      "r": [
+        [
+          "≤",
+          -3
+        ]
+      ]
+    },
+    "textPlain": "5x + 7 ≤ −8 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: 5x + 7 ≤ −8.",
+    "correctAnswer": "x ≤ −3",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "cozum",
+    "rank": 3,
+    "type": "isolve",
+    "prompt": "−4x − 2 ≤ 10 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": -4,
+      "b": -2,
+      "o": "≤",
+      "c": 10,
+      "r": [
+        [
+          "≥",
+          -3
+        ]
+      ]
+    },
+    "textPlain": "−4x − 2 ≤ 10 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: −4x − 2 ≤ 10.",
+    "correctAnswer": "x ≥ −3",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Burada negatif sayıya bölündüğü için yön değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "key",
+    "prompt": "2x − 3 < 11 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "data": {
+      "a": 6,
+      "u": ""
+    },
+    "textPlain": "2x − 3 < 11 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "correctAnswer": "6",
+    "explanation": "2x < 14 → x < 7; en büyük tam sayı 6."
+  },
+  {
+    "questionId": "mat8u8-cozum-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "cozum",
+    "rank": 3,
+    "type": "key",
+    "prompt": "3(x − 2) ≥ x + 4 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "3(x − 2) ≥ x + 4 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "correctAnswer": "5",
+    "explanation": "3x − 6 ≥ x + 4 → 2x ≥ 10 → x ≥ 5."
+  },
+  {
+    "questionId": "mat8u8-cozum-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "cozum",
+    "rank": 1,
+    "type": "key",
+    "prompt": "x + 7 ≤ 15 eşitsizliğini sağlayan en büyük doğal sayı kaçtır?",
+    "data": {
+      "a": 8,
+      "u": ""
+    },
+    "textPlain": "x + 7 ≤ 15 eşitsizliğini sağlayan en büyük doğal sayı kaçtır?",
+    "correctAnswer": "8",
+    "explanation": "x ≤ 8."
+  },
+  {
+    "questionId": "mat8u8-kume-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "member",
+    "prompt": "x > 2 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          ">",
+          2
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "textPlain": "x > 2 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: 3, 4, 5, 6",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "member",
+    "prompt": "x ≤ −3 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "≤",
+          -3
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -6,
+        -5,
+        -4,
+        -3
+      ]
+    },
+    "textPlain": "x ≤ −3 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −6, −5, −4, −3",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "member",
+    "prompt": "−1 ≤ x < 3 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -1
+        ],
+        [
+          "<",
+          3
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "−1 ≤ x < 3 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −1, 0, 1, 2",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "kume",
+    "rank": 2,
+    "type": "member",
+    "prompt": "−4 < x ≤ 1 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -4
+        ],
+        [
+          "≤",
+          1
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -3,
+        -2,
+        -1,
+        0,
+        1
+      ]
+    },
+    "textPlain": "−4 < x ≤ 1 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −3, −2, −1, 0, 1",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "kume",
+    "rank": 2,
+    "type": "member",
+    "prompt": "x < −2 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "<",
+          -2
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -6,
+        -5,
+        -4,
+        -3
+      ]
+    },
+    "textPlain": "x < −2 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −6, −5, −4, −3",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "kume",
+    "rank": 2,
+    "type": "member",
+    "prompt": "−5 ≤ x < −1 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -5
+        ],
+        [
+          "<",
+          -1
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -5,
+        -4,
+        -3,
+        -2
+      ]
+    },
+    "textPlain": "−5 ≤ x < −1 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −5, −4, −3, −2",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "kume",
+    "rank": 3,
+    "type": "member",
+    "prompt": "−1 < x < 1 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -1
+        ],
+        [
+          "<",
+          1
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        0
+      ]
+    },
+    "textPlain": "−1 < x < 1 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: 0",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "kume",
+    "rank": 3,
+    "type": "member",
+    "prompt": "2x − 3 ≥ 5 → x ≥ 4. x ≥ 4 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          4
+        ]
+      ],
+      "x": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "a": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "textPlain": "2x − 3 ≥ 5 → x ≥ 4. x ≥ 4 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar 0 ile 10 arası.",
+    "correctAnswer": "Çözüm: 4, 5, 6, 7, 8, 9, 10",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "kume",
+    "rank": 3,
+    "type": "member",
+    "prompt": "−2x < 6 ve x ≤ 2 birlikte: −3 < x ≤ 2 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -3
+        ],
+        [
+          "≤",
+          2
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "−2x < 6 ve x ≤ 2 birlikte: −3 < x ≤ 2 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −2, −1, 0, 1, 2",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "key",
+    "prompt": "−2 < x ≤ 3 eşitsizliğini sağlayan kaç tam sayı vardır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "−2 < x ≤ 3 eşitsizliğini sağlayan kaç tam sayı vardır?",
+    "correctAnswer": "5",
+    "explanation": "−1, 0, 1, 2, 3 → 5 tane."
+  },
+  {
+    "questionId": "mat8u8-kume-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "kume",
+    "rank": 2,
+    "type": "key",
+    "prompt": "−3 ≤ x < 5 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "data": {
+      "a": 4,
+      "u": ""
+    },
+    "textPlain": "−3 ≤ x < 5 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "correctAnswer": "4",
+    "explanation": "−3 + −2 + −1 + 0 + 1 + 2 + 3 + 4 = 4."
+  },
+  {
+    "questionId": "mat8u8-kume-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "kume",
+    "rank": 3,
+    "type": "key",
+    "prompt": "3 < 2x − 1 ≤ 11 eşitsizliğini sağlayan kaç tam sayı vardır?",
+    "data": {
+      "a": 4,
+      "u": ""
+    },
+    "textPlain": "3 < 2x − 1 ≤ 11 eşitsizliğini sağlayan kaç tam sayı vardır?",
+    "correctAnswer": "4",
+    "explanation": "4 < 2x ≤ 12 → 2 < x ≤ 6 → 3, 4, 5, 6 → 4 tane."
+  },
+  {
+    "questionId": "mat8u8-kume-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "imatch",
+    "prompt": "x > 1 eşitsizliğinin gösterimine dokun.",
+    "data": {
+      "o": [
+        [
+          [
+            ">",
+            1
+          ]
+        ],
+        [
+          [
+            "<",
+            1
+          ]
+        ],
+        [
+          [
+            "≥",
+            1
+          ]
+        ]
+      ],
+      "a": 0,
+      "c": [
+        [
+          ">",
+          1
+        ]
+      ]
+    },
+    "textPlain": "x > 1 eşitsizliğinin gösterimine dokun. Seçenekler: x > 1, x ≥ 1, x < 1 gösterimleri.",
+    "correctAnswer": "A gösterimi",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-kume-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "kume",
+    "rank": 2,
+    "type": "imatch",
+    "prompt": "−2 ≤ x < 3 eşitsizliğinin gösterimine dokun.",
+    "data": {
+      "o": [
+        [
+          [
+            "≥",
+            -2
+          ],
+          [
+            "≤",
+            3
+          ]
+        ],
+        [
+          [
+            ">",
+            -2
+          ],
+          [
+            "≤",
+            3
+          ]
+        ],
+        [
+          [
+            "≥",
+            -2
+          ],
+          [
+            "<",
+            3
+          ]
+        ]
+      ],
+      "a": 2,
+      "c": [
+        [
+          "≥",
+          -2
+        ],
+        [
+          "<",
+          3
+        ]
+      ]
+    },
+    "textPlain": "−2 ≤ x < 3 eşitsizliğinin gösterimine dokun. Seçenekler: −2 ≤ x < 3, −2 < x ≤ 3, −2 ≤ x ≤ 3 gösterimleri.",
+    "correctAnswer": "C gösterimi",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "imatch",
+    "prompt": "x ≤ −1 eşitsizliğinin gösterimine dokun.",
+    "data": {
+      "o": [
+        [
+          [
+            "≥",
+            -1
+          ]
+        ],
+        [
+          [
+            "<",
+            -1
+          ]
+        ],
+        [
+          [
+            "≤",
+            -1
+          ]
+        ]
+      ],
+      "a": 2,
+      "c": [
+        [
+          "≤",
+          -1
+        ]
+      ]
+    },
+    "textPlain": "x ≤ −1 eşitsizliğinin gösterimine dokun. Seçenekler: x ≤ −1, x < −1, x ≥ −1 gösterimleri.",
+    "correctAnswer": "C gösterimi",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "dogru",
+    "rank": 3,
+    "type": "imatch",
+    "prompt": "−3 < x ≤ 0 eşitsizliğinin gösterimine dokun.",
+    "data": {
+      "o": [
+        [
+          [
+            ">",
+            -3
+          ],
+          [
+            "≤",
+            0
+          ]
+        ],
+        [
+          [
+            "≥",
+            -3
+          ],
+          [
+            "<",
+            0
+          ]
+        ],
+        [
+          [
+            ">",
+            -3
+          ],
+          [
+            "<",
+            0
+          ]
+        ]
+      ],
+      "a": 0,
+      "c": [
+        [
+          ">",
+          -3
+        ],
+        [
+          "≤",
+          0
+        ]
+      ]
+    },
+    "textPlain": "−3 < x ≤ 0 eşitsizliğinin gösterimine dokun. Seçenekler: −3 < x ≤ 0, −3 ≤ x < 0, −3 < x < 0 gösterimleri.",
+    "correctAnswer": "A gösterimi",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-problem-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "truck",
+    "prompt": "Boş kamyon 4 t, her koli 1 t. Köprü sınırı 10 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 4,
+      "w": 1,
+      "L": 10,
+      "k": "max",
+      "lo": null,
+      "mx": 6,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 4 t, her koli 1 t. Köprü sınırı 10 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 6 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 4 + 1x ≤ 10 → x ≤ 6,00"
+  },
+  {
+    "questionId": "mat8u8-problem-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "truck",
+    "prompt": "Boş kamyon 6 t, her koli 2 t. Köprü sınırı 20 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 6,
+      "w": 2,
+      "L": 20,
+      "k": "max",
+      "lo": null,
+      "mx": 7,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 6 t, her koli 2 t. Köprü sınırı 20 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 7 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 6 + 2x ≤ 20 → x ≤ 7,00"
+  },
+  {
+    "questionId": "mat8u8-problem-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "truck",
+    "prompt": "Boş kamyon 5 t, her koli 1,5 t. Köprü sınırı 17 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 5,
+      "w": 1.5,
+      "L": 17,
+      "k": "max",
+      "lo": null,
+      "mx": 8,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 5 t, her koli 1,5 t. Köprü sınırı 17 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 8 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 5 + 1,5x ≤ 17 → x ≤ 8,00"
+  },
+  {
+    "questionId": "mat8u8-problem-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "truck",
+    "prompt": "Boş kamyon 8 t, her koli 2,5 t. Köprü sınırı 25 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 8,
+      "w": 2.5,
+      "L": 25,
+      "k": "max",
+      "lo": null,
+      "mx": 6,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 8 t, her koli 2,5 t. Köprü sınırı 25 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 6 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 8 + 2,5x ≤ 25 → x ≤ 6,80"
+  },
+  {
+    "questionId": "mat8u8-problem-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "truck",
+    "prompt": "Boş kamyon 7 t, her koli 1,2 t. Köprü sınırı 19 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 7,
+      "w": 1.2,
+      "L": 19,
+      "k": "max",
+      "lo": null,
+      "mx": 10,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 7 t, her koli 1,2 t. Köprü sınırı 19 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 10 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 7 + 1,2x ≤ 19 → x ≤ 10,00"
+  },
+  {
+    "questionId": "mat8u8-problem-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "truck",
+    "prompt": "Boş kamyon 4 t, her koli 2 t. Köprü sınırı 20 t; kamyon en az 12 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "data": {
+      "m": 4,
+      "w": 2,
+      "L": 20,
+      "k": "range",
+      "lo": 12,
+      "mx": 8,
+      "mn": 4
+    },
+    "textPlain": "Boş kamyon 4 t, her koli 2 t. Köprü sınırı 20 t; kamyon en az 12 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "correctAnswer": "4 ile 8 koli arası",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 4 + 2x ≤ 20 → x ≤ 8,00"
+  },
+  {
+    "questionId": "mat8u8-problem-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "truck",
+    "prompt": "Boş kamyon 6 t, her koli 1,5 t. Köprü sınırı 24 t; kamyon en az 15 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "data": {
+      "m": 6,
+      "w": 1.5,
+      "L": 24,
+      "k": "range",
+      "lo": 15,
+      "mx": 12,
+      "mn": 6
+    },
+    "textPlain": "Boş kamyon 6 t, her koli 1,5 t. Köprü sınırı 24 t; kamyon en az 15 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "correctAnswer": "6 ile 12 koli arası",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 6 + 1,5x ≤ 24 → x ≤ 12,00"
+  },
+  {
+    "questionId": "mat8u8-problem-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "truck",
+    "prompt": "Boş kamyon 9 t, her koli 0,8 t. Köprü sınırı 18 t; kamyon en az 14 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "data": {
+      "m": 9,
+      "w": 0.8,
+      "L": 18,
+      "k": "range",
+      "lo": 14,
+      "mx": 11,
+      "mn": 7
+    },
+    "textPlain": "Boş kamyon 9 t, her koli 0,8 t. Köprü sınırı 18 t; kamyon en az 14 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "correctAnswer": "7 ile 11 koli arası",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 9 + 0,8x ≤ 18 → x ≤ 11,25"
+  },
+  {
+    "questionId": "mat8u8-problem-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Bir asansör en çok 600 kg taşıyor. Ortalama 75 kg olan kişilerden en çok kaç kişi binebilir?",
+    "data": {
+      "a": 8,
+      "u": "kişi"
+    },
+    "textPlain": "Bir asansör en çok 600 kg taşıyor. Ortalama 75 kg olan kişilerden en çok kaç kişi binebilir?",
+    "correctAnswer": "8 kişi",
+    "explanation": "75x ≤ 600 → x ≤ 8."
+  },
+  {
+    "questionId": "mat8u8-problem-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Bir okçunun 4 atıştaki ortalaması en az 70 puan olmalı. İlk üç atışı 60, 75, 65 puan ise dördüncü atıştan en az kaç puan almalı?",
+    "data": {
+      "a": 80,
+      "u": ""
+    },
+    "textPlain": "Bir okçunun 4 atıştaki ortalaması en az 70 puan olmalı. İlk üç atışı 60, 75, 65 puan ise dördüncü atıştan en az kaç puan almalı?",
+    "correctAnswer": "80",
+    "explanation": "(60 + 75 + 65 + x)/4 ≥ 70 → 200 + x ≥ 280 → x ≥ 80."
+  },
+  {
+    "questionId": "mat8u8-problem-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Cebinde 150 TL olan Ece, 18 TL’lik defterlerden en çok kaç tane alabilir?",
+    "data": {
+      "a": 8,
+      "u": "defter"
+    },
+    "textPlain": "Cebinde 150 TL olan Ece, 18 TL’lik defterlerden en çok kaç tane alabilir?",
+    "correctAnswer": "8 defter",
+    "explanation": "18x ≤ 150 → x ≤ 8,33; en çok 8."
+  },
+  {
+    "questionId": "mat8u8-problem-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Bir taksi açılışta 20 TL, her km için 8 TL alıyor. 140 TL’si olan biri en çok kaç km gidebilir (tam km)?",
+    "data": {
+      "a": 15,
+      "u": "km"
+    },
+    "textPlain": "Bir taksi açılışta 20 TL, her km için 8 TL alıyor. 140 TL’si olan biri en çok kaç km gidebilir (tam km)?",
+    "correctAnswer": "15 km",
+    "explanation": "20 + 8x ≤ 140 → 8x ≤ 120 → x ≤ 15."
+  },
+  {
+    "questionId": "mat8u8-problem-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Bir dikdörtgenin kısa kenarı 6 cm, uzun kenarı x cm. Çevresi en çok 40 cm ise x en çok kaçtır?",
+    "data": {
+      "a": 14,
+      "u": "cm"
+    },
+    "textPlain": "Bir dikdörtgenin kısa kenarı 6 cm, uzun kenarı x cm. Çevresi en çok 40 cm ise x en çok kaçtır?",
+    "correctAnswer": "14 cm",
+    "explanation": "2(6 + x) ≤ 40 → 6 + x ≤ 20 → x ≤ 14."
+  },
+  {
+    "questionId": "mat8u8-yazma-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "write",
+    "prompt": "Bir otobüs en çok 45 yolcu alabilir. x: yolcu sayısı. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir otobüs en çok 45 yolcu alabilir. x: yolcu sayısı.",
+      "c": [
+        [
+          "≤",
+          45
+        ]
+      ]
+    },
+    "textPlain": "Bir otobüs en çok 45 yolcu alabilir. x: yolcu sayısı. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≤ 45",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "yazma",
+    "rank": 1,
+    "type": "write",
+    "prompt": "Telefon, şarj %20’nin altına düşünce uyarı veriyor. Uyarı anındaki şarj x. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Telefon, şarj %20’nin altına düşünce uyarı veriyor. Uyarı anındaki şarj x.",
+      "c": [
+        [
+          "<",
+          20
+        ]
+      ]
+    },
+    "textPlain": "Telefon, şarj %20’nin altına düşünce uyarı veriyor. Uyarı anındaki şarj x. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x < 20",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "write",
+    "prompt": "Kaynamamış suyun sıcaklığı 100 °C’tan düşüktür. x: sıcaklık. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Kaynamamış suyun sıcaklığı 100 °C’tan düşüktür. x: sıcaklık.",
+      "c": [
+        [
+          "<",
+          100
+        ]
+      ]
+    },
+    "textPlain": "Kaynamamış suyun sıcaklığı 100 °C’tan düşüktür. x: sıcaklık. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x < 100",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "yazma",
+    "rank": 2,
+    "type": "write",
+    "prompt": "Bir öğrenci her gece en az 8 saat uyumalıdır. x: uyku süresi. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir öğrenci her gece en az 8 saat uyumalıdır. x: uyku süresi.",
+      "c": [
+        [
+          "≥",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Bir öğrenci her gece en az 8 saat uyumalıdır. x: uyku süresi. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x ≥ 8",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "yazma",
+    "rank": 3,
+    "type": "write",
+    "prompt": "Kütlesi 2 kg’dan fazla ama 5 kg’ı geçmeyen paketler özel kargoya gider. x: kütle. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Kütlesi 2 kg’dan fazla ama 5 kg’ı geçmeyen paketler özel kargoya gider. x: kütle.",
+      "c": [
+        [
+          ">",
+          2
+        ],
+        [
+          "≤",
+          5
+        ]
+      ]
+    },
+    "textPlain": "Kütlesi 2 kg’dan fazla ama 5 kg’ı geçmeyen paketler özel kargoya gider. x: kütle. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "2 < x ≤ 5",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır."
+  },
+  {
+    "questionId": "mat8u8-yazma-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Gerçek hayat durumlarına uygun eşitsizlik yazma",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat durumlarına uygun matematik cümleleri yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "yazma",
+    "rank": 3,
+    "type": "write",
+    "prompt": "Bir sayının 3 katının 4 fazlası 19’dan küçüktür. Çözülmüş hâlini kur. Durumu x ile eşitsizlik olarak kur.",
+    "data": {
+      "t": "Bir sayının 3 katının 4 fazlası 19’dan küçüktür. Çözülmüş hâlini kur.",
+      "c": [
+        [
+          "<",
+          5
+        ]
+      ]
+    },
+    "textPlain": "Bir sayının 3 katının 4 fazlası 19’dan küçüktür. Çözülmüş hâlini kur. Durumu x ile eşitsizlik olarak kur.",
+    "correctAnswer": "x < 5",
+    "explanation": "Gerçek hayattaki “en az” ifadesi ≥, “en çok / en fazla” ifadesi ≤, “-den fazla” >, “-den az” < ile yazılır. 3x + 4 < 19 → 3x < 15 → x < 5."
+  },
+  {
+    "questionId": "mat8u8-dogru-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nline",
+    "prompt": "x < −4 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir.",
+    "data": {
+      "c": [
+        [
+          "<",
+          -4
+        ]
+      ]
+    },
+    "textPlain": "x < −4 eşitsizliğini sayı doğrusunda göster: sınır noktasını sürükle, daireye dokunarak boş/dolu yap, oku yönlendir. Eşitsizlik: x < −4.",
+    "correctAnswer": "Gösterim: −4 boş daire, ok sola",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nline",
+    "prompt": "2 < x < 6 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap.",
+    "data": {
+      "c": [
+        [
+          ">",
+          2
+        ],
+        [
+          "<",
+          6
+        ]
+      ]
+    },
+    "textPlain": "2 < x < 6 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap. Eşitsizlik: 2 < x < 6.",
+    "correctAnswer": "Gösterim: 2 boş daire; 6 boş daire",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "dogru",
+    "rank": 1,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          "≤",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: 2 dolu daire, ok sola.",
+    "correctAnswer": "x ≤ 2",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-dogru-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "dogru",
+    "rank": 2,
+    "type": "nread",
+    "prompt": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç.",
+    "data": {
+      "c": [
+        [
+          ">",
+          -3
+        ],
+        [
+          "<",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Sayı doğrusundaki gösterimin eşitsizliğini kur: işareti ve sayıları seç. Gösterim: −3 boş daire; 1 boş daire.",
+    "correctAnswer": "−3 < x < 1",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-cozum-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "cozum",
+    "rank": 1,
+    "type": "isolve",
+    "prompt": "x − 5 ≥ 1 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 1,
+      "b": -5,
+      "o": "≥",
+      "c": 1,
+      "r": [
+        [
+          "≥",
+          6
+        ]
+      ]
+    },
+    "textPlain": "x − 5 ≥ 1 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: x − 5 ≥ 1.",
+    "correctAnswer": "x ≥ 6",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "isolve",
+    "prompt": "2x + 3 > −5 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": 2,
+      "b": 3,
+      "o": ">",
+      "c": -5,
+      "r": [
+        [
+          ">",
+          -4
+        ]
+      ]
+    },
+    "textPlain": "2x + 3 > −5 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: 2x + 3 > −5.",
+    "correctAnswer": "x > −4",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "isolve",
+    "prompt": "−5x ≤ 15 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": -5,
+      "b": 0,
+      "o": "≤",
+      "c": 15,
+      "r": [
+        [
+          "≥",
+          -3
+        ]
+      ]
+    },
+    "textPlain": "−5x ≤ 15 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: −5x ≤ 15.",
+    "correctAnswer": "x ≥ −3",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Burada negatif sayıya bölündüğü için yön değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "cozum",
+    "rank": 3,
+    "type": "isolve",
+    "prompt": "−2x − 7 < 3 eşitsizliğini terazide çöz, sonra çözümü kur.",
+    "data": {
+      "a": -2,
+      "b": -7,
+      "o": "<",
+      "c": 3,
+      "r": [
+        [
+          ">",
+          -5
+        ]
+      ]
+    },
+    "textPlain": "−2x − 7 < 3 eşitsizliğini terazide çöz, sonra çözümü kur. Eşitsizlik: −2x − 7 < 3.",
+    "correctAnswer": "x > −5",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir. Burada negatif sayıya bölündüğü için yön değişir."
+  },
+  {
+    "questionId": "mat8u8-cozum-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "key",
+    "prompt": "x/2 + 3 > 7 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "data": {
+      "a": 9,
+      "u": ""
+    },
+    "textPlain": "x/2 + 3 > 7 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "correctAnswer": "9",
+    "explanation": "x/2 > 4 → x > 8; en küçük tam sayı 9."
+  },
+  {
+    "questionId": "mat8u8-cozum-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "cozum",
+    "rank": 3,
+    "type": "key",
+    "prompt": "5 − 2x ≥ −7 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "data": {
+      "a": 6,
+      "u": ""
+    },
+    "textPlain": "5 − 2x ≥ −7 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "correctAnswer": "6",
+    "explanation": "−2x ≥ −12 → negatife bölünce yön değişir: x ≤ 6."
+  },
+  {
+    "questionId": "mat8u8-cozum-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "cozum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "İşlemleri eşitsizliğin yönüne etkisine göre ayır.",
+    "data": {
+      "L": [
+        "🔁 Yön değişir",
+        "➡️ Yön değişmez"
+      ],
+      "r": [
+        [
+          "İki tarafı −3 ile çarpmak",
+          0
+        ],
+        [
+          "İki tarafa 5 eklemek",
+          1
+        ],
+        [
+          "İki tarafı 4’e bölmek",
+          1
+        ],
+        [
+          "İki tarafı −1’e bölmek",
+          0
+        ],
+        [
+          "İki taraftan 7 çıkarmak",
+          1
+        ]
+      ]
+    },
+    "textPlain": "İşlemleri eşitsizliğin yönüne etkisine göre ayır. Bölmeler: Yön değişir, Yön değişmez. Kartlar: İki tarafı −3 ile çarpmak, İki tarafa 5 eklemek, İki tarafı 4’e bölmek, İki tarafı −1’e bölmek, İki taraftan 7 çıkarmak.",
+    "correctAnswer": "İki tarafı −3 ile çarpmak → Yön değişir | İki tarafa 5 eklemek → Yön değişmez | İki tarafı 4’e bölmek → Yön değişmez | İki tarafı −1’e bölmek → Yön değişir | İki taraftan 7 çıkarmak → Yön değişmez",
+    "explanation": "Eşitsizliğin iki tarafına aynı sayı eklenebilir, çıkarılabilir; pozitif sayıyla çarpılıp bölünebilir. Negatif bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü değişir."
+  },
+  {
+    "questionId": "mat8u8-kume-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "member",
+    "prompt": "x < 1 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "<",
+          1
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0
+      ]
+    },
+    "textPlain": "x < 1 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −6, −5, −4, −3, −2, −1, 0",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "kume",
+    "rank": 2,
+    "type": "member",
+    "prompt": "−2 ≤ x ≤ 2 eşitsizliğini sağlayan bütün tam sayılara dokun.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -2
+        ],
+        [
+          "≤",
+          2
+        ]
+      ],
+      "x": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "a": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "−2 ≤ x ≤ 2 eşitsizliğini sağlayan bütün tam sayılara dokun. Tam sayılar −6 ile 6 arası.",
+    "correctAnswer": "Çözüm: −2, −1, 0, 1, 2",
+    "explanation": "Eşitsizliği sağlayan tam sayılar, çözüm aralığındaki tam sayılardır; sınır sayısı yalnızca ≤ ya da ≥ varsa dahildir."
+  },
+  {
+    "questionId": "mat8u8-kume-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "kume",
+    "rank": 3,
+    "type": "imatch",
+    "prompt": "x < 4 eşitsizliğinin gösterimine dokun.",
+    "data": {
+      "o": [
+        [
+          [
+            ">",
+            4
+          ]
+        ],
+        [
+          [
+            "≤",
+            4
+          ]
+        ],
+        [
+          [
+            "<",
+            4
+          ]
+        ]
+      ],
+      "a": 2,
+      "c": [
+        [
+          "<",
+          4
+        ]
+      ]
+    },
+    "textPlain": "x < 4 eşitsizliğinin gösterimine dokun. Seçenekler: x < 4, x ≤ 4, x > 4 gösterimleri.",
+    "correctAnswer": "C gösterimi",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-kume-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "imatch",
+    "prompt": "x ≤ 0 eşitsizliğinin gösterimine dokun.",
+    "data": {
+      "o": [
+        [
+          [
+            "≥",
+            0
+          ]
+        ],
+        [
+          [
+            "≤",
+            0
+          ]
+        ],
+        [
+          [
+            "<",
+            0
+          ]
+        ]
+      ],
+      "a": 1,
+      "c": [
+        [
+          "≤",
+          0
+        ]
+      ]
+    },
+    "textPlain": "x ≤ 0 eşitsizliğinin gösterimine dokun. Seçenekler: x ≤ 0, x < 0, x ≥ 0 gösterimleri.",
+    "correctAnswer": "B gösterimi",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-kume-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "kume",
+    "rank": 1,
+    "type": "key",
+    "prompt": "0 < x < 5 eşitsizliğini sağlayan kaç tam sayı vardır?",
+    "data": {
+      "a": 4,
+      "u": ""
+    },
+    "textPlain": "0 < x < 5 eşitsizliğini sağlayan kaç tam sayı vardır?",
+    "correctAnswer": "4",
+    "explanation": "1, 2, 3, 4 → 4 tane."
+  },
+  {
+    "questionId": "mat8u8-kume-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliği sağlayan tam sayılar",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer ve çözümü sağlayan tam sayıları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "kume",
+    "rank": 3,
+    "type": "key",
+    "prompt": "−5 < x ≤ −1 eşitsizliğini sağlayan tam sayıların toplamı −k ise k kaçtır?",
+    "data": {
+      "a": 10,
+      "u": ""
+    },
+    "textPlain": "−5 < x ≤ −1 eşitsizliğini sağlayan tam sayıların toplamı −k ise k kaçtır?",
+    "correctAnswer": "10",
+    "explanation": "−4 + −3 + −2 + −1 = −10; k = 10."
+  },
+  {
+    "questionId": "mat8u8-problem-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "truck",
+    "prompt": "Boş kamyon 3 t, her koli 1 t. Köprü sınırı 9 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 3,
+      "w": 1,
+      "L": 9,
+      "k": "max",
+      "lo": null,
+      "mx": 6,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 3 t, her koli 1 t. Köprü sınırı 9 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 6 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 3 + 1x ≤ 9 → x ≤ 6,00"
+  },
+  {
+    "questionId": "mat8u8-problem-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "truck",
+    "prompt": "Boş kamyon 5 t, her koli 2 t. Köprü sınırı 21 t; kamyon en az 11 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "data": {
+      "m": 5,
+      "w": 2,
+      "L": 21,
+      "k": "range",
+      "lo": 11,
+      "mx": 8,
+      "mn": 3
+    },
+    "textPlain": "Boş kamyon 5 t, her koli 2 t. Köprü sınırı 21 t; kamyon en az 11 t yükle (toplam) yola çıkmalı. Koşulu sağlayan bir koli sayısı ayarla.",
+    "correctAnswer": "3 ile 8 koli arası",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 5 + 2x ≤ 21 → x ≤ 8,00"
+  },
+  {
+    "questionId": "mat8u8-problem-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "truck",
+    "prompt": "Boş kamyon 10 t, her koli 1,6 t. Köprü sınırı 30 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 10,
+      "w": 1.6,
+      "L": 30,
+      "k": "max",
+      "lo": null,
+      "mx": 12,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 10 t, her koli 1,6 t. Köprü sınırı 30 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 12 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 10 + 1,6x ≤ 30 → x ≤ 12,50"
+  },
+  {
+    "questionId": "mat8u8-problem-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Bir kutuya en fazla 12 kitap sığıyor. 50 kitap için en az kaç kutu gerekir?",
+    "data": {
+      "a": 5,
+      "u": "kutu"
+    },
+    "textPlain": "Bir kutuya en fazla 12 kitap sığıyor. 50 kitap için en az kaç kutu gerekir?",
+    "correctAnswer": "5 kutu",
+    "explanation": "12x ≥ 50 → x ≥ 4,17; en az 5 kutu."
+  },
+  {
+    "questionId": "mat8u8-problem-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Bir bilet 35 TL. 300 TL ile en çok kaç bilet alınabilir?",
+    "data": {
+      "a": 8,
+      "u": "bilet"
+    },
+    "textPlain": "Bir bilet 35 TL. 300 TL ile en çok kaç bilet alınabilir?",
+    "correctAnswer": "8 bilet",
+    "explanation": "35x ≤ 300 → x ≤ 8,57; en çok 8."
+  },
+  {
+    "questionId": "mat8u8-problem-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Havuzda 400 L su var ve dakikada 30 L su ekleniyor. En az 1000 L olması için en az kaç dakika geçmeli?",
+    "data": {
+      "a": 20,
+      "u": "dakika"
+    },
+    "textPlain": "Havuzda 400 L su var ve dakikada 30 L su ekleniyor. En az 1000 L olması için en az kaç dakika geçmeli?",
+    "correctAnswer": "20 dakika",
+    "explanation": "400 + 30x ≥ 1000 → 30x ≥ 600 → x ≥ 20."
+  },
+  {
+    "questionId": "mat8u8-dogru-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizlikleri sayı doğrusunda gösterme",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "zor",
+    "group": "dogru",
+    "rank": 3,
+    "type": "nline",
+    "prompt": "−4 ≤ x ≤ −1 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap.",
+    "data": {
+      "c": [
+        [
+          "≥",
+          -4
+        ],
+        [
+          "≤",
+          -1
+        ]
+      ]
+    },
+    "textPlain": "−4 ≤ x ≤ −1 eşitsizliğini sayı doğrusunda göster: iki sınır noktasını sürükle ve dairelere dokunarak boş/dolu yap. Eşitsizlik: −4 ≤ x ≤ −1.",
+    "correctAnswer": "Gösterim: −4 dolu daire; −1 dolu daire",
+    "explanation": "Sayı doğrusunda < ve > için boş daire (sayı dahil değil), ≤ ve ≥ için dolu daire (sayı dahil) kullanılır. x büyüktür ise ok sağa, küçüktür ise sola uzanır."
+  },
+  {
+    "questionId": "mat8u8-problem-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "8. Ünite: Eşitsizlikler",
+    "topic": "Eşitsizliklerle gerçek hayat problemleri",
+    "outcome": "Birinci dereceden bir bilinmeyenli eşitsizlik içeren gerçek hayat problemlerini çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 8. Ünite “Eşitsizlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "truck",
+    "prompt": "Boş kamyon 2 t, her koli 1,5 t. Köprü sınırı 14 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "data": {
+      "m": 2,
+      "w": 1.5,
+      "L": 14,
+      "k": "max",
+      "lo": null,
+      "mx": 8,
+      "mn": null
+    },
+    "textPlain": "Boş kamyon 2 t, her koli 1,5 t. Köprü sınırı 14 t. En çok kaç koli yüklenebilir? Koli sayısını ayarla.",
+    "correctAnswer": "En çok 8 koli",
+    "explanation": "Durum eşitsizliğe çevrilir: boş kütle + (koli sayısı × koli kütlesi) ≤ sınır. Çözülür ve tam sayı (koli sayısı) koşulu göz önüne alınır. 2 + 1,5x ≤ 14 → x ≤ 8,00"
+  }
+]
