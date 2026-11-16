@@ -1,0 +1,4293 @@
+[
+  {
+    "questionId": "fen8u1-olusum-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "olusum",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Kuzey Yarım Küre’de yazın başladığı günde Dünya nerededir? Dünya kartını yörüngedeki yerine sürükle.",
+    "data": {
+      "ask": "Kuzey Yarım Küre’de yazın başladığı günde Dünya nerededir? Dünya kartını yörüngedeki yerine sürükle.",
+      "tok": [
+        [
+          "🌍 Kuzey’de yaz başlıyor",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kuzey Yarım Küre’de yazın başladığı günde Dünya nerededir? Dünya kartını yörüngedeki yerine sürükle. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 🌍 Kuzey’de yaz başlıyor.",
+    "correctAnswer": "🌍 Kuzey’de yaz başlıyor → 21 Haziran konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "olusum",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Güney Yarım Küre’de yazın başladığı günde Dünya nerededir? Kartı yerine sürükle.",
+    "data": {
+      "ask": "Güney Yarım Küre’de yazın başladığı günde Dünya nerededir? Kartı yerine sürükle.",
+      "tok": [
+        [
+          "🌍 Güney’de yaz başlıyor",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’de yazın başladığı günde Dünya nerededir? Kartı yerine sürükle. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 🌍 Güney’de yaz başlıyor.",
+    "correctAnswer": "🌍 Güney’de yaz başlıyor → 21 Aralık konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "olusum",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Güneş ışınlarının Ekvator’a dik geldiği iki günü yörüngede yerine sürükle.",
+    "data": {
+      "ask": "Güneş ışınlarının Ekvator’a dik geldiği iki günü yörüngede yerine sürükle.",
+      "tok": [
+        [
+          "21 Mart",
+          1
+        ],
+        [
+          "23 Eylül",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Güneş ışınlarının Ekvator’a dik geldiği iki günü yörüngede yerine sürükle. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 21 Mart, 23 Eylül.",
+    "correctAnswer": "21 Mart → 21 Mart konumu; 23 Eylül → 23 Eylül konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "olusum",
+    "rank": 1,
+    "type": "orbit",
+    "prompt": "Dört tarihi Dünya’nın yörüngedeki konumlarına yerleştir.",
+    "data": {
+      "ask": "Dört tarihi Dünya’nın yörüngedeki konumlarına yerleştir.",
+      "tok": [
+        [
+          "21 Mart",
+          1
+        ],
+        [
+          "21 Haziran",
+          2
+        ],
+        [
+          "23 Eylül",
+          3
+        ],
+        [
+          "21 Aralık",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Dört tarihi Dünya’nın yörüngedeki konumlarına yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 21 Mart, 21 Haziran, 23 Eylül, 21 Aralık.",
+    "correctAnswer": "21 Mart → 21 Mart konumu; 21 Haziran → 21 Haziran konumu; 23 Eylül → 23 Eylül konumu; 21 Aralık → 21 Aralık konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Ankara’da öğle vakti çubuğun gölgesinin yılın en kısa olduğu gün Dünya nerededir?",
+    "data": {
+      "ask": "Ankara’da öğle vakti çubuğun gölgesinin yılın en kısa olduğu gün Dünya nerededir?",
+      "tok": [
+        [
+          "📏 En kısa gölge (Ankara)",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Ankara’da öğle vakti çubuğun gölgesinin yılın en kısa olduğu gün Dünya nerededir? Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 📏 En kısa gölge (Ankara).",
+    "correctAnswer": "📏 En kısa gölge (Ankara) → 21 Haziran konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Ankara’da öğle gölgesinin yılın en uzun olduğu gün Dünya nerededir?",
+    "data": {
+      "ask": "Ankara’da öğle gölgesinin yılın en uzun olduğu gün Dünya nerededir?",
+      "tok": [
+        [
+          "📏 En uzun gölge (Ankara)",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Ankara’da öğle gölgesinin yılın en uzun olduğu gün Dünya nerededir? Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 📏 En uzun gölge (Ankara).",
+    "correctAnswer": "📏 En uzun gölge (Ankara) → 21 Aralık konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Bir öğrenci Kuzey Yarım Küre’de öğle gölgesinin martan hazirana kadar sürekli kısaldığını görüyor. Bu iki tarihteki Dünya kartlarını yerine sürükle.",
+    "data": {
+      "ask": "Bir öğrenci Kuzey Yarım Küre’de öğle gölgesinin martan hazirana kadar sürekli kısaldığını görüyor. Bu iki tarihteki Dünya kartlarını yerine sürükle.",
+      "tok": [
+        [
+          "Mart ölçümü",
+          1
+        ],
+        [
+          "Haziran ölçümü",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Bir öğrenci Kuzey Yarım Küre’de öğle gölgesinin martan hazirana kadar sürekli kısaldığını görüyor. Bu iki tarihteki Dünya kartlarını yerine sürükle. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Mart ölçümü, Haziran ölçümü.",
+    "correctAnswer": "Mart ölçümü → 21 Mart konumu; Haziran ölçümü → 21 Haziran konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Arjantin’de (Güney Yarım Küre) en uzun gecenin yaşandığı günde Dünya nerededir?",
+    "data": {
+      "ask": "Arjantin’de (Güney Yarım Küre) en uzun gecenin yaşandığı günde Dünya nerededir?",
+      "tok": [
+        [
+          "🌙 Arjantin’de en uzun gece",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Arjantin’de (Güney Yarım Küre) en uzun gecenin yaşandığı günde Dünya nerededir? Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: 🌙 Arjantin’de en uzun gece.",
+    "correctAnswer": "🌙 Arjantin’de en uzun gece → 21 Haziran konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "olusum",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Avustralya’da kış başlarken ve Türkiye’de kış başlarken Dünya’nın konumlarını yerleştir.",
+    "data": {
+      "ask": "Avustralya’da kış başlarken ve Türkiye’de kış başlarken Dünya’nın konumlarını yerleştir.",
+      "tok": [
+        [
+          "Avustralya’da kış",
+          2
+        ],
+        [
+          "Türkiye’de kış",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Avustralya’da kış başlarken ve Türkiye’de kış başlarken Dünya’nın konumlarını yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Avustralya’da kış, Türkiye’de kış.",
+    "correctAnswer": "Avustralya’da kış → 21 Haziran konumu; Türkiye’de kış → 21 Aralık konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": "2019-S13"
+  },
+  {
+    "questionId": "fen8u1-gunduz-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Kuzey Yarım Küre’de yılın en uzun gündüzü ile Güney Yarım Küre’de yılın en uzun gündüzü hangi konumlarda yaşanır? Kartları yerleştir.",
+    "data": {
+      "ask": "Kuzey Yarım Küre’de yılın en uzun gündüzü ile Güney Yarım Küre’de yılın en uzun gündüzü hangi konumlarda yaşanır? Kartları yerleştir.",
+      "tok": [
+        [
+          "Kuzey’de en uzun gündüz",
+          2
+        ],
+        [
+          "Güney’de en uzun gündüz",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kuzey Yarım Küre’de yılın en uzun gündüzü ile Güney Yarım Küre’de yılın en uzun gündüzü hangi konumlarda yaşanır? Kartları yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Kuzey’de en uzun gündüz, Güney’de en uzun gündüz.",
+    "correctAnswer": "Kuzey’de en uzun gündüz → 21 Haziran konumu; Güney’de en uzun gündüz → 21 Aralık konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Kuzey Yarım Küre’de öğle gölgesi hazirandan eylüle kadar uzuyor, eylülden aralığa kadar da uzamaya devam ediyor. Gölgenin en kısa ve en uzun olduğu konumları yerleştir.",
+    "data": {
+      "ask": "Kuzey Yarım Küre’de öğle gölgesi hazirandan eylüle kadar uzuyor, eylülden aralığa kadar da uzamaya devam ediyor. Gölgenin en kısa ve en uzun olduğu konumları yerleştir.",
+      "tok": [
+        [
+          "En kısa gölge",
+          2
+        ],
+        [
+          "En uzun gölge",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kuzey Yarım Küre’de öğle gölgesi hazirandan eylüle kadar uzuyor, eylülden aralığa kadar da uzamaya devam ediyor. Gölgenin en kısa ve en uzun olduğu konumları yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: En kısa gölge, En uzun gölge.",
+    "correctAnswer": "En kısa gölge → 21 Haziran konumu; En uzun gölge → 21 Aralık konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Güney Yarım Küre’deki bir şehirde gündüzler kısalmaya başlıyor ve gece-gündüz eşitleniyor. Bu eşitlenme gününde Dünya nerededir?",
+    "data": {
+      "ask": "Güney Yarım Küre’deki bir şehirde gündüzler kısalmaya başlıyor ve gece-gündüz eşitleniyor. Bu eşitlenme gününde Dünya nerededir?",
+      "tok": [
+        [
+          "Güney’de gündüzler kısalırken eşitlik",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’deki bir şehirde gündüzler kısalmaya başlıyor ve gece-gündüz eşitleniyor. Bu eşitlenme gününde Dünya nerededir? Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Güney’de gündüzler kısalırken eşitlik.",
+    "correctAnswer": "Güney’de gündüzler kısalırken eşitlik → 21 Mart konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "olusum",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Güney Yarım Küre’de ilkbaharın ve sonbaharın başladığı günleri yörüngede yerine koy.",
+    "data": {
+      "ask": "Güney Yarım Küre’de ilkbaharın ve sonbaharın başladığı günleri yörüngede yerine koy.",
+      "tok": [
+        [
+          "Güney’de ilkbahar başlar",
+          3
+        ],
+        [
+          "Güney’de sonbahar başlar",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’de ilkbaharın ve sonbaharın başladığı günleri yörüngede yerine koy. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Güney’de ilkbahar başlar, Güney’de sonbahar başlar.",
+    "correctAnswer": "Güney’de ilkbahar başlar → 23 Eylül konumu; Güney’de sonbahar başlar → 21 Mart konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Türkiye’de gündüzlerin uzamaya başladığı gün ile kısalmaya başladığı günü yerleştir.",
+    "data": {
+      "ask": "Türkiye’de gündüzlerin uzamaya başladığı gün ile kısalmaya başladığı günü yerleştir.",
+      "tok": [
+        [
+          "Gündüzler uzamaya başlar",
+          0
+        ],
+        [
+          "Gündüzler kısalmaya başlar",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Türkiye’de gündüzlerin uzamaya başladığı gün ile kısalmaya başladığı günü yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Gündüzler uzamaya başlar, Gündüzler kısalmaya başlar.",
+    "correctAnswer": "Gündüzler uzamaya başlar → 21 Aralık konumu; Gündüzler kısalmaya başlar → 21 Haziran konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "golge",
+    "rank": 1,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K"
+      ],
+      "cond": [
+        [
+          "dik",
+          "K",
+          "haz"
+        ]
+      ],
+      "ct": [
+        "21 Haziran öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz)"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz). Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Yengeç Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "golge",
+    "rank": 1,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K"
+      ],
+      "cond": [
+        [
+          "dik",
+          "K",
+          "mar"
+        ]
+      ],
+      "ct": [
+        "21 Mart öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz)"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Mart öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz). Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Ekvator",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "sh>",
+          "K",
+          "L",
+          "haz"
+        ],
+        [
+          "hemi",
+          "K",
+          "Kuzey"
+        ],
+        [
+          "hemi",
+          "L",
+          "Kuzey"
+        ]
+      ],
+      "ct": [
+        "21 Haziran öğle vakti K’nin gölgesi L’ninkinden uzun",
+        "K Kuzey Yarım Küre’de",
+        "L Kuzey Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran öğle vakti K’nin gölgesi L’ninkinden uzun; K Kuzey Yarım Küre’de; L Kuzey Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → 60° Kuzey, L → 40° Kuzey",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "sh>",
+          "K",
+          "L",
+          "ara"
+        ],
+        [
+          "hemi",
+          "K",
+          "Güney"
+        ],
+        [
+          "hemi",
+          "L",
+          "Güney"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti K’nin gölgesi L’ninkinden uzun",
+        "K Güney Yarım Küre’de",
+        "L Güney Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti K’nin gölgesi L’ninkinden uzun; K Güney Yarım Küre’de; L Güney Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → 40° Güney, L → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "sh>",
+          "K",
+          "L",
+          "haz"
+        ],
+        [
+          "hemi",
+          "K",
+          "Güney"
+        ],
+        [
+          "hemi",
+          "L",
+          "Kuzey"
+        ],
+        [
+          "notdik",
+          "L"
+        ]
+      ],
+      "ct": [
+        "21 Haziran öğle vakti K’nin gölgesi L’ninkinden uzun",
+        "K Güney Yarım Küre’de",
+        "L Kuzey Yarım Küre’de",
+        "L şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran öğle vakti K’nin gölgesi L’ninkinden uzun; K Güney Yarım Küre’de; L Kuzey Yarım Küre’de; L şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Oğlak Dönencesi, L → 60° Kuzey",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "sh>",
+          "K",
+          "L",
+          "ara"
+        ],
+        [
+          "hemi",
+          "K",
+          "Kuzey"
+        ],
+        [
+          "day",
+          "L",
+          "eşit",
+          "ara"
+        ],
+        [
+          "notdik",
+          "K"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti K’nin gölgesi L’ninkinden uzun",
+        "K Kuzey Yarım Küre’de",
+        "21 Aralık günü L’de gündüz geceye eşit",
+        "K şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti K’nin gölgesi L’ninkinden uzun; K Kuzey Yarım Küre’de; 21 Aralık günü L’de gündüz geceye eşit; K şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → 60° Kuzey, L → Ekvator",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-isin-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "isin",
+    "rank": 1,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K"
+      ],
+      "cond": [
+        [
+          "dik",
+          "K",
+          "ara"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz)"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz). Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "M",
+        "N"
+      ],
+      "cond": [
+        [
+          "en>",
+          "M",
+          "N",
+          "ara"
+        ],
+        [
+          "hemi",
+          "M",
+          "Kuzey"
+        ],
+        [
+          "hemi",
+          "N",
+          "Kuzey"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti M’nin birim yüzeyine düşen enerji N’ninkinden fazla",
+        "M Kuzey Yarım Küre’de",
+        "N Kuzey Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti M’nin birim yüzeyine düşen enerji N’ninkinden fazla; M Kuzey Yarım Küre’de; N Kuzey Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: M → 40° Kuzey, N → 60° Kuzey",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2022-S9"
+  },
+  {
+    "questionId": "fen8u1-isin-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "M",
+        "N"
+      ],
+      "cond": [
+        [
+          "en>",
+          "M",
+          "N",
+          "haz"
+        ],
+        [
+          "hemi",
+          "M",
+          "Güney"
+        ],
+        [
+          "hemi",
+          "N",
+          "Güney"
+        ]
+      ],
+      "ct": [
+        "21 Haziran öğle vakti M’nin birim yüzeyine düşen enerji N’ninkinden fazla",
+        "M Güney Yarım Küre’de",
+        "N Güney Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran öğle vakti M’nin birim yüzeyine düşen enerji N’ninkinden fazla; M Güney Yarım Küre’de; N Güney Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: M → Oğlak Dönencesi, N → 40° Güney",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2022-S9"
+  },
+  {
+    "questionId": "fen8u1-isin-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "M",
+        "N"
+      ],
+      "cond": [
+        [
+          "en>",
+          "M",
+          "N",
+          "ara"
+        ],
+        [
+          "samed",
+          "M",
+          "N"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti M’nin birim yüzeyine düşen enerji N’ninkinden fazla",
+        "M ile N Ekvator’a eşit uzaklıkta ama farklı yarım kürede"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti M’nin birim yüzeyine düşen enerji N’ninkinden fazla; M ile N Ekvator’a eşit uzaklıkta ama farklı yarım kürede. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: M → Oğlak Dönencesi, N → Yengeç Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2022-S9"
+  },
+  {
+    "questionId": "fen8u1-isin-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "P",
+        "R"
+      ],
+      "cond": [
+        [
+          "en>",
+          "P",
+          "R",
+          "haz"
+        ],
+        [
+          "day",
+          "R",
+          "kısa",
+          "haz"
+        ],
+        [
+          "notdik",
+          "P"
+        ]
+      ],
+      "ct": [
+        "21 Haziran öğle vakti P’nin birim yüzeyine düşen enerji R’ninkinden fazla",
+        "21 Haziran günü R’de gündüz geceden kısa",
+        "P şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran öğle vakti P’nin birim yüzeyine düşen enerji R’ninkinden fazla; 21 Haziran günü R’de gündüz geceden kısa; P şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: P → 60° Kuzey, R → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2026-S8"
+  },
+  {
+    "questionId": "fen8u1-isin-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "P",
+        "R"
+      ],
+      "cond": [
+        [
+          "dik",
+          "R",
+          "ara"
+        ],
+        [
+          "en>",
+          "R",
+          "P",
+          "ara"
+        ],
+        [
+          "hemi",
+          "P",
+          "Kuzey"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti R’de ışınlar tam dik gelir (gölge oluşmaz)",
+        "21 Aralık öğle vakti R’nin birim yüzeyine düşen enerji P’ninkinden fazla",
+        "P Kuzey Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti R’de ışınlar tam dik gelir (gölge oluşmaz); 21 Aralık öğle vakti R’nin birim yüzeyine düşen enerji P’ninkinden fazla; P Kuzey Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: P → 60° Kuzey, R → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2026-S8"
+  },
+  {
+    "questionId": "fen8u1-gunduz-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K"
+      ],
+      "cond": [
+        [
+          "day",
+          "K",
+          "eşit",
+          "haz"
+        ]
+      ],
+      "ct": [
+        "21 Haziran günü K’de gündüz geceye eşit"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran günü K’de gündüz geceye eşit. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Ekvator",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "day",
+          "K",
+          "uzun",
+          "haz"
+        ],
+        [
+          "day",
+          "L",
+          "kısa",
+          "haz"
+        ]
+      ],
+      "ct": [
+        "21 Haziran günü K’de gündüz geceden uzun",
+        "21 Haziran günü L’de gündüz geceden kısa"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran günü K’de gündüz geceden uzun; 21 Haziran günü L’de gündüz geceden kısa. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → 60° Kuzey, L → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2021-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "samed",
+          "K",
+          "L"
+        ],
+        [
+          "day",
+          "K",
+          "uzun",
+          "ara"
+        ]
+      ],
+      "ct": [
+        "K ile L Ekvator’a eşit uzaklıkta ama farklı yarım kürede",
+        "21 Aralık günü K’de gündüz geceden uzun"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: K ile L Ekvator’a eşit uzaklıkta ama farklı yarım kürede; 21 Aralık günü K’de gündüz geceden uzun. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Oğlak Dönencesi, L → Yengeç Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2024-S9"
+  },
+  {
+    "questionId": "fen8u1-gunduz-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L",
+        "M"
+      ],
+      "cond": [
+        [
+          "day",
+          "K",
+          "uzun",
+          "ara"
+        ],
+        [
+          "day",
+          "L",
+          "eşit",
+          "ara"
+        ],
+        [
+          "day",
+          "M",
+          "kısa",
+          "ara"
+        ]
+      ],
+      "ct": [
+        "21 Aralık günü K’de gündüz geceden uzun",
+        "21 Aralık günü L’de gündüz geceye eşit",
+        "21 Aralık günü M’de gündüz geceden kısa"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık günü K’de gündüz geceden uzun; 21 Aralık günü L’de gündüz geceye eşit; 21 Aralık günü M’de gündüz geceden kısa. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Oğlak Dönencesi, L → Ekvator, M → 60° Kuzey",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "sh>",
+          "K",
+          "L",
+          "mar"
+        ],
+        [
+          "hemi",
+          "K",
+          "Güney"
+        ],
+        [
+          "hemi",
+          "L",
+          "Güney"
+        ]
+      ],
+      "ct": [
+        "21 Mart öğle vakti K’nin gölgesi L’ninkinden uzun",
+        "K Güney Yarım Küre’de",
+        "L Güney Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Mart öğle vakti K’nin gölgesi L’ninkinden uzun; K Güney Yarım Küre’de; L Güney Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → 40° Güney, L → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "golge",
+    "rank": 1,
+    "type": "curve",
+    "prompt": "Ankara (Kuzey Yarım Küre) için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "golge",
+      "lv": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Ankara (Kuzey Yarım Küre) için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Ankara (Kuzey Yarım Küre).",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 2, Mart 1, Haziran 0, Eylül 1, Aralık 2",
+    "explanation": "Işınlar dik geldikçe gölge kısalır. Kuzey Yarım Küre’de gölge 21 Haziran’da en kısa, 21 Aralık’ta en uzundur; 21 Mart ve 23 Eylül’de eşittir. Güney Yarım Küre’de bunun tersi olur.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "curve",
+    "prompt": "Arjantin’de bir şehir (Güney Yarım Küre) için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "golge",
+      "lv": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Arjantin’de bir şehir (Güney Yarım Küre) için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Arjantin’de bir şehir (Güney Yarım Küre).",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 0, Mart 1, Haziran 2, Eylül 1, Aralık 0",
+    "explanation": "Işınlar dik geldikçe gölge kısalır. Kuzey Yarım Küre’de gölge 21 Haziran’da en kısa, 21 Aralık’ta en uzundur; 21 Mart ve 23 Eylül’de eşittir. Güney Yarım Küre’de bunun tersi olur.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "curve",
+    "prompt": "Kuzeydeki bir şehir (60° Kuzey) için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "golge",
+      "lv": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kuzeydeki bir şehir (60° Kuzey) için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Kuzeydeki bir şehir (60° Kuzey).",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 2, Mart 1, Haziran 0, Eylül 1, Aralık 2",
+    "explanation": "Işınlar dik geldikçe gölge kısalır. Kuzey Yarım Küre’de gölge 21 Haziran’da en kısa, 21 Aralık’ta en uzundur; 21 Mart ve 23 Eylül’de eşittir. Güney Yarım Küre’de bunun tersi olur.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-isin-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "isin",
+    "rank": 1,
+    "type": "curve",
+    "prompt": "Türkiye’de bir şehir için yıl boyunca öğle vakti birim yüzeye düşen Güneş enerjisini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "isin",
+      "lv": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Türkiye’de bir şehir için yıl boyunca öğle vakti birim yüzeye düşen Güneş enerjisini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Türkiye’de bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 0, Mart 1, Haziran 2, Eylül 1, Aralık 0",
+    "explanation": "Işınlar dik geldikçe birim yüzeye düşen enerji artar. Kuzey Yarım Küre’de en fazla 21 Haziran’da, en az 21 Aralık’ta; Güney Yarım Küre’de tersidir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "curve",
+    "prompt": "Güney Yarım Küre’de bir şehir için yıl boyunca öğle vakti birim yüzeye düşen Güneş enerjisini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "isin",
+      "lv": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’de bir şehir için yıl boyunca öğle vakti birim yüzeye düşen Güneş enerjisini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Güney Yarım Küre’de bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 2, Mart 1, Haziran 0, Eylül 1, Aralık 2",
+    "explanation": "Işınlar dik geldikçe birim yüzeye düşen enerji artar. Kuzey Yarım Küre’de en fazla 21 Haziran’da, en az 21 Aralık’ta; Güney Yarım Küre’de tersidir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "curve",
+    "prompt": "Ekvator üzerindeki bir şehir için yıl boyunca öğle vakti birim yüzeye düşen Güneş enerjisini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "isin",
+      "lv": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "n": 2,
+      "sg": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Ekvator üzerindeki bir şehir için yıl boyunca öğle vakti birim yüzeye düşen Güneş enerjisini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Ekvator üzerindeki bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 0, Mart 1, Haziran 0, Eylül 1, Aralık 0",
+    "explanation": "Işınlar dik geldikçe birim yüzeye düşen enerji artar. Kuzey Yarım Küre’de en fazla 21 Haziran’da, en az 21 Aralık’ta; Güney Yarım Küre’de tersidir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "curve",
+    "prompt": "Kuzey Yarım Küre’de bir şehir için yıl boyunca gündüz süresini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "gunduz",
+      "lv": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "n": 3,
+      "sg": [
+        -1,
+        0,
+        1,
+        0,
+        -1
+      ]
+    },
+    "textPlain": "Kuzey Yarım Küre’de bir şehir için yıl boyunca gündüz süresini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Kuzey Yarım Küre’de bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 0, Mart 1, Haziran 2, Eylül 1, Aralık 0",
+    "explanation": "Kuzey Yarım Küre’de en uzun gündüz 21 Haziran, en kısa gündüz 21 Aralık’tadır; 21 Mart ve 23 Eylül’de gece ile gündüz eşittir. Güney Yarım Küre’de tersi yaşanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "curve",
+    "prompt": "Güney Yarım Küre’de bir şehir için yıl boyunca gündüz süresini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "gunduz",
+      "lv": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        0,
+        -1,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’de bir şehir için yıl boyunca gündüz süresini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Güney Yarım Küre’de bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 2, Mart 1, Haziran 0, Eylül 1, Aralık 2",
+    "explanation": "Kuzey Yarım Küre’de en uzun gündüz 21 Haziran, en kısa gündüz 21 Aralık’tadır; 21 Mart ve 23 Eylül’de gece ile gündüz eşittir. Güney Yarım Küre’de tersi yaşanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "curve",
+    "prompt": "Güney Yarım Küre’de 60° enlemindeki bir şehir için yıl boyunca gündüz süresini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "gunduz",
+      "lv": [
+        2,
+        1,
+        0,
+        1,
+        2
+      ],
+      "n": 3,
+      "sg": [
+        1,
+        0,
+        -1,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’de 60° enlemindeki bir şehir için yıl boyunca gündüz süresini gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Güney Yarım Küre’de 60° enlemindeki bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 2, Mart 1, Haziran 0, Eylül 1, Aralık 2",
+    "explanation": "Kuzey Yarım Küre’de en uzun gündüz 21 Haziran, en kısa gündüz 21 Aralık’tadır; 21 Mart ve 23 Eylül’de gece ile gündüz eşittir. Güney Yarım Küre’de tersi yaşanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "curve",
+    "prompt": "Ekvator üzerindeki bir şehir için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "golge",
+      "lv": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "n": 2,
+      "sg": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Ekvator üzerindeki bir şehir için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Ekvator üzerindeki bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 1, Mart 0, Haziran 1, Eylül 0, Aralık 1",
+    "explanation": "Işınlar dik geldikçe gölge kısalır. Kuzey Yarım Küre’de gölge 21 Haziran’da en kısa, 21 Aralık’ta en uzundur; 21 Mart ve 23 Eylül’de eşittir. Güney Yarım Küre’de bunun tersi olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "isin",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "21 Haziran günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala.",
+    "data": {
+      "k": "isin",
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          23.5
+        ],
+        [
+          "L",
+          60
+        ],
+        [
+          "M",
+          -40
+        ]
+      ],
+      "ord": [
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    "textPlain": "21 Haziran günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala. Şehirlerin yeri: K → Yengeç Dönencesi, L → 60° Kuzey, M → 40° Güney.",
+    "correctAnswer": "K > L > M",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2026-S8"
+  },
+  {
+    "questionId": "fen8u1-isin-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "isin",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "21 Mart günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala.",
+    "data": {
+      "k": "isin",
+      "date": "mar",
+      "c": [
+        [
+          "K",
+          0
+        ],
+        [
+          "L",
+          40
+        ],
+        [
+          "M",
+          60
+        ]
+      ],
+      "ord": [
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    "textPlain": "21 Mart günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala. Şehirlerin yeri: K → Ekvator, L → 40° Kuzey, M → 60° Kuzey.",
+    "correctAnswer": "K > L > M",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala.",
+    "data": {
+      "k": "isin",
+      "date": "ara",
+      "c": [
+        [
+          "P",
+          40
+        ],
+        [
+          "R",
+          -23.5
+        ],
+        [
+          "S",
+          0
+        ]
+      ],
+      "ord": [
+        "R",
+        "S",
+        "P"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala. Şehirlerin yeri: P → 40° Kuzey, R → Oğlak Dönencesi, S → Ekvator.",
+    "correctAnswer": "R > S > P",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2026-S8"
+  },
+  {
+    "questionId": "fen8u1-isin-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "23 Eylül günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala.",
+    "data": {
+      "k": "isin",
+      "date": "eyl",
+      "c": [
+        [
+          "P",
+          -60
+        ],
+        [
+          "R",
+          23.5
+        ],
+        [
+          "S",
+          0
+        ]
+      ],
+      "ord": [
+        "S",
+        "R",
+        "P"
+      ]
+    },
+    "textPlain": "23 Eylül günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala. Şehirlerin yeri: P → 60° Güney, R → Yengeç Dönencesi, S → Ekvator.",
+    "correctAnswer": "S > R > P",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "21 Haziran günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala.",
+    "data": {
+      "k": "isin",
+      "date": "haz",
+      "c": [
+        [
+          "P",
+          0
+        ],
+        [
+          "R",
+          40
+        ],
+        [
+          "S",
+          -23.5
+        ],
+        [
+          "K",
+          60
+        ]
+      ],
+      "ord": [
+        "R",
+        "P",
+        "K",
+        "S"
+      ]
+    },
+    "textPlain": "21 Haziran günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala. Şehirlerin yeri: P → Ekvator, R → 40° Kuzey, S → Oğlak Dönencesi, K → 60° Kuzey.",
+    "correctAnswer": "R > P > K > S",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2026-S8"
+  },
+  {
+    "questionId": "fen8u1-isin-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala.",
+    "data": {
+      "k": "isin",
+      "date": "ara",
+      "c": [
+        [
+          "P",
+          23.5
+        ],
+        [
+          "R",
+          -40
+        ],
+        [
+          "S",
+          0
+        ],
+        [
+          "K",
+          -60
+        ]
+      ],
+      "ord": [
+        "R",
+        "S",
+        "K",
+        "P"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri birim yüzeye düşen enerji en fazladan en aza sırala. Şehirlerin yeri: P → Yengeç Dönencesi, R → 40° Güney, S → Ekvator, K → 60° Güney.",
+    "correctAnswer": "R > S > K > P",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2026-S8"
+  },
+  {
+    "questionId": "fen8u1-golge-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "golge",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "21 Haziran günü şehirleri öğle gölgesi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "golge",
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          23.5
+        ],
+        [
+          "L",
+          40
+        ],
+        [
+          "M",
+          60
+        ]
+      ],
+      "ord": [
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    "textPlain": "21 Haziran günü şehirleri öğle gölgesi en uzundan en kısaya sırala. Şehirlerin yeri: K → Yengeç Dönencesi, L → 40° Kuzey, M → 60° Kuzey.",
+    "correctAnswer": "K > L > M",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri öğle gölgesi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "golge",
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          40
+        ],
+        [
+          "L",
+          -23.5
+        ],
+        [
+          "M",
+          0
+        ]
+      ],
+      "ord": [
+        "L",
+        "M",
+        "K"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri öğle gölgesi en uzundan en kısaya sırala. Şehirlerin yeri: K → 40° Kuzey, L → Oğlak Dönencesi, M → Ekvator.",
+    "correctAnswer": "L > M > K",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "21 Mart günü şehirleri öğle gölgesi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "golge",
+      "date": "mar",
+      "c": [
+        [
+          "K",
+          -40
+        ],
+        [
+          "L",
+          0
+        ],
+        [
+          "M",
+          60
+        ]
+      ],
+      "ord": [
+        "L",
+        "K",
+        "M"
+      ]
+    },
+    "textPlain": "21 Mart günü şehirleri öğle gölgesi en uzundan en kısaya sırala. Şehirlerin yeri: K → 40° Güney, L → Ekvator, M → 60° Kuzey.",
+    "correctAnswer": "L > K > M",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "21 Haziran günü şehirleri öğle gölgesi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "golge",
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          -23.5
+        ],
+        [
+          "L",
+          23.5
+        ],
+        [
+          "M",
+          0
+        ],
+        [
+          "N",
+          60
+        ]
+      ],
+      "ord": [
+        "L",
+        "M",
+        "N",
+        "K"
+      ]
+    },
+    "textPlain": "21 Haziran günü şehirleri öğle gölgesi en uzundan en kısaya sırala. Şehirlerin yeri: K → Oğlak Dönencesi, L → Yengeç Dönencesi, M → Ekvator, N → 60° Kuzey.",
+    "correctAnswer": "L > M > N > K",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "21 Haziran günü şehirleri gündüz süresi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "gunduz",
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          60
+        ],
+        [
+          "L",
+          0
+        ],
+        [
+          "M",
+          -40
+        ]
+      ],
+      "ord": [
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    "textPlain": "21 Haziran günü şehirleri gündüz süresi en uzundan en kısaya sırala. Şehirlerin yeri: K → 60° Kuzey, L → Ekvator, M → 40° Güney.",
+    "correctAnswer": "K > L > M",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri gündüz süresi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "gunduz",
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          60
+        ],
+        [
+          "L",
+          40
+        ],
+        [
+          "M",
+          -40
+        ]
+      ],
+      "ord": [
+        "M",
+        "L",
+        "K"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri gündüz süresi en uzundan en kısaya sırala. Şehirlerin yeri: K → 60° Kuzey, L → 40° Kuzey, M → 40° Güney.",
+    "correctAnswer": "M > L > K",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri gündüz süresi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "gunduz",
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          -60
+        ],
+        [
+          "L",
+          -23.5
+        ],
+        [
+          "M",
+          0
+        ],
+        [
+          "N",
+          40
+        ]
+      ],
+      "ord": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri gündüz süresi en uzundan en kısaya sırala. Şehirlerin yeri: K → 60° Güney, L → Oğlak Dönencesi, M → Ekvator, N → 40° Kuzey.",
+    "correctAnswer": "K > L > M > N",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "rank",
+    "prompt": "21 Haziran günü şehirleri gündüz süresi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "gunduz",
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          23.5
+        ],
+        [
+          "L",
+          -60
+        ],
+        [
+          "M",
+          40
+        ]
+      ],
+      "ord": [
+        "M",
+        "K",
+        "L"
+      ]
+    },
+    "textPlain": "21 Haziran günü şehirleri gündüz süresi en uzundan en kısaya sırala. Şehirlerin yeri: K → Yengeç Dönencesi, L → 60° Güney, M → 40° Kuzey.",
+    "correctAnswer": "M > K > L",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "day",
+    "prompt": "21 Haziran günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          40
+        ],
+        [
+          "L",
+          -40
+        ]
+      ],
+      "a": [
+        "uzun",
+        "kısa"
+      ]
+    },
+    "textPlain": "21 Haziran günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → 40° Kuzey, L → 40° Güney.",
+    "correctAnswer": "K: gündüz uzun, L: gündüz kısa",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "day",
+    "prompt": "21 Aralık günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          40
+        ],
+        [
+          "L",
+          0
+        ]
+      ],
+      "a": [
+        "kısa",
+        "eşit"
+      ]
+    },
+    "textPlain": "21 Aralık günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → 40° Kuzey, L → Ekvator.",
+    "correctAnswer": "K: gündüz kısa, L: gündüz geceye eşit",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "day",
+    "prompt": "21 Mart günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "mar",
+      "c": [
+        [
+          "K",
+          60
+        ],
+        [
+          "L",
+          -40
+        ]
+      ],
+      "a": [
+        "eşit",
+        "eşit"
+      ]
+    },
+    "textPlain": "21 Mart günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → 60° Kuzey, L → 40° Güney.",
+    "correctAnswer": "K: gündüz geceye eşit, L: gündüz geceye eşit",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "day",
+    "prompt": "21 Aralık günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          -23.5
+        ],
+        [
+          "L",
+          60
+        ],
+        [
+          "M",
+          0
+        ]
+      ],
+      "a": [
+        "uzun",
+        "kısa",
+        "eşit"
+      ]
+    },
+    "textPlain": "21 Aralık günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → Oğlak Dönencesi, L → 60° Kuzey, M → Ekvator.",
+    "correctAnswer": "K: gündüz uzun, L: gündüz kısa, M: gündüz geceye eşit",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "day",
+    "prompt": "23 Eylül günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "eyl",
+      "c": [
+        [
+          "K",
+          -60
+        ],
+        [
+          "L",
+          40
+        ],
+        [
+          "M",
+          0
+        ]
+      ],
+      "a": [
+        "eşit",
+        "eşit",
+        "eşit"
+      ]
+    },
+    "textPlain": "23 Eylül günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → 60° Güney, L → 40° Kuzey, M → Ekvator.",
+    "correctAnswer": "K: gündüz geceye eşit, L: gündüz geceye eşit, M: gündüz geceye eşit",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "day",
+    "prompt": "21 Haziran günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          0
+        ],
+        [
+          "L",
+          -60
+        ],
+        [
+          "M",
+          23.5
+        ]
+      ],
+      "a": [
+        "eşit",
+        "kısa",
+        "uzun"
+      ]
+    },
+    "textPlain": "21 Haziran günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → Ekvator, L → 60° Güney, M → Yengeç Dönencesi.",
+    "correctAnswer": "K: gündüz geceye eşit, L: gündüz kısa, M: gündüz uzun",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-022",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "day",
+    "prompt": "21 Aralık günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          40
+        ],
+        [
+          "L",
+          -40
+        ],
+        [
+          "M",
+          0
+        ],
+        [
+          "N",
+          -60
+        ]
+      ],
+      "a": [
+        "kısa",
+        "uzun",
+        "eşit",
+        "uzun"
+      ]
+    },
+    "textPlain": "21 Aralık günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → 40° Kuzey, L → 40° Güney, M → Ekvator, N → 60° Güney.",
+    "correctAnswer": "K: gündüz kısa, L: gündüz uzun, M: gündüz geceye eşit, N: gündüz uzun",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-023",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "day",
+    "prompt": "21 Haziran günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi?",
+    "data": {
+      "date": "haz",
+      "c": [
+        [
+          "K",
+          -23.5
+        ],
+        [
+          "L",
+          60
+        ],
+        [
+          "M",
+          0
+        ],
+        [
+          "N",
+          -40
+        ]
+      ],
+      "a": [
+        "kısa",
+        "uzun",
+        "eşit",
+        "kısa"
+      ]
+    },
+    "textPlain": "21 Haziran günü her şehrin gece-gündüz kadranını ayarla: gündüz geceden uzun mu, kısa mı, eşit mi? Şehirler: K → Oğlak Dönencesi, L → 60° Kuzey, M → Ekvator, N → 40° Güney.",
+    "correctAnswer": "K: gündüz kısa, L: gündüz uzun, M: gündüz geceye eşit, N: gündüz kısa",
+    "explanation": "Bir yarım küre Güneş’e doğru eğikken orada gündüzler geceden uzundur, diğer yarım kürede kısadır. Ekvator’da yıl boyunca, 21 Mart ve 23 Eylül’de ise her yerde gece ile gündüz yaklaşık eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-gunduz-024",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle.",
+    "data": {
+      "cols": [
+        "Oca",
+        "Tem"
+      ],
+      "rows": [
+        [
+          "K",
+          [
+            2,
+            26
+          ]
+        ],
+        [
+          "L",
+          [
+            25,
+            7
+          ]
+        ]
+      ],
+      "h": [
+        "Kuzey",
+        "Güney"
+      ],
+      "sm": null,
+      "sa": null
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle. Tablo (°C): K: Oca 2, Tem 26; L: Oca 25, Tem 7.",
+    "correctAnswer": "K: Kuzey Yarım Küre, L: Güney Yarım Küre",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2019-S13"
+  },
+  {
+    "questionId": "fen8u1-gunduz-025",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "gunduz",
+    "rank": 1,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle.",
+    "data": {
+      "cols": [
+        "Oca",
+        "Tem"
+      ],
+      "rows": [
+        [
+          "K",
+          [
+            26,
+            7
+          ]
+        ],
+        [
+          "L",
+          [
+            -2,
+            25
+          ]
+        ]
+      ],
+      "h": [
+        "Güney",
+        "Kuzey"
+      ],
+      "sm": null,
+      "sa": null
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle. Tablo (°C): K: Oca 26, Tem 7; L: Oca -2, Tem 25.",
+    "correctAnswer": "K: Güney Yarım Küre, L: Kuzey Yarım Küre",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2019-S13"
+  },
+  {
+    "questionId": "fen8u1-gunduz-026",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Temmuz ayında yaşanan mevsimi de seç.",
+    "data": {
+      "cols": [
+        "Oca",
+        "Mar",
+        "Haz",
+        "Tem",
+        "Eki",
+        "Ara"
+      ],
+      "rows": [
+        [
+          "K",
+          [
+            3,
+            6,
+            22,
+            26,
+            18,
+            7
+          ]
+        ],
+        [
+          "L",
+          [
+            9,
+            8,
+            2,
+            -1,
+            4,
+            7
+          ]
+        ]
+      ],
+      "h": [
+        "Kuzey",
+        "Güney"
+      ],
+      "sm": 6,
+      "sa": [
+        "Yaz",
+        "Kış"
+      ]
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Temmuz ayında yaşanan mevsimi de seç. Tablo (°C): K: Oca 3, Mar 6, Haz 22, Tem 26, Eki 18, Ara 7; L: Oca 9, Mar 8, Haz 2, Tem -1, Eki 4, Ara 7.",
+    "correctAnswer": "K: Kuzey Yarım Küre, Yaz, L: Güney Yarım Küre, Kış",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2025-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-027",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Ocak ayında yaşanan mevsimi de seç.",
+    "data": {
+      "cols": [
+        "Oca",
+        "Nis",
+        "Tem",
+        "Eki"
+      ],
+      "rows": [
+        [
+          "M",
+          [
+            25,
+            21,
+            11,
+            16
+          ]
+        ],
+        [
+          "N",
+          [
+            -4,
+            7,
+            24,
+            14
+          ]
+        ]
+      ],
+      "h": [
+        "Güney",
+        "Kuzey"
+      ],
+      "sm": 0,
+      "sa": [
+        "Yaz",
+        "Kış"
+      ]
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Ocak ayında yaşanan mevsimi de seç. Tablo (°C): M: Oca 25, Nis 21, Tem 11, Eki 16; N: Oca -4, Nis 7, Tem 24, Eki 14.",
+    "correctAnswer": "M: Güney Yarım Küre, Yaz, N: Kuzey Yarım Küre, Kış",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2025-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-028",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Ağustos ayında yaşanan mevsimi de seç.",
+    "data": {
+      "cols": [
+        "Oca",
+        "Mar",
+        "May",
+        "Tem",
+        "Eyl",
+        "Kas"
+      ],
+      "rows": [
+        [
+          "K",
+          [
+            6,
+            10,
+            19,
+            26,
+            23,
+            13
+          ]
+        ],
+        [
+          "L",
+          [
+            8,
+            6,
+            2,
+            -1,
+            -1,
+            4
+          ]
+        ],
+        [
+          "M",
+          [
+            28,
+            25,
+            18,
+            13,
+            16,
+            23
+          ]
+        ]
+      ],
+      "h": [
+        "Kuzey",
+        "Güney",
+        "Güney"
+      ],
+      "sm": 7,
+      "sa": [
+        "Yaz",
+        "Kış",
+        "Kış"
+      ]
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Ağustos ayında yaşanan mevsimi de seç. Tablo (°C): K: Oca 6, Mar 10, May 19, Tem 26, Eyl 23, Kas 13; L: Oca 8, Mar 6, May 2, Tem -1, Eyl -1, Kas 4; M: Oca 28, Mar 25, May 18, Tem 13, Eyl 16, Kas 23.",
+    "correctAnswer": "K: Kuzey Yarım Küre, Yaz, L: Güney Yarım Küre, Kış, M: Güney Yarım Küre, Kış",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2025-S10"
+  },
+  {
+    "questionId": "fen8u1-gunduz-029",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "gunduz",
+    "rank": 3,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Kasım ayında yaşanan mevsimi de seç.",
+    "data": {
+      "cols": [
+        "Şub",
+        "May",
+        "Ağu",
+        "Kas"
+      ],
+      "rows": [
+        [
+          "P",
+          [
+            24,
+            11,
+            4,
+            16
+          ]
+        ],
+        [
+          "R",
+          [
+            -6,
+            11,
+            22,
+            5
+          ]
+        ]
+      ],
+      "h": [
+        "Güney",
+        "Kuzey"
+      ],
+      "sm": 10,
+      "sa": [
+        "İlkbahar",
+        "Sonbahar"
+      ]
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Kasım ayında yaşanan mevsimi de seç. Tablo (°C): P: Şub 24, May 11, Ağu 4, Kas 16; R: Şub -6, May 11, Ağu 22, Kas 5.",
+    "correctAnswer": "P: Güney Yarım Küre, İlkbahar, R: Kuzey Yarım Küre, Sonbahar",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2019-S13"
+  },
+  {
+    "questionId": "fen8u1-gunduz-030",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Gece-gündüz süreleri, yarım küreler ve şehir verileriyle mevsim belirleme",
+    "outcome": "Yarım kürelerde yaşanan mevsimleri ve gece-gündüz sürelerini karşılaştırır; verilerden çıkarım yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "gunduz",
+    "rank": 2,
+    "type": "stamp",
+    "prompt": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Ocak ayında yaşanan mevsimi de seç.",
+    "data": {
+      "cols": [
+        "Oca",
+        "Tem"
+      ],
+      "rows": [
+        [
+          "K",
+          [
+            17,
+            5
+          ]
+        ],
+        [
+          "L",
+          [
+            7,
+            17
+          ]
+        ]
+      ],
+      "h": [
+        "Güney",
+        "Kuzey"
+      ],
+      "sm": 0,
+      "sa": [
+        "Yaz",
+        "Kış"
+      ]
+    },
+    "textPlain": "Tablodaki ortalama sıcaklıklara bakarak her şehrin bulunduğu yarım küreyi mühürle; Ocak ayında yaşanan mevsimi de seç. Tablo (°C): K: Oca 17, Tem 5; L: Oca 7, Tem 17.",
+    "correctAnswer": "K: Güney Yarım Küre, Yaz, L: Kuzey Yarım Küre, Kış",
+    "explanation": "Kuzey Yarım Küre’de haziran-ağustos en sıcak, aralık-şubat en soğuk aylardır; Güney Yarım Küre’de tersi görülür. Sıcaklığın arttığı ve azaldığı ayları karşılaştırarak yarım küre bulunur.",
+    "twin": "2019-S13"
+  },
+  {
+    "questionId": "fen8u1-olusum-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "olusum",
+    "rank": 1,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "K şehri Kuzey, L şehri Güney Yarım Küre’dedir.",
+        "Bugün 21 Haziran’dır."
+      ],
+      "r": [
+        [
+          "K’de yaz başlamıştır.",
+          true
+        ],
+        [
+          "L’de kış başlamıştır.",
+          true
+        ],
+        [
+          "K’de gündüz geceden kısadır.",
+          false
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: K şehri Kuzey, L şehri Güney Yarım Küre’dedir. Bugün 21 Haziran’dır. İfadeler: K’de yaz başlamıştır. | L’de kış başlamıştır. | K’de gündüz geceden kısadır.",
+    "correctAnswer": "K’de yaz başlamıştır. → Bilgilere göre doğru | L’de kış başlamıştır. → Bilgilere göre doğru | K’de gündüz geceden kısadır. → Yanlış ya da kesin değil",
+    "explanation": "Yarım küre ve tarih biliniyorsa mevsim belirlenebilir: 21 Haziran’da Kuzey’de yaz, Güney’de kış başlar.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "olusum",
+    "rank": 2,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "K ve L şehirlerinden biri Kuzey, diğeri Güney Yarım Küre’dedir.",
+        "Ekvator’a uzaklıkları bilinmiyor.",
+        "Hangi ay olduğu bilinmiyor; aynı gün K, L’den sıcaktır."
+      ],
+      "r": [
+        [
+          "K’de yaz yaşandığı kesindir.",
+          false
+        ],
+        [
+          "İki şehirde aynı mevsim yaşanıyordur.",
+          false
+        ],
+        [
+          "İki şehirde zıt mevsimler yaşanıyordur.",
+          true
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: K ve L şehirlerinden biri Kuzey, diğeri Güney Yarım Küre’dedir. Ekvator’a uzaklıkları bilinmiyor. Hangi ay olduğu bilinmiyor; aynı gün K, L’den sıcaktır. İfadeler: K’de yaz yaşandığı kesindir. | İki şehirde aynı mevsim yaşanıyordur. | İki şehirde zıt mevsimler yaşanıyordur.",
+    "correctAnswer": "K’de yaz yaşandığı kesindir. → Yanlış ya da kesin değil | İki şehirde aynı mevsim yaşanıyordur. → Yanlış ya da kesin değil | İki şehirde zıt mevsimler yaşanıyordur. → Bilgilere göre doğru",
+    "explanation": "Farklı yarım kürelerde aynı anda zıt mevsimler yaşanır; ama yalnızca sıcaklık karşılaştırması ve bilinmeyen uzaklıklarla hangi şehirde yaz olduğu kesinleşmez.",
+    "twin": "2021-S10"
+  },
+  {
+    "questionId": "fen8u1-olusum-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "olusum",
+    "rank": 2,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "K ve L aynı yükseltide, Ekvator’a eşit uzaklıktadır.",
+        "Bir gün ortalama sıcaklıkları eşit ölçülüyor."
+      ],
+      "r": [
+        [
+          "İki şehir aynı yarım kürede olabilir.",
+          true
+        ],
+        [
+          "İki şehir farklı yarım kürelerde olabilir.",
+          true
+        ],
+        [
+          "Işınların geliş açısı mutlaka farklıdır.",
+          false
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: K ve L aynı yükseltide, Ekvator’a eşit uzaklıktadır. Bir gün ortalama sıcaklıkları eşit ölçülüyor. İfadeler: İki şehir aynı yarım kürede olabilir. | İki şehir farklı yarım kürelerde olabilir. | Işınların geliş açısı mutlaka farklıdır.",
+    "correctAnswer": "İki şehir aynı yarım kürede olabilir. → Bilgilere göre doğru | İki şehir farklı yarım kürelerde olabilir. → Bilgilere göre doğru | Işınların geliş açısı mutlaka farklıdır. → Yanlış ya da kesin değil",
+    "explanation": "Ekvator’a eşit uzaklıktaki iki şehir aynı yarım kürede de olabilir, 21 Mart ya da 23 Eylül’de farklı yarım kürelerde de ışınları aynı açıyla alabilir.",
+    "twin": "2024-S9"
+  },
+  {
+    "questionId": "fen8u1-olusum-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "olusum",
+    "rank": 3,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "K şehri Güney Yarım Küre’dedir.",
+        "Ölçümün yapıldığı ay bilinmiyor.",
+        "K’de gündüz geceden uzun ölçülmüştür."
+      ],
+      "r": [
+        [
+          "K’de yaz ya da ilkbahar yaşanıyordur.",
+          true
+        ],
+        [
+          "Ölçüm 21 Haziran’da yapılmış olabilir.",
+          false
+        ],
+        [
+          "Aynı gün Kuzey Yarım Küre’de gündüzler geceden kısadır.",
+          true
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: K şehri Güney Yarım Küre’dedir. Ölçümün yapıldığı ay bilinmiyor. K’de gündüz geceden uzun ölçülmüştür. İfadeler: K’de yaz ya da ilkbahar yaşanıyordur. | Ölçüm 21 Haziran’da yapılmış olabilir. | Aynı gün Kuzey Yarım Küre’de gündüzler geceden kısadır.",
+    "correctAnswer": "K’de yaz ya da ilkbahar yaşanıyordur. → Bilgilere göre doğru | Ölçüm 21 Haziran’da yapılmış olabilir. → Yanlış ya da kesin değil | Aynı gün Kuzey Yarım Küre’de gündüzler geceden kısadır. → Bilgilere göre doğru",
+    "explanation": "Güney Yarım Küre’de gündüzlerin uzun olduğu dönem 23 Eylül’den 21 Mart’a kadardır (ilkbahar ve yaz); o dönemde Kuzey’de gündüzler kısadır.",
+    "twin": "2021-S10"
+  },
+  {
+    "questionId": "fen8u1-olusum-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "olusum",
+    "rank": 3,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "L şehri Kuzey Yarım Küre’dedir.",
+        "L’de öğle gölgesi her gün biraz daha uzuyor."
+      ],
+      "r": [
+        [
+          "Dünya 21 Haziran ile 21 Aralık arasındaki yolu izliyor olabilir.",
+          true
+        ],
+        [
+          "L’de gündüzler uzuyordur.",
+          false
+        ],
+        [
+          "L’de mevsim ilkbahar olabilir.",
+          false
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: L şehri Kuzey Yarım Küre’dedir. L’de öğle gölgesi her gün biraz daha uzuyor. İfadeler: Dünya 21 Haziran ile 21 Aralık arasındaki yolu izliyor olabilir. | L’de gündüzler uzuyordur. | L’de mevsim ilkbahar olabilir.",
+    "correctAnswer": "Dünya 21 Haziran ile 21 Aralık arasındaki yolu izliyor olabilir. → Bilgilere göre doğru | L’de gündüzler uzuyordur. → Yanlış ya da kesin değil | L’de mevsim ilkbahar olabilir. → Yanlış ya da kesin değil",
+    "explanation": "Kuzey’de gölgenin uzaması ışınların eğikleştiğini gösterir; bu 21 Haziran – 21 Aralık arasında olur (yaz sonu ve sonbahar). Bu dönemde gündüzler kısalır.",
+    "twin": "2020-S10"
+  },
+  {
+    "questionId": "fen8u1-olusum-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "olusum",
+    "rank": 1,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "Dünya’nın ekseni eğik olmasaydı ve Dünya yine Güneş etrafında dolansaydı…"
+      ],
+      "r": [
+        [
+          "Mevsimler oluşmazdı.",
+          true
+        ],
+        [
+          "Gece ve gündüz oluşmazdı.",
+          false
+        ],
+        [
+          "Bir yerdeki öğle gölgesi yıl boyunca aynı kalırdı.",
+          true
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: Dünya’nın ekseni eğik olmasaydı ve Dünya yine Güneş etrafında dolansaydı… İfadeler: Mevsimler oluşmazdı. | Gece ve gündüz oluşmazdı. | Bir yerdeki öğle gölgesi yıl boyunca aynı kalırdı.",
+    "correctAnswer": "Mevsimler oluşmazdı. → Bilgilere göre doğru | Gece ve gündüz oluşmazdı. → Yanlış ya da kesin değil | Bir yerdeki öğle gölgesi yıl boyunca aynı kalırdı. → Bilgilere göre doğru",
+    "explanation": "Mevsimler eksen eğikliği ve dolanma hareketiyle oluşur. Gece-gündüz ise Dünya’nın kendi ekseni etrafında dönmesiyle oluşur; eğiklik olmasa da sürer.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "olusum",
+    "rank": 2,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "Dünya Güneş’e en yakın konumundan ocak ayında geçer."
+      ],
+      "r": [
+        [
+          "Mevsimler Güneş’e uzaklık değiştiği için oluşur.",
+          false
+        ],
+        [
+          "Ocak ayında Kuzey Yarım Küre’de kış yaşanır.",
+          true
+        ],
+        [
+          "Güneş’e yakınlık mevsimlerin asıl sebebidir.",
+          false
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: Dünya Güneş’e en yakın konumundan ocak ayında geçer. İfadeler: Mevsimler Güneş’e uzaklık değiştiği için oluşur. | Ocak ayında Kuzey Yarım Küre’de kış yaşanır. | Güneş’e yakınlık mevsimlerin asıl sebebidir.",
+    "correctAnswer": "Mevsimler Güneş’e uzaklık değiştiği için oluşur. → Yanlış ya da kesin değil | Ocak ayında Kuzey Yarım Küre’de kış yaşanır. → Bilgilere göre doğru | Güneş’e yakınlık mevsimlerin asıl sebebidir. → Yanlış ya da kesin değil",
+    "explanation": "Ocakta Dünya Güneş’e en yakın olduğu hâlde Kuzey’de kış yaşanır; demek ki mevsimlerin sebebi uzaklık değil, eksen eğikliğidir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "iklim",
+    "rank": 2,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "Bir bölgede 30 yıllık ölçümlere göre yazlar sıcak ve kurak geçiyor.",
+        "Bu yıl temmuzda bir gün sağanak yağış ve sel oldu."
+      ],
+      "r": [
+        [
+          "Selin olması bölgenin ikliminin değiştiğini gösterir.",
+          false
+        ],
+        [
+          "Temmuzdaki sağanak bir hava olayıdır.",
+          true
+        ],
+        [
+          "Bölgenin iklimi “yazları sıcak ve kurak” diye tanımlanabilir.",
+          true
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: Bir bölgede 30 yıllık ölçümlere göre yazlar sıcak ve kurak geçiyor. Bu yıl temmuzda bir gün sağanak yağış ve sel oldu. İfadeler: Selin olması bölgenin ikliminin değiştiğini gösterir. | Temmuzdaki sağanak bir hava olayıdır. | Bölgenin iklimi “yazları sıcak ve kurak” diye tanımlanabilir.",
+    "correctAnswer": "Selin olması bölgenin ikliminin değiştiğini gösterir. → Yanlış ya da kesin değil | Temmuzdaki sağanak bir hava olayıdır. → Bilgilere göre doğru | Bölgenin iklimi “yazları sıcak ve kurak” diye tanımlanabilir. → Bilgilere göre doğru",
+    "explanation": "Tek bir günlük sağanak hava olayıdır; iklim uzun yılların ortalamasına göre belirlenir ve bir olayla değişmiş sayılmaz.",
+    "twin": "2020-S9"
+  },
+  {
+    "questionId": "fen8u1-iklim-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "iklim",
+    "rank": 3,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "İklim haritaları hazırlanırken çok sayıda ölçüm kullanılır."
+      ],
+      "r": [
+        [
+          "Uzun yıllar boyunca bütün aylarda yapılan ölçümlerin ortalaması en çok veriyi sağlar.",
+          true
+        ],
+        [
+          "Yalnızca yaz aylarının ölçümleri yeterlidir.",
+          false
+        ],
+        [
+          "Bir yılın yağmurlu gün sayısı iklimi belirler.",
+          false
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: İklim haritaları hazırlanırken çok sayıda ölçüm kullanılır. İfadeler: Uzun yıllar boyunca bütün aylarda yapılan ölçümlerin ortalaması en çok veriyi sağlar. | Yalnızca yaz aylarının ölçümleri yeterlidir. | Bir yılın yağmurlu gün sayısı iklimi belirler.",
+    "correctAnswer": "Uzun yıllar boyunca bütün aylarda yapılan ölçümlerin ortalaması en çok veriyi sağlar. → Bilgilere göre doğru | Yalnızca yaz aylarının ölçümleri yeterlidir. → Yanlış ya da kesin değil | Bir yılın yağmurlu gün sayısı iklimi belirler. → Yanlış ya da kesin değil",
+    "explanation": "İklim, uzun yıllar boyunca bütün mevsimlerde gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2021-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "iklim",
+    "rank": 1,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Yarın İzmir’de kuvvetli rüzgâr bekleniyor.",
+          0
+        ],
+        [
+          "Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ],
+        [
+          "Bu sabah Erzurum’da yoğun sis vardı.",
+          0
+        ],
+        [
+          "Karadeniz kıyılarında her mevsim yağış görülür.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Yarın İzmir’de kuvvetli rüzgâr bekleniyor. | Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. | Bu sabah Erzurum’da yoğun sis vardı. | Karadeniz kıyılarında her mevsim yağış görülür.",
+    "correctAnswer": "Yarın İzmir’de kuvvetli rüzgâr bekleniyor. → Hava olayı | Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim | Bu sabah Erzurum’da yoğun sis vardı. → Hava olayı | Karadeniz kıyılarında her mevsim yağış görülür. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "iklim",
+    "rank": 1,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Hafta sonu Ankara’da kar yağışı bekleniyor.",
+          0
+        ],
+        [
+          "İç Anadolu’da yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır.",
+          1
+        ],
+        [
+          "Dün akşam İstanbul’da dolu yağdı.",
+          0
+        ],
+        [
+          "Kutuplarda yıl boyunca sıcaklık düşüktür.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Hafta sonu Ankara’da kar yağışı bekleniyor. | İç Anadolu’da yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır. | Dün akşam İstanbul’da dolu yağdı. | Kutuplarda yıl boyunca sıcaklık düşüktür.",
+    "correctAnswer": "Hafta sonu Ankara’da kar yağışı bekleniyor. → Hava olayı | İç Anadolu’da yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır. → İklim | Dün akşam İstanbul’da dolu yağdı. → Hava olayı | Kutuplarda yıl boyunca sıcaklık düşüktür. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "iklim",
+    "rank": 1,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak.",
+          0
+        ],
+        [
+          "Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür.",
+          1
+        ],
+        [
+          "Bu sabah Erzurum’da yoğun sis vardı.",
+          0
+        ],
+        [
+          "İç Anadolu’da yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak. | Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür. | Bu sabah Erzurum’da yoğun sis vardı. | İç Anadolu’da yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır.",
+    "correctAnswer": "Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak. → Hava olayı | Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür. → İklim | Bu sabah Erzurum’da yoğun sis vardı. → Hava olayı | İç Anadolu’da yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlıdır. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "iklim",
+    "rank": 1,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Öğleden sonra kısa süreli sağanak yağış görüldü.",
+          0
+        ],
+        [
+          "Kutuplarda yıl boyunca sıcaklık düşüktür.",
+          1
+        ],
+        [
+          "Hafta sonu Ankara’da kar yağışı bekleniyor.",
+          0
+        ],
+        [
+          "Karadeniz kıyılarında her mevsim yağış görülür.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Öğleden sonra kısa süreli sağanak yağış görüldü. | Kutuplarda yıl boyunca sıcaklık düşüktür. | Hafta sonu Ankara’da kar yağışı bekleniyor. | Karadeniz kıyılarında her mevsim yağış görülür.",
+    "correctAnswer": "Öğleden sonra kısa süreli sağanak yağış görüldü. → Hava olayı | Kutuplarda yıl boyunca sıcaklık düşüktür. → İklim | Hafta sonu Ankara’da kar yağışı bekleniyor. → Hava olayı | Karadeniz kıyılarında her mevsim yağış görülür. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "iklim",
+    "rank": 2,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Bu yılın kış aylarında kar yağışı az oldu.",
+          0
+        ],
+        [
+          "Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ],
+        [
+          "Bir hafta boyunca şiddetli rüzgâr bekleniyor.",
+          0
+        ],
+        [
+          "Çöllerde yıllık yağış miktarı çok azdır.",
+          1
+        ],
+        [
+          "Yarın İzmir’de kuvvetli rüzgâr bekleniyor.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Bu yılın kış aylarında kar yağışı az oldu. | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. | Bir hafta boyunca şiddetli rüzgâr bekleniyor. | Çöllerde yıllık yağış miktarı çok azdır. | Yarın İzmir’de kuvvetli rüzgâr bekleniyor.",
+    "correctAnswer": "Bu yılın kış aylarında kar yağışı az oldu. → Hava olayı | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim | Bir hafta boyunca şiddetli rüzgâr bekleniyor. → Hava olayı | Çöllerde yıllık yağış miktarı çok azdır. → İklim | Yarın İzmir’de kuvvetli rüzgâr bekleniyor. → Hava olayı",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "iklim",
+    "rank": 2,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Öğleden sonra kısa süreli sağanak yağış görüldü.",
+          0
+        ],
+        [
+          "Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur.",
+          1
+        ],
+        [
+          "Dün akşam İstanbul’da dolu yağdı.",
+          0
+        ],
+        [
+          "Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür.",
+          1
+        ],
+        [
+          "Bu yılın kış aylarında kar yağışı az oldu.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Öğleden sonra kısa süreli sağanak yağış görüldü. | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. | Dün akşam İstanbul’da dolu yağdı. | Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür. | Bu yılın kış aylarında kar yağışı az oldu.",
+    "correctAnswer": "Öğleden sonra kısa süreli sağanak yağış görüldü. → Hava olayı | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. → İklim | Dün akşam İstanbul’da dolu yağdı. → Hava olayı | Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür. → İklim | Bu yılın kış aylarında kar yağışı az oldu. → Hava olayı",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "iklim",
+    "rank": 2,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ],
+        [
+          "Hafta sonu Ankara’da kar yağışı bekleniyor.",
+          0
+        ],
+        [
+          "Bir hafta boyunca şiddetli rüzgâr bekleniyor.",
+          0
+        ],
+        [
+          "Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur.",
+          1
+        ],
+        [
+          "Çöllerde yıllık yağış miktarı çok azdır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. | Hafta sonu Ankara’da kar yağışı bekleniyor. | Bir hafta boyunca şiddetli rüzgâr bekleniyor. | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. | Çöllerde yıllık yağış miktarı çok azdır.",
+    "correctAnswer": "Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim | Hafta sonu Ankara’da kar yağışı bekleniyor. → Hava olayı | Bir hafta boyunca şiddetli rüzgâr bekleniyor. → Hava olayı | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. → İklim | Çöllerde yıllık yağış miktarı çok azdır. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "iklim",
+    "rank": 2,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Bu sabah Erzurum’da yoğun sis vardı.",
+          0
+        ],
+        [
+          "Kutuplarda yıl boyunca sıcaklık düşüktür.",
+          1
+        ],
+        [
+          "Bu yılın kış aylarında kar yağışı az oldu.",
+          0
+        ],
+        [
+          "Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ],
+        [
+          "Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Bu sabah Erzurum’da yoğun sis vardı. | Kutuplarda yıl boyunca sıcaklık düşüktür. | Bu yılın kış aylarında kar yağışı az oldu. | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. | Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak.",
+    "correctAnswer": "Bu sabah Erzurum’da yoğun sis vardı. → Hava olayı | Kutuplarda yıl boyunca sıcaklık düşüktür. → İklim | Bu yılın kış aylarında kar yağışı az oldu. → Hava olayı | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim | Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak. → Hava olayı",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "iklim",
+    "rank": 3,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Bu yılın kış aylarında kar yağışı az oldu.",
+          0
+        ],
+        [
+          "Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ],
+        [
+          "Bir hafta boyunca şiddetli rüzgâr bekleniyor.",
+          0
+        ],
+        [
+          "Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur.",
+          1
+        ],
+        [
+          "Öğleden sonra kısa süreli sağanak yağış görüldü.",
+          0
+        ],
+        [
+          "Çöllerde yıllık yağış miktarı çok azdır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Bu yılın kış aylarında kar yağışı az oldu. | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. | Bir hafta boyunca şiddetli rüzgâr bekleniyor. | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. | Öğleden sonra kısa süreli sağanak yağış görüldü. | Çöllerde yıllık yağış miktarı çok azdır.",
+    "correctAnswer": "Bu yılın kış aylarında kar yağışı az oldu. → Hava olayı | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim | Bir hafta boyunca şiddetli rüzgâr bekleniyor. → Hava olayı | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. → İklim | Öğleden sonra kısa süreli sağanak yağış görüldü. → Hava olayı | Çöllerde yıllık yağış miktarı çok azdır. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "iklim",
+    "rank": 3,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Yarın İzmir’de kuvvetli rüzgâr bekleniyor.",
+          0
+        ],
+        [
+          "Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur.",
+          1
+        ],
+        [
+          "Bu yılın kış aylarında kar yağışı az oldu.",
+          0
+        ],
+        [
+          "Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ],
+        [
+          "Dün akşam İstanbul’da dolu yağdı.",
+          0
+        ],
+        [
+          "Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Yarın İzmir’de kuvvetli rüzgâr bekleniyor. | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. | Bu yılın kış aylarında kar yağışı az oldu. | Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. | Dün akşam İstanbul’da dolu yağdı. | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır.",
+    "correctAnswer": "Yarın İzmir’de kuvvetli rüzgâr bekleniyor. → Hava olayı | Bu bölgede 40 yıllık ölçümlere göre en sıcak ay temmuzdur. → İklim | Bu yılın kış aylarında kar yağışı az oldu. → Hava olayı | Akdeniz kıyılarında yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim | Dün akşam İstanbul’da dolu yağdı. → Hava olayı | Yaşadığım yerde yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  },
+  {
+    "questionId": "fen8u1-iklim-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "iklim",
+    "rank": 1,
+    "type": "news",
+    "prompt": "Görev kartlarını doğru uzmana gönder: kısa süreli hava olaylarıyla meteorolog, uzun yılların verileriyle iklim bilimci ilgilenir.",
+    "data": {
+      "r": [
+        [
+          "Yarın için yağış tahmini yapmak",
+          0
+        ],
+        [
+          "100 yıllık sıcaklık kayıtlarını incelemek",
+          1
+        ],
+        [
+          "Hava radarında yaklaşan fırtınayı izlemek",
+          0
+        ],
+        [
+          "Bir bölgenin iklim haritasını çizmek",
+          1
+        ]
+      ],
+      "L": [
+        "🌦️ Meteorolog",
+        "📚 İklim bilimci"
+      ]
+    },
+    "textPlain": "Görev kartlarını doğru uzmana gönder: kısa süreli hava olaylarıyla meteorolog, uzun yılların verileriyle iklim bilimci ilgilenir. Kartlar: Yarın için yağış tahmini yapmak | 100 yıllık sıcaklık kayıtlarını incelemek | Hava radarında yaklaşan fırtınayı izlemek | Bir bölgenin iklim haritasını çizmek",
+    "correctAnswer": "Yarın için yağış tahmini yapmak → Meteorolog | 100 yıllık sıcaklık kayıtlarını incelemek → İklim bilimci (klimatolog) | Hava radarında yaklaşan fırtınayı izlemek → Meteorolog | Bir bölgenin iklim haritasını çizmek → İklim bilimci (klimatolog)",
+    "explanation": "Meteoroloji kısa süreli hava olaylarını inceler ve tahmin eder. İklim bilimi (klimatoloji) ise uzun yıllara ait verilerle iklimi inceler; bu alandaki uzmanlara iklim bilimci (klimatolog) denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "iklim",
+    "rank": 2,
+    "type": "news",
+    "prompt": "Görev kartlarını doğru uzmana gönder: kısa süreli hava olaylarıyla meteorolog, uzun yılların verileriyle iklim bilimci ilgilenir.",
+    "data": {
+      "r": [
+        [
+          "Uzun yıllardaki yağış ortalamasını hesaplamak",
+          1
+        ],
+        [
+          "Hafta sonu hava durumunu duyurmak",
+          0
+        ],
+        [
+          "Son 50 yılda ortalama sıcaklığın değişimini yorumlamak",
+          1
+        ],
+        [
+          "Uçuş öncesi pilotlara rüzgâr bilgisi vermek",
+          0
+        ]
+      ],
+      "L": [
+        "🌦️ Meteorolog",
+        "📚 İklim bilimci"
+      ]
+    },
+    "textPlain": "Görev kartlarını doğru uzmana gönder: kısa süreli hava olaylarıyla meteorolog, uzun yılların verileriyle iklim bilimci ilgilenir. Kartlar: Uzun yıllardaki yağış ortalamasını hesaplamak | Hafta sonu hava durumunu duyurmak | Son 50 yılda ortalama sıcaklığın değişimini yorumlamak | Uçuş öncesi pilotlara rüzgâr bilgisi vermek",
+    "correctAnswer": "Uzun yıllardaki yağış ortalamasını hesaplamak → İklim bilimci (klimatolog) | Hafta sonu hava durumunu duyurmak → Meteorolog | Son 50 yılda ortalama sıcaklığın değişimini yorumlamak → İklim bilimci (klimatolog) | Uçuş öncesi pilotlara rüzgâr bilgisi vermek → Meteorolog",
+    "explanation": "Meteoroloji kısa süreli hava olaylarını inceler ve tahmin eder. İklim bilimi (klimatoloji) ise uzun yıllara ait verilerle iklimi inceler; bu alandaki uzmanlara iklim bilimci (klimatolog) denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "iklim",
+    "rank": 3,
+    "type": "news",
+    "prompt": "Görev kartlarını doğru uzmana gönder: kısa süreli hava olaylarıyla meteorolog, uzun yılların verileriyle iklim bilimci ilgilenir.",
+    "data": {
+      "r": [
+        [
+          "Yarın için yağış tahmini yapmak",
+          0
+        ],
+        [
+          "Bir bölgenin iklim haritasını çizmek",
+          1
+        ],
+        [
+          "Uzun yıllardaki yağış ortalamasını hesaplamak",
+          1
+        ],
+        [
+          "Son 50 yılda ortalama sıcaklığın değişimini yorumlamak",
+          1
+        ],
+        [
+          "Uçuş öncesi pilotlara rüzgâr bilgisi vermek",
+          0
+        ],
+        [
+          "Hava radarında yaklaşan fırtınayı izlemek",
+          0
+        ]
+      ],
+      "L": [
+        "🌦️ Meteorolog",
+        "📚 İklim bilimci"
+      ]
+    },
+    "textPlain": "Görev kartlarını doğru uzmana gönder: kısa süreli hava olaylarıyla meteorolog, uzun yılların verileriyle iklim bilimci ilgilenir. Kartlar: Yarın için yağış tahmini yapmak | Bir bölgenin iklim haritasını çizmek | Uzun yıllardaki yağış ortalamasını hesaplamak | Son 50 yılda ortalama sıcaklığın değişimini yorumlamak | Uçuş öncesi pilotlara rüzgâr bilgisi vermek | Hava radarında yaklaşan fırtınayı izlemek",
+    "correctAnswer": "Yarın için yağış tahmini yapmak → Meteorolog | Bir bölgenin iklim haritasını çizmek → İklim bilimci (klimatolog) | Uzun yıllardaki yağış ortalamasını hesaplamak → İklim bilimci (klimatolog) | Son 50 yılda ortalama sıcaklığın değişimini yorumlamak → İklim bilimci (klimatolog) | Uçuş öncesi pilotlara rüzgâr bilgisi vermek → Meteorolog | Hava radarında yaklaşan fırtınayı izlemek → Meteorolog",
+    "explanation": "Meteoroloji kısa süreli hava olaylarını inceler ve tahmin eder. İklim bilimi (klimatoloji) ise uzun yıllara ait verilerle iklimi inceler; bu alandaki uzmanlara iklim bilimci (klimatolog) denir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "isin",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Feneri öyle ayarla ki aydınlanan alan en küçük, birim alana düşen ışık en fazla olsun.",
+    "data": {
+      "w": [
+        "dik"
+      ]
+    },
+    "textPlain": "Feneri öyle ayarla ki aydınlanan alan en küçük, birim alana düşen ışık en fazla olsun. Fenerin açısı 20° ile 90° arasında ayarlanabilir; aydınlanan alan ve birim alana düşen ışık ölçülür.",
+    "correctAnswer": "Fener 80°–90° arasında: ışık yere dik gelir",
+    "explanation": "Aynı fenerin ışığı yüzeye dik geldiğinde dar bir alana yayılır; birim alana düşen ışık (enerji) en fazladır. Işık eğik geldikçe daha geniş alana yayılır ve birim alana düşen enerji azalır. Mevsimlerde de durum budur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "isin",
+    "rank": 1,
+    "type": "lens",
+    "prompt": "Feneri öyle ayarla ki ışık en geniş alana yayılsın, birim alana düşen ışık en az olsun.",
+    "data": {
+      "w": [
+        "egik"
+      ]
+    },
+    "textPlain": "Feneri öyle ayarla ki ışık en geniş alana yayılsın, birim alana düşen ışık en az olsun. Fenerin açısı 20° ile 90° arasında ayarlanabilir; aydınlanan alan ve birim alana düşen ışık ölçülür.",
+    "correctAnswer": "Fener 20°–35° arasında: ışık yere eğik gelir",
+    "explanation": "Aynı fenerin ışığı yüzeye dik geldiğinde dar bir alana yayılır; birim alana düşen ışık (enerji) en fazladır. Işık eğik geldikçe daha geniş alana yayılır ve birim alana düşen enerji azalır. Mevsimlerde de durum budur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Fener Güneş, masa da yeryüzü olsun. 21 Haziran’da Yengeç Dönencesi’ndeki öğle ışığını modelle.",
+    "data": {
+      "w": [
+        "dik"
+      ]
+    },
+    "textPlain": "Fener Güneş, masa da yeryüzü olsun. 21 Haziran’da Yengeç Dönencesi’ndeki öğle ışığını modelle. Fenerin açısı 20° ile 90° arasında ayarlanabilir; aydınlanan alan ve birim alana düşen ışık ölçülür.",
+    "correctAnswer": "Fener 80°–90° arasında: ışık yere dik gelir",
+    "explanation": "Aynı fenerin ışığı yüzeye dik geldiğinde dar bir alana yayılır; birim alana düşen ışık (enerji) en fazladır. Işık eğik geldikçe daha geniş alana yayılır ve birim alana düşen enerji azalır. Mevsimlerde de durum budur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "isin",
+    "rank": 2,
+    "type": "lens",
+    "prompt": "Fener Güneş olsun. 21 Haziran’da 60° Güney’deki öğle ışığını modelle.",
+    "data": {
+      "w": [
+        "egik"
+      ]
+    },
+    "textPlain": "Fener Güneş olsun. 21 Haziran’da 60° Güney’deki öğle ışığını modelle. Fenerin açısı 20° ile 90° arasında ayarlanabilir; aydınlanan alan ve birim alana düşen ışık ölçülür.",
+    "correctAnswer": "Fener 20°–35° arasında: ışık yere eğik gelir",
+    "explanation": "Aynı fenerin ışığı yüzeye dik geldiğinde dar bir alana yayılır; birim alana düşen ışık (enerji) en fazladır. Işık eğik geldikçe daha geniş alana yayılır ve birim alana düşen enerji azalır. Mevsimlerde de durum budur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "Kış ortasında Kuzey Yarım Küre’de öğle Güneş’inin ışığını modelle: aynı ışık daha geniş alana yayılmalı.",
+    "data": {
+      "w": [
+        "egik"
+      ]
+    },
+    "textPlain": "Kış ortasında Kuzey Yarım Küre’de öğle Güneş’inin ışığını modelle: aynı ışık daha geniş alana yayılmalı. Fenerin açısı 20° ile 90° arasında ayarlanabilir; aydınlanan alan ve birim alana düşen ışık ölçülür.",
+    "correctAnswer": "Fener 20°–35° arasında: ışık yere eğik gelir",
+    "explanation": "Aynı fenerin ışığı yüzeye dik geldiğinde dar bir alana yayılır; birim alana düşen ışık (enerji) en fazladır. Işık eğik geldikçe daha geniş alana yayılır ve birim alana düşen enerji azalır. Mevsimlerde de durum budur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-isin-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Güneş ışınlarının geliş açısı ve birim yüzeye düşen enerji",
+    "outcome": "Güneş ışınlarının geliş açısı ile birim yüzeye düşen enerji miktarı arasındaki ilişkiyi açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "isin",
+    "rank": 3,
+    "type": "lens",
+    "prompt": "21 Mart’ta Ekvator’daki öğle ışığını modelle.",
+    "data": {
+      "w": [
+        "dik"
+      ]
+    },
+    "textPlain": "21 Mart’ta Ekvator’daki öğle ışığını modelle. Fenerin açısı 20° ile 90° arasında ayarlanabilir; aydınlanan alan ve birim alana düşen ışık ölçülür.",
+    "correctAnswer": "Fener 80°–90° arasında: ışık yere dik gelir",
+    "explanation": "Aynı fenerin ışığı yüzeye dik geldiğinde dar bir alana yayılır; birim alana düşen ışık (enerji) en fazladır. Işık eğik geldikçe daha geniş alana yayılır ve birim alana düşen enerji azalır. Mevsimlerde de durum budur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "olusum",
+    "rank": 3,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "Dünya Güneş etrafındaki bir turunu 1 yılda tamamlar.",
+        "Bugün Kuzey Yarım Küre’de kış başlamıştır."
+      ],
+      "r": [
+        [
+          "Bugün Güney Yarım Küre’de yaz başlamıştır.",
+          true
+        ],
+        [
+          "Yaklaşık 6 ay sonra Kuzey Yarım Küre’de yaz başlar.",
+          true
+        ],
+        [
+          "Yaklaşık 3 ay sonra Güney Yarım Küre’de kış başlar.",
+          false
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: Dünya Güneş etrafındaki bir turunu 1 yılda tamamlar. Bugün Kuzey Yarım Küre’de kış başlamıştır. İfadeler: Bugün Güney Yarım Küre’de yaz başlamıştır. | Yaklaşık 6 ay sonra Kuzey Yarım Küre’de yaz başlar. | Yaklaşık 3 ay sonra Güney Yarım Küre’de kış başlar.",
+    "correctAnswer": "Bugün Güney Yarım Küre’de yaz başlamıştır. → Bilgilere göre doğru | Yaklaşık 6 ay sonra Kuzey Yarım Küre’de yaz başlar. → Bilgilere göre doğru | Yaklaşık 3 ay sonra Güney Yarım Küre’de kış başlar. → Yanlış ya da kesin değil",
+    "explanation": "Kuzey’de kış başladığında (21 Aralık) Güney’de yaz başlar. Üç ay sonra (21 Mart) Kuzey’de ilkbahar, Güney’de sonbahar; altı ay sonra (21 Haziran) Kuzey’de yaz, Güney’de kış başlar.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "olusum",
+    "rank": 2,
+    "type": "orbit",
+    "prompt": "Güney Yarım Küre’de kışın başladığı gün ile Kuzey Yarım Küre’de sonbaharın başladığı günü yerleştir.",
+    "data": {
+      "ask": "Güney Yarım Küre’de kışın başladığı gün ile Kuzey Yarım Küre’de sonbaharın başladığı günü yerleştir.",
+      "tok": [
+        [
+          "Güney’de kış başlar",
+          2
+        ],
+        [
+          "Kuzey’de sonbahar başlar",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Güney Yarım Küre’de kışın başladığı gün ile Kuzey Yarım Küre’de sonbaharın başladığı günü yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Güney’de kış başlar, Kuzey’de sonbahar başlar.",
+    "correctAnswer": "Güney’de kış başlar → 21 Haziran konumu; Kuzey’de sonbahar başlar → 23 Eylül konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-olusum-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Mevsimlerin oluşumu: eksen eğikliği ve Dünya’nın Güneş etrafındaki konumları",
+    "outcome": "Mevsimlerin oluşumuna yönelik tahminlerde bulunur; Dünya’nın eksen eğikliği ve Güneş etrafındaki dolanma hareketini mevsimlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "olusum",
+    "rank": 3,
+    "type": "orbit",
+    "prompt": "Dünya yörüngede dolanırken aşağıdaki olaylar hangi konumlarda yaşanır? Kartları yerleştir.",
+    "data": {
+      "ask": "Dünya yörüngede dolanırken aşağıdaki olaylar hangi konumlarda yaşanır? Kartları yerleştir.",
+      "tok": [
+        [
+          "Kuzey’de ilkbahar başlar",
+          1
+        ],
+        [
+          "Güney’de ilkbahar başlar",
+          3
+        ],
+        [
+          "Güney’de kış başlar",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Dünya yörüngede dolanırken aşağıdaki olaylar hangi konumlarda yaşanır? Kartları yerleştir. Yörüngede dört konum vardır (Dünya’nın ekseni hep aynı yöne eğik). Yerleştirilecek kartlar: Kuzey’de ilkbahar başlar, Güney’de ilkbahar başlar, Güney’de kış başlar.",
+    "correctAnswer": "Kuzey’de ilkbahar başlar → 21 Mart konumu; Güney’de ilkbahar başlar → 23 Eylül konumu; Güney’de kış başlar → 21 Haziran konumu",
+    "explanation": "Dünya’nın ekseni eğiktir ve uzayda hep aynı yöne bakar. Kuzey Yarım Küre Güneş’e doğru eğikken (21 Haziran) Kuzey’de yaz, Güney’de kış başlar; Güney Yarım Küre Güneş’e eğikken (21 Aralık) tersi olur. 21 Mart ve 23 Eylül’de ışınlar Ekvator’a dik gelir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "golge",
+    "rank": 1,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K"
+      ],
+      "cond": [
+        [
+          "dik",
+          "K",
+          "ara"
+        ]
+      ],
+      "ct": [
+        "21 Aralık öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz)"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Aralık öğle vakti K’de ışınlar tam dik gelir (gölge oluşmaz). Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → Oğlak Dönencesi",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "place",
+    "prompt": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın.",
+    "data": {
+      "c": [
+        "K",
+        "L"
+      ],
+      "cond": [
+        [
+          "sh>",
+          "L",
+          "K",
+          "haz"
+        ],
+        [
+          "hemi",
+          "L",
+          "Kuzey"
+        ],
+        [
+          "notdik",
+          "L"
+        ],
+        [
+          "hemi",
+          "K",
+          "Kuzey"
+        ]
+      ],
+      "ct": [
+        "21 Haziran öğle vakti L’nin gölgesi K’ninkinden uzun",
+        "L Kuzey Yarım Küre’de",
+        "L şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz",
+        "K Kuzey Yarım Küre’de"
+      ],
+      "fix": {}
+    },
+    "textPlain": "Şehir işaretlerini Yerküre’de uygun enlemlere sürükle; bütün koşullar sağlansın. Koşullar: 21 Haziran öğle vakti L’nin gölgesi K’ninkinden uzun; L Kuzey Yarım Küre’de; L şehri Güneş ışınlarını yıl boyunca hiç tam dik almaz; K Kuzey Yarım Küre’de. Enlem çizgileri: 60° Kuzey, 40° Kuzey, Yengeç Dönencesi, Ekvator, Oğlak Dönencesi, 40° Güney, 60° Güney.",
+    "correctAnswer": "Örnek bir doğru yerleşim: K → 40° Kuzey, L → 60° Kuzey",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-022",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "golge",
+    "rank": 1,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri öğle gölgesi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "golge",
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          -23.5
+        ],
+        [
+          "L",
+          -40
+        ],
+        [
+          "M",
+          -60
+        ]
+      ],
+      "ord": [
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri öğle gölgesi en uzundan en kısaya sırala. Şehirlerin yeri: K → Oğlak Dönencesi, L → 40° Güney, M → 60° Güney.",
+    "correctAnswer": "K > L > M",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-golge-023",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "golge",
+    "rank": 3,
+    "type": "rank",
+    "prompt": "21 Aralık günü şehirleri öğle gölgesi en uzundan en kısaya sırala.",
+    "data": {
+      "k": "golge",
+      "date": "ara",
+      "c": [
+        [
+          "K",
+          40
+        ],
+        [
+          "L",
+          -40
+        ],
+        [
+          "M",
+          0
+        ],
+        [
+          "N",
+          -23.5
+        ]
+      ],
+      "ord": [
+        "N",
+        "L",
+        "M",
+        "K"
+      ]
+    },
+    "textPlain": "21 Aralık günü şehirleri öğle gölgesi en uzundan en kısaya sırala. Şehirlerin yeri: K → 40° Kuzey, L → 40° Güney, M → Ekvator, N → Oğlak Dönencesi.",
+    "correctAnswer": "N > L > M > K",
+    "explanation": "Öğle vakti Güneş ışınları bir yere ne kadar dik gelirse gölge o kadar kısa, birim yüzeye düşen enerji o kadar fazla olur. Işınlar 21 Haziran’da Yengeç Dönencesi’ne, 21 Aralık’ta Oğlak Dönencesi’ne, 21 Mart ve 23 Eylül’de Ekvator’a dik gelir; dik gelen enlemden uzaklaştıkça ışınlar eğikleşir.",
+    "twin": "2023-S10"
+  },
+  {
+    "questionId": "fen8u1-golge-024",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "Öğle vakti gölge boyu ve yıl içindeki değişimi",
+    "outcome": "Güneş ışınlarının geliş açısının gölge boyuna etkisini yıl içindeki tarihlerle ilişkilendirir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "orta",
+    "group": "golge",
+    "rank": 2,
+    "type": "curve",
+    "prompt": "Oğlak Dönencesi üzerindeki bir şehir için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle.",
+    "data": {
+      "k": "golge",
+      "lv": [
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "n": 3,
+      "sg": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Oğlak Dönencesi üzerindeki bir şehir için yıl boyunca öğle vakti çubuğun gölge boyunu gösteren grafiği çiz: her ayın noktasını uygun yüksekliğe sürükle. Grafikte 5 nokta vardır: Aralık, Mart, Haziran, Eylül, Aralık. Şehir: Oğlak Dönencesi üzerindeki bir şehir.",
+    "correctAnswer": "Yükseklik sırası (0 en düşük): Aralık 0, Mart 1, Haziran 2, Eylül 1, Aralık 0",
+    "explanation": "Işınlar dik geldikçe gölge kısalır. Kuzey Yarım Küre’de gölge 21 Haziran’da en kısa, 21 Aralık’ta en uzundur; 21 Mart ve 23 Eylül’de eşittir. Güney Yarım Küre’de bunun tersi olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "kolay",
+    "group": "iklim",
+    "rank": 1,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "Bir şehirde bugün sabah yağmur yağdı, öğleden sonra hava güneşli oldu."
+      ],
+      "r": [
+        [
+          "Bu değişim hava olayıdır.",
+          true
+        ],
+        [
+          "Şehrin iklimi bir günde değişmiştir.",
+          false
+        ],
+        [
+          "İklimi öğrenmek için uzun yıllık kayıtlara bakılmalıdır.",
+          true
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: Bir şehirde bugün sabah yağmur yağdı, öğleden sonra hava güneşli oldu. İfadeler: Bu değişim hava olayıdır. | Şehrin iklimi bir günde değişmiştir. | İklimi öğrenmek için uzun yıllık kayıtlara bakılmalıdır.",
+    "correctAnswer": "Bu değişim hava olayıdır. → Bilgilere göre doğru | Şehrin iklimi bir günde değişmiştir. → Yanlış ya da kesin değil | İklimi öğrenmek için uzun yıllık kayıtlara bakılmalıdır. → Bilgilere göre doğru",
+    "explanation": "Gün içindeki değişimler hava olaylarıdır. İklim, uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır; bir günde değişmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u1-iklim-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "iklim",
+    "rank": 3,
+    "type": "facts",
+    "prompt": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”.",
+    "data": {
+      "info": [
+        "A bölgesinde 30 yıllık kayıtlar yazların sıcak ve kurak geçtiğini gösteriyor.",
+        "Bu yaz bir hafta boyunca serin ve yağmurlu geçti."
+      ],
+      "r": [
+        [
+          "Bu yaz yaşanan serin hafta bölgenin iklimini değiştirmez.",
+          true
+        ],
+        [
+          "Bölgenin iklimi artık “yazları serin ve yağışlı” olmuştur.",
+          false
+        ],
+        [
+          "Serin ve yağmurlu hafta hava olaylarıyla ilgilidir.",
+          true
+        ]
+      ]
+    },
+    "textPlain": "Panodaki bilgileri oku; her ifadeyi doğru dosyaya at: “Bilgilere göre doğru” ya da “Yanlış ya da kesin değil”. Bilgiler: A bölgesinde 30 yıllık kayıtlar yazların sıcak ve kurak geçtiğini gösteriyor. Bu yaz bir hafta boyunca serin ve yağmurlu geçti. İfadeler: Bu yaz yaşanan serin hafta bölgenin iklimini değiştirmez. | Bölgenin iklimi artık “yazları serin ve yağışlı” olmuştur. | Serin ve yağmurlu hafta hava olaylarıyla ilgilidir.",
+    "correctAnswer": "Bu yaz yaşanan serin hafta bölgenin iklimini değiştirmez. → Bilgilere göre doğru | Bölgenin iklimi artık “yazları serin ve yağışlı” olmuştur. → Yanlış ya da kesin değil | Serin ve yağmurlu hafta hava olaylarıyla ilgilidir. → Bilgilere göre doğru",
+    "explanation": "Kısa süreli değişimler hava olaylarıdır; iklim uzun yılların ortalamasıyla belirlenir.",
+    "twin": "2020-S9"
+  },
+  {
+    "questionId": "fen8u1-iklim-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "1. Ünite: Mevsimler ve İklim",
+    "topic": "İklim ve hava olayları; iklim bilimi",
+    "outcome": "İklim ve hava olayları arasındaki farkı açıklar; iklim biliminin (klimatoloji) bir bilim dalı olduğunu bilir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 1. Ünite “Mevsimler ve İklim”",
+    "difficulty": "zor",
+    "group": "iklim",
+    "rank": 3,
+    "type": "news",
+    "prompt": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne.",
+    "data": {
+      "r": [
+        [
+          "Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak.",
+          0
+        ],
+        [
+          "Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür.",
+          1
+        ],
+        [
+          "Bir hafta boyunca şiddetli rüzgâr bekleniyor.",
+          0
+        ],
+        [
+          "Çöllerde yıllık yağış miktarı çok azdır.",
+          1
+        ],
+        [
+          "Bu sabah Erzurum’da yoğun sis vardı.",
+          0
+        ],
+        [
+          "Kutuplarda yıl boyunca sıcaklık düşüktür.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Haber kartlarını doğru yayına gönder: kısa süreli olanlar “Hava Durumu” bültenine, uzun yılların ortalaması olanlar “İklim Belgeseli”ne. Kartlar: Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak. | Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür. | Bir hafta boyunca şiddetli rüzgâr bekleniyor. | Çöllerde yıllık yağış miktarı çok azdır. | Bu sabah Erzurum’da yoğun sis vardı. | Kutuplarda yıl boyunca sıcaklık düşüktür.",
+    "correctAnswer": "Bu hafta Antalya’da sıcaklık 40 °C’yi bulacak. → Hava olayı | Ekvator çevresinde yıl boyunca sıcak ve yağışlı bir hava görülür. → İklim | Bir hafta boyunca şiddetli rüzgâr bekleniyor. → Hava olayı | Çöllerde yıllık yağış miktarı çok azdır. → İklim | Bu sabah Erzurum’da yoğun sis vardı. → Hava olayı | Kutuplarda yıl boyunca sıcaklık düşüktür. → İklim",
+    "explanation": "Hava olayları belirli bir yerde kısa sürede etkili olan olaylardır (yağmur, rüzgâr, sis). İklim ise geniş bir bölgede uzun yıllar boyunca gözlenen hava olaylarının ortalamasıdır.",
+    "twin": "2023-S11"
+  }
+]
