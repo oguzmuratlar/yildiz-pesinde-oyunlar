@@ -1,0 +1,3667 @@
+[
+  {
+    "questionId": "mat8u5-durum-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "outs",
+    "prompt": "Hilesiz zar atılıyor. “Çift sayı gelmesi” olayının bütün olası durumlarına dokun.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": [
+        1,
+        3,
+        5
+      ],
+      "k": "die"
+    },
+    "textPlain": "Hilesiz zar atılıyor. “Çift sayı gelmesi” olayının bütün olası durumlarına dokun. Olası durumlar: 1, 2, 3, 4, 5, 6.",
+    "correctAnswer": "İstenen durumlar: 2, 4, 6",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "outs",
+    "prompt": "Hilesiz zar atılıyor. “4’ten büyük gelmesi” olayının durumlarına dokun.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": [
+        4,
+        5
+      ],
+      "k": "die"
+    },
+    "textPlain": "Hilesiz zar atılıyor. “4’ten büyük gelmesi” olayının durumlarına dokun. Olası durumlar: 1, 2, 3, 4, 5, 6.",
+    "correctAnswer": "İstenen durumlar: 5, 6",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "outs",
+    "prompt": "Harf kartları torbada. “Sesli harf çekilmesi” olayının durumlarına dokun.",
+    "data": {
+      "c": [
+        "K",
+        "A",
+        "L",
+        "E",
+        "M",
+        "L",
+        "İ",
+        "K"
+      ],
+      "a": [
+        1,
+        3,
+        5
+      ],
+      "k": "chip"
+    },
+    "textPlain": "Harf kartları torbada. “Sesli harf çekilmesi” olayının durumlarına dokun. Olası durumlar: K, A, L, E, M, L, İ, K.",
+    "correctAnswer": "İstenen durumlar: A, E, L",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Aynı harften iki kart varsa ikisi de ayrı durumdur."
+  },
+  {
+    "questionId": "mat8u5-durum-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "durum",
+    "rank": 2,
+    "type": "outs",
+    "prompt": "1’den 15’e kadar numaralı kartlardan biri çekiliyor. “3’ün katı çekilmesi” durumlarına dokun.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "a": [
+        2,
+        5,
+        8,
+        11,
+        14
+      ],
+      "k": "chip"
+    },
+    "textPlain": "1’den 15’e kadar numaralı kartlardan biri çekiliyor. “3’ün katı çekilmesi” durumlarına dokun. Olası durumlar: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+    "correctAnswer": "İstenen durumlar: 3, 6, 9, 12, 15",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "durum",
+    "rank": 2,
+    "type": "outs",
+    "prompt": "Hilesiz zar atılıyor. “Asal sayı gelmesi” olayının durumlarına dokun.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "a": [
+        1,
+        2,
+        4
+      ],
+      "k": "die"
+    },
+    "textPlain": "Hilesiz zar atılıyor. “Asal sayı gelmesi” olayının durumlarına dokun. Olası durumlar: 1, 2, 3, 4, 5, 6.",
+    "correctAnswer": "İstenen durumlar: 2, 3, 5",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 1 asal değildir."
+  },
+  {
+    "questionId": "mat8u5-durum-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "durum",
+    "rank": 2,
+    "type": "outs",
+    "prompt": "Haftanın günleri kartlarda. “Adında ‘a’ harfi geçen gün” durumlarına dokun.",
+    "data": {
+      "c": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma",
+        "Cumartesi",
+        "Pazar"
+      ],
+      "a": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "k": "chip"
+    },
+    "textPlain": "Haftanın günleri kartlarda. “Adında ‘a’ harfi geçen gün” durumlarına dokun. Olası durumlar: Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi, Pazar.",
+    "correctAnswer": "İstenen durumlar: Pazartesi, Salı, Çarşamba, Cuma, Cumartesi, Pazar",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "outs",
+    "prompt": "1’den 20’ye kadar numaralı kartlardan biri çekiliyor. “Hem çift hem 3’ün katı” durumlarına dokun.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "a": [
+        5,
+        11,
+        17
+      ],
+      "k": "chip"
+    },
+    "textPlain": "1’den 20’ye kadar numaralı kartlardan biri çekiliyor. “Hem çift hem 3’ün katı” durumlarına dokun. Olası durumlar: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.",
+    "correctAnswer": "İstenen durumlar: 6, 12, 18",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Hem çift hem 3’ün katı olan sayılar 6’nın katlarıdır."
+  },
+  {
+    "questionId": "mat8u5-durum-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "outs",
+    "prompt": "1’den 20’ye kadar numaralı kartlardan biri çekiliyor. “Rakamları toplamı 5 olan” durumlarına dokun.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "a": [
+        4,
+        13
+      ],
+      "k": "chip"
+    },
+    "textPlain": "1’den 20’ye kadar numaralı kartlardan biri çekiliyor. “Rakamları toplamı 5 olan” durumlarına dokun. Olası durumlar: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.",
+    "correctAnswer": "İstenen durumlar: 5, 14",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "outs",
+    "prompt": "Harf kartları torbada. “Sessiz harf çekilmesi” olayının durumlarına dokun.",
+    "data": {
+      "c": [
+        "O",
+        "L",
+        "A",
+        "S",
+        "I",
+        "L",
+        "I",
+        "K"
+      ],
+      "a": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "k": "chip"
+    },
+    "textPlain": "Harf kartları torbada. “Sessiz harf çekilmesi” olayının durumlarına dokun. Olası durumlar: O, L, A, S, I, L, I, K.",
+    "correctAnswer": "İstenen durumlar: L, S, L, K",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "outs",
+    "prompt": "Ay adları kartlarda. “Adı ‘M’ ile başlayan ay” durumlarına dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "a": [
+        2,
+        4
+      ],
+      "k": "chip"
+    },
+    "textPlain": "Ay adları kartlarda. “Adı ‘M’ ile başlayan ay” durumlarına dokun. Olası durumlar: Ocak, Şubat, Mart, Nisan, Mayıs, Haziran.",
+    "correctAnswer": "İstenen durumlar: Mart, Mayıs",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "🚫 İmkânsız (0)",
+        "🎲 Olası",
+        "✅ Kesin (1)"
+      ],
+      "r": [
+        [
+          "Zarda 7 gelmesi",
+          0
+        ],
+        [
+          "Zarda 6’dan küçük ya da 6 gelmesi",
+          2
+        ],
+        [
+          "Zarda 3 gelmesi",
+          1
+        ],
+        [
+          "Yazı-turada yazı gelmesi",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: İmkânsız (0), Olası, Kesin (1). Kartlar: Zarda 7 gelmesi, Zarda 6’dan küçük ya da 6 gelmesi, Zarda 3 gelmesi, Yazı-turada yazı gelmesi.",
+    "correctAnswer": "Zarda 7 gelmesi → İmkânsız (0) | Zarda 6’dan küçük ya da 6 gelmesi → Kesin (1) | Zarda 3 gelmesi → Olası | Yazı-turada yazı gelmesi → Olası",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır."
+  },
+  {
+    "questionId": "mat8u5-durum-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "durum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "🚫 İmkânsız (0)",
+        "🎲 Olası",
+        "✅ Kesin (1)"
+      ],
+      "r": [
+        [
+          "Yalnız kırmızı top olan torbadan kırmızı çekmek",
+          2
+        ],
+        [
+          "Yalnız kırmızı top olan torbadan mavi çekmek",
+          0
+        ],
+        [
+          "Kırmızı ve mavi top olan torbadan kırmızı çekmek",
+          1
+        ],
+        [
+          "Zarda 0 gelmesi",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: İmkânsız (0), Olası, Kesin (1). Kartlar: Yalnız kırmızı top olan torbadan kırmızı çekmek, Yalnız kırmızı top olan torbadan mavi çekmek, Kırmızı ve mavi top olan torbadan kırmızı çekmek, Zarda 0 gelmesi.",
+    "correctAnswer": "Yalnız kırmızı top olan torbadan kırmızı çekmek → Kesin (1) | Yalnız kırmızı top olan torbadan mavi çekmek → İmkânsız (0) | Kırmızı ve mavi top olan torbadan kırmızı çekmek → Olası | Zarda 0 gelmesi → İmkânsız (0)",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır."
+  },
+  {
+    "questionId": "mat8u5-durum-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "🚫 İmkânsız (0)",
+        "🎲 Olası",
+        "✅ Kesin (1)"
+      ],
+      "r": [
+        [
+          "1–10 kartlarından 11 çekmek",
+          0
+        ],
+        [
+          "1–10 kartlarından 10 ya da daha küçük sayı çekmek",
+          2
+        ],
+        [
+          "Bir yılda 13. ay olması",
+          0
+        ],
+        [
+          "1–10 kartlarından asal sayı çekmek",
+          1
+        ],
+        [
+          "Hilesiz zarda tek ya da çift gelmesi",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: İmkânsız (0), Olası, Kesin (1). Kartlar: 1–10 kartlarından 11 çekmek, 1–10 kartlarından 10 ya da daha küçük sayı çekmek, Bir yılda 13. ay olması, 1–10 kartlarından asal sayı çekmek, Hilesiz zarda tek ya da çift gelmesi.",
+    "correctAnswer": "1–10 kartlarından 11 çekmek → İmkânsız (0) | 1–10 kartlarından 10 ya da daha küçük sayı çekmek → Kesin (1) | Bir yılda 13. ay olması → İmkânsız (0) | 1–10 kartlarından asal sayı çekmek → Olası | Hilesiz zarda tek ya da çift gelmesi → Kesin (1)",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır."
+  },
+  {
+    "questionId": "mat8u5-durum-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "🚫 İmkânsız (0)",
+        "🎲 Olası",
+        "✅ Kesin (1)"
+      ],
+      "r": [
+        [
+          "MATEMATİK kelimesinden O harfi çekmek",
+          0
+        ],
+        [
+          "MATEMATİK kelimesinden sesli ya da sessiz harf çekmek",
+          2
+        ],
+        [
+          "MATEMATİK kelimesinden M çekmek",
+          1
+        ],
+        [
+          "İki zarın toplamının 1 olması",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: İmkânsız (0), Olası, Kesin (1). Kartlar: MATEMATİK kelimesinden O harfi çekmek, MATEMATİK kelimesinden sesli ya da sessiz harf çekmek, MATEMATİK kelimesinden M çekmek, İki zarın toplamının 1 olması.",
+    "correctAnswer": "MATEMATİK kelimesinden O harfi çekmek → İmkânsız (0) | MATEMATİK kelimesinden sesli ya da sessiz harf çekmek → Kesin (1) | MATEMATİK kelimesinden M çekmek → Olası | İki zarın toplamının 1 olması → İmkânsız (0)",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır."
+  },
+  {
+    "questionId": "mat8u5-durum-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "frac",
+    "prompt": "Hilesiz zarda 5 gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "die"
+      },
+      "n": 1,
+      "d": 6
+    },
+    "textPlain": "Hilesiz zarda 5 gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Hilesiz bir zar atılıyor.",
+    "correctAnswer": "1/6",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "durum",
+    "rank": 2,
+    "type": "frac",
+    "prompt": "Torbadan rastgele çekilen topun mavi olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "bag",
+        "b": [
+          [
+            "kırmızı",
+            3
+          ],
+          [
+            "mavi",
+            5
+          ]
+        ]
+      },
+      "n": 5,
+      "d": 8
+    },
+    "textPlain": "Torbadan rastgele çekilen topun mavi olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Torbada 3 kırmızı, 5 mavi top var.",
+    "correctAnswer": "5/8",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-durum-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "frac",
+    "prompt": "Kartlardan rastgele çekilenin sesli harf olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "cards",
+        "c": [
+          "B",
+          "İ",
+          "L",
+          "G",
+          "İ",
+          "S",
+          "A",
+          "Y",
+          "A",
+          "R"
+        ]
+      },
+      "n": 4,
+      "d": 10
+    },
+    "textPlain": "Kartlardan rastgele çekilenin sesli harf olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Kartlar: B, İ, L, G, İ, S, A, Y, A, R.",
+    "correctAnswer": "4/10 = 2/5",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "frac",
+    "prompt": "8 eş dilimli çarkta her dilim farklı renkte. Herhangi bir rengin gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "wheel",
+        "w": [
+          "kırmızı",
+          "mavi",
+          "sarı",
+          "yeşil",
+          "mor",
+          "turuncu",
+          "beyaz",
+          "siyah"
+        ]
+      },
+      "n": 1,
+      "d": 8
+    },
+    "textPlain": "8 eş dilimli çarkta her dilim farklı renkte. Herhangi bir rengin gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Çark 8 eş dilimli: 1 kırmızı, 1 mavi, 1 sarı, 1 yeşil, 1 mor, 1 turuncu, 1 beyaz, 1 siyah.",
+    "correctAnswer": "1/8",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "frac",
+    "prompt": "Yazı-tura atılıyor. Tura gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "coin"
+      },
+      "n": 1,
+      "d": 2
+    },
+    "textPlain": "Yazı-tura atılıyor. Tura gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "correctAnswer": "1/2",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "frac",
+    "prompt": "1’den 12’ye kadar numaralı eş kartlardan biri çekiliyor. 7 numaralı kartın çekilme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "cards",
+        "c": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
+      },
+      "n": 1,
+      "d": 12
+    },
+    "textPlain": "1’den 12’ye kadar numaralı eş kartlardan biri çekiliyor. 7 numaralı kartın çekilme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Kartlar: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+    "correctAnswer": "1/12",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "esit",
+    "rank": 3,
+    "type": "frac",
+    "prompt": "Torbadaki her topun çekilme şansı eşit. Kırmızı topun çekilme olasılığı 1/4’tür ve torbada 3 kırmızı top var. Bir topun (herhangi birinin) çekilme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "bag",
+        "b": [
+          [
+            "kırmızı",
+            3
+          ],
+          [
+            "mavi",
+            9
+          ]
+        ]
+      },
+      "n": 1,
+      "d": 12
+    },
+    "textPlain": "Torbadaki her topun çekilme şansı eşit. Kırmızı topun çekilme olasılığı 1/4’tür ve torbada 3 kırmızı top var. Bir topun (herhangi birinin) çekilme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Torbada 3 kırmızı, 9 mavi top var.",
+    "correctAnswer": "1/12",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir. Torbada 12 top var."
+  },
+  {
+    "questionId": "mat8u5-hesap-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "hesap",
+    "rank": 1,
+    "type": "frac",
+    "prompt": "Torbadan kırmızı top çekme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "bag",
+        "b": [
+          [
+            "kırmızı",
+            2
+          ],
+          [
+            "sarı",
+            3
+          ]
+        ]
+      },
+      "n": 2,
+      "d": 5
+    },
+    "textPlain": "Torbadan kırmızı top çekme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Torbada 2 kırmızı, 3 sarı top var.",
+    "correctAnswer": "2/5",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "hesap",
+    "rank": 1,
+    "type": "frac",
+    "prompt": "Çarkta okun maviye gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "wheel",
+        "w": [
+          "mavi",
+          "sarı",
+          "mavi",
+          "kırmızı",
+          "mavi",
+          "sarı"
+        ]
+      },
+      "n": 3,
+      "d": 6
+    },
+    "textPlain": "Çarkta okun maviye gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Çark 6 eş dilimli: 3 mavi, 2 sarı, 1 kırmızı.",
+    "correctAnswer": "3/6 = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "hesap",
+    "rank": 1,
+    "type": "frac",
+    "prompt": "Hilesiz zarda 3’ten küçük gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "die"
+      },
+      "n": 2,
+      "d": 6
+    },
+    "textPlain": "Hilesiz zarda 3’ten küçük gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Hilesiz bir zar atılıyor.",
+    "correctAnswer": "2/6 = 1/3",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "frac",
+    "prompt": "Torbadan yeşil olmayan bir top çekme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "bag",
+        "b": [
+          [
+            "yeşil",
+            4
+          ],
+          [
+            "mavi",
+            3
+          ],
+          [
+            "sarı",
+            5
+          ]
+        ]
+      },
+      "n": 8,
+      "d": 12
+    },
+    "textPlain": "Torbadan yeşil olmayan bir top çekme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Torbada 4 yeşil, 3 mavi, 5 sarı top var.",
+    "correctAnswer": "8/12 = 2/3",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "frac",
+    "prompt": "Çarkta okun kırmızıya ya da sarıya gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "wheel",
+        "w": [
+          "kırmızı",
+          "mavi",
+          "sarı",
+          "mavi",
+          "kırmızı",
+          "yeşil",
+          "mavi",
+          "yeşil"
+        ]
+      },
+      "n": 3,
+      "d": 8
+    },
+    "textPlain": "Çarkta okun kırmızıya ya da sarıya gelme olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Çark 8 eş dilimli: 2 kırmızı, 3 mavi, 1 sarı, 2 yeşil.",
+    "correctAnswer": "3/8",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "frac",
+    "prompt": "Kartlardan rastgele çekilen sayının çift olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "cards",
+        "c": [
+          "3",
+          "8",
+          "12",
+          "5",
+          "7",
+          "10",
+          "14",
+          "9"
+        ]
+      },
+      "n": 4,
+      "d": 8
+    },
+    "textPlain": "Kartlardan rastgele çekilen sayının çift olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Kartlar: 3, 8, 12, 5, 7, 10, 14, 9.",
+    "correctAnswer": "4/8 = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "frac",
+    "prompt": "Kartlardan rastgele çekilenin K harfi olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "cards",
+        "c": [
+          "K",
+          "E",
+          "L",
+          "E",
+          "B",
+          "E",
+          "K"
+        ]
+      },
+      "n": 2,
+      "d": 7
+    },
+    "textPlain": "Kartlardan rastgele çekilenin K harfi olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Kartlar: K, E, L, E, B, E, K.",
+    "correctAnswer": "2/7",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "hesap",
+    "rank": 3,
+    "type": "frac",
+    "prompt": "Torbadan bir mavi top çıkarılıp dışarı konuyor. Sonra çekilen topun mavi olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "bag",
+        "b": [
+          [
+            "mavi",
+            5
+          ],
+          [
+            "kırmızı",
+            4
+          ]
+        ]
+      },
+      "n": 4,
+      "d": 8
+    },
+    "textPlain": "Torbadan bir mavi top çıkarılıp dışarı konuyor. Sonra çekilen topun mavi olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Torbada 5 mavi, 4 kırmızı top var.",
+    "correctAnswer": "4/8 = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Bir mavi çıkarılınca 4 mavi, toplam 8 top kalır."
+  },
+  {
+    "questionId": "mat8u5-hesap-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "hesap",
+    "rank": 3,
+    "type": "frac",
+    "prompt": "Torbaya 2 sarı top ekleniyor. Sonra çekilen topun sarı olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "bag",
+        "b": [
+          [
+            "sarı",
+            3
+          ],
+          [
+            "mor",
+            5
+          ]
+        ]
+      },
+      "n": 5,
+      "d": 10
+    },
+    "textPlain": "Torbaya 2 sarı top ekleniyor. Sonra çekilen topun sarı olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Torbada 3 sarı, 5 mor top var.",
+    "correctAnswer": "5/10 = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Eklemeden sonra 5 sarı, toplam 10 top olur."
+  },
+  {
+    "questionId": "mat8u5-hesap-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "hesap",
+    "rank": 3,
+    "type": "frac",
+    "prompt": "1’den 30’a kadar numaralı kartlardan çekilenin 4’ün katı olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur.",
+    "data": {
+      "sc": {
+        "k": "cards",
+        "c": [
+          "1",
+          "2",
+          "…",
+          "29",
+          "30"
+        ]
+      },
+      "n": 7,
+      "d": 30
+    },
+    "textPlain": "1’den 30’a kadar numaralı kartlardan çekilenin 4’ün katı olma olasılığı kaçtır? Olasılığı pay ve paydayı ayarlayarak kur. Kartlar: 1, 2, …, 29, 30.",
+    "correctAnswer": "7/30",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 4’ün katları: 4, 8, 12, 16, 20, 24, 28 (7 tane)."
+  },
+  {
+    "questionId": "mat8u5-esit-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Zarda 7 gelmesi",
+          0
+        ],
+        [
+          "Yazı-turada yazı",
+          0.5
+        ],
+        [
+          "Zarda 1–6 arası gelmesi",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Zarda 7 gelmesi; Yazı-turada yazı; Zarda 1–6 arası gelmesi.",
+    "correctAnswer": "Zarda 7 gelmesi → 0; Yazı-turada yazı → 1/2; Zarda 1–6 arası gelmesi → 1",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "4 eş dilimli çarkta kırmızı (1 dilim)",
+          0.25
+        ],
+        [
+          "4 eş dilimli çarkta kırmızı olmaması",
+          0.75
+        ],
+        [
+          "Torbada yalnız mavi top varken mavi çekmek",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: 4 eş dilimli çarkta kırmızı (1 dilim); 4 eş dilimli çarkta kırmızı olmaması; Torbada yalnız mavi top varken mavi çekmek.",
+    "correctAnswer": "4 eş dilimli çarkta kırmızı (1 dilim) → 1/4; 4 eş dilimli çarkta kırmızı olmaması → 3/4; Torbada yalnız mavi top varken mavi çekmek → 1",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Zarda 6 gelmesi",
+          0.16666666666666666
+        ],
+        [
+          "Zarda çift gelmesi",
+          0.5
+        ],
+        [
+          "Zarda 1 gelmemesi",
+          0.8333333333333334
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Zarda 6 gelmesi; Zarda çift gelmesi; Zarda 1 gelmemesi.",
+    "correctAnswer": "Zarda 6 gelmesi → 1/6; Zarda çift gelmesi → 1/2; Zarda 1 gelmemesi → 5/6",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "10 karttan 1 numarayı çekmek",
+          0.1
+        ],
+        [
+          "3 kırmızı 1 mavi toptan kırmızı",
+          0.75
+        ],
+        [
+          "Haftanın bir gününün Pazar olması",
+          0.14285714285714285
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: 10 karttan 1 numarayı çekmek; 3 kırmızı 1 mavi toptan kırmızı; Haftanın bir gününün Pazar olması.",
+    "correctAnswer": "10 karttan 1 numarayı çekmek → 1/10; 3 kırmızı 1 mavi toptan kırmızı → 3/4; Haftanın bir gününün Pazar olması → 1/7",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "esit",
+    "rank": 3,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "8 dilimli çarkta 3 sarı dilimden birine gelmek",
+          0.375
+        ],
+        [
+          "5 toptan 4’ü yeşilken yeşil çekmek",
+          0.8
+        ],
+        [
+          "12 karttan 1 tanesini çekmek",
+          0.08333333333333333
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: 8 dilimli çarkta 3 sarı dilimden birine gelmek; 5 toptan 4’ü yeşilken yeşil çekmek; 12 karttan 1 tanesini çekmek.",
+    "correctAnswer": "8 dilimli çarkta 3 sarı dilimden birine gelmek → 3/8; 5 toptan 4’ü yeşilken yeşil çekmek → 4/5; 12 karttan 1 tanesini çekmek → 1/12",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "esit",
+    "rank": 3,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Zarda 2’den büyük gelmesi",
+          0.6666666666666666
+        ],
+        [
+          "Zarda asal gelmesi",
+          0.5
+        ],
+        [
+          "Zarda 5’in katı gelmesi",
+          0.16666666666666666
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Zarda 2’den büyük gelmesi; Zarda asal gelmesi; Zarda 5’in katı gelmesi.",
+    "correctAnswer": "Zarda 2’den büyük gelmesi → 2/3; Zarda asal gelmesi → 1/2; Zarda 5’in katı gelmesi → 1/6",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Yalnız sarı top olan torbadan kırmızı",
+          0
+        ],
+        [
+          "2 sarı 2 kırmızı toptan kırmızı",
+          0.5
+        ],
+        [
+          "1 sarı 4 kırmızı toptan kırmızı",
+          0.8
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Yalnız sarı top olan torbadan kırmızı; 2 sarı 2 kırmızı toptan kırmızı; 1 sarı 4 kırmızı toptan kırmızı.",
+    "correctAnswer": "Yalnız sarı top olan torbadan kırmızı → 0; 2 sarı 2 kırmızı toptan kırmızı → 1/2; 1 sarı 4 kırmızı toptan kırmızı → 4/5",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "karsilastir",
+    "rank": 1,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Çarkın yarısı mavi: mavi gelmesi",
+          0.5
+        ],
+        [
+          "Çarkın dörtte biri mavi: mavi gelmesi",
+          0.25
+        ],
+        [
+          "Çarkın tamamı mavi: mavi gelmesi",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Çarkın yarısı mavi: mavi gelmesi; Çarkın dörtte biri mavi: mavi gelmesi; Çarkın tamamı mavi: mavi gelmesi.",
+    "correctAnswer": "Çarkın yarısı mavi: mavi gelmesi → 1/2; Çarkın dörtte biri mavi: mavi gelmesi → 1/4; Çarkın tamamı mavi: mavi gelmesi → 1",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Torbada 1 kırmızı 9 beyaz: kırmızı",
+          0.1
+        ],
+        [
+          "Torbada 9 kırmızı 1 beyaz: kırmızı",
+          0.9
+        ],
+        [
+          "Torbada 5 kırmızı 5 beyaz: kırmızı",
+          0.5
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Torbada 1 kırmızı 9 beyaz: kırmızı; Torbada 9 kırmızı 1 beyaz: kırmızı; Torbada 5 kırmızı 5 beyaz: kırmızı.",
+    "correctAnswer": "Torbada 1 kırmızı 9 beyaz: kırmızı → 1/10; Torbada 9 kırmızı 1 beyaz: kırmızı → 9/10; Torbada 5 kırmızı 5 beyaz: kırmızı → 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "karsilastir",
+    "rank": 3,
+    "type": "pline",
+    "prompt": "Her olay pimini olasılık cetvelinde doğru yere sürükle.",
+    "data": {
+      "e": [
+        [
+          "Zarda 3’ün katı",
+          0.3333333333333333
+        ],
+        [
+          "Zarda 3’ten büyük",
+          0.5
+        ],
+        [
+          "Zarda 1’den büyük",
+          0.8333333333333334
+        ]
+      ]
+    },
+    "textPlain": "Her olay pimini olasılık cetvelinde doğru yere sürükle. Olaylar: Zarda 3’ün katı; Zarda 3’ten büyük; Zarda 1’den büyük.",
+    "correctAnswer": "Zarda 3’ün katı → 1/3; Zarda 3’ten büyük → 1/2; Zarda 1’den büyük → 5/6",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Olasılık cetvelinde 0 imkânsızı, 1 kesini, 1/2 eşit şansı gösterir."
+  },
+  {
+    "questionId": "mat8u5-esit-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "4 eş dilimli çarkı her rengin gelme olasılığı eşit olacak şekilde dört renkle boya. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 4,
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı",
+        "yeşil"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          4
+        ],
+        [
+          "p",
+          "mavi",
+          1,
+          4
+        ],
+        [
+          "p",
+          "sarı",
+          1,
+          4
+        ],
+        [
+          "p",
+          "yeşil",
+          1,
+          4
+        ]
+      ]
+    },
+    "textPlain": "4 eş dilimli çarkı her rengin gelme olasılığı eşit olacak şekilde dört renkle boya. Rengi seç, dilimlere dokunarak boya. Çark 4 eş dilimli. Renkler: kırmızı, mavi, sarı, yeşil.",
+    "correctAnswer": "kırmızı 1/4 → 1 dilim; mavi 1/4 → 1 dilim; sarı 1/4 → 1 dilim; yeşil 1/4 → 1 dilim",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "6 eş dilimli çarkı üç renkle, her rengin olasılığı eşit olacak şekilde boya. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 6,
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          3
+        ],
+        [
+          "p",
+          "mavi",
+          1,
+          3
+        ],
+        [
+          "p",
+          "sarı",
+          1,
+          3
+        ]
+      ]
+    },
+    "textPlain": "6 eş dilimli çarkı üç renkle, her rengin olasılığı eşit olacak şekilde boya. Rengi seç, dilimlere dokunarak boya. Çark 6 eş dilimli. Renkler: kırmızı, mavi, sarı.",
+    "correctAnswer": "kırmızı 1/3 → 2 dilim; mavi 1/3 → 2 dilim; sarı 1/3 → 2 dilim",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "8 eş dilimli çarkı mavi ve sarı eşit olasılıklı olacak şekilde boya. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 8,
+      "cols": [
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "eq",
+          "mavi",
+          "sarı"
+        ],
+        [
+          "all"
+        ]
+      ]
+    },
+    "textPlain": "8 eş dilimli çarkı mavi ve sarı eşit olasılıklı olacak şekilde boya. Rengi seç, dilimlere dokunarak boya. Çark 8 eş dilimli. Renkler: mavi, sarı.",
+    "correctAnswer": "mavi ve sarı eşit sayıda; bütün dilimler boyalı",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "esit",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "12 eş dilimli çarkı dört renkle boya: her rengin gelme olasılığı eşit olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 12,
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı",
+        "yeşil"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          4
+        ],
+        [
+          "p",
+          "mavi",
+          1,
+          4
+        ],
+        [
+          "p",
+          "sarı",
+          1,
+          4
+        ],
+        [
+          "p",
+          "yeşil",
+          1,
+          4
+        ]
+      ]
+    },
+    "textPlain": "12 eş dilimli çarkı dört renkle boya: her rengin gelme olasılığı eşit olsun. Rengi seç, dilimlere dokunarak boya. Çark 12 eş dilimli. Renkler: kırmızı, mavi, sarı, yeşil.",
+    "correctAnswer": "kırmızı 1/4 → 3 dilim; mavi 1/4 → 3 dilim; sarı 1/4 → 3 dilim; yeşil 1/4 → 3 dilim",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "2 eş dilimli çarkta kırmızı ile mavinin olasılığı eşit olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 2,
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          2
+        ],
+        [
+          "p",
+          "mavi",
+          1,
+          2
+        ]
+      ]
+    },
+    "textPlain": "2 eş dilimli çarkta kırmızı ile mavinin olasılığı eşit olsun. Rengi seç, dilimlere dokunarak boya. Çark 2 eş dilimli. Renkler: kırmızı, mavi.",
+    "correctAnswer": "kırmızı 1/2 → 1 dilim; mavi 1/2 → 1 dilim",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "hesap",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "8 eş dilimli çarkta kırmızının gelme olasılığı 3/8, kalanı mavi olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 8,
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          3,
+          8
+        ],
+        [
+          "p",
+          "mavi",
+          5,
+          8
+        ]
+      ]
+    },
+    "textPlain": "8 eş dilimli çarkta kırmızının gelme olasılığı 3/8, kalanı mavi olsun. Rengi seç, dilimlere dokunarak boya. Çark 8 eş dilimli. Renkler: kırmızı, mavi.",
+    "correctAnswer": "kırmızı 3/8 → 3 dilim; mavi 5/8 → 5 dilim",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "10 eş dilimli çarkta P(sarı) = 2/5, P(yeşil) = 1/2, kalanı mor olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 10,
+      "cols": [
+        "sarı",
+        "yeşil",
+        "mor"
+      ],
+      "r": [
+        [
+          "p",
+          "sarı",
+          2,
+          5
+        ],
+        [
+          "p",
+          "yeşil",
+          1,
+          2
+        ],
+        [
+          "p",
+          "mor",
+          1,
+          10
+        ]
+      ]
+    },
+    "textPlain": "10 eş dilimli çarkta P(sarı) = 2/5, P(yeşil) = 1/2, kalanı mor olsun. Rengi seç, dilimlere dokunarak boya. Çark 10 eş dilimli. Renkler: sarı, yeşil, mor.",
+    "correctAnswer": "sarı 2/5 → 4 dilim; yeşil 1/2 → 5 dilim; mor 1/10 → 1 dilim",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "6 eş dilimli çarkta P(kırmızı) = 1/2 ve P(mavi) = 1/3, kalanı sarı olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 6,
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          2
+        ],
+        [
+          "p",
+          "mavi",
+          1,
+          3
+        ],
+        [
+          "p",
+          "sarı",
+          1,
+          6
+        ]
+      ]
+    },
+    "textPlain": "6 eş dilimli çarkta P(kırmızı) = 1/2 ve P(mavi) = 1/3, kalanı sarı olsun. Rengi seç, dilimlere dokunarak boya. Çark 6 eş dilimli. Renkler: kırmızı, mavi, sarı.",
+    "correctAnswer": "kırmızı 1/2 → 3 dilim; mavi 1/3 → 2 dilim; sarı 1/6 → 1 dilim",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-hesap-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "hesap",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "12 eş dilimli çarkta P(mavi) = 1/4, P(kırmızı) = 1/3, kalanı yeşil olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 12,
+      "cols": [
+        "mavi",
+        "kırmızı",
+        "yeşil"
+      ],
+      "r": [
+        [
+          "p",
+          "mavi",
+          1,
+          4
+        ],
+        [
+          "p",
+          "kırmızı",
+          1,
+          3
+        ],
+        [
+          "p",
+          "yeşil",
+          5,
+          12
+        ]
+      ]
+    },
+    "textPlain": "12 eş dilimli çarkta P(mavi) = 1/4, P(kırmızı) = 1/3, kalanı yeşil olsun. Rengi seç, dilimlere dokunarak boya. Çark 12 eş dilimli. Renkler: mavi, kırmızı, yeşil.",
+    "correctAnswer": "mavi 1/4 → 3 dilim; kırmızı 1/3 → 4 dilim; yeşil 5/12 → 5 dilim",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "tasarim",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "8 eş dilimli çarkta kırmızı gelme olasılığı maviden fazla olsun; bütün dilimler kırmızı ya da mavi olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 8,
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "gt",
+          "kırmızı",
+          "mavi"
+        ],
+        [
+          "all"
+        ]
+      ]
+    },
+    "textPlain": "8 eş dilimli çarkta kırmızı gelme olasılığı maviden fazla olsun; bütün dilimler kırmızı ya da mavi olsun. Rengi seç, dilimlere dokunarak boya. Çark 8 eş dilimli. Renkler: kırmızı, mavi.",
+    "correctAnswer": "kırmızı dilim sayısı mavi’dan fazla; bütün dilimler boyalı",
+    "explanation": "Dilim sayısı fazla olan rengin gelme olasılığı daha fazladır."
+  },
+  {
+    "questionId": "mat8u5-tasarim-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "10 eş dilimli çarkta P(sarı) = 2/5 olsun; mavi ile yeşil eşit olasılıklı olsun ve bütün dilimler boyansın. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 10,
+      "cols": [
+        "sarı",
+        "mavi",
+        "yeşil"
+      ],
+      "r": [
+        [
+          "p",
+          "sarı",
+          2,
+          5
+        ],
+        [
+          "eq",
+          "mavi",
+          "yeşil"
+        ],
+        [
+          "all"
+        ]
+      ]
+    },
+    "textPlain": "10 eş dilimli çarkta P(sarı) = 2/5 olsun; mavi ile yeşil eşit olasılıklı olsun ve bütün dilimler boyansın. Rengi seç, dilimlere dokunarak boya. Çark 10 eş dilimli. Renkler: sarı, mavi, yeşil.",
+    "correctAnswer": "sarı 2/5 → 4 dilim; mavi ve yeşil eşit sayıda; bütün dilimler boyalı",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Sarı 4 dilim; kalan 6 dilim 3 mavi, 3 yeşil olur."
+  },
+  {
+    "questionId": "mat8u5-tasarim-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "12 eş dilimli çarkta mor, turuncunun 2 katı olasılıklı olsun; P(turuncu) = 1/4 ve kalanı beyaz olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 12,
+      "cols": [
+        "mor",
+        "turuncu",
+        "beyaz"
+      ],
+      "r": [
+        [
+          "p",
+          "turuncu",
+          1,
+          4
+        ],
+        [
+          "p",
+          "mor",
+          1,
+          2
+        ],
+        [
+          "p",
+          "beyaz",
+          1,
+          4
+        ]
+      ]
+    },
+    "textPlain": "12 eş dilimli çarkta mor, turuncunun 2 katı olasılıklı olsun; P(turuncu) = 1/4 ve kalanı beyaz olsun. Rengi seç, dilimlere dokunarak boya. Çark 12 eş dilimli. Renkler: mor, turuncu, beyaz.",
+    "correctAnswer": "turuncu 1/4 → 3 dilim; mor 1/2 → 6 dilim; beyaz 1/4 → 3 dilim",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. Turuncu 3 dilim, mor 6 dilim, beyaz 3 dilim."
+  },
+  {
+    "questionId": "mat8u5-tasarim-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "12 eş dilimli çarkta kırmızı, maviden daha olası; mavi, sarıdan daha olası olsun. Sarı en az 2 dilim, bütün dilimler boyansın. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 12,
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "gt",
+          "kırmızı",
+          "mavi"
+        ],
+        [
+          "gt",
+          "mavi",
+          "sarı"
+        ],
+        [
+          "min",
+          "sarı",
+          2
+        ],
+        [
+          "all"
+        ]
+      ]
+    },
+    "textPlain": "12 eş dilimli çarkta kırmızı, maviden daha olası; mavi, sarıdan daha olası olsun. Sarı en az 2 dilim, bütün dilimler boyansın. Rengi seç, dilimlere dokunarak boya. Çark 12 eş dilimli. Renkler: kırmızı, mavi, sarı.",
+    "correctAnswer": "kırmızı dilim sayısı mavi’dan fazla; mavi dilim sayısı sarı’dan fazla; bütün dilimler boyalı",
+    "explanation": "Dilim sayısı fazla olan rengin gelme olasılığı daha fazladır; örneğin 6 kırmızı, 4 mavi, 2 sarı."
+  },
+  {
+    "questionId": "mat8u5-tasarim-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "tasarim",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "6 eş dilimli çarkta yeşil gelme olasılığı 0, kırmızı ve mavi eşit olasılıklı olsun. Rengi seç, dilimlere dokunarak boya.",
+    "data": {
+      "n": 6,
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "yeşil"
+      ],
+      "r": [
+        [
+          "p",
+          "yeşil",
+          0,
+          6
+        ],
+        [
+          "eq",
+          "kırmızı",
+          "mavi"
+        ],
+        [
+          "all"
+        ]
+      ]
+    },
+    "textPlain": "6 eş dilimli çarkta yeşil gelme olasılığı 0, kırmızı ve mavi eşit olasılıklı olsun. Rengi seç, dilimlere dokunarak boya. Çark 6 eş dilimli. Renkler: kırmızı, mavi, yeşil.",
+    "correctAnswer": "yeşil 0/6 → 0 dilim; kırmızı ve mavi eşit sayıda; bütün dilimler boyalı",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır."
+  },
+  {
+    "questionId": "mat8u5-durum-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "durum",
+    "rank": 1,
+    "type": "order",
+    "prompt": "Zar atılırken olayları en az olasıdan en çok olasıya doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "6 gelmesi",
+        "Çift gelmesi",
+        "6’dan küçük gelmesi"
+      ],
+      "v": [
+        0.16666666666666666,
+        0.5,
+        0.8333333333333334
+      ]
+    },
+    "textPlain": "Zar atılırken olayları en az olasıdan en çok olasıya doğru sırayla dokun. Olaylar: 6 gelmesi; Çift gelmesi; 6’dan küçük gelmesi.",
+    "correctAnswer": "6 gelmesi < Çift gelmesi < 6’dan küçük gelmesi",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-durum-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "durum",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Olayları en az olasıdan en çok olasıya doğru sırayla dokun (1–10 kartları).",
+    "data": {
+      "c": [
+        "Asal sayı",
+        "10",
+        "Tek sayı",
+        "1’den büyük"
+      ],
+      "v": [
+        0.4,
+        0.1,
+        0.5,
+        0.9
+      ]
+    },
+    "textPlain": "Olayları en az olasıdan en çok olasıya doğru sırayla dokun (1–10 kartları). Olaylar: Asal sayı; 10; Tek sayı; 1’den büyük.",
+    "correctAnswer": "10 < Asal sayı < Tek sayı < 1’den büyük",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır. Asal sayılar 2, 3, 5, 7 → 4/10."
+  },
+  {
+    "questionId": "mat8u5-durum-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Bir olaya ait olası durumlar",
+    "outcome": "Bir olaya ait olası durumları belirler.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "durum",
+    "rank": 3,
+    "type": "order",
+    "prompt": "Olayları en az olasıdan en çok olasıya doğru sırayla dokun (TAKVİM kelimesinin harfleri).",
+    "data": {
+      "c": [
+        "Sesli harf",
+        "K harfi",
+        "Sessiz harf"
+      ],
+      "v": [
+        0.3333333333333333,
+        0.16666666666666666,
+        0.6666666666666666
+      ]
+    },
+    "textPlain": "Olayları en az olasıdan en çok olasıya doğru sırayla dokun (TAKVİM kelimesinin harfleri). Olaylar: Sesli harf; K harfi; Sessiz harf.",
+    "correctAnswer": "K harfi < Sesli harf < Sessiz harf",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "karsilastir",
+    "rank": 1,
+    "type": "order",
+    "prompt": "Torbalardan kırmızı çekme olasılığını en azdan en çoğa doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "2 kırmızı 2 mavi",
+        "1 kırmızı 3 mavi",
+        "3 kırmızı 1 mavi"
+      ],
+      "v": [
+        0.5,
+        0.25,
+        0.75
+      ]
+    },
+    "textPlain": "Torbalardan kırmızı çekme olasılığını en azdan en çoğa doğru sırayla dokun. Olaylar: 2 kırmızı 2 mavi; 1 kırmızı 3 mavi; 3 kırmızı 1 mavi.",
+    "correctAnswer": "1 kırmızı 3 mavi < 2 kırmızı 2 mavi < 3 kırmızı 1 mavi",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "karsilastir",
+    "rank": 1,
+    "type": "order",
+    "prompt": "Çarklarda maviye gelme olasılığını en azdan en çoğa doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "8 dilimden 2’si mavi",
+        "8 dilimden 6’sı mavi",
+        "8 dilimden 4’ü mavi"
+      ],
+      "v": [
+        0.25,
+        0.75,
+        0.5
+      ]
+    },
+    "textPlain": "Çarklarda maviye gelme olasılığını en azdan en çoğa doğru sırayla dokun. Olaylar: 8 dilimden 2’si mavi; 8 dilimden 6’sı mavi; 8 dilimden 4’ü mavi.",
+    "correctAnswer": "8 dilimden 2’si mavi < 8 dilimden 4’ü mavi < 8 dilimden 6’sı mavi",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Torbalardan sarı çekme olasılığını en azdan en çoğa doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "3 sarı 5 mor",
+        "2 sarı 2 mor",
+        "4 sarı 2 mor",
+        "1 sarı 9 mor"
+      ],
+      "v": [
+        0.375,
+        0.5,
+        0.6666666666666666,
+        0.1
+      ]
+    },
+    "textPlain": "Torbalardan sarı çekme olasılığını en azdan en çoğa doğru sırayla dokun. Olaylar: 3 sarı 5 mor; 2 sarı 2 mor; 4 sarı 2 mor; 1 sarı 9 mor.",
+    "correctAnswer": "1 sarı 9 mor < 3 sarı 5 mor < 2 sarı 2 mor < 4 sarı 2 mor",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Olayların olasılığını en azdan en çoğa doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "Zarda 4",
+        "Yazı-turada yazı",
+        "4 dilimli çarkta kırmızı (1 dilim)",
+        "Zarda 2’den büyük"
+      ],
+      "v": [
+        0.16666666666666666,
+        0.5,
+        0.25,
+        0.6666666666666666
+      ]
+    },
+    "textPlain": "Olayların olasılığını en azdan en çoğa doğru sırayla dokun. Olaylar: Zarda 4; Yazı-turada yazı; 4 dilimli çarkta kırmızı (1 dilim); Zarda 2’den büyük.",
+    "correctAnswer": "Zarda 4 < 4 dilimli çarkta kırmızı (1 dilim) < Yazı-turada yazı < Zarda 2’den büyük",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "karsilastir",
+    "rank": 3,
+    "type": "order",
+    "prompt": "Torbalardan yeşil çekme olasılığını en azdan en çoğa doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "5 yeşil 7 beyaz",
+        "3 yeşil 3 beyaz",
+        "4 yeşil 2 beyaz",
+        "2 yeşil 8 beyaz"
+      ],
+      "v": [
+        0.4166666666666667,
+        0.5,
+        0.6666666666666666,
+        0.2
+      ]
+    },
+    "textPlain": "Torbalardan yeşil çekme olasılığını en azdan en çoğa doğru sırayla dokun. Olaylar: 5 yeşil 7 beyaz; 3 yeşil 3 beyaz; 4 yeşil 2 beyaz; 2 yeşil 8 beyaz.",
+    "correctAnswer": "2 yeşil 8 beyaz < 5 yeşil 7 beyaz < 3 yeşil 3 beyaz < 4 yeşil 2 beyaz",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır. 5/12 ≈ 0,42; 2/10 = 0,2."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "karsilastir",
+    "rank": 3,
+    "type": "order",
+    "prompt": "Olasılıkları en azdan en çoğa doğru sırayla dokun.",
+    "data": {
+      "c": [
+        "3/8",
+        "2/5",
+        "1/3",
+        "5/12"
+      ],
+      "v": [
+        0.375,
+        0.4,
+        0.3333333333333333,
+        0.4166666666666667
+      ]
+    },
+    "textPlain": "Olasılıkları en azdan en çoğa doğru sırayla dokun. Olaylar: 3/8; 2/5; 1/3; 5/12.",
+    "correctAnswer": "1/3 < 3/8 < 2/5 < 5/12",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır. Ortak paydada: 45/120, 48/120, 40/120, 50/120."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Kartlardan çekme olasılığını en azdan en çoğa doğru sırayla dokun (1–20 kartları).",
+    "data": {
+      "c": [
+        "5’in katı",
+        "Çift sayı",
+        "Tek basamaklı",
+        "20’den küçük"
+      ],
+      "v": [
+        0.2,
+        0.5,
+        0.45,
+        0.95
+      ]
+    },
+    "textPlain": "Kartlardan çekme olasılığını en azdan en çoğa doğru sırayla dokun (1–20 kartları). Olaylar: 5’in katı; Çift sayı; Tek basamaklı; 20’den küçük.",
+    "correctAnswer": "5’in katı < Tek basamaklı < Çift sayı < 20’den küçük",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "karsilastir",
+    "rank": 1,
+    "type": "bag",
+    "prompt": "Torbada kırmızı çekme olasılığı maviden fazla olsun (en az 1 mavi). Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "gt",
+          "kırmızı",
+          "mavi"
+        ],
+        [
+          "min",
+          "mavi",
+          1
+        ]
+      ],
+      "i": [
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false
+      ]
+    },
+    "textPlain": "Torbada kırmızı çekme olasılığı maviden fazla olsun (en az 1 mavi). Top sayılarını ayarla. Renkler: kırmızı, mavi.",
+    "correctAnswer": "kırmızı sayısı mavi sayısından fazla; en az 1 mavi",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "karsilastir",
+    "rank": 1,
+    "type": "bag",
+    "prompt": "Torbada sarı ve mor çekme olasılıkları eşit olsun (her renkten en az 1). Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "sarı",
+        "mor"
+      ],
+      "r": [
+        [
+          "eq",
+          "sarı",
+          "mor"
+        ],
+        [
+          "min",
+          "sarı",
+          1
+        ]
+      ],
+      "i": [
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false
+      ]
+    },
+    "textPlain": "Torbada sarı ve mor çekme olasılıkları eşit olsun (her renkten en az 1). Top sayılarını ayarla. Renkler: sarı, mor.",
+    "correctAnswer": "sarı ve mor eşit; en az 1 sarı",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "bag",
+    "prompt": "Yeşil en olası, beyaz en az olası olsun; her renkten en az 1 top olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "yeşil",
+        "mavi",
+        "beyaz"
+      ],
+      "r": [
+        [
+          "gt",
+          "yeşil",
+          "mavi"
+        ],
+        [
+          "gt",
+          "mavi",
+          "beyaz"
+        ],
+        [
+          "min",
+          "beyaz",
+          1
+        ]
+      ],
+      "i": [
+        0,
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false,
+        false
+      ]
+    },
+    "textPlain": "Yeşil en olası, beyaz en az olası olsun; her renkten en az 1 top olsun. Top sayılarını ayarla. Renkler: yeşil, mavi, beyaz.",
+    "correctAnswer": "yeşil sayısı mavi sayısından fazla; mavi sayısı beyaz sayısından fazla; en az 1 beyaz",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "bag",
+    "prompt": "Torbada 4 kırmızı var. Mavi çekme olasılığı kırmızıdan az ama 0’dan büyük olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "gt",
+          "kırmızı",
+          "mavi"
+        ],
+        [
+          "min",
+          "mavi",
+          1
+        ]
+      ],
+      "i": [
+        4,
+        0
+      ],
+      "f": [
+        true,
+        false
+      ]
+    },
+    "textPlain": "Torbada 4 kırmızı var. Mavi çekme olasılığı kırmızıdan az ama 0’dan büyük olsun. Top sayılarını ayarla. Renkler: kırmızı (4, sabit), mavi.",
+    "correctAnswer": "kırmızı sayısı mavi sayısından fazla; en az 1 mavi",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "karsilastir",
+    "rank": 3,
+    "type": "bag",
+    "prompt": "Torbada 3 sarı var. Turuncu sarıdan daha olası, siyah sarıyla eşit olasılıklı olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "sarı",
+        "turuncu",
+        "siyah"
+      ],
+      "r": [
+        [
+          "gt",
+          "turuncu",
+          "sarı"
+        ],
+        [
+          "eq",
+          "siyah",
+          "sarı"
+        ]
+      ],
+      "i": [
+        3,
+        0,
+        0
+      ],
+      "f": [
+        true,
+        false,
+        false
+      ]
+    },
+    "textPlain": "Torbada 3 sarı var. Turuncu sarıdan daha olası, siyah sarıyla eşit olasılıklı olsun. Top sayılarını ayarla. Renkler: sarı (3, sabit), turuncu, siyah.",
+    "correctAnswer": "turuncu sayısı sarı sayısından fazla; siyah ve sarı eşit",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "karsilastir",
+    "rank": 3,
+    "type": "bag",
+    "prompt": "Kırmızı, mavi ve sarı eşit olasılıklı; toplam 12 top olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "eq",
+          "kırmızı",
+          "mavi"
+        ],
+        [
+          "eq",
+          "mavi",
+          "sarı"
+        ],
+        [
+          "tot",
+          12
+        ]
+      ],
+      "i": [
+        0,
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false,
+        false
+      ]
+    },
+    "textPlain": "Kırmızı, mavi ve sarı eşit olasılıklı; toplam 12 top olsun. Top sayılarını ayarla. Renkler: kırmızı, mavi, sarı.",
+    "correctAnswer": "kırmızı ve mavi eşit; mavi ve sarı eşit; toplam 12 top",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "bag",
+    "prompt": "Torbada 5 yeşil var. Beyaz çekme olasılığı yeşille eşit olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "yeşil",
+        "beyaz"
+      ],
+      "r": [
+        [
+          "eq",
+          "yeşil",
+          "beyaz"
+        ]
+      ],
+      "i": [
+        5,
+        0
+      ],
+      "f": [
+        true,
+        false
+      ]
+    },
+    "textPlain": "Torbada 5 yeşil var. Beyaz çekme olasılığı yeşille eşit olsun. Top sayılarını ayarla. Renkler: yeşil (5, sabit), beyaz.",
+    "correctAnswer": "yeşil ve beyaz eşit",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-tasarim-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "tasarim",
+    "rank": 1,
+    "type": "bag",
+    "prompt": "Toplam 10 top olsun ve kırmızı çekme olasılığı 3/10 olsun; kalanı mavi. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "tot",
+          10
+        ],
+        [
+          "p",
+          "kırmızı",
+          3,
+          10
+        ]
+      ],
+      "i": [
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false
+      ]
+    },
+    "textPlain": "Toplam 10 top olsun ve kırmızı çekme olasılığı 3/10 olsun; kalanı mavi. Top sayılarını ayarla. Renkler: kırmızı, mavi.",
+    "correctAnswer": "toplam 10 top; P(kırmızı) = 3/10",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "tasarim",
+    "rank": 1,
+    "type": "bag",
+    "prompt": "Torbada 4 mavi var. Mavi çekme olasılığı 1/2 olacak kadar sarı ekle. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "p",
+          "mavi",
+          1,
+          2
+        ]
+      ],
+      "i": [
+        4,
+        0
+      ],
+      "f": [
+        true,
+        false
+      ]
+    },
+    "textPlain": "Torbada 4 mavi var. Mavi çekme olasılığı 1/2 olacak kadar sarı ekle. Top sayılarını ayarla. Renkler: mavi (4, sabit), sarı.",
+    "correctAnswer": "P(mavi) = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "bag",
+    "prompt": "Torbada 3 kırmızı var. Kırmızı çekme olasılığı 1/4 olacak kadar mavi ekle. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          4
+        ]
+      ],
+      "i": [
+        3,
+        0
+      ],
+      "f": [
+        true,
+        false
+      ]
+    },
+    "textPlain": "Torbada 3 kırmızı var. Kırmızı çekme olasılığı 1/4 olacak kadar mavi ekle. Top sayılarını ayarla. Renkler: kırmızı (3, sabit), mavi.",
+    "correctAnswer": "P(kırmızı) = 1/4",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 3/12 = 1/4 olduğundan 9 mavi gerekir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "bag",
+    "prompt": "Toplam 12 top: P(yeşil) = 1/3, P(mor) = 1/2, kalanı beyaz olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "yeşil",
+        "mor",
+        "beyaz"
+      ],
+      "r": [
+        [
+          "tot",
+          12
+        ],
+        [
+          "p",
+          "yeşil",
+          1,
+          3
+        ],
+        [
+          "p",
+          "mor",
+          1,
+          2
+        ]
+      ],
+      "i": [
+        0,
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false,
+        false
+      ]
+    },
+    "textPlain": "Toplam 12 top: P(yeşil) = 1/3, P(mor) = 1/2, kalanı beyaz olsun. Top sayılarını ayarla. Renkler: yeşil, mor, beyaz.",
+    "correctAnswer": "toplam 12 top; P(yeşil) = 1/3; P(mor) = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "bag",
+    "prompt": "Torbada 6 sarı, 2 mavi var. Mavi çekme olasılığı 1/3 olacak kadar mavi ekle. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "sarı",
+        "mavi"
+      ],
+      "r": [
+        [
+          "p",
+          "mavi",
+          1,
+          3
+        ],
+        [
+          "cnt",
+          "sarı",
+          6
+        ]
+      ],
+      "i": [
+        6,
+        2
+      ],
+      "f": [
+        true,
+        false
+      ]
+    },
+    "textPlain": "Torbada 6 sarı, 2 mavi var. Mavi çekme olasılığı 1/3 olacak kadar mavi ekle. Top sayılarını ayarla. Renkler: sarı (6, sabit), mavi (başlangıç 2).",
+    "correctAnswer": "P(mavi) = 1/3; sarı 6 tane",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 6 sarıyla mavi/toplam = 1/3 olması için mavi 3 olmalı; 1 mavi eklenir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "bag",
+    "prompt": "Torbada 5 kırmızı, 7 beyaz var. Kırmızı çekme olasılığı 1/2 olacak şekilde yalnız kırmızı top ekle. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "beyaz"
+      ],
+      "r": [
+        [
+          "p",
+          "kırmızı",
+          1,
+          2
+        ]
+      ],
+      "i": [
+        5,
+        7
+      ],
+      "f": [
+        false,
+        true
+      ]
+    },
+    "textPlain": "Torbada 5 kırmızı, 7 beyaz var. Kırmızı çekme olasılığı 1/2 olacak şekilde yalnız kırmızı top ekle. Top sayılarını ayarla. Renkler: kırmızı (başlangıç 5), beyaz (7, sabit).",
+    "correctAnswer": "P(kırmızı) = 1/2",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 7 kırmızı, 7 beyaz olmalı; 2 kırmızı eklenir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "bag",
+    "prompt": "Toplam 8 top: kırmızı çekme olasılığı 0, mavi ile sarı eşit olasılıklı olsun. Top sayılarını ayarla.",
+    "data": {
+      "cols": [
+        "kırmızı",
+        "mavi",
+        "sarı"
+      ],
+      "r": [
+        [
+          "tot",
+          8
+        ],
+        [
+          "p",
+          "kırmızı",
+          0,
+          8
+        ],
+        [
+          "eq",
+          "mavi",
+          "sarı"
+        ]
+      ],
+      "i": [
+        0,
+        0,
+        0
+      ],
+      "f": [
+        false,
+        false,
+        false
+      ]
+    },
+    "textPlain": "Toplam 8 top: kırmızı çekme olasılığı 0, mavi ile sarı eşit olasılıklı olsun. Top sayılarını ayarla. Renkler: kırmızı, mavi, sarı.",
+    "correctAnswer": "toplam 8 top; P(kırmızı) = 0/8; mavi ve sarı eşit",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır."
+  },
+  {
+    "questionId": "mat8u5-hesap-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "hesap",
+    "rank": 1,
+    "type": "cards",
+    "prompt": "Kartlardan en az sayıda kart atarak çift sayı çekme olasılığını 1 yap.",
+    "data": {
+      "c": [
+        "2",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "e": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "n": 1,
+      "d": 1,
+      "m": 1
+    },
+    "textPlain": "Kartlardan en az sayıda kart atarak çift sayı çekme olasılığını 1 yap. Kartlar: 2, 4, 5, 6, 8.",
+    "correctAnswer": "En az 1 kart atılarak olasılık 1/1 olur",
+    "explanation": "Gerçekleşmesi mümkün olmayan olay imkânsızdır (olasılığı 0); her durumda gerçekleşen olay kesindir (olasılığı 1); diğerlerinin olasılığı 0 ile 1 arasındadır. Tek kart (5) atılınca bütün kartlar çift olur."
+  },
+  {
+    "questionId": "mat8u5-hesap-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak sesli harf çekme olasılığını 1/2 yap.",
+    "data": {
+      "c": [
+        "K",
+        "İ",
+        "T",
+        "A",
+        "P",
+        "L",
+        "I",
+        "K"
+      ],
+      "e": [
+        1,
+        3,
+        6
+      ],
+      "n": 1,
+      "d": 2,
+      "m": 2
+    },
+    "textPlain": "En az sayıda kart atarak sesli harf çekme olasılığını 1/2 yap. Kartlar: K, İ, T, A, P, L, I, K.",
+    "correctAnswer": "En az 2 kart atılarak olasılık 1/2 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 3 sesli, 5 sessiz; 2 sessiz atılınca 3/6 = 1/2."
+  },
+  {
+    "questionId": "mat8u5-hesap-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "hesap",
+    "rank": 3,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak 3’ün katı çekme olasılığını 1/2 yap.",
+    "data": {
+      "c": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "e": [
+        2,
+        5,
+        8
+      ],
+      "n": 1,
+      "d": 2,
+      "m": 3
+    },
+    "textPlain": "En az sayıda kart atarak 3’ün katı çekme olasılığını 1/2 yap. Kartlar: 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "correctAnswer": "En az 3 kart atılarak olasılık 1/2 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 3 tane 3’ün katı var; olasılık 1/2 için toplam 6 kart kalmalı, 3 kart (3’ün katı olmayan) atılır."
+  },
+  {
+    "questionId": "mat8u5-tasarim-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "tasarim",
+    "rank": 1,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak kırmızı kart çekme olasılığını 1/2 yap.",
+    "data": {
+      "c": [
+        "🟥",
+        "🟥",
+        "🟦",
+        "🟦",
+        "🟦",
+        "🟦"
+      ],
+      "e": [
+        0,
+        1
+      ],
+      "n": 1,
+      "d": 2,
+      "m": 2
+    },
+    "textPlain": "En az sayıda kart atarak kırmızı kart çekme olasılığını 1/2 yap. Kartlar: 🟥, 🟥, 🟦, 🟦, 🟦, 🟦.",
+    "correctAnswer": "En az 2 kart atılarak olasılık 1/2 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-tasarim-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak tek sayı çekme olasılığını 2/3 yap.",
+    "data": {
+      "c": [
+        "1",
+        "3",
+        "5",
+        "7",
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "e": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n": 2,
+      "d": 3,
+      "m": 2
+    },
+    "textPlain": "En az sayıda kart atarak tek sayı çekme olasılığını 2/3 yap. Kartlar: 1, 3, 5, 7, 2, 4, 6, 8.",
+    "correctAnswer": "En az 2 kart atılarak olasılık 2/3 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 4 tek, 4 çift; 2 çift atılınca 4/6 = 2/3."
+  },
+  {
+    "questionId": "mat8u5-tasarim-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak A harfi çekme olasılığını 1/2 yap.",
+    "data": {
+      "c": [
+        "A",
+        "N",
+        "K",
+        "A",
+        "R",
+        "A",
+        "L",
+        "I"
+      ],
+      "e": [
+        0,
+        3,
+        5
+      ],
+      "n": 1,
+      "d": 2,
+      "m": 2
+    },
+    "textPlain": "En az sayıda kart atarak A harfi çekme olasılığını 1/2 yap. Kartlar: A, N, K, A, R, A, L, I.",
+    "correctAnswer": "En az 2 kart atılarak olasılık 1/2 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 3 A, 5 başka harf; 2 başka harf atılınca 3/6 = 1/2."
+  },
+  {
+    "questionId": "mat8u5-tasarim-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak asal sayı çekme olasılığını 4/5 yap.",
+    "data": {
+      "c": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "e": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "n": 4,
+      "d": 5,
+      "m": 3
+    },
+    "textPlain": "En az sayıda kart atarak asal sayı çekme olasılığını 4/5 yap. Kartlar: 2, 3, 4, 5, 6, 7, 8, 9.",
+    "correctAnswer": "En az 3 kart atılarak olasılık 4/5 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 4 asal kalır, toplam 5 kart olmalı; 4 asal olmayandan 3’ü atılır."
+  },
+  {
+    "questionId": "mat8u5-tasarim-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "cards",
+    "prompt": "En az sayıda kart atarak mavi kart çekme olasılığını 1/3 yap.",
+    "data": {
+      "c": [
+        "🟦",
+        "🟦",
+        "🟦",
+        "🟦",
+        "🟥",
+        "🟥",
+        "🟥",
+        "🟥",
+        "🟥"
+      ],
+      "e": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "n": 1,
+      "d": 3,
+      "m": 3
+    },
+    "textPlain": "En az sayıda kart atarak mavi kart çekme olasılığını 1/3 yap. Kartlar: 🟦, 🟦, 🟦, 🟦, 🟥, 🟥, 🟥, 🟥, 🟥.",
+    "correctAnswer": "En az 3 kart atılarak olasılık 1/3 olur",
+    "explanation": "Bir olayın olma olasılığı = istenen durumların sayısı ÷ tüm olası durumların sayısı. Olasılık 0 ile 1 arasındadır; imkânsız olayın olasılığı 0, kesin olayın olasılığı 1’dir. 4 mavi, 5 kırmızı; olasılık 1/3 için 2 mavi + 4 kırmızı (2 mavi, 1 kırmızı atılır) ya da 3 mavi + 6 kırmızı (imkânsız); en az 3 kart atılır."
+  },
+  {
+    "questionId": "mat8u5-esit-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Çıktıları eşit şanslı olan ve olmayan durumları ayır.",
+    "data": {
+      "L": [
+        "⚖️ Eşit şanslı",
+        "❌ Eşit şanslı değil"
+      ],
+      "r": [
+        [
+          "Hilesiz zarın yüzleri",
+          0
+        ],
+        [
+          "Yarısı kırmızı, çeyreği mavi, çeyreği sarı çarkın renkleri",
+          1
+        ],
+        [
+          "Hilesiz paranın yazı ve turası",
+          0
+        ],
+        [
+          "3 kırmızı 1 mavi toptan çekilen rengin kırmızı ya da mavi olması",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Çıktıları eşit şanslı olan ve olmayan durumları ayır. Bölmeler: Eşit şanslı, Eşit şanslı değil. Kartlar: Hilesiz zarın yüzleri, Yarısı kırmızı, çeyreği mavi, çeyreği sarı çarkın renkleri, Hilesiz paranın yazı ve turası, 3 kırmızı 1 mavi toptan çekilen rengin kırmızı ya da mavi olması.",
+    "correctAnswer": "Hilesiz zarın yüzleri → Eşit şanslı | Yarısı kırmızı, çeyreği mavi, çeyreği sarı çarkın renkleri → Eşit şanslı değil | Hilesiz paranın yazı ve turası → Eşit şanslı | 3 kırmızı 1 mavi toptan çekilen rengin kırmızı ya da mavi olması → Eşit şanslı değil",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "esit",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Çıktıları eşit şanslı olan ve olmayan durumları ayır.",
+    "data": {
+      "L": [
+        "⚖️ Eşit şanslı",
+        "❌ Eşit şanslı değil"
+      ],
+      "r": [
+        [
+          "1–10 kartlarından her bir sayının çekilmesi",
+          0
+        ],
+        [
+          "12 kız 18 erkek arasından seçilenin kız ya da erkek olması",
+          1
+        ],
+        [
+          "Dilimleri farklı renkte 4 eş dilimli çarkta renkler",
+          0
+        ],
+        [
+          "Rastgele bir günün hafta içi ya da hafta sonu olması",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Çıktıları eşit şanslı olan ve olmayan durumları ayır. Bölmeler: Eşit şanslı, Eşit şanslı değil. Kartlar: 1–10 kartlarından her bir sayının çekilmesi, 12 kız 18 erkek arasından seçilenin kız ya da erkek olması, Dilimleri farklı renkte 4 eş dilimli çarkta renkler, Rastgele bir günün hafta içi ya da hafta sonu olması.",
+    "correctAnswer": "1–10 kartlarından her bir sayının çekilmesi → Eşit şanslı | 12 kız 18 erkek arasından seçilenin kız ya da erkek olması → Eşit şanslı değil | Dilimleri farklı renkte 4 eş dilimli çarkta renkler → Eşit şanslı | Rastgele bir günün hafta içi ya da hafta sonu olması → Eşit şanslı değil",
+    "explanation": "Eşit şansa sahip n durumdan her birinin olma olasılığı 1/n’dir; tüm durumların olasılıkları toplamı 1’dir."
+  },
+  {
+    "questionId": "mat8u5-esit-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "esit",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Sayıları olasılık değeri olup olamamasına göre ayır.",
+    "data": {
+      "L": [
+        "✅ Olasılık olabilir",
+        "🚫 Olasılık olamaz"
+      ],
+      "r": [
+        [
+          "3/4",
+          0
+        ],
+        [
+          "5/4",
+          1
+        ],
+        [
+          "0",
+          0
+        ],
+        [
+          "1",
+          0
+        ],
+        [
+          "−1/2",
+          1
+        ],
+        [
+          "0,35",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Sayıları olasılık değeri olup olamamasına göre ayır. Bölmeler: Olasılık olabilir, Olasılık olamaz. Kartlar: 3/4, 5/4, 0, 1, −1/2, 0,35.",
+    "correctAnswer": "3/4 → Olasılık olabilir | 5/4 → Olasılık olamaz | 0 → Olasılık olabilir | 1 → Olasılık olabilir | −1/2 → Olasılık olamaz | 0,35 → Olasılık olabilir",
+    "explanation": "Bir olasılık değeri 0 ile 1 arasında (0 ve 1 dahil) olmalıdır; negatif ya da 1’den büyük olamaz."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "karsilastir",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Her A–B çiftini karşılaştırıp doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "⬆️ A daha olası",
+        "⚖️ Eşit",
+        "⬇️ B daha olası"
+      ],
+      "r": [
+        [
+          "A: zarda çift · B: zarda tek",
+          1
+        ],
+        [
+          "A: zarda 6 · B: zarda 1–5 arası",
+          2
+        ],
+        [
+          "A: yazı-turada yazı · B: zarda 3",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Her A–B çiftini karşılaştırıp doğru bölmeye yerleştir. Bölmeler: A daha olası, Eşit, B daha olası. Kartlar: A: zarda çift · B: zarda tek, A: zarda 6 · B: zarda 1–5 arası, A: yazı-turada yazı · B: zarda 3.",
+    "correctAnswer": "A: zarda çift · B: zarda tek → Eşit | A: zarda 6 · B: zarda 1–5 arası → B daha olası | A: yazı-turada yazı · B: zarda 3 → A daha olası",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "karsilastir",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Her A–B çiftini karşılaştırıp doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "⬆️ A daha olası",
+        "⚖️ Eşit",
+        "⬇️ B daha olası"
+      ],
+      "r": [
+        [
+          "A: 2 kırmızı 3 mavi torbadan kırmızı · B: aynı torbadan mavi",
+          2
+        ],
+        [
+          "A: 8 dilimli çarkta 4 dilim · B: 6 dilimli çarkta 3 dilim",
+          1
+        ],
+        [
+          "A: 1–10 kartlarından asal · B: 1–10 kartlarından 5’ten büyük",
+          2
+        ],
+        [
+          "A: 1–10’dan 3’ün katı · B: 1–10’dan 4’ün katı",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Her A–B çiftini karşılaştırıp doğru bölmeye yerleştir. Bölmeler: A daha olası, Eşit, B daha olası. Kartlar: A: 2 kırmızı 3 mavi torbadan kırmızı · B: aynı torbadan mavi, A: 8 dilimli çarkta 4 dilim · B: 6 dilimli çarkta 3 dilim, A: 1–10 kartlarından asal · B: 1–10 kartlarından 5’ten büyük, A: 1–10’dan 3’ün katı · B: 1–10’dan 4’ün katı.",
+    "correctAnswer": "A: 2 kırmızı 3 mavi torbadan kırmızı · B: aynı torbadan mavi → B daha olası | A: 8 dilimli çarkta 4 dilim · B: 6 dilimli çarkta 3 dilim → Eşit | A: 1–10 kartlarından asal · B: 1–10 kartlarından 5’ten büyük → B daha olası | A: 1–10’dan 3’ün katı · B: 1–10’dan 4’ün katı → A daha olası",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır. Asallar 4/10, 5’ten büyükler 5/10; 3’ün katları 3/10, 4’ün katları 2/10."
+  },
+  {
+    "questionId": "mat8u5-karsilastir-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Daha fazla, eşit ve daha az olasılıklı olaylar",
+    "outcome": "“Daha fazla”, “eşit”, “daha az” olasılıklı olayları ayırt eder; örnek verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "karsilastir",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Her A–B çiftini karşılaştırıp doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "⬆️ A daha olası",
+        "⚖️ Eşit",
+        "⬇️ B daha olası"
+      ],
+      "r": [
+        [
+          "A: KİTAP’tan sesli harf · B: KALEM’den sesli harf",
+          1
+        ],
+        [
+          "A: olasılığı 3/8 · B: olasılığı 2/5",
+          2
+        ],
+        [
+          "A: 5 kırmızı 7 mavi’den kırmızı · B: 3 kırmızı 5 mavi’den kırmızı",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Her A–B çiftini karşılaştırıp doğru bölmeye yerleştir. Bölmeler: A daha olası, Eşit, B daha olası. Kartlar: A: KİTAP’tan sesli harf · B: KALEM’den sesli harf, A: olasılığı 3/8 · B: olasılığı 2/5, A: 5 kırmızı 7 mavi’den kırmızı · B: 3 kırmızı 5 mavi’den kırmızı.",
+    "correctAnswer": "A: KİTAP’tan sesli harf · B: KALEM’den sesli harf → Eşit | A: olasılığı 3/8 · B: olasılığı 2/5 → B daha olası | A: 5 kırmızı 7 mavi’den kırmızı · B: 3 kırmızı 5 mavi’den kırmızı → A daha olası",
+    "explanation": "Olayların olasılıkları hesaplanıp karşılaştırılır; istenen durum sayısının tüm durumlara oranı büyük olan olay daha olasıdır. 3/8 = 0,375 < 2/5 = 0,4; 5/12 ≈ 0,42 > 3/8."
+  },
+  {
+    "questionId": "mat8u5-hesap-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Torbada 15 top var. Kırmızı çekme olasılığı 2/5 ise torbada kaç kırmızı top vardır?",
+    "data": {
+      "a": 6,
+      "u": ""
+    },
+    "textPlain": "Torbada 15 top var. Kırmızı çekme olasılığı 2/5 ise torbada kaç kırmızı top vardır?",
+    "correctAnswer": "6",
+    "explanation": "15 × 2/5 = 6."
+  },
+  {
+    "questionId": "mat8u5-hesap-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "hesap",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Bir torbadan mavi çekme olasılığı 3/7’dir. Mavi olmayan top çekme olasılığının payı kaçtır (paydası 7)?",
+    "data": {
+      "a": 4,
+      "u": ""
+    },
+    "textPlain": "Bir torbadan mavi çekme olasılığı 3/7’dir. Mavi olmayan top çekme olasılığının payı kaçtır (paydası 7)?",
+    "correctAnswer": "4",
+    "explanation": "Bir olayın olma ve olmama olasılıkları toplamı 1’dir: 1 − 3/7 = 4/7."
+  },
+  {
+    "questionId": "mat8u5-hesap-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Basit bir olayın olma olasılığını hesaplama",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "hesap",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Torbada 4 kırmızı ve bir miktar mavi top var. Kırmızı çekme olasılığı 1/5 ise kaç mavi top vardır?",
+    "data": {
+      "a": 16,
+      "u": ""
+    },
+    "textPlain": "Torbada 4 kırmızı ve bir miktar mavi top var. Kırmızı çekme olasılığı 1/5 ise kaç mavi top vardır?",
+    "correctAnswer": "16",
+    "explanation": "4 kırmızı toplamın 1/5’i ise toplam 20 top; 20 − 4 = 16 mavi."
+  },
+  {
+    "questionId": "mat8u5-tasarim-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "orta",
+    "group": "tasarim",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Torbada 6 beyaz ve 4 siyah top var. Siyah çekme olasılığının 1/2 olması için kaç siyah top eklenmelidir?",
+    "data": {
+      "a": 2,
+      "u": ""
+    },
+    "textPlain": "Torbada 6 beyaz ve 4 siyah top var. Siyah çekme olasılığının 1/2 olması için kaç siyah top eklenmelidir?",
+    "correctAnswer": "2",
+    "explanation": "Siyah sayısı beyaza eşit olmalı: 6 − 4 = 2."
+  },
+  {
+    "questionId": "mat8u5-tasarim-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Torbada 3 sarı ve 9 mor top var. Sarı çekme olasılığının 1/3 olması için torbadan kaç mor top çıkarılmalıdır?",
+    "data": {
+      "a": 3,
+      "u": ""
+    },
+    "textPlain": "Torbada 3 sarı ve 9 mor top var. Sarı çekme olasılığının 1/3 olması için torbadan kaç mor top çıkarılmalıdır?",
+    "correctAnswer": "3",
+    "explanation": "3 sarı toplamın 1/3’ü ise toplam 9 top olmalı: 12 − 9 = 3 mor çıkarılır."
+  },
+  {
+    "questionId": "mat8u5-tasarim-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "zor",
+    "group": "tasarim",
+    "rank": 3,
+    "type": "key",
+    "prompt": "12 eş dilimli çarkta kırmızı gelme olasılığı 1/4, mavinin 1/3, kalanı sarıdır. Kaç dilim sarıdır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "12 eş dilimli çarkta kırmızı gelme olasılığı 1/4, mavinin 1/3, kalanı sarıdır. Kaç dilim sarıdır?",
+    "correctAnswer": "5",
+    "explanation": "Kırmızı 3, mavi 4 dilim; 12 − 7 = 5 sarı."
+  },
+  {
+    "questionId": "mat8u5-tasarim-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Olasılık koşuluna göre düzenek tasarlama ve problem çözme",
+    "outcome": "Basit bir olayın olma olasılığını hesaplar ve verilen koşula uygun düzenek kurar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "tasarim",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Hilesiz zarda kaç farklı olası durum vardır?",
+    "data": {
+      "a": 6,
+      "u": ""
+    },
+    "textPlain": "Hilesiz zarda kaç farklı olası durum vardır?",
+    "correctAnswer": "6",
+    "explanation": "Zarın 6 yüzü vardır: 1, 2, 3, 4, 5, 6."
+  },
+  {
+    "questionId": "mat8u5-esit-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "5. Ünite: Basit Olayların Olma Olasılığı",
+    "topic": "Eşit şansa sahip olaylar, kesin ve imkânsız olay, olasılığın 0–1 aralığı",
+    "outcome": "Eşit şansa sahip olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar; olasılık değerinin 0 ile 1 arasında olduğunu anlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Olayların Olma Olasılığı”",
+    "difficulty": "kolay",
+    "group": "esit",
+    "rank": 1,
+    "type": "key",
+    "prompt": "10 eş dilimli çarkta her dilim farklı renktir. Bir rengin gelme olasılığı 1/x ise x kaçtır?",
+    "data": {
+      "a": 10,
+      "u": ""
+    },
+    "textPlain": "10 eş dilimli çarkta her dilim farklı renktir. Bir rengin gelme olasılığı 1/x ise x kaçtır?",
+    "correctAnswer": "10",
+    "explanation": "Eşit şanslı 10 durumdan her birinin olasılığı 1/10’dur."
+  }
+]
