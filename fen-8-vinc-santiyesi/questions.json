@@ -1,0 +1,3151 @@
+[
+  {
+    "questionId": "fen8u5-kaldirac-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "kaldirac",
+    "rank": 1,
+    "type": "lever",
+    "prompt": "3 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -2,
+          3
+        ]
+      ],
+      "m": "w",
+      "v": 3,
+      "f": 0,
+      "ans": 2
+    },
+    "textPlain": "3 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 3 birimlik yük 2 bölme solda.",
+    "correctAnswer": "Blok 2. bölmede, sağda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": "2022-S13"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "kaldirac",
+    "rank": 1,
+    "type": "lever",
+    "prompt": "4 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -4,
+          2
+        ]
+      ],
+      "m": "w",
+      "v": 4,
+      "f": 0,
+      "ans": 2
+    },
+    "textPlain": "4 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 2 birimlik yük 4 bölme solda.",
+    "correctAnswer": "Blok 2. bölmede, sağda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "kaldirac",
+    "rank": 1,
+    "type": "lever",
+    "prompt": "Sağdaki boş kancaya (2. bölme) asılacak bloğun ağırlığını ayarla; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -3,
+          4
+        ]
+      ],
+      "m": "n",
+      "v": 2,
+      "f": 0,
+      "ans": 6
+    },
+    "textPlain": "Sağdaki boş kancaya (2. bölme) asılacak bloğun ağırlığını ayarla; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 4 birimlik yük 3 bölme solda.",
+    "correctAnswer": "6 birim",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": "2022-S13"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "lever",
+    "prompt": "4 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -2,
+          6
+        ]
+      ],
+      "m": "w",
+      "v": 4,
+      "f": 0,
+      "ans": 3
+    },
+    "textPlain": "4 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 6 birimlik yük 2 bölme solda.",
+    "correctAnswer": "Blok 3. bölmede, sağda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": "2022-S13"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "lever",
+    "prompt": "3 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -4,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "m": "w",
+      "v": 3,
+      "f": 0,
+      "ans": 2
+    },
+    "textPlain": "3 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 3 birimlik yük 4 bölme solda, 2 birimlik yük 3 bölme sağda.",
+    "correctAnswer": "Blok 2. bölmede, sağda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "lever",
+    "prompt": "Desteği çubuğun altında sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -5,
+          2
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "m": "f",
+      "v": 0,
+      "f": 0,
+      "ans": 1
+    },
+    "textPlain": "Desteği çubuğun altında sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek öğrenci tarafından yerleştirilir. Yükler: 2 birimlik yük 5 bölme solda, 3 birimlik yük 5 bölme sağda.",
+    "correctAnswer": "Destek 1. bölmede sağda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": "2026-S12"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "lever",
+    "prompt": "Sağdaki boş kancaya (4. bölme) asılacak bloğun ağırlığını ayarla; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -4,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "m": "n",
+      "v": 4,
+      "f": 0,
+      "ans": 2
+    },
+    "textPlain": "Sağdaki boş kancaya (4. bölme) asılacak bloğun ağırlığını ayarla; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 3 birimlik yük 4 bölme solda, 2 birimlik yük 2 bölme sağda.",
+    "correctAnswer": "2 birim",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "lever",
+    "prompt": "2 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -5,
+          4
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "m": "w",
+      "v": 2,
+      "f": 0,
+      "ans": 5
+    },
+    "textPlain": "2 birimlik bloğu çubukta doğru deliğe sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 4 birimlik yük 5 bölme solda, 2 birimlik yük 1 bölme solda, 4 birimlik yük 3 bölme sağda.",
+    "correctAnswer": "Blok 5. bölmede, sağda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": "2021-S14"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "lever",
+    "prompt": "Desteği çubuğun altında sürükle; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -4,
+          6
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "m": "f",
+      "v": 0,
+      "f": 0,
+      "ans": -2
+    },
+    "textPlain": "Desteği çubuğun altında sürükle; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek öğrenci tarafından yerleştirilir. Yükler: 6 birimlik yük 4 bölme solda, 2 birimlik yük 4 bölme sağda.",
+    "correctAnswer": "Destek 2. bölmede solda",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": "2026-S12"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "lever",
+    "prompt": "Sağdaki boş kancaya (3. bölme) asılacak bloğun ağırlığını ayarla; çubuk yatay dengede kalsın.",
+    "data": {
+      "fix": [
+        [
+          -4,
+          3
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "m": "n",
+      "v": 3,
+      "f": 0,
+      "ans": 3
+    },
+    "textPlain": "Sağdaki boş kancaya (3. bölme) asılacak bloğun ağırlığını ayarla; çubuk yatay dengede kalsın. Eşit bölmeli, ağırlığı önemsiz çubuk; konumlar −5…5. Destek ortada. Yükler: 3 birimlik yük 4 bölme solda, 3 birimlik yük 1 bölme solda, 3 birimlik yük 2 bölme sağda.",
+    "correctAnswer": "3 birim",
+    "explanation": "Kaldıraç dengedeyken kuvvet × kuvvet kolu = yük × yük kolu olur. Kol, destek noktası ile kuvvetin (yükün) uygulandığı nokta arasındaki uzaklıktır. Kuvvet kolu yük kolundan uzunsa kuvvetten kazanç sağlanır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "kaldirac",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Tahterevalli gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; destek ortada olsun.",
+    "data": {
+      "g": "D",
+      "ex": "Tahterevalli"
+    },
+    "textPlain": "Tahterevalli gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; destek ortada olsun. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 2. delikte, Y 1. delikte, K 3. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "kaldirac",
+    "rank": 1,
+    "type": "build",
+    "prompt": "El arabası gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; yük ortada olsun.",
+    "data": {
+      "g": "Y",
+      "ex": "El arabası"
+    },
+    "textPlain": "El arabası gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; yük ortada olsun. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 1. delikte, Y 2. delikte, K 3. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "kaldirac",
+    "rank": 1,
+    "type": "build",
+    "prompt": "Cımbız gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvet ortada olsun.",
+    "data": {
+      "g": "K",
+      "ex": "Cımbız"
+    },
+    "textPlain": "Cımbız gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvet ortada olsun. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 1. delikte, Y 3. delikte, K 2. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Kaldıraç çubuğu gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kazanç sağlasın.",
+    "data": {
+      "g": "gain",
+      "ex": "Kaldıraç çubuğu"
+    },
+    "textPlain": "Kaldıraç çubuğu gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kazanç sağlasın. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 1. delikte, Y 2. delikte, K 3. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": "2019-S14"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Olta kamışı gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kayıp, yoldan kazanç sağlasın.",
+    "data": {
+      "g": "loss",
+      "ex": "Olta kamışı"
+    },
+    "textPlain": "Olta kamışı gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kayıp, yoldan kazanç sağlasın. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 1. delikte, Y 3. delikte, K 2. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "build",
+    "prompt": "Makas gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; destek ortada olsun ve kuvvetten kazanç sağlasın.",
+    "data": {
+      "g": "gainD",
+      "ex": "Makas"
+    },
+    "textPlain": "Makas gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; destek ortada olsun ve kuvvetten kazanç sağlasın. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 2. delikte, Y 1. delikte, K 4. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": "2019-S14"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Eşit kollu terazi gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; destek ortada olsun, kuvvet ne kazanç ne kayıp sağlasın.",
+    "data": {
+      "g": "eqD",
+      "ex": "Eşit kollu terazi"
+    },
+    "textPlain": "Eşit kollu terazi gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; destek ortada olsun, kuvvet ne kazanç ne kayıp sağlasın. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 2. delikte, Y 1. delikte, K 3. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Ceviz kıracağı gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kazanç sağlasın.",
+    "data": {
+      "g": "gain",
+      "ex": "Ceviz kıracağı"
+    },
+    "textPlain": "Ceviz kıracağı gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kazanç sağlasın. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 1. delikte, Y 2. delikte, K 3. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": "2019-S14"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "build",
+    "prompt": "Maşa gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kayıp, yoldan kazanç sağlasın.",
+    "data": {
+      "g": "loss",
+      "ex": "Maşa"
+    },
+    "textPlain": "Maşa gibi bir kaldıraç kur: Destek (D), Yük (Y) ve Kuvvet (K) kartlarını çubuğun deliklerine sürükle; kuvvetten kayıp, yoldan kazanç sağlasın. Çubukta eşit aralıklı 5 delik var.",
+    "correctAnswer": "Uygun bir yerleşim: D 1. delikte, Y 3. delikte, K 2. delikte (koşulu sağlayan her yerleşim kabul)",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "pulley",
+    "prompt": "40 birimlik yükü en fazla 20 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 40,
+      "M": 20,
+      "dir": false
+    },
+    "textPlain": "40 birimlik yükü en fazla 20 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 1 hareketli makara (kuvvet 20)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2026-S11"
+  },
+  {
+    "questionId": "fen8u5-makara-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "pulley",
+    "prompt": "Bayrak direğinde bayrağı yukarı çekmek. 30 birimlik yükü en fazla 30 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 30,
+      "M": 30,
+      "dir": true
+    },
+    "textPlain": "Bayrak direğinde bayrağı yukarı çekmek. 30 birimlik yükü en fazla 30 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 0 hareketli makara, 1 sabit makara (kuvvet 30)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "pulley",
+    "prompt": "80 birimlik yükü en fazla 20 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 80,
+      "M": 20,
+      "dir": false
+    },
+    "textPlain": "80 birimlik yükü en fazla 20 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 2 hareketli makara (kuvvet 20)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2019-S14"
+  },
+  {
+    "questionId": "fen8u5-makara-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "pulley",
+    "prompt": "60 birimlik yükü en fazla 30 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 60,
+      "M": 30,
+      "dir": true
+    },
+    "textPlain": "60 birimlik yükü en fazla 30 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 1 hareketli makara, 1 sabit makara (kuvvet 30)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2026-S11"
+  },
+  {
+    "questionId": "fen8u5-makara-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "pulley",
+    "prompt": "120 birimlik yükü en fazla 15 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 120,
+      "M": 15,
+      "dir": true
+    },
+    "textPlain": "120 birimlik yükü en fazla 15 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 3 hareketli makara, 1 sabit makara (kuvvet 15)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2021-S15"
+  },
+  {
+    "questionId": "fen8u5-makara-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "pulley",
+    "prompt": "96 birimlik yükü en fazla 12 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 96,
+      "M": 12,
+      "dir": false
+    },
+    "textPlain": "96 birimlik yükü en fazla 12 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 3 hareketli makara (kuvvet 12)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2024-S13"
+  },
+  {
+    "questionId": "fen8u5-makara-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "trade",
+    "prompt": "Tek hareketli makaralı sistem 2 kat kuvvet kazancı sağlıyor. 40 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 2,
+      "L": 40,
+      "h": 2,
+      "m": "Tek hareketli makaralı sistem",
+      "a": [
+        20,
+        4
+      ]
+    },
+    "textPlain": "Tek hareketli makaralı sistem 2 kat kuvvet kazancı sağlıyor. 40 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 4 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "trade",
+    "prompt": "Bir palanga 4 kat kuvvet kazancı sağlıyor. 120 birimlik yük 3 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 4,
+      "L": 120,
+      "h": 3,
+      "m": "Bir palanga",
+      "a": [
+        30,
+        12
+      ]
+    },
+    "textPlain": "Bir palanga 4 kat kuvvet kazancı sağlıyor. 120 birimlik yük 3 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 30 birim, yol 12 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2024-S13"
+  },
+  {
+    "questionId": "fen8u5-makara-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "trade",
+    "prompt": "Üç hareketli makaralı palanga 8 kat kuvvet kazancı sağlıyor. 160 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 8,
+      "L": 160,
+      "h": 2,
+      "m": "Üç hareketli makaralı palanga",
+      "a": [
+        20,
+        16
+      ]
+    },
+    "textPlain": "Üç hareketli makaralı palanga 8 kat kuvvet kazancı sağlıyor. 160 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 16 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2019-S15"
+  },
+  {
+    "questionId": "fen8u5-genel-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "genel",
+    "rank": 1,
+    "type": "trade",
+    "prompt": "Bir kaldıraç 3 kat kuvvet kazancı sağlıyor. 60 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 3,
+      "L": 60,
+      "h": 1,
+      "m": "Bir kaldıraç",
+      "a": [
+        20,
+        3
+      ]
+    },
+    "textPlain": "Bir kaldıraç 3 kat kuvvet kazancı sağlıyor. 60 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 3 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "trade",
+    "prompt": "Bir çıkrık 5 kat kuvvet kazancı sağlıyor. 100 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 5,
+      "L": 100,
+      "h": 2,
+      "m": "Bir çıkrık",
+      "a": [
+        20,
+        10
+      ]
+    },
+    "textPlain": "Bir çıkrık 5 kat kuvvet kazancı sağlıyor. 100 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 10 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "genel",
+    "rank": 3,
+    "type": "trade",
+    "prompt": "Bir eğik düzlem 3 kat kuvvet kazancı sağlıyor. 90 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 3,
+      "L": 90,
+      "h": 2,
+      "m": "Bir eğik düzlem",
+      "a": [
+        30,
+        6
+      ]
+    },
+    "textPlain": "Bir eğik düzlem 3 kat kuvvet kazancı sağlıyor. 90 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 30 birim, yol 6 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "trade",
+    "prompt": "Bir rampa 4 kat kuvvet kazancı sağlıyor. 80 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 4,
+      "L": 80,
+      "h": 1,
+      "m": "Bir rampa",
+      "a": [
+        20,
+        4
+      ]
+    },
+    "textPlain": "Bir rampa 4 kat kuvvet kazancı sağlıyor. 80 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 4 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "egik",
+    "rank": 1,
+    "type": "ramp",
+    "prompt": "Kamyona 2 m yükseğe 60 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu en fazla 20 birim kuvvetle çıkarabilecek bir rampa kur.",
+    "data": {
+      "L": 60,
+      "h": 2,
+      "g": [
+        "max",
+        20
+      ]
+    },
+    "textPlain": "Kamyona 2 m yükseğe 60 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu en fazla 20 birim kuvvetle çıkarabilecek bir rampa kur. Rampa uzunluğu 2–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 6 m (ya da daha uzun)",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "egik",
+    "rank": 1,
+    "type": "ramp",
+    "prompt": "Kamyona 2 m yükseğe 40 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 10 birim kuvvetle çıkarabileceğin rampayı kur.",
+    "data": {
+      "L": 40,
+      "h": 2,
+      "g": [
+        "eq",
+        10
+      ]
+    },
+    "textPlain": "Kamyona 2 m yükseğe 40 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 10 birim kuvvetle çıkarabileceğin rampayı kur. Rampa uzunluğu 2–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 8 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "ramp",
+    "prompt": "Kamyona 3 m yükseğe 90 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 30 birim kuvvetle çıkarabileceğin rampayı kur.",
+    "data": {
+      "L": 90,
+      "h": 3,
+      "g": [
+        "eq",
+        30
+      ]
+    },
+    "textPlain": "Kamyona 3 m yükseğe 90 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 30 birim kuvvetle çıkarabileceğin rampayı kur. Rampa uzunluğu 3–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 9 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "ramp",
+    "prompt": "Kamyona 2 m yükseğe 120 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: en fazla 30 birim kuvvetle çıkılabilen EN KISA rampayı kur.",
+    "data": {
+      "L": 120,
+      "h": 2,
+      "g": [
+        "short",
+        30
+      ]
+    },
+    "textPlain": "Kamyona 2 m yükseğe 120 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: en fazla 30 birim kuvvetle çıkılabilen EN KISA rampayı kur. Rampa uzunluğu 2–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 8 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "egik",
+    "rank": 3,
+    "type": "ramp",
+    "prompt": "Kamyona 3 m yükseğe 100 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: en fazla 30 birim kuvvetle çıkılabilen EN KISA rampayı kur.",
+    "data": {
+      "L": 100,
+      "h": 3,
+      "g": [
+        "short",
+        30
+      ]
+    },
+    "textPlain": "Kamyona 3 m yükseğe 100 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: en fazla 30 birim kuvvetle çıkılabilen EN KISA rampayı kur. Rampa uzunluğu 3–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 10 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "egik",
+    "rank": 3,
+    "type": "ramp",
+    "prompt": "Kamyona 4 m yükseğe 84 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 42 birim kuvvetle çıkarabileceğin rampayı kur.",
+    "data": {
+      "L": 84,
+      "h": 4,
+      "g": [
+        "eq",
+        42
+      ]
+    },
+    "textPlain": "Kamyona 4 m yükseğe 84 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 42 birim kuvvetle çıkarabileceğin rampayı kur. Rampa uzunluğu 4–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 8 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "egik",
+    "rank": 1,
+    "type": "slope",
+    "prompt": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf).",
+    "data": {
+      "r": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "rk": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf). Rampalar (yükseklik / uzunluk): A: 2 m / 4 m, B: 2 m / 8 m.",
+    "correctAnswer": "Raflar: A → 1, B → 2",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "slope",
+    "prompt": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf).",
+    "data": {
+      "r": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "rk": [
+        2,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf). Rampalar (yükseklik / uzunluk): A: 1 m / 4 m, B: 2 m / 8 m, C: 3 m / 6 m.",
+    "correctAnswer": "Raflar: A → 2, B → 2, C → 1",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "egik",
+    "rank": 3,
+    "type": "slope",
+    "prompt": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf).",
+    "data": {
+      "r": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "rk": [
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    "textPlain": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf). Rampalar (yükseklik / uzunluk): A: 2 m / 6 m, B: 3 m / 9 m, C: 1 m / 2 m, D: 2 m / 8 m.",
+    "correctAnswer": "Raflar: A → 2, B → 2, C → 1, D → 3",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "slope",
+    "prompt": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf).",
+    "data": {
+      "r": [
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rk": [
+        1,
+        2,
+        1
+      ]
+    },
+    "textPlain": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf). Rampalar (yükseklik / uzunluk): A: 3 m / 6 m, B: 2 m / 8 m, C: 1 m / 2 m.",
+    "correctAnswer": "Raflar: A → 1, B → 2, C → 1",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "egik",
+    "rank": 1,
+    "type": "screw",
+    "prompt": "Vidalara dokunup birini seç ve tahtaya vida: aynı tahtaya en az kuvvetle vidalanacak olanı seç.",
+    "data": {
+      "o": [
+        [
+          "A",
+          1,
+          0
+        ],
+        [
+          "B",
+          3,
+          0
+        ]
+      ],
+      "g": "easy",
+      "a": 0
+    },
+    "textPlain": "Vidalara dokunup birini seç ve tahtaya vida: aynı tahtaya en az kuvvetle vidalanacak olanı seç. Vidalar (ardışık iki diş arası uzaklık): A 1 mm, B 3 mm.",
+    "correctAnswer": "A",
+    "explanation": "Vida, silindire sarılmış bir eğik düzlemdir. Dişleri sık (diş aralığı küçük) olan vida daha çok tur atarak ilerler ama daha az kuvvet gerektirir; dişleri seyrek olan vida daha az turda ilerler ama daha çok kuvvet ister.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "screw",
+    "prompt": "Vidalara dokunup birini seç ve tahtaya vida: tahtaya en az tur atarak girecek olanı seç.",
+    "data": {
+      "o": [
+        [
+          "A",
+          2,
+          0
+        ],
+        [
+          "B",
+          4,
+          0
+        ],
+        [
+          "C",
+          1,
+          0
+        ]
+      ],
+      "g": "fast",
+      "a": 1
+    },
+    "textPlain": "Vidalara dokunup birini seç ve tahtaya vida: tahtaya en az tur atarak girecek olanı seç. Vidalar (ardışık iki diş arası uzaklık): A 2 mm, B 4 mm, C 1 mm.",
+    "correctAnswer": "B",
+    "explanation": "Vida, silindire sarılmış bir eğik düzlemdir. Dişleri sık (diş aralığı küçük) olan vida daha çok tur atarak ilerler ama daha az kuvvet gerektirir; dişleri seyrek olan vida daha az turda ilerler ama daha çok kuvvet ister.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "egik",
+    "rank": 3,
+    "type": "screw",
+    "prompt": "Vidalara dokunup birini seç ve tahtaya vida: aynı tahtaya en az kuvvetle vidalanacak olanı seç.",
+    "data": {
+      "o": [
+        [
+          "A",
+          3,
+          0
+        ],
+        [
+          "B",
+          1,
+          0
+        ],
+        [
+          "C",
+          2,
+          0
+        ],
+        [
+          "D",
+          4,
+          0
+        ]
+      ],
+      "g": "easy",
+      "a": 1
+    },
+    "textPlain": "Vidalara dokunup birini seç ve tahtaya vida: aynı tahtaya en az kuvvetle vidalanacak olanı seç. Vidalar (ardışık iki diş arası uzaklık): A 3 mm, B 1 mm, C 2 mm, D 4 mm.",
+    "correctAnswer": "B",
+    "explanation": "Vida, silindire sarılmış bir eğik düzlemdir. Dişleri sık (diş aralığı küçük) olan vida daha çok tur atarak ilerler ama daha az kuvvet gerektirir; dişleri seyrek olan vida daha az turda ilerler ama daha çok kuvvet ister.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "cark",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "Kuyudan 60 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 30 birim kuvvet yetsin.",
+    "data": {
+      "L": 60,
+      "M": 30
+    },
+    "textPlain": "Kuyudan 60 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 30 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 2, silindir 1 (kuvvet 30)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "cark",
+    "rank": 1,
+    "type": "wheel",
+    "prompt": "Kuyudan 40 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 10 birim kuvvet yetsin.",
+    "data": {
+      "L": 40,
+      "M": 10
+    },
+    "textPlain": "Kuyudan 40 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 10 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 4, silindir 1 (kuvvet 10)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "Kuyudan 90 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 15 birim kuvvet yetsin.",
+    "data": {
+      "L": 90,
+      "M": 15
+    },
+    "textPlain": "Kuyudan 90 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 15 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 6, silindir 1 (kuvvet 15)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": "2022-S12"
+  },
+  {
+    "questionId": "fen8u5-cark-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "wheel",
+    "prompt": "Kuyudan 120 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 40 birim kuvvet yetsin.",
+    "data": {
+      "L": 120,
+      "M": 40
+    },
+    "textPlain": "Kuyudan 120 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 40 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 3, silindir 1 (kuvvet 40)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": "2025-S12"
+  },
+  {
+    "questionId": "fen8u5-cark-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "Kuyudan 150 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 25 birim kuvvet yetsin.",
+    "data": {
+      "L": 150,
+      "M": 25
+    },
+    "textPlain": "Kuyudan 150 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 25 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 6, silindir 1 (kuvvet 25)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": "2025-S12"
+  },
+  {
+    "questionId": "fen8u5-cark-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "Kuyudan 72 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 12 birim kuvvet yetsin.",
+    "data": {
+      "L": 72,
+      "M": 12
+    },
+    "textPlain": "Kuyudan 72 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 12 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 6, silindir 1 (kuvvet 12)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": "2022-S12"
+  },
+  {
+    "questionId": "fen8u5-cark-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "cark",
+    "rank": 1,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        20,
+        10
+      ],
+      "n0": 1,
+      "T": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 20, 10.",
+    "correctAnswer": "1. dişli saat yönünde 1 tur, 2. dişli saatin tersine 2 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "cark",
+    "rank": 1,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 4 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        12,
+        24
+      ],
+      "n0": 4,
+      "T": [
+        4,
+        2
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 4 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 12, 24.",
+    "correctAnswer": "1. dişli saat yönünde 4 tur, 2. dişli saatin tersine 2 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        30,
+        10,
+        15
+      ],
+      "n0": 1,
+      "T": [
+        1,
+        3,
+        2
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 30, 10, 15.",
+    "correctAnswer": "1. dişli saat yönünde 1 tur, 2. dişli saatin tersine 3 tur, 3. dişli saat yönünde 2 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 2 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        16,
+        8,
+        32
+      ],
+      "n0": 2,
+      "T": [
+        2,
+        4,
+        1
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 2 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 16, 8, 32.",
+    "correctAnswer": "1. dişli saat yönünde 2 tur, 2. dişli saatin tersine 4 tur, 3. dişli saat yönünde 1 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        24,
+        12,
+        8,
+        6
+      ],
+      "n0": 1,
+      "T": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 24, 12, 8, 6.",
+    "correctAnswer": "1. dişli saat yönünde 1 tur, 2. dişli saatin tersine 2 tur, 3. dişli saat yönünde 3 tur, 4. dişli saatin tersine 4 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 8 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        10,
+        20,
+        40
+      ],
+      "n0": 8,
+      "T": [
+        8,
+        4,
+        2
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 8 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 10, 20, 40.",
+    "correctAnswer": "1. dişli saat yönünde 8 tur, 2. dişli saatin tersine 4 tur, 3. dişli saat yönünde 2 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "cark",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 3 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saat yönünde dönsün.",
+    "data": {
+      "r": [
+        2,
+        1
+      ],
+      "c": false,
+      "n": 3,
+      "T": 6
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 3 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saat yönünde dönsün. 1. kasnağın yarıçapı 2, 2. kasnağın yarıçapı 1 birim.",
+    "correctAnswer": "Düz kayış; 2. kasnak 6 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "cark",
+    "rank": 1,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 4 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün.",
+    "data": {
+      "r": [
+        1,
+        2
+      ],
+      "c": true,
+      "n": 4,
+      "T": 2
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 4 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün. 1. kasnağın yarıçapı 1, 2. kasnağın yarıçapı 2 birim.",
+    "correctAnswer": "Çapraz kayış; 2. kasnak 2 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 2 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün.",
+    "data": {
+      "r": [
+        3,
+        1
+      ],
+      "c": true,
+      "n": 2,
+      "T": 6
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 2 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün. 1. kasnağın yarıçapı 3, 2. kasnağın yarıçapı 1 birim.",
+    "correctAnswer": "Çapraz kayış; 2. kasnak 6 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 6 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saat yönünde dönsün.",
+    "data": {
+      "r": [
+        2,
+        4
+      ],
+      "c": false,
+      "n": 6,
+      "T": 3
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 6 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saat yönünde dönsün. 1. kasnağın yarıçapı 2, 2. kasnağın yarıçapı 4 birim.",
+    "correctAnswer": "Düz kayış; 2. kasnak 3 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 3 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün.",
+    "data": {
+      "r": [
+        4,
+        1
+      ],
+      "c": true,
+      "n": 3,
+      "T": 12
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 3 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün. 1. kasnağın yarıçapı 4, 2. kasnağın yarıçapı 1 birim.",
+    "correctAnswer": "Çapraz kayış; 2. kasnak 12 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 4 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saat yönünde dönsün.",
+    "data": {
+      "r": [
+        3,
+        2
+      ],
+      "c": false,
+      "n": 4,
+      "T": 6
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 4 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saat yönünde dönsün. 1. kasnağın yarıçapı 3, 2. kasnağın yarıçapı 2 birim.",
+    "correctAnswer": "Düz kayış; 2. kasnak 6 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "genel",
+    "rank": 1,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "⚖️ Kaldıraç",
+        "🛞 Makara",
+        "📐 Eğik düzlem",
+        "⚙️ Çıkrık"
+      ],
+      "r": [
+        [
+          "Makas",
+          0
+        ],
+        [
+          "Bayrak direği",
+          1
+        ],
+        [
+          "Engelli rampası",
+          2
+        ],
+        [
+          "Kuyu çıkrığı",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ⚖️ Kaldıraç, 🛞 Makara, 📐 Eğik düzlem, ⚙️ Çıkrık. Kartlar: Makas | Bayrak direği | Engelli rampası | Kuyu çıkrığı",
+    "correctAnswer": "Makas → ⚖️ Kaldıraç | Bayrak direği → 🛞 Makara | Engelli rampası → 📐 Eğik düzlem | Kuyu çıkrığı → ⚙️ Çıkrık",
+    "explanation": "Kaldıraç bir destek etrafında dönen çubuktur (makas, el arabası, cımbız). Makara ipin geçtiği oluklu tekerdir (bayrak direği, inşaat vinci). Eğik düzlem ve vida yükü eğimli yüzeyde ilerletir (rampa, dağ yolu, vida). Çıkrık bir silindire takılı koldur (kuyu çıkrığı, direksiyon, kapı kolu).",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "genel",
+    "rank": 1,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "⚖️ Kaldıraç",
+        "🛞 Makara",
+        "📐 Eğik düzlem",
+        "⚙️ Çıkrık"
+      ],
+      "r": [
+        [
+          "El arabası",
+          0
+        ],
+        [
+          "İnşaat vinci",
+          1
+        ],
+        [
+          "Vida",
+          2
+        ],
+        [
+          "Direksiyon",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ⚖️ Kaldıraç, 🛞 Makara, 📐 Eğik düzlem, ⚙️ Çıkrık. Kartlar: El arabası | İnşaat vinci | Vida | Direksiyon",
+    "correctAnswer": "El arabası → ⚖️ Kaldıraç | İnşaat vinci → 🛞 Makara | Vida → 📐 Eğik düzlem | Direksiyon → ⚙️ Çıkrık",
+    "explanation": "Kaldıraç bir destek etrafında dönen çubuktur (makas, el arabası, cımbız). Makara ipin geçtiği oluklu tekerdir (bayrak direği, inşaat vinci). Eğik düzlem ve vida yükü eğimli yüzeyde ilerletir (rampa, dağ yolu, vida). Çıkrık bir silindire takılı koldur (kuyu çıkrığı, direksiyon, kapı kolu).",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "⚖️ Kaldıraç",
+        "🛞 Makara",
+        "📐 Eğik düzlem",
+        "⚙️ Çıkrık"
+      ],
+      "r": [
+        [
+          "Kapı kolu",
+          3
+        ],
+        [
+          "Ceviz kıracağı",
+          0
+        ],
+        [
+          "Dağ yolundaki virajlar",
+          2
+        ],
+        [
+          "Perde sistemi",
+          1
+        ],
+        [
+          "Cımbız",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ⚖️ Kaldıraç, 🛞 Makara, 📐 Eğik düzlem, ⚙️ Çıkrık. Kartlar: Kapı kolu | Ceviz kıracağı | Dağ yolundaki virajlar | Perde sistemi | Cımbız",
+    "correctAnswer": "Kapı kolu → ⚙️ Çıkrık | Ceviz kıracağı → ⚖️ Kaldıraç | Dağ yolundaki virajlar → 📐 Eğik düzlem | Perde sistemi → 🛞 Makara | Cımbız → ⚖️ Kaldıraç",
+    "explanation": "Kaldıraç bir destek etrafında dönen çubuktur (makas, el arabası, cımbız). Makara ipin geçtiği oluklu tekerdir (bayrak direği, inşaat vinci). Eğik düzlem ve vida yükü eğimli yüzeyde ilerletir (rampa, dağ yolu, vida). Çıkrık bir silindire takılı koldur (kuyu çıkrığı, direksiyon, kapı kolu).",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "⚖️ Kaldıraç",
+        "🛞 Makara",
+        "📐 Eğik düzlem",
+        "⚙️ Çıkrık"
+      ],
+      "r": [
+        [
+          "Kalemtıraş",
+          3
+        ],
+        [
+          "Olta kamışı",
+          0
+        ],
+        [
+          "Kama",
+          2
+        ],
+        [
+          "Asansör",
+          1
+        ],
+        [
+          "Tahterevalli",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ⚖️ Kaldıraç, 🛞 Makara, 📐 Eğik düzlem, ⚙️ Çıkrık. Kartlar: Kalemtıraş | Olta kamışı | Kama | Asansör | Tahterevalli",
+    "correctAnswer": "Kalemtıraş → ⚙️ Çıkrık | Olta kamışı → ⚖️ Kaldıraç | Kama → 📐 Eğik düzlem | Asansör → 🛞 Makara | Tahterevalli → ⚖️ Kaldıraç",
+    "explanation": "Kaldıraç bir destek etrafında dönen çubuktur (makas, el arabası, cımbız). Makara ipin geçtiği oluklu tekerdir (bayrak direği, inşaat vinci). Eğik düzlem ve vida yükü eğimli yüzeyde ilerletir (rampa, dağ yolu, vida). Çıkrık bir silindire takılı koldur (kuyu çıkrığı, direksiyon, kapı kolu).",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "genel",
+    "rank": 3,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "⚖️ Kaldıraç",
+        "🛞 Makara",
+        "📐 Eğik düzlem",
+        "⚙️ Çıkrık"
+      ],
+      "r": [
+        [
+          "Tornavida ile vidalamak",
+          3
+        ],
+        [
+          "Balta (keskin ağız)",
+          2
+        ],
+        [
+          "Maşa",
+          0
+        ],
+        [
+          "Palanga",
+          1
+        ],
+        [
+          "Gazoz açacağı",
+          0
+        ],
+        [
+          "Kıyma makinesinin kolu",
+          3
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ⚖️ Kaldıraç, 🛞 Makara, 📐 Eğik düzlem, ⚙️ Çıkrık. Kartlar: Tornavida ile vidalamak | Balta (keskin ağız) | Maşa | Palanga | Gazoz açacağı | Kıyma makinesinin kolu",
+    "correctAnswer": "Tornavida ile vidalamak → ⚙️ Çıkrık | Balta (keskin ağız) → 📐 Eğik düzlem | Maşa → ⚖️ Kaldıraç | Palanga → 🛞 Makara | Gazoz açacağı → ⚖️ Kaldıraç | Kıyma makinesinin kolu → ⚙️ Çıkrık",
+    "explanation": "Kaldıraç bir destek etrafında dönen çubuktur (makas, el arabası, cımbız). Makara ipin geçtiği oluklu tekerdir (bayrak direği, inşaat vinci). Eğik düzlem ve vida yükü eğimli yüzeyde ilerletir (rampa, dağ yolu, vida). Çıkrık bir silindire takılı koldur (kuyu çıkrığı, direksiyon, kapı kolu).",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "genel",
+    "rank": 1,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "💪 Kuvvetten kazanç",
+        "🔁 Yalnızca yön değişimi",
+        "🏃 Yoldan (hızdan) kazanç"
+      ],
+      "r": [
+        [
+          "Hareketli makara",
+          0
+        ],
+        [
+          "Sabit makara",
+          1
+        ],
+        [
+          "Cımbız",
+          2
+        ],
+        [
+          "Uzun rampa",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 💪 Kuvvetten kazanç, 🔁 Yalnızca yön değişimi, 🏃 Yoldan (hızdan) kazanç. Kartlar: Hareketli makara | Sabit makara | Cımbız | Uzun rampa",
+    "correctAnswer": "Hareketli makara → 💪 Kuvvetten kazanç | Sabit makara → 🔁 Yalnızca yön değişimi | Cımbız → 🏃 Yoldan (hızdan) kazanç | Uzun rampa → 💪 Kuvvetten kazanç",
+    "explanation": "Kuvvet kolu uzun olan kaldıraçlar, hareketli makara, palanga, eğik düzlem, vida ve kolu uzun çıkrık kuvvetten kazanç sağlar. Sabit makara yalnızca yönü değiştirir. Kuvvetin ortada olduğu kaldıraçlar (cımbız, maşa) ve küçük kasnaktan büyük kasnağa giden sistemler yoldan (hızdan) kazanç sağlar.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "💪 Kuvvetten kazanç",
+        "🔁 Yalnızca yön değişimi",
+        "🏃 Yoldan (hızdan) kazanç"
+      ],
+      "r": [
+        [
+          "Palanga",
+          0
+        ],
+        [
+          "Bayrak direğindeki makara",
+          1
+        ],
+        [
+          "Maşa",
+          2
+        ],
+        [
+          "Kolu uzun çıkrık",
+          0
+        ],
+        [
+          "Kürek ile su atma",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 💪 Kuvvetten kazanç, 🔁 Yalnızca yön değişimi, 🏃 Yoldan (hızdan) kazanç. Kartlar: Palanga | Bayrak direğindeki makara | Maşa | Kolu uzun çıkrık | Kürek ile su atma",
+    "correctAnswer": "Palanga → 💪 Kuvvetten kazanç | Bayrak direğindeki makara → 🔁 Yalnızca yön değişimi | Maşa → 🏃 Yoldan (hızdan) kazanç | Kolu uzun çıkrık → 💪 Kuvvetten kazanç | Kürek ile su atma → 🏃 Yoldan (hızdan) kazanç",
+    "explanation": "Kuvvet kolu uzun olan kaldıraçlar, hareketli makara, palanga, eğik düzlem, vida ve kolu uzun çıkrık kuvvetten kazanç sağlar. Sabit makara yalnızca yönü değiştirir. Kuvvetin ortada olduğu kaldıraçlar (cımbız, maşa) ve küçük kasnaktan büyük kasnağa giden sistemler yoldan (hızdan) kazanç sağlar.",
+    "twin": "2019-S15"
+  },
+  {
+    "questionId": "fen8u5-genel-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "genel",
+    "rank": 3,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "💪 Kuvvetten kazanç",
+        "🔁 Yalnızca yön değişimi",
+        "🏃 Yoldan (hızdan) kazanç"
+      ],
+      "r": [
+        [
+          "Vida",
+          0
+        ],
+        [
+          "Kuyu başındaki tek sabit makara",
+          1
+        ],
+        [
+          "Olta kamışı",
+          2
+        ],
+        [
+          "Ceviz kıracağı",
+          0
+        ],
+        [
+          "Bisiklette pedal dişlisinin arka dişliden büyük olması",
+          2
+        ],
+        [
+          "Kriko",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 💪 Kuvvetten kazanç, 🔁 Yalnızca yön değişimi, 🏃 Yoldan (hızdan) kazanç. Kartlar: Vida | Kuyu başındaki tek sabit makara | Olta kamışı | Ceviz kıracağı | Bisiklette pedal dişlisinin arka dişliden büyük olması | Kriko",
+    "correctAnswer": "Vida → 💪 Kuvvetten kazanç | Kuyu başındaki tek sabit makara → 🔁 Yalnızca yön değişimi | Olta kamışı → 🏃 Yoldan (hızdan) kazanç | Ceviz kıracağı → 💪 Kuvvetten kazanç | Bisiklette pedal dişlisinin arka dişliden büyük olması → 🏃 Yoldan (hızdan) kazanç | Kriko → 💪 Kuvvetten kazanç",
+    "explanation": "Kuvvet kolu uzun olan kaldıraçlar, hareketli makara, palanga, eğik düzlem, vida ve kolu uzun çıkrık kuvvetten kazanç sağlar. Sabit makara yalnızca yönü değiştirir. Kuvvetin ortada olduğu kaldıraçlar (cımbız, maşa) ve küçük kasnaktan büyük kasnağa giden sistemler yoldan (hızdan) kazanç sağlar.",
+    "twin": "2019-S15"
+  },
+  {
+    "questionId": "fen8u5-kaldirac-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "kaldirac",
+    "rank": 2,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "🟦 Destek ortada",
+        "🟧 Yük ortada",
+        "🟩 Kuvvet ortada"
+      ],
+      "r": [
+        [
+          "Makas",
+          0
+        ],
+        [
+          "El arabası",
+          1
+        ],
+        [
+          "Cımbız",
+          2
+        ],
+        [
+          "Tahterevalli",
+          0
+        ],
+        [
+          "Ceviz kıracağı",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 🟦 Destek ortada, 🟧 Yük ortada, 🟩 Kuvvet ortada. Kartlar: Makas | El arabası | Cımbız | Tahterevalli | Ceviz kıracağı",
+    "correctAnswer": "Makas → 🟦 Destek ortada | El arabası → 🟧 Yük ortada | Cımbız → 🟩 Kuvvet ortada | Tahterevalli → 🟦 Destek ortada | Ceviz kıracağı → 🟧 Yük ortada",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-kaldirac-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Kaldıraçlar: destek, yük ve kuvvet; denge ve kuvvet kazancı",
+    "outcome": "Kaldıraçlarda kuvvet kolu, yük kolu ve destek noktası arasındaki ilişkiyi kullanarak denge ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "kaldirac",
+    "rank": 3,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "🟦 Destek ortada",
+        "🟧 Yük ortada",
+        "🟩 Kuvvet ortada"
+      ],
+      "r": [
+        [
+          "Pense",
+          0
+        ],
+        [
+          "Gazoz açacağı",
+          1
+        ],
+        [
+          "Maşa",
+          2
+        ],
+        [
+          "Olta kamışı",
+          2
+        ],
+        [
+          "Kürek",
+          2
+        ],
+        [
+          "Kerpeten",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 🟦 Destek ortada, 🟧 Yük ortada, 🟩 Kuvvet ortada. Kartlar: Pense | Gazoz açacağı | Maşa | Olta kamışı | Kürek | Kerpeten",
+    "correctAnswer": "Pense → 🟦 Destek ortada | Gazoz açacağı → 🟧 Yük ortada | Maşa → 🟩 Kuvvet ortada | Olta kamışı → 🟩 Kuvvet ortada | Kürek → 🟩 Kuvvet ortada | Kerpeten → 🟦 Destek ortada",
+    "explanation": "Kaldıraçlarda destek ortada olabilir (makas, tahterevalli), yük ortada olabilir (el arabası, ceviz kıracağı) ya da kuvvet ortada olabilir (cımbız, maşa). Yük ortadaysa kuvvet kolu her zaman yük kolundan uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu her zaman kısadır, kuvvetten kayıp ama yoldan (hızdan) kazanç vardır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "pulley",
+    "prompt": "Kuyudan kova çekmek. 50 birimlik yükü en fazla 50 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 50,
+      "M": 50,
+      "dir": true
+    },
+    "textPlain": "Kuyudan kova çekmek. 50 birimlik yükü en fazla 50 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 0 hareketli makara, 1 sabit makara (kuvvet 50)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "pulley",
+    "prompt": "İnşaatta kum torbası kaldırmak. 20 birimlik yükü en fazla 10 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 20,
+      "M": 10,
+      "dir": false
+    },
+    "textPlain": "İnşaatta kum torbası kaldırmak. 20 birimlik yükü en fazla 10 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 1 hareketli makara (kuvvet 10)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "pulley",
+    "prompt": "72 birimlik yükü en fazla 18 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 72,
+      "M": 18,
+      "dir": false
+    },
+    "textPlain": "72 birimlik yükü en fazla 18 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 2 hareketli makara (kuvvet 18)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2024-S13"
+  },
+  {
+    "questionId": "fen8u5-makara-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "pulley",
+    "prompt": "100 birimlik yükü en fazla 50 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 100,
+      "M": 50,
+      "dir": true
+    },
+    "textPlain": "100 birimlik yükü en fazla 50 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 1 hareketli makara, 1 sabit makara (kuvvet 50)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2026-S11"
+  },
+  {
+    "questionId": "fen8u5-makara-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "pulley",
+    "prompt": "64 birimlik yükü en fazla 8 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 64,
+      "M": 8,
+      "dir": true
+    },
+    "textPlain": "64 birimlik yükü en fazla 8 birim kuvvetle kaldır, kuvvet aşağı doğru uygulanacak (yön değişmeli). Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 3 hareketli makara, 1 sabit makara (kuvvet 8)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2021-S15"
+  },
+  {
+    "questionId": "fen8u5-makara-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "pulley",
+    "prompt": "200 birimlik yükü en fazla 25 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar.",
+    "data": {
+      "L": 200,
+      "M": 25,
+      "dir": false
+    },
+    "textPlain": "200 birimlik yükü en fazla 25 birim kuvvetle kaldır. Hareketli ve sabit makara ekle ya da çıkar. Her hareketli makara gereken kuvveti yarıya indirir; sabit makara yalnızca yönü değiştirir. Makara ve ip ağırlıkları ile sürtünme önemsiz.",
+    "correctAnswer": "Uygun bir düzen: 3 hareketli makara (kuvvet 25)",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2019-S14"
+  },
+  {
+    "questionId": "fen8u5-makara-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "trade",
+    "prompt": "Bir hareketli makara 2 kat kuvvet kazancı sağlıyor. 30 birimlik yük 3 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 2,
+      "L": 30,
+      "h": 3,
+      "m": "Bir hareketli makara",
+      "a": [
+        15,
+        6
+      ]
+    },
+    "textPlain": "Bir hareketli makara 2 kat kuvvet kazancı sağlıyor. 30 birimlik yük 3 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 15 birim, yol 6 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2026-S11"
+  },
+  {
+    "questionId": "fen8u5-makara-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "trade",
+    "prompt": "İki hareketli makaralı sistem 4 kat kuvvet kazancı sağlıyor. 80 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 4,
+      "L": 80,
+      "h": 2,
+      "m": "İki hareketli makaralı sistem",
+      "a": [
+        20,
+        8
+      ]
+    },
+    "textPlain": "İki hareketli makaralı sistem 4 kat kuvvet kazancı sağlıyor. 80 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 8 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2024-S13"
+  },
+  {
+    "questionId": "fen8u5-makara-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "trade",
+    "prompt": "Bir palanga 6 kat kuvvet kazancı sağlıyor. 150 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 6,
+      "L": 150,
+      "h": 1,
+      "m": "Bir palanga",
+      "a": [
+        25,
+        6
+      ]
+    },
+    "textPlain": "Bir palanga 6 kat kuvvet kazancı sağlıyor. 150 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 25 birim, yol 6 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2019-S15"
+  },
+  {
+    "questionId": "fen8u5-makara-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "makara",
+    "rank": 1,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "🔁 Sabit makara",
+        "⬆️ Hareketli makara"
+      ],
+      "r": [
+        [
+          "Yükle birlikte yukarı çıkar",
+          1
+        ],
+        [
+          "Yalnızca kuvvetin yönünü değiştirir",
+          0
+        ],
+        [
+          "Kuvveti yarıya indirir",
+          1
+        ],
+        [
+          "Bayrak direğinin tepesine bağlıdır",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 🔁 Sabit makara, ⬆️ Hareketli makara. Kartlar: Yükle birlikte yukarı çıkar | Yalnızca kuvvetin yönünü değiştirir | Kuvveti yarıya indirir | Bayrak direğinin tepesine bağlıdır",
+    "correctAnswer": "Yükle birlikte yukarı çıkar → ⬆️ Hareketli makara | Yalnızca kuvvetin yönünü değiştirir → 🔁 Sabit makara | Kuvveti yarıya indirir → ⬆️ Hareketli makara | Bayrak direğinin tepesine bağlıdır → 🔁 Sabit makara",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-makara-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "makara",
+    "rank": 2,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "🔁 Sabit makara",
+        "⬆️ Hareketli makara"
+      ],
+      "r": [
+        [
+          "Kuvvetten kazanç yoktur",
+          0
+        ],
+        [
+          "İp, yükün yükseldiği yolun iki katı çekilir",
+          1
+        ],
+        [
+          "Tavana bağlıdır, yükle hareket etmez",
+          0
+        ],
+        [
+          "Yükü iki ip taşır",
+          1
+        ],
+        [
+          "Kuyu başında kovayı aşağı çekerek yukarı çıkarmak",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 🔁 Sabit makara, ⬆️ Hareketli makara. Kartlar: Kuvvetten kazanç yoktur | İp, yükün yükseldiği yolun iki katı çekilir | Tavana bağlıdır, yükle hareket etmez | Yükü iki ip taşır | Kuyu başında kovayı aşağı çekerek yukarı çıkarmak",
+    "correctAnswer": "Kuvvetten kazanç yoktur → 🔁 Sabit makara | İp, yükün yükseldiği yolun iki katı çekilir → ⬆️ Hareketli makara | Tavana bağlıdır, yükle hareket etmez → 🔁 Sabit makara | Yükü iki ip taşır → ⬆️ Hareketli makara | Kuyu başında kovayı aşağı çekerek yukarı çıkarmak → 🔁 Sabit makara",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2026-S11"
+  },
+  {
+    "questionId": "fen8u5-makara-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Sabit makara, hareketli makara ve palanga",
+    "outcome": "Sabit ve hareketli makaraların, palangaların sağladığı kuvvet kazancını ve yön değişimini açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "makara",
+    "rank": 3,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "🔁 Sabit makara",
+        "⬆️ Hareketli makara"
+      ],
+      "r": [
+        [
+          "Traktörün ön halkasından geçen, ucu ağaca bağlı ipteki halka",
+          1
+        ],
+        [
+          "Ağaç gövdesine bağlanmış halkadan ipin geçmesi",
+          0
+        ],
+        [
+          "Kuvvetin yönünü değiştiren, kazanç sağlamayan",
+          0
+        ],
+        [
+          "Yükle birlikte hareket eden ve kuvveti yarıya indiren",
+          1
+        ],
+        [
+          "İnşaat vincinin kancasındaki makara",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: 🔁 Sabit makara, ⬆️ Hareketli makara. Kartlar: Traktörün ön halkasından geçen, ucu ağaca bağlı ipteki halka | Ağaç gövdesine bağlanmış halkadan ipin geçmesi | Kuvvetin yönünü değiştiren, kazanç sağlamayan | Yükle birlikte hareket eden ve kuvveti yarıya indiren | İnşaat vincinin kancasındaki makara",
+    "correctAnswer": "Traktörün ön halkasından geçen, ucu ağaca bağlı ipteki halka → ⬆️ Hareketli makara | Ağaç gövdesine bağlanmış halkadan ipin geçmesi → 🔁 Sabit makara | Kuvvetin yönünü değiştiren, kazanç sağlamayan → 🔁 Sabit makara | Yükle birlikte hareket eden ve kuvveti yarıya indiren → ⬆️ Hareketli makara | İnşaat vincinin kancasındaki makara → ⬆️ Hareketli makara",
+    "explanation": "Sabit makara kuvvetin yönünü değiştirir ama kuvvetten kazanç sağlamaz. Hareketli makara yükü iki ip taşıdığı için kuvveti yarıya indirir. Palangada kuvvet, yükün yükü taşıyan ip sayısına bölünmesiyle bulunur; kuvvetten kaç kat kazanç varsa ip o kadar kat uzun çekilir.",
+    "twin": "2026-S11"
+  },
+  {
+    "questionId": "fen8u5-genel-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "genel",
+    "rank": 1,
+    "type": "trade",
+    "prompt": "Bir rampa 5 kat kuvvet kazancı sağlıyor. 50 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 5,
+      "L": 50,
+      "h": 1,
+      "m": "Bir rampa",
+      "a": [
+        10,
+        5
+      ]
+    },
+    "textPlain": "Bir rampa 5 kat kuvvet kazancı sağlıyor. 50 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 10 birim, yol 5 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "trade",
+    "prompt": "Bir kaldıraç 4 kat kuvvet kazancı sağlıyor. 120 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 4,
+      "L": 120,
+      "h": 1,
+      "m": "Bir kaldıraç",
+      "a": [
+        30,
+        4
+      ]
+    },
+    "textPlain": "Bir kaldıraç 4 kat kuvvet kazancı sağlıyor. 120 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 30 birim, yol 4 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2021-S14"
+  },
+  {
+    "questionId": "fen8u5-genel-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "genel",
+    "rank": 3,
+    "type": "trade",
+    "prompt": "Bir vida 10 kat kuvvet kazancı sağlıyor. 200 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 10,
+      "L": 200,
+      "h": 1,
+      "m": "Bir vida",
+      "a": [
+        20,
+        10
+      ]
+    },
+    "textPlain": "Bir vida 10 kat kuvvet kazancı sağlıyor. 200 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 10 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "genel",
+    "rank": 1,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Basit makineler işi kolaylaştırır",
+          0
+        ],
+        [
+          "Basit makineler enerjiden kazanç sağlar",
+          1
+        ],
+        [
+          "Kuvvetten kazanç varsa yoldan kayıp vardır",
+          0
+        ],
+        [
+          "Sabit makara kuvveti yarıya indirir",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ✅ Doğru, ❌ Yanlış. Kartlar: Basit makineler işi kolaylaştırır | Basit makineler enerjiden kazanç sağlar | Kuvvetten kazanç varsa yoldan kayıp vardır | Sabit makara kuvveti yarıya indirir",
+    "correctAnswer": "Basit makineler işi kolaylaştırır → ✅ Doğru | Basit makineler enerjiden kazanç sağlar → ❌ Yanlış | Kuvvetten kazanç varsa yoldan kayıp vardır → ✅ Doğru | Sabit makara kuvveti yarıya indirir → ❌ Yanlış",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Bisiklet birden çok basit makineden oluşan bileşik bir makinedir",
+          0
+        ],
+        [
+          "Eğik düzlemin uzunluğu artınca gereken kuvvet artar",
+          1
+        ],
+        [
+          "Palangada ip, yükün yükseldiği yoldan daha uzun çekilir",
+          0
+        ],
+        [
+          "Cımbız kuvvetten kazanç sağlar",
+          1
+        ],
+        [
+          "Kıyma makinesi çıkrık ve vida içeren bileşik bir makinedir",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ✅ Doğru, ❌ Yanlış. Kartlar: Bisiklet birden çok basit makineden oluşan bileşik bir makinedir | Eğik düzlemin uzunluğu artınca gereken kuvvet artar | Palangada ip, yükün yükseldiği yoldan daha uzun çekilir | Cımbız kuvvetten kazanç sağlar | Kıyma makinesi çıkrık ve vida içeren bileşik bir makinedir",
+    "correctAnswer": "Bisiklet birden çok basit makineden oluşan bileşik bir makinedir → ✅ Doğru | Eğik düzlemin uzunluğu artınca gereken kuvvet artar → ❌ Yanlış | Palangada ip, yükün yükseldiği yoldan daha uzun çekilir → ✅ Doğru | Cımbız kuvvetten kazanç sağlar → ❌ Yanlış | Kıyma makinesi çıkrık ve vida içeren bileşik bir makinedir → ✅ Doğru",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur. Bileşik makineler (bisiklet, kıyma makinesi, et kıyma makinesi) birden çok basit makineden oluşur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-genel-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "genel",
+    "rank": 3,
+    "type": "crate",
+    "prompt": "Alet kartlarını doğru malzeme kasasına yükle.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Sürtünme yoksa basit makinede yapılan iş, makinesiz yapılan işe eşittir",
+          0
+        ],
+        [
+          "Hareketli makara kullanınca yükü kaldırmak için daha az enerji harcanır",
+          1
+        ],
+        [
+          "Dişli sisteminde küçük dişli büyük dişliden daha çok tur atar",
+          0
+        ],
+        [
+          "Kuvvetin ortada olduğu kaldıraçlar kuvvetten kazanç sağlar",
+          1
+        ],
+        [
+          "Vidanın dişleri sıklaştıkça gereken kuvvet azalır",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Alet kartlarını doğru malzeme kasasına yükle. Kasalar: ✅ Doğru, ❌ Yanlış. Kartlar: Sürtünme yoksa basit makinede yapılan iş, makinesiz yapılan işe eşittir | Hareketli makara kullanınca yükü kaldırmak için daha az enerji harcanır | Dişli sisteminde küçük dişli büyük dişliden daha çok tur atar | Kuvvetin ortada olduğu kaldıraçlar kuvvetten kazanç sağlar | Vidanın dişleri sıklaştıkça gereken kuvvet azalır",
+    "correctAnswer": "Sürtünme yoksa basit makinede yapılan iş, makinesiz yapılan işe eşittir → ✅ Doğru | Hareketli makara kullanınca yükü kaldırmak için daha az enerji harcanır → ❌ Yanlış | Dişli sisteminde küçük dişli büyük dişliden daha çok tur atar → ✅ Doğru | Kuvvetin ortada olduğu kaldıraçlar kuvvetten kazanç sağlar → ❌ Yanlış | Vidanın dişleri sıklaştıkça gereken kuvvet azalır → ✅ Doğru",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "egik",
+    "rank": 1,
+    "type": "ramp",
+    "prompt": "Kamyona 1 m yükseğe 30 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu en fazla 10 birim kuvvetle çıkarabilecek bir rampa kur.",
+    "data": {
+      "L": 30,
+      "h": 1,
+      "g": [
+        "max",
+        10
+      ]
+    },
+    "textPlain": "Kamyona 1 m yükseğe 30 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu en fazla 10 birim kuvvetle çıkarabilecek bir rampa kur. Rampa uzunluğu 1–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 3 m (ya da daha uzun)",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "ramp",
+    "prompt": "Kamyona 2 m yükseğe 48 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 16 birim kuvvetle çıkarabileceğin rampayı kur.",
+    "data": {
+      "L": 48,
+      "h": 2,
+      "g": [
+        "eq",
+        16
+      ]
+    },
+    "textPlain": "Kamyona 2 m yükseğe 48 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: kutuyu tam 16 birim kuvvetle çıkarabileceğin rampayı kur. Rampa uzunluğu 2–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 6 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "egik",
+    "rank": 3,
+    "type": "ramp",
+    "prompt": "Kamyona 3 m yükseğe 72 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: en fazla 20 birim kuvvetle çıkılabilen EN KISA rampayı kur.",
+    "data": {
+      "L": 72,
+      "h": 3,
+      "g": [
+        "short",
+        20
+      ]
+    },
+    "textPlain": "Kamyona 3 m yükseğe 72 birimlik kutu yüklenecek. Rampanın ucunu sürükleyerek uzunluğunu ayarla: en fazla 20 birim kuvvetle çıkılabilen EN KISA rampayı kur. Rampa uzunluğu 3–12 m arasında ayarlanır; sürtünme önemsiz.",
+    "correctAnswer": "Rampa uzunluğu 11 m",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-egik-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "kolay",
+    "group": "egik",
+    "rank": 1,
+    "type": "slope",
+    "prompt": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf).",
+    "data": {
+      "r": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "rk": [
+        2,
+        1
+      ]
+    },
+    "textPlain": "Özdeş kutular rampalarla çıkarılıyor. Rampalara dokunarak gereken kuvvete göre raf numarası ver (1 = en büyük kuvvet; eşit olanlar aynı raf). Rampalar (yükseklik / uzunluk): A: 1 m / 3 m, B: 3 m / 3 m.",
+    "correctAnswer": "Raflar: A → 2, B → 1",
+    "explanation": "Eğik düzlemde sürtünme yokken kuvvet × eğik düzlemin uzunluğu = yük × yükseklik. Aynı yüksekliğe daha uzun (daha az eğimli) bir eğik düzlemle çıkılırsa daha az kuvvet gerekir. Eğim aynıysa kuvvet de aynıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "egik",
+    "rank": 2,
+    "type": "screw",
+    "prompt": "Vidalara dokunup birini seç ve tahtaya vida: aynı tahtaya en az kuvvetle vidalanacak olanı seç.",
+    "data": {
+      "o": [
+        [
+          "A",
+          2,
+          0
+        ],
+        [
+          "B",
+          1,
+          0
+        ],
+        [
+          "C",
+          3,
+          0
+        ]
+      ],
+      "g": "easy",
+      "a": 1
+    },
+    "textPlain": "Vidalara dokunup birini seç ve tahtaya vida: aynı tahtaya en az kuvvetle vidalanacak olanı seç. Vidalar (ardışık iki diş arası uzaklık): A 2 mm, B 1 mm, C 3 mm.",
+    "correctAnswer": "B",
+    "explanation": "Vida, silindire sarılmış bir eğik düzlemdir. Dişleri sık (diş aralığı küçük) olan vida daha çok tur atarak ilerler ama daha az kuvvet gerektirir; dişleri seyrek olan vida daha az turda ilerler ama daha çok kuvvet ister.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-egik-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Eğik düzlem ve vida",
+    "outcome": "Eğik düzlem ve vidanın kuvvet kazancının nelere bağlı olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "egik",
+    "rank": 3,
+    "type": "screw",
+    "prompt": "Vidalara dokunup birini seç ve tahtaya vida: tahtaya en az tur atarak girecek olanı seç.",
+    "data": {
+      "o": [
+        [
+          "A",
+          1,
+          0
+        ],
+        [
+          "B",
+          4,
+          0
+        ],
+        [
+          "C",
+          3,
+          0
+        ],
+        [
+          "D",
+          2,
+          0
+        ]
+      ],
+      "g": "fast",
+      "a": 1
+    },
+    "textPlain": "Vidalara dokunup birini seç ve tahtaya vida: tahtaya en az tur atarak girecek olanı seç. Vidalar (ardışık iki diş arası uzaklık): A 1 mm, B 4 mm, C 3 mm, D 2 mm.",
+    "correctAnswer": "B",
+    "explanation": "Vida, silindire sarılmış bir eğik düzlemdir. Dişleri sık (diş aralığı küçük) olan vida daha çok tur atarak ilerler ama daha az kuvvet gerektirir; dişleri seyrek olan vida daha az turda ilerler ama daha çok kuvvet ister.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "gear",
+    "prompt": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla.",
+    "data": {
+      "t": [
+        18,
+        6
+      ],
+      "n0": 1,
+      "T": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "İlk dişli saat yönünde 1 tur atıyor. Diğer dişlilere dokunarak dönme yönünü, sayaçla tur sayısını ayarla. Dişlilerin diş sayıları (sırayla, birbirine geçmiş): 18, 6.",
+    "correctAnswer": "1. dişli saat yönünde 1 tur, 2. dişli saatin tersine 3 tur",
+    "explanation": "Birbirine geçmiş dişli çarklar zıt yönde döner. Diş sayısı az olan çark daha çok tur atar: tur sayısı × diş sayısı iki çarkta eşittir. Aynı mile takılı çarklar aynı yönde ve aynı tur sayısında döner.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "cark",
+    "rank": 2,
+    "type": "belt",
+    "prompt": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 9 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün.",
+    "data": {
+      "r": [
+        1,
+        3
+      ],
+      "c": true,
+      "n": 9,
+      "T": 3
+    },
+    "textPlain": "Büyük ya da küçük kasnaklar kayışla bağlı. 1. kasnak saat yönünde 9 tur atıyor. Kayışı (düz/çapraz) ve 2. kasnağın tur sayısını ayarla: 2. kasnak saatin tersine dönsün. 1. kasnağın yarıçapı 1, 2. kasnağın yarıçapı 3 birim.",
+    "correctAnswer": "Çapraz kayış; 2. kasnak 3 tur",
+    "explanation": "Düz kayışla bağlı kasnaklar aynı yönde, çapraz kayışla bağlı kasnaklar zıt yönde döner. Küçük kasnak daha çok tur atar: tur sayısı × yarıçap iki kasnakta eşittir.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u5-cark-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Çıkrık, dişli çarklar ve kasnaklar",
+    "outcome": "Çıkrık, dişli çark ve kasnakların dönme yönlerini, tur sayılarını ve kuvvet kazancını açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "cark",
+    "rank": 3,
+    "type": "wheel",
+    "prompt": "Kuyudan 96 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 16 birim kuvvet yetsin.",
+    "data": {
+      "L": 96,
+      "M": 16
+    },
+    "textPlain": "Kuyudan 96 birimlik kova çekilecek. Çıkrığın kolunu ve silindirini ayarla: en fazla 16 birim kuvvet yetsin. Kol yarıçapı 1–6 birim, silindir yarıçapı 1–3 birim seçilebilir (kol silindirden kısa olamaz).",
+    "correctAnswer": "Uygun bir seçim: kol 6, silindir 1 (kuvvet 16)",
+    "explanation": "Çıkrıkta kuvvet × kol (kasnak) yarıçapı = yük × silindir yarıçapı. Kol uzadıkça ya da silindir inceldikçe daha az kuvvet gerekir.",
+    "twin": "2025-S12"
+  },
+  {
+    "questionId": "fen8u5-genel-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "orta",
+    "group": "genel",
+    "rank": 2,
+    "type": "trade",
+    "prompt": "Bir eğik düzlem 3 kat kuvvet kazancı sağlıyor. 60 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 3,
+      "L": 60,
+      "h": 2,
+      "m": "Bir eğik düzlem",
+      "a": [
+        20,
+        6
+      ]
+    },
+    "textPlain": "Bir eğik düzlem 3 kat kuvvet kazancı sağlıyor. 60 birimlik yük 2 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 6 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": "2025-S11"
+  },
+  {
+    "questionId": "fen8u5-genel-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "5. Ünite: Basit Makineler",
+    "topic": "Basit makinelerin iş kolaylığı: kuvvet-yol ilişkisi, bileşik makineler ve günlük yaşam",
+    "outcome": "Basit makinelerin işi kolaylaştırdığını ancak işten (enerjiden) kazanç sağlamadığını; kuvvetten kazançta yoldan kayıp olduğunu açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 5. Ünite “Basit Makineler”",
+    "difficulty": "zor",
+    "group": "genel",
+    "rank": 3,
+    "type": "trade",
+    "prompt": "Bir dişli-çıkrık sistemi 12 kat kuvvet kazancı sağlıyor. 240 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol.",
+    "data": {
+      "k": 12,
+      "L": 240,
+      "h": 1,
+      "m": "Bir dişli-çıkrık sistemi",
+      "a": [
+        20,
+        12
+      ]
+    },
+    "textPlain": "Bir dişli-çıkrık sistemi 12 kat kuvvet kazancı sağlıyor. 240 birimlik yük 1 m yükseltilecek. Sayaçları ayarla: uygulanacak kuvvet ve ipin/kolun çekileceği yol. Sürtünme ve makine ağırlığı önemsiz.",
+    "correctAnswer": "Kuvvet 20 birim, yol 12 m",
+    "explanation": "Basit makineler işten (enerjiden) kazanç sağlamaz: kuvvet × yol, yükün ağırlığı × yükselme yüksekliği ile aynı kalır (sürtünme yokken). Kuvvetten kaç kat kazanılırsa yoldan o kadar kat kayıp olur.",
+    "twin": ""
+  }
+]
