@@ -1,0 +1,4494 @@
+[
+  {
+    "questionId": "fen8u3-kati-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte ağırlık aynı, yere temas eden yüzey alanı farklı olsun (yüzey alanının etkisi görülsün).",
+    "data": {
+      "g": "area",
+      "fix": null
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte ağırlık aynı, yere temas eden yüzey alanı farklı olsun (yüzey alanının etkisi görülsün). İki düzenek de öğrenci tarafından kurulur (her sütuna 0–3 özdeş blok).",
+    "correctAnswer": "Uygun bir kurulum: I. 0 blok | 0 blok | 2 blok; II. 0 blok | 1 blok | 1 blok (koşulu sağlayan her kurulum kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2020-S13"
+  },
+  {
+    "questionId": "fen8u3-kati-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte yere temas eden yüzey alanı aynı, ağırlık farklı olsun (ağırlığın etkisi görülsün).",
+    "data": {
+      "g": "weight",
+      "fix": null
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte yere temas eden yüzey alanı aynı, ağırlık farklı olsun (ağırlığın etkisi görülsün). İki düzenek de öğrenci tarafından kurulur (her sütuna 0–3 özdeş blok).",
+    "correctAnswer": "Uygun bir kurulum: I. 0 blok | 0 blok | 1 blok; II. 0 blok | 0 blok | 2 blok (koşulu sağlayan her kurulum kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2022-S10"
+  },
+  {
+    "questionId": "fen8u3-kati-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte ağırlık aynı, yere temas eden yüzey alanı farklı olsun (yüzey alanının etkisi görülsün).",
+    "data": {
+      "g": "area",
+      "fix": [
+        2,
+        0,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte ağırlık aynı, yere temas eden yüzey alanı farklı olsun (yüzey alanının etkisi görülsün). I. düzenek sabit: sütunlarda 2 blok | 0 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 1 blok | 1 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2019-S10"
+  },
+  {
+    "questionId": "fen8u3-kati-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte yere temas eden yüzey alanı aynı, ağırlık farklı olsun (ağırlığın etkisi görülsün).",
+    "data": {
+      "g": "weight",
+      "fix": [
+        1,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte yere temas eden yüzey alanı aynı, ağırlık farklı olsun (ağırlığın etkisi görülsün). I. düzenek sabit: sütunlarda 1 blok | 1 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 1 blok | 2 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2021-S13"
+  },
+  {
+    "questionId": "fen8u3-kati-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek, I. düzenekle aynı derinlikte iz bıraksın ama blok sayısı farklı olsun.",
+    "data": {
+      "g": "eq",
+      "fix": [
+        2,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek, I. düzenekle aynı derinlikte iz bıraksın ama blok sayısı farklı olsun. I. düzenek sabit: sütunlarda 2 blok | 2 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 0 blok | 2 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2023-S12"
+  },
+  {
+    "questionId": "fen8u3-kati-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek daha az blokla I. düzenekten daha derin iz bıraksın.",
+    "data": {
+      "g": "more",
+      "fix": [
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek daha az blokla I. düzenekten daha derin iz bıraksın. I. düzenek sabit: sütunlarda 1 blok | 1 blok | 1 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 0 blok | 2 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2023-S12"
+  },
+  {
+    "questionId": "fen8u3-kati-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenek aynı derinlikte iz bıraksın ama yere temas eden yüzey alanları farklı olsun.",
+    "data": {
+      "g": "same",
+      "fix": [
+        3,
+        3,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenek aynı derinlikte iz bıraksın ama yere temas eden yüzey alanları farklı olsun. I. düzenek sabit: sütunlarda 3 blok | 3 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 0 blok | 3 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2026-S9"
+  },
+  {
+    "questionId": "fen8u3-kati-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek, I. düzenekle aynı derinlikte iz bıraksın ama blok sayısı farklı olsun.",
+    "data": {
+      "g": "eq",
+      "fix": [
+        3,
+        0,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek, I. düzenekle aynı derinlikte iz bıraksın ama blok sayısı farklı olsun. I. düzenek sabit: sütunlarda 3 blok | 0 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 3 blok | 3 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2023-S12"
+  },
+  {
+    "questionId": "fen8u3-kati-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Dört hazır düzenekten iki tanesine dokun: yüzey alanının basınca etkisini gösteren iki düzeneği seç.",
+    "data": {
+      "s": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "g": "area"
+    },
+    "textPlain": "Dört hazır düzenekten iki tanesine dokun: yüzey alanının basınca etkisini gösteren iki düzeneği seç. Düzenekler (sütunlardaki özdeş blok sayıları): I: 1 blok | 1 blok | 0 blok; II: 2 blok | 0 blok | 0 blok; III: 1 blok | 0 blok | 0 blok; IV: 1 blok | 1 blok | 1 blok.",
+    "correctAnswer": "Uygun çift: I ve II",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2021-S13"
+  },
+  {
+    "questionId": "fen8u3-kati-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Dört hazır düzenekten iki tanesine dokun: ağırlığın basınca etkisini gösteren iki düzeneği seç.",
+    "data": {
+      "s": [
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "g": "weight"
+    },
+    "textPlain": "Dört hazır düzenekten iki tanesine dokun: ağırlığın basınca etkisini gösteren iki düzeneği seç. Düzenekler (sütunlardaki özdeş blok sayıları): I: 1 blok | 1 blok | 0 blok; II: 2 blok | 0 blok | 0 blok; III: 1 blok | 0 blok | 0 blok; IV: 1 blok | 1 blok | 1 blok.",
+    "correctAnswer": "Uygun çift: II ve III",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2022-S10"
+  },
+  {
+    "questionId": "fen8u3-kati-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Dört hazır düzenekten iki tanesine dokun: yüzey alanının basınca etkisini gösteren iki düzeneği seç.",
+    "data": {
+      "s": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "g": "area"
+    },
+    "textPlain": "Dört hazır düzenekten iki tanesine dokun: yüzey alanının basınca etkisini gösteren iki düzeneği seç. Düzenekler (sütunlardaki özdeş blok sayıları): I: 3 blok | 0 blok | 0 blok; II: 1 blok | 1 blok | 1 blok; III: 2 blok | 2 blok | 0 blok; IV: 1 blok | 0 blok | 1 blok.",
+    "correctAnswer": "Uygun çift: I ve II",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2022-S10"
+  },
+  {
+    "questionId": "fen8u3-kati-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Dört hazır düzenekten iki tanesine dokun: ağırlığın basınca etkisini gösteren iki düzeneği seç.",
+    "data": {
+      "s": [
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ],
+      "g": "weight"
+    },
+    "textPlain": "Dört hazır düzenekten iki tanesine dokun: ağırlığın basınca etkisini gösteren iki düzeneği seç. Düzenekler (sütunlardaki özdeş blok sayıları): I: 2 blok | 1 blok | 0 blok; II: 1 blok | 1 blok | 1 blok; III: 3 blok | 3 blok | 0 blok; IV: 2 blok | 0 blok | 2 blok.",
+    "correctAnswer": "Uygun çift: I ve III, I ve IV, III ve IV",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2021-S13"
+  },
+  {
+    "questionId": "fen8u3-kati-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "orient",
+    "prompt": "Cisimlere dokunarak kuma değen yüzlerini değiştir. Tuğla kuma en derin izi bıraksın.",
+    "data": {
+      "o": [
+        [
+          "Tuğla",
+          8,
+          [
+            1,
+            2,
+            4
+          ]
+        ]
+      ],
+      "g": [
+        "max",
+        0
+      ]
+    },
+    "textPlain": "Cisimlere dokunarak kuma değen yüzlerini değiştir. Tuğla kuma en derin izi bıraksın.  Cisimler: Tuğla: ağırlığı 8 birim, boyutları 1×2×4.",
+    "correctAnswer": "Uygun bir duruş: Tuğla 2 birim karelik yüzeyi kuma değecek",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-kati-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "orient",
+    "prompt": "Cisimlere dokunarak kuma değen yüzlerini değiştir. Tuğla kuma en sığ izi bıraksın.",
+    "data": {
+      "o": [
+        [
+          "Tuğla",
+          8,
+          [
+            1,
+            2,
+            4
+          ]
+        ]
+      ],
+      "g": [
+        "min",
+        0
+      ]
+    },
+    "textPlain": "Cisimlere dokunarak kuma değen yüzlerini değiştir. Tuğla kuma en sığ izi bıraksın.  Cisimler: Tuğla: ağırlığı 8 birim, boyutları 1×2×4.",
+    "correctAnswer": "Uygun bir duruş: Tuğla 8 birim karelik yüzeyi kuma değecek",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-kati-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "orient",
+    "prompt": "Cisimlere dokunarak kuma değen yüzlerini değiştir. K, L’den daha derin iz bıraksın.",
+    "data": {
+      "o": [
+        [
+          "K",
+          8,
+          [
+            1,
+            2,
+            4
+          ]
+        ],
+        [
+          "L",
+          8,
+          [
+            2,
+            2,
+            2
+          ]
+        ]
+      ],
+      "g": [
+        "gt",
+        0,
+        1
+      ]
+    },
+    "textPlain": "Cisimlere dokunarak kuma değen yüzlerini değiştir. K, L’den daha derin iz bıraksın.  Cisimler: K: ağırlığı 8 birim, boyutları 1×2×4; L: ağırlığı 8 birim, boyutları 2×2×2.",
+    "correctAnswer": "Uygun bir duruş: K 2 birim karelik yüzeyi kuma değecek, L 4 birim karelik yüzeyi kuma değecek (koşulu sağlayan her duruş kabul)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2026-S9"
+  },
+  {
+    "questionId": "fen8u3-kati-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "orient",
+    "prompt": "Cisimlere dokunarak kuma değen yüzlerini değiştir. K ile L aynı derinlikte iz bıraksın.",
+    "data": {
+      "o": [
+        [
+          "K",
+          12,
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        [
+          "L",
+          6,
+          [
+            1,
+            1,
+            3
+          ]
+        ]
+      ],
+      "g": [
+        "eq",
+        0,
+        1
+      ]
+    },
+    "textPlain": "Cisimlere dokunarak kuma değen yüzlerini değiştir. K ile L aynı derinlikte iz bıraksın.  Cisimler: K: ağırlığı 12 birim, boyutları 1×2×3; L: ağırlığı 6 birim, boyutları 1×1×3.",
+    "correctAnswer": "Uygun bir duruş: K 2 birim karelik yüzeyi kuma değecek, L 1 birim karelik yüzeyi kuma değecek (koşulu sağlayan her duruş kabul)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2026-S9"
+  },
+  {
+    "questionId": "fen8u3-katiy-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "orient",
+    "prompt": "Aynı kitaplar masada. Cisimlere dokunarak kuma değen yüzlerini değiştir. Sarı kitap, Beyaz kitap’den daha derin iz bıraksın.",
+    "data": {
+      "o": [
+        [
+          "Beyaz kitap",
+          6,
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        [
+          "Sarı kitap",
+          6,
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      ],
+      "g": [
+        "gt",
+        1,
+        0
+      ]
+    },
+    "textPlain": "Aynı kitaplar masada. Cisimlere dokunarak kuma değen yüzlerini değiştir. Sarı kitap, Beyaz kitap’den daha derin iz bıraksın. Aynı kitaplar masada. Cisimler: Beyaz kitap: ağırlığı 6 birim, boyutları 1×2×3; Sarı kitap: ağırlığı 6 birim, boyutları 1×2×3.",
+    "correctAnswer": "Uygun bir duruş: Beyaz kitap 3 birim karelik yüzeyi kuma değecek, Sarı kitap 2 birim karelik yüzeyi kuma değecek (koşulu sağlayan her duruş kabul)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2023-S13"
+  },
+  {
+    "questionId": "fen8u3-katiy-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "orient",
+    "prompt": "Cisimlere dokunarak kuma değen yüzlerini değiştir. K ile L aynı derinlikte iz bıraksın.",
+    "data": {
+      "o": [
+        [
+          "K",
+          16,
+          [
+            2,
+            2,
+            4
+          ]
+        ],
+        [
+          "L",
+          8,
+          [
+            1,
+            2,
+            4
+          ]
+        ]
+      ],
+      "g": [
+        "eq",
+        0,
+        1
+      ]
+    },
+    "textPlain": "Cisimlere dokunarak kuma değen yüzlerini değiştir. K ile L aynı derinlikte iz bıraksın.  Cisimler: K: ağırlığı 16 birim, boyutları 2×2×4; L: ağırlığı 8 birim, boyutları 1×2×4.",
+    "correctAnswer": "Uygun bir duruş: K 4 birim karelik yüzeyi kuma değecek, L 2 birim karelik yüzeyi kuma değecek (koşulu sağlayan her duruş kabul)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2026-S9"
+  },
+  {
+    "questionId": "fen8u3-katiy-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "katiy",
+    "rank": 1,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 4 birimlik basınca dayanıyor; kimse kara gömülmesin.",
+    "data": {
+      "p": [
+        [
+          "Ece",
+          "🧒",
+          24
+        ]
+      ],
+      "g": [
+        "lim",
+        4
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 4 birimlik basınca dayanıyor; kimse kara gömülmesin. Kişiler (ağırlık birimi): Ece 24. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Ece → Kar ayakkabısı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "katiy",
+    "rank": 1,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 6 birimlik basınca dayanıyor; kimse kara gömülmesin.",
+    "data": {
+      "p": [
+        [
+          "Can",
+          "🧑",
+          36
+        ]
+      ],
+      "g": [
+        "lim",
+        6
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 6 birimlik basınca dayanıyor; kimse kara gömülmesin. Kişiler (ağırlık birimi): Can 36. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Can → Kar ayakkabısı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Herkes karda aynı derinlikte iz bıraksın.",
+    "data": {
+      "p": [
+        [
+          "Ece",
+          "🧒",
+          24
+        ],
+        [
+          "Baba",
+          "🧔",
+          48
+        ]
+      ],
+      "g": [
+        "eq"
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Herkes karda aynı derinlikte iz bıraksın. Kişiler (ağırlık birimi): Ece 24, Baba 48. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Ece → Kar botu, Baba → Kar ayakkabısı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 8 birimlik basınca dayanıyor; kimse kara gömülmesin.",
+    "data": {
+      "p": [
+        [
+          "Ali",
+          "🧒",
+          30
+        ],
+        [
+          "Ayı",
+          "🐻",
+          60
+        ]
+      ],
+      "g": [
+        "lim",
+        8
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 8 birimlik basınca dayanıyor; kimse kara gömülmesin. Kişiler (ağırlık birimi): Ali 30, Ayı 60. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Ali → Kar ayakkabısı, Ayı → Kayak (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Herkes karda aynı derinlikte iz bıraksın.",
+    "data": {
+      "p": [
+        [
+          "Deniz",
+          "🧑",
+          48
+        ],
+        [
+          "Kızak",
+          "🛷",
+          24
+        ],
+        [
+          "Köpek",
+          "🐕",
+          16
+        ]
+      ],
+      "g": [
+        "eq"
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Herkes karda aynı derinlikte iz bıraksın. Kişiler (ağırlık birimi): Deniz 48, Kızak 24, Köpek 16. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Deniz → Kar ayakkabısı, Kızak → Kar botu, Köpek → Spor ayakkabı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Koç herkesten daha derin iz bıraksın.",
+    "data": {
+      "p": [
+        [
+          "Koç",
+          "🧔",
+          72
+        ],
+        [
+          "Ece",
+          "🧒",
+          24
+        ],
+        [
+          "Can",
+          "🧑",
+          36
+        ]
+      ],
+      "g": [
+        "deep"
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Koç herkesten daha derin iz bıraksın. Kişiler (ağırlık birimi): Koç 72, Ece 24, Can 36. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Koç → Spor ayakkabı, Ece → Spor ayakkabı, Can → Spor ayakkabı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "katiy",
+    "rank": 1,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Bıçağın ağzının bilenmesi",
+          0
+        ],
+        [
+          "Kamyonlarda çok sayıda tekerlek",
+          1
+        ],
+        [
+          "Raptiyenin sivri ucu",
+          0
+        ],
+        [
+          "Kar ayakkabısı",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Bıçağın ağzının bilenmesi | Kamyonlarda çok sayıda tekerlek | Raptiyenin sivri ucu | Kar ayakkabısı",
+    "correctAnswer": "Bıçağın ağzının bilenmesi → ⬆️ Basıncı artırır | Kamyonlarda çok sayıda tekerlek → ⬇️ Basıncı azaltır | Raptiyenin sivri ucu → ⬆️ Basıncı artırır | Kar ayakkabısı → ⬇️ Basıncı azaltır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "katiy",
+    "rank": 1,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Çivinin sivri ucu",
+          0
+        ],
+        [
+          "Develerin geniş ayak tabanı",
+          1
+        ],
+        [
+          "Sırt çantasının geniş askıları",
+          1
+        ],
+        [
+          "İğnenin ince ucu",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Çivinin sivri ucu | Develerin geniş ayak tabanı | Sırt çantasının geniş askıları | İğnenin ince ucu",
+    "correctAnswer": "Çivinin sivri ucu → ⬆️ Basıncı artırır | Develerin geniş ayak tabanı → ⬇️ Basıncı azaltır | Sırt çantasının geniş askıları → ⬇️ Basıncı azaltır | İğnenin ince ucu → ⬆️ Basıncı artırır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Binaların geniş temeli",
+          1
+        ],
+        [
+          "Paletli iş makineleri",
+          1
+        ],
+        [
+          "Ördeklerin perdeli ayakları",
+          1
+        ],
+        [
+          "Baltanın keskin ağzı",
+          0
+        ],
+        [
+          "Yüksek ve ince topuklu ayakkabı",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Binaların geniş temeli | Paletli iş makineleri | Ördeklerin perdeli ayakları | Baltanın keskin ağzı | Yüksek ve ince topuklu ayakkabı",
+    "correctAnswer": "Binaların geniş temeli → ⬇️ Basıncı azaltır | Paletli iş makineleri → ⬇️ Basıncı azaltır | Ördeklerin perdeli ayakları → ⬇️ Basıncı azaltır | Baltanın keskin ağzı → ⬆️ Basıncı artırır | Yüksek ve ince topuklu ayakkabı → ⬆️ Basıncı artırır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Perdeyi daha az sayıda halkaya asmak",
+          0
+        ],
+        [
+          "Daha geniş halkalar kullanmak",
+          1
+        ],
+        [
+          "Daha ağır bir perde asmak",
+          0
+        ],
+        [
+          "Daha çok halka kullanmak",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Perdeyi daha az sayıda halkaya asmak | Daha geniş halkalar kullanmak | Daha ağır bir perde asmak | Daha çok halka kullanmak",
+    "correctAnswer": "Perdeyi daha az sayıda halkaya asmak → ⬆️ Basıncı artırır | Daha geniş halkalar kullanmak → ⬇️ Basıncı azaltır | Daha ağır bir perde asmak → ⬆️ Basıncı artırır | Daha çok halka kullanmak → ⬇️ Basıncı azaltır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": "2025-S9"
+  },
+  {
+    "questionId": "fen8u3-katiy-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Tırnak makasının keskin ağzı",
+          0
+        ],
+        [
+          "Kayak yaparken kayakların kullanılması",
+          1
+        ],
+        [
+          "Kesici dişlerin ince kenarı",
+          0
+        ],
+        [
+          "Tankların paletleri",
+          1
+        ],
+        [
+          "Yük taşıyan kamyonun tekerleklerinin artırılması",
+          1
+        ],
+        [
+          "Zımbanın ince telleri",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Tırnak makasının keskin ağzı | Kayak yaparken kayakların kullanılması | Kesici dişlerin ince kenarı | Tankların paletleri | Yük taşıyan kamyonun tekerleklerinin artırılması | Zımbanın ince telleri",
+    "correctAnswer": "Tırnak makasının keskin ağzı → ⬆️ Basıncı artırır | Kayak yaparken kayakların kullanılması → ⬇️ Basıncı azaltır | Kesici dişlerin ince kenarı → ⬆️ Basıncı artırır | Tankların paletleri → ⬇️ Basıncı azaltır | Yük taşıyan kamyonun tekerleklerinin artırılması → ⬇️ Basıncı azaltır | Zımbanın ince telleri → ⬆️ Basıncı artırır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "iletim",
+    "rank": 1,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "💧 Sıvı basıncı derinlikle artar",
+        "🔁 Sıvılar basıncı iletir"
+      ],
+      "r": [
+        [
+          "Baraj duvarının alt kısmının kalın yapılması",
+          0
+        ],
+        [
+          "Otomobillerdeki hidrolik fren",
+          1
+        ],
+        [
+          "Derin dalışta özel dalış giysisi",
+          0
+        ],
+        [
+          "Hidrolik kriko ile araba kaldırma",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: 💧 Sıvı basıncı derinlikle artar, 🔁 Sıvılar basıncı iletir. Kartlar: Baraj duvarının alt kısmının kalın yapılması | Otomobillerdeki hidrolik fren | Derin dalışta özel dalış giysisi | Hidrolik kriko ile araba kaldırma",
+    "correctAnswer": "Baraj duvarının alt kısmının kalın yapılması → 💧 Sıvı basıncı derinlikle artar | Otomobillerdeki hidrolik fren → 🔁 Sıvılar basıncı iletir | Derin dalışta özel dalış giysisi → 💧 Sıvı basıncı derinlikle artar | Hidrolik kriko ile araba kaldırma → 🔁 Sıvılar basıncı iletir",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; bu yüzden barajların tabanı kalın yapılır, dalgıçlar derinde basınca dayanıklı giysi kullanır. Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir; hidrolik fren, kriko ve berber koltuğu bu özellikle çalışır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "💧 Sıvı basıncı derinlikle artar",
+        "🔁 Sıvılar basıncı iletir"
+      ],
+      "r": [
+        [
+          "Berber koltuğunun pedalla yükseltilmesi",
+          1
+        ],
+        [
+          "Su depolarının çelik bantlarının altta daha sık sarılması",
+          0
+        ],
+        [
+          "Şişedeki delikten çıkan suyun seviye düştükçe zayıflaması",
+          0
+        ],
+        [
+          "İş makinelerinin hidrolik kolları",
+          1
+        ],
+        [
+          "Denizaltıların derine indikçe daha dayanıklı gövde gerektirmesi",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: 💧 Sıvı basıncı derinlikle artar, 🔁 Sıvılar basıncı iletir. Kartlar: Berber koltuğunun pedalla yükseltilmesi | Su depolarının çelik bantlarının altta daha sık sarılması | Şişedeki delikten çıkan suyun seviye düştükçe zayıflaması | İş makinelerinin hidrolik kolları | Denizaltıların derine indikçe daha dayanıklı gövde gerektirmesi",
+    "correctAnswer": "Berber koltuğunun pedalla yükseltilmesi → 🔁 Sıvılar basıncı iletir | Su depolarının çelik bantlarının altta daha sık sarılması → 💧 Sıvı basıncı derinlikle artar | Şişedeki delikten çıkan suyun seviye düştükçe zayıflaması → 💧 Sıvı basıncı derinlikle artar | İş makinelerinin hidrolik kolları → 🔁 Sıvılar basıncı iletir | Denizaltıların derine indikçe daha dayanıklı gövde gerektirmesi → 💧 Sıvı basıncı derinlikle artar",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; bu yüzden barajların tabanı kalın yapılır, dalgıçlar derinde basınca dayanıklı giysi kullanır. Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir; hidrolik fren, kriko ve berber koltuğu bu özellikle çalışır.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-iletim-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "iletim",
+    "rank": 3,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "💧 Sıvı basıncı derinlikle artar",
+        "🔁 Sıvılar basıncı iletir"
+      ],
+      "r": [
+        [
+          "Kapalı kaptaki hareketli kapağa basınca bütün tıpaların fırlaması",
+          1
+        ],
+        [
+          "Su kulelerinin yüksek yerlere kurulması",
+          0
+        ],
+        [
+          "Diş hekimi koltuğunun hidrolik sistemi",
+          1
+        ],
+        [
+          "Derinlere inen dalgıcın kulaklarında basınç hissetmesi",
+          0
+        ],
+        [
+          "Hidrolik presle hurda araç sıkıştırma",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: 💧 Sıvı basıncı derinlikle artar, 🔁 Sıvılar basıncı iletir. Kartlar: Kapalı kaptaki hareketli kapağa basınca bütün tıpaların fırlaması | Su kulelerinin yüksek yerlere kurulması | Diş hekimi koltuğunun hidrolik sistemi | Derinlere inen dalgıcın kulaklarında basınç hissetmesi | Hidrolik presle hurda araç sıkıştırma",
+    "correctAnswer": "Kapalı kaptaki hareketli kapağa basınca bütün tıpaların fırlaması → 🔁 Sıvılar basıncı iletir | Su kulelerinin yüksek yerlere kurulması → 💧 Sıvı basıncı derinlikle artar | Diş hekimi koltuğunun hidrolik sistemi → 🔁 Sıvılar basıncı iletir | Derinlere inen dalgıcın kulaklarında basınç hissetmesi → 💧 Sıvı basıncı derinlikle artar | Hidrolik presle hurda araç sıkıştırma → 🔁 Sıvılar basıncı iletir",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; bu yüzden barajların tabanı kalın yapılır, dalgıçlar derinde basınca dayanıklı giysi kullanır. Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir; hidrolik fren, kriko ve berber koltuğu bu özellikle çalışır.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-sivi-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        0,
+        5,
+        1,
+        0
+      ],
+      "g": "depth",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Su, dar kap, sıvı seviyesi 5 birim, basınçölçer tabandan 1 birim yukarıda (yüzeyden 4 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı (Su), aynı kap şekli, basınçölçer yüzeyden 4 birimden farklı derinlikte",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2023-S16"
+  },
+  {
+    "questionId": "fen8u3-sivi-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Sıvının yoğunluğunun basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "g": "dens",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Sıvının yoğunluğunun basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Su, dar kap, sıvı seviyesi 4 birim, basınçölçer tabandan 0 birim yukarıda (yüzeyden 4 birim derinde).",
+    "correctAnswer": "II. tankta farklı bir sıvı, aynı kap şekli ve basınçölçer yine yüzeyden 4 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2025-S8"
+  },
+  {
+    "questionId": "fen8u3-sivi-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        1,
+        6,
+        2,
+        1
+      ],
+      "g": "depth",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Zeytinyağı, geniş kap, sıvı seviyesi 6 birim, basınçölçer tabandan 2 birim yukarıda (yüzeyden 4 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı (Zeytinyağı), aynı kap şekli, basınçölçer yüzeyden 4 birimden farklı derinlikte",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2020-S14"
+  },
+  {
+    "questionId": "fen8u3-sivi-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Sıvının yoğunluğunun basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        0,
+        6,
+        1,
+        1
+      ],
+      "g": "dens",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Sıvının yoğunluğunun basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Su, geniş kap, sıvı seviyesi 6 birim, basınçölçer tabandan 1 birim yukarıda (yüzeyden 5 birim derinde).",
+    "correctAnswer": "II. tankta farklı bir sıvı, aynı kap şekli ve basınçölçer yine yüzeyden 5 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2025-S8"
+  },
+  {
+    "questionId": "fen8u3-sivi-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        2,
+        5,
+        1,
+        0
+      ],
+      "g": "shape",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Tuzlu su, dar kap, sıvı seviyesi 5 birim, basınçölçer tabandan 1 birim yukarıda (yüzeyden 4 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı, farklı kap şekli, basınçölçer yine 4 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-sivi-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: II. tankta FARKLI bir sıvıyla basınçölçer I. tankla aynı değeri göstersin. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        0,
+        6,
+        2,
+        0
+      ],
+      "g": "eq",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: II. tankta FARKLI bir sıvıyla basınçölçer I. tankla aynı değeri göstersin. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Su, dar kap, sıvı seviyesi 6 birim, basınçölçer tabandan 2 birim yukarıda (yüzeyden 4 birim derinde).",
+    "correctAnswer": "Farklı sıvıda yoğunluk × derinlik aynı olmalı (ör. su 4 birim derinlik = zeytinyağı 5 birim derinlik)",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2020-S14"
+  },
+  {
+    "questionId": "fen8u3-sivi-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Sıvının yoğunluğunun basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        1,
+        6,
+        1,
+        2
+      ],
+      "g": "dens",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Sıvının yoğunluğunun basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Zeytinyağı, huni kap, sıvı seviyesi 6 birim, basınçölçer tabandan 1 birim yukarıda (yüzeyden 5 birim derinde).",
+    "correctAnswer": "II. tankta farklı bir sıvı, aynı kap şekli ve basınçölçer yine yüzeyden 5 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2025-S8"
+  },
+  {
+    "questionId": "fen8u3-siviy-001",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        0,
+        5,
+        0,
+        2
+      ],
+      "g": "shape",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Su, huni kap, sıvı seviyesi 5 birim, basınçölçer tabandan 0 birim yukarıda (yüzeyden 5 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı, farklı kap şekli, basınçölçer yine 5 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-siviy-002",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "siviy",
+    "rank": 3,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        2,
+        6,
+        2,
+        1
+      ],
+      "g": "shape",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Tuzlu su, geniş kap, sıvı seviyesi 6 birim, basınçölçer tabandan 2 birim yukarıda (yüzeyden 4 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı, farklı kap şekli, basınçölçer yine 4 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-siviy-003",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek.",
+    "data": {
+      "lv": 6,
+      "h": [
+        [
+          "A",
+          5,
+          "sağ"
+        ],
+        [
+          "B",
+          3,
+          "sağ"
+        ],
+        [
+          "C",
+          1,
+          "sağ"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi tabandan 6 birim. Delikler: A (tabandan 5 birim, sağ), B (tabandan 3 birim, sağ), C (tabandan 1 birim, sağ).",
+    "correctAnswer": "Fışkırma gücü sırası: C ≥ B ≥ A (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-siviy-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek.",
+    "data": {
+      "lv": 6,
+      "h": [
+        [
+          "A",
+          4,
+          "sağ"
+        ],
+        [
+          "B",
+          2,
+          "sağ"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi tabandan 6 birim. Delikler: A (tabandan 4 birim, sağ), B (tabandan 2 birim, sağ).",
+    "correctAnswer": "Fışkırma gücü sırası: B ≥ A (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-siviy-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Aynı derinlikteki deliklere dikkat et.",
+    "data": {
+      "lv": 6,
+      "h": [
+        [
+          "A",
+          3,
+          "sol"
+        ],
+        [
+          "B",
+          3,
+          "sağ"
+        ],
+        [
+          "C",
+          1,
+          "sağ"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Aynı derinlikteki deliklere dikkat et. Su seviyesi tabandan 6 birim. Delikler: A (tabandan 3 birim, sol), B (tabandan 3 birim, sağ), C (tabandan 1 birim, sağ).",
+    "correctAnswer": "Fışkırma gücü sırası: C ≥ A ≥ B (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-siviy-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek.",
+    "data": {
+      "lv": 5,
+      "h": [
+        [
+          "A",
+          4,
+          "sol"
+        ],
+        [
+          "B",
+          2,
+          "sağ"
+        ],
+        [
+          "C",
+          2,
+          "sol"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi tabandan 5 birim. Delikler: A (tabandan 4 birim, sol), B (tabandan 2 birim, sağ), C (tabandan 2 birim, sol).",
+    "correctAnswer": "Fışkırma gücü sırası: B ≥ C ≥ A (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-siviy-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "siviy",
+    "rank": 3,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek.",
+    "data": {
+      "lv": 6,
+      "h": [
+        [
+          "A",
+          5,
+          "sağ"
+        ],
+        [
+          "B",
+          1,
+          "sol"
+        ],
+        [
+          "C",
+          3,
+          "sağ"
+        ],
+        [
+          "D",
+          1,
+          "sağ"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi tabandan 6 birim. Delikler: A (tabandan 5 birim, sağ), B (tabandan 1 birim, sol), C (tabandan 3 birim, sağ), D (tabandan 1 birim, sağ).",
+    "correctAnswer": "Fışkırma gücü sırası: B ≥ D ≥ C ≥ A (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-siviy-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "siviy",
+    "rank": 3,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi düşükken bile derin delik güçlü fışkırır mı?",
+    "data": {
+      "lv": 4,
+      "h": [
+        [
+          "A",
+          3,
+          "sol"
+        ],
+        [
+          "B",
+          3,
+          "sağ"
+        ],
+        [
+          "C",
+          2,
+          "sağ"
+        ],
+        [
+          "D",
+          0,
+          "sol"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi düşükken bile derin delik güçlü fışkırır mı? Su seviyesi tabandan 4 birim. Delikler: A (tabandan 3 birim, sol), B (tabandan 3 birim, sağ), C (tabandan 2 birim, sağ), D (tabandan 0 birim, sol).",
+    "correctAnswer": "Fışkırma gücü sırası: D ≥ C ≥ A ≥ B (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-siviy-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          0,
+          0,
+          4
+        ],
+        [
+          "L",
+          1,
+          0,
+          4
+        ],
+        [
+          "M",
+          2,
+          0,
+          2
+        ]
+      ],
+      "rk": [
+        1,
+        1,
+        2
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: dar kap, su, seviye 4 birim; L: geniş kap, su, seviye 4 birim; M: huni kap, su, seviye 2 birim.",
+    "correctAnswer": "Raflar: K → 1, L → 1, M → 2",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-siviy-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          1,
+          0,
+          3
+        ],
+        [
+          "L",
+          2,
+          0,
+          5
+        ],
+        [
+          "M",
+          0,
+          0,
+          3
+        ],
+        [
+          "N",
+          0,
+          0,
+          5
+        ]
+      ],
+      "rk": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: geniş kap, su, seviye 3 birim; L: huni kap, su, seviye 5 birim; M: dar kap, su, seviye 3 birim; N: dar kap, su, seviye 5 birim.",
+    "correctAnswer": "Raflar: K → 2, L → 1, M → 2, N → 1",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-sivi-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          0,
+          0,
+          5
+        ],
+        [
+          "L",
+          0,
+          1,
+          5
+        ],
+        [
+          "M",
+          0,
+          2,
+          5
+        ]
+      ],
+      "rk": [
+        2,
+        3,
+        1
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: dar kap, su, seviye 5 birim; L: dar kap, zeytinyağı, seviye 5 birim; M: dar kap, tuzlu su, seviye 5 birim.",
+    "correctAnswer": "Raflar: K → 2, L → 3, M → 1",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-sivi-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          1,
+          1,
+          5
+        ],
+        [
+          "L",
+          0,
+          0,
+          4
+        ],
+        [
+          "M",
+          2,
+          2,
+          3
+        ]
+      ],
+      "rk": [
+        1,
+        1,
+        2
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: geniş kap, zeytinyağı, seviye 5 birim; L: dar kap, su, seviye 4 birim; M: huni kap, tuzlu su, seviye 3 birim.",
+    "correctAnswer": "Raflar: K → 1, L → 1, M → 2",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-sivi-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          0,
+          0,
+          6
+        ],
+        [
+          "L",
+          1,
+          2,
+          5
+        ],
+        [
+          "M",
+          2,
+          1,
+          6
+        ],
+        [
+          "N",
+          0,
+          1,
+          5
+        ]
+      ],
+      "rk": [
+        1,
+        1,
+        2,
+        3
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: dar kap, su, seviye 6 birim; L: geniş kap, tuzlu su, seviye 5 birim; M: huni kap, zeytinyağı, seviye 6 birim; N: dar kap, zeytinyağı, seviye 5 birim.",
+    "correctAnswer": "Raflar: K → 1, L → 1, M → 2, N → 3",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-siviy-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "siviy",
+    "rank": 3,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          2,
+          2,
+          4
+        ],
+        [
+          "L",
+          1,
+          1,
+          6
+        ],
+        [
+          "M",
+          0,
+          0,
+          4
+        ],
+        [
+          "N",
+          1,
+          0,
+          6
+        ]
+      ],
+      "rk": [
+        2,
+        2,
+        3,
+        1
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: huni kap, tuzlu su, seviye 4 birim; L: geniş kap, zeytinyağı, seviye 6 birim; M: dar kap, su, seviye 4 birim; N: geniş kap, su, seviye 6 birim.",
+    "correctAnswer": "Raflar: K → 2, L → 2, M → 3, N → 1",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-004",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "iletim",
+    "rank": 1,
+    "type": "cork",
+    "prompt": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "push",
+      "c": [
+        [
+          "A",
+          "sol",
+          4
+        ],
+        [
+          "B",
+          "sağ",
+          2
+        ],
+        [
+          "C",
+          "taban",
+          0
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 4 birim), B (sağ duvarda, tabandan 2 birim), C (tabanda, tabandan 0 birim).",
+    "correctAnswer": "Fırlayan tıpalar: A, B, C",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Kapağa uygulanan basınç bütün tıpalara iletildiği için bütün tıpalar fırlar.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-iletim-005",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "iletim",
+    "rank": 1,
+    "type": "cork",
+    "prompt": "Kap açık; içine yavaş yavaş su dolduruluyor. Tıpalar eşit sıkılıkta. Su yükselirken İLK fırlayacak tıpa(lar)a dokun.",
+    "data": {
+      "m": "fill",
+      "c": [
+        [
+          "A",
+          "sol",
+          4
+        ],
+        [
+          "B",
+          "sağ",
+          1
+        ],
+        [
+          "C",
+          "sol",
+          2
+        ]
+      ],
+      "a": [
+        1
+      ]
+    },
+    "textPlain": "Kap açık; içine yavaş yavaş su dolduruluyor. Tıpalar eşit sıkılıkta. Su yükselirken İLK fırlayacak tıpa(lar)a dokun. Tıpalar: A (sol duvarda, tabandan 4 birim), B (sağ duvarda, tabandan 1 birim), C (sol duvarda, tabandan 2 birim).",
+    "correctAnswer": "Fırlayan tıpalar: B",
+    "explanation": "Açık kapta sıvı basıncı derinlikle artar. Su yükseldikçe en derindeki (en alttaki) tıpalara etki eden basınç önce yeterli büyüklüğe ulaşır.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-iletim-006",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "cork",
+    "prompt": "Kabın içi suyun yerine tam oturan katı bir blokla dolu; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "solid",
+      "c": [
+        [
+          "A",
+          "sol",
+          4
+        ],
+        [
+          "B",
+          "sağ",
+          2
+        ],
+        [
+          "C",
+          "taban",
+          0
+        ]
+      ],
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Kabın içi suyun yerine tam oturan katı bir blokla dolu; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 4 birim), B (sağ duvarda, tabandan 2 birim), C (tabanda, tabandan 0 birim).",
+    "correctAnswer": "Fırlayan tıpalar: C",
+    "explanation": "Katılar kendilerine uygulanan kuvveti yalnızca kuvvet doğrultusunda iletir. Kapağa aşağı doğru uygulanan kuvvet yalnızca tabana iletilir; yan duvarlardaki tıpalara iletilmez.",
+    "twin": "2019-S11"
+  },
+  {
+    "questionId": "fen8u3-iletim-007",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "cork",
+    "prompt": "Kap açık; içine yavaş yavaş su dolduruluyor. Tıpalar eşit sıkılıkta. Su yükselirken İLK fırlayacak tıpa(lar)a dokun.",
+    "data": {
+      "m": "fill",
+      "c": [
+        [
+          "A",
+          "sol",
+          1
+        ],
+        [
+          "B",
+          "sağ",
+          1
+        ],
+        [
+          "C",
+          "sağ",
+          3
+        ],
+        [
+          "D",
+          "sol",
+          4
+        ]
+      ],
+      "a": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Kap açık; içine yavaş yavaş su dolduruluyor. Tıpalar eşit sıkılıkta. Su yükselirken İLK fırlayacak tıpa(lar)a dokun. Tıpalar: A (sol duvarda, tabandan 1 birim), B (sağ duvarda, tabandan 1 birim), C (sağ duvarda, tabandan 3 birim), D (sol duvarda, tabandan 4 birim).",
+    "correctAnswer": "Fırlayan tıpalar: A, B",
+    "explanation": "Açık kapta sıvı basıncı derinlikle artar. Su yükseldikçe en derindeki (en alttaki) tıpalara etki eden basınç önce yeterli büyüklüğe ulaşır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-iletim-008",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "cork",
+    "prompt": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "push",
+      "c": [
+        [
+          "A",
+          "sol",
+          5
+        ],
+        [
+          "B",
+          "sağ",
+          5
+        ],
+        [
+          "C",
+          "sol",
+          1
+        ],
+        [
+          "D",
+          "taban",
+          0
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 5 birim), B (sağ duvarda, tabandan 5 birim), C (sol duvarda, tabandan 1 birim), D (tabanda, tabandan 0 birim).",
+    "correctAnswer": "Fırlayan tıpalar: A, B, C, D",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Kapağa uygulanan basınç bütün tıpalara iletildiği için bütün tıpalar fırlar.",
+    "twin": "2019-S11"
+  },
+  {
+    "questionId": "fen8u3-iletim-009",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "iletim",
+    "rank": 3,
+    "type": "cork",
+    "prompt": "Kabın içi suyun yerine tam oturan katı bir blokla dolu; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "solid",
+      "c": [
+        [
+          "A",
+          "sol",
+          3
+        ],
+        [
+          "B",
+          "taban",
+          0
+        ],
+        [
+          "C",
+          "sağ",
+          1
+        ],
+        [
+          "D",
+          "taban",
+          0
+        ]
+      ],
+      "a": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Kabın içi suyun yerine tam oturan katı bir blokla dolu; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 3 birim), B (tabanda, tabandan 0 birim), C (sağ duvarda, tabandan 1 birim), D (tabanda, tabandan 0 birim).",
+    "correctAnswer": "Fırlayan tıpalar: B, D",
+    "explanation": "Katılar kendilerine uygulanan kuvveti yalnızca kuvvet doğrultusunda iletir. Kapağa aşağı doğru uygulanan kuvvet yalnızca tabana iletilir; yan duvarlardaki tıpalara iletilmez.",
+    "twin": "2019-S11"
+  },
+  {
+    "questionId": "fen8u3-iletim-010",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "iletim",
+    "rank": 3,
+    "type": "cork",
+    "prompt": "Kap açık; içine yavaş yavaş su dolduruluyor. Tıpalar eşit sıkılıkta. Su yükselirken İLK fırlayacak tıpa(lar)a dokun.",
+    "data": {
+      "m": "fill",
+      "c": [
+        [
+          "A",
+          "sağ",
+          2
+        ],
+        [
+          "B",
+          "sol",
+          0.5
+        ],
+        [
+          "C",
+          "sağ",
+          0.5
+        ],
+        [
+          "D",
+          "sol",
+          3
+        ],
+        [
+          "E",
+          "sağ",
+          4
+        ]
+      ],
+      "a": [
+        1,
+        2
+      ]
+    },
+    "textPlain": "Kap açık; içine yavaş yavaş su dolduruluyor. Tıpalar eşit sıkılıkta. Su yükselirken İLK fırlayacak tıpa(lar)a dokun. Tıpalar: A (sağ duvarda, tabandan 2 birim), B (sol duvarda, tabandan 0.5 birim), C (sağ duvarda, tabandan 0.5 birim), D (sol duvarda, tabandan 3 birim), E (sağ duvarda, tabandan 4 birim).",
+    "correctAnswer": "Fırlayan tıpalar: B, C",
+    "explanation": "Açık kapta sıvı basıncı derinlikle artar. Su yükseldikçe en derindeki (en alttaki) tıpalara etki eden basınç önce yeterli büyüklüğe ulaşır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-iletim-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "press",
+    "prompt": "Bir oto tamircisinin hidrolik krikosu. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 80 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        1,
+        2,
+        4
+      ],
+      "ba": [
+        4,
+        8,
+        16
+      ],
+      "load": 80,
+      "f": 10
+    },
+    "textPlain": "Bir oto tamircisinin hidrolik krikosu. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 80 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [1, 2, 4]; büyük piston alanı seçenekleri: [4, 8, 16].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 1, büyük piston 8 birim kare (büyük alan ÷ küçük alan ≥ 8)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "press",
+    "prompt": "Berber koltuğunun hidrolik sistemi. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 100 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        2,
+        4
+      ],
+      "ba": [
+        8,
+        20,
+        40
+      ],
+      "load": 100,
+      "f": 10
+    },
+    "textPlain": "Berber koltuğunun hidrolik sistemi. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 100 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [2, 4]; büyük piston alanı seçenekleri: [8, 20, 40].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 2, büyük piston 20 birim kare (büyük alan ÷ küçük alan ≥ 10)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "iletim",
+    "rank": 3,
+    "type": "press",
+    "prompt": "Bir iş makinesinin hidrolik kolu. Küçük pistona 6 birim kuvvet uygulanacak; büyük piston 120 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        1,
+        2,
+        5
+      ],
+      "ba": [
+        10,
+        20,
+        30
+      ],
+      "load": 120,
+      "f": 6
+    },
+    "textPlain": "Bir iş makinesinin hidrolik kolu. Küçük pistona 6 birim kuvvet uygulanacak; büyük piston 120 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [1, 2, 5]; büyük piston alanı seçenekleri: [10, 20, 30].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 1, büyük piston 20 birim kare (büyük alan ÷ küçük alan ≥ 20)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "iletim",
+    "rank": 1,
+    "type": "press",
+    "prompt": "Bir hidrolik kaldıraç. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 50 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        1,
+        2
+      ],
+      "ba": [
+        2,
+        10
+      ],
+      "load": 50,
+      "f": 10
+    },
+    "textPlain": "Bir hidrolik kaldıraç. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 50 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [1, 2]; büyük piston alanı seçenekleri: [2, 10].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 1, büyük piston 10 birim kare (büyük alan ÷ küçük alan ≥ 5)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "iletim",
+    "rank": 3,
+    "type": "press",
+    "prompt": "Bir hurda presi. Küçük pistona 8 birim kuvvet uygulanacak; büyük piston 60 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        2,
+        3,
+        6
+      ],
+      "ba": [
+        12,
+        18,
+        24
+      ],
+      "load": 60,
+      "f": 8
+    },
+    "textPlain": "Bir hurda presi. Küçük pistona 8 birim kuvvet uygulanacak; büyük piston 60 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [2, 3, 6]; büyük piston alanı seçenekleri: [12, 18, 24].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 2, büyük piston 18 birim kare (büyük alan ÷ küçük alan ≥ 15/2)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-sivi-011",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "dive",
+    "prompt": "Dalgıcı sürükleyerek basınçölçerin 30 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 0,
+      "t": 30,
+      "d": 3,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Dalgıcı sürükleyerek basınçölçerin 30 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: su; bu sıvıda her 1 birim derinlikte sıvı basıncı 10 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "3 birim derinlik (3 × 10 = 30)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-sivi-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "dive",
+    "prompt": "Bir göl. Dalgıcı sürükleyerek basınçölçerin 50 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 0,
+      "t": 50,
+      "d": 5,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Bir göl. Dalgıcı sürükleyerek basınçölçerin 50 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: su; bu sıvıda her 1 birim derinlikte sıvı basıncı 10 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "5 birim derinlik (5 × 10 = 50)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-sivi-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "dive",
+    "prompt": "Tuzlu bir deniz. Dalgıcı sürükleyerek basınçölçerin 48 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 2,
+      "t": 48,
+      "d": 4,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Tuzlu bir deniz. Dalgıcı sürükleyerek basınçölçerin 48 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: tuzlu su; bu sıvıda her 1 birim derinlikte sıvı basıncı 12 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "4 birim derinlik (4 × 12 = 48)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": "2023-S15"
+  },
+  {
+    "questionId": "fen8u3-sivi-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "dive",
+    "prompt": "Zeytinyağı dolu dev bir tank. Dalgıcı sürükleyerek basınçölçerin 40 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 1,
+      "t": 40,
+      "d": 5,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Zeytinyağı dolu dev bir tank. Dalgıcı sürükleyerek basınçölçerin 40 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: zeytinyağı; bu sıvıda her 1 birim derinlikte sıvı basıncı 8 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "5 birim derinlik (5 × 8 = 40)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-sivi-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "dive",
+    "prompt": "Tuzlu bir deniz; aynı basınca tatlı suda daha derinde ulaşılır. Dalgıcı sürükleyerek basınçölçerin 72 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 2,
+      "t": 72,
+      "d": 6,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Tuzlu bir deniz; aynı basınca tatlı suda daha derinde ulaşılır. Dalgıcı sürükleyerek basınçölçerin 72 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: tuzlu su; bu sıvıda her 1 birim derinlikte sıvı basıncı 12 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "6 birim derinlik (6 × 12 = 72)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": "2023-S15"
+  },
+  {
+    "questionId": "fen8u3-sivi-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "dive",
+    "prompt": "Zeytinyağı dolu bir tank. Dalgıcı sürükleyerek basınçölçerin 56 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 1,
+      "t": 56,
+      "d": 7,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Zeytinyağı dolu bir tank. Dalgıcı sürükleyerek basınçölçerin 56 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: zeytinyağı; bu sıvıda her 1 birim derinlikte sıvı basıncı 8 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "7 birim derinlik (7 × 8 = 56)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": "2021-S12"
+  },
+  {
+    "questionId": "fen8u3-sivi-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "sivi",
+    "rank": 1,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        2,
+        5,
+        2,
+        1
+      ],
+      "g": "depth",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Tuzlu su, geniş kap, sıvı seviyesi 5 birim, basınçölçer tabandan 2 birim yukarıda (yüzeyden 3 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı (Tuzlu su), aynı kap şekli, basınçölçer yüzeyden 3 birimden farklı derinlikte",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2023-S16"
+  },
+  {
+    "questionId": "fen8u3-sivi-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "sivi",
+    "rank": 2,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: II. tankta FARKLI bir sıvıyla basınçölçer I. tankla aynı değeri göstersin. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        1,
+        6,
+        1,
+        0
+      ],
+      "g": "eq",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: II. tankta FARKLI bir sıvıyla basınçölçer I. tankla aynı değeri göstersin. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Zeytinyağı, dar kap, sıvı seviyesi 6 birim, basınçölçer tabandan 1 birim yukarıda (yüzeyden 5 birim derinde).",
+    "correctAnswer": "Farklı sıvıda yoğunluk × derinlik aynı olmalı (ör. su 4 birim derinlik = zeytinyağı 5 birim derinlik)",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2020-S14"
+  },
+  {
+    "questionId": "fen8u3-sivi-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncı: derinlik ve sıvının yoğunluğu",
+    "outcome": "Sıvı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "sivi",
+    "rank": 3,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        2,
+        6,
+        0,
+        2
+      ],
+      "g": "depth",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Derinliğin basınca etkisini görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Tuzlu su, huni kap, sıvı seviyesi 6 birim, basınçölçer tabandan 0 birim yukarıda (yüzeyden 6 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı (Tuzlu su), aynı kap şekli, basınçölçer yüzeyden 6 birimden farklı derinlikte",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2023-S16"
+  },
+  {
+    "questionId": "fen8u3-siviy-012",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          2,
+          0,
+          4
+        ],
+        [
+          "L",
+          1,
+          0,
+          4
+        ],
+        [
+          "M",
+          0,
+          0,
+          6
+        ]
+      ],
+      "rk": [
+        2,
+        2,
+        1
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: huni kap, su, seviye 4 birim; L: geniş kap, su, seviye 4 birim; M: dar kap, su, seviye 6 birim.",
+    "correctAnswer": "Raflar: K → 2, L → 2, M → 1",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-siviy-013",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          0,
+          0,
+          2
+        ],
+        [
+          "L",
+          0,
+          0,
+          5
+        ],
+        [
+          "M",
+          1,
+          0,
+          3
+        ]
+      ],
+      "rk": [
+        3,
+        1,
+        2
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: dar kap, su, seviye 2 birim; L: dar kap, su, seviye 5 birim; M: geniş kap, su, seviye 3 birim.",
+    "correctAnswer": "Raflar: K → 3, L → 1, M → 2",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-siviy-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "siviy",
+    "rank": 3,
+    "type": "order",
+    "prompt": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa).",
+    "data": {
+      "c": [
+        [
+          "K",
+          2,
+          1,
+          5
+        ],
+        [
+          "L",
+          0,
+          2,
+          5
+        ],
+        [
+          "M",
+          1,
+          0,
+          4
+        ],
+        [
+          "N",
+          2,
+          0,
+          5
+        ]
+      ],
+      "rk": [
+        3,
+        1,
+        3,
+        2
+      ],
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Kapların tabanındaki sıvı basıncını karşılaştır: her kaba dokunarak raf numarası ver (1 = en büyük basınç; eşit olanlar aynı rafa). Kaplar: K: huni kap, zeytinyağı, seviye 5 birim; L: dar kap, tuzlu su, seviye 5 birim; M: geniş kap, su, seviye 4 birim; N: huni kap, su, seviye 5 birim.",
+    "correctAnswer": "Raflar: K → 3, L → 1, M → 3, N → 2",
+    "explanation": "Taban basıncı yalnızca sıvının derinliğine (seviyesine) ve yoğunluğuna bağlıdır; kabın şekli ve içindeki sıvının miktarı basıncı değiştirmez.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-siviy-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek.",
+    "data": {
+      "lv": 5,
+      "h": [
+        [
+          "A",
+          1,
+          "sol"
+        ],
+        [
+          "B",
+          4,
+          "sol"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi tabandan 5 birim. Delikler: A (tabandan 1 birim, sol), B (tabandan 4 birim, sol).",
+    "correctAnswer": "Fışkırma gücü sırası: A ≥ B (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-siviy-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek.",
+    "data": {
+      "lv": 6,
+      "h": [
+        [
+          "A",
+          2,
+          "sol"
+        ],
+        [
+          "B",
+          2,
+          "sağ"
+        ],
+        [
+          "C",
+          5,
+          "sağ"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Su seviyesi tabandan 6 birim. Delikler: A (tabandan 2 birim, sol), B (tabandan 2 birim, sağ), C (tabandan 5 birim, sağ).",
+    "correctAnswer": "Fışkırma gücü sırası: A ≥ B ≥ C (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-siviy-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        0,
+        4,
+        1,
+        0
+      ],
+      "g": "shape",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Su, dar kap, sıvı seviyesi 4 birim, basınçölçer tabandan 1 birim yukarıda (yüzeyden 3 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı, farklı kap şekli, basınçölçer yine 3 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-siviy-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "tank",
+    "prompt": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir)",
+    "data": {
+      "f": [
+        1,
+        5,
+        2,
+        2
+      ],
+      "g": "shape",
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ],
+      "S": [
+        "Dar",
+        "Geniş",
+        "Huni"
+      ]
+    },
+    "textPlain": "Dalış havuzu deneyi: Kap şeklinin basınca etkisi olup olmadığını görmek için II. tankı ayarla. (sıvı, şekil, sıvı seviyesi ve basınçölçerin yeri değiştirilebilir) I. tank: Zeytinyağı, huni kap, sıvı seviyesi 5 birim, basınçölçer tabandan 2 birim yukarıda (yüzeyden 3 birim derinde).",
+    "correctAnswer": "II. tankta aynı sıvı, farklı kap şekli, basınçölçer yine 3 birim derinde",
+    "explanation": "Sıvı basıncı derinlik (ölçüm noktasının sıvı yüzeyine uzaklığı) ve sıvının yoğunluğu arttıkça artar. Kabın şekline ve sıvı miktarına bağlı değildir. Bir değişkenin etkisini görmek için iki düzenekte yalnızca o değişken farklı olmalıdır.",
+    "twin": "2024-S11"
+  },
+  {
+    "questionId": "fen8u3-siviy-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "siviy",
+    "rank": 2,
+    "type": "dive",
+    "prompt": "Dar ve derin bir kuyu; kuyunun genişliği önemli mi? Dalgıcı sürükleyerek basınçölçerin 60 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 0,
+      "t": 60,
+      "d": 6,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Dar ve derin bir kuyu; kuyunun genişliği önemli mi? Dalgıcı sürükleyerek basınçölçerin 60 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: su; bu sıvıda her 1 birim derinlikte sıvı basıncı 10 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "6 birim derinlik (6 × 10 = 60)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-014",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "katiy",
+    "rank": 1,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 4 birimlik basınca dayanıyor; kimse kara gömülmesin.",
+    "data": {
+      "p": [
+        [
+          "Ayşe",
+          "👧",
+          16
+        ]
+      ],
+      "g": [
+        "lim",
+        4
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 4 birimlik basınca dayanıyor; kimse kara gömülmesin. Kişiler (ağırlık birimi): Ayşe 16. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Ayşe → Kar ayakkabısı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-015",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Herkes karda aynı derinlikte iz bıraksın.",
+    "data": {
+      "p": [
+        [
+          "Mert",
+          "🧑",
+          32
+        ],
+        [
+          "Kedi",
+          "🐈",
+          8
+        ]
+      ],
+      "g": [
+        "eq"
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Herkes karda aynı derinlikte iz bıraksın. Kişiler (ağırlık birimi): Mert 32, Kedi 8. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Mert → Kayak, Kedi → Spor ayakkabı (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "snow",
+    "prompt": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 8 birimlik basınca dayanıyor; kimse kara gömülmesin.",
+    "data": {
+      "p": [
+        [
+          "Avcı",
+          "🧔",
+          64
+        ],
+        [
+          "Ren geyiği",
+          "🦌",
+          48
+        ],
+        [
+          "Çocuk",
+          "🧒",
+          18
+        ]
+      ],
+      "g": [
+        "lim",
+        8
+      ],
+      "sh": [
+        [
+          "Spor ayakkabı",
+          2
+        ],
+        [
+          "Kar botu",
+          3
+        ],
+        [
+          "Kar ayakkabısı",
+          6
+        ],
+        [
+          "Kayak",
+          8
+        ]
+      ]
+    },
+    "textPlain": "Kar yürüyüşü: kişilere dokunarak ayakkabılarını değiştir. Kar en fazla 8 birimlik basınca dayanıyor; kimse kara gömülmesin. Kişiler (ağırlık birimi): Avcı 64, Ren geyiği 48, Çocuk 18. Ayakkabılar (karla temas alanı): Spor ayakkabı 2, Kar botu 3, Kar ayakkabısı 6, Kayak 8. Basınç = ağırlık ÷ alan.",
+    "correctAnswer": "Uygun bir seçim: Avcı → Kayak, Ren geyiği → Kar ayakkabısı, Çocuk → Kar botu (koşulu sağlayan her seçim kabul)",
+    "explanation": "Yere temas eden yüzey alanı büyüdükçe aynı ağırlığın oluşturduğu basınç azalır; kar ayakkabısı ve kayak bu yüzden kara gömülmeyi önler. Basınç = ağırlık ÷ yüzey alanı.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Kalemin sivri ucu",
+          0
+        ],
+        [
+          "Traktörlerin geniş arka tekerlekleri",
+          1
+        ],
+        [
+          "Kesme tahtasında bıçağın keskin tarafını kullanmak",
+          0
+        ],
+        [
+          "Yumuşak toprakta tahta kalas üstünden yürümek",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Kalemin sivri ucu | Traktörlerin geniş arka tekerlekleri | Kesme tahtasında bıçağın keskin tarafını kullanmak | Yumuşak toprakta tahta kalas üstünden yürümek",
+    "correctAnswer": "Kalemin sivri ucu → ⬆️ Basıncı artırır | Traktörlerin geniş arka tekerlekleri → ⬇️ Basıncı azaltır | Kesme tahtasında bıçağın keskin tarafını kullanmak → ⬆️ Basıncı artırır | Yumuşak toprakta tahta kalas üstünden yürümek → ⬇️ Basıncı azaltır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "katiy",
+    "rank": 1,
+    "type": "orient",
+    "prompt": "Masadaki kitap yığını. Cisimlere dokunarak kuma değen yüzlerini değiştir. Kitap yığını kuma en sığ izi bıraksın.",
+    "data": {
+      "o": [
+        [
+          "Kitap yığını",
+          6,
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      ],
+      "g": [
+        "min",
+        0
+      ]
+    },
+    "textPlain": "Masadaki kitap yığını. Cisimlere dokunarak kuma değen yüzlerini değiştir. Kitap yığını kuma en sığ izi bıraksın. Masadaki kitap yığını. Cisimler: Kitap yığını: ağırlığı 6 birim, boyutları 1×2×3.",
+    "correctAnswer": "Uygun bir duruş: Kitap yığını 6 birim karelik yüzeyi kuma değecek",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2023-S13"
+  },
+  {
+    "questionId": "fen8u3-katiy-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "katiy",
+    "rank": 2,
+    "type": "orient",
+    "prompt": "Cisimlere dokunarak kuma değen yüzlerini değiştir. Çamaşır kolisi, Buzdolabı kolisi’den daha derin iz bıraksın.",
+    "data": {
+      "o": [
+        [
+          "Buzdolabı kolisi",
+          12,
+          [
+            1,
+            2,
+            6
+          ]
+        ],
+        [
+          "Çamaşır kolisi",
+          12,
+          [
+            2,
+            2,
+            3
+          ]
+        ]
+      ],
+      "g": [
+        "gt",
+        1,
+        0
+      ]
+    },
+    "textPlain": "Cisimlere dokunarak kuma değen yüzlerini değiştir. Çamaşır kolisi, Buzdolabı kolisi’den daha derin iz bıraksın.  Cisimler: Buzdolabı kolisi: ağırlığı 12 birim, boyutları 1×2×6; Çamaşır kolisi: ağırlığı 12 birim, boyutları 2×2×3.",
+    "correctAnswer": "Uygun bir duruş: Buzdolabı kolisi 6 birim karelik yüzeyi kuma değecek, Çamaşır kolisi 4 birim karelik yüzeyi kuma değecek (koşulu sağlayan her duruş kabul)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-016",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "iletim",
+    "rank": 1,
+    "type": "cork",
+    "prompt": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "push",
+      "c": [
+        [
+          "A",
+          "sol",
+          1
+        ],
+        [
+          "B",
+          "sağ",
+          4
+        ]
+      ],
+      "a": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 1 birim), B (sağ duvarda, tabandan 4 birim).",
+    "correctAnswer": "Fırlayan tıpalar: A, B",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Kapağa uygulanan basınç bütün tıpalara iletildiği için bütün tıpalar fırlar.",
+    "twin": "2020-S15"
+  },
+  {
+    "questionId": "fen8u3-iletim-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "cork",
+    "prompt": "Kabın içi suyun yerine tam oturan katı bir blokla dolu; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "solid",
+      "c": [
+        [
+          "A",
+          "sol",
+          1
+        ],
+        [
+          "B",
+          "sağ",
+          1
+        ],
+        [
+          "C",
+          "taban",
+          0
+        ]
+      ],
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Kabın içi suyun yerine tam oturan katı bir blokla dolu; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 1 birim), B (sağ duvarda, tabandan 1 birim), C (tabanda, tabandan 0 birim).",
+    "correctAnswer": "Fırlayan tıpalar: C",
+    "explanation": "Katılar kendilerine uygulanan kuvveti yalnızca kuvvet doğrultusunda iletir. Kapağa aşağı doğru uygulanan kuvvet yalnızca tabana iletilir; yan duvarlardaki tıpalara iletilmez.",
+    "twin": "2019-S11"
+  },
+  {
+    "questionId": "fen8u3-iletim-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "iletim",
+    "rank": 3,
+    "type": "cork",
+    "prompt": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun.",
+    "data": {
+      "m": "push",
+      "c": [
+        [
+          "A",
+          "sol",
+          0.5
+        ],
+        [
+          "B",
+          "sağ",
+          3
+        ],
+        [
+          "C",
+          "taban",
+          0
+        ],
+        [
+          "D",
+          "sol",
+          4
+        ],
+        [
+          "E",
+          "sağ",
+          5
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "textPlain": "Kap tamamen suyla dolu ve kapalı; üstteki hareketli kapağa kuvvet uygulanacak. Tıpalar eşit sıkılıkta. Kapağa kuvvet uygulanınca fırlayacak bütün tıpalara dokun. Tıpalar: A (sol duvarda, tabandan 0.5 birim), B (sağ duvarda, tabandan 3 birim), C (tabanda, tabandan 0 birim), D (sol duvarda, tabandan 4 birim), E (sağ duvarda, tabandan 5 birim).",
+    "correctAnswer": "Fırlayan tıpalar: A, B, C, D, E",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Kapağa uygulanan basınç bütün tıpalara iletildiği için bütün tıpalar fırlar.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-iletim-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "iletim",
+    "rank": 1,
+    "type": "press",
+    "prompt": "Bir hidrolik fren sistemi. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 40 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        1,
+        2
+      ],
+      "ba": [
+        5,
+        10
+      ],
+      "load": 40,
+      "f": 10
+    },
+    "textPlain": "Bir hidrolik fren sistemi. Küçük pistona 10 birim kuvvet uygulanacak; büyük piston 40 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [1, 2]; büyük piston alanı seçenekleri: [5, 10].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 1, büyük piston 5 birim kare (büyük alan ÷ küçük alan ≥ 4)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-iletim-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvıların üzerlerine uygulanan basıncı iletmesi ve günlük yaşam uygulamaları",
+    "outcome": "Sıvıların, üzerlerine uygulanan basıncı her yöne aynı büyüklükte ilettiğini fark eder; bunun günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "iletim",
+    "rank": 2,
+    "type": "press",
+    "prompt": "Bir araç kaldırma platformu. Küçük pistona 15 birim kuvvet uygulanacak; büyük piston 90 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla.",
+    "data": {
+      "sa": [
+        1,
+        3
+      ],
+      "ba": [
+        6,
+        12,
+        18
+      ],
+      "load": 90,
+      "f": 15
+    },
+    "textPlain": "Bir araç kaldırma platformu. Küçük pistona 15 birim kuvvet uygulanacak; büyük piston 90 birimlik yükü kaldırmalı. Piston yüzey alanlarını ayarla. Küçük piston alanı seçenekleri: [1, 3]; büyük piston alanı seçenekleri: [6, 12, 18].",
+    "correctAnswer": "Uygun bir seçim: küçük piston 1, büyük piston 6 birim kare (büyük alan ÷ küçük alan ≥ 6)",
+    "explanation": "Sıvılar üzerlerine uygulanan basıncı her yöne aynı büyüklükte iletir. Küçük pistonda oluşan basınç büyük pistona da aynen iletilir; büyük pistonun alanı kaç kat büyükse oluşan kuvvet de o kadar kat büyük olur.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-kati-017",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte ağırlık aynı, yere temas eden yüzey alanı farklı olsun (yüzey alanının etkisi görülsün).",
+    "data": {
+      "g": "area",
+      "fix": [
+        1,
+        1,
+        1
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenekte ağırlık aynı, yere temas eden yüzey alanı farklı olsun (yüzey alanının etkisi görülsün). I. düzenek sabit: sütunlarda 1 blok | 1 blok | 1 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 0 blok | 3 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2020-S13"
+  },
+  {
+    "questionId": "fen8u3-kati-018",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "orta",
+    "group": "kati",
+    "rank": 2,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenek aynı derinlikte iz bıraksın ama yere temas eden yüzey alanları farklı olsun.",
+    "data": {
+      "g": "same",
+      "fix": [
+        2,
+        0,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). İki düzenek aynı derinlikte iz bıraksın ama yere temas eden yüzey alanları farklı olsun. I. düzenek sabit: sütunlarda 2 blok | 0 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 1 blok | 3 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2026-S9"
+  },
+  {
+    "questionId": "fen8u3-kati-019",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "kati",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Dört hazır düzenekten iki tanesine dokun: ağırlığın basınca etkisini gösteren iki düzeneği seç.",
+    "data": {
+      "s": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "g": "weight"
+    },
+    "textPlain": "Dört hazır düzenekten iki tanesine dokun: ağırlığın basınca etkisini gösteren iki düzeneği seç. Düzenekler (sütunlardaki özdeş blok sayıları): I: 2 blok | 0 blok | 0 blok; II: 1 blok | 1 blok | 0 blok; III: 3 blok | 0 blok | 0 blok; IV: 1 blok | 1 blok | 1 blok.",
+    "correctAnswer": "Uygun çift: I ve III",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2022-S10"
+  },
+  {
+    "questionId": "fen8u3-kati-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Dört hazır düzenekten iki tanesine dokun: yüzey alanının basınca etkisini gösteren iki düzeneği seç.",
+    "data": {
+      "s": [
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          3,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "g": "area"
+    },
+    "textPlain": "Dört hazır düzenekten iki tanesine dokun: yüzey alanının basınca etkisini gösteren iki düzeneği seç. Düzenekler (sütunlardaki özdeş blok sayıları): I: 2 blok | 2 blok | 0 blok; II: 1 blok | 1 blok | 1 blok; III: 3 blok | 1 blok | 0 blok; IV: 2 blok | 1 blok | 1 blok.",
+    "correctAnswer": "Uygun çift: I ve IV, III ve IV",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2021-S13"
+  },
+  {
+    "questionId": "fen8u3-katiy-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "net",
+    "prompt": "Kartları doğru dalgıç ağına at.",
+    "data": {
+      "L": [
+        "⬆️ Basıncı artırır",
+        "⬇️ Basıncı azaltır"
+      ],
+      "r": [
+        [
+          "Futbol kramponlarının dişleri",
+          0
+        ],
+        [
+          "Kar motosikletinin geniş paleti",
+          1
+        ],
+        [
+          "Bisturinin ince ağzı",
+          0
+        ],
+        [
+          "Yatağın yumuşak ve geniş yüzeyi",
+          1
+        ],
+        [
+          "Kumda geniş tabanlı terlikle yürümek",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru dalgıç ağına at. Ağlar: ⬆️ Basıncı artırır, ⬇️ Basıncı azaltır. Kartlar: Futbol kramponlarının dişleri | Kar motosikletinin geniş paleti | Bisturinin ince ağzı | Yatağın yumuşak ve geniş yüzeyi | Kumda geniş tabanlı terlikle yürümek",
+    "correctAnswer": "Futbol kramponlarının dişleri → ⬆️ Basıncı artırır | Kar motosikletinin geniş paleti → ⬇️ Basıncı azaltır | Bisturinin ince ağzı → ⬆️ Basıncı artırır | Yatağın yumuşak ve geniş yüzeyi → ⬇️ Basıncı azaltır | Kumda geniş tabanlı terlikle yürümek → ⬇️ Basıncı azaltır",
+    "explanation": "Basınç = dik kuvvet ÷ yüzey alanı. Sivri uç ve keskin ağız yüzey alanını küçültüp basıncı artırır; geniş taban, çok tekerlek, kar ayakkabısı ve paletler yüzey alanını büyütüp basıncı azaltır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-katiy-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncının günlük yaşamdaki uygulamaları",
+    "outcome": "Katı basıncının günlük yaşamdaki uygulamalarına örnekler verir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "katiy",
+    "rank": 3,
+    "type": "orient",
+    "prompt": "Yük kamyonetinin kasası. Cisimlere dokunarak kuma değen yüzlerini değiştir. Su bidonu ile Kum torbası aynı derinlikte iz bıraksın.",
+    "data": {
+      "o": [
+        [
+          "Su bidonu",
+          18,
+          [
+            1,
+            3,
+            6
+          ]
+        ],
+        [
+          "Kum torbası",
+          12,
+          [
+            2,
+            2,
+            3
+          ]
+        ]
+      ],
+      "g": [
+        "eq",
+        0,
+        1
+      ]
+    },
+    "textPlain": "Yük kamyonetinin kasası. Cisimlere dokunarak kuma değen yüzlerini değiştir. Su bidonu ile Kum torbası aynı derinlikte iz bıraksın. Yük kamyonetinin kasası. Cisimler: Su bidonu: ağırlığı 18 birim, boyutları 1×3×6; Kum torbası: ağırlığı 12 birim, boyutları 2×2×3.",
+    "correctAnswer": "Uygun bir duruş: Su bidonu 6 birim karelik yüzeyi kuma değecek, Kum torbası 4 birim karelik yüzeyi kuma değecek",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-siviy-020",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "siviy",
+    "rank": 3,
+    "type": "holes",
+    "prompt": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Aynı derinlikteki deliklere dikkat et.",
+    "data": {
+      "lv": 5,
+      "h": [
+        [
+          "A",
+          4,
+          "sağ"
+        ],
+        [
+          "B",
+          4,
+          "sol"
+        ],
+        [
+          "C",
+          0,
+          "sağ"
+        ],
+        [
+          "D",
+          2,
+          "sol"
+        ]
+      ]
+    },
+    "textPlain": "Fıskiye şişesi: her deliğin fışkırma okunu sürükleyerek uzunluğunu ayarla; uzun ok güçlü fışkırma demek. Aynı derinlikteki deliklere dikkat et. Su seviyesi tabandan 5 birim. Delikler: A (tabandan 4 birim, sağ), B (tabandan 4 birim, sol), C (tabandan 0 birim, sağ), D (tabandan 2 birim, sol).",
+    "correctAnswer": "Fışkırma gücü sırası: C ≥ D ≥ A ≥ B (aynı derinlikteki delikler eşit)",
+    "explanation": "Sıvı basıncı derinlik arttıkça artar; sıvı yüzeyinden daha derindeki delikten su daha güçlü fışkırır. Aynı derinlikteki noktalarda basınç her yönde aynıdır; bu yüzden aynı derinlikteki yan ve karşı deliklerden su eşit güçte fışkırır.",
+    "twin": "2026-S10"
+  },
+  {
+    "questionId": "fen8u3-siviy-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Sıvı basıncının özellikleri: her yöne etki, kap şekli ve sıvı miktarından bağımsızlık",
+    "outcome": "Sıvı basıncının her yöne etki ettiğini, kabın şekline ve sıvı miktarına bağlı olmadığını gösterir.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "kolay",
+    "group": "siviy",
+    "rank": 1,
+    "type": "dive",
+    "prompt": "Geniş bir göl ile dar bir kuyu aynı sudan; derinlik aynıysa basınç da aynıdır. Dalgıcı sürükleyerek basınçölçerin 40 birimlik sıvı basıncı göstereceği derinliğe indir.",
+    "data": {
+      "l": 0,
+      "t": 40,
+      "d": 4,
+      "L": [
+        [
+          "Su",
+          10,
+          "#3a9ad8"
+        ],
+        [
+          "Zeytinyağı",
+          8,
+          "#d8c03a"
+        ],
+        [
+          "Tuzlu su",
+          12,
+          "#2a6aa8"
+        ]
+      ]
+    },
+    "textPlain": "Geniş bir göl ile dar bir kuyu aynı sudan; derinlik aynıysa basınç da aynıdır. Dalgıcı sürükleyerek basınçölçerin 40 birimlik sıvı basıncı göstereceği derinliğe indir. Ortam: su; bu sıvıda her 1 birim derinlikte sıvı basıncı 10 birim artar. Derinlik 0–8 birim arasında ayarlanır.",
+    "correctAnswer": "4 birim derinlik (4 × 10 = 40)",
+    "explanation": "Sıvı basıncı derinlikle doğru orantılı artar ve sıvının yoğunluğuna bağlıdır. Yoğunluğu büyük sıvıda (tuzlu su) aynı basınca daha az derinlikte ulaşılır.",
+    "twin": ""
+  },
+  {
+    "questionId": "fen8u3-kati-021",
+    "grade": 8,
+    "subject": "Fen Bilimleri",
+    "unit": "3. Ünite: Basınç",
+    "topic": "Katı basıncı: ağırlık (dik kuvvet) ve yüzey alanının etkisi",
+    "outcome": "Katı basıncını etkileyen değişkenleri deneyerek keşfeder.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 3. Ünite “Basınç”",
+    "difficulty": "zor",
+    "group": "kati",
+    "rank": 3,
+    "type": "sand",
+    "prompt": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek daha az blokla I. düzenekten daha derin iz bıraksın.",
+    "data": {
+      "g": "more",
+      "fix": [
+        2,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Kum havuzunda özdeş blokları sütunlara diz (sütuna dokundukça blok sayısı değişir). II. düzenek daha az blokla I. düzenekten daha derin iz bıraksın. I. düzenek sabit: sütunlarda 2 blok | 2 blok | 0 blok. II. düzenek öğrenci tarafından kurulur (her sütuna 0–3 blok).",
+    "correctAnswer": "Uygun bir II. düzenek: 0 blok | 0 blok | 3 blok (koşulu sağlayan her düzenek kabul edilir)",
+    "explanation": "Katı basıncı, cismin yüzeye uyguladığı dik kuvvetin (ağırlığın) temas eden yüzey alanına bölümüdür. Ağırlık arttıkça basınç artar; temas eden yüzey alanı arttıkça basınç azalır. Bir değişkenin etkisini görmek için yalnızca o değişken farklı, diğerleri aynı olmalıdır.",
+    "twin": "2023-S12"
+  }
+]

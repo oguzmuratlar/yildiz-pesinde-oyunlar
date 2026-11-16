@@ -32,6 +32,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Buz & Ateş Laboratuvarı | fen-8-isi-buz-ates-laboratuvari | 1.0.0 | Fen Bilimleri | 8 | Dikey | `/fen-8-isi-buz-ates-laboratuvari/1.0.0/index.html` |
 | Gölge Saati | fen-8-golge-saati | 1.0.0 | Fen Bilimleri | 8 | Dikey | `/fen-8-golge-saati/1.0.0/index.html` |
 | Sarmal Fermuar | fen-8-sarmal-fermuar | 1.0.0 | Fen Bilimleri | 8 | Dikey | `/fen-8-sarmal-fermuar/1.0.0/index.html` |
+| Basınç Dalgıcı | fen-8-basinc-dalgici | 1.0.0 | Fen Bilimleri | 8 | Dikey | `/fen-8-basinc-dalgici/1.0.0/index.html` |
 | Dev Ahtapot (Macera canavarı · Arena 1) | macera-5-dev-ahtapot | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-dev-ahtapot/1.0.0/index.html` |
 | Paslı Çapa Golemi (Macera canavarı · Arena 2) | macera-5-pasli-capa-golemi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-pasli-capa-golemi/1.0.0/index.html` |
 | Fener Balığı (Macera canavarı · Arena 3) | macera-5-fener-baligi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-fener-baligi/1.0.0/index.html` |
