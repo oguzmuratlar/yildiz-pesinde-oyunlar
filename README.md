@@ -52,6 +52,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Paragraf Mimarı | turkce-8-paragraf-mimari | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-paragraf-mimari/1.0.0/index.html` |
 | Fiilimsi Terzisi | turkce-8-fiilimsi-terzisi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-fiilimsi-terzisi/1.0.0/index.html` |
 | Cümle Ameliyathanesi | turkce-8-cumle-ameliyathanesi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-cumle-ameliyathanesi/1.0.0/index.html` |
+| Editör Masası | turkce-8-editor-masasi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-editor-masasi/1.0.0/index.html` |
 | Dev Ahtapot (Macera canavarı · Arena 1) | macera-5-dev-ahtapot | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-dev-ahtapot/1.0.0/index.html` |
 | Paslı Çapa Golemi (Macera canavarı · Arena 2) | macera-5-pasli-capa-golemi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-pasli-capa-golemi/1.0.0/index.html` |
 | Fener Balığı (Macera canavarı · Arena 3) | macera-5-fener-baligi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-fener-baligi/1.0.0/index.html` |
