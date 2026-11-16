@@ -1,0 +1,2946 @@
+[
+  {
+    "questionId": "mat8u12-prizma-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "prizma",
+    "rank": 1,
+    "type": "netb",
+    "prompt": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun.",
+    "data": {
+      "F": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "m": "add",
+      "ok": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (2, 1), (1, 2), (2, 2), (3, 2), (4, 2).]",
+    "correctAnswer": "Eklenebilecek kare(ler): (1, 3), (2, 3), (3, 3), (4, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "prizma",
+    "rank": 1,
+    "type": "netb",
+    "prompt": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun.",
+    "data": {
+      "F": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "m": "add",
+      "ok": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (1, 2), (2, 2), (3, 2), (4, 2), (3, 1).]",
+    "correctAnswer": "Eklenebilecek kare(ler): (1, 3), (2, 3), (3, 3), (4, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "netb",
+    "prompt": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun.",
+    "data": {
+      "F": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "m": "add",
+      "ok": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (1, 1), (1, 2), (2, 2), (3, 2), (3, 3).]",
+    "correctAnswer": "Eklenebilecek kare(ler): (4, 2), (4, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "netb",
+    "prompt": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun.",
+    "data": {
+      "F": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "m": "add",
+      "ok": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (2, 1), (2, 2), (3, 2), (4, 2), (4, 3).]",
+    "correctAnswer": "Eklenebilecek kare(ler): (1, 1), (1, 2), (5, 2), (5, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "netb",
+    "prompt": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun.",
+    "data": {
+      "F": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "m": "add",
+      "ok": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kutu kalıbına bir kare ekle: katlanınca kapalı bir küp kutu oluşsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (1, 1), (2, 1), (2, 2), (3, 2), (3, 3).]",
+    "correctAnswer": "Eklenebilecek kare(ler): (4, 2), (4, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "netb",
+    "prompt": "Kalıpta fazladan bir kare var. Bir kareyi çıkar: kalan kalıp katlanınca küp kutu olsun.",
+    "data": {
+      "F": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "m": "rem",
+      "ok": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kalıpta fazladan bir kare var. Bir kareyi çıkar: kalan kalıp katlanınca küp kutu olsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (2, 1), (1, 2), (2, 2), (3, 2), (4, 2), (2, 3), (3, 3).]",
+    "correctAnswer": "Çıkarılabilecek kare(ler): (2, 3), (3, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "netb",
+    "prompt": "Kalıpta fazladan bir kare var. Bir kareyi çıkar: kalan kalıp katlanınca küp kutu olsun.",
+    "data": {
+      "F": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "m": "rem",
+      "ok": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    },
+    "textPlain": "Kalıpta fazladan bir kare var. Bir kareyi çıkar: kalan kalıp katlanınca küp kutu olsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (1, 1), (2, 1), (2, 2), (3, 2), (4, 2), (3, 3), (4, 3).]",
+    "correctAnswer": "Çıkarılabilecek kare(ler): (3, 3), (4, 2), (4, 3)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "netb",
+    "prompt": "Kalıpta fazladan bir kare var. Bir kareyi çıkar: kalan kalıp katlanınca küp kutu olsun.",
+    "data": {
+      "F": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "m": "rem",
+      "ok": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kalıpta fazladan bir kare var. Bir kareyi çıkar: kalan kalıp katlanınca küp kutu olsun. [Şekil: 5×4 kareli kesim tablası; dolu kareler (sütun, satır): (1, 2), (2, 2), (3, 2), (4, 2), (5, 2), (2, 1), (4, 3).]",
+    "correctAnswer": "Çıkarılabilecek kare(ler): (1, 2), (5, 2)",
+    "explanation": "Küpün açınımı 6 eş kareden oluşur. Katlandığında hiçbir yüz üst üste gelmemeli; bir köşede en çok üç kare buluşur."
+  },
+  {
+    "questionId": "mat8u12-prizma-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "prizma",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Banttaki üçgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "prizma",
+      "n": 3,
+      "a": [
+        5,
+        9,
+        6
+      ]
+    },
+    "textPlain": "Banttaki üçgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: üçgen dik prizma.]",
+    "correctAnswer": "5 yüz, 9 ayrıt, 6 köşe",
+    "explanation": "Dik prizmada iki taban ve tabanın kenar sayısı kadar yanal yüz vardır: yüz n + 2, ayrıt 3n, köşe 2n. Burada n = 3."
+  },
+  {
+    "questionId": "mat8u12-prizma-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "prizma",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Banttaki kare dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "prizma",
+      "n": 4,
+      "a": [
+        6,
+        12,
+        8
+      ]
+    },
+    "textPlain": "Banttaki kare dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: kare dik prizma.]",
+    "correctAnswer": "6 yüz, 12 ayrıt, 8 köşe",
+    "explanation": "Dik prizmada iki taban ve tabanın kenar sayısı kadar yanal yüz vardır: yüz n + 2, ayrıt 3n, köşe 2n. Burada n = 4."
+  },
+  {
+    "questionId": "mat8u12-prizma-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Banttaki beşgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "prizma",
+      "n": 5,
+      "a": [
+        7,
+        15,
+        10
+      ]
+    },
+    "textPlain": "Banttaki beşgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: beşgen dik prizma.]",
+    "correctAnswer": "7 yüz, 15 ayrıt, 10 köşe",
+    "explanation": "Dik prizmada iki taban ve tabanın kenar sayısı kadar yanal yüz vardır: yüz n + 2, ayrıt 3n, köşe 2n. Burada n = 5."
+  },
+  {
+    "questionId": "mat8u12-prizma-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Banttaki altıgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "prizma",
+      "n": 6,
+      "a": [
+        8,
+        18,
+        12
+      ]
+    },
+    "textPlain": "Banttaki altıgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: altıgen dik prizma.]",
+    "correctAnswer": "8 yüz, 18 ayrıt, 12 köşe",
+    "explanation": "Dik prizmada iki taban ve tabanın kenar sayısı kadar yanal yüz vardır: yüz n + 2, ayrıt 3n, köşe 2n. Burada n = 6."
+  },
+  {
+    "questionId": "mat8u12-prizma-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Banttaki sekizgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "prizma",
+      "n": 8,
+      "a": [
+        10,
+        24,
+        16
+      ]
+    },
+    "textPlain": "Banttaki sekizgen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: sekizgen dik prizma.]",
+    "correctAnswer": "10 yüz, 24 ayrıt, 16 köşe",
+    "explanation": "Dik prizmada iki taban ve tabanın kenar sayısı kadar yanal yüz vardır: yüz n + 2, ayrıt 3n, köşe 2n. Burada n = 8."
+  },
+  {
+    "questionId": "mat8u12-prizma-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Banttaki yedigen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "prizma",
+      "n": 7,
+      "a": [
+        9,
+        21,
+        14
+      ]
+    },
+    "textPlain": "Banttaki yedigen dik prizma kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: yedigen dik prizma.]",
+    "correctAnswer": "9 yüz, 21 ayrıt, 14 köşe",
+    "explanation": "Dik prizmada iki taban ve tabanın kenar sayısı kadar yanal yüz vardır: yüz n + 2, ayrıt 3n, köşe 2n. Burada n = 7."
+  },
+  {
+    "questionId": "mat8u12-prizma-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "prizma",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Ambalajları ayır.",
+    "data": {
+      "L": [
+        "✅ Dik prizma",
+        "❌ Dik prizma değil"
+      ],
+      "r": [
+        [
+          "Kibrit kutusu",
+          0
+        ],
+        [
+          "Zar",
+          0
+        ],
+        [
+          "Top",
+          1
+        ],
+        [
+          "Konserve kutusu",
+          1
+        ],
+        [
+          "Üçgen çikolata kutusu",
+          0
+        ],
+        [
+          "Huni",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Ambalajları ayır. Bölmeler: Dik prizma, Dik prizma değil. Kartlar: Kibrit kutusu, Zar, Top, Konserve kutusu, Üçgen çikolata kutusu, Huni.",
+    "correctAnswer": "Kibrit kutusu → Dik prizma | Zar → Dik prizma | Top → Dik prizma değil | Konserve kutusu → Dik prizma değil | Üçgen çikolata kutusu → Dik prizma | Huni → Dik prizma değil",
+    "explanation": "Dik prizmanın iki tabanı eş ve paralel çokgenlerdir, yanal yüzleri dikdörtgendir. Silindir, küre ve koninin tabanı çokgen değildir."
+  },
+  {
+    "questionId": "mat8u12-prizma-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "İfadeleri ayır.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Küp, bütün yüzleri kare olan dik prizmadır",
+          0
+        ],
+        [
+          "Dik prizmanın yanal yüzleri dikdörtgendir",
+          0
+        ],
+        [
+          "Dik prizmada yükseklik, yanal ayrıt uzunluğuna eşittir",
+          0
+        ],
+        [
+          "Dik prizmanın tabanları farklı çokgenler olabilir",
+          1
+        ],
+        [
+          "Kare dik prizmanın 8 yüzü vardır",
+          1
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri ayır. Bölmeler: Doğru, Yanlış. Kartlar: Küp, bütün yüzleri kare olan dik prizmadır, Dik prizmanın yanal yüzleri dikdörtgendir, Dik prizmada yükseklik, yanal ayrıt uzunluğuna eşittir, Dik prizmanın tabanları farklı çokgenler olabilir, Kare dik prizmanın 8 yüzü vardır.",
+    "correctAnswer": "Küp, bütün yüzleri kare olan dik prizmadır → Doğru | Dik prizmanın yanal yüzleri dikdörtgendir → Doğru | Dik prizmada yükseklik, yanal ayrıt uzunluğuna eşittir → Doğru | Dik prizmanın tabanları farklı çokgenler olabilir → Yanlış | Kare dik prizmanın 8 yüzü vardır → Yanlış",
+    "explanation": "Dik prizmada tabanlar eş çokgenlerdir; yanal ayrıtlar tabana diktir ve yüksekliğe eşittir. Kare dik prizmanın 6 yüzü vardır."
+  },
+  {
+    "questionId": "mat8u12-prizma-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "prizma",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Altıgen dik prizmanın kaç yanal yüzü vardır?",
+    "data": {
+      "a": 6,
+      "u": "yüz"
+    },
+    "textPlain": "Altıgen dik prizmanın kaç yanal yüzü vardır?",
+    "correctAnswer": "6 yüz",
+    "explanation": "Yanal yüz sayısı taban kenar sayısına eşittir."
+  },
+  {
+    "questionId": "mat8u12-prizma-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Ayrıt sayısı 24 olan dik prizmanın tabanı kaç kenarlıdır?",
+    "data": {
+      "a": 8,
+      "u": "kenar"
+    },
+    "textPlain": "Ayrıt sayısı 24 olan dik prizmanın tabanı kaç kenarlıdır?",
+    "correctAnswer": "8 kenar",
+    "explanation": "3n = 24 → n = 8."
+  },
+  {
+    "questionId": "mat8u12-prizma-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "prizma",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Küpün açınımındaki bir karenin çevresi 20 cm ise küpün bütün ayrıtlarının toplam uzunluğu kaç cm’dir?",
+    "data": {
+      "a": 60,
+      "u": "cm"
+    },
+    "textPlain": "Küpün açınımındaki bir karenin çevresi 20 cm ise küpün bütün ayrıtlarının toplam uzunluğu kaç cm’dir?",
+    "correctAnswer": "60 cm",
+    "explanation": "Ayrıt 5 cm; küpün 12 ayrıtı var: 12 × 5 = 60."
+  },
+  {
+    "questionId": "mat8u12-prizma-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik prizmalar, elemanları ve açınımı",
+    "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "prizma",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Kenarları 3, 4, 5 cm olan üçgen dik prizmanın yüksekliği 10 cm’dir. Yanal yüzlerinin alanları toplamı kaç cm²’dir?",
+    "data": {
+      "a": 120,
+      "u": "cm²"
+    },
+    "textPlain": "Kenarları 3, 4, 5 cm olan üçgen dik prizmanın yüksekliği 10 cm’dir. Yanal yüzlerinin alanları toplamı kaç cm²’dir?",
+    "correctAnswer": "120 cm²",
+    "explanation": "Yanal alan = taban çevresi × yükseklik = 12 × 10 = 120."
+  },
+  {
+    "questionId": "mat8u12-silindir-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 2 cm, yüksekliği 5 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 2,
+      "h": 5,
+      "w": 12,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 2 cm, yüksekliği 5 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 12 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 2 = 12."
+  },
+  {
+    "questionId": "mat8u12-silindir-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 3 cm, yüksekliği 8 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 3,
+      "h": 8,
+      "w": 18,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 3 cm, yüksekliği 8 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 18 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 3 = 18."
+  },
+  {
+    "questionId": "mat8u12-silindir-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 5 cm, yüksekliği 10 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 5,
+      "h": 10,
+      "w": 30,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 5 cm, yüksekliği 10 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 30 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 5 = 30."
+  },
+  {
+    "questionId": "mat8u12-silindir-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 4 cm, yüksekliği 12 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 4,
+      "h": 12,
+      "w": 24,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 4 cm, yüksekliği 12 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 24 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 4 = 24."
+  },
+  {
+    "questionId": "mat8u12-silindir-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "silindir",
+    "rank": 3,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 7 cm, yüksekliği 9 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 7,
+      "h": 9,
+      "w": 42,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 7 cm, yüksekliği 9 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 42 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 7 = 42."
+  },
+  {
+    "questionId": "mat8u12-silindir-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "cylnet",
+    "prompt": "Etiket 36 cm uzunluğunda, 4 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 6,
+      "h": 4,
+      "w": 36,
+      "k": "r"
+    },
+    "textPlain": "Etiket 36 cm uzunluğunda, 4 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Yarıçap 6 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 6 = 36."
+  },
+  {
+    "questionId": "mat8u12-silindir-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "silindir",
+    "rank": 3,
+    "type": "cylnet",
+    "prompt": "Etiket 54 cm uzunluğunda, 6 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 9,
+      "h": 6,
+      "w": 54,
+      "k": "r"
+    },
+    "textPlain": "Etiket 54 cm uzunluğunda, 6 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Yarıçap 9 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 9 = 54."
+  },
+  {
+    "questionId": "mat8u12-silindir-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 1 cm, yüksekliği 6 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 1,
+      "h": 6,
+      "w": 6,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 1 cm, yüksekliği 6 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 6 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 1 = 6."
+  },
+  {
+    "questionId": "mat8u12-silindir-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "silindir",
+    "rank": 3,
+    "type": "cylnet",
+    "prompt": "Yarıçapı 8 cm, yüksekliği 5 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 8,
+      "h": 5,
+      "w": 48,
+      "k": "w"
+    },
+    "textPlain": "Yarıçapı 8 cm, yüksekliği 5 cm olan teneke kutunun etiketini kes: etiketin uzunluğunu sürükleyerek ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Etiket 48 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 8 = 48."
+  },
+  {
+    "questionId": "mat8u12-silindir-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "silindir",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Taban çevresi 36 cm, yüksekliği 15 cm olan silindirin açınımındaki dikdörtgenin alanı kaç cm²’dir?",
+    "data": {
+      "a": 540,
+      "u": "cm²"
+    },
+    "textPlain": "Taban çevresi 36 cm, yüksekliği 15 cm olan silindirin açınımındaki dikdörtgenin alanı kaç cm²’dir?",
+    "correctAnswer": "540 cm²",
+    "explanation": "Dikdörtgen: 36 × 15 = 540."
+  },
+  {
+    "questionId": "mat8u12-yuzey-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "cylnet",
+    "prompt": "Etiket 48 cm uzunluğunda, 15 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 8,
+      "h": 15,
+      "w": 48,
+      "k": "r"
+    },
+    "textPlain": "Etiket 48 cm uzunluğunda, 15 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Yarıçap 8 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 8 = 48."
+  },
+  {
+    "questionId": "mat8u12-yuzey-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "cylnet",
+    "prompt": "Etiket 60 cm uzunluğunda, 7 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "data": {
+      "r": 10,
+      "h": 7,
+      "w": 60,
+      "k": "r"
+    },
+    "textPlain": "Etiket 60 cm uzunluğunda, 7 cm genişliğinde ve kutuyu tam bir kez sarıyor. Kutunun taban yarıçapını ayarla. (π yerine 3 alınır.)",
+    "correctAnswer": "Yarıçap 10 cm",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr. 2 × 3 × 10 = 60."
+  },
+  {
+    "questionId": "mat8u12-silindir-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "tap",
+    "prompt": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: yükseklik, taban yarıçapı.",
+    "data": {
+      "s": "silindir",
+      "q": [
+        "yuk",
+        "yar"
+      ]
+    },
+    "textPlain": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: yükseklik, taban yarıçapı. [Şekil: dik dairesel silindir; elemanlar dokunulabilir.]",
+    "correctAnswer": "yükseklik → taban yarıçapı",
+    "explanation": "Silindirin iki tabanı eş dairelerdir; yükseklik tabanlar arasındaki dik uzaklıktır; yanal yüz açıldığında dikdörtgen olur."
+  },
+  {
+    "questionId": "mat8u12-silindir-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "tap",
+    "prompt": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: taban, yanal yüz.",
+    "data": {
+      "s": "silindir",
+      "q": [
+        "taban",
+        "yanal"
+      ]
+    },
+    "textPlain": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: taban, yanal yüz. [Şekil: dik dairesel silindir; elemanlar dokunulabilir.]",
+    "correctAnswer": "taban → yanal yüz",
+    "explanation": "Silindirin iki tabanı eş dairelerdir; yükseklik tabanlar arasındaki dik uzaklıktır; yanal yüz açıldığında dikdörtgen olur."
+  },
+  {
+    "questionId": "mat8u12-silindir-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "tap",
+    "prompt": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: taban yarıçapı, yanal yüz, yükseklik.",
+    "data": {
+      "s": "silindir",
+      "q": [
+        "yar",
+        "yanal",
+        "yuk"
+      ]
+    },
+    "textPlain": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: taban yarıçapı, yanal yüz, yükseklik. [Şekil: dik dairesel silindir; elemanlar dokunulabilir.]",
+    "correctAnswer": "taban yarıçapı → yanal yüz → yükseklik",
+    "explanation": "Silindirin iki tabanı eş dairelerdir; yükseklik tabanlar arasındaki dik uzaklıktır; yanal yüz açıldığında dikdörtgen olur."
+  },
+  {
+    "questionId": "mat8u12-silindir-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "silindir",
+    "rank": 3,
+    "type": "tap",
+    "prompt": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: yanal yüz, taban, taban yarıçapı.",
+    "data": {
+      "s": "silindir",
+      "q": [
+        "yanal",
+        "taban",
+        "yar"
+      ]
+    },
+    "textPlain": "Dik dairesel silindir şeklinde parçaları sırayla işaretle: yanal yüz, taban, taban yarıçapı. [Şekil: dik dairesel silindir; elemanlar dokunulabilir.]",
+    "correctAnswer": "yanal yüz → taban → taban yarıçapı",
+    "explanation": "Silindirin iki tabanı eş dairelerdir; yükseklik tabanlar arasındaki dik uzaklıktır; yanal yüz açıldığında dikdörtgen olur."
+  },
+  {
+    "questionId": "mat8u12-silindir-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Cisimleri ayır.",
+    "data": {
+      "L": [
+        "🥫 Silindir",
+        "📦 Silindir değil"
+      ],
+      "r": [
+        [
+          "Konserve kutusu",
+          0
+        ],
+        [
+          "Boru parçası (kapalı)",
+          0
+        ],
+        [
+          "Pil",
+          0
+        ],
+        [
+          "Zar",
+          1
+        ],
+        [
+          "Dondurma külahı",
+          1
+        ],
+        [
+          "Madeni para",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Cisimleri ayır. Bölmeler: Silindir, Silindir değil. Kartlar: Konserve kutusu, Boru parçası (kapalı), Pil, Zar, Dondurma külahı, Madeni para.",
+    "correctAnswer": "Konserve kutusu → Silindir | Boru parçası (kapalı) → Silindir | Pil → Silindir | Zar → Silindir değil | Dondurma külahı → Silindir değil | Madeni para → Silindir",
+    "explanation": "Silindirin birbirine paralel iki eş dairesel tabanı ve eğri bir yanal yüzü vardır."
+  },
+  {
+    "questionId": "mat8u12-silindir-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Silindir açınımındaki parçaları ayır.",
+    "data": {
+      "L": [
+        "⭕ Daire",
+        "▭ Dikdörtgen"
+      ],
+      "r": [
+        [
+          "Silindirin tabanı",
+          0
+        ],
+        [
+          "Silindirin yanal yüzünün açınımı",
+          1
+        ],
+        [
+          "Konserve etiketinin açılmış hâli",
+          1
+        ],
+        [
+          "Kutunun kapağı",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Silindir açınımındaki parçaları ayır. Bölmeler: Daire, Dikdörtgen. Kartlar: Silindirin tabanı, Silindirin yanal yüzünün açınımı, Konserve etiketinin açılmış hâli, Kutunun kapağı.",
+    "correctAnswer": "Silindirin tabanı → Daire | Silindirin yanal yüzünün açınımı → Dikdörtgen | Konserve etiketinin açılmış hâli → Dikdörtgen | Kutunun kapağı → Daire",
+    "explanation": "Silindirin açınımı iki eş daire ve bir dikdörtgenden oluşur. Dikdörtgenin bir kenarı silindirin yüksekliği, öbür kenarı taban çevresidir: 2πr."
+  },
+  {
+    "questionId": "mat8u12-silindir-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "silindir",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Yarıçapı 4 cm olan silindirin taban çevresi kaç cm’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 24,
+      "u": "cm"
+    },
+    "textPlain": "Yarıçapı 4 cm olan silindirin taban çevresi kaç cm’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "24 cm",
+    "explanation": "2 × 3 × 4 = 24."
+  },
+  {
+    "questionId": "mat8u12-silindir-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Silindirin açınımındaki dikdörtgenin kenarları 30 cm ve 12 cm’dir. Taban çevresi 30 cm ise yarıçapı kaç cm’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 5,
+      "u": "cm"
+    },
+    "textPlain": "Silindirin açınımındaki dikdörtgenin kenarları 30 cm ve 12 cm’dir. Taban çevresi 30 cm ise yarıçapı kaç cm’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "5 cm",
+    "explanation": "2 × 3 × r = 30 → r = 5."
+  },
+  {
+    "questionId": "mat8u12-silindir-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "silindir",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Taban çapı 10 cm olan silindirin taban yarıçapı kaç cm’dir?",
+    "data": {
+      "a": 5,
+      "u": "cm"
+    },
+    "textPlain": "Taban çapı 10 cm olan silindirin taban yarıçapı kaç cm’dir?",
+    "correctAnswer": "5 cm",
+    "explanation": "Yarıçap çapın yarısıdır."
+  },
+  {
+    "questionId": "mat8u12-silindir-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin elemanları ve açınımı",
+    "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "silindir",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Bir silindirin açınımındaki dikdörtgenin çevresi 64 cm, silindirin yüksekliği 8 cm ise taban yarıçapı kaç cm’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 4,
+      "u": "cm"
+    },
+    "textPlain": "Bir silindirin açınımındaki dikdörtgenin çevresi 64 cm, silindirin yüksekliği 8 cm ise taban yarıçapı kaç cm’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "4 cm",
+    "explanation": "Dikdörtgen: 2(2πr + 8) = 64 → 2πr = 24 → r = 4."
+  },
+  {
+    "questionId": "mat8u12-yuzey-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "yuzey",
+    "rank": 1,
+    "type": "fill",
+    "prompt": "Yarıçapı 2 cm, yüksekliği 5 cm olan kutunun etiket alanını hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban çevresi (2πr)",
+          12
+        ],
+        [
+          "Yanal alan (2πrh)",
+          60
+        ]
+      ],
+      "r": 2,
+      "h": 5,
+      "k": "l"
+    },
+    "textPlain": "Yarıçapı 2 cm, yüksekliği 5 cm olan kutunun etiket alanını hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban çevresi (2πr): 12 cm · Yanal alan (2πrh): 60 cm²",
+    "explanation": "Yanal alan = taban çevresi × yükseklik = 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "yuzey",
+    "rank": 1,
+    "type": "fill",
+    "prompt": "Yarıçapı 3 cm, yüksekliği 4 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          27
+        ],
+        [
+          "Yanal alan (2πrh)",
+          72
+        ],
+        [
+          "Yüzey alanı",
+          126
+        ]
+      ],
+      "r": 3,
+      "h": 4,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 3 cm, yüksekliği 4 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 27 cm² · Yanal alan (2πrh): 72 cm² · Yüzey alanı: 126 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "fill",
+    "prompt": "Yarıçapı 5 cm, yüksekliği 6 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          75
+        ],
+        [
+          "Yanal alan (2πrh)",
+          180
+        ],
+        [
+          "Yüzey alanı",
+          330
+        ]
+      ],
+      "r": 5,
+      "h": 6,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 5 cm, yüksekliği 6 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 75 cm² · Yanal alan (2πrh): 180 cm² · Yüzey alanı: 330 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "fill",
+    "prompt": "Yarıçapı 4 cm, yüksekliği 10 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          48
+        ],
+        [
+          "Yanal alan (2πrh)",
+          240
+        ],
+        [
+          "Yüzey alanı",
+          336
+        ]
+      ],
+      "r": 4,
+      "h": 10,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 4 cm, yüksekliği 10 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 48 cm² · Yanal alan (2πrh): 240 cm² · Yüzey alanı: 336 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "fill",
+    "prompt": "Yarıçapı 6 cm, yüksekliği 5 cm olan kutunun etiket alanını hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban çevresi (2πr)",
+          36
+        ],
+        [
+          "Yanal alan (2πrh)",
+          180
+        ]
+      ],
+      "r": 6,
+      "h": 5,
+      "k": "l"
+    },
+    "textPlain": "Yarıçapı 6 cm, yüksekliği 5 cm olan kutunun etiket alanını hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban çevresi (2πr): 36 cm · Yanal alan (2πrh): 180 cm²",
+    "explanation": "Yanal alan = taban çevresi × yükseklik = 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "fill",
+    "prompt": "Yarıçapı 10 cm, yüksekliği 8 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          300
+        ],
+        [
+          "Yanal alan (2πrh)",
+          480
+        ],
+        [
+          "Yüzey alanı",
+          1080
+        ]
+      ],
+      "r": 10,
+      "h": 8,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 10 cm, yüksekliği 8 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 300 cm² · Yanal alan (2πrh): 480 cm² · Yüzey alanı: 1080 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "fill",
+    "prompt": "Yarıçapı 7 cm, yüksekliği 3 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          147
+        ],
+        [
+          "Yanal alan (2πrh)",
+          126
+        ],
+        [
+          "Yüzey alanı",
+          420
+        ]
+      ],
+      "r": 7,
+      "h": 3,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 7 cm, yüksekliği 3 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 147 cm² · Yanal alan (2πrh): 126 cm² · Yüzey alanı: 420 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "yuzey",
+    "rank": 1,
+    "type": "fill",
+    "prompt": "Yarıçapı 1 cm, yüksekliği 9 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          3
+        ],
+        [
+          "Yanal alan (2πrh)",
+          54
+        ],
+        [
+          "Yüzey alanı",
+          60
+        ]
+      ],
+      "r": 1,
+      "h": 9,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 1 cm, yüksekliği 9 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 3 cm² · Yanal alan (2πrh): 54 cm² · Yüzey alanı: 60 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "fill",
+    "prompt": "Yarıçapı 9 cm, yüksekliği 2 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          243
+        ],
+        [
+          "Yanal alan (2πrh)",
+          108
+        ],
+        [
+          "Yüzey alanı",
+          594
+        ]
+      ],
+      "r": 9,
+      "h": 2,
+      "k": "s"
+    },
+    "textPlain": "Yarıçapı 9 cm, yüksekliği 2 cm olan kutu için ambalaj kartonunu hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 243 cm² · Yanal alan (2πrh): 108 cm² · Yüzey alanı: 594 cm²",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "fill",
+    "prompt": "Yarıçapı 2 cm, yüksekliği 11 cm olan kutunun etiket alanını hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban çevresi (2πr)",
+          12
+        ],
+        [
+          "Yanal alan (2πrh)",
+          132
+        ]
+      ],
+      "r": 2,
+      "h": 11,
+      "k": "l"
+    },
+    "textPlain": "Yarıçapı 2 cm, yüksekliği 11 cm olan kutunun etiket alanını hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban çevresi (2πr): 12 cm · Yanal alan (2πrh): 132 cm²",
+    "explanation": "Yanal alan = taban çevresi × yükseklik = 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Formül ve durumları ayır.",
+    "data": {
+      "L": [
+        "🟦 Taban alanı",
+        "🟧 Yanal alan"
+      ],
+      "r": [
+        [
+          "πr²",
+          0
+        ],
+        [
+          "2πrh",
+          1
+        ],
+        [
+          "Kapak için gereken karton",
+          0
+        ],
+        [
+          "Etiket için gereken kâğıt",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Formül ve durumları ayır. Bölmeler: Taban alanı, Yanal alan. Kartlar: πr², 2πrh, Kapak için gereken karton, Etiket için gereken kâğıt.",
+    "correctAnswer": "πr² → Taban alanı | 2πrh → Yanal alan | Kapak için gereken karton → Taban alanı | Etiket için gereken kâğıt → Yanal alan",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Değişimleri ayır.",
+    "data": {
+      "L": [
+        "⬆️ Artar",
+        "⏺️ Değişmez"
+      ],
+      "r": [
+        [
+          "Yükseklik artınca yanal alan",
+          0
+        ],
+        [
+          "Yükseklik artınca taban alanı",
+          1
+        ],
+        [
+          "Yarıçap artınca taban alanı",
+          0
+        ],
+        [
+          "Yarıçap artınca yanal alan",
+          0
+        ],
+        [
+          "Kutu ötelenince yüzey alanı",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Değişimleri ayır. Bölmeler: Artar, Değişmez. Kartlar: Yükseklik artınca yanal alan, Yükseklik artınca taban alanı, Yarıçap artınca taban alanı, Yarıçap artınca yanal alan, Kutu ötelenince yüzey alanı.",
+    "correctAnswer": "Yükseklik artınca yanal alan → Artar | Yükseklik artınca taban alanı → Değişmez | Yarıçap artınca taban alanı → Artar | Yarıçap artınca yanal alan → Artar | Kutu ötelenince yüzey alanı → Değişmez",
+    "explanation": "Silindirin yüzey alanı = 2 × taban alanı + yanal alan = 2πr² + 2πrh."
+  },
+  {
+    "questionId": "mat8u12-yuzey-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "yuzey",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Yarıçapı 2 cm, yüksekliği 7 cm olan silindirin yanal alanı kaç cm²’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 84,
+      "u": "cm²"
+    },
+    "textPlain": "Yarıçapı 2 cm, yüksekliği 7 cm olan silindirin yanal alanı kaç cm²’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "84 cm²",
+    "explanation": "2 × 3 × 2 × 7 = 84."
+  },
+  {
+    "questionId": "mat8u12-yuzey-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Yarıçapı 5 cm, yüksekliği 4 cm olan silindirin yüzey alanı kaç cm²’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 270,
+      "u": "cm²"
+    },
+    "textPlain": "Yarıçapı 5 cm, yüksekliği 4 cm olan silindirin yüzey alanı kaç cm²’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "270 cm²",
+    "explanation": "2 × 3 × 25 + 2 × 3 × 5 × 4 = 150 + 120 = 270."
+  },
+  {
+    "questionId": "mat8u12-yuzey-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "yuzey",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Üstü açık silindir bir kovanın yarıçapı 10 cm, yüksekliği 20 cm’dir. Yapımı için kaç cm² malzeme gerekir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 1500,
+      "u": "cm²"
+    },
+    "textPlain": "Üstü açık silindir bir kovanın yarıçapı 10 cm, yüksekliği 20 cm’dir. Yapımı için kaç cm² malzeme gerekir? (π yerine 3 alınır.)",
+    "correctAnswer": "1500 cm²",
+    "explanation": "Bir taban: 3 × 100 = 300; yanal alan: 2 × 3 × 10 × 20 = 1200; toplam 1500."
+  },
+  {
+    "questionId": "mat8u12-yuzey-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Yanal alanı 360 cm², yüksekliği 12 cm olan silindirin yarıçapı kaç cm’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 5,
+      "u": "cm"
+    },
+    "textPlain": "Yanal alanı 360 cm², yüksekliği 12 cm olan silindirin yarıçapı kaç cm’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "5 cm",
+    "explanation": "2 × 3 × r × 12 = 360 → 72r = 360 → r = 5."
+  },
+  {
+    "questionId": "mat8u12-yuzey-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "yuzey",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Yarıçapı 3 cm olan silindirin yüzey alanı 162 cm² ise yüksekliği kaç cm’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 6,
+      "u": "cm"
+    },
+    "textPlain": "Yarıçapı 3 cm olan silindirin yüzey alanı 162 cm² ise yüksekliği kaç cm’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "6 cm",
+    "explanation": "2 × 3 × 9 = 54; yanal alan 108 = 18h → h = 6."
+  },
+  {
+    "questionId": "mat8u12-yuzey-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin yüzey alanı",
+    "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "yuzey",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Yarıçapı 6 cm olan silindirin bir tabanının alanı kaç cm²’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 108,
+      "u": "cm²"
+    },
+    "textPlain": "Yarıçapı 6 cm olan silindirin bir tabanının alanı kaç cm²’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "108 cm²",
+    "explanation": "3 × 36 = 108."
+  },
+  {
+    "questionId": "mat8u12-hacim-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "hacim",
+    "rank": 1,
+    "type": "level",
+    "prompt": "Yarıçapı 2 cm olan tanka 120 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 2,
+      "V": 120,
+      "H": 15,
+      "x": 10
+    },
+    "textPlain": "Yarıçapı 2 cm olan tanka 120 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 15 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "10 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 120 ÷ (3 × 4) = 10."
+  },
+  {
+    "questionId": "mat8u12-hacim-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "hacim",
+    "rank": 1,
+    "type": "level",
+    "prompt": "Yarıçapı 3 cm olan tanka 216 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 3,
+      "V": 216,
+      "H": 12,
+      "x": 8
+    },
+    "textPlain": "Yarıçapı 3 cm olan tanka 216 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 12 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "8 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 216 ÷ (3 × 9) = 8."
+  },
+  {
+    "questionId": "mat8u12-hacim-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "level",
+    "prompt": "Yarıçapı 4 cm olan tanka 480 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 4,
+      "V": 480,
+      "H": 15,
+      "x": 10
+    },
+    "textPlain": "Yarıçapı 4 cm olan tanka 480 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 15 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "10 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 480 ÷ (3 × 16) = 10."
+  },
+  {
+    "questionId": "mat8u12-hacim-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "level",
+    "prompt": "Yarıçapı 5 cm olan tanka 900 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 5,
+      "V": 900,
+      "H": 16,
+      "x": 12
+    },
+    "textPlain": "Yarıçapı 5 cm olan tanka 900 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 16 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "12 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 900 ÷ (3 × 25) = 12."
+  },
+  {
+    "questionId": "mat8u12-hacim-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "level",
+    "prompt": "Yarıçapı 2 cm olan tanka 156 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 2,
+      "V": 156,
+      "H": 16,
+      "x": 13
+    },
+    "textPlain": "Yarıçapı 2 cm olan tanka 156 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 16 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "13 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 156 ÷ (3 × 4) = 13."
+  },
+  {
+    "questionId": "mat8u12-hacim-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "level",
+    "prompt": "Yarıçapı 6 cm olan tanka 1404 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 6,
+      "V": 1404,
+      "H": 15,
+      "x": 13
+    },
+    "textPlain": "Yarıçapı 6 cm olan tanka 1404 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 15 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "13 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 1404 ÷ (3 × 36) = 13."
+  },
+  {
+    "questionId": "mat8u12-hacim-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "level",
+    "prompt": "Yarıçapı 10 cm olan tanka 3300 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 10,
+      "V": 3300,
+      "H": 14,
+      "x": 11
+    },
+    "textPlain": "Yarıçapı 10 cm olan tanka 3300 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 14 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "11 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 3300 ÷ (3 × 100) = 11."
+  },
+  {
+    "questionId": "mat8u12-hacim-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "level",
+    "prompt": "Yarıçapı 7 cm olan tanka 1911 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.)",
+    "data": {
+      "r": 7,
+      "V": 1911,
+      "H": 16,
+      "x": 13
+    },
+    "textPlain": "Yarıçapı 7 cm olan tanka 1911 cm³ meyve suyu dolduruluyor. Su seviyesi tutamacını sürükle: sıvı kaç cm yükselir? (π yerine 3 alınır.) [Şekil: yüksekliği 16 cm olan silindir tank, cm cetvelli.]",
+    "correctAnswer": "13 cm",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h. Sıvının yüksekliği = hacim ÷ taban alanı. 1911 ÷ (3 × 49) = 13."
+  },
+  {
+    "questionId": "mat8u12-hacim-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "hacim",
+    "rank": 1,
+    "type": "fill",
+    "prompt": "Yarıçapı 2 cm, yüksekliği 5 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          12
+        ],
+        [
+          "Hacim (πr²h)",
+          60
+        ]
+      ],
+      "r": 2,
+      "h": 5,
+      "k": "v"
+    },
+    "textPlain": "Yarıçapı 2 cm, yüksekliği 5 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 12 cm² · Hacim (πr²h): 60 cm³",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h."
+  },
+  {
+    "questionId": "mat8u12-hacim-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "fill",
+    "prompt": "Yarıçapı 4 cm, yüksekliği 6 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          48
+        ],
+        [
+          "Hacim (πr²h)",
+          288
+        ]
+      ],
+      "r": 4,
+      "h": 6,
+      "k": "v"
+    },
+    "textPlain": "Yarıçapı 4 cm, yüksekliği 6 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 48 cm² · Hacim (πr²h): 288 cm³",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h."
+  },
+  {
+    "questionId": "mat8u12-hacim-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "fill",
+    "prompt": "Yarıçapı 5 cm, yüksekliği 8 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          75
+        ],
+        [
+          "Hacim (πr²h)",
+          600
+        ]
+      ],
+      "r": 5,
+      "h": 8,
+      "k": "v"
+    },
+    "textPlain": "Yarıçapı 5 cm, yüksekliği 8 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 75 cm² · Hacim (πr²h): 600 cm³",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h."
+  },
+  {
+    "questionId": "mat8u12-hacim-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "fill",
+    "prompt": "Yarıçapı 10 cm, yüksekliği 12 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          300
+        ],
+        [
+          "Hacim (πr²h)",
+          3600
+        ]
+      ],
+      "r": 10,
+      "h": 12,
+      "k": "v"
+    },
+    "textPlain": "Yarıçapı 10 cm, yüksekliği 12 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 300 cm² · Hacim (πr²h): 3600 cm³",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h."
+  },
+  {
+    "questionId": "mat8u12-hacim-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "fill",
+    "prompt": "Yarıçapı 6 cm, yüksekliği 7 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          108
+        ],
+        [
+          "Hacim (πr²h)",
+          756
+        ]
+      ],
+      "r": 6,
+      "h": 7,
+      "k": "v"
+    },
+    "textPlain": "Yarıçapı 6 cm, yüksekliği 7 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 108 cm² · Hacim (πr²h): 756 cm³",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h."
+  },
+  {
+    "questionId": "mat8u12-hacim-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "hacim",
+    "rank": 1,
+    "type": "fill",
+    "prompt": "Yarıçapı 3 cm, yüksekliği 3 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "data": {
+      "f": [
+        [
+          "Taban alanı (πr²)",
+          27
+        ],
+        [
+          "Hacim (πr²h)",
+          81
+        ]
+      ],
+      "r": 3,
+      "h": 3,
+      "k": "v"
+    },
+    "textPlain": "Yarıçapı 3 cm, yüksekliği 3 cm olan kutunun alacağı ürünü hesapla: kartı doldur. (π yerine 3 alınır.)",
+    "correctAnswer": "Taban alanı (πr²): 27 cm² · Hacim (πr²h): 81 cm³",
+    "explanation": "Silindirin hacmi = taban alanı × yükseklik = πr²h."
+  },
+  {
+    "questionId": "mat8u12-hacim-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "hacim",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Taban alanı 50 cm², yüksekliği 8 cm olan silindirin hacmi kaç cm³’tür?",
+    "data": {
+      "a": 400,
+      "u": "cm³"
+    },
+    "textPlain": "Taban alanı 50 cm², yüksekliği 8 cm olan silindirin hacmi kaç cm³’tür?",
+    "correctAnswer": "400 cm³",
+    "explanation": "50 × 8 = 400."
+  },
+  {
+    "questionId": "mat8u12-hacim-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Yarıçapı 10 cm, yüksekliği 20 cm olan silindir şeklindeki bidon kaç litre alır? (1 L = 1000 cm³) (π yerine 3 alınır.)",
+    "data": {
+      "a": 6,
+      "u": "L"
+    },
+    "textPlain": "Yarıçapı 10 cm, yüksekliği 20 cm olan silindir şeklindeki bidon kaç litre alır? (1 L = 1000 cm³) (π yerine 3 alınır.)",
+    "correctAnswer": "6 L",
+    "explanation": "3 × 100 × 20 = 6000 cm³ = 6 L."
+  },
+  {
+    "questionId": "mat8u12-hacim-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "hacim",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Hacmi 432 cm³, yarıçapı 4 cm olan silindirin yüksekliği kaç cm’dir? (π yerine 3 alınır.)",
+    "data": {
+      "a": 9,
+      "u": "cm"
+    },
+    "textPlain": "Hacmi 432 cm³, yarıçapı 4 cm olan silindirin yüksekliği kaç cm’dir? (π yerine 3 alınır.)",
+    "correctAnswer": "9 cm",
+    "explanation": "3 × 16 × h = 432 → h = 9."
+  },
+  {
+    "questionId": "mat8u12-hacim-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Yarıçapı 6 cm, yüksekliği 10 cm olan kutudaki süt, yarıçapı 3 cm, yüksekliği 5 cm olan bardaklara kaç bardak doldurur? (π yerine 3 alınır.)",
+    "data": {
+      "a": 8,
+      "u": "bardak"
+    },
+    "textPlain": "Yarıçapı 6 cm, yüksekliği 10 cm olan kutudaki süt, yarıçapı 3 cm, yüksekliği 5 cm olan bardaklara kaç bardak doldurur? (π yerine 3 alınır.)",
+    "correctAnswer": "8 bardak",
+    "explanation": "Kutu 3 × 36 × 10 = 1080; bardak 3 × 9 × 5 = 135; 1080 ÷ 135 = 8."
+  },
+  {
+    "questionId": "mat8u12-hacim-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "hacim",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Yarıçapı 2 katına çıkarılan silindirin yüksekliği aynı kalırsa hacmi kaç katına çıkar?",
+    "data": {
+      "a": 4,
+      "u": "kat"
+    },
+    "textPlain": "Yarıçapı 2 katına çıkarılan silindirin yüksekliği aynı kalırsa hacmi kaç katına çıkar?",
+    "correctAnswer": "4 kat",
+    "explanation": "Hacim r² ile orantılıdır: 2² = 4."
+  },
+  {
+    "questionId": "mat8u12-hacim-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik dairesel silindirin hacmi",
+    "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "hacim",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Yarıçapı 1 cm, yüksekliği 10 cm olan silindirin hacmi kaç cm³’tür? (π yerine 3 alınır.)",
+    "data": {
+      "a": 30,
+      "u": "cm³"
+    },
+    "textPlain": "Yarıçapı 1 cm, yüksekliği 10 cm olan silindirin hacmi kaç cm³’tür? (π yerine 3 alınır.)",
+    "correctAnswer": "30 cm³",
+    "explanation": "3 × 1 × 10 = 30."
+  },
+  {
+    "questionId": "mat8u12-piramit-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Banttaki kare dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "piramit",
+      "n": 4,
+      "a": [
+        5,
+        8,
+        5
+      ]
+    },
+    "textPlain": "Banttaki kare dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: kare dik piramit.]",
+    "correctAnswer": "5 yüz, 8 ayrıt, 5 köşe",
+    "explanation": "Dik piramitte bir taban ve tabanın kenar sayısı kadar üçgen yanal yüz vardır: yüz n + 1, ayrıt 2n, köşe n + 1. Burada n = 4."
+  },
+  {
+    "questionId": "mat8u12-piramit-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "count",
+    "prompt": "Banttaki üçgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "piramit",
+      "n": 3,
+      "a": [
+        4,
+        6,
+        4
+      ]
+    },
+    "textPlain": "Banttaki üçgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: üçgen dik piramit.]",
+    "correctAnswer": "4 yüz, 6 ayrıt, 4 köşe",
+    "explanation": "Dik piramitte bir taban ve tabanın kenar sayısı kadar üçgen yanal yüz vardır: yüz n + 1, ayrıt 2n, köşe n + 1. Burada n = 3."
+  },
+  {
+    "questionId": "mat8u12-piramit-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Banttaki beşgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "piramit",
+      "n": 5,
+      "a": [
+        6,
+        10,
+        6
+      ]
+    },
+    "textPlain": "Banttaki beşgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: beşgen dik piramit.]",
+    "correctAnswer": "6 yüz, 10 ayrıt, 6 köşe",
+    "explanation": "Dik piramitte bir taban ve tabanın kenar sayısı kadar üçgen yanal yüz vardır: yüz n + 1, ayrıt 2n, köşe n + 1. Burada n = 5."
+  },
+  {
+    "questionId": "mat8u12-piramit-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "count",
+    "prompt": "Banttaki altıgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "piramit",
+      "n": 6,
+      "a": [
+        7,
+        12,
+        7
+      ]
+    },
+    "textPlain": "Banttaki altıgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: altıgen dik piramit.]",
+    "correctAnswer": "7 yüz, 12 ayrıt, 7 köşe",
+    "explanation": "Dik piramitte bir taban ve tabanın kenar sayısı kadar üçgen yanal yüz vardır: yüz n + 1, ayrıt 2n, köşe n + 1. Burada n = 6."
+  },
+  {
+    "questionId": "mat8u12-piramit-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "count",
+    "prompt": "Banttaki sekizgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir.",
+    "data": {
+      "k": "piramit",
+      "n": 8,
+      "a": [
+        9,
+        16,
+        9
+      ]
+    },
+    "textPlain": "Banttaki sekizgen dik piramit kutunun yüz, ayrıt ve köşe sayılarını sayaçlara gir. [Şekil: sekizgen dik piramit.]",
+    "correctAnswer": "9 yüz, 16 ayrıt, 9 köşe",
+    "explanation": "Dik piramitte bir taban ve tabanın kenar sayısı kadar üçgen yanal yüz vardır: yüz n + 1, ayrıt 2n, köşe n + 1. Burada n = 8."
+  },
+  {
+    "questionId": "mat8u12-piramit-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "tap",
+    "prompt": "Dik koni şeklinde parçaları sırayla işaretle: tepe noktası, ana doğru.",
+    "data": {
+      "s": "koni",
+      "q": [
+        "tepe",
+        "ana"
+      ]
+    },
+    "textPlain": "Dik koni şeklinde parçaları sırayla işaretle: tepe noktası, ana doğru. [Şekil: dik koni; elemanlar dokunulabilir.]",
+    "correctAnswer": "tepe noktası → ana doğru",
+    "explanation": "Dik konide tepe noktasını taban çemberine birleştiren doğru parçaları ana doğrudur; yükseklik tepe noktasından tabanın merkezine diktir."
+  },
+  {
+    "questionId": "mat8u12-piramit-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "tap",
+    "prompt": "Dik koni şeklinde parçaları sırayla işaretle: yükseklik, taban yarıçapı, ana doğru.",
+    "data": {
+      "s": "koni",
+      "q": [
+        "yuk",
+        "yar",
+        "ana"
+      ]
+    },
+    "textPlain": "Dik koni şeklinde parçaları sırayla işaretle: yükseklik, taban yarıçapı, ana doğru. [Şekil: dik koni; elemanlar dokunulabilir.]",
+    "correctAnswer": "yükseklik → taban yarıçapı → ana doğru",
+    "explanation": "Dik konide tepe noktasını taban çemberine birleştiren doğru parçaları ana doğrudur; yükseklik tepe noktasından tabanın merkezine diktir."
+  },
+  {
+    "questionId": "mat8u12-piramit-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "tap",
+    "prompt": "Kare dik piramit şeklinde parçaları sırayla işaretle: tepe noktası, taban ayrıtı.",
+    "data": {
+      "s": "piramit",
+      "q": [
+        "tepe",
+        "tayr"
+      ]
+    },
+    "textPlain": "Kare dik piramit şeklinde parçaları sırayla işaretle: tepe noktası, taban ayrıtı. [Şekil: kare dik piramit; elemanlar dokunulabilir.]",
+    "correctAnswer": "tepe noktası → taban ayrıtı",
+    "explanation": "Dik piramitte taban ayrıtları tabanın kenarlarıdır; yanal ayrıtlar tepe noktasını taban köşelerine birleştirir; yanal yüzler üçgendir; yükseklik tepe noktasından tabana diktir."
+  },
+  {
+    "questionId": "mat8u12-piramit-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "tap",
+    "prompt": "Kare dik piramit şeklinde parçaları sırayla işaretle: yanal ayrıt, yanal yüz.",
+    "data": {
+      "s": "piramit",
+      "q": [
+        "yayr",
+        "yanal"
+      ]
+    },
+    "textPlain": "Kare dik piramit şeklinde parçaları sırayla işaretle: yanal ayrıt, yanal yüz. [Şekil: kare dik piramit; elemanlar dokunulabilir.]",
+    "correctAnswer": "yanal ayrıt → yanal yüz",
+    "explanation": "Dik piramitte taban ayrıtları tabanın kenarlarıdır; yanal ayrıtlar tepe noktasını taban köşelerine birleştirir; yanal yüzler üçgendir; yükseklik tepe noktasından tabana diktir."
+  },
+  {
+    "questionId": "mat8u12-piramit-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "tap",
+    "prompt": "Kare dik piramit şeklinde parçaları sırayla işaretle: yükseklik, yanal ayrıt, taban ayrıtı.",
+    "data": {
+      "s": "piramit",
+      "q": [
+        "yuk",
+        "yayr",
+        "tayr"
+      ]
+    },
+    "textPlain": "Kare dik piramit şeklinde parçaları sırayla işaretle: yükseklik, yanal ayrıt, taban ayrıtı. [Şekil: kare dik piramit; elemanlar dokunulabilir.]",
+    "correctAnswer": "yükseklik → yanal ayrıt → taban ayrıtı",
+    "explanation": "Dik piramitte taban ayrıtları tabanın kenarlarıdır; yanal ayrıtlar tepe noktasını taban köşelerine birleştirir; yanal yüzler üçgendir; yükseklik tepe noktasından tabana diktir."
+  },
+  {
+    "questionId": "mat8u12-piramit-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "tap",
+    "prompt": "Dik koni şeklinde parçaları sırayla işaretle: ana doğru, yükseklik, taban.",
+    "data": {
+      "s": "koni",
+      "q": [
+        "ana",
+        "yuk",
+        "taban"
+      ]
+    },
+    "textPlain": "Dik koni şeklinde parçaları sırayla işaretle: ana doğru, yükseklik, taban. [Şekil: dik koni; elemanlar dokunulabilir.]",
+    "correctAnswer": "ana doğru → yükseklik → taban",
+    "explanation": "Dik konide tepe noktasını taban çemberine birleştiren doğru parçaları ana doğrudur; yükseklik tepe noktasından tabanın merkezine diktir."
+  },
+  {
+    "questionId": "mat8u12-piramit-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "tap",
+    "prompt": "Kare dik prizma şeklinde parçaları sırayla işaretle: yanal ayrıt, taban ayrıtı.",
+    "data": {
+      "s": "prizma",
+      "q": [
+        "yayr",
+        "tayr"
+      ]
+    },
+    "textPlain": "Kare dik prizma şeklinde parçaları sırayla işaretle: yanal ayrıt, taban ayrıtı. [Şekil: kare dik prizma; elemanlar dokunulabilir.]",
+    "correctAnswer": "yanal ayrıt → taban ayrıtı",
+    "explanation": "Dik prizmada yanal ayrıtlar tabana diktir ve yüksekliğe eşittir."
+  },
+  {
+    "questionId": "mat8u12-piramit-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "pyrnet",
+    "prompt": "Kare dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle.",
+    "data": {
+      "n": 4,
+      "pre": [
+        0,
+        1
+      ]
+    },
+    "textPlain": "Kare dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle. [Şekil: kare taban; yanal yüzü olan kenarlar: 1, 2.]",
+    "correctAnswer": "4 kenarın hepsinde birer üçgen yanal yüz",
+    "explanation": "Dik piramidin açınımında taban çokgeninin her kenarına bir ikizkenar üçgen yanal yüz bağlanır; yanal yüz sayısı taban kenar sayısına eşittir."
+  },
+  {
+    "questionId": "mat8u12-piramit-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "kolay",
+    "group": "piramit",
+    "rank": 1,
+    "type": "pyrnet",
+    "prompt": "Üçgen dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle.",
+    "data": {
+      "n": 3,
+      "pre": [
+        0
+      ]
+    },
+    "textPlain": "Üçgen dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle. [Şekil: üçgen taban; yanal yüzü olan kenarlar: 1.]",
+    "correctAnswer": "3 kenarın hepsinde birer üçgen yanal yüz",
+    "explanation": "Dik piramidin açınımında taban çokgeninin her kenarına bir ikizkenar üçgen yanal yüz bağlanır; yanal yüz sayısı taban kenar sayısına eşittir."
+  },
+  {
+    "questionId": "mat8u12-piramit-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "pyrnet",
+    "prompt": "Beşgen dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle.",
+    "data": {
+      "n": 5,
+      "pre": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "Beşgen dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle. [Şekil: beşgen taban; yanal yüzü olan kenarlar: 1, 3.]",
+    "correctAnswer": "5 kenarın hepsinde birer üçgen yanal yüz",
+    "explanation": "Dik piramidin açınımında taban çokgeninin her kenarına bir ikizkenar üçgen yanal yüz bağlanır; yanal yüz sayısı taban kenar sayısına eşittir."
+  },
+  {
+    "questionId": "mat8u12-piramit-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "pyrnet",
+    "prompt": "Altıgen dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle.",
+    "data": {
+      "n": 6,
+      "pre": [
+        1,
+        3,
+        4
+      ]
+    },
+    "textPlain": "Altıgen dik piramit kutunun kalıbını tamamla: tabanın kenarlarına dokunarak eksik yanal yüzleri ekle. [Şekil: altıgen taban; yanal yüzü olan kenarlar: 2, 4, 5.]",
+    "correctAnswer": "6 kenarın hepsinde birer üçgen yanal yüz",
+    "explanation": "Dik piramidin açınımında taban çokgeninin her kenarına bir ikizkenar üçgen yanal yüz bağlanır; yanal yüz sayısı taban kenar sayısına eşittir."
+  },
+  {
+    "questionId": "mat8u12-piramit-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Özellikleri doğru cisme yerleştir.",
+    "data": {
+      "L": [
+        "🔺 Piramit",
+        "🍦 Koni",
+        "🥫 Silindir"
+      ],
+      "r": [
+        [
+          "Tabanı daire, bir tepe noktası var",
+          1
+        ],
+        [
+          "Tabanı çokgen, yanal yüzleri üçgen",
+          0
+        ],
+        [
+          "İki eş dairesel tabanı var",
+          2
+        ],
+        [
+          "Açınımında daire dilimi var",
+          1
+        ],
+        [
+          "Açınımında dikdörtgen ve iki daire var",
+          2
+        ],
+        [
+          "Yanal yüz sayısı taban kenar sayısına eşit",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Özellikleri doğru cisme yerleştir. Bölmeler: Piramit, Koni, Silindir. Kartlar: Tabanı daire, bir tepe noktası var, Tabanı çokgen, yanal yüzleri üçgen, İki eş dairesel tabanı var, Açınımında daire dilimi var, Açınımında dikdörtgen ve iki daire var, Yanal yüz sayısı taban kenar sayısına eşit.",
+    "correctAnswer": "Tabanı daire, bir tepe noktası var → Koni | Tabanı çokgen, yanal yüzleri üçgen → Piramit | İki eş dairesel tabanı var → Silindir | Açınımında daire dilimi var → Koni | Açınımında dikdörtgen ve iki daire var → Silindir | Yanal yüz sayısı taban kenar sayısına eşit → Piramit",
+    "explanation": "Piramidin tabanı çokgen, yanal yüzleri üçgendir. Koninin tabanı dairedir; açınımı bir daire ve bir daire diliminden oluşur. Silindirin iki dairesel tabanı vardır."
+  },
+  {
+    "questionId": "mat8u12-piramit-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "İfadeleri ayır.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Dik konide yükseklik, ana doğrudan kısadır",
+          0
+        ],
+        [
+          "Koninin ana doğruları eşit uzunluktadır",
+          0
+        ],
+        [
+          "Kare piramidin 4 yüzü vardır",
+          1
+        ],
+        [
+          "Dik piramidin yanal yüzleri ikizkenar üçgendir",
+          0
+        ],
+        [
+          "Koninin iki tabanı vardır",
+          1
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri ayır. Bölmeler: Doğru, Yanlış. Kartlar: Dik konide yükseklik, ana doğrudan kısadır, Koninin ana doğruları eşit uzunluktadır, Kare piramidin 4 yüzü vardır, Dik piramidin yanal yüzleri ikizkenar üçgendir, Koninin iki tabanı vardır.",
+    "correctAnswer": "Dik konide yükseklik, ana doğrudan kısadır → Doğru | Koninin ana doğruları eşit uzunluktadır → Doğru | Kare piramidin 4 yüzü vardır → Yanlış | Dik piramidin yanal yüzleri ikizkenar üçgendir → Doğru | Koninin iki tabanı vardır → Yanlış",
+    "explanation": "Dik konide yükseklik, yarıçap ve ana doğru dik üçgen oluşturur; ana doğru hipotenüstür. Kare piramidin 5 yüzü vardır."
+  },
+  {
+    "questionId": "mat8u12-piramit-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "orta",
+    "group": "piramit",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Dik konide yükseklik 8 cm, taban yarıçapı 6 cm ise ana doğru kaç cm’dir?",
+    "data": {
+      "a": 10,
+      "u": "cm"
+    },
+    "textPlain": "Dik konide yükseklik 8 cm, taban yarıçapı 6 cm ise ana doğru kaç cm’dir?",
+    "correctAnswer": "10 cm",
+    "explanation": "Yükseklik, yarıçap ve ana doğru dik üçgen oluşturur: 6² + 8² = 100 → 10."
+  },
+  {
+    "questionId": "mat8u12-piramit-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "12. Ünite: Geometrik Cisimler",
+    "topic": "Dik piramit ve dik koni",
+    "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+    "difficulty": "zor",
+    "group": "piramit",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Köşe sayısı 9 olan dik piramidin ayrıt sayısı kaçtır?",
+    "data": {
+      "a": 16,
+      "u": "ayrıt"
+    },
+    "textPlain": "Köşe sayısı 9 olan dik piramidin ayrıt sayısı kaçtır?",
+    "correctAnswer": "16 ayrıt",
+    "explanation": "n + 1 = 9 → n = 8; ayrıt 2n = 16."
+  }
+]
