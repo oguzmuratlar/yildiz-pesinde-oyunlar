@@ -40,6 +40,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Mega Mikro | matematik-8-mega-mikro | 1.0.0 | Matematik | 8 | Dikey | `/matematik-8-mega-mikro/1.0.0/index.html` |
 | Skor Analisti | matematik-8-skor-analisti | 1.0.0 | Matematik | 8 | Dikey | `/matematik-8-skor-analisti/1.0.0/index.html` |
 | Adil Çark Tasarımcısı | matematik-8-adil-cark-tasarimcisi | 1.0.0 | Matematik | 8 | Dikey | `/matematik-8-adil-cark-tasarimcisi/1.0.0/index.html` |
+| Özdeşlik Yapbozu | matematik-8-ozdeslik-yapbozu | 1.0.0 | Matematik | 8 | Dikey | `/matematik-8-ozdeslik-yapbozu/1.0.0/index.html` |
 | Dev Ahtapot (Macera canavarı · Arena 1) | macera-5-dev-ahtapot | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-dev-ahtapot/1.0.0/index.html` |
 | Paslı Çapa Golemi (Macera canavarı · Arena 2) | macera-5-pasli-capa-golemi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-pasli-capa-golemi/1.0.0/index.html` |
 | Fener Balığı (Macera canavarı · Arena 3) | macera-5-fener-baligi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-fener-baligi/1.0.0/index.html` |

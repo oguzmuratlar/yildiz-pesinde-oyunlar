@@ -1,0 +1,3105 @@
+[
+  {
+    "questionId": "mat8u6-ifade-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "3x + 5 + 2x − 1 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "3x + 5 + 2x − 1",
+      "a": [
+        0,
+        5,
+        4
+      ]
+    },
+    "textPlain": "3x + 5 + 2x − 1 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 3x + 5 + 2x − 1.",
+    "correctAnswer": "3x + 5 + 2x − 1 = 5x + 4",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır."
+  },
+  {
+    "questionId": "mat8u6-ifade-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "4x² + x − 2x² + 3x ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "4x² + x − 2x² + 3x",
+      "a": [
+        2,
+        4,
+        0
+      ]
+    },
+    "textPlain": "4x² + x − 2x² + 3x ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 4x² + x − 2x² + 3x.",
+    "correctAnswer": "4x² + x − 2x² + 3x = 2x² + 4x",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır."
+  },
+  {
+    "questionId": "mat8u6-ifade-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "5x − (2x − 3) + 1 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "5x − (2x − 3) + 1",
+      "a": [
+        0,
+        3,
+        4
+      ]
+    },
+    "textPlain": "5x − (2x − 3) + 1 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 5x − (2x − 3) + 1.",
+    "correctAnswer": "5x − (2x − 3) + 1 = 3x + 4",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır. Parantezin önündeki eksi, içindeki her terimin işaretini değiştirir."
+  },
+  {
+    "questionId": "mat8u6-ifade-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "2(x² − x) + 3x − 4 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "2(x² − x) + 3x − 4",
+      "a": [
+        2,
+        1,
+        -4
+      ]
+    },
+    "textPlain": "2(x² − x) + 3x − 4 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 2(x² − x) + 3x − 4.",
+    "correctAnswer": "2(x² − x) + 3x − 4 = 2x² + x − 4",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır. Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-ifade-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ifade",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "3(2x − 1) − 2(x² + 3x − 2) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "3(2x − 1) − 2(x² + 3x − 2)",
+      "a": [
+        -2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "3(2x − 1) − 2(x² + 3x − 2) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 3(2x − 1) − 2(x² + 3x − 2).",
+    "correctAnswer": "3(2x − 1) − 2(x² + 3x − 2) = −2x² + 1",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır. Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "3(x + 4) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "3(x + 4)",
+      "a": [
+        0,
+        3,
+        12
+      ]
+    },
+    "textPlain": "3(x + 4) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 3(x + 4).",
+    "correctAnswer": "3(x + 4) = 3x + 12",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "x(x − 5) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "x(x − 5)",
+      "a": [
+        1,
+        -5,
+        0
+      ]
+    },
+    "textPlain": "x(x − 5) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: x(x − 5).",
+    "correctAnswer": "x(x − 5) = x² − 5x",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "(x + 2)(x + 5) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x + 2)(x + 5)",
+      "a": [
+        1,
+        7,
+        10
+      ]
+    },
+    "textPlain": "(x + 2)(x + 5) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x + 2)(x + 5).",
+    "correctAnswer": "(x + 2)(x + 5) = x² + 7x + 10",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "(x − 3)(x + 4) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x − 3)(x + 4)",
+      "a": [
+        1,
+        1,
+        -12
+      ]
+    },
+    "textPlain": "(x − 3)(x + 4) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x − 3)(x + 4).",
+    "correctAnswer": "(x − 3)(x + 4) = x² + x − 12",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "−2x(3x − 1) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "−2x(3x − 1)",
+      "a": [
+        -6,
+        2,
+        0
+      ]
+    },
+    "textPlain": "−2x(3x − 1) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: −2x(3x − 1).",
+    "correctAnswer": "−2x(3x − 1) = −6x² + 2x",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpim",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "(2x − 1)(3x + 2) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(2x − 1)(3x + 2)",
+      "a": [
+        6,
+        1,
+        -2
+      ]
+    },
+    "textPlain": "(2x − 1)(3x + 2) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (2x − 1)(3x + 2).",
+    "correctAnswer": "(2x − 1)(3x + 2) = 6x² + x − 2",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpim",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "(x + 3)(x − 3) + 2x(x + 1) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x + 3)(x − 3) + 2x(x + 1)",
+      "a": [
+        3,
+        2,
+        -9
+      ]
+    },
+    "textPlain": "(x + 3)(x − 3) + 2x(x + 1) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x + 3)(x − 3) + 2x(x + 1).",
+    "correctAnswer": "(x + 3)(x − 3) + 2x(x + 1) = 3x² + 2x − 9",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ozdeslik",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "(x + 3)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x + 3)²",
+      "a": [
+        1,
+        6,
+        9
+      ]
+    },
+    "textPlain": "(x + 3)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x + 3)².",
+    "correctAnswer": "(x + 3)² = x² + 6x + 9",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ozdeslik",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "(x − 5)(x + 5) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x − 5)(x + 5)",
+      "a": [
+        1,
+        0,
+        -25
+      ]
+    },
+    "textPlain": "(x − 5)(x + 5) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x − 5)(x + 5).",
+    "correctAnswer": "(x − 5)(x + 5) = x² − 25",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "(x − 4)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x − 4)²",
+      "a": [
+        1,
+        -8,
+        16
+      ]
+    },
+    "textPlain": "(x − 4)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x − 4)².",
+    "correctAnswer": "(x − 4)² = x² − 8x + 16",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "(2x + 1)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(2x + 1)²",
+      "a": [
+        4,
+        4,
+        1
+      ]
+    },
+    "textPlain": "(2x + 1)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (2x + 1)².",
+    "correctAnswer": "(2x + 1)² = 4x² + 4x + 1",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "(3x − 2)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(3x − 2)²",
+      "a": [
+        9,
+        -12,
+        4
+      ]
+    },
+    "textPlain": "(3x − 2)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (3x − 2)².",
+    "correctAnswer": "(3x − 2)² = 9x² − 12x + 4",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "(x + 2)² − (x − 2)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x + 2)² − (x − 2)²",
+      "a": [
+        0,
+        8,
+        0
+      ]
+    },
+    "textPlain": "(x + 2)² − (x − 2)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x + 2)² − (x − 2)².",
+    "correctAnswer": "(x + 2)² − (x − 2)² = 8x",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ifade-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        1,
+        3,
+        2
+      ],
+      "m": [
+        0,
+        0,
+        0
+      ],
+      "a": [
+        1,
+        3,
+        2
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 1 x², 3 x, 2 birim; negatif karolar: 0 x², 0 x, 0 birim.",
+    "correctAnswer": "x² + 3x + 2",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-ifade-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        2,
+        1,
+        4
+      ],
+      "m": [
+        0,
+        0,
+        1
+      ],
+      "a": [
+        2,
+        1,
+        3
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 2 x², 1 x, 4 birim; negatif karolar: 0 x², 0 x, 1 birim.",
+    "correctAnswer": "2x² + x + 3",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-ifade-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        1,
+        4,
+        3
+      ],
+      "m": [
+        0,
+        2,
+        5
+      ],
+      "a": [
+        1,
+        2,
+        -2
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 1 x², 4 x, 3 birim; negatif karolar: 0 x², 2 x, 5 birim.",
+    "correctAnswer": "x² + 2x − 2",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-ifade-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        2,
+        2,
+        0
+      ],
+      "m": [
+        1,
+        3,
+        2
+      ],
+      "a": [
+        1,
+        -1,
+        -2
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 2 x², 2 x, 0 birim; negatif karolar: 1 x², 3 x, 2 birim.",
+    "correctAnswer": "x² − x − 2",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-ifade-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ifade",
+    "rank": 3,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        3,
+        1,
+        4
+      ],
+      "m": [
+        2,
+        4,
+        4
+      ],
+      "a": [
+        1,
+        -3,
+        0
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 3 x², 1 x, 4 birim; negatif karolar: 2 x², 4 x, 4 birim.",
+    "correctAnswer": "x² − 3x",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-ifade-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ifade",
+    "rank": 3,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        1,
+        0,
+        6
+      ],
+      "m": [
+        2,
+        3,
+        1
+      ],
+      "a": [
+        -1,
+        -3,
+        5
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 1 x², 0 x, 6 birim; negatif karolar: 2 x², 3 x, 1 birim.",
+    "correctAnswer": "−x² − 3x + 5",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-problem-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "x + 2",
+        "x + 5"
+      ],
+      "q": "A",
+      "a": [
+        1,
+        7,
+        10
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: x + 2, x + 5.",
+    "correctAnswer": "x² + 7x + 10",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır."
+  },
+  {
+    "questionId": "mat8u6-problem-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "geo",
+    "prompt": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "x + 3",
+        "2x"
+      ],
+      "q": "P",
+      "a": [
+        0,
+        6,
+        6
+      ]
+    },
+    "textPlain": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: x + 3, 2x.",
+    "correctAnswer": "6x + 6",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır."
+  },
+  {
+    "questionId": "mat8u6-problem-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "sq",
+      "s": [
+        "x + 4"
+      ],
+      "q": "A",
+      "a": [
+        1,
+        8,
+        16
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: kare, kenarlar: x + 4.",
+    "correctAnswer": "x² + 8x + 16",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır. Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-problem-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "2x − 1",
+        "x + 3"
+      ],
+      "q": "A",
+      "a": [
+        2,
+        5,
+        -3
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: 2x − 1, x + 3.",
+    "correctAnswer": "2x² + 5x − 3",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır."
+  },
+  {
+    "questionId": "mat8u6-problem-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "geo",
+    "prompt": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "sq",
+      "s": [
+        "2x + 3"
+      ],
+      "q": "P",
+      "a": [
+        0,
+        8,
+        12
+      ]
+    },
+    "textPlain": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla. Şekil: kare, kenarlar: 2x + 3.",
+    "correctAnswer": "8x + 12",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır. Karenin çevresi 4 × kenar."
+  },
+  {
+    "questionId": "mat8u6-problem-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "L",
+      "s": [
+        "x",
+        "3"
+      ],
+      "q": "A",
+      "a": [
+        1,
+        0,
+        -9
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: büyük kareden küçük kare çıkarılmış şekil, kenarlar: x, 3.",
+    "correctAnswer": "x² − 9",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur. Kenarı x olan kareden kenarı 3 olan kare çıkarılınca kalan alan x² − 9 = (x − 3)(x + 3) olur."
+  },
+  {
+    "questionId": "mat8u6-problem-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "sq",
+      "s": [
+        "3x − 2"
+      ],
+      "q": "A",
+      "a": [
+        9,
+        -12,
+        4
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: kare, kenarlar: 3x − 2.",
+    "correctAnswer": "9x² − 12x + 4",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır. Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-problem-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "L",
+      "s": [
+        "x + 2",
+        "x"
+      ],
+      "q": "A",
+      "a": [
+        0,
+        4,
+        4
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: büyük kareden küçük kare çıkarılmış şekil, kenarlar: x + 2, x.",
+    "correctAnswer": "4x + 4",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur. (x + 2)² − x² = 4x + 4."
+  },
+  {
+    "questionId": "mat8u6-problem-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "geo",
+    "prompt": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "x + 5",
+        "x − 5"
+      ],
+      "q": "P",
+      "a": [
+        0,
+        4,
+        0
+      ]
+    },
+    "textPlain": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: x + 5, x − 5.",
+    "correctAnswer": "4x",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır. Çevre 2 × (x + 5 + x − 5) = 4x."
+  },
+  {
+    "questionId": "mat8u6-carpim-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "box",
+    "prompt": "(x + 3)(x + 2) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "x",
+        "3"
+      ],
+      "c": [
+        "x",
+        "2"
+      ],
+      "g": [
+        [
+          "x²",
+          "2x"
+        ],
+        [
+          "3x",
+          "6"
+        ]
+      ],
+      "x": [
+        "5x",
+        "5"
+      ]
+    },
+    "textPlain": "(x + 3)(x + 2) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: x, 3; sütunlar: x, 2.",
+    "correctAnswer": "Hücreler: x·x = x², x·2 = 2x, 3·x = 3x, 3·2 = 6; sonuç x² + 5x + 6",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "box",
+    "prompt": "(x + 4)(x + 1) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "x",
+        "4"
+      ],
+      "c": [
+        "x",
+        "1"
+      ],
+      "g": [
+        [
+          "x²",
+          "x"
+        ],
+        [
+          "4x",
+          "4"
+        ]
+      ],
+      "x": [
+        "5",
+        "4x²"
+      ]
+    },
+    "textPlain": "(x + 4)(x + 1) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: x, 4; sütunlar: x, 1.",
+    "correctAnswer": "Hücreler: x·x = x², x·1 = x, 4·x = 4x, 4·1 = 4; sonuç x² + 5x + 4",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "box",
+    "prompt": "(2x + 1)(x − 3) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "2x",
+        "1"
+      ],
+      "c": [
+        "x",
+        "−3"
+      ],
+      "g": [
+        [
+          "2x²",
+          "−6x"
+        ],
+        [
+          "x",
+          "−3"
+        ]
+      ],
+      "x": [
+        "6x",
+        "3"
+      ]
+    },
+    "textPlain": "(2x + 1)(x − 3) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: 2x, 1; sütunlar: x, −3.",
+    "correctAnswer": "Hücreler: 2x·x = 2x², 2x·−3 = −6x, 1·x = x, 1·−3 = −3; sonuç 2x² − 5x − 3",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "box",
+    "prompt": "(x − 5)(x − 2) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "x",
+        "−5"
+      ],
+      "c": [
+        "x",
+        "−2"
+      ],
+      "g": [
+        [
+          "x²",
+          "−2x"
+        ],
+        [
+          "−5x",
+          "10"
+        ]
+      ],
+      "x": [
+        "−10",
+        "2x"
+      ]
+    },
+    "textPlain": "(x − 5)(x − 2) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: x, −5; sütunlar: x, −2.",
+    "correctAnswer": "Hücreler: x·x = x², x·−2 = −2x, −5·x = −5x, −5·−2 = 10; sonuç x² − 7x + 10",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpim",
+    "rank": 3,
+    "type": "box",
+    "prompt": "(3x + 2)(2x − 5) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "3x",
+        "2"
+      ],
+      "c": [
+        "2x",
+        "−5"
+      ],
+      "g": [
+        [
+          "6x²",
+          "−15x"
+        ],
+        [
+          "4x",
+          "−10"
+        ]
+      ],
+      "x": [
+        "5x²",
+        "10"
+      ]
+    },
+    "textPlain": "(3x + 2)(2x − 5) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: 3x, 2; sütunlar: 2x, −5.",
+    "correctAnswer": "Hücreler: 3x·2x = 6x², 3x·−5 = −15x, 2·2x = 4x, 2·−5 = −10; sonuç 6x² − 11x − 10",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpim",
+    "rank": 3,
+    "type": "box",
+    "prompt": "(2x − 3)(2x + 3) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "2x",
+        "−3"
+      ],
+      "c": [
+        "2x",
+        "3"
+      ],
+      "g": [
+        [
+          "4x²",
+          "6x"
+        ],
+        [
+          "−6x",
+          "−9"
+        ]
+      ],
+      "x": [
+        "−6",
+        "9"
+      ]
+    },
+    "textPlain": "(2x − 3)(2x + 3) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: 2x, −3; sütunlar: 2x, 3.",
+    "correctAnswer": "Hücreler: 2x·2x = 4x², 2x·3 = 6x, −3·2x = −6x, −3·3 = −9; sonuç 4x² − 9",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "box",
+    "prompt": "(x + 6)(x + 6) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "x",
+        "6"
+      ],
+      "c": [
+        "x",
+        "6"
+      ],
+      "g": [
+        [
+          "x²",
+          "6x"
+        ],
+        [
+          "6x",
+          "36"
+        ]
+      ],
+      "x": [
+        "12x",
+        "12"
+      ]
+    },
+    "textPlain": "(x + 6)(x + 6) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: x, 6; sütunlar: x, 6.",
+    "correctAnswer": "Hücreler: x·x = x², x·6 = 6x, 6·x = 6x, 6·6 = 36; sonuç x² + 12x + 36",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ozdeslik",
+    "rank": 1,
+    "type": "model",
+    "prompt": "(a + b)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "sq",
+      "a": "a",
+      "b": "b",
+      "c": [
+        "a²",
+        "ab",
+        "ab",
+        "b²",
+        "2a",
+        "a + b"
+      ],
+      "ans": [
+        "a²",
+        "ab",
+        "ab",
+        "b²"
+      ]
+    },
+    "textPlain": "(a + b)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı a + b olan kare.",
+    "correctAnswer": "Bölgeler: 1) a², 2) ab, 3) ab, 4) b²",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ozdeslik",
+    "rank": 1,
+    "type": "model",
+    "prompt": "(x + 2)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "sq",
+      "a": "x",
+      "b": "2",
+      "c": [
+        "x²",
+        "2x",
+        "2x",
+        "4",
+        "x + 2",
+        "2"
+      ],
+      "ans": [
+        "x²",
+        "2x",
+        "2x",
+        "4"
+      ]
+    },
+    "textPlain": "(x + 2)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı x + 2 olan kare.",
+    "correctAnswer": "Bölgeler: 1) x², 2) 2x, 3) 2x, 4) 4",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "model",
+    "prompt": "(x + 5)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "sq",
+      "a": "x",
+      "b": "5",
+      "c": [
+        "x²",
+        "5x",
+        "5x",
+        "25",
+        "10",
+        "x²"
+      ],
+      "ans": [
+        "x²",
+        "5x",
+        "5x",
+        "25"
+      ]
+    },
+    "textPlain": "(x + 5)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı x + 5 olan kare.",
+    "correctAnswer": "Bölgeler: 1) x², 2) 5x, 3) 5x, 4) 25",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "model",
+    "prompt": "a² − b² modeli: kareden küçük kare çıkarıldı. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "diff",
+      "a": "a",
+      "b": "b",
+      "c": [
+        "a(a − b)",
+        "b(a − b)",
+        "b²",
+        "ab"
+      ],
+      "ans": [
+        "a(a − b)",
+        "b(a − b)"
+      ]
+    },
+    "textPlain": "a² − b² modeli: kareden küçük kare çıkarıldı. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı a olan kareden kenarı b olan kare çıkarılmış.",
+    "correctAnswer": "Bölgeler: 1) a(a − b), 2) b(a − b)",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "model",
+    "prompt": "x² − 9 modeli: kareden küçük kare çıkarıldı. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "diff",
+      "a": "x",
+      "b": "3",
+      "c": [
+        "x(x − 3)",
+        "3(x − 3)",
+        "9",
+        "3x"
+      ],
+      "ans": [
+        "x(x − 3)",
+        "3(x − 3)"
+      ]
+    },
+    "textPlain": "x² − 9 modeli: kareden küçük kare çıkarıldı. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı x olan kareden kenarı 3 olan kare çıkarılmış.",
+    "correctAnswer": "Bölgeler: 1) x(x − 3), 2) 3(x − 3)",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "model",
+    "prompt": "(2x + 3)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "sq",
+      "a": "2x",
+      "b": "3",
+      "c": [
+        "4x²",
+        "6x",
+        "6x",
+        "9",
+        "2x²",
+        "5x"
+      ],
+      "ans": [
+        "4x²",
+        "6x",
+        "6x",
+        "9"
+      ]
+    },
+    "textPlain": "(2x + 3)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı 2x + 3 olan kare.",
+    "correctAnswer": "Bölgeler: 1) 4x², 2) 6x, 3) 6x, 4) 9",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ozdeslik",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "(x + 1)²",
+          "x² + 2x + 1"
+        ],
+        [
+          "(x − 1)²",
+          "x² − 2x + 1"
+        ],
+        [
+          "(x − 1)(x + 1)",
+          "x² − 1"
+        ]
+      ],
+      "x": []
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: (x + 1)², (x − 1)², (x − 1)(x + 1). Parçalar: x² + 2x + 1, x² − 2x + 1, x² − 1.",
+    "correctAnswer": "(x + 1)² = x² + 2x + 1 | (x − 1)² = x² − 2x + 1 | (x − 1)(x + 1) = x² − 1",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "(x + 4)²",
+          "x² + 8x + 16"
+        ],
+        [
+          "(x − 4)²",
+          "x² − 8x + 16"
+        ],
+        [
+          "(x − 4)(x + 4)",
+          "x² − 16"
+        ]
+      ],
+      "x": [
+        "x² + 16"
+      ]
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: (x + 4)², (x − 4)², (x − 4)(x + 4). Parçalar: x² + 8x + 16, x² − 8x + 16, x² − 16, x² + 16.",
+    "correctAnswer": "(x + 4)² = x² + 8x + 16 | (x − 4)² = x² − 8x + 16 | (x − 4)(x + 4) = x² − 16",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "(2x − 3)²",
+          "4x² − 12x + 9"
+        ],
+        [
+          "(2x + 3)²",
+          "4x² + 12x + 9"
+        ],
+        [
+          "(2x − 3)(2x + 3)",
+          "4x² − 9"
+        ]
+      ],
+      "x": [
+        "4x² − 6x + 9"
+      ]
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: (2x − 3)², (2x + 3)², (2x − 3)(2x + 3). Parçalar: 4x² − 12x + 9, 4x² + 12x + 9, 4x² − 9, 4x² − 6x + 9.",
+    "correctAnswer": "(2x − 3)² = 4x² − 12x + 9 | (2x + 3)² = 4x² + 12x + 9 | (2x − 3)(2x + 3) = 4x² − 9",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-carpan-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpan",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "3x + 12",
+          "3(x + 4)"
+        ],
+        [
+          "5x − 10",
+          "5(x − 2)"
+        ],
+        [
+          "x² + 7x",
+          "x(x + 7)"
+        ]
+      ],
+      "x": []
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: 3x + 12, 5x − 10, x² + 7x. Parçalar: 3(x + 4), 5(x − 2), x(x + 7).",
+    "correctAnswer": "3x + 12 = 3(x + 4) | 5x − 10 = 5(x − 2) | x² + 7x = x(x + 7)",
+    "explanation": "Ortak çarpan parantezine alınırken her terimde ortak olan çarpan dışarı yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "x² − 49",
+          "(x − 7)(x + 7)"
+        ],
+        [
+          "x² + 6x + 9",
+          "(x + 3)²"
+        ],
+        [
+          "x² − 10x + 25",
+          "(x − 5)²"
+        ]
+      ],
+      "x": [
+        "(x − 3)²"
+      ]
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: x² − 49, x² + 6x + 9, x² − 10x + 25. Parçalar: (x − 7)(x + 7), (x + 3)², (x − 5)², (x − 3)².",
+    "correctAnswer": "x² − 49 = (x − 7)(x + 7) | x² + 6x + 9 = (x + 3)² | x² − 10x + 25 = (x − 5)²",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-carpan-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpan",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "9x² − 1",
+          "(3x − 1)(3x + 1)"
+        ],
+        [
+          "4x² + 4x + 1",
+          "(2x + 1)²"
+        ],
+        [
+          "2x² − 8",
+          "2(x − 2)(x + 2)"
+        ]
+      ],
+      "x": [
+        "(2x − 4)(x + 2)"
+      ]
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: 9x² − 1, 4x² + 4x + 1, 2x² − 8. Parçalar: (3x − 1)(3x + 1), (2x + 1)², 2(x − 2)(x + 2), (2x − 4)(x + 2).",
+    "correctAnswer": "9x² − 1 = (3x − 1)(3x + 1) | 4x² + 4x + 1 = (2x + 1)² | 2x² − 8 = 2(x − 2)(x + 2)",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur. 2x² − 8 = 2(x² − 4) = 2(x − 2)(x + 2)."
+  },
+  {
+    "questionId": "mat8u6-carpan-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpan",
+    "rank": 1,
+    "type": "factor",
+    "prompt": "4x + 8 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        0,
+        4,
+        8
+      ],
+      "f": "k",
+      "v": {
+        "k": 4,
+        "m": 2
+      }
+    },
+    "textPlain": "4x + 8 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 4x + 8. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "4x + 8 = 4(x + 2)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpan",
+    "rank": 1,
+    "type": "factor",
+    "prompt": "x² + 6x + 9 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        1,
+        6,
+        9
+      ],
+      "f": "sq",
+      "v": {
+        "p": 1,
+        "m": 3
+      }
+    },
+    "textPlain": "x² + 6x + 9 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: x² + 6x + 9. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "x² + 6x + 9 = (x + 3)²",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpan",
+    "rank": 1,
+    "type": "factor",
+    "prompt": "x² − 16 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        1,
+        0,
+        -16
+      ],
+      "f": "diff",
+      "v": {
+        "p": 1,
+        "m": 4
+      }
+    },
+    "textPlain": "x² − 16 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: x² − 16. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "x² − 16 = (x − 4)(x + 4)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "factor",
+    "prompt": "6x − 18 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        0,
+        6,
+        -18
+      ],
+      "f": "k",
+      "v": {
+        "k": 6,
+        "m": -3
+      }
+    },
+    "textPlain": "6x − 18 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 6x − 18. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "6x − 18 = 6(x − 3)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "factor",
+    "prompt": "x² − 12x + 36 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        1,
+        -12,
+        36
+      ],
+      "f": "sq",
+      "v": {
+        "p": 1,
+        "m": -6
+      }
+    },
+    "textPlain": "x² − 12x + 36 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: x² − 12x + 36. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "x² − 12x + 36 = (x − 6)²",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "factor",
+    "prompt": "3x² + 12x ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        3,
+        12,
+        0
+      ],
+      "f": "kx",
+      "v": {
+        "k": 3,
+        "m": 4
+      }
+    },
+    "textPlain": "3x² + 12x ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 3x² + 12x. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "3x² + 12x = 3x(x + 4)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "factor",
+    "prompt": "4x² − 25 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        4,
+        0,
+        -25
+      ],
+      "f": "diff",
+      "v": {
+        "p": 2,
+        "m": 5
+      }
+    },
+    "textPlain": "4x² − 25 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 4x² − 25. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "4x² − 25 = (2x − 5)(2x + 5)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpan",
+    "rank": 3,
+    "type": "factor",
+    "prompt": "9x² + 6x + 1 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        9,
+        6,
+        1
+      ],
+      "f": "sq",
+      "v": {
+        "p": 3,
+        "m": 1
+      }
+    },
+    "textPlain": "9x² + 6x + 1 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 9x² + 6x + 1. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "9x² + 6x + 1 = (3x + 1)²",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpan",
+    "rank": 3,
+    "type": "factor",
+    "prompt": "4x² − 20x + 25 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        4,
+        -20,
+        25
+      ],
+      "f": "sq",
+      "v": {
+        "p": 2,
+        "m": -5
+      }
+    },
+    "textPlain": "4x² − 20x + 25 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 4x² − 20x + 25. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "4x² − 20x + 25 = (2x − 5)²",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpan",
+    "rank": 3,
+    "type": "factor",
+    "prompt": "9x² − 64 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        9,
+        0,
+        -64
+      ],
+      "f": "diff",
+      "v": {
+        "p": 3,
+        "m": 8
+      }
+    },
+    "textPlain": "9x² − 64 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 9x² − 64. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "9x² − 64 = (3x − 8)(3x + 8)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpan",
+    "rank": 3,
+    "type": "factor",
+    "prompt": "5x² − 15x ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        5,
+        -15,
+        0
+      ],
+      "f": "kx",
+      "v": {
+        "k": 5,
+        "m": -3
+      }
+    },
+    "textPlain": "5x² − 15x ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 5x² − 15x. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "5x² − 15x = 5x(x − 3)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-ifade-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Terimleri benzer terim gruplarına ayır.",
+    "data": {
+      "L": [
+        "🟦 x² terimi",
+        "🟩 x terimi",
+        "🟨 Sabit terim"
+      ],
+      "r": [
+        [
+          "3x²",
+          0
+        ],
+        [
+          "−5x",
+          1
+        ],
+        [
+          "7",
+          2
+        ],
+        [
+          "x",
+          1
+        ],
+        [
+          "−x²",
+          0
+        ],
+        [
+          "−2",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Terimleri benzer terim gruplarına ayır. Bölmeler: x² terimi, x terimi, Sabit terim. Kartlar: 3x², −5x, 7, x, −x², −2.",
+    "correctAnswer": "3x² → x² terimi | −5x → x terimi | 7 → Sabit terim | x → x terimi | −x² → x² terimi | −2 → Sabit terim",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır."
+  },
+  {
+    "questionId": "mat8u6-ifade-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Terim çiftlerini ayır.",
+    "data": {
+      "L": [
+        "✅ Benzer terim",
+        "❌ Benzer değil"
+      ],
+      "r": [
+        [
+          "2x ve −7x",
+          0
+        ],
+        [
+          "3x² ve 3x",
+          1
+        ],
+        [
+          "5 ve −1",
+          0
+        ],
+        [
+          "x² ve 4x²",
+          0
+        ],
+        [
+          "2x ve 2",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Terim çiftlerini ayır. Bölmeler: Benzer terim, Benzer değil. Kartlar: 2x ve −7x, 3x² ve 3x, 5 ve −1, x² ve 4x², 2x ve 2.",
+    "correctAnswer": "2x ve −7x → Benzer terim | 3x² ve 3x → Benzer değil | 5 ve −1 → Benzer terim | x² ve 4x² → Benzer terim | 2x ve 2 → Benzer değil",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Eşitlikleri ayır.",
+    "data": {
+      "L": [
+        "✅ Özdeşlik",
+        "❌ Özdeşlik değil"
+      ],
+      "r": [
+        [
+          "(x + 2)² = x² + 4x + 4",
+          0
+        ],
+        [
+          "(x + 2)² = x² + 4",
+          1
+        ],
+        [
+          "(x − 3)(x + 3) = x² − 9",
+          0
+        ],
+        [
+          "(x − 3)² = x² − 9",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Eşitlikleri ayır. Bölmeler: Özdeşlik, Özdeşlik değil. Kartlar: (x + 2)² = x² + 4x + 4, (x + 2)² = x² + 4, (x − 3)(x + 3) = x² − 9, (x − 3)² = x² − 9.",
+    "correctAnswer": "(x + 2)² = x² + 4x + 4 → Özdeşlik | (x + 2)² = x² + 4 → Özdeşlik değil | (x − 3)(x + 3) = x² − 9 → Özdeşlik | (x − 3)² = x² − 9 → Özdeşlik değil",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur. (a + b)² ≠ a² + b²: 2ab terimi unutulmamalıdır."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Eşitlikleri ayır.",
+    "data": {
+      "L": [
+        "✅ Özdeşlik",
+        "❌ Özdeşlik değil"
+      ],
+      "r": [
+        [
+          "(2x)² = 4x²",
+          0
+        ],
+        [
+          "(x + 1)(x − 1) = x² − 1",
+          0
+        ],
+        [
+          "(x − 5)² = x² − 10x − 25",
+          1
+        ],
+        [
+          "x² + 6x + 9 = (x + 3)²",
+          0
+        ],
+        [
+          "2(x + 4) = 2x + 4",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Eşitlikleri ayır. Bölmeler: Özdeşlik, Özdeşlik değil. Kartlar: (2x)² = 4x², (x + 1)(x − 1) = x² − 1, (x − 5)² = x² − 10x − 25, x² + 6x + 9 = (x + 3)², 2(x + 4) = 2x + 4.",
+    "correctAnswer": "(2x)² = 4x² → Özdeşlik | (x + 1)(x − 1) = x² − 1 → Özdeşlik | (x − 5)² = x² − 10x − 25 → Özdeşlik değil | x² + 6x + 9 = (x + 3)² → Özdeşlik | 2(x + 4) = 2x + 4 → Özdeşlik değil",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-carpan-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "İfadeleri çarpanlara ayırmada kullanılacak yönteme göre ayır.",
+    "data": {
+      "L": [
+        "📦 Ortak çarpan",
+        "🟰 İki kare farkı",
+        "🔲 Tam kare"
+      ],
+      "r": [
+        [
+          "5x − 15",
+          0
+        ],
+        [
+          "x² − 81",
+          1
+        ],
+        [
+          "x² + 14x + 49",
+          2
+        ],
+        [
+          "x² − 4x",
+          0
+        ],
+        [
+          "16 − x²",
+          1
+        ],
+        [
+          "x² − 2x + 1",
+          2
+        ]
+      ]
+    },
+    "textPlain": "İfadeleri çarpanlara ayırmada kullanılacak yönteme göre ayır. Bölmeler: Ortak çarpan, İki kare farkı, Tam kare. Kartlar: 5x − 15, x² − 81, x² + 14x + 49, x² − 4x, 16 − x², x² − 2x + 1.",
+    "correctAnswer": "5x − 15 → Ortak çarpan | x² − 81 → İki kare farkı | x² + 14x + 49 → Tam kare | x² − 4x → Ortak çarpan | 16 − x² → İki kare farkı | x² − 2x + 1 → Tam kare",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-ifade-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "key",
+    "prompt": "x = 3 için 2x + 5 ifadesinin değeri kaçtır?",
+    "data": {
+      "a": 11,
+      "u": ""
+    },
+    "textPlain": "x = 3 için 2x + 5 ifadesinin değeri kaçtır?",
+    "correctAnswer": "11",
+    "explanation": "2 · 3 + 5 = 11."
+  },
+  {
+    "questionId": "mat8u6-ifade-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "key",
+    "prompt": "x = 4 için x² − 3x + 2 ifadesinin değeri kaçtır?",
+    "data": {
+      "a": 6,
+      "u": ""
+    },
+    "textPlain": "x = 4 için x² − 3x + 2 ifadesinin değeri kaçtır?",
+    "correctAnswer": "6",
+    "explanation": "16 − 12 + 2 = 6."
+  },
+  {
+    "questionId": "mat8u6-ifade-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ifade",
+    "rank": 3,
+    "type": "key",
+    "prompt": "a = 5 ve b = 2 için (a − b)(a + b) ifadesinin değeri kaçtır?",
+    "data": {
+      "a": 21,
+      "u": ""
+    },
+    "textPlain": "a = 5 ve b = 2 için (a − b)(a + b) ifadesinin değeri kaçtır?",
+    "correctAnswer": "21",
+    "explanation": "a² − b² = 25 − 4 = 21."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "ozdeslik",
+    "rank": 3,
+    "type": "key",
+    "prompt": "99 · 101 işlemini özdeşlikle hesapla: sonuç kaçtır?",
+    "data": {
+      "a": 9999,
+      "u": ""
+    },
+    "textPlain": "99 · 101 işlemini özdeşlikle hesapla: sonuç kaçtır?",
+    "correctAnswer": "9999",
+    "explanation": "(100 − 1)(100 + 1) = 100² − 1² = 9999."
+  },
+  {
+    "questionId": "mat8u6-problem-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "x + y = 7 ve x · y = 10 ise x² + y² kaçtır?",
+    "data": {
+      "a": 29,
+      "u": ""
+    },
+    "textPlain": "x + y = 7 ve x · y = 10 ise x² + y² kaçtır?",
+    "correctAnswer": "29",
+    "explanation": "(x + y)² = x² + 2xy + y² → 49 = x² + y² + 20 → x² + y² = 29."
+  },
+  {
+    "questionId": "mat8u6-problem-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "a − b = 3 ve a + b = 11 ise a² − b² kaçtır?",
+    "data": {
+      "a": 33,
+      "u": ""
+    },
+    "textPlain": "a − b = 3 ve a + b = 11 ise a² − b² kaçtır?",
+    "correctAnswer": "33",
+    "explanation": "a² − b² = (a − b)(a + b) = 3 · 11 = 33."
+  },
+  {
+    "questionId": "mat8u6-problem-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "51² − 49² işleminin sonucu kaçtır?",
+    "data": {
+      "a": 200,
+      "u": ""
+    },
+    "textPlain": "51² − 49² işleminin sonucu kaçtır?",
+    "correctAnswer": "200",
+    "explanation": "(51 − 49)(51 + 49) = 2 · 100 = 200."
+  },
+  {
+    "questionId": "mat8u6-carpim-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "key",
+    "prompt": "(x + 2)(x + 3) çarpımında x’in katsayısı kaçtır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "(x + 2)(x + 3) çarpımında x’in katsayısı kaçtır?",
+    "correctAnswer": "5",
+    "explanation": "x · 3 + 2 · x = 5x."
+  },
+  {
+    "questionId": "mat8u6-ifade-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "ifade",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "7x − 3x + 2 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "7x − 3x + 2",
+      "a": [
+        0,
+        4,
+        2
+      ]
+    },
+    "textPlain": "7x − 3x + 2 ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 7x − 3x + 2.",
+    "correctAnswer": "7x − 3x + 2 = 4x + 2",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır."
+  },
+  {
+    "questionId": "mat8u6-ifade-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "−(x² − 2x) + 3x² − x ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "−(x² − 2x) + 3x² − x",
+      "a": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "−(x² − 2x) + 3x² − x ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: −(x² − 2x) + 3x² − x.",
+    "correctAnswer": "−(x² − 2x) + 3x² − x = 2x² + x",
+    "explanation": "Benzer terimler (aynı değişkenin aynı kuvveti) toplanıp çıkarılarak ifade sadeleştirilir; katsayılar toplanır, değişken kısmı aynı kalır. Parantezin önündeki eksi, içindeki her terimin işaretini değiştirir."
+  },
+  {
+    "questionId": "mat8u6-ifade-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        0,
+        3,
+        2
+      ],
+      "m": [
+        1,
+        1,
+        0
+      ],
+      "a": [
+        -1,
+        2,
+        2
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 0 x², 3 x, 2 birim; negatif karolar: 1 x², 1 x, 0 birim.",
+    "correctAnswer": "−x² + 2x + 2",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  },
+  {
+    "questionId": "mat8u6-ifade-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Sözel ifadeleri cebirsel ifadelerle eşleştir.",
+    "data": {
+      "p": [
+        [
+          "Bir sayının 3 katının 2 eksiği",
+          "3x − 2"
+        ],
+        [
+          "Bir sayının 2 eksiğinin 3 katı",
+          "3(x − 2)"
+        ],
+        [
+          "Bir sayının karesinin 5 fazlası",
+          "x² + 5"
+        ]
+      ],
+      "x": [
+        "3x + 2"
+      ]
+    },
+    "textPlain": "Sözel ifadeleri cebirsel ifadelerle eşleştir. Sol: Bir sayının 3 katının 2 eksiği, Bir sayının 2 eksiğinin 3 katı, Bir sayının karesinin 5 fazlası. Parçalar: 3x − 2, 3(x − 2), x² + 5, 3x + 2.",
+    "correctAnswer": "Bir sayının 3 katının 2 eksiği = 3x − 2 | Bir sayının 2 eksiğinin 3 katı = 3(x − 2) | Bir sayının karesinin 5 fazlası = x² + 5",
+    "explanation": "Sözel ifadeler cebirsel ifadeye çevrilirken işlem sırası korunur: “2 eksiğinin 3 katı” önce çıkarma, sonra çarpma demektir."
+  },
+  {
+    "questionId": "mat8u6-ifade-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Basit cebirsel ifadeler, benzer terimler ve değer hesaplama",
+    "outcome": "Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ifade",
+    "rank": 2,
+    "type": "key",
+    "prompt": "x = −2 için 3x² + x ifadesinin değeri kaçtır?",
+    "data": {
+      "a": 10,
+      "u": ""
+    },
+    "textPlain": "x = −2 için 3x² + x ifadesinin değeri kaçtır?",
+    "correctAnswer": "10",
+    "explanation": "3 · 4 + (−2) = 10. Negatif sayının karesi pozitiftir."
+  },
+  {
+    "questionId": "mat8u6-carpim-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "poly",
+    "prompt": "2x(x + 3) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "2x(x + 3)",
+      "a": [
+        2,
+        6,
+        0
+      ]
+    },
+    "textPlain": "2x(x + 3) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: 2x(x + 3).",
+    "correctAnswer": "2x(x + 3) = 2x² + 6x",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "poly",
+    "prompt": "(x + 6)(x − 1) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x + 6)(x − 1)",
+      "a": [
+        1,
+        5,
+        -6
+      ]
+    },
+    "textPlain": "(x + 6)(x − 1) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x + 6)(x − 1).",
+    "correctAnswer": "(x + 6)(x − 1) = x² + 5x − 6",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "carpim",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "(4x + 1)(x − 2) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(4x + 1)(x − 2)",
+      "a": [
+        4,
+        -7,
+        -2
+      ]
+    },
+    "textPlain": "(4x + 1)(x − 2) ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (4x + 1)(x − 2).",
+    "correctAnswer": "(4x + 1)(x − 2) = 4x² − 7x − 2",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpim",
+    "rank": 1,
+    "type": "box",
+    "prompt": "(x + 5)(x + 3) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "x",
+        "5"
+      ],
+      "c": [
+        "x",
+        "3"
+      ],
+      "g": [
+        [
+          "x²",
+          "3x"
+        ],
+        [
+          "5x",
+          "15"
+        ]
+      ],
+      "x": [
+        "8x",
+        "8"
+      ]
+    },
+    "textPlain": "(x + 5)(x + 3) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: x, 5; sütunlar: x, 3.",
+    "correctAnswer": "Hücreler: x·x = x², x·3 = 3x, 5·x = 5x, 5·3 = 15; sonuç x² + 8x + 15",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "box",
+    "prompt": "(x − 4)(2x + 1) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle.",
+    "data": {
+      "r": [
+        "x",
+        "−4"
+      ],
+      "c": [
+        "2x",
+        "1"
+      ],
+      "g": [
+        [
+          "2x²",
+          "x"
+        ],
+        [
+          "−8x",
+          "−4"
+        ]
+      ],
+      "x": [
+        "−7x",
+        "4"
+      ]
+    },
+    "textPlain": "(x − 4)(2x + 1) çarpımı için tablonun hücrelerine doğru terim karolarını sürükle. Satırlar: x, −4; sütunlar: 2x, 1.",
+    "correctAnswer": "Hücreler: x·2x = 2x², x·1 = x, −4·2x = −8x, −4·1 = −4; sonuç 2x² − 7x − 4",
+    "explanation": "Dağılma özelliği: a(b + c) = ab + ac. İki terimli iki ifade çarpılırken birinci ifadenin her terimi ikincinin her terimiyle çarpılır, sonra benzer terimler toplanır."
+  },
+  {
+    "questionId": "mat8u6-carpim-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerin çarpımı",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpim",
+    "rank": 2,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "3x",
+        "x − 2"
+      ],
+      "q": "A",
+      "a": [
+        3,
+        -6,
+        0
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: 3x, x − 2.",
+    "correctAnswer": "3x² − 6x",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır."
+  },
+  {
+    "questionId": "mat8u6-ozdeslik-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Özdeşlikler ve modellerle açıklanması",
+    "outcome": "Özdeşlikleri modellerle açıklar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "ozdeslik",
+    "rank": 2,
+    "type": "model",
+    "prompt": "(x + 4)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle.",
+    "data": {
+      "k": "sq",
+      "a": "x",
+      "b": "4",
+      "c": [
+        "x²",
+        "4x",
+        "4x",
+        "16",
+        "8",
+        "8x"
+      ],
+      "ans": [
+        "x²",
+        "4x",
+        "4x",
+        "16"
+      ]
+    },
+    "textPlain": "(x + 4)² modeli. Alan modelindeki numaralı bölgelere doğru alan karolarını sürükle. Model: kenarı x + 4 olan kare.",
+    "correctAnswer": "Bölgeler: 1) x², 2) 4x, 3) 4x, 4) 16",
+    "explanation": "Özdeşlikler alan modelleriyle gösterilir: kenarı a + b olan kare; a², b² ve iki tane ab parçasından oluşur. Kenarı a olan kareden kenarı b olan kare çıkarılırsa kalan parça (a − b)(a + b) dikdörtgenine dönüştürülebilir."
+  },
+  {
+    "questionId": "mat8u6-carpan-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpan",
+    "rank": 1,
+    "type": "factor",
+    "prompt": "5x − 20 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        0,
+        5,
+        -20
+      ],
+      "f": "k",
+      "v": {
+        "k": 5,
+        "m": -4
+      }
+    },
+    "textPlain": "5x − 20 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 5x − 20. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "5x − 20 = 5(x − 4)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "factor",
+    "prompt": "2x² + 8x ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        2,
+        8,
+        0
+      ],
+      "f": "kx",
+      "v": {
+        "k": 2,
+        "m": 4
+      }
+    },
+    "textPlain": "2x² + 8x ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: 2x² + 8x. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "2x² + 8x = 2x(x + 4)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "carpan",
+    "rank": 1,
+    "type": "factor",
+    "prompt": "x² − 2x + 1 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        1,
+        -2,
+        1
+      ],
+      "f": "sq",
+      "v": {
+        "p": 1,
+        "m": -1
+      }
+    },
+    "textPlain": "x² − 2x + 1 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: x² − 2x + 1. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "x² − 2x + 1 = (x − 1)²",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "factor",
+    "prompt": "x² − 100 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla.",
+    "data": {
+      "t": [
+        1,
+        0,
+        -100
+      ],
+      "f": "diff",
+      "v": {
+        "p": 1,
+        "m": 10
+      }
+    },
+    "textPlain": "x² − 100 ifadesini çarpanlarına ayır: kalıbı seç ve sayıları ayarla. Hedef: x² − 100. Kalıplar: k(x + m), kx(x + m), (px + m)², (px − m)(px + m).",
+    "correctAnswer": "x² − 100 = (x − 10)(x + 10)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-carpan-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadeleri çarpanlarına ayırma",
+    "outcome": "Cebirsel ifadeleri çarpanlara ayırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "carpan",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Her ifadenin eşini yapboz parçasıyla yerleştir.",
+    "data": {
+      "p": [
+        [
+          "6x + 9",
+          "3(2x + 3)"
+        ],
+        [
+          "x² − 36",
+          "(x − 6)(x + 6)"
+        ],
+        [
+          "4x − x²",
+          "x(4 − x)"
+        ]
+      ],
+      "x": [
+        "(x − 6)²"
+      ]
+    },
+    "textPlain": "Her ifadenin eşini yapboz parçasıyla yerleştir. Sol: 6x + 9, x² − 36, 4x − x². Parçalar: 3(2x + 3), (x − 6)(x + 6), x(4 − x), (x − 6)².",
+    "correctAnswer": "6x + 9 = 3(2x + 3) | x² − 36 = (x − 6)(x + 6) | 4x − x² = x(4 − x)",
+    "explanation": "Çarpanlara ayırırken önce ortak çarpan aranır; sonra ifade a² − b² ya da a² ± 2ab + b² kalıbına uyuyorsa özdeşlikle yazılır."
+  },
+  {
+    "questionId": "mat8u6-problem-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "x",
+        "x + 6"
+      ],
+      "q": "A",
+      "a": [
+        1,
+        6,
+        0
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: x, x + 6.",
+    "correctAnswer": "x² + 6x",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır."
+  },
+  {
+    "questionId": "mat8u6-problem-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "geo",
+    "prompt": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "sq",
+      "s": [
+        "x − 1"
+      ],
+      "q": "P",
+      "a": [
+        0,
+        4,
+        -4
+      ]
+    },
+    "textPlain": "Şeklin çevresini gösteren ifadenin katsayılarını ayarla. Şekil: kare, kenarlar: x − 1.",
+    "correctAnswer": "4x − 4",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır. Karenin çevresi 4 × kenar."
+  },
+  {
+    "questionId": "mat8u6-problem-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "L",
+      "s": [
+        "x",
+        "1"
+      ],
+      "q": "A",
+      "a": [
+        1,
+        0,
+        -1
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: büyük kareden küçük kare çıkarılmış şekil, kenarlar: x, 1.",
+    "correctAnswer": "x² − 1",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-problem-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "geo",
+    "prompt": "Şeklin alanını gösteren ifadenin katsayılarını ayarla.",
+    "data": {
+      "k": "rect",
+      "s": [
+        "2x + 1",
+        "2x − 1"
+      ],
+      "q": "A",
+      "a": [
+        4,
+        0,
+        -1
+      ]
+    },
+    "textPlain": "Şeklin alanını gösteren ifadenin katsayılarını ayarla. Şekil: dikdörtgen, kenarlar: 2x + 1, 2x − 1.",
+    "correctAnswer": "4x² − 1",
+    "explanation": "Dikdörtgenin alanı kısa kenar × uzun kenar, çevresi 2 × (kısa kenar + uzun kenar) ile bulunur; ifadeler dağılma özelliğiyle açılır. Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-problem-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "kolay",
+    "group": "problem",
+    "rank": 1,
+    "type": "key",
+    "prompt": "Kenarı x + 3 olan karenin alanı x² + 6x + k ise k kaçtır?",
+    "data": {
+      "a": 9,
+      "u": ""
+    },
+    "textPlain": "Kenarı x + 3 olan karenin alanı x² + 6x + k ise k kaçtır?",
+    "correctAnswer": "9",
+    "explanation": "(x + 3)² = x² + 6x + 9."
+  },
+  {
+    "questionId": "mat8u6-problem-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "key",
+    "prompt": "Alanı x² + 10x + 25 olan karenin kenarı x + k ise k kaçtır?",
+    "data": {
+      "a": 5,
+      "u": ""
+    },
+    "textPlain": "Alanı x² + 10x + 25 olan karenin kenarı x + k ise k kaçtır?",
+    "correctAnswer": "5",
+    "explanation": "x² + 10x + 25 = (x + 5)²."
+  },
+  {
+    "questionId": "mat8u6-problem-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "poly",
+    "prompt": "(x + 1)² + (x − 1)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla.",
+    "data": {
+      "e": "(x + 1)² + (x − 1)²",
+      "a": [
+        2,
+        0,
+        2
+      ]
+    },
+    "textPlain": "(x + 1)² + (x − 1)² ifadesini sadeleştir: x², x ve sayı katsayılarını ayarla. İfade: (x + 1)² + (x − 1)².",
+    "correctAnswer": "(x + 1)² + (x − 1)² = 2x² + 2",
+    "explanation": "Özdeşlikler: (a + b)² = a² + 2ab + b²; (a − b)² = a² − 2ab + b²; (a − b)(a + b) = a² − b². Bu eşitlikler değişkenin her değeri için doğrudur."
+  },
+  {
+    "questionId": "mat8u6-problem-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "zor",
+    "group": "problem",
+    "rank": 3,
+    "type": "key",
+    "prompt": "Kenarları x + 4 ve x − 4 olan dikdörtgenin alanı 48 ise x² kaçtır?",
+    "data": {
+      "a": 64,
+      "u": ""
+    },
+    "textPlain": "Kenarları x + 4 ve x − 4 olan dikdörtgenin alanı 48 ise x² kaçtır?",
+    "correctAnswer": "64",
+    "explanation": "(x + 4)(x − 4) = x² − 16 = 48 → x² = 64."
+  },
+  {
+    "questionId": "mat8u6-problem-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "6. Ünite: Cebirsel İfadeler ve Özdeşlikler",
+    "topic": "Cebirsel ifadelerle alan ve çevre problemleri",
+    "outcome": "Cebirsel ifadelerin çarpımını yapar ve özdeşlikleri alan modelleriyle problemlerde kullanır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 6. Ünite “Cebirsel İfadeler ve Özdeşlikler”",
+    "difficulty": "orta",
+    "group": "problem",
+    "rank": 2,
+    "type": "tiles",
+    "prompt": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla.",
+    "data": {
+      "p": [
+        2,
+        3,
+        1
+      ],
+      "m": [
+        0,
+        0,
+        3
+      ],
+      "a": [
+        2,
+        3,
+        -2
+      ]
+    },
+    "textPlain": "Masadaki cebir karolarının gösterdiği ifadeyi sadeleştirerek katsayıları ayarla. Pozitif karolar: 2 x², 3 x, 1 birim; negatif karolar: 0 x², 0 x, 3 birim.",
+    "correctAnswer": "2x² + 3x − 2",
+    "explanation": "Cebir karolarında büyük kare x², uzun dikdörtgen x, küçük kare 1’i gösterir; kırmızı karolar negatiftir. Bir pozitif ve bir negatif aynı karo birbirini götürür (sıfır çifti)."
+  }
+]
