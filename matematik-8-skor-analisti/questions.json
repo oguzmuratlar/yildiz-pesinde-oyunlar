@@ -1,0 +1,4984 @@
+[
+  {
+    "questionId": "mat8u4-sutun-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Tablodaki sayı değerlerine göre sütunları sürükleyerek grafiği kur.",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar",
+        "Kaplanlar"
+      ],
+      "s": [
+        [
+          "Sayı",
+          "#3ae8a8",
+          [
+            40,
+            25,
+            35,
+            20
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tablodaki sayı değerlerine göre sütunları sürükleyerek grafiği kur. Tablo: Sayı: Kartallar 40, Şimşekler 25, Yıldızlar 35, Kaplanlar 20. Dikey eksen 0–50, birim 5.",
+    "correctAnswer": "Sütunlar: Sayı: Kartallar 40, Şimşekler 25, Yıldızlar 35, Kaplanlar 20",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Tablodaki seyirci sayılarına göre sütunları sürükleyerek grafiği kur.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme",
+        "Atletizm"
+      ],
+      "s": [
+        [
+          "Seyirci (yüz kişi)",
+          "#3ae8a8",
+          [
+            12,
+            8,
+            4,
+            10
+          ]
+        ]
+      ],
+      "mx": 14,
+      "st": 2,
+      "k": "bar",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tablodaki seyirci sayılarına göre sütunları sürükleyerek grafiği kur. Tablo: Seyirci (yüz kişi): Basketbol 12, Voleybol 8, Yüzme 4, Atletizm 10. Dikey eksen 0–14, birim 2.",
+    "correctAnswer": "Sütunlar: Seyirci (yüz kişi): Basketbol 12, Voleybol 8, Yüzme 4, Atletizm 10",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Tabloya göre sütunları kur (dikey eksen 10’ar artıyor).",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Antrenman (dk)",
+          "#3ae8a8",
+          [
+            60,
+            90,
+            40,
+            70,
+            80
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 10,
+      "k": "bar",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre sütunları kur (dikey eksen 10’ar artıyor). Tablo: Antrenman (dk): Pzt 60, Salı 90, Çrş 40, Prş 70, Cuma 80. Dikey eksen 0–100, birim 10.",
+    "correctAnswer": "Sütunlar: Antrenman (dk): Pzt 60, Salı 90, Çrş 40, Prş 70, Cuma 80",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Tabloya göre sütunları kur.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç"
+      ],
+      "s": [
+        [
+          "Atılan üçlük",
+          "#3ae8a8",
+          [
+            6,
+            9,
+            3,
+            12
+          ]
+        ]
+      ],
+      "mx": 12,
+      "st": 3,
+      "k": "bar",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre sütunları kur. Tablo: Atılan üçlük: 1. maç 6, 2. maç 9, 3. maç 3, 4. maç 12. Dikey eksen 0–12, birim 3.",
+    "correctAnswer": "Sütunlar: Atılan üçlük: 1. maç 6, 2. maç 9, 3. maç 3, 4. maç 12",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "sutun",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "İki takımın sayılarını tablodan okuyup çift sütunları kur.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            80,
+            65,
+            90,
+            70
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            75,
+            85,
+            60,
+            70
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "İki takımın sayılarını tablodan okuyup çift sütunları kur. Tablo: Kartallar: 1. maç 80, 2. maç 65, 3. maç 90, 4. maç 70 | Şimşekler: 1. maç 75, 2. maç 85, 3. maç 60, 4. maç 70. Dikey eksen 0–100, birim 5.",
+    "correctAnswer": "Sütunlar: Kartallar: 1. maç 80, 2. maç 65, 3. maç 90, 4. maç 70 | Şimşekler: 1. maç 75, 2. maç 85, 3. maç 60, 4. maç 70",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "sutun",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Tabloya göre çift sütunları kur (eksen 25’er artıyor).",
+    "data": {
+      "c": [
+        "1. dönem",
+        "2. dönem",
+        "3. dönem"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            150,
+            125,
+            200
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            175,
+            100,
+            225
+          ]
+        ]
+      ],
+      "mx": 250,
+      "st": 25,
+      "k": "bar",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre çift sütunları kur (eksen 25’er artıyor). Tablo: Kız: 1. dönem 150, 2. dönem 125, 3. dönem 200 | Erkek: 1. dönem 175, 2. dönem 100, 3. dönem 225. Dikey eksen 0–250, birim 25.",
+    "correctAnswer": "Sütunlar: Kız: 1. dönem 150, 2. dönem 125, 3. dönem 200 | Erkek: 1. dönem 175, 2. dönem 100, 3. dönem 225",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Grafikte en çok sayı atılan maçın sütununa dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Sayı",
+          "#3ae8a8",
+          [
+            72,
+            85,
+            64,
+            91,
+            78
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 10,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        3
+      ]
+    },
+    "textPlain": "Grafikte en çok sayı atılan maçın sütununa dokun. Grafik: Sayı: 1. maç 72, 2. maç 85, 3. maç 64, 4. maç 91, 5. maç 78.",
+    "correctAnswer": "Doğru seçim: 4. maç",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "30’dan fazla oyuncusu olan bütün branşların sütunlarına dokun.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme",
+        "Atletizm",
+        "Tenis"
+      ],
+      "s": [
+        [
+          "Oyuncu",
+          "#3ae8a8",
+          [
+            36,
+            24,
+            42,
+            30,
+            18
+          ]
+        ]
+      ],
+      "mx": 45,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        0,
+        2
+      ]
+    },
+    "textPlain": "30’dan fazla oyuncusu olan bütün branşların sütunlarına dokun. Grafik: Oyuncu: Basketbol 36, Voleybol 24, Yüzme 42, Atletizm 30, Tenis 18.",
+    "correctAnswer": "Doğru seçim: Basketbol, Yüzme",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. 30 dahil değildir."
+  },
+  {
+    "questionId": "mat8u4-sutun-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Seyirci sayısı ortalamanın üstünde olan maçların sütunlarına dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Seyirci (yüz)",
+          "#3ae8a8",
+          [
+            8,
+            12,
+            6,
+            14,
+            10
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 1,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Seyirci sayısı ortalamanın üstünde olan maçların sütunlarına dokun. Grafik: Seyirci (yüz): 1. maç 8, 2. maç 12, 3. maç 6, 4. maç 14, 5. maç 10.",
+    "correctAnswer": "Doğru seçim: 2. maç, 4. maç",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Ortalama (8 + 12 + 6 + 14 + 10) ÷ 5 = 10’dur; 12 ve 14 ortalamanın üstündedir."
+  },
+  {
+    "questionId": "mat8u4-sutun-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Değeri, en küçük değerin iki katı olan sütuna dokun.",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar",
+        "Kaplanlar"
+      ],
+      "s": [
+        [
+          "Galibiyet",
+          "#3ae8a8",
+          [
+            14,
+            7,
+            10,
+            12
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 1,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        0
+      ]
+    },
+    "textPlain": "Değeri, en küçük değerin iki katı olan sütuna dokun. Grafik: Galibiyet: Kartallar 14, Şimşekler 7, Yıldızlar 10, Kaplanlar 12.",
+    "correctAnswer": "Doğru seçim: Kartallar",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "sutun",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "İki maç arasındaki artışın en fazla olduğu ardışık iki maçın arasına dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Sayı",
+          "#3ae8a8",
+          [
+            60,
+            75,
+            70,
+            95,
+            100
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 10,
+      "k": "bar",
+      "u": "",
+      "m": "seg",
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "İki maç arasındaki artışın en fazla olduğu ardışık iki maçın arasına dokun. Grafik: Sayı: 1. maç 60, 2. maç 75, 3. maç 70, 4. maç 95, 5. maç 100.",
+    "correctAnswer": "Doğru seçim: 3. maç – 4. maç",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Artışlar: +15, −5, +25, +5; en fazla artış 3. maç ile 4. maç arasındadır."
+  },
+  {
+    "questionId": "mat8u4-sutun-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "Grafiğe göre 4 takımın galibiyetleri toplamı kaçtır?",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar",
+        "Kaplanlar"
+      ],
+      "s": [
+        [
+          "Galibiyet",
+          "#3ae8a8",
+          [
+            12,
+            8,
+            15,
+            5
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 1,
+      "k": "bar",
+      "u": "",
+      "a": 40
+    },
+    "textPlain": "Grafiğe göre 4 takımın galibiyetleri toplamı kaçtır? Grafik: Galibiyet: Kartallar 12, Şimşekler 8, Yıldızlar 15, Kaplanlar 5.",
+    "correctAnswer": "40",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "Grafiğe göre en çok ve en az seyirci gelen maçlar arasındaki fark kaç yüz kişidir?",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Seyirci (yüz)",
+          "#3ae8a8",
+          [
+            9,
+            14,
+            6,
+            11,
+            8
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 1,
+      "k": "bar",
+      "u": "",
+      "a": 8
+    },
+    "textPlain": "Grafiğe göre en çok ve en az seyirci gelen maçlar arasındaki fark kaç yüz kişidir? Grafik: Seyirci (yüz): 1. maç 9, 2. maç 14, 3. maç 6, 4. maç 11, 5. maç 8.",
+    "correctAnswer": "8",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "avg",
+    "prompt": "Günlük antrenman sürelerinin ortalamasını gösteren yatay çizgiyi sürükle.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Antrenman (dk)",
+          "#3ae8a8",
+          [
+            50,
+            70,
+            40,
+            80,
+            60
+          ]
+        ]
+      ],
+      "mx": 90,
+      "st": 10,
+      "k": "bar",
+      "u": "",
+      "a": 60,
+      "ser": 0
+    },
+    "textPlain": "Günlük antrenman sürelerinin ortalamasını gösteren yatay çizgiyi sürükle. Grafik: Antrenman (dk): Pzt 50, Salı 70, Çrş 40, Prş 80, Cuma 60.",
+    "correctAnswer": "Ortalama 60",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. (50 + 70 + 40 + 80 + 60) ÷ 5 = 60."
+  },
+  {
+    "questionId": "mat8u4-sutun-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Grafikte Yüzme branşındaki sporcu sayısı, Tenis branşındakinin kaç katıdır?",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme",
+        "Atletizm",
+        "Tenis"
+      ],
+      "s": [
+        [
+          "Sporcu",
+          "#3ae8a8",
+          [
+            30,
+            20,
+            45,
+            25,
+            15
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 3
+    },
+    "textPlain": "Grafikte Yüzme branşındaki sporcu sayısı, Tenis branşındakinin kaç katıdır? Grafik: Sporcu: Basketbol 30, Voleybol 20, Yüzme 45, Atletizm 25, Tenis 15.",
+    "correctAnswer": "3",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. 45 ÷ 15 = 3."
+  },
+  {
+    "questionId": "mat8u4-sutun-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "sutun",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Kartalların toplam sayısı Şimşeklerinkinden kaç fazladır?",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            80,
+            70,
+            90,
+            75
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            70,
+            85,
+            65,
+            60
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 35
+    },
+    "textPlain": "Kartalların toplam sayısı Şimşeklerinkinden kaç fazladır? Grafik: Kartallar: 1. maç 80, 2. maç 70, 3. maç 90, 4. maç 75 | Şimşekler: 1. maç 70, 2. maç 85, 3. maç 65, 4. maç 60.",
+    "correctAnswer": "35",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. 315 − 280 = 35."
+  },
+  {
+    "questionId": "mat8u4-sutun-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren sütun grafiğine dokun.",
+    "data": {
+      "c": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "v": [
+        4,
+        7,
+        2,
+        6
+      ],
+      "o": [
+        [
+          4,
+          7,
+          2,
+          6
+        ],
+        [
+          4,
+          7,
+          6,
+          2
+        ],
+        [
+          7,
+          4,
+          2,
+          6
+        ]
+      ],
+      "a": 0,
+      "mx": 8,
+      "st": 1,
+      "k": "bar"
+    },
+    "textPlain": "Tabloyu doğru gösteren sütun grafiğine dokun. Tablo: A 4, B 7, C 2, D 6.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren sütun grafiğine dokun.",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar",
+        "Kaplanlar"
+      ],
+      "v": [
+        30,
+        45,
+        20,
+        35
+      ],
+      "o": [
+        [
+          35,
+          45,
+          20,
+          30
+        ],
+        [
+          30,
+          40,
+          20,
+          35
+        ],
+        [
+          30,
+          45,
+          20,
+          35
+        ]
+      ],
+      "a": 2,
+      "mx": 50,
+      "st": 5,
+      "k": "bar"
+    },
+    "textPlain": "Tabloyu doğru gösteren sütun grafiğine dokun. Tablo: Kartallar 30, Şimşekler 45, Yıldızlar 20, Kaplanlar 35.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "sutun",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren sütun grafiğine dokun.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş"
+      ],
+      "v": [
+        12,
+        18,
+        15,
+        9
+      ],
+      "o": [
+        [
+          15,
+          18,
+          12,
+          9
+        ],
+        [
+          12,
+          18,
+          15,
+          12
+        ],
+        [
+          12,
+          18,
+          15,
+          9
+        ]
+      ],
+      "a": 2,
+      "mx": 20,
+      "st": 3,
+      "k": "bar"
+    },
+    "textPlain": "Tabloyu doğru gösteren sütun grafiğine dokun. Tablo: Pzt 12, Salı 18, Çrş 15, Prş 9.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "sutun",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren sütun grafiğine dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç"
+      ],
+      "v": [
+        250,
+        400,
+        325,
+        175
+      ],
+      "o": [
+        [
+          250,
+          375,
+          325,
+          175
+        ],
+        [
+          250,
+          400,
+          350,
+          175
+        ],
+        [
+          250,
+          400,
+          325,
+          175
+        ]
+      ],
+      "a": 2,
+      "mx": 450,
+      "st": 75,
+      "k": "bar"
+    },
+    "textPlain": "Tabloyu doğru gösteren sütun grafiğine dokun. Tablo: 1. maç 250, 2. maç 400, 3. maç 325, 4. maç 175.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-sutun-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "sutun",
+    "rank": 1,
+    "type": "avg",
+    "prompt": "Dört takımın galibiyet ortalamasını gösteren yatay çizgiyi sürükle.",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar",
+        "Kaplanlar"
+      ],
+      "s": [
+        [
+          "Galibiyet",
+          "#3ae8a8",
+          [
+            10,
+            6,
+            12,
+            8
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 1,
+      "k": "bar",
+      "u": "",
+      "a": 9,
+      "ser": 0
+    },
+    "textPlain": "Dört takımın galibiyet ortalamasını gösteren yatay çizgiyi sürükle. Grafik: Galibiyet: Kartallar 10, Şimşekler 6, Yıldızlar 12, Kaplanlar 8.",
+    "correctAnswer": "Ortalama 9",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. (10 + 6 + 12 + 8) ÷ 4 = 9. Ortalama çizgisinin üstündeki fazlalıklar alttaki eksiklikleri dengeler."
+  },
+  {
+    "questionId": "mat8u4-sutun-022",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Sütun grafiği oluşturma ve okuma",
+    "outcome": "Verileri sütun grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "sutun",
+    "rank": 3,
+    "type": "avg",
+    "prompt": "Beş maçın seyirci ortalamasını gösteren yatay çizgiyi sürükle.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Seyirci (yüz)",
+          "#3ae8a8",
+          [
+            12,
+            18,
+            9,
+            15,
+            21
+          ]
+        ]
+      ],
+      "mx": 25,
+      "st": 3,
+      "k": "bar",
+      "u": "",
+      "a": 15,
+      "ser": 0
+    },
+    "textPlain": "Beş maçın seyirci ortalamasını gösteren yatay çizgiyi sürükle. Grafik: Seyirci (yüz): 1. maç 12, 2. maç 18, 3. maç 9, 4. maç 15, 5. maç 21.",
+    "correctAnswer": "Ortalama 15",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. (12 + 18 + 9 + 15 + 21) ÷ 5 = 15."
+  },
+  {
+    "questionId": "mat8u4-cizgi-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "line",
+    "prompt": "Tablodaki değerlere göre noktaları sürükleyerek çizgi grafiğini kur.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "s": [
+        [
+          "Üye",
+          "#3ae8a8",
+          [
+            20,
+            30,
+            25,
+            40,
+            45
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tablodaki değerlere göre noktaları sürükleyerek çizgi grafiğini kur. Tablo: Üye: Ocak 20, Şubat 30, Mart 25, Nisan 40, Mayıs 45. Dikey eksen 0–50, birim 5.",
+    "correctAnswer": "Noktalar: Üye: Ocak 20, Şubat 30, Mart 25, Nisan 40, Mayıs 45",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "line",
+    "prompt": "Tabloya göre çizgi grafiğini kur.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Koşu (km)",
+          "#3ae8a8",
+          [
+            3,
+            5,
+            4,
+            6,
+            2
+          ]
+        ]
+      ],
+      "mx": 7,
+      "st": 1,
+      "k": "line",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre çizgi grafiğini kur. Tablo: Koşu (km): Pzt 3, Salı 5, Çrş 4, Prş 6, Cuma 2. Dikey eksen 0–7, birim 1.",
+    "correctAnswer": "Noktalar: Koşu (km): Pzt 3, Salı 5, Çrş 4, Prş 6, Cuma 2",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "line",
+    "prompt": "Tabloya göre çizgi grafiğini kur (eksen 20’şer artıyor).",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "s": [
+        [
+          "Bilet",
+          "#3ae8a8",
+          [
+            120,
+            160,
+            100,
+            180,
+            200,
+            140
+          ]
+        ]
+      ],
+      "mx": 200,
+      "st": 20,
+      "k": "line",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre çizgi grafiğini kur (eksen 20’şer artıyor). Tablo: Bilet: Ocak 120, Şubat 160, Mart 100, Nisan 180, Mayıs 200, Haziran 140. Dikey eksen 0–200, birim 20.",
+    "correctAnswer": "Noktalar: Bilet: Ocak 120, Şubat 160, Mart 100, Nisan 180, Mayıs 200, Haziran 140",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "line",
+    "prompt": "Tabloya göre çizgi grafiğini kur.",
+    "data": {
+      "c": [
+        "08.00",
+        "10.00",
+        "12.00",
+        "14.00",
+        "16.00"
+      ],
+      "s": [
+        [
+          "Sıcaklık (°C)",
+          "#3ae8a8",
+          [
+            12,
+            16,
+            22,
+            24,
+            18
+          ]
+        ]
+      ],
+      "mx": 26,
+      "st": 2,
+      "k": "line",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre çizgi grafiğini kur. Tablo: Sıcaklık (°C): 08.00 12, 10.00 16, 12.00 22, 14.00 24, 16.00 18. Dikey eksen 0–26, birim 2.",
+    "correctAnswer": "Noktalar: Sıcaklık (°C): 08.00 12, 10.00 16, 12.00 22, 14.00 24, 16.00 18",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "line",
+    "prompt": "İki takımın aylık taraftar sayılarını (bin) tablodan okuyup iki çizgiyi kur.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            12,
+            15,
+            18,
+            16,
+            21
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            18,
+            16,
+            15,
+            19,
+            21
+          ]
+        ]
+      ],
+      "mx": 24,
+      "st": 3,
+      "k": "line",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "İki takımın aylık taraftar sayılarını (bin) tablodan okuyup iki çizgiyi kur. Tablo: Kartallar: Ocak 12, Şubat 15, Mart 18, Nisan 16, Mayıs 21 | Şimşekler: Ocak 18, Şubat 16, Mart 15, Nisan 19, Mayıs 21. Dikey eksen 0–24, birim 3.",
+    "correctAnswer": "Noktalar: Kartallar: Ocak 12, Şubat 15, Mart 18, Nisan 16, Mayıs 21 | Şimşekler: Ocak 18, Şubat 16, Mart 15, Nisan 19, Mayıs 21",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "line",
+    "prompt": "Tabloya göre iki çizgiyi kur.",
+    "data": {
+      "c": [
+        "1. hafta",
+        "2. hafta",
+        "3. hafta",
+        "4. hafta"
+      ],
+      "s": [
+        [
+          "Ece",
+          "#3ae8a8",
+          [
+            25,
+            40,
+            35,
+            50
+          ]
+        ],
+        [
+          "Can",
+          "#ff7a3a",
+          [
+            30,
+            30,
+            45,
+            45
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "src": "table"
+    },
+    "textPlain": "Tabloya göre iki çizgiyi kur. Tablo: Ece: 1. hafta 25, 2. hafta 40, 3. hafta 35, 4. hafta 50 | Can: 1. hafta 30, 2. hafta 30, 3. hafta 45, 4. hafta 45. Dikey eksen 0–50, birim 5.",
+    "correctAnswer": "Noktalar: Ece: 1. hafta 25, 2. hafta 40, 3. hafta 35, 4. hafta 50 | Can: 1. hafta 30, 2. hafta 30, 3. hafta 45, 4. hafta 45",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Değerin bir önceki aya göre azaldığı bütün aralıklara dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "s": [
+        [
+          "Satış",
+          "#3ae8a8",
+          [
+            40,
+            55,
+            45,
+            60,
+            50
+          ]
+        ]
+      ],
+      "mx": 60,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Değerin bir önceki aya göre azaldığı bütün aralıklara dokun. Grafik: Satış: Ocak 40, Şubat 55, Mart 45, Nisan 60, Mayıs 50.",
+    "correctAnswer": "Doğru seçim: Şubat – Mart, Nisan – Mayıs",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Değişimin olmadığı aralığa dokun.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Ziyaretçi",
+          "#3ae8a8",
+          [
+            30,
+            45,
+            45,
+            60,
+            50
+          ]
+        ]
+      ],
+      "mx": 60,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        1
+      ]
+    },
+    "textPlain": "Değişimin olmadığı aralığa dokun. Grafik: Ziyaretçi: Pzt 30, Salı 45, Çrş 45, Prş 60, Cuma 50.",
+    "correctAnswer": "Doğru seçim: Salı – Çrş",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Çizgi yatay olduğunda değer değişmemiştir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Artışın en fazla olduğu aralığa dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "s": [
+        [
+          "Üye",
+          "#3ae8a8",
+          [
+            100,
+            140,
+            150,
+            210,
+            230,
+            240
+          ]
+        ]
+      ],
+      "mx": 250,
+      "st": 25,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "Artışın en fazla olduğu aralığa dokun. Grafik: Üye: Ocak 100, Şubat 140, Mart 150, Nisan 210, Mayıs 230, Haziran 240.",
+    "correctAnswer": "Doğru seçim: Mart – Nisan",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Artışlar 40, 10, 60, 20, 10; en dik yükselen aralık Mart–Nisan’dır."
+  },
+  {
+    "questionId": "mat8u4-cizgi-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Değeri 150’nin üstünde olan bütün ayların noktalarına dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "s": [
+        [
+          "Bilet",
+          "#3ae8a8",
+          [
+            120,
+            160,
+            140,
+            180,
+            150,
+            200
+          ]
+        ]
+      ],
+      "mx": 200,
+      "st": 20,
+      "k": "line",
+      "u": "",
+      "m": "cat",
+      "a": [
+        1,
+        3,
+        5
+      ]
+    },
+    "textPlain": "Değeri 150’nin üstünde olan bütün ayların noktalarına dokun. Grafik: Bilet: Ocak 120, Şubat 160, Mart 140, Nisan 180, Mayıs 150, Haziran 200.",
+    "correctAnswer": "Doğru seçim: Şubat, Nisan, Haziran",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. 150 dahil değildir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Azalışın en fazla olduğu aralığa dokun.",
+    "data": {
+      "c": [
+        "08.00",
+        "10.00",
+        "12.00",
+        "14.00",
+        "16.00",
+        "18.00"
+      ],
+      "s": [
+        [
+          "Sıcaklık",
+          "#3ae8a8",
+          [
+            14,
+            20,
+            26,
+            24,
+            17,
+            12
+          ]
+        ]
+      ],
+      "mx": 28,
+      "st": 2,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        3
+      ]
+    },
+    "textPlain": "Azalışın en fazla olduğu aralığa dokun. Grafik: Sıcaklık: 08.00 14, 10.00 20, 12.00 26, 14.00 24, 16.00 17, 18.00 12.",
+    "correctAnswer": "Doğru seçim: 14.00 – 16.00",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Azalışlar: 14.00–16.00 arası 7 derece, 16.00–18.00 arası 5 derece."
+  },
+  {
+    "questionId": "mat8u4-cizgi-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Bir önceki değere göre artışın 15’ten fazla olduğu bütün aralıklara dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "s": [
+        [
+          "Kayıt",
+          "#3ae8a8",
+          [
+            30,
+            50,
+            60,
+            80,
+            85,
+            105
+          ]
+        ]
+      ],
+      "mx": 120,
+      "st": 15,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        0,
+        2,
+        4
+      ]
+    },
+    "textPlain": "Bir önceki değere göre artışın 15’ten fazla olduğu bütün aralıklara dokun. Grafik: Kayıt: Ocak 30, Şubat 50, Mart 60, Nisan 80, Mayıs 85, Haziran 105.",
+    "correctAnswer": "Doğru seçim: Ocak – Şubat, Mart – Nisan, Mayıs – Haziran",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Artışlar: 20, 10, 20, 5, 20."
+  },
+  {
+    "questionId": "mat8u4-cizgi-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "Grafiğe göre Mart ayındaki üye sayısı, Ocak ayındakinden kaç fazladır?",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Üye",
+          "#3ae8a8",
+          [
+            25,
+            35,
+            50,
+            45
+          ]
+        ]
+      ],
+      "mx": 60,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "a": 25
+    },
+    "textPlain": "Grafiğe göre Mart ayındaki üye sayısı, Ocak ayındakinden kaç fazladır? Grafik: Üye: Ocak 25, Şubat 35, Mart 50, Nisan 45.",
+    "correctAnswer": "25",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Grafiğe göre 5 gün boyunca toplam kaç km koşulmuştur?",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Koşu (km)",
+          "#3ae8a8",
+          [
+            4,
+            6,
+            3,
+            5,
+            7
+          ]
+        ]
+      ],
+      "mx": 8,
+      "st": 1,
+      "k": "line",
+      "u": "",
+      "a": 25
+    },
+    "textPlain": "Grafiğe göre 5 gün boyunca toplam kaç km koşulmuştur? Grafik: Koşu (km): Pzt 4, Salı 6, Çrş 3, Prş 5, Cuma 7.",
+    "correctAnswer": "25",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Grafiğe göre en yüksek ve en düşük sıcaklık arasındaki fark kaç derecedir?",
+    "data": {
+      "c": [
+        "06.00",
+        "09.00",
+        "12.00",
+        "15.00",
+        "18.00"
+      ],
+      "s": [
+        [
+          "Sıcaklık (°C)",
+          "#3ae8a8",
+          [
+            8,
+            14,
+            22,
+            20,
+            12
+          ]
+        ]
+      ],
+      "mx": 24,
+      "st": 2,
+      "k": "line",
+      "u": "",
+      "a": 14
+    },
+    "textPlain": "Grafiğe göre en yüksek ve en düşük sıcaklık arasındaki fark kaç derecedir? Grafik: Sıcaklık (°C): 06.00 8, 09.00 14, 12.00 22, 15.00 20, 18.00 12.",
+    "correctAnswer": "14",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "avg",
+    "prompt": "6 aylık bilet satışlarının ortalamasını gösteren yatay çizgiyi sürükle.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "s": [
+        [
+          "Bilet",
+          "#3ae8a8",
+          [
+            140,
+            180,
+            120,
+            200,
+            160,
+            160
+          ]
+        ]
+      ],
+      "mx": 200,
+      "st": 20,
+      "k": "line",
+      "u": "",
+      "a": 160,
+      "ser": 0
+    },
+    "textPlain": "6 aylık bilet satışlarının ortalamasını gösteren yatay çizgiyi sürükle. Grafik: Bilet: Ocak 140, Şubat 180, Mart 120, Nisan 200, Mayıs 160, Haziran 160.",
+    "correctAnswer": "Ortalama 160",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Toplam 960, 960 ÷ 6 = 160."
+  },
+  {
+    "questionId": "mat8u4-cizgi-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Grafikteki artış her ay aynı biçimde sürerse Haziran’da kaç üye olur?",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "s": [
+        [
+          "Üye",
+          "#3ae8a8",
+          [
+            40,
+            55,
+            70,
+            85,
+            100
+          ]
+        ]
+      ],
+      "mx": 120,
+      "st": 10,
+      "k": "line",
+      "u": "",
+      "a": 115
+    },
+    "textPlain": "Grafikteki artış her ay aynı biçimde sürerse Haziran’da kaç üye olur? Grafik: Üye: Ocak 40, Şubat 55, Mart 70, Nisan 85, Mayıs 100.",
+    "correctAnswer": "115",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Her ay 15 artmaktadır: 100 + 15 = 115."
+  },
+  {
+    "questionId": "mat8u4-cizgi-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren çizgi grafiğine dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "v": [
+        10,
+        30,
+        20,
+        40
+      ],
+      "o": [
+        [
+          10,
+          30,
+          20,
+          40
+        ],
+        [
+          40,
+          20,
+          30,
+          10
+        ],
+        [
+          10,
+          20,
+          30,
+          40
+        ]
+      ],
+      "a": 0,
+      "mx": 40,
+      "st": 10,
+      "k": "line"
+    },
+    "textPlain": "Tabloyu doğru gösteren çizgi grafiğine dokun. Tablo: Ocak 10, Şubat 30, Mart 20, Nisan 40.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "cizgi",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren çizgi grafiğine dokun.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "v": [
+        6,
+        6,
+        9,
+        3,
+        12
+      ],
+      "o": [
+        [
+          6,
+          9,
+          9,
+          3,
+          12
+        ],
+        [
+          6,
+          6,
+          9,
+          3,
+          12
+        ],
+        [
+          6,
+          6,
+          9,
+          12,
+          3
+        ]
+      ],
+      "a": 1,
+      "mx": 12,
+      "st": 3,
+      "k": "line"
+    },
+    "textPlain": "Tabloyu doğru gösteren çizgi grafiğine dokun. Tablo: Pzt 6, Salı 6, Çrş 9, Prş 3, Cuma 12.",
+    "correctAnswer": "B grafiği",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "cizgi",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren çizgi grafiğine dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "v": [
+        45,
+        30,
+        60,
+        75,
+        60
+      ],
+      "o": [
+        [
+          45,
+          30,
+          60,
+          75,
+          60
+        ],
+        [
+          45,
+          30,
+          60,
+          60,
+          75
+        ],
+        [
+          30,
+          45,
+          60,
+          75,
+          60
+        ]
+      ],
+      "a": 0,
+      "mx": 75,
+      "st": 15,
+      "k": "line"
+    },
+    "textPlain": "Tabloyu doğru gösteren çizgi grafiğine dokun. Tablo: Ocak 45, Şubat 30, Mart 60, Nisan 75, Mayıs 60.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-cizgi-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çizgi grafiği oluşturma ve okuma",
+    "outcome": "Verileri çizgi grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "cizgi",
+    "rank": 1,
+    "type": "avg",
+    "prompt": "Beş günlük koşu mesafelerinin ortalamasını gösteren yatay çizgiyi sürükle.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Koşu (km)",
+          "#3ae8a8",
+          [
+            2,
+            4,
+            6,
+            3,
+            5
+          ]
+        ]
+      ],
+      "mx": 7,
+      "st": 1,
+      "k": "line",
+      "u": "",
+      "a": 4,
+      "ser": 0
+    },
+    "textPlain": "Beş günlük koşu mesafelerinin ortalamasını gösteren yatay çizgiyi sürükle. Grafik: Koşu (km): Pzt 2, Salı 4, Çrş 6, Prş 3, Cuma 5.",
+    "correctAnswer": "Ortalama 4",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. (2 + 4 + 6 + 3 + 5) ÷ 5 = 4."
+  },
+  {
+    "questionId": "mat8u4-daire-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol"
+      ],
+      "v": [
+        30,
+        30
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: Basketbol 30, Voleybol 30. Toplam 60.",
+    "correctAnswer": "Dilim açıları: Basketbol 180°, Voleybol 180°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme"
+      ],
+      "v": [
+        20,
+        10,
+        10
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: Basketbol 20, Voleybol 10, Yüzme 10. Toplam 40.",
+    "correctAnswer": "Dilim açıları: Basketbol 180°, Voleybol 90°, Yüzme 90°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar"
+      ],
+      "v": [
+        45,
+        30,
+        15
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: Kartallar 45, Şimşekler 30, Yıldızlar 15. Toplam 90.",
+    "correctAnswer": "Dilim açıları: Kartallar 180°, Şimşekler 120°, Yıldızlar 60°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "Koşu",
+        "Atlama",
+        "Atma",
+        "Yürüyüş"
+      ],
+      "v": [
+        12,
+        6,
+        9,
+        9
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: Koşu 12, Atlama 6, Atma 9, Yürüyüş 9. Toplam 36.",
+    "correctAnswer": "Dilim açıları: Koşu 120°, Atlama 60°, Atma 90°, Yürüyüş 90°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "Sabah",
+        "Öğle",
+        "Akşam"
+      ],
+      "v": [
+        50,
+        25,
+        25
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: Sabah 50, Öğle 25, Akşam 25. Toplam 100.",
+    "correctAnswer": "Dilim açıları: Sabah 180°, Öğle 90°, Akşam 90°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "v": [
+        36,
+        24,
+        48,
+        12
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: A 36, B 24, C 48, D 12. Toplam 120.",
+    "correctAnswer": "Dilim açıları: A 108°, B 72°, C 144°, D 36°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "pie",
+    "prompt": "Dilim sınırlarını sürükleyerek daire grafiğini kur.",
+    "data": {
+      "c": [
+        "Futsal",
+        "Hentbol",
+        "Tenis",
+        "Satranç"
+      ],
+      "v": [
+        10,
+        25,
+        15,
+        22
+      ],
+      "src": "table",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ]
+    },
+    "textPlain": "Dilim sınırlarını sürükleyerek daire grafiğini kur. Veriler: Futsal 10, Hentbol 25, Tenis 15, Satranç 22. Toplam 72.",
+    "correctAnswer": "Dilim açıları: Futsal 50°, Hentbol 125°, Tenis 75°, Satranç 110°",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "120 öğrencinin tercihleri daire grafiğinde. Basketbolu seçen kaç öğrenci vardır?",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme"
+      ],
+      "v": [
+        60,
+        40,
+        20
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "a": 60,
+      "deg": true
+    },
+    "textPlain": "120 öğrencinin tercihleri daire grafiğinde. Basketbolu seçen kaç öğrenci vardır? Daire grafiği açıları: Basketbol 180°, Voleybol 120°, Yüzme 60°.",
+    "correctAnswer": "60",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 180° dairenin yarısıdır: 120 ÷ 2 = 60."
+  },
+  {
+    "questionId": "mat8u4-daire-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "80 sporcu daire grafiğinde. Yüzme diliminde kaç sporcu vardır?",
+    "data": {
+      "c": [
+        "Atletizm",
+        "Yüzme",
+        "Tenis"
+      ],
+      "v": [
+        40,
+        20,
+        20
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "a": 20,
+      "deg": true
+    },
+    "textPlain": "80 sporcu daire grafiğinde. Yüzme diliminde kaç sporcu vardır? Daire grafiği açıları: Atletizm 180°, Yüzme 90°, Tenis 90°.",
+    "correctAnswer": "20",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 90° dairenin dörtte biridir: 80 ÷ 4 = 20."
+  },
+  {
+    "questionId": "mat8u4-daire-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "180 seyircinin tuttuğu takımlar daire grafiğinde. Yıldızlar’ı tutan kaç kişidir?",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar"
+      ],
+      "v": [
+        90,
+        60,
+        30
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "a": 30,
+      "deg": true
+    },
+    "textPlain": "180 seyircinin tuttuğu takımlar daire grafiğinde. Yıldızlar’ı tutan kaç kişidir? Daire grafiği açıları: Kartallar 180°, Şimşekler 120°, Yıldızlar 60°.",
+    "correctAnswer": "30",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Yıldızlar dilimi 60°: 180 × 60 ÷ 360 = 30."
+  },
+  {
+    "questionId": "mat8u4-daire-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "72 maçın sonuçları daire grafiğinde. Kaç maç berabere bitmiştir?",
+    "data": {
+      "c": [
+        "Galibiyet",
+        "Beraberlik",
+        "Mağlubiyet"
+      ],
+      "v": [
+        36,
+        12,
+        24
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "a": 12,
+      "deg": true
+    },
+    "textPlain": "72 maçın sonuçları daire grafiğinde. Kaç maç berabere bitmiştir? Daire grafiği açıları: Galibiyet 180°, Beraberlik 60°, Mağlubiyet 120°.",
+    "correctAnswer": "12",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Beraberlik dilimi 60°: 72 × 60 ÷ 360 = 12."
+  },
+  {
+    "questionId": "mat8u4-daire-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Daire grafiğinde Tenis diliminin merkez açısı kaç derecedir? (Toplam 90 sporcu, 15’i tenisçi.)",
+    "data": {
+      "c": [
+        "Tenis",
+        "Yüzme",
+        "Koşu"
+      ],
+      "v": [
+        15,
+        45,
+        30
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "a": 60,
+      "deg": true
+    },
+    "textPlain": "Daire grafiğinde Tenis diliminin merkez açısı kaç derecedir? (Toplam 90 sporcu, 15’i tenisçi.) Daire grafiği açıları: Tenis 60°, Yüzme 180°, Koşu 120°.",
+    "correctAnswer": "60",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 15 ÷ 90 × 360° = 60°."
+  },
+  {
+    "questionId": "mat8u4-daire-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Grafikte Voleybol’u seçen 24 kişidir. Toplam kaç kişi ankete katılmıştır?",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme",
+        "Tenis"
+      ],
+      "v": [
+        48,
+        24,
+        36,
+        12
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ],
+      "a": 120,
+      "deg": true
+    },
+    "textPlain": "Grafikte Voleybol’u seçen 24 kişidir. Toplam kaç kişi ankete katılmıştır? Daire grafiği açıları: Basketbol 144°, Voleybol 72°, Yüzme 108°, Tenis 36°.",
+    "correctAnswer": "120",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Voleybol dilimi 72° = 360°’nin 1/5’i; 24 × 5 = 120."
+  },
+  {
+    "questionId": "mat8u4-daire-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Grafikte Kartallar dilimi Yıldızlar diliminden 90 kişi fazladır. Toplam kaç kişi vardır?",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar"
+      ],
+      "v": [
+        150,
+        90,
+        60
+      ],
+      "k": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "a": 300,
+      "deg": true
+    },
+    "textPlain": "Grafikte Kartallar dilimi Yıldızlar diliminden 90 kişi fazladır. Toplam kaç kişi vardır? Daire grafiği açıları: Kartallar 180°, Şimşekler 108°, Yıldızlar 72°.",
+    "correctAnswer": "300",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Açı farkı 180° − 72° = 108° ve 90 kişiye karşılık gelir; 360° için 90 × 360 ÷ 108 = 300 kişi."
+  },
+  {
+    "questionId": "mat8u4-daire-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Daire grafiğindeki verilere göre sütunları kur.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme"
+      ],
+      "s": [
+        [
+          "Öğrenci",
+          "#3ae8a8",
+          [
+            20,
+            15,
+            25
+          ]
+        ]
+      ],
+      "mx": 30,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "src": "pie"
+    },
+    "textPlain": "Daire grafiğindeki verilere göre sütunları kur. Kaynak grafik: Öğrenci: Basketbol 20, Voleybol 15, Yüzme 25. Dikey eksen 0–30, birim 5.",
+    "correctAnswer": "Sütunlar: Öğrenci: Basketbol 20, Voleybol 15, Yüzme 25",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-daire-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Daire grafiğindeki verilere göre sütunları kur.",
+    "data": {
+      "c": [
+        "Galibiyet",
+        "Beraberlik",
+        "Mağlubiyet"
+      ],
+      "s": [
+        [
+          "Maç",
+          "#3ae8a8",
+          [
+            18,
+            6,
+            12
+          ]
+        ]
+      ],
+      "mx": 20,
+      "st": 2,
+      "k": "bar",
+      "u": "",
+      "src": "pie"
+    },
+    "textPlain": "Daire grafiğindeki verilere göre sütunları kur. Kaynak grafik: Maç: Galibiyet 18, Beraberlik 6, Mağlubiyet 12. Dikey eksen 0–20, birim 2.",
+    "correctAnswer": "Sütunlar: Maç: Galibiyet 18, Beraberlik 6, Mağlubiyet 12",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-daire-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Daire grafiğindeki verilere göre sütunları kur.",
+    "data": {
+      "c": [
+        "Kız",
+        "Erkek"
+      ],
+      "s": [
+        [
+          "Kişi",
+          "#3ae8a8",
+          [
+            10,
+            10
+          ]
+        ]
+      ],
+      "mx": 12,
+      "st": 2,
+      "k": "bar",
+      "u": "",
+      "src": "pie"
+    },
+    "textPlain": "Daire grafiğindeki verilere göre sütunları kur. Kaynak grafik: Kişi: Kız 10, Erkek 10. Dikey eksen 0–12, birim 2.",
+    "correctAnswer": "Sütunlar: Kişi: Kız 10, Erkek 10",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-daire-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren daire grafiğine dokun.",
+    "data": {
+      "c": [
+        "A",
+        "B",
+        "C"
+      ],
+      "v": [
+        30,
+        15,
+        15
+      ],
+      "o": [
+        [
+          30,
+          15,
+          15
+        ],
+        [
+          20,
+          20,
+          20
+        ],
+        [
+          15,
+          30,
+          15
+        ]
+      ],
+      "a": 0,
+      "mx": 0,
+      "st": 0,
+      "k": "pie"
+    },
+    "textPlain": "Tabloyu doğru gösteren daire grafiğine dokun. Tablo: A 30, B 15, C 15.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren daire grafiğine dokun.",
+    "data": {
+      "c": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "v": [
+        40,
+        20,
+        10,
+        10
+      ],
+      "o": [
+        [
+          40,
+          20,
+          10,
+          10
+        ],
+        [
+          40,
+          10,
+          20,
+          10
+        ],
+        [
+          30,
+          30,
+          10,
+          10
+        ]
+      ],
+      "a": 0,
+      "mx": 0,
+      "st": 0,
+      "k": "pie"
+    },
+    "textPlain": "Tabloyu doğru gösteren daire grafiğine dokun. Tablo: A 40, B 20, C 10, D 10.",
+    "correctAnswer": "A grafiği",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Tabloyu doğru gösteren daire grafiğine dokun.",
+    "data": {
+      "c": [
+        "A",
+        "B"
+      ],
+      "v": [
+        75,
+        25
+      ],
+      "o": [
+        [
+          50,
+          50
+        ],
+        [
+          75,
+          25
+        ],
+        [
+          25,
+          75
+        ]
+      ],
+      "a": 1,
+      "mx": 0,
+      "st": 0,
+      "k": "pie"
+    },
+    "textPlain": "Tabloyu doğru gösteren daire grafiğine dokun. Tablo: A 75, B 25.",
+    "correctAnswer": "B grafiği",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-daire-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "daire",
+    "rank": 1,
+    "type": "tfill",
+    "prompt": "Toplam 40 öğrenci var. Daire grafiğine bakarak tablodaki sayıları ayarla.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme"
+      ],
+      "v": [
+        20,
+        10,
+        10
+      ],
+      "src": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "T": 40
+    },
+    "textPlain": "Toplam 40 öğrenci var. Daire grafiğine bakarak tablodaki sayıları ayarla. Daire grafiği açıları: Basketbol 180°, Voleybol 90°, Yüzme 90°. Toplam 40.",
+    "correctAnswer": "Tablo: Basketbol 20, Voleybol 10, Yüzme 10",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 180° → 20, 90° → 10."
+  },
+  {
+    "questionId": "mat8u4-daire-022",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "daire",
+    "rank": 2,
+    "type": "tfill",
+    "prompt": "Toplam 60 sporcu var. Daire grafiğine bakarak tablodaki sayıları ayarla.",
+    "data": {
+      "c": [
+        "Koşu",
+        "Atlama",
+        "Atma"
+      ],
+      "v": [
+        30,
+        20,
+        10
+      ],
+      "src": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "T": 60
+    },
+    "textPlain": "Toplam 60 sporcu var. Daire grafiğine bakarak tablodaki sayıları ayarla. Daire grafiği açıları: Koşu 180°, Atlama 120°, Atma 60°. Toplam 60.",
+    "correctAnswer": "Tablo: Koşu 30, Atlama 20, Atma 10",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 180° → 30, 120° → 20, 60° → 10."
+  },
+  {
+    "questionId": "mat8u4-daire-023",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Daire grafiği oluşturma ve okuma",
+    "outcome": "Verileri daire grafiği ile gösterir ve yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "daire",
+    "rank": 3,
+    "type": "tfill",
+    "prompt": "Toplam 90 maç var. Daire grafiğine bakarak tablodaki sayıları ayarla.",
+    "data": {
+      "c": [
+        "Galibiyet",
+        "Beraberlik",
+        "Mağlubiyet"
+      ],
+      "v": [
+        45,
+        15,
+        30
+      ],
+      "src": "pie",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ],
+      "T": 90
+    },
+    "textPlain": "Toplam 90 maç var. Daire grafiğine bakarak tablodaki sayıları ayarla. Daire grafiği açıları: Galibiyet 180°, Beraberlik 60°, Mağlubiyet 120°. Toplam 90.",
+    "correctAnswer": "Tablo: Galibiyet 45, Beraberlik 15, Mağlubiyet 30",
+    "explanation": "Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 180° → 45, 60° → 15, 120° → 30."
+  },
+  {
+    "questionId": "mat8u4-donusum-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "bars",
+    "prompt": "Çizgi grafiğindeki verileri sütun grafiğine aktar.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Üye",
+          "#3ae8a8",
+          [
+            15,
+            25,
+            20,
+            30
+          ]
+        ]
+      ],
+      "mx": 30,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "src": "line"
+    },
+    "textPlain": "Çizgi grafiğindeki verileri sütun grafiğine aktar. Kaynak grafik: Üye: Ocak 15, Şubat 25, Mart 20, Nisan 30. Dikey eksen 0–30, birim 5.",
+    "correctAnswer": "Sütunlar: Üye: Ocak 15, Şubat 25, Mart 20, Nisan 30",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-donusum-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Çizgi grafiğindeki verileri sütun grafiğine aktar.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Ziyaretçi",
+          "#3ae8a8",
+          [
+            40,
+            60,
+            30,
+            70,
+            50
+          ]
+        ]
+      ],
+      "mx": 80,
+      "st": 10,
+      "k": "bar",
+      "u": "",
+      "src": "line"
+    },
+    "textPlain": "Çizgi grafiğindeki verileri sütun grafiğine aktar. Kaynak grafik: Ziyaretçi: Pzt 40, Salı 60, Çrş 30, Prş 70, Cuma 50. Dikey eksen 0–80, birim 10.",
+    "correctAnswer": "Sütunlar: Ziyaretçi: Pzt 40, Salı 60, Çrş 30, Prş 70, Cuma 50",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-donusum-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "bars",
+    "prompt": "Çizgi grafiğindeki iki veri grubunu çift sütunlu grafiğe aktar.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            6,
+            9,
+            12,
+            9
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            9,
+            6,
+            9,
+            15
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 3,
+      "k": "bar",
+      "u": "",
+      "src": "line"
+    },
+    "textPlain": "Çizgi grafiğindeki iki veri grubunu çift sütunlu grafiğe aktar. Kaynak grafik: Kartallar: Ocak 6, Şubat 9, Mart 12, Nisan 9 | Şimşekler: Ocak 9, Şubat 6, Mart 9, Nisan 15. Dikey eksen 0–15, birim 3.",
+    "correctAnswer": "Sütunlar: Kartallar: Ocak 6, Şubat 9, Mart 12, Nisan 9 | Şimşekler: Ocak 9, Şubat 6, Mart 9, Nisan 15",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-donusum-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bars",
+    "prompt": "Çizgi grafiğindeki verileri sütun grafiğine aktar.",
+    "data": {
+      "c": [
+        "1. hafta",
+        "2. hafta",
+        "3. hafta",
+        "4. hafta"
+      ],
+      "s": [
+        [
+          "Gol",
+          "#3ae8a8",
+          [
+            8,
+            12,
+            4,
+            16
+          ]
+        ]
+      ],
+      "mx": 16,
+      "st": 2,
+      "k": "bar",
+      "u": "",
+      "src": "line"
+    },
+    "textPlain": "Çizgi grafiğindeki verileri sütun grafiğine aktar. Kaynak grafik: Gol: 1. hafta 8, 2. hafta 12, 3. hafta 4, 4. hafta 16. Dikey eksen 0–16, birim 2.",
+    "correctAnswer": "Sütunlar: Gol: 1. hafta 8, 2. hafta 12, 3. hafta 4, 4. hafta 16",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-donusum-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "line",
+    "prompt": "Sütun grafiğindeki verileri çizgi grafiğine aktar.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Satış",
+          "#3ae8a8",
+          [
+            10,
+            20,
+            15,
+            25
+          ]
+        ]
+      ],
+      "mx": 30,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "src": "bars"
+    },
+    "textPlain": "Sütun grafiğindeki verileri çizgi grafiğine aktar. Kaynak grafik: Satış: Ocak 10, Şubat 20, Mart 15, Nisan 25. Dikey eksen 0–30, birim 5.",
+    "correctAnswer": "Noktalar: Satış: Ocak 10, Şubat 20, Mart 15, Nisan 25",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-donusum-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "line",
+    "prompt": "Sütun grafiğindeki verileri çizgi grafiğine aktar.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Antrenman (dk)",
+          "#3ae8a8",
+          [
+            45,
+            60,
+            30,
+            75,
+            60
+          ]
+        ]
+      ],
+      "mx": 90,
+      "st": 15,
+      "k": "line",
+      "u": "",
+      "src": "bars"
+    },
+    "textPlain": "Sütun grafiğindeki verileri çizgi grafiğine aktar. Kaynak grafik: Antrenman (dk): Pzt 45, Salı 60, Çrş 30, Prş 75, Cuma 60. Dikey eksen 0–90, birim 15.",
+    "correctAnswer": "Noktalar: Antrenman (dk): Pzt 45, Salı 60, Çrş 30, Prş 75, Cuma 60",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-donusum-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "line",
+    "prompt": "Çift sütunlu grafikteki iki veri grubunu iki çizgiye aktar.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Ece",
+          "#3ae8a8",
+          [
+            20,
+            30,
+            25,
+            40
+          ]
+        ],
+        [
+          "Can",
+          "#ff7a3a",
+          [
+            25,
+            25,
+            35,
+            30
+          ]
+        ]
+      ],
+      "mx": 40,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "src": "bars"
+    },
+    "textPlain": "Çift sütunlu grafikteki iki veri grubunu iki çizgiye aktar. Kaynak grafik: Ece: Ocak 20, Şubat 30, Mart 25, Nisan 40 | Can: Ocak 25, Şubat 25, Mart 35, Nisan 30. Dikey eksen 0–40, birim 5.",
+    "correctAnswer": "Noktalar: Ece: Ocak 20, Şubat 30, Mart 25, Nisan 40 | Can: Ocak 25, Şubat 25, Mart 35, Nisan 30",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-donusum-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "line",
+    "prompt": "Sütun grafiğindeki verileri çizgi grafiğine aktar.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran"
+      ],
+      "s": [
+        [
+          "Bilet",
+          "#3ae8a8",
+          [
+            150,
+            225,
+            300,
+            225,
+            375,
+            450
+          ]
+        ]
+      ],
+      "mx": 450,
+      "st": 75,
+      "k": "line",
+      "u": "",
+      "src": "bars"
+    },
+    "textPlain": "Sütun grafiğindeki verileri çizgi grafiğine aktar. Kaynak grafik: Bilet: Ocak 150, Şubat 225, Mart 300, Nisan 225, Mayıs 375, Haziran 450. Dikey eksen 0–450, birim 75.",
+    "correctAnswer": "Noktalar: Bilet: Ocak 150, Şubat 225, Mart 300, Nisan 225, Mayıs 375, Haziran 450",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-donusum-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "pie",
+    "prompt": "Sütun grafiğindeki verileri daire grafiğine aktar.",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme"
+      ],
+      "v": [
+        10,
+        5,
+        5
+      ],
+      "src": "bars",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ]
+    },
+    "textPlain": "Sütun grafiğindeki verileri daire grafiğine aktar. Veriler: Basketbol 10, Voleybol 5, Yüzme 5. Toplam 20.",
+    "correctAnswer": "Dilim açıları: Basketbol 180°, Voleybol 90°, Yüzme 90°",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-donusum-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "pie",
+    "prompt": "Sütun grafiğindeki verileri daire grafiğine aktar.",
+    "data": {
+      "c": [
+        "Kartallar",
+        "Şimşekler",
+        "Yıldızlar",
+        "Kaplanlar"
+      ],
+      "v": [
+        16,
+        8,
+        4,
+        12
+      ],
+      "src": "bars",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ]
+    },
+    "textPlain": "Sütun grafiğindeki verileri daire grafiğine aktar. Veriler: Kartallar 16, Şimşekler 8, Yıldızlar 4, Kaplanlar 12. Toplam 40.",
+    "correctAnswer": "Dilim açıları: Kartallar 144°, Şimşekler 72°, Yıldızlar 36°, Kaplanlar 108°",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-donusum-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "pie",
+    "prompt": "Sütun grafiğindeki verileri daire grafiğine aktar.",
+    "data": {
+      "c": [
+        "Koşu",
+        "Atlama",
+        "Atma"
+      ],
+      "v": [
+        25,
+        15,
+        50
+      ],
+      "src": "bars",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff"
+      ]
+    },
+    "textPlain": "Sütun grafiğindeki verileri daire grafiğine aktar. Veriler: Koşu 25, Atlama 15, Atma 50. Toplam 90.",
+    "correctAnswer": "Dilim açıları: Koşu 100°, Atlama 60°, Atma 200°",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-donusum-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "pie",
+    "prompt": "Sütun grafiğindeki verileri daire grafiğine aktar.",
+    "data": {
+      "c": [
+        "Sabah",
+        "Öğle",
+        "Akşam",
+        "Gece"
+      ],
+      "v": [
+        30,
+        20,
+        10,
+        20
+      ],
+      "src": "bars",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ]
+    },
+    "textPlain": "Sütun grafiğindeki verileri daire grafiğine aktar. Veriler: Sabah 30, Öğle 20, Akşam 10, Gece 20. Toplam 80.",
+    "correctAnswer": "Dilim açıları: Sabah 135°, Öğle 90°, Akşam 45°, Gece 90°",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°."
+  },
+  {
+    "questionId": "mat8u4-donusum-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "Bu verilerle daire grafiği çizilirse Basketbol diliminin merkez açısı kaç derece olur?",
+    "data": {
+      "c": [
+        "Basketbol",
+        "Voleybol",
+        "Yüzme"
+      ],
+      "s": [
+        [
+          "Öğrenci",
+          "#3ae8a8",
+          [
+            15,
+            10,
+            5
+          ]
+        ]
+      ],
+      "mx": 15,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 180
+    },
+    "textPlain": "Bu verilerle daire grafiği çizilirse Basketbol diliminin merkez açısı kaç derece olur? Grafik: Öğrenci: Basketbol 15, Voleybol 10, Yüzme 5.",
+    "correctAnswer": "180",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 15 ÷ 30 × 360° = 180°."
+  },
+  {
+    "questionId": "mat8u4-donusum-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Bu verilerle daire grafiği çizilirse Şubat diliminin merkez açısı kaç derece olur?",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Üye",
+          "#3ae8a8",
+          [
+            20,
+            40,
+            30,
+            30
+          ]
+        ]
+      ],
+      "mx": 40,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "a": 120
+    },
+    "textPlain": "Bu verilerle daire grafiği çizilirse Şubat diliminin merkez açısı kaç derece olur? Grafik: Üye: Ocak 20, Şubat 40, Mart 30, Nisan 30.",
+    "correctAnswer": "120",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. 40 ÷ 120 × 360° = 120°."
+  },
+  {
+    "questionId": "mat8u4-donusum-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Kızların ve erkeklerin toplamları daire grafiğinde gösterilirse kızların diliminin açısı kaç derece olur?",
+    "data": {
+      "c": [
+        "A",
+        "B",
+        "C"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            20,
+            25,
+            15
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            30,
+            40,
+            50
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 120
+    },
+    "textPlain": "Kızların ve erkeklerin toplamları daire grafiğinde gösterilirse kızların diliminin açısı kaç derece olur? Grafik: Kız: A 20, B 25, C 15 | Erkek: A 30, B 40, C 50.",
+    "correctAnswer": "120",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Daire grafiğinde her dilimin merkez açısı, o kategorinin toplama oranının 360° ile çarpımıdır: açı = (değer ÷ toplam) × 360°. Kız 60, Erkek 120, toplam 180; 60 ÷ 180 × 360° = 120°."
+  },
+  {
+    "questionId": "mat8u4-donusum-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "match",
+    "prompt": "Çizgi grafiğini doğru gösteren sütun grafiğine dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "v": [
+        20,
+        35,
+        25,
+        40
+      ],
+      "o": [
+        [
+          20,
+          35,
+          30,
+          40
+        ],
+        [
+          20,
+          25,
+          35,
+          40
+        ],
+        [
+          20,
+          35,
+          25,
+          40
+        ]
+      ],
+      "a": 2,
+      "mx": 40,
+      "st": 5,
+      "k": "bar",
+      "src": "line"
+    },
+    "textPlain": "Çizgi grafiğini doğru gösteren sütun grafiğine dokun. Çizgi grafiği: Ocak 20, Şubat 35, Mart 25, Nisan 40.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir. Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır."
+  },
+  {
+    "questionId": "mat8u4-donusum-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "match",
+    "prompt": "Sütun grafiğini doğru gösteren çizgi grafiğine dokun.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "v": [
+        30,
+        45,
+        45,
+        15,
+        60
+      ],
+      "o": [
+        [
+          30,
+          45,
+          30,
+          15,
+          60
+        ],
+        [
+          30,
+          45,
+          45,
+          60,
+          15
+        ],
+        [
+          30,
+          45,
+          45,
+          15,
+          60
+        ]
+      ],
+      "a": 2,
+      "mx": 60,
+      "st": 15,
+      "k": "line",
+      "src": "bars"
+    },
+    "textPlain": "Sütun grafiğini doğru gösteren çizgi grafiğine dokun. Sütun grafiği: Pzt 30, Salı 45, Çrş 45, Prş 15, Cuma 60.",
+    "correctAnswer": "C grafiği",
+    "explanation": "Sütun grafiğinde her kategori için yüksekliği değere eşit bir sütun çizilir; dikey eksenin ölçeği (birim aralığı) dikkatle okunmalıdır. Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-donusum-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "tfill",
+    "prompt": "Çizgi grafiğini okuyarak tablodaki değerleri ayarla.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "v": [
+        15,
+        25,
+        10,
+        30
+      ],
+      "src": "line",
+      "col": [
+        "#3ae8a8",
+        "#ff7a3a",
+        "#5a9aff",
+        "#ffd23f"
+      ],
+      "T": 80
+    },
+    "textPlain": "Çizgi grafiğini okuyarak tablodaki değerleri ayarla. Grafik: Ocak 15, Şubat 25, Mart 10, Nisan 30.",
+    "correctAnswer": "Tablo: Ocak 15, Şubat 25, Mart 10, Nisan 30",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-donusum-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "donusum",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Her veri için en uygun grafik türünü seç.",
+    "data": {
+      "L": [
+        "📊 Sütun",
+        "📈 Çizgi",
+        "🥧 Daire"
+      ],
+      "r": [
+        [
+          "Bir öğrencinin aylara göre boyu",
+          1
+        ],
+        [
+          "Sınıftaki öğrencilerin en sevdiği sporların bütüne oranı",
+          2
+        ],
+        [
+          "Dört takımın attığı gol sayıları",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Her veri için en uygun grafik türünü seç. Bölmeler: Sütun, Çizgi, Daire. Kartlar: Bir öğrencinin aylara göre boyu, Sınıftaki öğrencilerin en sevdiği sporların bütüne oranı, Dört takımın attığı gol sayıları.",
+    "correctAnswer": "Bir öğrencinin aylara göre boyu → Çizgi | Sınıftaki öğrencilerin en sevdiği sporların bütüne oranı → Daire | Dört takımın attığı gol sayıları → Sütun",
+    "explanation": "Kategorileri karşılaştırmak için sütun grafiği; bir verinin zamanla değişimini göstermek için çizgi grafiği; bütünün parçalara oranını göstermek için daire grafiği uygundur."
+  },
+  {
+    "questionId": "mat8u4-donusum-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Her veri için en uygun grafik türünü seç.",
+    "data": {
+      "L": [
+        "📊 Sütun",
+        "📈 Çizgi",
+        "🥧 Daire"
+      ],
+      "r": [
+        [
+          "Bir şehrin gün boyu saatlik sıcaklığı",
+          1
+        ],
+        [
+          "Aile bütçesinin harcama kalemlerine dağılımı",
+          2
+        ],
+        [
+          "Beş ilin nüfusu",
+          0
+        ],
+        [
+          "Bir fidanın haftalara göre boyu",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Her veri için en uygun grafik türünü seç. Bölmeler: Sütun, Çizgi, Daire. Kartlar: Bir şehrin gün boyu saatlik sıcaklığı, Aile bütçesinin harcama kalemlerine dağılımı, Beş ilin nüfusu, Bir fidanın haftalara göre boyu.",
+    "correctAnswer": "Bir şehrin gün boyu saatlik sıcaklığı → Çizgi | Aile bütçesinin harcama kalemlerine dağılımı → Daire | Beş ilin nüfusu → Sütun | Bir fidanın haftalara göre boyu → Çizgi",
+    "explanation": "Kategorileri karşılaştırmak için sütun grafiği; bir verinin zamanla değişimini göstermek için çizgi grafiği; bütünün parçalara oranını göstermek için daire grafiği uygundur."
+  },
+  {
+    "questionId": "mat8u4-donusum-021",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "donusum",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Her veri için en uygun grafik türünü seç.",
+    "data": {
+      "L": [
+        "📊 Sütun",
+        "📈 Çizgi",
+        "🥧 Daire"
+      ],
+      "r": [
+        [
+          "Bir takımın sezon boyunca maç maç puanı",
+          1
+        ],
+        [
+          "Bir okulda öğrencilerin ulaşım türlerinin yüzdeleri",
+          2
+        ],
+        [
+          "Üç markanın aynı aydaki satışları",
+          0
+        ],
+        [
+          "Seçimde adayların aldığı oyların bütün içindeki payı",
+          2
+        ],
+        [
+          "Bir hastanın gün içindeki ateşi",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Her veri için en uygun grafik türünü seç. Bölmeler: Sütun, Çizgi, Daire. Kartlar: Bir takımın sezon boyunca maç maç puanı, Bir okulda öğrencilerin ulaşım türlerinin yüzdeleri, Üç markanın aynı aydaki satışları, Seçimde adayların aldığı oyların bütün içindeki payı, Bir hastanın gün içindeki ateşi.",
+    "correctAnswer": "Bir takımın sezon boyunca maç maç puanı → Çizgi | Bir okulda öğrencilerin ulaşım türlerinin yüzdeleri → Daire | Üç markanın aynı aydaki satışları → Sütun | Seçimde adayların aldığı oyların bütün içindeki payı → Daire | Bir hastanın gün içindeki ateşi → Çizgi",
+    "explanation": "Kategorileri karşılaştırmak için sütun grafiği; bir verinin zamanla değişimini göstermek için çizgi grafiği; bütünün parçalara oranını göstermek için daire grafiği uygundur."
+  },
+  {
+    "questionId": "mat8u4-donusum-022",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Gösterimler arası dönüşümler ve uygun grafik türü",
+    "outcome": "Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun dönüşümler yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "donusum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "Daire grafiğinde açıların toplamı 360°’dir",
+          0
+        ],
+        [
+          "Çizgi grafiği zamana göre değişimi göstermek için uygundur",
+          0
+        ],
+        [
+          "Daire grafiği bir verinin aylara göre değişimini göstermek için en uygundur",
+          1
+        ],
+        [
+          "Sütun grafiğinde ölçek her zaman 1’er artmalıdır",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Doğru, Yanlış. Kartlar: Daire grafiğinde açıların toplamı 360°’dir, Çizgi grafiği zamana göre değişimi göstermek için uygundur, Daire grafiği bir verinin aylara göre değişimini göstermek için en uygundur, Sütun grafiğinde ölçek her zaman 1’er artmalıdır.",
+    "correctAnswer": "Daire grafiğinde açıların toplamı 360°’dir → Doğru | Çizgi grafiği zamana göre değişimi göstermek için uygundur → Doğru | Daire grafiği bir verinin aylara göre değişimini göstermek için en uygundur → Yanlış | Sütun grafiğinde ölçek her zaman 1’er artmalıdır → Yanlış",
+    "explanation": "Kategorileri karşılaştırmak için sütun grafiği; bir verinin zamanla değişimini göstermek için çizgi grafiği; bütünün parçalara oranını göstermek için daire grafiği uygundur. Sütun grafiğinde ölçek verilere uygun seçilir (5’er, 10’ar…)."
+  },
+  {
+    "questionId": "mat8u4-yorum-001",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "İki takımın sayılarının eşit olduğu maça dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            70,
+            85,
+            80,
+            90,
+            75
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            80,
+            75,
+            80,
+            85,
+            90
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 10,
+      "k": "line",
+      "u": "",
+      "m": "cat",
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "İki takımın sayılarının eşit olduğu maça dokun. Grafik: Kartallar: 1. maç 70, 2. maç 85, 3. maç 80, 4. maç 90, 5. maç 75 | Şimşekler: 1. maç 80, 2. maç 75, 3. maç 80, 4. maç 85, 5. maç 90.",
+    "correctAnswer": "Doğru seçim: 3. maç",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-002",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Şimşeklerin Kartallardan fazla sayı yaptığı bütün maçlara dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            70,
+            85,
+            80,
+            90,
+            75
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            80,
+            75,
+            85,
+            85,
+            90
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 10,
+      "k": "line",
+      "u": "",
+      "m": "cat",
+      "a": [
+        0,
+        2,
+        4
+      ]
+    },
+    "textPlain": "Şimşeklerin Kartallardan fazla sayı yaptığı bütün maçlara dokun. Grafik: Kartallar: 1. maç 70, 2. maç 85, 3. maç 80, 4. maç 90, 5. maç 75 | Şimşekler: 1. maç 80, 2. maç 75, 3. maç 85, 4. maç 85, 5. maç 90.",
+    "correctAnswer": "Doğru seçim: 1. maç, 3. maç, 5. maç",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-003",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "İki takım arasındaki farkın en büyük olduğu maça dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            60,
+            75,
+            90,
+            70,
+            80
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            70,
+            70,
+            65,
+            80,
+            85
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 10,
+      "k": "line",
+      "u": "",
+      "m": "cat",
+      "a": [
+        2
+      ]
+    },
+    "textPlain": "İki takım arasındaki farkın en büyük olduğu maça dokun. Grafik: Kartallar: 1. maç 60, 2. maç 75, 3. maç 90, 4. maç 70, 5. maç 80 | Şimşekler: 1. maç 70, 2. maç 70, 3. maç 65, 4. maç 80, 5. maç 85.",
+    "correctAnswer": "Doğru seçim: 3. maç",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. Farklar: 10, 5, 25, 10, 5."
+  },
+  {
+    "questionId": "mat8u4-yorum-004",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "Her iki takımın da bir önceki maça göre sayısını artırdığı aralıklara dokun.",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            60,
+            70,
+            65,
+            80,
+            90
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            55,
+            65,
+            75,
+            70,
+            80
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        0,
+        3
+      ]
+    },
+    "textPlain": "Her iki takımın da bir önceki maça göre sayısını artırdığı aralıklara dokun. Grafik: Kartallar: 1. maç 60, 2. maç 70, 3. maç 65, 4. maç 80, 5. maç 90 | Şimşekler: 1. maç 55, 2. maç 65, 3. maç 75, 4. maç 70, 5. maç 80.",
+    "correctAnswer": "Doğru seçim: 1. maç – 2. maç, 4. maç – 5. maç",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-005",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "Ece’nin Can’ı ilk kez geçtiği aralığa dokun.",
+    "data": {
+      "c": [
+        "1. hafta",
+        "2. hafta",
+        "3. hafta",
+        "4. hafta",
+        "5. hafta"
+      ],
+      "s": [
+        [
+          "Ece",
+          "#3ae8a8",
+          [
+            20,
+            25,
+            35,
+            40,
+            50
+          ]
+        ],
+        [
+          "Can",
+          "#ff7a3a",
+          [
+            30,
+            30,
+            30,
+            45,
+            45
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "m": "seg",
+      "a": [
+        1
+      ]
+    },
+    "textPlain": "Ece’nin Can’ı ilk kez geçtiği aralığa dokun. Grafik: Ece: 1. hafta 20, 2. hafta 25, 3. hafta 35, 4. hafta 40, 5. hafta 50 | Can: 1. hafta 30, 2. hafta 30, 3. hafta 30, 4. hafta 45, 5. hafta 45.",
+    "correctAnswer": "Doğru seçim: 2. hafta – 3. hafta",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. 2. haftada Ece 25, Can 30; 3. haftada Ece 35, Can 30."
+  },
+  {
+    "questionId": "mat8u4-yorum-006",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "pick",
+    "prompt": "İki grubun toplam değerinin en büyük olduğu aya dokun.",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            40,
+            55,
+            50,
+            45,
+            60
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            50,
+            40,
+            60,
+            70,
+            45
+          ]
+        ]
+      ],
+      "mx": 75,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        3
+      ]
+    },
+    "textPlain": "İki grubun toplam değerinin en büyük olduğu aya dokun. Grafik: Kız: Ocak 40, Şubat 55, Mart 50, Nisan 45, Mayıs 60 | Erkek: Ocak 50, Şubat 40, Mart 60, Nisan 70, Mayıs 45.",
+    "correctAnswer": "Doğru seçim: Nisan",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. Toplamlar: 90, 95, 110, 115, 105."
+  },
+  {
+    "questionId": "mat8u4-yorum-007",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "Grafiğe göre 3. maçta iki takımın toplam sayısı kaçtır?",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            70,
+            80,
+            85,
+            75
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            65,
+            90,
+            70,
+            80
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 155
+    },
+    "textPlain": "Grafiğe göre 3. maçta iki takımın toplam sayısı kaçtır? Grafik: Kartallar: 1. maç 70, 2. maç 80, 3. maç 85, 4. maç 75 | Şimşekler: 1. maç 65, 2. maç 90, 3. maç 70, 4. maç 80.",
+    "correctAnswer": "155",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-008",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "gkey",
+    "prompt": "Grafiğe göre Ocak’ta kızlar erkeklerden kaç fazladır?",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            45,
+            40,
+            50,
+            35
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            30,
+            45,
+            40,
+            35
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 15
+    },
+    "textPlain": "Grafiğe göre Ocak’ta kızlar erkeklerden kaç fazladır? Grafik: Kız: Ocak 45, Şubat 40, Mart 50, Nisan 35 | Erkek: Ocak 30, Şubat 45, Mart 40, Nisan 35.",
+    "correctAnswer": "15",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-009",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "avg",
+    "prompt": "Kartalların 4 maçtaki ortalama sayısını gösteren yatay çizgiyi sürükle (Kartallar çizgisine bak).",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            70,
+            85,
+            90,
+            75
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            80,
+            75,
+            85,
+            70
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "a": 80,
+      "ser": 0
+    },
+    "textPlain": "Kartalların 4 maçtaki ortalama sayısını gösteren yatay çizgiyi sürükle (Kartallar çizgisine bak). Grafik: Kartallar: 1. maç 70, 2. maç 85, 3. maç 90, 4. maç 75 | Şimşekler: 1. maç 80, 2. maç 75, 3. maç 85, 4. maç 70.",
+    "correctAnswer": "Ortalama 80",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. (70 + 85 + 90 + 75) ÷ 4 = 80."
+  },
+  {
+    "questionId": "mat8u4-yorum-010",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Grafiğe göre iki takımın sayılarının eşit olduğu kaç maç vardır?",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            70,
+            80,
+            75,
+            90,
+            85
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            70,
+            85,
+            75,
+            80,
+            85
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "a": 3
+    },
+    "textPlain": "Grafiğe göre iki takımın sayılarının eşit olduğu kaç maç vardır? Grafik: Kartallar: 1. maç 70, 2. maç 80, 3. maç 75, 4. maç 90, 5. maç 85 | Şimşekler: 1. maç 70, 2. maç 85, 3. maç 75, 4. maç 80, 5. maç 85.",
+    "correctAnswer": "3",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-011",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Grafiğe göre Ece’nin toplam puanı Can’ınkinden kaç fazladır?",
+    "data": {
+      "c": [
+        "1. hafta",
+        "2. hafta",
+        "3. hafta",
+        "4. hafta"
+      ],
+      "s": [
+        [
+          "Ece",
+          "#3ae8a8",
+          [
+            35,
+            40,
+            45,
+            50
+          ]
+        ],
+        [
+          "Can",
+          "#ff7a3a",
+          [
+            40,
+            35,
+            40,
+            30
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "line",
+      "u": "",
+      "a": 25
+    },
+    "textPlain": "Grafiğe göre Ece’nin toplam puanı Can’ınkinden kaç fazladır? Grafik: Ece: 1. hafta 35, 2. hafta 40, 3. hafta 45, 4. hafta 50 | Can: 1. hafta 40, 2. hafta 35, 3. hafta 40, 4. hafta 30.",
+    "correctAnswer": "25",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. Ece 170, Can 145; fark 25."
+  },
+  {
+    "questionId": "mat8u4-yorum-012",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Grafikteki iki takımın sezon toplamları eşit olsun diye Şimşekler 5. maçta kaç sayı yapmalıdır?",
+    "data": {
+      "c": [
+        "1. maç",
+        "2. maç",
+        "3. maç",
+        "4. maç",
+        "5. maç"
+      ],
+      "s": [
+        [
+          "Kartallar",
+          "#3ae8a8",
+          [
+            80,
+            75,
+            90,
+            85,
+            70
+          ]
+        ],
+        [
+          "Şimşekler",
+          "#ff7a3a",
+          [
+            85,
+            70,
+            80,
+            90,
+            0
+          ]
+        ]
+      ],
+      "mx": 100,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 75
+    },
+    "textPlain": "Grafikteki iki takımın sezon toplamları eşit olsun diye Şimşekler 5. maçta kaç sayı yapmalıdır? Grafik: Kartallar: 1. maç 80, 2. maç 75, 3. maç 90, 4. maç 85, 5. maç 70 | Şimşekler: 1. maç 85, 2. maç 70, 3. maç 80, 4. maç 90, 5. maç 0.",
+    "correctAnswer": "75",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. Kartallar 400; Şimşekler ilk dört maçta 325; 400 − 325 = 75."
+  },
+  {
+    "questionId": "mat8u4-yorum-013",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "gkey",
+    "prompt": "Grafiğe göre Kızların toplamı, Erkeklerin toplamının yüzde kaçıdır?",
+    "data": {
+      "c": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            30,
+            45,
+            30,
+            45
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            40,
+            50,
+            50,
+            60
+          ]
+        ]
+      ],
+      "mx": 60,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 75
+    },
+    "textPlain": "Grafiğe göre Kızların toplamı, Erkeklerin toplamının yüzde kaçıdır? Grafik: Kız: A 30, B 45, C 30, D 45 | Erkek: A 40, B 50, C 50, D 60.",
+    "correctAnswer": "75",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. Kız 150, Erkek 200; 150 ÷ 200 = %75."
+  },
+  {
+    "questionId": "mat8u4-yorum-014",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "gkey",
+    "prompt": "Grafiğe göre kaç ayda kızların sayısı erkeklerden fazladır?",
+    "data": {
+      "c": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            40,
+            35,
+            50,
+            45
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            30,
+            40,
+            45,
+            50
+          ]
+        ]
+      ],
+      "mx": 50,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "a": 2
+    },
+    "textPlain": "Grafiğe göre kaç ayda kızların sayısı erkeklerden fazladır? Grafik: Kız: Ocak 40, Şubat 35, Mart 50, Nisan 45 | Erkek: Ocak 30, Şubat 40, Mart 45, Nisan 50.",
+    "correctAnswer": "2",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-015",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "pick",
+    "prompt": "Kızların Erkeklerden fazla olduğu bütün sütun çiftlerine dokun.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            20,
+            30,
+            25,
+            35
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            25,
+            20,
+            30,
+            30
+          ]
+        ]
+      ],
+      "mx": 40,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        1,
+        3
+      ]
+    },
+    "textPlain": "Kızların Erkeklerden fazla olduğu bütün sütun çiftlerine dokun. Grafik: Kız: Pzt 20, Salı 30, Çrş 25, Prş 35 | Erkek: Pzt 25, Salı 20, Çrş 30, Prş 30.",
+    "correctAnswer": "Doğru seçim: Salı, Prş",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-016",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "pick",
+    "prompt": "İki grubun farkının 10 olduğu bütün sütun çiftlerine dokun.",
+    "data": {
+      "c": [
+        "Pzt",
+        "Salı",
+        "Çrş",
+        "Prş",
+        "Cuma"
+      ],
+      "s": [
+        [
+          "Kız",
+          "#3ae8a8",
+          [
+            40,
+            30,
+            55,
+            45,
+            60
+          ]
+        ],
+        [
+          "Erkek",
+          "#ff7a3a",
+          [
+            30,
+            35,
+            45,
+            50,
+            50
+          ]
+        ]
+      ],
+      "mx": 60,
+      "st": 5,
+      "k": "bar",
+      "u": "",
+      "m": "cat",
+      "a": [
+        0,
+        2,
+        4
+      ]
+    },
+    "textPlain": "İki grubun farkının 10 olduğu bütün sütun çiftlerine dokun. Grafik: Kız: Pzt 40, Salı 30, Çrş 55, Prş 45, Cuma 60 | Erkek: Pzt 30, Salı 35, Çrş 45, Prş 50, Cuma 50.",
+    "correctAnswer": "Doğru seçim: Pzt, Çrş, Cuma",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-017",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "kolay",
+    "group": "yorum",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "İki takımın maç sayılarını gösteren grafik için yargıları ayır.",
+    "data": {
+      "L": [
+        "✅ Grafikten çıkarılabilir",
+        "❌ Çıkarılamaz"
+      ],
+      "r": [
+        [
+          "Kartallar en çok 4. maçta sayı yaptı",
+          0
+        ],
+        [
+          "Kartalların oyuncusu daha uzundur",
+          1
+        ],
+        [
+          "Şimşekler 1. maçta Kartallardan fazla sayı yaptı",
+          0
+        ],
+        [
+          "Şimşekler gelecek sezon şampiyon olacak",
+          1
+        ]
+      ]
+    },
+    "textPlain": "İki takımın maç sayılarını gösteren grafik için yargıları ayır. Bölmeler: Grafikten çıkarılabilir, Çıkarılamaz. Kartlar: Kartallar en çok 4. maçta sayı yaptı, Kartalların oyuncusu daha uzundur, Şimşekler 1. maçta Kartallardan fazla sayı yaptı, Şimşekler gelecek sezon şampiyon olacak.",
+    "correctAnswer": "Kartallar en çok 4. maçta sayı yaptı → Grafikten çıkarılabilir | Kartalların oyuncusu daha uzundur → Çıkarılamaz | Şimşekler 1. maçta Kartallardan fazla sayı yaptı → Grafikten çıkarılabilir | Şimşekler gelecek sezon şampiyon olacak → Çıkarılamaz",
+    "explanation": "Grafikten yalnızca gösterilen verilere dayanan sonuçlar çıkarılabilir; grafikte olmayan bilgiler (boy, gelecek tahmini gibi) kesin olarak söylenemez."
+  },
+  {
+    "questionId": "mat8u4-yorum-018",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Çizgi grafiğindeki her aralığı doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "📈 Artış",
+        "📉 Azalış",
+        "➖ Değişmedi"
+      ],
+      "r": [
+        [
+          "Ocak → Şubat: 20’den 35’e",
+          0
+        ],
+        [
+          "Şubat → Mart: 35’ten 35’e",
+          2
+        ],
+        [
+          "Mart → Nisan: 35’ten 25’e",
+          1
+        ],
+        [
+          "Nisan → Mayıs: 25’ten 40’a",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Çizgi grafiğindeki her aralığı doğru bölmeye yerleştir. Bölmeler: Artış, Azalış, Değişmedi. Kartlar: Ocak → Şubat: 20’den 35’e, Şubat → Mart: 35’ten 35’e, Mart → Nisan: 35’ten 25’e, Nisan → Mayıs: 25’ten 40’a.",
+    "correctAnswer": "Ocak → Şubat: 20’den 35’e → Artış | Şubat → Mart: 35’ten 35’e → Değişmedi | Mart → Nisan: 35’ten 25’e → Azalış | Nisan → Mayıs: 25’ten 40’a → Artış",
+    "explanation": "Çizgi grafiği, bir verinin zamana göre değişimini gösterir; noktalar sırayla birleştirilir. Çizginin eğimi artış ya da azalışın büyüklüğünü gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-019",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "zor",
+    "group": "yorum",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Kartları doğru bölmeye yerleştir.",
+    "data": {
+      "L": [
+        "✅ Doğru",
+        "❌ Yanlış"
+      ],
+      "r": [
+        [
+          "İki çizginin kesiştiği yerde değerler eşittir",
+          0
+        ],
+        [
+          "Çizgi ne kadar dik yükselirse artış o kadar büyüktür",
+          0
+        ],
+        [
+          "Yatay çizgi değerin sıfır olduğunu gösterir",
+          1
+        ],
+        [
+          "İki çizgi arasındaki dikey uzaklık farkı gösterir",
+          0
+        ],
+        [
+          "Çizgi aşağı iniyorsa değer negatiftir",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Kartları doğru bölmeye yerleştir. Bölmeler: Doğru, Yanlış. Kartlar: İki çizginin kesiştiği yerde değerler eşittir, Çizgi ne kadar dik yükselirse artış o kadar büyüktür, Yatay çizgi değerin sıfır olduğunu gösterir, İki çizgi arasındaki dikey uzaklık farkı gösterir, Çizgi aşağı iniyorsa değer negatiftir.",
+    "correctAnswer": "İki çizginin kesiştiği yerde değerler eşittir → Doğru | Çizgi ne kadar dik yükselirse artış o kadar büyüktür → Doğru | Yatay çizgi değerin sıfır olduğunu gösterir → Yanlış | İki çizgi arasındaki dikey uzaklık farkı gösterir → Doğru | Çizgi aşağı iniyorsa değer negatiftir → Yanlış",
+    "explanation": "İki veri grubu aynı grafikte gösterildiğinde her noktada iki değer karşılaştırılır; çizgilerin kesiştiği yerde değerler eşittir, aradaki dikey uzaklık farkı gösterir. Yatay çizgi değerin değişmediğini, aşağı inen çizgi azaldığını gösterir."
+  },
+  {
+    "questionId": "mat8u4-yorum-020",
+    "grade": 8,
+    "subject": "Matematik",
+    "unit": "4. Ünite: Veri Analizi",
+    "topic": "Çoklu veri gruplarında grafik yorumlama",
+    "outcome": "Çizgi ve sütun grafiklerini yorumlar; iki veri grubunu karşılaştırır.",
+    "sourceRef": "8. Sınıf Öğretim Programı, 4. Ünite “Veri Analizi”",
+    "difficulty": "orta",
+    "group": "yorum",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Grafikteki maç sayılarını ortalamaya göre ayır (ortalamayı önce hesapla).",
+    "data": {
+      "L": [
+        "🟢 Ortalamanın üstünde",
+        "🔴 Ortalamanın altında"
+      ],
+      "r": [
+        [
+          "1. maç: 60",
+          1
+        ],
+        [
+          "2. maç: 85",
+          0
+        ],
+        [
+          "3. maç: 75",
+          0
+        ],
+        [
+          "4. maç: 65",
+          1
+        ],
+        [
+          "5. maç: 90",
+          0
+        ],
+        [
+          "6. maç: 45",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Grafikteki maç sayılarını ortalamaya göre ayır (ortalamayı önce hesapla). Bölmeler: Ortalamanın üstünde, Ortalamanın altında. Kartlar: 1. maç: 60, 2. maç: 85, 3. maç: 75, 4. maç: 65, 5. maç: 90, 6. maç: 45.",
+    "correctAnswer": "1. maç: 60 → Ortalamanın altında | 2. maç: 85 → Ortalamanın üstünde | 3. maç: 75 → Ortalamanın üstünde | 4. maç: 65 → Ortalamanın altında | 5. maç: 90 → Ortalamanın üstünde | 6. maç: 45 → Ortalamanın altında",
+    "explanation": "Ortalama = (60 + 85 + 75 + 65 + 90 + 45) ÷ 6 = 70."
+  }
+]
