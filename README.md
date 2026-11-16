@@ -54,6 +54,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Cümle Ameliyathanesi | turkce-8-cumle-ameliyathanesi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-cumle-ameliyathanesi/1.0.0/index.html` |
 | Editör Masası | turkce-8-editor-masasi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-editor-masasi/1.0.0/index.html` |
 | Söz Müzesi | turkce-8-soz-muzesi | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-soz-muzesi/1.0.0/index.html` |
+| Akıl Kafe | turkce-8-akil-kafe | 1.0.0 | Türkçe | 8 | Dikey | `/turkce-8-akil-kafe/1.0.0/index.html` |
 | Dev Ahtapot (Macera canavarı · Arena 1) | macera-5-dev-ahtapot | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-dev-ahtapot/1.0.0/index.html` |
 | Paslı Çapa Golemi (Macera canavarı · Arena 2) | macera-5-pasli-capa-golemi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-pasli-capa-golemi/1.0.0/index.html` |
 | Fener Balığı (Macera canavarı · Arena 3) | macera-5-fener-baligi | 1.0.0 | Karışık | 5 | Dikey | `/macera-5-fener-baligi/1.0.0/index.html` |
@@ -70,6 +71,7 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Usta Düellosu | duello-usta | 1.0.0 | Karışık | 6 | Dikey | `/duello-usta/1.0.0/index.html` |
 | Uzman Düellosu | duello-uzman | 1.0.0 | Karışık | 7 | Dikey | `/duello-uzman/1.0.0/index.html` |
 | Efsane Düellosu | duello-efsane | 1.0.0 | Karışık | 8 | Dikey | `/duello-efsane/1.0.0/index.html` |
+| Meteor Muhafızı (Macera canavarı · Arena 13) | macera-8-meteor-muhafizi | 1.0.0 | Karışık | 8 | Dikey | `/macera-8-meteor-muhafizi/1.0.0/index.html` |
 
 ## Uyumluluk
 

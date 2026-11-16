@@ -1,0 +1,4304 @@
+[
+  {
+    "questionId": "tr8u9-sira-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Kaan, Cem’in hemen önündedir.",
+        "Bora en önde değildir.",
+        "Bora, Ece’nin hemen önündedir."
+      ],
+      "p": [
+        "Cem",
+        "Ece",
+        "Kaan",
+        "Bora"
+      ],
+      "a": [
+        "Kaan",
+        "Cem",
+        "Bora",
+        "Ece"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Kaan, Cem’in hemen önündedir. Bora en önde değildir. Bora, Ece’nin hemen önündedir. Başlangıç sırası: Cem, Ece, Kaan, Bora",
+    "correctAnswer": "1. Kaan, 2. Cem, 3. Bora, 4. Ece",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Ada ile Cem arasında tam bir kişi vardır.",
+        "Zeynep, Deniz’den öndedir.",
+        "Ada en sondadır."
+      ],
+      "p": [
+        "Zeynep",
+        "Ada",
+        "Deniz",
+        "Cem"
+      ],
+      "a": [
+        "Zeynep",
+        "Cem",
+        "Deniz",
+        "Ada"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Ada ile Cem arasında tam bir kişi vardır. Zeynep, Deniz’den öndedir. Ada en sondadır. Başlangıç sırası: Zeynep, Ada, Deniz, Cem",
+    "correctAnswer": "1. Zeynep, 2. Cem, 3. Deniz, 4. Ada",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Efe, Zeynep’ten öndedir.",
+        "Deniz 3. sıradadır.",
+        "Elif en sondadır."
+      ],
+      "p": [
+        "Elif",
+        "Zeynep",
+        "Deniz",
+        "Efe"
+      ],
+      "a": [
+        "Efe",
+        "Zeynep",
+        "Deniz",
+        "Elif"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Efe, Zeynep’ten öndedir. Deniz 3. sıradadır. Elif en sondadır. Başlangıç sırası: Elif, Zeynep, Deniz, Efe",
+    "correctAnswer": "1. Efe, 2. Zeynep, 3. Deniz, 4. Elif",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Bora ile Kaan arasında tam bir kişi vardır.",
+        "Ada en öndedir.",
+        "Ada, Bora’nın hemen önündedir."
+      ],
+      "p": [
+        "Selin",
+        "Bora",
+        "Ada",
+        "Kaan"
+      ],
+      "a": [
+        "Ada",
+        "Bora",
+        "Selin",
+        "Kaan"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Bora ile Kaan arasında tam bir kişi vardır. Ada en öndedir. Ada, Bora’nın hemen önündedir. Başlangıç sırası: Selin, Bora, Ada, Kaan",
+    "correctAnswer": "1. Ada, 2. Bora, 3. Selin, 4. Kaan",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Selin, Zeynep’in hemen önündedir.",
+        "Selin 2. sıradadır.",
+        "Selin, Bora’dan öndedir.",
+        "Can en sondadır."
+      ],
+      "p": [
+        "Bora",
+        "Zeynep",
+        "Can",
+        "Mert",
+        "Selin"
+      ],
+      "a": [
+        "Mert",
+        "Selin",
+        "Zeynep",
+        "Bora",
+        "Can"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Selin, Zeynep’in hemen önündedir. Selin 2. sıradadır. Selin, Bora’dan öndedir. Can en sondadır. Başlangıç sırası: Bora, Zeynep, Can, Mert, Selin",
+    "correctAnswer": "1. Mert, 2. Selin, 3. Zeynep, 4. Bora, 5. Can",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Zeynep, Elif’in hemen önündedir.",
+        "Kaan, Deniz’in hemen önündedir.",
+        "Can ile Deniz arasında tam bir kişi vardır.",
+        "Zeynep, Can’dan öndedir."
+      ],
+      "p": [
+        "Zeynep",
+        "Deniz",
+        "Can",
+        "Kaan",
+        "Elif"
+      ],
+      "a": [
+        "Zeynep",
+        "Elif",
+        "Can",
+        "Kaan",
+        "Deniz"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Zeynep, Elif’in hemen önündedir. Kaan, Deniz’in hemen önündedir. Can ile Deniz arasında tam bir kişi vardır. Zeynep, Can’dan öndedir. Başlangıç sırası: Zeynep, Deniz, Can, Kaan, Elif",
+    "correctAnswer": "1. Zeynep, 2. Elif, 3. Can, 4. Kaan, 5. Deniz",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Efe ile Kaan arasında tam bir kişi vardır.",
+        "Efe 3. sıradadır.",
+        "Efe, Cem’den öndedir.",
+        "Ece 4. sıradadır."
+      ],
+      "p": [
+        "Cem",
+        "Ece",
+        "Selin",
+        "Efe",
+        "Kaan"
+      ],
+      "a": [
+        "Kaan",
+        "Selin",
+        "Efe",
+        "Ece",
+        "Cem"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Efe ile Kaan arasında tam bir kişi vardır. Efe 3. sıradadır. Efe, Cem’den öndedir. Ece 4. sıradadır. Başlangıç sırası: Cem, Ece, Selin, Efe, Kaan",
+    "correctAnswer": "1. Kaan, 2. Selin, 3. Efe, 4. Ece, 5. Cem",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "sira",
+    "rank": 3,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Can ile Mert arasında tam bir kişi vardır.",
+        "Can ile Ece arasında tam bir kişi vardır.",
+        "Bora, Ece’den öndedir.",
+        "Bora, Ada’dan öndedir."
+      ],
+      "p": [
+        "Ece",
+        "Bora",
+        "Can",
+        "Mert",
+        "Ada"
+      ],
+      "a": [
+        "Mert",
+        "Bora",
+        "Can",
+        "Ada",
+        "Ece"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Can ile Mert arasında tam bir kişi vardır. Can ile Ece arasında tam bir kişi vardır. Bora, Ece’den öndedir. Bora, Ada’dan öndedir. Başlangıç sırası: Ece, Bora, Can, Mert, Ada",
+    "correctAnswer": "1. Mert, 2. Bora, 3. Can, 4. Ada, 5. Ece",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "sira",
+    "rank": 3,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Cem, Bora’dan öndedir.",
+        "Bora, Ece’nin hemen önündedir.",
+        "Bora ile Cem arasında tam bir kişi vardır.",
+        "Bora, Mert’ten öndedir."
+      ],
+      "p": [
+        "Bora",
+        "Mert",
+        "Zeynep",
+        "Cem",
+        "Ece"
+      ],
+      "a": [
+        "Cem",
+        "Zeynep",
+        "Bora",
+        "Ece",
+        "Mert"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Cem, Bora’dan öndedir. Bora, Ece’nin hemen önündedir. Bora ile Cem arasında tam bir kişi vardır. Bora, Mert’ten öndedir. Başlangıç sırası: Bora, Mert, Zeynep, Cem, Ece",
+    "correctAnswer": "1. Cem, 2. Zeynep, 3. Bora, 4. Ece, 5. Mert",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "sira",
+    "rank": 3,
+    "type": "queue",
+    "prompt": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy.",
+    "data": {
+      "c": [
+        "Can, Kaan’dan öndedir.",
+        "Elif, Bora’dan öndedir.",
+        "Selin en önde değildir.",
+        "Elif ile Kaan arasında tam bir kişi vardır.",
+        "Elif, Can’dan öndedir.",
+        "Bora ile Can arasında tam bir kişi vardır."
+      ],
+      "p": [
+        "Can",
+        "Selin",
+        "Elif",
+        "Bora",
+        "Kaan"
+      ],
+      "a": [
+        "Elif",
+        "Can",
+        "Kaan",
+        "Bora",
+        "Selin"
+      ]
+    },
+    "textPlain": "Kasa sırasını diz: İpuçlarına göre müşterileri kasadan başlayarak sıraya koy. İpuçları: Can, Kaan’dan öndedir. Elif, Bora’dan öndedir. Selin en önde değildir. Elif ile Kaan arasında tam bir kişi vardır. Elif, Can’dan öndedir. Bora ile Can arasında tam bir kişi vardır. Başlangıç sırası: Can, Selin, Elif, Bora, Kaan",
+    "correctAnswer": "1. Elif, 2. Can, 3. Kaan, 4. Bora, 5. Selin",
+    "explanation": "Sıralama bulmacalarında önce kesin bilgiler (kaçıncı sırada, en önde, en sonda) yerleştirilir; sonra “hemen önünde, arasında bir kişi” gibi bitişiklik bilgileriyle boşluklar doldurulur. Her bilgi tek tek kontrol edilir."
+  },
+  {
+    "questionId": "tr8u9-sira-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Ece tezgâh tarafında oturuyor.",
+        "Can pencerenin önünde oturuyor.",
+        "Mert kapı tarafında oturuyor."
+      ],
+      "p": [
+        "Ada",
+        "Ece",
+        "Mert",
+        "Can"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Ece tezgâh tarafında oturuyor. Can pencerenin önünde oturuyor. Mert kapı tarafında oturuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Ada: Kitaplık, Ece: Tezgâh, Mert: Kapı, Can: Pencere",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-sira-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Efe tezgâh tarafında oturmuyor.",
+        "Bora ile Efe karşılıklı oturuyor.",
+        "Mert pencerenin önünde oturuyor."
+      ],
+      "p": [
+        "Zeynep",
+        "Bora",
+        "Efe",
+        "Mert"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        2,
+        1,
+        3,
+        0
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Efe tezgâh tarafında oturmuyor. Bora ile Efe karşılıklı oturuyor. Mert pencerenin önünde oturuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Zeynep: Kapı, Bora: Tezgâh, Efe: Kitaplık, Mert: Pencere",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-sira-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Ada ile Efe karşılıklı oturuyor.",
+        "Mert pencerenin önünde oturmuyor.",
+        "Ada tezgâh tarafında oturuyor."
+      ],
+      "p": [
+        "Ada",
+        "Efe",
+        "Ece",
+        "Mert"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        1,
+        3,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Ada ile Efe karşılıklı oturuyor. Mert pencerenin önünde oturmuyor. Ada tezgâh tarafında oturuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Ada: Tezgâh, Efe: Kitaplık, Ece: Pencere, Mert: Kapı",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-sira-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Selin pencerenin önünde oturuyor.",
+        "Deniz ile Zeynep karşılıklı oturuyor.",
+        "Deniz kitaplık tarafında oturuyor."
+      ],
+      "p": [
+        "Deniz",
+        "Zeynep",
+        "Selin",
+        "Mert"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Selin pencerenin önünde oturuyor. Deniz ile Zeynep karşılıklı oturuyor. Deniz kitaplık tarafında oturuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Deniz: Kitaplık, Zeynep: Tezgâh, Selin: Pencere, Mert: Kapı",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-sira-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Ece ile Efe karşılıklı oturuyor.",
+        "Ece tezgâh tarafında oturmuyor.",
+        "Bora pencerenin önünde oturuyor."
+      ],
+      "p": [
+        "Efe",
+        "Ece",
+        "Mert",
+        "Bora"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Ece ile Efe karşılıklı oturuyor. Ece tezgâh tarafında oturmuyor. Bora pencerenin önünde oturuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Efe: Tezgâh, Ece: Kitaplık, Mert: Kapı, Bora: Pencere",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-sira-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "sira",
+    "rank": 3,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Selin kitaplık tarafında oturmuyor.",
+        "Selin kapı tarafında oturmuyor.",
+        "Cem kitaplık tarafında oturmuyor.",
+        "Cem kapı tarafında oturmuyor.",
+        "Cem pencerenin önünde oturmuyor.",
+        "Can kitaplık tarafında oturmuyor."
+      ],
+      "p": [
+        "Bora",
+        "Can",
+        "Selin",
+        "Cem"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Selin kitaplık tarafında oturmuyor. Selin kapı tarafında oturmuyor. Cem kitaplık tarafında oturmuyor. Cem kapı tarafında oturmuyor. Cem pencerenin önünde oturmuyor. Can kitaplık tarafında oturmuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Bora: Kitaplık, Can: Kapı, Selin: Pencere, Cem: Tezgâh",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-sira-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "sira",
+    "rank": 3,
+    "type": "seat",
+    "prompt": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt.",
+    "data": {
+      "c": [
+        "Ada kapı tarafında oturmuyor.",
+        "Mert kapı tarafında oturmuyor.",
+        "Cem tezgâh tarafında oturmuyor.",
+        "Ada ile Elif karşılıklı oturuyor.",
+        "Cem kapı tarafında oturmuyor."
+      ],
+      "p": [
+        "Elif",
+        "Cem",
+        "Ada",
+        "Mert"
+      ],
+      "s": [
+        "Pencere",
+        "Tezgâh",
+        "Kapı",
+        "Kitaplık"
+      ],
+      "a": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Masayı yerleştir: İpuçlarına göre dört arkadaşı kare masanın koltuklarına oturt. İpuçları: Ada kapı tarafında oturmuyor. Mert kapı tarafında oturmuyor. Cem tezgâh tarafında oturmuyor. Ada ile Elif karşılıklı oturuyor. Cem kapı tarafında oturmuyor. Koltuklar: pencere (karşısı kapı), tezgâh (karşısı kitaplık).",
+    "correctAnswer": "Elif: Kapı, Cem: Kitaplık, Ada: Pencere, Mert: Tezgâh",
+    "explanation": "Kare masada karşılıklı koltuklar: pencere–kapı ve tezgâh–kitaplık. Karşılıklı oturmayan iki kişi yan yanadır. Önce kesin yeri bilinen kişiyi yerleştir, sonra “karşılıklı” ve “yan yana” bilgilerini uygula."
+  },
+  {
+    "questionId": "tr8u9-tablo-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Efe çay içti.",
+        "Kaan kakao içmedi."
+      ],
+      "p": [
+        "Kaan",
+        "Bora",
+        "Efe"
+      ],
+      "d": [
+        "kakao",
+        "çay",
+        "salep"
+      ],
+      "a": [
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Efe çay içti. Kaan kakao içmedi. Kişiler: Kaan, Bora, Efe. İçecekler: kakao, çay, salep.",
+    "correctAnswer": "Kaan: salep, Bora: kakao, Efe: çay",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Ada çay içmedi.",
+        "Cem limonata içti."
+      ],
+      "p": [
+        "Bora",
+        "Cem",
+        "Ada"
+      ],
+      "d": [
+        "ayran",
+        "limonata",
+        "çay"
+      ],
+      "a": [
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Ada çay içmedi. Cem limonata içti. Kişiler: Bora, Cem, Ada. İçecekler: ayran, limonata, çay.",
+    "correctAnswer": "Bora: çay, Cem: limonata, Ada: ayran",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Cem limonata içmedi.",
+        "Cem kakao içmedi.",
+        "Ada limonata içmedi."
+      ],
+      "p": [
+        "Cem",
+        "Efe",
+        "Ada"
+      ],
+      "d": [
+        "limonata",
+        "kakao",
+        "ayran"
+      ],
+      "a": [
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Cem limonata içmedi. Cem kakao içmedi. Ada limonata içmedi. Kişiler: Cem, Efe, Ada. İçecekler: limonata, kakao, ayran.",
+    "correctAnswer": "Cem: ayran, Efe: limonata, Ada: kakao",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Mert ayran içti.",
+        "Cem çay içti."
+      ],
+      "p": [
+        "Cem",
+        "Mert",
+        "Elif"
+      ],
+      "d": [
+        "çay",
+        "ayran",
+        "kakao"
+      ],
+      "a": [
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Mert ayran içti. Cem çay içti. Kişiler: Cem, Mert, Elif. İçecekler: çay, ayran, kakao.",
+    "correctAnswer": "Cem: çay, Mert: ayran, Elif: kakao",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Ada salep içti.",
+        "Bora limonata içmedi.",
+        "Can çay içti."
+      ],
+      "p": [
+        "Ada",
+        "Zeynep",
+        "Bora",
+        "Can"
+      ],
+      "d": [
+        "ayran",
+        "salep",
+        "limonata",
+        "çay"
+      ],
+      "a": [
+        1,
+        2,
+        0,
+        3
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Ada salep içti. Bora limonata içmedi. Can çay içti. Kişiler: Ada, Zeynep, Bora, Can. İçecekler: ayran, salep, limonata, çay.",
+    "correctAnswer": "Ada: salep, Zeynep: limonata, Bora: ayran, Can: çay",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Kaan ayran içti.",
+        "Ada limonata içti.",
+        "Can çay içmedi."
+      ],
+      "p": [
+        "Kaan",
+        "Can",
+        "Selin",
+        "Ada"
+      ],
+      "d": [
+        "salep",
+        "ayran",
+        "çay",
+        "limonata"
+      ],
+      "a": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Kaan ayran içti. Ada limonata içti. Can çay içmedi. Kişiler: Kaan, Can, Selin, Ada. İçecekler: salep, ayran, çay, limonata.",
+    "correctAnswer": "Kaan: ayran, Can: salep, Selin: çay, Ada: limonata",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Ece limonata içmedi.",
+        "Ada salep içti.",
+        "Kaan kakao içti."
+      ],
+      "p": [
+        "Mert",
+        "Ada",
+        "Kaan",
+        "Ece"
+      ],
+      "d": [
+        "limonata",
+        "salep",
+        "kakao",
+        "çay"
+      ],
+      "a": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Ece limonata içmedi. Ada salep içti. Kaan kakao içti. Kişiler: Mert, Ada, Kaan, Ece. İçecekler: limonata, salep, kakao, çay.",
+    "correctAnswer": "Mert: limonata, Ada: salep, Kaan: kakao, Ece: çay",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Selin limonata içti.",
+        "Ece salep içti.",
+        "Mert kakao içmedi."
+      ],
+      "p": [
+        "Ece",
+        "Selin",
+        "Deniz",
+        "Mert"
+      ],
+      "d": [
+        "ayran",
+        "salep",
+        "limonata",
+        "kakao"
+      ],
+      "a": [
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Selin limonata içti. Ece salep içti. Mert kakao içmedi. Kişiler: Ece, Selin, Deniz, Mert. İçecekler: ayran, salep, limonata, kakao.",
+    "correctAnswer": "Ece: salep, Selin: limonata, Deniz: kakao, Mert: ayran",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "tablo",
+    "rank": 3,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Deniz salep içmedi.",
+        "Kaan soğuk bir içecek içti.",
+        "Deniz çay içmedi.",
+        "Elif çay içmedi."
+      ],
+      "p": [
+        "Kaan",
+        "Deniz",
+        "Bora",
+        "Elif"
+      ],
+      "d": [
+        "çay",
+        "salep",
+        "kakao",
+        "ayran"
+      ],
+      "a": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Deniz salep içmedi. Kaan soğuk bir içecek içti. Deniz çay içmedi. Elif çay içmedi. Kişiler: Kaan, Deniz, Bora, Elif. İçecekler: çay, salep, kakao, ayran.",
+    "correctAnswer": "Kaan: ayran, Deniz: kakao, Bora: çay, Elif: salep",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "tablo",
+    "rank": 3,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Bora ayran içmedi.",
+        "Bora soğuk bir içecek içti.",
+        "Zeynep soğuk bir içecek içti.",
+        "Elif ya limonata ya da çay içti."
+      ],
+      "p": [
+        "Can",
+        "Elif",
+        "Zeynep",
+        "Bora"
+      ],
+      "d": [
+        "limonata",
+        "ayran",
+        "çay",
+        "salep"
+      ],
+      "a": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Bora ayran içmedi. Bora soğuk bir içecek içti. Zeynep soğuk bir içecek içti. Elif ya limonata ya da çay içti. Kişiler: Can, Elif, Zeynep, Bora. İçecekler: limonata, ayran, çay, salep.",
+    "correctAnswer": "Can: salep, Elif: çay, Zeynep: ayran, Bora: limonata",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "tablo",
+    "rank": 3,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Deniz ayran içmedi.",
+        "Mert salep içmedi.",
+        "Can ya kakao ya da limonata içti.",
+        "Deniz soğuk bir içecek içti."
+      ],
+      "p": [
+        "Zeynep",
+        "Deniz",
+        "Mert",
+        "Can"
+      ],
+      "d": [
+        "kakao",
+        "ayran",
+        "salep",
+        "limonata"
+      ],
+      "a": [
+        2,
+        3,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Deniz ayran içmedi. Mert salep içmedi. Can ya kakao ya da limonata içti. Deniz soğuk bir içecek içti. Kişiler: Zeynep, Deniz, Mert, Can. İçecekler: kakao, ayran, salep, limonata.",
+    "correctAnswer": "Zeynep: salep, Deniz: limonata, Mert: ayran, Can: kakao",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "tablo",
+    "rank": 3,
+    "type": "grid",
+    "prompt": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle.",
+    "data": {
+      "c": [
+        "Ece çay içmedi.",
+        "Ece ya salep ya da çay içti.",
+        "Zeynep kakao içmedi.",
+        "Cem kakao içmedi.",
+        "Cem çay içmedi."
+      ],
+      "p": [
+        "Ada",
+        "Cem",
+        "Zeynep",
+        "Ece"
+      ],
+      "d": [
+        "kakao",
+        "salep",
+        "ayran",
+        "çay"
+      ],
+      "a": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "textPlain": "Sipariş tablosu: İpuçlarına göre kimin hangi içeceği içtiğini tabloda ✔ ile işaretle. İpuçları: Ece çay içmedi. Ece ya salep ya da çay içti. Zeynep kakao içmedi. Cem kakao içmedi. Cem çay içmedi. Kişiler: Ada, Cem, Zeynep, Ece. İçecekler: kakao, salep, ayran, çay.",
+    "correctAnswer": "Ada: kakao, Cem: ayran, Zeynep: çay, Ece: salep",
+    "explanation": "Eşleştirme tablosunda her kişi bir, her içecek bir kez kullanılır. Kesin bilgileri ✔, olmayanları ✘ ile işaretle; bir satırda ya da sütunda tek boş kare kalırsa orası ✔ olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Resim atölyesi Pazartesi günü yapılmaz.",
+        "Resim atölyesi Perşembe günü yapılmaz.",
+        "Kitap kulübü, müzik dinletisinden bir gün önce yapılır.",
+        "Bulmaca gecesi Perşembe günü yapılmaz."
+      ],
+      "e": [
+        "müzik dinletisi",
+        "bulmaca gecesi",
+        "resim atölyesi",
+        "kitap kulübü"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe"
+      ],
+      "a": [
+        3,
+        0,
+        1,
+        2
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Resim atölyesi Pazartesi günü yapılmaz. Resim atölyesi Perşembe günü yapılmaz. Kitap kulübü, müzik dinletisinden bir gün önce yapılır. Bulmaca gecesi Perşembe günü yapılmaz. Günler: Pazartesi, Salı, Çarşamba, Perşembe.",
+    "correctAnswer": "Pazartesi: bulmaca gecesi, Salı: resim atölyesi, Çarşamba: kitap kulübü, Perşembe: müzik dinletisi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Resim atölyesi Pazartesi günü yapılır.",
+        "Müzik dinletisi, satranç turnuvasından daha sonraki bir günde yapılır.",
+        "Kitap kulübü Çarşamba günü yapılmaz.",
+        "Kitap kulübü Perşembe günü yapılmaz."
+      ],
+      "e": [
+        "kitap kulübü",
+        "müzik dinletisi",
+        "satranç turnuvası",
+        "resim atölyesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe"
+      ],
+      "a": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Resim atölyesi Pazartesi günü yapılır. Müzik dinletisi, satranç turnuvasından daha sonraki bir günde yapılır. Kitap kulübü Çarşamba günü yapılmaz. Kitap kulübü Perşembe günü yapılmaz. Günler: Pazartesi, Salı, Çarşamba, Perşembe.",
+    "correctAnswer": "Pazartesi: resim atölyesi, Salı: kitap kulübü, Çarşamba: satranç turnuvası, Perşembe: müzik dinletisi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Müzik dinletisi Salı günü yapılmaz.",
+        "Resim atölyesi, bulmaca gecesinden daha sonraki bir günde yapılır.",
+        "Satranç turnuvası ile müzik dinletisi arasında tam bir gün vardır.",
+        "Satranç turnuvası Çarşamba günü yapılmaz.",
+        "Satranç turnuvası Salı günü yapılmaz."
+      ],
+      "e": [
+        "resim atölyesi",
+        "bulmaca gecesi",
+        "satranç turnuvası",
+        "müzik dinletisi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe"
+      ],
+      "a": [
+        3,
+        1,
+        0,
+        2
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Müzik dinletisi Salı günü yapılmaz. Resim atölyesi, bulmaca gecesinden daha sonraki bir günde yapılır. Satranç turnuvası ile müzik dinletisi arasında tam bir gün vardır. Satranç turnuvası Çarşamba günü yapılmaz. Satranç turnuvası Salı günü yapılmaz. Günler: Pazartesi, Salı, Çarşamba, Perşembe.",
+    "correctAnswer": "Pazartesi: satranç turnuvası, Salı: bulmaca gecesi, Çarşamba: müzik dinletisi, Perşembe: resim atölyesi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Satranç turnuvası Perşembe günü yapılmaz.",
+        "Resim atölyesi Salı günü yapılır.",
+        "Satranç turnuvası, bulmaca gecesinden daha sonraki bir günde yapılır."
+      ],
+      "e": [
+        "resim atölyesi",
+        "müzik dinletisi",
+        "satranç turnuvası",
+        "bulmaca gecesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe"
+      ],
+      "a": [
+        1,
+        3,
+        2,
+        0
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Satranç turnuvası Perşembe günü yapılmaz. Resim atölyesi Salı günü yapılır. Satranç turnuvası, bulmaca gecesinden daha sonraki bir günde yapılır. Günler: Pazartesi, Salı, Çarşamba, Perşembe.",
+    "correctAnswer": "Pazartesi: bulmaca gecesi, Salı: resim atölyesi, Çarşamba: satranç turnuvası, Perşembe: müzik dinletisi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Satranç turnuvası ile kitap kulübü arasında tam bir gün vardır.",
+        "Kitap kulübü, bulmaca gecesinden bir gün önce yapılır.",
+        "Resim atölyesi Perşembe günü yapılır."
+      ],
+      "e": [
+        "kitap kulübü",
+        "bulmaca gecesi",
+        "resim atölyesi",
+        "satranç turnuvası",
+        "müzik dinletisi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        0,
+        1,
+        3,
+        2,
+        4
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Satranç turnuvası ile kitap kulübü arasında tam bir gün vardır. Kitap kulübü, bulmaca gecesinden bir gün önce yapılır. Resim atölyesi Perşembe günü yapılır. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: kitap kulübü, Salı: bulmaca gecesi, Çarşamba: satranç turnuvası, Perşembe: resim atölyesi, Cuma: müzik dinletisi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Müzik dinletisi Cuma günü yapılır.",
+        "Kitap kulübü Çarşamba günü yapılmaz.",
+        "Kitap kulübü, satranç turnuvasından bir gün önce yapılır.",
+        "Kitap kulübü, bulmaca gecesinden daha sonraki bir günde yapılır."
+      ],
+      "e": [
+        "müzik dinletisi",
+        "kitap kulübü",
+        "satranç turnuvası",
+        "resim atölyesi",
+        "bulmaca gecesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        4,
+        1,
+        2,
+        3,
+        0
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Müzik dinletisi Cuma günü yapılır. Kitap kulübü Çarşamba günü yapılmaz. Kitap kulübü, satranç turnuvasından bir gün önce yapılır. Kitap kulübü, bulmaca gecesinden daha sonraki bir günde yapılır. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: bulmaca gecesi, Salı: kitap kulübü, Çarşamba: satranç turnuvası, Perşembe: resim atölyesi, Cuma: müzik dinletisi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Bulmaca gecesi, müzik dinletisinden bir gün önce yapılır.",
+        "Kitap kulübü Salı günü yapılmaz.",
+        "Bulmaca gecesi, satranç turnuvasından daha sonraki bir günde yapılır.",
+        "Müzik dinletisi, kitap kulübünden daha sonraki bir günde yapılır.",
+        "Kitap kulübü, resim atölyesinden bir gün önce yapılır."
+      ],
+      "e": [
+        "resim atölyesi",
+        "kitap kulübü",
+        "bulmaca gecesi",
+        "satranç turnuvası",
+        "müzik dinletisi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        1,
+        0,
+        3,
+        2,
+        4
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Bulmaca gecesi, müzik dinletisinden bir gün önce yapılır. Kitap kulübü Salı günü yapılmaz. Bulmaca gecesi, satranç turnuvasından daha sonraki bir günde yapılır. Müzik dinletisi, kitap kulübünden daha sonraki bir günde yapılır. Kitap kulübü, resim atölyesinden bir gün önce yapılır. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: kitap kulübü, Salı: resim atölyesi, Çarşamba: satranç turnuvası, Perşembe: bulmaca gecesi, Cuma: müzik dinletisi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Satranç turnuvası Cuma günü yapılır.",
+        "Resim atölyesi Pazartesi günü yapılır.",
+        "Müzik dinletisi, kitap kulübünden daha sonraki bir günde yapılır.",
+        "Müzik dinletisi Perşembe günü yapılmaz."
+      ],
+      "e": [
+        "kitap kulübü",
+        "resim atölyesi",
+        "satranç turnuvası",
+        "müzik dinletisi",
+        "bulmaca gecesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        1,
+        0,
+        4,
+        2,
+        3
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Satranç turnuvası Cuma günü yapılır. Resim atölyesi Pazartesi günü yapılır. Müzik dinletisi, kitap kulübünden daha sonraki bir günde yapılır. Müzik dinletisi Perşembe günü yapılmaz. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: resim atölyesi, Salı: kitap kulübü, Çarşamba: müzik dinletisi, Perşembe: bulmaca gecesi, Cuma: satranç turnuvası",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "takvim",
+    "rank": 3,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Kitap kulübü Pazartesi günü yapılmaz.",
+        "Resim atölyesi ile müzik dinletisi arasında tam bir gün vardır.",
+        "Kitap kulübü Perşembe günü yapılmaz.",
+        "Kitap kulübü Salı günü yapılmaz.",
+        "Satranç turnuvası, müzik dinletisinden daha sonraki bir günde yapılır.",
+        "Bulmaca gecesi, resim atölyesinden daha sonraki bir günde yapılır.",
+        "Resim atölyesi Çarşamba günü yapılmaz."
+      ],
+      "e": [
+        "müzik dinletisi",
+        "satranç turnuvası",
+        "kitap kulübü",
+        "bulmaca gecesi",
+        "resim atölyesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        2,
+        3,
+        4,
+        1,
+        0
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Kitap kulübü Pazartesi günü yapılmaz. Resim atölyesi ile müzik dinletisi arasında tam bir gün vardır. Kitap kulübü Perşembe günü yapılmaz. Kitap kulübü Salı günü yapılmaz. Satranç turnuvası, müzik dinletisinden daha sonraki bir günde yapılır. Bulmaca gecesi, resim atölyesinden daha sonraki bir günde yapılır. Resim atölyesi Çarşamba günü yapılmaz. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: resim atölyesi, Salı: bulmaca gecesi, Çarşamba: müzik dinletisi, Perşembe: satranç turnuvası, Cuma: kitap kulübü",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "takvim",
+    "rank": 3,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Kitap kulübü ile müzik dinletisi arasında tam bir gün vardır.",
+        "Resim atölyesi Pazartesi günü yapılmaz.",
+        "Kitap kulübü, satranç turnuvasından daha sonraki bir günde yapılır.",
+        "Satranç turnuvası, resim atölyesinden daha sonraki bir günde yapılır."
+      ],
+      "e": [
+        "satranç turnuvası",
+        "müzik dinletisi",
+        "bulmaca gecesi",
+        "kitap kulübü",
+        "resim atölyesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        3,
+        2,
+        0,
+        4,
+        1
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Kitap kulübü ile müzik dinletisi arasında tam bir gün vardır. Resim atölyesi Pazartesi günü yapılmaz. Kitap kulübü, satranç turnuvasından daha sonraki bir günde yapılır. Satranç turnuvası, resim atölyesinden daha sonraki bir günde yapılır. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: bulmaca gecesi, Salı: resim atölyesi, Çarşamba: müzik dinletisi, Perşembe: satranç turnuvası, Cuma: kitap kulübü",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "takvim",
+    "rank": 3,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Resim atölyesi, bulmaca gecesinden daha sonraki bir günde yapılır.",
+        "Satranç turnuvası, bulmaca gecesinden daha sonraki bir günde yapılır.",
+        "Kitap kulübü ile resim atölyesi arasında tam bir gün vardır.",
+        "Resim atölyesi Çarşamba günü yapılmaz.",
+        "Resim atölyesi Perşembe günü yapılmaz.",
+        "Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır."
+      ],
+      "e": [
+        "satranç turnuvası",
+        "resim atölyesi",
+        "bulmaca gecesi",
+        "kitap kulübü",
+        "müzik dinletisi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        4,
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Resim atölyesi, bulmaca gecesinden daha sonraki bir günde yapılır. Satranç turnuvası, bulmaca gecesinden daha sonraki bir günde yapılır. Kitap kulübü ile resim atölyesi arasında tam bir gün vardır. Resim atölyesi Çarşamba günü yapılmaz. Resim atölyesi Perşembe günü yapılmaz. Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: bulmaca gecesi, Salı: resim atölyesi, Çarşamba: müzik dinletisi, Perşembe: kitap kulübü, Cuma: satranç turnuvası",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-takvim-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "takvim",
+    "rank": 3,
+    "type": "week",
+    "prompt": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as.",
+    "data": {
+      "c": [
+        "Kitap kulübü Çarşamba günü yapılmaz.",
+        "Resim atölyesi, müzik dinletisinden bir gün önce yapılır.",
+        "Bulmaca gecesi, müzik dinletisinden daha sonraki bir günde yapılır.",
+        "Müzik dinletisi, kitap kulübünden bir gün önce yapılır."
+      ],
+      "e": [
+        "müzik dinletisi",
+        "resim atölyesi",
+        "kitap kulübü",
+        "satranç turnuvası",
+        "bulmaca gecesi"
+      ],
+      "d": [
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma"
+      ],
+      "a": [
+        2,
+        1,
+        3,
+        0,
+        4
+      ]
+    },
+    "textPlain": "Haftalık pano: Etkinlik kartlarını ipuçlarına göre günlere as. İpuçları: Kitap kulübü Çarşamba günü yapılmaz. Resim atölyesi, müzik dinletisinden bir gün önce yapılır. Bulmaca gecesi, müzik dinletisinden daha sonraki bir günde yapılır. Müzik dinletisi, kitap kulübünden bir gün önce yapılır. Günler: Pazartesi, Salı, Çarşamba, Perşembe, Cuma.",
+    "correctAnswer": "Pazartesi: satranç turnuvası, Salı: resim atölyesi, Çarşamba: müzik dinletisi, Perşembe: kitap kulübü, Cuma: bulmaca gecesi",
+    "explanation": "Takvim yerleştirmede her etkinlik bir güne, her güne bir etkinlik gelir. Önce günü kesin olanları yerleştir; “bir gün önce”, “daha sonra”, “arasında bir gün” bilgileriyle kalanları sına."
+  },
+  {
+    "questionId": "tr8u9-sira-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "sira",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kasa önünde 4 kişi sıraya girmiş (Bora, Deniz, Ece, Selin).\n• Ece 4. sıradadır.\n• Deniz, Ece’nin hemen önündedir.\n• Bora, Deniz’den öndedir.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Deniz, Selin’den öndedir.",
+          1
+        ],
+        [
+          "Deniz 1. sıradadır.",
+          1
+        ],
+        [
+          "Ece, Deniz’den öndedir.",
+          1
+        ],
+        [
+          "Deniz 3. sıradadır.",
+          0
+        ],
+        [
+          "Bora, Ece’den öndedir.",
+          0
+        ],
+        [
+          "Selin, Ece’den öndedir.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kasa önünde 4 kişi sıraya girmiş (Bora, Deniz, Ece, Selin). Bilgiler: Ece 4. sıradadır. Deniz, Ece’nin hemen önündedir. Bora, Deniz’den öndedir. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Deniz, Selin’den öndedir. / Deniz 1. sıradadır. / Ece, Deniz’den öndedir. / Deniz 3. sıradadır. / Bora, Ece’den öndedir. / Selin, Ece’den öndedir.",
+    "correctAnswer": "Deniz, Selin’den öndedir. → Kesin yanlış | Deniz 1. sıradadır. → Kesin yanlış | Ece, Deniz’den öndedir. → Kesin yanlış | Deniz 3. sıradadır. → Kesin doğru | Bora, Ece’den öndedir. → Kesin doğru | Selin, Ece’den öndedir. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-sira-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "sira",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kasa önünde 5 kişi sıraya girmiş (Ada, Bora, Deniz, Efe, Zeynep).\n• Deniz, Ada’dan öndedir.\n• Ada, Efe’den öndedir.\n• Ada 4. sıradadır.\n• Zeynep, Ada’nın hemen önündedir.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Deniz 5. sıradadır.",
+          1
+        ],
+        [
+          "Bora, Deniz’den öndedir.",
+          2
+        ],
+        [
+          "Deniz 2. sıradadır.",
+          2
+        ],
+        [
+          "Bora, Efe’den öndedir.",
+          0
+        ],
+        [
+          "Bora 4. sıradadır.",
+          1
+        ],
+        [
+          "Efe 5. sıradadır.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kasa önünde 5 kişi sıraya girmiş (Ada, Bora, Deniz, Efe, Zeynep). Bilgiler: Deniz, Ada’dan öndedir. Ada, Efe’den öndedir. Ada 4. sıradadır. Zeynep, Ada’nın hemen önündedir. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Deniz 5. sıradadır. / Bora, Deniz’den öndedir. / Deniz 2. sıradadır. / Bora, Efe’den öndedir. / Bora 4. sıradadır. / Efe 5. sıradadır.",
+    "correctAnswer": "Deniz 5. sıradadır. → Kesin yanlış | Bora, Deniz’den öndedir. → Kesin değil | Deniz 2. sıradadır. → Kesin değil | Bora, Efe’den öndedir. → Kesin doğru | Bora 4. sıradadır. → Kesin yanlış | Efe 5. sıradadır. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-sira-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Sıralama ve yerleşim",
+    "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "sira",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kasa önünde 5 kişi sıraya girmiş (Ada, Bora, Cem, Ece, Elif).\n• Elif en önde değildir.\n• Ada, Cem’in hemen önündedir.\n• Elif, Ada’dan öndedir.\n• Elif, Ada’nın hemen önündedir.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Elif 4. sıradadır.",
+          1
+        ],
+        [
+          "Bora 4. sıradadır.",
+          1
+        ],
+        [
+          "Ece, Ada’dan öndedir.",
+          2
+        ],
+        [
+          "Ada 3. sıradadır.",
+          2
+        ],
+        [
+          "Elif, Cem’den öndedir.",
+          0
+        ],
+        [
+          "Ada, Cem’den öndedir.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kasa önünde 5 kişi sıraya girmiş (Ada, Bora, Cem, Ece, Elif). Bilgiler: Elif en önde değildir. Ada, Cem’in hemen önündedir. Elif, Ada’dan öndedir. Elif, Ada’nın hemen önündedir. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Elif 4. sıradadır. / Bora 4. sıradadır. / Ece, Ada’dan öndedir. / Ada 3. sıradadır. / Elif, Cem’den öndedir. / Ada, Cem’den öndedir.",
+    "correctAnswer": "Elif 4. sıradadır. → Kesin yanlış | Bora 4. sıradadır. → Kesin yanlış | Ece, Ada’dan öndedir. → Kesin değil | Ada 3. sıradadır. → Kesin değil | Elif, Cem’den öndedir. → Kesin doğru | Ada, Cem’den öndedir. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Cem, Efe, Mert birer içecek içmiş; içecekler: çay, kakao, salep (her biri bir kişi).",
+      "c": [
+        "Mert çay içmedi.",
+        "Efe kakao içmedi.",
+        "Efe salep içmedi."
+      ],
+      "s": [
+        "Efe çay içti.",
+        "Cem çay içti.",
+        "Mert salep içti."
+      ],
+      "a": [
+        0,
+        1,
+        2
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Cem, Efe, Mert birer içecek içmiş; içecekler: çay, kakao, salep (her biri bir kişi). Bilgiler: Mert çay içmedi. Efe kakao içmedi. Efe salep içmedi. Yargılar: Efe çay içti. / Cem çay içti. / Mert salep içti.",
+    "correctAnswer": "Efe çay içti. → Kesin doğru | Cem çay içti. → Kesin yanlış | Mert salep içti. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Selin, Mert, Efe, Bora birer içecek içmiş; içecekler: ayran, kakao, çay, salep (her biri bir kişi).",
+      "c": [
+        "Bora çay içmedi.",
+        "Bora salep içti.",
+        "Efe kakao içmedi.",
+        "Mert kakao içmedi."
+      ],
+      "s": [
+        "Selin kakao içti.",
+        "Selin ayran içti.",
+        "Mert ayran içti."
+      ],
+      "a": [
+        0,
+        1,
+        2
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Selin, Mert, Efe, Bora birer içecek içmiş; içecekler: ayran, kakao, çay, salep (her biri bir kişi). Bilgiler: Bora çay içmedi. Bora salep içti. Efe kakao içmedi. Mert kakao içmedi. Yargılar: Selin kakao içti. / Selin ayran içti. / Mert ayran içti.",
+    "correctAnswer": "Selin kakao içti. → Kesin doğru | Selin ayran içti. → Kesin yanlış | Mert ayran içti. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kaan, Ece, Deniz, Ada birer içecek içmiş; içecekler: limonata, çay, salep, kakao (her biri bir kişi).",
+      "c": [
+        "Kaan çay içmedi.",
+        "Ece salep içti.",
+        "Kaan kakao içmedi.",
+        "Ece çay içmedi."
+      ],
+      "s": [
+        "Kaan çay içti.",
+        "Kaan limonata içti.",
+        "Deniz çay içti."
+      ],
+      "a": [
+        1,
+        0,
+        2
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kaan, Ece, Deniz, Ada birer içecek içmiş; içecekler: limonata, çay, salep, kakao (her biri bir kişi). Bilgiler: Kaan çay içmedi. Ece salep içti. Kaan kakao içmedi. Ece çay içmedi. Yargılar: Kaan çay içti. / Kaan limonata içti. / Deniz çay içti.",
+    "correctAnswer": "Kaan çay içti. → Kesin yanlış | Kaan limonata içti. → Kesin doğru | Deniz çay içti. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "tablo",
+    "rank": 3,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Zeynep, Selin, Ada, Efe birer içecek içmiş; içecekler: ayran, limonata, kakao, çay (her biri bir kişi).",
+      "c": [
+        "Zeynep kakao içmedi.",
+        "Selin limonata içmedi.",
+        "Ada ayran içmedi.",
+        "Zeynep sıcak bir içecek içti."
+      ],
+      "s": [
+        "Selin çay içti.",
+        "Zeynep çay içti.",
+        "Selin ayran içti.",
+        "Ada ayran içti."
+      ],
+      "a": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Zeynep, Selin, Ada, Efe birer içecek içmiş; içecekler: ayran, limonata, kakao, çay (her biri bir kişi). Bilgiler: Zeynep kakao içmedi. Selin limonata içmedi. Ada ayran içmedi. Zeynep sıcak bir içecek içti. Yargılar: Selin çay içti. / Zeynep çay içti. / Selin ayran içti. / Ada ayran içti.",
+    "correctAnswer": "Selin çay içti. → Kesin yanlış | Zeynep çay içti. → Kesin doğru | Selin ayran içti. → Kesin değil | Ada ayran içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kaan, Cem, Deniz birer içecek içmiş; içecekler: ayran, salep, çay (her biri bir kişi).\n• Cem salep içmedi.\n• Kaan ayran içmedi.\n• Kaan çay içmedi.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Kaan salep içti.",
+          0
+        ],
+        [
+          "Kaan çay içti.",
+          1
+        ],
+        [
+          "Kaan ayran içti.",
+          1
+        ],
+        [
+          "Deniz salep içti.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kaan, Cem, Deniz birer içecek içmiş; içecekler: ayran, salep, çay (her biri bir kişi). Bilgiler: Cem salep içmedi. Kaan ayran içmedi. Kaan çay içmedi. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Kaan salep içti. / Kaan çay içti. / Kaan ayran içti. / Deniz salep içti.",
+    "correctAnswer": "Kaan salep içti. → Kesin doğru | Kaan çay içti. → Kesin yanlış | Kaan ayran içti. → Kesin yanlış | Deniz salep içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "tablo",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Cem, Ece, Can birer içecek içmiş; içecekler: ayran, limonata, çay (her biri bir kişi).\n• Ece ayran içmedi.\n• Can limonata içmedi.\n• Can çay içmedi.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Can ayran içti.",
+          0
+        ],
+        [
+          "Can limonata içti.",
+          1
+        ],
+        [
+          "Ece ayran içti.",
+          1
+        ],
+        [
+          "Cem ayran içti.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Cem, Ece, Can birer içecek içmiş; içecekler: ayran, limonata, çay (her biri bir kişi). Bilgiler: Ece ayran içmedi. Can limonata içmedi. Can çay içmedi. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Can ayran içti. / Can limonata içti. / Ece ayran içti. / Cem ayran içti.",
+    "correctAnswer": "Can ayran içti. → Kesin doğru | Can limonata içti. → Kesin yanlış | Ece ayran içti. → Kesin yanlış | Cem ayran içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "tablo",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Bora, Deniz, Can, Ece birer içecek içmiş; içecekler: salep, ayran, kakao, limonata (her biri bir kişi).\n• Can limonata içmedi.\n• Ece salep içmedi.\n• Can ayran içmedi.\n• Deniz salep içti.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Bora salep içti.",
+          1
+        ],
+        [
+          "Bora limonata içti.",
+          2
+        ],
+        [
+          "Can kakao içti.",
+          0
+        ],
+        [
+          "Deniz limonata içti.",
+          1
+        ],
+        [
+          "Bora ayran içti.",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Bora, Deniz, Can, Ece birer içecek içmiş; içecekler: salep, ayran, kakao, limonata (her biri bir kişi). Bilgiler: Can limonata içmedi. Ece salep içmedi. Can ayran içmedi. Deniz salep içti. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Bora salep içti. / Bora limonata içti. / Can kakao içti. / Deniz limonata içti. / Bora ayran içti.",
+    "correctAnswer": "Bora salep içti. → Kesin yanlış | Bora limonata içti. → Kesin değil | Can kakao içti. → Kesin doğru | Deniz limonata içti. → Kesin yanlış | Bora ayran içti. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-tablo-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Eşleştirme tablosu",
+    "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "tablo",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Mert, Zeynep, Elif, Selin birer içecek içmiş; içecekler: limonata, salep, ayran, çay (her biri bir kişi).\n• Zeynep salep içmedi.\n• Elif sıcak bir içecek içti.\n• Elif salep içmedi.\n• Elif ya ayran ya da çay içti.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Mert salep içti.",
+          2
+        ],
+        [
+          "Elif çay içti.",
+          0
+        ],
+        [
+          "Mert çay içti.",
+          1
+        ],
+        [
+          "Mert ayran içti.",
+          2
+        ],
+        [
+          "Zeynep çay içti.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Mert, Zeynep, Elif, Selin birer içecek içmiş; içecekler: limonata, salep, ayran, çay (her biri bir kişi). Bilgiler: Zeynep salep içmedi. Elif sıcak bir içecek içti. Elif salep içmedi. Elif ya ayran ya da çay içti. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Mert salep içti. / Elif çay içti. / Mert çay içti. / Mert ayran içti. / Zeynep çay içti.",
+    "correctAnswer": "Mert salep içti. → Kesin değil | Elif çay içti. → Kesin doğru | Mert çay içti. → Kesin yanlış | Mert ayran içti. → Kesin değil | Zeynep çay içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Perşembe her gün bir etkinlik: resim atölyesi, kitap kulübü, bulmaca gecesi, satranç turnuvası.",
+      "c": [
+        "Satranç turnuvası, bulmaca gecesinden daha sonraki bir günde yapılır.",
+        "Satranç turnuvası, kitap kulübünden daha sonraki bir günde yapılır.",
+        "Bulmaca gecesi, resim atölyesinden daha sonraki bir günde yapılır."
+      ],
+      "s": [
+        "Satranç turnuvası Perşembe günü yapılır.",
+        "Resim atölyesi Perşembe günü yapılır.",
+        "Resim atölyesi Salı günü yapılır."
+      ],
+      "a": [
+        0,
+        1,
+        2
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Perşembe her gün bir etkinlik: resim atölyesi, kitap kulübü, bulmaca gecesi, satranç turnuvası. Bilgiler: Satranç turnuvası, bulmaca gecesinden daha sonraki bir günde yapılır. Satranç turnuvası, kitap kulübünden daha sonraki bir günde yapılır. Bulmaca gecesi, resim atölyesinden daha sonraki bir günde yapılır. Yargılar: Satranç turnuvası Perşembe günü yapılır. / Resim atölyesi Perşembe günü yapılır. / Resim atölyesi Salı günü yapılır.",
+    "correctAnswer": "Satranç turnuvası Perşembe günü yapılır. → Kesin doğru | Resim atölyesi Perşembe günü yapılır. → Kesin yanlış | Resim atölyesi Salı günü yapılır. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Cuma her gün bir etkinlik: satranç turnuvası, bulmaca gecesi, müzik dinletisi, resim atölyesi, kitap kulübü.",
+      "c": [
+        "Kitap kulübü Perşembe günü yapılır.",
+        "Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır.",
+        "Müzik dinletisi, kitap kulübünden bir gün önce yapılır.",
+        "Müzik dinletisi, resim atölyesinden daha sonraki bir günde yapılır."
+      ],
+      "s": [
+        "Müzik dinletisi Çarşamba günü yapılır.",
+        "Resim atölyesi Perşembe günü yapılır.",
+        "Satranç turnuvası Salı günü yapılır."
+      ],
+      "a": [
+        0,
+        1,
+        2
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Cuma her gün bir etkinlik: satranç turnuvası, bulmaca gecesi, müzik dinletisi, resim atölyesi, kitap kulübü. Bilgiler: Kitap kulübü Perşembe günü yapılır. Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır. Müzik dinletisi, kitap kulübünden bir gün önce yapılır. Müzik dinletisi, resim atölyesinden daha sonraki bir günde yapılır. Yargılar: Müzik dinletisi Çarşamba günü yapılır. / Resim atölyesi Perşembe günü yapılır. / Satranç turnuvası Salı günü yapılır.",
+    "correctAnswer": "Müzik dinletisi Çarşamba günü yapılır. → Kesin doğru | Resim atölyesi Perşembe günü yapılır. → Kesin yanlış | Satranç turnuvası Salı günü yapılır. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Cuma her gün bir etkinlik: müzik dinletisi, kitap kulübü, resim atölyesi, satranç turnuvası, bulmaca gecesi.",
+      "c": [
+        "Müzik dinletisi Pazartesi günü yapılır.",
+        "Müzik dinletisi Çarşamba günü yapılmaz.",
+        "Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır.",
+        "Kitap kulübü Pazartesi günü yapılmaz."
+      ],
+      "s": [
+        "Bulmaca gecesi Çarşamba günü yapılır.",
+        "Resim atölyesi Cuma günü yapılır.",
+        "Müzik dinletisi Salı günü yapılır."
+      ],
+      "a": [
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Cuma her gün bir etkinlik: müzik dinletisi, kitap kulübü, resim atölyesi, satranç turnuvası, bulmaca gecesi. Bilgiler: Müzik dinletisi Pazartesi günü yapılır. Müzik dinletisi Çarşamba günü yapılmaz. Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır. Kitap kulübü Pazartesi günü yapılmaz. Yargılar: Bulmaca gecesi Çarşamba günü yapılır. / Resim atölyesi Cuma günü yapılır. / Müzik dinletisi Salı günü yapılır.",
+    "correctAnswer": "Bulmaca gecesi Çarşamba günü yapılır. → Kesin doğru | Resim atölyesi Cuma günü yapılır. → Kesin değil | Müzik dinletisi Salı günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "takvim",
+    "rank": 3,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Cuma her gün bir etkinlik: resim atölyesi, kitap kulübü, müzik dinletisi, bulmaca gecesi, satranç turnuvası.",
+      "c": [
+        "Resim atölyesi Pazartesi günü yapılmaz.",
+        "Satranç turnuvası, müzik dinletisinden daha sonraki bir günde yapılır.",
+        "Bulmaca gecesi Pazartesi günü yapılmaz.",
+        "Müzik dinletisi Pazartesi günü yapılmaz."
+      ],
+      "s": [
+        "Satranç turnuvası Çarşamba günü yapılır.",
+        "Bulmaca gecesi Pazartesi günü yapılır.",
+        "Resim atölyesi Perşembe günü yapılır.",
+        "Kitap kulübü Pazartesi günü yapılır."
+      ],
+      "a": [
+        2,
+        1,
+        2,
+        0
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Cuma her gün bir etkinlik: resim atölyesi, kitap kulübü, müzik dinletisi, bulmaca gecesi, satranç turnuvası. Bilgiler: Resim atölyesi Pazartesi günü yapılmaz. Satranç turnuvası, müzik dinletisinden daha sonraki bir günde yapılır. Bulmaca gecesi Pazartesi günü yapılmaz. Müzik dinletisi Pazartesi günü yapılmaz. Yargılar: Satranç turnuvası Çarşamba günü yapılır. / Bulmaca gecesi Pazartesi günü yapılır. / Resim atölyesi Perşembe günü yapılır. / Kitap kulübü Pazartesi günü yapılır.",
+    "correctAnswer": "Satranç turnuvası Çarşamba günü yapılır. → Kesin değil | Bulmaca gecesi Pazartesi günü yapılır. → Kesin yanlış | Resim atölyesi Perşembe günü yapılır. → Kesin değil | Kitap kulübü Pazartesi günü yapılır. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Pazartesi–Perşembe her gün bir etkinlik: resim atölyesi, satranç turnuvası, müzik dinletisi, bulmaca gecesi.\n• Resim atölyesi, satranç turnuvasından daha sonraki bir günde yapılır.\n• Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır.\n• Satranç turnuvası Salı günü yapılmaz.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Satranç turnuvası Çarşamba günü yapılır.",
+          1
+        ],
+        [
+          "Müzik dinletisi Pazartesi günü yapılır.",
+          1
+        ],
+        [
+          "Resim atölyesi Çarşamba günü yapılır.",
+          0
+        ],
+        [
+          "Satranç turnuvası Pazartesi günü yapılır.",
+          0
+        ],
+        [
+          "Resim atölyesi Pazartesi günü yapılır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Pazartesi–Perşembe her gün bir etkinlik: resim atölyesi, satranç turnuvası, müzik dinletisi, bulmaca gecesi. Bilgiler: Resim atölyesi, satranç turnuvasından daha sonraki bir günde yapılır. Müzik dinletisi ile bulmaca gecesi arasında tam bir gün vardır. Satranç turnuvası Salı günü yapılmaz. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Satranç turnuvası Çarşamba günü yapılır. / Müzik dinletisi Pazartesi günü yapılır. / Resim atölyesi Çarşamba günü yapılır. / Satranç turnuvası Pazartesi günü yapılır. / Resim atölyesi Pazartesi günü yapılır.",
+    "correctAnswer": "Satranç turnuvası Çarşamba günü yapılır. → Kesin yanlış | Müzik dinletisi Pazartesi günü yapılır. → Kesin yanlış | Resim atölyesi Çarşamba günü yapılır. → Kesin doğru | Satranç turnuvası Pazartesi günü yapılır. → Kesin doğru | Resim atölyesi Pazartesi günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "takvim",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Pazartesi–Perşembe her gün bir etkinlik: müzik dinletisi, kitap kulübü, satranç turnuvası, resim atölyesi.\n• Satranç turnuvası Pazartesi günü yapılmaz.\n• Satranç turnuvası, resim atölyesinden daha sonraki bir günde yapılır.\n• Satranç turnuvası Salı günü yapılır.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Resim atölyesi Pazartesi günü yapılır.",
+          0
+        ],
+        [
+          "Resim atölyesi Perşembe günü yapılır.",
+          1
+        ],
+        [
+          "Resim atölyesi Salı günü yapılır.",
+          1
+        ],
+        [
+          "Kitap kulübü Pazartesi günü yapılır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Pazartesi–Perşembe her gün bir etkinlik: müzik dinletisi, kitap kulübü, satranç turnuvası, resim atölyesi. Bilgiler: Satranç turnuvası Pazartesi günü yapılmaz. Satranç turnuvası, resim atölyesinden daha sonraki bir günde yapılır. Satranç turnuvası Salı günü yapılır. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Resim atölyesi Pazartesi günü yapılır. / Resim atölyesi Perşembe günü yapılır. / Resim atölyesi Salı günü yapılır. / Kitap kulübü Pazartesi günü yapılır.",
+    "correctAnswer": "Resim atölyesi Pazartesi günü yapılır. → Kesin doğru | Resim atölyesi Perşembe günü yapılır. → Kesin yanlış | Resim atölyesi Salı günü yapılır. → Kesin yanlış | Kitap kulübü Pazartesi günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "takvim",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Pazartesi–Cuma her gün bir etkinlik: kitap kulübü, satranç turnuvası, müzik dinletisi, bulmaca gecesi, resim atölyesi.\n• Resim atölyesi Pazartesi günü yapılır.\n• Kitap kulübü ile resim atölyesi arasında tam bir gün vardır.\n• Satranç turnuvası Perşembe günü yapılmaz.\n• Kitap kulübü, bulmaca gecesinden bir gün önce yapılır.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Kitap kulübü Çarşamba günü yapılır.",
+          0
+        ],
+        [
+          "Satranç turnuvası Pazartesi günü yapılır.",
+          1
+        ],
+        [
+          "Bulmaca gecesi Perşembe günü yapılır.",
+          0
+        ],
+        [
+          "Satranç turnuvası Cuma günü yapılır.",
+          2
+        ],
+        [
+          "Müzik dinletisi Salı günü yapılır.",
+          2
+        ],
+        [
+          "Resim atölyesi Perşembe günü yapılır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Pazartesi–Cuma her gün bir etkinlik: kitap kulübü, satranç turnuvası, müzik dinletisi, bulmaca gecesi, resim atölyesi. Bilgiler: Resim atölyesi Pazartesi günü yapılır. Kitap kulübü ile resim atölyesi arasında tam bir gün vardır. Satranç turnuvası Perşembe günü yapılmaz. Kitap kulübü, bulmaca gecesinden bir gün önce yapılır. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Kitap kulübü Çarşamba günü yapılır. / Satranç turnuvası Pazartesi günü yapılır. / Bulmaca gecesi Perşembe günü yapılır. / Satranç turnuvası Cuma günü yapılır. / Müzik dinletisi Salı günü yapılır. / Resim atölyesi Perşembe günü yapılır.",
+    "correctAnswer": "Kitap kulübü Çarşamba günü yapılır. → Kesin doğru | Satranç turnuvası Pazartesi günü yapılır. → Kesin yanlış | Bulmaca gecesi Perşembe günü yapılır. → Kesin doğru | Satranç turnuvası Cuma günü yapılır. → Kesin değil | Müzik dinletisi Salı günü yapılır. → Kesin değil | Resim atölyesi Perşembe günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-takvim-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Gün ve takvim yerleştirme",
+    "outcome": "Verilen koşullara göre yerleştirme yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "takvim",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Pazartesi–Cuma her gün bir etkinlik: kitap kulübü, resim atölyesi, satranç turnuvası, bulmaca gecesi, müzik dinletisi.\n• Satranç turnuvası, müzik dinletisinden bir gün önce yapılır.\n• Kitap kulübü Pazartesi günü yapılmaz.\n• Bulmaca gecesi, satranç turnuvasından daha sonraki bir günde yapılır.\n• Resim atölyesi, satranç turnuvasından daha sonraki bir günde yapılır.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Kitap kulübü Çarşamba günü yapılır.",
+          2
+        ],
+        [
+          "Resim atölyesi Pazartesi günü yapılır.",
+          1
+        ],
+        [
+          "Bulmaca gecesi Çarşamba günü yapılır.",
+          2
+        ],
+        [
+          "Satranç turnuvası Cuma günü yapılır.",
+          1
+        ],
+        [
+          "Satranç turnuvası Pazartesi günü yapılır.",
+          0
+        ],
+        [
+          "Müzik dinletisi Salı günü yapılır.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Pazartesi–Cuma her gün bir etkinlik: kitap kulübü, resim atölyesi, satranç turnuvası, bulmaca gecesi, müzik dinletisi. Bilgiler: Satranç turnuvası, müzik dinletisinden bir gün önce yapılır. Kitap kulübü Pazartesi günü yapılmaz. Bulmaca gecesi, satranç turnuvasından daha sonraki bir günde yapılır. Resim atölyesi, satranç turnuvasından daha sonraki bir günde yapılır. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Kitap kulübü Çarşamba günü yapılır. / Resim atölyesi Pazartesi günü yapılır. / Bulmaca gecesi Çarşamba günü yapılır. / Satranç turnuvası Cuma günü yapılır. / Satranç turnuvası Pazartesi günü yapılır. / Müzik dinletisi Salı günü yapılır.",
+    "correctAnswer": "Kitap kulübü Çarşamba günü yapılır. → Kesin değil | Resim atölyesi Pazartesi günü yapılır. → Kesin yanlış | Bulmaca gecesi Çarşamba günü yapılır. → Kesin değil | Satranç turnuvası Cuma günü yapılır. → Kesin yanlış | Satranç turnuvası Pazartesi günü yapılır. → Kesin doğru | Müzik dinletisi Salı günü yapılır. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kasa önünde 4 kişi sıraya girmiş (Bora, Can, Ece, Kaan).",
+      "c": [
+        "Can en önde değildir.",
+        "Can, Bora’dan öndedir.",
+        "Kaan en sonda değildir."
+      ],
+      "s": [
+        "Kaan, Bora’dan öndedir.",
+        "Ece 2. sıradadır.",
+        "Bora 2. sıradadır."
+      ],
+      "a": [
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kasa önünde 4 kişi sıraya girmiş (Bora, Can, Ece, Kaan). Bilgiler: Can en önde değildir. Can, Bora’dan öndedir. Kaan en sonda değildir. Yargılar: Kaan, Bora’dan öndedir. / Ece 2. sıradadır. / Bora 2. sıradadır.",
+    "correctAnswer": "Kaan, Bora’dan öndedir. → Kesin doğru | Ece 2. sıradadır. → Kesin değil | Bora 2. sıradadır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Ada, Zeynep, Ece birer içecek içmiş; içecekler: ayran, salep, limonata (her biri bir kişi).",
+      "c": [
+        "Ada ayran içmedi.",
+        "Zeynep salep içmedi.",
+        "Ece ayran içmedi."
+      ],
+      "s": [
+        "Zeynep limonata içti.",
+        "Ece salep içti.",
+        "Zeynep ayran içti."
+      ],
+      "a": [
+        1,
+        2,
+        0
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Ada, Zeynep, Ece birer içecek içmiş; içecekler: ayran, salep, limonata (her biri bir kişi). Bilgiler: Ada ayran içmedi. Zeynep salep içmedi. Ece ayran içmedi. Yargılar: Zeynep limonata içti. / Ece salep içti. / Zeynep ayran içti.",
+    "correctAnswer": "Zeynep limonata içti. → Kesin yanlış | Ece salep içti. → Kesin değil | Zeynep ayran içti. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Perşembe her gün bir etkinlik: resim atölyesi, satranç turnuvası, bulmaca gecesi, kitap kulübü.",
+      "c": [
+        "Resim atölyesi Pazartesi günü yapılmaz.",
+        "Bulmaca gecesi, kitap kulübünden bir gün önce yapılır.",
+        "Kitap kulübü Salı günü yapılır."
+      ],
+      "s": [
+        "Bulmaca gecesi Pazartesi günü yapılır.",
+        "Satranç turnuvası Perşembe günü yapılır.",
+        "Resim atölyesi Salı günü yapılır."
+      ],
+      "a": [
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Perşembe her gün bir etkinlik: resim atölyesi, satranç turnuvası, bulmaca gecesi, kitap kulübü. Bilgiler: Resim atölyesi Pazartesi günü yapılmaz. Bulmaca gecesi, kitap kulübünden bir gün önce yapılır. Kitap kulübü Salı günü yapılır. Yargılar: Bulmaca gecesi Pazartesi günü yapılır. / Satranç turnuvası Perşembe günü yapılır. / Resim atölyesi Salı günü yapılır.",
+    "correctAnswer": "Bulmaca gecesi Pazartesi günü yapılır. → Kesin doğru | Satranç turnuvası Perşembe günü yapılır. → Kesin değil | Resim atölyesi Salı günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kasa önünde 4 kişi sıraya girmiş (Ada, Bora, Efe, Mert).",
+      "c": [
+        "Ada en öndedir.",
+        "Bora, Mert’in hemen önündedir.",
+        "Mert en önde değildir."
+      ],
+      "s": [
+        "Efe, Bora’dan öndedir.",
+        "Ada, Efe’den öndedir.",
+        "Bora 4. sıradadır."
+      ],
+      "a": [
+        2,
+        0,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kasa önünde 4 kişi sıraya girmiş (Ada, Bora, Efe, Mert). Bilgiler: Ada en öndedir. Bora, Mert’in hemen önündedir. Mert en önde değildir. Yargılar: Efe, Bora’dan öndedir. / Ada, Efe’den öndedir. / Bora 4. sıradadır.",
+    "correctAnswer": "Efe, Bora’dan öndedir. → Kesin değil | Ada, Efe’den öndedir. → Kesin doğru | Bora 4. sıradadır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kasa önünde 5 kişi sıraya girmiş (Ada, Can, Mert, Selin, Zeynep).",
+      "c": [
+        "Zeynep 2. sıradadır.",
+        "Mert, Selin’in hemen önündedir.",
+        "Zeynep, Can’dan öndedir.",
+        "Mert, Selin’den öndedir."
+      ],
+      "s": [
+        "Ada, Mert’ten öndedir.",
+        "Can 3. sıradadır.",
+        "Mert 2. sıradadır."
+      ],
+      "a": [
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kasa önünde 5 kişi sıraya girmiş (Ada, Can, Mert, Selin, Zeynep). Bilgiler: Zeynep 2. sıradadır. Mert, Selin’in hemen önündedir. Zeynep, Can’dan öndedir. Mert, Selin’den öndedir. Yargılar: Ada, Mert’ten öndedir. / Can 3. sıradadır. / Mert 2. sıradadır.",
+    "correctAnswer": "Ada, Mert’ten öndedir. → Kesin doğru | Can 3. sıradadır. → Kesin değil | Mert 2. sıradadır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kaan, Mert, Efe, Ada birer içecek içmiş; içecekler: salep, ayran, kakao, çay (her biri bir kişi).",
+      "c": [
+        "Ada çay içmedi.",
+        "Kaan salep içmedi.",
+        "Kaan kakao içti.",
+        "Mert çay içmedi."
+      ],
+      "s": [
+        "Mert salep içti.",
+        "Mert çay içti.",
+        "Efe çay içti."
+      ],
+      "a": [
+        2,
+        1,
+        0
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kaan, Mert, Efe, Ada birer içecek içmiş; içecekler: salep, ayran, kakao, çay (her biri bir kişi). Bilgiler: Ada çay içmedi. Kaan salep içmedi. Kaan kakao içti. Mert çay içmedi. Yargılar: Mert salep içti. / Mert çay içti. / Efe çay içti.",
+    "correctAnswer": "Mert salep içti. → Kesin değil | Mert çay içti. → Kesin yanlış | Efe çay içti. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Cuma her gün bir etkinlik: satranç turnuvası, bulmaca gecesi, müzik dinletisi, kitap kulübü, resim atölyesi.",
+      "c": [
+        "Satranç turnuvası, bulmaca gecesinden bir gün önce yapılır.",
+        "Kitap kulübü Perşembe günü yapılır.",
+        "Resim atölyesi, bulmaca gecesinden daha sonraki bir günde yapılır.",
+        "Müzik dinletisi, satranç turnuvasından daha sonraki bir günde yapılır."
+      ],
+      "s": [
+        "Kitap kulübü Çarşamba günü yapılır.",
+        "Bulmaca gecesi Salı günü yapılır.",
+        "Müzik dinletisi Çarşamba günü yapılır."
+      ],
+      "a": [
+        1,
+        0,
+        2
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Cuma her gün bir etkinlik: satranç turnuvası, bulmaca gecesi, müzik dinletisi, kitap kulübü, resim atölyesi. Bilgiler: Satranç turnuvası, bulmaca gecesinden bir gün önce yapılır. Kitap kulübü Perşembe günü yapılır. Resim atölyesi, bulmaca gecesinden daha sonraki bir günde yapılır. Müzik dinletisi, satranç turnuvasından daha sonraki bir günde yapılır. Yargılar: Kitap kulübü Çarşamba günü yapılır. / Bulmaca gecesi Salı günü yapılır. / Müzik dinletisi Çarşamba günü yapılır.",
+    "correctAnswer": "Kitap kulübü Çarşamba günü yapılır. → Kesin yanlış | Bulmaca gecesi Salı günü yapılır. → Kesin doğru | Müzik dinletisi Çarşamba günü yapılır. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kasa önünde 5 kişi sıraya girmiş (Cem, Deniz, Elif, Mert, Selin).",
+      "c": [
+        "Elif en sonda değildir.",
+        "Selin, Cem’den öndedir.",
+        "Deniz, Mert’ten öndedir.",
+        "Elif 1. sıradadır."
+      ],
+      "s": [
+        "Selin, Elif’ten öndedir.",
+        "Selin 2. sıradadır.",
+        "Elif, Selin’den öndedir."
+      ],
+      "a": [
+        1,
+        2,
+        0
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kasa önünde 5 kişi sıraya girmiş (Cem, Deniz, Elif, Mert, Selin). Bilgiler: Elif en sonda değildir. Selin, Cem’den öndedir. Deniz, Mert’ten öndedir. Elif 1. sıradadır. Yargılar: Selin, Elif’ten öndedir. / Selin 2. sıradadır. / Elif, Selin’den öndedir.",
+    "correctAnswer": "Selin, Elif’ten öndedir. → Kesin yanlış | Selin 2. sıradadır. → Kesin değil | Elif, Selin’den öndedir. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "cikarim",
+    "rank": 3,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kasa önünde 5 kişi sıraya girmiş (Can, Deniz, Elif, Kaan, Zeynep).",
+      "c": [
+        "Can en sonda değildir.",
+        "Kaan, Can’ın hemen önündedir.",
+        "Kaan, Deniz’den öndedir.",
+        "Can, Deniz’den öndedir."
+      ],
+      "s": [
+        "Deniz, Kaan’dan öndedir.",
+        "Kaan, Can’dan öndedir.",
+        "Elif 2. sıradadır.",
+        "Can, Kaan’dan öndedir."
+      ],
+      "a": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kasa önünde 5 kişi sıraya girmiş (Can, Deniz, Elif, Kaan, Zeynep). Bilgiler: Can en sonda değildir. Kaan, Can’ın hemen önündedir. Kaan, Deniz’den öndedir. Can, Deniz’den öndedir. Yargılar: Deniz, Kaan’dan öndedir. / Kaan, Can’dan öndedir. / Elif 2. sıradadır. / Can, Kaan’dan öndedir.",
+    "correctAnswer": "Deniz, Kaan’dan öndedir. → Kesin yanlış | Kaan, Can’dan öndedir. → Kesin doğru | Elif 2. sıradadır. → Kesin değil | Can, Kaan’dan öndedir. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "cikarim",
+    "rank": 3,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Efe, Can, Ada, Cem birer içecek içmiş; içecekler: limonata, salep, çay, ayran (her biri bir kişi).",
+      "c": [
+        "Cem ya çay ya da ayran içti.",
+        "Ada ya limonata ya da salep içti.",
+        "Ada ayran içmedi.",
+        "Cem soğuk bir içecek içti."
+      ],
+      "s": [
+        "Can limonata içti.",
+        "Can çay içti.",
+        "Cem ayran içti.",
+        "Ada ayran içti."
+      ],
+      "a": [
+        2,
+        2,
+        0,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Efe, Can, Ada, Cem birer içecek içmiş; içecekler: limonata, salep, çay, ayran (her biri bir kişi). Bilgiler: Cem ya çay ya da ayran içti. Ada ya limonata ya da salep içti. Ada ayran içmedi. Cem soğuk bir içecek içti. Yargılar: Can limonata içti. / Can çay içti. / Cem ayran içti. / Ada ayran içti.",
+    "correctAnswer": "Can limonata içti. → Kesin değil | Can çay içti. → Kesin değil | Cem ayran içti. → Kesin doğru | Ada ayran içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "cikarim",
+    "rank": 3,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Pazartesi–Cuma her gün bir etkinlik: bulmaca gecesi, satranç turnuvası, müzik dinletisi, resim atölyesi, kitap kulübü.",
+      "c": [
+        "Resim atölyesi ile bulmaca gecesi arasında tam bir gün vardır.",
+        "Satranç turnuvası ile resim atölyesi arasında tam bir gün vardır.",
+        "Müzik dinletisi Cuma günü yapılmaz.",
+        "Satranç turnuvası Çarşamba günü yapılmaz."
+      ],
+      "s": [
+        "Bulmaca gecesi Perşembe günü yapılır.",
+        "Resim atölyesi Çarşamba günü yapılır.",
+        "Bulmaca gecesi Pazartesi günü yapılır.",
+        "Müzik dinletisi Cuma günü yapılır."
+      ],
+      "a": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Pazartesi–Cuma her gün bir etkinlik: bulmaca gecesi, satranç turnuvası, müzik dinletisi, resim atölyesi, kitap kulübü. Bilgiler: Resim atölyesi ile bulmaca gecesi arasında tam bir gün vardır. Satranç turnuvası ile resim atölyesi arasında tam bir gün vardır. Müzik dinletisi Cuma günü yapılmaz. Satranç turnuvası Çarşamba günü yapılmaz. Yargılar: Bulmaca gecesi Perşembe günü yapılır. / Resim atölyesi Çarşamba günü yapılır. / Bulmaca gecesi Pazartesi günü yapılır. / Müzik dinletisi Cuma günü yapılır.",
+    "correctAnswer": "Bulmaca gecesi Perşembe günü yapılır. → Kesin yanlış | Resim atölyesi Çarşamba günü yapılır. → Kesin doğru | Bulmaca gecesi Pazartesi günü yapılır. → Kesin değil | Müzik dinletisi Cuma günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "cikarim",
+    "rank": 3,
+    "type": "verdict",
+    "prompt": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas.",
+    "data": {
+      "i": "Kasa önünde 5 kişi sıraya girmiş (Ada, Bora, Deniz, Ece, Mert).",
+      "c": [
+        "Deniz, Mert’ten öndedir.",
+        "Mert en önde değildir.",
+        "Bora, Ada’dan öndedir.",
+        "Mert, Bora’dan öndedir."
+      ],
+      "s": [
+        "Deniz 3. sıradadır.",
+        "Mert 4. sıradadır.",
+        "Mert, Ece’den öndedir.",
+        "Mert, Ada’dan öndedir."
+      ],
+      "a": [
+        1,
+        1,
+        2,
+        0
+      ],
+      "m": [
+        "Kesin doğru",
+        "Kesin yanlış",
+        "Kesin değil"
+      ]
+    },
+    "textPlain": "Kahve fincanı mühürleri: Bilgilere göre her yargıya doğru mührü bas. Kasa önünde 5 kişi sıraya girmiş (Ada, Bora, Deniz, Ece, Mert). Bilgiler: Deniz, Mert’ten öndedir. Mert en önde değildir. Bora, Ada’dan öndedir. Mert, Bora’dan öndedir. Yargılar: Deniz 3. sıradadır. / Mert 4. sıradadır. / Mert, Ece’den öndedir. / Mert, Ada’dan öndedir.",
+    "correctAnswer": "Deniz 3. sıradadır. → Kesin yanlış | Mert 4. sıradadır. → Kesin yanlış | Mert, Ece’den öndedir. → Kesin değil | Mert, Ada’dan öndedir. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kasa önünde 4 kişi sıraya girmiş (Elif, Kaan, Mert, Selin).\n• Elif en önde değildir.\n• Mert, Kaan’dan öndedir.\n• Selin en öndedir.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Elif, Selin’den öndedir.",
+          1
+        ],
+        [
+          "Kaan 1. sıradadır.",
+          1
+        ],
+        [
+          "Selin, Kaan’dan öndedir.",
+          0
+        ],
+        [
+          "Elif 1. sıradadır.",
+          1
+        ],
+        [
+          "Selin, Elif’ten öndedir.",
+          0
+        ],
+        [
+          "Selin, Mert’ten öndedir.",
+          0
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kasa önünde 4 kişi sıraya girmiş (Elif, Kaan, Mert, Selin). Bilgiler: Elif en önde değildir. Mert, Kaan’dan öndedir. Selin en öndedir. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Elif, Selin’den öndedir. / Kaan 1. sıradadır. / Selin, Kaan’dan öndedir. / Elif 1. sıradadır. / Selin, Elif’ten öndedir. / Selin, Mert’ten öndedir.",
+    "correctAnswer": "Elif, Selin’den öndedir. → Kesin yanlış | Kaan 1. sıradadır. → Kesin yanlış | Selin, Kaan’dan öndedir. → Kesin doğru | Elif 1. sıradadır. → Kesin yanlış | Selin, Elif’ten öndedir. → Kesin doğru | Selin, Mert’ten öndedir. → Kesin doğru",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Efe, Deniz, Can birer içecek içmiş; içecekler: çay, limonata, ayran (her biri bir kişi).\n• Efe çay içmedi.\n• Can limonata içmedi.\n• Can ayran içmedi.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Can ayran içti.",
+          1
+        ],
+        [
+          "Deniz çay içti.",
+          1
+        ],
+        [
+          "Can çay içti.",
+          0
+        ],
+        [
+          "Can limonata içti.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Efe, Deniz, Can birer içecek içmiş; içecekler: çay, limonata, ayran (her biri bir kişi). Bilgiler: Efe çay içmedi. Can limonata içmedi. Can ayran içmedi. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Can ayran içti. / Deniz çay içti. / Can çay içti. / Can limonata içti.",
+    "correctAnswer": "Can ayran içti. → Kesin yanlış | Deniz çay içti. → Kesin yanlış | Can çay içti. → Kesin doğru | Can limonata içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "cikarim",
+    "rank": 1,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Pazartesi–Perşembe her gün bir etkinlik: kitap kulübü, müzik dinletisi, resim atölyesi, bulmaca gecesi.\n• Müzik dinletisi, bulmaca gecesinden daha sonraki bir günde yapılır.\n• Kitap kulübü ile müzik dinletisi arasında tam bir gün vardır.\n• Kitap kulübü Salı günü yapılır.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış"
+      ],
+      "r": [
+        [
+          "Bulmaca gecesi Perşembe günü yapılır.",
+          1
+        ],
+        [
+          "Kitap kulübü Pazartesi günü yapılır.",
+          1
+        ],
+        [
+          "Müzik dinletisi Perşembe günü yapılır.",
+          0
+        ],
+        [
+          "Resim atölyesi Salı günü yapılır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Pazartesi–Perşembe her gün bir etkinlik: kitap kulübü, müzik dinletisi, resim atölyesi, bulmaca gecesi. Bilgiler: Müzik dinletisi, bulmaca gecesinden daha sonraki bir günde yapılır. Kitap kulübü ile müzik dinletisi arasında tam bir gün vardır. Kitap kulübü Salı günü yapılır. Raflar: Kesin doğru, Kesin yanlış. Kartlar: Bulmaca gecesi Perşembe günü yapılır. / Kitap kulübü Pazartesi günü yapılır. / Müzik dinletisi Perşembe günü yapılır. / Resim atölyesi Salı günü yapılır.",
+    "correctAnswer": "Bulmaca gecesi Perşembe günü yapılır. → Kesin yanlış | Kitap kulübü Pazartesi günü yapılır. → Kesin yanlış | Müzik dinletisi Perşembe günü yapılır. → Kesin doğru | Resim atölyesi Salı günü yapılır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kasa önünde 5 kişi sıraya girmiş (Bora, Deniz, Ece, Kaan, Zeynep).\n• Bora, Ece’nin hemen önündedir.\n• Bora en önde değildir.\n• Deniz en önde değildir.\n• Zeynep 2. sıradadır.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Ece, Kaan’dan öndedir.",
+          1
+        ],
+        [
+          "Bora 4. sıradadır.",
+          2
+        ],
+        [
+          "Kaan, Bora’dan öndedir.",
+          0
+        ],
+        [
+          "Deniz 5. sıradadır.",
+          2
+        ],
+        [
+          "Kaan, Deniz’den öndedir.",
+          0
+        ],
+        [
+          "Ece 1. sıradadır.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kasa önünde 5 kişi sıraya girmiş (Bora, Deniz, Ece, Kaan, Zeynep). Bilgiler: Bora, Ece’nin hemen önündedir. Bora en önde değildir. Deniz en önde değildir. Zeynep 2. sıradadır. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Ece, Kaan’dan öndedir. / Bora 4. sıradadır. / Kaan, Bora’dan öndedir. / Deniz 5. sıradadır. / Kaan, Deniz’den öndedir. / Ece 1. sıradadır.",
+    "correctAnswer": "Ece, Kaan’dan öndedir. → Kesin yanlış | Bora 4. sıradadır. → Kesin değil | Kaan, Bora’dan öndedir. → Kesin doğru | Deniz 5. sıradadır. → Kesin değil | Kaan, Deniz’den öndedir. → Kesin doğru | Ece 1. sıradadır. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Bora, Mert, Selin, Elif birer içecek içmiş; içecekler: salep, çay, kakao, ayran (her biri bir kişi).\n• Selin salep içmedi.\n• Mert kakao içmedi.\n• Mert salep içmedi.\n• Elif salep içmedi.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Mert ayran içti.",
+          2
+        ],
+        [
+          "Mert çay içti.",
+          2
+        ],
+        [
+          "Bora kakao içti.",
+          1
+        ],
+        [
+          "Bora salep içti.",
+          0
+        ],
+        [
+          "Elif salep içti.",
+          1
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Bora, Mert, Selin, Elif birer içecek içmiş; içecekler: salep, çay, kakao, ayran (her biri bir kişi). Bilgiler: Selin salep içmedi. Mert kakao içmedi. Mert salep içmedi. Elif salep içmedi. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Mert ayran içti. / Mert çay içti. / Bora kakao içti. / Bora salep içti. / Elif salep içti.",
+    "correctAnswer": "Mert ayran içti. → Kesin değil | Mert çay içti. → Kesin değil | Bora kakao içti. → Kesin yanlış | Bora salep içti. → Kesin doğru | Elif salep içti. → Kesin yanlış",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "cikarim",
+    "rank": 2,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Pazartesi–Cuma her gün bir etkinlik: müzik dinletisi, satranç turnuvası, kitap kulübü, bulmaca gecesi, resim atölyesi.\n• Bulmaca gecesi, satranç turnuvasından bir gün önce yapılır.\n• Resim atölyesi, kitap kulübünden bir gün önce yapılır.\n• Bulmaca gecesi Pazartesi günü yapılır.\n• Bulmaca gecesi Cuma günü yapılmaz.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Satranç turnuvası Salı günü yapılır.",
+          0
+        ],
+        [
+          "Bulmaca gecesi Perşembe günü yapılır.",
+          1
+        ],
+        [
+          "Kitap kulübü Salı günü yapılır.",
+          1
+        ],
+        [
+          "Müzik dinletisi Çarşamba günü yapılır.",
+          2
+        ],
+        [
+          "Müzik dinletisi Cuma günü yapılır.",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Pazartesi–Cuma her gün bir etkinlik: müzik dinletisi, satranç turnuvası, kitap kulübü, bulmaca gecesi, resim atölyesi. Bilgiler: Bulmaca gecesi, satranç turnuvasından bir gün önce yapılır. Resim atölyesi, kitap kulübünden bir gün önce yapılır. Bulmaca gecesi Pazartesi günü yapılır. Bulmaca gecesi Cuma günü yapılmaz. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Satranç turnuvası Salı günü yapılır. / Bulmaca gecesi Perşembe günü yapılır. / Kitap kulübü Salı günü yapılır. / Müzik dinletisi Çarşamba günü yapılır. / Müzik dinletisi Cuma günü yapılır.",
+    "correctAnswer": "Satranç turnuvası Salı günü yapılır. → Kesin doğru | Bulmaca gecesi Perşembe günü yapılır. → Kesin yanlış | Kitap kulübü Salı günü yapılır. → Kesin yanlış | Müzik dinletisi Çarşamba günü yapılır. → Kesin değil | Müzik dinletisi Cuma günü yapılır. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "cikarim",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Mert, Ece, Bora, Kaan birer içecek içmiş; içecekler: limonata, çay, ayran, kakao (her biri bir kişi).\n• Ece çay içmedi.\n• Mert çay içmedi.\n• Ece soğuk bir içecek içti.\n• Ece ayran içmedi.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Kaan limonata içti.",
+          1
+        ],
+        [
+          "Kaan ayran içti.",
+          2
+        ],
+        [
+          "Ece kakao içti.",
+          1
+        ],
+        [
+          "Ece limonata içti.",
+          0
+        ],
+        [
+          "Kaan çay içti.",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Mert, Ece, Bora, Kaan birer içecek içmiş; içecekler: limonata, çay, ayran, kakao (her biri bir kişi). Bilgiler: Ece çay içmedi. Mert çay içmedi. Ece soğuk bir içecek içti. Ece ayran içmedi. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Kaan limonata içti. / Kaan ayran içti. / Ece kakao içti. / Ece limonata içti. / Kaan çay içti.",
+    "correctAnswer": "Kaan limonata içti. → Kesin yanlış | Kaan ayran içti. → Kesin değil | Ece kakao içti. → Kesin yanlış | Ece limonata içti. → Kesin doğru | Kaan çay içti. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-cikarim-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Kesin ve olası çıkarımlar",
+    "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "cikarim",
+    "rank": 3,
+    "type": "bin",
+    "prompt": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy.",
+    "data": {
+      "p": "Kasa önünde 5 kişi sıraya girmiş (Bora, Ece, Efe, Selin, Zeynep).\n• Ece en sonda değildir.\n• Bora, Efe’den öndedir.\n• Zeynep, Efe’den öndedir.\n• Efe en sonda değildir.",
+      "L": [
+        "✅ Kesin doğru",
+        "❌ Kesin yanlış",
+        "❔ Kesin değil"
+      ],
+      "r": [
+        [
+          "Ece, Selin’den öndedir.",
+          0
+        ],
+        [
+          "Zeynep 1. sıradadır.",
+          2
+        ],
+        [
+          "Efe, Bora’dan öndedir.",
+          1
+        ],
+        [
+          "Efe, Zeynep’ten öndedir.",
+          1
+        ],
+        [
+          "Selin 5. sıradadır.",
+          0
+        ],
+        [
+          "Efe 3. sıradadır.",
+          2
+        ]
+      ]
+    },
+    "textPlain": "Yargıları rafa diz: Bilgilere göre her kartı doğru rafa koy. Kasa önünde 5 kişi sıraya girmiş (Bora, Ece, Efe, Selin, Zeynep). Bilgiler: Ece en sonda değildir. Bora, Efe’den öndedir. Zeynep, Efe’den öndedir. Efe en sonda değildir. Raflar: Kesin doğru, Kesin yanlış, Kesin değil. Kartlar: Ece, Selin’den öndedir. / Zeynep 1. sıradadır. / Efe, Bora’dan öndedir. / Efe, Zeynep’ten öndedir. / Selin 5. sıradadır. / Efe 3. sıradadır.",
+    "correctAnswer": "Ece, Selin’den öndedir. → Kesin doğru | Zeynep 1. sıradadır. → Kesin değil | Efe, Bora’dan öndedir. → Kesin yanlış | Efe, Zeynep’ten öndedir. → Kesin yanlış | Selin 5. sıradadır. → Kesin doğru | Efe 3. sıradadır. → Kesin değil",
+    "explanation": "Bir yargı, bilgilerle uyumlu bütün durumlarda doğruysa “kesin doğru”, hiçbirinde doğru değilse “kesin yanlış”, bazı durumlarda doğru bazılarında yanlışsa “kesin değil” (bilinemez) olur."
+  },
+  {
+    "questionId": "tr8u9-gorsel-001",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Sıcak ve sütlü bir içecek istiyorum.",
+      "m": [
+        [
+          "Çay",
+          "sıcak",
+          0,
+          0,
+          15
+        ],
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Bitki çayı",
+          "sıcak",
+          0,
+          0,
+          25
+        ],
+        [
+          "Meyve suyu",
+          "soğuk",
+          0,
+          1,
+          35
+        ],
+        [
+          "Kakao",
+          "sıcak",
+          1,
+          0,
+          40
+        ],
+        [
+          "Çilekli süt",
+          "soğuk",
+          1,
+          1,
+          50
+        ]
+      ],
+      "a": 4
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Sıcak ve sütlü bir içecek istiyorum.” Menü: Çay (sıcak, sütsüz, meyvesiz, 15 TL); Ayran (soğuk, sütlü, meyvesiz, 20 TL); Bitki çayı (sıcak, sütsüz, meyvesiz, 25 TL); Meyve suyu (soğuk, sütsüz, meyveli, 35 TL); Kakao (sıcak, sütlü, meyvesiz, 40 TL); Çilekli süt (soğuk, sütlü, meyveli, 50 TL)",
+    "correctAnswer": "Kakao",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-002",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Sütsüz ve soğuk bir içecek istiyorum.",
+      "m": [
+        [
+          "Çay",
+          "sıcak",
+          0,
+          0,
+          15
+        ],
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Bitki çayı",
+          "sıcak",
+          0,
+          0,
+          25
+        ],
+        [
+          "Limonata",
+          "soğuk",
+          0,
+          1,
+          30
+        ],
+        [
+          "Salep",
+          "sıcak",
+          1,
+          0,
+          45
+        ],
+        [
+          "Çilekli süt",
+          "soğuk",
+          1,
+          1,
+          50
+        ]
+      ],
+      "a": 3
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Sütsüz ve soğuk bir içecek istiyorum.” Menü: Çay (sıcak, sütsüz, meyvesiz, 15 TL); Ayran (soğuk, sütlü, meyvesiz, 20 TL); Bitki çayı (sıcak, sütsüz, meyvesiz, 25 TL); Limonata (soğuk, sütsüz, meyveli, 30 TL); Salep (sıcak, sütlü, meyvesiz, 45 TL); Çilekli süt (soğuk, sütlü, meyveli, 50 TL)",
+    "correctAnswer": "Limonata",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-003",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Sütlü, soğuk ve 25 TL’den ucuz bir içecek istiyorum.",
+      "m": [
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Bitki çayı",
+          "sıcak",
+          0,
+          0,
+          25
+        ],
+        [
+          "Meyve suyu",
+          "soğuk",
+          0,
+          1,
+          35
+        ],
+        [
+          "Kakao",
+          "sıcak",
+          1,
+          0,
+          40
+        ],
+        [
+          "Salep",
+          "sıcak",
+          1,
+          0,
+          45
+        ],
+        [
+          "Çilekli süt",
+          "soğuk",
+          1,
+          1,
+          50
+        ]
+      ],
+      "a": 0
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Sütlü, soğuk ve 25 TL’den ucuz bir içecek istiyorum.” Menü: Ayran (soğuk, sütlü, meyvesiz, 20 TL); Bitki çayı (sıcak, sütsüz, meyvesiz, 25 TL); Meyve suyu (soğuk, sütsüz, meyveli, 35 TL); Kakao (sıcak, sütlü, meyvesiz, 40 TL); Salep (sıcak, sütlü, meyvesiz, 45 TL); Çilekli süt (soğuk, sütlü, meyveli, 50 TL)",
+    "correctAnswer": "Ayran",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-004",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Sütlü, soğuk ve 30 TL’den ucuz bir içecek istiyorum.",
+      "m": [
+        [
+          "Çay",
+          "sıcak",
+          0,
+          0,
+          15
+        ],
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Meyve suyu",
+          "soğuk",
+          0,
+          1,
+          35
+        ],
+        [
+          "Kakao",
+          "sıcak",
+          1,
+          0,
+          40
+        ],
+        [
+          "Salep",
+          "sıcak",
+          1,
+          0,
+          45
+        ],
+        [
+          "Çilekli süt",
+          "soğuk",
+          1,
+          1,
+          50
+        ]
+      ],
+      "a": 1
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Sütlü, soğuk ve 30 TL’den ucuz bir içecek istiyorum.” Menü: Çay (sıcak, sütsüz, meyvesiz, 15 TL); Ayran (soğuk, sütlü, meyvesiz, 20 TL); Meyve suyu (soğuk, sütsüz, meyveli, 35 TL); Kakao (sıcak, sütlü, meyvesiz, 40 TL); Salep (sıcak, sütlü, meyvesiz, 45 TL); Çilekli süt (soğuk, sütlü, meyveli, 50 TL)",
+    "correctAnswer": "Ayran",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-005",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Meyveli, soğuk ve 35 TL’den ucuz bir içecek istiyorum.",
+      "m": [
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Bitki çayı",
+          "sıcak",
+          0,
+          0,
+          25
+        ],
+        [
+          "Limonata",
+          "soğuk",
+          0,
+          1,
+          30
+        ],
+        [
+          "Kakao",
+          "sıcak",
+          1,
+          0,
+          40
+        ],
+        [
+          "Salep",
+          "sıcak",
+          1,
+          0,
+          45
+        ],
+        [
+          "Çilekli süt",
+          "soğuk",
+          1,
+          1,
+          50
+        ]
+      ],
+      "a": 2
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Meyveli, soğuk ve 35 TL’den ucuz bir içecek istiyorum.” Menü: Ayran (soğuk, sütlü, meyvesiz, 20 TL); Bitki çayı (sıcak, sütsüz, meyvesiz, 25 TL); Limonata (soğuk, sütsüz, meyveli, 30 TL); Kakao (sıcak, sütlü, meyvesiz, 40 TL); Salep (sıcak, sütlü, meyvesiz, 45 TL); Çilekli süt (soğuk, sütlü, meyveli, 50 TL)",
+    "correctAnswer": "Limonata",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-006",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "gorsel",
+    "rank": 3,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Menüdeki meyvesiz içeceklerden en ucuzunu istiyorum.",
+      "m": [
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Bitki çayı",
+          "sıcak",
+          0,
+          0,
+          25
+        ],
+        [
+          "Limonata",
+          "soğuk",
+          0,
+          1,
+          30
+        ],
+        [
+          "Meyve suyu",
+          "soğuk",
+          0,
+          1,
+          35
+        ],
+        [
+          "Kakao",
+          "sıcak",
+          1,
+          0,
+          40
+        ],
+        [
+          "Çilekli süt",
+          "soğuk",
+          1,
+          1,
+          50
+        ]
+      ],
+      "a": 0
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Menüdeki meyvesiz içeceklerden en ucuzunu istiyorum.” Menü: Ayran (soğuk, sütlü, meyvesiz, 20 TL); Bitki çayı (sıcak, sütsüz, meyvesiz, 25 TL); Limonata (soğuk, sütsüz, meyveli, 30 TL); Meyve suyu (soğuk, sütsüz, meyveli, 35 TL); Kakao (sıcak, sütlü, meyvesiz, 40 TL); Çilekli süt (soğuk, sütlü, meyveli, 50 TL)",
+    "correctAnswer": "Ayran",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-007",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "gorsel",
+    "rank": 3,
+    "type": "menu",
+    "prompt": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy.",
+    "data": {
+      "q": "Menüdeki soğuk içeceklerden en ucuzunu istiyorum.",
+      "m": [
+        [
+          "Çay",
+          "sıcak",
+          0,
+          0,
+          15
+        ],
+        [
+          "Ayran",
+          "soğuk",
+          1,
+          0,
+          20
+        ],
+        [
+          "Bitki çayı",
+          "sıcak",
+          0,
+          0,
+          25
+        ],
+        [
+          "Limonata",
+          "soğuk",
+          0,
+          1,
+          30
+        ],
+        [
+          "Meyve suyu",
+          "soğuk",
+          0,
+          1,
+          35
+        ],
+        [
+          "Salep",
+          "sıcak",
+          1,
+          0,
+          45
+        ]
+      ],
+      "a": 1
+    },
+    "textPlain": "Sipariş tepsisi: Müşterinin isteğine uyan içeceği menüden tepsiye koy. Müşteri: “Menüdeki soğuk içeceklerden en ucuzunu istiyorum.” Menü: Çay (sıcak, sütsüz, meyvesiz, 15 TL); Ayran (soğuk, sütlü, meyvesiz, 20 TL); Bitki çayı (sıcak, sütsüz, meyvesiz, 25 TL); Limonata (soğuk, sütsüz, meyveli, 30 TL); Meyve suyu (soğuk, sütsüz, meyveli, 35 TL); Salep (sıcak, sütlü, meyvesiz, 45 TL)",
+    "correctAnswer": "Ayran",
+    "explanation": "Menü okurken her koşulu tek tek uygula: önce sıcak/soğuk, sonra içindekiler, en son fiyat. Bütün koşulları sağlayan tek ürünü seç."
+  },
+  {
+    "questionId": "tr8u9-gorsel-008",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "sign",
+    "prompt": "Afişe bak: Ali 10 yaşında. Turnuvaya neden katılamaz? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "SATRANÇ TURNUVASI",
+      "l": [
+        "23 Kasım Cumartesi, saat 14.00",
+        "Akıl Kafe üst kat salonu",
+        "12 yaş ve üzeri herkes katılabilir",
+        "Katılım ücretsizdir",
+        "Kayıt için kasaya adınızı yazdırın"
+      ],
+      "a": 2
+    },
+    "textPlain": "Afişe bak: Ali 10 yaşında. Turnuvaya neden katılamaz? Gerekçeyi taşıyan satıra dokun. Afiş “SATRANÇ TURNUVASI”: 23 Kasım Cumartesi, saat 14.00 / Akıl Kafe üst kat salonu / 12 yaş ve üzeri herkes katılabilir / Katılım ücretsizdir / Kayıt için kasaya adınızı yazdırın",
+    "correctAnswer": "12 yaş ve üzeri herkes katılabilir",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-009",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "sign",
+    "prompt": "Afişe bak: Selin’in getirdiği kitabın iki sayfası eksik. Kitabı neden geri verildi? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "KİTAP TAKAS GÜNÜ",
+      "l": [
+        "Her ayın ilk pazarı",
+        "Saat 11.00 – 15.00 arası",
+        "Getirdiğin her kitaba karşılık bir kitap alabilirsin",
+        "Yırtık ve eksik sayfalı kitaplar kabul edilmez",
+        "Takas masası bahçededir"
+      ],
+      "a": 3
+    },
+    "textPlain": "Afişe bak: Selin’in getirdiği kitabın iki sayfası eksik. Kitabı neden geri verildi? Gerekçeyi taşıyan satıra dokun. Afiş “KİTAP TAKAS GÜNÜ”: Her ayın ilk pazarı / Saat 11.00 – 15.00 arası / Getirdiğin her kitaba karşılık bir kitap alabilirsin / Yırtık ve eksik sayfalı kitaplar kabul edilmez / Takas masası bahçededir",
+    "correctAnswer": "Yırtık ve eksik sayfalı kitaplar kabul edilmez",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-010",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "sign",
+    "prompt": "Afişe bak: Mert boya ve fırça satın almak istiyor. Buna neden gerek yok? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "RESİM ATÖLYESİ",
+      "l": [
+        "Her çarşamba saat 16.00",
+        "Malzemeler kafe tarafından verilir",
+        "Kontenjan: 10 kişi",
+        "Önlüğünüzü getirmeyi unutmayın",
+        "Yaş sınırı yoktur"
+      ],
+      "a": 1
+    },
+    "textPlain": "Afişe bak: Mert boya ve fırça satın almak istiyor. Buna neden gerek yok? Gerekçeyi taşıyan satıra dokun. Afiş “RESİM ATÖLYESİ”: Her çarşamba saat 16.00 / Malzemeler kafe tarafından verilir / Kontenjan: 10 kişi / Önlüğünüzü getirmeyi unutmayın / Yaş sınırı yoktur",
+    "correctAnswer": "Malzemeler kafe tarafından verilir",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-011",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "sign",
+    "prompt": "Afişe bak: Can 18.50’de gelip kayıt olmak istedi ama alınmadı. Neden? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "BULMACA GECESİ",
+      "l": [
+        "Cuma akşamları 19.00 – 21.00",
+        "İkişer kişilik takımlarla oynanır",
+        "Kazanan takıma kurabiye ikramı",
+        "Telefonlar oyun boyunca kapalı tutulur",
+        "Son kayıt 18.45’te"
+      ],
+      "a": 4
+    },
+    "textPlain": "Afişe bak: Can 18.50’de gelip kayıt olmak istedi ama alınmadı. Neden? Gerekçeyi taşıyan satıra dokun. Afiş “BULMACA GECESİ”: Cuma akşamları 19.00 – 21.00 / İkişer kişilik takımlarla oynanır / Kazanan takıma kurabiye ikramı / Telefonlar oyun boyunca kapalı tutulur / Son kayıt 18.45’te",
+    "correctAnswer": "Son kayıt 18.45’te",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-012",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "sign",
+    "prompt": "Afişe bak: Zeynep cumartesi saat 10.30’da geldiğinde içeride müzik çalıyordu. Bunun nedeni nedir? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "SESSİZ OKUMA SAATİ",
+      "l": [
+        "Hafta içi her gün 10.00 – 12.00",
+        "Bu saatlerde müzik çalınmaz",
+        "Yüksek sesle konuşmak yasaktır",
+        "Kendi kitabınızı getirebilirsiniz",
+        "Kafe kitaplığı da kullanılabilir"
+      ],
+      "a": 0
+    },
+    "textPlain": "Afişe bak: Zeynep cumartesi saat 10.30’da geldiğinde içeride müzik çalıyordu. Bunun nedeni nedir? Gerekçeyi taşıyan satıra dokun. Afiş “SESSİZ OKUMA SAATİ”: Hafta içi her gün 10.00 – 12.00 / Bu saatlerde müzik çalınmaz / Yüksek sesle konuşmak yasaktır / Kendi kitabınızı getirebilirsiniz / Kafe kitaplığı da kullanılabilir",
+    "correctAnswer": "Hafta içi her gün 10.00 – 12.00",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-013",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "gorsel",
+    "rank": 3,
+    "type": "sign",
+    "prompt": "Afişe bak: Pazar günü yağmur yağdı ama dinleti iptal edilmedi. Neden? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "MÜZİK DİNLETİSİ",
+      "l": [
+        "Konuk: Gençlik Orkestrası",
+        "Pazar 17.00, bahçede",
+        "Yağmur yağarsa üst kat salonunda yapılacaktır",
+        "Biletler kasada satılmaktadır",
+        "Bilet geliri okul kütüphanesine bağışlanacaktır"
+      ],
+      "a": 2
+    },
+    "textPlain": "Afişe bak: Pazar günü yağmur yağdı ama dinleti iptal edilmedi. Neden? Gerekçeyi taşıyan satıra dokun. Afiş “MÜZİK DİNLETİSİ”: Konuk: Gençlik Orkestrası / Pazar 17.00, bahçede / Yağmur yağarsa üst kat salonunda yapılacaktır / Biletler kasada satılmaktadır / Bilet geliri okul kütüphanesine bağışlanacaktır",
+    "correctAnswer": "Yağmur yağarsa üst kat salonunda yapılacaktır",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-014",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "gorsel",
+    "rank": 3,
+    "type": "sign",
+    "prompt": "Afişe bak: Elif gönüllü olmak istiyor ama nasıl başvuracağını bilmiyor. Hangi satır ona yol gösterir? Gerekçeyi taşıyan satıra dokun.",
+    "data": {
+      "h": "GÖNÜLLÜ ARANIYOR",
+      "l": [
+        "Kafe kütüphanesini düzenlemek için gönüllüler arıyoruz",
+        "Görev: kitapları türlerine göre raflara dizmek",
+        "Cumartesi 10.00 – 13.00",
+        "Gönüllülere kafe tarafından kahvaltı ikram edilir",
+        "Başvuru: kasadaki forma adını yaz"
+      ],
+      "a": 4
+    },
+    "textPlain": "Afişe bak: Elif gönüllü olmak istiyor ama nasıl başvuracağını bilmiyor. Hangi satır ona yol gösterir? Gerekçeyi taşıyan satıra dokun. Afiş “GÖNÜLLÜ ARANIYOR”: Kafe kütüphanesini düzenlemek için gönüllüler arıyoruz / Görev: kitapları türlerine göre raflara dizmek / Cumartesi 10.00 – 13.00 / Gönüllülere kafe tarafından kahvaltı ikram edilir / Başvuru: kasadaki forma adını yaz",
+    "correctAnswer": "Başvuru: kasadaki forma adını yaz",
+    "explanation": "Afiş ve duyurularda soru, metindeki tek bir bilgiye dayanır. Sorudaki durumu (yaş, saat, gün, yer) afişteki satırlarla karşılaştır ve gerekçeyi taşıyan satırı bul."
+  },
+  {
+    "questionId": "tr8u9-gorsel-015",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "chart",
+    "prompt": "Satış panosu: Bu hafta en az satılan içecek hangisi? Sütununa dokun.",
+    "data": {
+      "v": [
+        40,
+        35,
+        50,
+        20,
+        15
+      ],
+      "n": [
+        "Çay",
+        "Salep",
+        "Kakao",
+        "Limonata",
+        "Ayran"
+      ],
+      "a": 4,
+      "q": "Bu hafta en az satılan içecek hangisi?"
+    },
+    "textPlain": "Satış panosu: Bu hafta en az satılan içecek hangisi? Sütununa dokun. [Sütun grafiği: haftalık satış (bardak) — Çay 40, Salep 35, Kakao 50, Limonata 20, Ayran 15]",
+    "correctAnswer": "Ayran",
+    "explanation": "Grafik okurken önce eksenlerin neyi gösterdiğine bak. Karşılaştırmalarda sütunların boylarını ve üstlerindeki değerleri kullan; her koşulu tek tek uygula."
+  },
+  {
+    "questionId": "tr8u9-gorsel-016",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "kolay",
+    "group": "gorsel",
+    "rank": 1,
+    "type": "chart",
+    "prompt": "Satış panosu: Bu hafta en çok satılan içecek hangisi? Sütununa dokun.",
+    "data": {
+      "v": [
+        45,
+        25,
+        40,
+        55,
+        35
+      ],
+      "n": [
+        "Çay",
+        "Salep",
+        "Kakao",
+        "Limonata",
+        "Ayran"
+      ],
+      "a": 3,
+      "q": "Bu hafta en çok satılan içecek hangisi?"
+    },
+    "textPlain": "Satış panosu: Bu hafta en çok satılan içecek hangisi? Sütununa dokun. [Sütun grafiği: haftalık satış (bardak) — Çay 45, Salep 25, Kakao 40, Limonata 55, Ayran 35]",
+    "correctAnswer": "Limonata",
+    "explanation": "Grafik okurken önce eksenlerin neyi gösterdiğine bak. Karşılaştırmalarda sütunların boylarını ve üstlerindeki değerleri kullan; her koşulu tek tek uygula."
+  },
+  {
+    "questionId": "tr8u9-gorsel-017",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "chart",
+    "prompt": "Satış panosu: Satışı limonatadan çok, çaydan az olan içecek hangisi? Sütununa dokun.",
+    "data": {
+      "v": [
+        35,
+        10,
+        30,
+        25,
+        50
+      ],
+      "n": [
+        "Çay",
+        "Salep",
+        "Kakao",
+        "Limonata",
+        "Ayran"
+      ],
+      "a": 2,
+      "q": "Satışı limonatadan çok, çaydan az olan içecek hangisi?"
+    },
+    "textPlain": "Satış panosu: Satışı limonatadan çok, çaydan az olan içecek hangisi? Sütununa dokun. [Sütun grafiği: haftalık satış (bardak) — Çay 35, Salep 10, Kakao 30, Limonata 25, Ayran 50]",
+    "correctAnswer": "Kakao",
+    "explanation": "Grafik okurken önce eksenlerin neyi gösterdiğine bak. Karşılaştırmalarda sütunların boylarını ve üstlerindeki değerleri kullan; her koşulu tek tek uygula."
+  },
+  {
+    "questionId": "tr8u9-gorsel-018",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "orta",
+    "group": "gorsel",
+    "rank": 2,
+    "type": "chart",
+    "prompt": "Satış panosu: Satışı çaydan çok, salepten az olan içecek hangisi? Sütununa dokun.",
+    "data": {
+      "v": [
+        20,
+        35,
+        50,
+        60,
+        30
+      ],
+      "n": [
+        "Çay",
+        "Salep",
+        "Kakao",
+        "Limonata",
+        "Ayran"
+      ],
+      "a": 4,
+      "q": "Satışı çaydan çok, salepten az olan içecek hangisi?"
+    },
+    "textPlain": "Satış panosu: Satışı çaydan çok, salepten az olan içecek hangisi? Sütununa dokun. [Sütun grafiği: haftalık satış (bardak) — Çay 20, Salep 35, Kakao 50, Limonata 60, Ayran 30]",
+    "correctAnswer": "Ayran",
+    "explanation": "Grafik okurken önce eksenlerin neyi gösterdiğine bak. Karşılaştırmalarda sütunların boylarını ve üstlerindeki değerleri kullan; her koşulu tek tek uygula."
+  },
+  {
+    "questionId": "tr8u9-gorsel-019",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "gorsel",
+    "rank": 3,
+    "type": "chart",
+    "prompt": "Satış panosu: Çaydan daha çok satılan tek sıcak içecek hangisi? Sütununa dokun.",
+    "data": {
+      "v": [
+        35,
+        30,
+        45,
+        55,
+        20
+      ],
+      "n": [
+        "Çay",
+        "Salep",
+        "Kakao",
+        "Limonata",
+        "Ayran"
+      ],
+      "a": 2,
+      "q": "Çaydan daha çok satılan tek sıcak içecek hangisi?"
+    },
+    "textPlain": "Satış panosu: Çaydan daha çok satılan tek sıcak içecek hangisi? Sütununa dokun. [Sütun grafiği: haftalık satış (bardak) — Çay 35, Salep 30, Kakao 45, Limonata 55, Ayran 20]",
+    "correctAnswer": "Kakao",
+    "explanation": "Grafik okurken önce eksenlerin neyi gösterdiğine bak. Karşılaştırmalarda sütunların boylarını ve üstlerindeki değerleri kullan; her koşulu tek tek uygula."
+  },
+  {
+    "questionId": "tr8u9-gorsel-020",
+    "grade": 8,
+    "subject": "Türkçe",
+    "unit": "Sözel Mantık ve Görsel Okuma",
+    "topic": "Görsel okuma (menü, afiş, grafik)",
+    "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+    "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+    "difficulty": "zor",
+    "group": "gorsel",
+    "rank": 3,
+    "type": "chart",
+    "prompt": "Satış panosu: Çaydan daha çok satılan tek sıcak içecek hangisi? Sütununa dokun.",
+    "data": {
+      "v": [
+        15,
+        10,
+        55,
+        30,
+        40
+      ],
+      "n": [
+        "Çay",
+        "Salep",
+        "Kakao",
+        "Limonata",
+        "Ayran"
+      ],
+      "a": 2,
+      "q": "Çaydan daha çok satılan tek sıcak içecek hangisi?"
+    },
+    "textPlain": "Satış panosu: Çaydan daha çok satılan tek sıcak içecek hangisi? Sütununa dokun. [Sütun grafiği: haftalık satış (bardak) — Çay 15, Salep 10, Kakao 55, Limonata 30, Ayran 40]",
+    "correctAnswer": "Kakao",
+    "explanation": "Grafik okurken önce eksenlerin neyi gösterdiğine bak. Karşılaştırmalarda sütunların boylarını ve üstlerindeki değerleri kullan; her koşulu tek tek uygula."
+  }
+]
