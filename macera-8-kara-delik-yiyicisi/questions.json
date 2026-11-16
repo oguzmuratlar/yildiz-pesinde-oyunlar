@@ -1,0 +1,3264 @@
+[
+ {
+  "questionId": "boss-a16-f7-01",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Aynı cins yükler",
+  "outcome": "Elektrik yüklerini sınıflandırır; sürtünme, dokunma ve etki ile elektriklenmeyi ve aynı/zıt yüklerin etkileşimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Aynı cins elektrik yüküyle yüklü iki cisim birbirine yaklaştırılırsa ne olur?",
+  "data": {
+   "options": [
+    "Birbirini iter.",
+    "Birbirini çeker.",
+    "Birbirini etkilemez."
+   ]
+  },
+  "textPlain": "Aynı cins elektrik yüküyle yüklü iki cisim birbirine yaklaştırılırsa ne olur? Seçenekler: Birbirini iter. / Birbirini çeker. / Birbirini etkilemez.",
+  "correctAnswer": "Birbirini iter.",
+  "explanation": "Aynı cins yükler birbirini iter, zıt cins yükler birbirini çeker."
+ },
+ {
+  "questionId": "boss-a16-f7-02",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Elektriklenme",
+  "outcome": "Elektrik yüklerini sınıflandırır; sürtünme, dokunma ve etki ile elektriklenmeyi ve aynı/zıt yüklerin etkileşimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Saça sürtülen bir tarağın küçük kâğıt parçalarını çekmesinin nedeni tarağın sürtünmeyle elektriklenmesidir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Saça sürtülen bir tarağın küçük kâğıt parçalarını çekmesinin nedeni tarağın sürtünmeyle elektriklenmesidir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sürtünme sırasında elektron alışverişi olur; tarak yüklenir ve nötr kâğıtları çeker."
+ },
+ {
+  "questionId": "boss-a16-f7-03",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Elektroskop",
+  "outcome": "Elektroskobun işlevini açıklar; topraklamanın önemini ve yıldırımdan korunma yollarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir cismin elektrik yüklü olup olmadığını anlamak için hangi araç kullanılır?",
+  "data": {
+   "options": [
+    "Elektroskop",
+    "Ampermetre",
+    "Termometre"
+   ]
+  },
+  "textPlain": "Bir cismin elektrik yüklü olup olmadığını anlamak için hangi araç kullanılır? Seçenekler: Elektroskop / Ampermetre / Termometre",
+  "correctAnswer": "Elektroskop",
+  "explanation": "Elektroskop, yaprakların açılıp kapanmasıyla yükün varlığını gösterir."
+ },
+ {
+  "questionId": "boss-a16-f7-04",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Enerji dönüşümü",
+  "outcome": "Elektrik enerjisinin ısı, ışık veya hareket enerjisine dönüşümünü örneklerle açıklar; harcanan enerjiyi güç ve süreyle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Araçları elektrik enerjisini dönüştürdükleri enerjiye göre ayır.",
+  "data": {
+   "bins": [
+    "Isı enerjisine",
+    "Hareket enerjisine"
+   ],
+   "items": [
+    [
+     "Ütü",
+     0
+    ],
+    [
+     "Vantilatör",
+     1
+    ],
+    [
+     "Su ısıtıcısı",
+     0
+    ],
+    [
+     "Mikser",
+     1
+    ],
+    [
+     "Elektrikli ocak",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Araçları elektrik enerjisini dönüştürdükleri enerjiye göre ayır. (Isı enerjisine / Hareket enerjisine) Kartlar: Ütü; Vantilatör; Su ısıtıcısı; Mikser; Elektrikli ocak.",
+  "correctAnswer": "Isı enerjisine: Ütü, Su ısıtıcısı, Elektrikli ocak. Hareket enerjisine: Vantilatör, Mikser.",
+  "explanation": "Ütü, ısıtıcı ve ocak ısı; vantilatör ve mikser hareket enerjisi üretir."
+ },
+ {
+  "questionId": "boss-a16-f7-05",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Enerji etiketi",
+  "outcome": "Elektrik enerjisini tasarruflu kullanmaya yönelik önerilerde bulunur; enerji etiketini yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Enerji etiketinde A sınıfı bir cihaz, aynı türdeki G sınıfı bir cihaza göre daha az enerji tüketir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Enerji etiketinde A sınıfı bir cihaz, aynı türdeki G sınıfı bir cihaza göre daha az enerji tüketir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Enerji verimlilik sınıfı A’ya yaklaştıkça cihazın enerji tüketimi azalır."
+ },
+ {
+  "questionId": "boss-a16-f7-06",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Yenilenebilir kaynak",
+  "outcome": "Elektrik enerjisinin üretildiği santralleri, kullandıkları kaynakları ve enerji dönüşümlerini açıklar; avantaj ve dezavantajlarını tartışır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Hangisi yenilenebilir bir enerji kaynağıdır?",
+  "data": {
+   "options": [
+    "Rüzgâr",
+    "Kömür",
+    "Doğal gaz"
+   ]
+  },
+  "textPlain": "Hangisi yenilenebilir bir enerji kaynağıdır? Seçenekler: Rüzgâr / Kömür / Doğal gaz",
+  "correctAnswer": "Rüzgâr",
+  "explanation": "Rüzgâr tükenmez; kömür ve doğal gaz fosil yakıttır, tükenir."
+ },
+ {
+  "questionId": "boss-a16-f7-07",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Santraller",
+  "outcome": "Elektrik enerjisinin üretildiği santralleri, kullandıkları kaynakları ve enerji dönüşümlerini açıklar; avantaj ve dezavantajlarını tartışır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "kolay",
+  "group": "f7",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Santralleri kullandıkları kaynakla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Hidroelektrik santrali",
+     "Akan su"
+    ],
+    [
+     "Rüzgâr santrali",
+     "Rüzgâr"
+    ],
+    [
+     "Termik santral",
+     "Kömür"
+    ]
+   ]
+  },
+  "textPlain": "Santralleri kullandıkları kaynakla eşleştir. Sol: Hidroelektrik santrali; Rüzgâr santrali; Termik santral. Sağ: Akan su; Rüzgâr; Kömür.",
+  "correctAnswer": "Hidroelektrik santrali = Akan su; Rüzgâr santrali = Rüzgâr; Termik santral = Kömür",
+  "explanation": "Hidroelektrik santralleri suyun, rüzgâr santralleri rüzgârın, termik santraller kömür gibi yakıtların enerjisini kullanır."
+ },
+ {
+  "questionId": "boss-a16-f7-08",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Aktarılan tanecik",
+  "outcome": "Elektrik yüklerini sınıflandırır; sürtünme, dokunma ve etki ile elektriklenmeyi ve aynı/zıt yüklerin etkileşimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Sürtünme ile elektriklenmede cisimler arasında hangi tanecik aktarılır?",
+  "data": {
+   "options": [
+    "Elektron",
+    "Proton",
+    "Nötron"
+   ]
+  },
+  "textPlain": "Sürtünme ile elektriklenmede cisimler arasında hangi tanecik aktarılır? Seçenekler: Elektron / Proton / Nötron",
+  "correctAnswer": "Elektron",
+  "explanation": "Sürtünmede yalnızca elektronlar bir cisimden diğerine geçer."
+ },
+ {
+  "questionId": "boss-a16-f7-09",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Topraklama",
+  "outcome": "Elektroskobun işlevini açıklar; topraklamanın önemini ve yıldırımdan korunma yollarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Topraklama nedir?",
+  "data": {
+   "options": [
+    "Yüklü bir cismin fazla yükünü toprağa aktararak nötr hâle getirmek",
+    "Nötr bir cismi toprağa bağlayıp pozitif yükle yüklemek ve yükünü artırmak",
+    "Elektrik kablosundaki akımı toprak yardımıyla artırarak güçlendirmek"
+   ]
+  },
+  "textPlain": "Topraklama nedir? Seçenekler: Yüklü bir cismin fazla yükünü toprağa aktararak nötr hâle getirmek / Nötr bir cismi toprağa bağlayıp pozitif yükle yüklemek ve yükünü artırmak / Elektrik kablosundaki akımı toprak yardımıyla artırarak güçlendirmek",
+  "correctAnswer": "Yüklü bir cismin fazla yükünü toprağa aktararak nötr hâle getirmek",
+  "explanation": "Topraklamada cisim toprakla bağlantı kurarak fazla yükünden kurtulur ve nötrleşir."
+ },
+ {
+  "questionId": "boss-a16-f7-10",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Enerji tüketimi",
+  "outcome": "Elektrik enerjisinin ısı, ışık veya hareket enerjisine dönüşümünü örneklerle açıklar; harcanan enerjiyi güç ve süreyle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Gücü 2000 W olan bir ütü 3 saat çalıştırılıyor. Harcanan elektrik enerjisi kaç kWh’tir?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "kWh"
+  },
+  "textPlain": "Gücü 2000 W olan bir ütü 3 saat çalıştırılıyor. Harcanan elektrik enerjisi kaç kWh’tir?",
+  "correctAnswer": "6 kWh",
+  "explanation": "2000 W = 2 kW; 2 kW · 3 h = 6 kWh."
+ },
+ {
+  "questionId": "boss-a16-f7-11",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Paratoner",
+  "outcome": "Elektroskobun işlevini açıklar; topraklamanın önemini ve yıldırımdan korunma yollarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Paratoner (yıldırımsavar) binaları yıldırımın zararlı etkilerinden korur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Paratoner (yıldırımsavar) binaları yıldırımın zararlı etkilerinden korur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Paratoner yıldırımın yükünü güvenli bir yoldan toprağa iletir."
+ },
+ {
+  "questionId": "boss-a16-f7-12",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Tasarruf",
+  "outcome": "Elektrik enerjisini tasarruflu kullanmaya yönelik önerilerde bulunur; enerji etiketini yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Davranışları enerji tasarrufu sağlayanlar ve sağlamayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Tasarruf sağlar",
+    "Tasarruf sağlamaz"
+   ],
+   "items": [
+    [
+     "Kullanılmayan odanın ışığını kapatmak",
+     0
+    ],
+    [
+     "Buzdolabının kapısını uzun süre açık tutmak",
+     1
+    ],
+    [
+     "LED ampul kullanmak",
+     0
+    ],
+    [
+     "Çamaşır makinesini yarı boş çalıştırmak",
+     1
+    ],
+    [
+     "Şarjı dolan telefonu prizden çıkarmak",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Davranışları enerji tasarrufu sağlayanlar ve sağlamayanlar diye ayır. (Tasarruf sağlar / Tasarruf sağlamaz) Kartlar: Kullanılmayan odanın ışığını kapatmak; Buzdolabının kapısını uzun süre açık tutmak; LED ampul kullanmak; Çamaşır makinesini yarı boş çalıştırmak; Şarjı dolan telefonu prizden çıkarmak.",
+  "correctAnswer": "Tasarruf sağlar: Kullanılmayan odanın ışığını kapatmak, LED ampul kullanmak, Şarjı dolan telefonu prizden çıkarmak. Tasarruf sağlamaz: Buzdolabının kapısını uzun süre açık tutmak, Çamaşır makinesini yarı boş çalıştırmak.",
+  "explanation": "Gereksiz çalışan cihazlar ve verimsiz kullanım enerji israfına yol açar."
+ },
+ {
+  "questionId": "boss-a16-f7-13",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Elektrikli süpürge",
+  "outcome": "Elektrik enerjisinin ısı, ışık veya hareket enerjisine dönüşümünü örneklerle açıklar; harcanan enerjiyi güç ve süreyle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Elektrikli süpürgede temel olarak hangi enerji dönüşümü olur?",
+  "data": {
+   "options": [
+    "Elektrik enerjisi → hareket enerjisi",
+    "Elektrik enerjisi → ışık enerjisi",
+    "Isı enerjisi → elektrik enerjisi"
+   ]
+  },
+  "textPlain": "Elektrikli süpürgede temel olarak hangi enerji dönüşümü olur? Seçenekler: Elektrik enerjisi → hareket enerjisi / Elektrik enerjisi → ışık enerjisi / Isı enerjisi → elektrik enerjisi",
+  "correctAnswer": "Elektrik enerjisi → hareket enerjisi",
+  "explanation": "Süpürgenin motoru elektrik enerjisini hareket enerjisine dönüştürür."
+ },
+ {
+  "questionId": "boss-a16-f7-14",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Termik santral",
+  "outcome": "Elektrik enerjisinin üretildiği santralleri, kullandıkları kaynakları ve enerji dönüşümlerini açıklar; avantaj ve dezavantajlarını tartışır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "orta",
+  "group": "f7",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Termik santrallerin çevreye etkisi için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Hava kirliliğine yol açarlar.",
+    "Hiç atık oluşturmazlar.",
+    "Yalnızca rüzgârla çalışırlar."
+   ]
+  },
+  "textPlain": "Termik santrallerin çevreye etkisi için hangisi doğrudur? Seçenekler: Hava kirliliğine yol açarlar. / Hiç atık oluşturmazlar. / Yalnızca rüzgârla çalışırlar.",
+  "correctAnswer": "Hava kirliliğine yol açarlar.",
+  "explanation": "Termik santrallerde yakıt yakılır; açığa çıkan gazlar hava kirliliğine ve küresel ısınmaya yol açar."
+ },
+ {
+  "questionId": "boss-a16-f7-15",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Nötr kâğıt",
+  "outcome": "Elektrik yüklerini sınıflandırır; sürtünme, dokunma ve etki ile elektriklenmeyi ve aynı/zıt yüklerin etkileşimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Pozitif yüklü bir cam çubuk, nötr bir kâğıt parçasına yaklaştırılırsa ne olur?",
+  "data": {
+   "options": [
+    "Kâğıdı çeker.",
+    "Kâğıdı iter.",
+    "Kâğıtla etkileşmez."
+   ]
+  },
+  "textPlain": "Pozitif yüklü bir cam çubuk, nötr bir kâğıt parçasına yaklaştırılırsa ne olur? Seçenekler: Kâğıdı çeker. / Kâğıdı iter. / Kâğıtla etkileşmez.",
+  "correctAnswer": "Kâğıdı çeker.",
+  "explanation": "Yüklü cisimler nötr cisimleri çeker."
+ },
+ {
+  "questionId": "boss-a16-f7-16",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Elektroskop yaprakları",
+  "outcome": "Elektroskobun işlevini açıklar; topraklamanın önemini ve yıldırımdan korunma yollarını açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Negatif yüklü bir elektroskopun topuzuna negatif yüklü bir çubuk dokunduruluyor. Yapraklar ne olur?",
+  "data": {
+   "options": [
+    "Biraz daha açılır.",
+    "Tamamen kapanır.",
+    "Hiç değişmez."
+   ]
+  },
+  "textPlain": "Negatif yüklü bir elektroskopun topuzuna negatif yüklü bir çubuk dokunduruluyor. Yapraklar ne olur? Seçenekler: Biraz daha açılır. / Tamamen kapanır. / Hiç değişmez.",
+  "correctAnswer": "Biraz daha açılır.",
+  "explanation": "Elektroskoptaki negatif yük miktarı artar; yapraklar birbirini daha çok iter."
+ },
+ {
+  "questionId": "boss-a16-f7-17",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Aylık tüketim",
+  "outcome": "Elektrik enerjisinin ısı, ışık veya hareket enerjisine dönüşümünü örneklerle açıklar; harcanan enerjiyi güç ve süreyle ilişkilendirir.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Gücü 1500 W olan bir su ısıtıcısı her gün 20 dakika çalışıyor. 30 günde kaç kWh enerji harcar?",
+  "data": {
+   "answer": 15,
+   "digits": 2,
+   "unit": "kWh"
+  },
+  "textPlain": "Gücü 1500 W olan bir su ısıtıcısı her gün 20 dakika çalışıyor. 30 günde kaç kWh enerji harcar?",
+  "correctAnswer": "15 kWh",
+  "explanation": "1,5 kW · (20/60) h = 0,5 kWh/gün; 30 gün → 15 kWh."
+ },
+ {
+  "questionId": "boss-a16-f7-18",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Fatura",
+  "outcome": "Elektrik enerjisini tasarruflu kullanmaya yönelik önerilerde bulunur; enerji etiketini yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Elektrik faturası, tüketilen enerjinin kilovatsaat (kWh) cinsinden miktarına göre hesaplanır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Elektrik faturası, tüketilen enerjinin kilovatsaat (kWh) cinsinden miktarına göre hesaplanır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Sayaç tüketilen enerjiyi kWh olarak ölçer; ücret buna göre belirlenir."
+ },
+ {
+  "questionId": "boss-a16-f7-19",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Güneş paneli",
+  "outcome": "Elektrik enerjisinin üretildiği santralleri, kullandıkları kaynakları ve enerji dönüşümlerini açıklar; avantaj ve dezavantajlarını tartışır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Güneş panelleri hangi enerji dönüşümünü yapar?",
+  "data": {
+   "options": [
+    "Işık enerjisini elektrik enerjisine",
+    "Elektrik enerjisini ışık enerjisine",
+    "Isı enerjisini hareket enerjisine"
+   ]
+  },
+  "textPlain": "Güneş panelleri hangi enerji dönüşümünü yapar? Seçenekler: Işık enerjisini elektrik enerjisine / Elektrik enerjisini ışık enerjisine / Isı enerjisini hareket enerjisine",
+  "correctAnswer": "Işık enerjisini elektrik enerjisine",
+  "explanation": "Güneş panelleri Güneş ışığını doğrudan elektrik enerjisine dönüştürür."
+ },
+ {
+  "questionId": "boss-a16-f7-20",
+  "grade": 8,
+  "subjectId": "science",
+  "subject": "Fen Bilimleri",
+  "unit": "7. Ünite: Elektrik Yükleri ve Elektrik Enerjisi",
+  "topic": "Çekme ve itme",
+  "outcome": "Elektrik yüklerini sınıflandırır; sürtünme, dokunma ve etki ile elektriklenmeyi ve aynı/zıt yüklerin etkileşimini açıklar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 7. Ünite “Elektrik Yükleri ve Elektrik Enerjisi”",
+  "difficulty": "zor",
+  "group": "f7",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Yük çiftlerini etkileşimlerine göre ayır.",
+  "data": {
+   "bins": [
+    "Çeker",
+    "İter"
+   ],
+   "items": [
+    [
+     "(+) ile (−)",
+     0
+    ],
+    [
+     "(+) ile (+)",
+     1
+    ],
+    [
+     "(−) ile (−)",
+     1
+    ],
+    [
+     "Yüklü cisim ile nötr cisim",
+     0
+    ],
+    [
+     "(−) ile (+)",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Yük çiftlerini etkileşimlerine göre ayır. (Çeker / İter) Kartlar: (+) ile (−); (+) ile (+); (−) ile (−); Yüklü cisim ile nötr cisim; (−) ile (+).",
+  "correctAnswer": "Çeker: (+) ile (−), Yüklü cisim ile nötr cisim, (−) ile (+). İter: (+) ile (+), (−) ile (−).",
+  "explanation": "Zıt yükler ve yüklü-nötr cisimler çekişir; aynı cins yükler iter."
+ },
+ {
+  "questionId": "boss-a16-m10-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Eş ve benzer",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Eş çokgenler aynı zamanda benzer çokgenlerdir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Eş çokgenler aynı zamanda benzer çokgenlerdir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Eş çokgenlerin açıları eşit, kenarları 1 oranında orantılıdır; yani benzerdirler."
+ },
+ {
+  "questionId": "boss-a16-m10-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Açılar",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Benzer iki çokgende karşılıklı açılar için hangisi doğrudur?",
+  "data": {
+   "options": [
+    "Eşittir.",
+    "Orantılıdır ama eşit değildir.",
+    "Toplamları 180°’dir."
+   ]
+  },
+  "textPlain": "Benzer iki çokgende karşılıklı açılar için hangisi doğrudur? Seçenekler: Eşittir. / Orantılıdır ama eşit değildir. / Toplamları 180°’dir.",
+  "correctAnswer": "Eşittir.",
+  "explanation": "Benzer çokgenlerde karşılıklı açılar eşit, karşılıklı kenarlar orantılıdır."
+ },
+ {
+  "questionId": "boss-a16-m10-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Benzer kareler",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Benzerlik oranı 2 olan iki kareden küçüğünün bir kenarı 3 cm’dir. Büyüğünün bir kenarı kaç cm’dir?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Benzerlik oranı 2 olan iki kareden küçüğünün bir kenarı 3 cm’dir. Büyüğünün bir kenarı kaç cm’dir?",
+  "correctAnswer": "6 cm",
+  "explanation": "3 · 2 = 6 cm."
+ },
+ {
+  "questionId": "boss-a16-m10-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Her zaman benzer mi",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Çokgen çiftlerini her zaman benzer olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Her zaman benzer",
+    "Her zaman benzer değil"
+   ],
+   "items": [
+    [
+     "İki kare",
+     0
+    ],
+    [
+     "İki eşkenar üçgen",
+     0
+    ],
+    [
+     "İki dikdörtgen",
+     1
+    ],
+    [
+     "İki eşkenar dörtgen",
+     1
+    ],
+    [
+     "İki düzgün altıgen",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Çokgen çiftlerini her zaman benzer olanlar ve olmayanlar diye ayır. (Her zaman benzer / Her zaman benzer değil) Kartlar: İki kare; İki eşkenar üçgen; İki dikdörtgen; İki eşkenar dörtgen; İki düzgün altıgen.",
+  "correctAnswer": "Her zaman benzer: İki kare, İki eşkenar üçgen, İki düzgün altıgen. Her zaman benzer değil: İki dikdörtgen, İki eşkenar dörtgen.",
+  "explanation": "Düzgün çokgenler (kare, eşkenar üçgen, düzgün altıgen) her zaman benzerdir; dikdörtgenlerin kenar oranları, eşkenar dörtgenlerin açıları farklı olabilir."
+ },
+ {
+  "questionId": "boss-a16-m10-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Benzer dikdörtgen",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kenarları 4 cm ve 6 cm olan dikdörtgene benzer olan dikdörtgenin kenarları hangisi olabilir?",
+  "data": {
+   "options": [
+    "6 cm ve 9 cm",
+    "5 cm ve 7 cm",
+    "8 cm ve 10 cm"
+   ]
+  },
+  "textPlain": "Kenarları 4 cm ve 6 cm olan dikdörtgene benzer olan dikdörtgenin kenarları hangisi olabilir? Seçenekler: 6 cm ve 9 cm / 5 cm ve 7 cm / 8 cm ve 10 cm",
+  "correctAnswer": "6 cm ve 9 cm",
+  "explanation": "6/4 = 9/6 = 1,5; kenarlar aynı oranda büyümüştür."
+ },
+ {
+  "questionId": "boss-a16-m10-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Benzer ve eş",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Benzer iki çokgen her zaman eştir.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? Benzer iki çokgen her zaman eştir.",
+  "correctAnswer": "Yanlış",
+  "explanation": "Benzer çokgenlerin boyutları farklı olabilir; yalnızca benzerlik oranı 1 ise eştirler."
+ },
+ {
+  "questionId": "boss-a16-m10-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Tanımlar",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "kolay",
+  "group": "m10",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Kavramları özellikleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Eş çokgenler",
+     "Kenarlar ve açılar eşit"
+    ],
+    [
+     "Benzer çokgenler",
+     "Açılar eşit, kenarlar orantılı"
+    ],
+    [
+     "Benzerlik oranı 1",
+     "Çokgenler eştir"
+    ]
+   ]
+  },
+  "textPlain": "Kavramları özellikleriyle eşleştir. Sol: Eş çokgenler; Benzer çokgenler; Benzerlik oranı 1. Sağ: Kenarlar ve açılar eşit; Açılar eşit, kenarlar orantılı; Çokgenler eştir.",
+  "correctAnswer": "Eş çokgenler = Kenarlar ve açılar eşit; Benzer çokgenler = Açılar eşit, kenarlar orantılı; Benzerlik oranı 1 = Çokgenler eştir",
+  "explanation": "Eşlik, benzerliğin oran 1 olan özel durumudur."
+ },
+ {
+  "questionId": "boss-a16-m10-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Çevre",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Benzerlik oranı 3 olan iki üçgenden küçüğünün çevresi 10 cm’dir. Büyüğünün çevresi kaç cm’dir?",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Benzerlik oranı 3 olan iki üçgenden küçüğünün çevresi 10 cm’dir. Büyüğünün çevresi kaç cm’dir?",
+  "correctAnswer": "30 cm",
+  "explanation": "Benzer çokgenlerin çevreleri de benzerlik oranında büyür: 10 · 3 = 30 cm."
+ },
+ {
+  "questionId": "boss-a16-m10-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Harita ölçeği",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "1 : 100 000 ölçekli bir haritada 5 cm olan bir yol gerçekte kaç km’dir?",
+  "data": {
+   "options": [
+    "5 km",
+    "50 km",
+    "0,5 km"
+   ]
+  },
+  "textPlain": "1 : 100 000 ölçekli bir haritada 5 cm olan bir yol gerçekte kaç km’dir? Seçenekler: 5 km / 50 km / 0,5 km",
+  "correctAnswer": "5 km",
+  "explanation": "5 · 100 000 = 500 000 cm = 5 000 m = 5 km."
+ },
+ {
+  "questionId": "boss-a16-m10-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Fotoğraf",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "num",
+  "prompt": "10 cm × 15 cm boyutlarındaki bir fotoğraf benzer biçimde büyütülüyor. Yeni fotoğrafın kısa kenarı 20 cm ise uzun kenarı kaç cm’dir?",
+  "data": {
+   "answer": 30,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "10 cm × 15 cm boyutlarındaki bir fotoğraf benzer biçimde büyütülüyor. Yeni fotoğrafın kısa kenarı 20 cm ise uzun kenarı kaç cm’dir?",
+  "correctAnswer": "30 cm",
+  "explanation": "Benzerlik oranı 20 ÷ 10 = 2; 15 · 2 = 30 cm."
+ },
+ {
+  "questionId": "boss-a16-m10-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Kenar oranı",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Benzer iki üçgenin karşılıklı kenar uzunluklarının oranı benzerlik oranına eşittir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Benzer iki üçgenin karşılıklı kenar uzunluklarının oranı benzerlik oranına eşittir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Benzerlik oranı, karşılıklı kenarların oranıdır."
+ },
+ {
+  "questionId": "boss-a16-m10-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Açı bulma",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "ABC ve DEF üçgenleri benzerdir (A↔D, B↔E, C↔F). m(Â) = 50° ve m(B̂) = 70° ise m(F̂) kaçtır?",
+  "data": {
+   "options": [
+    "60°",
+    "50°",
+    "70°"
+   ]
+  },
+  "textPlain": "ABC ve DEF üçgenleri benzerdir (A↔D, B↔E, C↔F). m(Â) = 50° ve m(B̂) = 70° ise m(F̂) kaçtır? Seçenekler: 60° / 50° / 70°",
+  "correctAnswer": "60°",
+  "explanation": "m(Ĉ) = 180° − 120° = 60°; benzer üçgenlerde karşılıklı açılar eşit olduğundan m(F̂) = 60°."
+ },
+ {
+  "questionId": "boss-a16-m10-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Plan ölçeği",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Ölçeği 1 : 50 olan bir planda odanın eni 8 cm’dir. Odanın gerçek eni kaç metredir?",
+  "data": {
+   "options": [
+    "4 m",
+    "40 m",
+    "0,4 m"
+   ]
+  },
+  "textPlain": "Ölçeği 1 : 50 olan bir planda odanın eni 8 cm’dir. Odanın gerçek eni kaç metredir? Seçenekler: 4 m / 40 m / 0,4 m",
+  "correctAnswer": "4 m",
+  "explanation": "8 · 50 = 400 cm = 4 m."
+ },
+ {
+  "questionId": "boss-a16-m10-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "2 × 3’e benzer",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "orta",
+  "group": "m10",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Dikdörtgenleri (cm) 2 cm × 3 cm’lik dikdörtgene benzer olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Benzer",
+    "Benzer değil"
+   ],
+   "items": [
+    [
+     "4 × 6",
+     0
+    ],
+    [
+     "6 × 9",
+     0
+    ],
+    [
+     "3 × 4",
+     1
+    ],
+    [
+     "10 × 15",
+     0
+    ],
+    [
+     "5 × 6",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Dikdörtgenleri (cm) 2 cm × 3 cm’lik dikdörtgene benzer olanlar ve olmayanlar diye ayır. (Benzer / Benzer değil) Kartlar: 4 × 6; 6 × 9; 3 × 4; 10 × 15; 5 × 6.",
+  "correctAnswer": "Benzer: 4 × 6, 6 × 9, 10 × 15. Benzer değil: 3 × 4, 5 × 6.",
+  "explanation": "Kenarların oranı 2 : 3 olmalıdır."
+ },
+ {
+  "questionId": "boss-a16-m10-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "En uzun kenar",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "zor",
+  "group": "m10",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Kenarları 6 cm, 8 cm ve 10 cm olan bir üçgene benzer olan üçgenin en kısa kenarı 9 cm’dir. Bu üçgenin en uzun kenarı kaç cm’dir?",
+  "data": {
+   "answer": 15,
+   "digits": 2,
+   "unit": "cm"
+  },
+  "textPlain": "Kenarları 6 cm, 8 cm ve 10 cm olan bir üçgene benzer olan üçgenin en kısa kenarı 9 cm’dir. Bu üçgenin en uzun kenarı kaç cm’dir?",
+  "correctAnswer": "15 cm",
+  "explanation": "Benzerlik oranı 9 ÷ 6 = 1,5; 10 · 1,5 = 15 cm."
+ },
+ {
+  "questionId": "boss-a16-m10-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Her zaman doğru",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "zor",
+  "group": "m10",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Hangisi her zaman doğrudur?",
+  "data": {
+   "options": [
+    "Benzerlik oranı 1 olan çokgenler eştir.",
+    "Açıları karşılıklı eşit olan iki dörtgen benzerdir.",
+    "Kenarları karşılıklı orantılı olan iki dörtgen benzerdir."
+   ]
+  },
+  "textPlain": "Hangisi her zaman doğrudur? Seçenekler: Benzerlik oranı 1 olan çokgenler eştir. / Açıları karşılıklı eşit olan iki dörtgen benzerdir. / Kenarları karşılıklı orantılı olan iki dörtgen benzerdir.",
+  "correctAnswer": "Benzerlik oranı 1 olan çokgenler eştir.",
+  "explanation": "Dörtgenlerde benzerlik için hem açıların eşit hem kenarların orantılı olması gerekir; yalnızca biri yetmez."
+ },
+ {
+  "questionId": "boss-a16-m10-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Gölge",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "zor",
+  "group": "m10",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Aynı anda 2 m boyundaki bir direğin gölgesi 3 m, bir ağacın gölgesi 12 m’dir. Ağacın boyu kaç m’dir?",
+  "data": {
+   "answer": 8,
+   "digits": 1,
+   "unit": "m"
+  },
+  "textPlain": "Aynı anda 2 m boyundaki bir direğin gölgesi 3 m, bir ağacın gölgesi 12 m’dir. Ağacın boyu kaç m’dir?",
+  "correctAnswer": "8 m",
+  "explanation": "Direk ile gölgesi ve ağaç ile gölgesi benzer üçgenler oluşturur: 2/3 = x/12 → x = 8 m."
+ },
+ {
+  "questionId": "boss-a16-m10-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Eşkenar üçgenler",
+  "outcome": "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "zor",
+  "group": "m10",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bütün eşkenar üçgenler birbirine benzerdir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bütün eşkenar üçgenler birbirine benzerdir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Bütün açıları 60° olduğu için kenar uzunlukları ne olursa olsun benzerdirler."
+ },
+ {
+  "questionId": "boss-a16-m10-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Şehirler arası",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "zor",
+  "group": "m10",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "1 : 200 000 ölçekli bir haritada iki şehir arası 7 cm’dir. Gerçek uzaklık kaç km’dir?",
+  "data": {
+   "options": [
+    "14 km",
+    "140 km",
+    "1,4 km"
+   ]
+  },
+  "textPlain": "1 : 200 000 ölçekli bir haritada iki şehir arası 7 cm’dir. Gerçek uzaklık kaç km’dir? Seçenekler: 14 km / 140 km / 1,4 km",
+  "correctAnswer": "14 km",
+  "explanation": "7 · 200 000 = 1 400 000 cm = 14 km."
+ },
+ {
+  "questionId": "boss-a16-m10-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "10. Ünite: Eşlik ve Benzerlik",
+  "topic": "Karşılık gelen kenar",
+  "outcome": "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 10. Ünite “Eşlik ve Benzerlik”",
+  "difficulty": "zor",
+  "group": "m10",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Benzer iki çokgenden küçüğünün büyüğüne benzerlik oranı {2/3}’tür. Büyüğün bir kenarı 12 cm ise küçüğünde buna karşılık gelen kenar kaç cm’dir?",
+  "data": {
+   "options": [
+    "8 cm",
+    "18 cm",
+    "6 cm"
+   ]
+  },
+  "textPlain": "Benzer iki çokgenden küçüğünün büyüğüne benzerlik oranı {2/3}’tür. Büyüğün bir kenarı 12 cm ise küçüğünde buna karşılık gelen kenar kaç cm’dir? Seçenekler: 8 cm / 18 cm / 6 cm",
+  "correctAnswer": "8 cm",
+  "explanation": "12 · 2/3 = 8 cm."
+ },
+ {
+  "questionId": "boss-a16-m11-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Sağa öteleme",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "A(2, 3) noktası 4 birim sağa ötelenirse görüntüsü hangisi olur?",
+  "data": {
+   "options": [
+    "(6, 3)",
+    "(2, 7)",
+    "(−2, 3)"
+   ]
+  },
+  "textPlain": "A(2, 3) noktası 4 birim sağa ötelenirse görüntüsü hangisi olur? Seçenekler: (6, 3) / (2, 7) / (−2, 3)",
+  "correctAnswer": "(6, 3)",
+  "explanation": "Sağa ötelemede apsis artar: 2 + 4 = 6; ordinat değişmez."
+ },
+ {
+  "questionId": "boss-a16-m11-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "x eksenine yansıma",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "A(3, 5) noktasının x eksenine göre yansıması hangisidir?",
+  "data": {
+   "options": [
+    "(3, −5)",
+    "(−3, 5)",
+    "(−3, −5)"
+   ]
+  },
+  "textPlain": "A(3, 5) noktasının x eksenine göre yansıması hangisidir? Seçenekler: (3, −5) / (−3, 5) / (−3, −5)",
+  "correctAnswer": "(3, −5)",
+  "explanation": "x eksenine göre yansımada apsis aynı kalır, ordinatın işareti değişir."
+ },
+ {
+  "questionId": "boss-a16-m11-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Öteleme",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Ötelemede şeklin boyutu ve yönü değişmez.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Ötelemede şeklin boyutu ve yönü değişmez.",
+  "correctAnswer": "Doğru",
+  "explanation": "Öteleme şekli yalnızca belirli bir yönde kaydırır."
+ },
+ {
+  "questionId": "boss-a16-m11-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "y eksenine yansıma",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "B(−4, 2) noktasının y eksenine göre yansıması hangisidir?",
+  "data": {
+   "options": [
+    "(4, 2)",
+    "(−4, −2)",
+    "(4, −2)"
+   ]
+  },
+  "textPlain": "B(−4, 2) noktasının y eksenine göre yansıması hangisidir? Seçenekler: (4, 2) / (−4, −2) / (4, −2)",
+  "correctAnswer": "(4, 2)",
+  "explanation": "y eksenine göre yansımada ordinat aynı kalır, apsisin işareti değişir."
+ },
+ {
+  "questionId": "boss-a16-m11-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Yansıma ve eşlik",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Yansımada şekil ile görüntüsü eştir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Yansımada şekil ile görüntüsü eştir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Yansıma şeklin boyutunu değiştirmez; görüntü şekille eştir."
+ },
+ {
+  "questionId": "boss-a16-m11-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Hangi dönüşüm",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Nokta dönüşümlerini türüne göre ayır.",
+  "data": {
+   "bins": [
+    "Öteleme",
+    "Eksene göre yansıma"
+   ],
+   "items": [
+    [
+     "(1, 2) → (4, 2)",
+     0
+    ],
+    [
+     "(1, 2) → (1, −2)",
+     1
+    ],
+    [
+     "(3, 1) → (3, 5)",
+     0
+    ],
+    [
+     "(3, 1) → (−3, 1)",
+     1
+    ],
+    [
+     "(−2, 0) → (−2, 6)",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Nokta dönüşümlerini türüne göre ayır. (Öteleme / Eksene göre yansıma) Kartlar: (1, 2) → (4, 2); (1, 2) → (1, −2); (3, 1) → (3, 5); (3, 1) → (−3, 1); (−2, 0) → (−2, 6).",
+  "correctAnswer": "Öteleme: (1, 2) → (4, 2), (3, 1) → (3, 5), (−2, 0) → (−2, 6). Eksene göre yansıma: (1, 2) → (1, −2), (3, 1) → (−3, 1).",
+  "explanation": "Ötelemede koordinatlara aynı sayı eklenir; eksene göre yansımada bir koordinatın işareti değişir."
+ },
+ {
+  "questionId": "boss-a16-m11-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Kurallar",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "kolay",
+  "group": "m11",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Kuralları dönüşümle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "(x, y) → (x, −y)",
+     "x eksenine göre yansıma"
+    ],
+    [
+     "(x, y) → (−x, y)",
+     "y eksenine göre yansıma"
+    ],
+    [
+     "(x, y) → (x + 3, y)",
+     "3 birim sağa öteleme"
+    ]
+   ]
+  },
+  "textPlain": "Kuralları dönüşümle eşleştir. Sol: (x, y) → (x, −y); (x, y) → (−x, y); (x, y) → (x + 3, y). Sağ: x eksenine göre yansıma; y eksenine göre yansıma; 3 birim sağa öteleme.",
+  "correctAnswer": "(x, y) → (x, −y) = x eksenine göre yansıma; (x, y) → (−x, y) = y eksenine göre yansıma; (x, y) → (x + 3, y) = 3 birim sağa öteleme",
+  "explanation": "Yansımalarda işaret, ötelemede değer değişir."
+ },
+ {
+  "questionId": "boss-a16-m11-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "İki yönde öteleme",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "A(−1, 4) noktası 3 birim aşağı ve 2 birim sola ötelenirse görüntüsü hangisi olur?",
+  "data": {
+   "options": [
+    "(−3, 1)",
+    "(1, 7)",
+    "(−3, 7)"
+   ]
+  },
+  "textPlain": "A(−1, 4) noktası 3 birim aşağı ve 2 birim sola ötelenirse görüntüsü hangisi olur? Seçenekler: (−3, 1) / (1, 7) / (−3, 7)",
+  "correctAnswer": "(−3, 1)",
+  "explanation": "Sola: −1 − 2 = −3; aşağı: 4 − 3 = 1."
+ },
+ {
+  "questionId": "boss-a16-m11-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "İki yansıma",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "P(2, −6) noktası önce x eksenine, sonra y eksenine göre yansıtılırsa görüntüsü hangisi olur?",
+  "data": {
+   "options": [
+    "(−2, 6)",
+    "(2, 6)",
+    "(−2, −6)"
+   ]
+  },
+  "textPlain": "P(2, −6) noktası önce x eksenine, sonra y eksenine göre yansıtılırsa görüntüsü hangisi olur? Seçenekler: (−2, 6) / (2, 6) / (−2, −6)",
+  "correctAnswer": "(−2, 6)",
+  "explanation": "x eksenine göre: (2, 6); y eksenine göre: (−2, 6)."
+ },
+ {
+  "questionId": "boss-a16-m11-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Ardışık dönüşüm",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir şekil önce ötelenip sonra yansıtılırsa elde edilen görüntü ilk şekille eştir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir şekil önce ötelenip sonra yansıtılırsa elde edilen görüntü ilk şekille eştir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Öteleme ve yansıma boyutu değiştirmez; arka arkaya uygulansalar da görüntü eştir."
+ },
+ {
+  "questionId": "boss-a16-m11-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Ötelemeyi bul",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "A(5, 1) noktası ötelenerek A′(2, 4) noktasına taşınıyor. Bu öteleme hangisidir?",
+  "data": {
+   "options": [
+    "3 birim sola, 3 birim yukarı",
+    "3 birim sağa, 3 birim aşağı",
+    "2 birim sola, 4 birim yukarı"
+   ]
+  },
+  "textPlain": "A(5, 1) noktası ötelenerek A′(2, 4) noktasına taşınıyor. Bu öteleme hangisidir? Seçenekler: 3 birim sola, 3 birim yukarı / 3 birim sağa, 3 birim aşağı / 2 birim sola, 4 birim yukarı",
+  "correctAnswer": "3 birim sola, 3 birim yukarı",
+  "explanation": "Apsis 5 → 2 (3 sola), ordinat 1 → 4 (3 yukarı)."
+ },
+ {
+  "questionId": "boss-a16-m11-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Değişmeyen nokta",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "x eksenine göre yansıması kendisine eşit olan nokta hangisidir?",
+  "data": {
+   "options": [
+    "(5, 0)",
+    "(0, 5)",
+    "(5, 5)"
+   ]
+  },
+  "textPlain": "x eksenine göre yansıması kendisine eşit olan nokta hangisidir? Seçenekler: (5, 0) / (0, 5) / (5, 5)",
+  "correctAnswer": "(5, 0)",
+  "explanation": "x ekseni üzerindeki noktalar (ordinatı 0) x eksenine göre yansıyınca yer değiştirmez."
+ },
+ {
+  "questionId": "boss-a16-m11-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Apsis",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "num",
+  "prompt": "A(1, 2) noktası 3 birim sağa ötelenip sonra x eksenine göre yansıtılıyor. Görüntünün apsisi kaçtır?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "A(1, 2) noktası 3 birim sağa ötelenip sonra x eksenine göre yansıtılıyor. Görüntünün apsisi kaçtır?",
+  "correctAnswer": "4",
+  "explanation": "Öteleme: (4, 2); x eksenine yansıma: (4, −2). Apsis 4."
+ },
+ {
+  "questionId": "boss-a16-m11-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Ordinat",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "orta",
+  "group": "m11",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Bir noktanın y eksenine göre yansımasında ordinat değişmez.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir noktanın y eksenine göre yansımasında ordinat değişmez.",
+  "correctAnswer": "Doğru",
+  "explanation": "y eksenine göre yansımada yalnızca apsisin işareti değişir."
+ },
+ {
+  "questionId": "boss-a16-m11-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Yansıma ve öteleme",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "zor",
+  "group": "m11",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A(−2, 3) noktası önce y eksenine göre yansıtılıp sonra 4 birim aşağı ötelenirse görüntüsü hangisi olur?",
+  "data": {
+   "options": [
+    "(2, −1)",
+    "(−2, −1)",
+    "(2, 7)"
+   ]
+  },
+  "textPlain": "A(−2, 3) noktası önce y eksenine göre yansıtılıp sonra 4 birim aşağı ötelenirse görüntüsü hangisi olur? Seçenekler: (2, −1) / (−2, −1) / (2, 7)",
+  "correctAnswer": "(2, −1)",
+  "explanation": "y eksenine yansıma: (2, 3); 4 birim aşağı: (2, −1)."
+ },
+ {
+  "questionId": "boss-a16-m11-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Üçgeni ötele",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme sonucundaki görüntülerini çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "zor",
+  "group": "m11",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Köşeleri A(0, 0), B(3, 0), C(0, 2) olan üçgen 2 birim yukarı ötelenirse B köşesinin görüntüsü hangisi olur?",
+  "data": {
+   "options": [
+    "(3, 2)",
+    "(5, 0)",
+    "(3, −2)"
+   ]
+  },
+  "textPlain": "Köşeleri A(0, 0), B(3, 0), C(0, 2) olan üçgen 2 birim yukarı ötelenirse B köşesinin görüntüsü hangisi olur? Seçenekler: (3, 2) / (5, 0) / (3, −2)",
+  "correctAnswer": "(3, 2)",
+  "explanation": "Yukarı ötelemede yalnızca ordinat artar: (3, 0 + 2)."
+ },
+ {
+  "questionId": "boss-a16-m11-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Ordinat",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "zor",
+  "group": "m11",
+  "rank": 3,
+  "type": "num",
+  "prompt": "A(4, −1) noktası x eksenine göre yansıtılıp sonra 5 birim sola ötelenirse görüntünün ordinatı kaçtır?",
+  "data": {
+   "answer": 1,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "A(4, −1) noktası x eksenine göre yansıtılıp sonra 5 birim sola ötelenirse görüntünün ordinatı kaçtır?",
+  "correctAnswer": "1",
+  "explanation": "Yansıma: (4, 1); sola öteleme: (−1, 1). Ordinat 1."
+ },
+ {
+  "questionId": "boss-a16-m11-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Sıra fark eder mi",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "zor",
+  "group": "m11",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir noktanın önce x sonra y eksenine göre yansıması ile önce y sonra x eksenine göre yansıması aynı noktayı verir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir noktanın önce x sonra y eksenine göre yansıması ile önce y sonra x eksenine göre yansıması aynı noktayı verir.",
+  "correctAnswer": "Doğru",
+  "explanation": "İki durumda da iki koordinatın işareti değişir: (x, y) → (−x, −y)."
+ },
+ {
+  "questionId": "boss-a16-m11-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Bilinmeyen apsis",
+  "outcome": "Nokta, doğru parçası ve diğer düzlemsel şekillerin dik koordinat eksenlerine göre yansımalarını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "zor",
+  "group": "m11",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A(a, 3) noktasının y eksenine göre yansıması (−5, 3) ise a kaçtır?",
+  "data": {
+   "options": [
+    "5",
+    "−5",
+    "3"
+   ]
+  },
+  "textPlain": "A(a, 3) noktasının y eksenine göre yansıması (−5, 3) ise a kaçtır? Seçenekler: 5 / −5 / 3",
+  "correctAnswer": "5",
+  "explanation": "y eksenine yansımada apsisin işareti değişir: a = 5."
+ },
+ {
+  "questionId": "boss-a16-m11-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "11. Ünite: Dönüşüm Geometrisi",
+  "topic": "Aynı sonuç",
+  "outcome": "Çokgenlerin ardışık öteleme ve yansıma sonucunda ortaya çıkan görüntüsünü oluşturur.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 11. Ünite “Dönüşüm Geometrisi”",
+  "difficulty": "zor",
+  "group": "m11",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "A(2, 1) noktasını (−2, −1) noktasına taşıyan dönüşümleri ayır.",
+  "data": {
+   "bins": [
+    "Taşır",
+    "Taşımaz"
+   ],
+   "items": [
+    [
+     "Önce x, sonra y eksenine göre yansıma",
+     0
+    ],
+    [
+     "Önce y, sonra x eksenine göre yansıma",
+     0
+    ],
+    [
+     "Yalnızca x eksenine göre yansıma",
+     1
+    ],
+    [
+     "4 birim sola ve 2 birim aşağı öteleme",
+     0
+    ],
+    [
+     "Yalnızca y eksenine göre yansıma",
+     1
+    ]
+   ]
+  },
+  "textPlain": "A(2, 1) noktasını (−2, −1) noktasına taşıyan dönüşümleri ayır. (Taşır / Taşımaz) Kartlar: Önce x, sonra y eksenine göre yansıma; Önce y, sonra x eksenine göre yansıma; Yalnızca x eksenine göre yansıma; 4 birim sola ve 2 birim aşağı öteleme; Yalnızca y eksenine göre yansıma.",
+  "correctAnswer": "Taşır: Önce x, sonra y eksenine göre yansıma, Önce y, sonra x eksenine göre yansıma, 4 birim sola ve 2 birim aşağı öteleme. Taşımaz: Yalnızca x eksenine göre yansıma, Yalnızca y eksenine göre yansıma.",
+  "explanation": "İki eksene göre art arda yansıma ya da (−4, −2) ötelemesi (2, 1)’i (−2, −1)’e taşır."
+ },
+ {
+  "questionId": "boss-a16-m12-01",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Küpün yüzleri",
+  "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Bir küpün kaç yüzü vardır?",
+  "data": {
+   "answer": 6,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Bir küpün kaç yüzü vardır?",
+  "correctAnswer": "6",
+  "explanation": "Küpün 6 kare yüzü, 12 ayrıtı ve 8 köşesi vardır."
+ },
+ {
+  "questionId": "boss-a16-m12-02",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Silindir açınımı",
+  "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Dik dairesel silindirin açınımında yan yüz hangi şekildedir?",
+  "data": {
+   "options": [
+    "Dikdörtgen",
+    "Üçgen",
+    "Daire"
+   ]
+  },
+  "textPlain": "Dik dairesel silindirin açınımında yan yüz hangi şekildedir? Seçenekler: Dikdörtgen / Üçgen / Daire",
+  "correctAnswer": "Dikdörtgen",
+  "explanation": "Silindirin açınımı iki daire ve bir dikdörtgenden oluşur."
+ },
+ {
+  "questionId": "boss-a16-m12-03",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Koni",
+  "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Koninin bir tabanı ve bir tepe noktası vardır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Koninin bir tabanı ve bir tepe noktası vardır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Dik koninin tabanı daire, yan yüzü eğri yüzeydir; bir tepe noktası vardır."
+ },
+ {
+  "questionId": "boss-a16-m12-04",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Üçgen prizma",
+  "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Üçgen dik prizmanın kaç yüzü vardır?",
+  "data": {
+   "options": [
+    "5",
+    "6",
+    "4"
+   ]
+  },
+  "textPlain": "Üçgen dik prizmanın kaç yüzü vardır? Seçenekler: 5 / 6 / 4",
+  "correctAnswer": "5",
+  "explanation": "2 üçgen taban ve 3 dikdörtgen yan yüz: 5 yüz."
+ },
+ {
+  "questionId": "boss-a16-m12-05",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Yüzeyler",
+  "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cisimleri yüzeylerine göre ayır.",
+  "data": {
+   "bins": [
+    "Yalnızca düz yüzeyli",
+    "Eğri yüzeyi var"
+   ],
+   "items": [
+    [
+     "Küp",
+     0
+    ],
+    [
+     "Silindir",
+     1
+    ],
+    [
+     "Kare dik piramit",
+     0
+    ],
+    [
+     "Koni",
+     1
+    ],
+    [
+     "Dikdörtgenler prizması",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cisimleri yüzeylerine göre ayır. (Yalnızca düz yüzeyli / Eğri yüzeyi var) Kartlar: Küp; Silindir; Kare dik piramit; Koni; Dikdörtgenler prizması.",
+  "correctAnswer": "Yalnızca düz yüzeyli: Küp, Kare dik piramit, Dikdörtgenler prizması. Eğri yüzeyi var: Silindir, Koni.",
+  "explanation": "Silindir ve koninin yan yüzü eğridir; prizmaların ve piramitlerin bütün yüzleri düzdür."
+ },
+ {
+  "questionId": "boss-a16-m12-06",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Hacim",
+  "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Taban alanı 12 cm², yüksekliği 5 cm olan silindirin hacmi kaç cm³’tür?",
+  "data": {
+   "answer": 60,
+   "digits": 2,
+   "unit": "cm³"
+  },
+  "textPlain": "Taban alanı 12 cm², yüksekliği 5 cm olan silindirin hacmi kaç cm³’tür?",
+  "correctAnswer": "60 cm³",
+  "explanation": "Hacim = taban alanı · yükseklik = 12 · 5 = 60 cm³."
+ },
+ {
+  "questionId": "boss-a16-m12-07",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Köşe sayıları",
+  "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "kolay",
+  "group": "m12",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Cisimleri köşe sayılarıyla eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Küp",
+     "8 köşe"
+    ],
+    [
+     "Kare dik piramit",
+     "5 köşe"
+    ],
+    [
+     "Üçgen dik prizma",
+     "6 köşe"
+    ]
+   ]
+  },
+  "textPlain": "Cisimleri köşe sayılarıyla eşleştir. Sol: Küp; Kare dik piramit; Üçgen dik prizma. Sağ: 8 köşe; 5 köşe; 6 köşe.",
+  "correctAnswer": "Küp = 8 köşe; Kare dik piramit = 5 köşe; Üçgen dik prizma = 6 köşe",
+  "explanation": "Küp 8, kare piramit 4 + 1 = 5, üçgen prizma 3 + 3 = 6 köşelidir."
+ },
+ {
+  "questionId": "boss-a16-m12-08",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Silindir hacmi",
+  "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Taban yarıçapı 2 cm, yüksekliği 10 cm olan silindirin hacmi kaç cm³’tür? (π = 3)",
+  "data": {
+   "answer": 120,
+   "digits": 3,
+   "unit": "cm³"
+  },
+  "textPlain": "Taban yarıçapı 2 cm, yüksekliği 10 cm olan silindirin hacmi kaç cm³’tür? (π = 3)",
+  "correctAnswer": "120 cm³",
+  "explanation": "π · r² · h = 3 · 4 · 10 = 120 cm³."
+ },
+ {
+  "questionId": "boss-a16-m12-09",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Taban alanı",
+  "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Taban yarıçapı 5 cm olan bir silindirin bir tabanının alanı kaç cm²’dir? (π = 3)",
+  "data": {
+   "answer": 75,
+   "digits": 2,
+   "unit": "cm²"
+  },
+  "textPlain": "Taban yarıçapı 5 cm olan bir silindirin bir tabanının alanı kaç cm²’dir? (π = 3)",
+  "correctAnswer": "75 cm²",
+  "explanation": "π · r² = 3 · 25 = 75 cm²."
+ },
+ {
+  "questionId": "boss-a16-m12-10",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Dikdörtgenin kenarı",
+  "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Silindirin açınımındaki dikdörtgenin bir kenarı taban çemberinin çevresine eşittir. Taban yarıçapı 4 cm ise bu kenar kaç cm’dir? (π = 3)",
+  "data": {
+   "options": [
+    "24 cm",
+    "12 cm",
+    "48 cm"
+   ]
+  },
+  "textPlain": "Silindirin açınımındaki dikdörtgenin bir kenarı taban çemberinin çevresine eşittir. Taban yarıçapı 4 cm ise bu kenar kaç cm’dir? (π = 3) Seçenekler: 24 cm / 12 cm / 48 cm",
+  "correctAnswer": "24 cm",
+  "explanation": "Çevre = 2 · π · r = 2 · 3 · 4 = 24 cm."
+ },
+ {
+  "questionId": "boss-a16-m12-11",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Küp",
+  "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Dikdörtgenler prizmasının bütün yüzleri kare ise bu cisim küptür.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Dikdörtgenler prizmasının bütün yüzleri kare ise bu cisim küptür.",
+  "correctAnswer": "Doğru",
+  "explanation": "Bütün yüzleri eş karelerden oluşan dikdörtgenler prizması küptür."
+ },
+ {
+  "questionId": "boss-a16-m12-12",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Prizma hacmi",
+  "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Ayrıtları 3 cm, 4 cm ve 5 cm olan dikdörtgenler prizmasının hacmi kaç cm³’tür?",
+  "data": {
+   "answer": 60,
+   "digits": 2,
+   "unit": "cm³"
+  },
+  "textPlain": "Ayrıtları 3 cm, 4 cm ve 5 cm olan dikdörtgenler prizmasının hacmi kaç cm³’tür?",
+  "correctAnswer": "60 cm³",
+  "explanation": "3 · 4 · 5 = 60 cm³."
+ },
+ {
+  "questionId": "boss-a16-m12-13",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Koni açınımı",
+  "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Dik koninin açınımında yan yüz hangi şekildedir?",
+  "data": {
+   "options": [
+    "Daire dilimi",
+    "Dikdörtgen",
+    "Üçgen"
+   ]
+  },
+  "textPlain": "Dik koninin açınımında yan yüz hangi şekildedir? Seçenekler: Daire dilimi / Dikdörtgen / Üçgen",
+  "correctAnswer": "Daire dilimi",
+  "explanation": "Koninin yan yüzü açıldığında daire dilimi oluşur."
+ },
+ {
+  "questionId": "boss-a16-m12-14",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Silindirin elemanları",
+  "outcome": "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "orta",
+  "group": "m12",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Kavramları silindirin elemanı olanlar ve olmayanlar diye ayır.",
+  "data": {
+   "bins": [
+    "Silindirin elemanı",
+    "Silindirde yok"
+   ],
+   "items": [
+    [
+     "Taban",
+     0
+    ],
+    [
+     "Yükseklik",
+     0
+    ],
+    [
+     "Tepe noktası",
+     1
+    ],
+    [
+     "Yan yüz",
+     0
+    ],
+    [
+     "Ayrıt",
+     1
+    ]
+   ]
+  },
+  "textPlain": "Kavramları silindirin elemanı olanlar ve olmayanlar diye ayır. (Silindirin elemanı / Silindirde yok) Kartlar: Taban; Yükseklik; Tepe noktası; Yan yüz; Ayrıt.",
+  "correctAnswer": "Silindirin elemanı: Taban, Yükseklik, Yan yüz. Silindirde yok: Tepe noktası, Ayrıt.",
+  "explanation": "Silindirin iki tabanı, yan yüzü ve yüksekliği vardır; tepe noktası ve ayrıtı yoktur."
+ },
+ {
+  "questionId": "boss-a16-m12-15",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Yüzey alanı",
+  "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "zor",
+  "group": "m12",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Taban yarıçapı 3 cm, yüksekliği 5 cm olan silindirin yüzey alanı kaç cm²’dir? (π = 3)",
+  "data": {
+   "answer": 144,
+   "digits": 3,
+   "unit": "cm²"
+  },
+  "textPlain": "Taban yarıçapı 3 cm, yüksekliği 5 cm olan silindirin yüzey alanı kaç cm²’dir? (π = 3)",
+  "correctAnswer": "144 cm²",
+  "explanation": "İki taban: 2 · 3 · 9 = 54; yan yüz: 2 · 3 · 3 · 5 = 90; toplam 144 cm²."
+ },
+ {
+  "questionId": "boss-a16-m12-16",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Yükseklik",
+  "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "zor",
+  "group": "m12",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Hacmi 300 cm³, taban yarıçapı 5 cm olan silindirin yüksekliği kaç cm’dir? (π = 3)",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": "cm"
+  },
+  "textPlain": "Hacmi 300 cm³, taban yarıçapı 5 cm olan silindirin yüksekliği kaç cm’dir? (π = 3)",
+  "correctAnswer": "4 cm",
+  "explanation": "Taban alanı 3 · 25 = 75; yükseklik 300 ÷ 75 = 4 cm."
+ },
+ {
+  "questionId": "boss-a16-m12-17",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Piramidin yan yüzleri",
+  "outcome": "Dik piramidi ve dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "zor",
+  "group": "m12",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Kare dik piramidin yan yüzleri hangi şekildedir?",
+  "data": {
+   "options": [
+    "İkizkenar üçgen",
+    "Kare",
+    "Dikdörtgen"
+   ]
+  },
+  "textPlain": "Kare dik piramidin yan yüzleri hangi şekildedir? Seçenekler: İkizkenar üçgen / Kare / Dikdörtgen",
+  "correctAnswer": "İkizkenar üçgen",
+  "explanation": "Dik piramidin yan yüzleri tepe noktasında birleşen eş ikizkenar üçgenlerdir."
+ },
+ {
+  "questionId": "boss-a16-m12-18",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Hacim değişimi",
+  "outcome": "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "zor",
+  "group": "m12",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Bir silindirin yarıçapı aynı kalıp yüksekliği iki katına çıkarılırsa hacmi de iki katına çıkar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Bir silindirin yarıçapı aynı kalıp yüksekliği iki katına çıkarılırsa hacmi de iki katına çıkar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Hacim yükseklikle doğru orantılıdır."
+ },
+ {
+  "questionId": "boss-a16-m12-19",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Yanal alan",
+  "outcome": "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "zor",
+  "group": "m12",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Taban yarıçapı 2 cm, yüksekliği 6 cm olan silindirin yan yüz alanı kaç cm²’dir? (π = 3)",
+  "data": {
+   "options": [
+    "72 cm²",
+    "36 cm²",
+    "96 cm²"
+   ]
+  },
+  "textPlain": "Taban yarıçapı 2 cm, yüksekliği 6 cm olan silindirin yan yüz alanı kaç cm²’dir? (π = 3) Seçenekler: 72 cm² / 36 cm² / 96 cm²",
+  "correctAnswer": "72 cm²",
+  "explanation": "Yan yüz alanı = 2 · π · r · h = 2 · 3 · 2 · 6 = 72 cm²."
+ },
+ {
+  "questionId": "boss-a16-m12-20",
+  "grade": 8,
+  "subjectId": "math",
+  "subject": "Matematik",
+  "unit": "12. Ünite: Geometrik Cisimler",
+  "topic": "Küpün yüzey alanı",
+  "outcome": "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+  "sourceRef": "8. Sınıf Öğretim Programı, 12. Ünite “Geometrik Cisimler”",
+  "difficulty": "zor",
+  "group": "m12",
+  "rank": 3,
+  "type": "num",
+  "prompt": "Bir ayrıtı 4 cm olan küpün yüzey alanı kaç cm²’dir?",
+  "data": {
+   "answer": 96,
+   "digits": 2,
+   "unit": "cm²"
+  },
+  "textPlain": "Bir ayrıtı 4 cm olan küpün yüzey alanı kaç cm²’dir?",
+  "correctAnswer": "96 cm²",
+  "explanation": "6 · 4 · 4 = 96 cm²."
+ },
+ {
+  "questionId": "boss-a16-t8-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Benzetme",
+  "outcome": "Metindeki söz sanatlarını (benzetme) tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Kız, gül gibi güzeldi.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Benzetme",
+    "Kişileştirme",
+    "Abartma"
+   ]
+  },
+  "textPlain": "“Kız, gül gibi güzeldi.” cümlesinde hangi söz sanatı vardır? Seçenekler: Benzetme / Kişileştirme / Abartma",
+  "correctAnswer": "Benzetme",
+  "explanation": "“gibi” edatıyla kız güle benzetilmiştir."
+ },
+ {
+  "questionId": "boss-a16-t8-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Kişileştirme",
+  "outcome": "Metindeki söz sanatlarını tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "“Rüzgâr pencerede ıslık çalıyordu.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Kişileştirme",
+    "Benzetme",
+    "Karşıtlık"
+   ]
+  },
+  "textPlain": "“Rüzgâr pencerede ıslık çalıyordu.” cümlesinde hangi söz sanatı vardır? Seçenekler: Kişileştirme / Benzetme / Karşıtlık",
+  "correctAnswer": "Kişileştirme",
+  "explanation": "Islık çalmak insana ait bir özelliktir; rüzgâra verilmiştir."
+ },
+ {
+  "questionId": "boss-a16-t8-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Fabl",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Fablların kahramanları çoğunlukla insan gibi konuşan hayvanlardır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Fablların kahramanları çoğunlukla insan gibi konuşan hayvanlardır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Fabllarda hayvanlar insan gibi davranır ve sonunda bir ders verilir."
+ },
+ {
+  "questionId": "boss-a16-t8-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Otobiyografi",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Bir kişinin kendi hayatını anlattığı yazı türü hangisidir?",
+  "data": {
+   "options": [
+    "Otobiyografi",
+    "Biyografi",
+    "Haber"
+   ]
+  },
+  "textPlain": "Bir kişinin kendi hayatını anlattığı yazı türü hangisidir? Seçenekler: Otobiyografi / Biyografi / Haber",
+  "correctAnswer": "Otobiyografi",
+  "explanation": "Biyografi başkasının, otobiyografi yazarın kendi hayatını anlatır."
+ },
+ {
+  "questionId": "boss-a16-t8-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Abartma ve karşıtlık",
+  "outcome": "Metindeki söz sanatlarını tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "Cümleleri söz sanatına göre ayır.",
+  "data": {
+   "bins": [
+    "Abartma",
+    "Karşıtlık"
+   ],
+   "items": [
+    [
+     "Bin kere söyledim!",
+     0
+    ],
+    [
+     "Az konuş, çok dinle.",
+     1
+    ],
+    [
+     "Gözyaşları sel oldu.",
+     0
+    ],
+    [
+     "Dışı eski, içi yepyeni.",
+     1
+    ],
+    [
+     "Dağ kadar işim var.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Cümleleri söz sanatına göre ayır. (Abartma / Karşıtlık) Kartlar: Bin kere söyledim!; Az konuş, çok dinle.; Gözyaşları sel oldu.; Dışı eski, içi yepyeni.; Dağ kadar işim var..",
+  "correctAnswer": "Abartma: Bin kere söyledim!, Gözyaşları sel oldu., Dağ kadar işim var.. Karşıtlık: Az konuş, çok dinle., Dışı eski, içi yepyeni..",
+  "explanation": "Abartma durumu olduğundan büyük gösterir; karşıtlık zıt kavramları bir arada kullanır."
+ },
+ {
+  "questionId": "boss-a16-t8-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Benzetme edatı",
+  "outcome": "Metindeki söz sanatlarını (benzetme) tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Pamuk gibi yumuşak” öbeğindeki “gibi” sözcüğü benzetme edatıdır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Pamuk gibi yumuşak” öbeğindeki “gibi” sözcüğü benzetme edatıdır.",
+  "correctAnswer": "Doğru",
+  "explanation": "gibi, kadar, sanki gibi sözcükler benzetme edatıdır."
+ },
+ {
+  "questionId": "boss-a16-t8-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Metin türleri",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "kolay",
+  "group": "t8",
+  "rank": 1,
+  "type": "match",
+  "prompt": "Tanımları metin türleriyle eşleştir.",
+  "data": {
+   "pairs": [
+    [
+     "Tarih atılarak o günün olaylarının yazıldığı tür",
+     "Günlük"
+    ],
+    [
+     "Gezilip görülen yerlerin anlatıldığı tür",
+     "Gezi yazısı"
+    ],
+    [
+     "Güncel bir olayı 5N1K ile duyuran tür",
+     "Haber"
+    ]
+   ]
+  },
+  "textPlain": "Tanımları metin türleriyle eşleştir. Sol: Tarih atılarak o günün olaylarının yazıldığı tür; Gezilip görülen yerlerin anlatıldığı tür; Güncel bir olayı 5N1K ile duyuran tür. Sağ: Günlük; Gezi yazısı; Haber.",
+  "correctAnswer": "Tarih atılarak o günün olaylarının yazıldığı tür = Günlük; Gezilip görülen yerlerin anlatıldığı tür = Gezi yazısı; Güncel bir olayı 5N1K ile duyuran tür = Haber",
+  "explanation": "Günlük o gün, gezi yazısı gezilen yerler, haber güncel olaylar hakkındadır."
+ },
+ {
+  "questionId": "boss-a16-t8-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Benzetilen",
+  "outcome": "Metindeki söz sanatlarını (benzetme) tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "“Annemin elleri pamuk gibi yumuşaktı.” cümlesinde benzetilen (güçlü olan) hangisidir?",
+  "data": {
+   "options": [
+    "pamuk",
+    "Annemin elleri",
+    "yumuşaktı"
+   ]
+  },
+  "textPlain": "“Annemin elleri pamuk gibi yumuşaktı.” cümlesinde benzetilen (güçlü olan) hangisidir? Seçenekler: pamuk / Annemin elleri / yumuşaktı",
+  "correctAnswer": "pamuk",
+  "explanation": "Annenin elleri (benzeyen), yumuşaklıkta güçlü olan pamuğa (benzetilen) benzetilmiştir."
+ },
+ {
+  "questionId": "boss-a16-t8-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Konuşturma",
+  "outcome": "Metindeki söz sanatlarını tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede konuşturma vardır?",
+  "data": {
+   "options": [
+    "Kaplumbağa tavşana: “Yarışalım mı?” dedi.",
+    "Kaplumbağa yavaş yavaş yürüdü.",
+    "Tavşan çok hızlı koşar."
+   ]
+  },
+  "textPlain": "Hangi cümlede konuşturma vardır? Seçenekler: Kaplumbağa tavşana: “Yarışalım mı?” dedi. / Kaplumbağa yavaş yavaş yürüdü. / Tavşan çok hızlı koşar.",
+  "correctAnswer": "Kaplumbağa tavşana: “Yarışalım mı?” dedi.",
+  "explanation": "İnsan dışı bir varlığa konuşma özelliği verilmesi konuşturmadır."
+ },
+ {
+  "questionId": "boss-a16-t8-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Masal",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Olağanüstü varlıkların bulunduğu ve çoğunlukla “Bir varmış bir yokmuş” diye başlayan tür hangisidir?",
+  "data": {
+   "options": [
+    "Masal",
+    "Hikâye",
+    "Roman"
+   ]
+  },
+  "textPlain": "Olağanüstü varlıkların bulunduğu ve çoğunlukla “Bir varmış bir yokmuş” diye başlayan tür hangisidir? Seçenekler: Masal / Hikâye / Roman",
+  "correctAnswer": "Masal",
+  "explanation": "Masallarda dev, peri gibi olağanüstü varlıklar bulunur; yer ve zaman belirsizdir."
+ },
+ {
+  "questionId": "boss-a16-t8-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Makale ve deneme",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "Özellikleri makale ve deneme diye ayır.",
+  "data": {
+   "bins": [
+    "Makale",
+    "Deneme"
+   ],
+   "items": [
+    [
+     "Bir düşünceyi kanıtlarla savunur.",
+     0
+    ],
+    [
+     "Samimi, kendi kendine konuşur gibi yazılır.",
+     1
+    ],
+    [
+     "Bilimsel verilerden yararlanır.",
+     0
+    ],
+    [
+     "Kesin yargılara varmaz.",
+     1
+    ],
+    [
+     "Nesnel bir dil kullanır.",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Özellikleri makale ve deneme diye ayır. (Makale / Deneme) Kartlar: Bir düşünceyi kanıtlarla savunur.; Samimi, kendi kendine konuşur gibi yazılır.; Bilimsel verilerden yararlanır.; Kesin yargılara varmaz.; Nesnel bir dil kullanır..",
+  "correctAnswer": "Makale: Bir düşünceyi kanıtlarla savunur., Bilimsel verilerden yararlanır., Nesnel bir dil kullanır.. Deneme: Samimi, kendi kendine konuşur gibi yazılır., Kesin yargılara varmaz..",
+  "explanation": "Makale nesnel ve kanıta dayalıdır; deneme öznel ve samimidir."
+ },
+ {
+  "questionId": "boss-a16-t8-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Hikâye unsurları",
+  "outcome": "Metnin hikâye unsurlarını belirler; şiirin yapı ve ahenk unsurlarını tanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "Hikâyenin temel unsurları olay, kişiler, yer ve zamandır.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Hikâyenin temel unsurları olay, kişiler, yer ve zamandır.",
+  "correctAnswer": "Doğru",
+  "explanation": "Bu dört unsur hikâyenin yapısını oluşturur."
+ },
+ {
+  "questionId": "boss-a16-t8-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Tiyatro",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Sahnede oynanmak üzere yazılan tür hangisidir?",
+  "data": {
+   "options": [
+    "Tiyatro",
+    "Roman",
+    "Deneme"
+   ]
+  },
+  "textPlain": "Sahnede oynanmak üzere yazılan tür hangisidir? Seçenekler: Tiyatro / Roman / Deneme",
+  "correctAnswer": "Tiyatro",
+  "explanation": "Tiyatro metinleri karşılıklı konuşmalar ve ayraç içindeki hareketlerle yazılır."
+ },
+ {
+  "questionId": "boss-a16-t8-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Güçlü benzetme",
+  "outcome": "Metindeki söz sanatlarını (benzetme) tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "orta",
+  "group": "t8",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Hangi cümlede yalnızca benzeyen ve benzetilen kullanılmıştır (güçlü benzetme)?",
+  "data": {
+   "options": [
+    "Sen bir aslansın.",
+    "Aslan gibi güçlüsün.",
+    "Aslan kadar güçlüsün."
+   ]
+  },
+  "textPlain": "Hangi cümlede yalnızca benzeyen ve benzetilen kullanılmıştır (güçlü benzetme)? Seçenekler: Sen bir aslansın. / Aslan gibi güçlüsün. / Aslan kadar güçlüsün.",
+  "correctAnswer": "Sen bir aslansın.",
+  "explanation": "Edat ve benzetme yönü söylenmeden yapılan benzetme güçlü benzetmedir."
+ },
+ {
+  "questionId": "boss-a16-t8-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Utangaç güneş",
+  "outcome": "Metindeki söz sanatlarını tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "zor",
+  "group": "t8",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Güneş, dağların arkasından utangaç utangaç başını çıkardı.” cümlesinde hangi söz sanatı vardır?",
+  "data": {
+   "options": [
+    "Kişileştirme",
+    "Abartma",
+    "Karşıtlık"
+   ]
+  },
+  "textPlain": "“Güneş, dağların arkasından utangaç utangaç başını çıkardı.” cümlesinde hangi söz sanatı vardır? Seçenekler: Kişileştirme / Abartma / Karşıtlık",
+  "correctAnswer": "Kişileştirme",
+  "explanation": "Utanmak ve baş çıkarmak insana ait özelliklerdir; Güneş’e verilmiştir."
+ },
+ {
+  "questionId": "boss-a16-t8-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Anı",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "zor",
+  "group": "t8",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Yazarın yıllar sonra çocukluğunu hatırlayarak yazdığı metin hangi türdedir?",
+  "data": {
+   "options": [
+    "Anı",
+    "Günlük",
+    "Haber"
+   ]
+  },
+  "textPlain": "Yazarın yıllar sonra çocukluğunu hatırlayarak yazdığı metin hangi türdedir? Seçenekler: Anı / Günlük / Haber",
+  "correctAnswer": "Anı",
+  "explanation": "Anı, geçmişte yaşananların yıllar sonra hatırlanarak yazılmasıdır."
+ },
+ {
+  "questionId": "boss-a16-t8-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Roman",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "zor",
+  "group": "t8",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "Romanda hikâyeye göre daha çok olay ve kişi bulunur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Romanda hikâyeye göre daha çok olay ve kişi bulunur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Roman uzun bir anlatıdır; çok sayıda olay ve kişi içerir."
+ },
+ {
+  "questionId": "boss-a16-t8-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Anlatıcı",
+  "outcome": "Metnin hikâye unsurlarını belirler; şiirin yapı ve ahenk unsurlarını tanır.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "zor",
+  "group": "t8",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Ben o sabah erkenden kalktım ve pencereyi açtım.” cümlesindeki anlatıcı hangisidir?",
+  "data": {
+   "options": [
+    "Birinci kişili anlatıcı",
+    "Üçüncü kişili anlatıcı",
+    "Bu cümlede anlatıcı yoktur"
+   ]
+  },
+  "textPlain": "“Ben o sabah erkenden kalktım ve pencereyi açtım.” cümlesindeki anlatıcı hangisidir? Seçenekler: Birinci kişili anlatıcı / Üçüncü kişili anlatıcı / Bu cümlede anlatıcı yoktur",
+  "correctAnswer": "Birinci kişili anlatıcı",
+  "explanation": "“Ben” diyen anlatıcı birinci kişili anlatıcıdır."
+ },
+ {
+  "questionId": "boss-a16-t8-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Öyküleyici mi bilgilendirici mi",
+  "outcome": "Metin türlerini ayırt eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "zor",
+  "group": "t8",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "Türleri öyküleyici ve bilgilendirici diye ayır.",
+  "data": {
+   "bins": [
+    "Öyküleyici",
+    "Bilgilendirici"
+   ],
+   "items": [
+    [
+     "Masal",
+     0
+    ],
+    [
+     "Makale",
+     1
+    ],
+    [
+     "Fabl",
+     0
+    ],
+    [
+     "Haber",
+     1
+    ],
+    [
+     "Roman",
+     0
+    ]
+   ]
+  },
+  "textPlain": "Türleri öyküleyici ve bilgilendirici diye ayır. (Öyküleyici / Bilgilendirici) Kartlar: Masal; Makale; Fabl; Haber; Roman.",
+  "correctAnswer": "Öyküleyici: Masal, Fabl, Roman. Bilgilendirici: Makale, Haber.",
+  "explanation": "Masal, fabl ve roman olay anlatır; makale ve haber bilgi verir."
+ },
+ {
+  "questionId": "boss-a16-t8-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Söz Sanatları ve Metin Türleri",
+  "topic": "Benzetme yönü",
+  "outcome": "Metindeki söz sanatlarını (benzetme) tespit eder.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Söz sanatları, metin türleri, metnin unsurları",
+  "difficulty": "zor",
+  "group": "t8",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Göl, ayna gibi dümdüzdü.” cümlesinde benzetme yönü hangisidir?",
+  "data": {
+   "options": [
+    "dümdüzdü",
+    "ayna",
+    "Göl"
+   ]
+  },
+  "textPlain": "“Göl, ayna gibi dümdüzdü.” cümlesinde benzetme yönü hangisidir? Seçenekler: dümdüzdü / ayna / Göl",
+  "correctAnswer": "dümdüzdü",
+  "explanation": "Göl ile aynanın ortak özelliği düzlüktür; benzetme yönü “dümdüzdü”."
+ },
+ {
+  "questionId": "boss-a16-t9-01",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Üç kişilik sıra",
+  "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Kasada Ali, Ece ve Can sıraya girmiştir. Ali, Ece’nin hemen önündedir; Ece en sondadır. En önde kim vardır?",
+  "data": {
+   "options": [
+    "Can",
+    "Ali",
+    "Ece"
+   ]
+  },
+  "textPlain": "Kasada Ali, Ece ve Can sıraya girmiştir. Ali, Ece’nin hemen önündedir; Ece en sondadır. En önde kim vardır? Seçenekler: Can / Ali / Ece",
+  "correctAnswer": "Can",
+  "explanation": "Ece 3., Ali 2. sıradadır; geriye 1. sıra kalır: Can."
+ },
+ {
+  "questionId": "boss-a16-t9-02",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Kesin çıkarım",
+  "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "“Bütün kediler tüylüdür. Pamuk bir kedidir.” bilgilerine göre “Pamuk tüylüdür.” yargısı kesin doğrudur.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Bütün kediler tüylüdür. Pamuk bir kedidir.” bilgilerine göre “Pamuk tüylüdür.” yargısı kesin doğrudur.",
+  "correctAnswer": "Doğru",
+  "explanation": "Pamuk kediler grubundadır; bütün kediler tüylü olduğuna göre Pamuk da tüylüdür."
+ },
+ {
+  "questionId": "boss-a16-t9-03",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "İçecekler",
+  "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Ada, Bora ve Cem’den biri çay, biri ayran, biri limonata içti. Ada çay içmedi, Bora ayran içti. Ada ne içti?",
+  "data": {
+   "options": [
+    "Limonata",
+    "Çay",
+    "Ayran"
+   ]
+  },
+  "textPlain": "Ada, Bora ve Cem’den biri çay, biri ayran, biri limonata içti. Ada çay içmedi, Bora ayran içti. Ada ne içti? Seçenekler: Limonata / Çay / Ayran",
+  "correctAnswer": "Limonata",
+  "explanation": "Ayran Bora’nın; Ada çay içmediğine göre limonata içmiştir."
+ },
+ {
+  "questionId": "boss-a16-t9-04",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Afiş",
+  "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "choice",
+  "prompt": "Afişe göre 9 yaşındaki Mert fuara nasıl girebilir?",
+  "data": {
+   "options": [
+    "Bir yetişkinle birlikte",
+    "Bilet satın alarak",
+    "Yalnızca 15 Mart günü"
+   ],
+   "passage": "KİTAP FUARI · 10–15 Mart · 10.00–19.00 · Giriş ücretsizdir. · 12 yaşından küçük çocuklar bir yetişkinle gelmelidir."
+  },
+  "textPlain": "Metin: KİTAP FUARI · 10–15 Mart · 10.00–19.00 · Giriş ücretsizdir. · 12 yaşından küçük çocuklar bir yetişkinle gelmelidir. Soru: Afişe göre 9 yaşındaki Mert fuara nasıl girebilir? Seçenekler: Bir yetişkinle birlikte / Bilet satın alarak / Yalnızca 15 Mart günü",
+  "correctAnswer": "Bir yetişkinle birlikte",
+  "explanation": "Afişte 12 yaşından küçüklerin bir yetişkinle gelmesi gerektiği yazar; giriş ücretsizdir."
+ },
+ {
+  "questionId": "boss-a16-t9-05",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Günler",
+  "outcome": "Verilen koşullara göre yerleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "tf",
+  "prompt": "Pazartesiden üç gün sonra perşembe gelir.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? Pazartesiden üç gün sonra perşembe gelir.",
+  "correctAnswer": "Doğru",
+  "explanation": "Pazartesi → salı (1) → çarşamba (2) → perşembe (3)."
+ },
+ {
+  "questionId": "boss-a16-t9-06",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Sondan kaçıncı",
+  "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "num",
+  "prompt": "Beş kişilik bir sırada Selin baştan 2. sıradadır. Selin sondan kaçıncıdır?",
+  "data": {
+   "answer": 4,
+   "digits": 1,
+   "unit": ""
+  },
+  "textPlain": "Beş kişilik bir sırada Selin baştan 2. sıradadır. Selin sondan kaçıncıdır?",
+  "correctAnswer": "4",
+  "explanation": "Sondan sıra = toplam − baştan sıra + 1 = 5 − 2 + 1 = 4."
+ },
+ {
+  "questionId": "boss-a16-t9-07",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Bazı öğrenciler",
+  "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "kolay",
+  "group": "t9",
+  "rank": 1,
+  "type": "sort2",
+  "prompt": "“Bazı öğrenciler gözlüklüdür. Ali bir öğrencidir.” bilgilerine göre yargıları ayır.",
+  "data": {
+   "bins": [
+    "Kesin doğru",
+    "Kesin değil"
+   ],
+   "items": [
+    [
+     "Ali gözlüklüdür.",
+     1
+    ],
+    [
+     "Ali bir öğrencidir.",
+     0
+    ],
+    [
+     "Bütün öğrenciler gözlüklüdür.",
+     1
+    ],
+    [
+     "Gözlüklü öğrenciler vardır.",
+     0
+    ],
+    [
+     "Ali gözlüksüzdür.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "“Bazı öğrenciler gözlüklüdür. Ali bir öğrencidir.” bilgilerine göre yargıları ayır. (Kesin doğru / Kesin değil) Kartlar: Ali gözlüklüdür.; Ali bir öğrencidir.; Bütün öğrenciler gözlüklüdür.; Gözlüklü öğrenciler vardır.; Ali gözlüksüzdür..",
+  "correctAnswer": "Kesin doğru: Ali bir öğrencidir., Gözlüklü öğrenciler vardır.. Kesin değil: Ali gözlüklüdür., Bütün öğrenciler gözlüklüdür., Ali gözlüksüzdür..",
+  "explanation": "“Bazı” sözcüğü herkesi kapsamaz; Ali’nin gözlüklü olup olmadığı bilinemez."
+ },
+ {
+  "questionId": "boss-a16-t9-08",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Üç gün",
+  "outcome": "Verilen koşullara göre yerleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Satranç, kitap kulübü ve resim atölyesi pazartesi, salı ve çarşamba günlerine birer tane yerleşecek. Resim atölyesi pazartesi değildir; kitap kulübü satrançtan bir gün sonradır. Resim atölyesi hangi gündür?",
+  "data": {
+   "options": [
+    "Çarşamba",
+    "Salı",
+    "Pazartesi"
+   ]
+  },
+  "textPlain": "Satranç, kitap kulübü ve resim atölyesi pazartesi, salı ve çarşamba günlerine birer tane yerleşecek. Resim atölyesi pazartesi değildir; kitap kulübü satrançtan bir gün sonradır. Resim atölyesi hangi gündür? Seçenekler: Çarşamba / Salı / Pazartesi",
+  "correctAnswer": "Çarşamba",
+  "explanation": "Satranç salı olsaydı kitap çarşamba, resim pazartesi olurdu (olamaz). O hâlde satranç pazartesi, kitap salı, resim çarşamba."
+ },
+ {
+  "questionId": "boss-a16-t9-09",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Kim çay içti",
+  "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Deniz, Efe ve Zeynep’ten biri kakao, biri salep, biri çay içti. Efe kakao içmedi, Zeynep salep içti, Deniz çay içmedi. Çayı kim içti?",
+  "data": {
+   "options": [
+    "Efe",
+    "Deniz",
+    "Zeynep"
+   ]
+  },
+  "textPlain": "Deniz, Efe ve Zeynep’ten biri kakao, biri salep, biri çay içti. Efe kakao içmedi, Zeynep salep içti, Deniz çay içmedi. Çayı kim içti? Seçenekler: Efe / Deniz / Zeynep",
+  "correctAnswer": "Efe",
+  "explanation": "Zeynep salep; Deniz çay içmediğine göre kakao; geriye kalan çay Efe’nin."
+ },
+ {
+  "questionId": "boss-a16-t9-10",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Grafik",
+  "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "num",
+  "prompt": "Grafiğe göre poğaça satışı simit satışından kaç fazladır?",
+  "data": {
+   "answer": 8,
+   "digits": 1,
+   "unit": "",
+   "fig": {
+    "k": "bar",
+    "t": "Kantin satışları",
+    "l": [
+     "Tost",
+     "Simit",
+     "Poğaça"
+    ],
+    "v": [
+     12,
+     8,
+     16
+    ]
+   }
+  },
+  "textPlain": "[Sütun grafiği: Tost 12, Simit 8, Poğaça 16] Grafiğe göre poğaça satışı simit satışından kaç fazladır?",
+  "correctAnswer": "8",
+  "explanation": "Poğaça 16, simit 8: 16 − 8 = 8."
+ },
+ {
+  "questionId": "boss-a16-t9-11",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Bazı kuşlar",
+  "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "tf",
+  "prompt": "“Bazı kuşlar göç eder. Martı bir kuştur.” bilgilerine göre “Martı göç eder.” yargısı kesin doğrudur.",
+  "data": {
+   "truth": false
+  },
+  "textPlain": "Doğru mu yanlış mı? “Bazı kuşlar göç eder. Martı bir kuştur.” bilgilerine göre “Martı göç eder.” yargısı kesin doğrudur.",
+  "correctAnswer": "Yanlış",
+  "explanation": "“Bazı kuşlar” bütün kuşları kapsamaz; martının göç edip etmediği bu bilgilerden çıkarılamaz."
+ },
+ {
+  "questionId": "boss-a16-t9-12",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Dört kişilik sıra",
+  "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Dört kişilik bir sırada Can en öndedir, Deniz en sondadır, Ece ise Bora’nın hemen arkasındadır. Baştan ikinci kim vardır?",
+  "data": {
+   "options": [
+    "Bora",
+    "Ece",
+    "Deniz"
+   ]
+  },
+  "textPlain": "Dört kişilik bir sırada Can en öndedir, Deniz en sondadır, Ece ise Bora’nın hemen arkasındadır. Baştan ikinci kim vardır? Seçenekler: Bora / Ece / Deniz",
+  "correctAnswer": "Bora",
+  "explanation": "Sıra: Can, Bora, Ece, Deniz."
+ },
+ {
+  "questionId": "boss-a16-t9-13",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Menü",
+  "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "choice",
+  "prompt": "Menüye göre soğuk ve 25 TL’den ucuz olan içecek hangisidir?",
+  "data": {
+   "options": [
+    "Ayran",
+    "Limonata",
+    "Çay"
+   ],
+   "passage": "MENÜ · Çay 15 TL (sıcak) · Ayran 20 TL (soğuk) · Kakao 40 TL (sıcak) · Limonata 30 TL (soğuk)"
+  },
+  "textPlain": "Metin: MENÜ · Çay 15 TL (sıcak) · Ayran 20 TL (soğuk) · Kakao 40 TL (sıcak) · Limonata 30 TL (soğuk) Soru: Menüye göre soğuk ve 25 TL’den ucuz olan içecek hangisidir? Seçenekler: Ayran / Limonata / Çay",
+  "correctAnswer": "Ayran",
+  "explanation": "Soğuk içecekler ayran (20 TL) ve limonatadır (30 TL); 25 TL’den ucuz olan ayrandır."
+ },
+ {
+  "questionId": "boss-a16-t9-14",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Şapkalar",
+  "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "orta",
+  "group": "t9",
+  "rank": 2,
+  "type": "sort2",
+  "prompt": "“Ali, Ece ve Can kırmızı, mavi ve yeşil şapkalardan birer tane takıyor. Ali kırmızı takmıyor, Ece mavi takıyor.” bilgilerine göre yargıları ayır.",
+  "data": {
+   "bins": [
+    "Doğru",
+    "Yanlış"
+   ],
+   "items": [
+    [
+     "Can kırmızı takıyor.",
+     0
+    ],
+    [
+     "Ali yeşil takıyor.",
+     0
+    ],
+    [
+     "Ece kırmızı takıyor.",
+     1
+    ],
+    [
+     "Can mavi takıyor.",
+     1
+    ],
+    [
+     "Ali mavi takıyor.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "“Ali, Ece ve Can kırmızı, mavi ve yeşil şapkalardan birer tane takıyor. Ali kırmızı takmıyor, Ece mavi takıyor.” bilgilerine göre yargıları ayır. (Doğru / Yanlış) Kartlar: Can kırmızı takıyor.; Ali yeşil takıyor.; Ece kırmızı takıyor.; Can mavi takıyor.; Ali mavi takıyor..",
+  "correctAnswer": "Doğru: Can kırmızı takıyor., Ali yeşil takıyor.. Yanlış: Ece kırmızı takıyor., Can mavi takıyor., Ali mavi takıyor..",
+  "explanation": "Ece mavi; Ali kırmızı takmadığına göre yeşil; Can kırmızı takar."
+ },
+ {
+  "questionId": "boss-a16-t9-15",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Beş kişilik sıra",
+  "outcome": "Verilen bilgilerden hareketle sıralama yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "zor",
+  "group": "t9",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Beş kişilik bir sırada Bora 2., Cem Bora’nın hemen arkasında, Deniz en sondadır. Ada ne en önde ne de en sondadır. Ada kaçıncı sıradadır?",
+  "data": {
+   "options": [
+    "4.",
+    "1.",
+    "3."
+   ]
+  },
+  "textPlain": "Beş kişilik bir sırada Bora 2., Cem Bora’nın hemen arkasında, Deniz en sondadır. Ada ne en önde ne de en sondadır. Ada kaçıncı sıradadır? Seçenekler: 4. / 1. / 3.",
+  "correctAnswer": "4.",
+  "explanation": "Bora 2, Cem 3, Deniz 5. Ada 1. ve 5. olamayacağına göre 4. sıradadır; Ece 1. sıradadır."
+ },
+ {
+  "questionId": "boss-a16-t9-16",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Ters çıkarım",
+  "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "zor",
+  "group": "t9",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "“Kütüphaneye gelen herkes kayıt yaptırır. Selin kayıt yaptırmadı.” bilgilerine göre hangisi kesin doğrudur?",
+  "data": {
+   "options": [
+    "Selin kütüphaneye gelmemiştir.",
+    "Selin kitap okumayı sevmez.",
+    "Selin yarın kütüphaneye gelecektir."
+   ]
+  },
+  "textPlain": "“Kütüphaneye gelen herkes kayıt yaptırır. Selin kayıt yaptırmadı.” bilgilerine göre hangisi kesin doğrudur? Seçenekler: Selin kütüphaneye gelmemiştir. / Selin kitap okumayı sevmez. / Selin yarın kütüphaneye gelecektir.",
+  "correctAnswer": "Selin kütüphaneye gelmemiştir.",
+  "explanation": "Gelen herkes kayıt yaptırdığına göre kayıt yaptırmayan biri kütüphaneye gelmemiş olmalıdır."
+ },
+ {
+  "questionId": "boss-a16-t9-17",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Dört etkinlik",
+  "outcome": "Verilen koşullara göre yerleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "zor",
+  "group": "t9",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "A, B, C ve D etkinlikleri pazartesiden perşembeye birer güne yerleşecek. A, B’den önceki bir gündedir; C perşembe, D pazartesidir. B hangi gündür?",
+  "data": {
+   "options": [
+    "Çarşamba",
+    "Salı",
+    "Perşembe"
+   ]
+  },
+  "textPlain": "A, B, C ve D etkinlikleri pazartesiden perşembeye birer güne yerleşecek. A, B’den önceki bir gündedir; C perşembe, D pazartesidir. B hangi gündür? Seçenekler: Çarşamba / Salı / Perşembe",
+  "correctAnswer": "Çarşamba",
+  "explanation": "A ve B salı ve çarşambaya düşer; A daha önce olduğuna göre B çarşambadır."
+ },
+ {
+  "questionId": "boss-a16-t9-18",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Spor dalları",
+  "outcome": "Verilen bilgilerden hareketle eşleştirme yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "zor",
+  "group": "t9",
+  "rank": 3,
+  "type": "tf",
+  "prompt": "“Üç arkadaştan biri futbol, biri yüzme, biri tenis oynuyor. Ali futbol oynamıyor, Can tenis oynuyor.” bilgilerine göre Ali yüzme oynar.",
+  "data": {
+   "truth": true
+  },
+  "textPlain": "Doğru mu yanlış mı? “Üç arkadaştan biri futbol, biri yüzme, biri tenis oynuyor. Ali futbol oynamıyor, Can tenis oynuyor.” bilgilerine göre Ali yüzme oynar.",
+  "correctAnswer": "Doğru",
+  "explanation": "Tenis Can’ın; Ali futbol oynamadığına göre yüzme oynar."
+ },
+ {
+  "questionId": "boss-a16-t9-19",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Çizgi grafiği",
+  "outcome": "Görsel, tablo ve grafiklerde verilen bilgileri yorumlar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "zor",
+  "group": "t9",
+  "rank": 3,
+  "type": "choice",
+  "prompt": "Grafiğe göre hangi gün ziyaretçi sayısı bir önceki güne göre azalmıştır?",
+  "data": {
+   "options": [
+    "Çarşamba",
+    "Perşembe",
+    "Cuma"
+   ],
+   "fig": {
+    "k": "line",
+    "t": "Günlük ziyaretçi sayısı",
+    "l": [
+     "Pzt",
+     "Salı",
+     "Çrş",
+     "Prş",
+     "Cuma"
+    ],
+    "v": [
+     20,
+     30,
+     25,
+     35,
+     40
+    ],
+    "max": 40,
+    "step": 5
+   }
+  },
+  "textPlain": "[Çizgi grafiği: Pzt 20, Salı 30, Çrş 25, Prş 35, Cuma 40] Grafiğe göre hangi gün ziyaretçi sayısı bir önceki güne göre azalmıştır? Seçenekler: Çarşamba / Perşembe / Cuma",
+  "correctAnswer": "Çarşamba",
+  "explanation": "Salı 30, çarşamba 25 kişidir; tek azalma çarşambadadır."
+ },
+ {
+  "questionId": "boss-a16-t9-20",
+  "grade": 8,
+  "subjectId": "turkish",
+  "subject": "Türkçe",
+  "unit": "Sözel Mantık ve Görsel Okuma",
+  "topic": "Kafede içecekler",
+  "outcome": "Metinden kesin ve olası çıkarımlar yapar.",
+  "sourceRef": "8. Sınıf Öğretim Programı, Okuma: Akıl yürütme, çıkarım yapma; görsel ve grafik okuma",
+  "difficulty": "zor",
+  "group": "t9",
+  "rank": 3,
+  "type": "sort2",
+  "prompt": "“Bu kafede her içecek ya sıcak ya soğuktur. Bütün sütlü içecekler sıcaktır. Kakao sütlüdür. Limonata soğuktur.” bilgilerine göre yargıları ayır.",
+  "data": {
+   "bins": [
+    "Kesin doğru",
+    "Kesin doğru değil"
+   ],
+   "items": [
+    [
+     "Limonata sütlü değildir.",
+     0
+    ],
+    [
+     "Kakao sıcaktır.",
+     0
+    ],
+    [
+     "Bütün sıcak içecekler sütlüdür.",
+     1
+    ],
+    [
+     "Çay sütlüdür.",
+     1
+    ],
+    [
+     "Limonata sıcaktır.",
+     1
+    ]
+   ]
+  },
+  "textPlain": "“Bu kafede her içecek ya sıcak ya soğuktur. Bütün sütlü içecekler sıcaktır. Kakao sütlüdür. Limonata soğuktur.” bilgilerine göre yargıları ayır. (Kesin doğru / Kesin doğru değil) Kartlar: Limonata sütlü değildir.; Kakao sıcaktır.; Bütün sıcak içecekler sütlüdür.; Çay sütlüdür.; Limonata sıcaktır..",
+  "correctAnswer": "Kesin doğru: Limonata sütlü değildir., Kakao sıcaktır.. Kesin doğru değil: Bütün sıcak içecekler sütlüdür., Çay sütlüdür., Limonata sıcaktır..",
+  "explanation": "Sütlü içecekler sıcak olduğuna göre soğuk olan limonata sütlü olamaz; kakao sütlü olduğu için sıcaktır. Diğerleri bilgilerden çıkarılamaz ya da yanlıştır."
+ }
+]
