@@ -306,7 +306,8 @@ function countdown(ms){const c=$('count');c.classList.remove('hidden');let n=Mat
 $('lbCancel').onclick=()=>{out('duel.cancel',{});$('lbCancel').classList.add('hidden');$('lbTitle').textContent='Vazgeçildi';};
 function showGame(){$('lobby').classList.add('hidden');$('game').classList.remove('hidden');}
 /* ---------- tur ---------- */
-function onRound(p){showGame();clearInterval(lobbyT);curRound=p;answered=false;locked=false;
+function syncScore(p){const s=p&&(p.score||p);if(!s)return;const m=s.me?.correct??s.myCorrect,o=s.opp?.correct??s.opponent?.correct??s.oppCorrect;if(Number.isFinite(m)&&Number.isFinite(o)&&(m!==myCorrect||o!==opCorrect)){myCorrect=m|0;opCorrect=o|0;updateBar(false);}}
+function onRound(p){showGame();clearInterval(lobbyT);syncScore(p);curRound=p;answered=false;locked=false;
  const q=pickQuestion(duel.seed,duel.side,p.roundNo,p.subjectId,p.difficulty);cur={q,start:performance.now()};usedIds.add(q.id);saveUsed();remember(q.id);
  ['avMe','avOp'].forEach(id=>$(id).querySelector('.badge').className='badge');$('oppNote').classList.remove('on');
  $('rno').textContent=p.isExtra?`Uzatma ${p.roundNo-12}`:`Tur ${p.roundNo}/12`;
