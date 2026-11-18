@@ -189,8 +189,8 @@ function roundType(seed,roundNo,s,d){const r=prng(seed+'|type|'+roundNo)(),types
 function pickQuestion(seed,side,roundNo,subjectId,difficulty){const d=DIFF[difficulty]||'m',t=roundType(seed,roundNo,subjectId,d);
  let pool=BUCKET[subjectId+'|'+d+'|'+t]||[];if(pool.length<2){pool=BANK.filter(q=>q.s===subjectId&&q.d===d);}
  const order=sshuffle(pool,prng(seed+'|'+subjectId+'|'+d+'|'+t));
- const mine=order.filter((_,i)=>(i%2===0)===(side==='A'));const rec=new Set(recent());
- return mine.find(q=>!usedIds.has(q.id)&&!rec.has(q.id))||mine.find(q=>!usedIds.has(q.id))||mine[0]||pool[0];}
+ /* iki tarafa aynı soru: taraf ve cihaz geçmişi seçimi etkilemez */
+ return order.find(q=>!usedIds.has(q.id))||order[0]||pool[0];}
 /* ---------- köprü ---------- */
 function transport(){if(window.YildizPesindeBridge?.postMessage)return x=>window.YildizPesindeBridge.postMessage(x);if(window.webkit?.messageHandlers?.YildizPesindeBridge?.postMessage)return x=>window.webkit.messageHandlers.YildizPesindeBridge.postMessage(x);if(window.AndroidYildizPesinde?.postMessage)return x=>window.AndroidYildizPesinde.postMessage(x);return null;}
 function rawSend(m){try{const fn=transport();if(fn){fn(JSON.stringify(m));return true;}}catch(e){}return false;}

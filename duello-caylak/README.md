@@ -24,7 +24,7 @@
 
 ## Soru seçimi
 - Sunucu her turda yalnızca ders ve zorluk gönderir. Soru türü `seed + roundNo` ile seçilir; iki oyuncuya aynı turda aynı tür gelir.
-- Havuz, seed ile karıştırılır; A tarafı çift sıradaki, B tarafı tek sıradaki soruları alır. Böylece iki oyuncu farklı soru görür.
+- Havuz, seed ile karıştırılır; iki oyuncu her turda aynı soruyu görür (taraf ve cihazdaki geçmiş seçimi etkilemez). Düello içinde soru tekrar etmez.
 - Düello içinde soru tekrar etmez (seed’e göre saklanır). Son 360 soru cihazda hatırlanır ve önce görülmemiş sorular seçilir.
 
 ## Soru türleri
