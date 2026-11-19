@@ -3,7 +3,7 @@
 | Alan | Değer |
 |---|---|
 | gameId | duello-uzman |
-| Sürüm | 1.0.0 |
+| Sürüm | 1.1.0 (önceki 1.0.0 korunur) |
 | Ders | Karışık (subjectId `mixed`); yanlış kayıtlarında `subjectId` = science / math / turkish |
 | Sınıf | 7 |
 | Kapsam | 7. sınıf MEB programı (Fen 7 ünite; Matematik 9 tema; Türkçe 6 tema) |
@@ -51,6 +51,15 @@
 
 ## Kaynak
 Sorular MEB ders kitaplarına dayanan mevcut oyun havuzlarımızın konu, kazanım ve sayfa bilgileriyle özgün olarak yazıldı; Matematik soruları konu şablonlarıyla üretildi. Paragraflar özgündür. 
+
+## Sürüm 1.1.0 — Düello mesajları
+- 1.0.0 değişmedi; 1.1.0 ayrı klasördedir. Admin'de oyunun adresi ve sürümü birlikte 1.1.0 yapılmalıdır (oyun init'te sürümü doğrular).
+- Oyuncular yalnız sunucunun gönderdiği **hazır mesajlardan** seçerek mesaj atar; serbest metin yoktur.
+- Mesaj düğmesi (💬, sol üst) yalnız şu durumda görünür: `app.init.payload.duel.features` içinde `"chat"` var **ve** `duel.chat.enabled === true` **ve** mesaj listesi dolu. Eski uygulama sürümleri `features` göndermediği için düğme çıkmaz; oyun 1.0.0 gibi çalışır.
+- Oyun → uygulama: `duel.chat {chatId}`. Uygulama → oyun: `duel.chat {chatId, emoji, text}` (rakipten gelen), `duel.chatAck {ok, chatId, emoji, text, remaining | reason: cooldown|limit|disabled|invalid}`.
+- Gelen mesaj, rakibin avatarının altında 3 sn balon olarak görünür; "Rakibin mesajlarını gizle" ile düello boyunca gizlenebilir. Metin her zaman düz metin olarak basılır (HTML çalışmaz).
+- Bekleme süresi ve düello başına hak `duel.chat.cooldownMs` / `maxPerDuel` ile gelir (varsayılan 3000 ms / 10); asıl sınırı sunucu uygular.
+- Deneme modunda bot da hazır mesajla cevap verir.
 
 ## Teknik
 - Uygulamadan oyuna: `window.YildizPesindeGame.receiveMessage(json)`; oyundan uygulamaya: YildizPesindeBridge taşıması.

@@ -67,10 +67,10 @@ Bu depo, Yıldız Peşinde mobil uygulamasında WebView içinde açılan HTML oy
 | Kar Yetisi (Macera canavarı · Arena 10) | macera-7-kar-yetisi | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-kar-yetisi/1.0.0/index.html` |
 | Şimşek Kuşu (Macera canavarı · Arena 11) | macera-7-simsek-kusu | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-simsek-kusu/1.0.0/index.html` |
 | Buz Ejderi (Macera canavarı · Arena 12) | macera-7-buz-ejderi | 1.0.0 | Karışık | 7 | Dikey | `/macera-7-buz-ejderi/1.0.0/index.html` |
-| Çaylak Düellosu | duello-caylak | 1.0.0 | Karışık | 5 | Dikey | `/duello-caylak/1.0.0/index.html` |
-| Usta Düellosu | duello-usta | 1.0.0 | Karışık | 6 | Dikey | `/duello-usta/1.0.0/index.html` |
-| Uzman Düellosu | duello-uzman | 1.0.0 | Karışık | 7 | Dikey | `/duello-uzman/1.0.0/index.html` |
-| Efsane Düellosu | duello-efsane | 1.0.0 | Karışık | 8 | Dikey | `/duello-efsane/1.0.0/index.html` |
+| Çaylak Düellosu | duello-caylak | 1.1.0 | Karışık | 5 | Dikey | `/duello-caylak/1.1.0/index.html` (önceki: `1.0.0`) |
+| Usta Düellosu | duello-usta | 1.1.0 | Karışık | 6 | Dikey | `/duello-usta/1.1.0/index.html` (önceki: `1.0.0`) |
+| Uzman Düellosu | duello-uzman | 1.1.0 | Karışık | 7 | Dikey | `/duello-uzman/1.1.0/index.html` (önceki: `1.0.0`) |
+| Efsane Düellosu | duello-efsane | 1.1.0 | Karışık | 8 | Dikey | `/duello-efsane/1.1.0/index.html` (önceki: `1.0.0`) |
 | Meteor Muhafızı (Macera canavarı · Arena 13) | macera-8-meteor-muhafizi | 1.0.0 | Karışık | 8 | Dikey | `/macera-8-meteor-muhafizi/1.0.0/index.html` |
 | Ay Robotu (Macera canavarı · Arena 14) | macera-8-ay-robotu | 1.0.0 | Karışık | 8 | Dikey | `/macera-8-ay-robotu/1.0.0/index.html` |
 | Halka Bekçisi (Macera canavarı · Arena 15) | macera-8-halka-bekcisi | 1.0.0 | Karışık | 8 | Dikey | `/macera-8-halka-bekcisi/1.0.0/index.html` |
