@@ -12,6 +12,11 @@
 | Yıldız | 0–4 doğru 0★ · 5–6 1★ · 7–8 2★ · 9–10 3★ (puan yalnızca oyun içi eğlence içindir) |
 | Soru havuzu | 142 soru, index.html içine gömülüdür |
 
+## Güncelleme (23 Kasım 2026, 1.0.0 yerinde)
+- **Bağlı tahta:** Her yeni kelime tahtadaki bir kelimenin harfiyle kesişir; tahtanın başka bir yerine bağlantısız kelime konmaz. Oyun başında 10 kelimenin bağlı yerleşebildiği bir plan kurulur. Her soruda önce **doğru bilinmiş** bir kelimeye bağlanan konum seçilir; bu mümkün değilse gri (yanlış bilinmiş) kelimeye bağlanır. Gerekirse aynı zorluktaki kelimelerin sırası değişir ya da aynı grup ve zorlukta yedek bir kelime gelir; her gruptan 2 soru ve kolaydan zora sırası korunur.
+- **Benzer yem harf yok:** Cevapta İ, Ü, Ş, Ö, Ç, Ğ (ya da I, U, S, O, C, G) varsa rafa benzeri yem harf olarak gelmez.
+- Yanlışta doğru cevabın yanında öğrencinin dizdiği kelime de gösterilir.
+
 ## Metinli sorular
 Paragraf ve şiir soruları (26 soru) metni sorunun üstünde tek parça gösterir; metinli sorularda tahta küçülür. Metinler: Nasreddin Hoca, Halı Dokumacılığı, Ebru Sanatı, Çömlekçilik, Misafir Odası ve Kırık At şiirleri, gelenek tanıtma paragrafı, Oyalar, Dede Korkut, bayram ziyareti paragrafı. Yanlış-cevap kaydında metin questionText içinde yer alır.
 

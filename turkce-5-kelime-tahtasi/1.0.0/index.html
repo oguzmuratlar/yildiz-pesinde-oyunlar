@@ -236,17 +236,47 @@ function buildDeck(){const recent=new Set([...readRecent(),...sessionRecent]),us
   let cand=pool.filter(q=>!recent.has(q.questionId));if(!cand.length)cand=pool;if(paraN>=3){const np=cand.filter(q=>!q.para);if(np.length)cand=np;}
   const q=shuffle(cand)[0];used.add(q.questionId);ans.add(q.answer);if(q.para)paraN++;return q;});
  return [1,2,3].flatMap(r=>shuffle(picked.filter(q=>q.rank===r)));}
-function layout(){grid=Array.from({length:N},()=>Array(N).fill(null));place=[];
- const at=(r,c)=>r>=0&&c>=0&&r<N&&c<N?grid[r][c]:null,inb=(r,c)=>r>=0&&c>=0&&r<N&&c<N;
- const fits=(w,r0,c0,d,needCross)=>{const dr=d?1:0,dc=d?0:1;let cross=0;if(!inb(r0,c0)||!inb(r0+dr*(w.length-1),c0+dc*(w.length-1)))return -1;
-  if(at(r0-dr,c0-dc)||at(r0+dr*w.length,c0+dc*w.length))return -1;
-  for(let i=0;i<w.length;i++){const r=r0+dr*i,c=c0+dc*i,g=grid[r][c];if(g){if(g.ch!==w[i]||g.d.includes(d))return -1;cross++;}else{if(at(r+dc,c+dr)||at(r-dc,c-dr))return -1;}}
-  if(needCross&&!cross)return -1;return cross;};
- const put=(w,r0,c0,d,k)=>{const dr=d?1:0,dc=d?0:1;const cells=[];for(let i=0;i<w.length;i++){const r=r0+dr*i,c=c0+dc*i;if(!grid[r][c])grid[r][c]={ch:w[i],d:[],k:[],shown:false,bad:false};grid[r][c].d.push(d);grid[r][c].k.push(k);cells.push([r,c]);}place[k]={r0,c0,d,cells};};
- deck.forEach((q,k)=>{const w=lettersOf(q.answer);if(k===0){put(w,6,Math.floor((N-w.length)/2),0,0);return;}
-  let cands=[];for(let r=0;r<N;r++)for(let c=0;c<N;c++){const g=grid[r][c];if(!g)continue;w.forEach((ch,i)=>{if(ch!==g.ch)return;[0,1].forEach(d=>{const r0=d?r-i:r,c0=d?c:c-i;const s=fits(w,r0,c0,d,true);if(s>0)cands.push([s,r0,c0,d]);});});}
-  if(!cands.length)for(let r=0;r<N;r++)for(let c=0;c<N;c++)[0,1].forEach(d=>{if(fits(w,r,c,d,false)===0)cands.push([0,r,c,d]);});
-  if(!cands.length){place[k]=null;return;}const best=Math.max(...cands.map(x=>x[0]));const ch=pick(cands.filter(x=>x[0]===best));put(w,ch[1],ch[2],ch[3],k);});}
+/* Yerleşim kuralları: kelime tahtada GÖRÜNEN bir harfle kesişir, yanındaki kelimelere değmez, uçları boş kalır. */
+const inb=(r,c)=>r>=0&&c>=0&&r<N&&c<N,at=(r,c)=>inb(r,c)?grid[r][c]:null,emptyGrid=()=>Array.from({length:N},()=>Array(N).fill(null));
+function fits(w,r0,c0,d){const dr=d?1:0,dc=d?0:1;let cross=0,known=0;if(!inb(r0,c0)||!inb(r0+dr*(w.length-1),c0+dc*(w.length-1)))return null;
+ if(at(r0-dr,c0-dc)||at(r0+dr*w.length,c0+dc*w.length))return null;
+ for(let i=0;i<w.length;i++){const r=r0+dr*i,c=c0+dc*i,g=grid[r][c];if(g){if(!g.shown||g.ch!==w[i]||g.d.includes(d))return null;cross++;if(!g.bad)known++;}else if(at(r+dc,c+dr)||at(r-dc,c-dr))return null;}
+ return cross?{cross,known}:null;}
+function spots(w){if(!grid.some(row=>row.some(Boolean)))return w.length<=N?[{r0:6,c0:Math.floor((N-w.length)/2),d:0,cross:0,known:0}]:[];
+ const out=[],seen=new Set();for(let r=0;r<N;r++)for(let c=0;c<N;c++){const g=grid[r][c];if(!g||!g.shown)continue;w.forEach((ch,i)=>{if(ch!==g.ch)return;[0,1].forEach(d=>{const r0=d?r-i:r,c0=d?c:c-i,key=r0+','+c0+','+d;if(seen.has(key))return;seen.add(key);const f=fits(w,r0,c0,d);if(f)out.push({...f,r0,c0,d});});});}
+ return shuffle(out).sort((a,b)=>b.cross-a.cross);}
+function tryPut(w,x){const dr=x.d?1:0,dc=x.d?0:1,ch=[];for(let i=0;i<w.length;i++){const r=x.r0+dr*i,c=x.c0+dc*i;if(grid[r][c]){grid[r][c].d.push(x.d);ch.push([r,c,0]);}else{grid[r][c]={ch:w[i],d:[x.d],k:[],shown:true,bad:false};ch.push([r,c,1]);}}
+ return()=>ch.forEach(([r,c,n])=>{if(n)grid[r][c]=null;else grid[r][c].d.pop();});}
+function put(w,x,k){const dr=x.d?1:0,dc=x.d?0:1;const cells=[];for(let i=0;i<w.length;i++){const r=x.r0+dr*i,c=x.c0+dc*i;if(!grid[r][c])grid[r][c]={ch:w[i],d:[],k:[],shown:false,bad:false};grid[r][c].d.push(x.d);grid[r][c].k.push(k);cells.push([r,c]);}place[k]={r0:x.r0,c0:x.c0,d:x.d,cells};}
+/* Kalan kelimeler (zorluk sırası korunarak, aynı zorlukta sıra serbest) bağlı biçimde yerleşebilir mi? Bulursa planı out'a yazar. */
+let plan=null,limitAt=0;
+function canFinish(rem,out,budget){if(!rem.length)return true;if(--budget.n<0||performance.now()>limitAt)return false;
+ const r=Math.min(...rem.map(q=>q.rank));for(const q of rem.filter(q=>q.rank===r)){const w=lettersOf(q.answer);
+  for(const x of spots(w).slice(0,6)){const undo=tryPut(w,x);out.push({q,x});const ok=canFinish(rem.filter(z=>z!==q),out,budget);undo();if(ok)return true;out.pop();}}
+ return false;}
+/* Oyun başı: destenin bütün kelimeleri bağlı yerleşebiliyor mu? Yerleşemiyorsa (çok nadir) yeni deste çekilir. */
+function layout(){for(let t=0;t<40;t++){if(t)deck=buildDeck();grid=emptyGrid();place=[];limitAt=performance.now()+400;const out=[];
+  if(canFinish(deck.slice(),out,{n:3000})){deck=out.map(o=>o.q);grid=emptyGrid();plan=out;return;}}
+ grid=emptyGrid();place=[];plan=null;}
+/* Her soruda: önce DOĞRU bilinmiş bir kelimeye bağlanan konum; olmazsa gri (yanlış bilinmiş) kelimeye bağlanan konum.
+   Yalnızca kalan kelimelerin de yerleşebildiği konumlar kabul edilir; aynı zorluktaki kelimelerle sıra değiştirilebilir.
+   Bulunamazsa başta kurulan planın sıradaki adımı kullanılır. Bağlantısız kelime asla konmaz. */
+function placeCurrent(){if(place[pos]!==undefined)return;const first=!grid.some(row=>row.some(Boolean));const rem=deck.slice(pos),r=deck[pos].rank;
+ const use=(q,x,rest)=>{const j=deck.indexOf(q);[deck[pos],deck[j]]=[deck[j],deck[pos]];put(lettersOf(q.answer),x,pos);plan=rest;};
+ limitAt=performance.now()+250;
+ const tryList=(list,nk,swap)=>{for(const q of list){const w=lettersOf(q.answer);let c=spots(w);if(nk)c=c.filter(x=>x.known>0);
+  for(const x of c){if(performance.now()>limitAt)return false;const undo=tryPut(w,x),out=[];const ok=canFinish(rem.filter(z=>z!==q&&z!==(swap?null:deck[pos])),out,{n:400});undo();
+   if(ok){if(swap)use(q,x,out);else{deck[pos]=q;put(w,x,pos);plan=out;}return true;}}}return false;};
+ const same=rem.filter(z=>z.rank===r);
+ if(!first){if(tryList(same,true,true))return;
+  /* doğru bilinmiş kelimeye bağlanamıyorsa: havuzdan aynı grup ve zorlukta, son oynananlarda olmayan bir yedek kelimeyle değiştir */
+  const ids=new Set(deck.map(x=>x.questionId)),ans=new Set(deck.map(x=>x.answer)),rec=new Set(readRecent()),q0=deck[pos],paraN=deck.filter((x,k)=>k!==pos&&x.para).length;
+  const alts=BANK.filter(x=>x.group===q0.group&&x.rank===q0.rank&&!ids.has(x.questionId)&&!ans.has(x.answer)&&(!x.para||paraN<3));
+  if(tryList([...shuffle(alts.filter(x=>!rec.has(x.questionId))),...shuffle(alts.filter(x=>rec.has(x.questionId)))].slice(0,12),true,false))return;}
+ if(tryList(same,false,true))return;
+ if(plan&&plan.length){const st=plan[0],w=lettersOf(st.q.answer),f=st.q&&fits(w,st.x.r0,st.x.c0,st.x.d);if(f||first){use(st.q,st.x,plan.slice(1));return;}}
+ const c=spots(lettersOf(deck[pos].answer));if(c.length){use(deck[pos],c[0],null);return;}
+ place[pos]=null;}
 /* ---------- Tahta ---------- */
 function drawBoard(newCells){const s=$('board');s.replaceChildren();el('rect',{x:0,y:0,width:130,height:130,rx:4,fill:'#16603b'},s);const nc=new Set((newCells||[]).map(x=>x.join(',')));
  const tg=new Set(state==='playing'&&place[pos]?place[pos].cells.map(x=>x.join(',')):[]);
@@ -268,14 +298,14 @@ function placeTile(id,k){const s=slots[k];if(!s||s.lock)return;const ti=rack.fin
 $('mix').onclick=()=>{if(state!=='playing')return;unlockAudio();rack=shuffle(rack);sfx('shuffle');const b=$('bag');b.classList.remove('shake');void b.offsetWidth;if(!reduced())b.classList.add('shake');drawRack(true);};
 $('back').onclick=()=>{if(state!=='playing')return;unlockAudio();slots.forEach(s=>{if(!s.lock&&s.ch){rack.push({ch:s.ch,id:s.id});s.ch=null;s.id=null;}});sfx('tap');drawSlots();drawRack();};
 /* ---------- Akış ---------- */
-function start(){if(!ctx||state!=='ready')return;document.documentElement.classList.toggle('rm',reduced());deck=buildDeck();const ids=deck.map(q=>q.questionId);sessionRecent=[...sessionRecent,...ids].slice(-40);writeRecent([...readRecent(),...ids]);
- answers=[];pos=0;okCount=0;points=0;result=null;sent=false;saved=false;activeMs=0;lastTick=performance.now();layout();state='entering';drawBoard();$('nP').textContent=0;$('nO').textContent=0;$('nX').textContent=0;
+function start(){if(!ctx||state!=='ready')return;document.documentElement.classList.toggle('rm',reduced());deck=buildDeck();layout();const ids=deck.map(q=>q.questionId);sessionRecent=[...sessionRecent,...ids].slice(-40);writeRecent([...readRecent(),...ids]);
+ answers=[];pos=0;okCount=0;points=0;result=null;sent=false;saved=false;activeMs=0;lastTick=performance.now();state='entering';drawBoard();$('nP').textContent=0;$('nO').textContent=0;$('nX').textContent=0;
  const R=reduced();$('intro').classList.add('go');sfx('lid');
  setTimeout(()=>{$('intro').classList.add('hidden');$('intro').classList.remove('go');$('box').classList.remove('gone','slam');$('box').classList.add('open');const a=$('app');a.classList.remove('unfold','fold');void a.offsetWidth;if(!R)a.classList.add('unfold');},R?0:380);
  setTimeout(()=>{$('box').classList.add('gone');$('rackBox').classList.remove('hidden');$('dock').classList.remove('hidden');showQuestion();},R?0:1500);}
-function showQuestion(){const q=deck[pos];state='playing';const L=lettersOf(q.answer);
+function showQuestion(){placeCurrent();const q=deck[pos];state='playing';const L=lettersOf(q.answer);
  slots=L.map((ch,i)=>{let lock=false;if(place[pos]){const [r,c]=place[pos].cells[i];const g=grid[r][c];if(g.shown)lock=true;}return {ch:lock?ch:null,id:lock?'L'+i:null,lock};});
- const need=L.filter((_,i)=>!slots[i].lock);const extra=shuffle([...EXTRA]).slice(0,L.length>=9?2:3);rack=shuffle([...need,...extra]).map((ch,i)=>({ch,id:'t'+pos+'-'+i}));selTile=null;
+ const need=L.filter((_,i)=>!slots[i].lock);const LOOK={I:'İ','İ':'I',U:'Ü','Ü':'U',S:'Ş','Ş':'S',O:'Ö','Ö':'O',C:'Ç','Ç':'C',G:'Ğ','Ğ':'G'},alike=new Set(L.map(c=>LOOK[c]).filter(Boolean));const extra=shuffle([...EXTRA].filter(c=>!alike.has(c))).slice(0,L.length>=9?2:3);rack=shuffle([...need,...extra]).map((ch,i)=>({ch,id:'t'+pos+'-'+i}));selTile=null;
  $('app').classList.toggle('compact',!!q.para);$('chipGroup').textContent=GROUP_LABEL[q.group];$('chipLevel').textContent=LEVEL[q.rank];$('chipLevel').className='chip r'+q.rank;$('chipNo').textContent=`Kelime ${pos+1}/10 · ${L.length} harf`;
  const pb=$('paraBox');pb.replaceChildren();if(q.para){const p=div('para');if(q.title){const b=document.createElement('b');b.textContent=q.title.toLocaleUpperCase('tr-TR');p.append(b);}p.append(document.createTextNode(q.para));pb.append(p);}
  $('clue').textContent=q.clue;$('card').dataset.qid=q.questionId;$('actRow').classList.remove('hidden');$('fb').classList.add('hidden');$('rackBox').classList.remove('hidden');
@@ -293,7 +323,7 @@ $('ok').onclick=()=>{if(state!=='playing'||!slots.every(s=>s.ch)||document.hidde
   state='review';drawBoard(nc);$('nP').textContent=points;$('nO').textContent=okCount;$('nX').textContent=answers.length-okCount;
   if(ok){const pl=$('pP');pl.classList.remove('bump');void pl.offsetWidth;pl.classList.add('bump');const f=div('float','+'+sc);const r=$('board').getBoundingClientRect();f.style.left=(r.left+r.width/2-20)+'px';f.style.top=(r.top+r.height/2)+'px';if(!R)document.body.append(f);setTimeout(()=>f.remove(),1200);confetti(R?0:8);sfx('place');}
   $('rackBox').classList.add('hidden');$('actRow').classList.add('hidden');const fb=$('fb');fb.className=ok?'':'bad';fb.classList.remove('hidden');
-  $('fbT').textContent=ok?`✓ ${pick(['Doğru!','Harika!','Tahtaya yerleşti!'])} +${sc} puan`+(place[pos]?'':' (tahtada yer kalmadı)'):`✗ Doğrusu: ${q.correctAnswer}`;$('fbE').textContent=q.explanation;
+  $('fbT').textContent=ok?`✓ ${pick(['Doğru!','Harika!','Tahtaya yerleşti!'])} +${sc} puan`+(place[pos]?'':' (tahtada yer kalmadı)'):`✗ Doğrusu: ${q.correctAnswer} · Senin dizdiğin: ${(()=>{let k=0;return [...q.answer].map(c=>c===' '?' ':(got[k++]||'')).join('');})()}`;$('fbE').textContent=q.explanation;
   $('next').textContent=pos===TOTAL-1?'KUTUYU KAPAT 🎁':'SIRADAKİ KELİME ▶';reviewAt=performance.now();$('next').focus({preventScroll:true});};
  if(ok&&!R&&place[pos]){flyTiles(SL);setTimeout(reveal,620);}else setTimeout(reveal,R?0:ok?250:520);};
 function flyTiles(SL){const b=$('board').getBoundingClientRect(),u=b.width/130;place[pos].cells.forEach(([r,c],i)=>{const d=SL[i];if(!d)return;const s=d.getBoundingClientRect();const f=tileEl(slots[i].ch);f.classList.add('flyt');f.style.left=s.left+'px';f.style.top=s.top+'px';f.style.width=s.width+'px';f.style.height=s.height+'px';document.body.append(f);
