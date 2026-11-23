@@ -207,7 +207,7 @@ function noise(t0,dur,vol,freq,type){const n=Math.max(1,Math.floor(audio.sampleR
 function sfx(kind){if(muted||!audio||document.hidden)return;try{
  if(kind==='pick')osc(440,0,.08,'sine',.06,560);
  else if(kind==='seed')osc(700,0,.12,'sine',.08,240);
- else if(kind==='water')noise(0,.6,.08,2600,'highpass');
+ else if(kind==='water'){const n=Math.floor(audio.sampleRate*.7),bf=audio.createBuffer(1,n,audio.sampleRate),d=bf.getChannelData(0);for(let i=0;i<n;i++)d[i]=Math.random()*2-1;const sr=audio.createBufferSource(),lp=audio.createBiquadFilter(),g=audio.createGain(),t=audio.currentTime;sr.buffer=bf;lp.type='lowpass';lp.frequency.value=900;lp.Q.value=.5;g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(.018,t+.15);g.gain.exponentialRampToValueAtTime(0.0001,t+.7);sr.connect(lp);lp.connect(g);g.connect(master);sr.start(t);sr.stop(t+.72);[0,.11,.2,.33,.45].forEach((d0,i)=>{const f=420+Math.random()*180;osc(f,d0,.09,'sine',.045-i*.004,f*2.2);});}
  else if(kind==='grow'){[392,494,587,784].forEach((f,i)=>osc(f,i*.09,.26,'triangle',.08));osc(1568,.36,.25,'sine',.03);}
  else if(kind==='wither'){osc(330,0,.3,'triangle',.06,190);osc(220,.2,.35,'triangle',.05,150);}
  else if(kind==='bird'){for(let i=0;i<5;i++)osc(2400+Math.random()*500,i*.08,.06,'sine',.035,3100);}

@@ -32,3 +32,6 @@
 Her oyunda her gruptan 2 soru gelir. Son oynanan 48 soru cihazda hatırlanır ve öncelikle bunların dışındaki sorular seçilir.
 
 Kaynak: MEB Türkçe 5. Sınıf Ders Kitabı 1. Kitap, 2. Tema (s. 66–119).
+
+## Güncelleme (23 Kasım 2026, 1.0.0 yerinde)
+- Sulama sesi değişti: tiz ve aniden kesilen cızırtı yerine yumuşak su damlası sesleri ve arkada kısık, yavaş girip sönen su akışı.
