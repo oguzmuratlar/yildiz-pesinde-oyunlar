@@ -70,3 +70,6 @@ Teknik notlar:
 - Harici ağ isteği, analitik veya reklam yoktur (Content-Security-Policy ile kapatılmıştır).
 
 Tarayıcıda doğrudan açıldığında oyun "Deneme modu"nda çalışır ve sonuç kaydetmez.
+
+## Güncelleme (23 Kasım 2026, 1.0.0 yerinde)
+- Sesler yumuşatıldı: soru geçişindeki inen ıslık yerine kısa iki nota; oyun sonundaki vızıltılı davul yumuşak tok vuruşlarla, keskin damga sesi tok bir vuruşla, cızırtılı alkış gerçek el çırpması gibi kısa vuruşlarla (süzgeçli, yavaş girip sönen) değişti; zafer melodisi kısaldı. Alkış doğru cevaplarda da aynı yeni sesle çalar.

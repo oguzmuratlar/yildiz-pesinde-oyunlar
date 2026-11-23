@@ -273,14 +273,14 @@ function sfx(kind){if(muted||!audio||document.hidden)return;try{
  else if(kind==='tick')osc(1150,0,.02,'square',.015);
  else if(kind==='plop')osc(520,0,.08,'sine',.07,880);
  else if(kind==='drop')osc(300,0,.12,'triangle',.06,180);
- else if(kind==='drum'){for(let i=0;i<10;i++)osc(110+rnd()*30,i*.045,.05,'square',.025);}
+ else if(kind==='drum'){for(let i=0;i<8;i++)osc(150+rnd()*20,i*.07,.09,'sine',.035+i*.003,95);}
  else if(kind==='lo'){[784,988,1319].forEach((f,i)=>osc(f,.45+i*.07,.18,'triangle',.07));}
  else if(kind==='hi'){osc(392,.45,.35,'sawtooth',.04,196);osc(330,.6,.4,'triangle',.05,165);}
  else if(kind==='ring'){for(let i=0;i<4;i++){osc(880,i*.22,.09,'square',.03);osc(1100,i*.22+.1,.09,'square',.03);}}
  else if(kind==='cash'){osc(1568,0,.08,'square',.04);osc(2093,.07,.25,'triangle',.06);}
  else if(kind==='ok'){[659,880,1175].forEach((f,i)=>osc(f,i*.08,.18,'triangle',.07));}
  else if(kind==='miss'){osc(330,0,.18,'square',.03,220);osc(247,.14,.22,'triangle',.05);}
- else if(kind==='win'){[523,659,784,1047,784,1047,1319].forEach((f,i)=>osc(f,i*.13,.36,'triangle',.08));}
+ else if(kind==='win'){[523,659,784,1047].forEach((f,i)=>osc(f,i*.14,.34,'sine',.055));osc(1319,.6,.5,'sine',.035);}
  else if(kind==='drum'){for(let i=0;i<10;i++)osc(110+rnd()*30,i*.06,.05,'triangle',.05,80);}
  else if(kind==='ding'){[1319,1760].forEach((f,i)=>osc(f,i*.09,.35,'sine',.06));}
  else if(kind==='buzz'){osc(120,0,.35,'sawtooth',.05);osc(127,0,.35,'square',.03);}
@@ -290,7 +290,7 @@ function sfx(kind){if(muted||!audio||document.hidden)return;try{
  else if(kind==='plop'){osc(700,0,.12,'sine',.06,200);}
  else if(kind==='scan'){osc(220,0,.8,'sawtooth',.018,880);}
  else if(kind==='boom'){osc(80,0,.5,'triangle',.12,40);for(let i=0;i<8;i++)osc(1200+rnd()*1500,.05+i*.04,.05,'square',.015);}
- else if(kind==='applause'){const n=Math.floor(audio.sampleRate*1.4),bf=audio.createBuffer(1,n,audio.sampleRate),d=bf.getChannelData(0);for(let i=0;i<n;i++){d[i]=(rnd()*2-1)*(rnd()<.25?1:.25)*Math.min(1,i/2000)*(1-i/n);}const src=audio.createBufferSource(),g=audio.createGain();g.gain.value=.09;src.buffer=bf;src.connect(g);g.connect(master);src.start();}
+ else if(kind==='applause'){const sr=audio.sampleRate,L=1.1,n=Math.floor(sr*L),bf=audio.createBuffer(1,n,sr),d=bf.getChannelData(0),cl=Math.floor(sr*.014);for(let k=0;k<46;k++){const st=Math.floor(rnd()*(n-cl)),a=.35+rnd()*.65;for(let i=0;i<cl;i++)d[st+i]+=(rnd()*2-1)*a*Math.exp(-i/(cl*.22));}const src=audio.createBufferSource(),bp=audio.createBiquadFilter(),g=audio.createGain(),t=audio.currentTime;bp.type='bandpass';bp.frequency.value=1700;bp.Q.value=.7;g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(.05,t+.08);g.gain.setValueAtTime(.05,t+.6);g.gain.exponentialRampToValueAtTime(0.0001,t+L);src.buffer=bf;src.connect(bp);bp.connect(g);g.connect(master);src.start(t);src.stop(t+L+.02);}
  else if(kind==='fire'){osc(180,0,.4,'sawtooth',.02,90);osc(900,0,.25,'sine',.03,1400);}
  else if(kind==='curtain'){for(let i=0;i<10;i++)osc(200+rnd()*120,i*.08,.12,'triangle',.015,150);}
  else if(kind==='thud'){osc(150,0,.14,'triangle',.08,80);}
@@ -309,9 +309,9 @@ function sfx(kind){if(muted||!audio||document.hidden)return;try{
  else if(kind==='paint'){osc(600,0,.08,'triangle',.04,300);}
  else if(kind==='boing'){const o=audio.createOscillator(),g=audio.createGain(),t=audio.currentTime;o.type='sine';o.frequency.setValueAtTime(180,t);for(let i=0;i<8;i++)o.frequency.linearRampToValueAtTime(i%2?160:420-i*25,t+.05+i*.05);g.gain.setValueAtTime(.08,t);g.gain.exponentialRampToValueAtTime(.0001,t+.5);o.connect(g);g.connect(master);o.start(t);o.stop(t+.52);}
  else if(kind==='clunk'){osc(260,0,.08,'square',.04,140);osc(900,.02,.04,'triangle',.03);}
- else if(kind==='whoosh'){osc(900,0,.6,'sine',.04,200);}
+ else if(kind==='whoosh'){osc(523,0,.12,'sine',.03);osc(784,.08,.18,'sine',.025);}
  else if(kind==='chime'){[1047,1319,1568].forEach((f,i)=>osc(f,i*.07,.3,'sine',.05));}
- else if(kind==='stamp'){osc(110,0,.25,'triangle',.1,60);osc(1800,.02,.05,'square',.02);}
+ else if(kind==='stamp'){osc(130,0,.22,'sine',.09,70);}
  else if(kind==='start'){[392,523,659,784].forEach((f,i)=>osc(f,i*.08,.2,'sine',.06));}
 }catch(e){}}
 $('sound').onclick=()=>{muted=!muted;unlockAudio();if(master)master.gain.value=muted?0:.8;$('sound').textContent=muted?'🔇':'🔊';$('sound').setAttribute('aria-pressed',String(!muted));$('sound').setAttribute('aria-label',muted?'Sesi aç':'Sesi kapat');};
