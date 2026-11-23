@@ -12,6 +12,11 @@
 | Yıldız | 0–4 doğru 0★ · 5–6 1★ · 7–8 2★ · 9–10 3★ |
 | Soru havuzu | 110 görev (70 test, 21 doğru/yanlış kaydırma, 19 iki seçenekli kaydırma), 40'ı oyun içinde çizilen şekille; index.html içine gömülüdür |
 
+
+## Güncelleme (23 Kasım 2026, 1.0.0 yerinde)
+- **Sesler yumuşatıldı:** yanlış cevaptaki sert vızıltı (kare dalga) yerine kısa, yumuşak iki nota; kart geçişindeki ve kaydırmadaki hışırtı sesleri kaldırıldı; bütün sesler kısıldı.
+- **Kaydırma anlaşılır yapıldı:** kaydırma kartlarının sol ve sağ kenarında seçeneklerin renkli şeritleri (◀ sol seçenek, ▶ sağ seçenek; alttaki düğmelerle aynı renk); altta oklu, çerçeveli "Kartı tut, cevabın tarafına sürükle" satırı; oyunun ilk iki kaydırma kartında kart kendisi önce sola sonra sağa sallanıp damgayı gösterir, 👆 el simgesi eşlik eder (öğrenci kartı bir kez sürükleyince gösterim durur; hareket azaltma açıkken gösterilmez).
+
 ## Oyun
 
 Her soru tam ekran bir “reel” kartıdır. Şekil gereken sorularda nokta, doğru, ışın, açı, açıölçer, kesişen/paralel doğrular, çokgen, köşegen, üçgen ve kesişen çember şekilleri SVG ile çizilir.
