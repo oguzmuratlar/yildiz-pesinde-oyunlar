@@ -15,3 +15,6 @@
 
 ## Sürüm notları
 - 1.1.1: app.init doğrulaması gameId, gameVersion ve sınıfla sınırlandı (opsiyonel alanlar eksik olabilir); küçük telefonlarda yatay yerleşim düzeltildi.
+
+## Güncelleme (23 Kasım 2026, 1.1.1 yerinde)
+- Doğru cevaptan sonra 2 saniye beklenir ve sıradaki soru kendiliğinden gelir; "Sonraki soru" düğmesiyle beklemeden de geçilebilir. Uygulama arka plandayken bekleme durur.
