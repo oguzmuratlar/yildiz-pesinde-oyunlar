@@ -27,3 +27,6 @@
 Her oyunda iki gruptan 3’er, iki gruptan 2’şer soru gelir (toplam 10: 3 kolay · 4 orta · 3 zor) ve sorular kolaydan zora sıralanır. Kitaptaki metni okumuş olmayı gerektiren “Tema metinleri” soruları kaldırılmıştır; paragraf soruları metni soruda verir. Son oynanan 60 soru cihazda hatırlanır ve öncelikle bunların dışındaki sorular seçilir; böylece art arda oyunlarda farklı sorular gelir.
 
 Kaynak: MEB Türkçe 7. Sınıf Ders Kitabı 1. Kitap, 1. Tema (s. 10–71) ve TEGM “Yazılıya Hazırlanıyorum 7. Sınıf Türkçe 1. Dönem 1. Yazılı”. Öğrenme çıktısı kodları yazılı örneğindeki eşleştirmeden alınmıştır.
+
+## Güncelleme (23 Kasım 2026, 1.0.0 yerinde)
+- Doğru cevaptan sonra 2 saniye beklenir ve sıradaki soru kendiliğinden gelir; "Sonraki soru" düğmesiyle beklemeden de geçilebilir. Uygulama arka plandayken bekleme durur.
