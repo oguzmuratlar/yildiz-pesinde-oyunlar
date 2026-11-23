@@ -15,7 +15,7 @@
 ## Güncelleme (23 Kasım 2026, 1.0.0 yerinde): süre sayacı
 - Her kelimeye **30 saniye** verilir; tahmin tablosunun üstünde süre çubuğu, kalan saniye ve o an kazanılacak kalp görünür. Çubuk yarıda sarıya, son 6 saniyede kırmızıya döner; son 5 saniyede hafif tık sesi.
 - Kazanılan kalp = deneme puanı (1.→100, 2.→80, 3.→60, 4.→40, 5.→20) × kalan süre / 30 sn. Süre bitince kalp 0 olur.
-- Süre bitince oyun durmaz: kelime yine bulunabilir ve doğru sayılır (yıldız hesabı değişmez), yalnızca kalp kazandırmaz.
+- **Süre bitince kelime yanlış sayılır:** doğru kelime tabloda gösterilir, kalp kazanılmaz; yanlış-cevap kaydında studentAnswer o ana kadarki tahminleri ve "(süre doldu)" ifadesini içerir.
 - Metinli sorularda sayaç okuma ekranında beklemez; "Metni okudum, tahmine geç" ile başlar, metin yeniden açılınca durmaz. Harflerin dönme animasyonu sırasında ve uygulama arka plandayken süre işlemez.
 
 ## Metinli sorular

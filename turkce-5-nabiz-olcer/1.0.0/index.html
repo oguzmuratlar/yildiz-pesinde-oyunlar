@@ -277,25 +277,25 @@ function submit(){if(state!=='playing'||document.hidden||$('app').classList.cont
   else msg(`${TRIES-guesses.length} deneme kaldı.`);
   state='playing';drawGrid();tLast=performance.now();tDraw();},R?0:L*110+430);}
 /* ---------- Süre sayacı: her kelimeye 30 sn; kalp, kalan süreyle orantılı azalır ---------- */
-const TLIM=30000;let tLeft=TLIM,tOn=false,tLast=0,tSecShown=30;
+const TLIM=30000;let tLeft=TLIM,tOn=false,tLast=0,tSecShown=30,timeUp=false;
 function tPot(){return Math.round(PTS[Math.min(guesses.length,TRIES-1)]*tLeft/TLIM);}
 function tDraw(){const f=tLeft/TLIM,s=Math.ceil(tLeft/1000),t=$('timer');$('tSec').textContent='⏱ '+s;$('tfill').style.width=(f*100).toFixed(1)+'%';
  t.classList.toggle('mid',f<=.5&&f>.2);t.classList.toggle('low',f<=.2&&tLeft>0);t.classList.toggle('out',tLeft<=0);$('tPts').textContent='+'+(tLeft>0?tPot():0)+' ❤';
  t.setAttribute('aria-label',`Süre: ${s} saniye, kazanılacak kalp ${tLeft>0?tPot():0}`);}
-function tReset(){tLeft=TLIM;tOn=false;tSecShown=30;tDraw();}
+function tReset(){tLeft=TLIM;tOn=false;tSecShown=30;timeUp=false;tDraw();}
 function tStart(){if(!tOn&&state==='playing'){tOn=true;tLast=performance.now();}}
 setInterval(()=>{const now=performance.now(),dt=now-tLast;tLast=now;if(!tOn||document.hidden||state!=='playing'||tLeft<=0)return;
  tLeft=Math.max(0,tLeft-dt);const s=Math.ceil(tLeft/1000);if(s!==tSecShown){tSecShown=s;if(s>0&&s<=5)sfx('tap');}
- if(tLeft<=0){msg('⏱ Süre doldu! Kelimeyi yine bulabilirsin ama kalp kazanamazsın.','bonus');sfx('miss');}tDraw();},200);
+ tDraw();if(tLeft<=0){timeUp=true;if($('app').classList.contains('reading'))setReading(false);finishWord(false);}},200);
 function finishWord(ok){const q=deck[pos];state='review';const rec={questionId:q.questionId,isCorrect:ok};
- if(!ok)Object.assign(rec,{questionText:q.textPlain,studentAnswer:guesses.map(g=>g.word).join(' · '),correctAnswer:q.correctAnswer,unit:q.unit,topic:q.topic,outcome:q.outcome,sourceRef:q.sourceRef,explanation:q.explanation});
+ if(!ok)Object.assign(rec,{questionText:q.textPlain,studentAnswer:(guesses.map(g=>g.word).join(' · ')+(timeUp?(guesses.length?' · ':'')+'(süre doldu)':'')),correctAnswer:q.correctAnswer,unit:q.unit,topic:q.topic,outcome:q.outcome,sourceRef:q.sourceRef,explanation:q.explanation});
  answers.push(rec);const R=reduced();let gain=0;
  if(ok){okCount++;gain=Math.round(PTS[guesses.length-1]*tLeft/TLIM);points+=gain;$('nP').textContent=points;const pl=$('pP');pl.classList.remove('bump');void pl.offsetWidth;if(!R)pl.classList.add('bump');pulse('hit');sfx('beat');
   const rows=$('grid').children;const row=rows[guesses.length-1];if(row&&!R)row.classList.add('win');floatAt($('bpm'),'+'+gain+' ❤','#ffd0da');confetti(R?0:8);}
  else{state='reveal';drawGrid();state='review';sfx('miss');}
  $('nO').textContent=okCount;$('nX').textContent=answers.length-okCount;$('kbd').classList.add('hidden');const fb=$('fb');fb.className=ok?'':'bad';fb.classList.remove('hidden');
- $('fbT').textContent=ok?`✓ ${pick(['Nabız yerinde!','Tam isabet!','Kalp atışı güçlü!'])} ${guesses.length}. denemede · `+(tLeft>0?`${Math.ceil(tLeft/1000)} sn kala · +${gain} ❤`:'süre doldu · +0 ❤'):`✗ Doğrusu: ${q.correctAnswer}`;$('fbE').textContent=q.explanation;
- msg(ok?'':'Doğru kelime son satırda.');$('next').textContent=pos===TOTAL-1?'MONİTÖRÜ KAPAT ⏻':'SIRADAKİ KELİME ▶';reviewAt=performance.now();$('next').focus({preventScroll:true});}
+ $('fbT').textContent=ok?`✓ ${pick(['Nabız yerinde!','Tam isabet!','Kalp atışı güçlü!'])} ${guesses.length}. denemede · `+(tLeft>0?`${Math.ceil(tLeft/1000)} sn kala · +${gain} ❤`:'süre doldu · +0 ❤'):`${timeUp?'⏱ Süre doldu! ':'✗ '}Doğrusu: ${q.correctAnswer}`;$('fbE').textContent=q.explanation;
+ msg(ok?'':timeUp?'Süre doldu; doğru kelime tabloda.':'Doğru kelime son satırda.');$('next').textContent=pos===TOTAL-1?'MONİTÖRÜ KAPAT ⏻':'SIRADAKİ KELİME ▶';reviewAt=performance.now();$('next').focus({preventScroll:true});}
 function setReading(on){const q=deck[pos];$('app').classList.toggle('reading',on);const b=$('readBtn');b.classList.toggle('hidden',!q.para);b.className=on?'':'small';if(!q.para)b.classList.add('hidden');b.textContent=on?'METNİ OKUDUM, TAHMİNE GEÇ ▶':'📖 Metni göster';$('paraBox').classList.toggle('fold',!on);if(!on){tStart();requestAnimationFrame(sizeCells);sizeCells();}$('card').scrollTop=0;}
 $('readBtn').onclick=()=>{if(!deck[pos]?.para||!['playing','review','checking'].includes(state))return;unlockAudio();sfx('tap');setReading(!$('app').classList.contains('reading'));};
 function msg(t,cls){const m=$('msg');m.textContent=t||'';m.className=cls||'';}
