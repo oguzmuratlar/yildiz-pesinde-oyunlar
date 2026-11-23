@@ -110,6 +110,16 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 @media (max-height:700px){#ecgBox{height:30px}#bpm{font-size:12px;padding:3px 5px}.k{height:38px;font-size:14.5px}#kbd{gap:4px}#clue{font-size:15px}.para{font-size:14px;line-height:1.42}#msg{min-height:16px;font-size:12.5px}#legend{display:none}}
 @media (max-width:360px){.logo{font-size:15px}.pill{font-size:12px;padding:3px 6px}#card{margin:5px 6px 4px;padding:8px 9px}.kr{gap:3px}.k.wide{font-size:11.5px}}
+
+/* süre sayacı */
+#timer{display:flex;align-items:center;gap:8px;width:min(100%,520px);font:900 13px ui-monospace,"SF Mono",Menlo,monospace;color:#bfffd6;flex:0 0 auto}
+#tSec{min-width:46px}#tPts{min-width:62px;text-align:right;color:#ffd0da}
+#tbar{flex:1;height:9px;border-radius:6px;background:#ffffff1f;overflow:hidden;border:1px solid #39ff8833}
+#tfill{height:100%;width:100%;background:var(--neon);box-shadow:0 0 8px #39ff8888;transition:width .25s linear,background .3s}
+#timer.mid #tfill{background:var(--y);box-shadow:0 0 8px #f2b51d88}#timer.low #tfill{background:var(--red);box-shadow:0 0 8px #ff4d6d88}
+#timer.low #tSec{color:#ff9aa8;animation:tpulse 1s infinite}#timer.out{color:#ff9aa8}#timer.out #tPts{color:#ff9aa8}
+@keyframes tpulse{50%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){#timer.low #tSec{animation:none}#tfill{transition:none}}
 </style><style id="yp-sade">
 #intro .panel>:not(#start):not(#reconnect):not(h1):not(svg):not(.heroBoxes):not(#introStatus):not(#mode){display:none!important}
 #chipGroup,#chipLevel,#chipType{display:none!important}
@@ -121,7 +131,7 @@ html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition
  <header><div class="logo">💓 Nabız <b>Ölçer</b></div><span class="pill pt" id="pP" aria-label="Kalp puanı">❤ <span id="nP">0</span></span><span class="pill" aria-label="Doğru / yanlış">✓<span id="nO">0</span> ✗<span id="nX">0</span></span><button id="sound" aria-label="Sesi kapat" aria-pressed="true">🔊</button></header>
  <div id="ecgBox" aria-hidden="true"><svg id="ecg" viewBox="0 0 800 40" preserveAspectRatio="none"><path id="ecgP"/></svg><span id="bpm"><i>♥</i><span id="bpmN">72</span><small>BPM</small></span></div>
  <main style="min-height:0;display:grid"><section id="card" class="hidden" aria-live="polite"><div class="chips"><span class="chip" id="chipGroup"></span><span class="chip" id="chipLevel"></span><span class="chip" id="chipNo"></span></div><p id="clue"></p><div id="paraBox"></div><button id="readBtn" class="hidden"></button></section></main>
- <div id="play" class="hidden"><div id="grid" role="grid" aria-label="Tahmin tablosu"></div><div id="msg" role="status"></div><div id="legend"><span><i style="background:var(--g)"></i>yerinde</span><span><i style="background:var(--y)"></i>var, yeri farklı</span><span><i style="background:var(--x)"></i>yok</span></div></div>
+ <div id="play" class="hidden"><div id="timer" aria-label="Süre"><span id="tSec">⏱ 30</span><div id="tbar"><div id="tfill"></div></div><span id="tPts">+100 ❤</span></div><div id="grid" role="grid" aria-label="Tahmin tablosu"></div><div id="msg" role="status"></div><div id="legend"><span><i style="background:var(--g)"></i>yerinde</span><span><i style="background:var(--y)"></i>var, yeri farklı</span><span><i style="background:var(--x)"></i>yok</span></div></div>
  <div id="dock" class="hidden"><div id="kbd" aria-label="Harf klavyesi"></div><div id="fb" class="hidden" role="status"><b id="fbT"></b><span id="fbE"></span><button id="next">SIRADAKİ KELİME ▶</button></div></div>
 </div>
 <div id="crt" aria-hidden="true"><div class="beam"></div><div class="dot"></div><div class="glow">SAĞLIKLI KAL ♥</div><div class="led"></div></div>
@@ -236,7 +246,7 @@ function buildDeck(){const recent=new Set([...readRecent(),...sessionRecent]),us
  return [1,2,3].flatMap(r=>shuffle(picked.filter(q=>q.rank===r)));}
 /* ---------- Tablo ---------- */
 function colorize(guess,ans){const res=Array(ans.length).fill('x'),left={};[...ans].forEach((c,i)=>{if(guess[i]===c)res[i]='g';else left[c]=(left[c]||0)+1;});[...guess].forEach((c,i)=>{if(res[i]!=='g'&&left[c]){res[i]='y';left[c]--;}});return res;}
-function sizeCells(){const q=deck[pos];if(!q)return;const L=q.answer.length;const W=Math.min(window.innerWidth,520)-20;const H=$('play').clientHeight-($('msg').offsetHeight+($('legend').offsetParent?$('legend').offsetHeight:0)+14);
+function sizeCells(){const q=deck[pos];if(!q)return;const L=q.answer.length;const W=Math.min(window.innerWidth,520)-20;const H=$('play').clientHeight-($('msg').offsetHeight+($('timer').offsetHeight+5)+($('legend').offsetParent?$('legend').offsetHeight:0)+14);
  let cw=Math.floor((W-(L-1)*4)/L);let ch=Math.floor((H-(TRIES-1)*4)/TRIES);cw=Math.max(22,Math.min(cw,50,Math.round(ch/0.9)));ch=Math.max(22,Math.min(Math.round(cw*1.0),ch,52));
  const g=$('grid');g.style.setProperty('--cw',cw+'px');g.style.setProperty('--ch',ch+'px');}
 function drawGrid(flipRow){const q=deck[pos],L=q.answer.length,g=$('grid');g.replaceChildren();
@@ -265,17 +275,28 @@ function submit(){if(state!=='playing'||document.hidden||$('app').classList.cont
   input=[];if(guesses.length===3){const known=new Set();guesses.forEach(gs=>gs.res.forEach((r,i)=>{if(r==='g')known.add(i);}));const cand=[...q.answer].map((_,i)=>i).filter(i=>!locks.has(i)&&!known.has(i));const pickI=cand.length?pick(cand):null;
    if(pickI!==null){locks.add(pickI);msg(`🎁 Bonus harf: ${pickI+1}. harf “${q.answer[pickI]}”`,'bonus');sfx('bonus');}else msg(`${TRIES-guesses.length} deneme kaldı.`);}
   else msg(`${TRIES-guesses.length} deneme kaldı.`);
-  state='playing';drawGrid();},R?0:L*110+430);}
+  state='playing';drawGrid();tLast=performance.now();tDraw();},R?0:L*110+430);}
+/* ---------- Süre sayacı: her kelimeye 30 sn; kalp, kalan süreyle orantılı azalır ---------- */
+const TLIM=30000;let tLeft=TLIM,tOn=false,tLast=0,tSecShown=30;
+function tPot(){return Math.round(PTS[Math.min(guesses.length,TRIES-1)]*tLeft/TLIM);}
+function tDraw(){const f=tLeft/TLIM,s=Math.ceil(tLeft/1000),t=$('timer');$('tSec').textContent='⏱ '+s;$('tfill').style.width=(f*100).toFixed(1)+'%';
+ t.classList.toggle('mid',f<=.5&&f>.2);t.classList.toggle('low',f<=.2&&tLeft>0);t.classList.toggle('out',tLeft<=0);$('tPts').textContent='+'+(tLeft>0?tPot():0)+' ❤';
+ t.setAttribute('aria-label',`Süre: ${s} saniye, kazanılacak kalp ${tLeft>0?tPot():0}`);}
+function tReset(){tLeft=TLIM;tOn=false;tSecShown=30;tDraw();}
+function tStart(){if(!tOn&&state==='playing'){tOn=true;tLast=performance.now();}}
+setInterval(()=>{const now=performance.now(),dt=now-tLast;tLast=now;if(!tOn||document.hidden||state!=='playing'||tLeft<=0)return;
+ tLeft=Math.max(0,tLeft-dt);const s=Math.ceil(tLeft/1000);if(s!==tSecShown){tSecShown=s;if(s>0&&s<=5)sfx('tap');}
+ if(tLeft<=0){msg('⏱ Süre doldu! Kelimeyi yine bulabilirsin ama kalp kazanamazsın.','bonus');sfx('miss');}tDraw();},200);
 function finishWord(ok){const q=deck[pos];state='review';const rec={questionId:q.questionId,isCorrect:ok};
  if(!ok)Object.assign(rec,{questionText:q.textPlain,studentAnswer:guesses.map(g=>g.word).join(' · '),correctAnswer:q.correctAnswer,unit:q.unit,topic:q.topic,outcome:q.outcome,sourceRef:q.sourceRef,explanation:q.explanation});
  answers.push(rec);const R=reduced();let gain=0;
- if(ok){okCount++;gain=PTS[guesses.length-1];points+=gain;$('nP').textContent=points;const pl=$('pP');pl.classList.remove('bump');void pl.offsetWidth;if(!R)pl.classList.add('bump');pulse('hit');sfx('beat');
+ if(ok){okCount++;gain=Math.round(PTS[guesses.length-1]*tLeft/TLIM);points+=gain;$('nP').textContent=points;const pl=$('pP');pl.classList.remove('bump');void pl.offsetWidth;if(!R)pl.classList.add('bump');pulse('hit');sfx('beat');
   const rows=$('grid').children;const row=rows[guesses.length-1];if(row&&!R)row.classList.add('win');floatAt($('bpm'),'+'+gain+' ❤','#ffd0da');confetti(R?0:8);}
  else{state='reveal';drawGrid();state='review';sfx('miss');}
  $('nO').textContent=okCount;$('nX').textContent=answers.length-okCount;$('kbd').classList.add('hidden');const fb=$('fb');fb.className=ok?'':'bad';fb.classList.remove('hidden');
- $('fbT').textContent=ok?`✓ ${pick(['Nabız yerinde!','Tam isabet!','Kalp atışı güçlü!'])} ${guesses.length}. denemede · +${gain} ❤`:`✗ Doğrusu: ${q.correctAnswer}`;$('fbE').textContent=q.explanation;
+ $('fbT').textContent=ok?`✓ ${pick(['Nabız yerinde!','Tam isabet!','Kalp atışı güçlü!'])} ${guesses.length}. denemede · `+(tLeft>0?`${Math.ceil(tLeft/1000)} sn kala · +${gain} ❤`:'süre doldu · +0 ❤'):`✗ Doğrusu: ${q.correctAnswer}`;$('fbE').textContent=q.explanation;
  msg(ok?'':'Doğru kelime son satırda.');$('next').textContent=pos===TOTAL-1?'MONİTÖRÜ KAPAT ⏻':'SIRADAKİ KELİME ▶';reviewAt=performance.now();$('next').focus({preventScroll:true});}
-function setReading(on){const q=deck[pos];$('app').classList.toggle('reading',on);const b=$('readBtn');b.classList.toggle('hidden',!q.para);b.className=on?'':'small';if(!q.para)b.classList.add('hidden');b.textContent=on?'METNİ OKUDUM, TAHMİNE GEÇ ▶':'📖 Metni göster';$('paraBox').classList.toggle('fold',!on);if(!on){requestAnimationFrame(sizeCells);sizeCells();}$('card').scrollTop=0;}
+function setReading(on){const q=deck[pos];$('app').classList.toggle('reading',on);const b=$('readBtn');b.classList.toggle('hidden',!q.para);b.className=on?'':'small';if(!q.para)b.classList.add('hidden');b.textContent=on?'METNİ OKUDUM, TAHMİNE GEÇ ▶':'📖 Metni göster';$('paraBox').classList.toggle('fold',!on);if(!on){tStart();requestAnimationFrame(sizeCells);sizeCells();}$('card').scrollTop=0;}
 $('readBtn').onclick=()=>{if(!deck[pos]?.para||!['playing','review','checking'].includes(state))return;unlockAudio();sfx('tap');setReading(!$('app').classList.contains('reading'));};
 function msg(t,cls){const m=$('msg');m.textContent=t||'';m.className=cls||'';}
 /* ---------- Akış ---------- */
@@ -285,7 +306,7 @@ function start(){if(!ctx||state!=='ready')return;document.documentElement.classL
  setTimeout(()=>{$('intro').classList.add('hidden');$('intro').classList.remove('go');C.classList.add('pow');sfx('power');},R?0:350);
  setTimeout(()=>{$('play').classList.remove('hidden');$('dock').classList.remove('hidden');showQuestion();const a=$('app');a.classList.remove('on','off');void a.offsetWidth;if(!R)a.classList.add('on');C.classList.add('see');sfx('start');},R?0:850);
  setTimeout(()=>{C.classList.add('gone');},R?0:1500);}
-function showQuestion(){const q=deck[pos];state='playing';guesses=[];input=[];locks=new Set([0]);keyState={};
+function showQuestion(){const q=deck[pos];state='playing';guesses=[];input=[];locks=new Set([0]);keyState={};tReset();
  $('chipGroup').textContent=GROUP_LABEL[q.group];$('chipLevel').textContent=LEVEL[q.rank];$('chipLevel').className='chip r'+q.rank;$('chipNo').textContent=`Kelime ${pos+1}/10 · ${q.answer.length} harf`;
  $('clue').textContent=q.clue;const pb=$('paraBox');pb.replaceChildren();if(q.para){const p=div('para');if(q.title){const b=document.createElement('b');b.textContent=q.title.toLocaleUpperCase('tr-TR');p.append(b);}p.append(document.createTextNode(q.para));pb.append(p);}
  setReading(!!q.para);$('card').dataset.qid=q.questionId;$('fb').classList.add('hidden');$('kbd').classList.remove('hidden');msg(`İlk harf: “${q.answer[0]}” · ${TRIES} deneme`);

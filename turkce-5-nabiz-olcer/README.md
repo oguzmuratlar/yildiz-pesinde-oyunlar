@@ -12,6 +12,12 @@
 | Yıldız | 0–4 doğru 0★ · 5–6 1★ · 7–8 2★ · 9–10 3★ (kalp puanı yalnızca oyun içi eğlence içindir) |
 | Soru havuzu | 108 kelime (4–10 harf), index.html içine gömülüdür |
 
+## Güncelleme (23 Kasım 2026, 1.0.0 yerinde): süre sayacı
+- Her kelimeye **30 saniye** verilir; tahmin tablosunun üstünde süre çubuğu, kalan saniye ve o an kazanılacak kalp görünür. Çubuk yarıda sarıya, son 6 saniyede kırmızıya döner; son 5 saniyede hafif tık sesi.
+- Kazanılan kalp = deneme puanı (1.→100, 2.→80, 3.→60, 4.→40, 5.→20) × kalan süre / 30 sn. Süre bitince kalp 0 olur.
+- Süre bitince oyun durmaz: kelime yine bulunabilir ve doğru sayılır (yıldız hesabı değişmez), yalnızca kalp kazandırmaz.
+- Metinli sorularda sayaç okuma ekranında beklemez; "Metni okudum, tahmine geç" ile başlar, metin yeniden açılınca durmaz. Harflerin dönme animasyonu sırasında ve uygulama arka plandayken süre işlemez.
+
 ## Metinli sorular
 Metin soruları (31 soru) önce "okuma ekranı"nda açılır: ipucu ve metin bütün kartı kaplar, öğrenci "METNİ OKUDUM, TAHMİNE GEÇ" düğmesiyle tahmin tablosuna geçer; "📖 Metni göster" düğmesiyle metne istediği zaman döner. Metinler: Haydi Doğa Yürüyüşüne! (iki bölüm), Sağlık ve Spor Rotası, Ne Olacak Bu Yemek Sorunu? (iki bölüm), Obezite (iki bölüm), Atlı Cirit, Video Oyunu Bağımlılığı, Futbolda Duyarlılık. Yanlış-cevap kaydında metin questionText içinde yer alır.
 
