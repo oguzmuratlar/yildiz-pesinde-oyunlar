@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Dev Ahtapot resifin 8 ışık incisini kollarına sarmıştır. Her doğru cevap bir kolu çözer ve inci yukarı süzülür. 8 kol çözülünce ahtapot iki mürekkep bulutuyla kalkan açar; 9. ve 10. doğru bulutları dağıtır ve ahtapot yenilir. Kalan sorular “Bonus inci”dir. Yanlışta ahtapot güler ve ekrana mürekkep fışkırtır, doğru cevap ve açıklama gösterilir. Üst sayaçta çözülen kol ve kalan hata hakkı (2) görünür. İpucu ve süre sınırı yoktur.
+Dev Ahtapot resifin 8 ışık incisini kollarına sarmıştır. Her doğru cevap bir kolu çözer ve inci yukarı süzülür. 8 kol çözülünce ahtapot iki mürekkep bulutuyla kalkan açar; 9. ve 10. doğru bulutları dağıtır ve ahtapot yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta ahtapot güler ve ekrana mürekkep fışkırtır, doğru cevap ve açıklama gösterilir. Üst sayaçta çözülen kol ve kalan hata hakkı (2) görünür. İpucu ve süre sınırı yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, mürekkep patlamasıyla ahtapot alttan çıkar, “DEV AHTAPOT” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş ahtapot, konfeti ve “Dev Ahtapot yenildi!”; kaybedilirse ahtapot mürekkep bırakıp yukarı kaçar. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş ahtapot, konfeti ve “Dev Ahtapot yenildi!”; kaybedilirse ahtapot mürekkep bırakıp yukarı kaçar. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

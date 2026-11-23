@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Kar Yetisi karlı zirvede çevresine 10 kartopu dizmiş; kartopları hafifçe sallanır. Her doğru cevap bir kartopunu patlatır: kartopu şişip kar tanelerine dağılır, yerinde küçük bir su birikintisi kalır. 5. kartopunda yeti kükrer, ekrana tipi çöker (“Kar Yetisi kükredi!”). 10. kartopunda yeti yenilir; kalan sorular “Bonus kartopu”dur. Yanlışta ekranı tipi süpürür, kenarlar buz tutar; doğru cevap ve açıklama gösterilir. Üst sayaçta patlayan kartopu sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Kar Yetisi karlı zirvede çevresine 10 kartopu dizmiş; kartopları hafifçe sallanır. Her doğru cevap bir kartopunu patlatır: kartopu şişip kar tanelerine dağılır, yerinde küçük bir su birikintisi kalır. 5. kartopunda yeti kükrer, ekrana tipi çöker (“Kar Yetisi kükredi!”). 10. kartopunda yeti yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta ekranı tipi süpürür, kenarlar buz tutar; doğru cevap ve açıklama gösterilir. Üst sayaçta patlayan kartopu sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, Kar Yetisi karlı zirvenin önünde alttan çıkar, “KAR YETİSİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş yeti, konfeti ve “Kar Yetisi yenildi!”; kaybedilirse yeti yukarı süzülüp tipiye karışır. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş yeti, konfeti ve “Kar Yetisi yenildi!”; kaybedilirse yeti yukarı süzülüp tipiye karışır. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

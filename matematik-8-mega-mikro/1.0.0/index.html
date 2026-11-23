@@ -466,7 +466,7 @@ R0.sci=(q,api)=>{const D=q.data,H=196;const s=mkSvg(api,H);emo(s,40,32,D.o,26);i
  const d=expDial(api,0,-12,12,v=>{n=v;draw();});const row=div('prow');row.append(div('dl','Üs:'),d.w);api.stage.append(row);
  api.label('YAKINLAŞTIR 🔭');draw();const sync=()=>{d.set(n);};
  const ms=()=>k<0||k>=dg.length?dg.join(''):dg.slice(0,k).join('')+','+dg.slice(k).join('');
- return {auto(ok){k=D.k;n=ok?D.n:D.n+1;sync();draw();api.ready(true);},run:async()=>{const ok=(D.f||k===D.k)&&n===D.n;sfx('zoom');resBar(s,360,H,ok,ok?'Bilimsel gösterim doğru':`Doğrusu: ${dg.slice(0,D.k).join('')}${D.k<dg.length?','+dg.slice(D.k).join(''):''} × 10${sp(D.n)}`,true);await wait(250);return {ok,student:`${ms()} × 10^${n}`};}};};
+ return {auto(ok){k=D.k;n=ok?D.n:D.n+1;sync();draw();api.ready(true);},run:async()=>{const noC=k<0||k>=dg.length;const ok=(D.f||k===D.k||(D.k>=dg.length&&noC))&&n===D.n;sfx('zoom');resBar(s,360,H,ok,ok?'Bilimsel gösterim doğru':`Doğrusu: ${dg.slice(0,D.k).join('')}${D.k<dg.length?','+dg.slice(D.k).join(''):''} × 10${sp(D.n)}`,true);await wait(250);return {ok,student:`${ms()} × 10^${n}`};}};};
 /* ---- Çözümleme ---- */
 R0.place=(q,api)=>{const D=q.data;const big=div('pnum',D.num);const cab=div('pslots');const targets=D.s.map(([e])=>{const b=div('pslot');const ld=div('ld');b.append(ld,div('pe','· 10'+sp(e)));cab.append(b);return {el:b,box:ld,cap:1};});
  const digits=D.s.map(x=>x[1]).sort();const tray=div('tray');const toks=digits.map(t=>bt('tok dtok',t));api.stage.append(big,tray,cab);const P=placer({tokens:toks,targets,tray,onChange:w=>api.ready(w.every(x=>x>=0))});api.label('ÇÖZÜMLE 🔍');

@@ -142,10 +142,10 @@ const WANT=['comparison','comparison','true_false'];
 const COLS=6,ROWS=9;
 const GATE_COLORS=['#4fd1ff','#ff8fd8','#9dff6a'];
 const PIECE_COLORS=['#ff6b6b','#ffd23f','#4fd1ff','#9dff6a','#c38bff','#ff9f43','#2ee59d','#ff8fd8'];
-const SHAPES=[[[0,0],[1,0],[0,1],[1,1]],[[1,0],[0,1],[1,1],[0,2]],[[0,0],[0,1],[1,1],[1,2]],[[0,0],[0,1],[0,2],[1,2]],[[1,0],[1,1],[1,2],[0,2]],[[0,0],[0,1],[1,1],[0,2]]];
+const SHAPES=[[[0,0],[1,0],[0,1],[1,1]],[[1,0],[0,1],[1,1],[0,2]],[[0,0],[0,1],[1,1],[1,2]],[[0,0],[0,1],[0,2],[1,2]],[[1,0],[1,1],[1,2],[0,2]],[[0,0],[0,1],[1,1],[0,2]],[[1,0],[0,1],[1,1],[1,2]],[[0,0],[1,0],[0,1],[0,2]],[[0,0],[1,0],[1,1],[1,2]],[[0,0],[0,1],[0,2]],[[0,0],[1,0]],[[0,0],[0,1],[1,1]],[[1,0],[0,1],[1,1]],[[0,0],[1,0],[0,1]],[[0,0],[1,0],[1,1]],[[0,0],[1,0],[2,0]],[[0,0],[1,0],[2,0],[1,1]],[[1,0],[0,1],[1,1],[2,1]],[[0,0],[0,1],[1,1],[2,1]],[[2,0],[0,1],[1,1],[2,1]],[[0,0],[1,0],[2,0],[0,1]],[[0,0],[1,0],[2,0],[2,1]]];
 const motion=matchMedia('(prefers-reduced-motion: reduce)');
 let state='waiting',ctx=null,ready=null,nativeMode=false,deck=[],index=0,answers=[],result=null,sent=false,saved=false,readyTimer=null,muted=false,audio=null,master=null,activeMs=0,lastTick=0,sessionRecent=[];
-let board=[],lane=0,lanes=3,shapes=[],score=0,lines=0,streak=0,laneOpts=[];
+let board=[],lane=0,lanes=3,shapes=[],shapeIds=[],plan=[],score=0,lines=0,streak=0,laneOpts=[];
 const usedRuns=new Set(),received=new Set(),reduced=()=>motion.matches||ctx?.reducedMotion===true;
 function uid(p){const a=new Uint32Array(3);crypto.getRandomValues(a);return p+'-'+Array.from(a,x=>x.toString(16)).join('');}
 function rnd(n){const a=new Uint32Array(1);crypto.getRandomValues(a);return Math.floor(a[0]/4294967296*n);}
@@ -199,8 +199,22 @@ function drawBoard(extra){const g=$('grid');g.querySelectorAll('.cell:not(#piece
  if(state==='playing'){const sh=shapes[index],col=laneCol(lane),lr=landingRow(sh,col);if(lr>=0)sh.forEach(([x,y])=>{const e=document.createElement('div');e.className='cell ghost';e.style.left=((col+x)*s)+'px';e.style.top=((lr+y)*s)+'px';g.append(e);});}}
 function placePiece(){const p=$('piece'),s=cellPx(),col=laneCol(lane);p.style.transform=`translate(${col*s}px,0px)`;}
 function buildPiece(sh,color){const p=$('piece'),s=cellPx();p.replaceChildren();sh.forEach(([x,y])=>{const e=document.createElement('div');e.className='cell';e.style.background=color;e.style.left=(x*s)+'px';e.style.top=(y*s)+'px';p.append(e);});p.classList.remove('hidden','drop');}
-function drawNext(){const sv=$('nextSvg');const sh=shapes[index+1];if(!sh){sv.innerHTML='';return;}sv.innerHTML=sh.map(([x,y])=>`<rect x="${8+x*9}" y="${6+y*9}" width="8" height="8" rx="2" fill="#c38bff"/>`).join('');}
+function drawNext(after){const sv=$('nextSvg');const b=compactB(after?board:simDrop(board,index));const nx=index+1<TOTAL?chooseShape(b,index+1,shapeIds.slice(0,index+1)):null;const sh=nx&&nx.sh;if(!sh){sv.innerHTML='';return;}const ox=(40-(shapeW(sh)*9-1))/2,oy=(40-(shapeH(sh)*9-1))/2;sv.innerHTML=sh.map(([x,y])=>`<rect x="${ox+x*9}" y="${oy+y*9}" width="8" height="8" rx="2" fill="#c38bff"/>`).join('');return;sv.innerHTML=sh.map(([x,y])=>`<rect x="${8+x*9}" y="${6+y*9}" width="8" height="8" rx="2" fill="#c38bff"/>`).join('');}
 function compact(){let n=0;while(stackTop()<3){board.pop();board.unshift(Array(COLS).fill(null));n++;}return n;}
+/* Şekil seçimi: doğru kapıya düşünce en alttaki satırı en iyi dolduran, boşluk bırakmayan ve art arda tekrar etmeyen şekil */
+const cpB=b=>b.map(r=>r.slice());
+function fitsB(b,sh,col,row){return sh.every(([x,y])=>{const c=col+x,r=row+y;return c>=0&&c<COLS&&r<ROWS&&(r<0||!b[r][c]);});}
+function landB(b,sh,col){let r=-shapeH(sh);while(fitsB(b,sh,col,r+1))r++;return r;}
+function holesB(b){let h=0;for(let c=0;c<COLS;c++){let seen=false;for(let r=0;r<ROWS;r++){if(b[r][c])seen=true;else if(seen)h++;}}return h;}
+function clearB(b){const k=b.filter(r=>!r.every(Boolean));const n=ROWS-k.length;while(k.length<ROWS)k.unshift(Array(COLS).fill(null));return [k,n];}
+function compactB(b){b=cpB(b);const top=()=>{for(let r=0;r<ROWS;r++)if(b[r].some(Boolean))return r;return ROWS;};while(top()<3){b.pop();b.unshift(Array(COLS).fill(null));}return b;}
+function chooseShape(b,i,hist){const P=plan[i];if(!P)return null;const lw=COLS/P.lanes,c0=P.ok*lw,h0=holesB(b);let best=null;
+ SHAPES.forEach((c,k)=>{const w=shapeW(c);for(let dx=0;dx+w<=lw;dx++){const sh=c.map(([x,y])=>[x+dx,y]),lr=landB(b,sh,c0);let v;
+  if(lr<0)v=-999;else{const nb=cpB(b);sh.forEach(([x,y])=>{nb[lr+y][c0+x]=1;});const [cb,n]=clearB(nb);const low=cb[ROWS-1].filter(Boolean).length;
+   const rows=[...new Set(sh.map(([,y])=>lr+y))];v=150*n-40*(holesB(cb)-h0)+rows.reduce((a,r)=>a+nb[r].filter(Boolean).length**2,0)*1.2+sh.reduce((a,[,y])=>a+lr+y,0)*.8-(c.length<4?4:0);}
+  if(hist[hist.length-1]===k)v-=90;if(hist.slice(-3).includes(k))v-=30;v+=P.noise[k];
+  if(!best||v>best.v)best={v,sh,k};}});return best;}
+function simDrop(b,i){const P=plan[i],sh=shapes[i];if(!P||!sh)return b;const nb=cpB(b),c0=P.ok*(COLS/P.lanes),lr=landB(nb,sh,c0);if(lr>=0)sh.forEach(([x,y])=>{nb[lr+y][c0+x]=1;});return clearB(nb)[0];}
 /* ---------- Deste ---------- */
 function readRecent(){try{const v=JSON.parse(localStorage.getItem(RECENT_KEY)||'[]');return Array.isArray(v)?v:[];}catch(e){return [];}}
 function writeRecent(l){try{localStorage.setItem(RECENT_KEY,JSON.stringify(l.slice(-40)));}catch(e){}}
@@ -212,11 +226,11 @@ function buildDeck(){const recent=new Set([...readRecent(),...sessionRecent]),us
 /* ---------- Akış ---------- */
 function renderHud(){$('score').textContent=score;$('lines').textContent=lines;$('streak').textContent=streak;const box=$('dots');box.replaceChildren();for(let i=0;i<TOTAL;i++){const e=document.createElement('i');const a=answers[i];e.className=a?(a.isCorrect?'ok':'no'):(i===index&&['playing','dropping','review'].includes(state)?'cur':'');box.append(e);}}
 function start(){if(!ctx||state!=='ready')return;document.documentElement.classList.toggle('rm',reduced());deck=buildDeck();const ids=deck.map(q=>q.questionId);sessionRecent=[...sessionRecent,...ids].slice(-40);writeRecent([...readRecent(),...ids]);answers=[];index=0;result=null;sent=false;saved=false;activeMs=0;lastTick=performance.now();
- board=Array.from({length:ROWS},()=>Array(COLS).fill(null));score=0;lines=0;streak=0;shapes=deck.map(()=>SHAPES[rnd(SHAPES.length)]);
+ board=Array.from({length:ROWS},()=>Array(COLS).fill(null));score=0;lines=0;streak=0;shapes=[];shapeIds=[];plan=deck.map(q=>{const opts=q.questionType==='comparison'||q.questionType==='true_false'?[...q.options]:shuffle(q.options);return {opts,lanes:q.questionType==='true_false'?2:3,ok:opts.indexOf(q.correctAnswer),noise:SHAPES.map(()=>rnd(10))};});
  $('intro').classList.add('hidden');$('qcard').classList.remove('hidden');sfx('start');showQuestion();}
 function showQuestion(){const q=deck[index];state='playing';$('qcard').dataset.qid=q.questionId;
- lanes=q.questionType==='true_false'?2:3;laneOpts=q.questionType==='comparison'||q.questionType==='true_false'?[...q.options]:shuffle(q.options);
- lane=lanes===3?1:0;laneOff=rnd(2);
+ lanes=plan[index].lanes;laneOpts=plan[index].opts;
+ lane=lanes===3?1:0;laneOff=0;
  $('chipNo').textContent=`Blok ${index+1}/${TOTAL}`;$('chipGroup').textContent=GROUP_LABEL[q.group]||'';$('chipLevel').textContent=LEVEL[q.rank];$('chipLevel').className='chip r'+q.rank;
  const qt=$('qtext');qt.className='';qt.replaceChildren();
  if(q.questionType==='comparison'){qt.className='cmp';const a=document.createElement('span');a.textContent=q.left;const bx=document.createElement('span');bx.className='box';bx.textContent='?';const b=document.createElement('span');b.textContent=q.right;qt.append(a,bx,b);const h=document.createElement('div');h.style.cssText='font-size:13px;color:#9aa2d6;font-weight:800;margin-top:4px';h.textContent='Kutuya hangi işaret gelmeli?';qt.append(h);}
@@ -225,7 +239,7 @@ function showQuestion(){const q=deck[index];state='playing';$('qcard').dataset.q
  if(long)laneOpts.forEach((o,i)=>{const d=document.createElement('div');const b=document.createElement('b');b.textContent='ABC'[i];b.style.background=GATE_COLORS[i];const t=document.createElement('span');t.textContent=o;d.append(b,t);ol.append(d);});
  const gates=$('gates');gates.replaceChildren();laneOpts.forEach((o,i)=>{const b=document.createElement('button');b.className='gate'+(long||q.questionType==='comparison'?' big':'');b.dataset.answer=o;b.textContent=long?'ABC'[i]:o;b.style.background=lanes===2?(i?'#ff8fd8':'#4fd1ff'):GATE_COLORS[i];b.setAttribute('aria-label',(long?'ABC'[i]+': ':'')+o);b.onclick=()=>{if(state!=='playing')return;unlockAudio();if(lane===i){doDrop();return;}lane=i;sfx('move');refreshLane();};gates.append(b);});
  $('fb').classList.add('hidden');$('controls').classList.remove('hidden');['left','right','drop'].forEach(id=>$(id).disabled=false);
- const removed=compact();if(removed&&!reduced())toast('Zemin kaydı ⬇');
+ const removed=compact();if(removed&&!reduced())toast('Zemin kaydı ⬇');{const c=chooseShape(board,index,shapeIds.slice(0,index));shapes[index]=c.sh;shapeIds[index]=c.k;}
  fitCell();buildPiece(shapes[index],'#c38bff');const p=$('piece');p.style.transition='none';placePiece();void p.offsetWidth;p.style.transition='';if(!reduced())p.classList.add('hover');
  refreshLane();drawNext();renderHud();}
 function refreshLane(){document.querySelectorAll('.gate').forEach((g,i)=>g.classList.toggle('sel',i===lane));placePiece();drawBoard();}
@@ -250,7 +264,7 @@ function finishTask(ok,studentAnswer){const q=deck[index];
  answers.push(rec);renderHud();
  $('controls').classList.add('hidden');const fb=$('fb');fb.className=ok?'good':'bad';
  $('fbHead').textContent=ok?(streak>=3?`Doğru! ${streak} blok üst üste 🔥`:'Doğru! Blok yerine oturdu.'):'Doğrusu: '+q.correctAnswer;$('fbText').textContent=q.explanation;
- $('next').textContent=index===TOTAL-1?'Sonuçları gör 🏁':'Sıradaki blok ▶';state='review';$('next').focus({preventScroll:true});}
+ $('next').textContent=index===TOTAL-1?'Sonuçları gör 🏁':'Sıradaki blok ▶';state='review';drawNext(true);$('next').focus({preventScroll:true});}
 $('next').onclick=()=>{if(state!=='review')return;sfx('move');if(index===TOTAL-1){finale();return;}index++;showQuestion();};
 $('left').onclick=()=>move(-1);$('right').onclick=()=>move(1);$('drop').onclick=doDrop;
 document.addEventListener('keydown',e=>{if(state==='playing'){if(e.key==='ArrowLeft'){e.preventDefault();move(-1);}else if(e.key==='ArrowRight'){e.preventDefault();move(1);}else if(e.key==='ArrowDown'||e.key===' '){e.preventDefault();doDrop();}}});

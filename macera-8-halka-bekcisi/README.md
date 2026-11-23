@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Halka Bekçisi gezegenlerin arasında, çevresindeki kesikli yörüngede dizilmiş 10 renkli uyduyla (açık renkli küre, koyu mor kontur, hafifçe süzülür) halkasını döndürüyor. Her doğru cevap bir uyduyu yörüngeden fırlatır: uydu parlar, yıldız tozu saçar, dönerek uzaya fırlayıp küçülür. 5. uyduda bekçi halkayı hızlandırıp sallanır ve sarı parlar (“Halka Bekçisi halkayı hızlandırdı!”). 10. uyduda bekçi yenilir; kalan sorular “Bonus uydu”dur. Yanlışta dev sarı halka sahnenin üstünden kamçı gibi geçer, sahne sarsılır.
+Halka Bekçisi gezegenlerin arasında, çevresindeki kesikli yörüngede dizilmiş 10 renkli uyduyla (açık renkli küre, koyu mor kontur, hafifçe süzülür) halkasını döndürüyor. Her doğru cevap bir uyduyu yörüngeden fırlatır: uydu parlar, yıldız tozu saçar, dönerek uzaya fırlayıp küçülür. 5. uyduda bekçi halkayı hızlandırıp sallanır ve sarı parlar (“Halka Bekçisi halkayı hızlandırdı!”). 10. uyduda bekçi yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta dev sarı halka sahnenin üstünden kamçı gibi geçer, sahne sarsılır.
 
 ## Giriş / çıkış
 - **Giriş:** Yıldızlar parlar, Halka Bekçisi gezegenlerin arasında alttan yükselir, “HALKA BEKÇİSİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş bekçi (el sallar, başında yıldızlar), konfeti ve “Halka Bekçisi yenildi!”; kaybedilirse bekçi halkasıyla uzaklaşır. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş bekçi (el sallar, başında yıldızlar), konfeti ve “Halka Bekçisi yenildi!”; kaybedilirse bekçi halkasıyla uzaklaşır. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

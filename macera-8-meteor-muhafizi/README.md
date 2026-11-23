@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Meteor Muhafızı dünyanın kavisli ufkunun üstünde, çevresinde yay biçiminde dizilmiş 10 meteorla (kahverengi kaya, beyaz kontur, turuncu kuyruk; hafifçe süzülür) nöbet tutuyor. Her doğru cevap bir meteoru savurur: meteor parlar, kıvılcımlar saçılır, kayan yıldız gibi yukarı fırlayıp söner. 5. meteorda muhafız kalkan ellerini kaldırır ve turuncu parlar (“Muhafız kalkanlarını kaldırdı!”). 10. meteorda muhafız yenilir; kalan sorular “Bonus meteor”dur. Yanlışta ekrana meteor yağmuru iner ve sahne sarsılır.
+Meteor Muhafızı dünyanın kavisli ufkunun üstünde, çevresinde yay biçiminde dizilmiş 10 meteorla (kahverengi kaya, beyaz kontur, turuncu kuyruk; hafifçe süzülür) nöbet tutuyor. Her doğru cevap bir meteoru savurur: meteor parlar, kıvılcımlar saçılır, kayan yıldız gibi yukarı fırlayıp söner. 5. meteorda muhafız kalkan ellerini kaldırır ve turuncu parlar (“Muhafız kalkanlarını kaldırdı!”). 10. meteorda muhafız yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta ekrana meteor yağmuru iner ve sahne sarsılır.
 
 ## Giriş / çıkış
 - **Giriş:** Yıldızlar parlar, Meteor Muhafızı atmosferin sınırında alttan yükselir, “METEOR MUHAFIZI” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş muhafız (el sallar, başında yıldızlar), konfeti ve “Meteor Muhafızı yenildi!”; kaybedilirse muhafız uzaya süzülür. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş muhafız (el sallar, başında yıldızlar), konfeti ve “Meteor Muhafızı yenildi!”; kaybedilirse muhafız uzaya süzülür. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

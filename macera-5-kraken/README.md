@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Kraken, öğrencinin küçük teknesine 10 dev dalga gönderiyor; dalgalar canavarın çevresinde kabarır. Her doğru cevap bir dalgayı geri çevirir: dalga parlar, köpüğe dönüşüp denize çöker ve tekne biraz yükselir. 5. dalgada Kraken öfkelenir, kalan dalgalar büyüyüp kabarır. 10. dalgada Kraken yenilir; kalan sorular “Bonus dalga”dır. Yanlışta dev bir dalga ekranı alttan yalayıp geçer, tekne sallanır; doğru cevap ve açıklama gösterilir. Üst sayaçta geri çevrilen dalga sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Kraken, öğrencinin küçük teknesine 10 dev dalga gönderiyor; dalgalar canavarın çevresinde kabarır. Her doğru cevap bir dalgayı geri çevirir: dalga parlar, köpüğe dönüşüp denize çöker ve tekne biraz yükselir. 5. dalgada Kraken öfkelenir, kalan dalgalar büyüyüp kabarır. 10. dalgada Kraken yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta dev bir dalga ekranı alttan yalayıp geçer, tekne sallanır; doğru cevap ve açıklama gösterilir. Üst sayaçta geri çevrilen dalga sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, Kraken denizden alttan yükselir, “KRAKEN” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa sersemlemiş Kraken, konfeti ve “Kraken yenildi!”; kaybedilirse Kraken yukarı doğru süzülüp kaybolur. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa sersemlemiş Kraken, konfeti ve “Kraken yenildi!”; kaybedilirse Kraken yukarı doğru süzülüp kaybolur. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

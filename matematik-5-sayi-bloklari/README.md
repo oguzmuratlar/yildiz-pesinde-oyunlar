@@ -20,6 +20,7 @@ Kuyunun üstünde 3 renkli kapı (doğru/yanlışta 2 kapı) vardır; her kapıd
 - **Bırak:** “Bırak” düğmesi, aşağı kaydırma veya seçili kapıya ikinci dokunuş bloğu düşürür.
 - **Sonuç:** Doğru blok renkli olarak yerine oturur; yanlış blok gri ve çatlak olur, doğru kapı yeşil çerçeveyle gösterilir. Altta açıklama çıkar.
 - **Satır patlatma:** Tamamen dolan satırlar parlayıp silinir, bonus puan verir. Yığın yukarı yaklaşırsa zemin bir satır aşağı kayar; oyun hiçbir zaman bitmez, 10 blok tamamlanır.
+- **Blok şekli** rastgele değildir: doğru kapıya bırakıldığında en alttaki satırı en iyi dolduran, boşluk bırakmayan şekil seçilir; aynı şekil art arda gelmez (kare, L, S, T, üçlü ve ikili bloklar; 3 sütunlu kapılarda yatay şekiller de gelir).
 - **Sıradaki blok** küçük önizlemede gösterilir. Puan, satır ve seri yalnız oyun içi motivasyondur.
 
 ## Soru havuzu

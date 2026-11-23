@@ -623,7 +623,7 @@ function finish(q,res){state='review';const ok=!!res.ok;const rec={questionId:q.
  $('nO').textContent=okCount;$('nX').textContent=answers.length-okCount;drawTrack();$('go').classList.add('hidden');const fb=$('fb');fb.className=ok?'':'bad';fb.classList.remove('hidden');
  $('fbT').textContent=ok?pick(['Güneş tam tepede! ☀️','Gölgeler senden yana! 🕰️','Saat tıkır tıkır! ☀️','Gölge tam yerinde! 🕰️']):pick(['Bulut geçti ☁️','Gölge şaştı ☁️','Saat bir an durdu ☁️']);
  const ca=$('fbC');if(ok)ca.classList.add('hidden');else{ca.classList.remove('hidden');ca.textContent='Doğrusu: '+q.correctAnswer;}$('fbE').textContent=q.explanation;
- $('next').textContent=pos===TOTAL-1?'GÜN BATIMI 🌇':'SONRAKİ SAAT ▶';reviewAt=performance.now();$('app').classList.add('rev');$('next').focus({preventScroll:true});panelOffer(ok);}
+ $('next').textContent=pos===TOTAL-1?'GÜN BATIMI 🌇':'SONRAKİ SAAT ▶';reviewAt=performance.now();$('app').classList.add('rev');$('next').focus({preventScroll:true});}
 $('next').onclick=()=>{if(state!=='review'||performance.now()-reviewAt<350)return;sfx('tap');if(pos===TOTAL-1){finale();return;}pos++;sfx('whoosh');showQuestion();};
 /* ---------- Giriş ---------- */
 function attract(){const G=$('gate');G.className='overlay';void G.offsetWidth;}

@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Taş Dev, dağ yamacında 10 taş zırh plakasıyla korunuyor; plakalar devin çevresinde dizilidir. Her doğru cevap bir plakayı çatlatır: plaka kırılıp aşağı düşer, çakıl taşlarına ayrılır. 5. plakada dev yere vurur, ekran sarsılır (“Taş Dev yere vurdu!”). 10. plakada zırh tamamen düşer ve dev yenilir; kalan sorular “Bonus taş”tır. Yanlışta yukarıdan kayalar yuvarlanır ve gümbürtü duyulur; doğru cevap ve açıklama gösterilir. Üst sayaçta kırılan plaka sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Taş Dev, dağ yamacında 10 taş zırh plakasıyla korunuyor; plakalar devin çevresinde dizilidir. Her doğru cevap bir plakayı çatlatır: plaka kırılıp aşağı düşer, çakıl taşlarına ayrılır. 5. plakada dev yere vurur, ekran sarsılır (“Taş Dev yere vurdu!”). 10. plakada zırh tamamen düşer ve dev yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta yukarıdan kayalar yuvarlanır ve gümbürtü duyulur; doğru cevap ve açıklama gösterilir. Üst sayaçta kırılan plaka sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, Taş Dev dağ yamacının önünde alttan çıkar, “TAŞ DEV” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş dev, konfeti ve “Taş Dev yenildi!”; kaybedilirse dev yukarı süzülüp dağa çekilir. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş dev, konfeti ve “Taş Dev yenildi!”; kaybedilirse dev yukarı süzülüp dağa çekilir. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

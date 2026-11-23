@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Hindistan Cevizi Yengeci adanın 10 hindistan cevizini kıskaçlarında tutuyor; cevizler yengecin çevresinde dizilidir. Her doğru cevap bir cevizi düşürür: ceviz parlar, yere düşüp seker ve yuvarlanarak gider. 5. cevizde yengeç öfkelenir ve kızıl parlar. 10. cevizde yengeç yenilir; kalan sorular “Bonus ceviz”dir. Yanlışta yengeç ekrana ceviz fırlatır, “bonk” sesiyle ceviz sütü sıçrar; doğru cevap ve açıklama gösterilir. Üst sayaçta düşen ceviz sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Hindistan Cevizi Yengeci adanın 10 hindistan cevizini kıskaçlarında tutuyor; cevizler yengecin çevresinde dizilidir. Her doğru cevap bir cevizi düşürür: ceviz parlar, yere düşüp seker ve yuvarlanarak gider. 5. cevizde yengeç öfkelenir ve kızıl parlar. 10. cevizde yengeç yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta yengeç ekrana ceviz fırlatır, “bonk” sesiyle ceviz sütü sıçrar; doğru cevap ve açıklama gösterilir. Üst sayaçta düşen ceviz sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, yengeç tropik kumsalda alttan çıkar, “HİNDİSTAN CEVİZİ YENGECİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa sersemlemiş yengeç, konfeti ve “Hindistan Cevizi Yengeci yenildi!”; kaybedilirse yengeç yukarı süzülerek kaçar. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa sersemlemiş yengeç, konfeti ve “Hindistan Cevizi Yengeci yenildi!”; kaybedilirse yengeç yukarı süzülerek kaçar. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

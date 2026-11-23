@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Buz Ejderi kutup ışıkları altında, çevresinde 10 buz kristaliyle (mavi kristal, lacivert kontur, beyaz parıltı) bekliyor. Her doğru cevap bir kristali kırar: kristal parlar, buz parçalarına ayrılıp dağılır. 5. kristalde ejder buz nefesi üfler, ekranın kenarları buz tutar (“Buz Ejderi nefes üfledi!”). 10. kristalde ejder yenilir; kalan sorular “Bonus kristal”dir. Yanlışta ekran buz tutar ve çatlar; doğru cevap ve açıklama gösterilir. Üst sayaçta kırılan kristal sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur. Matematikte π = 3 alınır.
+Buz Ejderi kutup ışıkları altında, çevresinde 10 buz kristaliyle (mavi kristal, lacivert kontur, beyaz parıltı) bekliyor. Her doğru cevap bir kristali kırar: kristal parlar, buz parçalarına ayrılıp dağılır. 5. kristalde ejder buz nefesi üfler, ekranın kenarları buz tutar (“Buz Ejderi nefes üfledi!”). 10. kristalde ejder yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta ekran buz tutar ve çatlar; doğru cevap ve açıklama gösterilir. Üst sayaçta kırılan kristal sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur. Matematikte π = 3 alınır.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, Buz Ejderi kutup ışıklarının altında alttan çıkar, “BUZ EJDERİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş ejder, konfeti ve “Buz Ejderi yenildi!”; kaybedilirse ejder yukarı süzülüp kutup ışıklarına uçar. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş ejder, konfeti ve “Buz Ejderi yenildi!”; kaybedilirse ejder yukarı süzülüp kutup ışıklarına uçar. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

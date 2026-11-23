@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Kunduz Kral nehri 10 kütüklük bir barajla kesmiş; kütükler canavarın önünde 4-3-2-1 piramit biçiminde üst üste durur. Her doğru cevap en üstten başlayarak bir kütüğü çeker: kütük parlayıp savrulur, aradaki boşluktan su fışkırır ve nehir yükselir. 6. kütükte baraj sızdırmaya başlar. 10. kütükte baraj yıkılır ve Kunduz Kral yenilir; kalan sorular “Bonus kütük”tür. Yanlışta kunduz kuyruğunu suya vurur: sahne sarsılır, ekrana su sıçrar; doğru cevap ve açıklama gösterilir. Üst sayaçta çekilen kütük sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Kunduz Kral nehri 10 kütüklük bir barajla kesmiş; kütükler canavarın önünde 4-3-2-1 piramit biçiminde üst üste durur. Her doğru cevap en üstten başlayarak bir kütüğü çeker: kütük parlayıp savrulur, aradaki boşluktan su fışkırır ve nehir yükselir. 6. kütükte baraj sızdırmaya başlar. 10. kütükte baraj yıkılır ve Kunduz Kral yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta kunduz kuyruğunu suya vurur: sahne sarsılır, ekrana su sıçrar; doğru cevap ve açıklama gösterilir. Üst sayaçta çekilen kütük sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, Kunduz Kral nehir vadisinde alttan çıkar, “KUNDUZ KRAL” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş kunduz, konfeti ve “Kunduz Kral yenildi!”; kaybedilirse kunduz yukarı süzülüp kaçar. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş kunduz, konfeti ve “Kunduz Kral yenildi!”; kaybedilirse kunduz yukarı süzülüp kaçar. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

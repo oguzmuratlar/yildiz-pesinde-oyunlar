@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Şimşek Kuşu bulutların üstünde, çevresinde 10 yüklü fırtına bulutuyla bekliyor (koyu mor bulut, beyaz kontur, sarı şimşek). Her doğru cevap bir bulutu boşaltır: bulut parlar, aşağı bir şimşek çakar ve bulut dağılır. 5. bulutta kuş yüklenip parlar, ekranda şimşek çakar (“Şimşek Kuşu çaktı!”). 10. bulutta kuş yenilir; kalan sorular “Bonus bulut”tur. Yanlışta ekranda şimşek çakar ve gök gürler; doğru cevap ve açıklama gösterilir. Üst sayaçta boşalan bulut sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Şimşek Kuşu bulutların üstünde, çevresinde 10 yüklü fırtına bulutuyla bekliyor (koyu mor bulut, beyaz kontur, sarı şimşek). Her doğru cevap bir bulutu boşaltır: bulut parlar, aşağı bir şimşek çakar ve bulut dağılır. 5. bulutta kuş yüklenip parlar, ekranda şimşek çakar (“Şimşek Kuşu çaktı!”). 10. bulutta kuş yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta ekranda şimşek çakar ve gök gürler; doğru cevap ve açıklama gösterilir. Üst sayaçta boşalan bulut sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, Şimşek Kuşu bulutların arasından alttan çıkar, “ŞİMŞEK KUŞU” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş kuş, konfeti ve “Şimşek Kuşu yenildi!”; kaybedilirse kuş yukarı süzülüp bulutlara kaçar. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş kuş, konfeti ve “Şimşek Kuşu yenildi!”; kaybedilirse kuş yukarı süzülüp bulutlara kaçar. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

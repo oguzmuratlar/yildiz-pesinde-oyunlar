@@ -243,7 +243,7 @@ function buildDeck(){const rec=new Set(recent()),plan=deckPlan();
 /* ---------- Sahne ---------- */
 function setupScene(){const rig=$('rig');rig.querySelectorAll('.mx').forEach(e=>e.remove());$('boss').src=BOSS.img.idle;$('boss').className='';MECH.setup(rig);meter();}
 function meter(){$('mArms').textContent=defeated?'🏆 '+BOSS.defeatShort:MECH.label(okCount);
- const left=Math.max(0,(TOTAL-WIN)-badCount);$('mLife').textContent=defeated?'⭐ Bonus':badCount>TOTAL-WIN?'💫 Yıldız için devam':`🛡️ Hata hakkı ${left}`;}
+ const left=Math.max(0,(TOTAL-WIN)-badCount);$('mLife').textContent=defeated?'🏁 Tur tamam':badCount>TOTAL-WIN?'💫 Yıldız için devam':`🛡️ Hata hakkı ${left}`;}
 function banner(t){const b=$('banner');b.textContent=t;b.classList.remove('on');void b.offsetWidth;b.classList.add('on');}
 function hitBoss(){okCount++;if(!defeated)MECH.hit(okCount);
  const b=$('boss');b.classList.remove('hit','laugh');void b.offsetWidth;b.classList.add('hit');
@@ -379,17 +379,17 @@ function check(){if(checked||state!=='playing')return;const r=cur.r.check();chec
  if(r.ok){sfx('ok');hitBoss();fly(defeated&&okCount>WIN?'+ Bonus':'+1 💥',$('next'));fb.innerHTML=`<h3>✓ ${esc(pickMsg(BOSS.okMsgs))}</h3>${okCount>WIN?esc(BOSS.bonusMsg||'Bonus puan!'):''}`;}
  else{sfx('bad');missBoss();fb.innerHTML=`<h3>✗ ${esc(pickMsg(BOSS.badMsgs))}</h3><div><b>Doğru cevap:</b> ${rich(q.correctAnswer)}</div><div style="margin-top:4px">${rich(q.explanation)}</div>`;}
  $('live').textContent=r.ok?'Doğru':'Yanlış. Doğru cevap: '+plain(q.correctAnswer);
- $('next').classList.remove('hidden');$('next').textContent=pos===TOTAL-1?'Sonucu Gör 🏁':'Devam ▶';$('next').focus({preventScroll:true});}
+ $('next').classList.remove('hidden');$('next').textContent=(pos===TOTAL-1||defeated)?'Sonucu Gör 🏁':'Devam ▶';$('next').focus({preventScroll:true});}
 function pickMsg(a){return a[Math.floor(rnd()*a.length)];}
 $('go').onclick=()=>{unlockAudio();check();};
-$('next').onclick=()=>{if(state!=='playing'||!checked)return;sfx('tap');pos++;if(pos>=TOTAL)finish();else show();};
+$('next').onclick=()=>{if(state!=='playing'||!checked)return;sfx('tap');pos++;if(pos>=TOTAL||defeated)finish();else show();};
 function finish(){state='ending';tick();const n=answers.filter(a=>a.isCorrect).length,R2=reduced();
  if(n<WIN){const b=$('boss');b.classList.remove('hit','laugh');b.classList.add('gone');sfx('splat');}
  setTimeout(()=>complete(),R2?0:(n<WIN?1500:900));}
-function complete(){if(sent||result||answers.length!==TOTAL)return;state='completed';const n=answers.filter(a=>a.isCorrect).length,st=stars(n),win=n>=WIN;
- result={bridgeVersion:'1.0',type:'game.completed',messageId:uid('result'),runId:ctx.runId,nonce:ctx.nonce,payload:{gameId:ctx.gameId,gameVersion:ctx.gameVersion,grade:ctx.grade,gameName:GAME_NAME,subjectId:ctx.subjectId||'mixed',subjectName:ctx.subjectName||'Karışık',stars:st,correctCount:n,wrongCount:TOTAL-n,totalQuestions:TOTAL,durationMs:Math.max(0,Math.round(activeMs)),answers:structuredClone(answers)}};
+function complete(){if(sent||result||(answers.length!==TOTAL&&!defeated))return;state='completed';const n=answers.filter(a=>a.isCorrect).length,st=stars(n),win=n>=WIN;
+ result={bridgeVersion:'1.0',type:'game.completed',messageId:uid('result'),runId:ctx.runId,nonce:ctx.nonce,payload:{gameId:ctx.gameId,gameVersion:ctx.gameVersion,grade:ctx.grade,gameName:GAME_NAME,subjectId:ctx.subjectId||'mixed',subjectName:ctx.subjectName||'Karışık',stars:st,correctCount:n,wrongCount:answers.length-n,totalQuestions:TOTAL,durationMs:Math.max(0,Math.round(activeMs)),answers:structuredClone(answers)}};
  const title=win?(n===TOTAL?BOSS.endPerfect:BOSS.endWin):n>=8?BOSS.endClose:BOSS.endLose;
- const body=`<div class="ct">${esc(BOSS.arena.toLocaleUpperCase('tr-TR'))}</div><img class="endimg" src="${win?BOSS.img.def:BOSS.img.idle}" alt="" style="${win?'':'opacity:.85;filter:saturate(.7)'}"><h2 id="sheetTitle">${esc(title)}</h2><div class="stars3" aria-label="${st} yıldız">${[0,1,2].map(i=>`<span class="${i<st?'':'off'}" style="animation-delay:${.2+i*.2}s">★</span>`).join('')}</div><div class="pearls" aria-hidden="true">${answers.map(a=>`<i class="${a.isCorrect?'':'x'}"></i>`).join('')}</div><div class="stats"><div><b>${n}/${TOTAL}</b><span>doğru</span></div><div><b>${Math.round(activeMs/1000)} sn</b><span>süre</span></div></div><p class="fine">${win?esc(BOSS.winNote):`Canavarı yenmek için ${WIN} doğru gerekiyor.`}</p>`;
+ const body=`<div class="ct">${esc(BOSS.arena.toLocaleUpperCase('tr-TR'))}</div><img class="endimg" src="${win?BOSS.img.def:BOSS.img.idle}" alt="" style="${win?'':'opacity:.85;filter:saturate(.7)'}"><h2 id="sheetTitle">${esc(title)}</h2><div class="stars3" aria-label="${st} yıldız">${[0,1,2].map(i=>`<span class="${i<st?'':'off'}" style="animation-delay:${.2+i*.2}s">★</span>`).join('')}</div><div class="pearls" aria-hidden="true">${answers.map(a=>`<i class="${a.isCorrect?'':'x'}"></i>`).join('')}</div><div class="stats"><div><b>${n}/${answers.length}</b><span>doğru</span></div><div><b>${Math.round(activeMs/1000)} sn</b><span>süre</span></div></div><p class="fine">${win?esc(BOSS.winNote):`Canavarı yenmek için ${WIN} doğru gerekiyor.`}</p>`;
  if(nativeMode){openSheet(body+`<p id="saveStatus" class="status" role="status">Sonucun uygulamaya iletiliyor…</p>`);if(!sent)sent=send(result);if(!sent)$('saveStatus').textContent='Sonuç uygulamaya iletilemedi. Uygulamadan oyunu yeniden açmayı dene.';}
  else{sent=true;openSheet(body+`<p id="saveStatus" class="fine">Deneme modu: Sonuç uygulamaya kaydedilmedi.</p><button class="primary" id="retry">YENİDEN SAVAŞ ⚔️</button>`);$('retry').onclick=()=>{unlockAudio();closeSheet();if(demoInit())start();};}
  if(win){sfx('win');confetti(reduced()?0:60);}}

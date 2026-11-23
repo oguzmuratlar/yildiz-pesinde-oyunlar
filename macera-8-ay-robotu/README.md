@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Ay Robotu ay yüzeyinde, önünde yay biçiminde dizilmiş 10 güç hücresiyle (lacivert pil, beyaz kontur, yeşil şarj çubukları, sarı şimşek) bekliyor. Her doğru cevap bir hücreyi söker: şarj çubukları sırayla kırmızıya dönüp söner, kıvılcımlar saçılır, hücre dönerek düşer. 5. hücrede robot yedek güce geçer, görüntüsü renk kayarak titrer (“Ay Robotu yedek güce geçti!”). 10. hücrede robot yenilir; kalan sorular “Bonus hücre”dir. Yanlışta sahneyi mavi bir tarama ışını boydan boya tarar, ekran parazitlenir.
+Ay Robotu ay yüzeyinde, önünde yay biçiminde dizilmiş 10 güç hücresiyle (lacivert pil, beyaz kontur, yeşil şarj çubukları, sarı şimşek) bekliyor. Her doğru cevap bir hücreyi söker: şarj çubukları sırayla kırmızıya dönüp söner, kıvılcımlar saçılır, hücre dönerek düşer. 5. hücrede robot yedek güce geçer, görüntüsü renk kayarak titrer (“Ay Robotu yedek güce geçti!”). 10. hücrede robot yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta sahneyi mavi bir tarama ışını boydan boya tarar, ekran parazitlenir.
 
 ## Giriş / çıkış
 - **Giriş:** Yıldızlar parlar, Ay Robotu ay yüzeyinde alttan yükselir, “AY ROBOTU” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş robot (gülen ekran yüz, başında yıldızlar), konfeti ve “Ay Robotu yenildi!”; kaybedilirse robot üsse geri döner. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş robot (gülen ekran yüz, başında yıldızlar), konfeti ve “Ay Robotu yenildi!”; kaybedilirse robot üsse geri döner. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

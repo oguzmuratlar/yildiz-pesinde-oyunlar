@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Paslı Çapa Golemi batık gemiyi 10 halkalı paslı bir zincirle bekliyor. Her doğru cevap bir halkayı koparır: halka parlar, kıvılcım saçar ve dibe düşer. 5. halkada golem öfkelenir ve kızıl bir ışıkla parlar. 10. halka koptuğunda golem yenilir; kalan sorular “Bonus halka”dır. Yanlışta golem çapasını sallar: sahne sarsılır, ekrana pas yağar, doğru cevap ve açıklama gösterilir. Üst sayaçta kopan halka sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Paslı Çapa Golemi batık gemiyi 10 halkalı paslı bir zincirle bekliyor. Her doğru cevap bir halkayı koparır: halka parlar, kıvılcım saçar ve dibe düşer. 5. halkada golem öfkelenir ve kızıl bir ışıkla parlar. 10. halka koptuğunda golem yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta golem çapasını sallar: sahne sarsılır, ekrana pas yağar, doğru cevap ve açıklama gösterilir. Üst sayaçta kopan halka sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, golem batık geminin önünde su patlamasıyla alttan çıkar, “PASLI ÇAPA GOLEMİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa sersemlemiş golem, konfeti ve “Paslı Çapa Golemi yenildi!”; kaybedilirse golem suyun içinde yukarı süzülerek uzaklaşır. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa sersemlemiş golem, konfeti ve “Paslı Çapa Golemi yenildi!”; kaybedilirse golem suyun içinde yukarı süzülerek uzaklaşır. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Kum Fırtınası Akrebi çölde 10 kum girdabı döndürüyor; girdaplar akrebin çevresinde hızla döner. Her doğru cevap bir girdabı dindirir: girdap yavaşlayıp kum yığınına dönüşür. 5. girdapta akrep kuyruğunu kaldırıp parlar. 10. girdapta fırtına diner ve akrep yenilir; kalan sorular “Bonus girdap”tır. Yanlışta ekranı kum fırtınası süpürür; doğru cevap ve açıklama gösterilir. Üst sayaçta dinen girdap sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Kum Fırtınası Akrebi çölde 10 kum girdabı döndürüyor; girdaplar akrebin çevresinde hızla döner. Her doğru cevap bir girdabı dindirir: girdap yavaşlayıp kum yığınına dönüşür. 5. girdapta akrep kuyruğunu kaldırıp parlar. 10. girdapta fırtına diner ve akrep yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta ekranı kum fırtınası süpürür; doğru cevap ve açıklama gösterilir. Üst sayaçta dinen girdap sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, akrep çöl kervanının önünde alttan çıkar, “KUM FIRTINASI AKREBİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş akrep, konfeti ve “Kum Fırtınası Akrebi yenildi!”; kaybedilirse akrep yukarı süzülüp kaçar. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş akrep, konfeti ve “Kum Fırtınası Akrebi yenildi!”; kaybedilirse akrep yukarı süzülüp kaçar. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Kara Delik Yiyicisi yıldızların arasında, karnındaki galaksi girdabıyla çevresindeki 10 altın yıldızı (koyu konturlu, gülümseyen, parıldayan) yutmaya çalışıyor. Her doğru cevap bir yıldızı kurtarır: yıldız parlar, ışıltılar saçar, dönerek gökyüzüne yükselir; yiyici yutkunur. 5. yıldızda yiyici çekimini artırır, mor parlar ve sahne merkeze doğru esner (“Kara Delik çekimini artırdı!”). 10. yıldızda yiyici yenilir; kalan sorular “Bonus yıldız”dır. Yanlışta mor girdap sahnenin ortasında dönerek küçülür, sahne içe çekilir.
+Kara Delik Yiyicisi yıldızların arasında, karnındaki galaksi girdabıyla çevresindeki 10 altın yıldızı (koyu konturlu, gülümseyen, parıldayan) yutmaya çalışıyor. Her doğru cevap bir yıldızı kurtarır: yıldız parlar, ışıltılar saçar, dönerek gökyüzüne yükselir; yiyici yutkunur. 5. yıldızda yiyici çekimini artırır, mor parlar ve sahne merkeze doğru esner (“Kara Delik çekimini artırdı!”). 10. yıldızda yiyici yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta mor girdap sahnenin ortasında dönerek küçülür, sahne içe çekilir.
 
 ## Giriş / çıkış
 - **Giriş:** Yıldızlar parlar, Kara Delik Yiyicisi alttan yükselir, “KARA DELİK YİYİCİSİ” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yenilmiş yiyici, konfeti ve “Kara Delik Yiyicisi yenildi!” ile 8. sınıf macerasının tamamlandığı notu; kaybedilirse yiyici karanlığa süzülür. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yenilmiş yiyici, konfeti ve “Kara Delik Yiyicisi yenildi!” ile 8. sınıf macerasının tamamlandığı notu; kaybedilirse yiyici karanlığa süzülür. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

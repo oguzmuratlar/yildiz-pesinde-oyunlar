@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Dev Bukalemun yağmur ormanında renk değiştirerek saklanıyor; ekranda yarı saydam ve orman renklerine karışmış görünür. Çevresinde 10 renkli boya kavanozu vardır. Her doğru cevapta bir kavanozdaki boya bukalemuna fırlatılır, kavanoz boşalır ve bukalemun biraz daha görünür hâle gelir. 5. boyada bukalemun hızla renk değiştirir. 10. boyada bütün renkleriyle ortaya çıkar ve yakalanır; kalan sorular “Bonus boya”dır. Yanlışta bukalemun yapraklara karışıp bir an kaybolur, yapraklar ekranı süpürür; doğru cevap ve açıklama gösterilir. Üst sayaçta kullanılan boya kavanozu sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Dev Bukalemun yağmur ormanında renk değiştirerek saklanıyor; ekranda yarı saydam ve orman renklerine karışmış görünür. Çevresinde 10 renkli boya kavanozu vardır. Her doğru cevapta bir kavanozdaki boya bukalemuna fırlatılır, kavanoz boşalır ve bukalemun biraz daha görünür hâle gelir. 5. boyada bukalemun hızla renk değiştirir. 10. boyada bütün renkleriyle ortaya çıkar ve yakalanır. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta bukalemun yapraklara karışıp bir an kaybolur, yapraklar ekranı süpürür; doğru cevap ve açıklama gösterilir. Üst sayaçta kullanılan boya kavanozu sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, bukalemun orman zemininden alttan çıkar, “DEV BUKALEMUN” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa yakalanmış bukalemun, konfeti ve “Dev Bukalemun yakalandı!”; kaybedilirse bukalemun yukarı süzülüp kaybolur. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa yakalanmış bukalemun, konfeti ve “Dev Bukalemun yakalandı!”; kaybedilirse bukalemun yukarı süzülüp kaybolur. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |

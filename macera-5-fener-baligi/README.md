@@ -15,11 +15,11 @@
 | Katalog | “Macera oyunu” işaretli, ders “Karışık” |
 
 ## Mekanik
-Fener Balığı derin mağaranın 10 ışığını feneriyle esir tutuyor; ışıklar balığın çevresinde döner, mağara karanlıktır. Her doğru cevap bir ışığı serbest bırakır: ışık parlayıp yukarı süzülür, mağarada küçük bir plankton ışığına dönüşür; balığın feneri her vuruşta biraz söner ve mağara aydınlanır. 5. ışıkta fener titrer. 10. ışıkta fener tamamen söner ve balık yenilir; kalan sorular “Bonus ışık”tır. Yanlışta fener göz kamaştırıcı bir ışık patlaması yapar, doğru cevap ve açıklama gösterilir. Üst sayaçta sönen ışık sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
+Fener Balığı derin mağaranın 10 ışığını feneriyle esir tutuyor; ışıklar balığın çevresinde döner, mağara karanlıktır. Her doğru cevap bir ışığı serbest bırakır: ışık parlayıp yukarı süzülür, mağarada küçük bir plankton ışığına dönüşür; balığın feneri her vuruşta biraz söner ve mağara aydınlanır. 5. ışıkta fener titrer. 10. ışıkta fener tamamen söner ve balık yenilir. Canavar yenildiği anda oyun biter ve sonuç açılır; bonus soru yoktur (değerlendirme 12 soruluk ölçeğe göre: 10 doğru = 3★). 10 doğruya ulaşılamazsa 12 sorunun tamamı oynanır. Yanlışta fener göz kamaştırıcı bir ışık patlaması yapar, doğru cevap ve açıklama gösterilir. Üst sayaçta sönen ışık sayısı ve kalan hata hakkı (2) görünür. İpucu ve süre yoktur.
 
 ## Giriş / çıkış
 - **Giriş:** Kabarcıklar yükselir, fener balığı karanlık mağarada alttan çıkar, “FENER BALIĞI” başlığı vurulur. Ekranda yalnızca ad, görsel ve BAŞLA düğmesi bulunur. BAŞLA sonrası “SAVAŞ BAŞLASIN!” perdesi. Oyunun hiçbir yerinde ders, sınıf, ünite, konu ya da zorluk yazmaz (kural 17).
-- **Çıkış:** Kazanılırsa feneri sönmüş, sersemlemiş balık, konfeti ve “Fener Balığı yenildi!”; kaybedilirse balık karanlığa doğru yukarı süzülüp kaybolur. Sonuç kartında 12 cevaplık şerit, yıldızlar ve x/12.
+- **Çıkış:** Kazanılırsa feneri sönmüş, sersemlemiş balık, konfeti ve “Fener Balığı yenildi!”; kaybedilirse balık karanlığa doğru yukarı süzülüp kaybolur. Sonuç kartında cevaplanan soruların şeridi, yıldızlar ve x/12.
 
 ## Görev türleri
 | Tür | Mekanik | Adet |
