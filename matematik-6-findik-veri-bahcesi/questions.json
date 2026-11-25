@@ -2584,7 +2584,7 @@
   ],
   "correctAnswer": "10, 12, 14, 16, 18, 20 (dengeli dağılmış) → Aritmetik ortalama | 3, 3, 5, 5, 5, 7, 9 (5 sık tekrar ediyor) → Tepe değer | 1, 2, 3, 8, 25 (çok büyük bir uç değer var) → Ortanca",
   "explanation": "Dengeli dağılımda aritmetik ortalama, sık tekrar eden değerde tepe değer, uç değer varsa ortanca uygundur.",
-  "textPlain": "Her veri setini en iyi temsil eden ölçünün sepetine at! Sepetler: Aritmetik ortalama / Ortanca / Tepe değer"
+  "textPlain": "Her veri setini en iyi temsil eden ölçünün sepetine at! Sepetler: Aritmetik ortalama / Ortanca / Tepe değer. Karar kuralı: Çok büyük ya da çok küçük bir uç değer varsa → Ortanca. Bir değer çok tekrar ediyorsa ya da veriler sayı değilse (renk, isim) → Tepe değer. Değerler birbirine yakın ve dengeliyse → Aritmetik ortalama."
  },
  {
   "questionId": "mat6-t4-fa-v1-q085",
@@ -2620,7 +2620,7 @@
   ],
   "correctAnswer": "En sevilen renkler: mavi, kırmızı, mavi, yeşil, mavi → Tepe değer | Günlük sıcaklıklar: 20, 21, 22, 23, 24 → Aritmetik ortalama | Kitap sayıları: 3, 4, 5, 6, 70 → Ortanca",
   "explanation": "Kategorik veride yalnızca tepe değer kullanılabilir. Uç değer (70) olunca ortanca daha uygundur.",
-  "textPlain": "Hangi veri setini hangi ölçü en iyi temsil eder? Sepetler: Aritmetik ortalama / Ortanca / Tepe değer"
+  "textPlain": "Hangi veri setini hangi ölçü en iyi temsil eder? Sepetler: Aritmetik ortalama / Ortanca / Tepe değer. Karar kuralı: Çok büyük ya da çok küçük bir uç değer varsa → Ortanca. Bir değer çok tekrar ediyorsa ya da veriler sayı değilse (renk, isim) → Tepe değer. Değerler birbirine yakın ve dengeliyse → Aritmetik ortalama."
  },
  {
   "questionId": "mat6-t4-fa-v1-q086",
@@ -2853,7 +2853,7 @@
   "group": "yorum",
   "rank": 2,
   "questionType": "sort_fling",
-  "text": "Veri setlerini uygun ölçünün sepetine at.",
+  "text": "Her veri setini, onu en iyi temsil eden ölçünün sepetine at.",
   "targets": [
    "Aritmetik ortalama",
    "Ortanca",
@@ -2873,13 +2873,13 @@
     "target": 0
    },
    {
-    "text": "Kitap sayıları: 10, 7, 6, 5, 4, 3, 8, 12, 9, 70, 3",
+    "text": "Kitap sayıları: 10, 7, 6, 5, 4, 3, 8, 12, 9, 70, 11",
     "target": 1
    }
   ],
-  "correctAnswer": "Çalışanların aylık kazancı (bin TL): 20, 22, 21, 23, 150 → Ortanca | Ayakkabı numaraları: 36, 37, 37, 37, 38, 37 → Tepe değer | Haftalık koşu (km): 5, 6, 7, 8, 9 → Aritmetik ortalama | Kitap sayıları: 10, 7, 6, 5, 4, 3, 8, 12, 9, 70, 3 → Ortanca",
+  "correctAnswer": "Çalışanların aylık kazancı (bin TL): 20, 22, 21, 23, 150 → Ortanca | Ayakkabı numaraları: 36, 37, 37, 37, 38, 37 → Tepe değer | Haftalık koşu (km): 5, 6, 7, 8, 9 → Aritmetik ortalama | Kitap sayıları: 10, 7, 6, 5, 4, 3, 8, 12, 9, 70, 11 → Ortanca",
   "explanation": "150 ve 70 uç değerdir: ortanca. 37 çok tekrar eder: tepe değer. 5–9 dengelidir: aritmetik ortalama.",
-  "textPlain": "Veri setlerini uygun ölçünün sepetine at. Sepetler: Aritmetik ortalama / Ortanca / Tepe değer"
+  "textPlain": "Her veri setini, onu en iyi temsil eden ölçünün sepetine at. Sepetler: Aritmetik ortalama / Ortanca / Tepe değer. Karar kuralı: Çok büyük ya da çok küçük bir uç değer varsa → Ortanca. Bir değer çok tekrar ediyorsa ya da veriler sayı değilse (renk, isim) → Tepe değer. Değerler birbirine yakın ve dengeliyse → Aritmetik ortalama."
  },
  {
   "questionId": "mat6-t4-fa-v1-q091",
@@ -3132,7 +3132,7 @@
     "target": 2
    },
    {
-    "text": "Bir haftalık sıcaklıklar: 18, 19, 20, 21, 22, 20, 20",
+    "text": "Bir haftalık sıcaklıklar: 17, 19, 20, 21, 22, 23, 18",
     "target": 0
    },
    {
@@ -3148,9 +3148,9 @@
     "target": 0
    }
   ],
-  "correctAnswer": "Okul servisinde en çok tercih edilen koltuk rengi → Tepe değer | Bir haftalık sıcaklıklar: 18, 19, 20, 21, 22, 20, 20 → Aritmetik ortalama | Ev fiyatları (bin TL): 900, 950, 1000, 1050, 9000 → Ortanca | Sınıfta en çok giyilen ayakkabı numarası → Tepe değer | Kitap sayıları: 6, 7, 9, 9, 10, 10, 12 → Aritmetik ortalama",
+  "correctAnswer": "Okul servisinde en çok tercih edilen koltuk rengi → Tepe değer | Bir haftalık sıcaklıklar: 17, 19, 20, 21, 22, 23, 18 → Aritmetik ortalama | Ev fiyatları (bin TL): 900, 950, 1000, 1050, 9000 → Ortanca | Sınıfta en çok giyilen ayakkabı numarası → Tepe değer | Kitap sayıları: 6, 7, 9, 9, 10, 10, 12 → Aritmetik ortalama",
   "explanation": "Kategorik ya da “en çok” sorulan veride tepe değer; dengeli veride ortalama; 9000 gibi uç değerde ortanca uygundur.",
-  "textPlain": "Zor tur! Her veri setini en uygun ölçüye gönder. Sepetler: Aritmetik ortalama / Ortanca / Tepe değer"
+  "textPlain": "Zor tur! Her veri setini en uygun ölçüye gönder. Sepetler: Aritmetik ortalama / Ortanca / Tepe değer. Karar kuralı: Çok büyük ya da çok küçük bir uç değer varsa → Ortanca. Bir değer çok tekrar ediyorsa ya da veriler sayı değilse (renk, isim) → Tepe değer. Değerler birbirine yakın ve dengeliyse → Aritmetik ortalama."
  },
  {
   "questionId": "mat6-t4-fa-v1-q097",
