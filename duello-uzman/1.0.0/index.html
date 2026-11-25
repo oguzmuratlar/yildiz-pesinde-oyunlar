@@ -211,13 +211,33 @@ function toast(t){banner(t,'','');}
 let audio=null,master=null,muted=false;
 function unlockAudio(){try{if(!audio){const C=window.AudioContext||window.webkitAudioContext;if(C){audio=new C();master=audio.createGain();master.gain.value=muted?0:.8;master.connect(audio.destination);}}if(audio?.state==='suspended')audio.resume().catch(()=>{});}catch(e){}}
 function tone(f,d,type='sine',v=.18,at=0,slide=0){if(!audio||muted)return;try{const t=audio.currentTime+at,o=audio.createOscillator(),g=audio.createGain();o.type=type;o.frequency.setValueAtTime(f,t);if(slide)o.frequency.exponentialRampToValueAtTime(Math.max(30,f+slide),t+d);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v,t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(g);g.connect(master);o.start(t);o.stop(t+d+.05);}catch(e){}}
-function sfx(k){({tick:()=>tone(1200,.035,'square',.05),tock:()=>tone(820,.035,'square',.05),pick:()=>tone(560,.07,'triangle',.12,0,120),
+function sfx(k){({tick:()=>tone(1500,.04,'sine',.07),tock:()=>tone(1000,.04,'sine',.07),pick:()=>tone(560,.07,'triangle',.12,0,120),
  ok:()=>{tone(523,.12,'triangle',.16);tone(784,.16,'triangle',.16,.09);tone(1046,.22,'sine',.12,.18);},
  bad:()=>{tone(240,.26,'sawtooth',.08,0,-90);},go:()=>{tone(392,.15,'square',.08);tone(784,.3,'square',.08,.15);},
  count:()=>tone(660,.12,'triangle',.14),win:()=>{[523,659,784,1046,1318].forEach((f,i)=>tone(f,.25,'triangle',.15,i*.12));},
  lose:()=>{[392,330,262].forEach((f,i)=>tone(f,.3,'triangle',.12,i*.18));},whoosh:()=>tone(300,.3,'sine',.08,0,500)}[k]||(()=>{}))();}
 $('mute').onclick=()=>{muted=!muted;unlockAudio();if(master)master.gain.value=muted?0:.8;$('mute').textContent=muted?'🔇':'🔊';$('mute').setAttribute('aria-label',muted?'Sesi aç':'Sesi kapat');};
 document.addEventListener('pointerdown',unlockAudio,{passive:true});
+/* ---------- arka plan müziği (özgün; kalp atışı + derin uğultu, süre azaldıkça hızlanır) ---------- */
+const MUS={on:false,g:null,pad:[],nb:null,next:0,n:0,iv:0};
+function musEnv(g,t,a,v,d){g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(v,.0002),t+a);g.gain.exponentialRampToValueAtTime(.0001,t+a+d);}
+function musThump(t,f0,f1,d,v){const o=audio.createOscillator(),g=audio.createGain();o.frequency.setValueAtTime(f0,t);o.frequency.exponentialRampToValueAtTime(f1,t+d*.8);musEnv(g,t,.004,v,d);o.connect(g);g.connect(MUS.g);o.start(t);o.stop(t+d+.05);}
+function musTone(t,f,d,v){const o=audio.createOscillator(),g=audio.createGain(),fl=audio.createBiquadFilter();o.type='sine';o.frequency.value=f;fl.type='lowpass';fl.frequency.setValueAtTime(1200,t);fl.frequency.exponentialRampToValueAtTime(300,t+d);musEnv(g,t,.006,v,d);o.connect(fl);fl.connect(g);g.connect(MUS.g);o.start(t);o.stop(t+d+.05);}
+function musNoise(t,v){const s=audio.createBufferSource(),fl=audio.createBiquadFilter(),g=audio.createGain();s.buffer=MUS.nb;fl.type='bandpass';fl.frequency.value=400;fl.Q.value=2;musEnv(g,t,.002,v,1.2);s.connect(fl);fl.connect(g);g.connect(MUS.g);s.start(t);s.stop(t+1.3);}
+function musBpm(){if(!curRound||answered)return 70;const left=Math.max(0,deadline-performance.now())/(curRound.total||1);return 70+26*(1-left);}
+function musBeat(t,beat){musThump(t,70,38,.25,.8);musThump(t,150,85,.1,.28);musThump(t+beat*.28,62,34,.3,.55);musThump(t+beat*.28,130,75,.1,.2);
+ if(MUS.n%8===7)musNoise(t,.12);if(MUS.n>=8&&MUS.n%4===0)musTone(t,[185,174.6,164.8,174.6][(MUS.n/4)%4],beat*3.5,.08);MUS.n++;}
+function musPump(){if(!MUS.on||!audio||document.hidden)return;try{
+ if(!MUS.g){MUS.g=audio.createGain();MUS.g.gain.setValueAtTime(.0001,audio.currentTime);MUS.g.gain.exponentialRampToValueAtTime(.42,audio.currentTime+2);MUS.g.connect(master);
+  if(!MUS.nb){MUS.nb=audio.createBuffer(1,audio.sampleRate*1.3,audio.sampleRate);const d=MUS.nb.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;}
+  const pf=audio.createBiquadFilter(),pg=audio.createGain();pf.type='lowpass';pf.frequency.value=300;pg.gain.value=.08;pf.connect(pg);pg.connect(MUS.g);
+  MUS.pad=[[61.7,-7],[92.5,7]].map(([f,dt])=>{const o=audio.createOscillator();o.type='sawtooth';o.frequency.value=f;o.detune.value=dt;o.connect(pf);o.start();return o;});MUS.next=audio.currentTime+.1;MUS.n=0;}
+ if(MUS.next<audio.currentTime)MUS.next=audio.currentTime+.05;
+ while(MUS.next<audio.currentTime+.25){const beat=60/musBpm();musBeat(MUS.next,beat);MUS.next+=beat;}}catch(e){}}
+function musStart(){if(MUS.on)return;MUS.on=true;clearInterval(MUS.iv);MUS.iv=setInterval(musPump,100);musPump();}
+function musStop(){if(!MUS.on)return;MUS.on=false;clearInterval(MUS.iv);if(MUS.g&&audio){const g=MUS.g,pad=MUS.pad,t=audio.currentTime;try{g.gain.cancelScheduledValues(t);g.gain.setValueAtTime(Math.max(g.gain.value,.0001),t);g.gain.linearRampToValueAtTime(0,t+1.2);}catch(e){}setTimeout(()=>{pad.forEach(o=>{try{o.stop();}catch(e){}});try{g.disconnect();}catch(e){}},1500);}MUS.g=null;MUS.pad=[];}
+document.addEventListener('visibilitychange',()=>{try{if(!audio)return;if(document.hidden)audio.suspend();else audio.resume();}catch(e){}});
+
 /* ---------- şekiller ---------- */
 function svg(w,h,inner,label){return `<svg class="fig" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(label||'Şekil')}">${inner}</svg>`;}
 function fig(f){if(!f)return '';const k=f.k;
@@ -307,7 +327,7 @@ $('lbCancel').onclick=()=>{out('duel.cancel',{});$('lbCancel').classList.add('hi
 function showGame(){$('lobby').classList.add('hidden');$('game').classList.remove('hidden');}
 /* ---------- tur ---------- */
 function syncScore(p){const s=p&&(p.score||p);if(!s)return;const m=s.me?.correct??s.myCorrect,o=s.opp?.correct??s.opponent?.correct??s.oppCorrect;if(Number.isFinite(m)&&Number.isFinite(o)&&(m!==myCorrect||o!==opCorrect)){myCorrect=m|0;opCorrect=o|0;updateBar(false);}}
-function onRound(p){showGame();clearInterval(lobbyT);syncScore(p);curRound=p;answered=false;locked=false;
+function onRound(p){showGame();musStart();clearInterval(lobbyT);syncScore(p);curRound=p;answered=false;locked=false;
  const q=pickQuestion(duel.seed,duel.side,p.roundNo,p.subjectId,p.difficulty);cur={q,start:performance.now()};usedIds.add(q.id);saveUsed();remember(q.id);
  ['avMe','avOp'].forEach(id=>$(id).querySelector('.badge').className='badge');$('oppNote').classList.remove('on');
  $('rno').textContent=p.isExtra?`Uzatma ${p.roundNo-12}`:`Tur ${p.roundNo}/12`;
@@ -317,7 +337,7 @@ function onRound(p){showGame();clearInterval(lobbyT);syncScore(p);curRound=p;ans
 function tick(){const left=Math.max(0,deadline-performance.now()),s=Math.ceil(left/1000),T=$('timer');
  $('tsec').textContent=s;T.querySelector('.tf').setAttribute('stroke-dashoffset',String(144.5*(1-left/curRound.total)));
  T.classList.toggle('warn',s<=10&&s>5);T.classList.toggle('crit',s<=5);
- if(s!==lastSec&&!answered&&s>0){lastSec=s;sfx(s%2?'tick':'tock');}
+ if(s!==lastSec&&!answered&&s>0){lastSec=s;if(s<=10)sfx(s%2?'tick':'tock');}
  if(left<=0){if(!answered){answered=true;lockInputs();feedback('wait','⏰ Süre doldu! Diğer oyuncu bekleniyor…');}return;}
  tickT=requestAnimationFrame(tick);}
 function render(q){const C=$('card');C.classList.remove('pop');void C.offsetWidth;C.classList.add('pop');C.scrollTop=0;
@@ -343,7 +363,7 @@ function onScore(p){if(!curRound||p.roundNo!==curRound.roundNo)return;cancelAnim
 function updateBar(anim){$('scMe').textContent=myCorrect;$('scOp').textContent=opCorrect;const diff=myCorrect-opCorrect,pos=Math.max(8,Math.min(92,50+diff*7));$('barMe').style.width=pos+'%';$('spark').style.left=pos+'%';if(anim&&!reduced()){const s=$('spark');s.classList.remove('pulse');void s.offsetWidth;s.classList.add('pulse');}}
 function onOpponent(p){if(p.status==='disconnected')banner('Rakibin bağlantısı koptu','Düello sürüyor',IMG.tie);else if(p.status==='reconnected')banner('Rakibin geri döndü!','',IMG.vs);}
 /* ---------- bitiş ---------- */
-function onEnd(p){if(ended)return;ended=true;cancelAnimationFrame(tickT);const res=p.result,mc=p.myCorrect??myCorrect,oc=p.oppCorrect??opCorrect;myCorrect=mc;opCorrect=oc;updateBar(false);
+function onEnd(p){if(ended)return;musStop();ended=true;cancelAnimationFrame(tickT);const res=p.result,mc=p.myCorrect??myCorrect,oc=p.oppCorrect??opCorrect;myCorrect=mc;opCorrect=oc;updateBar(false);
  const opn=duel.op.displayName||'Rakibin';let h='';
  if(res==='win'){h=`<img class="ref" src="${IMG.refCheer}" alt=""><img class="rozet" src="${IMG.winner}" alt=""><h1>Kazandın! 🎉</h1>`;}
  else if(res==='lose'){h=`<img class="ref" src="${IMG.ref}" alt=""><h1>Bu sefer ${esc(opn)} kazandı</h1><p>Harika mücadele! Rövanşta sıra sende.</p>`;}

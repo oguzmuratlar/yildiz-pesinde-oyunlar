@@ -17,7 +17,8 @@
 ## Akış
 - **Bekleme odası:** iki avatar çerçevede, karşılaşma amblemi, davet geri sayımı, “Vazgeç” (duel.cancel).
 - **3-2-1:** seviye hakemi ve büyük geri sayım; ardından 12 tur (sunucunun duel.round sırasıyla).
-- **Tur:** üstte iki avatar, ortada hakem ve skor; altında ortadan başlayan güç barı (fark kadar kayar); tik-tak sesli dairesel sayaç; ders etiketi ve soru kartı. Cevap verilince kart kilitlenir, duel.answer gider; rakip cevaplayınca “Rakip cevapladı” görünür; duel.score gelince doğru/yanlış rozetleri, doğru cevap ve açıklama gösterilir.
+- **Tur:** üstte iki avatar, ortada hakem ve skor; altında ortadan başlayan güç barı (fark kadar kayar); dairesel sayaç (son 10 saniyede yumuşak tik-tak); ders etiketi ve soru kartı. Cevap verilince kart kilitlenir, duel.answer gider; rakip cevaplayınca “Rakip cevapladı” görünür; duel.score gelince doğru/yanlış rozetleri, doğru cevap ve açıklama gösterilir.
+- **Arka plan müziği:** özgün, kod içinde üretilen (dosyasız, telifsiz) kalp atışı + derin uğultu döngüsü. İlk turla başlar, düello bitince yavaşça susar. Tempo her turda kalan süreye göre 70’ten ~96 vuruşa hızlanır. Ses düğmesiyle kapanır; uygulama arka plana geçince ses durur.
 - **Uzatma:** 13. turdan itibaren “Uzatma!” afişi; tur adı “Uzatma n”.
 - **Bitiş:** kazanınca kutlayan hakem, kazanan rozeti ve konfeti; kaybedince “Bu sefer … kazandı”; iki taraf koparsa “yarıda kaldı”. Rövanş (duel.rematch) ve Çık (duel.exit).
 - Rakip koparsa/döndüğünde bilgi afişi; geri dönüşte `state:"resume"` + `resume` ya da ayrı `duel.resume` ile kaldığı turdan devam eder.
